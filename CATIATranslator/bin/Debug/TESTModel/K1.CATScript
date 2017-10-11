@@ -1,0 +1,263 @@
+Language = "VBSCRIPT"
+Sub CATMain()
+
+Dim documents1 As Documents
+Set documents1 = CATIA.Documents
+
+Dim partDocument1 As Document
+Set partDocument1 = documents1.Add("Part")
+
+Dim part1 As Part
+Set part1 = partDocument1.Part
+
+Dim bodies1 As Bodies
+Set bodies1 = part1.Bodies
+
+Dim body1 As Body
+Set body1 = bodies1.Item("PartBody")
+
+Dim sketches1 As Sketches
+Set sketches1 = body1.Sketches
+
+Dim originElements1 As OriginElements
+Set originElements1 = part1.OriginElements 
+
+Dim shapeFactory1 As Factory
+Set shapeFactory1 = part1.ShapeFactory
+
+Dim reference1 As AnyObject
+Set reference1 = originElements1.PlaneXY
+
+Dim sketch1 As Sketch
+Set sketch1 = sketches1.Add(reference1)
+
+Dim arrayOfVariantOfDouble1(8)
+arrayOfVariantOfDouble1(0) = 0.000000
+arrayOfVariantOfDouble1(1) = 0.000000
+arrayOfVariantOfDouble1(2) = 0.000000
+arrayOfVariantOfDouble1(3) = 1.000000
+arrayOfVariantOfDouble1(4) = 0.000000
+arrayOfVariantOfDouble1(5) = 0.000000
+arrayOfVariantOfDouble1(6) = 0.000000
+arrayOfVariantOfDouble1(7) = 1.000000
+arrayOfVariantOfDouble1(8) = 0.000000
+sketch1.SetAbsoluteAxisData arrayOfVariantOfDouble1
+
+Dim factory2D1 As Factory2D
+Set factory2D1 = sketch1.OpenEdition()
+
+Dim geometricElements1 As GeometricElements
+Set geometricElements1 = sketch1.GeometricElements
+
+Dim axis2D1 As GeometricElement
+Set axis2D1 = geometricElements1.Item("AbsoluteAxis")
+
+Dim line2D1 As CATBaseDispatch
+Set line2D1 = axis2D1.GetItem("HDirection")
+
+line2D1.ReportName = 1
+
+Dim line2D2 As CATBaseDispatch
+Set line2D2 = axis2D1.GetItem("VDirection")
+
+line2D2.ReportName = 2
+
+Dim point2D1 As Point2D
+Set point2D1 = factory2D1.CreatePoint(0.000000, 0.000000)
+
+point2D1.ReportName = 3
+
+Dim point2D2 As Point2D
+Set point2D2 = factory2D1.CreatePoint(100.000000, 0.000000)
+
+point2D2.ReportName = 4
+
+Dim line2D3 As Line2D
+Set line2D3 = factory2D1.CreateLine(0.000000, 0.000000, 100.000000, 0.000000)
+
+line2D3.ReportName = 5
+
+line2D3.StartPoint = point2D1
+
+line2D3.EndPoint = point2D2
+
+Dim point2D3 As Point2D
+Set point2D3 = factory2D1.CreatePoint(100.000000, 0.000000)
+
+point2D3.ReportName = 6
+
+Dim point2D4 As Point2D
+Set point2D4 = factory2D1.CreatePoint(100.000000, 50.000000)
+
+point2D4.ReportName = 7
+
+Dim line2D4 As Line2D
+Set line2D4 = factory2D1.CreateLine(100.000000, 0.000000, 100.000000, 50.000000)
+
+line2D4.ReportName = 8
+
+line2D4.StartPoint = point2D3
+
+line2D4.EndPoint = point2D4
+
+Dim point2D5 As Point2D
+Set point2D5 = factory2D1.CreatePoint(100.000000, 50.000000)
+
+point2D5.ReportName = 9
+
+Dim point2D6 As Point2D
+Set point2D6 = factory2D1.CreatePoint(40.000000, 50.000000)
+
+point2D6.ReportName = 10
+
+Dim line2D5 As Line2D
+Set line2D5 = factory2D1.CreateLine(100.000000, 50.000000, 40.000000, 50.000000)
+
+line2D5.ReportName = 11
+
+line2D5.StartPoint = point2D5
+
+line2D5.EndPoint = point2D6
+
+Dim point2D7 As Point2D
+Set point2D7 = factory2D1.CreatePoint(40.000000, 50.000000)
+
+point2D7.ReportName = 12
+
+Dim point2D8 As Point2D
+Set point2D8 = factory2D1.CreatePoint(40.000000, 80.000000)
+
+point2D8.ReportName = 13
+
+Dim line2D6 As Line2D
+Set line2D6 = factory2D1.CreateLine(40.000000, 50.000000, 40.000000, 80.000000)
+
+line2D6.ReportName = 14
+
+line2D6.StartPoint = point2D7
+
+line2D6.EndPoint = point2D8
+
+Dim point2D9 As Point2D
+Set point2D9 = factory2D1.CreatePoint(40.000000, 80.000000)
+
+point2D9.ReportName = 15
+
+Dim point2D10 As Point2D
+Set point2D10 = factory2D1.CreatePoint(0.000000, 80.000000)
+
+point2D10.ReportName = 16
+
+Dim line2D7 As Line2D
+Set line2D7 = factory2D1.CreateLine(40.000000, 80.000000, 0.000000, 80.000000)
+
+line2D7.ReportName = 17
+
+line2D7.StartPoint = point2D9
+
+line2D7.EndPoint = point2D10
+
+Dim point2D11 As Point2D
+Set point2D11 = factory2D1.CreatePoint(0.000000, 80.000000)
+
+point2D11.ReportName = 18
+
+Dim point2D12 As Point2D
+Set point2D12 = factory2D1.CreatePoint(0.000000, 0.000000)
+
+point2D12.ReportName = 19
+
+Dim line2D8 As Line2D
+Set line2D8 = factory2D1.CreateLine(0.000000, 80.000000, 0.000000, 0.000000)
+
+line2D8.ReportName = 20
+
+line2D8.StartPoint = point2D11
+
+line2D8.EndPoint = point2D12
+
+sketch1.CloseEdition 
+
+part1.InWorkObject = body1
+
+part1.Update
+
+Dim pad1 As Pad
+Set pad1 = shapeFactory1.AddNewPad(sketch1, 80.000000)
+
+part1.Update
+
+Dim reference2 As Reference
+Set reference2 = part1.CreateReferenceFromName("Selection_RSur:(Face:(Brp:(Pad.1;0:(Brp:(Sketch.1;11)));None:();Cf11:());Pad.1_ResultOUT;Z0;G3563)")
+
+Dim sketch2 As Sketch
+Set sketch2 = sketches1.Add(reference2)
+
+Dim arrayOfVariantOfDouble2(8)
+arrayOfVariantOfDouble2(0) = 70.000000
+arrayOfVariantOfDouble2(1) = 50.000000
+arrayOfVariantOfDouble2(2) = 40.000000
+arrayOfVariantOfDouble2(3) = 1.000000
+arrayOfVariantOfDouble2(4) = 0.000000
+arrayOfVariantOfDouble2(5) = 0.000000
+arrayOfVariantOfDouble2(6) = 0.000000
+arrayOfVariantOfDouble2(7) = 0.000000
+arrayOfVariantOfDouble2(8) = -1.000000
+sketch2.SetAbsoluteAxisData arrayOfVariantOfDouble2
+
+Dim factory2D2 As Factory2D
+Set factory2D2 = sketch2.OpenEdition()
+
+Dim geometricElements2 As GeometricElements
+Set geometricElements2 = sketch2.GeometricElements
+
+Dim axis2D2 As GeometricElement
+Set axis2D2 = geometricElements2.Item("AbsoluteAxis")
+
+Dim line2D9 As CATBaseDispatch
+Set line2D9 = axis2D2.GetItem("HDirection")
+
+line2D9.ReportName = 1
+
+Dim line2D10 As CATBaseDispatch
+Set line2D10 = axis2D2.GetItem("VDirection")
+
+line2D10.ReportName = 2
+
+Dim point2D13 As Point2D
+Set point2D13 = factory2D2.CreatePoint(0.000000, 0.000000)
+
+point2D13.ReportName = 3
+
+Dim circle2D1 As Circle2D
+Set circle2D1 = factory2D2.CreateClosedCircle(0.000000, 0.000000, 15.000000)
+
+circle2D1.ReportName = 4
+
+sketch2.CloseEdition 
+
+part1.InWorkObject = body1
+
+part1.Update
+
+Dim pocket1 As Pocket
+Set pocket1 = shapeFactory1.AddNewPocket(sketch2, 30.000000)
+
+part1.Update
+
+Dim reference3 As Reference
+Set reference3 = part1.CreateReferenceFromName("")
+
+Dim constRadEdgeFillet1 As ConstRadEdgeFillet
+Set constRadEdgeFillet1 = shapeFactory1.AddNewEdgeFilletWithConstantRadius(reference3,catTangencyFilletEdgePropagation,5.000000)
+
+Dim reference4 As Reference
+Set reference4 = part1.CreateReferenceFromBRepName("REdge:(Edge:(Face:(Brp:(Pad.1;0:(Brp:(Sketch.1;11)));None:();Cf11:());Face:(Brp:(Pad.1;0:(Brp:(Sketch.1;14)));None:();Cf11:());None:(Limits1:();Limits2:());Cf11:());WithTemporaryBody;WithoutBuildError;WithSelectingFeatureSupport;MFBRepVersion_CXR14)", pad1)
+
+constRadEdgeFillet1.AddObjectToFillet reference4
+
+constRadEdgeFillet1.EdgePropagation = catTangencyFilletEdgePropagation
+
+part1.Update
+
+End Sub
