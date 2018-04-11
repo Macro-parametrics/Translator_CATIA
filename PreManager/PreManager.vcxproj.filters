@@ -1,0 +1,196 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="리소스 파일">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Source">
+      <UniqueIdentifier>{0da1b620-845f-464c-a86f-dcb5a4ef8fed}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ref">
+      <UniqueIdentifier>{aefafee0-b7ac-49b0-8b42-9b773571933a}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt" />
+    <Text Include="ref\ReadMe.txt">
+      <Filter>ref</Filter>
+    </Text>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="stdafx.h">
+      <Filter>ref</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>ref</Filter>
+    </ClInclude>
+    <ClInclude Include="ref\AttAngle.h">
+      <Filter>ref</Filter>
+    </ClInclude>
+    <ClInclude Include="ref\AttAngularRepartation.h">
+      <Filter>ref</Filter>
+    </ClInclude>
+    <ClInclude Include="ref\AttIntParam.h">
+      <Filter>ref</Filter>
+    </ClInclude>
+    <ClInclude Include="ref\AttLength.h">
+      <Filter>ref</Filter>
+    </ClInclude>
+    <ClInclude Include="ref\AttLimit.h">
+      <Filter>ref</Filter>
+    </ClInclude>
+    <ClInclude Include="ref\AttLinearRepartation.h">
+      <Filter>ref</Filter>
+    </ClInclude>
+    <ClInclude Include="ref\AttParameter.h">
+      <Filter>ref</Filter>
+    </ClInclude>
+    <ClInclude Include="ref\AttributeItem.h">
+      <Filter>ref</Filter>
+    </ClInclude>
+    <ClInclude Include="ref\CATIApre.h">
+      <Filter>ref</Filter>
+    </ClInclude>
+    <ClInclude Include="ref\CATIApre_DLL.h">
+      <Filter>ref</Filter>
+    </ClInclude>
+    <ClInclude Include="ref\Definition.h">
+      <Filter>ref</Filter>
+    </ClInclude>
+    <ClInclude Include="ref\FDatumPlaneOffset.h">
+      <Filter>ref</Filter>
+    </ClInclude>
+    <ClInclude Include="ref\Feature.h">
+      <Filter>ref</Filter>
+    </ClInclude>
+    <ClInclude Include="ref\FeatureSOLIDCreateChamfer.h">
+      <Filter>ref</Filter>
+    </ClInclude>
+    <ClInclude Include="ref\FeatureSOLIDCreateExtrude.h">
+      <Filter>ref</Filter>
+    </ClInclude>
+    <ClInclude Include="ref\FeatureSOLIDCreateFilletConstant.h">
+      <Filter>ref</Filter>
+    </ClInclude>
+    <ClInclude Include="ref\FeatureSOLIDCreateHole.h">
+      <Filter>ref</Filter>
+    </ClInclude>
+    <ClInclude Include="ref\FeatureSOLIDCreatePatternCircular.h">
+      <Filter>ref</Filter>
+    </ClInclude>
+    <ClInclude Include="ref\FeatureSOLIDCreatePatternRectangular.h">
+      <Filter>ref</Filter>
+    </ClInclude>
+    <ClInclude Include="ref\FeatureSOLIDCreateRevolve.h">
+      <Filter>ref</Filter>
+    </ClInclude>
+    <ClInclude Include="ref\FeatureSOLIDCreateSweep.h">
+      <Filter>ref</Filter>
+    </ClInclude>
+    <ClInclude Include="ref\FSketch.h">
+      <Filter>ref</Filter>
+    </ClInclude>
+    <ClInclude Include="ref\FSKETCHCreate2DCircleCenterPoint.h">
+      <Filter>ref</Filter>
+    </ClInclude>
+    <ClInclude Include="ref\FSKETCHCreate2DLine2Points.h">
+      <Filter>ref</Filter>
+    </ClInclude>
+    <ClInclude Include="ref\FSKETCHCreate2DPoint.h">
+      <Filter>ref</Filter>
+    </ClInclude>
+    <ClInclude Include="ref\FSKETCHItem.h">
+      <Filter>ref</Filter>
+    </ClInclude>
+    <ClInclude Include="ref\Part.h">
+      <Filter>ref</Filter>
+    </ClInclude>
+    <ClInclude Include="ref\ReferenceEntity.h">
+      <Filter>ref</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="ref\AttAngle.cpp">
+      <Filter>ref</Filter>
+    </ClCompile>
+    <ClCompile Include="ref\AttAngularRepartation.cpp">
+      <Filter>ref</Filter>
+    </ClCompile>
+    <ClCompile Include="ref\AttIntParam.cpp">
+      <Filter>ref</Filter>
+    </ClCompile>
+    <ClCompile Include="ref\AttLength.cpp">
+      <Filter>ref</Filter>
+    </ClCompile>
+    <ClCompile Include="ref\AttLimit.cpp">
+      <Filter>ref</Filter>
+    </ClCompile>
+    <ClCompile Include="ref\AttLinearRepartation.cpp">
+      <Filter>ref</Filter>
+    </ClCompile>
+    <ClCompile Include="ref\AttParameter.cpp">
+      <Filter>ref</Filter>
+    </ClCompile>
+    <ClCompile Include="ref\AttributeItem.cpp">
+      <Filter>ref</Filter>
+    </ClCompile>
+    <ClCompile Include="ref\CATIApre_DLL.cpp">
+      <Filter>ref</Filter>
+    </ClCompile>
+    <ClCompile Include="ref\FDatumPlaneOffset.cpp">
+      <Filter>ref</Filter>
+    </ClCompile>
+    <ClCompile Include="ref\Feature.cpp">
+      <Filter>ref</Filter>
+    </ClCompile>
+    <ClCompile Include="ref\FeatureSOLIDCreateChamfer.cpp">
+      <Filter>ref</Filter>
+    </ClCompile>
+    <ClCompile Include="ref\FeatureSOLIDCreateExtrude.cpp">
+      <Filter>ref</Filter>
+    </ClCompile>
+    <ClCompile Include="ref\FeatureSOLIDCreateFilletConstant.cpp">
+      <Filter>ref</Filter>
+    </ClCompile>
+    <ClCompile Include="ref\FeatureSOLIDCreateHole.cpp">
+      <Filter>ref</Filter>
+    </ClCompile>
+    <ClCompile Include="ref\FeatureSOLIDCreatePatternCircular.cpp">
+      <Filter>ref</Filter>
+    </ClCompile>
+    <ClCompile Include="ref\FeatureSOLIDCreatePatternRectangular.cpp">
+      <Filter>ref</Filter>
+    </ClCompile>
+    <ClCompile Include="ref\FeatureSOLIDCreateRevolve.cpp">
+      <Filter>ref</Filter>
+    </ClCompile>
+    <ClCompile Include="ref\FeatureSOLIDCreateSweep.cpp">
+      <Filter>ref</Filter>
+    </ClCompile>
+    <ClCompile Include="ref\FSketch.cpp">
+      <Filter>ref</Filter>
+    </ClCompile>
+    <ClCompile Include="ref\FSKETCHCreate2DCircleCenterPoint.cpp">
+      <Filter>ref</Filter>
+    </ClCompile>
+    <ClCompile Include="ref\FSKETCHCreate2DLine2Points.cpp">
+      <Filter>ref</Filter>
+    </ClCompile>
+    <ClCompile Include="ref\FSKETCHCreate2DPoint.cpp">
+      <Filter>ref</Filter>
+    </ClCompile>
+    <ClCompile Include="ref\FSKETCHItem.cpp">
+      <Filter>ref</Filter>
+    </ClCompile>
+    <ClCompile Include="ref\Part.cpp">
+      <Filter>ref</Filter>
+    </ClCompile>
+    <ClCompile Include="ref\ReferenceEntity.cpp">
+      <Filter>ref</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

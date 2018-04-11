@@ -66,48 +66,87 @@ namespace CATIATranslator
         // Pre-Processor Assembly
         private void button3_Click_1(object sender, EventArgs e)
         {
-            string filePath = CATPartOpenDialog();
 
-            if (filePath != "")
-            {
-                Assembly AssemblyManager = new Assembly();
 
-                //if (PartManager.InitializeCATIA(filePath, (int)0))
-                //{
-                //    PartManager.InitializeTransCAD((int)0);
+            //string filePath = CATPartOpenDialog();
 
-                //    PartManager.TranslateC2T();
 
-                //    PartManager.UninitializeCATIA();
-                //    PartManager.UninitializeTransCAD();
-                //}
-            }
+            /*
+           파일 경로
+           "D:\project\Macro\TestAssem\SubAssembly1\RotationPart.CATPart"
+           "D:\project\Macro\TestAssem\SubAssembly1\Body.CATPart"
+
+           coaxial - catCstTypeOn
+           "Product1/Part1.1/!Axis:(Selection_RSur:(Face:(Brp:(Pocket.1;0:(Brp:(Sketch.2;4)));None:();Cf11:());Pocket.1_ResultOUT;Z0;G3563))"
+           "Product1/Part1.2/!Axis:(Selection_RSur:(Face:(Brp:(Pad.2;0:(Brp:(Sketch.2;4)));None:();Cf11:());Pad.2_ResultOUT;Z0;G3563))"
+           incidence - catCstTypeSurfContact
+           "Product1/Part1.1/!Selection_RSur:(Face:(Brp:(Pad.1;1);None:();Cf11:());Pad.1_ResultOUT;Z0;G3563))"
+           "Product1/Part1.2/!Selection_RSur:(Face:(Brp:(Pad.1;2);None:();Cf11:());Pad.1_ResultOUT;Z0;G3563))"
+            */
+
+            // List<PreBuffer> stack = new List<PreBuffer>();
+            // stack.Add(new PreBuffer("D:\\project\\Macro\\TestAssem\\SubAssembly1\\RotationPart.CATPart","Part1","Rotation"));
+            // stack.Add(new PreBuffer("D:\\project\\Macro\\TestAssem\\SubAssembly1\\Body.CATPart","Part1","Body"));
+            PreStack stack = new PreStack();
+            stack.Clear();
+            //  stack.StackItem("D:\\project\\Macro\\TestAssem\\SubAssembly1\\RotationPart.CATPart", "Part1", "RotationPart");
+            //  stack.StackItem("D:\\project\\Macro\\TestAssem\\SubAssembly1\\Body.CATPart", "Part1", "Body");
+            stack.StackItem("D:\\project\\Macro\\TestAssem\\SubAssembly1\\RotationPart.CATPart", "Part1", "RotationPart");
+            stack.StackItem("D:\\project\\Macro\\TestAssem\\SubAssembly1\\Body.CATPart", "Part1", "Body");
+
+            ReferenceClass.ref_Pre m_refer = new ReferenceClass.ref_Pre();
+            //m_refer.PreTest(stack,stack.GetSize(), "catCstTypeOn", "Product1/Part1.1/!Axis:(Selection_RSur:(Face:(Brp:(Pocket.1;0:(Brp:(Sketch.2;4)));None:();Cf11:());Pocket.1_ResultOUT;Z0;G3563))", "Product1/Part1.2/!Axis:(Selection_RSur:(Face:(Brp:(Pad.2;0:(Brp:(Sketch.2;4)));None:();Cf11:());Pad.2_ResultOUT;Z0;G3563))");
+             m_refer.SetConstraint(stack, stack.GetSize(), "catCstTypeOn", "Product1/Part1.1/!Axis:(Selection_RSur:(Face:(Brp:(Pocket.1;0:(Brp:(Sketch.2;4)));None:();Cf11:());Pocket.1_ResultOUT;Z0;G3563))", "Product1/Part1.2/!Axis:(Selection_RSur:(Face:(Brp:(Pad.2;0:(Brp:(Sketch.2;4)));None:();Cf11:());Pad.2_ResultOUT;Z0;G3563))", "move", 0);
+             m_refer.SetConstraint(stack, stack.GetSize(), "catCstTypeSurfContact", "Product1/Part1.1/!Selection_RSur:(Face:(Brp:(Pad.1;1);None:();Cf11:());Pad.1_ResultOUT;Z0;G3563))", "Product1/Part1.2/!Selection_RSur:(Face:(Brp:(Pad.1;2);None:();Cf11:());Pad.1_ResultOUT;Z0;G3563))", "", 0);
+            // m_refer.SetConstraint(stack, stack.GetSize(), "catCstTypeOn", "Product1/Part1.2/!Axis:(Selection_RSur:(Face:(Brp:(Pocket.1;0:(Brp:(Sketch.2;4)));None:();Cf11:());EdgeFillet.1_ResultOUT;Z0;G4162))", "Product1/Part1.1/!Axis:(Selection_RSur:(Face:(Brp:(Pocket.1;0:(Brp:(Sketch.2;4)));None:();Cf11:());EdgeFillet.1_ResultOUT;Z0;G4162))", "move", 0);
+            //m_refer.SetConstraint(stack, stack.GetSize(), "catCstTypeSurfContact", "Product1/Part1.2/!Selection_RSur:(Face:(Brp:(Pad.1;0:(Brp:(Sketch.1;8)));None:();Cf11:());EdgeFillet.1_ResultOUT;Z0;G4162)", "Product1/Part1.1/!Selection_RSur:(Face:(Brp:(Pad.1;0:(Brp:(Sketch.1;8)));None:();Cf11:());EdgeFillet.1_ResultOUT;Z0;G4162)", "same", 0);
+            //m_refer.SetConstraint(stack, stack.GetSize(), "catCstTypeSurfContact", "Product1/Part1.2/!Selection_RSur:(Face:(Brp:(Pad.1;0:(Brp:(Sketch.1;8)));None:();Cf11:());EdgeFillet.1_ResultOUT;Z0;G4162)", "Product1/Part1.1/!Selection_RSur:(Face:(Brp:(Pad.1;0:(Brp:(Sketch.1;8)));None:();Cf11:());EdgeFillet.1_ResultOUT;Z0;G4162)", "", 0);
+            //m_refer.SetConstraint(stack, stack.GetSize(), "catCstTypeSurfContact", "Product1/Part1.2/!Selection_RSur:(Face:(Brp:(Pad.1;2);None:();Cf11:());EdgeFillet.1_ResultOUT;Z0;G4162)", "Product1/Part1.1/!Selection_RSur:(Face:(Brp:(Pad.1;2);None:();Cf11:());EdgeFillet.1_ResultOUT;Z0;G4162)", "same", 0);
+            
         }
 
         // Post-Processor Assembly
         private void button4_Click_1(object sender, EventArgs e)
         {
-            string filePath = CATAssemblyOpenDialog();
+            //string filePath = CATAssemblyOpenDialog();
+            string filePath = CATScriptSaveDialog();
 
-            if (filePath != "")
+            string EventMethod = "Use Script";//"Use Script"
+
+            if (EventMethod == "Use API")
             {
-                Assembly AssemblyManager = new Assembly();
+                //더이상 사용되지 않는 코드
+                /*
+                if (filePath != "")
+                {
+                    Part PartManager = new Part();
+                    Assembly AssemblyManager = new Assembly();
 
-                //if (PartManager.InitializeCATIA(filePath, (int)0))
-                //{
-                //    PartManager.InitializeTransCAD((int)0);
 
-                //    PartManager.TranslateC2T();
+                    if (AssemblyManager.InitializeTransCAD((int)1))
+                    {
+                        AssemblyManager.InitializeCATIA(filePath, (int)1);   //카티아 실행, 최초 초기화 실행 시간이 걸림
 
-                //    PartManager.UninitializeCATIA();
-                //    PartManager.UninitializeTransCAD();
-                //}
+                        AssemblyManager.TranslatePartsT2C(filePath);
+                        AssemblyManager.TranslateConstraintsT2C(filePath);
+
+                    }
+                }
+                */
             }
+            else if (EventMethod == "Use Script")
+            {
+
+                    //API를 사용하는 방법 및 Script를 사용하는 방법 통합 버전
+                    AssemblyPartManager dlg = new AssemblyPartManager(filePath);
+                    dlg.ShowDialog();
+            }
+
         }
 
 
-/*****************************************************************************************/
-/*****************************************************************************************/
+        /*****************************************************************************************/
+        /*****************************************************************************************/
 
         PartScript_Dll m_DLL = new PartScript_Dll();
 

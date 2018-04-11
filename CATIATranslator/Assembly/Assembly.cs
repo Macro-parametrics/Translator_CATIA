@@ -4,6 +4,17 @@ using System.Runtime.InteropServices; //For Marshal
 using System.Windows.Forms;
 using System.IO;
 
+/*
+ * Assembly Class에서 관리
+ * 1. Assembly에 해당하는 각종 변수 및 Initialize 관리
+ *      - TransCAD, CATIA API를 정의
+ * 
+ * 
+ * 
+ *   
+     */
+
+
 namespace CATIATranslator
 {
     partial class Assembly
@@ -39,6 +50,7 @@ namespace CATIATranslator
         public TransCAD.IStdAssemConstraints tConstraints = null;
         #endregion
 
+        public string Save_Part_Path = "";
         // Reference 관리자
         public Reference ReferenceManager = null;
         //// CATIA 관련 함수

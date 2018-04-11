@@ -87,9 +87,9 @@ namespace CATIATranslator
                     {
                         AssemblyManager.InitializeCATIA(args[1], (int)1);   //카티아 실행, 최초 초기화 실행 시간이 걸림
 
-                        AssemblyManager.TranslatePartsT2C();
-                        AssemblyManager.TranslateConstraintsT2C();
-                        
+                        //AssemblyManager.TranslatePartsT2C();         더이상 사용되지 않는 함수 : Backup ver5_06을 참조
+                        //AssemblyManager.TranslateConstraintsT2C();   더이상 사용되지 않느 함수 : Backup ver5_06을 참조
+
                     }
                 }
             }

@@ -4,37 +4,35 @@ using System.Linq;
 using System.Text;
 using System.IO;
 
+/*
+ * Assembly Class에서 관리
+ * 1. 최종적을 어셈블리를 Script로 변환하기 위한 함수 및 변수들을 정의
+ * 
+ * 
+ * 
+ *   
+     */
+
+
 namespace CATIATranslator
 {
+
+
     partial class Assembly
     {
 
-        public void TranslateConstraintsT2C() // From TransCAD to CATIA
+        enum CTYPE { Coaxial,Incidence }
+
+        //Form2에서 사용할 떄 사용 최종 버전 : Assembly Script를 저장할 filepath와 Part파일들이 저장된 path를 받아와서 Assembly.CATScript파일 생성
+        //오버로딩 함수 : Program.cs에서 바로 실행할 떄 쓰임 : Backup ver5_06을 참조
+        //오버로딩 함수 :Form1에서 버튼을 눌렀을 떄 API만 사용할 떄 filepath만 줘서 사용한다 : Backup ver5_06을 참조
+        public void TranslateConstraintsT2C(string filepath,string path) // From TransCAD to CATIA
         {
             tAssem = tAssemDoc.Assem;
             tConstraints = tAssem.Constraints;
-            TransCAD.IStdAssemConstraint tConstraint = tConstraints[1]; //Constraint는 numbering 1이 시작 (0 아님)
-            TransCAD.IStdAssemConstraintCoaxial coax = (TransCAD.IStdAssemConstraintCoaxial)tConstraint;
+            TransCAD.IStdAssemConstraint tConstraint;
 
-            Console.WriteLine("Coaxial constraint information");
-            Console.WriteLine("Constraint name is " + coax.Name);
-            Console.WriteLine("Constrained Part is " + coax.ConstrainedPart.Name);
-            Console.WriteLine("Constrained geometry is " + coax.ConstrainedGeometry.ReferenceeName);
-            Console.WriteLine("Reference part is " + coax.ReferencePart.Name);
-            Console.WriteLine("Reference geometry is " + coax.ReferenceGeometry.ReferenceeName);
-
-            // Incidence constraint
-            tConstraint = tConstraints[2]; //Constraint는 numbering 1이 시작 (0 아님)
-            TransCAD.IStdAssemConstraintIncidence coin = (TransCAD.IStdAssemConstraintIncidence)tConstraint;
-
-            Console.WriteLine("Incidence constraint information");
-            Console.WriteLine("Constraint name is " + coin.Name);
-            Console.WriteLine("Constrained Part is " + coin.ConstrainedPart.Name);
-            Console.WriteLine("Constrained geometry is " + coin.ConstrainedGeometry.ReferenceeName);
-            Console.WriteLine("Reference part is " + coin.ReferencePart.Name);
-            Console.WriteLine("Reference geometry is " + coin.ReferenceGeometry.ReferenceeName);
-
-
+            
             /*
              * 번역 추가 해야할 사항 17-09-15
              * Slave part에서 Constrained reference name
@@ -47,7 +45,7 @@ namespace CATIATranslator
             string[] catPartNum;
             string catProdNum;
             string referenceNameFromPart;
-            using (StreamWriter mywriter = new StreamWriter(@"TESTModel\Product_Assem_00.CATScript"))
+            using (StreamWriter mywriter = new StreamWriter(filepath))
             {
                 //mywriter.Write(hexHash + " ");
                 //mywriter.WriteLine(Path.GetFileName(dataFile.ToString()));
@@ -65,60 +63,148 @@ namespace CATIATranslator
                 mywriter.WriteLine("Dim product1 As Product");
                 mywriter.WriteLine("Set product1 = productDocument1.Product");
 
-                mywriter.WriteLine("Dim products1 As Products");
-                mywriter.WriteLine("Set products1 = product1.Products");
 
-                //Step2 : CATPart 두개 Loading
-                mywriter.WriteLine("Dim arrayOfVariantOfBSTR1(0)");
-                //partpath = "\"C:\\Users\\Imgyu Kim\\Documents\\Visual Studio 2015\\Repos\\transcatia\\TransCAT(C#)\\CATIATranslator\\bin\\Debug\\TESTModel\\A1_01.CATPart\"";
-                catPartfilepath = saveaspartname[0];
-                mywriter.WriteLine("arrayOfVariantOfBSTR1(0) = \"{0}\"", catPartfilepath);
-                mywriter.WriteLine("products1.AddComponentsFromFiles arrayOfVariantOfBSTR1, \"All\"");
+                ///////////////파트 추가하는 부분///////////////////
+                int cnt = 0;
+                
+                for (int s = 1; s < tAssem.GetSize(); s++)
+                {
+                    mywriter.WriteLine("Dim products" + (s).ToString() + " As Products");
+                    mywriter.WriteLine("Set products" + (s).ToString() + " = product1.Products");
 
-                mywriter.WriteLine("Dim arrayOfVariantOfBSTR2(0)");
-                //partpath = "\"C:\\Users\\Imgyu Kim\\Documents\\Visual Studio 2015\\Repos\\transcatia\\TransCAT(C#)\\CATIATranslator\\bin\\Debug\\TESTModel\\A1_02.CATPart\"";
-                catPartfilepath = saveaspartname[1];
-                mywriter.WriteLine("arrayOfVariantOfBSTR2(0) = \"{0}\"", catPartfilepath);
-                mywriter.WriteLine("products1.AddComponentsFromFiles arrayOfVariantOfBSTR2, \"All\"");
+                    
+                    //Step2 : CATPart 두개 Loading
+                    for (int w = 0; w < tAssem.GetComponent(s).GetSize(); w++)
+                    {
+                        
+                        mywriter.WriteLine("Dim arrayOfVariantOfBSTR" + (cnt+ w + 1).ToString() + "(0)");
+                        //partpath = "\"C:\\Users\\Imgyu Kim\\Documents\\Visual Studio 2015\\Repos\\transcatia\\TransCAT(C#)\\CATIATranslator\\bin\\Debug\\TESTModel\\A1_01.CATPart\"";
+                        catPartfilepath = path + "\\" + tAssem.GetComponent(s).GetPart(w).Name + ".CATPart";
+                        mywriter.WriteLine("arrayOfVariantOfBSTR" + (cnt+ w + 1).ToString() + "(0) = \"{0}\"", catPartfilepath);
+                        mywriter.WriteLine("products" + (s).ToString() + ".AddComponentsFromFiles arrayOfVariantOfBSTR" + (cnt + w + 1).ToString() + ", \"All\"");
 
-                //Step3 : Constraint[1]에 대한 Reference1, 2
-                mywriter.WriteLine("Dim constraints1 As Collection");
-                mywriter.WriteLine("Set constraints1 = product1.Connections(\"CATIAConstraints\")");
+                        //PartName 
+                        //Body.Part1.1
+                        //RotationPart.Part1.2
+                        
+                    }
 
-                mywriter.WriteLine("Dim reference1 As Reference");
-                referenceNameFromPart = "\"Product1/Part1.1/!Selection_RSur:(Face:(Brp:(Pad.1;1);None:();Cf11:());Pocket.1_ResultOUT;Z0;G4162)\"";
-                mywriter.WriteLine("Set reference1 = product1.CreateReferenceFromName({0})", referenceNameFromPart);
+                    cnt += tAssem.GetComponent(s).GetSize();
+                }
 
-                mywriter.WriteLine("Dim reference2 As Reference");
-                referenceNameFromPart = "\"Product1/Part1.2/!Selection_RSur:(Face:(Brp:(Pad.1;2);None:();Cf11:());Pad.2_ResultOUT;Z0;G4162)\"";
-                mywriter.WriteLine("Set reference2 = product1.CreateReferenceFromName({0})", referenceNameFromPart);
+                
 
-                //Step4 : Constraint[1] 실행
-                mywriter.WriteLine("Dim constraint1 As Constraint");
-                mywriter.WriteLine("Set constraint1 = constraints1.AddBiEltCst(catCstTypeSurfContact, reference1, reference2)");
+                #region..............................................Constraints 초기화
 
-                mywriter.WriteLine("product1.Update ");
+                //Contraints 개수 및 각Constraints들의 TYPE을 몰라서 하나 하나 해줌
+                //다음에는 size랑 각 type은 transcad쪽에서 가져올 수 있게 하면 됨
+                int constraint_size = tConstraints.Count;
+                //CTYPE[] ttype = new CTYPE[2] { CTYPE.COAXIAL, CTYPE.INCIDENCE };
+                 
 
-                mywriter.WriteLine("Set constraints1 = product1.Connections(\"CATIAConstraints\")");    //?
+                string Sproduct = "";
+                string Sconstraints = "constraints1";                       //기본적인부분
+                string Sconstraint = "";
+                string Smaster_ref = "";
+                string Sslave_ref = "";
+                refCommand m_ref;
 
-                //Step5 : Constraint[2] 에 대한 Reference3,4
-                mywriter.WriteLine("Dim reference3 As Reference");
-                referenceNameFromPart = "\"Product1/Part1.1/!Axis:(Selection_RSur:(Face:(Brp:(Pocket.1;0:(Brp:(Sketch.2;1)));None:();Cf11:());Pocket.1_ResultOUT;Z0;G4162))\"";
-                mywriter.WriteLine("Set reference3 = product1.CreateReferenceFromName({0})", referenceNameFromPart);
+                mywriter.WriteLine("Dim " + Sconstraints + " As Collection");
+                #endregion
 
-                mywriter.WriteLine("Dim reference4 As Reference");
-                referenceNameFromPart = "\"Product1/Part1.2/!Axis:(Selection_RSur:(Face:(Brp:(Pad.2;0:(Brp:(Sketch.2;1)));None:();Cf11:());Pad.2_ResultOUT;Z0;G4162))\"";
-                mywriter.WriteLine("Set reference4 = product1.CreateReferenceFromName({0})", referenceNameFromPart);
+                #region .............................................각 Constraint 실행
+                for (int i = 1; i < constraint_size + 1; i++)
+                {
+                    
+                    tConstraint = tConstraints.Constraint[i];                          //TransCAD에서 받아온 tConstraint
+                    m_ref = TestRefer(tConstraint, (CTYPE)Enum.Parse(typeof(CTYPE),tConstraint.Type.ToString()));             //reference name translate
+                    Sproduct = m_ref.MasterPart_Ref.Substring(m_ref.MasterPart_Ref.IndexOf("\"") + 1, m_ref.MasterPart_Ref.IndexOf("/") - 1);
+                    Sconstraint = "constraint" + (i).ToString();            //constraint1
+                    Smaster_ref = "reference" + (2 * i - 1).ToString();     //reference1
+                    Sslave_ref = "reference" + (2 * i).ToString();          //reference2
 
-                //Step6 : Constraint[2] 실행
-                mywriter.WriteLine("Dim constraint2 As Constraint");
-                mywriter.WriteLine("Set constraint2 = constraints1.AddBiEltCst(catCstTypeOn, reference3, reference4)");
+                    //constraints 설정
+                    mywriter.WriteLine("Set " + Sconstraints + " = " + Sproduct + ".Connections(\"CATIAConstraints\")");
+                    //master refer 생성
+                    mywriter.WriteLine("Dim " + Smaster_ref + " As Reference");
+                    mywriter.WriteLine("Set " + Smaster_ref + " = " + Sproduct + ".CreateReferenceFromName(" + m_ref.MasterPart_Ref + ")");
+                    //slaver refer 생성
+                    mywriter.WriteLine("Dim " + Sslave_ref + " As Reference");
+                    mywriter.WriteLine("Set " + Sslave_ref + " = " + Sproduct + ".CreateReferenceFromName(" + m_ref.SlavePart_Ref + ")");
+                    //Constraint[1] 실행
+                    mywriter.WriteLine("Dim " + Sconstraint + " As Constraint");
+                    mywriter.WriteLine("Set " + Sconstraint + " = " + Sconstraints + ".AddBiEltCst(" + m_ref.param + ", " + Smaster_ref + ", " + Sslave_ref + ")");
 
-                mywriter.WriteLine("product1.Update ");
+                    mywriter.WriteLine(Sproduct + ".Update ");
+
+
+                }
+                #endregion
 
                 mywriter.WriteLine("End Sub");
             }
 
         }
+
+
+
+
+        //각 Constraint에서 사용하는 Master/Slave Part의 ReferenceName을 refCommand 구조체로 리턴 
+        private refCommand TestRefer(TransCAD.IStdAssemConstraint tConstraint, CTYPE i) //constrain 받아오기
+        {
+            CTYPE type = i;
+            refCommand para = new refCommand();
+            refCommand result = new refCommand();
+            ReferenceClass.ref_Post m_refer = new ReferenceClass.ref_Post();
+
+
+            switch (type)
+            {
+                case CTYPE.Coaxial:
+                    TransCAD.IStdAssemConstraintCoaxial coax = (TransCAD.IStdAssemConstraintCoaxial)tConstraint;
+                    Console.WriteLine("Loading Coaxial......................................");
+
+                    para.command = (int)type;
+                    para.param = "Axis" + ":(";
+                    para.MasterPart = coax.ConstrainedPart.Name;
+                    para.SlavePart = coax.ReferencePart.Name;
+                    para.MasterPart_Ref = coax.ConstrainedGeometry.ReferenceeName;
+                    para.SlavePart_Ref = coax.ReferenceGeometry.ReferenceeName;
+
+                    break;
+                case CTYPE.Incidence:
+
+                    TransCAD.IStdAssemConstraintIncidence coin = (TransCAD.IStdAssemConstraintIncidence)tConstraint;
+                    Console.WriteLine("Loading INCIDENCE......................................");
+
+                    para.command = (int)type;
+                    para.param = "";
+                    para.MasterPart = coin.ConstrainedPart.Name;
+                    para.SlavePart = coin.ReferencePart.Name;
+                    para.MasterPart_Ref = coin.ConstrainedGeometry.ReferenceeName;
+                    para.SlavePart_Ref = coin.ReferenceGeometry.ReferenceeName;
+       
+
+                    break;
+
+                default:
+                    Console.WriteLine("Anything........");
+                    break;
+  
+
+            }
+            Console.WriteLine("////////////////////////////////////////////////////////////////////////");
+            result = m_refer.ConvertRefPost(para);
+
+            Console.WriteLine("////////////////////////////////////////////////////////////////////////");
+            Console.WriteLine("ConsNum : " + result.command.ToString());
+            Console.WriteLine("master : " + result.MasterPart_Ref);
+            Console.WriteLine("slave : " + result.SlavePart_Ref);
+            Console.WriteLine("////////////////////////////////////////////////////////////////////////");
+
+            return result;
+        }
+
+
     }
 }

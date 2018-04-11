@@ -1,0 +1,66 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="MainClass">
+      <UniqueIdentifier>{2b91aea1-40b7-44f1-88e3-b2c069047c95}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="기본CLI파일">
+      <UniqueIdentifier>{897377f1-8b2e-41e5-9b94-e894f6d3ac3c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="기본CLI파일\리소스 파일">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="기본CLI파일\소스 파일">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="기본CLI파일\헤더 파일">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="CPPWITHCSHARP.h">
+      <Filter>기본CLI파일\헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="Stdafx.h">
+      <Filter>기본CLI파일\헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="resource.h">
+      <Filter>기본CLI파일\헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="ReferenceClass.h">
+      <Filter>MainClass</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="CPPWITHCSHARP.cpp">
+      <Filter>기본CLI파일\소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="AssemblyInfo.cpp">
+      <Filter>기본CLI파일\소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="Stdafx.cpp">
+      <Filter>기본CLI파일\소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="ReferenceClass.cpp">
+      <Filter>MainClass</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="app.rc">
+      <Filter>기본CLI파일\리소스 파일</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="app.ico">
+      <Filter>기본CLI파일\리소스 파일</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt">
+      <Filter>기본CLI파일</Filter>
+    </Text>
+  </ItemGroup>
+</Project>

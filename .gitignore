@@ -3,3 +3,9 @@
 ################################################################################
 
 /.vs/CATIATranslator
+/ipch
+/PostManager/x64
+/PostManager/Debug
+/PreManager/x64
+/PreManager/Debug
+/x64

@@ -1,0 +1,202 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{32AEC176-BC98-4890-9FE7-357DBE1A8740}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <RootNamespace>PreManager</RootNamespace>
+    <WindowsTargetPlatformVersion>10.0.16299.0</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v141</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v141</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v141</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v141</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup />
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <SDLCheck>true</SDLCheck>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>_DEBUG;_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <SDLCheck>true</SDLCheck>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <SDLCheck>true</SDLCheck>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>NDEBUG;_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <SDLCheck>true</SDLCheck>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt" />
+    <Text Include="ref\ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="ref\AttAngle.h" />
+    <ClInclude Include="ref\AttAngularRepartation.h" />
+    <ClInclude Include="ref\AttIntParam.h" />
+    <ClInclude Include="ref\AttLength.h" />
+    <ClInclude Include="ref\AttLimit.h" />
+    <ClInclude Include="ref\AttLinearRepartation.h" />
+    <ClInclude Include="ref\AttParameter.h" />
+    <ClInclude Include="ref\AttributeItem.h" />
+    <ClInclude Include="ref\CATIApre.h" />
+    <ClInclude Include="ref\CATIApre_DLL.h" />
+    <ClInclude Include="ref\Definition.h" />
+    <ClInclude Include="ref\FDatumPlaneOffset.h" />
+    <ClInclude Include="ref\Feature.h" />
+    <ClInclude Include="ref\FeatureSOLIDCreateChamfer.h" />
+    <ClInclude Include="ref\FeatureSOLIDCreateExtrude.h" />
+    <ClInclude Include="ref\FeatureSOLIDCreateFilletConstant.h" />
+    <ClInclude Include="ref\FeatureSOLIDCreateHole.h" />
+    <ClInclude Include="ref\FeatureSOLIDCreatePatternCircular.h" />
+    <ClInclude Include="ref\FeatureSOLIDCreatePatternRectangular.h" />
+    <ClInclude Include="ref\FeatureSOLIDCreateRevolve.h" />
+    <ClInclude Include="ref\FeatureSOLIDCreateSweep.h" />
+    <ClInclude Include="ref\FSketch.h" />
+    <ClInclude Include="ref\FSKETCHCreate2DCircleCenterPoint.h" />
+    <ClInclude Include="ref\FSKETCHCreate2DLine2Points.h" />
+    <ClInclude Include="ref\FSKETCHCreate2DPoint.h" />
+    <ClInclude Include="ref\FSKETCHItem.h" />
+    <ClInclude Include="ref\Part.h" />
+    <ClInclude Include="ref\ReferenceEntity.h" />
+    <ClInclude Include="stdafx.h" />
+    <ClInclude Include="targetver.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="ref\AttAngle.cpp" />
+    <ClCompile Include="ref\AttAngularRepartation.cpp" />
+    <ClCompile Include="ref\AttIntParam.cpp" />
+    <ClCompile Include="ref\AttLength.cpp" />
+    <ClCompile Include="ref\AttLimit.cpp" />
+    <ClCompile Include="ref\AttLinearRepartation.cpp" />
+    <ClCompile Include="ref\AttParameter.cpp" />
+    <ClCompile Include="ref\AttributeItem.cpp" />
+    <ClCompile Include="ref\CATIApre_DLL.cpp" />
+    <ClCompile Include="ref\FDatumPlaneOffset.cpp" />
+    <ClCompile Include="ref\Feature.cpp" />
+    <ClCompile Include="ref\FeatureSOLIDCreateChamfer.cpp" />
+    <ClCompile Include="ref\FeatureSOLIDCreateExtrude.cpp" />
+    <ClCompile Include="ref\FeatureSOLIDCreateFilletConstant.cpp" />
+    <ClCompile Include="ref\FeatureSOLIDCreateHole.cpp" />
+    <ClCompile Include="ref\FeatureSOLIDCreatePatternCircular.cpp" />
+    <ClCompile Include="ref\FeatureSOLIDCreatePatternRectangular.cpp" />
+    <ClCompile Include="ref\FeatureSOLIDCreateRevolve.cpp" />
+    <ClCompile Include="ref\FeatureSOLIDCreateSweep.cpp" />
+    <ClCompile Include="ref\FSketch.cpp" />
+    <ClCompile Include="ref\FSKETCHCreate2DCircleCenterPoint.cpp" />
+    <ClCompile Include="ref\FSKETCHCreate2DLine2Points.cpp" />
+    <ClCompile Include="ref\FSKETCHCreate2DPoint.cpp" />
+    <ClCompile Include="ref\FSKETCHItem.cpp" />
+    <ClCompile Include="ref\Part.cpp" />
+    <ClCompile Include="ref\ReferenceEntity.cpp" />
+    <ClCompile Include="stdafx.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Create</PrecompiledHeader>
+    </ClCompile>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>
