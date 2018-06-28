@@ -1,0 +1,3391 @@
+﻿// Created by Microsoft (R) C/C++ Compiler Version 14.14.26430.0 (3bed6aa7).
+//
+// c:\users\imgyu\documents\00_macro\02_transcat_part_api(c#)\translator_catia\cppwithcsharp\release\transcad.tli
+//
+// Wrapper implementations for Win32 type library C:\\Program Files (x86)\\MACRO\\TransCAD\\TransCAD.exe
+// compiler-generated file created 06/29/18 at 00:13:58 - DO NOT EDIT!
+
+#pragma once
+
+//
+// interface IReference wrapper method implementations
+//
+
+inline enum ReferenceType IReference::GetType ( ) {
+    enum ReferenceType _result;
+    HRESULT _hr = get_Type(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _result;
+}
+
+inline _bstr_t IReference::GetName ( ) {
+    BSTR _result = 0;
+    HRESULT _hr = get_Name(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _bstr_t(_result, false);
+}
+
+inline _bstr_t IReference::GetReferenceeName ( ) {
+    BSTR _result = 0;
+    HRESULT _hr = get_ReferenceeName(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _bstr_t(_result, false);
+}
+
+//
+// interface IReferences wrapper method implementations
+//
+
+inline long IReferences::GetCount ( ) {
+    long _result = 0;
+    HRESULT _hr = get_Count(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _result;
+}
+
+inline IReferencePtr IReferences::GetItem ( long index ) {
+    struct IReference * _result = 0;
+    HRESULT _hr = get_Item(index, &_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return IReferencePtr(_result, false);
+}
+
+inline IUnknownPtr IReferences::Get_NewEnum ( ) {
+    IUnknown * _result = 0;
+    HRESULT _hr = get__NewEnum(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return IUnknownPtr(_result, false);
+}
+
+inline HRESULT IReferences::Add ( struct IReference * pVal ) {
+    HRESULT _hr = raw_Add(pVal);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _hr;
+}
+
+//
+// interface IVertex wrapper method implementations
+//
+
+inline _bstr_t IVertex::GetName ( ) {
+    BSTR _result = 0;
+    HRESULT _hr = get_Name(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _bstr_t(_result, false);
+}
+
+inline void IVertex::GetCoordinates ( double * X, double * Y, double * z ) {
+    HRESULT _hr = get_Coordinates(X, Y, z);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+}
+
+inline double IVertex::GetX ( ) {
+    double _result = 0;
+    HRESULT _hr = get_X(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _result;
+}
+
+inline double IVertex::GetY ( ) {
+    double _result = 0;
+    HRESULT _hr = get_Y(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _result;
+}
+
+inline double IVertex::Getz ( ) {
+    double _result = 0;
+    HRESULT _hr = get_z(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _result;
+}
+
+//
+// interface IEdge wrapper method implementations
+//
+
+inline enum EdgeType IEdge::GetType ( ) {
+    enum EdgeType _result;
+    HRESULT _hr = get_Type(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _result;
+}
+
+inline _bstr_t IEdge::GetName ( ) {
+    BSTR _result = 0;
+    HRESULT _hr = get_Name(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _bstr_t(_result, false);
+}
+
+inline IVertexPtr IEdge::GetStartPoint ( ) {
+    struct IVertex * _result = 0;
+    HRESULT _hr = get_StartPoint(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return IVertexPtr(_result, false);
+}
+
+inline IVertexPtr IEdge::GetEndPoint ( ) {
+    struct IVertex * _result = 0;
+    HRESULT _hr = get_EndPoint(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return IVertexPtr(_result, false);
+}
+
+//
+// interface IEdges wrapper method implementations
+//
+
+inline long IEdges::GetCount ( ) {
+    long _result = 0;
+    HRESULT _hr = get_Count(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _result;
+}
+
+inline IEdgePtr IEdges::GetItem ( long index ) {
+    struct IEdge * _result = 0;
+    HRESULT _hr = get_Item(index, &_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return IEdgePtr(_result, false);
+}
+
+inline IUnknownPtr IEdges::Get_NewEnum ( ) {
+    IUnknown * _result = 0;
+    HRESULT _hr = get__NewEnum(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return IUnknownPtr(_result, false);
+}
+
+//
+// interface IVertices wrapper method implementations
+//
+
+inline long IVertices::GetCount ( ) {
+    long _result = 0;
+    HRESULT _hr = get_Count(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _result;
+}
+
+inline IVertexPtr IVertices::GetItem ( long index ) {
+    struct IVertex * _result = 0;
+    HRESULT _hr = get_Item(index, &_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return IVertexPtr(_result, false);
+}
+
+inline IUnknownPtr IVertices::Get_NewEnum ( ) {
+    IUnknown * _result = 0;
+    HRESULT _hr = get__NewEnum(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return IUnknownPtr(_result, false);
+}
+
+//
+// interface IFace wrapper method implementations
+//
+
+inline enum FaceType IFace::GetType ( ) {
+    enum FaceType _result;
+    HRESULT _hr = get_Type(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _result;
+}
+
+inline _bstr_t IFace::GetName ( ) {
+    BSTR _result = 0;
+    HRESULT _hr = get_Name(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _bstr_t(_result, false);
+}
+
+inline IEdgesPtr IFace::GetEdges ( ) {
+    struct IEdges * _result = 0;
+    HRESULT _hr = get_Edges(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return IEdgesPtr(_result, false);
+}
+
+inline IVerticesPtr IFace::GetVertices ( ) {
+    struct IVertices * _result = 0;
+    HRESULT _hr = get_Vertices(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return IVerticesPtr(_result, false);
+}
+
+inline void IFace::GetCentroid ( double * cx, double * cy, double * cz ) {
+    HRESULT _hr = get_Centroid(cx, cy, cz);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+}
+
+inline void IFace::GetXDirection ( double * xx, double * xy, double * xz ) {
+    HRESULT _hr = get_XDirection(xx, xy, xz);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+}
+
+inline void IFace::GetYDirection ( double * yx, double * yy, double * yz ) {
+    HRESULT _hr = get_YDirection(yx, yy, yz);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+}
+
+inline void IFace::GetZDirection ( double * zx, double * zy, double * zz ) {
+    HRESULT _hr = get_ZDirection(zx, zy, zz);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+}
+
+inline double IFace::GetArea ( ) {
+    double _result = 0;
+    HRESULT _hr = get_Area(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _result;
+}
+
+//
+// interface IFaces wrapper method implementations
+//
+
+inline long IFaces::GetCount ( ) {
+    long _result = 0;
+    HRESULT _hr = get_Count(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _result;
+}
+
+inline IFacePtr IFaces::GetItem ( long index ) {
+    struct IFace * _result = 0;
+    HRESULT _hr = get_Item(index, &_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return IFacePtr(_result, false);
+}
+
+inline IUnknownPtr IFaces::Get_NewEnum ( ) {
+    IUnknown * _result = 0;
+    HRESULT _hr = get__NewEnum(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return IUnknownPtr(_result, false);
+}
+
+//
+// interface ISolid wrapper method implementations
+//
+
+inline IFacesPtr ISolid::GetFaces ( ) {
+    struct IFaces * _result = 0;
+    HRESULT _hr = get_Faces(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return IFacesPtr(_result, false);
+}
+
+inline IEdgesPtr ISolid::GetEdges ( ) {
+    struct IEdges * _result = 0;
+    HRESULT _hr = get_Edges(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return IEdgesPtr(_result, false);
+}
+
+inline IVerticesPtr ISolid::GetVertices ( ) {
+    struct IVertices * _result = 0;
+    HRESULT _hr = get_Vertices(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return IVerticesPtr(_result, false);
+}
+
+//
+// interface IPoint3D wrapper method implementations
+//
+
+inline double IPoint3D::GetX ( ) {
+    double _result = 0;
+    HRESULT _hr = get_X(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _result;
+}
+
+inline void IPoint3D::PutX ( double pVal ) {
+    HRESULT _hr = put_X(pVal);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+}
+
+inline double IPoint3D::GetY ( ) {
+    double _result = 0;
+    HRESULT _hr = get_Y(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _result;
+}
+
+inline void IPoint3D::PutY ( double pVal ) {
+    HRESULT _hr = put_Y(pVal);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+}
+
+inline double IPoint3D::Getz ( ) {
+    double _result = 0;
+    HRESULT _hr = get_z(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _result;
+}
+
+inline void IPoint3D::Putz ( double pVal ) {
+    HRESULT _hr = put_z(pVal);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+}
+
+//
+// interface IAxis1 wrapper method implementations
+//
+
+inline IPoint3DPtr IAxis1::GetLocation ( ) {
+    struct IPoint3D * _result = 0;
+    HRESULT _hr = get_Location(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return IPoint3DPtr(_result, false);
+}
+
+inline void IAxis1::PutLocation ( struct IPoint3D * pVal ) {
+    HRESULT _hr = put_Location(pVal);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+}
+
+inline IPoint3DPtr IAxis1::GetDirection ( ) {
+    struct IPoint3D * _result = 0;
+    HRESULT _hr = get_Direction(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return IPoint3DPtr(_result, false);
+}
+
+inline void IAxis1::PutDirection ( struct IPoint3D * pVal ) {
+    HRESULT _hr = put_Direction(pVal);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+}
+
+//
+// interface IApplication wrapper method implementations
+//
+
+inline VARIANT_BOOL IApplication::GetVisible ( ) {
+    VARIANT_BOOL _result = 0;
+    HRESULT _hr = get_Visible(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _result;
+}
+
+inline void IApplication::PutVisible ( VARIANT_BOOL pVal ) {
+    HRESULT _hr = put_Visible(pVal);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+}
+
+inline IApplicationPtr IApplication::GetApplication ( ) {
+    struct IApplication * _result = 0;
+    HRESULT _hr = get_Application(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return IApplicationPtr(_result, false);
+}
+
+inline IDispatchPtr IApplication::GetParent ( ) {
+    IDispatch * _result = 0;
+    HRESULT _hr = get_Parent(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return IDispatchPtr(_result, false);
+}
+
+inline IDocPtr IApplication::GetActiveDocument ( ) {
+    struct IDoc * _result = 0;
+    HRESULT _hr = get_ActiveDocument(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return IDocPtr(_result, false);
+}
+
+inline IDocsPtr IApplication::GetDocuments ( ) {
+    struct IDocs * _result = 0;
+    HRESULT _hr = get_Documents(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return IDocsPtr(_result, false);
+}
+
+inline _bstr_t IApplication::GetName ( ) {
+    BSTR _result = 0;
+    HRESULT _hr = get_Name(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _bstr_t(_result, false);
+}
+
+inline HRESULT IApplication::Quit ( ) {
+    HRESULT _hr = raw_Quit();
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _hr;
+}
+
+//
+// interface IDoc wrapper method implementations
+//
+
+inline IApplicationPtr IDoc::GetApplication ( ) {
+    struct IApplication * _result = 0;
+    HRESULT _hr = get_Application(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return IApplicationPtr(_result, false);
+}
+
+inline IDispatchPtr IDoc::GetParent ( ) {
+    IDispatch * _result = 0;
+    HRESULT _hr = get_Parent(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return IDispatchPtr(_result, false);
+}
+
+inline _bstr_t IDoc::GetFullName ( ) {
+    BSTR _result = 0;
+    HRESULT _hr = get_FullName(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _bstr_t(_result, false);
+}
+
+inline _bstr_t IDoc::GetName ( ) {
+    BSTR _result = 0;
+    HRESULT _hr = get_Name(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _bstr_t(_result, false);
+}
+
+inline _bstr_t IDoc::GetPath ( ) {
+    BSTR _result = 0;
+    HRESULT _hr = get_Path(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _bstr_t(_result, false);
+}
+
+inline VARIANT_BOOL IDoc::GetSaved ( ) {
+    VARIANT_BOOL _result = 0;
+    HRESULT _hr = get_Saved(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _result;
+}
+
+inline HRESULT IDoc::Activate ( ) {
+    HRESULT _hr = raw_Activate();
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _hr;
+}
+
+inline HRESULT IDoc::Close ( VARIANT_BOOL saveChanges, _bstr_t filename ) {
+    HRESULT _hr = raw_Close(saveChanges, filename);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _hr;
+}
+
+inline HRESULT IDoc::Save ( ) {
+    HRESULT _hr = raw_Save();
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _hr;
+}
+
+inline HRESULT IDoc::SaveAs ( _bstr_t filename ) {
+    HRESULT _hr = raw_SaveAs(filename);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _hr;
+}
+
+//
+// interface IFeature wrapper method implementations
+//
+
+inline IApplicationPtr IFeature::GetApplication ( ) {
+    struct IApplication * _result = 0;
+    HRESULT _hr = get_Application(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return IApplicationPtr(_result, false);
+}
+
+inline IDispatchPtr IFeature::GetParent ( ) {
+    IDispatch * _result = 0;
+    HRESULT _hr = get_Parent(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return IDispatchPtr(_result, false);
+}
+
+inline enum FeatureType IFeature::GetType ( ) {
+    enum FeatureType _result;
+    HRESULT _hr = get_Type(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _result;
+}
+
+inline _bstr_t IFeature::GetName ( ) {
+    BSTR _result = 0;
+    HRESULT _hr = get_Name(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _bstr_t(_result, false);
+}
+
+inline HRESULT IFeature::SetName ( _bstr_t pVal ) {
+    HRESULT _hr = raw_SetName(pVal);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _hr;
+}
+
+//
+// interface IExplicitModelObject wrapper method implementations
+//
+
+inline IApplicationPtr IExplicitModelObject::GetApplication ( ) {
+    struct IApplication * _result = 0;
+    HRESULT _hr = get_Application(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return IApplicationPtr(_result, false);
+}
+
+inline IDispatchPtr IExplicitModelObject::GetParent ( ) {
+    IDispatch * _result = 0;
+    HRESULT _hr = get_Parent(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return IDispatchPtr(_result, false);
+}
+
+inline enum ExplicitModelObjectType IExplicitModelObject::GetType ( ) {
+    enum ExplicitModelObjectType _result;
+    HRESULT _hr = get_Type(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _result;
+}
+
+inline IFeaturePtr IExplicitModelObject::GetCreator ( ) {
+    struct IFeature * _result = 0;
+    HRESULT _hr = get_Creator(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return IFeaturePtr(_result, false);
+}
+
+inline _bstr_t IExplicitModelObject::GetName ( ) {
+    BSTR _result = 0;
+    HRESULT _hr = get_Name(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _bstr_t(_result, false);
+}
+
+//
+// interface IStdSolidProtrusionExtrudeFeature wrapper method implementations
+//
+
+inline IReferencePtr IStdSolidProtrusionExtrudeFeature::GetProfileSketch ( ) {
+    struct IReference * _result = 0;
+    HRESULT _hr = get_ProfileSketch(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return IReferencePtr(_result, false);
+}
+
+inline void IStdSolidProtrusionExtrudeFeature::PutProfileSketch ( struct IReference * ppVal ) {
+    HRESULT _hr = put_ProfileSketch(ppVal);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+}
+
+inline VARIANT_BOOL IStdSolidProtrusionExtrudeFeature::GetIsFlip ( ) {
+    VARIANT_BOOL _result = 0;
+    HRESULT _hr = get_IsFlip(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _result;
+}
+
+inline void IStdSolidProtrusionExtrudeFeature::PutIsFlip ( VARIANT_BOOL pVal ) {
+    HRESULT _hr = put_IsFlip(pVal);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+}
+
+inline enum StdExtrudeEndType IStdSolidProtrusionExtrudeFeature::GetStartCondition ( ) {
+    enum StdExtrudeEndType _result;
+    HRESULT _hr = get_StartCondition(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _result;
+}
+
+inline void IStdSolidProtrusionExtrudeFeature::PutStartCondition ( enum StdExtrudeEndType pVal ) {
+    HRESULT _hr = put_StartCondition(pVal);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+}
+
+inline double IStdSolidProtrusionExtrudeFeature::GetStartDepth ( ) {
+    double _result = 0;
+    HRESULT _hr = get_StartDepth(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _result;
+}
+
+inline void IStdSolidProtrusionExtrudeFeature::PutStartDepth ( double pVal ) {
+    HRESULT _hr = put_StartDepth(pVal);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+}
+
+inline enum StdExtrudeEndType IStdSolidProtrusionExtrudeFeature::GetEndCondition ( ) {
+    enum StdExtrudeEndType _result;
+    HRESULT _hr = get_EndCondition(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _result;
+}
+
+inline void IStdSolidProtrusionExtrudeFeature::PutEndCondition ( enum StdExtrudeEndType pVal ) {
+    HRESULT _hr = put_EndCondition(pVal);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+}
+
+inline double IStdSolidProtrusionExtrudeFeature::GetEndDepth ( ) {
+    double _result = 0;
+    HRESULT _hr = get_EndDepth(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _result;
+}
+
+inline void IStdSolidProtrusionExtrudeFeature::PutEndDepth ( double pVal ) {
+    HRESULT _hr = put_EndDepth(pVal);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+}
+
+//
+// interface IStdSolidCutExtrudeFeature wrapper method implementations
+//
+
+inline IReferencePtr IStdSolidCutExtrudeFeature::GetProfileSketch ( ) {
+    struct IReference * _result = 0;
+    HRESULT _hr = get_ProfileSketch(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return IReferencePtr(_result, false);
+}
+
+inline void IStdSolidCutExtrudeFeature::PutProfileSketch ( struct IReference * ppVal ) {
+    HRESULT _hr = put_ProfileSketch(ppVal);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+}
+
+inline VARIANT_BOOL IStdSolidCutExtrudeFeature::GetIsFlip ( ) {
+    VARIANT_BOOL _result = 0;
+    HRESULT _hr = get_IsFlip(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _result;
+}
+
+inline void IStdSolidCutExtrudeFeature::PutIsFlip ( VARIANT_BOOL pVal ) {
+    HRESULT _hr = put_IsFlip(pVal);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+}
+
+inline enum StdExtrudeEndType IStdSolidCutExtrudeFeature::GetStartCondition ( ) {
+    enum StdExtrudeEndType _result;
+    HRESULT _hr = get_StartCondition(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _result;
+}
+
+inline void IStdSolidCutExtrudeFeature::PutStartCondition ( enum StdExtrudeEndType pVal ) {
+    HRESULT _hr = put_StartCondition(pVal);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+}
+
+inline double IStdSolidCutExtrudeFeature::GetStartDepth ( ) {
+    double _result = 0;
+    HRESULT _hr = get_StartDepth(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _result;
+}
+
+inline void IStdSolidCutExtrudeFeature::PutStartDepth ( double pVal ) {
+    HRESULT _hr = put_StartDepth(pVal);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+}
+
+inline enum StdExtrudeEndType IStdSolidCutExtrudeFeature::GetEndCondition ( ) {
+    enum StdExtrudeEndType _result;
+    HRESULT _hr = get_EndCondition(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _result;
+}
+
+inline void IStdSolidCutExtrudeFeature::PutEndCondition ( enum StdExtrudeEndType pVal ) {
+    HRESULT _hr = put_EndCondition(pVal);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+}
+
+inline double IStdSolidCutExtrudeFeature::GetEndDepth ( ) {
+    double _result = 0;
+    HRESULT _hr = get_EndDepth(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _result;
+}
+
+inline void IStdSolidCutExtrudeFeature::PutEndDepth ( double pVal ) {
+    HRESULT _hr = put_EndDepth(pVal);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+}
+
+//
+// interface IStdSolidFilletConstantFeature wrapper method implementations
+//
+
+inline IReferencesPtr IStdSolidFilletConstantFeature::GetFilletEdges ( ) {
+    struct IReferences * _result = 0;
+    HRESULT _hr = get_FilletEdges(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return IReferencesPtr(_result, false);
+}
+
+inline void IStdSolidFilletConstantFeature::PutFilletEdges ( struct IReferences * ppVal ) {
+    HRESULT _hr = put_FilletEdges(ppVal);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+}
+
+inline double IStdSolidFilletConstantFeature::GetRadius ( ) {
+    double _result = 0;
+    HRESULT _hr = get_Radius(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _result;
+}
+
+inline void IStdSolidFilletConstantFeature::PutRadius ( double pVal ) {
+    HRESULT _hr = put_Radius(pVal);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+}
+
+inline enum PropagationType IStdSolidFilletConstantFeature::GetPropagation ( ) {
+    enum PropagationType _result;
+    HRESULT _hr = get_Propagation(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _result;
+}
+
+inline void IStdSolidFilletConstantFeature::PutPropagation ( enum PropagationType pVal ) {
+    HRESULT _hr = put_Propagation(pVal);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+}
+
+inline double IStdSolidFilletConstantFeature::GetStartPosX ( ) {
+    double _result = 0;
+    HRESULT _hr = get_StartPosX(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _result;
+}
+
+inline double IStdSolidFilletConstantFeature::GetStartPosY ( ) {
+    double _result = 0;
+    HRESULT _hr = get_StartPosY(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _result;
+}
+
+inline double IStdSolidFilletConstantFeature::GetStartPosZ ( ) {
+    double _result = 0;
+    HRESULT _hr = get_StartPosZ(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _result;
+}
+
+inline double IStdSolidFilletConstantFeature::GetEndPosX ( ) {
+    double _result = 0;
+    HRESULT _hr = get_EndPosX(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _result;
+}
+
+inline double IStdSolidFilletConstantFeature::GetEndPosY ( ) {
+    double _result = 0;
+    HRESULT _hr = get_EndPosY(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _result;
+}
+
+inline double IStdSolidFilletConstantFeature::GetEndPosZ ( ) {
+    double _result = 0;
+    HRESULT _hr = get_EndPosZ(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _result;
+}
+
+inline double IStdSolidFilletConstantFeature::GetStartPosXAt ( int index ) {
+    double _result = 0;
+    HRESULT _hr = get_StartPosXAt(index, &_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _result;
+}
+
+inline double IStdSolidFilletConstantFeature::GetStartPosYAt ( int index ) {
+    double _result = 0;
+    HRESULT _hr = get_StartPosYAt(index, &_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _result;
+}
+
+inline double IStdSolidFilletConstantFeature::GetStartPosZAt ( int index ) {
+    double _result = 0;
+    HRESULT _hr = get_StartPosZAt(index, &_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _result;
+}
+
+inline double IStdSolidFilletConstantFeature::GetEndPosXAt ( int index ) {
+    double _result = 0;
+    HRESULT _hr = get_EndPosXAt(index, &_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _result;
+}
+
+inline double IStdSolidFilletConstantFeature::GetEndPosYAt ( int index ) {
+    double _result = 0;
+    HRESULT _hr = get_EndPosYAt(index, &_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _result;
+}
+
+inline double IStdSolidFilletConstantFeature::GetEndPosZAt ( int index ) {
+    double _result = 0;
+    HRESULT _hr = get_EndPosZAt(index, &_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _result;
+}
+
+//
+// interface IStdSolidChamferFeature wrapper method implementations
+//
+
+inline enum ChamferType IStdSolidChamferFeature::GetChamferType ( ) {
+    enum ChamferType _result;
+    HRESULT _hr = get_ChamferType(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _result;
+}
+
+inline IReferencesPtr IStdSolidChamferFeature::GetSelectedEdges ( ) {
+    struct IReferences * _result = 0;
+    HRESULT _hr = get_SelectedEdges(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return IReferencesPtr(_result, false);
+}
+
+inline void IStdSolidChamferFeature::PutSelectedEdges ( struct IReferences * ppVal ) {
+    HRESULT _hr = put_SelectedEdges(ppVal);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+}
+
+inline IReferencePtr IStdSolidChamferFeature::GetSelectedFace ( ) {
+    struct IReference * _result = 0;
+    HRESULT _hr = get_SelectedFace(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return IReferencePtr(_result, false);
+}
+
+inline double IStdSolidChamferFeature::GetLength ( ) {
+    double _result = 0;
+    HRESULT _hr = get_Length(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _result;
+}
+
+inline void IStdSolidChamferFeature::PutLength ( double pVal ) {
+    HRESULT _hr = put_Length(pVal);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+}
+
+inline double IStdSolidChamferFeature::GetValue ( ) {
+    double _result = 0;
+    HRESULT _hr = get_Value(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _result;
+}
+
+inline double IStdSolidChamferFeature::GetStartPosX ( ) {
+    double _result = 0;
+    HRESULT _hr = get_StartPosX(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _result;
+}
+
+inline double IStdSolidChamferFeature::GetStartPosY ( ) {
+    double _result = 0;
+    HRESULT _hr = get_StartPosY(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _result;
+}
+
+inline double IStdSolidChamferFeature::GetStartPosZ ( ) {
+    double _result = 0;
+    HRESULT _hr = get_StartPosZ(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _result;
+}
+
+inline double IStdSolidChamferFeature::GetEndPosX ( ) {
+    double _result = 0;
+    HRESULT _hr = get_EndPosX(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _result;
+}
+
+inline double IStdSolidChamferFeature::GetEndPosY ( ) {
+    double _result = 0;
+    HRESULT _hr = get_EndPosY(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _result;
+}
+
+inline double IStdSolidChamferFeature::GetEndPosZ ( ) {
+    double _result = 0;
+    HRESULT _hr = get_EndPosZ(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _result;
+}
+
+inline double IStdSolidChamferFeature::GetStartPosXAt ( int index ) {
+    double _result = 0;
+    HRESULT _hr = get_StartPosXAt(index, &_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _result;
+}
+
+inline double IStdSolidChamferFeature::GetStartPosYAt ( int index ) {
+    double _result = 0;
+    HRESULT _hr = get_StartPosYAt(index, &_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _result;
+}
+
+inline double IStdSolidChamferFeature::GetStartPosZAt ( int index ) {
+    double _result = 0;
+    HRESULT _hr = get_StartPosZAt(index, &_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _result;
+}
+
+inline double IStdSolidChamferFeature::GetEndPosXAt ( int index ) {
+    double _result = 0;
+    HRESULT _hr = get_EndPosXAt(index, &_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _result;
+}
+
+inline double IStdSolidChamferFeature::GetEndPosYAt ( int index ) {
+    double _result = 0;
+    HRESULT _hr = get_EndPosYAt(index, &_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _result;
+}
+
+inline double IStdSolidChamferFeature::GetEndPosZAt ( int index ) {
+    double _result = 0;
+    HRESULT _hr = get_EndPosZAt(index, &_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _result;
+}
+
+//
+// interface IStdSolidProtrusionSweepFeature wrapper method implementations
+//
+
+inline IReferencePtr IStdSolidProtrusionSweepFeature::GetProfileSketch ( ) {
+    struct IReference * _result = 0;
+    HRESULT _hr = get_ProfileSketch(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return IReferencePtr(_result, false);
+}
+
+inline void IStdSolidProtrusionSweepFeature::PutProfileSketch ( struct IReference * ppVal ) {
+    HRESULT _hr = put_ProfileSketch(ppVal);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+}
+
+inline IReferencePtr IStdSolidProtrusionSweepFeature::GetGuideCurve ( ) {
+    struct IReference * _result = 0;
+    HRESULT _hr = get_GuideCurve(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return IReferencePtr(_result, false);
+}
+
+inline void IStdSolidProtrusionSweepFeature::PutGuideCurve ( struct IReference * ppVal ) {
+    HRESULT _hr = put_GuideCurve(ppVal);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+}
+
+//
+// interface IStdSolidProtrusionRevolveFeature wrapper method implementations
+//
+
+inline IReferencePtr IStdSolidProtrusionRevolveFeature::GetProfileSketch ( ) {
+    struct IReference * _result = 0;
+    HRESULT _hr = get_ProfileSketch(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return IReferencePtr(_result, false);
+}
+
+inline void IStdSolidProtrusionRevolveFeature::PutProfileSketch ( struct IReference * ppVal ) {
+    HRESULT _hr = put_ProfileSketch(ppVal);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+}
+
+inline VARIANT_BOOL IStdSolidProtrusionRevolveFeature::GetIsFlip ( ) {
+    VARIANT_BOOL _result = 0;
+    HRESULT _hr = get_IsFlip(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _result;
+}
+
+inline void IStdSolidProtrusionRevolveFeature::PutIsFlip ( VARIANT_BOOL pVal ) {
+    HRESULT _hr = put_IsFlip(pVal);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+}
+
+inline enum StdRevolveEndType IStdSolidProtrusionRevolveFeature::GetStartCondition ( ) {
+    enum StdRevolveEndType _result;
+    HRESULT _hr = get_StartCondition(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _result;
+}
+
+inline double IStdSolidProtrusionRevolveFeature::GetStartAngle ( ) {
+    double _result = 0;
+    HRESULT _hr = get_StartAngle(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _result;
+}
+
+inline void IStdSolidProtrusionRevolveFeature::PutStartAngle ( double pVal ) {
+    HRESULT _hr = put_StartAngle(pVal);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+}
+
+inline enum StdRevolveEndType IStdSolidProtrusionRevolveFeature::GetEndCondition ( ) {
+    enum StdRevolveEndType _result;
+    HRESULT _hr = get_EndCondition(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _result;
+}
+
+inline double IStdSolidProtrusionRevolveFeature::GetEndAngle ( ) {
+    double _result = 0;
+    HRESULT _hr = get_EndAngle(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _result;
+}
+
+inline void IStdSolidProtrusionRevolveFeature::PutEndAngle ( double pVal ) {
+    HRESULT _hr = put_EndAngle(pVal);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+}
+
+//
+// interface IStdSolidCutRevolveFeature wrapper method implementations
+//
+
+inline IReferencePtr IStdSolidCutRevolveFeature::GetProfileSketch ( ) {
+    struct IReference * _result = 0;
+    HRESULT _hr = get_ProfileSketch(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return IReferencePtr(_result, false);
+}
+
+inline void IStdSolidCutRevolveFeature::PutProfileSketch ( struct IReference * ppVal ) {
+    HRESULT _hr = put_ProfileSketch(ppVal);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+}
+
+inline VARIANT_BOOL IStdSolidCutRevolveFeature::GetIsFlip ( ) {
+    VARIANT_BOOL _result = 0;
+    HRESULT _hr = get_IsFlip(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _result;
+}
+
+inline void IStdSolidCutRevolveFeature::PutIsFlip ( VARIANT_BOOL pVal ) {
+    HRESULT _hr = put_IsFlip(pVal);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+}
+
+inline enum StdRevolveEndType IStdSolidCutRevolveFeature::GetStartCondition ( ) {
+    enum StdRevolveEndType _result;
+    HRESULT _hr = get_StartCondition(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _result;
+}
+
+inline double IStdSolidCutRevolveFeature::GetStartAngle ( ) {
+    double _result = 0;
+    HRESULT _hr = get_StartAngle(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _result;
+}
+
+inline void IStdSolidCutRevolveFeature::PutStartAngle ( double pVal ) {
+    HRESULT _hr = put_StartAngle(pVal);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+}
+
+inline enum StdRevolveEndType IStdSolidCutRevolveFeature::GetEndCondition ( ) {
+    enum StdRevolveEndType _result;
+    HRESULT _hr = get_EndCondition(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _result;
+}
+
+inline double IStdSolidCutRevolveFeature::GetEndAngle ( ) {
+    double _result = 0;
+    HRESULT _hr = get_EndAngle(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _result;
+}
+
+inline void IStdSolidCutRevolveFeature::PutEndAngle ( double pVal ) {
+    HRESULT _hr = put_EndAngle(pVal);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+}
+
+//
+// interface IStdSolidOperatePatternRectangularFeature wrapper method implementations
+//
+
+inline IReferencesPtr IStdSolidOperatePatternRectangularFeature::GetTargetFeatures ( ) {
+    struct IReferences * _result = 0;
+    HRESULT _hr = get_TargetFeatures(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return IReferencesPtr(_result, false);
+}
+
+inline void IStdSolidOperatePatternRectangularFeature::PutTargetFeatures ( struct IReferences * ppVal ) {
+    HRESULT _hr = put_TargetFeatures(ppVal);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+}
+
+inline double IStdSolidOperatePatternRectangularFeature::GetColumnSpacing ( ) {
+    double _result = 0;
+    HRESULT _hr = get_ColumnSpacing(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _result;
+}
+
+inline void IStdSolidOperatePatternRectangularFeature::PutColumnSpacing ( double pVal ) {
+    HRESULT _hr = put_ColumnSpacing(pVal);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+}
+
+inline void IStdSolidOperatePatternRectangularFeature::GetColumnDirection ( double * X, double * Y, double * z ) {
+    HRESULT _hr = get_ColumnDirection(X, Y, z);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+}
+
+inline int IStdSolidOperatePatternRectangularFeature::GetColumnNumber ( ) {
+    int _result = 0;
+    HRESULT _hr = get_ColumnNumber(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _result;
+}
+
+inline void IStdSolidOperatePatternRectangularFeature::PutColumnNumber ( int pVal ) {
+    HRESULT _hr = put_ColumnNumber(pVal);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+}
+
+inline double IStdSolidOperatePatternRectangularFeature::GetRowSpacing ( ) {
+    double _result = 0;
+    HRESULT _hr = get_RowSpacing(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _result;
+}
+
+inline void IStdSolidOperatePatternRectangularFeature::PutRowSpacing ( double pVal ) {
+    HRESULT _hr = put_RowSpacing(pVal);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+}
+
+inline void IStdSolidOperatePatternRectangularFeature::GetRowDirection ( double * X, double * Y, double * z ) {
+    HRESULT _hr = get_RowDirection(X, Y, z);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+}
+
+inline int IStdSolidOperatePatternRectangularFeature::GetRowNumber ( ) {
+    int _result = 0;
+    HRESULT _hr = get_RowNumber(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _result;
+}
+
+inline void IStdSolidOperatePatternRectangularFeature::PutRowNumber ( int pVal ) {
+    HRESULT _hr = put_RowNumber(pVal);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+}
+
+inline HRESULT IStdSolidOperatePatternRectangularFeature::PutColumnDirection ( double X, double Y, double z ) {
+    HRESULT _hr = raw_PutColumnDirection(X, Y, z);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _hr;
+}
+
+inline HRESULT IStdSolidOperatePatternRectangularFeature::PutRowDirection ( double X, double Y, double z ) {
+    HRESULT _hr = raw_PutRowDirection(X, Y, z);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _hr;
+}
+
+//
+// interface IStdSolidOperatePatternCircularFeature wrapper method implementations
+//
+
+inline IReferencesPtr IStdSolidOperatePatternCircularFeature::GetTargetFeatures ( ) {
+    struct IReferences * _result = 0;
+    HRESULT _hr = get_TargetFeatures(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return IReferencesPtr(_result, false);
+}
+
+inline void IStdSolidOperatePatternCircularFeature::PutTargetFeatures ( struct IReferences * ppVal ) {
+    HRESULT _hr = put_TargetFeatures(ppVal);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+}
+
+inline void IStdSolidOperatePatternCircularFeature::GetCenterAxis ( double * x1, double * y1, double * z1, double * x2, double * y2, double * z2 ) {
+    HRESULT _hr = get_CenterAxis(x1, y1, z1, x2, y2, z2);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+}
+
+inline int IStdSolidOperatePatternCircularFeature::GetAngleNumber ( ) {
+    int _result = 0;
+    HRESULT _hr = get_AngleNumber(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _result;
+}
+
+inline void IStdSolidOperatePatternCircularFeature::PutAngleNumber ( int pVal ) {
+    HRESULT _hr = put_AngleNumber(pVal);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+}
+
+inline double IStdSolidOperatePatternCircularFeature::GetAngleIncrement ( ) {
+    double _result = 0;
+    HRESULT _hr = get_AngleIncrement(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _result;
+}
+
+inline void IStdSolidOperatePatternCircularFeature::PutAngleIncrement ( double pVal ) {
+    HRESULT _hr = put_AngleIncrement(pVal);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+}
+
+inline int IStdSolidOperatePatternCircularFeature::GetRadialNumber ( ) {
+    int _result = 0;
+    HRESULT _hr = get_RadialNumber(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _result;
+}
+
+inline void IStdSolidOperatePatternCircularFeature::PutRadialNumber ( int pVal ) {
+    HRESULT _hr = put_RadialNumber(pVal);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+}
+
+inline double IStdSolidOperatePatternCircularFeature::GetRadialSpacing ( ) {
+    double _result = 0;
+    HRESULT _hr = get_RadialSpacing(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _result;
+}
+
+inline void IStdSolidOperatePatternCircularFeature::PutRadialSpacing ( double pVal ) {
+    HRESULT _hr = put_RadialSpacing(pVal);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+}
+
+inline VARIANT_BOOL IStdSolidOperatePatternCircularFeature::GetIsRadialAnignment ( ) {
+    VARIANT_BOOL _result = 0;
+    HRESULT _hr = get_IsRadialAnignment(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _result;
+}
+
+inline void IStdSolidOperatePatternCircularFeature::PutIsRadialAnignment ( VARIANT_BOOL pVal ) {
+    HRESULT _hr = put_IsRadialAnignment(pVal);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+}
+
+inline HRESULT IStdSolidOperatePatternCircularFeature::PutCenterAxis ( double x1, double y1, double z1, double x2, double y2, double z2 ) {
+    HRESULT _hr = raw_PutCenterAxis(x1, y1, z1, x2, y2, z2);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _hr;
+}
+
+//
+// interface IStdSolidHoleCounterboredFeature wrapper method implementations
+//
+
+inline IReferencePtr IStdSolidHoleCounterboredFeature::GetTargetFace ( ) {
+    struct IReference * _result = 0;
+    HRESULT _hr = get_TargetFace(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return IReferencePtr(_result, false);
+}
+
+inline void IStdSolidHoleCounterboredFeature::PutTargetFace ( struct IReference * ppVal ) {
+    HRESULT _hr = put_TargetFace(ppVal);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+}
+
+inline void IStdSolidHoleCounterboredFeature::GetCenterPoint ( double * cx, double * cy, double * cz ) {
+    HRESULT _hr = get_CenterPoint(cx, cy, cz);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+}
+
+inline double IStdSolidHoleCounterboredFeature::GetStartRadius ( ) {
+    double _result = 0;
+    HRESULT _hr = get_StartRadius(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _result;
+}
+
+inline void IStdSolidHoleCounterboredFeature::PutStartRadius ( double pVal ) {
+    HRESULT _hr = put_StartRadius(pVal);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+}
+
+inline double IStdSolidHoleCounterboredFeature::GetStartDepth ( ) {
+    double _result = 0;
+    HRESULT _hr = get_StartDepth(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _result;
+}
+
+inline void IStdSolidHoleCounterboredFeature::PutStartDepth ( double pVal ) {
+    HRESULT _hr = put_StartDepth(pVal);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+}
+
+inline double IStdSolidHoleCounterboredFeature::GetEndRadius ( ) {
+    double _result = 0;
+    HRESULT _hr = get_EndRadius(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _result;
+}
+
+inline void IStdSolidHoleCounterboredFeature::PutEndRadius ( double pVal ) {
+    HRESULT _hr = put_EndRadius(pVal);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+}
+
+inline double IStdSolidHoleCounterboredFeature::GetEndDepth ( ) {
+    double _result = 0;
+    HRESULT _hr = get_EndDepth(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _result;
+}
+
+inline void IStdSolidHoleCounterboredFeature::PutEndDepth ( double pVal ) {
+    HRESULT _hr = put_EndDepth(pVal);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+}
+
+inline double IStdSolidHoleCounterboredFeature::GetAngle ( ) {
+    double _result = 0;
+    HRESULT _hr = get_Angle(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _result;
+}
+
+inline void IStdSolidHoleCounterboredFeature::PutAngle ( double pVal ) {
+    HRESULT _hr = put_Angle(pVal);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+}
+
+inline HRESULT IStdSolidHoleCounterboredFeature::PutCenterPoint ( double cx, double cy, double cz ) {
+    HRESULT _hr = raw_PutCenterPoint(cx, cy, cz);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _hr;
+}
+
+//
+// interface IStdSolidHoleCountersunkFeature wrapper method implementations
+//
+
+inline IReferencePtr IStdSolidHoleCountersunkFeature::GetTargetFace ( ) {
+    struct IReference * _result = 0;
+    HRESULT _hr = get_TargetFace(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return IReferencePtr(_result, false);
+}
+
+inline void IStdSolidHoleCountersunkFeature::PutTargetFace ( struct IReference * ppVal ) {
+    HRESULT _hr = put_TargetFace(ppVal);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+}
+
+inline void IStdSolidHoleCountersunkFeature::GetCenterPoint ( double * cx, double * cy, double * cz ) {
+    HRESULT _hr = get_CenterPoint(cx, cy, cz);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+}
+
+inline double IStdSolidHoleCountersunkFeature::GetRadius ( ) {
+    double _result = 0;
+    HRESULT _hr = get_Radius(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _result;
+}
+
+inline void IStdSolidHoleCountersunkFeature::PutRadius ( double pVal ) {
+    HRESULT _hr = put_Radius(pVal);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+}
+
+inline double IStdSolidHoleCountersunkFeature::GetDepth ( ) {
+    double _result = 0;
+    HRESULT _hr = get_Depth(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _result;
+}
+
+inline void IStdSolidHoleCountersunkFeature::PutDepth ( double pVal ) {
+    HRESULT _hr = put_Depth(pVal);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+}
+
+inline double IStdSolidHoleCountersunkFeature::GetSinkRadius ( ) {
+    double _result = 0;
+    HRESULT _hr = get_SinkRadius(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _result;
+}
+
+inline void IStdSolidHoleCountersunkFeature::PutSinkRadius ( double pVal ) {
+    HRESULT _hr = put_SinkRadius(pVal);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+}
+
+inline double IStdSolidHoleCountersunkFeature::GetSinkAngle ( ) {
+    double _result = 0;
+    HRESULT _hr = get_SinkAngle(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _result;
+}
+
+inline void IStdSolidHoleCountersunkFeature::PutSinkAngle ( double pVal ) {
+    HRESULT _hr = put_SinkAngle(pVal);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+}
+
+inline double IStdSolidHoleCountersunkFeature::GetBottomAngle ( ) {
+    double _result = 0;
+    HRESULT _hr = get_BottomAngle(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _result;
+}
+
+inline void IStdSolidHoleCountersunkFeature::PutBottomAngle ( double pVal ) {
+    HRESULT _hr = put_BottomAngle(pVal);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+}
+
+inline HRESULT IStdSolidHoleCountersunkFeature::PutCenterPoint ( double cx, double cy, double cz ) {
+    HRESULT _hr = raw_PutCenterPoint(cx, cy, cz);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _hr;
+}
+
+//
+// interface IStdDatumPlaneOffsetFeature wrapper method implementations
+//
+
+inline IReferencePtr IStdDatumPlaneOffsetFeature::GetSelectedPlane ( ) {
+    struct IReference * _result = 0;
+    HRESULT _hr = get_SelectedPlane(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return IReferencePtr(_result, false);
+}
+
+inline void IStdDatumPlaneOffsetFeature::PutSelectedPlane ( struct IReference * ppVal ) {
+    HRESULT _hr = put_SelectedPlane(ppVal);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+}
+
+inline VARIANT_BOOL IStdDatumPlaneOffsetFeature::GetIsFlip ( ) {
+    VARIANT_BOOL _result = 0;
+    HRESULT _hr = get_IsFlip(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _result;
+}
+
+inline void IStdDatumPlaneOffsetFeature::PutIsFlip ( VARIANT_BOOL pVal ) {
+    HRESULT _hr = put_IsFlip(pVal);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+}
+
+inline double IStdDatumPlaneOffsetFeature::GetDistance ( ) {
+    double _result = 0;
+    HRESULT _hr = get_Distance(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _result;
+}
+
+inline void IStdDatumPlaneOffsetFeature::PutDistance ( double pVal ) {
+    HRESULT _hr = put_Distance(pVal);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+}
+
+inline VARIANT_BOOL IStdDatumPlaneOffsetFeature::GetIsFree ( ) {
+    VARIANT_BOOL _result = 0;
+    HRESULT _hr = get_IsFree(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _result;
+}
+
+inline void IStdDatumPlaneOffsetFeature::GetOrigin ( double * ox, double * oy, double * oz ) {
+    HRESULT _hr = get_Origin(ox, oy, oz);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+}
+
+inline void IStdDatumPlaneOffsetFeature::GetXDirection ( double * xx, double * xy, double * xz ) {
+    HRESULT _hr = get_XDirection(xx, xy, xz);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+}
+
+inline void IStdDatumPlaneOffsetFeature::GetYDirection ( double * yx, double * yy, double * yz ) {
+    HRESULT _hr = get_YDirection(yx, yy, yz);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+}
+
+inline HRESULT IStdDatumPlaneOffsetFeature::PutOrigin ( double ox, double oy, double oz ) {
+    HRESULT _hr = raw_PutOrigin(ox, oy, oz);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _hr;
+}
+
+inline HRESULT IStdDatumPlaneOffsetFeature::PutXDirection ( double xx, double xy, double xz ) {
+    HRESULT _hr = raw_PutXDirection(xx, xy, xz);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _hr;
+}
+
+inline HRESULT IStdDatumPlaneOffsetFeature::PutYDirection ( double yx, double yy, double yz ) {
+    HRESULT _hr = raw_PutYDirection(yx, yy, yz);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _hr;
+}
+
+//
+// interface IStdSolidLoftFacesFeature wrapper method implementations
+//
+
+inline IReferencePtr IStdSolidLoftFacesFeature::GetFace1 ( ) {
+    struct IReference * _result = 0;
+    HRESULT _hr = get_Face1(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return IReferencePtr(_result, false);
+}
+
+inline double IStdSolidLoftFacesFeature::GetParam1 ( ) {
+    double _result = 0;
+    HRESULT _hr = get_Param1(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _result;
+}
+
+inline IReferencePtr IStdSolidLoftFacesFeature::GetFace2 ( ) {
+    struct IReference * _result = 0;
+    HRESULT _hr = get_Face2(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return IReferencePtr(_result, false);
+}
+
+inline double IStdSolidLoftFacesFeature::GetParam2 ( ) {
+    double _result = 0;
+    HRESULT _hr = get_Param2(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _result;
+}
+
+//
+// interface IStdSolidLoftSectionsFeature wrapper method implementations
+//
+
+inline IReferencesPtr IStdSolidLoftSectionsFeature::GetReferences ( ) {
+    struct IReferences * _result = 0;
+    HRESULT _hr = get_References(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return IReferencesPtr(_result, false);
+}
+
+inline VARIANT_BOOL IStdSolidLoftSectionsFeature::GetIsCut ( ) {
+    VARIANT_BOOL _result = 0;
+    HRESULT _hr = get_IsCut(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _result;
+}
+
+//
+// interface IStdSolidCutSweepFeature wrapper method implementations
+//
+
+inline IReferencePtr IStdSolidCutSweepFeature::GetProfileSketch ( ) {
+    struct IReference * _result = 0;
+    HRESULT _hr = get_ProfileSketch(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return IReferencePtr(_result, false);
+}
+
+inline void IStdSolidCutSweepFeature::PutProfileSketch ( struct IReference * ppVal ) {
+    HRESULT _hr = put_ProfileSketch(ppVal);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+}
+
+inline IReferencePtr IStdSolidCutSweepFeature::GetGuideCurve ( ) {
+    struct IReference * _result = 0;
+    HRESULT _hr = get_GuideCurve(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return IReferencePtr(_result, false);
+}
+
+inline void IStdSolidCutSweepFeature::PutGuideCurve ( struct IReference * ppVal ) {
+    HRESULT _hr = put_GuideCurve(ppVal);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+}
+
+//
+// interface IStdSolidHoleSimpleFeature wrapper method implementations
+//
+
+inline IReferencePtr IStdSolidHoleSimpleFeature::GetTargetFace ( ) {
+    struct IReference * _result = 0;
+    HRESULT _hr = get_TargetFace(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return IReferencePtr(_result, false);
+}
+
+inline void IStdSolidHoleSimpleFeature::PutTargetFace ( struct IReference * ppVal ) {
+    HRESULT _hr = put_TargetFace(ppVal);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+}
+
+inline void IStdSolidHoleSimpleFeature::GetCenterPoint ( double * cx, double * cy, double * cz ) {
+    HRESULT _hr = get_CenterPoint(cx, cy, cz);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+}
+
+inline double IStdSolidHoleSimpleFeature::GetRadius ( ) {
+    double _result = 0;
+    HRESULT _hr = get_Radius(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _result;
+}
+
+inline void IStdSolidHoleSimpleFeature::PutRadius ( double pVal ) {
+    HRESULT _hr = put_Radius(pVal);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+}
+
+inline double IStdSolidHoleSimpleFeature::GetDepth ( ) {
+    double _result = 0;
+    HRESULT _hr = get_Depth(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _result;
+}
+
+inline void IStdSolidHoleSimpleFeature::PutDepth ( double pVal ) {
+    HRESULT _hr = put_Depth(pVal);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+}
+
+inline HRESULT IStdSolidHoleSimpleFeature::PutCenterPoint ( double cx, double cy, double cz ) {
+    HRESULT _hr = raw_PutCenterPoint(cx, cy, cz);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _hr;
+}
+
+//
+// interface IStdSolidShellFeature wrapper method implementations
+//
+
+inline IReferencesPtr IStdSolidShellFeature::GetTargetFaces ( ) {
+    struct IReferences * _result = 0;
+    HRESULT _hr = get_TargetFaces(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return IReferencesPtr(_result, false);
+}
+
+inline void IStdSolidShellFeature::PutTargetFaces ( struct IReferences * ppVal ) {
+    HRESULT _hr = put_TargetFaces(ppVal);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+}
+
+inline double IStdSolidShellFeature::GetInnerThickness ( ) {
+    double _result = 0;
+    HRESULT _hr = get_InnerThickness(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _result;
+}
+
+inline void IStdSolidShellFeature::PutInnerThickness ( double pVal ) {
+    HRESULT _hr = put_InnerThickness(pVal);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+}
+
+inline double IStdSolidShellFeature::GetOuterThickness ( ) {
+    double _result = 0;
+    HRESULT _hr = get_OuterThickness(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _result;
+}
+
+inline void IStdSolidShellFeature::PutOuterThickness ( double pVal ) {
+    HRESULT _hr = put_OuterThickness(pVal);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+}
+
+//
+// interface IStdSolidRevolveWithExternalAxisFeature wrapper method implementations
+//
+
+inline IReferencePtr IStdSolidRevolveWithExternalAxisFeature::GetProfileSketch ( ) {
+    struct IReference * _result = 0;
+    HRESULT _hr = get_ProfileSketch(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return IReferencePtr(_result, false);
+}
+
+inline void IStdSolidRevolveWithExternalAxisFeature::PutProfileSketch ( struct IReference * ppVal ) {
+    HRESULT _hr = put_ProfileSketch(ppVal);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+}
+
+inline double IStdSolidRevolveWithExternalAxisFeature::GetStartAngle ( ) {
+    double _result = 0;
+    HRESULT _hr = get_StartAngle(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _result;
+}
+
+inline void IStdSolidRevolveWithExternalAxisFeature::PutStartAngle ( double pVal ) {
+    HRESULT _hr = put_StartAngle(pVal);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+}
+
+inline enum StdRevolveEndType IStdSolidRevolveWithExternalAxisFeature::GetStartCondition ( ) {
+    enum StdRevolveEndType _result;
+    HRESULT _hr = get_StartCondition(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _result;
+}
+
+inline double IStdSolidRevolveWithExternalAxisFeature::GetEndAngle ( ) {
+    double _result = 0;
+    HRESULT _hr = get_EndAngle(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _result;
+}
+
+inline void IStdSolidRevolveWithExternalAxisFeature::PutEndAngle ( double pVal ) {
+    HRESULT _hr = put_EndAngle(pVal);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+}
+
+inline enum StdRevolveEndType IStdSolidRevolveWithExternalAxisFeature::GetEndCondition ( ) {
+    enum StdRevolveEndType _result;
+    HRESULT _hr = get_EndCondition(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _result;
+}
+
+inline VARIANT_BOOL IStdSolidRevolveWithExternalAxisFeature::GetIsFlip ( ) {
+    VARIANT_BOOL _result = 0;
+    HRESULT _hr = get_IsFlip(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _result;
+}
+
+inline void IStdSolidRevolveWithExternalAxisFeature::PutIsFlip ( VARIANT_BOOL pVal ) {
+    HRESULT _hr = put_IsFlip(pVal);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+}
+
+inline VARIANT_BOOL IStdSolidRevolveWithExternalAxisFeature::GetIsCut ( ) {
+    VARIANT_BOOL _result = 0;
+    HRESULT _hr = get_IsCut(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _result;
+}
+
+inline void IStdSolidRevolveWithExternalAxisFeature::PutIsCut ( VARIANT_BOOL pVal ) {
+    HRESULT _hr = put_IsCut(pVal);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+}
+
+inline void IStdSolidRevolveWithExternalAxisFeature::GetRevolveAxis ( double * orgX, double * orgY, double * orgZ, double * dirX, double * dirY, double * dirZ ) {
+    HRESULT _hr = get_RevolveAxis(orgX, orgY, orgZ, dirX, dirY, dirZ);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+}
+
+inline HRESULT IStdSolidRevolveWithExternalAxisFeature::PutRevolveAxis ( double orgX, double orgY, double orgZ, double dirX, double dirY, double dirZ ) {
+    HRESULT _hr = raw_PutRevolveAxis(orgX, orgY, orgZ, dirX, dirY, dirZ);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _hr;
+}
+
+//
+// interface IStdSolidDraftFeature wrapper method implementations
+//
+
+inline IReferencesPtr IStdSolidDraftFeature::GetTargetFaces ( ) {
+    struct IReferences * _result = 0;
+    HRESULT _hr = get_TargetFaces(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return IReferencesPtr(_result, false);
+}
+
+inline void IStdSolidDraftFeature::PutTargetFaces ( struct IReferences * ppVal ) {
+    HRESULT _hr = put_TargetFaces(ppVal);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+}
+
+inline double IStdSolidDraftFeature::GetDraftAngle ( ) {
+    double _result = 0;
+    HRESULT _hr = get_DraftAngle(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _result;
+}
+
+inline void IStdSolidDraftFeature::PutDraftAngle ( double pVal ) {
+    HRESULT _hr = put_DraftAngle(pVal);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+}
+
+inline void IStdSolidDraftFeature::GetPullingDirection ( double * orgX, double * orgY, double * orgZ, double * dirX, double * dirY, double * dirZ ) {
+    HRESULT _hr = get_PullingDirection(orgX, orgY, orgZ, dirX, dirY, dirZ);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+}
+
+inline HRESULT IStdSolidDraftFeature::PutPullingDirection ( double orgX, double orgY, double orgZ, double dirX, double dirY, double dirZ ) {
+    HRESULT _hr = raw_PutPullingDirection(orgX, orgY, orgZ, dirX, dirY, dirZ);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _hr;
+}
+
+//
+// interface IStdSolidOffsetFeature wrapper method implementations
+//
+
+inline IReferencesPtr IStdSolidOffsetFeature::GetTargetFaces ( ) {
+    struct IReferences * _result = 0;
+    HRESULT _hr = get_TargetFaces(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return IReferencesPtr(_result, false);
+}
+
+inline void IStdSolidOffsetFeature::PutTargetFaces ( struct IReferences * ppVal ) {
+    HRESULT _hr = put_TargetFaces(ppVal);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+}
+
+inline double IStdSolidOffsetFeature::GetOffsetThickness ( ) {
+    double _result = 0;
+    HRESULT _hr = get_OffsetThickness(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _result;
+}
+
+inline void IStdSolidOffsetFeature::PutOffsetThickness ( double pVal ) {
+    HRESULT _hr = put_OffsetThickness(pVal);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+}
+
+//
+// interface IStdSolidImportedBrepFeature wrapper method implementations
+//
+
+inline _bstr_t IStdSolidImportedBrepFeature::GetFilePath ( ) {
+    BSTR _result = 0;
+    HRESULT _hr = get_FilePath(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _bstr_t(_result, false);
+}
+
+//
+// interface IStdAssemConstraint wrapper method implementations
+//
+
+inline IApplicationPtr IStdAssemConstraint::GetApplication ( ) {
+    struct IApplication * _result = 0;
+    HRESULT _hr = get_Application(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return IApplicationPtr(_result, false);
+}
+
+inline IDispatchPtr IStdAssemConstraint::GetParent ( ) {
+    IDispatch * _result = 0;
+    HRESULT _hr = get_Parent(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return IDispatchPtr(_result, false);
+}
+
+inline enum StdAssemblyConstraintType IStdAssemConstraint::GetType ( ) {
+    enum StdAssemblyConstraintType _result;
+    HRESULT _hr = get_Type(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _result;
+}
+
+inline _bstr_t IStdAssemConstraint::GetName ( ) {
+    BSTR _result = 0;
+    HRESULT _hr = get_Name(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _bstr_t(_result, false);
+}
+
+inline HRESULT IStdAssemConstraint::SetName ( _bstr_t pVal ) {
+    HRESULT _hr = raw_SetName(pVal);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _hr;
+}
+
+//
+// interface IDocs wrapper method implementations
+//
+
+inline IApplicationPtr IDocs::GetApplication ( ) {
+    struct IApplication * _result = 0;
+    HRESULT _hr = get_Application(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return IApplicationPtr(_result, false);
+}
+
+inline IDispatchPtr IDocs::GetParent ( ) {
+    IDispatch * _result = 0;
+    HRESULT _hr = get_Parent(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return IDispatchPtr(_result, false);
+}
+
+inline long IDocs::GetCount ( ) {
+    long _result = 0;
+    HRESULT _hr = get_Count(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _result;
+}
+
+inline IDocPtr IDocs::GetItem ( long index ) {
+    struct IDoc * _result = 0;
+    HRESULT _hr = get_Item(index, &_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return IDocPtr(_result, false);
+}
+
+inline IUnknownPtr IDocs::Get_NewEnum ( ) {
+    IUnknown * _result = 0;
+    HRESULT _hr = get__NewEnum(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return IUnknownPtr(_result, false);
+}
+
+inline IPartDocumentPtr IDocs::AddPartDocument ( ) {
+    struct IPartDocument * _result = 0;
+    HRESULT _hr = raw_AddPartDocument(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return IPartDocumentPtr(_result, false);
+}
+
+inline IAssemDocumentPtr IDocs::AddAssemDocument ( ) {
+    struct IAssemDocument * _result = 0;
+    HRESULT _hr = raw_AddAssemDocument(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return IAssemDocumentPtr(_result, false);
+}
+
+inline HRESULT IDocs::Close ( ) {
+    HRESULT _hr = raw_Close();
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _hr;
+}
+
+inline IPartDocumentPtr IDocs::Open ( _bstr_t filename ) {
+    struct IPartDocument * _result = 0;
+    HRESULT _hr = raw_Open(filename, &_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return IPartDocumentPtr(_result, false);
+}
+
+//
+// interface IPartDocument wrapper method implementations
+//
+
+inline IPartPtr IPartDocument::GetPart ( ) {
+    struct IPart * _result = 0;
+    HRESULT _hr = get_Part(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return IPartPtr(_result, false);
+}
+
+inline HRESULT IPartDocument::Update ( ) {
+    HRESULT _hr = raw_Update();
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _hr;
+}
+
+inline _bstr_t IPartDocument::GetTitle ( ) {
+    BSTR _result = 0;
+    HRESULT _hr = get_Title(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _bstr_t(_result, false);
+}
+
+inline HRESULT IPartDocument::DoMeshGeneration ( double normalTolerance, double surfaceTolerance ) {
+    HRESULT _hr = raw_DoMeshGeneration(normalTolerance, surfaceTolerance);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _hr;
+}
+
+inline HRESULT IPartDocument::GetBBDiagonal ( ) {
+    HRESULT _hr = raw_GetBBDiagonal();
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _hr;
+}
+
+inline HRESULT IPartDocument::ImportFromCATIA ( _bstr_t FilePath ) {
+    HRESULT _hr = raw_ImportFromCATIA(FilePath);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _hr;
+}
+
+inline HRESULT IPartDocument::ExportToCATIA ( _bstr_t FilePath ) {
+    HRESULT _hr = raw_ExportToCATIA(FilePath);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _hr;
+}
+
+inline HRESULT IPartDocument::ImportFromUG ( _bstr_t FilePath ) {
+    HRESULT _hr = raw_ImportFromUG(FilePath);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _hr;
+}
+
+inline HRESULT IPartDocument::ExportToUG ( _bstr_t FilePath ) {
+    HRESULT _hr = raw_ExportToUG(FilePath);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _hr;
+}
+
+inline HRESULT IPartDocument::ExportToMesh ( _bstr_t FilePath ) {
+    HRESULT _hr = raw_ExportToMesh(FilePath);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _hr;
+}
+
+inline HRESULT IPartDocument::ExportToBrep ( _bstr_t FilePath ) {
+    HRESULT _hr = raw_ExportToBrep(FilePath);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _hr;
+}
+
+inline HRESULT IPartDocument::ExportToXML ( _bstr_t FilePath ) {
+    HRESULT _hr = raw_ExportToXML(FilePath);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _hr;
+}
+
+inline HRESULT IPartDocument::ImportFromXML ( _bstr_t FilePath ) {
+    HRESULT _hr = raw_ImportFromXML(FilePath);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _hr;
+}
+
+inline HRESULT IPartDocument::RunScriptInterface ( _bstr_t command ) {
+    HRESULT _hr = raw_RunScriptInterface(command);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _hr;
+}
+
+inline HRESULT IPartDocument::ImportFromBrep ( _bstr_t FilePath ) {
+    HRESULT _hr = raw_ImportFromBrep(FilePath);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _hr;
+}
+
+inline HRESULT IPartDocument::ConvertMesh ( _bstr_t sourcePath, _bstr_t targetPath ) {
+    HRESULT _hr = raw_ConvertMesh(sourcePath, targetPath);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _hr;
+}
+
+//
+// interface IPart wrapper method implementations
+//
+
+inline IApplicationPtr IPart::GetApplication ( ) {
+    struct IApplication * _result = 0;
+    HRESULT _hr = get_Application(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return IApplicationPtr(_result, false);
+}
+
+inline IDispatchPtr IPart::GetParent ( ) {
+    IDispatch * _result = 0;
+    HRESULT _hr = get_Parent(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return IDispatchPtr(_result, false);
+}
+
+inline _bstr_t IPart::GetName ( ) {
+    BSTR _result = 0;
+    HRESULT _hr = get_Name(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _bstr_t(_result, false);
+}
+
+inline IFeaturesPtr IPart::GetFeatures ( ) {
+    struct IFeatures * _result = 0;
+    HRESULT _hr = get_Features(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return IFeaturesPtr(_result, false);
+}
+
+inline IReferencesPtr IPart::CreateReferences ( ) {
+    struct IReferences * _result = 0;
+    HRESULT _hr = raw_CreateReferences(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return IReferencesPtr(_result, false);
+}
+
+inline IReferencePtr IPart::SelectObjectByName ( _bstr_t Name ) {
+    struct IReference * _result = 0;
+    HRESULT _hr = raw_SelectObjectByName(Name, &_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return IReferencePtr(_result, false);
+}
+
+inline IReferencePtr IPart::SelectBrepByName ( _bstr_t Name ) {
+    struct IReference * _result = 0;
+    HRESULT _hr = raw_SelectBrepByName(Name, &_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return IReferencePtr(_result, false);
+}
+
+inline IReferencePtr IPart::SelectPlaneByAxis ( double ox, double oy, double oz, double xx, double xy, double xz, double yx, double yy, double yz ) {
+    struct IReference * _result = 0;
+    HRESULT _hr = raw_SelectPlaneByAxis(ox, oy, oz, xx, xy, xz, yx, yy, yz, &_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return IReferencePtr(_result, false);
+}
+
+inline IReferencePtr IPart::SelectCurveBy3Points ( double startX, double startY, double startz, double endX, double endY, double endz, double curvex, double curvey, double curvez ) {
+    struct IReference * _result = 0;
+    HRESULT _hr = raw_SelectCurveBy3Points(startX, startY, startz, endX, endY, endz, curvex, curvey, curvez, &_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return IReferencePtr(_result, false);
+}
+
+inline IReferencePtr IPart::SelectFeatureByName ( _bstr_t Name ) {
+    struct IReference * _result = 0;
+    HRESULT _hr = raw_SelectFeatureByName(Name, &_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return IReferencePtr(_result, false);
+}
+
+inline IReferencePtr IPart::SelectCurveByPoint ( double curvex, double curvey, double curvez ) {
+    struct IReference * _result = 0;
+    HRESULT _hr = raw_SelectCurveByPoint(curvex, curvey, curvez, &_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return IReferencePtr(_result, false);
+}
+
+inline HRESULT IPart::set_Name ( _bstr_t pVal ) {
+    HRESULT _hr = raw_set_Name(pVal);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _hr;
+}
+
+inline HRESULT IPart::set_ParentName ( _bstr_t pVal ) {
+    HRESULT _hr = raw_set_ParentName(pVal);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _hr;
+}
+
+inline _bstr_t IPart::get_ParentName ( ) {
+    BSTR _result = 0;
+    HRESULT _hr = raw_get_ParentName(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _bstr_t(_result, false);
+}
+
+inline HRESULT IPart::LoadFromFile ( _bstr_t Name ) {
+    HRESULT _hr = raw_LoadFromFile(Name);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _hr;
+}
+
+inline VARIANT_BOOL IPart::IsBrepPart ( ) {
+    VARIANT_BOOL _result = 0;
+    HRESULT _hr = raw_IsBrepPart(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _result;
+}
+
+inline IReferencePtr IPart::SelectSketchSegmentByName ( _bstr_t Name ) {
+    struct IReference * _result = 0;
+    HRESULT _hr = raw_SelectSketchSegmentByName(Name, &_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return IReferencePtr(_result, false);
+}
+
+inline ISolidPtr IPart::GetSolid ( ) {
+    struct ISolid * _result = 0;
+    HRESULT _hr = get_Solid(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return ISolidPtr(_result, false);
+}
+
+//
+// interface IComp wrapper method implementations
+//
+
+inline HRESULT IComp::set_Name ( _bstr_t pVal ) {
+    HRESULT _hr = raw_set_Name(pVal);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _hr;
+}
+
+inline HRESULT IComp::set_ParentName ( _bstr_t pVal ) {
+    HRESULT _hr = raw_set_ParentName(pVal);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _hr;
+}
+
+inline _bstr_t IComp::get_Name ( ) {
+    BSTR _result = 0;
+    HRESULT _hr = raw_get_Name(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _bstr_t(_result, false);
+}
+
+inline _bstr_t IComp::get_ParentName ( ) {
+    BSTR _result = 0;
+    HRESULT _hr = raw_get_ParentName(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _bstr_t(_result, false);
+}
+
+inline IPartPtr IComp::GetPart ( int i ) {
+    struct IPart * _result = 0;
+    HRESULT _hr = raw_GetPart(i, &_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return IPartPtr(_result, false);
+}
+
+inline ICompPtr IComp::GetComponent ( int i ) {
+    struct IComp * _result = 0;
+    HRESULT _hr = raw_GetComponent(i, &_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return ICompPtr(_result, false);
+}
+
+inline HRESULT IComp::IsComponent ( int i, VARIANT_BOOL * pVal ) {
+    HRESULT _hr = raw_IsComponent(i, pVal);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _hr;
+}
+
+inline HRESULT IComp::IsPart ( int i, VARIANT_BOOL * pVal ) {
+    HRESULT _hr = raw_IsPart(i, pVal);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _hr;
+}
+
+inline HRESULT IComp::AddPart ( struct IPart * pVal ) {
+    HRESULT _hr = raw_AddPart(pVal);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _hr;
+}
+
+inline HRESULT IComp::AddComponent ( struct IComp * pVal ) {
+    HRESULT _hr = raw_AddComponent(pVal);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _hr;
+}
+
+inline int IComp::GetSize ( ) {
+    int _result = 0;
+    HRESULT _hr = raw_GetSize(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _result;
+}
+
+inline HRESULT IComp::GetPlacement ( double * ox, double * oy, double * oz, double * xx, double * xy, double * xz, double * yx, double * yy, double * yz ) {
+    HRESULT _hr = raw_GetPlacement(ox, oy, oz, xx, xy, xz, yx, yy, yz);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _hr;
+}
+
+inline HRESULT IComp::SetPlacement ( double ox, double oy, double oz, double zx, double zy, double zz, double xx, double xy, double xz ) {
+    HRESULT _hr = raw_SetPlacement(ox, oy, oz, zx, zy, zz, xx, xy, xz);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _hr;
+}
+
+inline HRESULT IComp::SaveAsMesh ( int i, _bstr_t Name ) {
+    HRESULT _hr = raw_SaveAsMesh(i, Name);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _hr;
+}
+
+inline IPartPtr IComp::CreatePart ( _bstr_t Name ) {
+    struct IPart * _result = 0;
+    HRESULT _hr = raw_CreatePart(Name, &_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return IPartPtr(_result, false);
+}
+
+inline IPartPtr IComp::ImportPartFromXML ( _bstr_t Path, struct IPart * pVal ) {
+    struct IPart * _result = 0;
+    HRESULT _hr = raw_ImportPartFromXML(Path, pVal, &_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return IPartPtr(_result, false);
+}
+
+inline HRESULT IComp::SetPartPlacement ( struct IPart * pVal, double ox, double oy, double oz, double zx, double zy, double zz, double xx, double xy, double xz ) {
+    HRESULT _hr = raw_SetPartPlacement(pVal, ox, oy, oz, zx, zy, zz, xx, xy, xz);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _hr;
+}
+
+//
+// interface IStdAssemConstraintCoaxial wrapper method implementations
+//
+
+inline IPartPtr IStdAssemConstraintCoaxial::GetConstrainedPart ( ) {
+    struct IPart * _result = 0;
+    HRESULT _hr = get_ConstrainedPart(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return IPartPtr(_result, false);
+}
+
+inline IReferencePtr IStdAssemConstraintCoaxial::GetConstrainedGeometry ( ) {
+    struct IReference * _result = 0;
+    HRESULT _hr = get_ConstrainedGeometry(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return IReferencePtr(_result, false);
+}
+
+inline IPartPtr IStdAssemConstraintCoaxial::GetReferencePart ( ) {
+    struct IPart * _result = 0;
+    HRESULT _hr = get_ReferencePart(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return IPartPtr(_result, false);
+}
+
+inline IReferencePtr IStdAssemConstraintCoaxial::GetReferenceGeometry ( ) {
+    struct IReference * _result = 0;
+    HRESULT _hr = get_ReferenceGeometry(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return IReferencePtr(_result, false);
+}
+
+//
+// interface IStdAssemConstraintIncidence wrapper method implementations
+//
+
+inline IPartPtr IStdAssemConstraintIncidence::GetConstrainedPart ( ) {
+    struct IPart * _result = 0;
+    HRESULT _hr = get_ConstrainedPart(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return IPartPtr(_result, false);
+}
+
+inline IReferencePtr IStdAssemConstraintIncidence::GetConstrainedGeometry ( ) {
+    struct IReference * _result = 0;
+    HRESULT _hr = get_ConstrainedGeometry(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return IReferencePtr(_result, false);
+}
+
+inline IPartPtr IStdAssemConstraintIncidence::GetReferencePart ( ) {
+    struct IPart * _result = 0;
+    HRESULT _hr = get_ReferencePart(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return IPartPtr(_result, false);
+}
+
+inline IReferencePtr IStdAssemConstraintIncidence::GetReferenceGeometry ( ) {
+    struct IReference * _result = 0;
+    HRESULT _hr = get_ReferenceGeometry(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return IReferencePtr(_result, false);
+}
+
+//
+// interface IStdAssemConstraints wrapper method implementations
+//
+
+inline long IStdAssemConstraints::GetCount ( ) {
+    long _result = 0;
+    HRESULT _hr = get_Count(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _result;
+}
+
+inline IStdAssemConstraintPtr IStdAssemConstraints::GetConstraint ( long index ) {
+    struct IStdAssemConstraint * _result = 0;
+    HRESULT _hr = get_Constraint(index, &_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return IStdAssemConstraintPtr(_result, false);
+}
+
+inline IStdAssemConstraintPtr IStdAssemConstraints::SelectConstraintByName ( _bstr_t Name ) {
+    struct IStdAssemConstraint * _result = 0;
+    HRESULT _hr = raw_SelectConstraintByName(Name, &_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return IStdAssemConstraintPtr(_result, false);
+}
+
+inline IStdAssemConstraintCoaxialPtr IStdAssemConstraints::AddNewAssemblyCoaxialConstraint ( _bstr_t Name, struct IPart * pConstrainedPart, struct IReference * pConstrainedGeometry, struct IPart * pReferencePart, struct IReference * pReferenceGeometry ) {
+    struct IStdAssemConstraintCoaxial * _result = 0;
+    HRESULT _hr = raw_AddNewAssemblyCoaxialConstraint(Name, pConstrainedPart, pConstrainedGeometry, pReferencePart, pReferenceGeometry, &_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return IStdAssemConstraintCoaxialPtr(_result, false);
+}
+
+inline IStdAssemConstraintIncidencePtr IStdAssemConstraints::AddNewAssemblyIncidenceConstraint ( _bstr_t Name, struct IPart * pConstrainedPart, struct IReference * pConstrainedGeometry, struct IPart * pReferencePart, struct IReference * pReferenceGeometry, enum StdAssemblyIncidenceType incidenceType ) {
+    struct IStdAssemConstraintIncidence * _result = 0;
+    HRESULT _hr = raw_AddNewAssemblyIncidenceConstraint(Name, pConstrainedPart, pConstrainedGeometry, pReferencePart, pReferenceGeometry, incidenceType, &_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return IStdAssemConstraintIncidencePtr(_result, false);
+}
+
+//
+// interface IAssem wrapper method implementations
+//
+
+inline IPartPtr IAssem::CreatePart ( ) {
+    struct IPart * _result = 0;
+    HRESULT _hr = raw_CreatePart(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return IPartPtr(_result, false);
+}
+
+inline ICompPtr IAssem::CreateComponent ( ) {
+    struct IComp * _result = 0;
+    HRESULT _hr = raw_CreateComponent(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return ICompPtr(_result, false);
+}
+
+inline HRESULT IAssem::AddComponent ( struct IComp * pVal ) {
+    HRESULT _hr = raw_AddComponent(pVal);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _hr;
+}
+
+inline ICompPtr IAssem::GetComponent ( int index ) {
+    struct IComp * _result = 0;
+    HRESULT _hr = raw_GetComponent(index, &_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return ICompPtr(_result, false);
+}
+
+inline int IAssem::GetSize ( ) {
+    int _result = 0;
+    HRESULT _hr = raw_GetSize(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _result;
+}
+
+inline _bstr_t IAssem::GetName ( ) {
+    BSTR _result = 0;
+    HRESULT _hr = get_Name(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _bstr_t(_result, false);
+}
+
+inline IStdAssemConstraintsPtr IAssem::GetConstraints ( ) {
+    struct IStdAssemConstraints * _result = 0;
+    HRESULT _hr = get_Constraints(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return IStdAssemConstraintsPtr(_result, false);
+}
+
+//
+// interface IAssemDocument wrapper method implementations
+//
+
+inline IAssemPtr IAssemDocument::GetAssem ( ) {
+    struct IAssem * _result = 0;
+    HRESULT _hr = get_Assem(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return IAssemPtr(_result, false);
+}
+
+inline HRESULT IAssemDocument::Update ( ) {
+    HRESULT _hr = raw_Update();
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _hr;
+}
+
+inline HRESULT IAssemDocument::test ( ) {
+    HRESULT _hr = raw_test();
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _hr;
+}
+
+//
+// interface IFeatures wrapper method implementations
+//
+
+inline IApplicationPtr IFeatures::GetApplication ( ) {
+    struct IApplication * _result = 0;
+    HRESULT _hr = get_Application(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return IApplicationPtr(_result, false);
+}
+
+inline IDispatchPtr IFeatures::GetParent ( ) {
+    IDispatch * _result = 0;
+    HRESULT _hr = get_Parent(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return IDispatchPtr(_result, false);
+}
+
+inline long IFeatures::GetCount ( ) {
+    long _result = 0;
+    HRESULT _hr = get_Count(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _result;
+}
+
+inline IFeaturePtr IFeatures::GetItem ( long index ) {
+    struct IFeature * _result = 0;
+    HRESULT _hr = get_Item(index, &_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return IFeaturePtr(_result, false);
+}
+
+inline IUnknownPtr IFeatures::Get_NewEnum ( ) {
+    IUnknown * _result = 0;
+    HRESULT _hr = get__NewEnum(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return IUnknownPtr(_result, false);
+}
+
+inline IStdSketchFeaturePtr IFeatures::AddNewSketchFeature ( _bstr_t Name, struct IReference * pSketchPlane ) {
+    struct IStdSketchFeature * _result = 0;
+    HRESULT _hr = raw_AddNewSketchFeature(Name, pSketchPlane, &_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return IStdSketchFeaturePtr(_result, false);
+}
+
+inline IStdSolidProtrusionExtrudeFeaturePtr IFeatures::AddNewSolidProtrusionExtrudeFeature ( _bstr_t Name, struct IReference * pProfileSketch, double StartDepth, enum StdExtrudeEndType StartCondition, double EndDepth, enum StdExtrudeEndType EndCondition, VARIANT_BOOL IsFlip ) {
+    struct IStdSolidProtrusionExtrudeFeature * _result = 0;
+    HRESULT _hr = raw_AddNewSolidProtrusionExtrudeFeature(Name, pProfileSketch, StartDepth, StartCondition, EndDepth, EndCondition, IsFlip, &_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return IStdSolidProtrusionExtrudeFeaturePtr(_result, false);
+}
+
+inline IStdSolidCutExtrudeFeaturePtr IFeatures::AddNewSolidCutExtrudeFeature ( _bstr_t Name, struct IReference * pProfileSketch, double StartDepth, enum StdExtrudeEndType StartCondition, double EndDepth, enum StdExtrudeEndType EndCondition, VARIANT_BOOL IsFlip ) {
+    struct IStdSolidCutExtrudeFeature * _result = 0;
+    HRESULT _hr = raw_AddNewSolidCutExtrudeFeature(Name, pProfileSketch, StartDepth, StartCondition, EndDepth, EndCondition, IsFlip, &_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return IStdSolidCutExtrudeFeaturePtr(_result, false);
+}
+
+inline IStdSolidFilletConstantFeaturePtr IFeatures::AddNewSolidFilletConstantFeature ( _bstr_t Name, struct IReferences * pfilletEdges, double Radius, enum PropagationType Propagation ) {
+    struct IStdSolidFilletConstantFeature * _result = 0;
+    HRESULT _hr = raw_AddNewSolidFilletConstantFeature(Name, pfilletEdges, Radius, Propagation, &_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return IStdSolidFilletConstantFeaturePtr(_result, false);
+}
+
+inline IStdSolidChamferFeaturePtr IFeatures::AddNewSolidChamferFeature ( _bstr_t Name, struct IReferences * pSelectedEdges, double Length ) {
+    struct IStdSolidChamferFeature * _result = 0;
+    HRESULT _hr = raw_AddNewSolidChamferFeature(Name, pSelectedEdges, Length, &_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return IStdSolidChamferFeaturePtr(_result, false);
+}
+
+inline IStdSolidProtrusionSweepFeaturePtr IFeatures::AddNewSolidProtrusionSweepFeature ( _bstr_t Name, struct IReference * pProfileSketch, struct IReference * pGuideCurve ) {
+    struct IStdSolidProtrusionSweepFeature * _result = 0;
+    HRESULT _hr = raw_AddNewSolidProtrusionSweepFeature(Name, pProfileSketch, pGuideCurve, &_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return IStdSolidProtrusionSweepFeaturePtr(_result, false);
+}
+
+inline IStdSolidProtrusionRevolveFeaturePtr IFeatures::AddNewSolidProtrusionRevolveFeature ( _bstr_t Name, struct IReference * pProfileSketch, double StartAngle, enum StdRevolveEndType StartCondition, double EndAngle, enum StdRevolveEndType EndCondition, VARIANT_BOOL IsFlip ) {
+    struct IStdSolidProtrusionRevolveFeature * _result = 0;
+    HRESULT _hr = raw_AddNewSolidProtrusionRevolveFeature(Name, pProfileSketch, StartAngle, StartCondition, EndAngle, EndCondition, IsFlip, &_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return IStdSolidProtrusionRevolveFeaturePtr(_result, false);
+}
+
+inline IStdSolidCutRevolveFeaturePtr IFeatures::AddNewSolidCutRevolveFeature ( _bstr_t Name, struct IReference * pProfileSketch, double StartAngle, enum StdRevolveEndType StartCondition, double EndAngle, enum StdRevolveEndType EndCondition, VARIANT_BOOL IsFlip ) {
+    struct IStdSolidCutRevolveFeature * _result = 0;
+    HRESULT _hr = raw_AddNewSolidCutRevolveFeature(Name, pProfileSketch, StartAngle, StartCondition, EndAngle, EndCondition, IsFlip, &_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return IStdSolidCutRevolveFeaturePtr(_result, false);
+}
+
+inline IStdSolidOperatePatternRectangularFeaturePtr IFeatures::AddNewSolidOperatePatternRectangularFeature ( _bstr_t Name, struct IReferences * pTargetFeatures, double ColumnSpacing, double colDirX, double colDirY, double colDirZ, int ColumnNumber, double RowSpacing, double rowDirX, double rowDirY, double rowDirZ, int RowNumber ) {
+    struct IStdSolidOperatePatternRectangularFeature * _result = 0;
+    HRESULT _hr = raw_AddNewSolidOperatePatternRectangularFeature(Name, pTargetFeatures, ColumnSpacing, colDirX, colDirY, colDirZ, ColumnNumber, RowSpacing, rowDirX, rowDirY, rowDirZ, RowNumber, &_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return IStdSolidOperatePatternRectangularFeaturePtr(_result, false);
+}
+
+inline IStdSolidOperatePatternCircularFeaturePtr IFeatures::AddNewSolidOperatePatternCircularFeature ( _bstr_t Name, struct IReferences * pTargetFeatures, double x1, double y1, double z1, double x2, double y2, double z2, int AngleNumber, double AngleIncrement, int RadialNumber, double RadialSpacing, VARIANT_BOOL radialAlignment ) {
+    struct IStdSolidOperatePatternCircularFeature * _result = 0;
+    HRESULT _hr = raw_AddNewSolidOperatePatternCircularFeature(Name, pTargetFeatures, x1, y1, z1, x2, y2, z2, AngleNumber, AngleIncrement, RadialNumber, RadialSpacing, radialAlignment, &_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return IStdSolidOperatePatternCircularFeaturePtr(_result, false);
+}
+
+inline IStdSolidHoleCounterboredFeaturePtr IFeatures::AddNewSolidHoleCounterboredFeature ( _bstr_t Name, struct IReference * pTargetFace, double cx, double cy, double cz, double StartRadius, double StartDepth, double EndRadius, double EndDepth, double Angle ) {
+    struct IStdSolidHoleCounterboredFeature * _result = 0;
+    HRESULT _hr = raw_AddNewSolidHoleCounterboredFeature(Name, pTargetFace, cx, cy, cz, StartRadius, StartDepth, EndRadius, EndDepth, Angle, &_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return IStdSolidHoleCounterboredFeaturePtr(_result, false);
+}
+
+inline IStdSolidHoleCountersunkFeaturePtr IFeatures::AddNewSolidHoleCountersunkFeature ( _bstr_t Name, struct IReference * pTargetFace, double cx, double cy, double cz, double Radius, double Depth, double SinkRadius, double SinkAngle, double BottomAngle ) {
+    struct IStdSolidHoleCountersunkFeature * _result = 0;
+    HRESULT _hr = raw_AddNewSolidHoleCountersunkFeature(Name, pTargetFace, cx, cy, cz, Radius, Depth, SinkRadius, SinkAngle, BottomAngle, &_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return IStdSolidHoleCountersunkFeaturePtr(_result, false);
+}
+
+inline IStdDatumPlaneOffsetFeaturePtr IFeatures::AddNewDatumPlaneOffsetFeature ( _bstr_t Name, struct IReference * pSelectedPlane, double Distance, VARIANT_BOOL IsFlip ) {
+    struct IStdDatumPlaneOffsetFeature * _result = 0;
+    HRESULT _hr = raw_AddNewDatumPlaneOffsetFeature(Name, pSelectedPlane, Distance, IsFlip, &_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return IStdDatumPlaneOffsetFeaturePtr(_result, false);
+}
+
+inline IStdDatumPlaneOffsetFeaturePtr IFeatures::AddNewDatumPlaneOffsetFeature2 ( _bstr_t Name, double ox, double oy, double oz, double xx, double xy, double xz, double yx, double yy, double yz, VARIANT_BOOL IsFlip ) {
+    struct IStdDatumPlaneOffsetFeature * _result = 0;
+    HRESULT _hr = raw_AddNewDatumPlaneOffsetFeature2(Name, ox, oy, oz, xx, xy, xz, yx, yy, yz, IsFlip, &_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return IStdDatumPlaneOffsetFeaturePtr(_result, false);
+}
+
+inline IStdSolidLoftFacesFeaturePtr IFeatures::AddNewSolidLoftFacesFeature ( _bstr_t Name, struct IReference * pFace1, double Param1, struct IReference * pFace2, double Param2 ) {
+    struct IStdSolidLoftFacesFeature * _result = 0;
+    HRESULT _hr = raw_AddNewSolidLoftFacesFeature(Name, pFace1, Param1, pFace2, Param2, &_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return IStdSolidLoftFacesFeaturePtr(_result, false);
+}
+
+inline IStdSolidLoftSectionsFeaturePtr IFeatures::AddNewSolidLoftSectionsFeature ( _bstr_t Name, struct IReferences * pLoftSections, VARIANT_BOOL IsCut ) {
+    struct IStdSolidLoftSectionsFeature * _result = 0;
+    HRESULT _hr = raw_AddNewSolidLoftSectionsFeature(Name, pLoftSections, IsCut, &_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return IStdSolidLoftSectionsFeaturePtr(_result, false);
+}
+
+inline IStdSolidCutSweepFeaturePtr IFeatures::AddNewSolidCutSweepFeature ( _bstr_t Name, struct IReference * pProfileSketch, struct IReference * pGuideCurve ) {
+    struct IStdSolidCutSweepFeature * _result = 0;
+    HRESULT _hr = raw_AddNewSolidCutSweepFeature(Name, pProfileSketch, pGuideCurve, &_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return IStdSolidCutSweepFeaturePtr(_result, false);
+}
+
+inline IStdSolidHoleSimpleFeaturePtr IFeatures::AddNewSolidHoleSimpleFeature ( _bstr_t Name, struct IReference * pTargetFace, double cx, double cy, double cz, double Radius, double Depth ) {
+    struct IStdSolidHoleSimpleFeature * _result = 0;
+    HRESULT _hr = raw_AddNewSolidHoleSimpleFeature(Name, pTargetFace, cx, cy, cz, Radius, Depth, &_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return IStdSolidHoleSimpleFeaturePtr(_result, false);
+}
+
+inline IStdSolidShellFeaturePtr IFeatures::AddNewSolidShellFeature ( _bstr_t Name, struct IReferences * pTargetFaces, double InnerThickness, double OuterThickness ) {
+    struct IStdSolidShellFeature * _result = 0;
+    HRESULT _hr = raw_AddNewSolidShellFeature(Name, pTargetFaces, InnerThickness, OuterThickness, &_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return IStdSolidShellFeaturePtr(_result, false);
+}
+
+inline IStdSolidRevolveWithExternalAxisFeaturePtr IFeatures::AddNewSolidRevolveWithExternalAxisFeature ( _bstr_t Name, struct IReference * pProfileSketch, double StartAngle, enum StdRevolveEndType StartCondition, double EndAngle, enum StdRevolveEndType EndCondition, double orgX, double orgY, double orgZ, double dirX, double dirY, double dirZ, VARIANT_BOOL IsCut, VARIANT_BOOL IsFlip ) {
+    struct IStdSolidRevolveWithExternalAxisFeature * _result = 0;
+    HRESULT _hr = raw_AddNewSolidRevolveWithExternalAxisFeature(Name, pProfileSketch, StartAngle, StartCondition, EndAngle, EndCondition, orgX, orgY, orgZ, dirX, dirY, dirZ, IsCut, IsFlip, &_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return IStdSolidRevolveWithExternalAxisFeaturePtr(_result, false);
+}
+
+inline HRESULT IFeatures::Delete ( long index ) {
+    HRESULT _hr = raw_Delete(index);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _hr;
+}
+
+inline HRESULT IFeatures::DeleteByName ( _bstr_t Name ) {
+    HRESULT _hr = raw_DeleteByName(Name);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _hr;
+}
+
+inline IStdSolidDraftFeaturePtr IFeatures::AddNewSolidDraftFeature ( _bstr_t Name, struct IReferences * pTargetFaces, double orgX, double orgY, double orgZ, double dirX, double dirY, double dirZ, double DraftAngle ) {
+    struct IStdSolidDraftFeature * _result = 0;
+    HRESULT _hr = raw_AddNewSolidDraftFeature(Name, pTargetFaces, orgX, orgY, orgZ, dirX, dirY, dirZ, DraftAngle, &_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return IStdSolidDraftFeaturePtr(_result, false);
+}
+
+inline IStdSolidOffsetFeaturePtr IFeatures::AddNewSolidOffsetFeature ( _bstr_t Name, struct IReferences * pTargetFaces, double OffsetThickness ) {
+    struct IStdSolidOffsetFeature * _result = 0;
+    HRESULT _hr = raw_AddNewSolidOffsetFeature(Name, pTargetFaces, OffsetThickness, &_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return IStdSolidOffsetFeaturePtr(_result, false);
+}
+
+inline IStdSolidImportedBrepFeaturePtr IFeatures::AddNewSolidImportedBrepFeature ( _bstr_t Name, _bstr_t FilePath ) {
+    struct IStdSolidImportedBrepFeature * _result = 0;
+    HRESULT _hr = raw_AddNewSolidImportedBrepFeature(Name, FilePath, &_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return IStdSolidImportedBrepFeaturePtr(_result, false);
+}
+
+//
+// interface IStdSketchFeature wrapper method implementations
+//
+
+inline IStdSketchOriginPtr IStdSketchFeature::GetOrigin ( ) {
+    struct IStdSketchOrigin * _result = 0;
+    HRESULT _hr = get_Origin(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return IStdSketchOriginPtr(_result, false);
+}
+
+inline IStdSketchHDirectionPtr IStdSketchFeature::GetHDirection ( ) {
+    struct IStdSketchHDirection * _result = 0;
+    HRESULT _hr = get_HDirection(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return IStdSketchHDirectionPtr(_result, false);
+}
+
+inline IStdSketchVDirectionPtr IStdSketchFeature::GetVDirection ( ) {
+    struct IStdSketchVDirection * _result = 0;
+    HRESULT _hr = get_VDirection(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return IStdSketchVDirectionPtr(_result, false);
+}
+
+inline IStdSketchGeometriesPtr IStdSketchFeature::GetGeometries ( ) {
+    struct IStdSketchGeometries * _result = 0;
+    HRESULT _hr = get_Geometries(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return IStdSketchGeometriesPtr(_result, false);
+}
+
+inline IStdSketchConstraintsPtr IStdSketchFeature::GetConstraints ( ) {
+    struct IStdSketchConstraints * _result = 0;
+    HRESULT _hr = get_Constraints(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return IStdSketchConstraintsPtr(_result, false);
+}
+
+inline ISketchPtr IStdSketchFeature::GetSketch ( ) {
+    struct ISketch * _result = 0;
+    HRESULT _hr = get_Sketch(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return ISketchPtr(_result, false);
+}
+
+inline IReferencePtr IStdSketchFeature::GetSketchPlane ( ) {
+    struct IReference * _result = 0;
+    HRESULT _hr = get_SketchPlane(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return IReferencePtr(_result, false);
+}
+
+inline VARIANT_BOOL IStdSketchFeature::GetIsInversed ( ) {
+    VARIANT_BOOL _result = 0;
+    HRESULT _hr = get_IsInversed(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _result;
+}
+
+inline ISketchEditorPtr IStdSketchFeature::OpenEditor ( ) {
+    struct ISketchEditor * _result = 0;
+    HRESULT _hr = raw_OpenEditor(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return ISketchEditorPtr(_result, false);
+}
+
+inline ISketchEditorPtr IStdSketchFeature::OpenEditorEx ( VARIANT_BOOL activateDcm ) {
+    struct ISketchEditor * _result = 0;
+    HRESULT _hr = raw_OpenEditorEx(activateDcm, &_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return ISketchEditorPtr(_result, false);
+}
+
+inline HRESULT IStdSketchFeature::SetCoordinateSystem ( double ox, double oy, double oz, double xx, double xy, double xz, double yx, double yy, double yz ) {
+    HRESULT _hr = raw_SetCoordinateSystem(ox, oy, oz, xx, xy, xz, yx, yy, yz);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _hr;
+}
+
+inline HRESULT IStdSketchFeature::GetCoordinateSystem ( double * ox, double * oy, double * oz, double * xx, double * xy, double * xz, double * yx, double * yy, double * yz ) {
+    HRESULT _hr = raw_GetCoordinateSystem(ox, oy, oz, xx, xy, xz, yx, yy, yz);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _hr;
+}
+
+inline HRESULT IStdSketchFeature::DeleteByName ( _bstr_t Name ) {
+    HRESULT _hr = raw_DeleteByName(Name);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _hr;
+}
+
+//
+// interface IStdSketchOrigin wrapper method implementations
+//
+
+inline IApplicationPtr IStdSketchOrigin::GetApplication ( ) {
+    struct IApplication * _result = 0;
+    HRESULT _hr = get_Application(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return IApplicationPtr(_result, false);
+}
+
+inline IDispatchPtr IStdSketchOrigin::GetParent ( ) {
+    IDispatch * _result = 0;
+    HRESULT _hr = get_Parent(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return IDispatchPtr(_result, false);
+}
+
+inline _bstr_t IStdSketchOrigin::GetName ( ) {
+    BSTR _result = 0;
+    HRESULT _hr = get_Name(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _bstr_t(_result, false);
+}
+
+inline IStdSketchFeaturePtr IStdSketchOrigin::GetSketchFeature ( ) {
+    struct IStdSketchFeature * _result = 0;
+    HRESULT _hr = get_SketchFeature(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return IStdSketchFeaturePtr(_result, false);
+}
+
+//
+// interface IStdSketchHDirection wrapper method implementations
+//
+
+inline IApplicationPtr IStdSketchHDirection::GetApplication ( ) {
+    struct IApplication * _result = 0;
+    HRESULT _hr = get_Application(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return IApplicationPtr(_result, false);
+}
+
+inline IDispatchPtr IStdSketchHDirection::GetParent ( ) {
+    IDispatch * _result = 0;
+    HRESULT _hr = get_Parent(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return IDispatchPtr(_result, false);
+}
+
+inline _bstr_t IStdSketchHDirection::GetName ( ) {
+    BSTR _result = 0;
+    HRESULT _hr = get_Name(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _bstr_t(_result, false);
+}
+
+inline IStdSketchFeaturePtr IStdSketchHDirection::GetSketchFeature ( ) {
+    struct IStdSketchFeature * _result = 0;
+    HRESULT _hr = get_SketchFeature(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return IStdSketchFeaturePtr(_result, false);
+}
+
+//
+// interface IStdSketchVDirection wrapper method implementations
+//
+
+inline IApplicationPtr IStdSketchVDirection::GetApplication ( ) {
+    struct IApplication * _result = 0;
+    HRESULT _hr = get_Application(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return IApplicationPtr(_result, false);
+}
+
+inline IDispatchPtr IStdSketchVDirection::GetParent ( ) {
+    IDispatch * _result = 0;
+    HRESULT _hr = get_Parent(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return IDispatchPtr(_result, false);
+}
+
+inline _bstr_t IStdSketchVDirection::GetName ( ) {
+    BSTR _result = 0;
+    HRESULT _hr = get_Name(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _bstr_t(_result, false);
+}
+
+inline IStdSketchFeaturePtr IStdSketchVDirection::GetSketchFeature ( ) {
+    struct IStdSketchFeature * _result = 0;
+    HRESULT _hr = get_SketchFeature(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return IStdSketchFeaturePtr(_result, false);
+}
+
+//
+// interface IStdSketchGeometry wrapper method implementations
+//
+
+inline IApplicationPtr IStdSketchGeometry::GetApplication ( ) {
+    struct IApplication * _result = 0;
+    HRESULT _hr = get_Application(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return IApplicationPtr(_result, false);
+}
+
+inline IDispatchPtr IStdSketchGeometry::GetParent ( ) {
+    IDispatch * _result = 0;
+    HRESULT _hr = get_Parent(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return IDispatchPtr(_result, false);
+}
+
+inline enum StdSketchGeometryType IStdSketchGeometry::GetType ( ) {
+    enum StdSketchGeometryType _result;
+    HRESULT _hr = get_Type(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _result;
+}
+
+inline _bstr_t IStdSketchGeometry::GetName ( ) {
+    BSTR _result = 0;
+    HRESULT _hr = get_Name(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _bstr_t(_result, false);
+}
+
+inline IStdSketchFeaturePtr IStdSketchGeometry::GetSketchFeature ( ) {
+    struct IStdSketchFeature * _result = 0;
+    HRESULT _hr = get_SketchFeature(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return IStdSketchFeaturePtr(_result, false);
+}
+
+//
+// interface IStdSketchGeometries wrapper method implementations
+//
+
+inline IApplicationPtr IStdSketchGeometries::GetApplication ( ) {
+    struct IApplication * _result = 0;
+    HRESULT _hr = get_Application(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return IApplicationPtr(_result, false);
+}
+
+inline IDispatchPtr IStdSketchGeometries::GetParent ( ) {
+    IDispatch * _result = 0;
+    HRESULT _hr = get_Parent(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return IDispatchPtr(_result, false);
+}
+
+inline long IStdSketchGeometries::GetCount ( ) {
+    long _result = 0;
+    HRESULT _hr = get_Count(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _result;
+}
+
+inline IStdSketchGeometryPtr IStdSketchGeometries::GetItem ( long index ) {
+    struct IStdSketchGeometry * _result = 0;
+    HRESULT _hr = get_Item(index, &_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return IStdSketchGeometryPtr(_result, false);
+}
+
+inline IUnknownPtr IStdSketchGeometries::Get_NewEnum ( ) {
+    IUnknown * _result = 0;
+    HRESULT _hr = get__NewEnum(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return IUnknownPtr(_result, false);
+}
+
+inline IStdSketchGeometryPtr IStdSketchGeometries::GetFindByName ( ) {
+    struct IStdSketchGeometry * _result = 0;
+    HRESULT _hr = get_FindByName(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return IStdSketchGeometryPtr(_result, false);
+}
+
+//
+// interface IStdSketchConstraint wrapper method implementations
+//
+
+inline IApplicationPtr IStdSketchConstraint::GetApplication ( ) {
+    struct IApplication * _result = 0;
+    HRESULT _hr = get_Application(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return IApplicationPtr(_result, false);
+}
+
+inline IDispatchPtr IStdSketchConstraint::GetParent ( ) {
+    IDispatch * _result = 0;
+    HRESULT _hr = get_Parent(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return IDispatchPtr(_result, false);
+}
+
+inline enum StdSketchConstraintType IStdSketchConstraint::GetType ( ) {
+    enum StdSketchConstraintType _result;
+    HRESULT _hr = get_Type(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _result;
+}
+
+inline _bstr_t IStdSketchConstraint::GetName ( ) {
+    BSTR _result = 0;
+    HRESULT _hr = get_Name(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _bstr_t(_result, false);
+}
+
+inline IStdSketchFeaturePtr IStdSketchConstraint::GetSketchFeature ( ) {
+    struct IStdSketchFeature * _result = 0;
+    HRESULT _hr = get_SketchFeature(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return IStdSketchFeaturePtr(_result, false);
+}
+
+//
+// interface IStdSketchConstraints wrapper method implementations
+//
+
+inline IApplicationPtr IStdSketchConstraints::GetApplication ( ) {
+    struct IApplication * _result = 0;
+    HRESULT _hr = get_Application(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return IApplicationPtr(_result, false);
+}
+
+inline IDispatchPtr IStdSketchConstraints::GetParent ( ) {
+    IDispatch * _result = 0;
+    HRESULT _hr = get_Parent(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return IDispatchPtr(_result, false);
+}
+
+inline long IStdSketchConstraints::GetCount ( ) {
+    long _result = 0;
+    HRESULT _hr = get_Count(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _result;
+}
+
+inline IStdSketchConstraintPtr IStdSketchConstraints::GetItem ( long index ) {
+    struct IStdSketchConstraint * _result = 0;
+    HRESULT _hr = get_Item(index, &_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return IStdSketchConstraintPtr(_result, false);
+}
+
+inline IUnknownPtr IStdSketchConstraints::Get_NewEnum ( ) {
+    IUnknown * _result = 0;
+    HRESULT _hr = get__NewEnum(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return IUnknownPtr(_result, false);
+}
+
+inline IStdSketchConstraintPtr IStdSketchConstraints::GetFindByName ( ) {
+    struct IStdSketchConstraint * _result = 0;
+    HRESULT _hr = get_FindByName(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return IStdSketchConstraintPtr(_result, false);
+}
+
+//
+// interface IStdSketchControlPoint wrapper method implementations
+//
+
+inline double IStdSketchControlPoint::GetX ( ) {
+    double _result = 0;
+    HRESULT _hr = get_X(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _result;
+}
+
+inline double IStdSketchControlPoint::GetY ( ) {
+    double _result = 0;
+    HRESULT _hr = get_Y(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _result;
+}
+
+//
+// interface IStdSketchLine wrapper method implementations
+//
+
+inline IStdSketchControlPointPtr IStdSketchLine::GetStartPoint ( ) {
+    struct IStdSketchControlPoint * _result = 0;
+    HRESULT _hr = get_StartPoint(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return IStdSketchControlPointPtr(_result, false);
+}
+
+inline IStdSketchControlPointPtr IStdSketchLine::GetEndPoint ( ) {
+    struct IStdSketchControlPoint * _result = 0;
+    HRESULT _hr = get_EndPoint(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return IStdSketchControlPointPtr(_result, false);
+}
+
+//
+// interface IStdSketchCircle wrapper method implementations
+//
+
+inline IStdSketchControlPointPtr IStdSketchCircle::GetCenterPoint ( ) {
+    struct IStdSketchControlPoint * _result = 0;
+    HRESULT _hr = get_CenterPoint(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return IStdSketchControlPointPtr(_result, false);
+}
+
+inline double IStdSketchCircle::GetRadius ( ) {
+    double _result = 0;
+    HRESULT _hr = get_Radius(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _result;
+}
+
+//
+// interface IStdSketchCircularArc wrapper method implementations
+//
+
+inline IStdSketchControlPointPtr IStdSketchCircularArc::GetCenterPoint ( ) {
+    struct IStdSketchControlPoint * _result = 0;
+    HRESULT _hr = get_CenterPoint(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return IStdSketchControlPointPtr(_result, false);
+}
+
+inline IStdSketchControlPointPtr IStdSketchCircularArc::GetStartPoint ( ) {
+    struct IStdSketchControlPoint * _result = 0;
+    HRESULT _hr = get_StartPoint(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return IStdSketchControlPointPtr(_result, false);
+}
+
+inline IStdSketchControlPointPtr IStdSketchCircularArc::GetEndPoint ( ) {
+    struct IStdSketchControlPoint * _result = 0;
+    HRESULT _hr = get_EndPoint(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return IStdSketchControlPointPtr(_result, false);
+}
+
+inline double IStdSketchCircularArc::GetRadius ( ) {
+    double _result = 0;
+    HRESULT _hr = get_Radius(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _result;
+}
+
+inline double IStdSketchCircularArc::GetStartAngle ( ) {
+    double _result = 0;
+    HRESULT _hr = get_StartAngle(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _result;
+}
+
+inline double IStdSketchCircularArc::GetEndAngle ( ) {
+    double _result = 0;
+    HRESULT _hr = get_EndAngle(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _result;
+}
+
+//
+// interface IStdSketchCoincidentSamePoints wrapper method implementations
+//
+
+inline IReferencePtr IStdSketchCoincidentSamePoints::GetFirstObject ( ) {
+    struct IReference * _result = 0;
+    HRESULT _hr = get_FirstObject(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return IReferencePtr(_result, false);
+}
+
+inline enum StdCoincidentSamePointsType IStdSketchCoincidentSamePoints::GetFirstType ( ) {
+    enum StdCoincidentSamePointsType _result;
+    HRESULT _hr = get_FirstType(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _result;
+}
+
+inline IReferencePtr IStdSketchCoincidentSamePoints::GetSecondObject ( ) {
+    struct IReference * _result = 0;
+    HRESULT _hr = get_SecondObject(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return IReferencePtr(_result, false);
+}
+
+inline enum StdCoincidentSamePointsType IStdSketchCoincidentSamePoints::GetSecondType ( ) {
+    enum StdCoincidentSamePointsType _result;
+    HRESULT _hr = get_SecondType(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _result;
+}
+
+//
+// interface IStdSketchPerpendicular wrapper method implementations
+//
+
+inline IReferencePtr IStdSketchPerpendicular::GetReferenceEdit ( ) {
+    struct IReference * _result = 0;
+    HRESULT _hr = get_ReferenceEdit(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return IReferencePtr(_result, false);
+}
+
+inline IReferencePtr IStdSketchPerpendicular::GetTarget ( ) {
+    struct IReference * _result = 0;
+    HRESULT _hr = get_Target(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return IReferencePtr(_result, false);
+}
+
+//
+// interface IStdSketchParallel wrapper method implementations
+//
+
+inline IReferencePtr IStdSketchParallel::GetReferenceEdit ( ) {
+    struct IReference * _result = 0;
+    HRESULT _hr = get_ReferenceEdit(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return IReferencePtr(_result, false);
+}
+
+inline IReferencePtr IStdSketchParallel::GetTarget ( ) {
+    struct IReference * _result = 0;
+    HRESULT _hr = get_Target(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return IReferencePtr(_result, false);
+}
+
+//
+// interface IStdSketchHorizontal wrapper method implementations
+//
+
+inline IReferencePtr IStdSketchHorizontal::GetTarget ( ) {
+    struct IReference * _result = 0;
+    HRESULT _hr = get_Target(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return IReferencePtr(_result, false);
+}
+
+//
+// interface IStdSketchVertical wrapper method implementations
+//
+
+inline IReferencePtr IStdSketchVertical::GetTarget ( ) {
+    struct IReference * _result = 0;
+    HRESULT _hr = get_Target(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return IReferencePtr(_result, false);
+}
+
+//
+// interface ISketchEditor wrapper method implementations
+//
+
+inline HRESULT ISketchEditor::Close ( ) {
+    HRESULT _hr = raw_Close();
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _hr;
+}
+
+inline IStdSketchLinePtr ISketchEditor::Create2DLine2Points ( _bstr_t Name, double startX, double startY, double endX, double endY ) {
+    struct IStdSketchLine * _result = 0;
+    HRESULT _hr = raw_Create2DLine2Points(Name, startX, startY, endX, endY, &_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return IStdSketchLinePtr(_result, false);
+}
+
+inline IStdSketchCirclePtr ISketchEditor::Create2DCircleCenterPoint ( _bstr_t Name, double centerX, double centerY, double Radius ) {
+    struct IStdSketchCircle * _result = 0;
+    HRESULT _hr = raw_Create2DCircleCenterPoint(Name, centerX, centerY, Radius, &_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return IStdSketchCirclePtr(_result, false);
+}
+
+inline IStdSketchCircularArcPtr ISketchEditor::Create2DArc ( _bstr_t Name, double centerX, double centerY, double Radius, double StartAngle, double EndAngle ) {
+    struct IStdSketchCircularArc * _result = 0;
+    HRESULT _hr = raw_Create2DArc(Name, centerX, centerY, Radius, StartAngle, EndAngle, &_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return IStdSketchCircularArcPtr(_result, false);
+}
+
+inline IStdSketchCircularArcPtr ISketchEditor::Create2DArcCenterStartEnd ( _bstr_t Name, double centerX, double centerY, double startX, double startY, double endX, double endY ) {
+    struct IStdSketchCircularArc * _result = 0;
+    HRESULT _hr = raw_Create2DArcCenterStartEnd(Name, centerX, centerY, startX, startY, endX, endY, &_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return IStdSketchCircularArcPtr(_result, false);
+}
+
+inline IStdSketchCircularArcPtr ISketchEditor::Create2DArc3Points ( _bstr_t Name, double startX, double startY, double intermediateX, double intermediateY, double endX, double endY ) {
+    struct IStdSketchCircularArc * _result = 0;
+    HRESULT _hr = raw_Create2DArc3Points(Name, startX, startY, intermediateX, intermediateY, endX, endY, &_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return IStdSketchCircularArcPtr(_result, false);
+}
+
+inline IStdSketchLinePtr ISketchEditor::Create2DCenterline2Points ( _bstr_t Name, double startX, double startY, double endX, double endY ) {
+    struct IStdSketchLine * _result = 0;
+    HRESULT _hr = raw_Create2DCenterline2Points(Name, startX, startY, endX, endY, &_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return IStdSketchLinePtr(_result, false);
+}
+
+inline IStdSketchCoincidentSamePointsPtr ISketchEditor::CreateCoincidentSamePoints ( _bstr_t Name, struct IReference * pFirstObject, enum StdCoincidentSamePointsType FirstType, struct IReference * pSecondObject, enum StdCoincidentSamePointsType SecondType ) {
+    struct IStdSketchCoincidentSamePoints * _result = 0;
+    HRESULT _hr = raw_CreateCoincidentSamePoints(Name, pFirstObject, FirstType, pSecondObject, SecondType, &_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return IStdSketchCoincidentSamePointsPtr(_result, false);
+}
+
+inline IStdSketchPerpendicularPtr ISketchEditor::CreatePerpendicular ( _bstr_t Name, struct IReference * pReferenceEdit, struct IReference * pTarget ) {
+    struct IStdSketchPerpendicular * _result = 0;
+    HRESULT _hr = raw_CreatePerpendicular(Name, pReferenceEdit, pTarget, &_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return IStdSketchPerpendicularPtr(_result, false);
+}
+
+inline IStdSketchParallelPtr ISketchEditor::CreateParallel ( _bstr_t Name, struct IReference * pReferenceEdit, struct IReference * pTarget ) {
+    struct IStdSketchParallel * _result = 0;
+    HRESULT _hr = raw_CreateParallel(Name, pReferenceEdit, pTarget, &_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return IStdSketchParallelPtr(_result, false);
+}
+
+inline IStdSketchHorizontalPtr ISketchEditor::CreateHorizontal ( _bstr_t Name, struct IReference * pTarget ) {
+    struct IStdSketchHorizontal * _result = 0;
+    HRESULT _hr = raw_CreateHorizontal(Name, pTarget, &_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return IStdSketchHorizontalPtr(_result, false);
+}
+
+inline IStdSketchVerticalPtr ISketchEditor::CreateVertical ( _bstr_t Name, struct IReference * pTarget ) {
+    struct IStdSketchVertical * _result = 0;
+    HRESULT _hr = raw_CreateVertical(Name, pTarget, &_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return IStdSketchVerticalPtr(_result, false);
+}
+
+inline HRESULT ISketchEditor::DeleteByName ( _bstr_t Name ) {
+    HRESULT _hr = raw_DeleteByName(Name);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _hr;
+}
+
+//
+// interface IStdSketchCenterline wrapper method implementations
+//
+
+inline IStdSketchControlPointPtr IStdSketchCenterline::GetStartPoint ( ) {
+    struct IStdSketchControlPoint * _result = 0;
+    HRESULT _hr = get_StartPoint(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return IStdSketchControlPointPtr(_result, false);
+}
+
+inline IStdSketchControlPointPtr IStdSketchCenterline::GetEndPoint ( ) {
+    struct IStdSketchControlPoint * _result = 0;
+    HRESULT _hr = get_EndPoint(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return IStdSketchControlPointPtr(_result, false);
+}

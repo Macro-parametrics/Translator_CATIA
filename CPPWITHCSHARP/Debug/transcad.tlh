@@ -1,9 +1,9 @@
-﻿// Created by Microsoft (R) C/C++ Compiler Version 14.12.25835.0 (2fcf05a0).
+﻿// Created by Microsoft (R) C/C++ Compiler Version 14.14.26430.0 (7530ba98).
 //
-// c:\users\imgyu\documents\00_macro\02_transcat_part_api(c#)\catia translator_180411\cppwithcsharp\debug\transcad.tlh
+// c:\users\imgyu\documents\00_macro\02_transcat_part_api(c#)\translator_catia\cppwithcsharp\debug\transcad.tlh
 //
 // C++ source equivalent of Win32 type library C:\\Program Files (x86)\\MACRO\\TransCAD\\TransCAD.exe
-// compiler-generated file created 04/11/18 at 16:57:59 - DO NOT EDIT!
+// compiler-generated file created 06/29/18 at 01:05:22 - DO NOT EDIT!
 
 #pragma once
 #pragma pack(push, 8)
@@ -4829,7 +4829,7 @@ IStdSketchCenterline : IStdSketchGeometry
 // Wrapper method implementations
 //
 
-#include "c:\users\imgyu\documents\00_macro\02_transcat_part_api(c#)\catia translator_180411\cppwithcsharp\debug\transcad.tli"
+#include "c:\users\imgyu\documents\00_macro\02_transcat_part_api(c#)\translator_catia\cppwithcsharp\debug\transcad.tli"
 
 } // namespace TransCAD
 

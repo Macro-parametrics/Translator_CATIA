@@ -1,0 +1,6 @@
+﻿  ReferenceClass.cpp
+  PostManager.lib(SKETCHItem.obj) : /GL로 컴파일한 MSIL .netmodule 또는 모듈이 있습니다. /LTCG를 지정하여 링크를 다시 시작하십시오. /LTCG를 링크 명령줄에 추가하면 링커 성능이 향상됩니다.
+     C:\Users\Imgyu\Documents\00_Macro\02_TransCAT_PART_API(C#)\Translator_CATIA\Release\CPPWITHCSHARP.lib 라이브러리 및 C:\Users\Imgyu\Documents\00_Macro\02_TransCAT_PART_API(C#)\Translator_CATIA\Release\CPPWITHCSHARP.exp 개체를 생성하고 있습니다.
+  코드를 생성하고 있습니다.
+  코드를 생성했습니다.
+  CPPWITHCSHARP.vcxproj -> C:\Users\Imgyu\Documents\00_Macro\02_TransCAT_PART_API(C#)\Translator_CATIA\Release\CPPWITHCSHARP.dll

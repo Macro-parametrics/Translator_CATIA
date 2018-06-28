@@ -1,6 +1,0 @@
-﻿  Stdafx.cpp
-  AssemblyInfo.cpp
-  CPPWITHCSHARP.cpp
-  ReferenceClass.cpp
-c:\users\imgyu\documents\00_macro\02_transcat_part_api(c#)\catia translator_180411\cppwithcsharp\ReferenceClass.h(19): error C3446: 'refCommand::command': 기본 멤버 이니셜라이저는 값 클래스의 멤버에 사용할 수 없습니다.
-  코드를 생성하고 있습니다...

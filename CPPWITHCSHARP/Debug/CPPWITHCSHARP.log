@@ -1,5 +1,4 @@
 ﻿  ReferenceClass.cpp
-  .NETFramework,Version=v4.0.AssemblyAttributes.cpp
 PostManager.lib(SKETCHItem.obj) : warning LNK4075: '/EDITANDCONTINUE'이(가) '/INCREMENTAL:NO' 사양으로 인해 무시됩니다.
-     C:\Users\Imgyu\Documents\00_Macro\02_TransCAT_PART_API(C#)\CATIA Translator_180411\Debug\CPPWITHCSHARP.lib 라이브러리 및 C:\Users\Imgyu\Documents\00_Macro\02_TransCAT_PART_API(C#)\CATIA Translator_180411\Debug\CPPWITHCSHARP.exp 개체를 생성하고 있습니다.
-  CPPWITHCSHARP.vcxproj -> C:\Users\Imgyu\Documents\00_Macro\02_TransCAT_PART_API(C#)\CATIA Translator_180411\Debug\CPPWITHCSHARP.dll
+     C:\Users\Imgyu\Documents\00_Macro\02_TransCAT_PART_API(C#)\Translator_CATIA\Debug\CPPWITHCSHARP.lib 라이브러리 및 C:\Users\Imgyu\Documents\00_Macro\02_TransCAT_PART_API(C#)\Translator_CATIA\Debug\CPPWITHCSHARP.exp 개체를 생성하고 있습니다.
+  CPPWITHCSHARP.vcxproj -> C:\Users\Imgyu\Documents\00_Macro\02_TransCAT_PART_API(C#)\Translator_CATIA\Debug\CPPWITHCSHARP.dll
