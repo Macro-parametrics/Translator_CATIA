@@ -32,7 +32,7 @@ namespace CATIATranslator
 {
     public partial class AssemblyPartManager : Form
     {
-        //현재는 하나의 Component단위에 대해서만 Assembly Part들을 다룬다. : 추후에 업데이트
+        //현재는 하나의 (TransCAD)Component단위에 대해서만 Assembly Part들을 다룬다. : 추후에 업데이트
         string path = "";      //Assembly .CATSript 경로에서 추출한 각 part를 저장할 파일 경로
         string fullpath = "";  //Assembly .CATSript 경로
         Assembly AssemblyManager = new Assembly();//전체적인 TransCAD변수 및 CATIA API 변수들을 가지고 있고 그에따른 함수를 제공
@@ -156,7 +156,7 @@ namespace CATIATranslator
         }
 
 
-        //Click Update 
+        //Click "Update"
         //Path에 Assembly에서 읽은 파트파일들이 있는지 List를 업데이트
         private void button1_Click(object sender, EventArgs e)
         {
@@ -164,7 +164,7 @@ namespace CATIATranslator
         }
         
 
-        //Click Translate Parts by Part
+        //Click "Translate Parts by CATPart"
         //List에서 선택되지 않은 파트 파일을 API를 이용하여 .CATPart로 변환
         private void button2_Click(object sender, EventArgs e)
         {
@@ -191,7 +191,7 @@ namespace CATIATranslator
 
         }
 
-        //Click Translate Parts by Script
+        //Click "Translate Parts by CATScript"
         //List에서 선택되지 않은 파트 파일을 Dll을 이용하여 .CATScript로 변한
         private void button4_Click(object sender, EventArgs e)
         {

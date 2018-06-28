@@ -16,7 +16,7 @@ String^ stoS(string k) { return  msclr::interop::marshal_as<String^>(k); }
 * //하나의 Constraint를 하기 위한 Master Part와 Slave Part의 참조 ReferenceName을 리턴
 * // TransCAD Assembly에서 사용하는 Part들을.CATScript로 변환하기 위한 함수
 **************** Private
-* //하나의 Component를 받아와서 Part이름에 따라 그 Component의 몇번째 Part인지 번호를 리턴 
+* //하나의 Component를 받아와서 Part이름에 따라 그 Component의 몇번째 Part인지 번호를 리턴
 * //하나의 Assem을 받아와서 SubAssembly이름을 통하여 몇번째 CATIA의 Product에 해당하는지 알아냄
 * //Type을 인자로 받아서 CATIA에서 사용하는 consist Name으로 바꿔줌
 * //Part 정보를 통해서 TransCAD ReferenceName을 CATIA ReferenceName으로 변환
@@ -24,7 +24,7 @@ String^ stoS(string k) { return  msclr::interop::marshal_as<String^>(k); }
 **/
 namespace ReferenceClass
 {
-	
+
 	//생성자 C++ 코드 Dll 연결시켜주는 곳
 	ref_Post::ref_Post() :m_pReferenceManager(new CATIAReferenceManager) {	}
 
@@ -42,16 +42,16 @@ namespace ReferenceClass
 															   //w.SlavePart : Slave Part Name
 															   //w.MasterPartRef : Master Part Reference Name
 															   //w.SlavePartRef : Slave Part Reference Name
-		#pragma region Code _ Initialize For Get Parts Information
+#pragma region Code _ Initialize For Get Parts Information
 
-		//dll을 통해서 Part Document에 접근
+															   //dll을 통해서 Part Document에 접근
 		TransCAD::IApplicationPtr g_spApplication;
 		TransCAD::IAssemDocumentPtr _spAssemDocument;
 		TransCAD::IAssemPtr _spAssem;
 		//_spAssem 아래에 _spComp(SubAssembly정보=Parts정보)들과 _spConstraints(Constraint정보)가 들어있다
 		//_spComp(product) 아래에 Part정보가 들어 있다
-		
-		
+
+
 		//COM initialize
 		int status = false;
 		HRESULT hr = ::CoInitialize(NULL);
@@ -64,21 +64,21 @@ namespace ReferenceClass
 		//Assem 객체 생성
 		_spAssem = _spAssemDocument->GetAssem();
 
-		#pragma endregion
+#pragma endregion
 
 
 
-		#pragma region Code _ Translate Reference Name TransCAD to CATIA
+#pragma region Code _ Translate Reference Name TransCAD to CATIA
 		//Translate MasterPartReferenceName
 		string master = T2C_ReferenceName_From_Assembly(_spAssem, w.command, Stos(w.param), Stos(w.MasterPart), Stos(w.MasterPart_Ref));
 
 		//Translate SlavePartReferenceName
 		string slave = T2C_ReferenceName_From_Assembly(_spAssem, w.command, Stos(w.param), Stos(w.SlavePart), Stos(w.SlavePart_Ref));
-		#pragma endregion
+#pragma endregion
 
 
 
-		#pragma region Code _ Get Result And Return
+#pragma region Code _ Get Result And Return
 		::CoUninitialize();						// COM Automation API Uninitialization
 
 		refCommand result;
@@ -88,13 +88,13 @@ namespace ReferenceClass
 		result.SlavePart = w.SlavePart;          //Slave Part
 		result.MasterPart_Ref = stoS(master);    //Master Reference
 		result.SlavePart_Ref = stoS(slave);      //Slave Reference
-		#pragma endregion
+#pragma endregion
 		return result;
 	}
 
 	//TransCAD Assembly에서 사용하는 Part들을 .CATScript로 변환하기 위한 함수
-	void ref_Post::ExtentionFuc(int CompNum,int PartNum,String^ path) {
-	
+	void ref_Post::ExtentionFuc(int CompNum, int PartNum, String^ path) {
+
 		//dll을 통해서 Part Document에 접근
 		TransCAD::IApplicationPtr g_spApplication;
 		TransCAD::IAssemDocumentPtr _spAssemDocument;
@@ -114,24 +114,22 @@ namespace ReferenceClass
 		_spAssemDocument = g_spApplication->ActiveDocument;
 		//Assem 객체 생성
 		_spAssem = _spAssemDocument->GetAssem();
-		
+
 		TransCAD::ICompPtr _spComp = _spAssem->GetComponent(CompNum);
 		TransCAD::IPartPtr part = _spComp->GetPart(PartNum);
 
 		g_pRefManager = new CATIAReferenceManager();
-		
+
 		Part *exPart;
-		exPart = new Part(part,Stos(path));
+		exPart = new Part(part, Stos(path));
 		exPart->ExternModeToggle(0);//0이면 정상적으로 Part를 GetInfo 한다
-		                            //1이면 Assembly를 하기위한 Part를 GetInfo하는 모드로 바뀜
+									//1이면 Assembly를 하기위한 Part를 GetInfo하는 모드로 바뀜
 		exPart->GetInfo();
 		exPart->ToCATIA();
 		exPart->InitReferManager(); //파트를 변환하였으면 사용했던 변수들을 모두 다시 초기화한다(다음 파트들도 변환하기 위해서...)
 		delete exPart;
 		//::CoUninitialize();						// COM Automation API Uninitialization
 		//g_pRefManager->~CATIAReferenceManager();
-				
-	
 	}
 
 
@@ -250,7 +248,7 @@ namespace ReferenceClass
 
 
 
-	
+
 }
 
 
@@ -262,7 +260,7 @@ namespace ReferenceClass
 namespace ReferenceClass
 {
 	//생성자 C++ 코드 Dll 연결시켜주는 곳
-	ref_Pre::ref_Pre() {	
+	ref_Pre::ref_Pre() {
 
 		TestEnvironment();
 
@@ -275,8 +273,8 @@ namespace ReferenceClass
 
 		_spAssemDocument = new TransCAD::IAssemDocumentPtr();
 		_spAssem = new TransCAD::IAssemPtr();
-	
-		
+
+
 		//현재 Assem Document 가져오기
 		//TransCAD::IAssemDocumentPtr set = Pre::g_spApplication->ActiveDocument;
 		*_spAssemDocument = Pre::g_spApplication->ActiveDocument;
@@ -313,8 +311,8 @@ namespace ReferenceClass
 
 		//파트 파일 번역
 
-		char* asfe1 = "D:\\project\\Macro\\TestAssem\\SubAssembly1\\RotationPart.CATScript";
-		char* asfe2 = "D:\\project\\Macro\\TestAssem\\SubAssembly1\\Body.CATScript";
+		char* asfe1 = "C:\\dev\\Macro\\Testmodels\\RotationPart.CATScript";
+		char* asfe2 = "C:\\dev\\Macro\\Testmodels\\Body.CATScript";
 
 		_spPartDocument = Pre::g_spApplication->GetDocuments()->AddPartDocument();
 		Pre::Part _spConstraintedPart(asfe1, _spPartDocument);
@@ -340,29 +338,33 @@ namespace ReferenceClass
 
 		_spAssem->AddComponent(_spComp);
 		_spAssemDocument->Update();
-	
+
 	}
 
-	void ref_Pre::PreTest(PreStack^ buffer, int totnum, String^ _CstType, String^ _master_ref, String^ _slave_ref) {
+	void ref_Pre::PreTest(PreStack^ buffer, int totnum, String^ _CstType, String^ _master_ref, String^ _slave_ref)
+	{
 
-	
+
 	}
 
-	refCommand ref_Pre::SetConstraint(PreStack^ buffer, int totnum, String^ _CstType, String^ _master_ref, String^ _slave_ref, String^ _option, int^ _option_int) {
-																											/*Input 값
-																											1 : Total Part Num
-																											2 : [Rotation,Body], [Part1,Part1], [D:\\project\\Macro\\TestAssem\\SubAssembly1\\RotationPart.CATScript, "D:\project\Macro\TestAssem\SubAssembly1\Body.CATPart"]
-																											(TransCAD이름/파일_이름, CATIA이름, CATIA이름에 따른 경로)
-																											3 : catCstTypeOn,
-																											4 : "Product1/Part1.1/!Axis:(Selection_RSur:(Face:(Brp:(Pocket.1;0:(Brp:(Sketch.2;4)));None:();Cf11:());Pocket.1_ResultOUT;Z0;G3563))"
-																											5 : "Product1/Part1.2/!Axis:(Selection_RSur:(Face:(Brp:(Pad.2;0:(Brp:(Sketch.2;4)));None:();Cf11:());Pad.2_ResultOUT;Z0;G3563))"
-																											*/
+	refCommand ref_Pre::SetConstraint(PreStack^ buffer, int totnum, String^ _CstType, String^ _master_ref, String^ _slave_ref, String^ _option, int^ _option_int)
+	{
+		// SetConstraint(PreStack 인스턴스 , int 파트개수 , string Const타입 , string MasterRef, string SlaveRef, string option, int optionNum)
+
+		/*Input 값
+		1 : Total Part Num
+		2 : [Rotation,Body], [Part1,Part1], [D:\\project\\Macro\\TestAssem\\SubAssembly1\\RotationPart.CATScript, "D:\project\Macro\TestAssem\SubAssembly1\Body.CATPart"]
+		(TransCAD이름/파일_이름, CATIA이름, CATIA이름에 따른 경로)
+		3 : catCstTypeOn,
+		4 : "Product1/Part1.1/!Axis:(Selection_RSur:(Face:(Brp:(Pocket.1;0:(Brp:(Sketch.2;4)));None:();Cf11:());Pocket.1_ResultOUT;Z0;G3563))"
+		5 : "Product1/Part1.2/!Axis:(Selection_RSur:(Face:(Brp:(Pad.2;0:(Brp:(Sketch.2;4)));None:();Cf11:());Pad.2_ResultOUT;Z0;G3563))"
+		*/
 
 		//Step1 : 초기화 - TrnasCAD 및 Pre 변수 초기화
 #pragma region Step1 : 초기화 - TrnasCAD 및 Pre 변수 초기화
 
 		string CstType = Stos(_CstType);
-		string full_ref[(int)TARGETPART::REFERENCE_SIZE] = { Stos(_master_ref), Stos(_slave_ref)};
+		string full_ref[(int)TARGETPART::REFERENCE_SIZE] = { Stos(_master_ref), Stos(_slave_ref) };
 
 		//현재 Assem Document 가져오기
 		//Pre::g_spApplication.CreateInstance(__uuidof(TransCAD::Application));
@@ -371,17 +373,17 @@ namespace ReferenceClass
 
 
 #pragma endregion 
- 
+
 #pragma region Step2 :parsing & Translate
 
-			
+
 
 		TransCAD::ICompPtr _IspComp;
 		TransCAD::IPartPtr TargetPart[(int)TARGETPART::REFERENCE_SIZE]; //MASTER,SLAVE
 		int index[(int)TARGETPART::REFERENCE_SIZE];
 		string trans_ref[(int)TARGETPART::REFERENCE_SIZE];
 
-		
+
 
 
 		/********Step2_1 : cn = 0 : Master Part와 Master_geometry 찾기********/
@@ -391,7 +393,7 @@ namespace ReferenceClass
 			Parsing(stoS(full_ref[cn]), &pre_data->assem_product, &pre_data->assem_part, &pre_data->assem_geometry);
 			index[cn] = GetTransCADName_from_buffer(buffer, &pre_data->Transcad_subAssemName, &pre_data->Transcad_partName, &pre_data->Transcad_geometry);
 			trans_ref[cn] = pre_data->Transcad_geometry;
-			
+
 			//transcad name 을 통해 TransCAD Part 인스턴스를 가져옴
 			_IspComp = (*_spAssem)->GetComponent(pre_data->product_num);
 			for (int i = 0; i < _IspComp->GetSize(); i++) {
@@ -400,7 +402,7 @@ namespace ReferenceClass
 					break;
 				}
 			}
-		
+
 		}
 
 
@@ -429,9 +431,9 @@ namespace ReferenceClass
 		cout << fjeiakso << endl;
 		fjeiakso = trans_ref[(int)TARGETPART::SLAVE];
 		cout << fjeiakso << endl;
-		string param = Constraint_to_TransCAD(_spConstraints, CstType, TargetPart[(int)TARGETPART::MASTER], _spConstrainedGeometry, TargetPart[(int)TARGETPART::SLAVE], _spReferGeometry,Stos(_option),_option_int);
-		
-		
+		string param = Constraint_to_TransCAD(_spConstraints, CstType, TargetPart[(int)TARGETPART::MASTER], _spConstrainedGeometry, TargetPart[(int)TARGETPART::SLAVE], _spReferGeometry, Stos(_option), _option_int);
+
+
 		(*_spAssemDocument)->Update();
 #pragma endregion
 
@@ -450,16 +452,13 @@ namespace ReferenceClass
 
 
 #pragma endregion
-		
-
-		
 
 		return result;
 	}
 
 	void ref_Pre::Parsing(String^ ref, string* product, string* part, string* geometry) {
 
-		
+
 
 		string temp = Stos(ref);
 		string assem_product = temp.substr(0, temp.find('/'));
@@ -472,12 +471,12 @@ namespace ReferenceClass
 		assem_geometry = "\"" + assem_geometry.substr(assem_geometry.find('!') + 1, assem_geometry.size()) + "\"";
 
 
-		*product = assem_product; 
-		*part = assem_part; 
+		*product = assem_product;
+		*part = assem_part;
 		*geometry = assem_geometry;
 	}
 
-	int ref_Pre::GetTransCADName_from_buffer(PreStack^ buffer,string* Transcad_subAssemName,string* Transcad_partName,string* Transcad_geometry) {
+	int ref_Pre::GetTransCADName_from_buffer(PreStack^ buffer, string* Transcad_subAssemName, string* Transcad_partName, string* Transcad_geometry) {
 
 		TransCAD::ICompPtr _spComp;
 		string product = pre_data->assem_product;
@@ -488,7 +487,7 @@ namespace ReferenceClass
 		int comp_num = stoi(product.substr(product.find("t") + 1, product.size()));//Product 숫자 Parsing
 		_spComp = (*_spAssem)->GetComponent(comp_num);
 		*Transcad_subAssemName = (string)_spComp->get_Name();
-		
+
 
 		//Step2-1 : Part1.1 을 통해서 Part1 과 Part1의 Number를 가져옴
 		int part_num = stoi(part.substr(part.find(".") + 1, part.size()));
@@ -500,14 +499,14 @@ namespace ReferenceClass
 
 
 		//Step3 : CATScript로부터 Geometry를 변환
-		 string _path = Stos(buffer->Getitem_from_index(0, buffer_index));
+		string _path = Stos(buffer->Getitem_from_index(0, buffer_index));
 		_path = _path.substr(0, _path.find_last_of('.')) + ".CATScript";
 
 		Pre::Part* pPart = new Pre::Part(_path, 1);
 		pPart->GetInfo();															//Part 정보 읽기
 		Pre::ReferenceEntity* _refer = new Pre::ReferenceEntity(pPart, 0, "a");		//Part에서 Feature정보 추출
 
-		if (geo.substr(1, 6) == "Axis:(") { geo  = "\"" + geo.substr(7, geo.size()); }//축을 선택한 것이라면 맨 앞부분 Axis 제거
+		if (geo.substr(1, 6) == "Axis:(") { geo = "\"" + geo.substr(7, geo.size()); }//축을 선택한 것이라면 맨 앞부분 Axis 제거
 		char* ptr = (char*)geo.c_str();
 		*Transcad_geometry = *Transcad_subAssemName + "," + *Transcad_partName + "," + _refer->GetReferName(ptr);
 
@@ -517,19 +516,19 @@ namespace ReferenceClass
 		pre_data->product_num = comp_num;
 		pre_data->part_num = part_num;
 
-		
+
 
 		return buffer_index;
 	}
 
-	string ref_Pre::Constraint_to_TransCAD(TransCAD::IStdAssemConstraintsPtr f,string type, TransCAD::IPartPtr master,TransCAD::IReferencePtr master_ref, TransCAD::IPartPtr slave, TransCAD::IReferencePtr slave_ref,string option, int^ option_int ) {
+	string ref_Pre::Constraint_to_TransCAD(TransCAD::IStdAssemConstraintsPtr f, string type, TransCAD::IPartPtr master, TransCAD::IReferencePtr master_ref, TransCAD::IPartPtr slave, TransCAD::IReferencePtr slave_ref, string option, int^ option_int) {
 		string re;
 		if (option == "move") {
 			TransCAD::ICompPtr _lomp = (*_spAssem)->GetComponent(pre_data->product_num);
 			_lomp->SetPartPlacement(master, 10, 100, 100, 0, 0, 1, 1, 0, 0);
 			(*_spAssemDocument)->Update();
 		}
-		
+
 
 		if (type == "catCstTypeOn") {
 
@@ -542,20 +541,20 @@ namespace ReferenceClass
 				f->AddNewAssemblyIncidenceConstraint("Incidence", master, master_ref, slave, slave_ref, TransCAD::StdAssemblyIncidenceType::Same);
 			}
 			else {
-			
+
 				f->AddNewAssemblyIncidenceConstraint("Incidence", master, master_ref, slave, slave_ref, TransCAD::StdAssemblyIncidenceType::Opposite);
 			}
-			
+
 			re = "Incidence";
-			
+
 		}
 		else {
-			re =  "None";
-		
+			re = "None";
+
 		}
 
 		return re;
-		
+
 	}
 
 }

@@ -1,4 +1,5 @@
 ﻿using System;
+using System.IO;
 using System.Windows.Forms;
 using System.Runtime.InteropServices;
 using System.Collections.Generic;
@@ -60,8 +61,8 @@ namespace CATIATranslator
                 }
             }
         }
-/*****************************************************************************************/
-/*****************************************************************************************/
+        /*****************************************************************************************/
+        /*****************************************************************************************/
 
         // Pre-Processor Assembly
         private void button3_Click_1(object sender, EventArgs e)
@@ -87,22 +88,23 @@ namespace CATIATranslator
             // List<PreBuffer> stack = new List<PreBuffer>();
             // stack.Add(new PreBuffer("D:\\project\\Macro\\TestAssem\\SubAssembly1\\RotationPart.CATPart","Part1","Rotation"));
             // stack.Add(new PreBuffer("D:\\project\\Macro\\TestAssem\\SubAssembly1\\Body.CATPart","Part1","Body"));
+            string path = Directory.GetCurrentDirectory();
             PreStack stack = new PreStack();
             stack.Clear();
             //  stack.StackItem("D:\\project\\Macro\\TestAssem\\SubAssembly1\\RotationPart.CATPart", "Part1", "RotationPart");
             //  stack.StackItem("D:\\project\\Macro\\TestAssem\\SubAssembly1\\Body.CATPart", "Part1", "Body");
-            stack.StackItem("D:\\project\\Macro\\TestAssem\\SubAssembly1\\RotationPart.CATPart", "Part1", "RotationPart");
-            stack.StackItem("D:\\project\\Macro\\TestAssem\\SubAssembly1\\Body.CATPart", "Part1", "Body");
+            stack.StackItem(path + "\\TESTModel\\SubAssembly1\\RotationPart.CATPart", "Part1", "RotationPart");
+            stack.StackItem(path + "\\TESTModel\\SubAssembly1\\Body.CATPart", "Part1", "Body");
 
             ReferenceClass.ref_Pre m_refer = new ReferenceClass.ref_Pre();
             //m_refer.PreTest(stack,stack.GetSize(), "catCstTypeOn", "Product1/Part1.1/!Axis:(Selection_RSur:(Face:(Brp:(Pocket.1;0:(Brp:(Sketch.2;4)));None:();Cf11:());Pocket.1_ResultOUT;Z0;G3563))", "Product1/Part1.2/!Axis:(Selection_RSur:(Face:(Brp:(Pad.2;0:(Brp:(Sketch.2;4)));None:();Cf11:());Pad.2_ResultOUT;Z0;G3563))");
-             m_refer.SetConstraint(stack, stack.GetSize(), "catCstTypeOn", "Product1/Part1.1/!Axis:(Selection_RSur:(Face:(Brp:(Pocket.1;0:(Brp:(Sketch.2;4)));None:();Cf11:());Pocket.1_ResultOUT;Z0;G3563))", "Product1/Part1.2/!Axis:(Selection_RSur:(Face:(Brp:(Pad.2;0:(Brp:(Sketch.2;4)));None:();Cf11:());Pad.2_ResultOUT;Z0;G3563))", "move", 0);
-             m_refer.SetConstraint(stack, stack.GetSize(), "catCstTypeSurfContact", "Product1/Part1.1/!Selection_RSur:(Face:(Brp:(Pad.1;1);None:();Cf11:());Pad.1_ResultOUT;Z0;G3563))", "Product1/Part1.2/!Selection_RSur:(Face:(Brp:(Pad.1;2);None:();Cf11:());Pad.1_ResultOUT;Z0;G3563))", "", 0);
+            m_refer.SetConstraint(stack, stack.GetSize(), "catCstTypeOn", "Product1/Part1.1/!Axis:(Selection_RSur:(Face:(Brp:(Pocket.1;0:(Brp:(Sketch.2;4)));None:();Cf11:());Pocket.1_ResultOUT;Z0;G3563))", "Product1/Part1.2/!Axis:(Selection_RSur:(Face:(Brp:(Pad.2;0:(Brp:(Sketch.2;4)));None:();Cf11:());Pad.2_ResultOUT;Z0;G3563))", "move", 0);
+            m_refer.SetConstraint(stack, stack.GetSize(), "catCstTypeSurfContact", "Product1/Part1.1/!Selection_RSur:(Face:(Brp:(Pad.1;1);None:();Cf11:());Pad.1_ResultOUT;Z0;G3563))", "Product1/Part1.2/!Selection_RSur:(Face:(Brp:(Pad.1;2);None:();Cf11:());Pad.1_ResultOUT;Z0;G3563))", "", 0);
             // m_refer.SetConstraint(stack, stack.GetSize(), "catCstTypeOn", "Product1/Part1.2/!Axis:(Selection_RSur:(Face:(Brp:(Pocket.1;0:(Brp:(Sketch.2;4)));None:();Cf11:());EdgeFillet.1_ResultOUT;Z0;G4162))", "Product1/Part1.1/!Axis:(Selection_RSur:(Face:(Brp:(Pocket.1;0:(Brp:(Sketch.2;4)));None:();Cf11:());EdgeFillet.1_ResultOUT;Z0;G4162))", "move", 0);
             //m_refer.SetConstraint(stack, stack.GetSize(), "catCstTypeSurfContact", "Product1/Part1.2/!Selection_RSur:(Face:(Brp:(Pad.1;0:(Brp:(Sketch.1;8)));None:();Cf11:());EdgeFillet.1_ResultOUT;Z0;G4162)", "Product1/Part1.1/!Selection_RSur:(Face:(Brp:(Pad.1;0:(Brp:(Sketch.1;8)));None:();Cf11:());EdgeFillet.1_ResultOUT;Z0;G4162)", "same", 0);
             //m_refer.SetConstraint(stack, stack.GetSize(), "catCstTypeSurfContact", "Product1/Part1.2/!Selection_RSur:(Face:(Brp:(Pad.1;0:(Brp:(Sketch.1;8)));None:();Cf11:());EdgeFillet.1_ResultOUT;Z0;G4162)", "Product1/Part1.1/!Selection_RSur:(Face:(Brp:(Pad.1;0:(Brp:(Sketch.1;8)));None:();Cf11:());EdgeFillet.1_ResultOUT;Z0;G4162)", "", 0);
             //m_refer.SetConstraint(stack, stack.GetSize(), "catCstTypeSurfContact", "Product1/Part1.2/!Selection_RSur:(Face:(Brp:(Pad.1;2);None:();Cf11:());EdgeFillet.1_ResultOUT;Z0;G4162)", "Product1/Part1.1/!Selection_RSur:(Face:(Brp:(Pad.1;2);None:();Cf11:());EdgeFillet.1_ResultOUT;Z0;G4162)", "same", 0);
-            
+
         }
 
         // Post-Processor Assembly

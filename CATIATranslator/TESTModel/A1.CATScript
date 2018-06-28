@@ -1,0 +1,34 @@
+Language="VBSCRIPT"
+Sub CATMain()
+Dim documents1 As Documents
+Set documents1 = CATIA.Documents
+Dim productDocument1 As Document
+Set productDocument1 = documents1.Add("Product")
+Dim product1 As Product
+Set product1 = productDocument1.Product
+Dim products1 As Products
+Set products1 = product1.Products
+Dim arrayOfVariantOfBSTR1(0)
+arrayOfVariantOfBSTR1(0) = ".\SubAssembly1\RotationPart.CATPart"
+products1.AddComponentsFromFiles arrayOfVariantOfBSTR1, "All"
+Dim arrayOfVariantOfBSTR2(0)
+arrayOfVariantOfBSTR2(0) = ".\SubAssembly1\Body.CATPart"
+products1.AddComponentsFromFiles arrayOfVariantOfBSTR2, "All"
+Dim constraints1 As Collection
+Set constraints1 = Product1.Connections("CATIAConstraints")
+Dim reference1 As Reference
+Set reference1 = Product1.CreateReferenceFromName("Product1/Part1.1/!Axis:(Selection_RSur:(Face:(Brp:(Pocket.1;0:(Brp:(Sketch.2;4)));None:();Cf11:());Pocket.1_ResultOUT;Z0;G3563))")
+Dim reference2 As Reference
+Set reference2 = Product1.CreateReferenceFromName("Product1/Part1.2/!Axis:(Selection_RSur:(Face:(Brp:(Pad.2;0:(Brp:(Sketch.2;4)));None:();Cf11:());Pad.2_ResultOUT;Z0;G3563))")
+Dim constraint1 As Constraint
+Set constraint1 = constraints1.AddBiEltCst(catCstTypeOn, reference1, reference2)
+Product1.Update 
+Set constraints1 = Product1.Connections("CATIAConstraints")
+Dim reference3 As Reference
+Set reference3 = Product1.CreateReferenceFromName("Product1/Part1.1/!Selection_RSur:(Face:(Brp:(Pad.1;1);None:();Cf11:());Pad.1_ResultOUT;Z0;G3563))")
+Dim reference4 As Reference
+Set reference4 = Product1.CreateReferenceFromName("Product1/Part1.2/!Selection_RSur:(Face:(Brp:(Pad.1;2);None:();Cf11:());Pad.1_ResultOUT;Z0;G3563))")
+Dim constraint2 As Constraint
+Set constraint2 = constraints1.AddBiEltCst(catCstTypeSurfContact, reference3, reference4)
+Product1.Update 
+End Sub
