@@ -29,3 +29,5 @@ Release/*
 *.db
 *.opendb
 *.log
+/.vs/slnx.sqlite
+/.vs/ProjectSettings.json

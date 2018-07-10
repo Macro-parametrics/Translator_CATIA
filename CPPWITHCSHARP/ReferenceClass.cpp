@@ -260,9 +260,33 @@ namespace ReferenceClass
 namespace ReferenceClass
 {
 	//생성자 C++ 코드 Dll 연결시켜주는 곳
+
+	//TestEnvironment가 필요 없다면 이 생성자 사용
 	ref_Pre::ref_Pre() {
 
-		TestEnvironment();
+		//COM Initialize
+		int status = false;
+		HRESULT hr = CoInitialize(NULL);
+		hr = Pre::g_spApplication.CreateInstance(__uuidof(TransCAD::Application));
+		if (FAILED(hr))status = 0;
+		if (!Pre::g_spApplication->Visible) { Pre::g_spApplication->Visible = VARIANT_TRUE; }
+
+		_spAssemDocument = new TransCAD::IAssemDocumentPtr();
+		_spAssem = new TransCAD::IAssemPtr();
+
+
+		//현재 Assem Document 가져오기
+		//TransCAD::IAssemDocumentPtr set = Pre::g_spApplication->ActiveDocument;
+		//*_spAssemDocument = Pre::g_spApplication->ActiveDocument;
+		*_spAssem = (*_spAssemDocument)->GetAssem();
+
+		pre_data = new parsing();
+	}
+
+	//TestEnvironment가 필요하면 이 생성자 사용
+	ref_Pre::ref_Pre(PreStack^ buffer) {
+
+		TestEnvironment(buffer);
 
 		//COM Initialize
 		int status = false;
@@ -279,7 +303,7 @@ namespace ReferenceClass
 		//TransCAD::IAssemDocumentPtr set = Pre::g_spApplication->ActiveDocument;
 		*_spAssemDocument = Pre::g_spApplication->ActiveDocument;
 		*_spAssem = (*_spAssemDocument)->GetAssem();
-
+		
 		pre_data = new parsing();
 	}
 
@@ -288,7 +312,7 @@ namespace ReferenceClass
 	//소멸자
 	ref_Pre::~ref_Pre() { ::CoUninitialize(); }
 
-	void ref_Pre::TestEnvironment() {
+	void ref_Pre::TestEnvironment(PreStack^ buffer) {
 		//COM Initialize
 		int status = false;
 		HRESULT hr = CoInitialize(NULL);
@@ -309,36 +333,40 @@ namespace ReferenceClass
 		TransCAD::IPartDocumentPtr _spPartDocument;
 
 
-		//파트 파일 번역
 
-		char* asfe1 = "C:\\dev\\Macro\\Testmodels\\RotationPart.CATScript";
-		char* asfe2 = "C:\\dev\\Macro\\Testmodels\\Body.CATScript";
+		int part_size = buffer->GetSize();
+		TransCAD::IPartPtr *_tPart = new TransCAD::IPartPtr[part_size];
 
-		_spPartDocument = Pre::g_spApplication->GetDocuments()->AddPartDocument();
-		Pre::Part _spConstraintedPart(asfe1, _spPartDocument);
-		_spConstraintedPart.GetInfo();
-		_spConstraintedPart.ToTransCAD();
+		for (int i = 0; i < part_size; i++) {
 
-		_spPartDocument = Pre::g_spApplication->GetDocuments()->AddPartDocument();
-		Pre::Part _spReferPart(asfe2, _spPartDocument);
-		_spReferPart.GetInfo();
-		_spReferPart.ToTransCAD();
+			//파트 Script 파일 경로 얻어오기 
+			string pPath = Stos(buffer->Getitem_from_index(0, i)); //0 : _dir
+			pPath = replace_all(pPath, "CATPart", "CATScript"); //.CATPart -> .CATScript
+		
+			//파트 Script 파일 번역
+			_spPartDocument = Pre::g_spApplication->GetDocuments()->AddPartDocument();
+			Pre::Part *pConstrained = new Pre::Part(pPath, _spPartDocument);
+			pConstrained->GetInfo();
+			pConstrained->ToTransCAD();
 
-
+			_tPart[i] = pConstrained->_spPart;
+			printf("Part %d is success translated", i);
+		}
+		
 		//어셈블리 다큐먼트 생성 및 파트 파일 추가
 		_spAssemDocument = Pre::g_spApplication->GetDocuments()->AddAssemDocument();
-
 		_spAssemDocument = Pre::g_spApplication->ActiveDocument;
 		_spAssem = _spAssemDocument->GetAssem();
 		_spComp = _spAssem->CreateComponent();//SubAssembly1
 		_spComp->set_Name("Component1");
-
-		_spComp->AddPart(_spConstraintedPart._spPart);
-		_spComp->AddPart(_spReferPart._spPart);
-
+		
+		for (int i = 0; i < part_size; i++) {
+			_spComp->AddPart(_tPart[i]);
+		}
 		_spAssem->AddComponent(_spComp);
 		_spAssemDocument->Update();
 
+		
 	}
 
 	void ref_Pre::PreTest(PreStack^ buffer, int totnum, String^ _CstType, String^ _master_ref, String^ _slave_ref)

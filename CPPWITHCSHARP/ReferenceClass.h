@@ -24,6 +24,24 @@ public value struct refCommand {
 	String^ SlavePart_Ref;
 };
 
+std::string replace_all(
+	__in const std::string &message,
+	__in const std::string &pattern,
+	__in const std::string &replace
+) {
+
+	std::string result = message;
+	std::string::size_type pos = 0;
+	std::string::size_type offset = 0;
+
+	while ((pos = result.find(pattern, offset)) != std::string::npos)
+	{
+		result.replace(result.begin() + pos, result.begin() + pos + pattern.size(), replace);
+		offset = pos + replace.size();
+	}
+
+	return result;
+}
 
 public ref class PreStack {
 private:
@@ -117,6 +135,7 @@ namespace ReferenceClass
 
 	public:
 		ref_Pre();
+		ref_Pre(PreStack^ buffer);
 		virtual ~ref_Pre();
 
 	private:
@@ -132,7 +151,7 @@ namespace ReferenceClass
 		////////////실제로 구현할 메서드 추가//////////////
 		/*외부로 노출시킬 함수를 만들고 이 안에서 m_pReferenceManager를 통해 실제 함수를 사용한다*/
 		void PreTest(PreStack^ buffer, int totnum, String^ _CstType, String^ _master_ref, String^ _slave_ref);
-		void TestEnvironment();
+		void TestEnvironment(PreStack^ buffer);
 		refCommand ref_Pre::SetConstraint(PreStack^ buffer, int totnum, String^ _CstType, String^ _master_ref, String^ _slave_ref, String^ _option, int^ _option_int);
 
 		void Parsing(String^ ref, string* product, string* part, string* geometry);
