@@ -33,6 +33,15 @@
     <ClInclude Include="ReferenceClass.h">
       <Filter>MainClass</Filter>
     </ClInclude>
+    <ClInclude Include="ReferenceClass_Post.h">
+      <Filter>MainClass</Filter>
+    </ClInclude>
+    <ClInclude Include="ReferenceClass_Pre.h">
+      <Filter>MainClass</Filter>
+    </ClInclude>
+    <ClInclude Include="ReferenceLib.h">
+      <Filter>MainClass</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="CPPWITHCSHARP.cpp">
@@ -45,6 +54,12 @@
       <Filter>기본CLI파일\소스 파일</Filter>
     </ClCompile>
     <ClCompile Include="ReferenceClass.cpp">
+      <Filter>MainClass</Filter>
+    </ClCompile>
+    <ClCompile Include="ReferenceClass_Post.cpp">
+      <Filter>MainClass</Filter>
+    </ClCompile>
+    <ClCompile Include="ReferenceClass_Pre.cpp">
       <Filter>MainClass</Filter>
     </ClCompile>
   </ItemGroup>

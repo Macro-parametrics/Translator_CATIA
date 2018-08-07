@@ -1,19 +1,21 @@
 ﻿#pragma once
-
-
-
 #include "..\PostManager\ref\Part.h"
 #include "..\PostManager\ref\CATIApost_DLL.h"
-#import "C:\\Program Files (x86)\\MACRO\\TransCAD\\TransCAD.exe"
 #include "..\PostManager\ref\Definition.h"
-
 #include "..\PreManager\ref\Part.h"
 #include "..\PreManager\ref\CATIApre_DLL.h"
 #include "..\PreManager\ref\ReferenceEntity.h"
+#import "C:\\Program Files (x86)\\MACRO\\TransCAD\\TransCAD.exe"
+#include <vcclr.h>
+#include <msclr/marshal_cppstd.h>
 
 using namespace System;
 using namespace System::Runtime::InteropServices;
 using namespace System::Collections::Generic;
+using namespace System::Diagnostics;
+
+string Stos(String^ k);
+String^ stoS(string k);
 
 public value struct refCommand {
 	int command;	//Constraint Type(CTYPE)
@@ -28,20 +30,7 @@ std::string replace_all(
 	__in const std::string &message,
 	__in const std::string &pattern,
 	__in const std::string &replace
-) {
-
-	std::string result = message;
-	std::string::size_type pos = 0;
-	std::string::size_type offset = 0;
-
-	while ((pos = result.find(pattern, offset)) != std::string::npos)
-	{
-		result.replace(result.begin() + pos, result.begin() + pos + pattern.size(), replace);
-		offset = pos + replace.size();
-	}
-
-	return result;
-}
+);
 
 public ref class PreStack {
 private:
@@ -50,13 +39,13 @@ private:
 	List<String^>^ _part_transcad_name = gcnew List<String^>();
 public:
 	void StackItem(String^ dir, String^ part_catia_name, String^ part_transcad_name) {
-	
+
 		_dir->Add(dir);
 		_part_catia_name->Add(part_catia_name);
 		_part_transcad_name->Add(part_transcad_name);
-	
+
 	}
-	int GetSize() { return _dir->Count;	}
+	int GetSize() { return _dir->Count; }
 	void Clear() { _dir->Clear(); _part_catia_name->Clear(); _part_transcad_name->Clear(); }
 	int Getindex_from_name(String^ part_catia_name, int order) {
 		int cnt = order;
@@ -96,70 +85,6 @@ public struct parsing {
 
 
 };
-namespace ReferenceClass
-{
-	public delegate void SelectedDelegateCSharp(Object ^j);//For c# Raise
-	public delegate void SelectedDelegateCplus(int i); //for C++ Raise
-
-	public ref class ref_Post
-	{
-
-
-	public:
-		ref_Post();
-		virtual ~ref_Post();
-
-	protected:
-		::CATIAReferenceManager	*m_pReferenceManager;
-	
-	private:
-		int GetPartNum_From_PartName(TransCAD::ICompPtr u_spComp, string PartName);
-		int GetProductNum_From_SubAssemName(TransCAD::IAssemPtr u_spAssem, string SubAssemName);
-		string T2C_ReferenceName_From_Part(TransCAD::ICompPtr u_spComp, int partNum, string persistentName);
-		string T2C_ReferenceName_From_Assembly(TransCAD::IAssemPtr u_spAssem , int constype, string Pack, string PartName, string assembly_persistentName);
-		String^ GetConstType(int type);
-	public:
-							////////////실제로 구현할 메서드 추가//////////////
-		/*외부로 노출시킬 함수를 만들고 이 안에서 m_pReferenceManager를 통해 실제 함수를 사용한다*/
-		//::Part * pPart;
-		refCommand ConvertRefPost(refCommand w);
-		void ExtentionFuc(int CompNum, int PartNum, String^ path);
-
-	};
-
-
-
-	public ref class ref_Pre
-	{
-		enum class TARGETPART : int { MASTER, SLAVE, REFERENCE_SIZE } ;//REFERENCE_SIZE는 항상 맨뒤에 있어야한다.
-
-	public:
-		ref_Pre();
-		ref_Pre(PreStack^ buffer);
-		virtual ~ref_Pre();
-
-	private:
-		//::CATIAReferenceManager	*m_pReferenceManager;
-	public:
-		TransCAD::IAssemDocumentPtr* _spAssemDocument;
-		TransCAD::IAssemPtr* _spAssem;
-		TransCAD::ICompPtr* _spComp;
-
-		parsing* pre_data;
-
-	public:
-		////////////실제로 구현할 메서드 추가//////////////
-		/*외부로 노출시킬 함수를 만들고 이 안에서 m_pReferenceManager를 통해 실제 함수를 사용한다*/
-		void PreTest(PreStack^ buffer, int totnum, String^ _CstType, String^ _master_ref, String^ _slave_ref);
-		void TestEnvironment(PreStack^ buffer);
-		refCommand ref_Pre::SetConstraint(PreStack^ buffer, int totnum, String^ _CstType, String^ _master_ref, String^ _slave_ref, String^ _option, int^ _option_int);
-
-		void Parsing(String^ ref, string* product, string* part, string* geometry);
-		int GetTransCADName_from_buffer(PreStack^ buffer, string* Transcad_subAssemName, string* Transcad_partName, string* Transcad_geometry);
-		string Constraint_to_TransCAD(TransCAD::IStdAssemConstraintsPtr f, string type, TransCAD::IPartPtr master, TransCAD::IReferencePtr master_ref, TransCAD::IPartPtr slave, TransCAD::IReferencePtr slave_ref, string option, int^ option_int);
-
-	};
-}
 
 
 /*

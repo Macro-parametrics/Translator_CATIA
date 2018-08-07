@@ -23,7 +23,7 @@
     <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
     <Keyword>ManagedCProj</Keyword>
     <RootNamespace>CPPWITHCSHARP</RootNamespace>
-    <WindowsTargetPlatformVersion>10.0.16299.0</WindowsTargetPlatformVersion>
+    <WindowsTargetPlatformVersion>10.0.17134.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
@@ -137,6 +137,9 @@
   <ItemGroup>
     <ClInclude Include="CPPWITHCSHARP.h" />
     <ClInclude Include="ReferenceClass.h" />
+    <ClInclude Include="ReferenceClass_Post.h" />
+    <ClInclude Include="ReferenceClass_Pre.h" />
+    <ClInclude Include="ReferenceLib.h" />
     <ClInclude Include="resource.h" />
     <ClInclude Include="Stdafx.h" />
   </ItemGroup>
@@ -144,6 +147,8 @@
     <ClCompile Include="AssemblyInfo.cpp" />
     <ClCompile Include="CPPWITHCSHARP.cpp" />
     <ClCompile Include="ReferenceClass.cpp" />
+    <ClCompile Include="ReferenceClass_Post.cpp" />
+    <ClCompile Include="ReferenceClass_Pre.cpp" />
     <ClCompile Include="Stdafx.cpp">
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Create</PrecompiledHeader>
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Create</PrecompiledHeader>

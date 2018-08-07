@@ -22,7 +22,7 @@
     <ProjectGuid>{32AEC176-BC98-4890-9FE7-357DBE1A8740}</ProjectGuid>
     <Keyword>Win32Proj</Keyword>
     <RootNamespace>PreManager</RootNamespace>
-    <WindowsTargetPlatformVersion>10.0.16299.0</WindowsTargetPlatformVersion>
+    <WindowsTargetPlatformVersion>10.0.17134.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
