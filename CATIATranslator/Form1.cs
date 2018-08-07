@@ -73,12 +73,7 @@ namespace CATIATranslator
             stack.StackItem(path + "\\TESTModel\\SubAssembly1\\RotationPart.CATPart", "Part1", "RotationPart");
             stack.StackItem(path + "\\TESTModel\\SubAssembly1\\Body.CATPart", "Part1", "Body");
 
-<<<<<<< HEAD
             ReferenceClass.ref_Pre m_refer = new ReferenceClass.ref_Pre(stack);
-            //m_refer.PreTest(stack,stack.GetSize(), "catCstTypeOn", "Product1/Part1.1/!Axis:(Selection_RSur:(Face:(Brp:(Pocket.1;0:(Brp:(Sketch.2;4)));None:();Cf11:());Pocket.1_ResultOUT;Z0;G3563))", "Product1/Part1.2/!Axis:(Selection_RSur:(Face:(Brp:(Pad.2;0:(Brp:(Sketch.2;4)));None:();Cf11:());Pad.2_ResultOUT;Z0;G3563))");
-=======
-            ReferenceClass.ref_Pre m_refer = new ReferenceClass.ref_Pre();
->>>>>>> 1acf69e69e2fd335aedd0c2ee6618d28e5ade8d0
             m_refer.SetConstraint(stack, stack.GetSize(), "catCstTypeOn", "Product1/Part1.1/!Axis:(Selection_RSur:(Face:(Brp:(Pocket.1;0:(Brp:(Sketch.2;4)));None:();Cf11:());Pocket.1_ResultOUT;Z0;G3563))", "Product1/Part1.2/!Axis:(Selection_RSur:(Face:(Brp:(Pad.2;0:(Brp:(Sketch.2;4)));None:();Cf11:());Pad.2_ResultOUT;Z0;G3563))", "move", 0);
             m_refer.SetConstraint(stack, stack.GetSize(), "catCstTypeSurfContact", "Product1/Part1.1/!Selection_RSur:(Face:(Brp:(Pad.1;1);None:();Cf11:());Pad.1_ResultOUT;Z0;G3563))", "Product1/Part1.2/!Selection_RSur:(Face:(Brp:(Pad.1;2);None:();Cf11:());Pad.1_ResultOUT;Z0;G3563))", "", 0);
             //To Hellen, Generalize 필요함.
