@@ -8,11 +8,11 @@
 +	TransCAD to CATIA
 2. Assembly model translation
 +	Product model ==> CATScript
-+		It has only information of assembly structure and constraint among sub-part models.
+	+	It has only information of assembly structure and constraint among sub-part models.
 +	Sub-Part model ==> CATPart
 +	Supported constraint (June 2018)
-+		1. Coaxial
-+		2. Coincidence
+	+	Coaxial
+	+	Coincidence
 3. Released version
 	Please see the 'Release' tab above.
 
