@@ -1,6 +1,6 @@
 ﻿################################################################################
 This .gitignore file was modified by Imgyu Kim 
-2018-06-29
+2018-08-08
 ################################################################################
 
 .vs/CATIATranslator
@@ -29,5 +29,7 @@ Release/*
 *.db
 *.opendb
 *.log
+*.htm
 /.vs/slnx.sqlite
 /.vs/ProjectSettings.json
+UpgradeLog.htm
