@@ -6,6 +6,21 @@ using System.Collections.Generic;
 using System.Text;
 using TransCAD;
 
+//part information struct 
+public struct PartsInfo
+{
+    public string address;
+    public string catname;
+    public string transname;
+
+    public PartsInfo(string address, string catname, string transname)
+    {
+        this.address = address;
+        this.catname = catname;
+        this.transname=transname;
+    }
+};
+
 namespace CATIATranslator
 {
 
@@ -67,16 +82,57 @@ namespace CATIATranslator
         // Pre-Processor Assembly
         private void button3_Click_1(object sender, EventArgs e)
         {
-            string path = Directory.GetCurrentDirectory();
+            int part_num = 0;
+            PartsInfo[] a1_part=new PartsInfo[2]; //수정 필요!!!!!!!!
+
+            //Assembly file: bring CATScript and address
+            string CATAssem = CATScriptOpenDialog();
+            string folder_address = CATAssem.Substring(0, CATAssem.LastIndexOf("\\"));
+
+            if (CATAssem != "")
+            {
+                Console.WriteLine(folder_address);
+                string line;
+                string search = "array";
+                using(StreamReader sr=new StreamReader(CATAssem, System.Text.Encoding.Default))
+                {
+                    while ((line=sr.ReadLine()) !=null)
+                    {
+                        if(line.Length > 10)
+                        {
+                            // find line for parsing
+                            if (line.Substring(0, 5) == search)
+                            {
+                                // part address parsing
+                                a1_part[part_num].address = folder_address + line.Substring((line.IndexOf("."))+1, line.LastIndexOf("\"") - line.IndexOf(".")-1);                            
+                                Console.WriteLine(a1_part[part_num].address);
+                                // catia name parsing
+                                a1_part[part_num].catname = "Part1"; //수정 필요!!!!!!
+                                Console.WriteLine(a1_part[part_num].catname);
+                                //transcad name parsing
+                                a1_part[part_num].transname= Path.GetFileName(a1_part[part_num].address);
+                                a1_part[part_num].transname = a1_part[part_num].transname.Substring(0, a1_part[part_num].transname.LastIndexOf('.'));
+                                Console.WriteLine(a1_part[part_num].transname);
+
+                                // number of parts
+                                part_num++;
+                            }
+                        }
+
+                    }
+                }
+            }
+
+            //각 part listing
             PreStack stack = new PreStack();
             stack.Clear();
-            stack.StackItem(path + "\\TESTModel\\SubAssembly1\\RotationPart.CATPart", "Part1", "RotationPart");
-            stack.StackItem(path + "\\TESTModel\\SubAssembly1\\Body.CATPart", "Part1", "Body");
+            stack.StackItem(a1_part[0].address, a1_part[0].catname, a1_part[0].transname);
+            stack.StackItem(a1_part[1].address, a1_part[1].catname, a1_part[1].transname);
 
             ReferenceClass.ref_Pre m_refer = new ReferenceClass.ref_Pre(stack);
             m_refer.SetConstraint(stack, stack.GetSize(), "catCstTypeOn", "Product1/Part1.1/!Axis:(Selection_RSur:(Face:(Brp:(Pocket.1;0:(Brp:(Sketch.2;4)));None:();Cf11:());Pocket.1_ResultOUT;Z0;G3563))", "Product1/Part1.2/!Axis:(Selection_RSur:(Face:(Brp:(Pad.2;0:(Brp:(Sketch.2;4)));None:();Cf11:());Pad.2_ResultOUT;Z0;G3563))", "move", 0);
             m_refer.SetConstraint(stack, stack.GetSize(), "catCstTypeSurfContact", "Product1/Part1.1/!Selection_RSur:(Face:(Brp:(Pad.1;1);None:();Cf11:());Pad.1_ResultOUT;Z0;G3563))", "Product1/Part1.2/!Selection_RSur:(Face:(Brp:(Pad.1;2);None:();Cf11:());Pad.1_ResultOUT;Z0;G3563))", "", 0);
-            //To Hellen, Generalize 필요함.
+            //To Hellen
             //Post 쪽 참조.
         }
 
