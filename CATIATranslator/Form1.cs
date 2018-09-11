@@ -21,6 +21,14 @@ public struct PartsInfo
     }
 };
 
+//constraint information struct
+public struct ConstraintInfo
+{
+    public string type;
+    public string master_ref;
+    public string slave_ref;
+};
+
 namespace CATIATranslator
 {
 
@@ -83,55 +91,105 @@ namespace CATIATranslator
         private void button3_Click_1(object sender, EventArgs e)
         {
             int part_num = 0;
+            int constraint_num = 0;
             PartsInfo[] a1_part=new PartsInfo[2]; //수정 필요!!!!!!!!
+            ConstraintInfo[] a1_constraint = new ConstraintInfo[2]; //수정 필요 2222
 
             //Assembly file: bring CATScript and address
             string CATAssem = CATScriptOpenDialog();
+            if (CATAssem == "") return;
             string folder_address = CATAssem.Substring(0, CATAssem.LastIndexOf("\\"));
+            Console.WriteLine(folder_address);
 
-            if (CATAssem != "")
+
+            string line;
+            string search = "array";
+            string search2 = "AddBiEltCst";
+
+            //parts, constraint parsing
+            using (StreamReader sr = new StreamReader(CATAssem, System.Text.Encoding.Default))
             {
-                Console.WriteLine(folder_address);
-                string line;
-                string search = "array";
-                using(StreamReader sr=new StreamReader(CATAssem, System.Text.Encoding.Default))
+                while ((line = sr.ReadLine()) != null)
                 {
-                    while ((line=sr.ReadLine()) !=null)
-                    {
-                        if(line.Length > 10)
-                        {
-                            // find line for parsing
-                            if (line.Substring(0, 5) == search)
-                            {
-                                // part address parsing
-                                a1_part[part_num].address = folder_address + line.Substring((line.IndexOf("."))+1, line.LastIndexOf("\"") - line.IndexOf(".")-1);                            
-                                Console.WriteLine(a1_part[part_num].address);
-                                // catia name parsing
-                                a1_part[part_num].catname = "Part1"; //수정 필요!!!!!!
-                                Console.WriteLine(a1_part[part_num].catname);
-                                //transcad name parsing
-                                a1_part[part_num].transname= Path.GetFileName(a1_part[part_num].address);
-                                a1_part[part_num].transname = a1_part[part_num].transname.Substring(0, a1_part[part_num].transname.LastIndexOf('.'));
-                                Console.WriteLine(a1_part[part_num].transname);
 
-                                // number of parts
-                                part_num++;
-                            }
+                    if (line.Length > 10)  //수정 가능
+                    {
+
+                        // find line for parsing
+                        if (line.Substring(0, 5) == search)
+                        {
+                            // part address parsing
+                            a1_part[part_num].address = folder_address + line.Substring((line.IndexOf(".")) + 1, line.LastIndexOf("\"") - line.IndexOf(".") - 1);
+                            Console.WriteLine(a1_part[part_num].address);
+                            // catia name parsing
+                            a1_part[part_num].catname = "Part1"; //수정 필요!!!!!! // API 필요.
+                            Console.WriteLine(a1_part[part_num].catname);
+                            //transcad name parsing
+                            a1_part[part_num].transname = Path.GetFileName(a1_part[part_num].address);
+                            a1_part[part_num].transname = a1_part[part_num].transname.Substring(0, a1_part[part_num].transname.LastIndexOf('.'));
+                            Console.WriteLine(a1_part[part_num].transname);
+
+                            // number of parts
+                            part_num++;
                         }
 
+                        if (line.IndexOf(search2) != -1)
+                        {
+                            //constraint type parsing
+                            a1_constraint[constraint_num].type = line.Substring(line.IndexOf("(") + 1, line.IndexOf(",") - line.IndexOf("(") - 1);
+                            Console.WriteLine(a1_constraint[constraint_num].type);
+                            //master_ref parsing(numbering)
+                            a1_constraint[constraint_num].master_ref = line.Substring(line.IndexOf(",") + 2, line.LastIndexOf(",") - line.IndexOf(",") - 2);
+                            Console.WriteLine(a1_constraint[constraint_num].master_ref);
+                            //slave_ref parsing(numbering)
+                            a1_constraint[constraint_num].slave_ref = line.Substring(line.LastIndexOf(",") + 2, line.IndexOf(")") - line.LastIndexOf(",") - 2);
+                            Console.WriteLine(a1_constraint[constraint_num].slave_ref);
+
+                            //number of constraints
+                            constraint_num++;
+                        }
+                    }
+
+                }
+            }
+
+
+            // reparsing master_ref, slave_ref(contents)
+            using (StreamReader sr = new StreamReader(CATAssem, System.Text.Encoding.Default))
+            {
+                while ((line = sr.ReadLine()) != null)
+                {
+                    for(int n = 0; n < constraint_num; n++)
+                    {
+                        if (line.IndexOf("CreateReference") != -1)
+                        {
+                            if(line.IndexOf(a1_constraint[n].master_ref) != -1)
+                            {
+                                a1_constraint[n].master_ref = line.Substring(line.IndexOf("\"") + 1, line.LastIndexOf("\"") - line.IndexOf("\"") - 1);
+                                Console.WriteLine(a1_constraint[n].master_ref);
+                            }
+                            else if (line.IndexOf(a1_constraint[n].slave_ref) != -1)
+                            {
+                                a1_constraint[n].slave_ref = line.Substring(line.IndexOf("\"") + 1, line.LastIndexOf("\"") - line.IndexOf("\"") - 1);
+                                Console.WriteLine(a1_constraint[n].slave_ref);
+                            }
+                        }
                     }
                 }
             }
 
-            //각 part listing
+
+
+            //parts information
             PreStack stack = new PreStack();
             stack.Clear();
-            stack.StackItem(a1_part[0].address, a1_part[0].catname, a1_part[0].transname);
-            stack.StackItem(a1_part[1].address, a1_part[1].catname, a1_part[1].transname);
+            stack.StackItem(a1_part[0].address, a1_part[0].catname, a1_part[0].transname); //수정 필요.
+            stack.StackItem(a1_part[1].address, a1_part[1].catname, a1_part[1].transname); //수정 필요.
 
+            //constraint information
             ReferenceClass.ref_Pre m_refer = new ReferenceClass.ref_Pre(stack);
-            m_refer.SetConstraint(stack, stack.GetSize(), "catCstTypeOn", "Product1/Part1.1/!Axis:(Selection_RSur:(Face:(Brp:(Pocket.1;0:(Brp:(Sketch.2;4)));None:();Cf11:());Pocket.1_ResultOUT;Z0;G3563))", "Product1/Part1.2/!Axis:(Selection_RSur:(Face:(Brp:(Pad.2;0:(Brp:(Sketch.2;4)));None:();Cf11:());Pad.2_ResultOUT;Z0;G3563))", "move", 0);
-            m_refer.SetConstraint(stack, stack.GetSize(), "catCstTypeSurfContact", "Product1/Part1.1/!Selection_RSur:(Face:(Brp:(Pad.1;1);None:();Cf11:());Pad.1_ResultOUT;Z0;G3563))", "Product1/Part1.2/!Selection_RSur:(Face:(Brp:(Pad.1;2);None:();Cf11:());Pad.1_ResultOUT;Z0;G3563))", "", 0);
+            m_refer.SetConstraint(stack, stack.GetSize(), a1_constraint[0].type, a1_constraint[0].master_ref, a1_constraint[0].slave_ref, "move", 0); //수정 필요. "move"???
+            m_refer.SetConstraint(stack, stack.GetSize(), a1_constraint[1].type, a1_constraint[1].master_ref, a1_constraint[1].slave_ref, "", 0); //수정 필요.
             //To Hellen
             //Post 쪽 참조.
         }
