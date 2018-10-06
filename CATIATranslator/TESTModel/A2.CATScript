@@ -9,10 +9,10 @@ Set product1 = productDocument1.Product
 Dim products1 As Products
 Set products1 = product1.Products
 Dim arrayOfVariantOfBSTR1(0)
-arrayOfVariantOfBSTR1(0) = "D:\A2\A2 Mutahar\A2_Plate.CATPart"
+arrayOfVariantOfBSTR1(0) = ".\SubAssembly1\A2_Plate.CATPart"
 products1.AddComponentsFromFiles arrayOfVariantOfBSTR1, "All"
 Dim arrayOfVariantOfBSTR2(0)
-arrayOfVariantOfBSTR2(0) = "D:\A2\A2 Mutahar\A2_DM.CATPart"
+arrayOfVariantOfBSTR2(0) = ".\SubAssembly1\A2_DM.CATPart"
 products1.AddComponentsFromFiles arrayOfVariantOfBSTR2, "All"
 Dim constraints1 As Collection
 Set constraints1 = product1.Connections("CATIAConstraints")
@@ -48,7 +48,7 @@ Dim constraint4 As Constraint
 Set constraint4 = constraints1.AddBiEltCst(catCstTypeSurfContact, reference7, reference8)
 product1.Update
 Dim arrayOfVariantOfBSTR3(0)
-arrayOfVariantOfBSTR3(0) = "D:\A2\A2 Mutahar\A2_DM.CATPart"
+arrayOfVariantOfBSTR3(0) = ".\SubAssembly1\A2_DM.CATPart"
 products1.AddComponentsFromFiles arrayOfVariantOfBSTR3, "All"
 Set constraints1 = product1.Connections("CATIAConstraints")
 Dim reference9 As Reference
@@ -83,7 +83,7 @@ Dim constraint8 As Constraint
 Set constraint8 = constraints1.AddBiEltCst(catCstTypeSurfContact, reference15, reference16)
 product1.Update
 Dim arrayOfVariantOfBSTR4(0)
-arrayOfVariantOfBSTR4(0) = "D:\A2\A2 Mutahar\A2_Nut.CATPart"
+arrayOfVariantOfBSTR4(0) = ".\SubAssembly1\A2_Nut.CATPart"
 products1.AddComponentsFromFiles arrayOfVariantOfBSTR4, "All"
 Set constraints1 = product1.Connections("CATIAConstraints")
 Dim reference17 As Reference
@@ -114,7 +114,7 @@ angle1.Value = 0.000000
 constraint11.AngleSector = catCstAngleSector0
 product1.Update
 Dim arrayOfVariantOfBSTR5(0)
-arrayOfVariantOfBSTR5(0) = "D:\A2\A2 Mutahar\A2_Nut.CATPart"
+arrayOfVariantOfBSTR5(0) = ".\SubAssembly1\A2_Nut.CATPart"
 products1.AddComponentsFromFiles arrayOfVariantOfBSTR5, "All"
 Set constraints1 = product1.Connections("CATIAConstraints")
 Dim reference23 As Reference
@@ -145,7 +145,7 @@ angle2.Value = 0.000000
 constraint14.AngleSector = catCstAngleSector0
 product1.Update
 Dim arrayOfVariantOfBSTR6(0)
-arrayOfVariantOfBSTR6(0) = "D:\A2\A2 Mutahar\A2_Bar.CATPart"
+arrayOfVariantOfBSTR6(0) = ".\SubAssembly1\A2_Bar.CATPart"
 products1.AddComponentsFromFiles arrayOfVariantOfBSTR6, "All"
 Set constraints1 = product1.Connections("CATIAConstraints")
 Dim reference29 As Reference
@@ -167,7 +167,7 @@ length1.Value = 10.000000
 constraint19.Orientation = catCstOrientSame
 product1.Update 
 Dim arrayOfVariantOfBSTR7(0)
-arrayOfVariantOfBSTR7(0) = "D:\A2\A2 Mutahar\A2_Bolt.CATPart"
+arrayOfVariantOfBSTR7(0) = ".\SubAssembly1\A2_Bolt.CATPart"
 products1.AddComponentsFromFiles arrayOfVariantOfBSTR7, "All"
 Set constraints1 = product1.Connections("CATIAConstraints")
 Set reference9 = product1.CreateReferenceFromName("Product1/A2_DM.2/!Axis:(Selection_RSur:(Face:(Brp:(Pocket.2;0:(Brp:(Sketch.4;8)));None:();Cf11:());Pocket.2_ResultOUT;Z0;G4074))")
@@ -197,7 +197,7 @@ angle4.Value = 0.000000
 product1.Update
 
 Dim arrayOfVariantOfBSTR8(0)
-arrayOfVariantOfBSTR8(0) = "D:\A2\A2 Mutahar\A2_Bolt.CATPart"
+arrayOfVariantOfBSTR8(0) = ".\SubAssembly1\A2_Bolt.CATPart"
 products1.AddComponentsFromFiles arrayOfVariantOfBSTR8, "All"
 Set constraints1 = product1.Connections("CATIAConstraints")
 Dim reference38 As Reference
@@ -224,7 +224,7 @@ Set angle5 = constraint26.Dimension
 angle5.Value = 0.000000
 product1.Update 
 Dim arrayOfVariantOfBSTR9(0)
-arrayOfVariantOfBSTR9(0) = "D:\A2\A2 Mutahar\A2_Bolt.CATPart"
+arrayOfVariantOfBSTR9(0) = ".\SubAssembly1\A2_Bolt.CATPart"
 products1.AddComponentsFromFiles arrayOfVariantOfBSTR9, "All"
 Set constraints1 = product1.Connections("CATIAConstraints")
 Dim reference41 As Reference
@@ -251,7 +251,7 @@ Set angle6 = constraint29.Dimension
 angle6.Value = 0.000000
 product1.Update 
 Dim arrayOfVariantOfBSTR10(0)
-arrayOfVariantOfBSTR10(0) = "D:\A2\A2 Mutahar\A2_Bolt.CATPart"
+arrayOfVariantOfBSTR10(0) = ".\SubAssembly1\A2_Bolt.CATPart"
 products1.AddComponentsFromFiles arrayOfVariantOfBSTR10, "All"
 Set constraints1 = product1.Connections("CATIAConstraints")
 Dim reference44 As Reference
@@ -280,7 +280,7 @@ Set angle7 = constraint32.Dimension
 angle7.Value = 0.000000
 product1.Update
 Dim arrayOfVariantOfBSTR11(0)
-arrayOfVariantOfBSTR11(0) = "D:\A2\A2 Mutahar\A2_Bolt.CATPart"
+arrayOfVariantOfBSTR11(0) = ".\SubAssembly1\A2_Bolt.CATPart"
 products1.AddComponentsFromFiles arrayOfVariantOfBSTR11, "All"
 Set constraints1 = product1.Connections("CATIAConstraints")
 Dim reference49 As Reference
@@ -307,7 +307,7 @@ Set angle8 = constraint35.Dimension
 angle8.Value = 0.000000
 product1.Update
 Dim arrayOfVariantOfBSTR12(0)
-arrayOfVariantOfBSTR12(0) = "D:\A2\A2 Mutahar\A2_Bolt.CATPart"
+arrayOfVariantOfBSTR12(0) = ".\SubAssembly1\A2_Bolt.CATPart"
 products1.AddComponentsFromFiles arrayOfVariantOfBSTR12, "All"
 Set constraints1 = product1.Connections("CATIAConstraints")
 Dim reference52 As Reference
