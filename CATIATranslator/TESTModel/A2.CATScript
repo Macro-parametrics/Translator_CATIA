@@ -195,7 +195,6 @@ Dim angle4 As Dimension
 Set angle4 = constraint23.Dimension
 angle4.Value = 0.000000
 product1.Update
-
 Dim arrayOfVariantOfBSTR8(0)
 arrayOfVariantOfBSTR8(0) = ".\SubAssembly1\A2_Bolt.CATPart"
 products1.AddComponentsFromFiles arrayOfVariantOfBSTR8, "All"
