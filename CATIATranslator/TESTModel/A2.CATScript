@@ -1,0 +1,337 @@
+Language="VBSCRIPT"
+Sub CATMain()
+Dim documents1 As Documents
+Set documents1 = CATIA.Documents
+Dim productDocument1 As Document
+Set productDocument1 = documents1.Add("Product")
+Dim product1 As Product
+Set product1 = productDocument1.Product
+Dim products1 As Products
+Set products1 = product1.Products
+Dim arrayOfVariantOfBSTR1(0)
+arrayOfVariantOfBSTR1(0) = "D:\A2\A2 Mutahar\A2_Plate.CATPart"
+products1.AddComponentsFromFiles arrayOfVariantOfBSTR1, "All"
+Dim arrayOfVariantOfBSTR2(0)
+arrayOfVariantOfBSTR2(0) = "D:\A2\A2 Mutahar\A2_DM.CATPart"
+products1.AddComponentsFromFiles arrayOfVariantOfBSTR2, "All"
+Dim constraints1 As Collection
+Set constraints1 = product1.Connections("CATIAConstraints")
+Dim reference1 As Reference
+Set reference1 = product1.CreateReferenceFromName("Product1/A2_DM.1/!Axis:(Selection_RSur:(Face:(Brp:(Pocket.2;0:(Brp:(Sketch.4;8)));None:();Cf11:());Pocket.2_ResultOUT;Z0;G4074))")
+Dim reference2 As Reference
+Set reference2 = product1.CreateReferenceFromName("Product1/A2_Plate.1/!Axis:(Selection_RSur:(Face:(Brp:(Pad.1;0:(Brp:(Sketch.1;18)));None:();Cf11:());Pad.1_ResultOUT;Z0;G4074))")
+Dim constraint1 As Constraint
+Set constraint1 = constraints1.AddBiEltCst(catCstTypeOn, reference1, reference2)
+product1.Update
+Set constraints1 = product1.Connections("CATIAConstraints")
+Dim reference3 As Reference
+Set reference3 = product1.CreateReferenceFromName("Product1/A2_DM.1/!Axis:(Selection_RSur:(Face:(Brp:(Pocket.2;0:(Brp:(Sketch.4;4)));None:();Cf11:());Pocket.2_ResultOUT;Z0;G4074))")
+Dim reference4 As Reference
+Set reference4 = product1.CreateReferenceFromName("Product1/A2_Plate.1/!Axis:(Selection_RSur:(Face:(Brp:(Pad.1;0:(Brp:(Sketch.1;22)));None:();Cf11:());Pad.1_ResultOUT;Z0;G4074))")
+Dim constraint2 As Constraint
+Set constraint2 = constraints1.AddBiEltCst(catCstTypeOn, reference3, reference4)
+product1.Update
+Set constraints1 = product1.Connections("CATIAConstraints")
+Dim reference5 As Reference
+Set reference5 = product1.CreateReferenceFromName("Product1/A2_DM.1/!Axis:(Selection_RSur:(Face:(Brp:(Pocket.2;0:(Brp:(Sketch.4;6)));None:();Cf11:());Pocket.2_ResultOUT;Z0;G4074))")
+Dim reference6 As Reference
+Set reference6 = product1.CreateReferenceFromName("Product1/A2_Plate.1/!Axis:(Selection_RSur:(Face:(Brp:(Pad.1;0:(Brp:(Sketch.1;20)));None:();Cf11:());Pad.1_ResultOUT;Z0;G4074))")
+Dim constraint3 As Constraint
+Set constraint3 = constraints1.AddBiEltCst(catCstTypeOn, reference5, reference6)
+product1.Update
+Set constraints1 = product1.Connections("CATIAConstraints")
+Dim reference7 As Reference
+Set reference7 = product1.CreateReferenceFromName("Product1/A2_DM.1/!Selection_RSur:(Face:(Brp:(Pad.1;0:(Brp:(Sketch.1;4)));None:();Cf11:());Pocket.2_ResultOUT;Z0;G4074)")
+Dim reference8 As Reference
+Set reference8 = product1.CreateReferenceFromName("Product1/A2_Plate.1/!Selection_RSur:(Face:(Brp:(Pad.1;2);None:();Cf11:());Pad.1_ResultOUT;Z0;G4074)")
+Dim constraint4 As Constraint
+Set constraint4 = constraints1.AddBiEltCst(catCstTypeSurfContact, reference7, reference8)
+product1.Update
+Dim arrayOfVariantOfBSTR3(0)
+arrayOfVariantOfBSTR3(0) = "D:\A2\A2 Mutahar\A2_DM.CATPart"
+products1.AddComponentsFromFiles arrayOfVariantOfBSTR3, "All"
+Set constraints1 = product1.Connections("CATIAConstraints")
+Dim reference9 As Reference
+Set reference9 = product1.CreateReferenceFromName("Product1/A2_DM.2/!Axis:(Selection_RSur:(Face:(Brp:(Pocket.2;0:(Brp:(Sketch.4;8)));None:();Cf11:());Pocket.2_ResultOUT;Z0;G4074))")
+Dim reference10 As Reference
+Set reference10 = product1.CreateReferenceFromName("Product1/A2_Plate.1/!Axis:(Selection_RSur:(Face:(Brp:(Pad.1;0:(Brp:(Sketch.1;13)));None:();Cf11:());Pad.1_ResultOUT;Z0;G4074))")
+Dim constraint5 As Constraint
+Set constraint5 = constraints1.AddBiEltCst(catCstTypeOn, reference9, reference10)
+product1.Update
+Set constraints1 = product1.Connections("CATIAConstraints")
+Dim reference11 As Reference
+Set reference11 = product1.CreateReferenceFromName("Product1/A2_DM.2/!Axis:(Selection_RSur:(Face:(Brp:(Pocket.2;0:(Brp:(Sketch.4;4)));None:();Cf11:());Pocket.2_ResultOUT;Z0;G4074))")
+Dim reference12 As Reference
+Set reference12 = product1.CreateReferenceFromName("Product1/A2_Plate.1/!Axis:(Selection_RSur:(Face:(Brp:(Pad.1;0:(Brp:(Sketch.1;11)));None:();Cf11:());Pad.1_ResultOUT;Z0;G4074))")
+Dim constraint6 As Constraint
+Set constraint6 = constraints1.AddBiEltCst(catCstTypeOn, reference11, reference12)
+product1.Update
+Set constraints1 = product1.Connections("CATIAConstraints")
+Dim reference13 As Reference
+Set reference13 = product1.CreateReferenceFromName("Product1/A2_DM.2/!Axis:(Selection_RSur:(Face:(Brp:(Pocket.2;0:(Brp:(Sketch.4;6)));None:();Cf11:());Pocket.2_ResultOUT;Z0;G4074))")
+Dim reference14 As Reference
+Set reference14 = product1.CreateReferenceFromName("Product1/A2_Plate.1/!Axis:(Selection_RSur:(Face:(Brp:(Pad.1;0:(Brp:(Sketch.1;15)));None:();Cf11:());Pad.1_ResultOUT;Z0;G4074))")
+Dim constraint7 As Constraint
+Set constraint7 = constraints1.AddBiEltCst(catCstTypeOn, reference13, reference14)
+product1.Update
+Set constraints1 = product1.Connections("CATIAConstraints")
+Dim reference15 As Reference
+Set reference15 = product1.CreateReferenceFromName("Product1/A2_DM.2/!Selection_RSur:(Face:(Brp:(Pad.1;0:(Brp:(Sketch.1;4)));None:();Cf11:());Pocket.2_ResultOUT;Z0;G4074)")
+Dim reference16 As Reference
+Set reference16 = product1.CreateReferenceFromName("Product1/A2_Plate.1/!Selection_RSur:(Face:(Brp:(Pad.1;2);None:();Cf11:());Pad.1_ResultOUT;Z0;G4074)")
+Dim constraint8 As Constraint
+Set constraint8 = constraints1.AddBiEltCst(catCstTypeSurfContact, reference15, reference16)
+product1.Update
+Dim arrayOfVariantOfBSTR4(0)
+arrayOfVariantOfBSTR4(0) = "D:\A2\A2 Mutahar\A2_Nut.CATPart"
+products1.AddComponentsFromFiles arrayOfVariantOfBSTR4, "All"
+Set constraints1 = product1.Connections("CATIAConstraints")
+Dim reference17 As Reference
+Set reference17 = product1.CreateReferenceFromName("Product1/A2_DM.1/!Axis:(Selection_RSur:(Face:(Brp:(Pocket.1;0:(Brp:(Sketch.3;4)));None:();Cf11:());Pocket.2_ResultOUT;Z0;G4074))")
+Dim reference18 As Reference
+Set reference18 = product1.CreateReferenceFromName("Product1/A2_Nut.1/!Axis:(Selection_RSur:(Face:(Brp:(Pocket.1;0:(Brp:(Sketch.2;4)));None:();Cf11:());Pocket.1_ResultOUT;Z0;G4074))")
+Dim constraint9 As Constraint
+Set constraint9 = constraints1.AddBiEltCst(catCstTypeOn, reference17, reference18)
+product1.Update
+Set constraints1 = product1.Connections("CATIAConstraints")
+Dim reference19 As Reference
+Set reference19 = product1.CreateReferenceFromName("Product1/A2_Nut.1/!Selection_RSur:(Face:(Brp:(Pad.1;2);None:();Cf11:());Pocket.1_ResultOUT;Z0;G4074)")
+Dim reference20 As Reference
+Set reference20 = product1.CreateReferenceFromName("Product1/A2_DM.1/!Selection_RSur:(Face:(Brp:(Pad.1;0:(Brp:(Sketch.1;6)));None:();Cf11:());Pocket.2_ResultOUT;Z0;G4074)")   
+Dim constraint10 As Constraint
+Set constraint10 = constraints1.AddBiEltCst(catCstTypeSurfContact, reference19, reference20)
+product1.Update
+Set constraints1 = product1.Connections("CATIAConstraints")
+Dim reference21 As Reference
+Set reference21 = product1.CreateReferenceFromName("Product1/A2_DM.1/!Selection_RSur:(Face:(Brp:(Pad.1;0:(Brp:(Sketch.1;8)));None:();Cf11:());Pocket.2_ResultOUT;Z0;G4074)")
+Dim reference22 As Reference
+Set reference22 = product1.CreateReferenceFromName("Product1/A2_Nut.1/!Selection_RSur:(Face:(Brp:(Pad.1;0:(Brp:(Sketch.1;4)));None:();Cf11:());Pocket.1_ResultOUT;Z0;G4074)")
+Dim constraint11 As Constraint
+Set constraint11 = constraints1.AddBiEltCst(catCstTypeAngle, reference21, reference22)
+Dim angle1 As Dimension
+Set angle1 = constraint11.Dimension
+angle1.Value = 0.000000
+constraint11.AngleSector = catCstAngleSector0
+product1.Update
+Dim arrayOfVariantOfBSTR5(0)
+arrayOfVariantOfBSTR5(0) = "D:\A2\A2 Mutahar\A2_Nut.CATPart"
+products1.AddComponentsFromFiles arrayOfVariantOfBSTR5, "All"
+Set constraints1 = product1.Connections("CATIAConstraints")
+Dim reference23 As Reference
+Set reference23 = product1.CreateReferenceFromName("Product1/A2_DM.2/!Axis:(Selection_RSur:(Face:(Brp:(Pocket.1;0:(Brp:(Sketch.3;4)));None:();Cf11:());Pocket.2_ResultOUT;Z0;G4074))")
+Dim reference24 As Reference
+Set reference24 = product1.CreateReferenceFromName("Product1/A2_Nut.2/!Axis:(Selection_RSur:(Face:(Brp:(Pocket.1;0:(Brp:(Sketch.2;4)));None:();Cf11:());Pocket.1_ResultOUT;Z0;G4074))")
+Dim constraint12 As Constraint
+Set constraint12 = constraints1.AddBiEltCst(catCstTypeOn, reference23, reference24)
+product1.Update
+Set constraints1 = product1.Connections("CATIAConstraints")
+Dim reference25 As Reference
+Set reference25 = product1.CreateReferenceFromName("Product1/A2_Nut.2/!Selection_RSur:(Face:(Brp:(Pad.1;2);None:();Cf11:());Pocket.1_ResultOUT;Z0;G4074)")
+Dim reference26 As Reference
+Set reference26 = product1.CreateReferenceFromName("Product1/A2_DM.2/!Selection_RSur:(Face:(Brp:(Pad.1;0:(Brp:(Sketch.1;6)));None:();Cf11:());Pocket.2_ResultOUT;Z0;G4074)")   
+Dim constraint13 As Constraint
+Set constraint13 = constraints1.AddBiEltCst(catCstTypeSurfContact, reference25, reference26)
+product1.Update
+Set constraints1 = product1.Connections("CATIAConstraints")
+Dim reference27 As Reference
+Set reference27 = product1.CreateReferenceFromName("Product1/A2_DM.2/!Selection_RSur:(Face:(Brp:(Pad.1;0:(Brp:(Sketch.1;8)));None:();Cf11:());Pocket.2_ResultOUT;Z0;G4074)")
+Dim reference28 As Reference
+Set reference28 = product1.CreateReferenceFromName("Product1/A2_Nut.2/!Selection_RSur:(Face:(Brp:(Pad.1;0:(Brp:(Sketch.1;4)));None:();Cf11:());Pocket.1_ResultOUT;Z0;G4074)")
+Dim constraint14 As Constraint
+Set constraint14 = constraints1.AddBiEltCst(catCstTypeAngle, reference27, reference28)
+Dim angle2 As Dimension
+Set angle2 = constraint14.Dimension
+angle2.Value = 0.000000
+constraint14.AngleSector = catCstAngleSector0
+product1.Update
+Dim arrayOfVariantOfBSTR6(0)
+arrayOfVariantOfBSTR6(0) = "D:\A2\A2 Mutahar\A2_Bar.CATPart"
+products1.AddComponentsFromFiles arrayOfVariantOfBSTR6, "All"
+Set constraints1 = product1.Connections("CATIAConstraints")
+Dim reference29 As Reference
+Set reference29 = product1.CreateReferenceFromName("Product1/A2_Bar.1/!Axis:(Selection_RSur:(Face:(Brp:(Pad.1;0:(Brp:(Sketch.1;3)));None:();Cf11:());Pad.1_ResultOUT;Z0;G4074))")
+Set reference23 = product1.CreateReferenceFromName("Product1/A2_DM.1/!Axis:(Selection_RSur:(Face:(Brp:(Pocket.1;0:(Brp:(Sketch.3;4)));None:();Cf11:());Pocket.2_ResultOUT;Z0;G4074))")
+Dim constraint18 As Constraint
+Set constraint18 = constraints1.AddBiEltCst(catCstTypeOn, reference29, reference23)
+product1.Update 
+Set constraints1 = product1.Connections("CATIAConstraints")
+Dim reference30 As Reference
+Set reference30 = product1.CreateReferenceFromName("Product1/A2_Plate.1/!Selection_RSur:(Face:(Brp:(Pad.1;0:(Brp:(Sketch.1;8)));None:();Cf11:());Pad.1_ResultOUT;Z0;G4074)")
+Dim reference31 As Reference
+Set reference31 = product1.CreateReferenceFromName("Product1/A2_Bar.1/!Selection_RSur:(Face:(Brp:(Pad.1;1);None:();Cf11:());Pad.1_ResultOUT;Z0;G4074)")
+Dim constraint19 As Constraint
+Set constraint19 = constraints1.AddBiEltCst(catCstTypeDistance, reference30, reference31)
+Dim length1 As Dimension
+Set length1 = constraint19.Dimension
+length1.Value = 10.000000
+constraint19.Orientation = catCstOrientSame
+product1.Update 
+Dim arrayOfVariantOfBSTR7(0)
+arrayOfVariantOfBSTR7(0) = "D:\A2\A2 Mutahar\A2_Bolt.CATPart"
+products1.AddComponentsFromFiles arrayOfVariantOfBSTR7, "All"
+Set constraints1 = product1.Connections("CATIAConstraints")
+Set reference9 = product1.CreateReferenceFromName("Product1/A2_DM.2/!Axis:(Selection_RSur:(Face:(Brp:(Pocket.2;0:(Brp:(Sketch.4;8)));None:();Cf11:());Pocket.2_ResultOUT;Z0;G4074))")
+Dim reference33 As Reference
+Set reference33 = product1.CreateReferenceFromName("Product1/A2_Bolt.1/!Axis:(Selection_RSur:(Face:(Brp:(Shaft.1;0:(Brp:(Sketch.1;10)));None:();Cf11:());Pad.1_ResultOUT;Z0;G4074))")
+Dim constraint20 As Constraint
+Set constraint20 = constraints1.AddBiEltCst(catCstTypeOn, reference9, reference33)
+product1.Update 
+Set constraints1 = product1.Connections("CATIAConstraints")
+Dim reference34 As Reference
+Set reference34 = product1.CreateReferenceFromName("Product1/A2_DM.2/!Selection_RSur:(Face:(Brp:(Pad.1;0:(Brp:(Sketch.1;12)));None:();Cf11:());Pocket.2_ResultOUT;Z0;G4074)")
+Dim reference35 As Reference
+Set reference35 = product1.CreateReferenceFromName("Product1/A2_Bolt.1/!Selection_RSur:(Face:(Brp:(Shaft.1;0:(Brp:(Sketch.1;8)));None:();Cf11:());Pad.1_ResultOUT;Z0;G4074)")
+Dim constraint22 As Constraint
+Set constraint22 = constraints1.AddBiEltCst(catCstTypeSurfContact, reference34, reference35)
+product1.Update 
+Set constraints1 = product1.Connections("CATIAConstraints")
+Dim reference36 As Reference
+Set reference36 = product1.CreateReferenceFromName("Product1/A2_Bolt.1/!Selection_REdge:(Edge:(Face:(Brp:(Pad.1;0:(Brp:(Sketch.3;9)));None:();Cf11:());Face:(Brp:(Pad.1;2);None:();Cf11:());None:(Limits1:();Limits2:());Cf11:());Pad.1_ResultOUT;Z0;G4074)")
+Dim reference37 As Reference
+Set reference37 = product1.CreateReferenceFromName("Product1/A2_Plate.1/!Selection_REdge:(Edge:(Face:(Brp:(Pad.1;1);None:();Cf11:());Face:(Brp:(Pad.1;0:(Brp:(Sketch.1;8)));None:();Cf11:());None:(Limits1:();Limits2:());Cf11:());Pad.1_ResultOUT;Z0;G4074)")
+Dim constraint23 As Constraint
+Set constraint23 = constraints1.AddBiEltCst(catCstTypeAngle, reference36, reference37)
+Dim angle4 As Dimension
+Set angle4 = constraint23.Dimension
+angle4.Value = 0.000000
+product1.Update
+
+Dim arrayOfVariantOfBSTR8(0)
+arrayOfVariantOfBSTR8(0) = "D:\A2\A2 Mutahar\A2_Bolt.CATPart"
+products1.AddComponentsFromFiles arrayOfVariantOfBSTR8, "All"
+Set constraints1 = product1.Connections("CATIAConstraints")
+Dim reference38 As Reference
+Set reference38 = product1.CreateReferenceFromName("Product1/A2_Bolt.2/!Axis:(Selection_RSur:(Face:(Brp:(Shaft.1;0:(Brp:(Sketch.1;10)));None:();Cf11:());Pad.1_ResultOUT;Z0;G4074))")
+Set reference11 = product1.CreateReferenceFromName("Product1/A2_DM.2/!Axis:(Selection_RSur:(Face:(Brp:(Pocket.2;0:(Brp:(Sketch.4;4)));None:();Cf11:());Pocket.2_ResultOUT;Z0;G4074))")
+Dim constraint24 As Constraint
+Set constraint24 = constraints1.AddBiEltCst(catCstTypeOn, reference11, reference38)
+product1.Update 
+Set constraints1 = product1.Connections("CATIAConstraints")
+Set reference34 = product1.CreateReferenceFromName("Product1/A2_DM.2/!Selection_RSur:(Face:(Brp:(Pad.1;0:(Brp:(Sketch.1;12)));None:();Cf11:());Pocket.2_ResultOUT;Z0;G4074)")
+Dim reference39 As Reference
+Set reference39 = product1.CreateReferenceFromName("Product1/A2_Bolt.2/!Selection_RSur:(Face:(Brp:(Shaft.1;0:(Brp:(Sketch.1;8)));None:();Cf11:());Pad.1_ResultOUT;Z0;G4074)")
+Dim constraint25 As Constraint
+Set constraint25 = constraints1.AddBiEltCst(catCstTypeSurfContact, reference34, reference39)
+product1.Update 
+Set constraints1 = product1.Connections("CATIAConstraints")
+Dim reference40 As Reference
+Set reference40 = product1.CreateReferenceFromName("Product1/A2_Bolt.2/!Selection_REdge:(Edge:(Face:(Brp:(Pad.1;0:(Brp:(Sketch.3;9)));None:();Cf11:());Face:(Brp:(Pad.1;2);None:();Cf11:());None:(Limits1:();Limits2:());Cf11:());Pad.1_ResultOUT;Z0;G4074)")
+Set reference37 = product1.CreateReferenceFromName("Product1/A2_Plate.1/!Selection_REdge:(Edge:(Face:(Brp:(Pad.1;1);None:();Cf11:());Face:(Brp:(Pad.1;0:(Brp:(Sketch.1;8)));None:();Cf11:());None:(Limits1:();Limits2:());Cf11:());Pad.1_ResultOUT;Z0;G4074)")
+Dim constraint26 As Constraint
+Set constraint26 = constraints1.AddBiEltCst(catCstTypeAngle, reference37, reference40)
+Dim angle5 As Dimension
+Set angle5 = constraint26.Dimension
+angle5.Value = 0.000000
+product1.Update 
+Dim arrayOfVariantOfBSTR9(0)
+arrayOfVariantOfBSTR9(0) = "D:\A2\A2 Mutahar\A2_Bolt.CATPart"
+products1.AddComponentsFromFiles arrayOfVariantOfBSTR9, "All"
+Set constraints1 = product1.Connections("CATIAConstraints")
+Dim reference41 As Reference
+Set reference41 = product1.CreateReferenceFromName("Product1/A2_Bolt.3/!Axis:(Selection_RSur:(Face:(Brp:(Shaft.1;0:(Brp:(Sketch.1;10)));None:();Cf11:());Pad.1_ResultOUT;Z0;G4074))")
+Set reference13 = product1.CreateReferenceFromName("Product1/A2_DM.2/!Axis:(Selection_RSur:(Face:(Brp:(Pocket.2;0:(Brp:(Sketch.4;6)));None:();Cf11:());Pocket.2_ResultOUT;Z0;G4074))")
+Dim constraint27 As Constraint
+Set constraint27 = constraints1.AddBiEltCst(catCstTypeOn, reference41, reference13)
+product1.Update 
+Set constraints1 = product1.Connections("CATIAConstraints")
+Set reference34 = product1.CreateReferenceFromName("Product1/A2_DM.2/!Selection_RSur:(Face:(Brp:(Pad.1;0:(Brp:(Sketch.1;12)));None:();Cf11:());Pocket.2_ResultOUT;Z0;G4074)")
+Dim reference42 As Reference
+Set reference42 = product1.CreateReferenceFromName("Product1/A2_Bolt.3/!Selection_RSur:(Face:(Brp:(Shaft.1;0:(Brp:(Sketch.1;8)));None:();Cf11:());Pad.1_ResultOUT;Z0;G4074)")
+Dim constraint28 As Constraint
+Set constraint28 = constraints1.AddBiEltCst(catCstTypeSurfContact, reference34, reference42)
+product1.Update 
+Set constraints1 = product1.Connections("CATIAConstraints")
+Dim reference43 As Reference
+Set reference43 = product1.CreateReferenceFromName("Product1/A2_Bolt.3/!Selection_REdge:(Edge:(Face:(Brp:(Pad.1;0:(Brp:(Sketch.3;9)));None:();Cf11:());Face:(Brp:(Pad.1;2);None:();Cf11:());None:(Limits1:();Limits2:());Cf11:());Pad.1_ResultOUT;Z0;G4074)")
+Set reference37 = product1.CreateReferenceFromName("Product1/A2_Plate.1/!Selection_REdge:(Edge:(Face:(Brp:(Pad.1;1);None:();Cf11:());Face:(Brp:(Pad.1;0:(Brp:(Sketch.1;8)));None:();Cf11:());None:(Limits1:();Limits2:());Cf11:());Pad.1_ResultOUT;Z0;G4074)")
+Dim constraint29 As Constraint
+Set constraint29 = constraints1.AddBiEltCst(catCstTypeAngle, reference43, reference37)
+Dim angle6 As Dimension
+Set angle6 = constraint29.Dimension
+angle6.Value = 0.000000
+product1.Update 
+Dim arrayOfVariantOfBSTR10(0)
+arrayOfVariantOfBSTR10(0) = "D:\A2\A2 Mutahar\A2_Bolt.CATPart"
+products1.AddComponentsFromFiles arrayOfVariantOfBSTR10, "All"
+Set constraints1 = product1.Connections("CATIAConstraints")
+Dim reference44 As Reference
+Set reference44 = product1.CreateReferenceFromName("Product1/A2_Bolt.4/!Axis:(Selection_RSur:(Face:(Brp:(Shaft.1;0:(Brp:(Sketch.1;10)));None:();Cf11:());Pad.1_ResultOUT;Z0;G4074))")
+Set reference1 = product1.CreateReferenceFromName("Product1/A2_DM.1/!Axis:(Selection_RSur:(Face:(Brp:(Pocket.2;0:(Brp:(Sketch.4;8)));None:();Cf11:());Pocket.2_ResultOUT;Z0;G4074))")
+Dim constraint30 As Constraint
+Set constraint30 = constraints1.AddBiEltCst(catCstTypeOn, reference44, reference1)
+product1.Update 
+Set constraints1 = product1.Connections("CATIAConstraints")
+Dim reference45 As Reference
+Set reference45 = product1.CreateReferenceFromName("Product1/A2_DM.1/!Selection_RSur:(Face:(Brp:(Pad.1;0:(Brp:(Sketch.1;12)));None:();Cf11:());Pocket.2_ResultOUT;Z0;G4074)")
+Dim reference46 As Reference
+Set reference46 = product1.CreateReferenceFromName("Product1/A2_Bolt.4/!Selection_RSur:(Face:(Brp:(Shaft.1;0:(Brp:(Sketch.1;8)));None:();Cf11:());Pad.1_ResultOUT;Z0;G4074)")
+Dim constraint31 As Constraint
+Set constraint31 = constraints1.AddBiEltCst(catCstTypeSurfContact, reference45, reference46)
+product1.Update 
+Set constraints1 = product1.Connections("CATIAConstraints")
+Dim reference47 As Reference
+Set reference47 = product1.CreateReferenceFromName("Product1/A2_Bolt.4/!Selection_REdge:(Edge:(Face:(Brp:(Pad.1;0:(Brp:(Sketch.3;9)));None:();Cf11:());Face:(Brp:(Pad.1;2);None:();Cf11:());None:(Limits1:();Limits2:());Cf11:());Pad.1_ResultOUT;Z0;G4074)")
+Dim reference48 As Reference
+Set reference48 = product1.CreateReferenceFromName("Product1/A2_Plate.1/!Selection_REdge:(Edge:(Face:(Brp:(Pad.1;1);None:();Cf11:());Face:(Brp:(Pad.1;0:(Brp:(Sketch.1;4)));None:();Cf11:());None:(Limits1:();Limits2:());Cf11:());Pad.1_ResultOUT;Z0;G4074)")
+Dim constraint32 As Constraint
+Set constraint32 = constraints1.AddBiEltCst(catCstTypeAngle, reference47, reference48)
+Dim angle7 As Dimension
+Set angle7 = constraint32.Dimension
+angle7.Value = 0.000000
+product1.Update
+Dim arrayOfVariantOfBSTR11(0)
+arrayOfVariantOfBSTR11(0) = "D:\A2\A2 Mutahar\A2_Bolt.CATPart"
+products1.AddComponentsFromFiles arrayOfVariantOfBSTR11, "All"
+Set constraints1 = product1.Connections("CATIAConstraints")
+Dim reference49 As Reference
+Set reference49 = product1.CreateReferenceFromName("Product1/A2_Bolt.5/!Axis:(Selection_RSur:(Face:(Brp:(Shaft.1;0:(Brp:(Sketch.1;10)));None:();Cf11:());Pad.1_ResultOUT;Z0;G4074))")
+Set reference3 = product1.CreateReferenceFromName("Product1/A2_DM.1/!Axis:(Selection_RSur:(Face:(Brp:(Pocket.2;0:(Brp:(Sketch.4;4)));None:();Cf11:());Pocket.2_ResultOUT;Z0;G4074))")
+Dim constraint33 As Constraint
+Set constraint33 = constraints1.AddBiEltCst(catCstTypeOn, reference49, reference3)
+product1.Update
+Set constraints1 = product1.Connections("CATIAConstraints")
+Set reference45 = product1.CreateReferenceFromName("Product1/A2_DM.1/!Selection_RSur:(Face:(Brp:(Pad.1;0:(Brp:(Sketch.1;12)));None:();Cf11:());Pocket.2_ResultOUT;Z0;G4074)")
+Dim reference50 As Reference
+Set reference50 = product1.CreateReferenceFromName("Product1/A2_Bolt.5/!Selection_RSur:(Face:(Brp:(Shaft.1;0:(Brp:(Sketch.1;8)));None:();Cf11:());Pad.1_ResultOUT;Z0;G4074)")
+Dim constraint34 As Constraint
+Set constraint34 = constraints1.AddBiEltCst(catCstTypeSurfContact, reference45, reference50)
+product1.Update
+Set constraints1 = product1.Connections("CATIAConstraints")
+Dim reference51 As Reference
+Set reference51 = product1.CreateReferenceFromName("Product1/A2_Bolt.5/!Selection_REdge:(Edge:(Face:(Brp:(Pad.1;0:(Brp:(Sketch.3;9)));None:();Cf11:());Face:(Brp:(Pad.1;2);None:();Cf11:());None:(Limits1:();Limits2:());Cf11:());Pad.1_ResultOUT;Z0;G4074)")
+Set reference48 = product1.CreateReferenceFromName("Product1/A2_Plate.1/!Selection_REdge:(Edge:(Face:(Brp:(Pad.1;1);None:();Cf11:());Face:(Brp:(Pad.1;0:(Brp:(Sketch.1;4)));None:();Cf11:());None:(Limits1:();Limits2:());Cf11:());Pad.1_ResultOUT;Z0;G4074)")
+Dim constraint35 As Constraint
+Set constraint35 = constraints1.AddBiEltCst(catCstTypeAngle, reference51, reference48)
+Dim angle8 As Dimension
+Set angle8 = constraint35.Dimension
+angle8.Value = 0.000000
+product1.Update
+Dim arrayOfVariantOfBSTR12(0)
+arrayOfVariantOfBSTR12(0) = "D:\A2\A2 Mutahar\A2_Bolt.CATPart"
+products1.AddComponentsFromFiles arrayOfVariantOfBSTR12, "All"
+Set constraints1 = product1.Connections("CATIAConstraints")
+Dim reference52 As Reference
+Set reference52 = product1.CreateReferenceFromName("Product1/A2_Bolt.6/!Axis:(Selection_RSur:(Face:(Brp:(Shaft.1;0:(Brp:(Sketch.1;10)));None:();Cf11:());Pad.1_ResultOUT;Z0;G4074))")
+Set reference5 = product1.CreateReferenceFromName("Product1/A2_DM.1/!Axis:(Selection_RSur:(Face:(Brp:(Pocket.2;0:(Brp:(Sketch.4;6)));None:();Cf11:());Pocket.2_ResultOUT;Z0;G4074))")
+Dim constraint36 As Constraint
+Set constraint36 = constraints1.AddBiEltCst(catCstTypeOn, reference52, reference5)
+product1.Update
+Set constraints1 = product1.Connections("CATIAConstraints")
+Set reference45 = product1.CreateReferenceFromName("Product1/A2_DM.1/!Selection_RSur:(Face:(Brp:(Pad.1;0:(Brp:(Sketch.1;12)));None:();Cf11:());Pocket.2_ResultOUT;Z0;G4074)")
+Dim reference53 As Reference
+Set reference53 = product1.CreateReferenceFromName("Product1/A2_Bolt.6/!Selection_RSur:(Face:(Brp:(Shaft.1;0:(Brp:(Sketch.1;8)));None:();Cf11:());Pad.1_ResultOUT;Z0;G4074)")
+Dim constraint37 As Constraint
+Set constraint37 = constraints1.AddBiEltCst(catCstTypeSurfContact, reference45, reference53)
+product1.Update
+Set constraints1 = product1.Connections("CATIAConstraints")
+Dim reference54 As Reference
+Set reference54 = product1.CreateReferenceFromName("Product1/A2_Bolt.6/!Selection_REdge:(Edge:(Face:(Brp:(Pad.1;0:(Brp:(Sketch.3;9)));None:();Cf11:());Face:(Brp:(Pad.1;2);None:();Cf11:());None:(Limits1:();Limits2:());Cf11:());Pad.1_ResultOUT;Z0;G4074)")
+Set reference48 = product1.CreateReferenceFromName("Product1/A2_Plate.1/!Selection_REdge:(Edge:(Face:(Brp:(Pad.1;1);None:();Cf11:());Face:(Brp:(Pad.1;0:(Brp:(Sketch.1;4)));None:();Cf11:());None:(Limits1:();Limits2:());Cf11:());Pad.1_ResultOUT;Z0;G4074)")
+Dim constraint38 As Constraint
+Set constraint38 = constraints1.AddBiEltCst(catCstTypeAngle, reference54, reference48)
+product1.Update
+Dim angle9 As Dimension
+Set angle9 = constraint38.Dimension
+angle9.Value = 0.000000
+product1.Update
+End Sub
