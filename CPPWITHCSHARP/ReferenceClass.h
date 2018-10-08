@@ -18,7 +18,7 @@ string Stos(String^ k);
 String^ stoS(string k);
 
 public value struct refCommand {
-	int command;	//Constraint Type(CTYPE)
+	int command;			//Constraint Type(CTYPE)
 	String^ param;			//TransCAD->CATIA의 경우 pack에 대한 정보를 받고//Result로는 catname에 대한 정보를 전달
 	String^ MasterPart;
 	String^ SlavePart;

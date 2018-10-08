@@ -1,24 +1,25 @@
 #pragma once
 #include "Feature.h"
+namespace Post {
+	class FSketch;
 
-class FSketch;
+	class FeatureSOLIDCreateProtrusionRevolve : public Feature
+	{
+	public:
+		FeatureSOLIDCreateProtrusionRevolve(Part * pPart, TransCAD::IFeaturePtr spFeature);
+		virtual ~FeatureSOLIDCreateProtrusionRevolve(void);
 
-class FeatureSOLIDCreateProtrusionRevolve : public Feature
-{
-public:
-	FeatureSOLIDCreateProtrusionRevolve(Part * pPart, TransCAD::IFeaturePtr spFeature);
-	virtual ~FeatureSOLIDCreateProtrusionRevolve(void);
+		FSketch * GetFeatureProfileSketch() { return _featureProfileSketch; }
 
-	FSketch * GetFeatureProfileSketch() {return _featureProfileSketch;}
+		virtual void GetInfo();
+		virtual void ToCATIA();
 
-	virtual void GetInfo();
-	virtual void ToCATIA();
+	private:
+		bool	_flip;
+		double	_startAngle;
+		double	_endAngle;
 
-private:
-	bool	_flip;
-	double	_startAngle;
-	double	_endAngle;
-	
-protected:
-	FSketch * _featureProfileSketch;
-};
+	protected:
+		FSketch * _featureProfileSketch;
+	};
+}

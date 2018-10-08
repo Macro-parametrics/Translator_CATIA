@@ -1,21 +1,22 @@
 #pragma once
 #include "Feature.h"
+namespace Post {
+	class FSketch;
 
-class FSketch;
+	class FeatureSOLIDCreateProtrusionSweep : public Feature
+	{
+	public:
+		FeatureSOLIDCreateProtrusionSweep(Part * pPart, TransCAD::IFeaturePtr spFeature);
+		virtual ~FeatureSOLIDCreateProtrusionSweep(void);
 
-class FeatureSOLIDCreateProtrusionSweep : public Feature
-{
-public:
-	FeatureSOLIDCreateProtrusionSweep(Part * pPart, TransCAD::IFeaturePtr spFeature);
-	virtual ~FeatureSOLIDCreateProtrusionSweep(void);
+		FSketch * GetProfileSketch() { return _profileSketch; }
+		FSketch * GetGuideSketch() { return _guideSketch; }
 
-	FSketch * GetProfileSketch() {return _profileSketch;}
-	FSketch * GetGuideSketch() {return _guideSketch;}
+		virtual void GetInfo();
+		virtual void ToCATIA();
 
-	virtual void GetInfo();
-	virtual void ToCATIA();
-
-private:
-	FSketch * _profileSketch;
-	FSketch * _guideSketch;
-};
+	private:
+		FSketch * _profileSketch;
+		FSketch * _guideSketch;
+	};
+}

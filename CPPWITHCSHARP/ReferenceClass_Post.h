@@ -15,7 +15,7 @@ namespace ReferenceClass
 		virtual ~ref_Post();
 
 	protected:
-		::CATIAReferenceManager	*m_pReferenceManager;
+		Post::CATIAReferenceManager	*m_pReferenceManager;
 
 	private:
 		int GetPartNum_From_PartName(TransCAD::ICompPtr u_spComp, string PartName);
@@ -28,7 +28,7 @@ namespace ReferenceClass
 		/*외부로 노출시킬 함수를 만들고 이 안에서 m_pReferenceManager를 통해 실제 함수를 사용한다*/
 		//::Part * pPart;
 		refCommand ConvertRefPost(refCommand w);
-		void ExtentionFuc(int CompNum, int PartNum, String^ path);
+		void AssemblyPartT2C(int CompNum, int PartNum, String^ path);
 
 	};
 

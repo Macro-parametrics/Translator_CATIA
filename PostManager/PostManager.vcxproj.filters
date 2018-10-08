@@ -11,103 +11,31 @@
     <Filter Include="Source">
       <UniqueIdentifier>{1d41eca9-3654-400b-aa69-4b642aa812b3}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Part">
+      <UniqueIdentifier>{4355749b-7452-4a57-93ee-762113c2ab81}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Part\Feature">
+      <UniqueIdentifier>{b8b6360c-355c-4dac-bbb8-db52ea40e305}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Part\Reference">
+      <UniqueIdentifier>{126676c1-c880-4c84-9e56-f834b51137aa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Part\Sketchitem">
+      <UniqueIdentifier>{3fb0cd65-7175-46b1-ad70-60b4c80ec1bc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Utility">
+      <UniqueIdentifier>{1143b2d7-5c7e-4ae7-ba99-ec53569a0c49}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <Text Include="ReadMe.txt" />
     <Text Include="ref\ReadMe.txt">
-      <Filter>ref</Filter>
+      <Filter>Source</Filter>
     </Text>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="ref\CATIApost_DLL.h">
-      <Filter>ref</Filter>
-    </ClInclude>
     <ClInclude Include="ref\Definition.h">
       <Filter>ref</Filter>
-    </ClInclude>
-    <ClInclude Include="ref\FDatumPlane.h">
-      <Filter>ref</Filter>
-    </ClInclude>
-    <ClInclude Include="ref\FDatumPlaneOffset.h">
-      <Filter>ref</Filter>
-    </ClInclude>
-    <ClInclude Include="ref\Feature.h">
-      <Filter>ref</Filter>
-    </ClInclude>
-    <ClInclude Include="ref\FeatureSOLIDCreateChamfer.h">
-      <Filter>ref</Filter>
-    </ClInclude>
-    <ClInclude Include="ref\FeatureSOLIDCreateCutExtrude.h">
-      <Filter>ref</Filter>
-    </ClInclude>
-    <ClInclude Include="ref\FeatureSOLIDCreateCutRevolve.h">
-      <Filter>ref</Filter>
-    </ClInclude>
-    <ClInclude Include="ref\FeatureSOLIDCreateFacesLoft.h">
-      <Filter>ref</Filter>
-    </ClInclude>
-    <ClInclude Include="ref\FeatureSOLIDCreateFilletConstant.h">
-      <Filter>ref</Filter>
-    </ClInclude>
-    <ClInclude Include="ref\FeatureSOLIDCreateHoleCounterbored.h">
-      <Filter>ref</Filter>
-    </ClInclude>
-    <ClInclude Include="ref\FeatureSOLIDCreateHoleCountersunk.h">
-      <Filter>ref</Filter>
-    </ClInclude>
-    <ClInclude Include="ref\FeatureSOLIDCreatePatternCircular.h">
-      <Filter>ref</Filter>
-    </ClInclude>
-    <ClInclude Include="ref\FeatureSOLIDCreatePatternRectangular.h">
-      <Filter>ref</Filter>
-    </ClInclude>
-    <ClInclude Include="ref\FeatureSOLIDCreateProtrusionExtrude.h">
-      <Filter>ref</Filter>
-    </ClInclude>
-    <ClInclude Include="ref\FeatureSOLIDCreateProtrusionLoft.h">
-      <Filter>ref</Filter>
-    </ClInclude>
-    <ClInclude Include="ref\FeatureSOLIDCreateProtrusionRevolve.h">
-      <Filter>ref</Filter>
-    </ClInclude>
-    <ClInclude Include="ref\FeatureSOLIDCreateProtrusionSweep.h">
-      <Filter>ref</Filter>
-    </ClInclude>
-    <ClInclude Include="ref\FeatureSOLIDCreateSectionsLoft.h">
-      <Filter>ref</Filter>
-    </ClInclude>
-    <ClInclude Include="ref\FSketch.h">
-      <Filter>ref</Filter>
-    </ClInclude>
-    <ClInclude Include="ref\MP_Utility.h">
-      <Filter>ref</Filter>
-    </ClInclude>
-    <ClInclude Include="ref\PN_TYPE.h">
-      <Filter>ref</Filter>
-    </ClInclude>
-    <ClInclude Include="ref\SKETCHCreate2DCenterline.h">
-      <Filter>ref</Filter>
-    </ClInclude>
-    <ClInclude Include="ref\SKETCHCreate2DCircleCenterPoint.h">
-      <Filter>ref</Filter>
-    </ClInclude>
-    <ClInclude Include="ref\SKETCHCreate2DCircularArc.h">
-      <Filter>ref</Filter>
-    </ClInclude>
-    <ClInclude Include="ref\SKETCHCreate2DLine2Points.h">
-      <Filter>ref</Filter>
-    </ClInclude>
-    <ClInclude Include="ref\SKETCHCreate2DPoint.h">
-      <Filter>ref</Filter>
-    </ClInclude>
-    <ClInclude Include="ref\SKETCHItem.h">
-      <Filter>ref</Filter>
-    </ClInclude>
-    <ClInclude Include="ref\Part.h">
-      <Filter>Source</Filter>
-    </ClInclude>
-    <ClInclude Include="ref\CATIAReferenceManager.h">
-      <Filter>Source</Filter>
     </ClInclude>
     <ClInclude Include="stdafx.h">
       <Filter>ref</Filter>
@@ -115,94 +43,181 @@
     <ClInclude Include="targetver.h">
       <Filter>ref</Filter>
     </ClInclude>
+    <ClInclude Include="ref\Part.h">
+      <Filter>Part</Filter>
+    </ClInclude>
+    <ClInclude Include="ref\MP_Utility.h">
+      <Filter>Utility</Filter>
+    </ClInclude>
+    <ClInclude Include="ref\PN_TYPE.h">
+      <Filter>Utility</Filter>
+    </ClInclude>
+    <ClInclude Include="ref\FDatumPlane.h">
+      <Filter>Part\Feature</Filter>
+    </ClInclude>
+    <ClInclude Include="ref\FDatumPlaneOffset.h">
+      <Filter>Part\Feature</Filter>
+    </ClInclude>
+    <ClInclude Include="ref\Feature.h">
+      <Filter>Part\Feature</Filter>
+    </ClInclude>
+    <ClInclude Include="ref\FeatureSOLIDCreateChamfer.h">
+      <Filter>Part\Feature</Filter>
+    </ClInclude>
+    <ClInclude Include="ref\FeatureSOLIDCreateCutExtrude.h">
+      <Filter>Part\Feature</Filter>
+    </ClInclude>
+    <ClInclude Include="ref\FeatureSOLIDCreateCutRevolve.h">
+      <Filter>Part\Feature</Filter>
+    </ClInclude>
+    <ClInclude Include="ref\FeatureSOLIDCreateFacesLoft.h">
+      <Filter>Part\Feature</Filter>
+    </ClInclude>
+    <ClInclude Include="ref\FeatureSOLIDCreateFilletConstant.h">
+      <Filter>Part\Feature</Filter>
+    </ClInclude>
+    <ClInclude Include="ref\FeatureSOLIDCreateHoleCounterbored.h">
+      <Filter>Part\Feature</Filter>
+    </ClInclude>
+    <ClInclude Include="ref\FeatureSOLIDCreateHoleCountersunk.h">
+      <Filter>Part\Feature</Filter>
+    </ClInclude>
+    <ClInclude Include="ref\FeatureSOLIDCreatePatternCircular.h">
+      <Filter>Part\Feature</Filter>
+    </ClInclude>
+    <ClInclude Include="ref\FeatureSOLIDCreatePatternRectangular.h">
+      <Filter>Part\Feature</Filter>
+    </ClInclude>
+    <ClInclude Include="ref\FeatureSOLIDCreateProtrusionExtrude.h">
+      <Filter>Part\Feature</Filter>
+    </ClInclude>
+    <ClInclude Include="ref\FeatureSOLIDCreateProtrusionLoft.h">
+      <Filter>Part\Feature</Filter>
+    </ClInclude>
+    <ClInclude Include="ref\FeatureSOLIDCreateProtrusionRevolve.h">
+      <Filter>Part\Feature</Filter>
+    </ClInclude>
+    <ClInclude Include="ref\FeatureSOLIDCreateProtrusionSweep.h">
+      <Filter>Part\Feature</Filter>
+    </ClInclude>
+    <ClInclude Include="ref\FeatureSOLIDCreateSectionsLoft.h">
+      <Filter>Part\Feature</Filter>
+    </ClInclude>
+    <ClInclude Include="ref\FSketch.h">
+      <Filter>Part\Feature</Filter>
+    </ClInclude>
+    <ClInclude Include="ref\SKETCHCreate2DCenterline.h">
+      <Filter>Part\Sketchitem</Filter>
+    </ClInclude>
+    <ClInclude Include="ref\SKETCHCreate2DCircleCenterPoint.h">
+      <Filter>Part\Sketchitem</Filter>
+    </ClInclude>
+    <ClInclude Include="ref\SKETCHCreate2DCircularArc.h">
+      <Filter>Part\Sketchitem</Filter>
+    </ClInclude>
+    <ClInclude Include="ref\SKETCHCreate2DLine2Points.h">
+      <Filter>Part\Sketchitem</Filter>
+    </ClInclude>
+    <ClInclude Include="ref\SKETCHCreate2DPoint.h">
+      <Filter>Part\Sketchitem</Filter>
+    </ClInclude>
+    <ClInclude Include="ref\SKETCHItem.h">
+      <Filter>Part\Sketchitem</Filter>
+    </ClInclude>
+    <ClInclude Include="ref\CATIAReferenceManager.h">
+      <Filter>Part\Reference</Filter>
+    </ClInclude>
+    <ClInclude Include="ref\CATIApost_DLL.h">
+      <Filter>ref</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="ref\CATIApost_DLL.cpp">
-      <Filter>ref</Filter>
-    </ClCompile>
-    <ClCompile Include="ref\FDatumPlane.cpp">
-      <Filter>ref</Filter>
-    </ClCompile>
-    <ClCompile Include="ref\FDatumPlaneOffset.cpp">
-      <Filter>ref</Filter>
-    </ClCompile>
-    <ClCompile Include="ref\Feature.cpp">
-      <Filter>ref</Filter>
-    </ClCompile>
-    <ClCompile Include="ref\FeatureSOLIDCreateChamfer.cpp">
-      <Filter>ref</Filter>
-    </ClCompile>
-    <ClCompile Include="ref\FeatureSOLIDCreateCutExtrude.cpp">
-      <Filter>ref</Filter>
-    </ClCompile>
-    <ClCompile Include="ref\FeatureSOLIDCreateCutRevolve.cpp">
-      <Filter>ref</Filter>
-    </ClCompile>
-    <ClCompile Include="ref\FeatureSOLIDCreateFacesLoft.cpp">
-      <Filter>ref</Filter>
-    </ClCompile>
-    <ClCompile Include="ref\FeatureSOLIDCreateFilletConstant.cpp">
-      <Filter>ref</Filter>
-    </ClCompile>
-    <ClCompile Include="ref\FeatureSOLIDCreateHoleCounterbored.cpp">
-      <Filter>ref</Filter>
-    </ClCompile>
-    <ClCompile Include="ref\FeatureSOLIDCreateHoleCountersunk.cpp">
-      <Filter>ref</Filter>
-    </ClCompile>
-    <ClCompile Include="ref\FeatureSOLIDCreatePatternCircular.cpp">
-      <Filter>ref</Filter>
-    </ClCompile>
-    <ClCompile Include="ref\FeatureSOLIDCreatePatternRectangular.cpp">
-      <Filter>ref</Filter>
-    </ClCompile>
-    <ClCompile Include="ref\FeatureSOLIDCreateProtrusionExtrude.cpp">
-      <Filter>ref</Filter>
-    </ClCompile>
-    <ClCompile Include="ref\FeatureSOLIDCreateProtrusionLoft.cpp">
-      <Filter>ref</Filter>
-    </ClCompile>
-    <ClCompile Include="ref\FeatureSOLIDCreateProtrusionRevolve.cpp">
-      <Filter>ref</Filter>
-    </ClCompile>
-    <ClCompile Include="ref\FeatureSOLIDCreateProtrusionSweep.cpp">
-      <Filter>ref</Filter>
-    </ClCompile>
-    <ClCompile Include="ref\FeatureSOLIDCreateSectionsLoft.cpp">
-      <Filter>ref</Filter>
-    </ClCompile>
-    <ClCompile Include="ref\FSketch.cpp">
-      <Filter>ref</Filter>
-    </ClCompile>
-    <ClCompile Include="ref\MP_Utility.cpp">
-      <Filter>ref</Filter>
-    </ClCompile>
-    <ClCompile Include="ref\SKETCHCreate2DCenterline.cpp">
-      <Filter>ref</Filter>
-    </ClCompile>
-    <ClCompile Include="ref\SKETCHCreate2DCircleCenterPoint.cpp">
-      <Filter>ref</Filter>
-    </ClCompile>
-    <ClCompile Include="ref\SKETCHCreate2DCircularArc.cpp">
-      <Filter>ref</Filter>
-    </ClCompile>
-    <ClCompile Include="ref\SKETCHCreate2DLine2Points.cpp">
-      <Filter>ref</Filter>
-    </ClCompile>
-    <ClCompile Include="ref\SKETCHCreate2DPoint.cpp">
-      <Filter>ref</Filter>
-    </ClCompile>
-    <ClCompile Include="ref\SKETCHItem.cpp">
-      <Filter>ref</Filter>
-    </ClCompile>
-    <ClCompile Include="ref\Part.cpp">
-      <Filter>Source</Filter>
-    </ClCompile>
-    <ClCompile Include="ref\CATIAReferenceManager.cpp">
-      <Filter>Source</Filter>
-    </ClCompile>
     <ClCompile Include="stdafx.cpp">
       <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="ref\Part.cpp">
+      <Filter>Part</Filter>
+    </ClCompile>
+    <ClCompile Include="ref\CATIApost_DLL.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="ref\MP_Utility.cpp">
+      <Filter>Utility</Filter>
+    </ClCompile>
+    <ClCompile Include="ref\FDatumPlane.cpp">
+      <Filter>Part\Feature</Filter>
+    </ClCompile>
+    <ClCompile Include="ref\FDatumPlaneOffset.cpp">
+      <Filter>Part\Feature</Filter>
+    </ClCompile>
+    <ClCompile Include="ref\Feature.cpp">
+      <Filter>Part\Feature</Filter>
+    </ClCompile>
+    <ClCompile Include="ref\FeatureSOLIDCreateChamfer.cpp">
+      <Filter>Part\Feature</Filter>
+    </ClCompile>
+    <ClCompile Include="ref\FeatureSOLIDCreateCutExtrude.cpp">
+      <Filter>Part\Feature</Filter>
+    </ClCompile>
+    <ClCompile Include="ref\FeatureSOLIDCreateCutRevolve.cpp">
+      <Filter>Part\Feature</Filter>
+    </ClCompile>
+    <ClCompile Include="ref\FeatureSOLIDCreateFacesLoft.cpp">
+      <Filter>Part\Feature</Filter>
+    </ClCompile>
+    <ClCompile Include="ref\FeatureSOLIDCreateFilletConstant.cpp">
+      <Filter>Part\Feature</Filter>
+    </ClCompile>
+    <ClCompile Include="ref\FeatureSOLIDCreateHoleCounterbored.cpp">
+      <Filter>Part\Feature</Filter>
+    </ClCompile>
+    <ClCompile Include="ref\FeatureSOLIDCreateHoleCountersunk.cpp">
+      <Filter>Part\Feature</Filter>
+    </ClCompile>
+    <ClCompile Include="ref\FeatureSOLIDCreatePatternCircular.cpp">
+      <Filter>Part\Feature</Filter>
+    </ClCompile>
+    <ClCompile Include="ref\FeatureSOLIDCreatePatternRectangular.cpp">
+      <Filter>Part\Feature</Filter>
+    </ClCompile>
+    <ClCompile Include="ref\FeatureSOLIDCreateProtrusionExtrude.cpp">
+      <Filter>Part\Feature</Filter>
+    </ClCompile>
+    <ClCompile Include="ref\FeatureSOLIDCreateProtrusionLoft.cpp">
+      <Filter>Part\Feature</Filter>
+    </ClCompile>
+    <ClCompile Include="ref\FeatureSOLIDCreateProtrusionRevolve.cpp">
+      <Filter>Part\Feature</Filter>
+    </ClCompile>
+    <ClCompile Include="ref\FeatureSOLIDCreateProtrusionSweep.cpp">
+      <Filter>Part\Feature</Filter>
+    </ClCompile>
+    <ClCompile Include="ref\FeatureSOLIDCreateSectionsLoft.cpp">
+      <Filter>Part\Feature</Filter>
+    </ClCompile>
+    <ClCompile Include="ref\FSketch.cpp">
+      <Filter>Part\Feature</Filter>
+    </ClCompile>
+    <ClCompile Include="ref\SKETCHCreate2DCenterline.cpp">
+      <Filter>Part\Sketchitem</Filter>
+    </ClCompile>
+    <ClCompile Include="ref\SKETCHCreate2DCircleCenterPoint.cpp">
+      <Filter>Part\Sketchitem</Filter>
+    </ClCompile>
+    <ClCompile Include="ref\SKETCHCreate2DCircularArc.cpp">
+      <Filter>Part\Sketchitem</Filter>
+    </ClCompile>
+    <ClCompile Include="ref\SKETCHCreate2DLine2Points.cpp">
+      <Filter>Part\Sketchitem</Filter>
+    </ClCompile>
+    <ClCompile Include="ref\SKETCHCreate2DPoint.cpp">
+      <Filter>Part\Sketchitem</Filter>
+    </ClCompile>
+    <ClCompile Include="ref\SKETCHItem.cpp">
+      <Filter>Part\Sketchitem</Filter>
+    </ClCompile>
+    <ClCompile Include="ref\CATIAReferenceManager.cpp">
+      <Filter>Part\Reference</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>

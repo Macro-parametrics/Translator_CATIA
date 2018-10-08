@@ -26,11 +26,12 @@
 #include "Definition.h"
 
 using namespace std;
+namespace Post {
+	extern TransCAD::IApplicationPtr g_spApplication;
+	class CATIAReferenceManager;
+	extern CATIAReferenceManager *g_pRefManager;
 
-extern TransCAD::IApplicationPtr g_spApplication;
-class CATIAReferenceManager;
-extern CATIAReferenceManager *g_pRefManager;
-
-// 이 클래스는 dllUGPost.dll에서 내보낸 것입니다.
-DLLCATIAPOST_API int CATIAPostStartService(void);
-DLLCATIAPOST_API int CATIAPostTranslate(char argv[]);
+	// 이 클래스는 dllUGPost.dll에서 내보낸 것입니다.
+	DLLCATIAPOST_API int CATIAPostStartService(void);
+	DLLCATIAPOST_API int CATIAPostTranslate(char argv[]);
+}

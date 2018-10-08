@@ -69,7 +69,7 @@ namespace CATIATranslator
         public void TranslatePartsT2C_Script(int CompNum, int PartNum, string path)
         {
             ReferenceClass.ref_Post m_refer = new ReferenceClass.ref_Post();
-            m_refer.ExtentionFuc(CompNum, PartNum, path);//CompNum,PartNum,filePath : 몇번째 Comp의 몇번째 Part를 filePath에 .CATScript로 변환해서 넣겠다.
+            m_refer.AssemblyPartT2C(CompNum, PartNum, path);//CompNum,PartNum,filePath : 몇번째 Comp의 몇번째 Part를 filePath에 .CATScript로 변환해서 넣겠다.
 
 
         }
