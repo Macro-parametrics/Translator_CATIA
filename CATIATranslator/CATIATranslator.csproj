@@ -128,12 +128,18 @@
     <None Include="TESTModel\A1.CATScript">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
+    <None Include="TESTModel\A2.CATScript" />
     <None Include="TESTModel\K1.CATPart">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
     <None Include="TESTModel\K1.CATScript">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
+    <None Include="TESTModel\SubAssembly1\A2_Bar.CATPart" />
+    <None Include="TESTModel\SubAssembly1\A2_Bolt.CATPart" />
+    <None Include="TESTModel\SubAssembly1\A2_DM.CATPart" />
+    <None Include="TESTModel\SubAssembly1\A2_Nut.CATPart" />
+    <None Include="TESTModel\SubAssembly1\A2_Plate.CATPart" />
     <None Include="TESTModel\SubAssembly1\Body.CATPart">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>

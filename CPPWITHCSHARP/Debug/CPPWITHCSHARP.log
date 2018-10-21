@@ -6,6 +6,7 @@
   ReferenceClass_Pre.cpp
   코드를 생성하고 있습니다...
   .NETFramework,Version=v4.0.AssemblyAttributes.cpp
+  AssemblyInfo.obj : MSIL 모듈이 발견되었습니다. MSIL에 증분 링크를 사용할 수 없습니다. 전체 링크를 수행하고 있습니다.
 PostManager.lib(SKETCHItem.obj) : warning LNK4075: '/EDITANDCONTINUE'이(가) '/INCREMENTAL:NO' 사양으로 인해 무시됩니다.
-     C:\Users\helen\Desktop\CATIATranslator\Translator_CATIA\Debug\CPPWITHCSHARP.lib 라이브러리 및 C:\Users\helen\Desktop\CATIATranslator\Translator_CATIA\Debug\CPPWITHCSHARP.exp 개체를 생성하고 있습니다.
-  CPPWITHCSHARP.vcxproj -> C:\Users\helen\Desktop\CATIATranslator\Translator_CATIA\Debug\CPPWITHCSHARP.dll
+     C:\dev-repos\Translator_CATIA\Debug\CPPWITHCSHARP.lib 라이브러리 및 C:\dev-repos\Translator_CATIA\Debug\CPPWITHCSHARP.exp 개체를 생성하고 있습니다.
+  CPPWITHCSHARP.vcxproj -> C:\dev-repos\Translator_CATIA\Debug\CPPWITHCSHARP.dll

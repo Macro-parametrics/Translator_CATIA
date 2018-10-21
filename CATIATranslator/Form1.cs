@@ -15,8 +15,11 @@ public struct PartsInfo
 
     public PartsInfo(string address, string catname, string transname)
     {
+        // Part가 위치 해야할 곳.
         this.address = address;
+        // CATIA 파트 이름
         this.catname = catname;
+        // TrnasCAD 파트 이름
         this.transname=transname;
     }
 };
@@ -188,6 +191,7 @@ namespace CATIATranslator
 
             //constraint information
             ReferenceClass.ref_Pre m_refer = new ReferenceClass.ref_Pre(stack);
+            //Set constraint1 = constraints1.AddBiEltCst(catCstTypeOn, reference1, reference2)
             m_refer.SetConstraint(stack, stack.GetSize(), a1_constraint[0].type, a1_constraint[0].master_ref, a1_constraint[0].slave_ref, "move", 0); //수정 필요. "move"???
             m_refer.SetConstraint(stack, stack.GetSize(), a1_constraint[1].type, a1_constraint[1].master_ref, a1_constraint[1].slave_ref, "", 0); //수정 필요.
             //To Hellen
