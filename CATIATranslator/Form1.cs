@@ -95,8 +95,8 @@ namespace CATIATranslator
         {
             int part_num = 0;
             int constraint_num = 0;
-            PartsInfo[] a1_part=new PartsInfo[2]; //수정 필요!!!!!!!!
-            ConstraintInfo[] a1_constraint = new ConstraintInfo[2]; //수정 필요 2222
+            PartsInfo[] a_part=new PartsInfo[100]; //동적할당: 수정 
+            ConstraintInfo[] a1_constraint = new ConstraintInfo[100]; //동적할당: 수정
 
             //Assembly file: bring CATScript and address
             string CATAssem = CATScriptOpenDialog();
@@ -122,15 +122,17 @@ namespace CATIATranslator
                         if (line.Substring(0, 5) == search)
                         {
                             // part address parsing
-                            a1_part[part_num].address = folder_address + line.Substring((line.IndexOf(".")) + 1, line.LastIndexOf("\"") - line.IndexOf(".") - 1);
-                            Console.WriteLine(a1_part[part_num].address);
+                            a_part[part_num].address = folder_address + line.Substring((line.IndexOf(".")) + 1, line.LastIndexOf("\"") - line.IndexOf(".") - 1);
+                            Console.WriteLine(a_part[part_num].address);
+                           
                             // catia name parsing
-                            a1_part[part_num].catname = "Part1"; //수정 필요!!!!!! // API 필요.
-                            Console.WriteLine(a1_part[part_num].catname);
+                           // a1_part[part_num].catname = "Part1"; //수정 필요!!!!!! // API 필요.
+                           // Console.WriteLine(a1_part[part_num].catname);
+
                             //transcad name parsing
-                            a1_part[part_num].transname = Path.GetFileName(a1_part[part_num].address);
-                            a1_part[part_num].transname = a1_part[part_num].transname.Substring(0, a1_part[part_num].transname.LastIndexOf('.'));
-                            Console.WriteLine(a1_part[part_num].transname);
+                            a_part[part_num].transname = Path.GetFileName(a_part[part_num].address);
+                            a_part[part_num].transname = a_part[part_num].transname.Substring(0, a_part[part_num].transname.LastIndexOf('.'));
+                            Console.WriteLine(a_part[part_num].transname);
 
                             // number of parts
                             part_num++;
@@ -156,7 +158,6 @@ namespace CATIATranslator
                 }
             }
 
-
             // reparsing master_ref, slave_ref(contents)
             using (StreamReader sr = new StreamReader(CATAssem, System.Text.Encoding.Default))
             {
@@ -181,13 +182,28 @@ namespace CATIATranslator
                 }
             }
 
-
+            
+            //각 part 파일 열어서 part number 가져오기.
+            for(int i = 0; i < part_num; i++)
+            {
+                Part test1 = new Part();
+                if (test1.InitializeCATIA(a_part[i].address, (int)0)) //open catia
+                {
+                    a_part[i].catname = test1.cPart.get_Name();
+                    test1.UninitializeCATIA();
+                }
+            }
+            Console.WriteLine(a_part[0].catname);
+            Console.WriteLine(a_part[1].catname);
+            Console.WriteLine("Success!!");
 
             //parts information
             PreStack stack = new PreStack();
             stack.Clear();
-            stack.StackItem(a1_part[0].address, a1_part[0].catname, a1_part[0].transname); //수정 필요.
-            stack.StackItem(a1_part[1].address, a1_part[1].catname, a1_part[1].transname); //수정 필요.
+            for (int i = 0; i < part_num; i++)
+            {
+                stack.StackItem(a_part[i].address, a_part[i].catname, a_part[i].transname);
+            }
 
             //constraint information
             ReferenceClass.ref_Pre m_refer = new ReferenceClass.ref_Pre(stack);
@@ -195,7 +211,7 @@ namespace CATIATranslator
             m_refer.SetConstraint(stack, stack.GetSize(), a1_constraint[0].type, a1_constraint[0].master_ref, a1_constraint[0].slave_ref, "move", 0); //수정 필요. "move"???
             m_refer.SetConstraint(stack, stack.GetSize(), a1_constraint[1].type, a1_constraint[1].master_ref, a1_constraint[1].slave_ref, "", 0); //수정 필요.
             //To Hellen
-            //Post 쪽 참조.
+            
         }
 
         // Post-Processor Assembly
