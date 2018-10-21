@@ -1,0 +1,595 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_pre_1_1_feature_s_o_l_i_d_create_extrude" kind="class" prot="public">
+    <compoundname>Pre::FeatureSOLIDCreateExtrude</compoundname>
+    <basecompoundref refid="class_pre_1_1_feature" prot="public" virt="non-virtual">Pre::Feature</basecompoundref>
+    <includes refid="_feature_s_o_l_i_d_create_extrude_8h" local="no">FeatureSOLIDCreateExtrude.h</includes>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_pre_1_1_feature_s_o_l_i_d_create_extrude_1abf428323580439f15dbd0c315b5f21ad" prot="private" static="no" mutable="no">
+        <type>VARIANT_BOOL</type>
+        <definition>VARIANT_BOOL Pre::FeatureSOLIDCreateExtrude::_flip</definition>
+        <argsstring></argsstring>
+        <name>_flip</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/PreManager/ref/FeatureSOLIDCreateExtrude.h" line="26" column="1" bodyfile="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/PreManager/ref/FeatureSOLIDCreateExtrude.h" bodystart="26" bodyend="-1"/>
+        <referencedby refid="class_pre_1_1_feature_s_o_l_i_d_create_extrude_1a010b7fa89a088f071d1f6279d30e9223" compoundref="_feature_s_o_l_i_d_create_extrude_8cpp" startline="7" endline="17">FeatureSOLIDCreateExtrude</referencedby>
+        <referencedby refid="class_pre_1_1_feature_s_o_l_i_d_create_extrude_1a92efe8b36d4b8fd4a26396eb7f248944" compoundref="_feature_s_o_l_i_d_create_extrude_8cpp" startline="103" endline="154">Modify</referencedby>
+        <referencedby refid="class_pre_1_1_feature_s_o_l_i_d_create_extrude_1a58367beca79a366413642004614bfb8b" compoundref="_feature_s_o_l_i_d_create_extrude_8cpp" startline="73" endline="101">ToTransCAD</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_pre_1_1_feature_s_o_l_i_d_create_extrude_1a95ee4627337c0eb26b6a76a122553985" prot="private" static="no" mutable="no">
+        <type>double</type>
+        <definition>double Pre::FeatureSOLIDCreateExtrude::_startDepth</definition>
+        <argsstring></argsstring>
+        <name>_startDepth</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/PreManager/ref/FeatureSOLIDCreateExtrude.h" line="27" column="1" bodyfile="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/PreManager/ref/FeatureSOLIDCreateExtrude.h" bodystart="27" bodyend="-1"/>
+        <referencedby refid="class_pre_1_1_feature_s_o_l_i_d_create_extrude_1abb4f57bdb8ac8a26f753cedc941230a4" compoundref="_feature_s_o_l_i_d_create_extrude_8cpp" startline="156" endline="194">CheckAttribute</referencedby>
+        <referencedby refid="class_pre_1_1_feature_s_o_l_i_d_create_extrude_1a010b7fa89a088f071d1f6279d30e9223" compoundref="_feature_s_o_l_i_d_create_extrude_8cpp" startline="7" endline="17">FeatureSOLIDCreateExtrude</referencedby>
+        <referencedby refid="class_pre_1_1_feature_s_o_l_i_d_create_extrude_1a41d123689e3484f89f0eaf8da8c2b77d" compoundref="_feature_s_o_l_i_d_create_extrude_8cpp" startline="23" endline="71">GetInfo</referencedby>
+        <referencedby refid="class_pre_1_1_feature_s_o_l_i_d_create_extrude_1a2d4e0ff84c86d76c32358b37943e77da" compoundref="_feature_s_o_l_i_d_create_extrude_8h" startline="19" endline="19">GetStartDepth</referencedby>
+        <referencedby refid="class_pre_1_1_feature_s_o_l_i_d_create_extrude_1a92efe8b36d4b8fd4a26396eb7f248944" compoundref="_feature_s_o_l_i_d_create_extrude_8cpp" startline="103" endline="154">Modify</referencedby>
+        <referencedby refid="class_pre_1_1_feature_s_o_l_i_d_create_extrude_1a58367beca79a366413642004614bfb8b" compoundref="_feature_s_o_l_i_d_create_extrude_8cpp" startline="73" endline="101">ToTransCAD</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_pre_1_1_feature_s_o_l_i_d_create_extrude_1a445c219e9149426e0210eb03192e0db1" prot="private" static="no" mutable="no">
+        <type>double</type>
+        <definition>double Pre::FeatureSOLIDCreateExtrude::_endDepth</definition>
+        <argsstring></argsstring>
+        <name>_endDepth</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/PreManager/ref/FeatureSOLIDCreateExtrude.h" line="28" column="1" bodyfile="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/PreManager/ref/FeatureSOLIDCreateExtrude.h" bodystart="28" bodyend="-1"/>
+        <referencedby refid="class_pre_1_1_feature_s_o_l_i_d_create_extrude_1abb4f57bdb8ac8a26f753cedc941230a4" compoundref="_feature_s_o_l_i_d_create_extrude_8cpp" startline="156" endline="194">CheckAttribute</referencedby>
+        <referencedby refid="class_pre_1_1_feature_s_o_l_i_d_create_extrude_1a010b7fa89a088f071d1f6279d30e9223" compoundref="_feature_s_o_l_i_d_create_extrude_8cpp" startline="7" endline="17">FeatureSOLIDCreateExtrude</referencedby>
+        <referencedby refid="class_pre_1_1_feature_s_o_l_i_d_create_extrude_1a813aa164e3390b7dd5dc82064980afaf" compoundref="_feature_s_o_l_i_d_create_extrude_8h" startline="20" endline="20">GetEndDepth</referencedby>
+        <referencedby refid="class_pre_1_1_feature_s_o_l_i_d_create_extrude_1a92efe8b36d4b8fd4a26396eb7f248944" compoundref="_feature_s_o_l_i_d_create_extrude_8cpp" startline="103" endline="154">Modify</referencedby>
+        <referencedby refid="class_pre_1_1_feature_s_o_l_i_d_create_extrude_1a58367beca79a366413642004614bfb8b" compoundref="_feature_s_o_l_i_d_create_extrude_8cpp" startline="73" endline="101">ToTransCAD</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_pre_1_1_feature_s_o_l_i_d_create_extrude_1a8e446958fc72e2bee7eed1850369e54d" prot="private" static="no" mutable="no">
+        <type>TransCAD::StdExtrudeEndType</type>
+        <definition>TransCAD::StdExtrudeEndType Pre::FeatureSOLIDCreateExtrude::_startCondition</definition>
+        <argsstring></argsstring>
+        <name>_startCondition</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/PreManager/ref/FeatureSOLIDCreateExtrude.h" line="29" column="1" bodyfile="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/PreManager/ref/FeatureSOLIDCreateExtrude.h" bodystart="29" bodyend="-1"/>
+        <referencedby refid="class_pre_1_1_feature_s_o_l_i_d_create_extrude_1abb4f57bdb8ac8a26f753cedc941230a4" compoundref="_feature_s_o_l_i_d_create_extrude_8cpp" startline="156" endline="194">CheckAttribute</referencedby>
+        <referencedby refid="class_pre_1_1_feature_s_o_l_i_d_create_extrude_1a010b7fa89a088f071d1f6279d30e9223" compoundref="_feature_s_o_l_i_d_create_extrude_8cpp" startline="7" endline="17">FeatureSOLIDCreateExtrude</referencedby>
+        <referencedby refid="class_pre_1_1_feature_s_o_l_i_d_create_extrude_1a58367beca79a366413642004614bfb8b" compoundref="_feature_s_o_l_i_d_create_extrude_8cpp" startline="73" endline="101">ToTransCAD</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_pre_1_1_feature_s_o_l_i_d_create_extrude_1a4a4ec002bb9eb580ca6f7d0ed539a28e" prot="private" static="no" mutable="no">
+        <type>TransCAD::StdExtrudeEndType</type>
+        <definition>TransCAD::StdExtrudeEndType Pre::FeatureSOLIDCreateExtrude::_endCondition</definition>
+        <argsstring></argsstring>
+        <name>_endCondition</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/PreManager/ref/FeatureSOLIDCreateExtrude.h" line="29" column="1" bodyfile="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/PreManager/ref/FeatureSOLIDCreateExtrude.h" bodystart="29" bodyend="-1"/>
+        <referencedby refid="class_pre_1_1_feature_s_o_l_i_d_create_extrude_1abb4f57bdb8ac8a26f753cedc941230a4" compoundref="_feature_s_o_l_i_d_create_extrude_8cpp" startline="156" endline="194">CheckAttribute</referencedby>
+        <referencedby refid="class_pre_1_1_feature_s_o_l_i_d_create_extrude_1a010b7fa89a088f071d1f6279d30e9223" compoundref="_feature_s_o_l_i_d_create_extrude_8cpp" startline="7" endline="17">FeatureSOLIDCreateExtrude</referencedby>
+        <referencedby refid="class_pre_1_1_feature_s_o_l_i_d_create_extrude_1a58367beca79a366413642004614bfb8b" compoundref="_feature_s_o_l_i_d_create_extrude_8cpp" startline="73" endline="101">ToTransCAD</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="protected-attrib">
+      <memberdef kind="variable" id="class_pre_1_1_feature_s_o_l_i_d_create_extrude_1af3c27410b187b2837e7fcad2b5b0b1a2" prot="protected" static="no" mutable="no">
+        <type><ref refid="class_pre_1_1_f_sketch" kindref="compound">FSketch</ref> *</type>
+        <definition>FSketch* Pre::FeatureSOLIDCreateExtrude::_featureProfileSketch</definition>
+        <argsstring></argsstring>
+        <name>_featureProfileSketch</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/PreManager/ref/FeatureSOLIDCreateExtrude.h" line="32" column="1" bodyfile="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/PreManager/ref/FeatureSOLIDCreateExtrude.h" bodystart="32" bodyend="-1"/>
+        <referencedby refid="class_pre_1_1_feature_s_o_l_i_d_create_extrude_1a010b7fa89a088f071d1f6279d30e9223" compoundref="_feature_s_o_l_i_d_create_extrude_8cpp" startline="7" endline="17">FeatureSOLIDCreateExtrude</referencedby>
+        <referencedby refid="class_pre_1_1_feature_s_o_l_i_d_create_extrude_1a4e7c658e91ab36b51ad186f0547e5810" compoundref="_feature_s_o_l_i_d_create_extrude_8h" startline="14" endline="14">GetFeatureProfileSketch</referencedby>
+        <referencedby refid="class_pre_1_1_feature_s_o_l_i_d_create_extrude_1a41d123689e3484f89f0eaf8da8c2b77d" compoundref="_feature_s_o_l_i_d_create_extrude_8cpp" startline="23" endline="71">GetInfo</referencedby>
+        <referencedby refid="class_pre_1_1_feature_s_o_l_i_d_create_extrude_1a58367beca79a366413642004614bfb8b" compoundref="_feature_s_o_l_i_d_create_extrude_8cpp" startline="73" endline="101">ToTransCAD</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_pre_1_1_feature_s_o_l_i_d_create_extrude_1a2619d81470d5616ef8f03719c81ca0df" prot="protected" static="no" mutable="no">
+        <type>vector&lt; <ref refid="class_pre_1_1_reference_entity" kindref="compound">ReferenceEntity</ref> * &gt;</type>
+        <definition>vector&lt;ReferenceEntity *&gt; Pre::FeatureSOLIDCreateExtrude::_referenceEntityList</definition>
+        <argsstring></argsstring>
+        <name>_referenceEntityList</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/PreManager/ref/FeatureSOLIDCreateExtrude.h" line="33" column="1" bodyfile="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/PreManager/ref/FeatureSOLIDCreateExtrude.h" bodystart="33" bodyend="-1"/>
+        <referencedby refid="class_pre_1_1_feature_s_o_l_i_d_create_extrude_1a41d123689e3484f89f0eaf8da8c2b77d" compoundref="_feature_s_o_l_i_d_create_extrude_8cpp" startline="23" endline="71">GetInfo</referencedby>
+        <referencedby refid="class_pre_1_1_feature_s_o_l_i_d_create_extrude_1a92efe8b36d4b8fd4a26396eb7f248944" compoundref="_feature_s_o_l_i_d_create_extrude_8cpp" startline="103" endline="154">Modify</referencedby>
+        <referencedby refid="class_pre_1_1_feature_s_o_l_i_d_create_extrude_1a58367beca79a366413642004614bfb8b" compoundref="_feature_s_o_l_i_d_create_extrude_8cpp" startline="73" endline="101">ToTransCAD</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_pre_1_1_feature_s_o_l_i_d_create_extrude_1a010b7fa89a088f071d1f6279d30e9223" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>Pre::FeatureSOLIDCreateExtrude::FeatureSOLIDCreateExtrude</definition>
+        <argsstring>(Part *pPart, int type, string name)</argsstring>
+        <name>FeatureSOLIDCreateExtrude</name>
+        <param>
+          <type><ref refid="class_pre_1_1_part" kindref="compound">Part</ref> *</type>
+          <declname>pPart</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>type</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>name</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/PreManager/ref/FeatureSOLIDCreateExtrude.h" line="11" column="1" bodyfile="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/PreManager/ref/FeatureSOLIDCreateExtrude.cpp" bodystart="7" bodyend="17"/>
+        <references refid="class_pre_1_1_feature_s_o_l_i_d_create_extrude_1a4a4ec002bb9eb580ca6f7d0ed539a28e" compoundref="_feature_s_o_l_i_d_create_extrude_8h" startline="29">_endCondition</references>
+        <references refid="class_pre_1_1_feature_s_o_l_i_d_create_extrude_1a445c219e9149426e0210eb03192e0db1" compoundref="_feature_s_o_l_i_d_create_extrude_8h" startline="28">_endDepth</references>
+        <references refid="class_pre_1_1_feature_s_o_l_i_d_create_extrude_1af3c27410b187b2837e7fcad2b5b0b1a2" compoundref="_feature_s_o_l_i_d_create_extrude_8h" startline="32">_featureProfileSketch</references>
+        <references refid="class_pre_1_1_feature_s_o_l_i_d_create_extrude_1abf428323580439f15dbd0c315b5f21ad" compoundref="_feature_s_o_l_i_d_create_extrude_8h" startline="26">_flip</references>
+        <references refid="class_pre_1_1_feature_s_o_l_i_d_create_extrude_1a8e446958fc72e2bee7eed1850369e54d" compoundref="_feature_s_o_l_i_d_create_extrude_8h" startline="29">_startCondition</references>
+        <references refid="class_pre_1_1_feature_s_o_l_i_d_create_extrude_1a95ee4627337c0eb26b6a76a122553985" compoundref="_feature_s_o_l_i_d_create_extrude_8h" startline="27">_startDepth</references>
+      </memberdef>
+      <memberdef kind="function" id="class_pre_1_1_feature_s_o_l_i_d_create_extrude_1a814301ccc7a1e4577febe95a857a1a15" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type></type>
+        <definition>Pre::FeatureSOLIDCreateExtrude::~FeatureSOLIDCreateExtrude</definition>
+        <argsstring>(void)</argsstring>
+        <name>~FeatureSOLIDCreateExtrude</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/PreManager/ref/FeatureSOLIDCreateExtrude.h" line="12" column="1" bodyfile="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/PreManager/ref/FeatureSOLIDCreateExtrude.cpp" bodystart="19" bodyend="21"/>
+      </memberdef>
+      <memberdef kind="function" id="class_pre_1_1_feature_s_o_l_i_d_create_extrude_1a4e7c658e91ab36b51ad186f0547e5810" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="class_pre_1_1_f_sketch" kindref="compound">FSketch</ref> *</type>
+        <definition>FSketch* Pre::FeatureSOLIDCreateExtrude::GetFeatureProfileSketch</definition>
+        <argsstring>()</argsstring>
+        <name>GetFeatureProfileSketch</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/PreManager/ref/FeatureSOLIDCreateExtrude.h" line="14" column="1" bodyfile="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/PreManager/ref/FeatureSOLIDCreateExtrude.h" bodystart="14" bodyend="14"/>
+        <references refid="class_pre_1_1_feature_s_o_l_i_d_create_extrude_1af3c27410b187b2837e7fcad2b5b0b1a2" compoundref="_feature_s_o_l_i_d_create_extrude_8h" startline="32">_featureProfileSketch</references>
+        <referencedby refid="class_pre_1_1_feature_s_o_l_i_d_create_extrude_1a58367beca79a366413642004614bfb8b" compoundref="_feature_s_o_l_i_d_create_extrude_8cpp" startline="73" endline="101">ToTransCAD</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_pre_1_1_feature_s_o_l_i_d_create_extrude_1a41d123689e3484f89f0eaf8da8c2b77d" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void Pre::FeatureSOLIDCreateExtrude::GetInfo</definition>
+        <argsstring>(ifstream &amp;is)</argsstring>
+        <name>GetInfo</name>
+        <reimplements refid="class_pre_1_1_feature_1af58dd6004076ee16ada8ed600965de6c">GetInfo</reimplements>
+        <param>
+          <type>ifstream &amp;</type>
+          <declname>is</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/PreManager/ref/FeatureSOLIDCreateExtrude.h" line="16" column="1" bodyfile="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/PreManager/ref/FeatureSOLIDCreateExtrude.cpp" bodystart="23" bodyend="71"/>
+        <references refid="class_pre_1_1_feature_s_o_l_i_d_create_extrude_1af3c27410b187b2837e7fcad2b5b0b1a2" compoundref="_feature_s_o_l_i_d_create_extrude_8h" startline="32">_featureProfileSketch</references>
+        <references refid="class_pre_1_1_feature_1a64772d4f47afe0052d5a94f773de5211" compoundref="_pre_manager_2ref_2_feature_8h" startline="26">Pre::Feature::_pPart</references>
+        <references refid="class_pre_1_1_feature_s_o_l_i_d_create_extrude_1a2619d81470d5616ef8f03719c81ca0df" compoundref="_feature_s_o_l_i_d_create_extrude_8h" startline="33">_referenceEntityList</references>
+        <references refid="class_pre_1_1_feature_s_o_l_i_d_create_extrude_1a95ee4627337c0eb26b6a76a122553985" compoundref="_feature_s_o_l_i_d_create_extrude_8h" startline="27">_startDepth</references>
+        <references refid="class_pre_1_1_part_1afe3d79628d4af1d9cfb19fa1653ee716" compoundref="_pre_manager_2ref_2_part_8cpp" startline="362" endline="369">Pre::Part::AddFeatureNameSketchName</references>
+        <references refid="class_pre_1_1_part_1a757a376bdc640e00119c3489ee35d2aa" compoundref="_pre_manager_2ref_2_part_8cpp" startline="320" endline="331">Pre::Part::GetFeatureByName</references>
+        <references refid="class_pre_1_1_feature_1aeec702655239d43b9fb7af691bc4f85c" compoundref="_pre_manager_2ref_2_feature_8h" startline="13" endline="13">Pre::Feature::GetFeatureName</references>
+        <references refid="class_pre_1_1_reference_entity_1ab7834eec27b178f18cad28f6baf1b146" compoundref="_reference_entity_8h" startline="21" endline="21">Pre::ReferenceEntity::GetFeatureName</references>
+        <references refid="class_pre_1_1_feature_1a22de04ab5c0ef7206d32c780ccfafee7" compoundref="_pre_manager_2ref_2_feature_8h" startline="12" endline="12">Pre::Feature::GetPart</references>
+        <references refid="class_pre_1_1_part_1a5643b5eda5bff62d642532663c62b63c" compoundref="_pre_manager_2ref_2_part_8cpp" startline="334" endline="345">Pre::Part::GetReferenceEntityByName</references>
+      </memberdef>
+      <memberdef kind="function" id="class_pre_1_1_feature_s_o_l_i_d_create_extrude_1a58367beca79a366413642004614bfb8b" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void Pre::FeatureSOLIDCreateExtrude::ToTransCAD</definition>
+        <argsstring>()</argsstring>
+        <name>ToTransCAD</name>
+        <reimplements refid="class_pre_1_1_feature_1a43c7ceaf04580d2e948aedd882208d80">ToTransCAD</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/PreManager/ref/FeatureSOLIDCreateExtrude.h" line="17" column="1" bodyfile="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/PreManager/ref/FeatureSOLIDCreateExtrude.cpp" bodystart="73" bodyend="101"/>
+        <references refid="class_pre_1_1_feature_s_o_l_i_d_create_extrude_1a4a4ec002bb9eb580ca6f7d0ed539a28e" compoundref="_feature_s_o_l_i_d_create_extrude_8h" startline="29">_endCondition</references>
+        <references refid="class_pre_1_1_feature_s_o_l_i_d_create_extrude_1a445c219e9149426e0210eb03192e0db1" compoundref="_feature_s_o_l_i_d_create_extrude_8h" startline="28">_endDepth</references>
+        <references refid="class_pre_1_1_feature_s_o_l_i_d_create_extrude_1af3c27410b187b2837e7fcad2b5b0b1a2" compoundref="_feature_s_o_l_i_d_create_extrude_8h" startline="32">_featureProfileSketch</references>
+        <references refid="class_pre_1_1_feature_s_o_l_i_d_create_extrude_1abf428323580439f15dbd0c315b5f21ad" compoundref="_feature_s_o_l_i_d_create_extrude_8h" startline="26">_flip</references>
+        <references refid="class_pre_1_1_feature_1ae8c43a10be919286c9450125b1a0afb9" compoundref="_pre_manager_2ref_2_feature_8h" startline="27">Pre::Feature::_name</references>
+        <references refid="class_pre_1_1_feature_s_o_l_i_d_create_extrude_1a2619d81470d5616ef8f03719c81ca0df" compoundref="_feature_s_o_l_i_d_create_extrude_8h" startline="33">_referenceEntityList</references>
+        <references refid="class_pre_1_1_part_1a0fa084e40ad2822e8214ba40b4751825" compoundref="_pre_manager_2ref_2_part_8h" startline="53">Pre::Part::_spFeatures</references>
+        <references refid="class_pre_1_1_part_1abe7d81bc84a9423e1d09c27e36125b64" compoundref="_pre_manager_2ref_2_part_8h" startline="52">Pre::Part::_spPart</references>
+        <references refid="class_pre_1_1_feature_s_o_l_i_d_create_extrude_1a8e446958fc72e2bee7eed1850369e54d" compoundref="_feature_s_o_l_i_d_create_extrude_8h" startline="29">_startCondition</references>
+        <references refid="class_pre_1_1_feature_s_o_l_i_d_create_extrude_1a95ee4627337c0eb26b6a76a122553985" compoundref="_feature_s_o_l_i_d_create_extrude_8h" startline="27">_startDepth</references>
+        <references refid="class_pre_1_1_feature_1a341b5b05bd448a814e86099e70f1a747" compoundref="_pre_manager_2ref_2_feature_8h" startline="28">Pre::Feature::_type</references>
+        <references refid="class_pre_1_1_feature_1aeec702655239d43b9fb7af691bc4f85c" compoundref="_pre_manager_2ref_2_feature_8h" startline="13" endline="13">Pre::Feature::GetFeatureName</references>
+        <references refid="class_pre_1_1_feature_s_o_l_i_d_create_extrude_1a4e7c658e91ab36b51ad186f0547e5810" compoundref="_feature_s_o_l_i_d_create_extrude_8h" startline="14" endline="14">GetFeatureProfileSketch</references>
+        <references refid="class_pre_1_1_feature_1a22de04ab5c0ef7206d32c780ccfafee7" compoundref="_pre_manager_2ref_2_feature_8h" startline="12" endline="12">Pre::Feature::GetPart</references>
+      </memberdef>
+      <memberdef kind="function" id="class_pre_1_1_feature_s_o_l_i_d_create_extrude_1a2d4e0ff84c86d76c32358b37943e77da" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>double</type>
+        <definition>double Pre::FeatureSOLIDCreateExtrude::GetStartDepth</definition>
+        <argsstring>()</argsstring>
+        <name>GetStartDepth</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/PreManager/ref/FeatureSOLIDCreateExtrude.h" line="19" column="1" bodyfile="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/PreManager/ref/FeatureSOLIDCreateExtrude.h" bodystart="19" bodyend="19"/>
+        <references refid="class_pre_1_1_feature_s_o_l_i_d_create_extrude_1a95ee4627337c0eb26b6a76a122553985" compoundref="_feature_s_o_l_i_d_create_extrude_8h" startline="27">_startDepth</references>
+      </memberdef>
+      <memberdef kind="function" id="class_pre_1_1_feature_s_o_l_i_d_create_extrude_1a813aa164e3390b7dd5dc82064980afaf" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>double</type>
+        <definition>double Pre::FeatureSOLIDCreateExtrude::GetEndDepth</definition>
+        <argsstring>()</argsstring>
+        <name>GetEndDepth</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/PreManager/ref/FeatureSOLIDCreateExtrude.h" line="20" column="1" bodyfile="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/PreManager/ref/FeatureSOLIDCreateExtrude.h" bodystart="20" bodyend="20"/>
+        <references refid="class_pre_1_1_feature_s_o_l_i_d_create_extrude_1a445c219e9149426e0210eb03192e0db1" compoundref="_feature_s_o_l_i_d_create_extrude_8h" startline="28">_endDepth</references>
+      </memberdef>
+      <memberdef kind="function" id="class_pre_1_1_feature_s_o_l_i_d_create_extrude_1a92efe8b36d4b8fd4a26396eb7f248944" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void Pre::FeatureSOLIDCreateExtrude::Modify</definition>
+        <argsstring>(char *buffer)</argsstring>
+        <name>Modify</name>
+        <reimplements refid="class_pre_1_1_feature_1a11f5aafa54439cf08dd44adb6fcd4d9c">Modify</reimplements>
+        <param>
+          <type>char *</type>
+          <declname>buffer</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/PreManager/ref/FeatureSOLIDCreateExtrude.h" line="22" column="1" bodyfile="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/PreManager/ref/FeatureSOLIDCreateExtrude.cpp" bodystart="103" bodyend="154"/>
+        <references refid="class_pre_1_1_feature_s_o_l_i_d_create_extrude_1a445c219e9149426e0210eb03192e0db1" compoundref="_feature_s_o_l_i_d_create_extrude_8h" startline="28">_endDepth</references>
+        <references refid="class_pre_1_1_feature_s_o_l_i_d_create_extrude_1abf428323580439f15dbd0c315b5f21ad" compoundref="_feature_s_o_l_i_d_create_extrude_8h" startline="26">_flip</references>
+        <references refid="class_pre_1_1_feature_1a64772d4f47afe0052d5a94f773de5211" compoundref="_pre_manager_2ref_2_feature_8h" startline="26">Pre::Feature::_pPart</references>
+        <references refid="class_pre_1_1_feature_s_o_l_i_d_create_extrude_1a2619d81470d5616ef8f03719c81ca0df" compoundref="_feature_s_o_l_i_d_create_extrude_8h" startline="33">_referenceEntityList</references>
+        <references refid="class_pre_1_1_feature_s_o_l_i_d_create_extrude_1a95ee4627337c0eb26b6a76a122553985" compoundref="_feature_s_o_l_i_d_create_extrude_8h" startline="27">_startDepth</references>
+        <references refid="class_pre_1_1_feature_1a341b5b05bd448a814e86099e70f1a747" compoundref="_pre_manager_2ref_2_feature_8h" startline="28">Pre::Feature::_type</references>
+        <references refid="class_pre_1_1_part_1afe3d79628d4af1d9cfb19fa1653ee716" compoundref="_pre_manager_2ref_2_part_8cpp" startline="362" endline="369">Pre::Part::AddFeatureNameSketchName</references>
+        <references refid="class_pre_1_1_feature_1aeec702655239d43b9fb7af691bc4f85c" compoundref="_pre_manager_2ref_2_feature_8h" startline="13" endline="13">Pre::Feature::GetFeatureName</references>
+        <references refid="class_pre_1_1_reference_entity_1ab7834eec27b178f18cad28f6baf1b146" compoundref="_reference_entity_8h" startline="21" endline="21">Pre::ReferenceEntity::GetFeatureName</references>
+        <references refid="class_pre_1_1_feature_1a22de04ab5c0ef7206d32c780ccfafee7" compoundref="_pre_manager_2ref_2_feature_8h" startline="12" endline="12">Pre::Feature::GetPart</references>
+        <references refid="class_pre_1_1_part_1a5643b5eda5bff62d642532663c62b63c" compoundref="_pre_manager_2ref_2_part_8cpp" startline="334" endline="345">Pre::Part::GetReferenceEntityByName</references>
+      </memberdef>
+      <memberdef kind="function" id="class_pre_1_1_feature_s_o_l_i_d_create_extrude_1abb4f57bdb8ac8a26f753cedc941230a4" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void Pre::FeatureSOLIDCreateExtrude::CheckAttribute</definition>
+        <argsstring>(string name, double value, int type)</argsstring>
+        <name>CheckAttribute</name>
+        <reimplements refid="class_pre_1_1_feature_1a3b4b453b4ac49dde010d6760917266b7">CheckAttribute</reimplements>
+        <param>
+          <type>string</type>
+          <declname>name</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>value</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>type</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/PreManager/ref/FeatureSOLIDCreateExtrude.h" line="23" column="1" bodyfile="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/PreManager/ref/FeatureSOLIDCreateExtrude.cpp" bodystart="156" bodyend="194"/>
+        <references refid="class_pre_1_1_feature_s_o_l_i_d_create_extrude_1a4a4ec002bb9eb580ca6f7d0ed539a28e" compoundref="_feature_s_o_l_i_d_create_extrude_8h" startline="29">_endCondition</references>
+        <references refid="class_pre_1_1_feature_s_o_l_i_d_create_extrude_1a445c219e9149426e0210eb03192e0db1" compoundref="_feature_s_o_l_i_d_create_extrude_8h" startline="28">_endDepth</references>
+        <references refid="class_pre_1_1_feature_s_o_l_i_d_create_extrude_1a8e446958fc72e2bee7eed1850369e54d" compoundref="_feature_s_o_l_i_d_create_extrude_8h" startline="29">_startCondition</references>
+        <references refid="class_pre_1_1_feature_s_o_l_i_d_create_extrude_1a95ee4627337c0eb26b6a76a122553985" compoundref="_feature_s_o_l_i_d_create_extrude_8h" startline="27">_startDepth</references>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="586">
+        <label>Pre::Feature</label>
+        <link refid="class_pre_1_1_feature"/>
+      </node>
+      <node id="585">
+        <label>Pre::FeatureSOLIDCreateExtrude</label>
+        <link refid="class_pre_1_1_feature_s_o_l_i_d_create_extrude"/>
+        <childnode refid="586" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="604">
+        <label>std::basic_ifstream&lt; char &gt;</label>
+        <childnode refid="605" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="590">
+        <label>std::vector&lt; Pre::ReferenceEntity * &gt;</label>
+        <childnode refid="591" relation="usage">
+          <edgelabel>elements</edgelabel>
+        </childnode>
+      </node>
+      <node id="608">
+        <label>std::vector&lt; Pre::SketchFeature &gt;</label>
+        <childnode refid="609" relation="usage">
+          <edgelabel>elements</edgelabel>
+        </childnode>
+      </node>
+      <node id="599">
+        <label>Pre::FSKETCHItem</label>
+        <link refid="class_pre_1_1_f_s_k_e_t_c_h_item"/>
+        <childnode refid="593" relation="usage">
+          <edgelabel>_name</edgelabel>
+        </childnode>
+        <childnode refid="597" relation="usage">
+          <edgelabel>_pFSketch</edgelabel>
+        </childnode>
+      </node>
+      <node id="598">
+        <label>std::vector&lt; Pre::FSKETCHItem * &gt;</label>
+        <childnode refid="599" relation="usage">
+          <edgelabel>elements</edgelabel>
+        </childnode>
+      </node>
+      <node id="605">
+        <label>std::basic_istream&lt; Char &gt;</label>
+        <childnode refid="606" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="612">
+        <label>std::vector&lt; Pre::Feature * &gt;</label>
+        <childnode refid="588" relation="usage">
+          <edgelabel>elements</edgelabel>
+        </childnode>
+      </node>
+      <node id="600">
+        <label>std::vector&lt; Pre::ReportItem &gt;</label>
+        <childnode refid="601" relation="usage">
+          <edgelabel>elements</edgelabel>
+        </childnode>
+      </node>
+      <node id="588">
+        <label>Pre::Feature</label>
+        <link refid="class_pre_1_1_feature"/>
+        <childnode refid="589" relation="usage">
+          <edgelabel>_pPart</edgelabel>
+        </childnode>
+        <childnode refid="593" relation="usage">
+          <edgelabel>_name</edgelabel>
+        </childnode>
+      </node>
+      <node id="592">
+        <label>std::vector&lt; FaceInfoList &gt;</label>
+      </node>
+      <node id="591">
+        <label>Pre::ReferenceEntity</label>
+        <link refid="class_pre_1_1_reference_entity"/>
+        <childnode refid="592" relation="usage">
+          <edgelabel>pEdge</edgelabel>
+        </childnode>
+        <childnode refid="589" relation="usage">
+          <edgelabel>_pPart</edgelabel>
+        </childnode>
+        <childnode refid="593" relation="usage">
+          <edgelabel>feature</edgelabel>
+          <edgelabel>TransCADEdgeName</edgelabel>
+          <edgelabel>TransCADFaceName</edgelabel>
+          <edgelabel>name</edgelabel>
+          <edgelabel>axis</edgelabel>
+        </childnode>
+        <childnode refid="595" relation="usage">
+          <edgelabel>pFace</edgelabel>
+        </childnode>
+        <childnode refid="597" relation="usage">
+          <edgelabel>pSketchManager</edgelabel>
+        </childnode>
+        <childnode refid="602" relation="usage">
+          <edgelabel>pWire</edgelabel>
+        </childnode>
+      </node>
+      <node id="594">
+        <label>std::basic_string&lt; char &gt;</label>
+      </node>
+      <node id="596">
+        <label>FaceInfo</label>
+        <link refid="struct_face_info"/>
+      </node>
+      <node id="601">
+        <label>Pre::ReportItem</label>
+        <link refid="struct_pre_1_1_report_item"/>
+        <childnode refid="593" relation="usage">
+          <edgelabel>_entityName</edgelabel>
+        </childnode>
+      </node>
+      <node id="602">
+        <label>WireInfo</label>
+        <link refid="struct_wire_info"/>
+      </node>
+      <node id="611">
+        <label>Pre::AttributeItem</label>
+        <link refid="class_pre_1_1_attribute_item"/>
+        <childnode refid="589" relation="usage">
+          <edgelabel>_pPart</edgelabel>
+        </childnode>
+        <childnode refid="593" relation="usage">
+          <edgelabel>_featureName</edgelabel>
+          <edgelabel>_name</edgelabel>
+          <edgelabel>_attributeName</edgelabel>
+        </childnode>
+      </node>
+      <node id="609">
+        <label>Pre::SketchFeature</label>
+        <link refid="struct_pre_1_1_sketch_feature"/>
+        <childnode refid="593" relation="usage">
+          <edgelabel>_featureName</edgelabel>
+          <edgelabel>_sketchName</edgelabel>
+        </childnode>
+      </node>
+      <node id="606">
+        <label>std::basic_ios&lt; Char &gt;</label>
+        <childnode refid="607" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="589">
+        <label>Pre::Part</label>
+        <link refid="class_pre_1_1_part"/>
+        <childnode refid="590" relation="usage">
+          <edgelabel>_referenceEntityList</edgelabel>
+        </childnode>
+        <childnode refid="603" relation="usage">
+          <edgelabel>fin</edgelabel>
+        </childnode>
+        <childnode refid="608" relation="usage">
+          <edgelabel>sketchNameTable</edgelabel>
+        </childnode>
+        <childnode refid="593" relation="usage">
+          <edgelabel>_fileName</edgelabel>
+          <edgelabel>_filePath</edgelabel>
+        </childnode>
+        <childnode refid="610" relation="usage">
+          <edgelabel>_attributeItemList</edgelabel>
+        </childnode>
+        <childnode refid="612" relation="usage">
+          <edgelabel>_featureList</edgelabel>
+        </childnode>
+      </node>
+      <node id="587">
+        <label>Pre::FeatureSOLIDCreateExtrude</label>
+        <link refid="class_pre_1_1_feature_s_o_l_i_d_create_extrude"/>
+        <childnode refid="588" relation="public-inheritance">
+        </childnode>
+        <childnode refid="590" relation="usage">
+          <edgelabel>_referenceEntityList</edgelabel>
+        </childnode>
+        <childnode refid="597" relation="usage">
+          <edgelabel>_featureProfileSketch</edgelabel>
+        </childnode>
+      </node>
+      <node id="607">
+        <label>std::ios_base</label>
+      </node>
+      <node id="603">
+        <label>std::ifstream</label>
+        <childnode refid="604" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="610">
+        <label>std::vector&lt; Pre::AttributeItem * &gt;</label>
+        <childnode refid="611" relation="usage">
+          <edgelabel>elements</edgelabel>
+        </childnode>
+      </node>
+      <node id="595">
+        <label>std::vector&lt; FaceInfo &gt;</label>
+        <childnode refid="596" relation="usage">
+          <edgelabel>elements</edgelabel>
+        </childnode>
+      </node>
+      <node id="593">
+        <label>std::string</label>
+        <childnode refid="594" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="597">
+        <label>Pre::FSketch</label>
+        <link refid="class_pre_1_1_f_sketch"/>
+        <childnode refid="588" relation="public-inheritance">
+        </childnode>
+        <childnode refid="598" relation="usage">
+          <edgelabel>_sketchItemList</edgelabel>
+        </childnode>
+        <childnode refid="591" relation="usage">
+          <edgelabel>_pReferenceEntity</edgelabel>
+        </childnode>
+        <childnode refid="593" relation="usage">
+          <edgelabel>_axisName</edgelabel>
+          <edgelabel>_factoryName</edgelabel>
+        </childnode>
+        <childnode refid="600" relation="usage">
+          <edgelabel>reportNameTable</edgelabel>
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/PreManager/ref/FeatureSOLIDCreateExtrude.h" line="8" column="1" bodyfile="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/PreManager/ref/FeatureSOLIDCreateExtrude.h" bodystart="7" bodyend="34"/>
+    <listofallmembers>
+      <member refid="class_pre_1_1_feature_s_o_l_i_d_create_extrude_1a4a4ec002bb9eb580ca6f7d0ed539a28e" prot="private" virt="non-virtual"><scope>Pre::FeatureSOLIDCreateExtrude</scope><name>_endCondition</name></member>
+      <member refid="class_pre_1_1_feature_s_o_l_i_d_create_extrude_1a445c219e9149426e0210eb03192e0db1" prot="private" virt="non-virtual"><scope>Pre::FeatureSOLIDCreateExtrude</scope><name>_endDepth</name></member>
+      <member refid="class_pre_1_1_feature_s_o_l_i_d_create_extrude_1af3c27410b187b2837e7fcad2b5b0b1a2" prot="protected" virt="non-virtual"><scope>Pre::FeatureSOLIDCreateExtrude</scope><name>_featureProfileSketch</name></member>
+      <member refid="class_pre_1_1_feature_s_o_l_i_d_create_extrude_1abf428323580439f15dbd0c315b5f21ad" prot="private" virt="non-virtual"><scope>Pre::FeatureSOLIDCreateExtrude</scope><name>_flip</name></member>
+      <member refid="class_pre_1_1_feature_1ae8c43a10be919286c9450125b1a0afb9" prot="public" virt="non-virtual"><scope>Pre::FeatureSOLIDCreateExtrude</scope><name>_name</name></member>
+      <member refid="class_pre_1_1_feature_1a64772d4f47afe0052d5a94f773de5211" prot="public" virt="non-virtual"><scope>Pre::FeatureSOLIDCreateExtrude</scope><name>_pPart</name></member>
+      <member refid="class_pre_1_1_feature_s_o_l_i_d_create_extrude_1a2619d81470d5616ef8f03719c81ca0df" prot="protected" virt="non-virtual"><scope>Pre::FeatureSOLIDCreateExtrude</scope><name>_referenceEntityList</name></member>
+      <member refid="class_pre_1_1_feature_s_o_l_i_d_create_extrude_1a8e446958fc72e2bee7eed1850369e54d" prot="private" virt="non-virtual"><scope>Pre::FeatureSOLIDCreateExtrude</scope><name>_startCondition</name></member>
+      <member refid="class_pre_1_1_feature_s_o_l_i_d_create_extrude_1a95ee4627337c0eb26b6a76a122553985" prot="private" virt="non-virtual"><scope>Pre::FeatureSOLIDCreateExtrude</scope><name>_startDepth</name></member>
+      <member refid="class_pre_1_1_feature_1a341b5b05bd448a814e86099e70f1a747" prot="public" virt="non-virtual"><scope>Pre::FeatureSOLIDCreateExtrude</scope><name>_type</name></member>
+      <member refid="class_pre_1_1_feature_s_o_l_i_d_create_extrude_1abb4f57bdb8ac8a26f753cedc941230a4" prot="public" virt="virtual"><scope>Pre::FeatureSOLIDCreateExtrude</scope><name>CheckAttribute</name></member>
+      <member refid="class_pre_1_1_feature_1a23c64c5988ab1337beceaa7c1c5c0d77" prot="public" virt="non-virtual"><scope>Pre::FeatureSOLIDCreateExtrude</scope><name>Feature</name></member>
+      <member refid="class_pre_1_1_feature_s_o_l_i_d_create_extrude_1a010b7fa89a088f071d1f6279d30e9223" prot="public" virt="non-virtual"><scope>Pre::FeatureSOLIDCreateExtrude</scope><name>FeatureSOLIDCreateExtrude</name></member>
+      <member refid="class_pre_1_1_feature_s_o_l_i_d_create_extrude_1a813aa164e3390b7dd5dc82064980afaf" prot="public" virt="non-virtual"><scope>Pre::FeatureSOLIDCreateExtrude</scope><name>GetEndDepth</name></member>
+      <member refid="class_pre_1_1_feature_1aeec702655239d43b9fb7af691bc4f85c" prot="public" virt="non-virtual"><scope>Pre::FeatureSOLIDCreateExtrude</scope><name>GetFeatureName</name></member>
+      <member refid="class_pre_1_1_feature_s_o_l_i_d_create_extrude_1a4e7c658e91ab36b51ad186f0547e5810" prot="public" virt="non-virtual"><scope>Pre::FeatureSOLIDCreateExtrude</scope><name>GetFeatureProfileSketch</name></member>
+      <member refid="class_pre_1_1_feature_1aef6c7020e3bf305f38a88195b794b110" prot="public" virt="non-virtual"><scope>Pre::FeatureSOLIDCreateExtrude</scope><name>GetFeatureType</name></member>
+      <member refid="class_pre_1_1_feature_s_o_l_i_d_create_extrude_1a41d123689e3484f89f0eaf8da8c2b77d" prot="public" virt="virtual"><scope>Pre::FeatureSOLIDCreateExtrude</scope><name>GetInfo</name></member>
+      <member refid="class_pre_1_1_feature_1a22de04ab5c0ef7206d32c780ccfafee7" prot="public" virt="non-virtual"><scope>Pre::FeatureSOLIDCreateExtrude</scope><name>GetPart</name></member>
+      <member refid="class_pre_1_1_feature_s_o_l_i_d_create_extrude_1a2d4e0ff84c86d76c32358b37943e77da" prot="public" virt="non-virtual"><scope>Pre::FeatureSOLIDCreateExtrude</scope><name>GetStartDepth</name></member>
+      <member refid="class_pre_1_1_feature_s_o_l_i_d_create_extrude_1a92efe8b36d4b8fd4a26396eb7f248944" prot="public" virt="virtual"><scope>Pre::FeatureSOLIDCreateExtrude</scope><name>Modify</name></member>
+      <member refid="class_pre_1_1_feature_1a6a061740e7d2d749b1efe097ae87928d" prot="public" virt="non-virtual"><scope>Pre::FeatureSOLIDCreateExtrude</scope><name>SetFeatureName</name></member>
+      <member refid="class_pre_1_1_feature_1a07534d290ca5363cd628efd011c070be" prot="public" virt="non-virtual"><scope>Pre::FeatureSOLIDCreateExtrude</scope><name>SetFeatureType</name></member>
+      <member refid="class_pre_1_1_feature_s_o_l_i_d_create_extrude_1a58367beca79a366413642004614bfb8b" prot="public" virt="virtual"><scope>Pre::FeatureSOLIDCreateExtrude</scope><name>ToTransCAD</name></member>
+      <member refid="class_pre_1_1_feature_1ac9e4bbb034ce47ce1ddd02adb52aee98" prot="public" virt="virtual"><scope>Pre::FeatureSOLIDCreateExtrude</scope><name>~Feature</name></member>
+      <member refid="class_pre_1_1_feature_s_o_l_i_d_create_extrude_1a814301ccc7a1e4577febe95a857a1a15" prot="public" virt="virtual"><scope>Pre::FeatureSOLIDCreateExtrude</scope><name>~FeatureSOLIDCreateExtrude</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

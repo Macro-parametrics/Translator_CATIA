@@ -1,0 +1,727 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_c_a_t_i_a_translator_1_1_assembly" kind="class" prot="public">
+    <compoundname>CATIATranslator::Assembly</compoundname>
+      <sectiondef kind="private-type">
+      <memberdef kind="enum" id="class_c_a_t_i_a_translator_1_1_assembly_1af7e1c1729c7e8065db029b250d1e465a" prot="private" static="no">
+        <name>CTYPE</name>
+        <enumvalue id="class_c_a_t_i_a_translator_1_1_assembly_1af7e1c1729c7e8065db029b250d1e465aadc6f3fe82dfec3326452006d58dd4aad" prot="public">
+          <name>Coaxial</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="class_c_a_t_i_a_translator_1_1_assembly_1af7e1c1729c7e8065db029b250d1e465aa845713314d6a5922040b6e52af5aa7fa" prot="public">
+          <name>Incidence</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/CATIATranslator/Assembly/AssemblyConstraints.cs" line="24" column="1" bodyfile="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/CATIATranslator/Assembly/AssemblyConstraints.cs" bodystart="24" bodyend="24"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_c_a_t_i_a_translator_1_1_assembly_1a8f3f806824e1f1279ec6201be1409e05" prot="public" static="no" mutable="no">
+        <type>INFITF.Application</type>
+        <definition>INFITF.Application CATIATranslator.Assembly.cApp</definition>
+        <argsstring></argsstring>
+        <name>cApp</name>
+        <initializer>= null</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/CATIATranslator/Assembly/Assembly.cs" line="23" column="1" bodyfile="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/CATIATranslator/Assembly/Assembly.cs" bodystart="23" bodyend="-1"/>
+        <referencedby refid="class_c_a_t_i_a_translator_1_1_assembly_1a562d1101af26d21db6fe086cfb104bde" compoundref="_assembly_8cs" startline="57" endline="89">CATIATranslator.Assembly.InitializeCATIA</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_c_a_t_i_a_translator_1_1_assembly_1ab74f9b2d66d01c7c5182314a2cf78419" prot="public" static="no" mutable="no">
+        <type>INFITF.Documents</type>
+        <definition>INFITF.Documents CATIATranslator.Assembly.cDocs</definition>
+        <argsstring></argsstring>
+        <name>cDocs</name>
+        <initializer>= null</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/CATIATranslator/Assembly/Assembly.cs" line="24" column="1" bodyfile="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/CATIATranslator/Assembly/Assembly.cs" bodystart="24" bodyend="-1"/>
+        <referencedby refid="class_c_a_t_i_a_translator_1_1_assembly_1a562d1101af26d21db6fe086cfb104bde" compoundref="_assembly_8cs" startline="57" endline="89">CATIATranslator.Assembly.InitializeCATIA</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_c_a_t_i_a_translator_1_1_assembly_1ae87dd82961c5c356a3f4c3c4471652db" prot="public" static="no" mutable="no">
+        <type>ProductStructureTypeLib.Product</type>
+        <definition>ProductStructureTypeLib.Product CATIATranslator.Assembly.cProduct</definition>
+        <argsstring></argsstring>
+        <name>cProduct</name>
+        <initializer>= null</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/CATIATranslator/Assembly/Assembly.cs" line="25" column="1" bodyfile="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/CATIATranslator/Assembly/Assembly.cs" bodystart="25" bodyend="-1"/>
+        <referencedby refid="class_c_a_t_i_a_translator_1_1_assembly_1a562d1101af26d21db6fe086cfb104bde" compoundref="_assembly_8cs" startline="57" endline="89">CATIATranslator.Assembly.InitializeCATIA</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_c_a_t_i_a_translator_1_1_assembly_1a13cffa38718353e5c08e3b44b9559864" prot="public" static="no" mutable="no">
+        <type>ProductStructureTypeLib.Products</type>
+        <definition>ProductStructureTypeLib.Products CATIATranslator.Assembly.cProducts</definition>
+        <argsstring></argsstring>
+        <name>cProducts</name>
+        <initializer>= null</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/CATIATranslator/Assembly/Assembly.cs" line="26" column="1" bodyfile="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/CATIATranslator/Assembly/Assembly.cs" bodystart="26" bodyend="-1"/>
+        <referencedby refid="class_c_a_t_i_a_translator_1_1_assembly_1a562d1101af26d21db6fe086cfb104bde" compoundref="_assembly_8cs" startline="57" endline="89">CATIATranslator.Assembly.InitializeCATIA</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_c_a_t_i_a_translator_1_1_assembly_1a73f405cd564edaa5b39b4c8d1bca99ae" prot="public" static="no" mutable="no">
+        <type>ProductStructureTypeLib.ProductDocument</type>
+        <definition>ProductStructureTypeLib.ProductDocument CATIATranslator.Assembly.cProductDoc</definition>
+        <argsstring></argsstring>
+        <name>cProductDoc</name>
+        <initializer>= null</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/CATIATranslator/Assembly/Assembly.cs" line="27" column="1" bodyfile="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/CATIATranslator/Assembly/Assembly.cs" bodystart="27" bodyend="-1"/>
+        <referencedby refid="class_c_a_t_i_a_translator_1_1_assembly_1a562d1101af26d21db6fe086cfb104bde" compoundref="_assembly_8cs" startline="57" endline="89">CATIATranslator.Assembly.InitializeCATIA</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_c_a_t_i_a_translator_1_1_assembly_1a8b2567627aaaf44386e63d86780cad1e" prot="public" static="no" mutable="no">
+        <type>MECMOD.PartDocument</type>
+        <definition>MECMOD.PartDocument CATIATranslator.Assembly.cPartDoc</definition>
+        <argsstring></argsstring>
+        <name>cPartDoc</name>
+        <initializer>= null</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/CATIATranslator/Assembly/Assembly.cs" line="28" column="1" bodyfile="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/CATIATranslator/Assembly/Assembly.cs" bodystart="28" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_c_a_t_i_a_translator_1_1_assembly_1a6ed6df59152adb01019db03962c5b445" prot="public" static="no" mutable="no">
+        <type>MECMOD.Part</type>
+        <definition>MECMOD.Part CATIATranslator.Assembly.cPart</definition>
+        <argsstring></argsstring>
+        <name>cPart</name>
+        <initializer>= null</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/CATIATranslator/Assembly/Assembly.cs" line="29" column="1" bodyfile="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/CATIATranslator/Assembly/Assembly.cs" bodystart="29" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_c_a_t_i_a_translator_1_1_assembly_1af111217fedcd82967e22fea4a48abaa8" prot="public" static="no" mutable="no">
+        <type>MECMOD.OriginElements</type>
+        <definition>MECMOD.OriginElements CATIATranslator.Assembly.cOriginalElements</definition>
+        <argsstring></argsstring>
+        <name>cOriginalElements</name>
+        <initializer>= null</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/CATIATranslator/Assembly/Assembly.cs" line="30" column="1" bodyfile="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/CATIATranslator/Assembly/Assembly.cs" bodystart="30" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_c_a_t_i_a_translator_1_1_assembly_1ae44fcb8724640aa4528c7d494ec9a6b5" prot="public" static="no" mutable="no">
+        <type>MECMOD.Bodies</type>
+        <definition>MECMOD.Bodies CATIATranslator.Assembly.cBodies</definition>
+        <argsstring></argsstring>
+        <name>cBodies</name>
+        <initializer>= null</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/CATIATranslator/Assembly/Assembly.cs" line="31" column="1" bodyfile="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/CATIATranslator/Assembly/Assembly.cs" bodystart="31" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_c_a_t_i_a_translator_1_1_assembly_1a142b7d038e9477c81b3b0b4b5f78e258" prot="public" static="no" mutable="no">
+        <type>MECMOD.Body</type>
+        <definition>MECMOD.Body CATIATranslator.Assembly.cCurrentBody</definition>
+        <argsstring></argsstring>
+        <name>cCurrentBody</name>
+        <initializer>= null</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/CATIATranslator/Assembly/Assembly.cs" line="32" column="1" bodyfile="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/CATIATranslator/Assembly/Assembly.cs" bodystart="32" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_c_a_t_i_a_translator_1_1_assembly_1a3b8dc71e8764df09e8f3e9bbfd6d4cab" prot="public" static="no" mutable="no">
+        <type>MECMOD.Shapes</type>
+        <definition>MECMOD.Shapes CATIATranslator.Assembly.cShapes</definition>
+        <argsstring></argsstring>
+        <name>cShapes</name>
+        <initializer>= null</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/CATIATranslator/Assembly/Assembly.cs" line="33" column="1" bodyfile="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/CATIATranslator/Assembly/Assembly.cs" bodystart="33" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_c_a_t_i_a_translator_1_1_assembly_1a8bdcd3aee92e6db4bfeeff67d33bc79d" prot="public" static="no" mutable="no">
+        <type>MECMOD.Factory</type>
+        <definition>MECMOD.Factory CATIATranslator.Assembly.cFactory</definition>
+        <argsstring></argsstring>
+        <name>cFactory</name>
+        <initializer>= null</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/CATIATranslator/Assembly/Assembly.cs" line="34" column="1" bodyfile="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/CATIATranslator/Assembly/Assembly.cs" bodystart="34" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_c_a_t_i_a_translator_1_1_assembly_1a3191cac6e8344671c842b8ead0013e3a" prot="public" static="no" mutable="no">
+        <type>MECMOD.Sketches</type>
+        <definition>MECMOD.Sketches CATIATranslator.Assembly.cSketches</definition>
+        <argsstring></argsstring>
+        <name>cSketches</name>
+        <initializer>= null</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/CATIATranslator/Assembly/Assembly.cs" line="35" column="1" bodyfile="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/CATIATranslator/Assembly/Assembly.cs" bodystart="35" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_c_a_t_i_a_translator_1_1_assembly_1a3c53bc76b8a7ebf82cf35cc15947807b" prot="public" static="no" mutable="no">
+        <type>PARTITF.ShapeFactory</type>
+        <definition>PARTITF.ShapeFactory CATIATranslator.Assembly.cShapeFactory</definition>
+        <argsstring></argsstring>
+        <name>cShapeFactory</name>
+        <initializer>= null</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/CATIATranslator/Assembly/Assembly.cs" line="37" column="1" bodyfile="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/CATIATranslator/Assembly/Assembly.cs" bodystart="37" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_c_a_t_i_a_translator_1_1_assembly_1ac03e78e802e3a9ef7d06f9fc091933ab" prot="public" static="no" mutable="no">
+        <type>HybridShapeTypeLib.HybridShapeFactory</type>
+        <definition>HybridShapeTypeLib.HybridShapeFactory CATIATranslator.Assembly.cHybridShapeFactory</definition>
+        <argsstring></argsstring>
+        <name>cHybridShapeFactory</name>
+        <initializer>= null</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/CATIATranslator/Assembly/Assembly.cs" line="38" column="1" bodyfile="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/CATIATranslator/Assembly/Assembly.cs" bodystart="38" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_c_a_t_i_a_translator_1_1_assembly_1a0a07b40269ccbe7a3e192bd9ad867e94" prot="public" static="no" mutable="no">
+        <type>TransCAD.IApplication</type>
+        <definition>TransCAD.IApplication CATIATranslator.Assembly.tApp</definition>
+        <argsstring></argsstring>
+        <name>tApp</name>
+        <initializer>= null</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/CATIATranslator/Assembly/Assembly.cs" line="42" column="1" bodyfile="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/CATIATranslator/Assembly/Assembly.cs" bodystart="42" bodyend="-1"/>
+        <referencedby refid="class_c_a_t_i_a_translator_1_1_assembly_1adefbea9a6e1033daef571c3c86cc3cef" compoundref="_assembly_8cs" startline="99" endline="142">CATIATranslator.Assembly.InitializeTransCAD</referencedby>
+        <referencedby refid="class_c_a_t_i_a_translator_1_1_assembly_1a1952f68e0c2369efc2bad4cdc195dc69" compoundref="_assembly_8cs" startline="144" endline="152">CATIATranslator.Assembly.UninitializeTransCAD</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_c_a_t_i_a_translator_1_1_assembly_1aa47c52965ce56b461851a73dc4ef2efb" prot="public" static="no" mutable="no">
+        <type>TransCAD.Documents</type>
+        <definition>TransCAD.Documents CATIATranslator.Assembly.tDocs</definition>
+        <argsstring></argsstring>
+        <name>tDocs</name>
+        <initializer>= null</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/CATIATranslator/Assembly/Assembly.cs" line="43" column="1" bodyfile="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/CATIATranslator/Assembly/Assembly.cs" bodystart="43" bodyend="-1"/>
+        <referencedby refid="class_c_a_t_i_a_translator_1_1_assembly_1adefbea9a6e1033daef571c3c86cc3cef" compoundref="_assembly_8cs" startline="99" endline="142">CATIATranslator.Assembly.InitializeTransCAD</referencedby>
+        <referencedby refid="class_c_a_t_i_a_translator_1_1_assembly_1a1952f68e0c2369efc2bad4cdc195dc69" compoundref="_assembly_8cs" startline="144" endline="152">CATIATranslator.Assembly.UninitializeTransCAD</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_c_a_t_i_a_translator_1_1_assembly_1a0b696619036b74a542270176694898da" prot="public" static="no" mutable="no">
+        <type>TransCAD.IAssemDocument</type>
+        <definition>TransCAD.IAssemDocument CATIATranslator.Assembly.tAssemDoc</definition>
+        <argsstring></argsstring>
+        <name>tAssemDoc</name>
+        <initializer>= null</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/CATIATranslator/Assembly/Assembly.cs" line="44" column="1" bodyfile="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/CATIATranslator/Assembly/Assembly.cs" bodystart="44" bodyend="-1"/>
+        <referencedby refid="class_c_a_t_i_a_translator_1_1_assembly_part_manager_1a98a9d8c528ea4243f6d6757563cd6b82" compoundref="_assembly_part_manager_8cs" startline="43" endline="87">CATIATranslator.AssemblyPartManager.AssemblyPartManager</referencedby>
+        <referencedby refid="class_c_a_t_i_a_translator_1_1_assembly_1adefbea9a6e1033daef571c3c86cc3cef" compoundref="_assembly_8cs" startline="99" endline="142">CATIATranslator.Assembly.InitializeTransCAD</referencedby>
+        <referencedby refid="class_c_a_t_i_a_translator_1_1_assembly_1a1952f68e0c2369efc2bad4cdc195dc69" compoundref="_assembly_8cs" startline="144" endline="152">CATIATranslator.Assembly.UninitializeTransCAD</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_c_a_t_i_a_translator_1_1_assembly_1a2c10c37f09ef39e18b18355cf465f0e8" prot="public" static="no" mutable="no">
+        <type>TransCAD.Assem</type>
+        <definition>TransCAD.Assem CATIATranslator.Assembly.tAssem</definition>
+        <argsstring></argsstring>
+        <name>tAssem</name>
+        <initializer>= null</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/CATIATranslator/Assembly/Assembly.cs" line="45" column="1" bodyfile="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/CATIATranslator/Assembly/Assembly.cs" bodystart="45" bodyend="-1"/>
+        <referencedby refid="class_c_a_t_i_a_translator_1_1_assembly_1ae361058ddde5909653353693b5099a83" compoundref="_assembly_constraints_8cs" startline="29" endline="147">CATIATranslator.Assembly.TranslateConstraintsT2C</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_c_a_t_i_a_translator_1_1_assembly_1adaaaa5febcec09f29487d6ba86cbbfa6" prot="public" static="no" mutable="no">
+        <type>TransCAD.IComp</type>
+        <definition>TransCAD.IComp CATIATranslator.Assembly.tComp</definition>
+        <argsstring></argsstring>
+        <name>tComp</name>
+        <initializer>= null</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/CATIATranslator/Assembly/Assembly.cs" line="46" column="1" bodyfile="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/CATIATranslator/Assembly/Assembly.cs" bodystart="46" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_c_a_t_i_a_translator_1_1_assembly_1a67088047087e3104dda796fde1fcd0a1" prot="public" static="no" mutable="no">
+        <type>TransCAD.PartDocument</type>
+        <definition>TransCAD.PartDocument CATIATranslator.Assembly.tPartDoc</definition>
+        <argsstring></argsstring>
+        <name>tPartDoc</name>
+        <initializer>= null</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/CATIATranslator/Assembly/Assembly.cs" line="47" column="1" bodyfile="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/CATIATranslator/Assembly/Assembly.cs" bodystart="47" bodyend="-1"/>
+        <referencedby refid="class_c_a_t_i_a_translator_1_1_assembly_1a1952f68e0c2369efc2bad4cdc195dc69" compoundref="_assembly_8cs" startline="144" endline="152">CATIATranslator.Assembly.UninitializeTransCAD</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_c_a_t_i_a_translator_1_1_assembly_1a83e79202a3f620785b81677b717b922b" prot="public" static="no" mutable="no">
+        <type>TransCAD.Part</type>
+        <definition>TransCAD.Part CATIATranslator.Assembly.tPart</definition>
+        <argsstring></argsstring>
+        <name>tPart</name>
+        <initializer>= null</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/CATIATranslator/Assembly/Assembly.cs" line="48" column="1" bodyfile="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/CATIATranslator/Assembly/Assembly.cs" bodystart="48" bodyend="-1"/>
+        <referencedby refid="class_c_a_t_i_a_translator_1_1_assembly_1a1952f68e0c2369efc2bad4cdc195dc69" compoundref="_assembly_8cs" startline="144" endline="152">CATIATranslator.Assembly.UninitializeTransCAD</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_c_a_t_i_a_translator_1_1_assembly_1aeaaf3a780bb204e60ef8856ce0d4e4ef" prot="public" static="no" mutable="no">
+        <type>TransCAD.Features</type>
+        <definition>TransCAD.Features CATIATranslator.Assembly.tFeatures</definition>
+        <argsstring></argsstring>
+        <name>tFeatures</name>
+        <initializer>= null</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/CATIATranslator/Assembly/Assembly.cs" line="49" column="1" bodyfile="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/CATIATranslator/Assembly/Assembly.cs" bodystart="49" bodyend="-1"/>
+        <referencedby refid="class_c_a_t_i_a_translator_1_1_assembly_1a1952f68e0c2369efc2bad4cdc195dc69" compoundref="_assembly_8cs" startline="144" endline="152">CATIATranslator.Assembly.UninitializeTransCAD</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_c_a_t_i_a_translator_1_1_assembly_1a7eeb6622021a1979b1fcc00636d37bfa" prot="public" static="no" mutable="no">
+        <type>TransCAD.IStdAssemConstraints</type>
+        <definition>TransCAD.IStdAssemConstraints CATIATranslator.Assembly.tConstraints</definition>
+        <argsstring></argsstring>
+        <name>tConstraints</name>
+        <initializer>= null</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/CATIATranslator/Assembly/Assembly.cs" line="50" column="1" bodyfile="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/CATIATranslator/Assembly/Assembly.cs" bodystart="50" bodyend="-1"/>
+        <referencedby refid="class_c_a_t_i_a_translator_1_1_assembly_1ae361058ddde5909653353693b5099a83" compoundref="_assembly_constraints_8cs" startline="29" endline="147">CATIATranslator.Assembly.TranslateConstraintsT2C</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_c_a_t_i_a_translator_1_1_assembly_1adba96ac77359e6916e8508ed13f19c75" prot="public" static="no" mutable="no">
+        <type>string</type>
+        <definition>string CATIATranslator.Assembly.Save_Part_Path</definition>
+        <argsstring></argsstring>
+        <name>Save_Part_Path</name>
+        <initializer>= &quot;&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/CATIATranslator/Assembly/Assembly.cs" line="53" column="1" bodyfile="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/CATIATranslator/Assembly/Assembly.cs" bodystart="53" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_c_a_t_i_a_translator_1_1_assembly_1a2f479ba6466a553c2288fddecb1fb69f" prot="public" static="no" mutable="no">
+        <type><ref refid="class_c_a_t_i_a_translator_1_1_reference" kindref="compound">Reference</ref></type>
+        <definition>Reference CATIATranslator.Assembly.ReferenceManager</definition>
+        <argsstring></argsstring>
+        <name>ReferenceManager</name>
+        <initializer>= null</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/CATIATranslator/Assembly/Assembly.cs" line="55" column="1" bodyfile="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/CATIATranslator/Assembly/Assembly.cs" bodystart="55" bodyend="-1"/>
+        <referencedby refid="class_c_a_t_i_a_translator_1_1_assembly_1a862050b2359e98f2d7a4c126b8f212dd" compoundref="_assembly_parts_8cs" startline="38" endline="65">CATIATranslator.Assembly.TranslatePartsT2C</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_c_a_t_i_a_translator_1_1_assembly_1a02aa61ab68d0e85b376ef7fa5701ba05" prot="private" static="no" mutable="no">
+        <type>string[]</type>
+        <definition>string [] CATIATranslator.Assembly.saveaspartname</definition>
+        <argsstring></argsstring>
+        <name>saveaspartname</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/CATIATranslator/Assembly/AssemblyParts.cs" line="26" column="1" bodyfile="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/CATIATranslator/Assembly/AssemblyParts.cs" bodystart="26" bodyend="-1"/>
+        <referencedby refid="class_c_a_t_i_a_translator_1_1_assembly_1a862050b2359e98f2d7a4c126b8f212dd" compoundref="_assembly_parts_8cs" startline="38" endline="65">CATIATranslator.Assembly.TranslatePartsT2C</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_c_a_t_i_a_translator_1_1_assembly_1a562d1101af26d21db6fe086cfb104bde" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool CATIATranslator.Assembly.InitializeCATIA</definition>
+        <argsstring>(string filePath, int mode)</argsstring>
+        <name>InitializeCATIA</name>
+        <param>
+          <type>string</type>
+          <declname>filePath</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>mode</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/CATIATranslator/Assembly/Assembly.cs" line="57" column="1" bodyfile="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/CATIATranslator/Assembly/Assembly.cs" bodystart="57" bodyend="89"/>
+        <references refid="class_c_a_t_i_a_translator_1_1_assembly_1a8f3f806824e1f1279ec6201be1409e05" compoundref="_assembly_8cs" startline="23">CATIATranslator.Assembly.cApp</references>
+        <references refid="class_c_a_t_i_a_translator_1_1_assembly_1ab74f9b2d66d01c7c5182314a2cf78419" compoundref="_assembly_8cs" startline="24">CATIATranslator.Assembly.cDocs</references>
+        <references refid="class_c_a_t_i_a_translator_1_1_assembly_1ae87dd82961c5c356a3f4c3c4471652db" compoundref="_assembly_8cs" startline="25">CATIATranslator.Assembly.cProduct</references>
+        <references refid="class_c_a_t_i_a_translator_1_1_assembly_1a73f405cd564edaa5b39b4c8d1bca99ae" compoundref="_assembly_8cs" startline="27">CATIATranslator.Assembly.cProductDoc</references>
+        <references refid="class_c_a_t_i_a_translator_1_1_assembly_1a13cffa38718353e5c08e3b44b9559864" compoundref="_assembly_8cs" startline="26">CATIATranslator.Assembly.cProducts</references>
+      </memberdef>
+      <memberdef kind="function" id="class_c_a_t_i_a_translator_1_1_assembly_1abf49099e88abbbff6a641bd000c099e2" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void CATIATranslator.Assembly.UninitializeCATIA</definition>
+        <argsstring>()</argsstring>
+        <name>UninitializeCATIA</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/CATIATranslator/Assembly/Assembly.cs" line="91" column="1" bodyfile="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/CATIATranslator/Assembly/Assembly.cs" bodystart="91" bodyend="96"/>
+      </memberdef>
+      <memberdef kind="function" id="class_c_a_t_i_a_translator_1_1_assembly_1adefbea9a6e1033daef571c3c86cc3cef" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool CATIATranslator.Assembly.InitializeTransCAD</definition>
+        <argsstring>(int mode)</argsstring>
+        <name>InitializeTransCAD</name>
+        <param>
+          <type>int</type>
+          <declname>mode</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/CATIATranslator/Assembly/Assembly.cs" line="99" column="1" bodyfile="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/CATIATranslator/Assembly/Assembly.cs" bodystart="99" bodyend="142"/>
+        <references refid="class_c_a_t_i_a_translator_1_1_assembly_1a0a07b40269ccbe7a3e192bd9ad867e94" compoundref="_assembly_8cs" startline="42">CATIATranslator.Assembly.tApp</references>
+        <references refid="class_c_a_t_i_a_translator_1_1_assembly_1a0b696619036b74a542270176694898da" compoundref="_assembly_8cs" startline="44">CATIATranslator.Assembly.tAssemDoc</references>
+        <references refid="class_c_a_t_i_a_translator_1_1_assembly_1aa47c52965ce56b461851a73dc4ef2efb" compoundref="_assembly_8cs" startline="43">CATIATranslator.Assembly.tDocs</references>
+        <referencedby refid="class_c_a_t_i_a_translator_1_1_program_1a86f19640fd443e4febc90940f0869e23" compoundref="_program_8cs" startline="14" endline="97">CATIATranslator.Program.Main</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_c_a_t_i_a_translator_1_1_assembly_1a1952f68e0c2369efc2bad4cdc195dc69" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void CATIATranslator.Assembly.UninitializeTransCAD</definition>
+        <argsstring>()</argsstring>
+        <name>UninitializeTransCAD</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/CATIATranslator/Assembly/Assembly.cs" line="144" column="1" bodyfile="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/CATIATranslator/Assembly/Assembly.cs" bodystart="144" bodyend="152"/>
+        <references refid="class_c_a_t_i_a_translator_1_1_assembly_1a0a07b40269ccbe7a3e192bd9ad867e94" compoundref="_assembly_8cs" startline="42">CATIATranslator.Assembly.tApp</references>
+        <references refid="class_c_a_t_i_a_translator_1_1_assembly_1a0b696619036b74a542270176694898da" compoundref="_assembly_8cs" startline="44">CATIATranslator.Assembly.tAssemDoc</references>
+        <references refid="class_c_a_t_i_a_translator_1_1_assembly_1aa47c52965ce56b461851a73dc4ef2efb" compoundref="_assembly_8cs" startline="43">CATIATranslator.Assembly.tDocs</references>
+        <references refid="class_c_a_t_i_a_translator_1_1_assembly_1aeaaf3a780bb204e60ef8856ce0d4e4ef" compoundref="_assembly_8cs" startline="49">CATIATranslator.Assembly.tFeatures</references>
+        <references refid="class_c_a_t_i_a_translator_1_1_assembly_1a83e79202a3f620785b81677b717b922b" compoundref="_assembly_8cs" startline="48">CATIATranslator.Assembly.tPart</references>
+        <references refid="class_c_a_t_i_a_translator_1_1_assembly_1a67088047087e3104dda796fde1fcd0a1" compoundref="_assembly_8cs" startline="47">CATIATranslator.Assembly.tPartDoc</references>
+      </memberdef>
+      <memberdef kind="function" id="class_c_a_t_i_a_translator_1_1_assembly_1ae361058ddde5909653353693b5099a83" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void CATIATranslator.Assembly.TranslateConstraintsT2C</definition>
+        <argsstring>(string filepath, string path)</argsstring>
+        <name>TranslateConstraintsT2C</name>
+        <param>
+          <type>string</type>
+          <declname>filepath</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>path</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/CATIATranslator/Assembly/AssemblyConstraints.cs" line="29" column="1" bodyfile="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/CATIATranslator/Assembly/AssemblyConstraints.cs" bodystart="29" bodyend="147"/>
+        <references refid="structref_command_1aac2edc97183e6f2ee8bb500d64a36bc6" compoundref="_reference_class_8h" startline="25">refCommand::MasterPart_Ref</references>
+        <references refid="class_c_a_t_i_a_translator_1_1_assembly_1a2c10c37f09ef39e18b18355cf465f0e8" compoundref="_assembly_8cs" startline="45">CATIATranslator.Assembly.tAssem</references>
+        <references refid="class_c_a_t_i_a_translator_1_1_assembly_1a7eeb6622021a1979b1fcc00636d37bfa" compoundref="_assembly_8cs" startline="50">CATIATranslator.Assembly.tConstraints</references>
+        <references refid="class_c_a_t_i_a_translator_1_1_assembly_1a5f67f89397b20cc2d7cc4f38501cdb72" compoundref="_assembly_constraints_8cs" startline="153" endline="206">CATIATranslator.Assembly.TestRefer</references>
+      </memberdef>
+      <memberdef kind="function" id="class_c_a_t_i_a_translator_1_1_assembly_1af54a24917ac06f239e76c0500695737f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void CATIATranslator.Assembly.TranslateC2T</definition>
+        <argsstring>()</argsstring>
+        <name>TranslateC2T</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/CATIATranslator/Assembly/AssemblyParts.cs" line="28" column="1" bodyfile="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/CATIATranslator/Assembly/AssemblyParts.cs" bodystart="28" bodyend="33"/>
+      </memberdef>
+      <memberdef kind="function" id="class_c_a_t_i_a_translator_1_1_assembly_1a862050b2359e98f2d7a4c126b8f212dd" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void CATIATranslator.Assembly.TranslatePartsT2C</definition>
+        <argsstring>(string filepath, int itemNum, TransCAD.Part part)</argsstring>
+        <name>TranslatePartsT2C</name>
+        <param>
+          <type>string</type>
+          <declname>filepath</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>itemNum</declname>
+        </param>
+        <param>
+          <type>TransCAD.Part</type>
+          <declname>part</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/CATIATranslator/Assembly/AssemblyParts.cs" line="38" column="1" bodyfile="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/CATIATranslator/Assembly/AssemblyParts.cs" bodystart="38" bodyend="65"/>
+        <references refid="class_c_a_t_i_a_translator_1_1_assembly_1a2f479ba6466a553c2288fddecb1fb69f" compoundref="_assembly_8cs" startline="55">CATIATranslator.Assembly.ReferenceManager</references>
+        <references refid="class_c_a_t_i_a_translator_1_1_assembly_1a02aa61ab68d0e85b376ef7fa5701ba05" compoundref="_assembly_parts_8cs" startline="26">CATIATranslator.Assembly.saveaspartname</references>
+      </memberdef>
+      <memberdef kind="function" id="class_c_a_t_i_a_translator_1_1_assembly_1abadb2196e9c150235787ad50c1dfb1ce" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void CATIATranslator.Assembly.TranslatePartsT2C_Script</definition>
+        <argsstring>(int CompNum, int PartNum, string path)</argsstring>
+        <name>TranslatePartsT2C_Script</name>
+        <param>
+          <type>int</type>
+          <declname>CompNum</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>PartNum</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>path</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/CATIATranslator/Assembly/AssemblyParts.cs" line="69" column="1" bodyfile="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/CATIATranslator/Assembly/AssemblyParts.cs" bodystart="69" bodyend="75"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_c_a_t_i_a_translator_1_1_assembly_1a5f67f89397b20cc2d7cc4f38501cdb72" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="structref_command" kindref="compound">refCommand</ref></type>
+        <definition>refCommand CATIATranslator.Assembly.TestRefer</definition>
+        <argsstring>(TransCAD.IStdAssemConstraint tConstraint, CTYPE i)</argsstring>
+        <name>TestRefer</name>
+        <param>
+          <type>TransCAD.IStdAssemConstraint</type>
+          <declname>tConstraint</declname>
+        </param>
+        <param>
+          <type><ref refid="class_c_a_t_i_a_translator_1_1_assembly_1af7e1c1729c7e8065db029b250d1e465a" kindref="member">CTYPE</ref></type>
+          <declname>i</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/CATIATranslator/Assembly/AssemblyConstraints.cs" line="153" column="1" bodyfile="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/CATIATranslator/Assembly/AssemblyConstraints.cs" bodystart="153" bodyend="206"/>
+        <referencedby refid="class_c_a_t_i_a_translator_1_1_assembly_1ae361058ddde5909653353693b5099a83" compoundref="_assembly_constraints_8cs" startline="29" endline="147">CATIATranslator.Assembly.TranslateConstraintsT2C</referencedby>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="18">
+        <label>TransCAD</label>
+      </node>
+      <node id="19">
+        <label>CATIATranslator.Reference</label>
+        <link refid="class_c_a_t_i_a_translator_1_1_reference"/>
+        <childnode refid="17" relation="usage">
+          <edgelabel>assembly</edgelabel>
+        </childnode>
+        <childnode refid="20" relation="usage">
+          <edgelabel>PartManager</edgelabel>
+        </childnode>
+      </node>
+      <node id="20">
+        <label>CATIATranslator.Part</label>
+        <link refid="class_c_a_t_i_a_translator_1_1_part"/>
+        <childnode refid="18" relation="usage">
+          <edgelabel>tAssemDoc</edgelabel>
+          <edgelabel>tApp</edgelabel>
+          <edgelabel>tPartDoc</edgelabel>
+          <edgelabel>tDocs</edgelabel>
+          <edgelabel>tFeatures</edgelabel>
+          <edgelabel>tAssem</edgelabel>
+          <edgelabel>tComp</edgelabel>
+          <edgelabel>tPart</edgelabel>
+        </childnode>
+        <childnode refid="19" relation="usage">
+          <edgelabel>ReferenceManager</edgelabel>
+        </childnode>
+        <childnode refid="20" relation="usage">
+          <edgelabel>cPart</edgelabel>
+        </childnode>
+      </node>
+      <node id="17">
+        <label>CATIATranslator.Assembly</label>
+        <link refid="class_c_a_t_i_a_translator_1_1_assembly"/>
+        <childnode refid="18" relation="usage">
+          <edgelabel>tConstraints</edgelabel>
+          <edgelabel>tAssemDoc</edgelabel>
+          <edgelabel>tApp</edgelabel>
+          <edgelabel>tPartDoc</edgelabel>
+          <edgelabel>tDocs</edgelabel>
+          <edgelabel>tFeatures</edgelabel>
+          <edgelabel>tAssem</edgelabel>
+          <edgelabel>tComp</edgelabel>
+          <edgelabel>tPart</edgelabel>
+        </childnode>
+        <childnode refid="19" relation="usage">
+          <edgelabel>ReferenceManager</edgelabel>
+        </childnode>
+        <childnode refid="20" relation="usage">
+          <edgelabel>cPart</edgelabel>
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/CATIATranslator/Assembly/Assembly.cs" line="21" column="1" bodyfile="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/CATIATranslator/Assembly/Assembly.cs" bodystart="20" bodyend="154"/>
+    <listofallmembers>
+      <member refid="class_c_a_t_i_a_translator_1_1_assembly_1a8f3f806824e1f1279ec6201be1409e05" prot="public" virt="non-virtual"><scope>CATIATranslator::Assembly</scope><name>cApp</name></member>
+      <member refid="class_c_a_t_i_a_translator_1_1_assembly_1ae44fcb8724640aa4528c7d494ec9a6b5" prot="public" virt="non-virtual"><scope>CATIATranslator::Assembly</scope><name>cBodies</name></member>
+      <member refid="class_c_a_t_i_a_translator_1_1_assembly_1a142b7d038e9477c81b3b0b4b5f78e258" prot="public" virt="non-virtual"><scope>CATIATranslator::Assembly</scope><name>cCurrentBody</name></member>
+      <member refid="class_c_a_t_i_a_translator_1_1_assembly_1ab74f9b2d66d01c7c5182314a2cf78419" prot="public" virt="non-virtual"><scope>CATIATranslator::Assembly</scope><name>cDocs</name></member>
+      <member refid="class_c_a_t_i_a_translator_1_1_assembly_1a8bdcd3aee92e6db4bfeeff67d33bc79d" prot="public" virt="non-virtual"><scope>CATIATranslator::Assembly</scope><name>cFactory</name></member>
+      <member refid="class_c_a_t_i_a_translator_1_1_assembly_1ac03e78e802e3a9ef7d06f9fc091933ab" prot="public" virt="non-virtual"><scope>CATIATranslator::Assembly</scope><name>cHybridShapeFactory</name></member>
+      <member refid="class_c_a_t_i_a_translator_1_1_assembly_1af111217fedcd82967e22fea4a48abaa8" prot="public" virt="non-virtual"><scope>CATIATranslator::Assembly</scope><name>cOriginalElements</name></member>
+      <member refid="class_c_a_t_i_a_translator_1_1_assembly_1a6ed6df59152adb01019db03962c5b445" prot="public" virt="non-virtual"><scope>CATIATranslator::Assembly</scope><name>cPart</name></member>
+      <member refid="class_c_a_t_i_a_translator_1_1_assembly_1a8b2567627aaaf44386e63d86780cad1e" prot="public" virt="non-virtual"><scope>CATIATranslator::Assembly</scope><name>cPartDoc</name></member>
+      <member refid="class_c_a_t_i_a_translator_1_1_assembly_1ae87dd82961c5c356a3f4c3c4471652db" prot="public" virt="non-virtual"><scope>CATIATranslator::Assembly</scope><name>cProduct</name></member>
+      <member refid="class_c_a_t_i_a_translator_1_1_assembly_1a73f405cd564edaa5b39b4c8d1bca99ae" prot="public" virt="non-virtual"><scope>CATIATranslator::Assembly</scope><name>cProductDoc</name></member>
+      <member refid="class_c_a_t_i_a_translator_1_1_assembly_1a13cffa38718353e5c08e3b44b9559864" prot="public" virt="non-virtual"><scope>CATIATranslator::Assembly</scope><name>cProducts</name></member>
+      <member refid="class_c_a_t_i_a_translator_1_1_assembly_1a3c53bc76b8a7ebf82cf35cc15947807b" prot="public" virt="non-virtual"><scope>CATIATranslator::Assembly</scope><name>cShapeFactory</name></member>
+      <member refid="class_c_a_t_i_a_translator_1_1_assembly_1a3b8dc71e8764df09e8f3e9bbfd6d4cab" prot="public" virt="non-virtual"><scope>CATIATranslator::Assembly</scope><name>cShapes</name></member>
+      <member refid="class_c_a_t_i_a_translator_1_1_assembly_1a3191cac6e8344671c842b8ead0013e3a" prot="public" virt="non-virtual"><scope>CATIATranslator::Assembly</scope><name>cSketches</name></member>
+      <member refid="class_c_a_t_i_a_translator_1_1_assembly_1af7e1c1729c7e8065db029b250d1e465a" prot="private" virt="non-virtual"><scope>CATIATranslator::Assembly</scope><name>CTYPE</name></member>
+      <member refid="class_c_a_t_i_a_translator_1_1_assembly_1a562d1101af26d21db6fe086cfb104bde" prot="public" virt="non-virtual"><scope>CATIATranslator::Assembly</scope><name>InitializeCATIA</name></member>
+      <member refid="class_c_a_t_i_a_translator_1_1_assembly_1adefbea9a6e1033daef571c3c86cc3cef" prot="public" virt="non-virtual"><scope>CATIATranslator::Assembly</scope><name>InitializeTransCAD</name></member>
+      <member refid="class_c_a_t_i_a_translator_1_1_assembly_1a2f479ba6466a553c2288fddecb1fb69f" prot="public" virt="non-virtual"><scope>CATIATranslator::Assembly</scope><name>ReferenceManager</name></member>
+      <member refid="class_c_a_t_i_a_translator_1_1_assembly_1adba96ac77359e6916e8508ed13f19c75" prot="public" virt="non-virtual"><scope>CATIATranslator::Assembly</scope><name>Save_Part_Path</name></member>
+      <member refid="class_c_a_t_i_a_translator_1_1_assembly_1a02aa61ab68d0e85b376ef7fa5701ba05" prot="private" virt="non-virtual"><scope>CATIATranslator::Assembly</scope><name>saveaspartname</name></member>
+      <member refid="class_c_a_t_i_a_translator_1_1_assembly_1a0a07b40269ccbe7a3e192bd9ad867e94" prot="public" virt="non-virtual"><scope>CATIATranslator::Assembly</scope><name>tApp</name></member>
+      <member refid="class_c_a_t_i_a_translator_1_1_assembly_1a2c10c37f09ef39e18b18355cf465f0e8" prot="public" virt="non-virtual"><scope>CATIATranslator::Assembly</scope><name>tAssem</name></member>
+      <member refid="class_c_a_t_i_a_translator_1_1_assembly_1a0b696619036b74a542270176694898da" prot="public" virt="non-virtual"><scope>CATIATranslator::Assembly</scope><name>tAssemDoc</name></member>
+      <member refid="class_c_a_t_i_a_translator_1_1_assembly_1adaaaa5febcec09f29487d6ba86cbbfa6" prot="public" virt="non-virtual"><scope>CATIATranslator::Assembly</scope><name>tComp</name></member>
+      <member refid="class_c_a_t_i_a_translator_1_1_assembly_1a7eeb6622021a1979b1fcc00636d37bfa" prot="public" virt="non-virtual"><scope>CATIATranslator::Assembly</scope><name>tConstraints</name></member>
+      <member refid="class_c_a_t_i_a_translator_1_1_assembly_1aa47c52965ce56b461851a73dc4ef2efb" prot="public" virt="non-virtual"><scope>CATIATranslator::Assembly</scope><name>tDocs</name></member>
+      <member refid="class_c_a_t_i_a_translator_1_1_assembly_1a5f67f89397b20cc2d7cc4f38501cdb72" prot="private" virt="non-virtual"><scope>CATIATranslator::Assembly</scope><name>TestRefer</name></member>
+      <member refid="class_c_a_t_i_a_translator_1_1_assembly_1aeaaf3a780bb204e60ef8856ce0d4e4ef" prot="public" virt="non-virtual"><scope>CATIATranslator::Assembly</scope><name>tFeatures</name></member>
+      <member refid="class_c_a_t_i_a_translator_1_1_assembly_1a83e79202a3f620785b81677b717b922b" prot="public" virt="non-virtual"><scope>CATIATranslator::Assembly</scope><name>tPart</name></member>
+      <member refid="class_c_a_t_i_a_translator_1_1_assembly_1a67088047087e3104dda796fde1fcd0a1" prot="public" virt="non-virtual"><scope>CATIATranslator::Assembly</scope><name>tPartDoc</name></member>
+      <member refid="class_c_a_t_i_a_translator_1_1_assembly_1af54a24917ac06f239e76c0500695737f" prot="public" virt="non-virtual"><scope>CATIATranslator::Assembly</scope><name>TranslateC2T</name></member>
+      <member refid="class_c_a_t_i_a_translator_1_1_assembly_1ae361058ddde5909653353693b5099a83" prot="public" virt="non-virtual"><scope>CATIATranslator::Assembly</scope><name>TranslateConstraintsT2C</name></member>
+      <member refid="class_c_a_t_i_a_translator_1_1_assembly_1a862050b2359e98f2d7a4c126b8f212dd" prot="public" virt="non-virtual"><scope>CATIATranslator::Assembly</scope><name>TranslatePartsT2C</name></member>
+      <member refid="class_c_a_t_i_a_translator_1_1_assembly_1abadb2196e9c150235787ad50c1dfb1ce" prot="public" virt="non-virtual"><scope>CATIATranslator::Assembly</scope><name>TranslatePartsT2C_Script</name></member>
+      <member refid="class_c_a_t_i_a_translator_1_1_assembly_1abf49099e88abbbff6a641bd000c099e2" prot="public" virt="non-virtual"><scope>CATIATranslator::Assembly</scope><name>UninitializeCATIA</name></member>
+      <member refid="class_c_a_t_i_a_translator_1_1_assembly_1a1952f68e0c2369efc2bad4cdc195dc69" prot="public" virt="non-virtual"><scope>CATIATranslator::Assembly</scope><name>UninitializeTransCAD</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

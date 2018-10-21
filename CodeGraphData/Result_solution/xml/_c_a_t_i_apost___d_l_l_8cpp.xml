@@ -1,0 +1,527 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="_c_a_t_i_apost___d_l_l_8cpp" kind="file">
+    <compoundname>CATIApost_DLL.cpp</compoundname>
+    <includes local="yes">stdafx.h</includes>
+    <includes refid="_c_a_t_i_apost___d_l_l_8h" local="yes">CATIApost_DLL.h</includes>
+    <includes refid="_post_manager_2ref_2_part_8h" local="yes">Part.h</includes>
+    <includes refid="_post_manager_2ref_2_f_sketch_8h" local="yes">FSKETCH.h</includes>
+    <includes local="no">iostream</includes>
+    <includes local="no">fstream</includes>
+    <includes refid="_c_a_t_i_a_reference_manager_8h" local="yes">CATIAReferenceManager.h</includes>
+    <incdepgraph>
+      <node id="384">
+        <label>atlstr.h</label>
+      </node>
+      <node id="401">
+        <label>FSKETCH.h</label>
+        <link refid="_post_manager_2ref_2_f_sketch_8h"/>
+        <childnode refid="402" relation="include">
+        </childnode>
+      </node>
+      <node id="402">
+        <label>Feature.h</label>
+        <link refid="_post_manager_2ref_2_feature_8h"/>
+        <childnode refid="395" relation="include">
+        </childnode>
+      </node>
+      <node id="381">
+        <label>stdafx.h</label>
+      </node>
+      <node id="390">
+        <label>stdlib.h</label>
+      </node>
+      <node id="392">
+        <label>cmath</label>
+      </node>
+      <node id="386">
+        <label>string</label>
+      </node>
+      <node id="391">
+        <label>comutil.h</label>
+      </node>
+      <node id="387">
+        <label>fstream</label>
+      </node>
+      <node id="395">
+        <label>Part.h</label>
+        <link refid="_post_manager_2ref_2_part_8h"/>
+        <childnode refid="382" relation="include">
+        </childnode>
+        <childnode refid="396" relation="include">
+        </childnode>
+      </node>
+      <node id="400">
+        <label>MP_Utility.h</label>
+        <link refid="_m_p___utility_8h"/>
+        <childnode refid="397" relation="include">
+        </childnode>
+      </node>
+      <node id="399">
+        <label>string.h</label>
+      </node>
+      <node id="388">
+        <label>vector</label>
+      </node>
+      <node id="394">
+        <label>math.h</label>
+      </node>
+      <node id="383">
+        <label>atlbase.h</label>
+      </node>
+      <node id="396">
+        <label>CATIAReferenceManager.h</label>
+        <link refid="_c_a_t_i_a_reference_manager_8h"/>
+        <childnode refid="382" relation="include">
+        </childnode>
+        <childnode refid="397" relation="include">
+        </childnode>
+        <childnode refid="400" relation="include">
+        </childnode>
+      </node>
+      <node id="385">
+        <label>iostream</label>
+      </node>
+      <node id="393">
+        <label>Definition.h</label>
+        <link refid="_post_manager_2ref_2_definition_8h"/>
+        <childnode refid="394" relation="include">
+        </childnode>
+      </node>
+      <node id="398">
+        <label>algorithm</label>
+      </node>
+      <node id="380">
+        <label>PostManager/ref/CATIApost_DLL.cpp</label>
+        <link refid="CATIApost_DLL.cpp"/>
+        <childnode refid="381" relation="include">
+        </childnode>
+        <childnode refid="382" relation="include">
+        </childnode>
+        <childnode refid="395" relation="include">
+        </childnode>
+        <childnode refid="401" relation="include">
+        </childnode>
+        <childnode refid="385" relation="include">
+        </childnode>
+        <childnode refid="387" relation="include">
+        </childnode>
+        <childnode refid="396" relation="include">
+        </childnode>
+      </node>
+      <node id="389">
+        <label>stdio.h</label>
+      </node>
+      <node id="397">
+        <label>PN_TYPE.h</label>
+        <link refid="_p_n___t_y_p_e_8h"/>
+        <childnode refid="385" relation="include">
+        </childnode>
+        <childnode refid="386" relation="include">
+        </childnode>
+        <childnode refid="388" relation="include">
+        </childnode>
+        <childnode refid="398" relation="include">
+        </childnode>
+        <childnode refid="394" relation="include">
+        </childnode>
+        <childnode refid="399" relation="include">
+        </childnode>
+      </node>
+      <node id="382">
+        <label>CATIApost_DLL.h</label>
+        <link refid="_c_a_t_i_apost___d_l_l_8h"/>
+        <childnode refid="383" relation="include">
+        </childnode>
+        <childnode refid="384" relation="include">
+        </childnode>
+        <childnode refid="385" relation="include">
+        </childnode>
+        <childnode refid="386" relation="include">
+        </childnode>
+        <childnode refid="387" relation="include">
+        </childnode>
+        <childnode refid="388" relation="include">
+        </childnode>
+        <childnode refid="389" relation="include">
+        </childnode>
+        <childnode refid="390" relation="include">
+        </childnode>
+        <childnode refid="391" relation="include">
+        </childnode>
+        <childnode refid="392" relation="include">
+        </childnode>
+        <childnode refid="393" relation="include">
+        </childnode>
+      </node>
+    </incdepgraph>
+    <innernamespace refid="namespace_post">Post</innernamespace>
+      <sectiondef kind="var">
+      <memberdef kind="variable" id="_c_a_t_i_apost___d_l_l_8cpp_1a4a001227aeffed8767cfd035c687e1ca" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int ref_index</definition>
+        <argsstring></argsstring>
+        <name>ref_index</name>
+        <initializer>= 1</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/PostManager/ref/CATIApost_DLL.cpp" line="17" column="1" bodyfile="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/PostManager/ref/CATIApost_DLL.cpp" bodystart="17" bodyend="-1"/>
+        <referencedby refid="namespace_post_1a03a52362c2b8f0e17b6b0438ba6d7910" compoundref="_c_a_t_i_apost___d_l_l_8cpp" startline="60" endline="109">Post::CATIAPostTranslate</referencedby>
+        <referencedby refid="class_post_1_1_part_1a3aec7e70aa614b5823544d87d700cce6" compoundref="_post_manager_2ref_2_part_8cpp" startline="319" endline="335">Post::Part::InitReferManager</referencedby>
+        <referencedby refid="class_post_1_1_f_datum_plane_offset_1af34c0973ffefae44460713c5f5944e19" compoundref="_post_manager_2ref_2_f_datum_plane_offset_8cpp" startline="29" endline="111">Post::FDatumPlaneOffset::ToCATIA</referencedby>
+        <referencedby refid="class_post_1_1_feature_s_o_l_i_d_create_pattern_circular_1a572bd9787a8d00fb43cceab6ce4260a9" compoundref="_post_manager_2ref_2_feature_s_o_l_i_d_create_pattern_circular_8cpp" startline="66" endline="96">Post::FeatureSOLIDCreatePatternCircular::ToCATIA</referencedby>
+        <referencedby refid="class_post_1_1_feature_s_o_l_i_d_create_pattern_rectangular_1a3c104d07dd42a6c50984884c5ccc9fcb" compoundref="_post_manager_2ref_2_feature_s_o_l_i_d_create_pattern_rectangular_8cpp" startline="66" endline="100">Post::FeatureSOLIDCreatePatternRectangular::ToCATIA</referencedby>
+        <referencedby refid="class_post_1_1_feature_s_o_l_i_d_create_fillet_constant_1a395a9468714e65e59fdc9735a1c4c2da" compoundref="_post_manager_2ref_2_feature_s_o_l_i_d_create_fillet_constant_8cpp" startline="34" endline="69">Post::FeatureSOLIDCreateFilletConstant::ToCATIA</referencedby>
+        <referencedby refid="class_post_1_1_feature_s_o_l_i_d_create_hole_countersunk_1a076b56d8a0a35f24cd0ae55d0760e87e" compoundref="_feature_s_o_l_i_d_create_hole_countersunk_8cpp" startline="37" endline="98">Post::FeatureSOLIDCreateHoleCountersunk::ToCATIA</referencedby>
+        <referencedby refid="class_post_1_1_feature_s_o_l_i_d_create_hole_counterbored_1a8f74cad0535e4af5457336d82fde6109" compoundref="_feature_s_o_l_i_d_create_hole_counterbored_8cpp" startline="37" endline="96">Post::FeatureSOLIDCreateHoleCounterbored::ToCATIA</referencedby>
+        <referencedby refid="class_post_1_1_feature_s_o_l_i_d_create_chamfer_1adc476aca0219e6111ebad3f6807e53a6" compoundref="_post_manager_2ref_2_feature_s_o_l_i_d_create_chamfer_8cpp" startline="33" endline="67">Post::FeatureSOLIDCreateChamfer::ToCATIA</referencedby>
+        <referencedby refid="class_post_1_1_feature_s_o_l_i_d_create_protrusion_loft_1a229923ce36140b183c02b87949f3a0f5" compoundref="_feature_s_o_l_i_d_create_protrusion_loft_8cpp" startline="41" endline="69">Post::FeatureSOLIDCreateProtrusionLoft::ToCATIA</referencedby>
+        <referencedby refid="class_post_1_1_feature_s_o_l_i_d_create_protrusion_sweep_1ad9d12144ce67b131f9d8b856abb32495" compoundref="_feature_s_o_l_i_d_create_protrusion_sweep_8cpp" startline="31" endline="60">Post::FeatureSOLIDCreateProtrusionSweep::ToCATIA</referencedby>
+        <referencedby refid="class_post_1_1_feature_s_o_l_i_d_create_sections_loft_1a24653567189674cf9624c7ce852b204b" compoundref="_feature_s_o_l_i_d_create_sections_loft_8cpp" startline="45" endline="120">Post::FeatureSOLIDCreateSectionsLoft::ToCATIA</referencedby>
+        <referencedby refid="class_post_1_1_feature_s_o_l_i_d_create_faces_loft_1a0cb2c7bcf5453a41a80ab8a42412e737" compoundref="_feature_s_o_l_i_d_create_faces_loft_8cpp" startline="41" endline="70">Post::FeatureSOLIDCreateFacesLoft::ToCATIA</referencedby>
+        <referencedby refid="class_post_1_1_f_sketch_1a04bbe4dfa30502ae0e62abd35ece66fe" compoundref="_post_manager_2ref_2_f_sketch_8cpp" startline="140" endline="276">Post::FSketch::ToCATIA</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="_c_a_t_i_apost___d_l_l_8cpp_1ac2c4ff63490b6532ebb2ff323b2b0df1" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int repname_index</definition>
+        <argsstring></argsstring>
+        <name>repname_index</name>
+        <initializer>= 1</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/PostManager/ref/CATIApost_DLL.cpp" line="18" column="1" bodyfile="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/PostManager/ref/CATIApost_DLL.cpp" bodystart="18" bodyend="-1"/>
+        <referencedby refid="namespace_post_1a03a52362c2b8f0e17b6b0438ba6d7910" compoundref="_c_a_t_i_apost___d_l_l_8cpp" startline="60" endline="109">Post::CATIAPostTranslate</referencedby>
+        <referencedby refid="class_post_1_1_part_1a3aec7e70aa614b5823544d87d700cce6" compoundref="_post_manager_2ref_2_part_8cpp" startline="319" endline="335">Post::Part::InitReferManager</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="_c_a_t_i_apost___d_l_l_8cpp_1ab856c50c5e05dee4c52ae991cc9cf5eb" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int pt_index</definition>
+        <argsstring></argsstring>
+        <name>pt_index</name>
+        <initializer>= 1</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/PostManager/ref/CATIApost_DLL.cpp" line="19" column="1" bodyfile="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/PostManager/ref/CATIApost_DLL.cpp" bodystart="19" bodyend="-1"/>
+        <referencedby refid="namespace_post_1a03a52362c2b8f0e17b6b0438ba6d7910" compoundref="_c_a_t_i_apost___d_l_l_8cpp" startline="60" endline="109">Post::CATIAPostTranslate</referencedby>
+        <referencedby refid="class_post_1_1_part_1a3aec7e70aa614b5823544d87d700cce6" compoundref="_post_manager_2ref_2_part_8cpp" startline="319" endline="335">Post::Part::InitReferManager</referencedby>
+        <referencedby refid="class_post_1_1_s_k_e_t_c_h_create2_d_point_1a877072a679bbda32955a75b4d79a46b3" compoundref="_s_k_e_t_c_h_create2_d_point_8cpp" startline="24" endline="39">Post::SKETCHCreate2DPoint::ToCATIA</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="_c_a_t_i_apost___d_l_l_8cpp_1aeb445a927ac5b1b741fdb4f80d547ad2" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int ln_index</definition>
+        <argsstring></argsstring>
+        <name>ln_index</name>
+        <initializer>= 1</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/PostManager/ref/CATIApost_DLL.cpp" line="20" column="1" bodyfile="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/PostManager/ref/CATIApost_DLL.cpp" bodystart="20" bodyend="-1"/>
+        <referencedby refid="namespace_post_1a03a52362c2b8f0e17b6b0438ba6d7910" compoundref="_c_a_t_i_apost___d_l_l_8cpp" startline="60" endline="109">Post::CATIAPostTranslate</referencedby>
+        <referencedby refid="class_post_1_1_part_1a3aec7e70aa614b5823544d87d700cce6" compoundref="_post_manager_2ref_2_part_8cpp" startline="319" endline="335">Post::Part::InitReferManager</referencedby>
+        <referencedby refid="class_post_1_1_s_k_e_t_c_h_create2_d_centerline_1a53de54224beb765c17dbb765e60e983a" compoundref="_s_k_e_t_c_h_create2_d_centerline_8cpp" startline="29" endline="43">Post::SKETCHCreate2DCenterline::ToCATIA</referencedby>
+        <referencedby refid="class_post_1_1_f_sketch_1a04bbe4dfa30502ae0e62abd35ece66fe" compoundref="_post_manager_2ref_2_f_sketch_8cpp" startline="140" endline="276">Post::FSketch::ToCATIA</referencedby>
+        <referencedby refid="class_post_1_1_s_k_e_t_c_h_create2_d_line2_points_1a0eb686cd9daa11bf0aebe136ce759ab0" compoundref="_s_k_e_t_c_h_create2_d_line2_points_8cpp" startline="32" endline="49">Post::SKETCHCreate2DLine2Points::ToCATIA</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="_c_a_t_i_apost___d_l_l_8cpp_1a217bd7e0678e7561d064b89ef20cea83" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int arr_index</definition>
+        <argsstring></argsstring>
+        <name>arr_index</name>
+        <initializer>= 1</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/PostManager/ref/CATIApost_DLL.cpp" line="21" column="1" bodyfile="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/PostManager/ref/CATIApost_DLL.cpp" bodystart="21" bodyend="-1"/>
+        <referencedby refid="namespace_post_1a03a52362c2b8f0e17b6b0438ba6d7910" compoundref="_c_a_t_i_apost___d_l_l_8cpp" startline="60" endline="109">Post::CATIAPostTranslate</referencedby>
+        <referencedby refid="class_post_1_1_part_1a3aec7e70aa614b5823544d87d700cce6" compoundref="_post_manager_2ref_2_part_8cpp" startline="319" endline="335">Post::Part::InitReferManager</referencedby>
+        <referencedby refid="class_post_1_1_f_sketch_1a04bbe4dfa30502ae0e62abd35ece66fe" compoundref="_post_manager_2ref_2_f_sketch_8cpp" startline="140" endline="276">Post::FSketch::ToCATIA</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="_c_a_t_i_apost___d_l_l_8cpp_1a0d3b3f4a67d270d635cabd1ac668881b" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int fac_index</definition>
+        <argsstring></argsstring>
+        <name>fac_index</name>
+        <initializer>= 1</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/PostManager/ref/CATIApost_DLL.cpp" line="22" column="1" bodyfile="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/PostManager/ref/CATIApost_DLL.cpp" bodystart="22" bodyend="-1"/>
+        <referencedby refid="namespace_post_1a03a52362c2b8f0e17b6b0438ba6d7910" compoundref="_c_a_t_i_apost___d_l_l_8cpp" startline="60" endline="109">Post::CATIAPostTranslate</referencedby>
+        <referencedby refid="class_post_1_1_part_1a3aec7e70aa614b5823544d87d700cce6" compoundref="_post_manager_2ref_2_part_8cpp" startline="319" endline="335">Post::Part::InitReferManager</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="_c_a_t_i_apost___d_l_l_8cpp_1a9d0ccac49c6fa3a640bc5e48bef71480" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int lim_index</definition>
+        <argsstring></argsstring>
+        <name>lim_index</name>
+        <initializer>= 1</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/PostManager/ref/CATIApost_DLL.cpp" line="23" column="1" bodyfile="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/PostManager/ref/CATIApost_DLL.cpp" bodystart="23" bodyend="-1"/>
+        <referencedby refid="namespace_post_1a03a52362c2b8f0e17b6b0438ba6d7910" compoundref="_c_a_t_i_apost___d_l_l_8cpp" startline="60" endline="109">Post::CATIAPostTranslate</referencedby>
+        <referencedby refid="class_post_1_1_part_1a3aec7e70aa614b5823544d87d700cce6" compoundref="_post_manager_2ref_2_part_8cpp" startline="319" endline="335">Post::Part::InitReferManager</referencedby>
+        <referencedby refid="class_post_1_1_feature_s_o_l_i_d_create_hole_countersunk_1a076b56d8a0a35f24cd0ae55d0760e87e" compoundref="_feature_s_o_l_i_d_create_hole_countersunk_8cpp" startline="37" endline="98">Post::FeatureSOLIDCreateHoleCountersunk::ToCATIA</referencedby>
+        <referencedby refid="class_post_1_1_feature_s_o_l_i_d_create_hole_counterbored_1a8f74cad0535e4af5457336d82fde6109" compoundref="_feature_s_o_l_i_d_create_hole_counterbored_8cpp" startline="37" endline="96">Post::FeatureSOLIDCreateHoleCounterbored::ToCATIA</referencedby>
+        <referencedby refid="class_post_1_1_feature_s_o_l_i_d_create_cut_extrude_1a7ffaba515665ad33e83e34d2af8a0cac" compoundref="_feature_s_o_l_i_d_create_cut_extrude_8cpp" startline="36" endline="99">Post::FeatureSOLIDCreateCutExtrude::ToCATIA</referencedby>
+        <referencedby refid="class_post_1_1_feature_s_o_l_i_d_create_protrusion_extrude_1a64f136a9e115c09cd4f1b2fff857f4b3" compoundref="_feature_s_o_l_i_d_create_protrusion_extrude_8cpp" startline="39" endline="101">Post::FeatureSOLIDCreateProtrusionExtrude::ToCATIA</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="_c_a_t_i_apost___d_l_l_8cpp_1a022e63e0684ba8af19134ea0510837f1" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int lng_index</definition>
+        <argsstring></argsstring>
+        <name>lng_index</name>
+        <initializer>= 1</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/PostManager/ref/CATIApost_DLL.cpp" line="24" column="1" bodyfile="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/PostManager/ref/CATIApost_DLL.cpp" bodystart="24" bodyend="-1"/>
+        <referencedby refid="namespace_post_1a03a52362c2b8f0e17b6b0438ba6d7910" compoundref="_c_a_t_i_apost___d_l_l_8cpp" startline="60" endline="109">Post::CATIAPostTranslate</referencedby>
+        <referencedby refid="class_post_1_1_part_1a3aec7e70aa614b5823544d87d700cce6" compoundref="_post_manager_2ref_2_part_8cpp" startline="319" endline="335">Post::Part::InitReferManager</referencedby>
+        <referencedby refid="class_post_1_1_feature_s_o_l_i_d_create_hole_countersunk_1a076b56d8a0a35f24cd0ae55d0760e87e" compoundref="_feature_s_o_l_i_d_create_hole_countersunk_8cpp" startline="37" endline="98">Post::FeatureSOLIDCreateHoleCountersunk::ToCATIA</referencedby>
+        <referencedby refid="class_post_1_1_feature_s_o_l_i_d_create_hole_counterbored_1a8f74cad0535e4af5457336d82fde6109" compoundref="_feature_s_o_l_i_d_create_hole_counterbored_8cpp" startline="37" endline="96">Post::FeatureSOLIDCreateHoleCounterbored::ToCATIA</referencedby>
+        <referencedby refid="class_post_1_1_feature_s_o_l_i_d_create_cut_extrude_1a7ffaba515665ad33e83e34d2af8a0cac" compoundref="_feature_s_o_l_i_d_create_cut_extrude_8cpp" startline="36" endline="99">Post::FeatureSOLIDCreateCutExtrude::ToCATIA</referencedby>
+        <referencedby refid="class_post_1_1_feature_s_o_l_i_d_create_protrusion_extrude_1a64f136a9e115c09cd4f1b2fff857f4b3" compoundref="_feature_s_o_l_i_d_create_protrusion_extrude_8cpp" startline="39" endline="101">Post::FeatureSOLIDCreateProtrusionExtrude::ToCATIA</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="_c_a_t_i_apost___d_l_l_8cpp_1a019d2786df3a9bf26d2731fe80b2fc66" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int circle_index</definition>
+        <argsstring></argsstring>
+        <name>circle_index</name>
+        <initializer>= 1</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/PostManager/ref/CATIApost_DLL.cpp" line="25" column="1" bodyfile="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/PostManager/ref/CATIApost_DLL.cpp" bodystart="25" bodyend="-1"/>
+        <referencedby refid="namespace_post_1a03a52362c2b8f0e17b6b0438ba6d7910" compoundref="_c_a_t_i_apost___d_l_l_8cpp" startline="60" endline="109">Post::CATIAPostTranslate</referencedby>
+        <referencedby refid="class_post_1_1_part_1a3aec7e70aa614b5823544d87d700cce6" compoundref="_post_manager_2ref_2_part_8cpp" startline="319" endline="335">Post::Part::InitReferManager</referencedby>
+        <referencedby refid="class_post_1_1_s_k_e_t_c_h_create2_d_circle_center_point_1a6a4387c56c3b7d0f2e28441701aa16c5" compoundref="_s_k_e_t_c_h_create2_d_circle_center_point_8cpp" startline="28" endline="40">Post::SKETCHCreate2DCircleCenterPoint::ToCATIA</referencedby>
+        <referencedby refid="class_post_1_1_s_k_e_t_c_h_create2_d_circular_arc_1a742f7b647dd44fabf7d5db5006954c0d" compoundref="_s_k_e_t_c_h_create2_d_circular_arc_8cpp" startline="36" endline="50">Post::SKETCHCreate2DCircularArc::ToCATIA</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="_c_a_t_i_apost___d_l_l_8cpp_1a0dbf0a49be0c3f6f56054c0efbb53c31" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int sktch</definition>
+        <argsstring></argsstring>
+        <name>sktch</name>
+        <initializer>= 1</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/PostManager/ref/CATIApost_DLL.cpp" line="26" column="1" bodyfile="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/PostManager/ref/CATIApost_DLL.cpp" bodystart="26" bodyend="-1"/>
+        <referencedby refid="namespace_post_1a03a52362c2b8f0e17b6b0438ba6d7910" compoundref="_c_a_t_i_apost___d_l_l_8cpp" startline="60" endline="109">Post::CATIAPostTranslate</referencedby>
+        <referencedby refid="class_post_1_1_part_1a3aec7e70aa614b5823544d87d700cce6" compoundref="_post_manager_2ref_2_part_8cpp" startline="319" endline="335">Post::Part::InitReferManager</referencedby>
+        <referencedby refid="class_post_1_1_s_k_e_t_c_h_create2_d_centerline_1a53de54224beb765c17dbb765e60e983a" compoundref="_s_k_e_t_c_h_create2_d_centerline_8cpp" startline="29" endline="43">Post::SKETCHCreate2DCenterline::ToCATIA</referencedby>
+        <referencedby refid="class_post_1_1_s_k_e_t_c_h_create2_d_point_1a877072a679bbda32955a75b4d79a46b3" compoundref="_s_k_e_t_c_h_create2_d_point_8cpp" startline="24" endline="39">Post::SKETCHCreate2DPoint::ToCATIA</referencedby>
+        <referencedby refid="class_post_1_1_f_sketch_1a04bbe4dfa30502ae0e62abd35ece66fe" compoundref="_post_manager_2ref_2_f_sketch_8cpp" startline="140" endline="276">Post::FSketch::ToCATIA</referencedby>
+        <referencedby refid="class_post_1_1_s_k_e_t_c_h_create2_d_line2_points_1a0eb686cd9daa11bf0aebe136ce759ab0" compoundref="_s_k_e_t_c_h_create2_d_line2_points_8cpp" startline="32" endline="49">Post::SKETCHCreate2DLine2Points::ToCATIA</referencedby>
+        <referencedby refid="class_post_1_1_s_k_e_t_c_h_create2_d_circle_center_point_1a6a4387c56c3b7d0f2e28441701aa16c5" compoundref="_s_k_e_t_c_h_create2_d_circle_center_point_8cpp" startline="28" endline="40">Post::SKETCHCreate2DCircleCenterPoint::ToCATIA</referencedby>
+        <referencedby refid="class_post_1_1_s_k_e_t_c_h_create2_d_circular_arc_1a742f7b647dd44fabf7d5db5006954c0d" compoundref="_s_k_e_t_c_h_create2_d_circular_arc_8cpp" startline="36" endline="50">Post::SKETCHCreate2DCircularArc::ToCATIA</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="_c_a_t_i_apost___d_l_l_8cpp_1a4755ab04787eb624e9b84fce74ea4e1f" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int holecounterID</definition>
+        <argsstring></argsstring>
+        <name>holecounterID</name>
+        <initializer>= 1</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/PostManager/ref/CATIApost_DLL.cpp" line="27" column="1" bodyfile="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/PostManager/ref/CATIApost_DLL.cpp" bodystart="27" bodyend="-1"/>
+        <referencedby refid="namespace_post_1a03a52362c2b8f0e17b6b0438ba6d7910" compoundref="_c_a_t_i_apost___d_l_l_8cpp" startline="60" endline="109">Post::CATIAPostTranslate</referencedby>
+        <referencedby refid="class_post_1_1_part_1a3aec7e70aa614b5823544d87d700cce6" compoundref="_post_manager_2ref_2_part_8cpp" startline="319" endline="335">Post::Part::InitReferManager</referencedby>
+        <referencedby refid="class_post_1_1_feature_s_o_l_i_d_create_hole_countersunk_1a076b56d8a0a35f24cd0ae55d0760e87e" compoundref="_feature_s_o_l_i_d_create_hole_countersunk_8cpp" startline="37" endline="98">Post::FeatureSOLIDCreateHoleCountersunk::ToCATIA</referencedby>
+        <referencedby refid="class_post_1_1_feature_s_o_l_i_d_create_hole_counterbored_1a8f74cad0535e4af5457336d82fde6109" compoundref="_feature_s_o_l_i_d_create_hole_counterbored_8cpp" startline="37" endline="96">Post::FeatureSOLIDCreateHoleCounterbored::ToCATIA</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="_c_a_t_i_apost___d_l_l_8cpp_1ab19f712b4a42f729c4b03c85bf315239" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int ang_index</definition>
+        <argsstring></argsstring>
+        <name>ang_index</name>
+        <initializer>= 1</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/PostManager/ref/CATIApost_DLL.cpp" line="28" column="1" bodyfile="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/PostManager/ref/CATIApost_DLL.cpp" bodystart="28" bodyend="-1"/>
+        <referencedby refid="namespace_post_1a03a52362c2b8f0e17b6b0438ba6d7910" compoundref="_c_a_t_i_apost___d_l_l_8cpp" startline="60" endline="109">Post::CATIAPostTranslate</referencedby>
+        <referencedby refid="class_post_1_1_part_1a3aec7e70aa614b5823544d87d700cce6" compoundref="_post_manager_2ref_2_part_8cpp" startline="319" endline="335">Post::Part::InitReferManager</referencedby>
+        <referencedby refid="class_post_1_1_feature_s_o_l_i_d_create_hole_countersunk_1a076b56d8a0a35f24cd0ae55d0760e87e" compoundref="_feature_s_o_l_i_d_create_hole_countersunk_8cpp" startline="37" endline="98">Post::FeatureSOLIDCreateHoleCountersunk::ToCATIA</referencedby>
+        <referencedby refid="class_post_1_1_feature_s_o_l_i_d_create_hole_counterbored_1a8f74cad0535e4af5457336d82fde6109" compoundref="_feature_s_o_l_i_d_create_hole_counterbored_8cpp" startline="37" endline="96">Post::FeatureSOLIDCreateHoleCounterbored::ToCATIA</referencedby>
+        <referencedby refid="class_post_1_1_feature_s_o_l_i_d_create_cut_revolve_1a943c15cf026572c40cb9d5d64b94ea55" compoundref="_feature_s_o_l_i_d_create_cut_revolve_8cpp" startline="42" endline="78">Post::FeatureSOLIDCreateCutRevolve::ToCATIA</referencedby>
+        <referencedby refid="class_post_1_1_feature_s_o_l_i_d_create_protrusion_revolve_1a694f7011ec7ebeca3d7bd3850dc756bf" compoundref="_feature_s_o_l_i_d_create_protrusion_revolve_8cpp" startline="43" endline="79">Post::FeatureSOLIDCreateProtrusionRevolve::ToCATIA</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="_c_a_t_i_apost___d_l_l_8cpp_1a60611a1ea7e60d33ae29f4a3a535d0ae" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int DatumPlaneID</definition>
+        <argsstring></argsstring>
+        <name>DatumPlaneID</name>
+        <initializer>= 1</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/PostManager/ref/CATIApost_DLL.cpp" line="29" column="1" bodyfile="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/PostManager/ref/CATIApost_DLL.cpp" bodystart="29" bodyend="-1"/>
+        <referencedby refid="namespace_post_1a03a52362c2b8f0e17b6b0438ba6d7910" compoundref="_c_a_t_i_apost___d_l_l_8cpp" startline="60" endline="109">Post::CATIAPostTranslate</referencedby>
+        <referencedby refid="class_post_1_1_part_1a3aec7e70aa614b5823544d87d700cce6" compoundref="_post_manager_2ref_2_part_8cpp" startline="319" endline="335">Post::Part::InitReferManager</referencedby>
+        <referencedby refid="class_post_1_1_f_datum_plane_offset_1af34c0973ffefae44460713c5f5944e19" compoundref="_post_manager_2ref_2_f_datum_plane_offset_8cpp" startline="29" endline="111">Post::FDatumPlaneOffset::ToCATIA</referencedby>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="comment">//<sp/>dllCATIApost.cpp<sp/>:<sp/>DLL<sp/>응용<sp/>프로그램을<sp/>위해<sp/>내보낸<sp/>함수를<sp/>정의합니다.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight><highlight class="comment">//</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;stdafx.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="_c_a_t_i_apost___d_l_l_8h" kindref="compound">CATIApost_DLL.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="_post_manager_2ref_2_part_8h" kindref="compound">Part.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="_post_manager_2ref_2_f_sketch_8h" kindref="compound">FSKETCH.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;iostream&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;fstream&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="10"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="_c_a_t_i_a_reference_manager_8h" kindref="compound">CATIAReferenceManager.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="11"><highlight class="normal"></highlight></codeline>
+<codeline lineno="12"><highlight class="normal"></highlight></codeline>
+<codeline lineno="13"><highlight class="normal"></highlight></codeline>
+<codeline lineno="14"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>내보낸<sp/>변수의<sp/>예제입니다.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="15"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="16"><highlight class="normal"></highlight></codeline>
+<codeline lineno="17" refid="_post_manager_2ref_2_part_8cpp_1a4a001227aeffed8767cfd035c687e1ca" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="_c_a_t_i_apost___d_l_l_8cpp_1a4a001227aeffed8767cfd035c687e1ca" kindref="member">ref_index</ref><sp/>=<sp/>1;</highlight></codeline>
+<codeline lineno="18" refid="_post_manager_2ref_2_part_8cpp_1ac2c4ff63490b6532ebb2ff323b2b0df1" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="_c_a_t_i_apost___d_l_l_8cpp_1ac2c4ff63490b6532ebb2ff323b2b0df1" kindref="member">repname_index</ref><sp/>=<sp/>1;</highlight></codeline>
+<codeline lineno="19" refid="_post_manager_2ref_2_part_8cpp_1ab856c50c5e05dee4c52ae991cc9cf5eb" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="_c_a_t_i_apost___d_l_l_8cpp_1ab856c50c5e05dee4c52ae991cc9cf5eb" kindref="member">pt_index</ref><sp/>=<sp/>1;</highlight></codeline>
+<codeline lineno="20" refid="_post_manager_2ref_2_part_8cpp_1aeb445a927ac5b1b741fdb4f80d547ad2" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="_c_a_t_i_apost___d_l_l_8cpp_1aeb445a927ac5b1b741fdb4f80d547ad2" kindref="member">ln_index</ref><sp/>=<sp/>1;</highlight></codeline>
+<codeline lineno="21" refid="_post_manager_2ref_2_part_8cpp_1a217bd7e0678e7561d064b89ef20cea83" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="_c_a_t_i_apost___d_l_l_8cpp_1a217bd7e0678e7561d064b89ef20cea83" kindref="member">arr_index</ref><sp/>=<sp/>1;</highlight></codeline>
+<codeline lineno="22" refid="_post_manager_2ref_2_part_8cpp_1a0d3b3f4a67d270d635cabd1ac668881b" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="_c_a_t_i_apost___d_l_l_8cpp_1a0d3b3f4a67d270d635cabd1ac668881b" kindref="member">fac_index</ref><sp/>=<sp/>1;</highlight></codeline>
+<codeline lineno="23" refid="_post_manager_2ref_2_part_8cpp_1a9d0ccac49c6fa3a640bc5e48bef71480" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="_c_a_t_i_apost___d_l_l_8cpp_1a9d0ccac49c6fa3a640bc5e48bef71480" kindref="member">lim_index</ref><sp/>=<sp/>1;</highlight></codeline>
+<codeline lineno="24" refid="_post_manager_2ref_2_part_8cpp_1a022e63e0684ba8af19134ea0510837f1" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="_c_a_t_i_apost___d_l_l_8cpp_1a022e63e0684ba8af19134ea0510837f1" kindref="member">lng_index</ref><sp/>=<sp/>1;</highlight></codeline>
+<codeline lineno="25" refid="_post_manager_2ref_2_part_8cpp_1a019d2786df3a9bf26d2731fe80b2fc66" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="_c_a_t_i_apost___d_l_l_8cpp_1a019d2786df3a9bf26d2731fe80b2fc66" kindref="member">circle_index</ref><sp/>=<sp/>1;</highlight></codeline>
+<codeline lineno="26" refid="_post_manager_2ref_2_part_8cpp_1a0dbf0a49be0c3f6f56054c0efbb53c31" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="_c_a_t_i_apost___d_l_l_8cpp_1a0dbf0a49be0c3f6f56054c0efbb53c31" kindref="member">sktch</ref><sp/>=<sp/>1;</highlight></codeline>
+<codeline lineno="27" refid="_post_manager_2ref_2_part_8cpp_1a4755ab04787eb624e9b84fce74ea4e1f" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="_c_a_t_i_apost___d_l_l_8cpp_1a4755ab04787eb624e9b84fce74ea4e1f" kindref="member">holecounterID</ref><sp/>=<sp/>1;</highlight></codeline>
+<codeline lineno="28" refid="_post_manager_2ref_2_part_8cpp_1ab19f712b4a42f729c4b03c85bf315239" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="_c_a_t_i_apost___d_l_l_8cpp_1ab19f712b4a42f729c4b03c85bf315239" kindref="member">ang_index</ref><sp/>=<sp/>1;</highlight></codeline>
+<codeline lineno="29" refid="_post_manager_2ref_2_part_8cpp_1a60611a1ea7e60d33ae29f4a3a535d0ae" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="_c_a_t_i_apost___d_l_l_8cpp_1a60611a1ea7e60d33ae29f4a3a535d0ae" kindref="member">DatumPlaneID</ref><sp/>=<sp/>1;</highlight></codeline>
+<codeline lineno="30" refid="namespace_post" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal">Post<sp/>{</highlight></codeline>
+<codeline lineno="31" refid="_c_a_t_i_apre_8h_1afc0d0c3dfd86863834cd6a3d772714c8" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>TransCAD::IApplicationPtr<sp/><ref refid="namespace_post_1a38f6250d10787730d93c5c083d3dcf7f" kindref="member">g_spApplication</ref>;</highlight></codeline>
+<codeline lineno="32" refid="namespace_post_1a757521acb19b64cd9a29879d6c5a7d5f" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="class_post_1_1_c_a_t_i_a_reference_manager" kindref="compound">CATIAReferenceManager</ref><sp/>*<ref refid="namespace_post_1a757521acb19b64cd9a29879d6c5a7d5f" kindref="member">g_pRefManager</ref><sp/>=<sp/>NULL;</highlight></codeline>
+<codeline lineno="33"><highlight class="normal"></highlight></codeline>
+<codeline lineno="34"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>내보낸<sp/>함수의<sp/>예제입니다.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="35" refid="namespace_post_1ab52e0fdbee71689753553a608c714d13" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="namespace_post_1ab52e0fdbee71689753553a608c714d13" kindref="member">CATIAPostStartService</ref>()</highlight></codeline>
+<codeline lineno="36"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="37"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="namespace_post_1a757521acb19b64cd9a29879d6c5a7d5f" kindref="member">g_pRefManager</ref><sp/>=<sp/></highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/><ref refid="class_post_1_1_c_a_t_i_a_reference_manager" kindref="compound">CATIAReferenceManager</ref>();</highlight></codeline>
+<codeline lineno="38"><highlight class="normal"></highlight></codeline>
+<codeline lineno="39"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>status<sp/>=<sp/></highlight><highlight class="keyword">true</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="40"><highlight class="normal"></highlight></codeline>
+<codeline lineno="41"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>HRESULT<sp/>hr<sp/>=<sp/>::CoInitialize(NULL);<sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>COM<sp/>Automation<sp/>API<sp/>Initialization</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="42"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(FAILED(hr))<sp/>{</highlight></codeline>
+<codeline lineno="43"><highlight class="normal"></highlight></codeline>
+<codeline lineno="44"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>status;</highlight></codeline>
+<codeline lineno="45"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="46"><highlight class="normal"></highlight></codeline>
+<codeline lineno="47"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>create<sp/>TransCAD</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="48"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>hr<sp/>=<sp/><ref refid="namespace_post_1a38f6250d10787730d93c5c083d3dcf7f" kindref="member">g_spApplication</ref>.CreateInstance(__uuidof(TransCAD::Application));</highlight></codeline>
+<codeline lineno="49"><highlight class="normal"></highlight></codeline>
+<codeline lineno="50"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(FAILED(hr))</highlight></codeline>
+<codeline lineno="51"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>status<sp/>=<sp/>0;</highlight></codeline>
+<codeline lineno="52"><highlight class="normal"></highlight></codeline>
+<codeline lineno="53"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>visualize<sp/>TransCAD</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="54"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//g_spApplication-&gt;Visible<sp/>=<sp/>VARIANT_TRUE;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="55"><highlight class="normal"></highlight></codeline>
+<codeline lineno="56"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>status;</highlight></codeline>
+<codeline lineno="57"><highlight class="normal"></highlight></codeline>
+<codeline lineno="58"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="59"><highlight class="normal"></highlight></codeline>
+<codeline lineno="60" refid="namespace_post_1a03a52362c2b8f0e17b6b0438ba6d7910" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="namespace_post_1a03a52362c2b8f0e17b6b0438ba6d7910" kindref="member">CATIAPostTranslate</ref>(</highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>argv[])</highlight></codeline>
+<codeline lineno="61"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="62"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>status<sp/>=<sp/></highlight><highlight class="keyword">true</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="63"><highlight class="normal"></highlight></codeline>
+<codeline lineno="64"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="_c_a_t_i_apost___d_l_l_8cpp_1a4a001227aeffed8767cfd035c687e1ca" kindref="member">ref_index</ref><sp/>=<sp/>1;</highlight></codeline>
+<codeline lineno="65"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="_c_a_t_i_apost___d_l_l_8cpp_1ac2c4ff63490b6532ebb2ff323b2b0df1" kindref="member">repname_index</ref><sp/>=<sp/>1;</highlight></codeline>
+<codeline lineno="66"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="_c_a_t_i_apost___d_l_l_8cpp_1ab856c50c5e05dee4c52ae991cc9cf5eb" kindref="member">pt_index</ref><sp/>=<sp/>1;</highlight></codeline>
+<codeline lineno="67"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="_c_a_t_i_apost___d_l_l_8cpp_1aeb445a927ac5b1b741fdb4f80d547ad2" kindref="member">ln_index</ref><sp/>=<sp/>1;</highlight></codeline>
+<codeline lineno="68"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="_c_a_t_i_apost___d_l_l_8cpp_1a217bd7e0678e7561d064b89ef20cea83" kindref="member">arr_index</ref><sp/>=<sp/>1;</highlight></codeline>
+<codeline lineno="69"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="_c_a_t_i_apost___d_l_l_8cpp_1a0d3b3f4a67d270d635cabd1ac668881b" kindref="member">fac_index</ref><sp/>=<sp/>1;</highlight></codeline>
+<codeline lineno="70"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="_c_a_t_i_apost___d_l_l_8cpp_1a9d0ccac49c6fa3a640bc5e48bef71480" kindref="member">lim_index</ref><sp/>=<sp/>1;</highlight></codeline>
+<codeline lineno="71"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="_c_a_t_i_apost___d_l_l_8cpp_1a022e63e0684ba8af19134ea0510837f1" kindref="member">lng_index</ref><sp/>=<sp/>1;</highlight></codeline>
+<codeline lineno="72"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="_c_a_t_i_apost___d_l_l_8cpp_1a019d2786df3a9bf26d2731fe80b2fc66" kindref="member">circle_index</ref><sp/>=<sp/>1;</highlight></codeline>
+<codeline lineno="73"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="_c_a_t_i_apost___d_l_l_8cpp_1a0dbf0a49be0c3f6f56054c0efbb53c31" kindref="member">sktch</ref><sp/>=<sp/>1;</highlight></codeline>
+<codeline lineno="74"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="_c_a_t_i_apost___d_l_l_8cpp_1a4755ab04787eb624e9b84fce74ea4e1f" kindref="member">holecounterID</ref><sp/>=<sp/>1;</highlight></codeline>
+<codeline lineno="75"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="_c_a_t_i_apost___d_l_l_8cpp_1ab19f712b4a42f729c4b03c85bf315239" kindref="member">ang_index</ref><sp/>=<sp/>1;</highlight></codeline>
+<codeline lineno="76"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="_c_a_t_i_apost___d_l_l_8cpp_1a60611a1ea7e60d33ae29f4a3a535d0ae" kindref="member">DatumPlaneID</ref><sp/>=<sp/>1;</highlight></codeline>
+<codeline lineno="77"><highlight class="normal"></highlight></codeline>
+<codeline lineno="78"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_post_1_1_part" kindref="compound">Part</ref><sp/>*<sp/>pPart;</highlight></codeline>
+<codeline lineno="79"><highlight class="normal"></highlight></codeline>
+<codeline lineno="80"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(argv<sp/>==<sp/></highlight><highlight class="stringliteral">&quot;&quot;</highlight><highlight class="normal">)</highlight></codeline>
+<codeline lineno="81"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>pPart<sp/>=<sp/></highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/><ref refid="class_post_1_1_part" kindref="compound">Part</ref>();</highlight></codeline>
+<codeline lineno="82"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="83"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>pPart<sp/>=<sp/></highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/><ref refid="class_post_1_1_part" kindref="compound">Part</ref>(argv);</highlight></codeline>
+<codeline lineno="84"><highlight class="normal"></highlight></codeline>
+<codeline lineno="85"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(<ref refid="namespace_post_1a38f6250d10787730d93c5c083d3dcf7f" kindref="member">g_spApplication</ref>-&gt;ActiveDocument<sp/>!=<sp/>NULL)</highlight></codeline>
+<codeline lineno="86"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="87"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>pPart-&gt;<ref refid="class_post_1_1_part_1afce2710ace93d175f5f4f9ba56493a14" kindref="member">GetInfo</ref>();</highlight></codeline>
+<codeline lineno="88"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>pPart-&gt;<ref refid="class_post_1_1_part_1adc255ebba204dd825fe5e330debb7caa" kindref="member">ToCATIA</ref>();</highlight></codeline>
+<codeline lineno="89"><highlight class="normal"></highlight></codeline>
+<codeline lineno="90"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//delete<sp/>Part<sp/>class</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="91"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">delete</highlight><highlight class="normal"><sp/>pPart;</highlight></codeline>
+<codeline lineno="92"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="93"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="94"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="95"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//g_spApplication-&gt;Visible<sp/>=<sp/>VARIANT_FALSE;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="96"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>status<sp/>=<sp/></highlight><highlight class="keyword">false</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="97"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="98"><highlight class="normal"></highlight></codeline>
+<codeline lineno="99"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>Clear<sp/>TransCAD</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="100"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//g_spApplication.Release();</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="101"><highlight class="normal"></highlight></codeline>
+<codeline lineno="102"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>::CoUninitialize();<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>COM<sp/>Automation<sp/>API<sp/>Uninitialization</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="103"><highlight class="normal"></highlight></codeline>
+<codeline lineno="104"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(<ref refid="namespace_post_1a757521acb19b64cd9a29879d6c5a7d5f" kindref="member">g_pRefManager</ref>)</highlight></codeline>
+<codeline lineno="105"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">delete</highlight><highlight class="normal"><sp/><ref refid="namespace_post_1a757521acb19b64cd9a29879d6c5a7d5f" kindref="member">g_pRefManager</ref>;</highlight></codeline>
+<codeline lineno="106"><highlight class="normal"></highlight></codeline>
+<codeline lineno="107"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>status;</highlight></codeline>
+<codeline lineno="108"><highlight class="normal"></highlight></codeline>
+<codeline lineno="109"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="110"><highlight class="normal">}</highlight></codeline>
+    </programlisting>
+    <location file="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/PostManager/ref/CATIApost_DLL.cpp"/>
+  </compounddef>
+</doxygen>

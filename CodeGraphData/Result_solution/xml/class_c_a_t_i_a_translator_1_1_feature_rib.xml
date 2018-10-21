@@ -1,0 +1,157 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_c_a_t_i_a_translator_1_1_feature_rib" kind="class" prot="public">
+    <compoundname>CATIATranslator::FeatureRib</compoundname>
+    <basecompoundref refid="class_c_a_t_i_a_translator_1_1_feature" prot="public" virt="non-virtual">CATIATranslator.Feature</basecompoundref>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_c_a_t_i_a_translator_1_1_feature_rib_1a3455fe07685d180f8b8f60d50a802eb5" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>CATIATranslator.FeatureRib.FeatureRib</definition>
+        <argsstring>(Part PartManager)</argsstring>
+        <name>FeatureRib</name>
+        <param>
+          <type><ref refid="class_c_a_t_i_a_translator_1_1_part" kindref="compound">Part</ref></type>
+          <declname>PartManager</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/CATIATranslator/Part/Feature/FeatureRib.cs" line="6" column="1" bodyfile="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/CATIATranslator/Part/Feature/FeatureRib.cs" bodystart="6" bodyend="9"/>
+        <references refid="class_c_a_t_i_a_translator_1_1_feature_1ad90561702fbff5b6fc8f87cdf9531751" compoundref="_feature_8cs" startline="6">CATIATranslator.Feature.PartManager</references>
+      </memberdef>
+      <memberdef kind="function" id="class_c_a_t_i_a_translator_1_1_feature_rib_1a5c2e81f14b2b9509b632cf597b1ff2d4" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>override void</type>
+        <definition>override void CATIATranslator.FeatureRib.TranslateC2T</definition>
+        <argsstring>(MECMOD.Shape cShape)</argsstring>
+        <name>TranslateC2T</name>
+        <reimplements refid="class_c_a_t_i_a_translator_1_1_feature_1a4ca679cb7db6b544a062441f9c46995e">TranslateC2T</reimplements>
+        <param>
+          <type>MECMOD.Shape</type>
+          <declname>cShape</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/CATIATranslator/Part/Feature/FeatureRib.cs" line="12" column="1" bodyfile="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/CATIATranslator/Part/Feature/FeatureRib.cs" bodystart="12" bodyend="25"/>
+        <references refid="class_c_a_t_i_a_translator_1_1_feature_1ad90561702fbff5b6fc8f87cdf9531751" compoundref="_feature_8cs" startline="6">CATIATranslator.Feature.PartManager</references>
+      </memberdef>
+      <memberdef kind="function" id="class_c_a_t_i_a_translator_1_1_feature_rib_1a5583f169ef25a306e1d2dbc56728681c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>override void</type>
+        <definition>override void CATIATranslator.FeatureRib.TranslateT2C</definition>
+        <argsstring>(TransCAD.IFeature tFeature)</argsstring>
+        <name>TranslateT2C</name>
+        <reimplements refid="class_c_a_t_i_a_translator_1_1_feature_1a9b3c6155e1ff78f54afdeecc4c422129">TranslateT2C</reimplements>
+        <param>
+          <type>TransCAD.IFeature</type>
+          <declname>tFeature</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/CATIATranslator/Part/Feature/FeatureRib.cs" line="28" column="1" bodyfile="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/CATIATranslator/Part/Feature/FeatureRib.cs" bodystart="28" bodyend="46"/>
+        <references refid="class_c_a_t_i_a_translator_1_1_feature_1ad90561702fbff5b6fc8f87cdf9531751" compoundref="_feature_8cs" startline="6">CATIATranslator.Feature.PartManager</references>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="494">
+        <label>CATIATranslator.FeatureRib</label>
+        <link refid="class_c_a_t_i_a_translator_1_1_feature_rib"/>
+        <childnode refid="495" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="495">
+        <label>Feature</label>
+        <link refid="class_c_a_t_i_a_translator_1_1_feature"/>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="499">
+        <label>TransCAD</label>
+      </node>
+      <node id="496">
+        <label>CATIATranslator.FeatureRib</label>
+        <link refid="class_c_a_t_i_a_translator_1_1_feature_rib"/>
+        <childnode refid="497" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="500">
+        <label>CATIATranslator.Reference</label>
+        <link refid="class_c_a_t_i_a_translator_1_1_reference"/>
+        <childnode refid="501" relation="usage">
+          <edgelabel>assembly</edgelabel>
+        </childnode>
+        <childnode refid="498" relation="usage">
+          <edgelabel>PartManager</edgelabel>
+        </childnode>
+      </node>
+      <node id="498">
+        <label>CATIATranslator.Part</label>
+        <link refid="class_c_a_t_i_a_translator_1_1_part"/>
+        <childnode refid="499" relation="usage">
+          <edgelabel>tAssemDoc</edgelabel>
+          <edgelabel>tApp</edgelabel>
+          <edgelabel>tPartDoc</edgelabel>
+          <edgelabel>tDocs</edgelabel>
+          <edgelabel>tFeatures</edgelabel>
+          <edgelabel>tAssem</edgelabel>
+          <edgelabel>tComp</edgelabel>
+          <edgelabel>tPart</edgelabel>
+        </childnode>
+        <childnode refid="500" relation="usage">
+          <edgelabel>ReferenceManager</edgelabel>
+        </childnode>
+        <childnode refid="498" relation="usage">
+          <edgelabel>cPart</edgelabel>
+        </childnode>
+      </node>
+      <node id="497">
+        <label>Feature</label>
+        <link refid="class_c_a_t_i_a_translator_1_1_feature"/>
+        <childnode refid="498" relation="usage">
+          <edgelabel>PartManager</edgelabel>
+        </childnode>
+      </node>
+      <node id="501">
+        <label>CATIATranslator.Assembly</label>
+        <link refid="class_c_a_t_i_a_translator_1_1_assembly"/>
+        <childnode refid="499" relation="usage">
+          <edgelabel>tConstraints</edgelabel>
+          <edgelabel>tAssemDoc</edgelabel>
+          <edgelabel>tApp</edgelabel>
+          <edgelabel>tPartDoc</edgelabel>
+          <edgelabel>tDocs</edgelabel>
+          <edgelabel>tFeatures</edgelabel>
+          <edgelabel>tAssem</edgelabel>
+          <edgelabel>tComp</edgelabel>
+          <edgelabel>tPart</edgelabel>
+        </childnode>
+        <childnode refid="500" relation="usage">
+          <edgelabel>ReferenceManager</edgelabel>
+        </childnode>
+        <childnode refid="498" relation="usage">
+          <edgelabel>cPart</edgelabel>
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/CATIATranslator/Part/Feature/FeatureRib.cs" line="5" column="1" bodyfile="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/CATIATranslator/Part/Feature/FeatureRib.cs" bodystart="4" bodyend="47"/>
+    <listofallmembers>
+      <member refid="class_c_a_t_i_a_translator_1_1_feature_rib_1a3455fe07685d180f8b8f60d50a802eb5" prot="public" virt="non-virtual"><scope>CATIATranslator::FeatureRib</scope><name>FeatureRib</name></member>
+      <member refid="class_c_a_t_i_a_translator_1_1_feature_1ad90561702fbff5b6fc8f87cdf9531751" prot="public" virt="non-virtual"><scope>CATIATranslator::FeatureRib</scope><name>PartManager</name></member>
+      <member refid="class_c_a_t_i_a_translator_1_1_feature_rib_1a5c2e81f14b2b9509b632cf597b1ff2d4" prot="public" virt="virtual"><scope>CATIATranslator::FeatureRib</scope><name>TranslateC2T</name></member>
+      <member refid="class_c_a_t_i_a_translator_1_1_feature_rib_1a5583f169ef25a306e1d2dbc56728681c" prot="public" virt="virtual"><scope>CATIATranslator::FeatureRib</scope><name>TranslateT2C</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

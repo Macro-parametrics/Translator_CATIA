@@ -1,0 +1,784 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_pre_1_1_feature_s_o_l_i_d_create_pattern_circular" kind="class" prot="public">
+    <compoundname>Pre::FeatureSOLIDCreatePatternCircular</compoundname>
+    <basecompoundref refid="class_pre_1_1_feature" prot="public" virt="non-virtual">Pre::Feature</basecompoundref>
+    <includes refid="_pre_manager_2ref_2_feature_s_o_l_i_d_create_pattern_circular_8h" local="no">FeatureSOLIDCreatePatternCircular.h</includes>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_pre_1_1_feature_s_o_l_i_d_create_pattern_circular_1a9217020d1187496b18e715416e83bfa6" prot="private" static="no" mutable="no">
+        <type>bstr_t</type>
+        <definition>bstr_t Pre::FeatureSOLIDCreatePatternCircular::_spTargetFeature</definition>
+        <argsstring></argsstring>
+        <name>_spTargetFeature</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/PreManager/ref/FeatureSOLIDCreatePatternCircular.h" line="25" column="1" bodyfile="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/PreManager/ref/FeatureSOLIDCreatePatternCircular.h" bodystart="25" bodyend="-1"/>
+        <referencedby refid="class_pre_1_1_feature_s_o_l_i_d_create_pattern_circular_1a9480a8aa263b45f8a3b3c46eb6cb83fb" compoundref="_pre_manager_2ref_2_feature_s_o_l_i_d_create_pattern_circular_8cpp" startline="28" endline="62">GetInfo</referencedby>
+        <referencedby refid="class_pre_1_1_feature_s_o_l_i_d_create_pattern_circular_1a74cc4f5b46d2c89fe0df483213f045ae" compoundref="_pre_manager_2ref_2_feature_s_o_l_i_d_create_pattern_circular_8cpp" startline="64" endline="80">ToTransCAD</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_pre_1_1_feature_s_o_l_i_d_create_pattern_circular_1a71422b4a1694bf64d5b00776df5d1d91" prot="private" static="no" mutable="no">
+        <type>double</type>
+        <definition>double Pre::FeatureSOLIDCreatePatternCircular::CircleSpacing</definition>
+        <argsstring></argsstring>
+        <name>CircleSpacing</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/PreManager/ref/FeatureSOLIDCreatePatternCircular.h" line="26" column="1" bodyfile="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/PreManager/ref/FeatureSOLIDCreatePatternCircular.h" bodystart="26" bodyend="-1"/>
+        <referencedby refid="class_pre_1_1_feature_s_o_l_i_d_create_pattern_circular_1afea4290408acc17879fde6a0c50028d5" compoundref="_pre_manager_2ref_2_feature_s_o_l_i_d_create_pattern_circular_8cpp" startline="82" endline="98">CheckAttribute</referencedby>
+        <referencedby refid="class_pre_1_1_feature_s_o_l_i_d_create_pattern_circular_1a929a3c33e02cd7f671571b79568ee8ac" compoundref="_pre_manager_2ref_2_feature_s_o_l_i_d_create_pattern_circular_8cpp" startline="8" endline="22">FeatureSOLIDCreatePatternCircular</referencedby>
+        <referencedby refid="class_pre_1_1_feature_s_o_l_i_d_create_pattern_circular_1a9480a8aa263b45f8a3b3c46eb6cb83fb" compoundref="_pre_manager_2ref_2_feature_s_o_l_i_d_create_pattern_circular_8cpp" startline="28" endline="62">GetInfo</referencedby>
+        <referencedby refid="class_pre_1_1_feature_s_o_l_i_d_create_pattern_circular_1a74cc4f5b46d2c89fe0df483213f045ae" compoundref="_pre_manager_2ref_2_feature_s_o_l_i_d_create_pattern_circular_8cpp" startline="64" endline="80">ToTransCAD</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_pre_1_1_feature_s_o_l_i_d_create_pattern_circular_1ab662645b6b5e1a523331b0676c982902" prot="private" static="no" mutable="no">
+        <type>double</type>
+        <definition>double Pre::FeatureSOLIDCreatePatternCircular::OrgX</definition>
+        <argsstring></argsstring>
+        <name>OrgX</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/PreManager/ref/FeatureSOLIDCreatePatternCircular.h" line="27" column="1" bodyfile="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/PreManager/ref/FeatureSOLIDCreatePatternCircular.h" bodystart="27" bodyend="-1"/>
+        <referencedby refid="class_pre_1_1_feature_s_o_l_i_d_create_pattern_circular_1a929a3c33e02cd7f671571b79568ee8ac" compoundref="_pre_manager_2ref_2_feature_s_o_l_i_d_create_pattern_circular_8cpp" startline="8" endline="22">FeatureSOLIDCreatePatternCircular</referencedby>
+        <referencedby refid="class_pre_1_1_feature_s_o_l_i_d_create_pattern_circular_1a69865b7be3e41ea824d1701e9c891e78" compoundref="_pre_manager_2ref_2_feature_s_o_l_i_d_create_pattern_circular_8cpp" startline="137" endline="197">SetDirection</referencedby>
+        <referencedby refid="class_pre_1_1_feature_s_o_l_i_d_create_pattern_circular_1a74cc4f5b46d2c89fe0df483213f045ae" compoundref="_pre_manager_2ref_2_feature_s_o_l_i_d_create_pattern_circular_8cpp" startline="64" endline="80">ToTransCAD</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_pre_1_1_feature_s_o_l_i_d_create_pattern_circular_1a33b8c8903ce4ec31b12dc98915a016f6" prot="private" static="no" mutable="no">
+        <type>double</type>
+        <definition>double Pre::FeatureSOLIDCreatePatternCircular::OrgY</definition>
+        <argsstring></argsstring>
+        <name>OrgY</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/PreManager/ref/FeatureSOLIDCreatePatternCircular.h" line="28" column="1" bodyfile="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/PreManager/ref/FeatureSOLIDCreatePatternCircular.h" bodystart="28" bodyend="-1"/>
+        <referencedby refid="class_pre_1_1_feature_s_o_l_i_d_create_pattern_circular_1a929a3c33e02cd7f671571b79568ee8ac" compoundref="_pre_manager_2ref_2_feature_s_o_l_i_d_create_pattern_circular_8cpp" startline="8" endline="22">FeatureSOLIDCreatePatternCircular</referencedby>
+        <referencedby refid="class_pre_1_1_feature_s_o_l_i_d_create_pattern_circular_1a69865b7be3e41ea824d1701e9c891e78" compoundref="_pre_manager_2ref_2_feature_s_o_l_i_d_create_pattern_circular_8cpp" startline="137" endline="197">SetDirection</referencedby>
+        <referencedby refid="class_pre_1_1_feature_s_o_l_i_d_create_pattern_circular_1a74cc4f5b46d2c89fe0df483213f045ae" compoundref="_pre_manager_2ref_2_feature_s_o_l_i_d_create_pattern_circular_8cpp" startline="64" endline="80">ToTransCAD</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_pre_1_1_feature_s_o_l_i_d_create_pattern_circular_1a0d7139355e9878011eb4f9c783351750" prot="private" static="no" mutable="no">
+        <type>double</type>
+        <definition>double Pre::FeatureSOLIDCreatePatternCircular::OrgZ</definition>
+        <argsstring></argsstring>
+        <name>OrgZ</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/PreManager/ref/FeatureSOLIDCreatePatternCircular.h" line="29" column="1" bodyfile="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/PreManager/ref/FeatureSOLIDCreatePatternCircular.h" bodystart="29" bodyend="-1"/>
+        <referencedby refid="class_pre_1_1_feature_s_o_l_i_d_create_pattern_circular_1a929a3c33e02cd7f671571b79568ee8ac" compoundref="_pre_manager_2ref_2_feature_s_o_l_i_d_create_pattern_circular_8cpp" startline="8" endline="22">FeatureSOLIDCreatePatternCircular</referencedby>
+        <referencedby refid="class_pre_1_1_feature_s_o_l_i_d_create_pattern_circular_1a69865b7be3e41ea824d1701e9c891e78" compoundref="_pre_manager_2ref_2_feature_s_o_l_i_d_create_pattern_circular_8cpp" startline="137" endline="197">SetDirection</referencedby>
+        <referencedby refid="class_pre_1_1_feature_s_o_l_i_d_create_pattern_circular_1a74cc4f5b46d2c89fe0df483213f045ae" compoundref="_pre_manager_2ref_2_feature_s_o_l_i_d_create_pattern_circular_8cpp" startline="64" endline="80">ToTransCAD</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_pre_1_1_feature_s_o_l_i_d_create_pattern_circular_1a27412055ad261b7e0a4ada87793b5e93" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int Pre::FeatureSOLIDCreatePatternCircular::CircleNumber</definition>
+        <argsstring></argsstring>
+        <name>CircleNumber</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/PreManager/ref/FeatureSOLIDCreatePatternCircular.h" line="30" column="1" bodyfile="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/PreManager/ref/FeatureSOLIDCreatePatternCircular.h" bodystart="30" bodyend="-1"/>
+        <referencedby refid="class_pre_1_1_feature_s_o_l_i_d_create_pattern_circular_1afea4290408acc17879fde6a0c50028d5" compoundref="_pre_manager_2ref_2_feature_s_o_l_i_d_create_pattern_circular_8cpp" startline="82" endline="98">CheckAttribute</referencedby>
+        <referencedby refid="class_pre_1_1_feature_s_o_l_i_d_create_pattern_circular_1a929a3c33e02cd7f671571b79568ee8ac" compoundref="_pre_manager_2ref_2_feature_s_o_l_i_d_create_pattern_circular_8cpp" startline="8" endline="22">FeatureSOLIDCreatePatternCircular</referencedby>
+        <referencedby refid="class_pre_1_1_feature_s_o_l_i_d_create_pattern_circular_1a9480a8aa263b45f8a3b3c46eb6cb83fb" compoundref="_pre_manager_2ref_2_feature_s_o_l_i_d_create_pattern_circular_8cpp" startline="28" endline="62">GetInfo</referencedby>
+        <referencedby refid="class_pre_1_1_feature_s_o_l_i_d_create_pattern_circular_1a74cc4f5b46d2c89fe0df483213f045ae" compoundref="_pre_manager_2ref_2_feature_s_o_l_i_d_create_pattern_circular_8cpp" startline="64" endline="80">ToTransCAD</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_pre_1_1_feature_s_o_l_i_d_create_pattern_circular_1a001e66727eac8b64a4edb83270c5af17" prot="private" static="no" mutable="no">
+        <type>double</type>
+        <definition>double Pre::FeatureSOLIDCreatePatternCircular::AngularSpacing</definition>
+        <argsstring></argsstring>
+        <name>AngularSpacing</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/PreManager/ref/FeatureSOLIDCreatePatternCircular.h" line="32" column="1" bodyfile="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/PreManager/ref/FeatureSOLIDCreatePatternCircular.h" bodystart="32" bodyend="-1"/>
+        <referencedby refid="class_pre_1_1_feature_s_o_l_i_d_create_pattern_circular_1afea4290408acc17879fde6a0c50028d5" compoundref="_pre_manager_2ref_2_feature_s_o_l_i_d_create_pattern_circular_8cpp" startline="82" endline="98">CheckAttribute</referencedby>
+        <referencedby refid="class_pre_1_1_feature_s_o_l_i_d_create_pattern_circular_1a929a3c33e02cd7f671571b79568ee8ac" compoundref="_pre_manager_2ref_2_feature_s_o_l_i_d_create_pattern_circular_8cpp" startline="8" endline="22">FeatureSOLIDCreatePatternCircular</referencedby>
+        <referencedby refid="class_pre_1_1_feature_s_o_l_i_d_create_pattern_circular_1a9480a8aa263b45f8a3b3c46eb6cb83fb" compoundref="_pre_manager_2ref_2_feature_s_o_l_i_d_create_pattern_circular_8cpp" startline="28" endline="62">GetInfo</referencedby>
+        <referencedby refid="class_pre_1_1_feature_s_o_l_i_d_create_pattern_circular_1a74cc4f5b46d2c89fe0df483213f045ae" compoundref="_pre_manager_2ref_2_feature_s_o_l_i_d_create_pattern_circular_8cpp" startline="64" endline="80">ToTransCAD</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_pre_1_1_feature_s_o_l_i_d_create_pattern_circular_1aa1086fc3619f3acf330ddcecd3878ef3" prot="private" static="no" mutable="no">
+        <type>double</type>
+        <definition>double Pre::FeatureSOLIDCreatePatternCircular::DirX</definition>
+        <argsstring></argsstring>
+        <name>DirX</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/PreManager/ref/FeatureSOLIDCreatePatternCircular.h" line="33" column="1" bodyfile="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/PreManager/ref/FeatureSOLIDCreatePatternCircular.h" bodystart="33" bodyend="-1"/>
+        <referencedby refid="class_pre_1_1_feature_s_o_l_i_d_create_pattern_circular_1a929a3c33e02cd7f671571b79568ee8ac" compoundref="_pre_manager_2ref_2_feature_s_o_l_i_d_create_pattern_circular_8cpp" startline="8" endline="22">FeatureSOLIDCreatePatternCircular</referencedby>
+        <referencedby refid="class_pre_1_1_feature_s_o_l_i_d_create_pattern_circular_1a85a93812a56839fb2b42872c3070f481" compoundref="_pre_manager_2ref_2_feature_s_o_l_i_d_create_pattern_circular_8cpp" startline="100" endline="135">Modify</referencedby>
+        <referencedby refid="class_pre_1_1_feature_s_o_l_i_d_create_pattern_circular_1a69865b7be3e41ea824d1701e9c891e78" compoundref="_pre_manager_2ref_2_feature_s_o_l_i_d_create_pattern_circular_8cpp" startline="137" endline="197">SetDirection</referencedby>
+        <referencedby refid="class_pre_1_1_feature_s_o_l_i_d_create_pattern_circular_1a74cc4f5b46d2c89fe0df483213f045ae" compoundref="_pre_manager_2ref_2_feature_s_o_l_i_d_create_pattern_circular_8cpp" startline="64" endline="80">ToTransCAD</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_pre_1_1_feature_s_o_l_i_d_create_pattern_circular_1a19608e46395511d73beb73051d2d27aa" prot="private" static="no" mutable="no">
+        <type>double</type>
+        <definition>double Pre::FeatureSOLIDCreatePatternCircular::DirY</definition>
+        <argsstring></argsstring>
+        <name>DirY</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/PreManager/ref/FeatureSOLIDCreatePatternCircular.h" line="34" column="1" bodyfile="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/PreManager/ref/FeatureSOLIDCreatePatternCircular.h" bodystart="34" bodyend="-1"/>
+        <referencedby refid="class_pre_1_1_feature_s_o_l_i_d_create_pattern_circular_1a929a3c33e02cd7f671571b79568ee8ac" compoundref="_pre_manager_2ref_2_feature_s_o_l_i_d_create_pattern_circular_8cpp" startline="8" endline="22">FeatureSOLIDCreatePatternCircular</referencedby>
+        <referencedby refid="class_pre_1_1_feature_s_o_l_i_d_create_pattern_circular_1a85a93812a56839fb2b42872c3070f481" compoundref="_pre_manager_2ref_2_feature_s_o_l_i_d_create_pattern_circular_8cpp" startline="100" endline="135">Modify</referencedby>
+        <referencedby refid="class_pre_1_1_feature_s_o_l_i_d_create_pattern_circular_1a69865b7be3e41ea824d1701e9c891e78" compoundref="_pre_manager_2ref_2_feature_s_o_l_i_d_create_pattern_circular_8cpp" startline="137" endline="197">SetDirection</referencedby>
+        <referencedby refid="class_pre_1_1_feature_s_o_l_i_d_create_pattern_circular_1a74cc4f5b46d2c89fe0df483213f045ae" compoundref="_pre_manager_2ref_2_feature_s_o_l_i_d_create_pattern_circular_8cpp" startline="64" endline="80">ToTransCAD</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_pre_1_1_feature_s_o_l_i_d_create_pattern_circular_1a57dc6668fabf295b24b32002e339a4bf" prot="private" static="no" mutable="no">
+        <type>double</type>
+        <definition>double Pre::FeatureSOLIDCreatePatternCircular::DirZ</definition>
+        <argsstring></argsstring>
+        <name>DirZ</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/PreManager/ref/FeatureSOLIDCreatePatternCircular.h" line="35" column="1" bodyfile="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/PreManager/ref/FeatureSOLIDCreatePatternCircular.h" bodystart="35" bodyend="-1"/>
+        <referencedby refid="class_pre_1_1_feature_s_o_l_i_d_create_pattern_circular_1a929a3c33e02cd7f671571b79568ee8ac" compoundref="_pre_manager_2ref_2_feature_s_o_l_i_d_create_pattern_circular_8cpp" startline="8" endline="22">FeatureSOLIDCreatePatternCircular</referencedby>
+        <referencedby refid="class_pre_1_1_feature_s_o_l_i_d_create_pattern_circular_1a85a93812a56839fb2b42872c3070f481" compoundref="_pre_manager_2ref_2_feature_s_o_l_i_d_create_pattern_circular_8cpp" startline="100" endline="135">Modify</referencedby>
+        <referencedby refid="class_pre_1_1_feature_s_o_l_i_d_create_pattern_circular_1a69865b7be3e41ea824d1701e9c891e78" compoundref="_pre_manager_2ref_2_feature_s_o_l_i_d_create_pattern_circular_8cpp" startline="137" endline="197">SetDirection</referencedby>
+        <referencedby refid="class_pre_1_1_feature_s_o_l_i_d_create_pattern_circular_1a74cc4f5b46d2c89fe0df483213f045ae" compoundref="_pre_manager_2ref_2_feature_s_o_l_i_d_create_pattern_circular_8cpp" startline="64" endline="80">ToTransCAD</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_pre_1_1_feature_s_o_l_i_d_create_pattern_circular_1a7f70e053f761e4ff39a165ad1dc2df32" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int Pre::FeatureSOLIDCreatePatternCircular::AngularNumber</definition>
+        <argsstring></argsstring>
+        <name>AngularNumber</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/PreManager/ref/FeatureSOLIDCreatePatternCircular.h" line="36" column="1" bodyfile="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/PreManager/ref/FeatureSOLIDCreatePatternCircular.h" bodystart="36" bodyend="-1"/>
+        <referencedby refid="class_pre_1_1_feature_s_o_l_i_d_create_pattern_circular_1afea4290408acc17879fde6a0c50028d5" compoundref="_pre_manager_2ref_2_feature_s_o_l_i_d_create_pattern_circular_8cpp" startline="82" endline="98">CheckAttribute</referencedby>
+        <referencedby refid="class_pre_1_1_feature_s_o_l_i_d_create_pattern_circular_1a929a3c33e02cd7f671571b79568ee8ac" compoundref="_pre_manager_2ref_2_feature_s_o_l_i_d_create_pattern_circular_8cpp" startline="8" endline="22">FeatureSOLIDCreatePatternCircular</referencedby>
+        <referencedby refid="class_pre_1_1_feature_s_o_l_i_d_create_pattern_circular_1a9480a8aa263b45f8a3b3c46eb6cb83fb" compoundref="_pre_manager_2ref_2_feature_s_o_l_i_d_create_pattern_circular_8cpp" startline="28" endline="62">GetInfo</referencedby>
+        <referencedby refid="class_pre_1_1_feature_s_o_l_i_d_create_pattern_circular_1a74cc4f5b46d2c89fe0df483213f045ae" compoundref="_pre_manager_2ref_2_feature_s_o_l_i_d_create_pattern_circular_8cpp" startline="64" endline="80">ToTransCAD</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_pre_1_1_feature_s_o_l_i_d_create_pattern_circular_1ace89ecb5710096596107bd67d890142b" prot="private" static="no" mutable="no">
+        <type>string</type>
+        <definition>string Pre::FeatureSOLIDCreatePatternCircular::_RefPlane</definition>
+        <argsstring></argsstring>
+        <name>_RefPlane</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/PreManager/ref/FeatureSOLIDCreatePatternCircular.h" line="38" column="1" bodyfile="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/PreManager/ref/FeatureSOLIDCreatePatternCircular.h" bodystart="38" bodyend="-1"/>
+        <referencedby refid="class_pre_1_1_feature_s_o_l_i_d_create_pattern_circular_1a85a93812a56839fb2b42872c3070f481" compoundref="_pre_manager_2ref_2_feature_s_o_l_i_d_create_pattern_circular_8cpp" startline="100" endline="135">Modify</referencedby>
+        <referencedby refid="class_pre_1_1_feature_s_o_l_i_d_create_pattern_circular_1a74cc4f5b46d2c89fe0df483213f045ae" compoundref="_pre_manager_2ref_2_feature_s_o_l_i_d_create_pattern_circular_8cpp" startline="64" endline="80">ToTransCAD</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_pre_1_1_feature_s_o_l_i_d_create_pattern_circular_1ab08b282115c13d2bd2e7b726a20e2238" prot="private" static="no" mutable="no">
+        <type>string</type>
+        <definition>string Pre::FeatureSOLIDCreatePatternCircular::_rotationAxis</definition>
+        <argsstring></argsstring>
+        <name>_rotationAxis</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/PreManager/ref/FeatureSOLIDCreatePatternCircular.h" line="39" column="1" bodyfile="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/PreManager/ref/FeatureSOLIDCreatePatternCircular.h" bodystart="39" bodyend="-1"/>
+        <referencedby refid="class_pre_1_1_feature_s_o_l_i_d_create_pattern_circular_1a85a93812a56839fb2b42872c3070f481" compoundref="_pre_manager_2ref_2_feature_s_o_l_i_d_create_pattern_circular_8cpp" startline="100" endline="135">Modify</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_pre_1_1_feature_s_o_l_i_d_create_pattern_circular_1aa53978fddaeae16d5ff1b4fee643c906" prot="private" static="no" mutable="no">
+        <type>vector&lt; <ref refid="class_pre_1_1_reference_entity" kindref="compound">ReferenceEntity</ref> * &gt;</type>
+        <definition>vector&lt;ReferenceEntity *&gt; Pre::FeatureSOLIDCreatePatternCircular::_referenceEntityList</definition>
+        <argsstring></argsstring>
+        <name>_referenceEntityList</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/PreManager/ref/FeatureSOLIDCreatePatternCircular.h" line="41" column="1" bodyfile="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/PreManager/ref/FeatureSOLIDCreatePatternCircular.h" bodystart="41" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_pre_1_1_feature_s_o_l_i_d_create_pattern_circular_1a929a3c33e02cd7f671571b79568ee8ac" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>Pre::FeatureSOLIDCreatePatternCircular::FeatureSOLIDCreatePatternCircular</definition>
+        <argsstring>(Part *pPart, int type, string name)</argsstring>
+        <name>FeatureSOLIDCreatePatternCircular</name>
+        <param>
+          <type><ref refid="class_pre_1_1_part" kindref="compound">Part</ref> *</type>
+          <declname>pPart</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>type</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>name</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/PreManager/ref/FeatureSOLIDCreatePatternCircular.h" line="10" column="1" bodyfile="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/PreManager/ref/FeatureSOLIDCreatePatternCircular.cpp" bodystart="8" bodyend="22"/>
+        <references refid="class_pre_1_1_feature_s_o_l_i_d_create_pattern_circular_1a7f70e053f761e4ff39a165ad1dc2df32" compoundref="_pre_manager_2ref_2_feature_s_o_l_i_d_create_pattern_circular_8h" startline="36">AngularNumber</references>
+        <references refid="class_pre_1_1_feature_s_o_l_i_d_create_pattern_circular_1a001e66727eac8b64a4edb83270c5af17" compoundref="_pre_manager_2ref_2_feature_s_o_l_i_d_create_pattern_circular_8h" startline="32">AngularSpacing</references>
+        <references refid="class_pre_1_1_feature_s_o_l_i_d_create_pattern_circular_1a27412055ad261b7e0a4ada87793b5e93" compoundref="_pre_manager_2ref_2_feature_s_o_l_i_d_create_pattern_circular_8h" startline="30">CircleNumber</references>
+        <references refid="class_pre_1_1_feature_s_o_l_i_d_create_pattern_circular_1a71422b4a1694bf64d5b00776df5d1d91" compoundref="_pre_manager_2ref_2_feature_s_o_l_i_d_create_pattern_circular_8h" startline="26">CircleSpacing</references>
+        <references refid="class_pre_1_1_feature_s_o_l_i_d_create_pattern_circular_1aa1086fc3619f3acf330ddcecd3878ef3" compoundref="_pre_manager_2ref_2_feature_s_o_l_i_d_create_pattern_circular_8h" startline="33">DirX</references>
+        <references refid="class_pre_1_1_feature_s_o_l_i_d_create_pattern_circular_1a19608e46395511d73beb73051d2d27aa" compoundref="_pre_manager_2ref_2_feature_s_o_l_i_d_create_pattern_circular_8h" startline="34">DirY</references>
+        <references refid="class_pre_1_1_feature_s_o_l_i_d_create_pattern_circular_1a57dc6668fabf295b24b32002e339a4bf" compoundref="_pre_manager_2ref_2_feature_s_o_l_i_d_create_pattern_circular_8h" startline="35">DirZ</references>
+        <references refid="class_pre_1_1_feature_s_o_l_i_d_create_pattern_circular_1ab662645b6b5e1a523331b0676c982902" compoundref="_pre_manager_2ref_2_feature_s_o_l_i_d_create_pattern_circular_8h" startline="27">OrgX</references>
+        <references refid="class_pre_1_1_feature_s_o_l_i_d_create_pattern_circular_1a33b8c8903ce4ec31b12dc98915a016f6" compoundref="_pre_manager_2ref_2_feature_s_o_l_i_d_create_pattern_circular_8h" startline="28">OrgY</references>
+        <references refid="class_pre_1_1_feature_s_o_l_i_d_create_pattern_circular_1a0d7139355e9878011eb4f9c783351750" compoundref="_pre_manager_2ref_2_feature_s_o_l_i_d_create_pattern_circular_8h" startline="29">OrgZ</references>
+      </memberdef>
+      <memberdef kind="function" id="class_pre_1_1_feature_s_o_l_i_d_create_pattern_circular_1ab698edad410dcff97e4924142486b47c" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type></type>
+        <definition>Pre::FeatureSOLIDCreatePatternCircular::~FeatureSOLIDCreatePatternCircular</definition>
+        <argsstring>()</argsstring>
+        <name>~FeatureSOLIDCreatePatternCircular</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/PreManager/ref/FeatureSOLIDCreatePatternCircular.h" line="11" column="1" bodyfile="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/PreManager/ref/FeatureSOLIDCreatePatternCircular.cpp" bodystart="24" bodyend="26"/>
+      </memberdef>
+      <memberdef kind="function" id="class_pre_1_1_feature_s_o_l_i_d_create_pattern_circular_1a9480a8aa263b45f8a3b3c46eb6cb83fb" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void Pre::FeatureSOLIDCreatePatternCircular::GetInfo</definition>
+        <argsstring>(ifstream &amp;is)</argsstring>
+        <name>GetInfo</name>
+        <reimplements refid="class_pre_1_1_feature_1af58dd6004076ee16ada8ed600965de6c">GetInfo</reimplements>
+        <param>
+          <type>ifstream &amp;</type>
+          <declname>is</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/PreManager/ref/FeatureSOLIDCreatePatternCircular.h" line="13" column="1" bodyfile="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/PreManager/ref/FeatureSOLIDCreatePatternCircular.cpp" bodystart="28" bodyend="62"/>
+        <references refid="class_pre_1_1_feature_s_o_l_i_d_create_pattern_circular_1a9217020d1187496b18e715416e83bfa6" compoundref="_pre_manager_2ref_2_feature_s_o_l_i_d_create_pattern_circular_8h" startline="25">_spTargetFeature</references>
+        <references refid="class_pre_1_1_feature_s_o_l_i_d_create_pattern_circular_1a7f70e053f761e4ff39a165ad1dc2df32" compoundref="_pre_manager_2ref_2_feature_s_o_l_i_d_create_pattern_circular_8h" startline="36">AngularNumber</references>
+        <references refid="class_pre_1_1_feature_s_o_l_i_d_create_pattern_circular_1a001e66727eac8b64a4edb83270c5af17" compoundref="_pre_manager_2ref_2_feature_s_o_l_i_d_create_pattern_circular_8h" startline="32">AngularSpacing</references>
+        <references refid="class_pre_1_1_feature_s_o_l_i_d_create_pattern_circular_1a27412055ad261b7e0a4ada87793b5e93" compoundref="_pre_manager_2ref_2_feature_s_o_l_i_d_create_pattern_circular_8h" startline="30">CircleNumber</references>
+        <references refid="class_pre_1_1_feature_s_o_l_i_d_create_pattern_circular_1a71422b4a1694bf64d5b00776df5d1d91" compoundref="_pre_manager_2ref_2_feature_s_o_l_i_d_create_pattern_circular_8h" startline="26">CircleSpacing</references>
+      </memberdef>
+      <memberdef kind="function" id="class_pre_1_1_feature_s_o_l_i_d_create_pattern_circular_1a74cc4f5b46d2c89fe0df483213f045ae" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void Pre::FeatureSOLIDCreatePatternCircular::ToTransCAD</definition>
+        <argsstring>()</argsstring>
+        <name>ToTransCAD</name>
+        <reimplements refid="class_pre_1_1_feature_1a43c7ceaf04580d2e948aedd882208d80">ToTransCAD</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/PreManager/ref/FeatureSOLIDCreatePatternCircular.h" line="14" column="1" bodyfile="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/PreManager/ref/FeatureSOLIDCreatePatternCircular.cpp" bodystart="64" bodyend="80"/>
+        <references refid="class_pre_1_1_feature_1ae8c43a10be919286c9450125b1a0afb9" compoundref="_pre_manager_2ref_2_feature_8h" startline="27">Pre::Feature::_name</references>
+        <references refid="class_pre_1_1_feature_s_o_l_i_d_create_pattern_circular_1ace89ecb5710096596107bd67d890142b" compoundref="_pre_manager_2ref_2_feature_s_o_l_i_d_create_pattern_circular_8h" startline="38">_RefPlane</references>
+        <references refid="class_pre_1_1_part_1a0fa084e40ad2822e8214ba40b4751825" compoundref="_pre_manager_2ref_2_part_8h" startline="53">Pre::Part::_spFeatures</references>
+        <references refid="class_pre_1_1_part_1abe7d81bc84a9423e1d09c27e36125b64" compoundref="_pre_manager_2ref_2_part_8h" startline="52">Pre::Part::_spPart</references>
+        <references refid="class_pre_1_1_feature_s_o_l_i_d_create_pattern_circular_1a9217020d1187496b18e715416e83bfa6" compoundref="_pre_manager_2ref_2_feature_s_o_l_i_d_create_pattern_circular_8h" startline="25">_spTargetFeature</references>
+        <references refid="class_pre_1_1_feature_s_o_l_i_d_create_pattern_circular_1a7f70e053f761e4ff39a165ad1dc2df32" compoundref="_pre_manager_2ref_2_feature_s_o_l_i_d_create_pattern_circular_8h" startline="36">AngularNumber</references>
+        <references refid="class_pre_1_1_feature_s_o_l_i_d_create_pattern_circular_1a001e66727eac8b64a4edb83270c5af17" compoundref="_pre_manager_2ref_2_feature_s_o_l_i_d_create_pattern_circular_8h" startline="32">AngularSpacing</references>
+        <references refid="class_pre_1_1_feature_s_o_l_i_d_create_pattern_circular_1a27412055ad261b7e0a4ada87793b5e93" compoundref="_pre_manager_2ref_2_feature_s_o_l_i_d_create_pattern_circular_8h" startline="30">CircleNumber</references>
+        <references refid="class_pre_1_1_feature_s_o_l_i_d_create_pattern_circular_1a71422b4a1694bf64d5b00776df5d1d91" compoundref="_pre_manager_2ref_2_feature_s_o_l_i_d_create_pattern_circular_8h" startline="26">CircleSpacing</references>
+        <references refid="class_pre_1_1_feature_s_o_l_i_d_create_pattern_circular_1aa1086fc3619f3acf330ddcecd3878ef3" compoundref="_pre_manager_2ref_2_feature_s_o_l_i_d_create_pattern_circular_8h" startline="33">DirX</references>
+        <references refid="class_pre_1_1_feature_s_o_l_i_d_create_pattern_circular_1a19608e46395511d73beb73051d2d27aa" compoundref="_pre_manager_2ref_2_feature_s_o_l_i_d_create_pattern_circular_8h" startline="34">DirY</references>
+        <references refid="class_pre_1_1_feature_s_o_l_i_d_create_pattern_circular_1a57dc6668fabf295b24b32002e339a4bf" compoundref="_pre_manager_2ref_2_feature_s_o_l_i_d_create_pattern_circular_8h" startline="35">DirZ</references>
+        <references refid="class_pre_1_1_feature_1a22de04ab5c0ef7206d32c780ccfafee7" compoundref="_pre_manager_2ref_2_feature_8h" startline="12" endline="12">Pre::Feature::GetPart</references>
+        <references refid="class_pre_1_1_feature_s_o_l_i_d_create_pattern_circular_1ab662645b6b5e1a523331b0676c982902" compoundref="_pre_manager_2ref_2_feature_s_o_l_i_d_create_pattern_circular_8h" startline="27">OrgX</references>
+        <references refid="class_pre_1_1_feature_s_o_l_i_d_create_pattern_circular_1a33b8c8903ce4ec31b12dc98915a016f6" compoundref="_pre_manager_2ref_2_feature_s_o_l_i_d_create_pattern_circular_8h" startline="28">OrgY</references>
+        <references refid="class_pre_1_1_feature_s_o_l_i_d_create_pattern_circular_1a0d7139355e9878011eb4f9c783351750" compoundref="_pre_manager_2ref_2_feature_s_o_l_i_d_create_pattern_circular_8h" startline="29">OrgZ</references>
+        <references refid="class_pre_1_1_feature_s_o_l_i_d_create_pattern_circular_1a69865b7be3e41ea824d1701e9c891e78" compoundref="_pre_manager_2ref_2_feature_s_o_l_i_d_create_pattern_circular_8cpp" startline="137" endline="197">SetDirection</references>
+      </memberdef>
+      <memberdef kind="function" id="class_pre_1_1_feature_s_o_l_i_d_create_pattern_circular_1afea4290408acc17879fde6a0c50028d5" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void Pre::FeatureSOLIDCreatePatternCircular::CheckAttribute</definition>
+        <argsstring>(string name, double value, int type)</argsstring>
+        <name>CheckAttribute</name>
+        <reimplements refid="class_pre_1_1_feature_1a3b4b453b4ac49dde010d6760917266b7">CheckAttribute</reimplements>
+        <param>
+          <type>string</type>
+          <declname>name</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>value</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>type</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/PreManager/ref/FeatureSOLIDCreatePatternCircular.h" line="16" column="1" bodyfile="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/PreManager/ref/FeatureSOLIDCreatePatternCircular.cpp" bodystart="82" bodyend="98"/>
+        <references refid="class_pre_1_1_feature_s_o_l_i_d_create_pattern_circular_1a7f70e053f761e4ff39a165ad1dc2df32" compoundref="_pre_manager_2ref_2_feature_s_o_l_i_d_create_pattern_circular_8h" startline="36">AngularNumber</references>
+        <references refid="class_pre_1_1_feature_s_o_l_i_d_create_pattern_circular_1a001e66727eac8b64a4edb83270c5af17" compoundref="_pre_manager_2ref_2_feature_s_o_l_i_d_create_pattern_circular_8h" startline="32">AngularSpacing</references>
+        <references refid="class_pre_1_1_feature_s_o_l_i_d_create_pattern_circular_1a27412055ad261b7e0a4ada87793b5e93" compoundref="_pre_manager_2ref_2_feature_s_o_l_i_d_create_pattern_circular_8h" startline="30">CircleNumber</references>
+        <references refid="class_pre_1_1_feature_s_o_l_i_d_create_pattern_circular_1a71422b4a1694bf64d5b00776df5d1d91" compoundref="_pre_manager_2ref_2_feature_s_o_l_i_d_create_pattern_circular_8h" startline="26">CircleSpacing</references>
+      </memberdef>
+      <memberdef kind="function" id="class_pre_1_1_feature_s_o_l_i_d_create_pattern_circular_1a85a93812a56839fb2b42872c3070f481" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void Pre::FeatureSOLIDCreatePatternCircular::Modify</definition>
+        <argsstring>(char *buffer)</argsstring>
+        <name>Modify</name>
+        <reimplements refid="class_pre_1_1_feature_1a11f5aafa54439cf08dd44adb6fcd4d9c">Modify</reimplements>
+        <param>
+          <type>char *</type>
+          <declname>buffer</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/PreManager/ref/FeatureSOLIDCreatePatternCircular.h" line="17" column="1" bodyfile="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/PreManager/ref/FeatureSOLIDCreatePatternCircular.cpp" bodystart="100" bodyend="135"/>
+        <references refid="class_pre_1_1_feature_1a64772d4f47afe0052d5a94f773de5211" compoundref="_pre_manager_2ref_2_feature_8h" startline="26">Pre::Feature::_pPart</references>
+        <references refid="class_pre_1_1_feature_s_o_l_i_d_create_pattern_circular_1ace89ecb5710096596107bd67d890142b" compoundref="_pre_manager_2ref_2_feature_s_o_l_i_d_create_pattern_circular_8h" startline="38">_RefPlane</references>
+        <references refid="class_pre_1_1_feature_s_o_l_i_d_create_pattern_circular_1ab08b282115c13d2bd2e7b726a20e2238" compoundref="_pre_manager_2ref_2_feature_s_o_l_i_d_create_pattern_circular_8h" startline="39">_rotationAxis</references>
+        <references refid="class_pre_1_1_feature_1a341b5b05bd448a814e86099e70f1a747" compoundref="_pre_manager_2ref_2_feature_8h" startline="28">Pre::Feature::_type</references>
+        <references refid="class_pre_1_1_feature_s_o_l_i_d_create_pattern_circular_1aa1086fc3619f3acf330ddcecd3878ef3" compoundref="_pre_manager_2ref_2_feature_s_o_l_i_d_create_pattern_circular_8h" startline="33">DirX</references>
+        <references refid="class_pre_1_1_feature_s_o_l_i_d_create_pattern_circular_1a19608e46395511d73beb73051d2d27aa" compoundref="_pre_manager_2ref_2_feature_s_o_l_i_d_create_pattern_circular_8h" startline="34">DirY</references>
+        <references refid="class_pre_1_1_feature_s_o_l_i_d_create_pattern_circular_1a57dc6668fabf295b24b32002e339a4bf" compoundref="_pre_manager_2ref_2_feature_s_o_l_i_d_create_pattern_circular_8h" startline="35">DirZ</references>
+        <references refid="class_pre_1_1_part_1a5643b5eda5bff62d642532663c62b63c" compoundref="_pre_manager_2ref_2_part_8cpp" startline="334" endline="345">Pre::Part::GetReferenceEntityByName</references>
+        <references refid="class_pre_1_1_reference_entity_1af7e7c453fa7cc8c4df1e1cf65980381c" compoundref="_reference_entity_8h" startline="19" endline="19">Pre::ReferenceEntity::GetReferenceType</references>
+      </memberdef>
+      <memberdef kind="function" id="class_pre_1_1_feature_s_o_l_i_d_create_pattern_circular_1a69865b7be3e41ea824d1701e9c891e78" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void Pre::FeatureSOLIDCreatePatternCircular::SetDirection</definition>
+        <argsstring>(string refplane)</argsstring>
+        <name>SetDirection</name>
+        <param>
+          <type>string</type>
+          <declname>refplane</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/PreManager/ref/FeatureSOLIDCreatePatternCircular.h" line="19" column="1" bodyfile="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/PreManager/ref/FeatureSOLIDCreatePatternCircular.cpp" bodystart="137" bodyend="197"/>
+        <references refid="class_pre_1_1_feature_1a64772d4f47afe0052d5a94f773de5211" compoundref="_pre_manager_2ref_2_feature_8h" startline="26">Pre::Feature::_pPart</references>
+        <references refid="class_pre_1_1_feature_s_o_l_i_d_create_pattern_circular_1aafaeac9091d769a4f42616e192cee68b" compoundref="_pre_manager_2ref_2_feature_s_o_l_i_d_create_pattern_circular_8cpp" startline="199" endline="206">CreateAxis</references>
+        <references refid="class_pre_1_1_feature_s_o_l_i_d_create_pattern_circular_1aa1086fc3619f3acf330ddcecd3878ef3" compoundref="_pre_manager_2ref_2_feature_s_o_l_i_d_create_pattern_circular_8h" startline="33">DirX</references>
+        <references refid="class_pre_1_1_feature_s_o_l_i_d_create_pattern_circular_1a19608e46395511d73beb73051d2d27aa" compoundref="_pre_manager_2ref_2_feature_s_o_l_i_d_create_pattern_circular_8h" startline="34">DirY</references>
+        <references refid="class_pre_1_1_feature_s_o_l_i_d_create_pattern_circular_1a57dc6668fabf295b24b32002e339a4bf" compoundref="_pre_manager_2ref_2_feature_s_o_l_i_d_create_pattern_circular_8h" startline="35">DirZ</references>
+        <references refid="class_pre_1_1_f_s_k_e_t_c_h_create2_d_circle_center_point_1a99df820d39b3f066880ad6fb3e8c4c6b" compoundref="_f_s_k_e_t_c_h_create2_d_circle_center_point_8h" startline="10" endline="10">Pre::FSKETCHCreate2DCircleCenterPoint::GetCenterPoint</references>
+        <references refid="class_pre_1_1_reference_entity_1a2e731278fa3a1a00dfeccaaf9f238051" compoundref="_reference_entity_8h" startline="26" endline="26">Pre::ReferenceEntity::GetFaceInfo</references>
+        <references refid="class_pre_1_1_part_1a757a376bdc640e00119c3489ee35d2aa" compoundref="_pre_manager_2ref_2_part_8cpp" startline="320" endline="331">Pre::Part::GetFeatureByName</references>
+        <references refid="class_pre_1_1_reference_entity_1ab7834eec27b178f18cad28f6baf1b146" compoundref="_reference_entity_8h" startline="21" endline="21">Pre::ReferenceEntity::GetFeatureName</references>
+        <references refid="class_pre_1_1_feature_1a22de04ab5c0ef7206d32c780ccfafee7" compoundref="_pre_manager_2ref_2_feature_8h" startline="12" endline="12">Pre::Feature::GetPart</references>
+        <references refid="class_pre_1_1_part_1a5643b5eda5bff62d642532663c62b63c" compoundref="_pre_manager_2ref_2_part_8cpp" startline="334" endline="345">Pre::Part::GetReferenceEntityByName</references>
+        <references refid="class_pre_1_1_f_sketch_1ab6314d4544a5000966d189bc2ed06652" compoundref="_pre_manager_2ref_2_f_sketch_8cpp" startline="210" endline="223">Pre::FSketch::GetSketchItemFromName</references>
+        <references refid="class_pre_1_1_feature_s_o_l_i_d_create_pattern_circular_1ab662645b6b5e1a523331b0676c982902" compoundref="_pre_manager_2ref_2_feature_s_o_l_i_d_create_pattern_circular_8h" startline="27">OrgX</references>
+        <references refid="class_pre_1_1_feature_s_o_l_i_d_create_pattern_circular_1a33b8c8903ce4ec31b12dc98915a016f6" compoundref="_pre_manager_2ref_2_feature_s_o_l_i_d_create_pattern_circular_8h" startline="28">OrgY</references>
+        <references refid="class_pre_1_1_feature_s_o_l_i_d_create_pattern_circular_1a0d7139355e9878011eb4f9c783351750" compoundref="_pre_manager_2ref_2_feature_s_o_l_i_d_create_pattern_circular_8h" startline="29">OrgZ</references>
+        <referencedby refid="class_pre_1_1_feature_s_o_l_i_d_create_pattern_circular_1a74cc4f5b46d2c89fe0df483213f045ae" compoundref="_pre_manager_2ref_2_feature_s_o_l_i_d_create_pattern_circular_8cpp" startline="64" endline="80">ToTransCAD</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_pre_1_1_feature_s_o_l_i_d_create_pattern_circular_1aafaeac9091d769a4f42616e192cee68b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Pre::FeatureSOLIDCreatePatternCircular::CreateAxis</definition>
+        <argsstring>(FSketch *pRefSketch, FSketch *pRevSketch, Point3D origin, Point3D direction)</argsstring>
+        <name>CreateAxis</name>
+        <param>
+          <type><ref refid="class_pre_1_1_f_sketch" kindref="compound">FSketch</ref> *</type>
+          <declname>pRefSketch</declname>
+        </param>
+        <param>
+          <type><ref refid="class_pre_1_1_f_sketch" kindref="compound">FSketch</ref> *</type>
+          <declname>pRevSketch</declname>
+        </param>
+        <param>
+          <type><ref refid="namespace_pre_1a42512ff1a00cd929e4efd66d0b148707" kindref="member">Point3D</ref></type>
+          <declname>origin</declname>
+        </param>
+        <param>
+          <type><ref refid="namespace_pre_1a42512ff1a00cd929e4efd66d0b148707" kindref="member">Point3D</ref></type>
+          <declname>direction</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/PreManager/ref/FeatureSOLIDCreatePatternCircular.h" line="20" column="1" bodyfile="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/PreManager/ref/FeatureSOLIDCreatePatternCircular.cpp" bodystart="199" bodyend="206"/>
+        <references refid="class_pre_1_1_f_sketch_1a899341ec1e118f4642e4e03685c25163" compoundref="_pre_manager_2ref_2_f_sketch_8h" startline="48">Pre::FSketch::sketchCoord</references>
+        <references refid="class_pre_1_1_feature_s_o_l_i_d_create_pattern_circular_1a36c02dbd0af75dacd5829e9f0a218a13" compoundref="_pre_manager_2ref_2_feature_s_o_l_i_d_create_pattern_circular_8cpp" startline="208" endline="232">TransformAxis</references>
+        <referencedby refid="class_pre_1_1_feature_s_o_l_i_d_create_pattern_circular_1a69865b7be3e41ea824d1701e9c891e78" compoundref="_pre_manager_2ref_2_feature_s_o_l_i_d_create_pattern_circular_8cpp" startline="137" endline="197">SetDirection</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_pre_1_1_feature_s_o_l_i_d_create_pattern_circular_1a36c02dbd0af75dacd5829e9f0a218a13" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Pre::FeatureSOLIDCreatePatternCircular::TransformAxis</definition>
+        <argsstring>(double refSketCSYS[9], double revSketCSYS[9], Point3D &amp;coords)</argsstring>
+        <name>TransformAxis</name>
+        <param>
+          <type>double</type>
+          <declname>refSketCSYS</declname>
+          <array>[9]</array>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>revSketCSYS</declname>
+          <array>[9]</array>
+        </param>
+        <param>
+          <type><ref refid="namespace_pre_1a42512ff1a00cd929e4efd66d0b148707" kindref="member">Point3D</ref> &amp;</type>
+          <declname>coords</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/PreManager/ref/FeatureSOLIDCreatePatternCircular.h" line="21" column="1" bodyfile="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/PreManager/ref/FeatureSOLIDCreatePatternCircular.cpp" bodystart="208" bodyend="232"/>
+        <references refid="class_pre_1_1_feature_s_o_l_i_d_create_pattern_circular_1a2f015cfb6697134af875c2cacb4496f0" compoundref="_pre_manager_2ref_2_feature_s_o_l_i_d_create_pattern_circular_8cpp" startline="234" endline="267">TransformCoordinates</references>
+        <referencedby refid="class_pre_1_1_feature_s_o_l_i_d_create_pattern_circular_1aafaeac9091d769a4f42616e192cee68b" compoundref="_pre_manager_2ref_2_feature_s_o_l_i_d_create_pattern_circular_8cpp" startline="199" endline="206">CreateAxis</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_pre_1_1_feature_s_o_l_i_d_create_pattern_circular_1a2f015cfb6697134af875c2cacb4496f0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Pre::FeatureSOLIDCreatePatternCircular::TransformCoordinates</definition>
+        <argsstring>(double sourceCSYS[3][3], double targetCSYS[3][3], Point3D &amp;coords)</argsstring>
+        <name>TransformCoordinates</name>
+        <param>
+          <type>double</type>
+          <declname>sourceCSYS</declname>
+          <array>[3][3]</array>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>targetCSYS</declname>
+          <array>[3][3]</array>
+        </param>
+        <param>
+          <type><ref refid="namespace_pre_1a42512ff1a00cd929e4efd66d0b148707" kindref="member">Point3D</ref> &amp;</type>
+          <declname>coords</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/PreManager/ref/FeatureSOLIDCreatePatternCircular.h" line="22" column="1" bodyfile="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/PreManager/ref/FeatureSOLIDCreatePatternCircular.cpp" bodystart="234" bodyend="267"/>
+        <referencedby refid="class_pre_1_1_feature_s_o_l_i_d_create_pattern_circular_1a36c02dbd0af75dacd5829e9f0a218a13" compoundref="_pre_manager_2ref_2_feature_s_o_l_i_d_create_pattern_circular_8cpp" startline="208" endline="232">TransformAxis</referencedby>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="715">
+        <label>Pre::Feature</label>
+        <link refid="class_pre_1_1_feature"/>
+      </node>
+      <node id="714">
+        <label>Pre::FeatureSOLIDCreatePatternCircular</label>
+        <link refid="class_pre_1_1_feature_s_o_l_i_d_create_pattern_circular"/>
+        <childnode refid="715" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="733">
+        <label>std::basic_ifstream&lt; char &gt;</label>
+        <childnode refid="734" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="719">
+        <label>std::vector&lt; Pre::ReferenceEntity * &gt;</label>
+        <childnode refid="720" relation="usage">
+          <edgelabel>elements</edgelabel>
+        </childnode>
+      </node>
+      <node id="737">
+        <label>std::vector&lt; Pre::SketchFeature &gt;</label>
+        <childnode refid="738" relation="usage">
+          <edgelabel>elements</edgelabel>
+        </childnode>
+      </node>
+      <node id="728">
+        <label>Pre::FSKETCHItem</label>
+        <link refid="class_pre_1_1_f_s_k_e_t_c_h_item"/>
+        <childnode refid="722" relation="usage">
+          <edgelabel>_name</edgelabel>
+        </childnode>
+        <childnode refid="726" relation="usage">
+          <edgelabel>_pFSketch</edgelabel>
+        </childnode>
+      </node>
+      <node id="727">
+        <label>std::vector&lt; Pre::FSKETCHItem * &gt;</label>
+        <childnode refid="728" relation="usage">
+          <edgelabel>elements</edgelabel>
+        </childnode>
+      </node>
+      <node id="734">
+        <label>std::basic_istream&lt; Char &gt;</label>
+        <childnode refid="735" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="741">
+        <label>std::vector&lt; Pre::Feature * &gt;</label>
+        <childnode refid="717" relation="usage">
+          <edgelabel>elements</edgelabel>
+        </childnode>
+      </node>
+      <node id="729">
+        <label>std::vector&lt; Pre::ReportItem &gt;</label>
+        <childnode refid="730" relation="usage">
+          <edgelabel>elements</edgelabel>
+        </childnode>
+      </node>
+      <node id="717">
+        <label>Pre::Feature</label>
+        <link refid="class_pre_1_1_feature"/>
+        <childnode refid="718" relation="usage">
+          <edgelabel>_pPart</edgelabel>
+        </childnode>
+        <childnode refid="722" relation="usage">
+          <edgelabel>_name</edgelabel>
+        </childnode>
+      </node>
+      <node id="721">
+        <label>std::vector&lt; FaceInfoList &gt;</label>
+      </node>
+      <node id="720">
+        <label>Pre::ReferenceEntity</label>
+        <link refid="class_pre_1_1_reference_entity"/>
+        <childnode refid="721" relation="usage">
+          <edgelabel>pEdge</edgelabel>
+        </childnode>
+        <childnode refid="718" relation="usage">
+          <edgelabel>_pPart</edgelabel>
+        </childnode>
+        <childnode refid="722" relation="usage">
+          <edgelabel>feature</edgelabel>
+          <edgelabel>TransCADEdgeName</edgelabel>
+          <edgelabel>TransCADFaceName</edgelabel>
+          <edgelabel>name</edgelabel>
+          <edgelabel>axis</edgelabel>
+        </childnode>
+        <childnode refid="724" relation="usage">
+          <edgelabel>pFace</edgelabel>
+        </childnode>
+        <childnode refid="726" relation="usage">
+          <edgelabel>pSketchManager</edgelabel>
+        </childnode>
+        <childnode refid="731" relation="usage">
+          <edgelabel>pWire</edgelabel>
+        </childnode>
+      </node>
+      <node id="723">
+        <label>std::basic_string&lt; char &gt;</label>
+      </node>
+      <node id="725">
+        <label>FaceInfo</label>
+        <link refid="struct_face_info"/>
+      </node>
+      <node id="730">
+        <label>Pre::ReportItem</label>
+        <link refid="struct_pre_1_1_report_item"/>
+        <childnode refid="722" relation="usage">
+          <edgelabel>_entityName</edgelabel>
+        </childnode>
+      </node>
+      <node id="731">
+        <label>WireInfo</label>
+        <link refid="struct_wire_info"/>
+      </node>
+      <node id="740">
+        <label>Pre::AttributeItem</label>
+        <link refid="class_pre_1_1_attribute_item"/>
+        <childnode refid="718" relation="usage">
+          <edgelabel>_pPart</edgelabel>
+        </childnode>
+        <childnode refid="722" relation="usage">
+          <edgelabel>_featureName</edgelabel>
+          <edgelabel>_name</edgelabel>
+          <edgelabel>_attributeName</edgelabel>
+        </childnode>
+      </node>
+      <node id="738">
+        <label>Pre::SketchFeature</label>
+        <link refid="struct_pre_1_1_sketch_feature"/>
+        <childnode refid="722" relation="usage">
+          <edgelabel>_featureName</edgelabel>
+          <edgelabel>_sketchName</edgelabel>
+        </childnode>
+      </node>
+      <node id="735">
+        <label>std::basic_ios&lt; Char &gt;</label>
+        <childnode refid="736" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="718">
+        <label>Pre::Part</label>
+        <link refid="class_pre_1_1_part"/>
+        <childnode refid="719" relation="usage">
+          <edgelabel>_referenceEntityList</edgelabel>
+        </childnode>
+        <childnode refid="732" relation="usage">
+          <edgelabel>fin</edgelabel>
+        </childnode>
+        <childnode refid="737" relation="usage">
+          <edgelabel>sketchNameTable</edgelabel>
+        </childnode>
+        <childnode refid="722" relation="usage">
+          <edgelabel>_fileName</edgelabel>
+          <edgelabel>_filePath</edgelabel>
+        </childnode>
+        <childnode refid="739" relation="usage">
+          <edgelabel>_attributeItemList</edgelabel>
+        </childnode>
+        <childnode refid="741" relation="usage">
+          <edgelabel>_featureList</edgelabel>
+        </childnode>
+      </node>
+      <node id="716">
+        <label>Pre::FeatureSOLIDCreatePatternCircular</label>
+        <link refid="class_pre_1_1_feature_s_o_l_i_d_create_pattern_circular"/>
+        <childnode refid="717" relation="public-inheritance">
+        </childnode>
+        <childnode refid="719" relation="usage">
+          <edgelabel>_referenceEntityList</edgelabel>
+        </childnode>
+        <childnode refid="722" relation="usage">
+          <edgelabel>_RefPlane</edgelabel>
+          <edgelabel>_rotationAxis</edgelabel>
+        </childnode>
+      </node>
+      <node id="736">
+        <label>std::ios_base</label>
+      </node>
+      <node id="732">
+        <label>std::ifstream</label>
+        <childnode refid="733" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="739">
+        <label>std::vector&lt; Pre::AttributeItem * &gt;</label>
+        <childnode refid="740" relation="usage">
+          <edgelabel>elements</edgelabel>
+        </childnode>
+      </node>
+      <node id="724">
+        <label>std::vector&lt; FaceInfo &gt;</label>
+        <childnode refid="725" relation="usage">
+          <edgelabel>elements</edgelabel>
+        </childnode>
+      </node>
+      <node id="722">
+        <label>std::string</label>
+        <childnode refid="723" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="726">
+        <label>Pre::FSketch</label>
+        <link refid="class_pre_1_1_f_sketch"/>
+        <childnode refid="717" relation="public-inheritance">
+        </childnode>
+        <childnode refid="727" relation="usage">
+          <edgelabel>_sketchItemList</edgelabel>
+        </childnode>
+        <childnode refid="720" relation="usage">
+          <edgelabel>_pReferenceEntity</edgelabel>
+        </childnode>
+        <childnode refid="722" relation="usage">
+          <edgelabel>_axisName</edgelabel>
+          <edgelabel>_factoryName</edgelabel>
+        </childnode>
+        <childnode refid="729" relation="usage">
+          <edgelabel>reportNameTable</edgelabel>
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/PreManager/ref/FeatureSOLIDCreatePatternCircular.h" line="8" column="1" bodyfile="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/PreManager/ref/FeatureSOLIDCreatePatternCircular.h" bodystart="7" bodyend="42"/>
+    <listofallmembers>
+      <member refid="class_pre_1_1_feature_1ae8c43a10be919286c9450125b1a0afb9" prot="public" virt="non-virtual"><scope>Pre::FeatureSOLIDCreatePatternCircular</scope><name>_name</name></member>
+      <member refid="class_pre_1_1_feature_1a64772d4f47afe0052d5a94f773de5211" prot="public" virt="non-virtual"><scope>Pre::FeatureSOLIDCreatePatternCircular</scope><name>_pPart</name></member>
+      <member refid="class_pre_1_1_feature_s_o_l_i_d_create_pattern_circular_1aa53978fddaeae16d5ff1b4fee643c906" prot="private" virt="non-virtual"><scope>Pre::FeatureSOLIDCreatePatternCircular</scope><name>_referenceEntityList</name></member>
+      <member refid="class_pre_1_1_feature_s_o_l_i_d_create_pattern_circular_1ace89ecb5710096596107bd67d890142b" prot="private" virt="non-virtual"><scope>Pre::FeatureSOLIDCreatePatternCircular</scope><name>_RefPlane</name></member>
+      <member refid="class_pre_1_1_feature_s_o_l_i_d_create_pattern_circular_1ab08b282115c13d2bd2e7b726a20e2238" prot="private" virt="non-virtual"><scope>Pre::FeatureSOLIDCreatePatternCircular</scope><name>_rotationAxis</name></member>
+      <member refid="class_pre_1_1_feature_s_o_l_i_d_create_pattern_circular_1a9217020d1187496b18e715416e83bfa6" prot="private" virt="non-virtual"><scope>Pre::FeatureSOLIDCreatePatternCircular</scope><name>_spTargetFeature</name></member>
+      <member refid="class_pre_1_1_feature_1a341b5b05bd448a814e86099e70f1a747" prot="public" virt="non-virtual"><scope>Pre::FeatureSOLIDCreatePatternCircular</scope><name>_type</name></member>
+      <member refid="class_pre_1_1_feature_s_o_l_i_d_create_pattern_circular_1a7f70e053f761e4ff39a165ad1dc2df32" prot="private" virt="non-virtual"><scope>Pre::FeatureSOLIDCreatePatternCircular</scope><name>AngularNumber</name></member>
+      <member refid="class_pre_1_1_feature_s_o_l_i_d_create_pattern_circular_1a001e66727eac8b64a4edb83270c5af17" prot="private" virt="non-virtual"><scope>Pre::FeatureSOLIDCreatePatternCircular</scope><name>AngularSpacing</name></member>
+      <member refid="class_pre_1_1_feature_s_o_l_i_d_create_pattern_circular_1afea4290408acc17879fde6a0c50028d5" prot="public" virt="virtual"><scope>Pre::FeatureSOLIDCreatePatternCircular</scope><name>CheckAttribute</name></member>
+      <member refid="class_pre_1_1_feature_s_o_l_i_d_create_pattern_circular_1a27412055ad261b7e0a4ada87793b5e93" prot="private" virt="non-virtual"><scope>Pre::FeatureSOLIDCreatePatternCircular</scope><name>CircleNumber</name></member>
+      <member refid="class_pre_1_1_feature_s_o_l_i_d_create_pattern_circular_1a71422b4a1694bf64d5b00776df5d1d91" prot="private" virt="non-virtual"><scope>Pre::FeatureSOLIDCreatePatternCircular</scope><name>CircleSpacing</name></member>
+      <member refid="class_pre_1_1_feature_s_o_l_i_d_create_pattern_circular_1aafaeac9091d769a4f42616e192cee68b" prot="public" virt="non-virtual"><scope>Pre::FeatureSOLIDCreatePatternCircular</scope><name>CreateAxis</name></member>
+      <member refid="class_pre_1_1_feature_s_o_l_i_d_create_pattern_circular_1aa1086fc3619f3acf330ddcecd3878ef3" prot="private" virt="non-virtual"><scope>Pre::FeatureSOLIDCreatePatternCircular</scope><name>DirX</name></member>
+      <member refid="class_pre_1_1_feature_s_o_l_i_d_create_pattern_circular_1a19608e46395511d73beb73051d2d27aa" prot="private" virt="non-virtual"><scope>Pre::FeatureSOLIDCreatePatternCircular</scope><name>DirY</name></member>
+      <member refid="class_pre_1_1_feature_s_o_l_i_d_create_pattern_circular_1a57dc6668fabf295b24b32002e339a4bf" prot="private" virt="non-virtual"><scope>Pre::FeatureSOLIDCreatePatternCircular</scope><name>DirZ</name></member>
+      <member refid="class_pre_1_1_feature_1a23c64c5988ab1337beceaa7c1c5c0d77" prot="public" virt="non-virtual"><scope>Pre::FeatureSOLIDCreatePatternCircular</scope><name>Feature</name></member>
+      <member refid="class_pre_1_1_feature_s_o_l_i_d_create_pattern_circular_1a929a3c33e02cd7f671571b79568ee8ac" prot="public" virt="non-virtual"><scope>Pre::FeatureSOLIDCreatePatternCircular</scope><name>FeatureSOLIDCreatePatternCircular</name></member>
+      <member refid="class_pre_1_1_feature_1aeec702655239d43b9fb7af691bc4f85c" prot="public" virt="non-virtual"><scope>Pre::FeatureSOLIDCreatePatternCircular</scope><name>GetFeatureName</name></member>
+      <member refid="class_pre_1_1_feature_1aef6c7020e3bf305f38a88195b794b110" prot="public" virt="non-virtual"><scope>Pre::FeatureSOLIDCreatePatternCircular</scope><name>GetFeatureType</name></member>
+      <member refid="class_pre_1_1_feature_s_o_l_i_d_create_pattern_circular_1a9480a8aa263b45f8a3b3c46eb6cb83fb" prot="public" virt="virtual"><scope>Pre::FeatureSOLIDCreatePatternCircular</scope><name>GetInfo</name></member>
+      <member refid="class_pre_1_1_feature_1a22de04ab5c0ef7206d32c780ccfafee7" prot="public" virt="non-virtual"><scope>Pre::FeatureSOLIDCreatePatternCircular</scope><name>GetPart</name></member>
+      <member refid="class_pre_1_1_feature_s_o_l_i_d_create_pattern_circular_1a85a93812a56839fb2b42872c3070f481" prot="public" virt="virtual"><scope>Pre::FeatureSOLIDCreatePatternCircular</scope><name>Modify</name></member>
+      <member refid="class_pre_1_1_feature_s_o_l_i_d_create_pattern_circular_1ab662645b6b5e1a523331b0676c982902" prot="private" virt="non-virtual"><scope>Pre::FeatureSOLIDCreatePatternCircular</scope><name>OrgX</name></member>
+      <member refid="class_pre_1_1_feature_s_o_l_i_d_create_pattern_circular_1a33b8c8903ce4ec31b12dc98915a016f6" prot="private" virt="non-virtual"><scope>Pre::FeatureSOLIDCreatePatternCircular</scope><name>OrgY</name></member>
+      <member refid="class_pre_1_1_feature_s_o_l_i_d_create_pattern_circular_1a0d7139355e9878011eb4f9c783351750" prot="private" virt="non-virtual"><scope>Pre::FeatureSOLIDCreatePatternCircular</scope><name>OrgZ</name></member>
+      <member refid="class_pre_1_1_feature_s_o_l_i_d_create_pattern_circular_1a69865b7be3e41ea824d1701e9c891e78" prot="public" virt="virtual"><scope>Pre::FeatureSOLIDCreatePatternCircular</scope><name>SetDirection</name></member>
+      <member refid="class_pre_1_1_feature_1a6a061740e7d2d749b1efe097ae87928d" prot="public" virt="non-virtual"><scope>Pre::FeatureSOLIDCreatePatternCircular</scope><name>SetFeatureName</name></member>
+      <member refid="class_pre_1_1_feature_1a07534d290ca5363cd628efd011c070be" prot="public" virt="non-virtual"><scope>Pre::FeatureSOLIDCreatePatternCircular</scope><name>SetFeatureType</name></member>
+      <member refid="class_pre_1_1_feature_s_o_l_i_d_create_pattern_circular_1a74cc4f5b46d2c89fe0df483213f045ae" prot="public" virt="virtual"><scope>Pre::FeatureSOLIDCreatePatternCircular</scope><name>ToTransCAD</name></member>
+      <member refid="class_pre_1_1_feature_s_o_l_i_d_create_pattern_circular_1a36c02dbd0af75dacd5829e9f0a218a13" prot="public" virt="non-virtual"><scope>Pre::FeatureSOLIDCreatePatternCircular</scope><name>TransformAxis</name></member>
+      <member refid="class_pre_1_1_feature_s_o_l_i_d_create_pattern_circular_1a2f015cfb6697134af875c2cacb4496f0" prot="public" virt="non-virtual"><scope>Pre::FeatureSOLIDCreatePatternCircular</scope><name>TransformCoordinates</name></member>
+      <member refid="class_pre_1_1_feature_1ac9e4bbb034ce47ce1ddd02adb52aee98" prot="public" virt="virtual"><scope>Pre::FeatureSOLIDCreatePatternCircular</scope><name>~Feature</name></member>
+      <member refid="class_pre_1_1_feature_s_o_l_i_d_create_pattern_circular_1ab698edad410dcff97e4924142486b47c" prot="public" virt="virtual"><scope>Pre::FeatureSOLIDCreatePatternCircular</scope><name>~FeatureSOLIDCreatePatternCircular</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

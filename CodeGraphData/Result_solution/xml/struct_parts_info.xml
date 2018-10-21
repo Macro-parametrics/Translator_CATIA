@@ -1,0 +1,91 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="struct_parts_info" kind="struct" prot="public">
+    <compoundname>PartsInfo</compoundname>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="struct_parts_info_1a62e540f0f0c10b30694ba1fbb38fe3b0" prot="public" static="no" mutable="no">
+        <type>string</type>
+        <definition>string PartsInfo.address</definition>
+        <argsstring></argsstring>
+        <name>address</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/CATIATranslator/Form1.cs" line="12" column="1" bodyfile="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/CATIATranslator/Form1.cs" bodystart="12" bodyend="-1"/>
+        <referencedby refid="struct_parts_info_1a788e637829c3d23092c64ca8e3e45cde" compoundref="_form1_8cs" startline="16" endline="21">PartsInfo</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="struct_parts_info_1a1f3d1d38dadff4dad10623dc5ce63f6a" prot="public" static="no" mutable="no">
+        <type>string</type>
+        <definition>string PartsInfo.catname</definition>
+        <argsstring></argsstring>
+        <name>catname</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/CATIATranslator/Form1.cs" line="13" column="1" bodyfile="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/CATIATranslator/Form1.cs" bodystart="13" bodyend="-1"/>
+        <referencedby refid="struct_parts_info_1a788e637829c3d23092c64ca8e3e45cde" compoundref="_form1_8cs" startline="16" endline="21">PartsInfo</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="struct_parts_info_1a989b12703cb310df57aa3f9955e7a0bd" prot="public" static="no" mutable="no">
+        <type>string</type>
+        <definition>string PartsInfo.transname</definition>
+        <argsstring></argsstring>
+        <name>transname</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/CATIATranslator/Form1.cs" line="14" column="1" bodyfile="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/CATIATranslator/Form1.cs" bodystart="14" bodyend="-1"/>
+        <referencedby refid="struct_parts_info_1a788e637829c3d23092c64ca8e3e45cde" compoundref="_form1_8cs" startline="16" endline="21">PartsInfo</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="struct_parts_info_1a788e637829c3d23092c64ca8e3e45cde" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>PartsInfo.PartsInfo</definition>
+        <argsstring>(string address, string catname, string transname)</argsstring>
+        <name>PartsInfo</name>
+        <param>
+          <type>string</type>
+          <declname>address</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>catname</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>transname</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/CATIATranslator/Form1.cs" line="16" column="1" bodyfile="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/CATIATranslator/Form1.cs" bodystart="16" bodyend="21"/>
+        <references refid="struct_parts_info_1a62e540f0f0c10b30694ba1fbb38fe3b0" compoundref="_form1_8cs" startline="12">address</references>
+        <references refid="struct_parts_info_1a1f3d1d38dadff4dad10623dc5ce63f6a" compoundref="_form1_8cs" startline="13">catname</references>
+        <references refid="struct_parts_info_1a989b12703cb310df57aa3f9955e7a0bd" compoundref="_form1_8cs" startline="14">transname</references>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/CATIATranslator/Form1.cs" line="11" column="1" bodyfile="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/CATIATranslator/Form1.cs" bodystart="10" bodyend="22"/>
+    <listofallmembers>
+      <member refid="struct_parts_info_1a62e540f0f0c10b30694ba1fbb38fe3b0" prot="public" virt="non-virtual"><scope>PartsInfo</scope><name>address</name></member>
+      <member refid="struct_parts_info_1a1f3d1d38dadff4dad10623dc5ce63f6a" prot="public" virt="non-virtual"><scope>PartsInfo</scope><name>catname</name></member>
+      <member refid="struct_parts_info_1a788e637829c3d23092c64ca8e3e45cde" prot="public" virt="non-virtual"><scope>PartsInfo</scope><name>PartsInfo</name></member>
+      <member refid="struct_parts_info_1a989b12703cb310df57aa3f9955e7a0bd" prot="public" virt="non-virtual"><scope>PartsInfo</scope><name>transname</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

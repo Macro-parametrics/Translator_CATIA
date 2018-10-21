@@ -1,0 +1,44 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="_c_p_p_w_i_t_h_c_s_h_a_r_p_8h" kind="file">
+    <compoundname>CPPWITHCSHARP.h</compoundname>
+    <includedby refid="_c_p_p_w_i_t_h_c_s_h_a_r_p_8cpp" local="yes">CPPWITHCSHARP/CPPWITHCSHARP.cpp</includedby>
+    <invincdepgraph>
+      <node id="69">
+        <label>CPPWITHCSHARP/CPPWITHCSHARP.cpp</label>
+        <link refid="_c_p_p_w_i_t_h_c_s_h_a_r_p_8cpp"/>
+      </node>
+      <node id="68">
+        <label>CPPWITHCSHARP/CPPWITHCSHARP.h</label>
+        <link refid="CPPWITHCSHARP.h"/>
+        <childnode refid="69" relation="include">
+        </childnode>
+      </node>
+    </invincdepgraph>
+    <innerclass refid="class_c_p_p_w_i_t_h_c_s_h_a_r_p_1_1_class1" prot="public">CPPWITHCSHARP::Class1</innerclass>
+    <innernamespace refid="namespace_c_p_p_w_i_t_h_c_s_h_a_r_p">CPPWITHCSHARP</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="comment">//<sp/>CPPWITHCSHARP.h</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="preprocessor">#pragma<sp/>once</highlight></codeline>
+<codeline lineno="4"><highlight class="preprocessor"></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight><highlight class="keyword">using<sp/>namespace<sp/></highlight><highlight class="normal">System;</highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight></codeline>
+<codeline lineno="7" refid="namespace_c_p_p_w_i_t_h_c_s_h_a_r_p" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal">CPPWITHCSHARP<sp/>{</highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight></codeline>
+<codeline lineno="9" refid="class_c_p_p_w_i_t_h_c_s_h_a_r_p_1_1_class1" refkind="compound"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public<sp/>ref<sp/>class</highlight><highlight class="normal"><sp/><ref refid="class_c_p_p_w_i_t_h_c_s_h_a_r_p_1_1_class1" kindref="compound">Class1</ref></highlight></codeline>
+<codeline lineno="10"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="11"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>TODO:<sp/>여기에<sp/>이<sp/>클래스에<sp/>대한<sp/>메서드를<sp/>추가합니다.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="12"><highlight class="normal"></highlight></codeline>
+<codeline lineno="13"><highlight class="normal"></highlight></codeline>
+<codeline lineno="14"><highlight class="normal"></highlight></codeline>
+<codeline lineno="15"><highlight class="normal"><sp/><sp/><sp/><sp/>};</highlight></codeline>
+<codeline lineno="16"><highlight class="normal">}</highlight></codeline>
+    </programlisting>
+    <location file="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/CPPWITHCSHARP/CPPWITHCSHARP.h"/>
+  </compounddef>
+</doxygen>

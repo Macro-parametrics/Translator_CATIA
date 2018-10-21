@@ -1,0 +1,713 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_pre_1_1_feature_s_o_l_i_d_create_pattern_rectangular" kind="class" prot="public">
+    <compoundname>Pre::FeatureSOLIDCreatePatternRectangular</compoundname>
+    <basecompoundref refid="class_pre_1_1_feature" prot="public" virt="non-virtual">Pre::Feature</basecompoundref>
+    <includes refid="_pre_manager_2ref_2_feature_s_o_l_i_d_create_pattern_rectangular_8h" local="no">FeatureSOLIDCreatePatternRectangular.h</includes>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_pre_1_1_feature_s_o_l_i_d_create_pattern_rectangular_1aede759f09f61f13e056da437e68def21" prot="private" static="no" mutable="no">
+        <type>bstr_t</type>
+        <definition>bstr_t Pre::FeatureSOLIDCreatePatternRectangular::_spTargetFeature</definition>
+        <argsstring></argsstring>
+        <name>_spTargetFeature</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/PreManager/ref/FeatureSOLIDCreatePatternRectangular.h" line="21" column="1" bodyfile="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/PreManager/ref/FeatureSOLIDCreatePatternRectangular.h" bodystart="21" bodyend="-1"/>
+        <referencedby refid="class_pre_1_1_feature_s_o_l_i_d_create_pattern_rectangular_1a04b39c10c47bdb7df872729230224aab" compoundref="_pre_manager_2ref_2_feature_s_o_l_i_d_create_pattern_rectangular_8cpp" startline="26" endline="61">GetInfo</referencedby>
+        <referencedby refid="class_pre_1_1_feature_s_o_l_i_d_create_pattern_rectangular_1a4602022ba7cd0187bfa733371f653a89" compoundref="_pre_manager_2ref_2_feature_s_o_l_i_d_create_pattern_rectangular_8cpp" startline="63" endline="80">ToTransCAD</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_pre_1_1_feature_s_o_l_i_d_create_pattern_rectangular_1a33420b56ca5fec9c9a92ea8942c0db4e" prot="private" static="no" mutable="no">
+        <type>double</type>
+        <definition>double Pre::FeatureSOLIDCreatePatternRectangular::ColumnSpacing</definition>
+        <argsstring></argsstring>
+        <name>ColumnSpacing</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/PreManager/ref/FeatureSOLIDCreatePatternRectangular.h" line="22" column="1" bodyfile="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/PreManager/ref/FeatureSOLIDCreatePatternRectangular.h" bodystart="22" bodyend="-1"/>
+        <referencedby refid="class_pre_1_1_feature_s_o_l_i_d_create_pattern_rectangular_1a806b19ec75d7af4c7007a9b63577dcba" compoundref="_pre_manager_2ref_2_feature_s_o_l_i_d_create_pattern_rectangular_8cpp" startline="130" endline="146">CheckAttribute</referencedby>
+        <referencedby refid="class_pre_1_1_feature_s_o_l_i_d_create_pattern_rectangular_1a7205b3877a0bf585053288c91d26e38b" compoundref="_pre_manager_2ref_2_feature_s_o_l_i_d_create_pattern_rectangular_8cpp" startline="6" endline="20">FeatureSOLIDCreatePatternRectangular</referencedby>
+        <referencedby refid="class_pre_1_1_feature_s_o_l_i_d_create_pattern_rectangular_1a04b39c10c47bdb7df872729230224aab" compoundref="_pre_manager_2ref_2_feature_s_o_l_i_d_create_pattern_rectangular_8cpp" startline="26" endline="61">GetInfo</referencedby>
+        <referencedby refid="class_pre_1_1_feature_s_o_l_i_d_create_pattern_rectangular_1aaf997bf99035b24e79acd3861094cbf9" compoundref="_pre_manager_2ref_2_feature_s_o_l_i_d_create_pattern_rectangular_8cpp" startline="82" endline="128">Modify</referencedby>
+        <referencedby refid="class_pre_1_1_feature_s_o_l_i_d_create_pattern_rectangular_1a18084e6aaa36649509f8c43d2b15f5b9" compoundref="_pre_manager_2ref_2_feature_s_o_l_i_d_create_pattern_rectangular_8cpp" startline="148" endline="223">SetDirection</referencedby>
+        <referencedby refid="class_pre_1_1_feature_s_o_l_i_d_create_pattern_rectangular_1a4602022ba7cd0187bfa733371f653a89" compoundref="_pre_manager_2ref_2_feature_s_o_l_i_d_create_pattern_rectangular_8cpp" startline="63" endline="80">ToTransCAD</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_pre_1_1_feature_s_o_l_i_d_create_pattern_rectangular_1a38d37a5cb9414cf699c693bf4f637645" prot="private" static="no" mutable="no">
+        <type>double</type>
+        <definition>double Pre::FeatureSOLIDCreatePatternRectangular::ColDirX</definition>
+        <argsstring></argsstring>
+        <name>ColDirX</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/PreManager/ref/FeatureSOLIDCreatePatternRectangular.h" line="23" column="1" bodyfile="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/PreManager/ref/FeatureSOLIDCreatePatternRectangular.h" bodystart="23" bodyend="-1"/>
+        <referencedby refid="class_pre_1_1_feature_s_o_l_i_d_create_pattern_rectangular_1a7205b3877a0bf585053288c91d26e38b" compoundref="_pre_manager_2ref_2_feature_s_o_l_i_d_create_pattern_rectangular_8cpp" startline="6" endline="20">FeatureSOLIDCreatePatternRectangular</referencedby>
+        <referencedby refid="class_pre_1_1_feature_s_o_l_i_d_create_pattern_rectangular_1a18084e6aaa36649509f8c43d2b15f5b9" compoundref="_pre_manager_2ref_2_feature_s_o_l_i_d_create_pattern_rectangular_8cpp" startline="148" endline="223">SetDirection</referencedby>
+        <referencedby refid="class_pre_1_1_feature_s_o_l_i_d_create_pattern_rectangular_1a4602022ba7cd0187bfa733371f653a89" compoundref="_pre_manager_2ref_2_feature_s_o_l_i_d_create_pattern_rectangular_8cpp" startline="63" endline="80">ToTransCAD</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_pre_1_1_feature_s_o_l_i_d_create_pattern_rectangular_1a48e47c91e067ed1e5ae8e442508f1a3e" prot="private" static="no" mutable="no">
+        <type>double</type>
+        <definition>double Pre::FeatureSOLIDCreatePatternRectangular::ColDirY</definition>
+        <argsstring></argsstring>
+        <name>ColDirY</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/PreManager/ref/FeatureSOLIDCreatePatternRectangular.h" line="24" column="1" bodyfile="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/PreManager/ref/FeatureSOLIDCreatePatternRectangular.h" bodystart="24" bodyend="-1"/>
+        <referencedby refid="class_pre_1_1_feature_s_o_l_i_d_create_pattern_rectangular_1a7205b3877a0bf585053288c91d26e38b" compoundref="_pre_manager_2ref_2_feature_s_o_l_i_d_create_pattern_rectangular_8cpp" startline="6" endline="20">FeatureSOLIDCreatePatternRectangular</referencedby>
+        <referencedby refid="class_pre_1_1_feature_s_o_l_i_d_create_pattern_rectangular_1a18084e6aaa36649509f8c43d2b15f5b9" compoundref="_pre_manager_2ref_2_feature_s_o_l_i_d_create_pattern_rectangular_8cpp" startline="148" endline="223">SetDirection</referencedby>
+        <referencedby refid="class_pre_1_1_feature_s_o_l_i_d_create_pattern_rectangular_1a4602022ba7cd0187bfa733371f653a89" compoundref="_pre_manager_2ref_2_feature_s_o_l_i_d_create_pattern_rectangular_8cpp" startline="63" endline="80">ToTransCAD</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_pre_1_1_feature_s_o_l_i_d_create_pattern_rectangular_1afd24ca8b29b478494556aa4bf097be40" prot="private" static="no" mutable="no">
+        <type>double</type>
+        <definition>double Pre::FeatureSOLIDCreatePatternRectangular::ColDirZ</definition>
+        <argsstring></argsstring>
+        <name>ColDirZ</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/PreManager/ref/FeatureSOLIDCreatePatternRectangular.h" line="25" column="1" bodyfile="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/PreManager/ref/FeatureSOLIDCreatePatternRectangular.h" bodystart="25" bodyend="-1"/>
+        <referencedby refid="class_pre_1_1_feature_s_o_l_i_d_create_pattern_rectangular_1a7205b3877a0bf585053288c91d26e38b" compoundref="_pre_manager_2ref_2_feature_s_o_l_i_d_create_pattern_rectangular_8cpp" startline="6" endline="20">FeatureSOLIDCreatePatternRectangular</referencedby>
+        <referencedby refid="class_pre_1_1_feature_s_o_l_i_d_create_pattern_rectangular_1a18084e6aaa36649509f8c43d2b15f5b9" compoundref="_pre_manager_2ref_2_feature_s_o_l_i_d_create_pattern_rectangular_8cpp" startline="148" endline="223">SetDirection</referencedby>
+        <referencedby refid="class_pre_1_1_feature_s_o_l_i_d_create_pattern_rectangular_1a4602022ba7cd0187bfa733371f653a89" compoundref="_pre_manager_2ref_2_feature_s_o_l_i_d_create_pattern_rectangular_8cpp" startline="63" endline="80">ToTransCAD</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_pre_1_1_feature_s_o_l_i_d_create_pattern_rectangular_1ab282483b0d0f62b46736c04c2d5df11d" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int Pre::FeatureSOLIDCreatePatternRectangular::ColumnNumber</definition>
+        <argsstring></argsstring>
+        <name>ColumnNumber</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/PreManager/ref/FeatureSOLIDCreatePatternRectangular.h" line="26" column="1" bodyfile="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/PreManager/ref/FeatureSOLIDCreatePatternRectangular.h" bodystart="26" bodyend="-1"/>
+        <referencedby refid="class_pre_1_1_feature_s_o_l_i_d_create_pattern_rectangular_1a806b19ec75d7af4c7007a9b63577dcba" compoundref="_pre_manager_2ref_2_feature_s_o_l_i_d_create_pattern_rectangular_8cpp" startline="130" endline="146">CheckAttribute</referencedby>
+        <referencedby refid="class_pre_1_1_feature_s_o_l_i_d_create_pattern_rectangular_1a7205b3877a0bf585053288c91d26e38b" compoundref="_pre_manager_2ref_2_feature_s_o_l_i_d_create_pattern_rectangular_8cpp" startline="6" endline="20">FeatureSOLIDCreatePatternRectangular</referencedby>
+        <referencedby refid="class_pre_1_1_feature_s_o_l_i_d_create_pattern_rectangular_1a04b39c10c47bdb7df872729230224aab" compoundref="_pre_manager_2ref_2_feature_s_o_l_i_d_create_pattern_rectangular_8cpp" startline="26" endline="61">GetInfo</referencedby>
+        <referencedby refid="class_pre_1_1_feature_s_o_l_i_d_create_pattern_rectangular_1a4602022ba7cd0187bfa733371f653a89" compoundref="_pre_manager_2ref_2_feature_s_o_l_i_d_create_pattern_rectangular_8cpp" startline="63" endline="80">ToTransCAD</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_pre_1_1_feature_s_o_l_i_d_create_pattern_rectangular_1a0b809df091f881e272b70d6e4aab8075" prot="private" static="no" mutable="no">
+        <type>double</type>
+        <definition>double Pre::FeatureSOLIDCreatePatternRectangular::RowSpacing</definition>
+        <argsstring></argsstring>
+        <name>RowSpacing</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/PreManager/ref/FeatureSOLIDCreatePatternRectangular.h" line="28" column="1" bodyfile="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/PreManager/ref/FeatureSOLIDCreatePatternRectangular.h" bodystart="28" bodyend="-1"/>
+        <referencedby refid="class_pre_1_1_feature_s_o_l_i_d_create_pattern_rectangular_1a806b19ec75d7af4c7007a9b63577dcba" compoundref="_pre_manager_2ref_2_feature_s_o_l_i_d_create_pattern_rectangular_8cpp" startline="130" endline="146">CheckAttribute</referencedby>
+        <referencedby refid="class_pre_1_1_feature_s_o_l_i_d_create_pattern_rectangular_1a7205b3877a0bf585053288c91d26e38b" compoundref="_pre_manager_2ref_2_feature_s_o_l_i_d_create_pattern_rectangular_8cpp" startline="6" endline="20">FeatureSOLIDCreatePatternRectangular</referencedby>
+        <referencedby refid="class_pre_1_1_feature_s_o_l_i_d_create_pattern_rectangular_1a04b39c10c47bdb7df872729230224aab" compoundref="_pre_manager_2ref_2_feature_s_o_l_i_d_create_pattern_rectangular_8cpp" startline="26" endline="61">GetInfo</referencedby>
+        <referencedby refid="class_pre_1_1_feature_s_o_l_i_d_create_pattern_rectangular_1aaf997bf99035b24e79acd3861094cbf9" compoundref="_pre_manager_2ref_2_feature_s_o_l_i_d_create_pattern_rectangular_8cpp" startline="82" endline="128">Modify</referencedby>
+        <referencedby refid="class_pre_1_1_feature_s_o_l_i_d_create_pattern_rectangular_1a18084e6aaa36649509f8c43d2b15f5b9" compoundref="_pre_manager_2ref_2_feature_s_o_l_i_d_create_pattern_rectangular_8cpp" startline="148" endline="223">SetDirection</referencedby>
+        <referencedby refid="class_pre_1_1_feature_s_o_l_i_d_create_pattern_rectangular_1a4602022ba7cd0187bfa733371f653a89" compoundref="_pre_manager_2ref_2_feature_s_o_l_i_d_create_pattern_rectangular_8cpp" startline="63" endline="80">ToTransCAD</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_pre_1_1_feature_s_o_l_i_d_create_pattern_rectangular_1a823d41cb2d1a5681b484aa418c512546" prot="private" static="no" mutable="no">
+        <type>double</type>
+        <definition>double Pre::FeatureSOLIDCreatePatternRectangular::RowDirX</definition>
+        <argsstring></argsstring>
+        <name>RowDirX</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/PreManager/ref/FeatureSOLIDCreatePatternRectangular.h" line="29" column="1" bodyfile="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/PreManager/ref/FeatureSOLIDCreatePatternRectangular.h" bodystart="29" bodyend="-1"/>
+        <referencedby refid="class_pre_1_1_feature_s_o_l_i_d_create_pattern_rectangular_1a7205b3877a0bf585053288c91d26e38b" compoundref="_pre_manager_2ref_2_feature_s_o_l_i_d_create_pattern_rectangular_8cpp" startline="6" endline="20">FeatureSOLIDCreatePatternRectangular</referencedby>
+        <referencedby refid="class_pre_1_1_feature_s_o_l_i_d_create_pattern_rectangular_1a18084e6aaa36649509f8c43d2b15f5b9" compoundref="_pre_manager_2ref_2_feature_s_o_l_i_d_create_pattern_rectangular_8cpp" startline="148" endline="223">SetDirection</referencedby>
+        <referencedby refid="class_pre_1_1_feature_s_o_l_i_d_create_pattern_rectangular_1a4602022ba7cd0187bfa733371f653a89" compoundref="_pre_manager_2ref_2_feature_s_o_l_i_d_create_pattern_rectangular_8cpp" startline="63" endline="80">ToTransCAD</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_pre_1_1_feature_s_o_l_i_d_create_pattern_rectangular_1a8ff773c3af6bdfb8f65f870d231401e6" prot="private" static="no" mutable="no">
+        <type>double</type>
+        <definition>double Pre::FeatureSOLIDCreatePatternRectangular::RowDirY</definition>
+        <argsstring></argsstring>
+        <name>RowDirY</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/PreManager/ref/FeatureSOLIDCreatePatternRectangular.h" line="30" column="1" bodyfile="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/PreManager/ref/FeatureSOLIDCreatePatternRectangular.h" bodystart="30" bodyend="-1"/>
+        <referencedby refid="class_pre_1_1_feature_s_o_l_i_d_create_pattern_rectangular_1a7205b3877a0bf585053288c91d26e38b" compoundref="_pre_manager_2ref_2_feature_s_o_l_i_d_create_pattern_rectangular_8cpp" startline="6" endline="20">FeatureSOLIDCreatePatternRectangular</referencedby>
+        <referencedby refid="class_pre_1_1_feature_s_o_l_i_d_create_pattern_rectangular_1a18084e6aaa36649509f8c43d2b15f5b9" compoundref="_pre_manager_2ref_2_feature_s_o_l_i_d_create_pattern_rectangular_8cpp" startline="148" endline="223">SetDirection</referencedby>
+        <referencedby refid="class_pre_1_1_feature_s_o_l_i_d_create_pattern_rectangular_1a4602022ba7cd0187bfa733371f653a89" compoundref="_pre_manager_2ref_2_feature_s_o_l_i_d_create_pattern_rectangular_8cpp" startline="63" endline="80">ToTransCAD</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_pre_1_1_feature_s_o_l_i_d_create_pattern_rectangular_1a938b436cd486f8818f57d226a0cdf90e" prot="private" static="no" mutable="no">
+        <type>double</type>
+        <definition>double Pre::FeatureSOLIDCreatePatternRectangular::RowDirZ</definition>
+        <argsstring></argsstring>
+        <name>RowDirZ</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/PreManager/ref/FeatureSOLIDCreatePatternRectangular.h" line="31" column="1" bodyfile="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/PreManager/ref/FeatureSOLIDCreatePatternRectangular.h" bodystart="31" bodyend="-1"/>
+        <referencedby refid="class_pre_1_1_feature_s_o_l_i_d_create_pattern_rectangular_1a7205b3877a0bf585053288c91d26e38b" compoundref="_pre_manager_2ref_2_feature_s_o_l_i_d_create_pattern_rectangular_8cpp" startline="6" endline="20">FeatureSOLIDCreatePatternRectangular</referencedby>
+        <referencedby refid="class_pre_1_1_feature_s_o_l_i_d_create_pattern_rectangular_1a18084e6aaa36649509f8c43d2b15f5b9" compoundref="_pre_manager_2ref_2_feature_s_o_l_i_d_create_pattern_rectangular_8cpp" startline="148" endline="223">SetDirection</referencedby>
+        <referencedby refid="class_pre_1_1_feature_s_o_l_i_d_create_pattern_rectangular_1a4602022ba7cd0187bfa733371f653a89" compoundref="_pre_manager_2ref_2_feature_s_o_l_i_d_create_pattern_rectangular_8cpp" startline="63" endline="80">ToTransCAD</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_pre_1_1_feature_s_o_l_i_d_create_pattern_rectangular_1a01617b854f2de18805479dbc49b1d545" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int Pre::FeatureSOLIDCreatePatternRectangular::RowNumber</definition>
+        <argsstring></argsstring>
+        <name>RowNumber</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/PreManager/ref/FeatureSOLIDCreatePatternRectangular.h" line="32" column="1" bodyfile="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/PreManager/ref/FeatureSOLIDCreatePatternRectangular.h" bodystart="32" bodyend="-1"/>
+        <referencedby refid="class_pre_1_1_feature_s_o_l_i_d_create_pattern_rectangular_1a806b19ec75d7af4c7007a9b63577dcba" compoundref="_pre_manager_2ref_2_feature_s_o_l_i_d_create_pattern_rectangular_8cpp" startline="130" endline="146">CheckAttribute</referencedby>
+        <referencedby refid="class_pre_1_1_feature_s_o_l_i_d_create_pattern_rectangular_1a7205b3877a0bf585053288c91d26e38b" compoundref="_pre_manager_2ref_2_feature_s_o_l_i_d_create_pattern_rectangular_8cpp" startline="6" endline="20">FeatureSOLIDCreatePatternRectangular</referencedby>
+        <referencedby refid="class_pre_1_1_feature_s_o_l_i_d_create_pattern_rectangular_1a04b39c10c47bdb7df872729230224aab" compoundref="_pre_manager_2ref_2_feature_s_o_l_i_d_create_pattern_rectangular_8cpp" startline="26" endline="61">GetInfo</referencedby>
+        <referencedby refid="class_pre_1_1_feature_s_o_l_i_d_create_pattern_rectangular_1a4602022ba7cd0187bfa733371f653a89" compoundref="_pre_manager_2ref_2_feature_s_o_l_i_d_create_pattern_rectangular_8cpp" startline="63" endline="80">ToTransCAD</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_pre_1_1_feature_s_o_l_i_d_create_pattern_rectangular_1ae5410b1b334fc52d4250d574639ba1a0" prot="private" static="no" mutable="no">
+        <type>string</type>
+        <definition>string Pre::FeatureSOLIDCreatePatternRectangular::_RefPlane</definition>
+        <argsstring></argsstring>
+        <name>_RefPlane</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/PreManager/ref/FeatureSOLIDCreatePatternRectangular.h" line="34" column="1" bodyfile="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/PreManager/ref/FeatureSOLIDCreatePatternRectangular.h" bodystart="34" bodyend="-1"/>
+        <referencedby refid="class_pre_1_1_feature_s_o_l_i_d_create_pattern_rectangular_1aaf997bf99035b24e79acd3861094cbf9" compoundref="_pre_manager_2ref_2_feature_s_o_l_i_d_create_pattern_rectangular_8cpp" startline="82" endline="128">Modify</referencedby>
+        <referencedby refid="class_pre_1_1_feature_s_o_l_i_d_create_pattern_rectangular_1a4602022ba7cd0187bfa733371f653a89" compoundref="_pre_manager_2ref_2_feature_s_o_l_i_d_create_pattern_rectangular_8cpp" startline="63" endline="80">ToTransCAD</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_pre_1_1_feature_s_o_l_i_d_create_pattern_rectangular_1ad8fd2602103b4279aa76f1783a1991a9" prot="private" static="no" mutable="no">
+        <type>string</type>
+        <definition>string Pre::FeatureSOLIDCreatePatternRectangular::_firstDirection</definition>
+        <argsstring></argsstring>
+        <name>_firstDirection</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/PreManager/ref/FeatureSOLIDCreatePatternRectangular.h" line="35" column="1" bodyfile="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/PreManager/ref/FeatureSOLIDCreatePatternRectangular.h" bodystart="35" bodyend="-1"/>
+        <referencedby refid="class_pre_1_1_feature_s_o_l_i_d_create_pattern_rectangular_1aaf997bf99035b24e79acd3861094cbf9" compoundref="_pre_manager_2ref_2_feature_s_o_l_i_d_create_pattern_rectangular_8cpp" startline="82" endline="128">Modify</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_pre_1_1_feature_s_o_l_i_d_create_pattern_rectangular_1a253e0cc0851f5acedb44fca2423372bb" prot="private" static="no" mutable="no">
+        <type>string</type>
+        <definition>string Pre::FeatureSOLIDCreatePatternRectangular::_secondDirection</definition>
+        <argsstring></argsstring>
+        <name>_secondDirection</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/PreManager/ref/FeatureSOLIDCreatePatternRectangular.h" line="35" column="1" bodyfile="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/PreManager/ref/FeatureSOLIDCreatePatternRectangular.h" bodystart="35" bodyend="-1"/>
+        <referencedby refid="class_pre_1_1_feature_s_o_l_i_d_create_pattern_rectangular_1aaf997bf99035b24e79acd3861094cbf9" compoundref="_pre_manager_2ref_2_feature_s_o_l_i_d_create_pattern_rectangular_8cpp" startline="82" endline="128">Modify</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_pre_1_1_feature_s_o_l_i_d_create_pattern_rectangular_1ab98d0a12fda3cbcb1cd9976d84a60d04" prot="private" static="no" mutable="no">
+        <type>vector&lt; <ref refid="class_pre_1_1_reference_entity" kindref="compound">ReferenceEntity</ref> * &gt;</type>
+        <definition>vector&lt;ReferenceEntity *&gt; Pre::FeatureSOLIDCreatePatternRectangular::_referenceEntityList</definition>
+        <argsstring></argsstring>
+        <name>_referenceEntityList</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/PreManager/ref/FeatureSOLIDCreatePatternRectangular.h" line="37" column="1" bodyfile="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/PreManager/ref/FeatureSOLIDCreatePatternRectangular.h" bodystart="37" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_pre_1_1_feature_s_o_l_i_d_create_pattern_rectangular_1a7205b3877a0bf585053288c91d26e38b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>Pre::FeatureSOLIDCreatePatternRectangular::FeatureSOLIDCreatePatternRectangular</definition>
+        <argsstring>(Part *pPart, int type, string name)</argsstring>
+        <name>FeatureSOLIDCreatePatternRectangular</name>
+        <param>
+          <type><ref refid="class_pre_1_1_part" kindref="compound">Part</ref> *</type>
+          <declname>pPart</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>type</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>name</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/PreManager/ref/FeatureSOLIDCreatePatternRectangular.h" line="9" column="1" bodyfile="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/PreManager/ref/FeatureSOLIDCreatePatternRectangular.cpp" bodystart="6" bodyend="20"/>
+        <references refid="class_pre_1_1_feature_s_o_l_i_d_create_pattern_rectangular_1a38d37a5cb9414cf699c693bf4f637645" compoundref="_pre_manager_2ref_2_feature_s_o_l_i_d_create_pattern_rectangular_8h" startline="23">ColDirX</references>
+        <references refid="class_pre_1_1_feature_s_o_l_i_d_create_pattern_rectangular_1a48e47c91e067ed1e5ae8e442508f1a3e" compoundref="_pre_manager_2ref_2_feature_s_o_l_i_d_create_pattern_rectangular_8h" startline="24">ColDirY</references>
+        <references refid="class_pre_1_1_feature_s_o_l_i_d_create_pattern_rectangular_1afd24ca8b29b478494556aa4bf097be40" compoundref="_pre_manager_2ref_2_feature_s_o_l_i_d_create_pattern_rectangular_8h" startline="25">ColDirZ</references>
+        <references refid="class_pre_1_1_feature_s_o_l_i_d_create_pattern_rectangular_1ab282483b0d0f62b46736c04c2d5df11d" compoundref="_pre_manager_2ref_2_feature_s_o_l_i_d_create_pattern_rectangular_8h" startline="26">ColumnNumber</references>
+        <references refid="class_pre_1_1_feature_s_o_l_i_d_create_pattern_rectangular_1a33420b56ca5fec9c9a92ea8942c0db4e" compoundref="_pre_manager_2ref_2_feature_s_o_l_i_d_create_pattern_rectangular_8h" startline="22">ColumnSpacing</references>
+        <references refid="class_pre_1_1_feature_s_o_l_i_d_create_pattern_rectangular_1a823d41cb2d1a5681b484aa418c512546" compoundref="_pre_manager_2ref_2_feature_s_o_l_i_d_create_pattern_rectangular_8h" startline="29">RowDirX</references>
+        <references refid="class_pre_1_1_feature_s_o_l_i_d_create_pattern_rectangular_1a8ff773c3af6bdfb8f65f870d231401e6" compoundref="_pre_manager_2ref_2_feature_s_o_l_i_d_create_pattern_rectangular_8h" startline="30">RowDirY</references>
+        <references refid="class_pre_1_1_feature_s_o_l_i_d_create_pattern_rectangular_1a938b436cd486f8818f57d226a0cdf90e" compoundref="_pre_manager_2ref_2_feature_s_o_l_i_d_create_pattern_rectangular_8h" startline="31">RowDirZ</references>
+        <references refid="class_pre_1_1_feature_s_o_l_i_d_create_pattern_rectangular_1a01617b854f2de18805479dbc49b1d545" compoundref="_pre_manager_2ref_2_feature_s_o_l_i_d_create_pattern_rectangular_8h" startline="32">RowNumber</references>
+        <references refid="class_pre_1_1_feature_s_o_l_i_d_create_pattern_rectangular_1a0b809df091f881e272b70d6e4aab8075" compoundref="_pre_manager_2ref_2_feature_s_o_l_i_d_create_pattern_rectangular_8h" startline="28">RowSpacing</references>
+      </memberdef>
+      <memberdef kind="function" id="class_pre_1_1_feature_s_o_l_i_d_create_pattern_rectangular_1a5d0886c82093c9aff1a31896d9cb2ef3" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type></type>
+        <definition>Pre::FeatureSOLIDCreatePatternRectangular::~FeatureSOLIDCreatePatternRectangular</definition>
+        <argsstring>()</argsstring>
+        <name>~FeatureSOLIDCreatePatternRectangular</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/PreManager/ref/FeatureSOLIDCreatePatternRectangular.h" line="10" column="1" bodyfile="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/PreManager/ref/FeatureSOLIDCreatePatternRectangular.cpp" bodystart="22" bodyend="24"/>
+      </memberdef>
+      <memberdef kind="function" id="class_pre_1_1_feature_s_o_l_i_d_create_pattern_rectangular_1a04b39c10c47bdb7df872729230224aab" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void Pre::FeatureSOLIDCreatePatternRectangular::GetInfo</definition>
+        <argsstring>(ifstream &amp;is)</argsstring>
+        <name>GetInfo</name>
+        <reimplements refid="class_pre_1_1_feature_1af58dd6004076ee16ada8ed600965de6c">GetInfo</reimplements>
+        <param>
+          <type>ifstream &amp;</type>
+          <declname>is</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/PreManager/ref/FeatureSOLIDCreatePatternRectangular.h" line="12" column="1" bodyfile="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/PreManager/ref/FeatureSOLIDCreatePatternRectangular.cpp" bodystart="26" bodyend="61"/>
+        <references refid="class_pre_1_1_feature_s_o_l_i_d_create_pattern_rectangular_1aede759f09f61f13e056da437e68def21" compoundref="_pre_manager_2ref_2_feature_s_o_l_i_d_create_pattern_rectangular_8h" startline="21">_spTargetFeature</references>
+        <references refid="class_pre_1_1_feature_s_o_l_i_d_create_pattern_rectangular_1ab282483b0d0f62b46736c04c2d5df11d" compoundref="_pre_manager_2ref_2_feature_s_o_l_i_d_create_pattern_rectangular_8h" startline="26">ColumnNumber</references>
+        <references refid="class_pre_1_1_feature_s_o_l_i_d_create_pattern_rectangular_1a33420b56ca5fec9c9a92ea8942c0db4e" compoundref="_pre_manager_2ref_2_feature_s_o_l_i_d_create_pattern_rectangular_8h" startline="22">ColumnSpacing</references>
+        <references refid="class_pre_1_1_feature_s_o_l_i_d_create_pattern_rectangular_1a01617b854f2de18805479dbc49b1d545" compoundref="_pre_manager_2ref_2_feature_s_o_l_i_d_create_pattern_rectangular_8h" startline="32">RowNumber</references>
+        <references refid="class_pre_1_1_feature_s_o_l_i_d_create_pattern_rectangular_1a0b809df091f881e272b70d6e4aab8075" compoundref="_pre_manager_2ref_2_feature_s_o_l_i_d_create_pattern_rectangular_8h" startline="28">RowSpacing</references>
+      </memberdef>
+      <memberdef kind="function" id="class_pre_1_1_feature_s_o_l_i_d_create_pattern_rectangular_1a4602022ba7cd0187bfa733371f653a89" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void Pre::FeatureSOLIDCreatePatternRectangular::ToTransCAD</definition>
+        <argsstring>()</argsstring>
+        <name>ToTransCAD</name>
+        <reimplements refid="class_pre_1_1_feature_1a43c7ceaf04580d2e948aedd882208d80">ToTransCAD</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/PreManager/ref/FeatureSOLIDCreatePatternRectangular.h" line="13" column="1" bodyfile="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/PreManager/ref/FeatureSOLIDCreatePatternRectangular.cpp" bodystart="63" bodyend="80"/>
+        <references refid="class_pre_1_1_feature_1ae8c43a10be919286c9450125b1a0afb9" compoundref="_pre_manager_2ref_2_feature_8h" startline="27">Pre::Feature::_name</references>
+        <references refid="class_pre_1_1_feature_s_o_l_i_d_create_pattern_rectangular_1ae5410b1b334fc52d4250d574639ba1a0" compoundref="_pre_manager_2ref_2_feature_s_o_l_i_d_create_pattern_rectangular_8h" startline="34">_RefPlane</references>
+        <references refid="class_pre_1_1_part_1a0fa084e40ad2822e8214ba40b4751825" compoundref="_pre_manager_2ref_2_part_8h" startline="53">Pre::Part::_spFeatures</references>
+        <references refid="class_pre_1_1_part_1abe7d81bc84a9423e1d09c27e36125b64" compoundref="_pre_manager_2ref_2_part_8h" startline="52">Pre::Part::_spPart</references>
+        <references refid="class_pre_1_1_feature_s_o_l_i_d_create_pattern_rectangular_1aede759f09f61f13e056da437e68def21" compoundref="_pre_manager_2ref_2_feature_s_o_l_i_d_create_pattern_rectangular_8h" startline="21">_spTargetFeature</references>
+        <references refid="class_pre_1_1_feature_s_o_l_i_d_create_pattern_rectangular_1a38d37a5cb9414cf699c693bf4f637645" compoundref="_pre_manager_2ref_2_feature_s_o_l_i_d_create_pattern_rectangular_8h" startline="23">ColDirX</references>
+        <references refid="class_pre_1_1_feature_s_o_l_i_d_create_pattern_rectangular_1a48e47c91e067ed1e5ae8e442508f1a3e" compoundref="_pre_manager_2ref_2_feature_s_o_l_i_d_create_pattern_rectangular_8h" startline="24">ColDirY</references>
+        <references refid="class_pre_1_1_feature_s_o_l_i_d_create_pattern_rectangular_1afd24ca8b29b478494556aa4bf097be40" compoundref="_pre_manager_2ref_2_feature_s_o_l_i_d_create_pattern_rectangular_8h" startline="25">ColDirZ</references>
+        <references refid="class_pre_1_1_feature_s_o_l_i_d_create_pattern_rectangular_1ab282483b0d0f62b46736c04c2d5df11d" compoundref="_pre_manager_2ref_2_feature_s_o_l_i_d_create_pattern_rectangular_8h" startline="26">ColumnNumber</references>
+        <references refid="class_pre_1_1_feature_s_o_l_i_d_create_pattern_rectangular_1a33420b56ca5fec9c9a92ea8942c0db4e" compoundref="_pre_manager_2ref_2_feature_s_o_l_i_d_create_pattern_rectangular_8h" startline="22">ColumnSpacing</references>
+        <references refid="class_pre_1_1_feature_1a22de04ab5c0ef7206d32c780ccfafee7" compoundref="_pre_manager_2ref_2_feature_8h" startline="12" endline="12">Pre::Feature::GetPart</references>
+        <references refid="class_pre_1_1_feature_s_o_l_i_d_create_pattern_rectangular_1a823d41cb2d1a5681b484aa418c512546" compoundref="_pre_manager_2ref_2_feature_s_o_l_i_d_create_pattern_rectangular_8h" startline="29">RowDirX</references>
+        <references refid="class_pre_1_1_feature_s_o_l_i_d_create_pattern_rectangular_1a8ff773c3af6bdfb8f65f870d231401e6" compoundref="_pre_manager_2ref_2_feature_s_o_l_i_d_create_pattern_rectangular_8h" startline="30">RowDirY</references>
+        <references refid="class_pre_1_1_feature_s_o_l_i_d_create_pattern_rectangular_1a938b436cd486f8818f57d226a0cdf90e" compoundref="_pre_manager_2ref_2_feature_s_o_l_i_d_create_pattern_rectangular_8h" startline="31">RowDirZ</references>
+        <references refid="class_pre_1_1_feature_s_o_l_i_d_create_pattern_rectangular_1a01617b854f2de18805479dbc49b1d545" compoundref="_pre_manager_2ref_2_feature_s_o_l_i_d_create_pattern_rectangular_8h" startline="32">RowNumber</references>
+        <references refid="class_pre_1_1_feature_s_o_l_i_d_create_pattern_rectangular_1a0b809df091f881e272b70d6e4aab8075" compoundref="_pre_manager_2ref_2_feature_s_o_l_i_d_create_pattern_rectangular_8h" startline="28">RowSpacing</references>
+        <references refid="class_pre_1_1_feature_s_o_l_i_d_create_pattern_rectangular_1a18084e6aaa36649509f8c43d2b15f5b9" compoundref="_pre_manager_2ref_2_feature_s_o_l_i_d_create_pattern_rectangular_8cpp" startline="148" endline="223">SetDirection</references>
+      </memberdef>
+      <memberdef kind="function" id="class_pre_1_1_feature_s_o_l_i_d_create_pattern_rectangular_1a806b19ec75d7af4c7007a9b63577dcba" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void Pre::FeatureSOLIDCreatePatternRectangular::CheckAttribute</definition>
+        <argsstring>(string name, double value, int type)</argsstring>
+        <name>CheckAttribute</name>
+        <reimplements refid="class_pre_1_1_feature_1a3b4b453b4ac49dde010d6760917266b7">CheckAttribute</reimplements>
+        <param>
+          <type>string</type>
+          <declname>name</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>value</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>type</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/PreManager/ref/FeatureSOLIDCreatePatternRectangular.h" line="15" column="1" bodyfile="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/PreManager/ref/FeatureSOLIDCreatePatternRectangular.cpp" bodystart="130" bodyend="146"/>
+        <references refid="class_pre_1_1_feature_s_o_l_i_d_create_pattern_rectangular_1ab282483b0d0f62b46736c04c2d5df11d" compoundref="_pre_manager_2ref_2_feature_s_o_l_i_d_create_pattern_rectangular_8h" startline="26">ColumnNumber</references>
+        <references refid="class_pre_1_1_feature_s_o_l_i_d_create_pattern_rectangular_1a33420b56ca5fec9c9a92ea8942c0db4e" compoundref="_pre_manager_2ref_2_feature_s_o_l_i_d_create_pattern_rectangular_8h" startline="22">ColumnSpacing</references>
+        <references refid="class_pre_1_1_feature_s_o_l_i_d_create_pattern_rectangular_1a01617b854f2de18805479dbc49b1d545" compoundref="_pre_manager_2ref_2_feature_s_o_l_i_d_create_pattern_rectangular_8h" startline="32">RowNumber</references>
+        <references refid="class_pre_1_1_feature_s_o_l_i_d_create_pattern_rectangular_1a0b809df091f881e272b70d6e4aab8075" compoundref="_pre_manager_2ref_2_feature_s_o_l_i_d_create_pattern_rectangular_8h" startline="28">RowSpacing</references>
+      </memberdef>
+      <memberdef kind="function" id="class_pre_1_1_feature_s_o_l_i_d_create_pattern_rectangular_1aaf997bf99035b24e79acd3861094cbf9" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void Pre::FeatureSOLIDCreatePatternRectangular::Modify</definition>
+        <argsstring>(char *buffer)</argsstring>
+        <name>Modify</name>
+        <reimplements refid="class_pre_1_1_feature_1a11f5aafa54439cf08dd44adb6fcd4d9c">Modify</reimplements>
+        <param>
+          <type>char *</type>
+          <declname>buffer</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/PreManager/ref/FeatureSOLIDCreatePatternRectangular.h" line="16" column="1" bodyfile="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/PreManager/ref/FeatureSOLIDCreatePatternRectangular.cpp" bodystart="82" bodyend="128"/>
+        <references refid="class_pre_1_1_feature_s_o_l_i_d_create_pattern_rectangular_1ad8fd2602103b4279aa76f1783a1991a9" compoundref="_pre_manager_2ref_2_feature_s_o_l_i_d_create_pattern_rectangular_8h" startline="35">_firstDirection</references>
+        <references refid="class_pre_1_1_feature_1a64772d4f47afe0052d5a94f773de5211" compoundref="_pre_manager_2ref_2_feature_8h" startline="26">Pre::Feature::_pPart</references>
+        <references refid="class_pre_1_1_feature_s_o_l_i_d_create_pattern_rectangular_1ae5410b1b334fc52d4250d574639ba1a0" compoundref="_pre_manager_2ref_2_feature_s_o_l_i_d_create_pattern_rectangular_8h" startline="34">_RefPlane</references>
+        <references refid="class_pre_1_1_feature_s_o_l_i_d_create_pattern_rectangular_1a253e0cc0851f5acedb44fca2423372bb" compoundref="_pre_manager_2ref_2_feature_s_o_l_i_d_create_pattern_rectangular_8h" startline="35">_secondDirection</references>
+        <references refid="class_pre_1_1_feature_1a341b5b05bd448a814e86099e70f1a747" compoundref="_pre_manager_2ref_2_feature_8h" startline="28">Pre::Feature::_type</references>
+        <references refid="class_pre_1_1_feature_s_o_l_i_d_create_pattern_rectangular_1a33420b56ca5fec9c9a92ea8942c0db4e" compoundref="_pre_manager_2ref_2_feature_s_o_l_i_d_create_pattern_rectangular_8h" startline="22">ColumnSpacing</references>
+        <references refid="class_pre_1_1_part_1a5643b5eda5bff62d642532663c62b63c" compoundref="_pre_manager_2ref_2_part_8cpp" startline="334" endline="345">Pre::Part::GetReferenceEntityByName</references>
+        <references refid="class_pre_1_1_reference_entity_1af7e7c453fa7cc8c4df1e1cf65980381c" compoundref="_reference_entity_8h" startline="19" endline="19">Pre::ReferenceEntity::GetReferenceType</references>
+        <references refid="class_pre_1_1_feature_s_o_l_i_d_create_pattern_rectangular_1a0b809df091f881e272b70d6e4aab8075" compoundref="_pre_manager_2ref_2_feature_s_o_l_i_d_create_pattern_rectangular_8h" startline="28">RowSpacing</references>
+      </memberdef>
+      <memberdef kind="function" id="class_pre_1_1_feature_s_o_l_i_d_create_pattern_rectangular_1a18084e6aaa36649509f8c43d2b15f5b9" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void Pre::FeatureSOLIDCreatePatternRectangular::SetDirection</definition>
+        <argsstring>(double colspacing, double rowspacing, string refplane)</argsstring>
+        <name>SetDirection</name>
+        <param>
+          <type>double</type>
+          <declname>colspacing</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>rowspacing</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>refplane</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/PreManager/ref/FeatureSOLIDCreatePatternRectangular.h" line="18" column="1" bodyfile="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/PreManager/ref/FeatureSOLIDCreatePatternRectangular.cpp" bodystart="148" bodyend="223"/>
+        <references refid="class_pre_1_1_feature_1a64772d4f47afe0052d5a94f773de5211" compoundref="_pre_manager_2ref_2_feature_8h" startline="26">Pre::Feature::_pPart</references>
+        <references refid="class_pre_1_1_feature_s_o_l_i_d_create_pattern_rectangular_1a38d37a5cb9414cf699c693bf4f637645" compoundref="_pre_manager_2ref_2_feature_s_o_l_i_d_create_pattern_rectangular_8h" startline="23">ColDirX</references>
+        <references refid="class_pre_1_1_feature_s_o_l_i_d_create_pattern_rectangular_1a48e47c91e067ed1e5ae8e442508f1a3e" compoundref="_pre_manager_2ref_2_feature_s_o_l_i_d_create_pattern_rectangular_8h" startline="24">ColDirY</references>
+        <references refid="class_pre_1_1_feature_s_o_l_i_d_create_pattern_rectangular_1afd24ca8b29b478494556aa4bf097be40" compoundref="_pre_manager_2ref_2_feature_s_o_l_i_d_create_pattern_rectangular_8h" startline="25">ColDirZ</references>
+        <references refid="class_pre_1_1_feature_s_o_l_i_d_create_pattern_rectangular_1a33420b56ca5fec9c9a92ea8942c0db4e" compoundref="_pre_manager_2ref_2_feature_s_o_l_i_d_create_pattern_rectangular_8h" startline="22">ColumnSpacing</references>
+        <references refid="class_pre_1_1_reference_entity_1ab7834eec27b178f18cad28f6baf1b146" compoundref="_reference_entity_8h" startline="21" endline="21">Pre::ReferenceEntity::GetFeatureName</references>
+        <references refid="class_pre_1_1_part_1a5643b5eda5bff62d642532663c62b63c" compoundref="_pre_manager_2ref_2_part_8cpp" startline="334" endline="345">Pre::Part::GetReferenceEntityByName</references>
+        <references refid="class_pre_1_1_feature_s_o_l_i_d_create_pattern_rectangular_1a823d41cb2d1a5681b484aa418c512546" compoundref="_pre_manager_2ref_2_feature_s_o_l_i_d_create_pattern_rectangular_8h" startline="29">RowDirX</references>
+        <references refid="class_pre_1_1_feature_s_o_l_i_d_create_pattern_rectangular_1a8ff773c3af6bdfb8f65f870d231401e6" compoundref="_pre_manager_2ref_2_feature_s_o_l_i_d_create_pattern_rectangular_8h" startline="30">RowDirY</references>
+        <references refid="class_pre_1_1_feature_s_o_l_i_d_create_pattern_rectangular_1a938b436cd486f8818f57d226a0cdf90e" compoundref="_pre_manager_2ref_2_feature_s_o_l_i_d_create_pattern_rectangular_8h" startline="31">RowDirZ</references>
+        <references refid="class_pre_1_1_feature_s_o_l_i_d_create_pattern_rectangular_1a0b809df091f881e272b70d6e4aab8075" compoundref="_pre_manager_2ref_2_feature_s_o_l_i_d_create_pattern_rectangular_8h" startline="28">RowSpacing</references>
+        <referencedby refid="class_pre_1_1_feature_s_o_l_i_d_create_pattern_rectangular_1a4602022ba7cd0187bfa733371f653a89" compoundref="_pre_manager_2ref_2_feature_s_o_l_i_d_create_pattern_rectangular_8cpp" startline="63" endline="80">ToTransCAD</referencedby>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="750">
+        <label>Pre::FeatureSOLIDCreatePatternRectangular</label>
+        <link refid="class_pre_1_1_feature_s_o_l_i_d_create_pattern_rectangular"/>
+        <childnode refid="751" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="751">
+        <label>Pre::Feature</label>
+        <link refid="class_pre_1_1_feature"/>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="769">
+        <label>std::basic_ifstream&lt; char &gt;</label>
+        <childnode refid="770" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="755">
+        <label>std::vector&lt; Pre::ReferenceEntity * &gt;</label>
+        <childnode refid="756" relation="usage">
+          <edgelabel>elements</edgelabel>
+        </childnode>
+      </node>
+      <node id="773">
+        <label>std::vector&lt; Pre::SketchFeature &gt;</label>
+        <childnode refid="774" relation="usage">
+          <edgelabel>elements</edgelabel>
+        </childnode>
+      </node>
+      <node id="764">
+        <label>Pre::FSKETCHItem</label>
+        <link refid="class_pre_1_1_f_s_k_e_t_c_h_item"/>
+        <childnode refid="758" relation="usage">
+          <edgelabel>_name</edgelabel>
+        </childnode>
+        <childnode refid="762" relation="usage">
+          <edgelabel>_pFSketch</edgelabel>
+        </childnode>
+      </node>
+      <node id="763">
+        <label>std::vector&lt; Pre::FSKETCHItem * &gt;</label>
+        <childnode refid="764" relation="usage">
+          <edgelabel>elements</edgelabel>
+        </childnode>
+      </node>
+      <node id="770">
+        <label>std::basic_istream&lt; Char &gt;</label>
+        <childnode refid="771" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="752">
+        <label>Pre::FeatureSOLIDCreatePatternRectangular</label>
+        <link refid="class_pre_1_1_feature_s_o_l_i_d_create_pattern_rectangular"/>
+        <childnode refid="753" relation="public-inheritance">
+        </childnode>
+        <childnode refid="755" relation="usage">
+          <edgelabel>_referenceEntityList</edgelabel>
+        </childnode>
+        <childnode refid="758" relation="usage">
+          <edgelabel>_RefPlane</edgelabel>
+          <edgelabel>_secondDirection</edgelabel>
+          <edgelabel>_firstDirection</edgelabel>
+        </childnode>
+      </node>
+      <node id="777">
+        <label>std::vector&lt; Pre::Feature * &gt;</label>
+        <childnode refid="753" relation="usage">
+          <edgelabel>elements</edgelabel>
+        </childnode>
+      </node>
+      <node id="765">
+        <label>std::vector&lt; Pre::ReportItem &gt;</label>
+        <childnode refid="766" relation="usage">
+          <edgelabel>elements</edgelabel>
+        </childnode>
+      </node>
+      <node id="753">
+        <label>Pre::Feature</label>
+        <link refid="class_pre_1_1_feature"/>
+        <childnode refid="754" relation="usage">
+          <edgelabel>_pPart</edgelabel>
+        </childnode>
+        <childnode refid="758" relation="usage">
+          <edgelabel>_name</edgelabel>
+        </childnode>
+      </node>
+      <node id="757">
+        <label>std::vector&lt; FaceInfoList &gt;</label>
+      </node>
+      <node id="756">
+        <label>Pre::ReferenceEntity</label>
+        <link refid="class_pre_1_1_reference_entity"/>
+        <childnode refid="757" relation="usage">
+          <edgelabel>pEdge</edgelabel>
+        </childnode>
+        <childnode refid="754" relation="usage">
+          <edgelabel>_pPart</edgelabel>
+        </childnode>
+        <childnode refid="758" relation="usage">
+          <edgelabel>feature</edgelabel>
+          <edgelabel>TransCADEdgeName</edgelabel>
+          <edgelabel>TransCADFaceName</edgelabel>
+          <edgelabel>name</edgelabel>
+          <edgelabel>axis</edgelabel>
+        </childnode>
+        <childnode refid="760" relation="usage">
+          <edgelabel>pFace</edgelabel>
+        </childnode>
+        <childnode refid="762" relation="usage">
+          <edgelabel>pSketchManager</edgelabel>
+        </childnode>
+        <childnode refid="767" relation="usage">
+          <edgelabel>pWire</edgelabel>
+        </childnode>
+      </node>
+      <node id="759">
+        <label>std::basic_string&lt; char &gt;</label>
+      </node>
+      <node id="761">
+        <label>FaceInfo</label>
+        <link refid="struct_face_info"/>
+      </node>
+      <node id="766">
+        <label>Pre::ReportItem</label>
+        <link refid="struct_pre_1_1_report_item"/>
+        <childnode refid="758" relation="usage">
+          <edgelabel>_entityName</edgelabel>
+        </childnode>
+      </node>
+      <node id="767">
+        <label>WireInfo</label>
+        <link refid="struct_wire_info"/>
+      </node>
+      <node id="776">
+        <label>Pre::AttributeItem</label>
+        <link refid="class_pre_1_1_attribute_item"/>
+        <childnode refid="754" relation="usage">
+          <edgelabel>_pPart</edgelabel>
+        </childnode>
+        <childnode refid="758" relation="usage">
+          <edgelabel>_featureName</edgelabel>
+          <edgelabel>_name</edgelabel>
+          <edgelabel>_attributeName</edgelabel>
+        </childnode>
+      </node>
+      <node id="774">
+        <label>Pre::SketchFeature</label>
+        <link refid="struct_pre_1_1_sketch_feature"/>
+        <childnode refid="758" relation="usage">
+          <edgelabel>_featureName</edgelabel>
+          <edgelabel>_sketchName</edgelabel>
+        </childnode>
+      </node>
+      <node id="771">
+        <label>std::basic_ios&lt; Char &gt;</label>
+        <childnode refid="772" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="754">
+        <label>Pre::Part</label>
+        <link refid="class_pre_1_1_part"/>
+        <childnode refid="755" relation="usage">
+          <edgelabel>_referenceEntityList</edgelabel>
+        </childnode>
+        <childnode refid="768" relation="usage">
+          <edgelabel>fin</edgelabel>
+        </childnode>
+        <childnode refid="773" relation="usage">
+          <edgelabel>sketchNameTable</edgelabel>
+        </childnode>
+        <childnode refid="758" relation="usage">
+          <edgelabel>_fileName</edgelabel>
+          <edgelabel>_filePath</edgelabel>
+        </childnode>
+        <childnode refid="775" relation="usage">
+          <edgelabel>_attributeItemList</edgelabel>
+        </childnode>
+        <childnode refid="777" relation="usage">
+          <edgelabel>_featureList</edgelabel>
+        </childnode>
+      </node>
+      <node id="772">
+        <label>std::ios_base</label>
+      </node>
+      <node id="768">
+        <label>std::ifstream</label>
+        <childnode refid="769" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="775">
+        <label>std::vector&lt; Pre::AttributeItem * &gt;</label>
+        <childnode refid="776" relation="usage">
+          <edgelabel>elements</edgelabel>
+        </childnode>
+      </node>
+      <node id="760">
+        <label>std::vector&lt; FaceInfo &gt;</label>
+        <childnode refid="761" relation="usage">
+          <edgelabel>elements</edgelabel>
+        </childnode>
+      </node>
+      <node id="758">
+        <label>std::string</label>
+        <childnode refid="759" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="762">
+        <label>Pre::FSketch</label>
+        <link refid="class_pre_1_1_f_sketch"/>
+        <childnode refid="753" relation="public-inheritance">
+        </childnode>
+        <childnode refid="763" relation="usage">
+          <edgelabel>_sketchItemList</edgelabel>
+        </childnode>
+        <childnode refid="756" relation="usage">
+          <edgelabel>_pReferenceEntity</edgelabel>
+        </childnode>
+        <childnode refid="758" relation="usage">
+          <edgelabel>_axisName</edgelabel>
+          <edgelabel>_factoryName</edgelabel>
+        </childnode>
+        <childnode refid="765" relation="usage">
+          <edgelabel>reportNameTable</edgelabel>
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/PreManager/ref/FeatureSOLIDCreatePatternRectangular.h" line="7" column="1" bodyfile="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/PreManager/ref/FeatureSOLIDCreatePatternRectangular.h" bodystart="6" bodyend="38"/>
+    <listofallmembers>
+      <member refid="class_pre_1_1_feature_s_o_l_i_d_create_pattern_rectangular_1ad8fd2602103b4279aa76f1783a1991a9" prot="private" virt="non-virtual"><scope>Pre::FeatureSOLIDCreatePatternRectangular</scope><name>_firstDirection</name></member>
+      <member refid="class_pre_1_1_feature_1ae8c43a10be919286c9450125b1a0afb9" prot="public" virt="non-virtual"><scope>Pre::FeatureSOLIDCreatePatternRectangular</scope><name>_name</name></member>
+      <member refid="class_pre_1_1_feature_1a64772d4f47afe0052d5a94f773de5211" prot="public" virt="non-virtual"><scope>Pre::FeatureSOLIDCreatePatternRectangular</scope><name>_pPart</name></member>
+      <member refid="class_pre_1_1_feature_s_o_l_i_d_create_pattern_rectangular_1ab98d0a12fda3cbcb1cd9976d84a60d04" prot="private" virt="non-virtual"><scope>Pre::FeatureSOLIDCreatePatternRectangular</scope><name>_referenceEntityList</name></member>
+      <member refid="class_pre_1_1_feature_s_o_l_i_d_create_pattern_rectangular_1ae5410b1b334fc52d4250d574639ba1a0" prot="private" virt="non-virtual"><scope>Pre::FeatureSOLIDCreatePatternRectangular</scope><name>_RefPlane</name></member>
+      <member refid="class_pre_1_1_feature_s_o_l_i_d_create_pattern_rectangular_1a253e0cc0851f5acedb44fca2423372bb" prot="private" virt="non-virtual"><scope>Pre::FeatureSOLIDCreatePatternRectangular</scope><name>_secondDirection</name></member>
+      <member refid="class_pre_1_1_feature_s_o_l_i_d_create_pattern_rectangular_1aede759f09f61f13e056da437e68def21" prot="private" virt="non-virtual"><scope>Pre::FeatureSOLIDCreatePatternRectangular</scope><name>_spTargetFeature</name></member>
+      <member refid="class_pre_1_1_feature_1a341b5b05bd448a814e86099e70f1a747" prot="public" virt="non-virtual"><scope>Pre::FeatureSOLIDCreatePatternRectangular</scope><name>_type</name></member>
+      <member refid="class_pre_1_1_feature_s_o_l_i_d_create_pattern_rectangular_1a806b19ec75d7af4c7007a9b63577dcba" prot="public" virt="virtual"><scope>Pre::FeatureSOLIDCreatePatternRectangular</scope><name>CheckAttribute</name></member>
+      <member refid="class_pre_1_1_feature_s_o_l_i_d_create_pattern_rectangular_1a38d37a5cb9414cf699c693bf4f637645" prot="private" virt="non-virtual"><scope>Pre::FeatureSOLIDCreatePatternRectangular</scope><name>ColDirX</name></member>
+      <member refid="class_pre_1_1_feature_s_o_l_i_d_create_pattern_rectangular_1a48e47c91e067ed1e5ae8e442508f1a3e" prot="private" virt="non-virtual"><scope>Pre::FeatureSOLIDCreatePatternRectangular</scope><name>ColDirY</name></member>
+      <member refid="class_pre_1_1_feature_s_o_l_i_d_create_pattern_rectangular_1afd24ca8b29b478494556aa4bf097be40" prot="private" virt="non-virtual"><scope>Pre::FeatureSOLIDCreatePatternRectangular</scope><name>ColDirZ</name></member>
+      <member refid="class_pre_1_1_feature_s_o_l_i_d_create_pattern_rectangular_1ab282483b0d0f62b46736c04c2d5df11d" prot="private" virt="non-virtual"><scope>Pre::FeatureSOLIDCreatePatternRectangular</scope><name>ColumnNumber</name></member>
+      <member refid="class_pre_1_1_feature_s_o_l_i_d_create_pattern_rectangular_1a33420b56ca5fec9c9a92ea8942c0db4e" prot="private" virt="non-virtual"><scope>Pre::FeatureSOLIDCreatePatternRectangular</scope><name>ColumnSpacing</name></member>
+      <member refid="class_pre_1_1_feature_1a23c64c5988ab1337beceaa7c1c5c0d77" prot="public" virt="non-virtual"><scope>Pre::FeatureSOLIDCreatePatternRectangular</scope><name>Feature</name></member>
+      <member refid="class_pre_1_1_feature_s_o_l_i_d_create_pattern_rectangular_1a7205b3877a0bf585053288c91d26e38b" prot="public" virt="non-virtual"><scope>Pre::FeatureSOLIDCreatePatternRectangular</scope><name>FeatureSOLIDCreatePatternRectangular</name></member>
+      <member refid="class_pre_1_1_feature_1aeec702655239d43b9fb7af691bc4f85c" prot="public" virt="non-virtual"><scope>Pre::FeatureSOLIDCreatePatternRectangular</scope><name>GetFeatureName</name></member>
+      <member refid="class_pre_1_1_feature_1aef6c7020e3bf305f38a88195b794b110" prot="public" virt="non-virtual"><scope>Pre::FeatureSOLIDCreatePatternRectangular</scope><name>GetFeatureType</name></member>
+      <member refid="class_pre_1_1_feature_s_o_l_i_d_create_pattern_rectangular_1a04b39c10c47bdb7df872729230224aab" prot="public" virt="virtual"><scope>Pre::FeatureSOLIDCreatePatternRectangular</scope><name>GetInfo</name></member>
+      <member refid="class_pre_1_1_feature_1a22de04ab5c0ef7206d32c780ccfafee7" prot="public" virt="non-virtual"><scope>Pre::FeatureSOLIDCreatePatternRectangular</scope><name>GetPart</name></member>
+      <member refid="class_pre_1_1_feature_s_o_l_i_d_create_pattern_rectangular_1aaf997bf99035b24e79acd3861094cbf9" prot="public" virt="virtual"><scope>Pre::FeatureSOLIDCreatePatternRectangular</scope><name>Modify</name></member>
+      <member refid="class_pre_1_1_feature_s_o_l_i_d_create_pattern_rectangular_1a823d41cb2d1a5681b484aa418c512546" prot="private" virt="non-virtual"><scope>Pre::FeatureSOLIDCreatePatternRectangular</scope><name>RowDirX</name></member>
+      <member refid="class_pre_1_1_feature_s_o_l_i_d_create_pattern_rectangular_1a8ff773c3af6bdfb8f65f870d231401e6" prot="private" virt="non-virtual"><scope>Pre::FeatureSOLIDCreatePatternRectangular</scope><name>RowDirY</name></member>
+      <member refid="class_pre_1_1_feature_s_o_l_i_d_create_pattern_rectangular_1a938b436cd486f8818f57d226a0cdf90e" prot="private" virt="non-virtual"><scope>Pre::FeatureSOLIDCreatePatternRectangular</scope><name>RowDirZ</name></member>
+      <member refid="class_pre_1_1_feature_s_o_l_i_d_create_pattern_rectangular_1a01617b854f2de18805479dbc49b1d545" prot="private" virt="non-virtual"><scope>Pre::FeatureSOLIDCreatePatternRectangular</scope><name>RowNumber</name></member>
+      <member refid="class_pre_1_1_feature_s_o_l_i_d_create_pattern_rectangular_1a0b809df091f881e272b70d6e4aab8075" prot="private" virt="non-virtual"><scope>Pre::FeatureSOLIDCreatePatternRectangular</scope><name>RowSpacing</name></member>
+      <member refid="class_pre_1_1_feature_s_o_l_i_d_create_pattern_rectangular_1a18084e6aaa36649509f8c43d2b15f5b9" prot="public" virt="virtual"><scope>Pre::FeatureSOLIDCreatePatternRectangular</scope><name>SetDirection</name></member>
+      <member refid="class_pre_1_1_feature_1a6a061740e7d2d749b1efe097ae87928d" prot="public" virt="non-virtual"><scope>Pre::FeatureSOLIDCreatePatternRectangular</scope><name>SetFeatureName</name></member>
+      <member refid="class_pre_1_1_feature_1a07534d290ca5363cd628efd011c070be" prot="public" virt="non-virtual"><scope>Pre::FeatureSOLIDCreatePatternRectangular</scope><name>SetFeatureType</name></member>
+      <member refid="class_pre_1_1_feature_s_o_l_i_d_create_pattern_rectangular_1a4602022ba7cd0187bfa733371f653a89" prot="public" virt="virtual"><scope>Pre::FeatureSOLIDCreatePatternRectangular</scope><name>ToTransCAD</name></member>
+      <member refid="class_pre_1_1_feature_1ac9e4bbb034ce47ce1ddd02adb52aee98" prot="public" virt="virtual"><scope>Pre::FeatureSOLIDCreatePatternRectangular</scope><name>~Feature</name></member>
+      <member refid="class_pre_1_1_feature_s_o_l_i_d_create_pattern_rectangular_1a5d0886c82093c9aff1a31896d9cb2ef3" prot="public" virt="virtual"><scope>Pre::FeatureSOLIDCreatePatternRectangular</scope><name>~FeatureSOLIDCreatePatternRectangular</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

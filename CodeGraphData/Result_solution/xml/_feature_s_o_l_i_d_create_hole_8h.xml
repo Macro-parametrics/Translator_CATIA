@@ -1,0 +1,190 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="_feature_s_o_l_i_d_create_hole_8h" kind="file">
+    <compoundname>FeatureSOLIDCreateHole.h</compoundname>
+    <includes refid="_pre_manager_2ref_2_feature_8h" local="yes">Feature.h</includes>
+    <includedby refid="_feature_s_o_l_i_d_create_hole_8cpp" local="yes">PreManager/ref/FeatureSOLIDCreateHole.cpp</includedby>
+    <includedby refid="_pre_manager_2ref_2_part_8cpp" local="yes">PreManager/ref/Part.cpp</includedby>
+    <incdepgraph>
+      <node id="3336">
+        <label>strstream</label>
+      </node>
+      <node id="3320">
+        <label>Feature.h</label>
+        <link refid="_pre_manager_2ref_2_feature_8h"/>
+        <childnode refid="3321" relation="include">
+        </childnode>
+      </node>
+      <node id="3330">
+        <label>cmath</label>
+      </node>
+      <node id="3319">
+        <label>PreManager/ref/FeatureSOLIDCreateHole.h</label>
+        <link refid="FeatureSOLIDCreateHole.h"/>
+        <childnode refid="3320" relation="include">
+        </childnode>
+      </node>
+      <node id="3325">
+        <label>string</label>
+      </node>
+      <node id="3334">
+        <label>comdef.h</label>
+      </node>
+      <node id="3333">
+        <label>comutil.h</label>
+      </node>
+      <node id="3328">
+        <label>fstream</label>
+      </node>
+      <node id="3326">
+        <label>string.h</label>
+      </node>
+      <node id="3322">
+        <label>CATIApre_DLL.h</label>
+        <link refid="_c_a_t_i_apre___d_l_l_8h"/>
+        <childnode refid="3323" relation="include">
+        </childnode>
+        <childnode refid="3324" relation="include">
+        </childnode>
+        <childnode refid="3325" relation="include">
+        </childnode>
+        <childnode refid="3326" relation="include">
+        </childnode>
+        <childnode refid="3327" relation="include">
+        </childnode>
+        <childnode refid="3328" relation="include">
+        </childnode>
+        <childnode refid="3329" relation="include">
+        </childnode>
+        <childnode refid="3330" relation="include">
+        </childnode>
+        <childnode refid="3331" relation="include">
+        </childnode>
+        <childnode refid="3332" relation="include">
+        </childnode>
+        <childnode refid="3333" relation="include">
+        </childnode>
+        <childnode refid="3334" relation="include">
+        </childnode>
+        <childnode refid="3335" relation="include">
+        </childnode>
+      </node>
+      <node id="3329">
+        <label>vector</label>
+      </node>
+      <node id="3332">
+        <label>sstream</label>
+      </node>
+      <node id="3331">
+        <label>math.h</label>
+      </node>
+      <node id="3327">
+        <label>iostream</label>
+      </node>
+      <node id="3324">
+        <label>tchar.h</label>
+      </node>
+      <node id="3335">
+        <label>Definition.h</label>
+        <link refid="_pre_manager_2ref_2_definition_8h"/>
+        <childnode refid="3336" relation="include">
+        </childnode>
+        <childnode refid="3327" relation="include">
+        </childnode>
+        <childnode refid="3331" relation="include">
+        </childnode>
+      </node>
+      <node id="3321">
+        <label>Part.h</label>
+        <link refid="_pre_manager_2ref_2_part_8h"/>
+        <childnode refid="3322" relation="include">
+        </childnode>
+      </node>
+      <node id="3323">
+        <label>stdio.h</label>
+      </node>
+    </incdepgraph>
+    <invincdepgraph>
+      <node id="3337">
+        <label>PreManager/ref/FeatureSOLIDCreateHole.h</label>
+        <link refid="FeatureSOLIDCreateHole.h"/>
+        <childnode refid="3338" relation="include">
+        </childnode>
+        <childnode refid="3339" relation="include">
+        </childnode>
+      </node>
+      <node id="3338">
+        <label>PreManager/ref/FeatureSOLIDCreateHole.cpp</label>
+        <link refid="_feature_s_o_l_i_d_create_hole_8cpp"/>
+      </node>
+      <node id="3339">
+        <label>PreManager/ref/Part.cpp</label>
+        <link refid="_pre_manager_2ref_2_part_8cpp"/>
+      </node>
+    </invincdepgraph>
+    <innerclass refid="class_pre_1_1_feature_s_o_l_i_d_create_hole" prot="public">Pre::FeatureSOLIDCreateHole</innerclass>
+    <innernamespace refid="namespace_pre">Pre</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="preprocessor">#pragma<sp/>once</highlight></codeline>
+<codeline lineno="2"><highlight class="preprocessor"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="_pre_manager_2ref_2_feature_8h" kindref="compound">Feature.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal">Pre<sp/>{</highlight></codeline>
+<codeline lineno="4"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal">ReferenceEntity;</highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight></codeline>
+<codeline lineno="6" refid="class_pre_1_1_feature_s_o_l_i_d_create_hole" refkind="compound"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="class_pre_1_1_feature_s_o_l_i_d_create_hole" kindref="compound">FeatureSOLIDCreateHole</ref><sp/>:<sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/><ref refid="class_pre_1_1_feature" kindref="compound">Feature</ref></highlight></codeline>
+<codeline lineno="7"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="8"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="9"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_pre_1_1_feature_s_o_l_i_d_create_hole_1ac976809b346f899800e54c3cd943c3fc" kindref="member">FeatureSOLIDCreateHole</ref>(<ref refid="class_pre_1_1_part" kindref="compound">Part</ref><sp/>*<sp/>pPart,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>type,<sp/></highlight><highlight class="keywordtype">string</highlight><highlight class="normal"><sp/>name);</highlight></codeline>
+<codeline lineno="10"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/><ref refid="class_pre_1_1_feature_s_o_l_i_d_create_hole_1a8e74c74503db6cc99a93e2fb9fe4b9a6" kindref="member">~FeatureSOLIDCreateHole</ref>();</highlight></codeline>
+<codeline lineno="11"><highlight class="normal"></highlight></codeline>
+<codeline lineno="12"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_pre_1_1_feature_s_o_l_i_d_create_hole_1a7975ebdc0d729820eb09a574e17646d9" kindref="member">GetInfo</ref>(ifstream<sp/>&amp;<sp/>is);</highlight></codeline>
+<codeline lineno="13"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_pre_1_1_feature_s_o_l_i_d_create_hole_1aaa01847d6147ea534bcf1d1425a6a0fa" kindref="member">ToTransCAD</ref>();</highlight></codeline>
+<codeline lineno="14"><highlight class="normal"></highlight></codeline>
+<codeline lineno="15"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_pre_1_1_feature_s_o_l_i_d_create_hole_1ab89da794ba59346ad7987a3791a95a87" kindref="member">Modify</ref>(</highlight><highlight class="keywordtype">char</highlight><highlight class="normal">*<sp/>buffer);</highlight></codeline>
+<codeline lineno="16"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_pre_1_1_feature_s_o_l_i_d_create_hole_1a541fed4070544bde17c29d89851242a6" kindref="member">CheckAttribute</ref>(</highlight><highlight class="keywordtype">string</highlight><highlight class="normal"><sp/>name,<sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>value,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>type);</highlight></codeline>
+<codeline lineno="17"><highlight class="normal"></highlight></codeline>
+<codeline lineno="18"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_pre_1_1_feature_s_o_l_i_d_create_hole_1ab1dcdb8fba8745ef3da6b523f8b718ab" kindref="member">ModifyCounterbore</ref>();</highlight></codeline>
+<codeline lineno="19"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_pre_1_1_feature_s_o_l_i_d_create_hole_1a8eaff559f6919c2522dbe4f85dbf5c1f" kindref="member">ModifyCountersunk</ref>();</highlight></codeline>
+<codeline lineno="20"><highlight class="normal"></highlight></codeline>
+<codeline lineno="21"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">private</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="22" refid="class_pre_1_1_feature_s_o_l_i_d_create_hole_1acac2741d688c25a308bfac2e325c290b" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">string</highlight><highlight class="normal"><sp/><ref refid="class_pre_1_1_feature_s_o_l_i_d_create_hole_1acac2741d688c25a308bfac2e325c290b" kindref="member">_selected_face</ref>;</highlight></codeline>
+<codeline lineno="23" refid="class_pre_1_1_feature_s_o_l_i_d_create_hole_1a010ff3d68c1b9eeea860ed35f042b806" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">string</highlight><highlight class="normal"><sp/><ref refid="class_pre_1_1_feature_s_o_l_i_d_create_hole_1a010ff3d68c1b9eeea860ed35f042b806" kindref="member">_center</ref>;</highlight></codeline>
+<codeline lineno="24"><highlight class="normal"></highlight></codeline>
+<codeline lineno="25"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>linear<sp/>hole</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="26" refid="class_pre_1_1_feature_s_o_l_i_d_create_hole_1a36362ad86e1933ef86f0fb91f0270559" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/><ref refid="class_pre_1_1_feature_s_o_l_i_d_create_hole_1a36362ad86e1933ef86f0fb91f0270559" kindref="member">center</ref>[3];</highlight></codeline>
+<codeline lineno="27" refid="class_pre_1_1_feature_s_o_l_i_d_create_hole_1a0004c10806c548772ccea531e753304e" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/><ref refid="class_pre_1_1_feature_s_o_l_i_d_create_hole_1a0004c10806c548772ccea531e753304e" kindref="member">radius</ref>;</highlight></codeline>
+<codeline lineno="28" refid="class_pre_1_1_feature_s_o_l_i_d_create_hole_1a6e2d776769087bad7e04e79d97c561e4" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/><ref refid="class_pre_1_1_feature_s_o_l_i_d_create_hole_1a6e2d776769087bad7e04e79d97c561e4" kindref="member">depth</ref>;</highlight></codeline>
+<codeline lineno="29" refid="class_pre_1_1_feature_s_o_l_i_d_create_hole_1ae0220490cd640922eaf8c047ef2f1b79" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="class_pre_1_1_feature_s_o_l_i_d_create_hole_1ae0220490cd640922eaf8c047ef2f1b79" kindref="member">end_condition</ref>;<sp/></highlight><highlight class="comment">//<sp/>0:<sp/>blind,<sp/>1:<sp/></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="30" refid="class_pre_1_1_feature_s_o_l_i_d_create_hole_1a8e9ec2033a7afdf2c924e740d921efb0" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="class_pre_1_1_feature_s_o_l_i_d_create_hole_1a8e9ec2033a7afdf2c924e740d921efb0" kindref="member">flip</ref>;</highlight></codeline>
+<codeline lineno="31"><highlight class="normal"></highlight></codeline>
+<codeline lineno="32"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>counterbored</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="33" refid="class_pre_1_1_feature_s_o_l_i_d_create_hole_1a08ef0260c29f4ea6780ed19221f13ace" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/><ref refid="class_pre_1_1_feature_s_o_l_i_d_create_hole_1a08ef0260c29f4ea6780ed19221f13ace" kindref="member">lower_hole_diameter</ref>;</highlight></codeline>
+<codeline lineno="34" refid="class_pre_1_1_feature_s_o_l_i_d_create_hole_1ae4b2a20ce9fe0d17d14287e518b85f16" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/><ref refid="class_pre_1_1_feature_s_o_l_i_d_create_hole_1ae4b2a20ce9fe0d17d14287e518b85f16" kindref="member">lower_hole_depth</ref>;</highlight></codeline>
+<codeline lineno="35" refid="class_pre_1_1_feature_s_o_l_i_d_create_hole_1ac161f7606bc2126887f31cfdc0295533" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/><ref refid="class_pre_1_1_feature_s_o_l_i_d_create_hole_1ac161f7606bc2126887f31cfdc0295533" kindref="member">bottom_angle</ref>;</highlight></codeline>
+<codeline lineno="36" refid="class_pre_1_1_feature_s_o_l_i_d_create_hole_1a285407028bf61ffeee7e008c411aad7f" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/><ref refid="class_pre_1_1_feature_s_o_l_i_d_create_hole_1a285407028bf61ffeee7e008c411aad7f" kindref="member">head_diameter</ref>;</highlight></codeline>
+<codeline lineno="37"><highlight class="normal"></highlight></codeline>
+<codeline lineno="38"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>countersunk</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="39" refid="class_pre_1_1_feature_s_o_l_i_d_create_hole_1ad4813982f7ae92c9bde1579ae71e1e20" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/><ref refid="class_pre_1_1_feature_s_o_l_i_d_create_hole_1ad4813982f7ae92c9bde1579ae71e1e20" kindref="member">head_angle</ref>;</highlight></codeline>
+<codeline lineno="40" refid="class_pre_1_1_feature_s_o_l_i_d_create_hole_1a0375d7eb19a0a2dedad884437704dc5b" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/><ref refid="class_pre_1_1_feature_s_o_l_i_d_create_hole_1a0375d7eb19a0a2dedad884437704dc5b" kindref="member">head_depth</ref>;</highlight></codeline>
+<codeline lineno="41" refid="class_pre_1_1_feature_s_o_l_i_d_create_hole_1a7673582345b91e9b2a45b2e1a9ff503a" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/><ref refid="class_pre_1_1_feature_s_o_l_i_d_create_hole_1a7673582345b91e9b2a45b2e1a9ff503a" kindref="member">upper_hole_diameter</ref>;</highlight></codeline>
+<codeline lineno="42" refid="class_pre_1_1_feature_s_o_l_i_d_create_hole_1a128f65576c156757f502950b140e41fe" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/><ref refid="class_pre_1_1_feature_s_o_l_i_d_create_hole_1a128f65576c156757f502950b140e41fe" kindref="member">upper_hole_depth</ref>;</highlight></codeline>
+<codeline lineno="43" refid="class_pre_1_1_feature_s_o_l_i_d_create_hole_1a838f344f7a5bf2a19e26168893fcf887" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/><ref refid="class_pre_1_1_feature_s_o_l_i_d_create_hole_1a838f344f7a5bf2a19e26168893fcf887" kindref="member">countersink_angle</ref>;</highlight></codeline>
+<codeline lineno="44" refid="class_pre_1_1_feature_s_o_l_i_d_create_hole_1a32ffe3d04ccddd6041794ad6c240bfd2" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/><ref refid="class_pre_1_1_feature_s_o_l_i_d_create_hole_1a32ffe3d04ccddd6041794ad6c240bfd2" kindref="member">countersink_radius</ref>;</highlight></codeline>
+<codeline lineno="45"><highlight class="normal"></highlight></codeline>
+<codeline lineno="46"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>0:<sp/>linear,<sp/>1:<sp/>counterbore,<sp/>2:<sp/>countersunk</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="47" refid="class_pre_1_1_feature_s_o_l_i_d_create_hole_1a3483102be8dabd27e14c0caf94f971b7" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="class_pre_1_1_feature_s_o_l_i_d_create_hole_1a3483102be8dabd27e14c0caf94f971b7" kindref="member">hole_type</ref>;</highlight></codeline>
+<codeline lineno="48"><highlight class="normal"></highlight></codeline>
+<codeline lineno="49"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>temporary<sp/>buffer</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="50" refid="class_pre_1_1_feature_s_o_l_i_d_create_hole_1a69239b445f11a71acb53efe651e29012" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/><ref refid="class_pre_1_1_feature_s_o_l_i_d_create_hole_1a69239b445f11a71acb53efe651e29012" kindref="member">bottom_limit_dim</ref>;</highlight></codeline>
+<codeline lineno="51" refid="class_pre_1_1_feature_s_o_l_i_d_create_hole_1a804b72aff9700b26e433877f65dca2e1" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="class_pre_1_1_feature_s_o_l_i_d_create_hole_1a804b72aff9700b26e433877f65dca2e1" kindref="member">depth_default</ref>;</highlight></codeline>
+<codeline lineno="52"><highlight class="normal"></highlight></codeline>
+<codeline lineno="53" refid="class_pre_1_1_feature_s_o_l_i_d_create_hole_1ac577fb5a470504a44df35cba47becbf8" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>vector&lt;ReferenceEntity<sp/>*&gt;<sp/><ref refid="class_pre_1_1_feature_s_o_l_i_d_create_hole_1ac577fb5a470504a44df35cba47becbf8" kindref="member">_referenceEntityList</ref>;</highlight></codeline>
+<codeline lineno="54"><highlight class="normal"><sp/><sp/><sp/><sp/>};</highlight></codeline>
+<codeline lineno="55"><highlight class="normal">}</highlight></codeline>
+    </programlisting>
+    <location file="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/PreManager/ref/FeatureSOLIDCreateHole.h"/>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,59 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="struct_constraint_info" kind="struct" prot="public">
+    <compoundname>ConstraintInfo</compoundname>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="struct_constraint_info_1a75638b9deaed32b9f8271866d73f0f16" prot="public" static="no" mutable="no">
+        <type>string</type>
+        <definition>string ConstraintInfo.type</definition>
+        <argsstring></argsstring>
+        <name>type</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/CATIATranslator/Form1.cs" line="27" column="1" bodyfile="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/CATIATranslator/Form1.cs" bodystart="27" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_constraint_info_1a5246616a66724677f7ae4fa0bf597999" prot="public" static="no" mutable="no">
+        <type>string</type>
+        <definition>string ConstraintInfo.master_ref</definition>
+        <argsstring></argsstring>
+        <name>master_ref</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/CATIATranslator/Form1.cs" line="28" column="1" bodyfile="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/CATIATranslator/Form1.cs" bodystart="28" bodyend="-1"/>
+        <referencedby refid="class_c_a_t_i_a_translator_1_1_form1_1a8acaee5459783c66d2d564283fd5653e" compoundref="_form1_8cs" startline="91" endline="195">CATIATranslator.Form1.button3_Click_1</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="struct_constraint_info_1a309fae948189e4453c59850aa7b0d1f0" prot="public" static="no" mutable="no">
+        <type>string</type>
+        <definition>string ConstraintInfo.slave_ref</definition>
+        <argsstring></argsstring>
+        <name>slave_ref</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/CATIATranslator/Form1.cs" line="29" column="1" bodyfile="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/CATIATranslator/Form1.cs" bodystart="29" bodyend="-1"/>
+        <referencedby refid="class_c_a_t_i_a_translator_1_1_form1_1a8acaee5459783c66d2d564283fd5653e" compoundref="_form1_8cs" startline="91" endline="195">CATIATranslator.Form1.button3_Click_1</referencedby>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/CATIATranslator/Form1.cs" line="26" column="1" bodyfile="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/CATIATranslator/Form1.cs" bodystart="25" bodyend="30"/>
+    <listofallmembers>
+      <member refid="struct_constraint_info_1a5246616a66724677f7ae4fa0bf597999" prot="public" virt="non-virtual"><scope>ConstraintInfo</scope><name>master_ref</name></member>
+      <member refid="struct_constraint_info_1a309fae948189e4453c59850aa7b0d1f0" prot="public" virt="non-virtual"><scope>ConstraintInfo</scope><name>slave_ref</name></member>
+      <member refid="struct_constraint_info_1a75638b9deaed32b9f8271866d73f0f16" prot="public" virt="non-virtual"><scope>ConstraintInfo</scope><name>type</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

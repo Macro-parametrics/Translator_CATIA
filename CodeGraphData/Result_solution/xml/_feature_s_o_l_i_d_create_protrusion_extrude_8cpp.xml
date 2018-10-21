@@ -1,0 +1,264 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="_feature_s_o_l_i_d_create_protrusion_extrude_8cpp" kind="file">
+    <compoundname>FeatureSOLIDCreateProtrusionExtrude.cpp</compoundname>
+    <includes local="yes">stdafx.h</includes>
+    <includes refid="_feature_s_o_l_i_d_create_protrusion_extrude_8h" local="yes">FeatureSOLIDCreateProtrusionExtrude.h</includes>
+    <includes refid="_post_manager_2ref_2_f_sketch_8h" local="yes">FSketch.h</includes>
+    <incdepgraph>
+      <node id="1647">
+        <label>atlstr.h</label>
+      </node>
+      <node id="1663">
+        <label>FSketch.h</label>
+        <link refid="_post_manager_2ref_2_f_sketch_8h"/>
+        <childnode refid="1643" relation="include">
+        </childnode>
+      </node>
+      <node id="1643">
+        <label>Feature.h</label>
+        <link refid="_post_manager_2ref_2_feature_8h"/>
+        <childnode refid="1644" relation="include">
+        </childnode>
+      </node>
+      <node id="1641">
+        <label>stdafx.h</label>
+      </node>
+      <node id="1653">
+        <label>stdlib.h</label>
+      </node>
+      <node id="1655">
+        <label>cmath</label>
+      </node>
+      <node id="1649">
+        <label>string</label>
+      </node>
+      <node id="1654">
+        <label>comutil.h</label>
+      </node>
+      <node id="1650">
+        <label>fstream</label>
+      </node>
+      <node id="1644">
+        <label>Part.h</label>
+        <link refid="_post_manager_2ref_2_part_8h"/>
+        <childnode refid="1645" relation="include">
+        </childnode>
+        <childnode refid="1658" relation="include">
+        </childnode>
+      </node>
+      <node id="1662">
+        <label>MP_Utility.h</label>
+        <link refid="_m_p___utility_8h"/>
+        <childnode refid="1659" relation="include">
+        </childnode>
+      </node>
+      <node id="1642">
+        <label>FeatureSOLIDCreateProtrusionExtrude.h</label>
+        <link refid="_feature_s_o_l_i_d_create_protrusion_extrude_8h"/>
+        <childnode refid="1643" relation="include">
+        </childnode>
+      </node>
+      <node id="1661">
+        <label>string.h</label>
+      </node>
+      <node id="1640">
+        <label>PostManager/ref/FeatureSOLIDCreateProtrusionExtrude.cpp</label>
+        <link refid="FeatureSOLIDCreateProtrusionExtrude.cpp"/>
+        <childnode refid="1641" relation="include">
+        </childnode>
+        <childnode refid="1642" relation="include">
+        </childnode>
+        <childnode refid="1663" relation="include">
+        </childnode>
+      </node>
+      <node id="1651">
+        <label>vector</label>
+      </node>
+      <node id="1657">
+        <label>math.h</label>
+      </node>
+      <node id="1646">
+        <label>atlbase.h</label>
+      </node>
+      <node id="1658">
+        <label>CATIAReferenceManager.h</label>
+        <link refid="_c_a_t_i_a_reference_manager_8h"/>
+        <childnode refid="1645" relation="include">
+        </childnode>
+        <childnode refid="1659" relation="include">
+        </childnode>
+        <childnode refid="1662" relation="include">
+        </childnode>
+      </node>
+      <node id="1648">
+        <label>iostream</label>
+      </node>
+      <node id="1656">
+        <label>Definition.h</label>
+        <link refid="_post_manager_2ref_2_definition_8h"/>
+        <childnode refid="1657" relation="include">
+        </childnode>
+      </node>
+      <node id="1660">
+        <label>algorithm</label>
+      </node>
+      <node id="1652">
+        <label>stdio.h</label>
+      </node>
+      <node id="1659">
+        <label>PN_TYPE.h</label>
+        <link refid="_p_n___t_y_p_e_8h"/>
+        <childnode refid="1648" relation="include">
+        </childnode>
+        <childnode refid="1649" relation="include">
+        </childnode>
+        <childnode refid="1651" relation="include">
+        </childnode>
+        <childnode refid="1660" relation="include">
+        </childnode>
+        <childnode refid="1657" relation="include">
+        </childnode>
+        <childnode refid="1661" relation="include">
+        </childnode>
+      </node>
+      <node id="1645">
+        <label>CATIApost_DLL.h</label>
+        <link refid="_c_a_t_i_apost___d_l_l_8h"/>
+        <childnode refid="1646" relation="include">
+        </childnode>
+        <childnode refid="1647" relation="include">
+        </childnode>
+        <childnode refid="1648" relation="include">
+        </childnode>
+        <childnode refid="1649" relation="include">
+        </childnode>
+        <childnode refid="1650" relation="include">
+        </childnode>
+        <childnode refid="1651" relation="include">
+        </childnode>
+        <childnode refid="1652" relation="include">
+        </childnode>
+        <childnode refid="1653" relation="include">
+        </childnode>
+        <childnode refid="1654" relation="include">
+        </childnode>
+        <childnode refid="1655" relation="include">
+        </childnode>
+        <childnode refid="1656" relation="include">
+        </childnode>
+      </node>
+    </incdepgraph>
+    <innernamespace refid="namespace_post">Post</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="preprocessor">#include<sp/>&quot;stdafx.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="_feature_s_o_l_i_d_create_protrusion_extrude_8h" kindref="compound">FeatureSOLIDCreateProtrusionExtrude.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="_post_manager_2ref_2_f_sketch_8h" kindref="compound">FSketch.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal">Post<sp/>{</highlight></codeline>
+<codeline lineno="6" refid="class_post_1_1_feature_s_o_l_i_d_create_protrusion_extrude_1a4ff5e1bd0b5bbc0de5f8180c9b81c16f" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="class_post_1_1_feature_s_o_l_i_d_create_protrusion_extrude_1a4ff5e1bd0b5bbc0de5f8180c9b81c16f" kindref="member">FeatureSOLIDCreateProtrusionExtrude::FeatureSOLIDCreateProtrusionExtrude</ref>(<ref refid="class_post_1_1_part" kindref="compound">Part</ref><sp/>*<sp/>pPart,<sp/>TransCAD::IFeaturePtr<sp/>spFeature)</highlight></codeline>
+<codeline lineno="7"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>:<sp/><ref refid="class_post_1_1_feature" kindref="compound">Feature</ref>(pPart,<sp/>spFeature)</highlight></codeline>
+<codeline lineno="8"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="9"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="10"><highlight class="normal"></highlight></codeline>
+<codeline lineno="11" refid="class_post_1_1_feature_s_o_l_i_d_create_protrusion_extrude_1a2484bf653faed876dc6f8fddadc41d0b" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="class_post_1_1_feature_s_o_l_i_d_create_protrusion_extrude_1a2484bf653faed876dc6f8fddadc41d0b" kindref="member">FeatureSOLIDCreateProtrusionExtrude::~FeatureSOLIDCreateProtrusionExtrude</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">)</highlight></codeline>
+<codeline lineno="12"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="13"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="14"><highlight class="normal"></highlight></codeline>
+<codeline lineno="15" refid="class_post_1_1_feature_s_o_l_i_d_create_protrusion_extrude_1a187483d2e702af009530405dd8724385" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_post_1_1_feature_s_o_l_i_d_create_protrusion_extrude_1a187483d2e702af009530405dd8724385" kindref="member">FeatureSOLIDCreateProtrusionExtrude::GetInfo</ref>()</highlight></codeline>
+<codeline lineno="16"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="17"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>TransCAD::IStdSolidProtrusionExtrudeFeaturePtr<sp/>spFeature<sp/>=<sp/><ref refid="class_post_1_1_feature_1a252ade4e8188c192beaf03a8abbdca65" kindref="member">GetTransCADFeature</ref>();</highlight></codeline>
+<codeline lineno="18"><highlight class="normal"></highlight></codeline>
+<codeline lineno="19"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>StartDepth,<sp/>EndDepth</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="20"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_post_1_1_feature_s_o_l_i_d_create_protrusion_extrude_1a494b04c6ead13c0a219d9f8fe2014e04" kindref="member">_startDepth</ref><sp/>=<sp/>spFeature-&gt;StartDepth;</highlight></codeline>
+<codeline lineno="21"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_post_1_1_feature_s_o_l_i_d_create_protrusion_extrude_1aa35aae8bbe36ba95a3bfec79e0f7ac3d" kindref="member">_endDepth</ref><sp/>=<sp/>spFeature-&gt;EndDepth;</highlight></codeline>
+<codeline lineno="22"><highlight class="normal"></highlight></codeline>
+<codeline lineno="23"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>StartCondition,<sp/>EndCondition</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="24"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_post_1_1_feature_s_o_l_i_d_create_protrusion_extrude_1ac3a4f3aea54e3017f50b5309fe57574c" kindref="member">_startCondition</ref><sp/>=<sp/>spFeature-&gt;StartCondition;</highlight></codeline>
+<codeline lineno="25"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_post_1_1_feature_s_o_l_i_d_create_protrusion_extrude_1a9f98152d0f8e60987709009c5ad25925" kindref="member">_endCondition</ref><sp/>=<sp/>spFeature-&gt;EndCondition;</highlight></codeline>
+<codeline lineno="26"><highlight class="normal"></highlight></codeline>
+<codeline lineno="27"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_post_1_1_feature_s_o_l_i_d_create_protrusion_extrude_1ad101ae6b8866182142bff2c292e5b6b1" kindref="member">_flip</ref><sp/>=<sp/>spFeature-&gt;IsFlip<sp/>?<sp/></highlight><highlight class="keyword">true</highlight><highlight class="normal"><sp/>:<sp/></highlight><highlight class="keyword">false</highlight><highlight class="normal">;<sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>VARIANT_BOOL<sp/>(for<sp/>TransCAD)<sp/>-&gt;<sp/>bool<sp/>Cast</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="28"><highlight class="normal"></highlight></codeline>
+<codeline lineno="29"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>cout<sp/>&lt;&lt;<sp/></highlight><highlight class="stringliteral">&quot;<sp/>startDepth-&gt;<sp/>&quot;</highlight><highlight class="normal"><sp/>&lt;&lt;<sp/><ref refid="class_post_1_1_feature_s_o_l_i_d_create_protrusion_extrude_1a494b04c6ead13c0a219d9f8fe2014e04" kindref="member">_startDepth</ref><sp/>&lt;&lt;<sp/>endl;</highlight></codeline>
+<codeline lineno="30"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>cout<sp/>&lt;&lt;<sp/></highlight><highlight class="stringliteral">&quot;<sp/>endDepth-&gt;<sp/>&quot;</highlight><highlight class="normal"><sp/>&lt;&lt;<sp/><ref refid="class_post_1_1_feature_s_o_l_i_d_create_protrusion_extrude_1aa35aae8bbe36ba95a3bfec79e0f7ac3d" kindref="member">_endDepth</ref><sp/>&lt;&lt;<sp/>endl;</highlight></codeline>
+<codeline lineno="31"><highlight class="normal"></highlight></codeline>
+<codeline lineno="32"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>TransCAD::IReferencePtr<sp/>spReference<sp/>=<sp/>spFeature-&gt;ProfileSketch;</highlight></codeline>
+<codeline lineno="33"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">string</highlight><highlight class="normal"><sp/>sketchName<sp/>=<sp/>spReference-&gt;ReferenceeName;</highlight></codeline>
+<codeline lineno="34"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>cout<sp/>&lt;&lt;<sp/></highlight><highlight class="stringliteral">&quot;<sp/>sketch-&gt;<sp/>&quot;</highlight><highlight class="normal"><sp/>&lt;&lt;<sp/>sketchName.c_str()<sp/>&lt;&lt;<sp/>endl;</highlight></codeline>
+<codeline lineno="35"><highlight class="normal"></highlight></codeline>
+<codeline lineno="36"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_post_1_1_feature_s_o_l_i_d_create_protrusion_extrude_1a555b9cf1c40bd203b7e4c2400c8182ce" kindref="member">_featureProfileSketch</ref><sp/>=<sp/>(<ref refid="class_post_1_1_f_sketch" kindref="compound">FSketch</ref>*)(<ref refid="class_post_1_1_feature_1aace9d720d9a16b17c62ab6b4b91cea3c" kindref="member">GetPart</ref>()-&gt;<ref refid="class_post_1_1_part_1a07f75907c17887e5f7576fb9d726a469" kindref="member">GetFeatureByName</ref>(sketchName));</highlight></codeline>
+<codeline lineno="37"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="38"><highlight class="normal"></highlight></codeline>
+<codeline lineno="39" refid="class_post_1_1_feature_s_o_l_i_d_create_protrusion_extrude_1a64f136a9e115c09cd4f1b2fff857f4b3" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_post_1_1_feature_s_o_l_i_d_create_protrusion_extrude_1a64f136a9e115c09cd4f1b2fff857f4b3" kindref="member">FeatureSOLIDCreateProtrusionExtrude::ToCATIA</ref>()</highlight></codeline>
+<codeline lineno="40"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="41"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="_c_a_t_i_apost___d_l_l_8cpp_1a9d0ccac49c6fa3a640bc5e48bef71480" kindref="member">lim_index</ref>;</highlight></codeline>
+<codeline lineno="42"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="_c_a_t_i_apost___d_l_l_8cpp_1a022e63e0684ba8af19134ea0510837f1" kindref="member">lng_index</ref>;</highlight></codeline>
+<codeline lineno="43"><highlight class="normal"></highlight></codeline>
+<codeline lineno="44"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>padsktchNum;</highlight></codeline>
+<codeline lineno="45"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(!<ref refid="namespace_post_1a757521acb19b64cd9a29879d6c5a7d5f" kindref="member">g_pRefManager</ref>-&gt;<ref refid="class_post_1_1_c_a_t_i_a_reference_manager_1ab00159c9905b3d3d14361f390db87e48" kindref="member">GetFeatureIDByTransCADName</ref>(std::string(<ref refid="class_post_1_1_feature_s_o_l_i_d_create_protrusion_extrude_1a555b9cf1c40bd203b7e4c2400c8182ce" kindref="member">_featureProfileSketch</ref>-&gt;<ref refid="class_post_1_1_feature_1a252ade4e8188c192beaf03a8abbdca65" kindref="member">GetTransCADFeature</ref>()-&gt;GetName()),<sp/>padsktchNum))</highlight></codeline>
+<codeline lineno="46"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="47"><highlight class="normal"></highlight></codeline>
+<codeline lineno="48"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>padID<sp/>=<sp/>1;</highlight></codeline>
+<codeline lineno="49"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(!<ref refid="namespace_post_1a757521acb19b64cd9a29879d6c5a7d5f" kindref="member">g_pRefManager</ref>-&gt;<ref refid="class_post_1_1_c_a_t_i_a_reference_manager_1ab00159c9905b3d3d14361f390db87e48" kindref="member">GetFeatureIDByTransCADName</ref>(std::string(<ref refid="class_post_1_1_feature_1a9d39434cf1acdc737198fefcf8b32e67" kindref="member">_spFeature</ref>-&gt;GetName()),<sp/>padID))</highlight></codeline>
+<codeline lineno="50"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="51"><highlight class="normal"></highlight></codeline>
+<codeline lineno="52"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>fprintf(<ref refid="class_post_1_1_feature_1aace9d720d9a16b17c62ab6b4b91cea3c" kindref="member">GetPart</ref>()-&gt;file,<sp/></highlight><highlight class="stringliteral">&quot;Dim<sp/>pad%d<sp/>As<sp/>Pad\n&quot;</highlight><highlight class="normal">,<sp/>padID);</highlight></codeline>
+<codeline lineno="53"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>fprintf(<ref refid="class_post_1_1_feature_1aace9d720d9a16b17c62ab6b4b91cea3c" kindref="member">GetPart</ref>()-&gt;file,<sp/></highlight><highlight class="stringliteral">&quot;Set<sp/>pad%d<sp/>=<sp/>shapeFactory1.AddNewPad(sketch%d,<sp/>0.0)\n\n&quot;</highlight><highlight class="normal">,<sp/>padID,<sp/>padsktchNum);</highlight></codeline>
+<codeline lineno="54"><highlight class="normal"></highlight></codeline>
+<codeline lineno="55"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>First<sp/>Limit<sp/>설정</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="56"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>fprintf(<ref refid="class_post_1_1_feature_1aace9d720d9a16b17c62ab6b4b91cea3c" kindref="member">GetPart</ref>()-&gt;file,<sp/></highlight><highlight class="stringliteral">&quot;Dim<sp/>limit%d<sp/>As<sp/>Limit\n&quot;</highlight><highlight class="normal">,<sp/>lim_index);</highlight></codeline>
+<codeline lineno="57"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>fprintf(<ref refid="class_post_1_1_feature_1aace9d720d9a16b17c62ab6b4b91cea3c" kindref="member">GetPart</ref>()-&gt;file,<sp/></highlight><highlight class="stringliteral">&quot;Set<sp/>limit%d<sp/>=<sp/>pad%d.FirstLimit\n\n&quot;</highlight><highlight class="normal">,<sp/>lim_index,<sp/>padID);</highlight></codeline>
+<codeline lineno="58"><highlight class="normal"></highlight></codeline>
+<codeline lineno="59"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(<ref refid="class_post_1_1_feature_s_o_l_i_d_create_protrusion_extrude_1ac3a4f3aea54e3017f50b5309fe57574c" kindref="member">_startCondition</ref><sp/>==<sp/>TransCAD::ThroughAll)</highlight></codeline>
+<codeline lineno="60"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>fprintf(<ref refid="class_post_1_1_feature_1aace9d720d9a16b17c62ab6b4b91cea3c" kindref="member">GetPart</ref>()-&gt;file,<sp/></highlight><highlight class="stringliteral">&quot;limit%d.LimitMode<sp/>=<sp/>catUpToLastLimit\n\n&quot;</highlight><highlight class="normal">,<sp/>lim_index);</highlight></codeline>
+<codeline lineno="61"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(<ref refid="class_post_1_1_feature_s_o_l_i_d_create_protrusion_extrude_1ac3a4f3aea54e3017f50b5309fe57574c" kindref="member">_startCondition</ref><sp/>==<sp/>TransCAD::Blind)</highlight></codeline>
+<codeline lineno="62"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>fprintf(<ref refid="class_post_1_1_feature_1aace9d720d9a16b17c62ab6b4b91cea3c" kindref="member">GetPart</ref>()-&gt;file,<sp/></highlight><highlight class="stringliteral">&quot;limit%d.LimitMode<sp/>=<sp/>catOffsetLimit\n\n&quot;</highlight><highlight class="normal">,<sp/>lim_index);</highlight></codeline>
+<codeline lineno="63"><highlight class="normal"></highlight></codeline>
+<codeline lineno="64"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(<ref refid="class_post_1_1_feature_s_o_l_i_d_create_protrusion_extrude_1a494b04c6ead13c0a219d9f8fe2014e04" kindref="member">_startDepth</ref><sp/>&gt;<sp/>0.0)</highlight></codeline>
+<codeline lineno="65"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="66"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>fprintf(<ref refid="class_post_1_1_feature_1aace9d720d9a16b17c62ab6b4b91cea3c" kindref="member">GetPart</ref>()-&gt;file,<sp/></highlight><highlight class="stringliteral">&quot;Dim<sp/>length%d<sp/>As<sp/>Length\n&quot;</highlight><highlight class="normal">,<sp/>lng_index);</highlight></codeline>
+<codeline lineno="67"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>fprintf(<ref refid="class_post_1_1_feature_1aace9d720d9a16b17c62ab6b4b91cea3c" kindref="member">GetPart</ref>()-&gt;file,<sp/></highlight><highlight class="stringliteral">&quot;Set<sp/>length%d<sp/>=<sp/>limit%d.Dimension\n\n&quot;</highlight><highlight class="normal">,<sp/>lng_index,<sp/>lim_index);</highlight></codeline>
+<codeline lineno="68"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>fprintf(<ref refid="class_post_1_1_feature_1aace9d720d9a16b17c62ab6b4b91cea3c" kindref="member">GetPart</ref>()-&gt;file,<sp/></highlight><highlight class="stringliteral">&quot;length%d.Value<sp/>=<sp/>%lf\n\n&quot;</highlight><highlight class="normal">,<sp/>lng_index,<sp/><ref refid="class_post_1_1_feature_s_o_l_i_d_create_protrusion_extrude_1a494b04c6ead13c0a219d9f8fe2014e04" kindref="member">_startDepth</ref>);</highlight></codeline>
+<codeline lineno="69"><highlight class="normal"></highlight></codeline>
+<codeline lineno="70"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>lng_index++;</highlight></codeline>
+<codeline lineno="71"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="72"><highlight class="normal"></highlight></codeline>
+<codeline lineno="73"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>lim_index++;</highlight></codeline>
+<codeline lineno="74"><highlight class="normal"></highlight></codeline>
+<codeline lineno="75"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>Second<sp/>Limit<sp/>설정</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="76"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>fprintf(<ref refid="class_post_1_1_feature_1aace9d720d9a16b17c62ab6b4b91cea3c" kindref="member">GetPart</ref>()-&gt;file,<sp/></highlight><highlight class="stringliteral">&quot;Dim<sp/>limit%d<sp/>As<sp/>Limit\n&quot;</highlight><highlight class="normal">,<sp/>lim_index);</highlight></codeline>
+<codeline lineno="77"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>fprintf(<ref refid="class_post_1_1_feature_1aace9d720d9a16b17c62ab6b4b91cea3c" kindref="member">GetPart</ref>()-&gt;file,<sp/></highlight><highlight class="stringliteral">&quot;Set<sp/>limit%d<sp/>=<sp/>pad%d.SecondLimit\n\n&quot;</highlight><highlight class="normal">,<sp/>lim_index,<sp/>padID);</highlight></codeline>
+<codeline lineno="78"><highlight class="normal"></highlight></codeline>
+<codeline lineno="79"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(<ref refid="class_post_1_1_feature_s_o_l_i_d_create_protrusion_extrude_1a9f98152d0f8e60987709009c5ad25925" kindref="member">_endCondition</ref><sp/>==<sp/>TransCAD::ThroughAll)</highlight></codeline>
+<codeline lineno="80"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>fprintf(<ref refid="class_post_1_1_feature_1aace9d720d9a16b17c62ab6b4b91cea3c" kindref="member">GetPart</ref>()-&gt;file,<sp/></highlight><highlight class="stringliteral">&quot;limit%d.LimitMode<sp/>=<sp/>catUpToLastLimit\n\n&quot;</highlight><highlight class="normal">,<sp/>lim_index);</highlight></codeline>
+<codeline lineno="81"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(<ref refid="class_post_1_1_feature_s_o_l_i_d_create_protrusion_extrude_1a9f98152d0f8e60987709009c5ad25925" kindref="member">_endCondition</ref><sp/>==<sp/>TransCAD::Blind)</highlight></codeline>
+<codeline lineno="82"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>fprintf(<ref refid="class_post_1_1_feature_1aace9d720d9a16b17c62ab6b4b91cea3c" kindref="member">GetPart</ref>()-&gt;file,<sp/></highlight><highlight class="stringliteral">&quot;limit%d.LimitMode<sp/>=<sp/>catOffsetLimit\n\n&quot;</highlight><highlight class="normal">,<sp/>lim_index);</highlight></codeline>
+<codeline lineno="83"><highlight class="normal"></highlight></codeline>
+<codeline lineno="84"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(<ref refid="class_post_1_1_feature_s_o_l_i_d_create_protrusion_extrude_1aa35aae8bbe36ba95a3bfec79e0f7ac3d" kindref="member">_endDepth</ref><sp/>&gt;<sp/>0.0)</highlight></codeline>
+<codeline lineno="85"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="86"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>fprintf(<ref refid="class_post_1_1_feature_1aace9d720d9a16b17c62ab6b4b91cea3c" kindref="member">GetPart</ref>()-&gt;file,<sp/></highlight><highlight class="stringliteral">&quot;Dim<sp/>length%d<sp/>As<sp/>Length\n&quot;</highlight><highlight class="normal">,<sp/>lng_index);</highlight></codeline>
+<codeline lineno="87"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>fprintf(<ref refid="class_post_1_1_feature_1aace9d720d9a16b17c62ab6b4b91cea3c" kindref="member">GetPart</ref>()-&gt;file,<sp/></highlight><highlight class="stringliteral">&quot;Set<sp/>length%d<sp/>=<sp/>limit%d.Dimension\n\n&quot;</highlight><highlight class="normal">,<sp/>lng_index,<sp/>lim_index);</highlight></codeline>
+<codeline lineno="88"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>fprintf(<ref refid="class_post_1_1_feature_1aace9d720d9a16b17c62ab6b4b91cea3c" kindref="member">GetPart</ref>()-&gt;file,<sp/></highlight><highlight class="stringliteral">&quot;length%d.Value<sp/>=<sp/>%lf\n\n&quot;</highlight><highlight class="normal">,<sp/>lng_index,<sp/><ref refid="class_post_1_1_feature_s_o_l_i_d_create_protrusion_extrude_1aa35aae8bbe36ba95a3bfec79e0f7ac3d" kindref="member">_endDepth</ref>);</highlight></codeline>
+<codeline lineno="89"><highlight class="normal"></highlight></codeline>
+<codeline lineno="90"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>lng_index++;</highlight></codeline>
+<codeline lineno="91"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="92"><highlight class="normal"></highlight></codeline>
+<codeline lineno="93"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>lim_index++;</highlight></codeline>
+<codeline lineno="94"><highlight class="normal"></highlight></codeline>
+<codeline lineno="95"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(<ref refid="class_post_1_1_feature_s_o_l_i_d_create_protrusion_extrude_1ad101ae6b8866182142bff2c292e5b6b1" kindref="member">_flip</ref>)</highlight></codeline>
+<codeline lineno="96"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>fprintf(<ref refid="class_post_1_1_feature_1aace9d720d9a16b17c62ab6b4b91cea3c" kindref="member">GetPart</ref>()-&gt;file,<sp/></highlight><highlight class="stringliteral">&quot;pad%d.DirectionOrientation<sp/>=<sp/>catInverseOrientation\n\n&quot;</highlight><highlight class="normal">,<sp/>padID);</highlight></codeline>
+<codeline lineno="97"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="98"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>fprintf(<ref refid="class_post_1_1_feature_1aace9d720d9a16b17c62ab6b4b91cea3c" kindref="member">GetPart</ref>()-&gt;file,<sp/></highlight><highlight class="stringliteral">&quot;pad%d.DirectionOrientation<sp/>=<sp/>catRegularOrientation\n\n&quot;</highlight><highlight class="normal">,<sp/>padID);</highlight></codeline>
+<codeline lineno="99"><highlight class="normal"></highlight></codeline>
+<codeline lineno="100"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>fprintf(<ref refid="class_post_1_1_feature_1aace9d720d9a16b17c62ab6b4b91cea3c" kindref="member">GetPart</ref>()-&gt;file,<sp/></highlight><highlight class="stringliteral">&quot;part1.UpdateObject<sp/>pad%d\n\n&quot;</highlight><highlight class="normal">,<sp/>padID);</highlight></codeline>
+<codeline lineno="101"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="102"><highlight class="normal"></highlight></codeline>
+<codeline lineno="103"><highlight class="normal">}</highlight></codeline>
+    </programlisting>
+    <location file="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/PostManager/ref/FeatureSOLIDCreateProtrusionExtrude.cpp"/>
+  </compounddef>
+</doxygen>

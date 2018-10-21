@@ -1,0 +1,731 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_pre_1_1_f_s_k_e_t_c_h_create2_d_circle_center_point" kind="class" prot="public">
+    <compoundname>Pre::FSKETCHCreate2DCircleCenterPoint</compoundname>
+    <basecompoundref refid="class_pre_1_1_f_s_k_e_t_c_h_item" prot="public" virt="non-virtual">Pre::FSKETCHItem</basecompoundref>
+    <includes refid="_f_s_k_e_t_c_h_create2_d_circle_center_point_8h" local="no">FSKETCHCreate2DCircleCenterPoint.h</includes>
+      <sectiondef kind="protected-attrib">
+      <memberdef kind="variable" id="class_pre_1_1_f_s_k_e_t_c_h_create2_d_circle_center_point_1a07fbef4e9399217e3106ffd959dcc20f" prot="protected" static="no" mutable="no">
+        <type>double</type>
+        <definition>double Pre::FSKETCHCreate2DCircleCenterPoint::center[3]</definition>
+        <argsstring>[3]</argsstring>
+        <name>center</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/PreManager/ref/FSKETCHCreate2DCircleCenterPoint.h" line="26" column="1" bodyfile="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/PreManager/ref/FSKETCHCreate2DCircleCenterPoint.h" bodystart="26" bodyend="-1"/>
+        <referencedby refid="class_pre_1_1_f_s_k_e_t_c_h_create2_d_circle_center_point_1a71d32cbc34487af884f14b60558316ad" compoundref="_f_s_k_e_t_c_h_create2_d_circle_center_point_8cpp" startline="123" endline="181">ConvertRadToDeg</referencedby>
+        <referencedby refid="class_pre_1_1_f_s_k_e_t_c_h_create2_d_circle_center_point_1a99df820d39b3f066880ad6fb3e8c4c6b" compoundref="_f_s_k_e_t_c_h_create2_d_circle_center_point_8h" startline="10" endline="10">GetCenterPoint</referencedby>
+        <referencedby refid="class_pre_1_1_f_s_k_e_t_c_h_create2_d_circle_center_point_1aaecfc342c075fdc45a89f12ebe387ea8" compoundref="_f_s_k_e_t_c_h_create2_d_circle_center_point_8cpp" startline="15" endline="67">GetInfo</referencedby>
+        <referencedby refid="class_pre_1_1_f_s_k_e_t_c_h_create2_d_circle_center_point_1a83ac5084fbf8a0ae0c75200ff3573046" compoundref="_f_s_k_e_t_c_h_create2_d_circle_center_point_8cpp" startline="69" endline="85">ToTransCAD</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_pre_1_1_f_s_k_e_t_c_h_create2_d_circle_center_point_1a5a47b4dcf0ba60f09d8d8ae036eb7982" prot="protected" static="no" mutable="no">
+        <type>double</type>
+        <definition>double Pre::FSKETCHCreate2DCircleCenterPoint::_radius</definition>
+        <argsstring></argsstring>
+        <name>_radius</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/PreManager/ref/FSKETCHCreate2DCircleCenterPoint.h" line="27" column="1" bodyfile="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/PreManager/ref/FSKETCHCreate2DCircleCenterPoint.h" bodystart="27" bodyend="-1"/>
+        <referencedby refid="class_pre_1_1_f_s_k_e_t_c_h_create2_d_circle_center_point_1a71d32cbc34487af884f14b60558316ad" compoundref="_f_s_k_e_t_c_h_create2_d_circle_center_point_8cpp" startline="123" endline="181">ConvertRadToDeg</referencedby>
+        <referencedby refid="class_pre_1_1_f_s_k_e_t_c_h_create2_d_circle_center_point_1aaecfc342c075fdc45a89f12ebe387ea8" compoundref="_f_s_k_e_t_c_h_create2_d_circle_center_point_8cpp" startline="15" endline="67">GetInfo</referencedby>
+        <referencedby refid="class_pre_1_1_f_s_k_e_t_c_h_create2_d_circle_center_point_1a3eb4cae857cd127e43ee0fa0234c1899" compoundref="_f_s_k_e_t_c_h_create2_d_circle_center_point_8h" startline="11" endline="11">GetRadius</referencedby>
+        <referencedby refid="class_pre_1_1_f_s_k_e_t_c_h_create2_d_circle_center_point_1a83ac5084fbf8a0ae0c75200ff3573046" compoundref="_f_s_k_e_t_c_h_create2_d_circle_center_point_8cpp" startline="69" endline="85">ToTransCAD</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_pre_1_1_f_s_k_e_t_c_h_create2_d_circle_center_point_1a5cd8655e747a4e04a5fe8d933c041422" prot="protected" static="no" mutable="no">
+        <type>double</type>
+        <definition>double Pre::FSKETCHCreate2DCircleCenterPoint::startAngle</definition>
+        <argsstring></argsstring>
+        <name>startAngle</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/PreManager/ref/FSKETCHCreate2DCircleCenterPoint.h" line="28" column="1" bodyfile="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/PreManager/ref/FSKETCHCreate2DCircleCenterPoint.h" bodystart="28" bodyend="-1"/>
+        <referencedby refid="class_pre_1_1_f_s_k_e_t_c_h_create2_d_circle_center_point_1aaecfc342c075fdc45a89f12ebe387ea8" compoundref="_f_s_k_e_t_c_h_create2_d_circle_center_point_8cpp" startline="15" endline="67">GetInfo</referencedby>
+        <referencedby refid="class_pre_1_1_f_s_k_e_t_c_h_create2_d_circle_center_point_1a83ac5084fbf8a0ae0c75200ff3573046" compoundref="_f_s_k_e_t_c_h_create2_d_circle_center_point_8cpp" startline="69" endline="85">ToTransCAD</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_pre_1_1_f_s_k_e_t_c_h_create2_d_circle_center_point_1a73e3a84a2f4e3de73a1d5595381a91bc" prot="protected" static="no" mutable="no">
+        <type>double</type>
+        <definition>double Pre::FSKETCHCreate2DCircleCenterPoint::_startAngle</definition>
+        <argsstring></argsstring>
+        <name>_startAngle</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/PreManager/ref/FSKETCHCreate2DCircleCenterPoint.h" line="28" column="1" bodyfile="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/PreManager/ref/FSKETCHCreate2DCircleCenterPoint.h" bodystart="28" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_pre_1_1_f_s_k_e_t_c_h_create2_d_circle_center_point_1adaefaa8cb2a9d8dc6b53587dfaff4e96" prot="protected" static="no" mutable="no">
+        <type>double</type>
+        <definition>double Pre::FSKETCHCreate2DCircleCenterPoint::endAngle</definition>
+        <argsstring></argsstring>
+        <name>endAngle</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/PreManager/ref/FSKETCHCreate2DCircleCenterPoint.h" line="29" column="1" bodyfile="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/PreManager/ref/FSKETCHCreate2DCircleCenterPoint.h" bodystart="29" bodyend="-1"/>
+        <referencedby refid="class_pre_1_1_f_s_k_e_t_c_h_create2_d_circle_center_point_1aaecfc342c075fdc45a89f12ebe387ea8" compoundref="_f_s_k_e_t_c_h_create2_d_circle_center_point_8cpp" startline="15" endline="67">GetInfo</referencedby>
+        <referencedby refid="class_pre_1_1_f_s_k_e_t_c_h_create2_d_circle_center_point_1a83ac5084fbf8a0ae0c75200ff3573046" compoundref="_f_s_k_e_t_c_h_create2_d_circle_center_point_8cpp" startline="69" endline="85">ToTransCAD</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_pre_1_1_f_s_k_e_t_c_h_create2_d_circle_center_point_1a58b64318524109a368556a6a0769895c" prot="protected" static="no" mutable="no">
+        <type>double</type>
+        <definition>double Pre::FSKETCHCreate2DCircleCenterPoint::_endAngle</definition>
+        <argsstring></argsstring>
+        <name>_endAngle</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/PreManager/ref/FSKETCHCreate2DCircleCenterPoint.h" line="29" column="1" bodyfile="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/PreManager/ref/FSKETCHCreate2DCircleCenterPoint.h" bodystart="29" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_pre_1_1_f_s_k_e_t_c_h_create2_d_circle_center_point_1afbc658bca80587b41f4fa7c5758295d1" prot="protected" static="no" mutable="no">
+        <type>double</type>
+        <definition>double Pre::FSKETCHCreate2DCircleCenterPoint::startPoint[3]</definition>
+        <argsstring>[3]</argsstring>
+        <name>startPoint</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/PreManager/ref/FSKETCHCreate2DCircleCenterPoint.h" line="30" column="1" bodyfile="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/PreManager/ref/FSKETCHCreate2DCircleCenterPoint.h" bodystart="30" bodyend="-1"/>
+        <referencedby refid="class_pre_1_1_f_s_k_e_t_c_h_create2_d_circle_center_point_1a71d32cbc34487af884f14b60558316ad" compoundref="_f_s_k_e_t_c_h_create2_d_circle_center_point_8cpp" startline="123" endline="181">ConvertRadToDeg</referencedby>
+        <referencedby refid="class_pre_1_1_f_s_k_e_t_c_h_create2_d_circle_center_point_1a62ee9f61a0fffedfb83e26371c76e95e" compoundref="_f_s_k_e_t_c_h_create2_d_circle_center_point_8h" startline="14" endline="14">GetStartPoint</referencedby>
+        <referencedby refid="class_pre_1_1_f_s_k_e_t_c_h_create2_d_circle_center_point_1a5f62518be45a9f4adb0afde8a36d4459" compoundref="_f_s_k_e_t_c_h_create2_d_circle_center_point_8h" startline="12" endline="12">SetStartPoint</referencedby>
+        <referencedby refid="class_pre_1_1_f_s_k_e_t_c_h_create2_d_circle_center_point_1a83ac5084fbf8a0ae0c75200ff3573046" compoundref="_f_s_k_e_t_c_h_create2_d_circle_center_point_8cpp" startline="69" endline="85">ToTransCAD</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_pre_1_1_f_s_k_e_t_c_h_create2_d_circle_center_point_1a5ba89d6974a06ad1e426f459c950743e" prot="protected" static="no" mutable="no">
+        <type>double</type>
+        <definition>double Pre::FSKETCHCreate2DCircleCenterPoint::endPoint[3]</definition>
+        <argsstring>[3]</argsstring>
+        <name>endPoint</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/PreManager/ref/FSKETCHCreate2DCircleCenterPoint.h" line="30" column="1" bodyfile="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/PreManager/ref/FSKETCHCreate2DCircleCenterPoint.h" bodystart="30" bodyend="-1"/>
+        <referencedby refid="class_pre_1_1_f_s_k_e_t_c_h_create2_d_circle_center_point_1a71d32cbc34487af884f14b60558316ad" compoundref="_f_s_k_e_t_c_h_create2_d_circle_center_point_8cpp" startline="123" endline="181">ConvertRadToDeg</referencedby>
+        <referencedby refid="class_pre_1_1_f_s_k_e_t_c_h_create2_d_circle_center_point_1adfcbdcc4a6deb36d34e325d56d7c41fa" compoundref="_f_s_k_e_t_c_h_create2_d_circle_center_point_8h" startline="15" endline="15">GetEndPoint</referencedby>
+        <referencedby refid="class_pre_1_1_f_s_k_e_t_c_h_create2_d_circle_center_point_1a66b4ba8672bbf1a93bfb495935c9fc7c" compoundref="_f_s_k_e_t_c_h_create2_d_circle_center_point_8h" startline="13" endline="13">SetEndPoint</referencedby>
+        <referencedby refid="class_pre_1_1_f_s_k_e_t_c_h_create2_d_circle_center_point_1a83ac5084fbf8a0ae0c75200ff3573046" compoundref="_f_s_k_e_t_c_h_create2_d_circle_center_point_8cpp" startline="69" endline="85">ToTransCAD</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_pre_1_1_f_s_k_e_t_c_h_create2_d_circle_center_point_1a9aac863d0de1474428b406388a420250" prot="protected" static="no" mutable="no">
+        <type>int</type>
+        <definition>int Pre::FSKETCHCreate2DCircleCenterPoint::circleType</definition>
+        <argsstring></argsstring>
+        <name>circleType</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/PreManager/ref/FSKETCHCreate2DCircleCenterPoint.h" line="31" column="1" bodyfile="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/PreManager/ref/FSKETCHCreate2DCircleCenterPoint.h" bodystart="31" bodyend="-1"/>
+        <referencedby refid="class_pre_1_1_f_s_k_e_t_c_h_create2_d_circle_center_point_1aaecfc342c075fdc45a89f12ebe387ea8" compoundref="_f_s_k_e_t_c_h_create2_d_circle_center_point_8cpp" startline="15" endline="67">GetInfo</referencedby>
+        <referencedby refid="class_pre_1_1_f_s_k_e_t_c_h_create2_d_circle_center_point_1a83ac5084fbf8a0ae0c75200ff3573046" compoundref="_f_s_k_e_t_c_h_create2_d_circle_center_point_8cpp" startline="69" endline="85">ToTransCAD</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_pre_1_1_f_s_k_e_t_c_h_create2_d_circle_center_point_1a3b5b42bb64988b3a1eb6a19da34c392a" prot="protected" static="no" mutable="no">
+        <type>string</type>
+        <definition>string Pre::FSKETCHCreate2DCircleCenterPoint::_center</definition>
+        <argsstring></argsstring>
+        <name>_center</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/PreManager/ref/FSKETCHCreate2DCircleCenterPoint.h" line="33" column="1" bodyfile="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/PreManager/ref/FSKETCHCreate2DCircleCenterPoint.h" bodystart="33" bodyend="-1"/>
+        <referencedby refid="class_pre_1_1_f_s_k_e_t_c_h_create2_d_circle_center_point_1adced1f6d2bbdebd24a2c38492b00a507" compoundref="_f_s_k_e_t_c_h_create2_d_circle_center_point_8cpp" startline="87" endline="121">Modify</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_pre_1_1_f_s_k_e_t_c_h_create2_d_circle_center_point_1a1698d4c2babefa625155a3fec37841d1" prot="protected" static="no" mutable="no">
+        <type>string</type>
+        <definition>string Pre::FSKETCHCreate2DCircleCenterPoint::_startPoint</definition>
+        <argsstring></argsstring>
+        <name>_startPoint</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/PreManager/ref/FSKETCHCreate2DCircleCenterPoint.h" line="34" column="1" bodyfile="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/PreManager/ref/FSKETCHCreate2DCircleCenterPoint.h" bodystart="34" bodyend="-1"/>
+        <referencedby refid="class_pre_1_1_f_s_k_e_t_c_h_create2_d_circle_center_point_1a65164055ce884cd212ef1cc2310dfd61" compoundref="_f_s_k_e_t_c_h_create2_d_circle_center_point_8h" startline="16" endline="16">GetStartPointName</referencedby>
+        <referencedby refid="class_pre_1_1_f_s_k_e_t_c_h_create2_d_circle_center_point_1adced1f6d2bbdebd24a2c38492b00a507" compoundref="_f_s_k_e_t_c_h_create2_d_circle_center_point_8cpp" startline="87" endline="121">Modify</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_pre_1_1_f_s_k_e_t_c_h_create2_d_circle_center_point_1aabd22d1214c4eee40eb77175acc2b989" prot="protected" static="no" mutable="no">
+        <type>string</type>
+        <definition>string Pre::FSKETCHCreate2DCircleCenterPoint::_endPoint</definition>
+        <argsstring></argsstring>
+        <name>_endPoint</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/PreManager/ref/FSKETCHCreate2DCircleCenterPoint.h" line="35" column="1" bodyfile="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/PreManager/ref/FSKETCHCreate2DCircleCenterPoint.h" bodystart="35" bodyend="-1"/>
+        <referencedby refid="class_pre_1_1_f_s_k_e_t_c_h_create2_d_circle_center_point_1ab4a5c2554b3f55e0cb2f7b53420d738b" compoundref="_f_s_k_e_t_c_h_create2_d_circle_center_point_8h" startline="17" endline="17">GetEndPointName</referencedby>
+        <referencedby refid="class_pre_1_1_f_s_k_e_t_c_h_create2_d_circle_center_point_1adced1f6d2bbdebd24a2c38492b00a507" compoundref="_f_s_k_e_t_c_h_create2_d_circle_center_point_8cpp" startline="87" endline="121">Modify</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_pre_1_1_f_s_k_e_t_c_h_create2_d_circle_center_point_1a79dd2626a5fec9c9a4cf793b546f2650" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>Pre::FSKETCHCreate2DCircleCenterPoint::FSKETCHCreate2DCircleCenterPoint</definition>
+        <argsstring>(FSketch *pFSketch, int type, string name)</argsstring>
+        <name>FSKETCHCreate2DCircleCenterPoint</name>
+        <param>
+          <type><ref refid="class_pre_1_1_f_sketch" kindref="compound">FSketch</ref> *</type>
+          <declname>pFSketch</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>type</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>name</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/PreManager/ref/FSKETCHCreate2DCircleCenterPoint.h" line="7" column="1" bodyfile="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/PreManager/ref/FSKETCHCreate2DCircleCenterPoint.cpp" bodystart="6" bodyend="9"/>
+      </memberdef>
+      <memberdef kind="function" id="class_pre_1_1_f_s_k_e_t_c_h_create2_d_circle_center_point_1a3ca90330fd598029a56515b90ff2cc63" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type></type>
+        <definition>Pre::FSKETCHCreate2DCircleCenterPoint::~FSKETCHCreate2DCircleCenterPoint</definition>
+        <argsstring>(void)</argsstring>
+        <name>~FSKETCHCreate2DCircleCenterPoint</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/PreManager/ref/FSKETCHCreate2DCircleCenterPoint.h" line="8" column="1" bodyfile="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/PreManager/ref/FSKETCHCreate2DCircleCenterPoint.cpp" bodystart="11" bodyend="13"/>
+      </memberdef>
+      <memberdef kind="function" id="class_pre_1_1_f_s_k_e_t_c_h_create2_d_circle_center_point_1a99df820d39b3f066880ad6fb3e8c4c6b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Pre::FSKETCHCreate2DCircleCenterPoint::GetCenterPoint</definition>
+        <argsstring>(Point3D &amp;cP)</argsstring>
+        <name>GetCenterPoint</name>
+        <param>
+          <type><ref refid="namespace_pre_1a42512ff1a00cd929e4efd66d0b148707" kindref="member">Point3D</ref> &amp;</type>
+          <declname>cP</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/PreManager/ref/FSKETCHCreate2DCircleCenterPoint.h" line="10" column="1" bodyfile="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/PreManager/ref/FSKETCHCreate2DCircleCenterPoint.h" bodystart="10" bodyend="10"/>
+        <references refid="class_pre_1_1_f_s_k_e_t_c_h_create2_d_circle_center_point_1a07fbef4e9399217e3106ffd959dcc20f" compoundref="_f_s_k_e_t_c_h_create2_d_circle_center_point_8h" startline="26">center</references>
+        <referencedby refid="class_pre_1_1_feature_s_o_l_i_d_create_revolve_1a0ff557f26cc9a7551a1a78b83f7673cf" compoundref="_feature_s_o_l_i_d_create_revolve_8cpp" startline="149" endline="215">Pre::FeatureSOLIDCreateRevolve::AddNewRevolveAxis</referencedby>
+        <referencedby refid="class_pre_1_1_feature_s_o_l_i_d_create_pattern_circular_1a69865b7be3e41ea824d1701e9c891e78" compoundref="_pre_manager_2ref_2_feature_s_o_l_i_d_create_pattern_circular_8cpp" startline="137" endline="197">Pre::FeatureSOLIDCreatePatternCircular::SetDirection</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_pre_1_1_f_s_k_e_t_c_h_create2_d_circle_center_point_1a3eb4cae857cd127e43ee0fa0234c1899" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>double</type>
+        <definition>double Pre::FSKETCHCreate2DCircleCenterPoint::GetRadius</definition>
+        <argsstring>() const </argsstring>
+        <name>GetRadius</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/PreManager/ref/FSKETCHCreate2DCircleCenterPoint.h" line="11" column="1" bodyfile="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/PreManager/ref/FSKETCHCreate2DCircleCenterPoint.h" bodystart="11" bodyend="11"/>
+        <references refid="class_pre_1_1_f_s_k_e_t_c_h_create2_d_circle_center_point_1a5a47b4dcf0ba60f09d8d8ae036eb7982" compoundref="_f_s_k_e_t_c_h_create2_d_circle_center_point_8h" startline="27">_radius</references>
+      </memberdef>
+      <memberdef kind="function" id="class_pre_1_1_f_s_k_e_t_c_h_create2_d_circle_center_point_1a5f62518be45a9f4adb0afde8a36d4459" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Pre::FSKETCHCreate2DCircleCenterPoint::SetStartPoint</definition>
+        <argsstring>(Point3D sP)</argsstring>
+        <name>SetStartPoint</name>
+        <param>
+          <type><ref refid="namespace_pre_1a42512ff1a00cd929e4efd66d0b148707" kindref="member">Point3D</ref></type>
+          <declname>sP</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/PreManager/ref/FSKETCHCreate2DCircleCenterPoint.h" line="12" column="1" bodyfile="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/PreManager/ref/FSKETCHCreate2DCircleCenterPoint.h" bodystart="12" bodyend="12"/>
+        <references refid="class_pre_1_1_f_s_k_e_t_c_h_create2_d_circle_center_point_1afbc658bca80587b41f4fa7c5758295d1" compoundref="_f_s_k_e_t_c_h_create2_d_circle_center_point_8h" startline="30">startPoint</references>
+      </memberdef>
+      <memberdef kind="function" id="class_pre_1_1_f_s_k_e_t_c_h_create2_d_circle_center_point_1a66b4ba8672bbf1a93bfb495935c9fc7c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Pre::FSKETCHCreate2DCircleCenterPoint::SetEndPoint</definition>
+        <argsstring>(Point3D eP)</argsstring>
+        <name>SetEndPoint</name>
+        <param>
+          <type><ref refid="namespace_pre_1a42512ff1a00cd929e4efd66d0b148707" kindref="member">Point3D</ref></type>
+          <declname>eP</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/PreManager/ref/FSKETCHCreate2DCircleCenterPoint.h" line="13" column="1" bodyfile="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/PreManager/ref/FSKETCHCreate2DCircleCenterPoint.h" bodystart="13" bodyend="13"/>
+        <references refid="class_pre_1_1_f_s_k_e_t_c_h_create2_d_circle_center_point_1a5ba89d6974a06ad1e426f459c950743e" compoundref="_f_s_k_e_t_c_h_create2_d_circle_center_point_8h" startline="30">endPoint</references>
+      </memberdef>
+      <memberdef kind="function" id="class_pre_1_1_f_s_k_e_t_c_h_create2_d_circle_center_point_1a62ee9f61a0fffedfb83e26371c76e95e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="namespace_pre_1a42512ff1a00cd929e4efd66d0b148707" kindref="member">Point3D</ref></type>
+        <definition>Point3D Pre::FSKETCHCreate2DCircleCenterPoint::GetStartPoint</definition>
+        <argsstring>()</argsstring>
+        <name>GetStartPoint</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/PreManager/ref/FSKETCHCreate2DCircleCenterPoint.h" line="14" column="1" bodyfile="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/PreManager/ref/FSKETCHCreate2DCircleCenterPoint.h" bodystart="14" bodyend="14"/>
+        <references refid="class_pre_1_1_f_s_k_e_t_c_h_create2_d_circle_center_point_1afbc658bca80587b41f4fa7c5758295d1" compoundref="_f_s_k_e_t_c_h_create2_d_circle_center_point_8h" startline="30">startPoint</references>
+      </memberdef>
+      <memberdef kind="function" id="class_pre_1_1_f_s_k_e_t_c_h_create2_d_circle_center_point_1adfcbdcc4a6deb36d34e325d56d7c41fa" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="namespace_pre_1a42512ff1a00cd929e4efd66d0b148707" kindref="member">Point3D</ref></type>
+        <definition>Point3D Pre::FSKETCHCreate2DCircleCenterPoint::GetEndPoint</definition>
+        <argsstring>()</argsstring>
+        <name>GetEndPoint</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/PreManager/ref/FSKETCHCreate2DCircleCenterPoint.h" line="15" column="1" bodyfile="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/PreManager/ref/FSKETCHCreate2DCircleCenterPoint.h" bodystart="15" bodyend="15"/>
+        <references refid="class_pre_1_1_f_s_k_e_t_c_h_create2_d_circle_center_point_1a5ba89d6974a06ad1e426f459c950743e" compoundref="_f_s_k_e_t_c_h_create2_d_circle_center_point_8h" startline="30">endPoint</references>
+      </memberdef>
+      <memberdef kind="function" id="class_pre_1_1_f_s_k_e_t_c_h_create2_d_circle_center_point_1a65164055ce884cd212ef1cc2310dfd61" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>string</type>
+        <definition>string Pre::FSKETCHCreate2DCircleCenterPoint::GetStartPointName</definition>
+        <argsstring>()</argsstring>
+        <name>GetStartPointName</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/PreManager/ref/FSKETCHCreate2DCircleCenterPoint.h" line="16" column="1" bodyfile="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/PreManager/ref/FSKETCHCreate2DCircleCenterPoint.h" bodystart="16" bodyend="16"/>
+        <references refid="class_pre_1_1_f_s_k_e_t_c_h_create2_d_circle_center_point_1a1698d4c2babefa625155a3fec37841d1" compoundref="_f_s_k_e_t_c_h_create2_d_circle_center_point_8h" startline="34">_startPoint</references>
+      </memberdef>
+      <memberdef kind="function" id="class_pre_1_1_f_s_k_e_t_c_h_create2_d_circle_center_point_1ab4a5c2554b3f55e0cb2f7b53420d738b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>string</type>
+        <definition>string Pre::FSKETCHCreate2DCircleCenterPoint::GetEndPointName</definition>
+        <argsstring>()</argsstring>
+        <name>GetEndPointName</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/PreManager/ref/FSKETCHCreate2DCircleCenterPoint.h" line="17" column="1" bodyfile="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/PreManager/ref/FSKETCHCreate2DCircleCenterPoint.h" bodystart="17" bodyend="17"/>
+        <references refid="class_pre_1_1_f_s_k_e_t_c_h_create2_d_circle_center_point_1aabd22d1214c4eee40eb77175acc2b989" compoundref="_f_s_k_e_t_c_h_create2_d_circle_center_point_8h" startline="35">_endPoint</references>
+      </memberdef>
+      <memberdef kind="function" id="class_pre_1_1_f_s_k_e_t_c_h_create2_d_circle_center_point_1aaecfc342c075fdc45a89f12ebe387ea8" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void Pre::FSKETCHCreate2DCircleCenterPoint::GetInfo</definition>
+        <argsstring>(ifstream &amp;is)</argsstring>
+        <name>GetInfo</name>
+        <reimplements refid="class_pre_1_1_f_s_k_e_t_c_h_item_1ab33dc481063716f7cd3d451a9e3eeedb">GetInfo</reimplements>
+        <param>
+          <type>ifstream &amp;</type>
+          <declname>is</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/PreManager/ref/FSKETCHCreate2DCircleCenterPoint.h" line="19" column="1" bodyfile="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/PreManager/ref/FSKETCHCreate2DCircleCenterPoint.cpp" bodystart="15" bodyend="67"/>
+        <references refid="class_pre_1_1_f_s_k_e_t_c_h_create2_d_circle_center_point_1a5a47b4dcf0ba60f09d8d8ae036eb7982" compoundref="_f_s_k_e_t_c_h_create2_d_circle_center_point_8h" startline="27">_radius</references>
+        <references refid="class_pre_1_1_f_s_k_e_t_c_h_create2_d_circle_center_point_1a07fbef4e9399217e3106ffd959dcc20f" compoundref="_f_s_k_e_t_c_h_create2_d_circle_center_point_8h" startline="26">center</references>
+        <references refid="class_pre_1_1_f_s_k_e_t_c_h_create2_d_circle_center_point_1a9aac863d0de1474428b406388a420250" compoundref="_f_s_k_e_t_c_h_create2_d_circle_center_point_8h" startline="31">circleType</references>
+        <references refid="class_pre_1_1_f_s_k_e_t_c_h_create2_d_circle_center_point_1adaefaa8cb2a9d8dc6b53587dfaff4e96" compoundref="_f_s_k_e_t_c_h_create2_d_circle_center_point_8h" startline="29">endAngle</references>
+        <references refid="class_pre_1_1_f_sketch_1a99c3852aceaa9b25d54a7ef51bff7122" compoundref="_pre_manager_2ref_2_f_sketch_8h" startline="22" endline="22">Pre::FSketch::GetFactoryName</references>
+        <references refid="class_pre_1_1_f_s_k_e_t_c_h_item_1ab77eb44d1c8b6cb802d230700fc642ca" compoundref="_f_s_k_e_t_c_h_item_8h" startline="12" endline="12">Pre::FSKETCHItem::GetFeatureSketch</references>
+        <references refid="class_pre_1_1_f_s_k_e_t_c_h_create2_d_circle_center_point_1a5cd8655e747a4e04a5fe8d933c041422" compoundref="_f_s_k_e_t_c_h_create2_d_circle_center_point_8h" startline="28">startAngle</references>
+      </memberdef>
+      <memberdef kind="function" id="class_pre_1_1_f_s_k_e_t_c_h_create2_d_circle_center_point_1a83ac5084fbf8a0ae0c75200ff3573046" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void Pre::FSKETCHCreate2DCircleCenterPoint::ToTransCAD</definition>
+        <argsstring>()</argsstring>
+        <name>ToTransCAD</name>
+        <reimplements refid="class_pre_1_1_f_s_k_e_t_c_h_item_1a55c32443afffa113d494cc8e02078243">ToTransCAD</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/PreManager/ref/FSKETCHCreate2DCircleCenterPoint.h" line="20" column="1" bodyfile="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/PreManager/ref/FSKETCHCreate2DCircleCenterPoint.cpp" bodystart="69" bodyend="85"/>
+        <references refid="class_pre_1_1_f_s_k_e_t_c_h_item_1ab3262c5a79567120c19b2cc3f1cf1e14" compoundref="_f_s_k_e_t_c_h_item_8h" startline="24">Pre::FSKETCHItem::_name</references>
+        <references refid="class_pre_1_1_f_s_k_e_t_c_h_create2_d_circle_center_point_1a5a47b4dcf0ba60f09d8d8ae036eb7982" compoundref="_f_s_k_e_t_c_h_create2_d_circle_center_point_8h" startline="27">_radius</references>
+        <references refid="class_pre_1_1_f_s_k_e_t_c_h_create2_d_circle_center_point_1a07fbef4e9399217e3106ffd959dcc20f" compoundref="_f_s_k_e_t_c_h_create2_d_circle_center_point_8h" startline="26">center</references>
+        <references refid="class_pre_1_1_f_s_k_e_t_c_h_create2_d_circle_center_point_1a9aac863d0de1474428b406388a420250" compoundref="_f_s_k_e_t_c_h_create2_d_circle_center_point_8h" startline="31">circleType</references>
+        <references refid="class_pre_1_1_f_s_k_e_t_c_h_create2_d_circle_center_point_1a71d32cbc34487af884f14b60558316ad" compoundref="_f_s_k_e_t_c_h_create2_d_circle_center_point_8cpp" startline="123" endline="181">ConvertRadToDeg</references>
+        <references refid="class_pre_1_1_f_s_k_e_t_c_h_create2_d_circle_center_point_1adaefaa8cb2a9d8dc6b53587dfaff4e96" compoundref="_f_s_k_e_t_c_h_create2_d_circle_center_point_8h" startline="29">endAngle</references>
+        <references refid="class_pre_1_1_f_s_k_e_t_c_h_create2_d_circle_center_point_1a5ba89d6974a06ad1e426f459c950743e" compoundref="_f_s_k_e_t_c_h_create2_d_circle_center_point_8h" startline="30">endPoint</references>
+        <references refid="class_pre_1_1_f_s_k_e_t_c_h_item_1ab77eb44d1c8b6cb802d230700fc642ca" compoundref="_f_s_k_e_t_c_h_item_8h" startline="12" endline="12">Pre::FSKETCHItem::GetFeatureSketch</references>
+        <references refid="class_pre_1_1_f_sketch_1ab85e025f6b48c609b3eb8a7b01344f14" compoundref="_pre_manager_2ref_2_f_sketch_8h" startline="30" endline="30">Pre::FSketch::GetSketchEditorPtr</references>
+        <references refid="class_pre_1_1_f_s_k_e_t_c_h_create2_d_circle_center_point_1a5cd8655e747a4e04a5fe8d933c041422" compoundref="_f_s_k_e_t_c_h_create2_d_circle_center_point_8h" startline="28">startAngle</references>
+        <references refid="class_pre_1_1_f_s_k_e_t_c_h_create2_d_circle_center_point_1afbc658bca80587b41f4fa7c5758295d1" compoundref="_f_s_k_e_t_c_h_create2_d_circle_center_point_8h" startline="30">startPoint</references>
+      </memberdef>
+      <memberdef kind="function" id="class_pre_1_1_f_s_k_e_t_c_h_create2_d_circle_center_point_1adced1f6d2bbdebd24a2c38492b00a507" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void Pre::FSKETCHCreate2DCircleCenterPoint::Modify</definition>
+        <argsstring>(char *buffer)</argsstring>
+        <name>Modify</name>
+        <reimplements refid="class_pre_1_1_f_s_k_e_t_c_h_item_1acddf15f6ed935c9821bf7942e331e8bd">Modify</reimplements>
+        <param>
+          <type>char *</type>
+          <declname>buffer</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/PreManager/ref/FSKETCHCreate2DCircleCenterPoint.h" line="22" column="1" bodyfile="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/PreManager/ref/FSKETCHCreate2DCircleCenterPoint.cpp" bodystart="87" bodyend="121"/>
+        <references refid="class_pre_1_1_f_s_k_e_t_c_h_create2_d_circle_center_point_1a3b5b42bb64988b3a1eb6a19da34c392a" compoundref="_f_s_k_e_t_c_h_create2_d_circle_center_point_8h" startline="33">_center</references>
+        <references refid="class_pre_1_1_f_s_k_e_t_c_h_create2_d_circle_center_point_1aabd22d1214c4eee40eb77175acc2b989" compoundref="_f_s_k_e_t_c_h_create2_d_circle_center_point_8h" startline="35">_endPoint</references>
+        <references refid="class_pre_1_1_f_s_k_e_t_c_h_item_1a58472d1aa8c47958f3d8e79cc6f18ec1" compoundref="_f_s_k_e_t_c_h_item_8h" startline="26">Pre::FSKETCHItem::_id</references>
+        <references refid="class_pre_1_1_f_s_k_e_t_c_h_item_1ab3262c5a79567120c19b2cc3f1cf1e14" compoundref="_f_s_k_e_t_c_h_item_8h" startline="24">Pre::FSKETCHItem::_name</references>
+        <references refid="class_pre_1_1_f_s_k_e_t_c_h_create2_d_circle_center_point_1a1698d4c2babefa625155a3fec37841d1" compoundref="_f_s_k_e_t_c_h_create2_d_circle_center_point_8h" startline="34">_startPoint</references>
+        <references refid="class_pre_1_1_f_sketch_1a0656c7068d8d8606fd98daf21fccb982" compoundref="_pre_manager_2ref_2_f_sketch_8cpp" startline="231" endline="238">Pre::FSketch::AddEntityNameReportName</references>
+        <references refid="class_pre_1_1_f_s_k_e_t_c_h_item_1ab77eb44d1c8b6cb802d230700fc642ca" compoundref="_f_s_k_e_t_c_h_item_8h" startline="12" endline="12">Pre::FSKETCHItem::GetFeatureSketch</references>
+      </memberdef>
+      <memberdef kind="function" id="class_pre_1_1_f_s_k_e_t_c_h_create2_d_circle_center_point_1a71d32cbc34487af884f14b60558316ad" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void Pre::FSKETCHCreate2DCircleCenterPoint::ConvertRadToDeg</definition>
+        <argsstring>(double x, double y)</argsstring>
+        <name>ConvertRadToDeg</name>
+        <param>
+          <type>double</type>
+          <declname>x</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>y</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/PreManager/ref/FSKETCHCreate2DCircleCenterPoint.h" line="23" column="1" bodyfile="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/PreManager/ref/FSKETCHCreate2DCircleCenterPoint.cpp" bodystart="123" bodyend="181"/>
+        <references refid="class_pre_1_1_f_s_k_e_t_c_h_create2_d_circle_center_point_1a5a47b4dcf0ba60f09d8d8ae036eb7982" compoundref="_f_s_k_e_t_c_h_create2_d_circle_center_point_8h" startline="27">_radius</references>
+        <references refid="class_pre_1_1_f_s_k_e_t_c_h_create2_d_circle_center_point_1a07fbef4e9399217e3106ffd959dcc20f" compoundref="_f_s_k_e_t_c_h_create2_d_circle_center_point_8h" startline="26">center</references>
+        <references refid="class_pre_1_1_f_s_k_e_t_c_h_create2_d_circle_center_point_1a5ba89d6974a06ad1e426f459c950743e" compoundref="_f_s_k_e_t_c_h_create2_d_circle_center_point_8h" startline="30">endPoint</references>
+        <references refid="class_pre_1_1_f_s_k_e_t_c_h_create2_d_circle_center_point_1afbc658bca80587b41f4fa7c5758295d1" compoundref="_f_s_k_e_t_c_h_create2_d_circle_center_point_8h" startline="30">startPoint</references>
+        <referencedby refid="class_pre_1_1_f_s_k_e_t_c_h_create2_d_circle_center_point_1a83ac5084fbf8a0ae0c75200ff3573046" compoundref="_f_s_k_e_t_c_h_create2_d_circle_center_point_8cpp" startline="69" endline="85">ToTransCAD</referencedby>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="940">
+        <label>Pre::FSKETCHItem</label>
+        <link refid="class_pre_1_1_f_s_k_e_t_c_h_item"/>
+      </node>
+      <node id="939">
+        <label>Pre::FSKETCHCreate2DCircleCenterPoint</label>
+        <link refid="class_pre_1_1_f_s_k_e_t_c_h_create2_d_circle_center_point"/>
+        <childnode refid="940" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="955">
+        <label>std::basic_ifstream&lt; char &gt;</label>
+        <childnode refid="956" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="948">
+        <label>std::vector&lt; Pre::ReferenceEntity * &gt;</label>
+        <childnode refid="949" relation="usage">
+          <edgelabel>elements</edgelabel>
+        </childnode>
+      </node>
+      <node id="959">
+        <label>std::vector&lt; Pre::SketchFeature &gt;</label>
+        <childnode refid="960" relation="usage">
+          <edgelabel>elements</edgelabel>
+        </childnode>
+      </node>
+      <node id="942">
+        <label>Pre::FSKETCHItem</label>
+        <link refid="class_pre_1_1_f_s_k_e_t_c_h_item"/>
+        <childnode refid="943" relation="usage">
+          <edgelabel>_name</edgelabel>
+        </childnode>
+        <childnode refid="945" relation="usage">
+          <edgelabel>_pFSketch</edgelabel>
+        </childnode>
+      </node>
+      <node id="964">
+        <label>std::vector&lt; Pre::FSKETCHItem * &gt;</label>
+        <childnode refid="942" relation="usage">
+          <edgelabel>elements</edgelabel>
+        </childnode>
+      </node>
+      <node id="956">
+        <label>std::basic_istream&lt; Char &gt;</label>
+        <childnode refid="957" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="941">
+        <label>Pre::FSKETCHCreate2DCircleCenterPoint</label>
+        <link refid="class_pre_1_1_f_s_k_e_t_c_h_create2_d_circle_center_point"/>
+        <childnode refid="942" relation="public-inheritance">
+        </childnode>
+        <childnode refid="943" relation="usage">
+          <edgelabel>_endPoint</edgelabel>
+          <edgelabel>_center</edgelabel>
+          <edgelabel>_startPoint</edgelabel>
+        </childnode>
+      </node>
+      <node id="963">
+        <label>std::vector&lt; Pre::Feature * &gt;</label>
+        <childnode refid="946" relation="usage">
+          <edgelabel>elements</edgelabel>
+        </childnode>
+      </node>
+      <node id="965">
+        <label>std::vector&lt; Pre::ReportItem &gt;</label>
+        <childnode refid="966" relation="usage">
+          <edgelabel>elements</edgelabel>
+        </childnode>
+      </node>
+      <node id="946">
+        <label>Pre::Feature</label>
+        <link refid="class_pre_1_1_feature"/>
+        <childnode refid="947" relation="usage">
+          <edgelabel>_pPart</edgelabel>
+        </childnode>
+        <childnode refid="943" relation="usage">
+          <edgelabel>_name</edgelabel>
+        </childnode>
+      </node>
+      <node id="950">
+        <label>std::vector&lt; FaceInfoList &gt;</label>
+      </node>
+      <node id="949">
+        <label>Pre::ReferenceEntity</label>
+        <link refid="class_pre_1_1_reference_entity"/>
+        <childnode refid="950" relation="usage">
+          <edgelabel>pEdge</edgelabel>
+        </childnode>
+        <childnode refid="947" relation="usage">
+          <edgelabel>_pPart</edgelabel>
+        </childnode>
+        <childnode refid="943" relation="usage">
+          <edgelabel>feature</edgelabel>
+          <edgelabel>TransCADEdgeName</edgelabel>
+          <edgelabel>TransCADFaceName</edgelabel>
+          <edgelabel>name</edgelabel>
+          <edgelabel>axis</edgelabel>
+        </childnode>
+        <childnode refid="951" relation="usage">
+          <edgelabel>pFace</edgelabel>
+        </childnode>
+        <childnode refid="945" relation="usage">
+          <edgelabel>pSketchManager</edgelabel>
+        </childnode>
+        <childnode refid="953" relation="usage">
+          <edgelabel>pWire</edgelabel>
+        </childnode>
+      </node>
+      <node id="944">
+        <label>std::basic_string&lt; char &gt;</label>
+      </node>
+      <node id="952">
+        <label>FaceInfo</label>
+        <link refid="struct_face_info"/>
+      </node>
+      <node id="966">
+        <label>Pre::ReportItem</label>
+        <link refid="struct_pre_1_1_report_item"/>
+        <childnode refid="943" relation="usage">
+          <edgelabel>_entityName</edgelabel>
+        </childnode>
+      </node>
+      <node id="953">
+        <label>WireInfo</label>
+        <link refid="struct_wire_info"/>
+      </node>
+      <node id="962">
+        <label>Pre::AttributeItem</label>
+        <link refid="class_pre_1_1_attribute_item"/>
+        <childnode refid="947" relation="usage">
+          <edgelabel>_pPart</edgelabel>
+        </childnode>
+        <childnode refid="943" relation="usage">
+          <edgelabel>_featureName</edgelabel>
+          <edgelabel>_name</edgelabel>
+          <edgelabel>_attributeName</edgelabel>
+        </childnode>
+      </node>
+      <node id="960">
+        <label>Pre::SketchFeature</label>
+        <link refid="struct_pre_1_1_sketch_feature"/>
+        <childnode refid="943" relation="usage">
+          <edgelabel>_featureName</edgelabel>
+          <edgelabel>_sketchName</edgelabel>
+        </childnode>
+      </node>
+      <node id="957">
+        <label>std::basic_ios&lt; Char &gt;</label>
+        <childnode refid="958" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="947">
+        <label>Pre::Part</label>
+        <link refid="class_pre_1_1_part"/>
+        <childnode refid="948" relation="usage">
+          <edgelabel>_referenceEntityList</edgelabel>
+        </childnode>
+        <childnode refid="954" relation="usage">
+          <edgelabel>fin</edgelabel>
+        </childnode>
+        <childnode refid="959" relation="usage">
+          <edgelabel>sketchNameTable</edgelabel>
+        </childnode>
+        <childnode refid="943" relation="usage">
+          <edgelabel>_fileName</edgelabel>
+          <edgelabel>_filePath</edgelabel>
+        </childnode>
+        <childnode refid="961" relation="usage">
+          <edgelabel>_attributeItemList</edgelabel>
+        </childnode>
+        <childnode refid="963" relation="usage">
+          <edgelabel>_featureList</edgelabel>
+        </childnode>
+      </node>
+      <node id="958">
+        <label>std::ios_base</label>
+      </node>
+      <node id="954">
+        <label>std::ifstream</label>
+        <childnode refid="955" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="961">
+        <label>std::vector&lt; Pre::AttributeItem * &gt;</label>
+        <childnode refid="962" relation="usage">
+          <edgelabel>elements</edgelabel>
+        </childnode>
+      </node>
+      <node id="951">
+        <label>std::vector&lt; FaceInfo &gt;</label>
+        <childnode refid="952" relation="usage">
+          <edgelabel>elements</edgelabel>
+        </childnode>
+      </node>
+      <node id="943">
+        <label>std::string</label>
+        <childnode refid="944" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="945">
+        <label>Pre::FSketch</label>
+        <link refid="class_pre_1_1_f_sketch"/>
+        <childnode refid="946" relation="public-inheritance">
+        </childnode>
+        <childnode refid="964" relation="usage">
+          <edgelabel>_sketchItemList</edgelabel>
+        </childnode>
+        <childnode refid="949" relation="usage">
+          <edgelabel>_pReferenceEntity</edgelabel>
+        </childnode>
+        <childnode refid="943" relation="usage">
+          <edgelabel>_axisName</edgelabel>
+          <edgelabel>_factoryName</edgelabel>
+        </childnode>
+        <childnode refid="965" relation="usage">
+          <edgelabel>reportNameTable</edgelabel>
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/PreManager/ref/FSKETCHCreate2DCircleCenterPoint.h" line="5" column="1" bodyfile="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/PreManager/ref/FSKETCHCreate2DCircleCenterPoint.h" bodystart="4" bodyend="36"/>
+    <listofallmembers>
+      <member refid="class_pre_1_1_f_s_k_e_t_c_h_create2_d_circle_center_point_1a3b5b42bb64988b3a1eb6a19da34c392a" prot="protected" virt="non-virtual"><scope>Pre::FSKETCHCreate2DCircleCenterPoint</scope><name>_center</name></member>
+      <member refid="class_pre_1_1_f_s_k_e_t_c_h_item_1ab2dc1d55175553b6cb7ae2b1d0b44992" prot="protected" virt="non-virtual"><scope>Pre::FSKETCHCreate2DCircleCenterPoint</scope><name>_centerLineInfo</name></member>
+      <member refid="class_pre_1_1_f_s_k_e_t_c_h_create2_d_circle_center_point_1a58b64318524109a368556a6a0769895c" prot="protected" virt="non-virtual"><scope>Pre::FSKETCHCreate2DCircleCenterPoint</scope><name>_endAngle</name></member>
+      <member refid="class_pre_1_1_f_s_k_e_t_c_h_create2_d_circle_center_point_1aabd22d1214c4eee40eb77175acc2b989" prot="protected" virt="non-virtual"><scope>Pre::FSKETCHCreate2DCircleCenterPoint</scope><name>_endPoint</name></member>
+      <member refid="class_pre_1_1_f_s_k_e_t_c_h_item_1a58472d1aa8c47958f3d8e79cc6f18ec1" prot="protected" virt="non-virtual"><scope>Pre::FSKETCHCreate2DCircleCenterPoint</scope><name>_id</name></member>
+      <member refid="class_pre_1_1_f_s_k_e_t_c_h_item_1ab3262c5a79567120c19b2cc3f1cf1e14" prot="protected" virt="non-virtual"><scope>Pre::FSKETCHCreate2DCircleCenterPoint</scope><name>_name</name></member>
+      <member refid="class_pre_1_1_f_s_k_e_t_c_h_item_1a3af56aa70077d32552e6ddb4cbeaac64" prot="protected" virt="non-virtual"><scope>Pre::FSKETCHCreate2DCircleCenterPoint</scope><name>_pFSketch</name></member>
+      <member refid="class_pre_1_1_f_s_k_e_t_c_h_create2_d_circle_center_point_1a5a47b4dcf0ba60f09d8d8ae036eb7982" prot="protected" virt="non-virtual"><scope>Pre::FSKETCHCreate2DCircleCenterPoint</scope><name>_radius</name></member>
+      <member refid="class_pre_1_1_f_s_k_e_t_c_h_create2_d_circle_center_point_1a73e3a84a2f4e3de73a1d5595381a91bc" prot="protected" virt="non-virtual"><scope>Pre::FSKETCHCreate2DCircleCenterPoint</scope><name>_startAngle</name></member>
+      <member refid="class_pre_1_1_f_s_k_e_t_c_h_create2_d_circle_center_point_1a1698d4c2babefa625155a3fec37841d1" prot="protected" virt="non-virtual"><scope>Pre::FSKETCHCreate2DCircleCenterPoint</scope><name>_startPoint</name></member>
+      <member refid="class_pre_1_1_f_s_k_e_t_c_h_item_1a504884b15e6f9fc4d949fded992512db" prot="protected" virt="non-virtual"><scope>Pre::FSKETCHCreate2DCircleCenterPoint</scope><name>_type</name></member>
+      <member refid="class_pre_1_1_f_s_k_e_t_c_h_create2_d_circle_center_point_1a07fbef4e9399217e3106ffd959dcc20f" prot="protected" virt="non-virtual"><scope>Pre::FSKETCHCreate2DCircleCenterPoint</scope><name>center</name></member>
+      <member refid="class_pre_1_1_f_s_k_e_t_c_h_create2_d_circle_center_point_1a9aac863d0de1474428b406388a420250" prot="protected" virt="non-virtual"><scope>Pre::FSKETCHCreate2DCircleCenterPoint</scope><name>circleType</name></member>
+      <member refid="class_pre_1_1_f_s_k_e_t_c_h_create2_d_circle_center_point_1a71d32cbc34487af884f14b60558316ad" prot="public" virt="virtual"><scope>Pre::FSKETCHCreate2DCircleCenterPoint</scope><name>ConvertRadToDeg</name></member>
+      <member refid="class_pre_1_1_f_s_k_e_t_c_h_create2_d_circle_center_point_1adaefaa8cb2a9d8dc6b53587dfaff4e96" prot="protected" virt="non-virtual"><scope>Pre::FSKETCHCreate2DCircleCenterPoint</scope><name>endAngle</name></member>
+      <member refid="class_pre_1_1_f_s_k_e_t_c_h_create2_d_circle_center_point_1a5ba89d6974a06ad1e426f459c950743e" prot="protected" virt="non-virtual"><scope>Pre::FSKETCHCreate2DCircleCenterPoint</scope><name>endPoint</name></member>
+      <member refid="class_pre_1_1_f_s_k_e_t_c_h_create2_d_circle_center_point_1a79dd2626a5fec9c9a4cf793b546f2650" prot="public" virt="non-virtual"><scope>Pre::FSKETCHCreate2DCircleCenterPoint</scope><name>FSKETCHCreate2DCircleCenterPoint</name></member>
+      <member refid="class_pre_1_1_f_s_k_e_t_c_h_item_1af829b0b4c881b07e2b62bfe4ecf28583" prot="public" virt="non-virtual"><scope>Pre::FSKETCHCreate2DCircleCenterPoint</scope><name>FSKETCHItem</name></member>
+      <member refid="class_pre_1_1_f_s_k_e_t_c_h_create2_d_circle_center_point_1a99df820d39b3f066880ad6fb3e8c4c6b" prot="public" virt="non-virtual"><scope>Pre::FSKETCHCreate2DCircleCenterPoint</scope><name>GetCenterPoint</name></member>
+      <member refid="class_pre_1_1_f_s_k_e_t_c_h_create2_d_circle_center_point_1adfcbdcc4a6deb36d34e325d56d7c41fa" prot="public" virt="non-virtual"><scope>Pre::FSKETCHCreate2DCircleCenterPoint</scope><name>GetEndPoint</name></member>
+      <member refid="class_pre_1_1_f_s_k_e_t_c_h_create2_d_circle_center_point_1ab4a5c2554b3f55e0cb2f7b53420d738b" prot="public" virt="non-virtual"><scope>Pre::FSKETCHCreate2DCircleCenterPoint</scope><name>GetEndPointName</name></member>
+      <member refid="class_pre_1_1_f_s_k_e_t_c_h_item_1ab77eb44d1c8b6cb802d230700fc642ca" prot="public" virt="non-virtual"><scope>Pre::FSKETCHCreate2DCircleCenterPoint</scope><name>GetFeatureSketch</name></member>
+      <member refid="class_pre_1_1_f_s_k_e_t_c_h_create2_d_circle_center_point_1aaecfc342c075fdc45a89f12ebe387ea8" prot="public" virt="virtual"><scope>Pre::FSKETCHCreate2DCircleCenterPoint</scope><name>GetInfo</name></member>
+      <member refid="class_pre_1_1_f_s_k_e_t_c_h_create2_d_circle_center_point_1a3eb4cae857cd127e43ee0fa0234c1899" prot="public" virt="non-virtual"><scope>Pre::FSKETCHCreate2DCircleCenterPoint</scope><name>GetRadius</name></member>
+      <member refid="class_pre_1_1_f_s_k_e_t_c_h_item_1a7a52b5f35e067c93c5c6fd6c319cfd6f" prot="public" virt="non-virtual"><scope>Pre::FSKETCHCreate2DCircleCenterPoint</scope><name>GetSketchItemName</name></member>
+      <member refid="class_pre_1_1_f_s_k_e_t_c_h_item_1a89da279ae4b90d0e323709d16e87e8d0" prot="public" virt="non-virtual"><scope>Pre::FSKETCHCreate2DCircleCenterPoint</scope><name>GetSketchItemType</name></member>
+      <member refid="class_pre_1_1_f_s_k_e_t_c_h_create2_d_circle_center_point_1a62ee9f61a0fffedfb83e26371c76e95e" prot="public" virt="non-virtual"><scope>Pre::FSKETCHCreate2DCircleCenterPoint</scope><name>GetStartPoint</name></member>
+      <member refid="class_pre_1_1_f_s_k_e_t_c_h_create2_d_circle_center_point_1a65164055ce884cd212ef1cc2310dfd61" prot="public" virt="non-virtual"><scope>Pre::FSKETCHCreate2DCircleCenterPoint</scope><name>GetStartPointName</name></member>
+      <member refid="class_pre_1_1_f_s_k_e_t_c_h_create2_d_circle_center_point_1adced1f6d2bbdebd24a2c38492b00a507" prot="public" virt="virtual"><scope>Pre::FSKETCHCreate2DCircleCenterPoint</scope><name>Modify</name></member>
+      <member refid="class_pre_1_1_f_s_k_e_t_c_h_item_1ae20aaa450f8d9533ecbb5a9f2a368ddd" prot="public" virt="non-virtual"><scope>Pre::FSKETCHCreate2DCircleCenterPoint</scope><name>SetCenterLineInfo</name></member>
+      <member refid="class_pre_1_1_f_s_k_e_t_c_h_create2_d_circle_center_point_1a66b4ba8672bbf1a93bfb495935c9fc7c" prot="public" virt="non-virtual"><scope>Pre::FSKETCHCreate2DCircleCenterPoint</scope><name>SetEndPoint</name></member>
+      <member refid="class_pre_1_1_f_s_k_e_t_c_h_create2_d_circle_center_point_1a5f62518be45a9f4adb0afde8a36d4459" prot="public" virt="non-virtual"><scope>Pre::FSKETCHCreate2DCircleCenterPoint</scope><name>SetStartPoint</name></member>
+      <member refid="class_pre_1_1_f_s_k_e_t_c_h_create2_d_circle_center_point_1a5cd8655e747a4e04a5fe8d933c041422" prot="protected" virt="non-virtual"><scope>Pre::FSKETCHCreate2DCircleCenterPoint</scope><name>startAngle</name></member>
+      <member refid="class_pre_1_1_f_s_k_e_t_c_h_create2_d_circle_center_point_1afbc658bca80587b41f4fa7c5758295d1" prot="protected" virt="non-virtual"><scope>Pre::FSKETCHCreate2DCircleCenterPoint</scope><name>startPoint</name></member>
+      <member refid="class_pre_1_1_f_s_k_e_t_c_h_create2_d_circle_center_point_1a83ac5084fbf8a0ae0c75200ff3573046" prot="public" virt="virtual"><scope>Pre::FSKETCHCreate2DCircleCenterPoint</scope><name>ToTransCAD</name></member>
+      <member refid="class_pre_1_1_f_s_k_e_t_c_h_create2_d_circle_center_point_1a3ca90330fd598029a56515b90ff2cc63" prot="public" virt="virtual"><scope>Pre::FSKETCHCreate2DCircleCenterPoint</scope><name>~FSKETCHCreate2DCircleCenterPoint</name></member>
+      <member refid="class_pre_1_1_f_s_k_e_t_c_h_item_1a9b4f3fb30a72890c9252e8ca1a365f70" prot="public" virt="non-virtual"><scope>Pre::FSKETCHCreate2DCircleCenterPoint</scope><name>~FSKETCHItem</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

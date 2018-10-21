@@ -1,0 +1,222 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="_feature_s_o_l_i_d_create_protrusion_sweep_8cpp" kind="file">
+    <compoundname>FeatureSOLIDCreateProtrusionSweep.cpp</compoundname>
+    <includes local="yes">stdafx.h</includes>
+    <includes refid="_feature_s_o_l_i_d_create_protrusion_sweep_8h" local="yes">FeatureSOLIDCreateProtrusionSweep.h</includes>
+    <includes refid="_post_manager_2ref_2_f_sketch_8h" local="yes">FSketch.h</includes>
+    <incdepgraph>
+      <node id="1793">
+        <label>atlstr.h</label>
+      </node>
+      <node id="1809">
+        <label>FSketch.h</label>
+        <link refid="_post_manager_2ref_2_f_sketch_8h"/>
+        <childnode refid="1789" relation="include">
+        </childnode>
+      </node>
+      <node id="1789">
+        <label>Feature.h</label>
+        <link refid="_post_manager_2ref_2_feature_8h"/>
+        <childnode refid="1790" relation="include">
+        </childnode>
+      </node>
+      <node id="1787">
+        <label>stdafx.h</label>
+      </node>
+      <node id="1799">
+        <label>stdlib.h</label>
+      </node>
+      <node id="1801">
+        <label>cmath</label>
+      </node>
+      <node id="1795">
+        <label>string</label>
+      </node>
+      <node id="1800">
+        <label>comutil.h</label>
+      </node>
+      <node id="1796">
+        <label>fstream</label>
+      </node>
+      <node id="1790">
+        <label>Part.h</label>
+        <link refid="_post_manager_2ref_2_part_8h"/>
+        <childnode refid="1791" relation="include">
+        </childnode>
+        <childnode refid="1804" relation="include">
+        </childnode>
+      </node>
+      <node id="1808">
+        <label>MP_Utility.h</label>
+        <link refid="_m_p___utility_8h"/>
+        <childnode refid="1805" relation="include">
+        </childnode>
+      </node>
+      <node id="1788">
+        <label>FeatureSOLIDCreateProtrusionSweep.h</label>
+        <link refid="_feature_s_o_l_i_d_create_protrusion_sweep_8h"/>
+        <childnode refid="1789" relation="include">
+        </childnode>
+      </node>
+      <node id="1807">
+        <label>string.h</label>
+      </node>
+      <node id="1797">
+        <label>vector</label>
+      </node>
+      <node id="1803">
+        <label>math.h</label>
+      </node>
+      <node id="1792">
+        <label>atlbase.h</label>
+      </node>
+      <node id="1804">
+        <label>CATIAReferenceManager.h</label>
+        <link refid="_c_a_t_i_a_reference_manager_8h"/>
+        <childnode refid="1791" relation="include">
+        </childnode>
+        <childnode refid="1805" relation="include">
+        </childnode>
+        <childnode refid="1808" relation="include">
+        </childnode>
+      </node>
+      <node id="1794">
+        <label>iostream</label>
+      </node>
+      <node id="1802">
+        <label>Definition.h</label>
+        <link refid="_post_manager_2ref_2_definition_8h"/>
+        <childnode refid="1803" relation="include">
+        </childnode>
+      </node>
+      <node id="1786">
+        <label>PostManager/ref/FeatureSOLIDCreateProtrusionSweep.cpp</label>
+        <link refid="FeatureSOLIDCreateProtrusionSweep.cpp"/>
+        <childnode refid="1787" relation="include">
+        </childnode>
+        <childnode refid="1788" relation="include">
+        </childnode>
+        <childnode refid="1809" relation="include">
+        </childnode>
+      </node>
+      <node id="1806">
+        <label>algorithm</label>
+      </node>
+      <node id="1798">
+        <label>stdio.h</label>
+      </node>
+      <node id="1805">
+        <label>PN_TYPE.h</label>
+        <link refid="_p_n___t_y_p_e_8h"/>
+        <childnode refid="1794" relation="include">
+        </childnode>
+        <childnode refid="1795" relation="include">
+        </childnode>
+        <childnode refid="1797" relation="include">
+        </childnode>
+        <childnode refid="1806" relation="include">
+        </childnode>
+        <childnode refid="1803" relation="include">
+        </childnode>
+        <childnode refid="1807" relation="include">
+        </childnode>
+      </node>
+      <node id="1791">
+        <label>CATIApost_DLL.h</label>
+        <link refid="_c_a_t_i_apost___d_l_l_8h"/>
+        <childnode refid="1792" relation="include">
+        </childnode>
+        <childnode refid="1793" relation="include">
+        </childnode>
+        <childnode refid="1794" relation="include">
+        </childnode>
+        <childnode refid="1795" relation="include">
+        </childnode>
+        <childnode refid="1796" relation="include">
+        </childnode>
+        <childnode refid="1797" relation="include">
+        </childnode>
+        <childnode refid="1798" relation="include">
+        </childnode>
+        <childnode refid="1799" relation="include">
+        </childnode>
+        <childnode refid="1800" relation="include">
+        </childnode>
+        <childnode refid="1801" relation="include">
+        </childnode>
+        <childnode refid="1802" relation="include">
+        </childnode>
+      </node>
+    </incdepgraph>
+    <innernamespace refid="namespace_post">Post</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="preprocessor">#include<sp/>&quot;stdafx.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="_feature_s_o_l_i_d_create_protrusion_sweep_8h" kindref="compound">FeatureSOLIDCreateProtrusionSweep.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="_post_manager_2ref_2_f_sketch_8h" kindref="compound">FSketch.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal">Post<sp/>{</highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight></codeline>
+<codeline lineno="6" refid="class_post_1_1_feature_s_o_l_i_d_create_protrusion_sweep_1a7edf2f7a247bc9388b18f12784515401" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="class_post_1_1_feature_s_o_l_i_d_create_protrusion_sweep_1a7edf2f7a247bc9388b18f12784515401" kindref="member">FeatureSOLIDCreateProtrusionSweep::FeatureSOLIDCreateProtrusionSweep</ref>(<ref refid="class_post_1_1_part" kindref="compound">Part</ref><sp/>*<sp/>pPart,<sp/>TransCAD::IFeaturePtr<sp/>spFeature)</highlight></codeline>
+<codeline lineno="7"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>:<sp/><ref refid="class_post_1_1_feature" kindref="compound">Feature</ref>(pPart,<sp/>spFeature)</highlight></codeline>
+<codeline lineno="8"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="9"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="10"><highlight class="normal"></highlight></codeline>
+<codeline lineno="11" refid="class_post_1_1_feature_s_o_l_i_d_create_protrusion_sweep_1af6de1e623396e854c021c119e19ae420" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="class_post_1_1_feature_s_o_l_i_d_create_protrusion_sweep_1af6de1e623396e854c021c119e19ae420" kindref="member">FeatureSOLIDCreateProtrusionSweep::~FeatureSOLIDCreateProtrusionSweep</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">)</highlight></codeline>
+<codeline lineno="12"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="13"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="14"><highlight class="normal"></highlight></codeline>
+<codeline lineno="15" refid="class_post_1_1_feature_s_o_l_i_d_create_protrusion_sweep_1a39ec993074d8213a73d1b2357d4bb1a3" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_post_1_1_feature_s_o_l_i_d_create_protrusion_sweep_1a39ec993074d8213a73d1b2357d4bb1a3" kindref="member">FeatureSOLIDCreateProtrusionSweep::GetInfo</ref>()</highlight></codeline>
+<codeline lineno="16"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="17"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>TransCAD::IStdSolidProtrusionSweepFeaturePtr<sp/>spFeature<sp/>=<sp/><ref refid="class_post_1_1_feature_1a252ade4e8188c192beaf03a8abbdca65" kindref="member">GetTransCADFeature</ref>();</highlight></codeline>
+<codeline lineno="18"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>TransCAD::IReferencePtr<sp/>spProfile<sp/>=<sp/>spFeature-&gt;ProfileSketch;</highlight></codeline>
+<codeline lineno="19"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>TransCAD::IReferencePtr<sp/>spGuide<sp/>=<sp/>spFeature-&gt;GuideCurve;</highlight></codeline>
+<codeline lineno="20"><highlight class="normal"></highlight></codeline>
+<codeline lineno="21"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">string</highlight><highlight class="normal"><sp/>profileName<sp/>=<sp/>spProfile-&gt;ReferenceeName;</highlight></codeline>
+<codeline lineno="22"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">string</highlight><highlight class="normal"><sp/>guideName<sp/>=<sp/>spGuide-&gt;ReferenceeName;</highlight></codeline>
+<codeline lineno="23"><highlight class="normal"></highlight></codeline>
+<codeline lineno="24"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>cout<sp/>&lt;&lt;<sp/></highlight><highlight class="stringliteral">&quot;<sp/>sweep<sp/>profilesketch<sp/>name<sp/>=<sp/>&quot;</highlight><highlight class="normal"><sp/>&lt;&lt;<sp/>profileName<sp/>&lt;&lt;<sp/>endl;</highlight></codeline>
+<codeline lineno="25"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>cout<sp/>&lt;&lt;<sp/></highlight><highlight class="stringliteral">&quot;<sp/>sweep<sp/>guidesketch<sp/>name<sp/>=<sp/>&quot;</highlight><highlight class="normal"><sp/>&lt;&lt;<sp/>guideName<sp/>&lt;&lt;<sp/>endl;</highlight></codeline>
+<codeline lineno="26"><highlight class="normal"></highlight></codeline>
+<codeline lineno="27"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_post_1_1_feature_s_o_l_i_d_create_protrusion_sweep_1a367f6781c8bf4f0d113847bed3ad74c9" kindref="member">_profileSketch</ref><sp/>=<sp/>(<ref refid="class_post_1_1_f_sketch" kindref="compound">FSketch</ref>*)(<ref refid="class_post_1_1_feature_1aace9d720d9a16b17c62ab6b4b91cea3c" kindref="member">GetPart</ref>()-&gt;<ref refid="class_post_1_1_part_1a07f75907c17887e5f7576fb9d726a469" kindref="member">GetFeatureByName</ref>(profileName));</highlight></codeline>
+<codeline lineno="28"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_post_1_1_feature_s_o_l_i_d_create_protrusion_sweep_1a860f2ed384d1b40fba6253e7b5deefc4" kindref="member">_guideSketch</ref><sp/>=<sp/>(<ref refid="class_post_1_1_f_sketch" kindref="compound">FSketch</ref>*)(<ref refid="class_post_1_1_feature_1aace9d720d9a16b17c62ab6b4b91cea3c" kindref="member">GetPart</ref>()-&gt;<ref refid="class_post_1_1_part_1a07f75907c17887e5f7576fb9d726a469" kindref="member">GetFeatureByName</ref>(guideName));</highlight></codeline>
+<codeline lineno="29"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="30"><highlight class="normal"></highlight></codeline>
+<codeline lineno="31" refid="class_post_1_1_feature_s_o_l_i_d_create_protrusion_sweep_1ad9d12144ce67b131f9d8b856abb32495" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_post_1_1_feature_s_o_l_i_d_create_protrusion_sweep_1ad9d12144ce67b131f9d8b856abb32495" kindref="member">FeatureSOLIDCreateProtrusionSweep::ToCATIA</ref>()</highlight></codeline>
+<codeline lineno="32"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="33"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="_c_a_t_i_apost___d_l_l_8cpp_1a4a001227aeffed8767cfd035c687e1ca" kindref="member">ref_index</ref>;</highlight></codeline>
+<codeline lineno="34"><highlight class="normal"></highlight></codeline>
+<codeline lineno="35"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>profilesktchNum;</highlight></codeline>
+<codeline lineno="36"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(!<ref refid="namespace_post_1a757521acb19b64cd9a29879d6c5a7d5f" kindref="member">g_pRefManager</ref>-&gt;<ref refid="class_post_1_1_c_a_t_i_a_reference_manager_1ab00159c9905b3d3d14361f390db87e48" kindref="member">GetFeatureIDByTransCADName</ref>(std::string(<ref refid="class_post_1_1_feature_s_o_l_i_d_create_protrusion_sweep_1a367f6781c8bf4f0d113847bed3ad74c9" kindref="member">_profileSketch</ref>-&gt;<ref refid="class_post_1_1_feature_1a252ade4e8188c192beaf03a8abbdca65" kindref="member">GetTransCADFeature</ref>()-&gt;GetName()),<sp/>profilesktchNum))</highlight></codeline>
+<codeline lineno="37"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="38"><highlight class="normal"></highlight></codeline>
+<codeline lineno="39"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>guidesktchNum;</highlight></codeline>
+<codeline lineno="40"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(!<ref refid="namespace_post_1a757521acb19b64cd9a29879d6c5a7d5f" kindref="member">g_pRefManager</ref>-&gt;<ref refid="class_post_1_1_c_a_t_i_a_reference_manager_1ab00159c9905b3d3d14361f390db87e48" kindref="member">GetFeatureIDByTransCADName</ref>(std::string(<ref refid="class_post_1_1_feature_s_o_l_i_d_create_protrusion_sweep_1a860f2ed384d1b40fba6253e7b5deefc4" kindref="member">_guideSketch</ref>-&gt;<ref refid="class_post_1_1_feature_1a252ade4e8188c192beaf03a8abbdca65" kindref="member">GetTransCADFeature</ref>()-&gt;GetName()),<sp/>guidesktchNum))</highlight></codeline>
+<codeline lineno="41"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="42"><highlight class="normal"></highlight></codeline>
+<codeline lineno="43"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>ribID<sp/>=<sp/>1;</highlight></codeline>
+<codeline lineno="44"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(!<ref refid="namespace_post_1a757521acb19b64cd9a29879d6c5a7d5f" kindref="member">g_pRefManager</ref>-&gt;<ref refid="class_post_1_1_c_a_t_i_a_reference_manager_1ab00159c9905b3d3d14361f390db87e48" kindref="member">GetFeatureIDByTransCADName</ref>(std::string(<ref refid="class_post_1_1_feature_1a9d39434cf1acdc737198fefcf8b32e67" kindref="member">_spFeature</ref>-&gt;GetName()),<sp/>ribID))</highlight></codeline>
+<codeline lineno="45"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="46"><highlight class="normal"></highlight></codeline>
+<codeline lineno="47"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>fprintf(<ref refid="class_post_1_1_feature_1aace9d720d9a16b17c62ab6b4b91cea3c" kindref="member">GetPart</ref>()-&gt;file,<sp/></highlight><highlight class="stringliteral">&quot;Dim<sp/>reference%d<sp/>As<sp/>Reference\n&quot;</highlight><highlight class="normal">,<sp/>ref_index);</highlight></codeline>
+<codeline lineno="48"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>fprintf(<ref refid="class_post_1_1_feature_1aace9d720d9a16b17c62ab6b4b91cea3c" kindref="member">GetPart</ref>()-&gt;file,<sp/></highlight><highlight class="stringliteral">&quot;Set<sp/>reference%d<sp/>=<sp/>part1.CreateReferenceFromObject(sketch%d)\n\n&quot;</highlight><highlight class="normal">,<sp/>ref_index,<sp/>profilesktchNum);</highlight></codeline>
+<codeline lineno="49"><highlight class="normal"></highlight></codeline>
+<codeline lineno="50"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>ref_index<sp/>+=<sp/>1;</highlight></codeline>
+<codeline lineno="51"><highlight class="normal"></highlight></codeline>
+<codeline lineno="52"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>fprintf(<ref refid="class_post_1_1_feature_1aace9d720d9a16b17c62ab6b4b91cea3c" kindref="member">GetPart</ref>()-&gt;file,<sp/></highlight><highlight class="stringliteral">&quot;Dim<sp/>reference%d<sp/>As<sp/>Reference\n&quot;</highlight><highlight class="normal">,<sp/>ref_index);</highlight></codeline>
+<codeline lineno="53"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>fprintf(<ref refid="class_post_1_1_feature_1aace9d720d9a16b17c62ab6b4b91cea3c" kindref="member">GetPart</ref>()-&gt;file,<sp/></highlight><highlight class="stringliteral">&quot;Set<sp/>reference%d<sp/>=<sp/>part1.CreateReferenceFromObject(sketch%d)\n\n&quot;</highlight><highlight class="normal">,<sp/>ref_index,<sp/>guidesktchNum);</highlight></codeline>
+<codeline lineno="54"><highlight class="normal"></highlight></codeline>
+<codeline lineno="55"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>fprintf(<ref refid="class_post_1_1_feature_1aace9d720d9a16b17c62ab6b4b91cea3c" kindref="member">GetPart</ref>()-&gt;file,<sp/></highlight><highlight class="stringliteral">&quot;Dim<sp/>rib%d<sp/>As<sp/>Rib\n&quot;</highlight><highlight class="normal">,<sp/>ribID);</highlight></codeline>
+<codeline lineno="56"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>fprintf(<ref refid="class_post_1_1_feature_1aace9d720d9a16b17c62ab6b4b91cea3c" kindref="member">GetPart</ref>()-&gt;file,<sp/></highlight><highlight class="stringliteral">&quot;Set<sp/>rib%d<sp/>=<sp/>shapeFactory1.AddNewRibFromRef(reference%d,<sp/>reference%d)\n\n&quot;</highlight><highlight class="normal">,<sp/>ribID,<sp/>ref_index<sp/>-<sp/>1,<sp/>ref_index);</highlight></codeline>
+<codeline lineno="57"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>fprintf(<ref refid="class_post_1_1_feature_1aace9d720d9a16b17c62ab6b4b91cea3c" kindref="member">GetPart</ref>()-&gt;file,<sp/></highlight><highlight class="stringliteral">&quot;part1.UpdateObject<sp/>rib%d\n\n&quot;</highlight><highlight class="normal">,<sp/>ribID);</highlight></codeline>
+<codeline lineno="58"><highlight class="normal"></highlight></codeline>
+<codeline lineno="59"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>ref_index++;</highlight></codeline>
+<codeline lineno="60"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="61"><highlight class="normal">}</highlight></codeline>
+    </programlisting>
+    <location file="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/PostManager/ref/FeatureSOLIDCreateProtrusionSweep.cpp"/>
+  </compounddef>
+</doxygen>

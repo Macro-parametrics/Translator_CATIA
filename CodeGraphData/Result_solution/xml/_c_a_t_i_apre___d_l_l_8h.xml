@@ -1,0 +1,607 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="_c_a_t_i_apre___d_l_l_8h" kind="file">
+    <compoundname>CATIApre_DLL.h</compoundname>
+    <includes local="no">stdio.h</includes>
+    <includes local="no">tchar.h</includes>
+    <includes local="no">string</includes>
+    <includes local="no">string.h</includes>
+    <includes local="no">iostream</includes>
+    <includes local="no">fstream</includes>
+    <includes local="no">vector</includes>
+    <includes local="no">cmath</includes>
+    <includes local="no">math.h</includes>
+    <includes local="no">sstream</includes>
+    <includes local="no">comutil.h</includes>
+    <includes local="no">comdef.h</includes>
+    <includes refid="_pre_manager_2ref_2_definition_8h" local="yes">Definition.h</includes>
+    <includedby refid="_pre_manager_2ref_2_part_8h" local="yes">PreManager/ref/Part.h</includedby>
+    <includedby refid="_reference_class_8h" local="yes">CPPWITHCSHARP/ReferenceClass.h</includedby>
+    <includedby refid="_c_a_t_i_apre___d_l_l_8cpp" local="yes">PreManager/ref/CATIApre_DLL.cpp</includedby>
+    <incdepgraph>
+      <node id="3193">
+        <label>strstream</label>
+      </node>
+      <node id="3187">
+        <label>cmath</label>
+      </node>
+      <node id="3182">
+        <label>string</label>
+      </node>
+      <node id="3191">
+        <label>comdef.h</label>
+      </node>
+      <node id="3190">
+        <label>comutil.h</label>
+      </node>
+      <node id="3185">
+        <label>fstream</label>
+      </node>
+      <node id="3183">
+        <label>string.h</label>
+      </node>
+      <node id="3179">
+        <label>PreManager/ref/CATIApre_DLL.h</label>
+        <link refid="CATIApre_DLL.h"/>
+        <childnode refid="3180" relation="include">
+        </childnode>
+        <childnode refid="3181" relation="include">
+        </childnode>
+        <childnode refid="3182" relation="include">
+        </childnode>
+        <childnode refid="3183" relation="include">
+        </childnode>
+        <childnode refid="3184" relation="include">
+        </childnode>
+        <childnode refid="3185" relation="include">
+        </childnode>
+        <childnode refid="3186" relation="include">
+        </childnode>
+        <childnode refid="3187" relation="include">
+        </childnode>
+        <childnode refid="3188" relation="include">
+        </childnode>
+        <childnode refid="3189" relation="include">
+        </childnode>
+        <childnode refid="3190" relation="include">
+        </childnode>
+        <childnode refid="3191" relation="include">
+        </childnode>
+        <childnode refid="3192" relation="include">
+        </childnode>
+      </node>
+      <node id="3186">
+        <label>vector</label>
+      </node>
+      <node id="3189">
+        <label>sstream</label>
+      </node>
+      <node id="3188">
+        <label>math.h</label>
+      </node>
+      <node id="3184">
+        <label>iostream</label>
+      </node>
+      <node id="3181">
+        <label>tchar.h</label>
+      </node>
+      <node id="3192">
+        <label>Definition.h</label>
+        <link refid="_pre_manager_2ref_2_definition_8h"/>
+        <childnode refid="3193" relation="include">
+        </childnode>
+        <childnode refid="3184" relation="include">
+        </childnode>
+        <childnode refid="3188" relation="include">
+        </childnode>
+      </node>
+      <node id="3180">
+        <label>stdio.h</label>
+      </node>
+    </incdepgraph>
+    <invincdepgraph>
+      <node id="3221">
+        <label>PreManager/ref/FSKETCHCreate2DLine2Points.cpp</label>
+        <link refid="_f_s_k_e_t_c_h_create2_d_line2_points_8cpp"/>
+      </node>
+      <node id="3241">
+        <label>PreManager/ref/FDatumPlaneOffset.h</label>
+        <link refid="_pre_manager_2ref_2_f_datum_plane_offset_8h"/>
+        <childnode refid="3203" relation="include">
+        </childnode>
+        <childnode refid="3213" relation="include">
+        </childnode>
+      </node>
+      <node id="3224">
+        <label>PreManager/ref/FSKETCHItem.cpp</label>
+        <link refid="_f_s_k_e_t_c_h_item_8cpp"/>
+      </node>
+      <node id="3212">
+        <label>PreManager/ref/FSketch.cpp</label>
+        <link refid="_pre_manager_2ref_2_f_sketch_8cpp"/>
+      </node>
+      <node id="3197">
+        <label>CPPWITHCSHARP/ReferenceClass.cpp</label>
+        <link refid="_reference_class_8cpp"/>
+      </node>
+      <node id="3206">
+        <label>PreManager/ref/FeatureSOLIDCreateFilletConstant.cpp</label>
+        <link refid="_pre_manager_2ref_2_feature_s_o_l_i_d_create_fillet_constant_8cpp"/>
+      </node>
+      <node id="3235">
+        <label>PreManager/ref/AttLimit.cpp</label>
+        <link refid="_att_limit_8cpp"/>
+      </node>
+      <node id="3242">
+        <label>PreManager/ref/Feature.cpp</label>
+        <link refid="_pre_manager_2ref_2_feature_8cpp"/>
+      </node>
+      <node id="3238">
+        <label>PreManager/ref/AttParameter.h</label>
+        <link refid="_att_parameter_8h"/>
+        <childnode refid="3239" relation="include">
+        </childnode>
+        <childnode refid="3213" relation="include">
+        </childnode>
+      </node>
+      <node id="3226">
+        <label>PreManager/ref/AttAngle.h</label>
+        <link refid="_att_angle_8h"/>
+        <childnode refid="3227" relation="include">
+        </childnode>
+        <childnode refid="3213" relation="include">
+        </childnode>
+      </node>
+      <node id="3245">
+        <label>PreManager/ref/FeatureSOLIDCreateFilletConstant.h</label>
+        <link refid="_pre_manager_2ref_2_feature_s_o_l_i_d_create_fillet_constant_8h"/>
+        <childnode refid="3206" relation="include">
+        </childnode>
+        <childnode refid="3213" relation="include">
+        </childnode>
+      </node>
+      <node id="3215">
+        <label>PreManager/ref/Feature.h</label>
+        <link refid="_pre_manager_2ref_2_feature_8h"/>
+        <childnode refid="3216" relation="include">
+        </childnode>
+        <childnode refid="3225" relation="include">
+        </childnode>
+        <childnode refid="3241" relation="include">
+        </childnode>
+        <childnode refid="3242" relation="include">
+        </childnode>
+        <childnode refid="3243" relation="include">
+        </childnode>
+        <childnode refid="3244" relation="include">
+        </childnode>
+        <childnode refid="3245" relation="include">
+        </childnode>
+        <childnode refid="3246" relation="include">
+        </childnode>
+        <childnode refid="3247" relation="include">
+        </childnode>
+        <childnode refid="3248" relation="include">
+        </childnode>
+        <childnode refid="3249" relation="include">
+        </childnode>
+        <childnode refid="3250" relation="include">
+        </childnode>
+        <childnode refid="3213" relation="include">
+        </childnode>
+      </node>
+      <node id="3237">
+        <label>PreManager/ref/AttLinearRepartation.cpp</label>
+        <link refid="_att_linear_repartation_8cpp"/>
+      </node>
+      <node id="3246">
+        <label>PreManager/ref/FeatureSOLIDCreateHole.h</label>
+        <link refid="_feature_s_o_l_i_d_create_hole_8h"/>
+        <childnode refid="3207" relation="include">
+        </childnode>
+        <childnode refid="3213" relation="include">
+        </childnode>
+      </node>
+      <node id="3201">
+        <label>CPPWITHCSHARP/ReferenceClass_Pre.cpp</label>
+        <link refid="_reference_class___pre_8cpp"/>
+      </node>
+      <node id="3243">
+        <label>PreManager/ref/FeatureSOLIDCreateChamfer.h</label>
+        <link refid="_pre_manager_2ref_2_feature_s_o_l_i_d_create_chamfer_8h"/>
+        <childnode refid="3204" relation="include">
+        </childnode>
+        <childnode refid="3213" relation="include">
+        </childnode>
+      </node>
+      <node id="3251">
+        <label>PreManager/ref/CATIApre_DLL.cpp</label>
+        <link refid="_c_a_t_i_apre___d_l_l_8cpp"/>
+      </node>
+      <node id="3207">
+        <label>PreManager/ref/FeatureSOLIDCreateHole.cpp</label>
+        <link refid="_feature_s_o_l_i_d_create_hole_8cpp"/>
+      </node>
+      <node id="3202">
+        <label>PreManager/ref/ReferenceEntity.h</label>
+        <link refid="_reference_entity_8h"/>
+        <childnode refid="3196" relation="include">
+        </childnode>
+        <childnode refid="3203" relation="include">
+        </childnode>
+        <childnode refid="3204" relation="include">
+        </childnode>
+        <childnode refid="3205" relation="include">
+        </childnode>
+        <childnode refid="3206" relation="include">
+        </childnode>
+        <childnode refid="3207" relation="include">
+        </childnode>
+        <childnode refid="3208" relation="include">
+        </childnode>
+        <childnode refid="3209" relation="include">
+        </childnode>
+        <childnode refid="3210" relation="include">
+        </childnode>
+        <childnode refid="3211" relation="include">
+        </childnode>
+        <childnode refid="3212" relation="include">
+        </childnode>
+        <childnode refid="3213" relation="include">
+        </childnode>
+        <childnode refid="3214" relation="include">
+        </childnode>
+      </node>
+      <node id="3217">
+        <label>PreManager/ref/FSKETCHItem.h</label>
+        <link refid="_f_s_k_e_t_c_h_item_8h"/>
+        <childnode refid="3218" relation="include">
+        </childnode>
+        <childnode refid="3210" relation="include">
+        </childnode>
+        <childnode refid="3220" relation="include">
+        </childnode>
+        <childnode refid="3212" relation="include">
+        </childnode>
+        <childnode refid="3222" relation="include">
+        </childnode>
+        <childnode refid="3224" relation="include">
+        </childnode>
+      </node>
+      <node id="3196">
+        <label>CPPWITHCSHARP/ReferenceClass.h</label>
+        <link refid="_reference_class_8h"/>
+        <childnode refid="3197" relation="include">
+        </childnode>
+        <childnode refid="3198" relation="include">
+        </childnode>
+        <childnode refid="3200" relation="include">
+        </childnode>
+      </node>
+      <node id="3216">
+        <label>PreManager/ref/FSketch.h</label>
+        <link refid="_pre_manager_2ref_2_f_sketch_8h"/>
+        <childnode refid="3202" relation="include">
+        </childnode>
+        <childnode refid="3205" relation="include">
+        </childnode>
+        <childnode refid="3208" relation="include">
+        </childnode>
+        <childnode refid="3217" relation="include">
+        </childnode>
+        <childnode refid="3212" relation="include">
+        </childnode>
+        <childnode refid="3219" relation="include">
+        </childnode>
+        <childnode refid="3221" relation="include">
+        </childnode>
+        <childnode refid="3223" relation="include">
+        </childnode>
+        <childnode refid="3213" relation="include">
+        </childnode>
+      </node>
+      <node id="3208">
+        <label>PreManager/ref/FeatureSOLIDCreatePatternCircular.cpp</label>
+        <link refid="_pre_manager_2ref_2_feature_s_o_l_i_d_create_pattern_circular_8cpp"/>
+      </node>
+      <node id="3228">
+        <label>PreManager/ref/AttAngularRepartation.h</label>
+        <link refid="_att_angular_repartation_8h"/>
+        <childnode refid="3229" relation="include">
+        </childnode>
+        <childnode refid="3213" relation="include">
+        </childnode>
+      </node>
+      <node id="3247">
+        <label>PreManager/ref/FeatureSOLIDCreatePatternCircular.h</label>
+        <link refid="_pre_manager_2ref_2_feature_s_o_l_i_d_create_pattern_circular_8h"/>
+        <childnode refid="3208" relation="include">
+        </childnode>
+        <childnode refid="3213" relation="include">
+        </childnode>
+      </node>
+      <node id="3200">
+        <label>CPPWITHCSHARP/ReferenceClass_Pre.h</label>
+        <link refid="_reference_class___pre_8h"/>
+        <childnode refid="3201" relation="include">
+        </childnode>
+      </node>
+      <node id="3230">
+        <label>PreManager/ref/AttIntParam.h</label>
+        <link refid="_att_int_param_8h"/>
+        <childnode refid="3231" relation="include">
+        </childnode>
+        <childnode refid="3213" relation="include">
+        </childnode>
+      </node>
+      <node id="3233">
+        <label>PreManager/ref/AttLength.cpp</label>
+        <link refid="_att_length_8cpp"/>
+      </node>
+      <node id="3198">
+        <label>CPPWITHCSHARP/ReferenceClass_Post.h</label>
+        <link refid="_reference_class___post_8h"/>
+        <childnode refid="3199" relation="include">
+        </childnode>
+      </node>
+      <node id="3211">
+        <label>PreManager/ref/FeatureSOLIDCreateSweep.cpp</label>
+        <link refid="_feature_s_o_l_i_d_create_sweep_8cpp"/>
+      </node>
+      <node id="3232">
+        <label>PreManager/ref/AttLength.h</label>
+        <link refid="_att_length_8h"/>
+        <childnode refid="3233" relation="include">
+        </childnode>
+        <childnode refid="3213" relation="include">
+        </childnode>
+      </node>
+      <node id="3194">
+        <label>PreManager/ref/CATIApre_DLL.h</label>
+        <link refid="CATIApre_DLL.h"/>
+        <childnode refid="3195" relation="include">
+        </childnode>
+        <childnode refid="3196" relation="include">
+        </childnode>
+        <childnode refid="3251" relation="include">
+        </childnode>
+      </node>
+      <node id="3209">
+        <label>PreManager/ref/FeatureSOLIDCreatePatternRectangular.cpp</label>
+        <link refid="_pre_manager_2ref_2_feature_s_o_l_i_d_create_pattern_rectangular_8cpp"/>
+      </node>
+      <node id="3225">
+        <label>PreManager/ref/AttributeItem.h</label>
+        <link refid="_attribute_item_8h"/>
+        <childnode refid="3226" relation="include">
+        </childnode>
+        <childnode refid="3228" relation="include">
+        </childnode>
+        <childnode refid="3230" relation="include">
+        </childnode>
+        <childnode refid="3232" relation="include">
+        </childnode>
+        <childnode refid="3234" relation="include">
+        </childnode>
+        <childnode refid="3236" relation="include">
+        </childnode>
+        <childnode refid="3238" relation="include">
+        </childnode>
+        <childnode refid="3240" relation="include">
+        </childnode>
+        <childnode refid="3213" relation="include">
+        </childnode>
+      </node>
+      <node id="3204">
+        <label>PreManager/ref/FeatureSOLIDCreateChamfer.cpp</label>
+        <link refid="_pre_manager_2ref_2_feature_s_o_l_i_d_create_chamfer_8cpp"/>
+      </node>
+      <node id="3218">
+        <label>PreManager/ref/FSKETCHCreate2DCircleCenterPoint.h</label>
+        <link refid="_f_s_k_e_t_c_h_create2_d_circle_center_point_8h"/>
+        <childnode refid="3208" relation="include">
+        </childnode>
+        <childnode refid="3210" relation="include">
+        </childnode>
+        <childnode refid="3212" relation="include">
+        </childnode>
+        <childnode refid="3219" relation="include">
+        </childnode>
+      </node>
+      <node id="3222">
+        <label>PreManager/ref/FSKETCHCreate2DPoint.h</label>
+        <link refid="_f_s_k_e_t_c_h_create2_d_point_8h"/>
+        <childnode refid="3212" relation="include">
+        </childnode>
+        <childnode refid="3223" relation="include">
+        </childnode>
+      </node>
+      <node id="3223">
+        <label>PreManager/ref/FSKETCHCreate2DPoint.cpp</label>
+        <link refid="_f_s_k_e_t_c_h_create2_d_point_8cpp"/>
+      </node>
+      <node id="3249">
+        <label>PreManager/ref/FeatureSOLIDCreateRevolve.h</label>
+        <link refid="_feature_s_o_l_i_d_create_revolve_8h"/>
+        <childnode refid="3210" relation="include">
+        </childnode>
+        <childnode refid="3213" relation="include">
+        </childnode>
+      </node>
+      <node id="3248">
+        <label>PreManager/ref/FeatureSOLIDCreatePatternRectangular.h</label>
+        <link refid="_pre_manager_2ref_2_feature_s_o_l_i_d_create_pattern_rectangular_8h"/>
+        <childnode refid="3209" relation="include">
+        </childnode>
+        <childnode refid="3213" relation="include">
+        </childnode>
+      </node>
+      <node id="3210">
+        <label>PreManager/ref/FeatureSOLIDCreateRevolve.cpp</label>
+        <link refid="_feature_s_o_l_i_d_create_revolve_8cpp"/>
+      </node>
+      <node id="3239">
+        <label>PreManager/ref/AttParameter.cpp</label>
+        <link refid="_att_parameter_8cpp"/>
+      </node>
+      <node id="3231">
+        <label>PreManager/ref/AttIntParam.cpp</label>
+        <link refid="_att_int_param_8cpp"/>
+      </node>
+      <node id="3240">
+        <label>PreManager/ref/AttributeItem.cpp</label>
+        <link refid="_attribute_item_8cpp"/>
+      </node>
+      <node id="3203">
+        <label>PreManager/ref/FDatumPlaneOffset.cpp</label>
+        <link refid="_pre_manager_2ref_2_f_datum_plane_offset_8cpp"/>
+      </node>
+      <node id="3205">
+        <label>PreManager/ref/FeatureSOLIDCreateExtrude.cpp</label>
+        <link refid="_feature_s_o_l_i_d_create_extrude_8cpp"/>
+      </node>
+      <node id="3227">
+        <label>PreManager/ref/AttAngle.cpp</label>
+        <link refid="_att_angle_8cpp"/>
+      </node>
+      <node id="3229">
+        <label>PreManager/ref/AttAngularRepartation.cpp</label>
+        <link refid="_att_angular_repartation_8cpp"/>
+      </node>
+      <node id="3199">
+        <label>CPPWITHCSHARP/ReferenceClass_Post.cpp</label>
+        <link refid="_reference_class___post_8cpp"/>
+      </node>
+      <node id="3214">
+        <label>PreManager/ref/ReferenceEntity.cpp</label>
+        <link refid="_reference_entity_8cpp"/>
+      </node>
+      <node id="3250">
+        <label>PreManager/ref/FeatureSOLIDCreateSweep.h</label>
+        <link refid="_feature_s_o_l_i_d_create_sweep_8h"/>
+        <childnode refid="3211" relation="include">
+        </childnode>
+        <childnode refid="3213" relation="include">
+        </childnode>
+      </node>
+      <node id="3219">
+        <label>PreManager/ref/FSKETCHCreate2DCircleCenterPoint.cpp</label>
+        <link refid="_f_s_k_e_t_c_h_create2_d_circle_center_point_8cpp"/>
+      </node>
+      <node id="3213">
+        <label>PreManager/ref/Part.cpp</label>
+        <link refid="_pre_manager_2ref_2_part_8cpp"/>
+      </node>
+      <node id="3195">
+        <label>PreManager/ref/Part.h</label>
+        <link refid="_pre_manager_2ref_2_part_8h"/>
+        <childnode refid="3196" relation="include">
+        </childnode>
+        <childnode refid="3202" relation="include">
+        </childnode>
+        <childnode refid="3215" relation="include">
+        </childnode>
+        <childnode refid="3225" relation="include">
+        </childnode>
+        <childnode refid="3251" relation="include">
+        </childnode>
+        <childnode refid="3242" relation="include">
+        </childnode>
+        <childnode refid="3213" relation="include">
+        </childnode>
+      </node>
+      <node id="3234">
+        <label>PreManager/ref/AttLimit.h</label>
+        <link refid="_att_limit_8h"/>
+        <childnode refid="3235" relation="include">
+        </childnode>
+        <childnode refid="3213" relation="include">
+        </childnode>
+      </node>
+      <node id="3244">
+        <label>PreManager/ref/FeatureSOLIDCreateExtrude.h</label>
+        <link refid="_feature_s_o_l_i_d_create_extrude_8h"/>
+        <childnode refid="3205" relation="include">
+        </childnode>
+        <childnode refid="3213" relation="include">
+        </childnode>
+      </node>
+      <node id="3220">
+        <label>PreManager/ref/FSKETCHCreate2DLine2Points.h</label>
+        <link refid="_f_s_k_e_t_c_h_create2_d_line2_points_8h"/>
+        <childnode refid="3210" relation="include">
+        </childnode>
+        <childnode refid="3212" relation="include">
+        </childnode>
+        <childnode refid="3221" relation="include">
+        </childnode>
+      </node>
+      <node id="3236">
+        <label>PreManager/ref/AttLinearRepartation.h</label>
+        <link refid="_att_linear_repartation_8h"/>
+        <childnode refid="3237" relation="include">
+        </childnode>
+        <childnode refid="3213" relation="include">
+        </childnode>
+      </node>
+    </invincdepgraph>
+    <innernamespace refid="namespace_pre">Pre</innernamespace>
+      <sectiondef kind="define">
+      <memberdef kind="define" id="_c_a_t_i_apre___d_l_l_8h_1a8ea0ea975143bd8c84bb9fd3d3500099" prot="public" static="no">
+        <name>DLLCATIAPRE_API</name>
+        <initializer>extern &quot;C&quot; __declspec(dllimport)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/PreManager/ref/CATIApre_DLL.h" line="10" column="10" bodyfile="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/PreManager/ref/CATIApre_DLL.h" bodystart="10" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="comment">//<sp/>다음<sp/>ifdef<sp/>블록은<sp/>DLL에서<sp/>내보내기하는<sp/>작업을<sp/>쉽게<sp/>해<sp/>주는<sp/>매크로를<sp/>만드는<sp/></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight><highlight class="comment">//<sp/>표준<sp/>방식입니다.<sp/>이<sp/>DLL에<sp/>들어<sp/>있는<sp/>파일은<sp/>모두<sp/>명령줄에<sp/>정의된<sp/>_EXPORTS<sp/>기호로</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="comment">//<sp/>컴파일되며,<sp/>동일한<sp/>DLL을<sp/>사용하는<sp/>다른<sp/>프로젝트에서는<sp/>이<sp/>기호를<sp/>정의할<sp/>수<sp/>없습니다.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="comment">//<sp/>이렇게<sp/>하면<sp/>소스<sp/>파일에<sp/>이<sp/>파일이<sp/>들어<sp/>있는<sp/>다른<sp/>모든<sp/>프로젝트에서는<sp/></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight><highlight class="comment">//<sp/>DLLUGPOST_API<sp/>함수를<sp/>DLL에서<sp/>가져오는<sp/>것으로<sp/>보고,<sp/>이<sp/>DLL은</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight><highlight class="comment">//<sp/>이<sp/>DLL은<sp/>해당<sp/>매크로로<sp/>정의된<sp/>기호가<sp/>내보내지는<sp/>것으로<sp/>봅니다.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight><highlight class="preprocessor">#ifdef<sp/>CATIAPRE_DLL_EXPORTS</highlight></codeline>
+<codeline lineno="8"><highlight class="preprocessor"></highlight><highlight class="preprocessor">#define<sp/>DLLCATIAPRE_API<sp/>extern<sp/>&quot;C&quot;<sp/>__declspec(dllexport)</highlight></codeline>
+<codeline lineno="9"><highlight class="preprocessor"></highlight><highlight class="preprocessor">#else</highlight></codeline>
+<codeline lineno="10" refid="_c_a_t_i_apre___d_l_l_8h_1a8ea0ea975143bd8c84bb9fd3d3500099" refkind="member"><highlight class="preprocessor"></highlight><highlight class="preprocessor">#define<sp/>DLLCATIAPRE_API<sp/>extern<sp/>&quot;C&quot;<sp/>__declspec(dllimport)</highlight></codeline>
+<codeline lineno="11"><highlight class="preprocessor"></highlight><highlight class="preprocessor">#endif</highlight></codeline>
+<codeline lineno="12"><highlight class="preprocessor"></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="13"><highlight class="normal"></highlight><highlight class="preprocessor">#import<sp/>&quot;C:\\Program<sp/>Files<sp/>(x86)\\MACRO\\TransCAD\\TransCAD.exe&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="14"><highlight class="normal"></highlight></codeline>
+<codeline lineno="15"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;stdio.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="16"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;tchar.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="17"><highlight class="normal"></highlight></codeline>
+<codeline lineno="18"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;string&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="19"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;string.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="20"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;iostream&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="21"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;fstream&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="22"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;vector&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="23"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;cmath&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="24"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;math.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="25"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;sstream&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="26"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;comutil.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="27"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;comdef.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="28"><highlight class="normal"></highlight></codeline>
+<codeline lineno="29"><highlight class="normal"></highlight><highlight class="keyword">using<sp/>namespace<sp/></highlight><highlight class="normal">std;</highlight></codeline>
+<codeline lineno="30"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="_pre_manager_2ref_2_definition_8h" kindref="compound">Definition.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="31"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal">Pre<sp/>{</highlight></codeline>
+<codeline lineno="32"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/>TransCAD::IApplicationPtr<sp/><ref refid="_c_a_t_i_apre_8h_1afc0d0c3dfd86863834cd6a3d772714c8" kindref="member">g_spApplication</ref>;</highlight></codeline>
+<codeline lineno="33"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>이<sp/>클래스는<sp/>dllUGPost.dll에서<sp/>내보낸<sp/>것입니다.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="34"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="_c_a_t_i_apre___d_l_l_8h_1a8ea0ea975143bd8c84bb9fd3d3500099" kindref="member">DLLCATIAPRE_API</ref><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="namespace_pre_1af67ebdb899e0a91d6f1c6661909ed8e8" kindref="member">CATIAPreStartService</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="35"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="_c_a_t_i_apre___d_l_l_8h_1a8ea0ea975143bd8c84bb9fd3d3500099" kindref="member">DLLCATIAPRE_API</ref><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="namespace_pre_1a4f53310fdf2d200bbbe007e4c0d3d790" kindref="member">CATIAPreTranslate</ref>(</highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*<sp/>path);</highlight></codeline>
+<codeline lineno="36"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="_c_a_t_i_apre___d_l_l_8h_1a8ea0ea975143bd8c84bb9fd3d3500099" kindref="member">DLLCATIAPRE_API</ref><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="namespace_pre_1a79a6f4543e08e216a906e708840f64a3" kindref="member">CATIAPreTranslateAssem</ref>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>totPartNum,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>partDocNum[],<sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>partCoords[][12]);</highlight></codeline>
+<codeline lineno="37"><highlight class="normal">}</highlight></codeline>
+    </programlisting>
+    <location file="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/PreManager/ref/CATIApre_DLL.h"/>
+  </compounddef>
+</doxygen>

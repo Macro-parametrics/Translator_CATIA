@@ -1,0 +1,219 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_c_a_t_i_a_translator_1_1_feature_rect_pattern" kind="class" prot="public">
+    <compoundname>CATIATranslator::FeatureRectPattern</compoundname>
+    <basecompoundref refid="class_c_a_t_i_a_translator_1_1_feature" prot="public" virt="non-virtual">CATIATranslator.Feature</basecompoundref>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_c_a_t_i_a_translator_1_1_feature_rect_pattern_1a8d3ee896bc85864cab2e62492504b0dc" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>CATIATranslator.FeatureRectPattern.FeatureRectPattern</definition>
+        <argsstring>(Part PartManager)</argsstring>
+        <name>FeatureRectPattern</name>
+        <param>
+          <type><ref refid="class_c_a_t_i_a_translator_1_1_part" kindref="compound">Part</ref></type>
+          <declname>PartManager</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/CATIATranslator/Part/Feature/FeatureRectPattern.cs" line="8" column="1" bodyfile="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/CATIATranslator/Part/Feature/FeatureRectPattern.cs" bodystart="8" bodyend="11"/>
+        <references refid="class_c_a_t_i_a_translator_1_1_feature_1ad90561702fbff5b6fc8f87cdf9531751" compoundref="_feature_8cs" startline="6">CATIATranslator.Feature.PartManager</references>
+      </memberdef>
+      <memberdef kind="function" id="class_c_a_t_i_a_translator_1_1_feature_rect_pattern_1a4379b7cc95bc96d564db9d8881d29b77" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>override void</type>
+        <definition>override void CATIATranslator.FeatureRectPattern.TranslateC2T</definition>
+        <argsstring>(MECMOD.Shape cShape)</argsstring>
+        <name>TranslateC2T</name>
+        <reimplements refid="class_c_a_t_i_a_translator_1_1_feature_1a4ca679cb7db6b544a062441f9c46995e">TranslateC2T</reimplements>
+        <param>
+          <type>MECMOD.Shape</type>
+          <declname>cShape</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/CATIATranslator/Part/Feature/FeatureRectPattern.cs" line="14" column="1" bodyfile="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/CATIATranslator/Part/Feature/FeatureRectPattern.cs" bodystart="14" bodyend="37"/>
+        <references refid="class_c_a_t_i_a_translator_1_1_feature_rect_pattern_1a23ef179eca26b07cebe861a3417458ce" compoundref="_feature_rect_pattern_8cs" startline="39" endline="57">CATIATranslator.FeatureRectPattern.GetDirections</references>
+      </memberdef>
+      <memberdef kind="function" id="class_c_a_t_i_a_translator_1_1_feature_rect_pattern_1aed05a35ca5f2ba50466bd955224279fd" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>override void</type>
+        <definition>override void CATIATranslator.FeatureRectPattern.TranslateT2C</definition>
+        <argsstring>(TransCAD.IFeature tFeature)</argsstring>
+        <name>TranslateT2C</name>
+        <reimplements refid="class_c_a_t_i_a_translator_1_1_feature_1a9b3c6155e1ff78f54afdeecc4c422129">TranslateT2C</reimplements>
+        <param>
+          <type>TransCAD.IFeature</type>
+          <declname>tFeature</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/CATIATranslator/Part/Feature/FeatureRectPattern.cs" line="60" column="1" bodyfile="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/CATIATranslator/Part/Feature/FeatureRectPattern.cs" bodystart="60" bodyend="101"/>
+        <references refid="class_c_a_t_i_a_translator_1_1_part_1a797eb7ad90838dc2f86e7cc66406801f" compoundref="_part_8cs" startline="21">CATIATranslator.Part.cShapes</references>
+        <references refid="class_c_a_t_i_a_translator_1_1_feature_rect_pattern_1a72a9b5af6fe5334e04eff670220d3797" compoundref="_feature_rect_pattern_8cs" startline="103" endline="150">CATIATranslator.FeatureRectPattern.GetReferencePlane</references>
+        <references refid="class_c_a_t_i_a_translator_1_1_reference_1aa0ddfaf91fec554ec278f7e51095824b" compoundref="_reference_8cs" startline="10">CATIATranslator.Reference.NameMap</references>
+        <references refid="class_c_a_t_i_a_translator_1_1_feature_1ad90561702fbff5b6fc8f87cdf9531751" compoundref="_feature_8cs" startline="6">CATIATranslator.Feature.PartManager</references>
+        <references refid="class_c_a_t_i_a_translator_1_1_part_1a39146a4f6633e94374627d590020c980" compoundref="_part_8cs" startline="41">CATIATranslator.Part.ReferenceManager</references>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_c_a_t_i_a_translator_1_1_feature_rect_pattern_1a23ef179eca26b07cebe861a3417458ce" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void CATIATranslator.FeatureRectPattern.GetDirections</definition>
+        <argsstring>(PARTITF.RectPattern cRectPattern, object[] firstDir, object[] secondDir)</argsstring>
+        <name>GetDirections</name>
+        <param>
+          <type>PARTITF.RectPattern</type>
+          <declname>cRectPattern</declname>
+        </param>
+        <param>
+          <type>object[]</type>
+          <declname>firstDir</declname>
+        </param>
+        <param>
+          <type>object[]</type>
+          <declname>secondDir</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/CATIATranslator/Part/Feature/FeatureRectPattern.cs" line="39" column="1" bodyfile="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/CATIATranslator/Part/Feature/FeatureRectPattern.cs" bodystart="39" bodyend="57"/>
+        <referencedby refid="class_c_a_t_i_a_translator_1_1_feature_rect_pattern_1a4379b7cc95bc96d564db9d8881d29b77" compoundref="_feature_rect_pattern_8cs" startline="14" endline="37">CATIATranslator.FeatureRectPattern.TranslateC2T</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_c_a_t_i_a_translator_1_1_feature_rect_pattern_1a72a9b5af6fe5334e04eff670220d3797" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>INFITF.Reference</type>
+        <definition>INFITF.Reference CATIATranslator.FeatureRectPattern.GetReferencePlane</definition>
+        <argsstring>(PARTITF.RectPattern cRectPattern, double[] firstDir, double[] secondDir)</argsstring>
+        <name>GetReferencePlane</name>
+        <param>
+          <type>PARTITF.RectPattern</type>
+          <declname>cRectPattern</declname>
+        </param>
+        <param>
+          <type>double[]</type>
+          <declname>firstDir</declname>
+        </param>
+        <param>
+          <type>double[]</type>
+          <declname>secondDir</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/CATIATranslator/Part/Feature/FeatureRectPattern.cs" line="103" column="1" bodyfile="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/CATIATranslator/Part/Feature/FeatureRectPattern.cs" bodystart="103" bodyend="150"/>
+        <references refid="class_c_a_t_i_a_translator_1_1_part_1ac78af25e1545704dd7e88541f7ccb711" compoundref="_part_8cs" startline="18">CATIATranslator.Part.cOriginalElements</references>
+        <references refid="class_c_a_t_i_a_translator_1_1_feature_1ad90561702fbff5b6fc8f87cdf9531751" compoundref="_feature_8cs" startline="6">CATIATranslator.Feature.PartManager</references>
+        <referencedby refid="class_c_a_t_i_a_translator_1_1_feature_rect_pattern_1aed05a35ca5f2ba50466bd955224279fd" compoundref="_feature_rect_pattern_8cs" startline="60" endline="101">CATIATranslator.FeatureRectPattern.TranslateT2C</referencedby>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="487">
+        <label>Feature</label>
+        <link refid="class_c_a_t_i_a_translator_1_1_feature"/>
+      </node>
+      <node id="486">
+        <label>CATIATranslator.FeatureRectPattern</label>
+        <link refid="class_c_a_t_i_a_translator_1_1_feature_rect_pattern"/>
+        <childnode refid="487" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="491">
+        <label>TransCAD</label>
+      </node>
+      <node id="492">
+        <label>CATIATranslator.Reference</label>
+        <link refid="class_c_a_t_i_a_translator_1_1_reference"/>
+        <childnode refid="493" relation="usage">
+          <edgelabel>assembly</edgelabel>
+        </childnode>
+        <childnode refid="490" relation="usage">
+          <edgelabel>PartManager</edgelabel>
+        </childnode>
+      </node>
+      <node id="490">
+        <label>CATIATranslator.Part</label>
+        <link refid="class_c_a_t_i_a_translator_1_1_part"/>
+        <childnode refid="491" relation="usage">
+          <edgelabel>tAssemDoc</edgelabel>
+          <edgelabel>tApp</edgelabel>
+          <edgelabel>tPartDoc</edgelabel>
+          <edgelabel>tDocs</edgelabel>
+          <edgelabel>tFeatures</edgelabel>
+          <edgelabel>tAssem</edgelabel>
+          <edgelabel>tComp</edgelabel>
+          <edgelabel>tPart</edgelabel>
+        </childnode>
+        <childnode refid="492" relation="usage">
+          <edgelabel>ReferenceManager</edgelabel>
+        </childnode>
+        <childnode refid="490" relation="usage">
+          <edgelabel>cPart</edgelabel>
+        </childnode>
+      </node>
+      <node id="489">
+        <label>Feature</label>
+        <link refid="class_c_a_t_i_a_translator_1_1_feature"/>
+        <childnode refid="490" relation="usage">
+          <edgelabel>PartManager</edgelabel>
+        </childnode>
+      </node>
+      <node id="493">
+        <label>CATIATranslator.Assembly</label>
+        <link refid="class_c_a_t_i_a_translator_1_1_assembly"/>
+        <childnode refid="491" relation="usage">
+          <edgelabel>tConstraints</edgelabel>
+          <edgelabel>tAssemDoc</edgelabel>
+          <edgelabel>tApp</edgelabel>
+          <edgelabel>tPartDoc</edgelabel>
+          <edgelabel>tDocs</edgelabel>
+          <edgelabel>tFeatures</edgelabel>
+          <edgelabel>tAssem</edgelabel>
+          <edgelabel>tComp</edgelabel>
+          <edgelabel>tPart</edgelabel>
+        </childnode>
+        <childnode refid="492" relation="usage">
+          <edgelabel>ReferenceManager</edgelabel>
+        </childnode>
+        <childnode refid="490" relation="usage">
+          <edgelabel>cPart</edgelabel>
+        </childnode>
+      </node>
+      <node id="488">
+        <label>CATIATranslator.FeatureRectPattern</label>
+        <link refid="class_c_a_t_i_a_translator_1_1_feature_rect_pattern"/>
+        <childnode refid="489" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/CATIATranslator/Part/Feature/FeatureRectPattern.cs" line="7" column="1" bodyfile="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/CATIATranslator/Part/Feature/FeatureRectPattern.cs" bodystart="6" bodyend="151"/>
+    <listofallmembers>
+      <member refid="class_c_a_t_i_a_translator_1_1_feature_rect_pattern_1a8d3ee896bc85864cab2e62492504b0dc" prot="public" virt="non-virtual"><scope>CATIATranslator::FeatureRectPattern</scope><name>FeatureRectPattern</name></member>
+      <member refid="class_c_a_t_i_a_translator_1_1_feature_rect_pattern_1a23ef179eca26b07cebe861a3417458ce" prot="private" virt="non-virtual"><scope>CATIATranslator::FeatureRectPattern</scope><name>GetDirections</name></member>
+      <member refid="class_c_a_t_i_a_translator_1_1_feature_rect_pattern_1a72a9b5af6fe5334e04eff670220d3797" prot="private" virt="non-virtual"><scope>CATIATranslator::FeatureRectPattern</scope><name>GetReferencePlane</name></member>
+      <member refid="class_c_a_t_i_a_translator_1_1_feature_1ad90561702fbff5b6fc8f87cdf9531751" prot="public" virt="non-virtual"><scope>CATIATranslator::FeatureRectPattern</scope><name>PartManager</name></member>
+      <member refid="class_c_a_t_i_a_translator_1_1_feature_rect_pattern_1a4379b7cc95bc96d564db9d8881d29b77" prot="public" virt="virtual"><scope>CATIATranslator::FeatureRectPattern</scope><name>TranslateC2T</name></member>
+      <member refid="class_c_a_t_i_a_translator_1_1_feature_rect_pattern_1aed05a35ca5f2ba50466bd955224279fd" prot="public" virt="virtual"><scope>CATIATranslator::FeatureRectPattern</scope><name>TranslateT2C</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

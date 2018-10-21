@@ -1,0 +1,64 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="struct_pre_1_1_sketch_feature" kind="struct" prot="public">
+    <compoundname>Pre::SketchFeature</compoundname>
+    <includes refid="_pre_manager_2ref_2_part_8h" local="no">Part.h</includes>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="struct_pre_1_1_sketch_feature_1aa8235105643bed83b3b0dcb21291b804" prot="public" static="no" mutable="no">
+        <type>string</type>
+        <definition>string Pre::SketchFeature::_featureName</definition>
+        <argsstring></argsstring>
+        <name>_featureName</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/PreManager/ref/Part.h" line="10" column="1" bodyfile="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/PreManager/ref/Part.h" bodystart="10" bodyend="-1"/>
+        <referencedby refid="class_pre_1_1_part_1afe3d79628d4af1d9cfb19fa1653ee716" compoundref="_pre_manager_2ref_2_part_8cpp" startline="362" endline="369">Pre::Part::AddFeatureNameSketchName</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="struct_pre_1_1_sketch_feature_1a1a7b6ae54b8b312385c55f5f3593055c" prot="public" static="no" mutable="no">
+        <type>string</type>
+        <definition>string Pre::SketchFeature::_sketchName</definition>
+        <argsstring></argsstring>
+        <name>_sketchName</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/PreManager/ref/Part.h" line="11" column="1" bodyfile="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/PreManager/ref/Part.h" bodystart="11" bodyend="-1"/>
+        <referencedby refid="class_pre_1_1_part_1afe3d79628d4af1d9cfb19fa1653ee716" compoundref="_pre_manager_2ref_2_part_8cpp" startline="362" endline="369">Pre::Part::AddFeatureNameSketchName</referencedby>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="1249">
+        <label>std::basic_string&lt; char &gt;</label>
+      </node>
+      <node id="1247">
+        <label>Pre::SketchFeature</label>
+        <link refid="struct_pre_1_1_sketch_feature"/>
+        <childnode refid="1248" relation="usage">
+          <edgelabel>_featureName</edgelabel>
+          <edgelabel>_sketchName</edgelabel>
+        </childnode>
+      </node>
+      <node id="1248">
+        <label>std::string</label>
+        <childnode refid="1249" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/PreManager/ref/Part.h" line="9" column="1" bodyfile="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/PreManager/ref/Part.h" bodystart="8" bodyend="12"/>
+    <listofallmembers>
+      <member refid="struct_pre_1_1_sketch_feature_1aa8235105643bed83b3b0dcb21291b804" prot="public" virt="non-virtual"><scope>Pre::SketchFeature</scope><name>_featureName</name></member>
+      <member refid="struct_pre_1_1_sketch_feature_1a1a7b6ae54b8b312385c55f5f3593055c" prot="public" virt="non-virtual"><scope>Pre::SketchFeature</scope><name>_sketchName</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

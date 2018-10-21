@@ -1,0 +1,770 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_post_1_1_c_a_t_i_a_reference_manager" kind="class" prot="public">
+    <compoundname>Post::CATIAReferenceManager</compoundname>
+    <includes refid="_c_a_t_i_a_reference_manager_8h" local="no">CATIAReferenceManager.h</includes>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_post_1_1_c_a_t_i_a_reference_manager_1a1c851950a75ef09a91286d6070f6d032" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int Post::CATIAReferenceManager::_id</definition>
+        <argsstring></argsstring>
+        <name>_id</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/PostManager/ref/CATIAReferenceManager.h" line="69" column="1" bodyfile="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/PostManager/ref/CATIAReferenceManager.h" bodystart="69" bodyend="-1"/>
+        <referencedby refid="class_post_1_1_c_a_t_i_a_reference_manager_1a7136483a68c4864c1ecdffe3b842f030" compoundref="_c_a_t_i_a_reference_manager_8cpp" startline="18" endline="42">AddNewEntity</referencedby>
+        <referencedby refid="class_post_1_1_c_a_t_i_a_reference_manager_1aba9201b929711be95e24a4696aaf6d25" compoundref="_c_a_t_i_a_reference_manager_8cpp" startline="5" endline="8">CATIAReferenceManager</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_post_1_1_c_a_t_i_a_reference_manager_1af7917792ba635912d238af4324e6ce1d" prot="private" static="no" mutable="no">
+        <type>std::vector&lt; <ref refid="namespace_post_1a9e4c1252c1b08ef3e02ca2cafacd2486" kindref="member">POINTNAME_MAP</ref> &gt;</type>
+        <definition>std::vector&lt;POINTNAME_MAP&gt; Post::CATIAReferenceManager::_listPointNameMap</definition>
+        <argsstring></argsstring>
+        <name>_listPointNameMap</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/PostManager/ref/CATIAReferenceManager.h" line="70" column="1" bodyfile="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/PostManager/ref/CATIAReferenceManager.h" bodystart="70" bodyend="-1"/>
+        <referencedby refid="class_post_1_1_c_a_t_i_a_reference_manager_1a25f67887620b45f7443dcbcf674b7417" compoundref="_c_a_t_i_a_reference_manager_8cpp" startline="132" endline="140">AddNewPointName</referencedby>
+        <referencedby refid="class_post_1_1_c_a_t_i_a_reference_manager_1a5b1e469ad808e0a6bdf7a68fd8918592" compoundref="_c_a_t_i_a_reference_manager_8cpp" startline="143" endline="156">GetCatiaPointNameByTransCADPointName</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_post_1_1_c_a_t_i_a_reference_manager_1a62bd007d8128e37a60468437048a20a5" prot="private" static="no" mutable="no">
+        <type>std::vector&lt; <ref refid="namespace_post_1a78b916fc7bb178eba4c151c35d9ed56d" kindref="member">ENTITY_MAP</ref> &gt;</type>
+        <definition>std::vector&lt;ENTITY_MAP&gt; Post::CATIAReferenceManager::_listEntityNameMap</definition>
+        <argsstring></argsstring>
+        <name>_listEntityNameMap</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/PostManager/ref/CATIAReferenceManager.h" line="71" column="1" bodyfile="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/PostManager/ref/CATIAReferenceManager.h" bodystart="71" bodyend="-1"/>
+        <referencedby refid="class_post_1_1_c_a_t_i_a_reference_manager_1a7136483a68c4864c1ecdffe3b842f030" compoundref="_c_a_t_i_a_reference_manager_8cpp" startline="18" endline="42">AddNewEntity</referencedby>
+        <referencedby refid="class_post_1_1_c_a_t_i_a_reference_manager_1abfdc2952c5b3e5251e08d467f64c75bf" compoundref="_c_a_t_i_a_reference_manager_8cpp" startline="85" endline="99">GetEntityIDByTransCADName</referencedby>
+        <referencedby refid="class_post_1_1_c_a_t_i_a_reference_manager_1a220527620d4de8c03317c83668cc9f6d" compoundref="_c_a_t_i_a_reference_manager_8cpp" startline="70" endline="82">GetTransCADNameByEntityID</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_post_1_1_c_a_t_i_a_reference_manager_1aa6040d5644c9715246c4a83a971355c7" prot="private" static="no" mutable="no">
+        <type>std::vector&lt; int &gt;</type>
+        <definition>std::vector&lt;int&gt; Post::CATIAReferenceManager::_listEntityID</definition>
+        <argsstring></argsstring>
+        <name>_listEntityID</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/PostManager/ref/CATIAReferenceManager.h" line="72" column="1" bodyfile="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/PostManager/ref/CATIAReferenceManager.h" bodystart="72" bodyend="-1"/>
+        <referencedby refid="class_post_1_1_c_a_t_i_a_reference_manager_1a7136483a68c4864c1ecdffe3b842f030" compoundref="_c_a_t_i_a_reference_manager_8cpp" startline="18" endline="42">AddNewEntity</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_post_1_1_c_a_t_i_a_reference_manager_1a2856f1f286fd02f94446879874825fdf" prot="private" static="no" mutable="no">
+        <type>std::vector&lt; std::string &gt;</type>
+        <definition>std::vector&lt;std::string&gt; Post::CATIAReferenceManager::_listTransCADName</definition>
+        <argsstring></argsstring>
+        <name>_listTransCADName</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/PostManager/ref/CATIAReferenceManager.h" line="73" column="1" bodyfile="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/PostManager/ref/CATIAReferenceManager.h" bodystart="73" bodyend="-1"/>
+        <referencedby refid="class_post_1_1_c_a_t_i_a_reference_manager_1a7136483a68c4864c1ecdffe3b842f030" compoundref="_c_a_t_i_a_reference_manager_8cpp" startline="18" endline="42">AddNewEntity</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_post_1_1_c_a_t_i_a_reference_manager_1a383a133c3125b224b5ba3e7ab546895c" prot="private" static="no" mutable="no">
+        <type>std::vector&lt; <ref refid="namespace_post_1a6f504c7c28fef5dcc04cdd43db6204cf" kindref="member">NAME_MAP</ref> &gt;</type>
+        <definition>std::vector&lt;NAME_MAP&gt; Post::CATIAReferenceManager::_listNameMap</definition>
+        <argsstring></argsstring>
+        <name>_listNameMap</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/PostManager/ref/CATIAReferenceManager.h" line="74" column="1" bodyfile="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/PostManager/ref/CATIAReferenceManager.h" bodystart="74" bodyend="-1"/>
+        <referencedby refid="class_post_1_1_c_a_t_i_a_reference_manager_1a1d1deb3d6ea4b87ad8fb51765dc05e85" compoundref="_c_a_t_i_a_reference_manager_8cpp" startline="45" endline="67">AddNewFeature</referencedby>
+        <referencedby refid="class_post_1_1_c_a_t_i_a_reference_manager_1ab00159c9905b3d3d14361f390db87e48" compoundref="_c_a_t_i_a_reference_manager_8cpp" startline="102" endline="114">GetFeatureIDByTransCADName</referencedby>
+        <referencedby refid="class_post_1_1_c_a_t_i_a_reference_manager_1a40000b07f85cedef424b70e7926cd0a0" compoundref="_c_a_t_i_a_reference_manager_8cpp" startline="117" endline="129">GetFeatureTypeByTransCADName</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_post_1_1_c_a_t_i_a_reference_manager_1a4affa92d99b3803ee7ec8d0598bd08e5" prot="private" static="no" mutable="no">
+        <type>std::vector&lt; <ref refid="namespace_post_1a1a41e4a3a5e3a3aa143a7b7491a708dd" kindref="member">SKETCH_INFO</ref> &gt;</type>
+        <definition>std::vector&lt;SKETCH_INFO&gt; Post::CATIAReferenceManager::_listSketchInfo</definition>
+        <argsstring></argsstring>
+        <name>_listSketchInfo</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/PostManager/ref/CATIAReferenceManager.h" line="75" column="1" bodyfile="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/PostManager/ref/CATIAReferenceManager.h" bodystart="75" bodyend="-1"/>
+        <referencedby refid="class_post_1_1_c_a_t_i_a_reference_manager_1a9a6d967f69a40e0f1b42a885dbf3c164" compoundref="_c_a_t_i_a_reference_manager_8h" startline="55" endline="55">AddSketchInfo</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_post_1_1_c_a_t_i_a_reference_manager_1aba9201b929711be95e24a4696aaf6d25" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>Post::CATIAReferenceManager::CATIAReferenceManager</definition>
+        <argsstring>(void)</argsstring>
+        <name>CATIAReferenceManager</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/PostManager/ref/CATIAReferenceManager.h" line="36" column="1" bodyfile="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/PostManager/ref/CATIAReferenceManager.cpp" bodystart="5" bodyend="8"/>
+        <references refid="class_post_1_1_c_a_t_i_a_reference_manager_1a1c851950a75ef09a91286d6070f6d032" compoundref="_c_a_t_i_a_reference_manager_8h" startline="69">_id</references>
+      </memberdef>
+      <memberdef kind="function" id="class_post_1_1_c_a_t_i_a_reference_manager_1a008add71f2e6adce83f5aebf45a58257" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>Post::CATIAReferenceManager::~CATIAReferenceManager</definition>
+        <argsstring>(void)</argsstring>
+        <name>~CATIAReferenceManager</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/PostManager/ref/CATIAReferenceManager.h" line="37" column="1" bodyfile="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/PostManager/ref/CATIAReferenceManager.cpp" bodystart="10" bodyend="15"/>
+      </memberdef>
+      <memberdef kind="function" id="class_post_1_1_c_a_t_i_a_reference_manager_1a7136483a68c4864c1ecdffe3b842f030" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int Post::CATIAReferenceManager::AddNewEntity</definition>
+        <argsstring>(std::string strSketchName, std::string strTransCADName)</argsstring>
+        <name>AddNewEntity</name>
+        <param>
+          <type>std::string</type>
+          <declname>strSketchName</declname>
+        </param>
+        <param>
+          <type>std::string</type>
+          <declname>strTransCADName</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/PostManager/ref/CATIAReferenceManager.h" line="39" column="1" bodyfile="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/PostManager/ref/CATIAReferenceManager.cpp" bodystart="18" bodyend="42"/>
+        <references refid="struct_post_1_1__tag_entity_map_1a9bd5eb0f57795ebb9d944087be3d7965" compoundref="_c_a_t_i_a_reference_manager_8h" startline="17">Post::_tagEntityMap::_entityName</references>
+        <references refid="class_post_1_1_c_a_t_i_a_reference_manager_1a1c851950a75ef09a91286d6070f6d032" compoundref="_c_a_t_i_a_reference_manager_8h" startline="69">_id</references>
+        <references refid="class_post_1_1_c_a_t_i_a_reference_manager_1aa6040d5644c9715246c4a83a971355c7" compoundref="_c_a_t_i_a_reference_manager_8h" startline="72">_listEntityID</references>
+        <references refid="class_post_1_1_c_a_t_i_a_reference_manager_1a62bd007d8128e37a60468437048a20a5" compoundref="_c_a_t_i_a_reference_manager_8h" startline="71">_listEntityNameMap</references>
+        <references refid="class_post_1_1_c_a_t_i_a_reference_manager_1a2856f1f286fd02f94446879874825fdf" compoundref="_c_a_t_i_a_reference_manager_8h" startline="73">_listTransCADName</references>
+        <references refid="struct_post_1_1__tag_entity_map_1ab72aa5c61ed3dc3b8a26ef32473759ea" compoundref="_c_a_t_i_a_reference_manager_8h" startline="16">Post::_tagEntityMap::_sketchName</references>
+        <references refid="struct_post_1_1__tag_entity_map_1a43007f03c94308a37bceb1993951f47f" compoundref="_c_a_t_i_a_reference_manager_8h" startline="15">Post::_tagEntityMap::id</references>
+        <referencedby refid="class_post_1_1_s_k_e_t_c_h_create2_d_centerline_1aa13eba9ab4db3ba583dc46e250982179" compoundref="_s_k_e_t_c_h_create2_d_centerline_8cpp" startline="16" endline="27">Post::SKETCHCreate2DCenterline::GetInfo</referencedby>
+        <referencedby refid="class_post_1_1_s_k_e_t_c_h_create2_d_point_1a723681b77947166bb9c0a8b9a093bca2" compoundref="_s_k_e_t_c_h_create2_d_point_8cpp" startline="14" endline="22">Post::SKETCHCreate2DPoint::GetInfo</referencedby>
+        <referencedby refid="class_post_1_1_f_sketch_1a7bafff74162c56925124f63dc257948f" compoundref="_post_manager_2ref_2_f_sketch_8cpp" startline="87" endline="138">Post::FSketch::GetInfo</referencedby>
+        <referencedby refid="class_post_1_1_s_k_e_t_c_h_create2_d_line2_points_1a3a001e53b6c6a2444690a3d1b5d81085" compoundref="_s_k_e_t_c_h_create2_d_line2_points_8cpp" startline="14" endline="30">Post::SKETCHCreate2DLine2Points::GetInfo</referencedby>
+        <referencedby refid="class_post_1_1_s_k_e_t_c_h_create2_d_circle_center_point_1a8a23bf3543170f9b80656d6fe84896d3" compoundref="_s_k_e_t_c_h_create2_d_circle_center_point_8cpp" startline="14" endline="26">Post::SKETCHCreate2DCircleCenterPoint::GetInfo</referencedby>
+        <referencedby refid="class_post_1_1_s_k_e_t_c_h_create2_d_circular_arc_1a76e2210a8de8829e9b6d1229eec220bb" compoundref="_s_k_e_t_c_h_create2_d_circular_arc_8cpp" startline="14" endline="34">Post::SKETCHCreate2DCircularArc::GetInfo</referencedby>
+        <referencedby refid="class_post_1_1_s_k_e_t_c_h_create2_d_centerline_1a53de54224beb765c17dbb765e60e983a" compoundref="_s_k_e_t_c_h_create2_d_centerline_8cpp" startline="29" endline="43">Post::SKETCHCreate2DCenterline::ToCATIA</referencedby>
+        <referencedby refid="class_post_1_1_s_k_e_t_c_h_create2_d_point_1a877072a679bbda32955a75b4d79a46b3" compoundref="_s_k_e_t_c_h_create2_d_point_8cpp" startline="24" endline="39">Post::SKETCHCreate2DPoint::ToCATIA</referencedby>
+        <referencedby refid="class_post_1_1_f_sketch_1a04bbe4dfa30502ae0e62abd35ece66fe" compoundref="_post_manager_2ref_2_f_sketch_8cpp" startline="140" endline="276">Post::FSketch::ToCATIA</referencedby>
+        <referencedby refid="class_post_1_1_s_k_e_t_c_h_create2_d_circle_center_point_1a6a4387c56c3b7d0f2e28441701aa16c5" compoundref="_s_k_e_t_c_h_create2_d_circle_center_point_8cpp" startline="28" endline="40">Post::SKETCHCreate2DCircleCenterPoint::ToCATIA</referencedby>
+        <referencedby refid="class_post_1_1_s_k_e_t_c_h_create2_d_line2_points_1a0eb686cd9daa11bf0aebe136ce759ab0" compoundref="_s_k_e_t_c_h_create2_d_line2_points_8cpp" startline="32" endline="49">Post::SKETCHCreate2DLine2Points::ToCATIA</referencedby>
+        <referencedby refid="class_post_1_1_s_k_e_t_c_h_create2_d_circular_arc_1a742f7b647dd44fabf7d5db5006954c0d" compoundref="_s_k_e_t_c_h_create2_d_circular_arc_8cpp" startline="36" endline="50">Post::SKETCHCreate2DCircularArc::ToCATIA</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_post_1_1_c_a_t_i_a_reference_manager_1a1d1deb3d6ea4b87ad8fb51765dc05e85" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int Post::CATIAReferenceManager::AddNewFeature</definition>
+        <argsstring>(TransCAD::IFeaturePtr spFeature)</argsstring>
+        <name>AddNewFeature</name>
+        <param>
+          <type>TransCAD::IFeaturePtr</type>
+          <declname>spFeature</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/PostManager/ref/CATIAReferenceManager.h" line="40" column="1" bodyfile="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/PostManager/ref/CATIAReferenceManager.cpp" bodystart="45" bodyend="67"/>
+        <references refid="struct_post_1_1__tag_name_map_1ada7c5d45fcc61c59e2e94347d0847913" compoundref="_c_a_t_i_a_reference_manager_8h" startline="8">Post::_tagNameMap::_id</references>
+        <references refid="class_post_1_1_c_a_t_i_a_reference_manager_1a383a133c3125b224b5ba3e7ab546895c" compoundref="_c_a_t_i_a_reference_manager_8h" startline="74">_listNameMap</references>
+        <references refid="struct_post_1_1__tag_name_map_1a7e5a6e513096e98fe359a627c3458c27" compoundref="_c_a_t_i_a_reference_manager_8h" startline="10">Post::_tagNameMap::_name</references>
+        <references refid="struct_post_1_1__tag_name_map_1afe0d6e6b27300ab61d96add63a068940" compoundref="_c_a_t_i_a_reference_manager_8h" startline="9">Post::_tagNameMap::_type</references>
+        <referencedby refid="class_post_1_1_part_1a794aead29a8756e83fddc77a278a33e1" compoundref="_post_manager_2ref_2_part_8cpp" startline="189" endline="282">Post::Part::CreateFeature</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_post_1_1_c_a_t_i_a_reference_manager_1ab00159c9905b3d3d14361f390db87e48" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int Post::CATIAReferenceManager::GetFeatureIDByTransCADName</definition>
+        <argsstring>(std::string strTransCADName, int &amp;id)</argsstring>
+        <name>GetFeatureIDByTransCADName</name>
+        <param>
+          <type>std::string</type>
+          <declname>strTransCADName</declname>
+        </param>
+        <param>
+          <type>int &amp;</type>
+          <declname>id</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/PostManager/ref/CATIAReferenceManager.h" line="42" column="1" bodyfile="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/PostManager/ref/CATIAReferenceManager.cpp" bodystart="102" bodyend="114"/>
+        <references refid="class_post_1_1_c_a_t_i_a_reference_manager_1a383a133c3125b224b5ba3e7ab546895c" compoundref="_c_a_t_i_a_reference_manager_8h" startline="74">_listNameMap</references>
+        <referencedby refid="class_post_1_1_c_a_t_i_a_reference_manager_1a833a8035817475a393e82cd8920cc9bd" compoundref="_c_a_t_i_a_reference_manager_8cpp" startline="301" endline="344">ConvertToBRepEdge</referencedby>
+        <referencedby refid="class_post_1_1_c_a_t_i_a_reference_manager_1a14b0bf73747d910e987049d1f11e53fa" compoundref="_c_a_t_i_a_reference_manager_8cpp" startline="181" endline="212">ConvertToBRepFace</referencedby>
+        <referencedby refid="class_post_1_1_c_a_t_i_a_reference_manager_1a85d0117a972b7913dbd075b2bd80c4db" compoundref="_c_a_t_i_a_reference_manager_8cpp" startline="258" endline="298">ConvertToBRepFaceForDatumPlane</referencedby>
+        <referencedby refid="class_post_1_1_c_a_t_i_a_reference_manager_1a1cb21f058f48445ec86600788ce3284a" compoundref="_c_a_t_i_a_reference_manager_8cpp" startline="215" endline="255">ConvertToBRepFaceForHole</referencedby>
+        <referencedby refid="class_post_1_1_c_a_t_i_a_reference_manager_1a737388d1973e22b9e201411abc5a649c" compoundref="_c_a_t_i_a_reference_manager_8cpp" startline="365" endline="439">GetBasicNameOfCATIA</referencedby>
+        <referencedby refid="class_post_1_1_feature_s_o_l_i_d_create_pattern_circular_1a3529b594c7fb28c9976579e4eec5d947" compoundref="_post_manager_2ref_2_feature_s_o_l_i_d_create_pattern_circular_8cpp" startline="14" endline="64">Post::FeatureSOLIDCreatePatternCircular::GetInfo</referencedby>
+        <referencedby refid="class_post_1_1_feature_s_o_l_i_d_create_pattern_rectangular_1abb31233e316bac582f8b8b529dac7f49" compoundref="_post_manager_2ref_2_feature_s_o_l_i_d_create_pattern_rectangular_8cpp" startline="14" endline="64">Post::FeatureSOLIDCreatePatternRectangular::GetInfo</referencedby>
+        <referencedby refid="class_post_1_1_feature_s_o_l_i_d_create_fillet_constant_1a395a9468714e65e59fdc9735a1c4c2da" compoundref="_post_manager_2ref_2_feature_s_o_l_i_d_create_fillet_constant_8cpp" startline="34" endline="69">Post::FeatureSOLIDCreateFilletConstant::ToCATIA</referencedby>
+        <referencedby refid="class_post_1_1_feature_s_o_l_i_d_create_pattern_circular_1a572bd9787a8d00fb43cceab6ce4260a9" compoundref="_post_manager_2ref_2_feature_s_o_l_i_d_create_pattern_circular_8cpp" startline="66" endline="96">Post::FeatureSOLIDCreatePatternCircular::ToCATIA</referencedby>
+        <referencedby refid="class_post_1_1_feature_s_o_l_i_d_create_pattern_rectangular_1a3c104d07dd42a6c50984884c5ccc9fcb" compoundref="_post_manager_2ref_2_feature_s_o_l_i_d_create_pattern_rectangular_8cpp" startline="66" endline="100">Post::FeatureSOLIDCreatePatternRectangular::ToCATIA</referencedby>
+        <referencedby refid="class_post_1_1_f_datum_plane_offset_1af34c0973ffefae44460713c5f5944e19" compoundref="_post_manager_2ref_2_f_datum_plane_offset_8cpp" startline="29" endline="111">Post::FDatumPlaneOffset::ToCATIA</referencedby>
+        <referencedby refid="class_post_1_1_feature_s_o_l_i_d_create_chamfer_1adc476aca0219e6111ebad3f6807e53a6" compoundref="_post_manager_2ref_2_feature_s_o_l_i_d_create_chamfer_8cpp" startline="33" endline="67">Post::FeatureSOLIDCreateChamfer::ToCATIA</referencedby>
+        <referencedby refid="class_post_1_1_feature_s_o_l_i_d_create_cut_revolve_1a943c15cf026572c40cb9d5d64b94ea55" compoundref="_feature_s_o_l_i_d_create_cut_revolve_8cpp" startline="42" endline="78">Post::FeatureSOLIDCreateCutRevolve::ToCATIA</referencedby>
+        <referencedby refid="class_post_1_1_feature_s_o_l_i_d_create_cut_extrude_1a7ffaba515665ad33e83e34d2af8a0cac" compoundref="_feature_s_o_l_i_d_create_cut_extrude_8cpp" startline="36" endline="99">Post::FeatureSOLIDCreateCutExtrude::ToCATIA</referencedby>
+        <referencedby refid="class_post_1_1_feature_s_o_l_i_d_create_protrusion_extrude_1a64f136a9e115c09cd4f1b2fff857f4b3" compoundref="_feature_s_o_l_i_d_create_protrusion_extrude_8cpp" startline="39" endline="101">Post::FeatureSOLIDCreateProtrusionExtrude::ToCATIA</referencedby>
+        <referencedby refid="class_post_1_1_feature_s_o_l_i_d_create_protrusion_revolve_1a694f7011ec7ebeca3d7bd3850dc756bf" compoundref="_feature_s_o_l_i_d_create_protrusion_revolve_8cpp" startline="43" endline="79">Post::FeatureSOLIDCreateProtrusionRevolve::ToCATIA</referencedby>
+        <referencedby refid="class_post_1_1_feature_s_o_l_i_d_create_protrusion_loft_1a229923ce36140b183c02b87949f3a0f5" compoundref="_feature_s_o_l_i_d_create_protrusion_loft_8cpp" startline="41" endline="69">Post::FeatureSOLIDCreateProtrusionLoft::ToCATIA</referencedby>
+        <referencedby refid="class_post_1_1_feature_s_o_l_i_d_create_sections_loft_1a24653567189674cf9624c7ce852b204b" compoundref="_feature_s_o_l_i_d_create_sections_loft_8cpp" startline="45" endline="120">Post::FeatureSOLIDCreateSectionsLoft::ToCATIA</referencedby>
+        <referencedby refid="class_post_1_1_feature_s_o_l_i_d_create_faces_loft_1a0cb2c7bcf5453a41a80ab8a42412e737" compoundref="_feature_s_o_l_i_d_create_faces_loft_8cpp" startline="41" endline="70">Post::FeatureSOLIDCreateFacesLoft::ToCATIA</referencedby>
+        <referencedby refid="class_post_1_1_feature_s_o_l_i_d_create_protrusion_sweep_1ad9d12144ce67b131f9d8b856abb32495" compoundref="_feature_s_o_l_i_d_create_protrusion_sweep_8cpp" startline="31" endline="60">Post::FeatureSOLIDCreateProtrusionSweep::ToCATIA</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_post_1_1_c_a_t_i_a_reference_manager_1a40000b07f85cedef424b70e7926cd0a0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int Post::CATIAReferenceManager::GetFeatureTypeByTransCADName</definition>
+        <argsstring>(std::string strTransCADName, TransCAD::FeatureType &amp;type)</argsstring>
+        <name>GetFeatureTypeByTransCADName</name>
+        <param>
+          <type>std::string</type>
+          <declname>strTransCADName</declname>
+        </param>
+        <param>
+          <type>TransCAD::FeatureType &amp;</type>
+          <declname>type</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/PostManager/ref/CATIAReferenceManager.h" line="43" column="1" bodyfile="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/PostManager/ref/CATIAReferenceManager.cpp" bodystart="117" bodyend="129"/>
+        <references refid="class_post_1_1_c_a_t_i_a_reference_manager_1a383a133c3125b224b5ba3e7ab546895c" compoundref="_c_a_t_i_a_reference_manager_8h" startline="74">_listNameMap</references>
+        <referencedby refid="class_post_1_1_c_a_t_i_a_reference_manager_1a833a8035817475a393e82cd8920cc9bd" compoundref="_c_a_t_i_a_reference_manager_8cpp" startline="301" endline="344">ConvertToBRepEdge</referencedby>
+        <referencedby refid="class_post_1_1_c_a_t_i_a_reference_manager_1a14b0bf73747d910e987049d1f11e53fa" compoundref="_c_a_t_i_a_reference_manager_8cpp" startline="181" endline="212">ConvertToBRepFace</referencedby>
+        <referencedby refid="class_post_1_1_c_a_t_i_a_reference_manager_1a85d0117a972b7913dbd075b2bd80c4db" compoundref="_c_a_t_i_a_reference_manager_8cpp" startline="258" endline="298">ConvertToBRepFaceForDatumPlane</referencedby>
+        <referencedby refid="class_post_1_1_c_a_t_i_a_reference_manager_1a1cb21f058f48445ec86600788ce3284a" compoundref="_c_a_t_i_a_reference_manager_8cpp" startline="215" endline="255">ConvertToBRepFaceForHole</referencedby>
+        <referencedby refid="class_post_1_1_c_a_t_i_a_reference_manager_1a737388d1973e22b9e201411abc5a649c" compoundref="_c_a_t_i_a_reference_manager_8cpp" startline="365" endline="439">GetBasicNameOfCATIA</referencedby>
+        <referencedby refid="class_post_1_1_feature_s_o_l_i_d_create_pattern_rectangular_1abb31233e316bac582f8b8b529dac7f49" compoundref="_post_manager_2ref_2_feature_s_o_l_i_d_create_pattern_rectangular_8cpp" startline="14" endline="64">Post::FeatureSOLIDCreatePatternRectangular::GetInfo</referencedby>
+        <referencedby refid="class_post_1_1_feature_s_o_l_i_d_create_pattern_circular_1a3529b594c7fb28c9976579e4eec5d947" compoundref="_post_manager_2ref_2_feature_s_o_l_i_d_create_pattern_circular_8cpp" startline="14" endline="64">Post::FeatureSOLIDCreatePatternCircular::GetInfo</referencedby>
+        <referencedby refid="class_post_1_1_c_a_t_i_a_reference_manager_1a93bf73889d62708888ebeb5861dcef17" compoundref="_c_a_t_i_a_reference_manager_8cpp" startline="442" endline="455">GetReferenceeFeature</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_post_1_1_c_a_t_i_a_reference_manager_1a1d6e06fdc183ccb458d935acf9c7bfba" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>std::string</type>
+        <definition>std::string Post::CATIAReferenceManager::FeatureTypeToString</definition>
+        <argsstring>(TransCAD::FeatureType type)</argsstring>
+        <name>FeatureTypeToString</name>
+        <param>
+          <type>TransCAD::FeatureType</type>
+          <declname>type</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/PostManager/ref/CATIAReferenceManager.h" line="45" column="1" bodyfile="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/PostManager/ref/CATIAReferenceManager.cpp" bodystart="159" bodyend="178"/>
+        <referencedby refid="class_post_1_1_c_a_t_i_a_reference_manager_1a833a8035817475a393e82cd8920cc9bd" compoundref="_c_a_t_i_a_reference_manager_8cpp" startline="301" endline="344">ConvertToBRepEdge</referencedby>
+        <referencedby refid="class_post_1_1_c_a_t_i_a_reference_manager_1a14b0bf73747d910e987049d1f11e53fa" compoundref="_c_a_t_i_a_reference_manager_8cpp" startline="181" endline="212">ConvertToBRepFace</referencedby>
+        <referencedby refid="class_post_1_1_c_a_t_i_a_reference_manager_1a85d0117a972b7913dbd075b2bd80c4db" compoundref="_c_a_t_i_a_reference_manager_8cpp" startline="258" endline="298">ConvertToBRepFaceForDatumPlane</referencedby>
+        <referencedby refid="class_post_1_1_c_a_t_i_a_reference_manager_1a1cb21f058f48445ec86600788ce3284a" compoundref="_c_a_t_i_a_reference_manager_8cpp" startline="215" endline="255">ConvertToBRepFaceForHole</referencedby>
+        <referencedby refid="class_post_1_1_c_a_t_i_a_reference_manager_1a737388d1973e22b9e201411abc5a649c" compoundref="_c_a_t_i_a_reference_manager_8cpp" startline="365" endline="439">GetBasicNameOfCATIA</referencedby>
+        <referencedby refid="class_post_1_1_feature_s_o_l_i_d_create_pattern_rectangular_1abb31233e316bac582f8b8b529dac7f49" compoundref="_post_manager_2ref_2_feature_s_o_l_i_d_create_pattern_rectangular_8cpp" startline="14" endline="64">Post::FeatureSOLIDCreatePatternRectangular::GetInfo</referencedby>
+        <referencedby refid="class_post_1_1_feature_s_o_l_i_d_create_pattern_circular_1a3529b594c7fb28c9976579e4eec5d947" compoundref="_post_manager_2ref_2_feature_s_o_l_i_d_create_pattern_circular_8cpp" startline="14" endline="64">Post::FeatureSOLIDCreatePatternCircular::GetInfo</referencedby>
+        <referencedby refid="class_post_1_1_c_a_t_i_a_reference_manager_1a93bf73889d62708888ebeb5861dcef17" compoundref="_c_a_t_i_a_reference_manager_8cpp" startline="442" endline="455">GetReferenceeFeature</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_post_1_1_c_a_t_i_a_reference_manager_1a14b0bf73747d910e987049d1f11e53fa" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>std::string</type>
+        <definition>std::string Post::CATIAReferenceManager::ConvertToBRepFace</definition>
+        <argsstring>(std::string strPersistentName)</argsstring>
+        <name>ConvertToBRepFace</name>
+        <param>
+          <type>std::string</type>
+          <declname>strPersistentName</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/PostManager/ref/CATIAReferenceManager.h" line="47" column="1" bodyfile="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/PostManager/ref/CATIAReferenceManager.cpp" bodystart="181" bodyend="212"/>
+        <references refid="struct_post_1_1_e_n___f_1a8e2b53b6957374a942d13a8609d64310" compoundref="_p_n___t_y_p_e_8h" startline="72">Post::EN_F::_bn</references>
+        <references refid="struct_post_1_1secondary__name_1a4b4803da37755b9acad2039a60da38ca" compoundref="_p_n___t_y_p_e_8h" startline="67">Post::secondary_name::_bn_list</references>
+        <references refid="struct_post_1_1_e_n___f_1a91d71dbe012d955b239f80a900452557" compoundref="_p_n___t_y_p_e_8h" startline="74">Post::EN_F::_sn</references>
+        <references refid="struct_post_1_1basic__naming_1a903d9daa7d0d04edeff5483516eb2a07" compoundref="_p_n___t_y_p_e_8h" startline="49">Post::basic_naming::feature_id</references>
+        <references refid="class_post_1_1_c_a_t_i_a_reference_manager_1a1d6e06fdc183ccb458d935acf9c7bfba" compoundref="_c_a_t_i_a_reference_manager_8cpp" startline="159" endline="178">FeatureTypeToString</references>
+        <references refid="class_post_1_1_c_a_t_i_a_reference_manager_1ac1fead06b42883f7c35328d3773be7d8" compoundref="_c_a_t_i_a_reference_manager_8cpp" startline="347" endline="362">GetFaceNameOfCATIA</references>
+        <references refid="class_post_1_1_c_a_t_i_a_reference_manager_1ab00159c9905b3d3d14361f390db87e48" compoundref="_c_a_t_i_a_reference_manager_8cpp" startline="102" endline="114">GetFeatureIDByTransCADName</references>
+        <references refid="class_post_1_1_c_a_t_i_a_reference_manager_1a40000b07f85cedef424b70e7926cd0a0" compoundref="_c_a_t_i_a_reference_manager_8cpp" startline="117" endline="129">GetFeatureTypeByTransCADName</references>
+        <references refid="namespace_post_1ae3e42cd6a90b8e710aaacb3800b6d23f" compoundref="_m_p___utility_8cpp" startline="4" endline="11">Post::Parsing_F</references>
+        <references refid="struct_post_1_1secondary__name_1ad5d39be93f62eba8156e20a180671a69" compoundref="_p_n___t_y_p_e_8h" startline="66">Post::secondary_name::total_num</references>
+        <referencedby refid="class_reference_class_1_1ref___post_1ac03f868795100aae6025febab7f6d2e6" compoundref="_reference_class___post_8cpp" startline="209" endline="229">ReferenceClass::ref_Post::T2C_ReferenceName_From_Part</referencedby>
+        <referencedby refid="class_post_1_1_f_sketch_1a04bbe4dfa30502ae0e62abd35ece66fe" compoundref="_post_manager_2ref_2_f_sketch_8cpp" startline="140" endline="276">Post::FSketch::ToCATIA</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_post_1_1_c_a_t_i_a_reference_manager_1a1cb21f058f48445ec86600788ce3284a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>std::string</type>
+        <definition>std::string Post::CATIAReferenceManager::ConvertToBRepFaceForHole</definition>
+        <argsstring>(std::string strPersistentName)</argsstring>
+        <name>ConvertToBRepFaceForHole</name>
+        <param>
+          <type>std::string</type>
+          <declname>strPersistentName</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/PostManager/ref/CATIAReferenceManager.h" line="48" column="1" bodyfile="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/PostManager/ref/CATIAReferenceManager.cpp" bodystart="215" bodyend="255"/>
+        <references refid="struct_post_1_1_e_n___f_1a8e2b53b6957374a942d13a8609d64310" compoundref="_p_n___t_y_p_e_8h" startline="72">Post::EN_F::_bn</references>
+        <references refid="struct_post_1_1secondary__name_1a4b4803da37755b9acad2039a60da38ca" compoundref="_p_n___t_y_p_e_8h" startline="67">Post::secondary_name::_bn_list</references>
+        <references refid="struct_post_1_1_e_n___f_1a91d71dbe012d955b239f80a900452557" compoundref="_p_n___t_y_p_e_8h" startline="74">Post::EN_F::_sn</references>
+        <references refid="struct_post_1_1basic__naming_1a903d9daa7d0d04edeff5483516eb2a07" compoundref="_p_n___t_y_p_e_8h" startline="49">Post::basic_naming::feature_id</references>
+        <references refid="class_post_1_1_c_a_t_i_a_reference_manager_1a1d6e06fdc183ccb458d935acf9c7bfba" compoundref="_c_a_t_i_a_reference_manager_8cpp" startline="159" endline="178">FeatureTypeToString</references>
+        <references refid="class_post_1_1_c_a_t_i_a_reference_manager_1ac1fead06b42883f7c35328d3773be7d8" compoundref="_c_a_t_i_a_reference_manager_8cpp" startline="347" endline="362">GetFaceNameOfCATIA</references>
+        <references refid="class_post_1_1_c_a_t_i_a_reference_manager_1ab00159c9905b3d3d14361f390db87e48" compoundref="_c_a_t_i_a_reference_manager_8cpp" startline="102" endline="114">GetFeatureIDByTransCADName</references>
+        <references refid="class_post_1_1_c_a_t_i_a_reference_manager_1a40000b07f85cedef424b70e7926cd0a0" compoundref="_c_a_t_i_a_reference_manager_8cpp" startline="117" endline="129">GetFeatureTypeByTransCADName</references>
+        <references refid="namespace_post_1ae3e42cd6a90b8e710aaacb3800b6d23f" compoundref="_m_p___utility_8cpp" startline="4" endline="11">Post::Parsing_F</references>
+        <references refid="struct_post_1_1secondary__name_1ad5d39be93f62eba8156e20a180671a69" compoundref="_p_n___t_y_p_e_8h" startline="66">Post::secondary_name::total_num</references>
+        <referencedby refid="class_post_1_1_feature_s_o_l_i_d_create_hole_counterbored_1a8f74cad0535e4af5457336d82fde6109" compoundref="_feature_s_o_l_i_d_create_hole_counterbored_8cpp" startline="37" endline="96">Post::FeatureSOLIDCreateHoleCounterbored::ToCATIA</referencedby>
+        <referencedby refid="class_post_1_1_feature_s_o_l_i_d_create_hole_countersunk_1a076b56d8a0a35f24cd0ae55d0760e87e" compoundref="_feature_s_o_l_i_d_create_hole_countersunk_8cpp" startline="37" endline="98">Post::FeatureSOLIDCreateHoleCountersunk::ToCATIA</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_post_1_1_c_a_t_i_a_reference_manager_1a85d0117a972b7913dbd075b2bd80c4db" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>std::string</type>
+        <definition>std::string Post::CATIAReferenceManager::ConvertToBRepFaceForDatumPlane</definition>
+        <argsstring>(std::string strPersistentName)</argsstring>
+        <name>ConvertToBRepFaceForDatumPlane</name>
+        <param>
+          <type>std::string</type>
+          <declname>strPersistentName</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/PostManager/ref/CATIAReferenceManager.h" line="49" column="1" bodyfile="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/PostManager/ref/CATIAReferenceManager.cpp" bodystart="258" bodyend="298"/>
+        <references refid="struct_post_1_1_e_n___f_1a8e2b53b6957374a942d13a8609d64310" compoundref="_p_n___t_y_p_e_8h" startline="72">Post::EN_F::_bn</references>
+        <references refid="struct_post_1_1secondary__name_1a4b4803da37755b9acad2039a60da38ca" compoundref="_p_n___t_y_p_e_8h" startline="67">Post::secondary_name::_bn_list</references>
+        <references refid="struct_post_1_1_e_n___f_1a91d71dbe012d955b239f80a900452557" compoundref="_p_n___t_y_p_e_8h" startline="74">Post::EN_F::_sn</references>
+        <references refid="struct_post_1_1basic__naming_1a903d9daa7d0d04edeff5483516eb2a07" compoundref="_p_n___t_y_p_e_8h" startline="49">Post::basic_naming::feature_id</references>
+        <references refid="class_post_1_1_c_a_t_i_a_reference_manager_1a1d6e06fdc183ccb458d935acf9c7bfba" compoundref="_c_a_t_i_a_reference_manager_8cpp" startline="159" endline="178">FeatureTypeToString</references>
+        <references refid="class_post_1_1_c_a_t_i_a_reference_manager_1ac1fead06b42883f7c35328d3773be7d8" compoundref="_c_a_t_i_a_reference_manager_8cpp" startline="347" endline="362">GetFaceNameOfCATIA</references>
+        <references refid="class_post_1_1_c_a_t_i_a_reference_manager_1ab00159c9905b3d3d14361f390db87e48" compoundref="_c_a_t_i_a_reference_manager_8cpp" startline="102" endline="114">GetFeatureIDByTransCADName</references>
+        <references refid="class_post_1_1_c_a_t_i_a_reference_manager_1a40000b07f85cedef424b70e7926cd0a0" compoundref="_c_a_t_i_a_reference_manager_8cpp" startline="117" endline="129">GetFeatureTypeByTransCADName</references>
+        <references refid="namespace_post_1ae3e42cd6a90b8e710aaacb3800b6d23f" compoundref="_m_p___utility_8cpp" startline="4" endline="11">Post::Parsing_F</references>
+        <references refid="struct_post_1_1secondary__name_1ad5d39be93f62eba8156e20a180671a69" compoundref="_p_n___t_y_p_e_8h" startline="66">Post::secondary_name::total_num</references>
+        <referencedby refid="class_post_1_1_f_datum_plane_offset_1af34c0973ffefae44460713c5f5944e19" compoundref="_post_manager_2ref_2_f_datum_plane_offset_8cpp" startline="29" endline="111">Post::FDatumPlaneOffset::ToCATIA</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_post_1_1_c_a_t_i_a_reference_manager_1a833a8035817475a393e82cd8920cc9bd" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>std::string</type>
+        <definition>std::string Post::CATIAReferenceManager::ConvertToBRepEdge</definition>
+        <argsstring>(std::string strPersistentName)</argsstring>
+        <name>ConvertToBRepEdge</name>
+        <param>
+          <type>std::string</type>
+          <declname>strPersistentName</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/PostManager/ref/CATIAReferenceManager.h" line="50" column="1" bodyfile="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/PostManager/ref/CATIAReferenceManager.cpp" bodystart="301" bodyend="344"/>
+        <references refid="struct_post_1_1_e_n___f_1a8e2b53b6957374a942d13a8609d64310" compoundref="_p_n___t_y_p_e_8h" startline="72">Post::EN_F::_bn</references>
+        <references refid="struct_post_1_1secondary__name_1a4b4803da37755b9acad2039a60da38ca" compoundref="_p_n___t_y_p_e_8h" startline="67">Post::secondary_name::_bn_list</references>
+        <references refid="struct_post_1_1_e_n___e_1a036b5b858a9930cca72fbcb7e32e2061" compoundref="_p_n___t_y_p_e_8h" startline="79">Post::EN_E::_f1</references>
+        <references refid="struct_post_1_1_e_n___e_1a84b184aa31a43db7176c43d96f5bfa0e" compoundref="_p_n___t_y_p_e_8h" startline="80">Post::EN_E::_f2</references>
+        <references refid="struct_post_1_1_e_n___f_1a91d71dbe012d955b239f80a900452557" compoundref="_p_n___t_y_p_e_8h" startline="74">Post::EN_F::_sn</references>
+        <references refid="struct_post_1_1basic__naming_1a903d9daa7d0d04edeff5483516eb2a07" compoundref="_p_n___t_y_p_e_8h" startline="49">Post::basic_naming::feature_id</references>
+        <references refid="class_post_1_1_c_a_t_i_a_reference_manager_1a1d6e06fdc183ccb458d935acf9c7bfba" compoundref="_c_a_t_i_a_reference_manager_8cpp" startline="159" endline="178">FeatureTypeToString</references>
+        <references refid="class_post_1_1_c_a_t_i_a_reference_manager_1ac1fead06b42883f7c35328d3773be7d8" compoundref="_c_a_t_i_a_reference_manager_8cpp" startline="347" endline="362">GetFaceNameOfCATIA</references>
+        <references refid="class_post_1_1_c_a_t_i_a_reference_manager_1ab00159c9905b3d3d14361f390db87e48" compoundref="_c_a_t_i_a_reference_manager_8cpp" startline="102" endline="114">GetFeatureIDByTransCADName</references>
+        <references refid="class_post_1_1_c_a_t_i_a_reference_manager_1a40000b07f85cedef424b70e7926cd0a0" compoundref="_c_a_t_i_a_reference_manager_8cpp" startline="117" endline="129">GetFeatureTypeByTransCADName</references>
+        <references refid="namespace_post_1accad7a93fa3eb05cccced87b3d7fd230" compoundref="_m_p___utility_8cpp" startline="13" endline="21">Post::Parsing_E</references>
+        <references refid="struct_post_1_1secondary__name_1ad5d39be93f62eba8156e20a180671a69" compoundref="_p_n___t_y_p_e_8h" startline="66">Post::secondary_name::total_num</references>
+        <referencedby refid="class_post_1_1_feature_s_o_l_i_d_create_chamfer_1adc476aca0219e6111ebad3f6807e53a6" compoundref="_post_manager_2ref_2_feature_s_o_l_i_d_create_chamfer_8cpp" startline="33" endline="67">Post::FeatureSOLIDCreateChamfer::ToCATIA</referencedby>
+        <referencedby refid="class_post_1_1_feature_s_o_l_i_d_create_fillet_constant_1a395a9468714e65e59fdc9735a1c4c2da" compoundref="_post_manager_2ref_2_feature_s_o_l_i_d_create_fillet_constant_8cpp" startline="34" endline="69">Post::FeatureSOLIDCreateFilletConstant::ToCATIA</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_post_1_1_c_a_t_i_a_reference_manager_1a25f67887620b45f7443dcbcf674b7417" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Post::CATIAReferenceManager::AddNewPointName</definition>
+        <argsstring>(std::string strSketchName, std::string CATIApointName, std::string TransCADpointName)</argsstring>
+        <name>AddNewPointName</name>
+        <param>
+          <type>std::string</type>
+          <declname>strSketchName</declname>
+        </param>
+        <param>
+          <type>std::string</type>
+          <declname>CATIApointName</declname>
+        </param>
+        <param>
+          <type>std::string</type>
+          <declname>TransCADpointName</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/PostManager/ref/CATIAReferenceManager.h" line="52" column="1" bodyfile="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/PostManager/ref/CATIAReferenceManager.cpp" bodystart="132" bodyend="140"/>
+        <references refid="struct_post_1_1__tagpoint_name_map_1a44ba2f24665e7d5d3f29f5633ab6ccfe" compoundref="_c_a_t_i_a_reference_manager_8h" startline="23">Post::_tagpointNameMap::_CATIAName</references>
+        <references refid="class_post_1_1_c_a_t_i_a_reference_manager_1af7917792ba635912d238af4324e6ce1d" compoundref="_c_a_t_i_a_reference_manager_8h" startline="70">_listPointNameMap</references>
+        <references refid="struct_post_1_1__tagpoint_name_map_1ab9e3fa97a5a07bb1715b97063f84918b" compoundref="_c_a_t_i_a_reference_manager_8h" startline="22">Post::_tagpointNameMap::_sketchName</references>
+        <references refid="struct_post_1_1__tagpoint_name_map_1a26a7d3b9dfea55b022feac1536af8941" compoundref="_c_a_t_i_a_reference_manager_8h" startline="24">Post::_tagpointNameMap::_TransCADName</references>
+        <referencedby refid="class_post_1_1_s_k_e_t_c_h_create2_d_point_1a877072a679bbda32955a75b4d79a46b3" compoundref="_s_k_e_t_c_h_create2_d_point_8cpp" startline="24" endline="39">Post::SKETCHCreate2DPoint::ToCATIA</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_post_1_1_c_a_t_i_a_reference_manager_1a5b1e469ad808e0a6bdf7a68fd8918592" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>std::string</type>
+        <definition>std::string Post::CATIAReferenceManager::GetCatiaPointNameByTransCADPointName</definition>
+        <argsstring>(std::string strSketchName, std::string TransCADpointName)</argsstring>
+        <name>GetCatiaPointNameByTransCADPointName</name>
+        <param>
+          <type>std::string</type>
+          <declname>strSketchName</declname>
+        </param>
+        <param>
+          <type>std::string</type>
+          <declname>TransCADpointName</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/PostManager/ref/CATIAReferenceManager.h" line="53" column="1" bodyfile="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/PostManager/ref/CATIAReferenceManager.cpp" bodystart="143" bodyend="156"/>
+        <references refid="class_post_1_1_c_a_t_i_a_reference_manager_1af7917792ba635912d238af4324e6ce1d" compoundref="_c_a_t_i_a_reference_manager_8h" startline="70">_listPointNameMap</references>
+        <referencedby refid="class_post_1_1_s_k_e_t_c_h_create2_d_line2_points_1a3a001e53b6c6a2444690a3d1b5d81085" compoundref="_s_k_e_t_c_h_create2_d_line2_points_8cpp" startline="14" endline="30">Post::SKETCHCreate2DLine2Points::GetInfo</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_post_1_1_c_a_t_i_a_reference_manager_1a9a6d967f69a40e0f1b42a885dbf3c164" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Post::CATIAReferenceManager::AddSketchInfo</definition>
+        <argsstring>(SKETCH_INFO _sInfo)</argsstring>
+        <name>AddSketchInfo</name>
+        <param>
+          <type><ref refid="namespace_post_1a1a41e4a3a5e3a3aa143a7b7491a708dd" kindref="member">SKETCH_INFO</ref></type>
+          <declname>_sInfo</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/PostManager/ref/CATIAReferenceManager.h" line="55" column="1" bodyfile="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/PostManager/ref/CATIAReferenceManager.h" bodystart="55" bodyend="55"/>
+        <references refid="class_post_1_1_c_a_t_i_a_reference_manager_1a4affa92d99b3803ee7ec8d0598bd08e5" compoundref="_c_a_t_i_a_reference_manager_8h" startline="75">_listSketchInfo</references>
+        <referencedby refid="class_post_1_1_f_sketch_1a7bafff74162c56925124f63dc257948f" compoundref="_post_manager_2ref_2_f_sketch_8cpp" startline="87" endline="138">Post::FSketch::GetInfo</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_post_1_1_c_a_t_i_a_reference_manager_1afeabdbbefecee8816aeff65247a70799" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Post::CATIAReferenceManager::eew</definition>
+        <argsstring>()</argsstring>
+        <name>eew</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/PostManager/ref/CATIAReferenceManager.h" line="57" column="1" bodyfile="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/PostManager/ref/CATIAReferenceManager.cpp" bodystart="457" bodyend="519"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="protected-func">
+      <memberdef kind="function" id="class_post_1_1_c_a_t_i_a_reference_manager_1a220527620d4de8c03317c83668cc9f6d" prot="protected" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int Post::CATIAReferenceManager::GetTransCADNameByEntityID</definition>
+        <argsstring>(std::string strSketchName, int id, std::string &amp;strTransCADName)</argsstring>
+        <name>GetTransCADNameByEntityID</name>
+        <param>
+          <type>std::string</type>
+          <declname>strSketchName</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>id</declname>
+        </param>
+        <param>
+          <type>std::string &amp;</type>
+          <declname>strTransCADName</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/PostManager/ref/CATIAReferenceManager.h" line="60" column="1" bodyfile="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/PostManager/ref/CATIAReferenceManager.cpp" bodystart="70" bodyend="82"/>
+        <references refid="class_post_1_1_c_a_t_i_a_reference_manager_1a62bd007d8128e37a60468437048a20a5" compoundref="_c_a_t_i_a_reference_manager_8h" startline="71">_listEntityNameMap</references>
+      </memberdef>
+      <memberdef kind="function" id="class_post_1_1_c_a_t_i_a_reference_manager_1abfdc2952c5b3e5251e08d467f64c75bf" prot="protected" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int Post::CATIAReferenceManager::GetEntityIDByTransCADName</definition>
+        <argsstring>(std::string strSketchName, std::string strTransCADName, int &amp;id)</argsstring>
+        <name>GetEntityIDByTransCADName</name>
+        <param>
+          <type>std::string</type>
+          <declname>strSketchName</declname>
+        </param>
+        <param>
+          <type>std::string</type>
+          <declname>strTransCADName</declname>
+        </param>
+        <param>
+          <type>int &amp;</type>
+          <declname>id</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/PostManager/ref/CATIAReferenceManager.h" line="61" column="1" bodyfile="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/PostManager/ref/CATIAReferenceManager.cpp" bodystart="85" bodyend="99"/>
+        <references refid="class_post_1_1_c_a_t_i_a_reference_manager_1a62bd007d8128e37a60468437048a20a5" compoundref="_c_a_t_i_a_reference_manager_8h" startline="71">_listEntityNameMap</references>
+        <referencedby refid="class_post_1_1_c_a_t_i_a_reference_manager_1a737388d1973e22b9e201411abc5a649c" compoundref="_c_a_t_i_a_reference_manager_8cpp" startline="365" endline="439">GetBasicNameOfCATIA</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_post_1_1_c_a_t_i_a_reference_manager_1ac1fead06b42883f7c35328d3773be7d8" prot="protected" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>std::string</type>
+        <definition>std::string Post::CATIAReferenceManager::GetFaceNameOfCATIA</definition>
+        <argsstring>(EN_F faceName)</argsstring>
+        <name>GetFaceNameOfCATIA</name>
+        <param>
+          <type><ref refid="struct_post_1_1_e_n___f" kindref="compound">EN_F</ref></type>
+          <declname>faceName</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/PostManager/ref/CATIAReferenceManager.h" line="63" column="1" bodyfile="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/PostManager/ref/CATIAReferenceManager.cpp" bodystart="347" bodyend="362"/>
+        <references refid="struct_post_1_1_e_n___f_1a8e2b53b6957374a942d13a8609d64310" compoundref="_p_n___t_y_p_e_8h" startline="72">Post::EN_F::_bn</references>
+        <references refid="struct_post_1_1secondary__name_1a4b4803da37755b9acad2039a60da38ca" compoundref="_p_n___t_y_p_e_8h" startline="67">Post::secondary_name::_bn_list</references>
+        <references refid="struct_post_1_1_e_n___f_1a91d71dbe012d955b239f80a900452557" compoundref="_p_n___t_y_p_e_8h" startline="74">Post::EN_F::_sn</references>
+        <references refid="class_post_1_1_c_a_t_i_a_reference_manager_1a737388d1973e22b9e201411abc5a649c" compoundref="_c_a_t_i_a_reference_manager_8cpp" startline="365" endline="439">GetBasicNameOfCATIA</references>
+        <references refid="struct_post_1_1secondary__name_1ad5d39be93f62eba8156e20a180671a69" compoundref="_p_n___t_y_p_e_8h" startline="66">Post::secondary_name::total_num</references>
+        <referencedby refid="class_post_1_1_c_a_t_i_a_reference_manager_1a833a8035817475a393e82cd8920cc9bd" compoundref="_c_a_t_i_a_reference_manager_8cpp" startline="301" endline="344">ConvertToBRepEdge</referencedby>
+        <referencedby refid="class_post_1_1_c_a_t_i_a_reference_manager_1a14b0bf73747d910e987049d1f11e53fa" compoundref="_c_a_t_i_a_reference_manager_8cpp" startline="181" endline="212">ConvertToBRepFace</referencedby>
+        <referencedby refid="class_post_1_1_c_a_t_i_a_reference_manager_1a85d0117a972b7913dbd075b2bd80c4db" compoundref="_c_a_t_i_a_reference_manager_8cpp" startline="258" endline="298">ConvertToBRepFaceForDatumPlane</referencedby>
+        <referencedby refid="class_post_1_1_c_a_t_i_a_reference_manager_1a1cb21f058f48445ec86600788ce3284a" compoundref="_c_a_t_i_a_reference_manager_8cpp" startline="215" endline="255">ConvertToBRepFaceForHole</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_post_1_1_c_a_t_i_a_reference_manager_1a737388d1973e22b9e201411abc5a649c" prot="protected" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>std::string</type>
+        <definition>std::string Post::CATIAReferenceManager::GetBasicNameOfCATIA</definition>
+        <argsstring>(basic_naming basicName)</argsstring>
+        <name>GetBasicNameOfCATIA</name>
+        <param>
+          <type><ref refid="struct_post_1_1basic__naming" kindref="compound">basic_naming</ref></type>
+          <declname>basicName</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/PostManager/ref/CATIAReferenceManager.h" line="64" column="1" bodyfile="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/PostManager/ref/CATIAReferenceManager.cpp" bodystart="365" bodyend="439"/>
+        <references refid="struct_post_1_1basic__naming_1a903d9daa7d0d04edeff5483516eb2a07" compoundref="_p_n___t_y_p_e_8h" startline="49">Post::basic_naming::feature_id</references>
+        <references refid="class_post_1_1_c_a_t_i_a_reference_manager_1a1d6e06fdc183ccb458d935acf9c7bfba" compoundref="_c_a_t_i_a_reference_manager_8cpp" startline="159" endline="178">FeatureTypeToString</references>
+        <references refid="class_post_1_1_c_a_t_i_a_reference_manager_1abfdc2952c5b3e5251e08d467f64c75bf" compoundref="_c_a_t_i_a_reference_manager_8cpp" startline="85" endline="99">GetEntityIDByTransCADName</references>
+        <references refid="class_post_1_1_c_a_t_i_a_reference_manager_1ab00159c9905b3d3d14361f390db87e48" compoundref="_c_a_t_i_a_reference_manager_8cpp" startline="102" endline="114">GetFeatureIDByTransCADName</references>
+        <references refid="class_post_1_1_c_a_t_i_a_reference_manager_1a40000b07f85cedef424b70e7926cd0a0" compoundref="_c_a_t_i_a_reference_manager_8cpp" startline="117" endline="129">GetFeatureTypeByTransCADName</references>
+        <references refid="struct_post_1_1basic__naming_1aced3357cc2dc4d606c1f0896f90152ec" compoundref="_p_n___t_y_p_e_8h" startline="50">Post::basic_naming::id1</references>
+        <references refid="struct_post_1_1basic__naming_1ab3f7cc28a6762397fba41f0db5f09ea9" compoundref="_p_n___t_y_p_e_8h" startline="51">Post::basic_naming::id2</references>
+        <references refid="struct_post_1_1basic__naming_1a89684ce943c8d24a4702ec0832bd6fca" compoundref="_p_n___t_y_p_e_8h" startline="52">Post::basic_naming::id3</references>
+        <references refid="struct_post_1_1basic__naming_1a236fc2d576caebe572136f9fbeb572d3" compoundref="_p_n___t_y_p_e_8h" startline="53">Post::basic_naming::id4</references>
+        <referencedby refid="class_post_1_1_c_a_t_i_a_reference_manager_1ac1fead06b42883f7c35328d3773be7d8" compoundref="_c_a_t_i_a_reference_manager_8cpp" startline="347" endline="362">GetFaceNameOfCATIA</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_post_1_1_c_a_t_i_a_reference_manager_1a93bf73889d62708888ebeb5861dcef17" prot="protected" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>std::string</type>
+        <definition>std::string Post::CATIAReferenceManager::GetReferenceeFeature</definition>
+        <argsstring>(std::string strPersistentName)</argsstring>
+        <name>GetReferenceeFeature</name>
+        <param>
+          <type>std::string</type>
+          <declname>strPersistentName</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/PostManager/ref/CATIAReferenceManager.h" line="66" column="1" bodyfile="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/PostManager/ref/CATIAReferenceManager.cpp" bodystart="442" bodyend="455"/>
+        <references refid="struct_post_1_1_e_n___f_1a8e2b53b6957374a942d13a8609d64310" compoundref="_p_n___t_y_p_e_8h" startline="72">Post::EN_F::_bn</references>
+        <references refid="struct_post_1_1basic__naming_1a903d9daa7d0d04edeff5483516eb2a07" compoundref="_p_n___t_y_p_e_8h" startline="49">Post::basic_naming::feature_id</references>
+        <references refid="class_post_1_1_c_a_t_i_a_reference_manager_1a1d6e06fdc183ccb458d935acf9c7bfba" compoundref="_c_a_t_i_a_reference_manager_8cpp" startline="159" endline="178">FeatureTypeToString</references>
+        <references refid="class_post_1_1_c_a_t_i_a_reference_manager_1a40000b07f85cedef424b70e7926cd0a0" compoundref="_c_a_t_i_a_reference_manager_8cpp" startline="117" endline="129">GetFeatureTypeByTransCADName</references>
+        <references refid="namespace_post_1ae3e42cd6a90b8e710aaacb3800b6d23f" compoundref="_m_p___utility_8cpp" startline="4" endline="11">Post::Parsing_F</references>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="265">
+        <label>std::vector&lt; Post::_sketchInfo &gt;</label>
+        <childnode refid="266" relation="usage">
+          <edgelabel>elements</edgelabel>
+        </childnode>
+      </node>
+      <node id="270">
+        <label>std::vector&lt; Post::_tagpointNameMap &gt;</label>
+        <childnode refid="271" relation="usage">
+          <edgelabel>elements</edgelabel>
+        </childnode>
+      </node>
+      <node id="272">
+        <label>std::vector&lt; Post::_tagNameMap &gt;</label>
+        <childnode refid="273" relation="usage">
+          <edgelabel>elements</edgelabel>
+        </childnode>
+      </node>
+      <node id="276">
+        <label>Post::_tagEntityMap</label>
+        <link refid="struct_post_1_1__tag_entity_map"/>
+        <childnode refid="267" relation="usage">
+          <edgelabel>_entityName</edgelabel>
+          <edgelabel>_sketchName</edgelabel>
+        </childnode>
+      </node>
+      <node id="264">
+        <label>Post::CATIAReferenceManager</label>
+        <link refid="class_post_1_1_c_a_t_i_a_reference_manager"/>
+        <childnode refid="265" relation="usage">
+          <edgelabel>_listSketchInfo</edgelabel>
+        </childnode>
+        <childnode refid="269" relation="usage">
+          <edgelabel>_listEntityID</edgelabel>
+        </childnode>
+        <childnode refid="270" relation="usage">
+          <edgelabel>_listPointNameMap</edgelabel>
+        </childnode>
+        <childnode refid="272" relation="usage">
+          <edgelabel>_listNameMap</edgelabel>
+        </childnode>
+        <childnode refid="274" relation="usage">
+          <edgelabel>_listTransCADName</edgelabel>
+        </childnode>
+        <childnode refid="275" relation="usage">
+          <edgelabel>_listEntityNameMap</edgelabel>
+        </childnode>
+      </node>
+      <node id="268">
+        <label>std::basic_string&lt; char &gt;</label>
+      </node>
+      <node id="274">
+        <label>std::vector&lt; std::string &gt;</label>
+        <childnode refid="267" relation="usage">
+          <edgelabel>elements</edgelabel>
+        </childnode>
+      </node>
+      <node id="275">
+        <label>std::vector&lt; Post::_tagEntityMap &gt;</label>
+        <childnode refid="276" relation="usage">
+          <edgelabel>elements</edgelabel>
+        </childnode>
+      </node>
+      <node id="271">
+        <label>Post::_tagpointNameMap</label>
+        <link refid="struct_post_1_1__tagpoint_name_map"/>
+        <childnode refid="267" relation="usage">
+          <edgelabel>_TransCADName</edgelabel>
+          <edgelabel>_sketchName</edgelabel>
+          <edgelabel>_CATIAName</edgelabel>
+        </childnode>
+      </node>
+      <node id="266">
+        <label>Post::_sketchInfo</label>
+        <link refid="struct_post_1_1__sketch_info"/>
+        <childnode refid="267" relation="usage">
+          <edgelabel>sketch_name</edgelabel>
+          <edgelabel>sketch_ref</edgelabel>
+        </childnode>
+      </node>
+      <node id="273">
+        <label>Post::_tagNameMap</label>
+        <link refid="struct_post_1_1__tag_name_map"/>
+        <childnode refid="267" relation="usage">
+          <edgelabel>_name</edgelabel>
+        </childnode>
+      </node>
+      <node id="269">
+        <label>std::vector&lt; int &gt;</label>
+      </node>
+      <node id="267">
+        <label>std::string</label>
+        <childnode refid="268" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/PostManager/ref/CATIAReferenceManager.h" line="34" column="1" bodyfile="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/PostManager/ref/CATIAReferenceManager.h" bodystart="33" bodyend="76"/>
+    <listofallmembers>
+      <member refid="class_post_1_1_c_a_t_i_a_reference_manager_1a1c851950a75ef09a91286d6070f6d032" prot="private" virt="non-virtual"><scope>Post::CATIAReferenceManager</scope><name>_id</name></member>
+      <member refid="class_post_1_1_c_a_t_i_a_reference_manager_1aa6040d5644c9715246c4a83a971355c7" prot="private" virt="non-virtual"><scope>Post::CATIAReferenceManager</scope><name>_listEntityID</name></member>
+      <member refid="class_post_1_1_c_a_t_i_a_reference_manager_1a62bd007d8128e37a60468437048a20a5" prot="private" virt="non-virtual"><scope>Post::CATIAReferenceManager</scope><name>_listEntityNameMap</name></member>
+      <member refid="class_post_1_1_c_a_t_i_a_reference_manager_1a383a133c3125b224b5ba3e7ab546895c" prot="private" virt="non-virtual"><scope>Post::CATIAReferenceManager</scope><name>_listNameMap</name></member>
+      <member refid="class_post_1_1_c_a_t_i_a_reference_manager_1af7917792ba635912d238af4324e6ce1d" prot="private" virt="non-virtual"><scope>Post::CATIAReferenceManager</scope><name>_listPointNameMap</name></member>
+      <member refid="class_post_1_1_c_a_t_i_a_reference_manager_1a4affa92d99b3803ee7ec8d0598bd08e5" prot="private" virt="non-virtual"><scope>Post::CATIAReferenceManager</scope><name>_listSketchInfo</name></member>
+      <member refid="class_post_1_1_c_a_t_i_a_reference_manager_1a2856f1f286fd02f94446879874825fdf" prot="private" virt="non-virtual"><scope>Post::CATIAReferenceManager</scope><name>_listTransCADName</name></member>
+      <member refid="class_post_1_1_c_a_t_i_a_reference_manager_1a7136483a68c4864c1ecdffe3b842f030" prot="public" virt="non-virtual"><scope>Post::CATIAReferenceManager</scope><name>AddNewEntity</name></member>
+      <member refid="class_post_1_1_c_a_t_i_a_reference_manager_1a1d1deb3d6ea4b87ad8fb51765dc05e85" prot="public" virt="non-virtual"><scope>Post::CATIAReferenceManager</scope><name>AddNewFeature</name></member>
+      <member refid="class_post_1_1_c_a_t_i_a_reference_manager_1a25f67887620b45f7443dcbcf674b7417" prot="public" virt="non-virtual"><scope>Post::CATIAReferenceManager</scope><name>AddNewPointName</name></member>
+      <member refid="class_post_1_1_c_a_t_i_a_reference_manager_1a9a6d967f69a40e0f1b42a885dbf3c164" prot="public" virt="non-virtual"><scope>Post::CATIAReferenceManager</scope><name>AddSketchInfo</name></member>
+      <member refid="class_post_1_1_c_a_t_i_a_reference_manager_1aba9201b929711be95e24a4696aaf6d25" prot="public" virt="non-virtual"><scope>Post::CATIAReferenceManager</scope><name>CATIAReferenceManager</name></member>
+      <member refid="class_post_1_1_c_a_t_i_a_reference_manager_1a833a8035817475a393e82cd8920cc9bd" prot="public" virt="non-virtual"><scope>Post::CATIAReferenceManager</scope><name>ConvertToBRepEdge</name></member>
+      <member refid="class_post_1_1_c_a_t_i_a_reference_manager_1a14b0bf73747d910e987049d1f11e53fa" prot="public" virt="non-virtual"><scope>Post::CATIAReferenceManager</scope><name>ConvertToBRepFace</name></member>
+      <member refid="class_post_1_1_c_a_t_i_a_reference_manager_1a85d0117a972b7913dbd075b2bd80c4db" prot="public" virt="non-virtual"><scope>Post::CATIAReferenceManager</scope><name>ConvertToBRepFaceForDatumPlane</name></member>
+      <member refid="class_post_1_1_c_a_t_i_a_reference_manager_1a1cb21f058f48445ec86600788ce3284a" prot="public" virt="non-virtual"><scope>Post::CATIAReferenceManager</scope><name>ConvertToBRepFaceForHole</name></member>
+      <member refid="class_post_1_1_c_a_t_i_a_reference_manager_1afeabdbbefecee8816aeff65247a70799" prot="public" virt="non-virtual"><scope>Post::CATIAReferenceManager</scope><name>eew</name></member>
+      <member refid="class_post_1_1_c_a_t_i_a_reference_manager_1a1d6e06fdc183ccb458d935acf9c7bfba" prot="public" virt="non-virtual"><scope>Post::CATIAReferenceManager</scope><name>FeatureTypeToString</name></member>
+      <member refid="class_post_1_1_c_a_t_i_a_reference_manager_1a737388d1973e22b9e201411abc5a649c" prot="protected" virt="non-virtual"><scope>Post::CATIAReferenceManager</scope><name>GetBasicNameOfCATIA</name></member>
+      <member refid="class_post_1_1_c_a_t_i_a_reference_manager_1a5b1e469ad808e0a6bdf7a68fd8918592" prot="public" virt="non-virtual"><scope>Post::CATIAReferenceManager</scope><name>GetCatiaPointNameByTransCADPointName</name></member>
+      <member refid="class_post_1_1_c_a_t_i_a_reference_manager_1abfdc2952c5b3e5251e08d467f64c75bf" prot="protected" virt="non-virtual"><scope>Post::CATIAReferenceManager</scope><name>GetEntityIDByTransCADName</name></member>
+      <member refid="class_post_1_1_c_a_t_i_a_reference_manager_1ac1fead06b42883f7c35328d3773be7d8" prot="protected" virt="non-virtual"><scope>Post::CATIAReferenceManager</scope><name>GetFaceNameOfCATIA</name></member>
+      <member refid="class_post_1_1_c_a_t_i_a_reference_manager_1ab00159c9905b3d3d14361f390db87e48" prot="public" virt="non-virtual"><scope>Post::CATIAReferenceManager</scope><name>GetFeatureIDByTransCADName</name></member>
+      <member refid="class_post_1_1_c_a_t_i_a_reference_manager_1a40000b07f85cedef424b70e7926cd0a0" prot="public" virt="non-virtual"><scope>Post::CATIAReferenceManager</scope><name>GetFeatureTypeByTransCADName</name></member>
+      <member refid="class_post_1_1_c_a_t_i_a_reference_manager_1a93bf73889d62708888ebeb5861dcef17" prot="protected" virt="non-virtual"><scope>Post::CATIAReferenceManager</scope><name>GetReferenceeFeature</name></member>
+      <member refid="class_post_1_1_c_a_t_i_a_reference_manager_1a220527620d4de8c03317c83668cc9f6d" prot="protected" virt="non-virtual"><scope>Post::CATIAReferenceManager</scope><name>GetTransCADNameByEntityID</name></member>
+      <member refid="class_post_1_1_c_a_t_i_a_reference_manager_1a008add71f2e6adce83f5aebf45a58257" prot="public" virt="non-virtual"><scope>Post::CATIAReferenceManager</scope><name>~CATIAReferenceManager</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

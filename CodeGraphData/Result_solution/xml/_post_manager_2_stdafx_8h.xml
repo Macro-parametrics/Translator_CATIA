@@ -1,0 +1,90 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="_post_manager_2_stdafx_8h" kind="file">
+    <compoundname>stdafx.h</compoundname>
+    <includes refid="_post_manager_2targetver_8h" local="yes">targetver.h</includes>
+    <includes local="no">windows.h</includes>
+    <includedby refid="_post_manager_2_stdafx_8cpp" local="yes">PostManager/stdafx.cpp</includedby>
+    <incdepgraph>
+      <node id="316">
+        <label>windows.h</label>
+      </node>
+      <node id="315">
+        <label>SDKDDKVer.h</label>
+      </node>
+      <node id="313">
+        <label>PostManager/stdafx.h</label>
+        <link refid="PostManager/Stdafx.h"/>
+        <childnode refid="314" relation="include">
+        </childnode>
+        <childnode refid="316" relation="include">
+        </childnode>
+      </node>
+      <node id="314">
+        <label>targetver.h</label>
+        <link refid="_post_manager_2targetver_8h"/>
+        <childnode refid="315" relation="include">
+        </childnode>
+      </node>
+    </incdepgraph>
+    <invincdepgraph>
+      <node id="317">
+        <label>PostManager/stdafx.h</label>
+        <link refid="PostManager/Stdafx.h"/>
+        <childnode refid="318" relation="include">
+        </childnode>
+      </node>
+      <node id="318">
+        <label>PostManager/stdafx.cpp</label>
+        <link refid="_post_manager_2_stdafx_8cpp"/>
+      </node>
+    </invincdepgraph>
+      <sectiondef kind="define">
+      <memberdef kind="define" id="_post_manager_2_stdafx_8h_1ac7bef5d85e3dcd73eef56ad39ffc84a9" prot="public" static="no">
+        <name>WIN32_LEAN_AND_MEAN</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/PostManager/stdafx.h" line="10" column="9" bodyfile="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/PostManager/stdafx.h" bodystart="10" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="_post_manager_2_stdafx_8h_1a598a3330b3c21701223ee0ca14316eca" prot="public" static="no">
+        <name>PI</name>
+        <initializer>3.14159265358979</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/PostManager/stdafx.h" line="13" column="10" bodyfile="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/PostManager/stdafx.h" bodystart="13" bodyend="-1"/>
+        <referencedby refid="class_post_1_1_feature_s_o_l_i_d_create_hole_countersunk_1ab3b5d0c0cfb307e533792e43fb351e90" compoundref="_feature_s_o_l_i_d_create_hole_countersunk_8cpp" startline="14" endline="35">Post::FeatureSOLIDCreateHoleCountersunk::GetInfo</referencedby>
+        <referencedby refid="class_post_1_1_feature_s_o_l_i_d_create_cut_revolve_1a2659311498b64a4487e7b5d3cc4449d4" compoundref="_feature_s_o_l_i_d_create_cut_revolve_8cpp" startline="15" endline="40">Post::FeatureSOLIDCreateCutRevolve::GetInfo</referencedby>
+        <referencedby refid="class_post_1_1_feature_s_o_l_i_d_create_protrusion_revolve_1a985d6dcd1120fb38b3a9b0a49728d230" compoundref="_feature_s_o_l_i_d_create_protrusion_revolve_8cpp" startline="15" endline="41">Post::FeatureSOLIDCreateProtrusionRevolve::GetInfo</referencedby>
+        <referencedby refid="class_pre_1_1_feature_s_o_l_i_d_create_hole_1a8eaff559f6919c2522dbe4f85dbf5c1f" compoundref="_feature_s_o_l_i_d_create_hole_8cpp" startline="162" endline="170">Pre::FeatureSOLIDCreateHole::ModifyCountersunk</referencedby>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="comment">//<sp/>stdafx.h<sp/>:<sp/>자주<sp/>사용하지만<sp/>자주<sp/>변경되지는<sp/>않는</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight><highlight class="comment">//<sp/>표준<sp/>시스템<sp/>포함<sp/>파일<sp/>또는<sp/>프로젝트<sp/>관련<sp/>포함<sp/>파일이</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="comment">//<sp/>들어<sp/>있는<sp/>포함<sp/>파일입니다.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="comment">//</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight><highlight class="preprocessor">#pragma<sp/>once</highlight></codeline>
+<codeline lineno="7"><highlight class="preprocessor"></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="_post_manager_2targetver_8h" kindref="compound">targetver.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight></codeline>
+<codeline lineno="10" refid="_post_manager_2_stdafx_8h_1ac7bef5d85e3dcd73eef56ad39ffc84a9" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>WIN32_LEAN_AND_MEAN<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>//<sp/>거의<sp/>사용되지<sp/>않는<sp/>내용은<sp/>Windows<sp/>헤더에서<sp/>제외합니다.</highlight></codeline>
+<codeline lineno="11"><highlight class="preprocessor"></highlight><highlight class="comment">//<sp/>Windows<sp/>헤더<sp/>파일:</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="12"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;windows.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="13" refid="_post_manager_2_stdafx_8h_1a598a3330b3c21701223ee0ca14316eca" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>PI<sp/>3.14159265358979</highlight></codeline>
+    </programlisting>
+    <location file="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/PostManager/stdafx.h"/>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,188 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="_feature_s_o_l_i_d_create_faces_loft_8h" kind="file">
+    <compoundname>FeatureSOLIDCreateFacesLoft.h</compoundname>
+    <includes refid="_post_manager_2ref_2_feature_8h" local="yes">Feature.h</includes>
+    <includedby refid="_feature_s_o_l_i_d_create_faces_loft_8cpp" local="yes">PostManager/ref/FeatureSOLIDCreateFacesLoft.cpp</includedby>
+    <includedby refid="_post_manager_2ref_2_part_8cpp" local="yes">PostManager/ref/Part.cpp</includedby>
+    <incdepgraph>
+      <node id="1247">
+        <label>atlstr.h</label>
+      </node>
+      <node id="1243">
+        <label>Feature.h</label>
+        <link refid="_post_manager_2ref_2_feature_8h"/>
+        <childnode refid="1244" relation="include">
+        </childnode>
+      </node>
+      <node id="1253">
+        <label>stdlib.h</label>
+      </node>
+      <node id="1255">
+        <label>cmath</label>
+      </node>
+      <node id="1249">
+        <label>string</label>
+      </node>
+      <node id="1254">
+        <label>comutil.h</label>
+      </node>
+      <node id="1250">
+        <label>fstream</label>
+      </node>
+      <node id="1244">
+        <label>Part.h</label>
+        <link refid="_post_manager_2ref_2_part_8h"/>
+        <childnode refid="1245" relation="include">
+        </childnode>
+        <childnode refid="1258" relation="include">
+        </childnode>
+      </node>
+      <node id="1262">
+        <label>MP_Utility.h</label>
+        <link refid="_m_p___utility_8h"/>
+        <childnode refid="1259" relation="include">
+        </childnode>
+      </node>
+      <node id="1261">
+        <label>string.h</label>
+      </node>
+      <node id="1251">
+        <label>vector</label>
+      </node>
+      <node id="1257">
+        <label>math.h</label>
+      </node>
+      <node id="1246">
+        <label>atlbase.h</label>
+      </node>
+      <node id="1258">
+        <label>CATIAReferenceManager.h</label>
+        <link refid="_c_a_t_i_a_reference_manager_8h"/>
+        <childnode refid="1245" relation="include">
+        </childnode>
+        <childnode refid="1259" relation="include">
+        </childnode>
+        <childnode refid="1262" relation="include">
+        </childnode>
+      </node>
+      <node id="1248">
+        <label>iostream</label>
+      </node>
+      <node id="1256">
+        <label>Definition.h</label>
+        <link refid="_post_manager_2ref_2_definition_8h"/>
+        <childnode refid="1257" relation="include">
+        </childnode>
+      </node>
+      <node id="1260">
+        <label>algorithm</label>
+      </node>
+      <node id="1252">
+        <label>stdio.h</label>
+      </node>
+      <node id="1259">
+        <label>PN_TYPE.h</label>
+        <link refid="_p_n___t_y_p_e_8h"/>
+        <childnode refid="1248" relation="include">
+        </childnode>
+        <childnode refid="1249" relation="include">
+        </childnode>
+        <childnode refid="1251" relation="include">
+        </childnode>
+        <childnode refid="1260" relation="include">
+        </childnode>
+        <childnode refid="1257" relation="include">
+        </childnode>
+        <childnode refid="1261" relation="include">
+        </childnode>
+      </node>
+      <node id="1242">
+        <label>PostManager/ref/FeatureSOLIDCreateFacesLoft.h</label>
+        <link refid="FeatureSOLIDCreateFacesLoft.h"/>
+        <childnode refid="1243" relation="include">
+        </childnode>
+      </node>
+      <node id="1245">
+        <label>CATIApost_DLL.h</label>
+        <link refid="_c_a_t_i_apost___d_l_l_8h"/>
+        <childnode refid="1246" relation="include">
+        </childnode>
+        <childnode refid="1247" relation="include">
+        </childnode>
+        <childnode refid="1248" relation="include">
+        </childnode>
+        <childnode refid="1249" relation="include">
+        </childnode>
+        <childnode refid="1250" relation="include">
+        </childnode>
+        <childnode refid="1251" relation="include">
+        </childnode>
+        <childnode refid="1252" relation="include">
+        </childnode>
+        <childnode refid="1253" relation="include">
+        </childnode>
+        <childnode refid="1254" relation="include">
+        </childnode>
+        <childnode refid="1255" relation="include">
+        </childnode>
+        <childnode refid="1256" relation="include">
+        </childnode>
+      </node>
+    </incdepgraph>
+    <invincdepgraph>
+      <node id="1264">
+        <label>PostManager/ref/FeatureSOLIDCreateFacesLoft.cpp</label>
+        <link refid="_feature_s_o_l_i_d_create_faces_loft_8cpp"/>
+      </node>
+      <node id="1265">
+        <label>PostManager/ref/Part.cpp</label>
+        <link refid="_post_manager_2ref_2_part_8cpp"/>
+      </node>
+      <node id="1263">
+        <label>PostManager/ref/FeatureSOLIDCreateFacesLoft.h</label>
+        <link refid="FeatureSOLIDCreateFacesLoft.h"/>
+        <childnode refid="1264" relation="include">
+        </childnode>
+        <childnode refid="1265" relation="include">
+        </childnode>
+      </node>
+    </invincdepgraph>
+    <innerclass refid="class_post_1_1_feature_s_o_l_i_d_create_faces_loft" prot="public">Post::FeatureSOLIDCreateFacesLoft</innerclass>
+    <innernamespace refid="namespace_post">Post</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="preprocessor">#pragma<sp/>once</highlight></codeline>
+<codeline lineno="2"><highlight class="preprocessor"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="_post_manager_2ref_2_feature_8h" kindref="compound">Feature.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal">Post<sp/>{</highlight></codeline>
+<codeline lineno="4"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal">FSketch;</highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight></codeline>
+<codeline lineno="6" refid="class_post_1_1_feature_s_o_l_i_d_create_faces_loft" refkind="compound"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="class_post_1_1_feature_s_o_l_i_d_create_faces_loft" kindref="compound">FeatureSOLIDCreateFacesLoft</ref><sp/>:<sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/><ref refid="class_post_1_1_feature" kindref="compound">Feature</ref></highlight></codeline>
+<codeline lineno="7"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="8"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="9"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_post_1_1_feature_s_o_l_i_d_create_faces_loft_1a3471e1da02af170cc569aef19d0833d5" kindref="member">FeatureSOLIDCreateFacesLoft</ref>(<ref refid="class_post_1_1_part" kindref="compound">Part</ref><sp/>*<sp/>pPart,<sp/>TransCAD::IFeaturePtr<sp/>spFeature);</highlight></codeline>
+<codeline lineno="10"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/><ref refid="class_post_1_1_feature_s_o_l_i_d_create_faces_loft_1a2c41dd3b666ccc45721e361bedd497c0" kindref="member">~FeatureSOLIDCreateFacesLoft</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="11"><highlight class="normal"></highlight></codeline>
+<codeline lineno="12" refid="class_post_1_1_feature_s_o_l_i_d_create_faces_loft_1a7eb0e1ee6efbc8f81c65f9c699d7354b" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_post_1_1_f_sketch" kindref="compound">FSketch</ref><sp/>*<sp/><ref refid="class_post_1_1_feature_s_o_l_i_d_create_faces_loft_1a7eb0e1ee6efbc8f81c65f9c699d7354b" kindref="member">GetProfileSketch</ref>()<sp/>{<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/><ref refid="class_post_1_1_feature_s_o_l_i_d_create_faces_loft_1a4282aaca6f8679a270cddc0784c0e9f8" kindref="member">_profileSketch</ref>;<sp/>}</highlight></codeline>
+<codeline lineno="13" refid="class_post_1_1_feature_s_o_l_i_d_create_faces_loft_1a1106e1746975ad4cb18b4c8d35c8a3af" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_post_1_1_f_sketch" kindref="compound">FSketch</ref><sp/>*<sp/><ref refid="class_post_1_1_feature_s_o_l_i_d_create_faces_loft_1a1106e1746975ad4cb18b4c8d35c8a3af" kindref="member">GetGuideSketch</ref>()<sp/>{<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/><ref refid="class_post_1_1_feature_s_o_l_i_d_create_faces_loft_1adf639d86afe166b82d246f964da4f12a" kindref="member">_guideSketch</ref>;<sp/>}</highlight></codeline>
+<codeline lineno="14"><highlight class="normal"></highlight></codeline>
+<codeline lineno="15"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_post_1_1_feature_s_o_l_i_d_create_faces_loft_1af5d0cdacfbf881465c54bdc94e3b387b" kindref="member">GetInfo</ref>();</highlight></codeline>
+<codeline lineno="16"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_post_1_1_feature_s_o_l_i_d_create_faces_loft_1a0cb2c7bcf5453a41a80ab8a42412e737" kindref="member">ToCATIA</ref>();</highlight></codeline>
+<codeline lineno="17"><highlight class="normal"></highlight></codeline>
+<codeline lineno="18"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="19"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/><sp/>bool<sp/><sp/><sp/><sp/>_flip;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="20"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/><sp/>double<sp/><sp/>_startDepth;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="21"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/><sp/>double<sp/><sp/>_endDepth;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="22"><highlight class="normal"></highlight></codeline>
+<codeline lineno="23"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">private</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="24" refid="class_post_1_1_feature_s_o_l_i_d_create_faces_loft_1a4282aaca6f8679a270cddc0784c0e9f8" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_post_1_1_f_sketch" kindref="compound">FSketch</ref><sp/>*<sp/><ref refid="class_post_1_1_feature_s_o_l_i_d_create_faces_loft_1a4282aaca6f8679a270cddc0784c0e9f8" kindref="member">_profileSketch</ref>;</highlight></codeline>
+<codeline lineno="25" refid="class_post_1_1_feature_s_o_l_i_d_create_faces_loft_1adf639d86afe166b82d246f964da4f12a" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_post_1_1_f_sketch" kindref="compound">FSketch</ref><sp/>*<sp/><ref refid="class_post_1_1_feature_s_o_l_i_d_create_faces_loft_1adf639d86afe166b82d246f964da4f12a" kindref="member">_guideSketch</ref>;</highlight></codeline>
+<codeline lineno="26"><highlight class="normal"><sp/><sp/><sp/><sp/>};</highlight></codeline>
+<codeline lineno="27"><highlight class="normal">}</highlight></codeline>
+    </programlisting>
+    <location file="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/PostManager/ref/FeatureSOLIDCreateFacesLoft.h"/>
+  </compounddef>
+</doxygen>

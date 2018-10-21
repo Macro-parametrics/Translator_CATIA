@@ -1,0 +1,31 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="_c_p_p_w_i_t_h_c_s_h_a_r_p_2_stdafx_8cpp" kind="file">
+    <compoundname>Stdafx.cpp</compoundname>
+    <includes refid="_c_p_p_w_i_t_h_c_s_h_a_r_p_2_stdafx_8h" local="yes">stdafx.h</includes>
+    <incdepgraph>
+      <node id="290">
+        <label>stdafx.h</label>
+        <link refid="_c_p_p_w_i_t_h_c_s_h_a_r_p_2_stdafx_8h"/>
+      </node>
+      <node id="289">
+        <label>CPPWITHCSHARP/Stdafx.cpp</label>
+        <link refid="CPPWITHCSHARP/Stdafx.cpp"/>
+        <childnode refid="290" relation="include">
+        </childnode>
+      </node>
+    </incdepgraph>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="comment">//<sp/>stdafx.cpp<sp/>:<sp/>표준<sp/>포함<sp/>파일만<sp/>들어<sp/>있는<sp/>소스<sp/>파일입니다.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight><highlight class="comment">//<sp/>CPPWITHCSHARP.pch는<sp/>미리<sp/>컴파일된<sp/>헤더가<sp/>됩니다.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="comment">//<sp/>stdafx.obj에는<sp/>미리<sp/>컴파일된<sp/>형식<sp/>정보가<sp/>포함됩니다.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="_c_p_p_w_i_t_h_c_s_h_a_r_p_2_stdafx_8h" kindref="compound">stdafx.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+    </programlisting>
+    <location file="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/CPPWITHCSHARP/Stdafx.cpp"/>
+  </compounddef>
+</doxygen>

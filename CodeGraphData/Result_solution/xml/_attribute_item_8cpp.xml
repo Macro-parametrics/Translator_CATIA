@@ -1,0 +1,155 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="_attribute_item_8cpp" kind="file">
+    <compoundname>AttributeItem.cpp</compoundname>
+    <includes local="yes">stdafx.h</includes>
+    <includes refid="_attribute_item_8h" local="yes">AttributeItem.h</includes>
+    <incdepgraph>
+      <node id="3101">
+        <label>stdafx.h</label>
+      </node>
+      <node id="3118">
+        <label>strstream</label>
+      </node>
+      <node id="3119">
+        <label>Feature.h</label>
+        <link refid="_pre_manager_2ref_2_feature_8h"/>
+        <childnode refid="3103" relation="include">
+        </childnode>
+      </node>
+      <node id="3112">
+        <label>cmath</label>
+      </node>
+      <node id="3107">
+        <label>string</label>
+      </node>
+      <node id="3116">
+        <label>comdef.h</label>
+      </node>
+      <node id="3115">
+        <label>comutil.h</label>
+      </node>
+      <node id="3110">
+        <label>fstream</label>
+      </node>
+      <node id="3108">
+        <label>string.h</label>
+      </node>
+      <node id="3104">
+        <label>CATIApre_DLL.h</label>
+        <link refid="_c_a_t_i_apre___d_l_l_8h"/>
+        <childnode refid="3105" relation="include">
+        </childnode>
+        <childnode refid="3106" relation="include">
+        </childnode>
+        <childnode refid="3107" relation="include">
+        </childnode>
+        <childnode refid="3108" relation="include">
+        </childnode>
+        <childnode refid="3109" relation="include">
+        </childnode>
+        <childnode refid="3110" relation="include">
+        </childnode>
+        <childnode refid="3111" relation="include">
+        </childnode>
+        <childnode refid="3112" relation="include">
+        </childnode>
+        <childnode refid="3113" relation="include">
+        </childnode>
+        <childnode refid="3114" relation="include">
+        </childnode>
+        <childnode refid="3115" relation="include">
+        </childnode>
+        <childnode refid="3116" relation="include">
+        </childnode>
+        <childnode refid="3117" relation="include">
+        </childnode>
+      </node>
+      <node id="3102">
+        <label>AttributeItem.h</label>
+        <link refid="_attribute_item_8h"/>
+        <childnode refid="3103" relation="include">
+        </childnode>
+        <childnode refid="3119" relation="include">
+        </childnode>
+      </node>
+      <node id="3111">
+        <label>vector</label>
+      </node>
+      <node id="3100">
+        <label>PreManager/ref/AttributeItem.cpp</label>
+        <link refid="AttributeItem.cpp"/>
+        <childnode refid="3101" relation="include">
+        </childnode>
+        <childnode refid="3102" relation="include">
+        </childnode>
+      </node>
+      <node id="3114">
+        <label>sstream</label>
+      </node>
+      <node id="3113">
+        <label>math.h</label>
+      </node>
+      <node id="3109">
+        <label>iostream</label>
+      </node>
+      <node id="3106">
+        <label>tchar.h</label>
+      </node>
+      <node id="3117">
+        <label>Definition.h</label>
+        <link refid="_pre_manager_2ref_2_definition_8h"/>
+        <childnode refid="3118" relation="include">
+        </childnode>
+        <childnode refid="3109" relation="include">
+        </childnode>
+        <childnode refid="3113" relation="include">
+        </childnode>
+      </node>
+      <node id="3103">
+        <label>Part.h</label>
+        <link refid="_pre_manager_2ref_2_part_8h"/>
+        <childnode refid="3104" relation="include">
+        </childnode>
+      </node>
+      <node id="3105">
+        <label>stdio.h</label>
+      </node>
+    </incdepgraph>
+    <innernamespace refid="namespace_pre">Pre</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="preprocessor">#include<sp/>&quot;stdafx.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="_attribute_item_8h" kindref="compound">AttributeItem.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal">Pre<sp/>{</highlight></codeline>
+<codeline lineno="5" refid="class_pre_1_1_attribute_item_1af09ccc36da03bf511b44247b25c83f35" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="class_pre_1_1_attribute_item_1af09ccc36da03bf511b44247b25c83f35" kindref="member">AttributeItem::AttributeItem</ref>(<ref refid="class_pre_1_1_part" kindref="compound">Part</ref><sp/>*<sp/>pPart,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>type,<sp/></highlight><highlight class="keywordtype">string</highlight><highlight class="normal"><sp/>name)</highlight></codeline>
+<codeline lineno="6"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="7"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_pre_1_1_attribute_item_1a4fd56bf25f94537ccf373c6469f51738" kindref="member">_pPart</ref><sp/>=<sp/>pPart;</highlight></codeline>
+<codeline lineno="8"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_pre_1_1_attribute_item_1a444b077c58fe0ada93ee55fd9eb58d52" kindref="member">_type</ref><sp/>=<sp/>type;</highlight></codeline>
+<codeline lineno="9"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_pre_1_1_attribute_item_1a038f7f3ec13f1a554ab853a646ea731c" kindref="member">_name</ref><sp/>=<sp/>name;</highlight></codeline>
+<codeline lineno="10"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="11"><highlight class="normal"></highlight></codeline>
+<codeline lineno="12" refid="class_pre_1_1_attribute_item_1aad0efaa8b68b971b8342b8634576c1d5" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="class_pre_1_1_attribute_item_1aad0efaa8b68b971b8342b8634576c1d5" kindref="member">AttributeItem::~AttributeItem</ref>()</highlight></codeline>
+<codeline lineno="13"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="14"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="15"><highlight class="normal"></highlight></codeline>
+<codeline lineno="16" refid="class_pre_1_1_attribute_item_1ae525b9c616a40016532a29d6df424de3" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_pre_1_1_attribute_item_1ae525b9c616a40016532a29d6df424de3" kindref="member">AttributeItem::GetInfo</ref>(ifstream<sp/>&amp;<sp/>is)</highlight></codeline>
+<codeline lineno="17"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="18"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="19"><highlight class="normal"></highlight></codeline>
+<codeline lineno="20" refid="class_pre_1_1_attribute_item_1aee247cd7e3f5b5b86562ceec3dd9b283" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_pre_1_1_attribute_item_1aee247cd7e3f5b5b86562ceec3dd9b283" kindref="member">AttributeItem::CheckAttribute</ref>(</highlight><highlight class="keywordtype">string</highlight><highlight class="normal"><sp/>name,<sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>value,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>type)</highlight></codeline>
+<codeline lineno="21"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="22"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="23"><highlight class="normal"></highlight></codeline>
+<codeline lineno="24" refid="class_pre_1_1_attribute_item_1ab6fe550dca4ebaf060433c962cc5e014" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_pre_1_1_attribute_item_1ab6fe550dca4ebaf060433c962cc5e014" kindref="member">AttributeItem::Modify</ref>(</highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*<sp/>buffer)</highlight></codeline>
+<codeline lineno="25"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="26"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="27"><highlight class="normal">}</highlight></codeline>
+    </programlisting>
+    <location file="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/PreManager/ref/AttributeItem.cpp"/>
+  </compounddef>
+</doxygen>

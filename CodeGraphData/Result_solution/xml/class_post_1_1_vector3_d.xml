@@ -1,0 +1,556 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_post_1_1_vector3_d" kind="class" prot="public">
+    <compoundname>Post::Vector3D</compoundname>
+    <includes refid="_post_manager_2ref_2_definition_8h" local="no">Definition.h</includes>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_post_1_1_vector3_d_1a7b12f81799adeea07a61dd5876ecf04a" prot="private" static="no" mutable="no">
+        <type>double</type>
+        <definition>double Post::Vector3D::_x</definition>
+        <argsstring></argsstring>
+        <name>_x</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/PostManager/ref/Definition.h" line="68" column="1" bodyfile="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/PostManager/ref/Definition.h" bodystart="68" bodyend="-1"/>
+        <referencedby refid="class_post_1_1_vector3_d_1adb6b934963eff5d6b4bc13014accea4e" compoundref="_post_manager_2ref_2_definition_8h" startline="65" endline="65">Norm</referencedby>
+        <referencedby refid="class_post_1_1_vector3_d_1a34550bd5bc8f1b768077e10244f3f688" compoundref="_post_manager_2ref_2_definition_8h" startline="39" endline="41">operator*</referencedby>
+        <referencedby refid="class_post_1_1_vector3_d_1aba3b620fc0a6feb038e68fc16d4cfe46" compoundref="_post_manager_2ref_2_definition_8h" startline="33" endline="35">operator+</referencedby>
+        <referencedby refid="class_post_1_1_vector3_d_1a721ed5afb0c533ba6b0d7cbfebaf6354" compoundref="_post_manager_2ref_2_definition_8h" startline="36" endline="38">operator-</referencedby>
+        <referencedby refid="class_post_1_1_vector3_d_1a497c83bb3cec88eea7fc133ac40884d7" compoundref="_post_manager_2ref_2_definition_8h" startline="42" endline="44">operator/</referencedby>
+        <referencedby refid="class_post_1_1_vector3_d_1af52a808fa23078341dd7596ba707c536" compoundref="_post_manager_2ref_2_definition_8h" startline="60" endline="62">operator=</referencedby>
+        <referencedby refid="class_post_1_1_vector3_d_1a886339b8b97c67637984359328b87561" compoundref="_post_manager_2ref_2_definition_8h" startline="56" endline="59">operator==</referencedby>
+        <referencedby refid="class_post_1_1_vector3_d_1a7b1bd050fb737adcdea85f400da4d426" compoundref="_post_manager_2ref_2_definition_8h" startline="31" endline="31">operator[]</referencedby>
+        <referencedby refid="class_post_1_1_vector3_d_1aef76551dc30beef1ba36a29433c6ef4e" compoundref="_post_manager_2ref_2_definition_8h" startline="50" endline="55">operator^</referencedby>
+        <referencedby refid="class_post_1_1_vector3_d_1a1fa92e6ba11c22b947a3553448325fb5" compoundref="_post_manager_2ref_2_definition_8h" startline="28" endline="28">SetXYZ</referencedby>
+        <referencedby refid="class_post_1_1_vector3_d_1a566ece85e798819e1cb9b7e12ad0abc1" compoundref="_post_manager_2ref_2_definition_8h" startline="64" endline="64">Size</referencedby>
+        <referencedby refid="class_post_1_1_vector3_d_1a44317ba797db1ec9635866aa7c4cf749" compoundref="_post_manager_2ref_2_definition_8h" startline="20" endline="20">X</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_post_1_1_vector3_d_1a79880f222bdd5b8d4fad7644d9fe6df0" prot="private" static="no" mutable="no">
+        <type>double</type>
+        <definition>double Post::Vector3D::_y</definition>
+        <argsstring></argsstring>
+        <name>_y</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/PostManager/ref/Definition.h" line="68" column="1" bodyfile="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/PostManager/ref/Definition.h" bodystart="68" bodyend="-1"/>
+        <referencedby refid="class_post_1_1_vector3_d_1adb6b934963eff5d6b4bc13014accea4e" compoundref="_post_manager_2ref_2_definition_8h" startline="65" endline="65">Norm</referencedby>
+        <referencedby refid="class_post_1_1_vector3_d_1a34550bd5bc8f1b768077e10244f3f688" compoundref="_post_manager_2ref_2_definition_8h" startline="39" endline="41">operator*</referencedby>
+        <referencedby refid="class_post_1_1_vector3_d_1aba3b620fc0a6feb038e68fc16d4cfe46" compoundref="_post_manager_2ref_2_definition_8h" startline="33" endline="35">operator+</referencedby>
+        <referencedby refid="class_post_1_1_vector3_d_1a721ed5afb0c533ba6b0d7cbfebaf6354" compoundref="_post_manager_2ref_2_definition_8h" startline="36" endline="38">operator-</referencedby>
+        <referencedby refid="class_post_1_1_vector3_d_1a497c83bb3cec88eea7fc133ac40884d7" compoundref="_post_manager_2ref_2_definition_8h" startline="42" endline="44">operator/</referencedby>
+        <referencedby refid="class_post_1_1_vector3_d_1af52a808fa23078341dd7596ba707c536" compoundref="_post_manager_2ref_2_definition_8h" startline="60" endline="62">operator=</referencedby>
+        <referencedby refid="class_post_1_1_vector3_d_1a886339b8b97c67637984359328b87561" compoundref="_post_manager_2ref_2_definition_8h" startline="56" endline="59">operator==</referencedby>
+        <referencedby refid="class_post_1_1_vector3_d_1aef76551dc30beef1ba36a29433c6ef4e" compoundref="_post_manager_2ref_2_definition_8h" startline="50" endline="55">operator^</referencedby>
+        <referencedby refid="class_post_1_1_vector3_d_1a1fa92e6ba11c22b947a3553448325fb5" compoundref="_post_manager_2ref_2_definition_8h" startline="28" endline="28">SetXYZ</referencedby>
+        <referencedby refid="class_post_1_1_vector3_d_1a566ece85e798819e1cb9b7e12ad0abc1" compoundref="_post_manager_2ref_2_definition_8h" startline="64" endline="64">Size</referencedby>
+        <referencedby refid="class_post_1_1_vector3_d_1a3ee0de7fa31240b94f6895efdb03fe14" compoundref="_post_manager_2ref_2_definition_8h" startline="21" endline="21">Y</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_post_1_1_vector3_d_1a3cd2b837c5117c34b9d6414dba841611" prot="private" static="no" mutable="no">
+        <type>double</type>
+        <definition>double Post::Vector3D::_z</definition>
+        <argsstring></argsstring>
+        <name>_z</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/PostManager/ref/Definition.h" line="68" column="1" bodyfile="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/PostManager/ref/Definition.h" bodystart="68" bodyend="-1"/>
+        <referencedby refid="class_post_1_1_vector3_d_1adb6b934963eff5d6b4bc13014accea4e" compoundref="_post_manager_2ref_2_definition_8h" startline="65" endline="65">Norm</referencedby>
+        <referencedby refid="class_post_1_1_vector3_d_1a34550bd5bc8f1b768077e10244f3f688" compoundref="_post_manager_2ref_2_definition_8h" startline="39" endline="41">operator*</referencedby>
+        <referencedby refid="class_post_1_1_vector3_d_1aba3b620fc0a6feb038e68fc16d4cfe46" compoundref="_post_manager_2ref_2_definition_8h" startline="33" endline="35">operator+</referencedby>
+        <referencedby refid="class_post_1_1_vector3_d_1a721ed5afb0c533ba6b0d7cbfebaf6354" compoundref="_post_manager_2ref_2_definition_8h" startline="36" endline="38">operator-</referencedby>
+        <referencedby refid="class_post_1_1_vector3_d_1a497c83bb3cec88eea7fc133ac40884d7" compoundref="_post_manager_2ref_2_definition_8h" startline="42" endline="44">operator/</referencedby>
+        <referencedby refid="class_post_1_1_vector3_d_1af52a808fa23078341dd7596ba707c536" compoundref="_post_manager_2ref_2_definition_8h" startline="60" endline="62">operator=</referencedby>
+        <referencedby refid="class_post_1_1_vector3_d_1a886339b8b97c67637984359328b87561" compoundref="_post_manager_2ref_2_definition_8h" startline="56" endline="59">operator==</referencedby>
+        <referencedby refid="class_post_1_1_vector3_d_1aef76551dc30beef1ba36a29433c6ef4e" compoundref="_post_manager_2ref_2_definition_8h" startline="50" endline="55">operator^</referencedby>
+        <referencedby refid="class_post_1_1_vector3_d_1a1fa92e6ba11c22b947a3553448325fb5" compoundref="_post_manager_2ref_2_definition_8h" startline="28" endline="28">SetXYZ</referencedby>
+        <referencedby refid="class_post_1_1_vector3_d_1a566ece85e798819e1cb9b7e12ad0abc1" compoundref="_post_manager_2ref_2_definition_8h" startline="64" endline="64">Size</referencedby>
+        <referencedby refid="class_post_1_1_vector3_d_1a998e52de6a856a31ec794bae88d5dc1e" compoundref="_post_manager_2ref_2_definition_8h" startline="22" endline="22">Z</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_post_1_1_vector3_d_1aa6b42209dc7583518d937db274953c40" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>Post::Vector3D::Vector3D</definition>
+        <argsstring>(void)</argsstring>
+        <name>Vector3D</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/PostManager/ref/Definition.h" line="16" column="1" bodyfile="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/PostManager/ref/Definition.h" bodystart="16" bodyend="16"/>
+        <referencedby refid="class_post_1_1_vector3_d_1adb6b934963eff5d6b4bc13014accea4e" compoundref="_post_manager_2ref_2_definition_8h" startline="65" endline="65">Norm</referencedby>
+        <referencedby refid="class_post_1_1_vector3_d_1a34550bd5bc8f1b768077e10244f3f688" compoundref="_post_manager_2ref_2_definition_8h" startline="39" endline="41">operator*</referencedby>
+        <referencedby refid="class_post_1_1_vector3_d_1aba3b620fc0a6feb038e68fc16d4cfe46" compoundref="_post_manager_2ref_2_definition_8h" startline="33" endline="35">operator+</referencedby>
+        <referencedby refid="class_post_1_1_vector3_d_1a721ed5afb0c533ba6b0d7cbfebaf6354" compoundref="_post_manager_2ref_2_definition_8h" startline="36" endline="38">operator-</referencedby>
+        <referencedby refid="class_post_1_1_vector3_d_1a497c83bb3cec88eea7fc133ac40884d7" compoundref="_post_manager_2ref_2_definition_8h" startline="42" endline="44">operator/</referencedby>
+        <referencedby refid="class_post_1_1_vector3_d_1aef76551dc30beef1ba36a29433c6ef4e" compoundref="_post_manager_2ref_2_definition_8h" startline="50" endline="55">operator^</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_post_1_1_vector3_d_1a211444a62fd71aa00489a053b0913b6a" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>Post::Vector3D::Vector3D</definition>
+        <argsstring>(double x, double y, double z)</argsstring>
+        <name>Vector3D</name>
+        <param>
+          <type>double</type>
+          <declname>x</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>y</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>z</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/PostManager/ref/Definition.h" line="17" column="1" bodyfile="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/PostManager/ref/Definition.h" bodystart="17" bodyend="17"/>
+      </memberdef>
+      <memberdef kind="function" id="class_post_1_1_vector3_d_1afd98b024de0e042f732fc80d3791fc3c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>Post::Vector3D::Vector3D</definition>
+        <argsstring>(double coord[])</argsstring>
+        <name>Vector3D</name>
+        <param>
+          <type>double</type>
+          <declname>coord</declname>
+          <array>[]</array>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/PostManager/ref/Definition.h" line="18" column="1" bodyfile="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/PostManager/ref/Definition.h" bodystart="18" bodyend="18"/>
+      </memberdef>
+      <memberdef kind="function" id="class_post_1_1_vector3_d_1a44317ba797db1ec9635866aa7c4cf749" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>double</type>
+        <definition>double Post::Vector3D::X</definition>
+        <argsstring>(void) const </argsstring>
+        <name>X</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/PostManager/ref/Definition.h" line="20" column="1" bodyfile="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/PostManager/ref/Definition.h" bodystart="20" bodyend="20"/>
+        <references refid="class_post_1_1_vector3_d_1a7b12f81799adeea07a61dd5876ecf04a" compoundref="_post_manager_2ref_2_definition_8h" startline="68">_x</references>
+      </memberdef>
+      <memberdef kind="function" id="class_post_1_1_vector3_d_1a3ee0de7fa31240b94f6895efdb03fe14" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>double</type>
+        <definition>double Post::Vector3D::Y</definition>
+        <argsstring>(void) const </argsstring>
+        <name>Y</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/PostManager/ref/Definition.h" line="21" column="1" bodyfile="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/PostManager/ref/Definition.h" bodystart="21" bodyend="21"/>
+        <references refid="class_post_1_1_vector3_d_1a79880f222bdd5b8d4fad7644d9fe6df0" compoundref="_post_manager_2ref_2_definition_8h" startline="68">_y</references>
+      </memberdef>
+      <memberdef kind="function" id="class_post_1_1_vector3_d_1a998e52de6a856a31ec794bae88d5dc1e" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>double</type>
+        <definition>double Post::Vector3D::Z</definition>
+        <argsstring>(void) const </argsstring>
+        <name>Z</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/PostManager/ref/Definition.h" line="22" column="1" bodyfile="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/PostManager/ref/Definition.h" bodystart="22" bodyend="22"/>
+        <references refid="class_post_1_1_vector3_d_1a3cd2b837c5117c34b9d6414dba841611" compoundref="_post_manager_2ref_2_definition_8h" startline="68">_z</references>
+      </memberdef>
+      <memberdef kind="function" id="class_post_1_1_vector3_d_1adc5a4ebb5d0164b8d1356facb64fe209" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Post::Vector3D::X</definition>
+        <argsstring>(double x)</argsstring>
+        <name>X</name>
+        <param>
+          <type>double</type>
+          <declname>x</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/PostManager/ref/Definition.h" line="24" column="1" bodyfile="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/PostManager/ref/Definition.h" bodystart="24" bodyend="24"/>
+        <references refid="class_post_1_1_vector3_d_1a7b12f81799adeea07a61dd5876ecf04a" compoundref="_post_manager_2ref_2_definition_8h" startline="68">_x</references>
+      </memberdef>
+      <memberdef kind="function" id="class_post_1_1_vector3_d_1a57782062d9b6ab13d06bbeced015a4ac" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Post::Vector3D::Y</definition>
+        <argsstring>(double y)</argsstring>
+        <name>Y</name>
+        <param>
+          <type>double</type>
+          <declname>y</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/PostManager/ref/Definition.h" line="25" column="1" bodyfile="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/PostManager/ref/Definition.h" bodystart="25" bodyend="25"/>
+        <references refid="class_post_1_1_vector3_d_1a79880f222bdd5b8d4fad7644d9fe6df0" compoundref="_post_manager_2ref_2_definition_8h" startline="68">_y</references>
+      </memberdef>
+      <memberdef kind="function" id="class_post_1_1_vector3_d_1a2e9ca37ec6ab4c705fff2da31fbaca1a" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Post::Vector3D::Z</definition>
+        <argsstring>(double z)</argsstring>
+        <name>Z</name>
+        <param>
+          <type>double</type>
+          <declname>z</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/PostManager/ref/Definition.h" line="26" column="1" bodyfile="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/PostManager/ref/Definition.h" bodystart="26" bodyend="26"/>
+        <references refid="class_post_1_1_vector3_d_1a3cd2b837c5117c34b9d6414dba841611" compoundref="_post_manager_2ref_2_definition_8h" startline="68">_z</references>
+      </memberdef>
+      <memberdef kind="function" id="class_post_1_1_vector3_d_1a1fa92e6ba11c22b947a3553448325fb5" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Post::Vector3D::SetXYZ</definition>
+        <argsstring>(double x, double y, double z)</argsstring>
+        <name>SetXYZ</name>
+        <param>
+          <type>double</type>
+          <declname>x</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>y</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>z</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/PostManager/ref/Definition.h" line="28" column="1" bodyfile="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/PostManager/ref/Definition.h" bodystart="28" bodyend="28"/>
+        <references refid="class_post_1_1_vector3_d_1a7b12f81799adeea07a61dd5876ecf04a" compoundref="_post_manager_2ref_2_definition_8h" startline="68">_x</references>
+        <references refid="class_post_1_1_vector3_d_1a79880f222bdd5b8d4fad7644d9fe6df0" compoundref="_post_manager_2ref_2_definition_8h" startline="68">_y</references>
+        <references refid="class_post_1_1_vector3_d_1a3cd2b837c5117c34b9d6414dba841611" compoundref="_post_manager_2ref_2_definition_8h" startline="68">_z</references>
+      </memberdef>
+      <memberdef kind="function" id="class_post_1_1_vector3_d_1ae323cf4978b4acc25c6ba23d2d7fad36" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Post::Vector3D::SetXYZ</definition>
+        <argsstring>(double rhs[3])</argsstring>
+        <name>SetXYZ</name>
+        <param>
+          <type>double</type>
+          <declname>rhs</declname>
+          <array>[3]</array>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/PostManager/ref/Definition.h" line="29" column="1" bodyfile="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/PostManager/ref/Definition.h" bodystart="29" bodyend="29"/>
+        <references refid="class_post_1_1_vector3_d_1a7b12f81799adeea07a61dd5876ecf04a" compoundref="_post_manager_2ref_2_definition_8h" startline="68">_x</references>
+        <references refid="class_post_1_1_vector3_d_1a79880f222bdd5b8d4fad7644d9fe6df0" compoundref="_post_manager_2ref_2_definition_8h" startline="68">_y</references>
+        <references refid="class_post_1_1_vector3_d_1a3cd2b837c5117c34b9d6414dba841611" compoundref="_post_manager_2ref_2_definition_8h" startline="68">_z</references>
+      </memberdef>
+      <memberdef kind="function" id="class_post_1_1_vector3_d_1a7b1bd050fb737adcdea85f400da4d426" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>double &amp;</type>
+        <definition>double&amp; Post::Vector3D::operator[]</definition>
+        <argsstring>(int i)</argsstring>
+        <name>operator[]</name>
+        <param>
+          <type>int</type>
+          <declname>i</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/PostManager/ref/Definition.h" line="31" column="1" bodyfile="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/PostManager/ref/Definition.h" bodystart="31" bodyend="31"/>
+        <references refid="class_post_1_1_vector3_d_1a7b12f81799adeea07a61dd5876ecf04a" compoundref="_post_manager_2ref_2_definition_8h" startline="68">_x</references>
+      </memberdef>
+      <memberdef kind="function" id="class_post_1_1_vector3_d_1aba3b620fc0a6feb038e68fc16d4cfe46" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="class_post_1_1_vector3_d" kindref="compound">Vector3D</ref></type>
+        <definition>Vector3D Post::Vector3D::operator+</definition>
+        <argsstring>(const Vector3D &amp;rhs)</argsstring>
+        <name>operator+</name>
+        <param>
+          <type>const <ref refid="class_post_1_1_vector3_d" kindref="compound">Vector3D</ref> &amp;</type>
+          <declname>rhs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/PostManager/ref/Definition.h" line="33" column="1" bodyfile="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/PostManager/ref/Definition.h" bodystart="33" bodyend="35"/>
+        <references refid="class_post_1_1_vector3_d_1a7b12f81799adeea07a61dd5876ecf04a" compoundref="_post_manager_2ref_2_definition_8h" startline="68">_x</references>
+        <references refid="class_post_1_1_vector3_d_1a79880f222bdd5b8d4fad7644d9fe6df0" compoundref="_post_manager_2ref_2_definition_8h" startline="68">_y</references>
+        <references refid="class_post_1_1_vector3_d_1a3cd2b837c5117c34b9d6414dba841611" compoundref="_post_manager_2ref_2_definition_8h" startline="68">_z</references>
+        <references refid="class_post_1_1_vector3_d_1aa6b42209dc7583518d937db274953c40" compoundref="_post_manager_2ref_2_definition_8h" startline="16" endline="16">Vector3D</references>
+      </memberdef>
+      <memberdef kind="function" id="class_post_1_1_vector3_d_1a721ed5afb0c533ba6b0d7cbfebaf6354" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="class_post_1_1_vector3_d" kindref="compound">Vector3D</ref></type>
+        <definition>Vector3D Post::Vector3D::operator-</definition>
+        <argsstring>(const Vector3D &amp;rhs)</argsstring>
+        <name>operator-</name>
+        <param>
+          <type>const <ref refid="class_post_1_1_vector3_d" kindref="compound">Vector3D</ref> &amp;</type>
+          <declname>rhs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/PostManager/ref/Definition.h" line="36" column="1" bodyfile="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/PostManager/ref/Definition.h" bodystart="36" bodyend="38"/>
+        <references refid="class_post_1_1_vector3_d_1a7b12f81799adeea07a61dd5876ecf04a" compoundref="_post_manager_2ref_2_definition_8h" startline="68">_x</references>
+        <references refid="class_post_1_1_vector3_d_1a79880f222bdd5b8d4fad7644d9fe6df0" compoundref="_post_manager_2ref_2_definition_8h" startline="68">_y</references>
+        <references refid="class_post_1_1_vector3_d_1a3cd2b837c5117c34b9d6414dba841611" compoundref="_post_manager_2ref_2_definition_8h" startline="68">_z</references>
+        <references refid="class_post_1_1_vector3_d_1aa6b42209dc7583518d937db274953c40" compoundref="_post_manager_2ref_2_definition_8h" startline="16" endline="16">Vector3D</references>
+      </memberdef>
+      <memberdef kind="function" id="class_post_1_1_vector3_d_1a34550bd5bc8f1b768077e10244f3f688" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="class_post_1_1_vector3_d" kindref="compound">Vector3D</ref></type>
+        <definition>Vector3D Post::Vector3D::operator*</definition>
+        <argsstring>(double d)</argsstring>
+        <name>operator*</name>
+        <param>
+          <type>double</type>
+          <declname>d</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/PostManager/ref/Definition.h" line="39" column="1" bodyfile="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/PostManager/ref/Definition.h" bodystart="39" bodyend="41"/>
+        <references refid="class_post_1_1_vector3_d_1a7b12f81799adeea07a61dd5876ecf04a" compoundref="_post_manager_2ref_2_definition_8h" startline="68">_x</references>
+        <references refid="class_post_1_1_vector3_d_1a79880f222bdd5b8d4fad7644d9fe6df0" compoundref="_post_manager_2ref_2_definition_8h" startline="68">_y</references>
+        <references refid="class_post_1_1_vector3_d_1a3cd2b837c5117c34b9d6414dba841611" compoundref="_post_manager_2ref_2_definition_8h" startline="68">_z</references>
+        <references refid="class_post_1_1_vector3_d_1aa6b42209dc7583518d937db274953c40" compoundref="_post_manager_2ref_2_definition_8h" startline="16" endline="16">Vector3D</references>
+      </memberdef>
+      <memberdef kind="function" id="class_post_1_1_vector3_d_1a497c83bb3cec88eea7fc133ac40884d7" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="class_post_1_1_vector3_d" kindref="compound">Vector3D</ref></type>
+        <definition>Vector3D Post::Vector3D::operator/</definition>
+        <argsstring>(double d)</argsstring>
+        <name>operator/</name>
+        <param>
+          <type>double</type>
+          <declname>d</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/PostManager/ref/Definition.h" line="42" column="1" bodyfile="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/PostManager/ref/Definition.h" bodystart="42" bodyend="44"/>
+        <references refid="class_post_1_1_vector3_d_1a7b12f81799adeea07a61dd5876ecf04a" compoundref="_post_manager_2ref_2_definition_8h" startline="68">_x</references>
+        <references refid="class_post_1_1_vector3_d_1a79880f222bdd5b8d4fad7644d9fe6df0" compoundref="_post_manager_2ref_2_definition_8h" startline="68">_y</references>
+        <references refid="class_post_1_1_vector3_d_1a3cd2b837c5117c34b9d6414dba841611" compoundref="_post_manager_2ref_2_definition_8h" startline="68">_z</references>
+        <references refid="class_post_1_1_vector3_d_1aa6b42209dc7583518d937db274953c40" compoundref="_post_manager_2ref_2_definition_8h" startline="16" endline="16">Vector3D</references>
+      </memberdef>
+      <memberdef kind="function" id="class_post_1_1_vector3_d_1a68efe99ec8dcf34c56d50180845653f7" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>double</type>
+        <definition>double Post::Vector3D::operator*</definition>
+        <argsstring>(Vector3D &amp;d)</argsstring>
+        <name>operator*</name>
+        <param>
+          <type><ref refid="class_post_1_1_vector3_d" kindref="compound">Vector3D</ref> &amp;</type>
+          <declname>d</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/PostManager/ref/Definition.h" line="46" column="1" bodyfile="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/PostManager/ref/Definition.h" bodystart="46" bodyend="48"/>
+        <references refid="class_post_1_1_vector3_d_1a7b12f81799adeea07a61dd5876ecf04a" compoundref="_post_manager_2ref_2_definition_8h" startline="68">_x</references>
+        <references refid="class_post_1_1_vector3_d_1a79880f222bdd5b8d4fad7644d9fe6df0" compoundref="_post_manager_2ref_2_definition_8h" startline="68">_y</references>
+        <references refid="class_post_1_1_vector3_d_1a3cd2b837c5117c34b9d6414dba841611" compoundref="_post_manager_2ref_2_definition_8h" startline="68">_z</references>
+      </memberdef>
+      <memberdef kind="function" id="class_post_1_1_vector3_d_1aef76551dc30beef1ba36a29433c6ef4e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="class_post_1_1_vector3_d" kindref="compound">Vector3D</ref></type>
+        <definition>Vector3D Post::Vector3D::operator^</definition>
+        <argsstring>(Vector3D &amp;d)</argsstring>
+        <name>operator^</name>
+        <param>
+          <type><ref refid="class_post_1_1_vector3_d" kindref="compound">Vector3D</ref> &amp;</type>
+          <declname>d</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/PostManager/ref/Definition.h" line="50" column="1" bodyfile="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/PostManager/ref/Definition.h" bodystart="50" bodyend="55"/>
+        <references refid="class_post_1_1_vector3_d_1a7b12f81799adeea07a61dd5876ecf04a" compoundref="_post_manager_2ref_2_definition_8h" startline="68">_x</references>
+        <references refid="class_post_1_1_vector3_d_1a79880f222bdd5b8d4fad7644d9fe6df0" compoundref="_post_manager_2ref_2_definition_8h" startline="68">_y</references>
+        <references refid="class_post_1_1_vector3_d_1a3cd2b837c5117c34b9d6414dba841611" compoundref="_post_manager_2ref_2_definition_8h" startline="68">_z</references>
+        <references refid="class_post_1_1_vector3_d_1aa6b42209dc7583518d937db274953c40" compoundref="_post_manager_2ref_2_definition_8h" startline="16" endline="16">Vector3D</references>
+      </memberdef>
+      <memberdef kind="function" id="class_post_1_1_vector3_d_1a886339b8b97c67637984359328b87561" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool Post::Vector3D::operator==</definition>
+        <argsstring>(const Vector3D &amp;rhs)</argsstring>
+        <name>operator==</name>
+        <param>
+          <type>const <ref refid="class_post_1_1_vector3_d" kindref="compound">Vector3D</ref> &amp;</type>
+          <declname>rhs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/PostManager/ref/Definition.h" line="56" column="1" bodyfile="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/PostManager/ref/Definition.h" bodystart="56" bodyend="59"/>
+        <references refid="class_post_1_1_vector3_d_1a7b12f81799adeea07a61dd5876ecf04a" compoundref="_post_manager_2ref_2_definition_8h" startline="68">_x</references>
+        <references refid="class_post_1_1_vector3_d_1a79880f222bdd5b8d4fad7644d9fe6df0" compoundref="_post_manager_2ref_2_definition_8h" startline="68">_y</references>
+        <references refid="class_post_1_1_vector3_d_1a3cd2b837c5117c34b9d6414dba841611" compoundref="_post_manager_2ref_2_definition_8h" startline="68">_z</references>
+      </memberdef>
+      <memberdef kind="function" id="class_post_1_1_vector3_d_1af52a808fa23078341dd7596ba707c536" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Post::Vector3D::operator=</definition>
+        <argsstring>(const Vector3D &amp;rhs)</argsstring>
+        <name>operator=</name>
+        <param>
+          <type>const <ref refid="class_post_1_1_vector3_d" kindref="compound">Vector3D</ref> &amp;</type>
+          <declname>rhs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/PostManager/ref/Definition.h" line="60" column="1" bodyfile="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/PostManager/ref/Definition.h" bodystart="60" bodyend="62"/>
+        <references refid="class_post_1_1_vector3_d_1a7b12f81799adeea07a61dd5876ecf04a" compoundref="_post_manager_2ref_2_definition_8h" startline="68">_x</references>
+        <references refid="class_post_1_1_vector3_d_1a79880f222bdd5b8d4fad7644d9fe6df0" compoundref="_post_manager_2ref_2_definition_8h" startline="68">_y</references>
+        <references refid="class_post_1_1_vector3_d_1a3cd2b837c5117c34b9d6414dba841611" compoundref="_post_manager_2ref_2_definition_8h" startline="68">_z</references>
+      </memberdef>
+      <memberdef kind="function" id="class_post_1_1_vector3_d_1a566ece85e798819e1cb9b7e12ad0abc1" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>double</type>
+        <definition>double Post::Vector3D::Size</definition>
+        <argsstring>() const </argsstring>
+        <name>Size</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/PostManager/ref/Definition.h" line="64" column="1" bodyfile="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/PostManager/ref/Definition.h" bodystart="64" bodyend="64"/>
+        <references refid="class_post_1_1_vector3_d_1a7b12f81799adeea07a61dd5876ecf04a" compoundref="_post_manager_2ref_2_definition_8h" startline="68">_x</references>
+        <references refid="class_post_1_1_vector3_d_1a79880f222bdd5b8d4fad7644d9fe6df0" compoundref="_post_manager_2ref_2_definition_8h" startline="68">_y</references>
+        <references refid="class_post_1_1_vector3_d_1a3cd2b837c5117c34b9d6414dba841611" compoundref="_post_manager_2ref_2_definition_8h" startline="68">_z</references>
+        <referencedby refid="class_post_1_1_vector3_d_1adb6b934963eff5d6b4bc13014accea4e" compoundref="_post_manager_2ref_2_definition_8h" startline="65" endline="65">Norm</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_post_1_1_vector3_d_1adb6b934963eff5d6b4bc13014accea4e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="class_post_1_1_vector3_d" kindref="compound">Vector3D</ref></type>
+        <definition>Vector3D Post::Vector3D::Norm</definition>
+        <argsstring>(void)</argsstring>
+        <name>Norm</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/PostManager/ref/Definition.h" line="65" column="1" bodyfile="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/PostManager/ref/Definition.h" bodystart="65" bodyend="65"/>
+        <references refid="class_post_1_1_vector3_d_1a7b12f81799adeea07a61dd5876ecf04a" compoundref="_post_manager_2ref_2_definition_8h" startline="68">_x</references>
+        <references refid="class_post_1_1_vector3_d_1a79880f222bdd5b8d4fad7644d9fe6df0" compoundref="_post_manager_2ref_2_definition_8h" startline="68">_y</references>
+        <references refid="class_post_1_1_vector3_d_1a3cd2b837c5117c34b9d6414dba841611" compoundref="_post_manager_2ref_2_definition_8h" startline="68">_z</references>
+        <references refid="class_post_1_1_vector3_d_1a566ece85e798819e1cb9b7e12ad0abc1" compoundref="_post_manager_2ref_2_definition_8h" startline="64" endline="64">Size</references>
+        <references refid="class_post_1_1_vector3_d_1aa6b42209dc7583518d937db274953c40" compoundref="_post_manager_2ref_2_definition_8h" startline="16" endline="16">Vector3D</references>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/PostManager/ref/Definition.h" line="14" column="1" bodyfile="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/PostManager/ref/Definition.h" bodystart="13" bodyend="69"/>
+    <listofallmembers>
+      <member refid="class_post_1_1_vector3_d_1a7b12f81799adeea07a61dd5876ecf04a" prot="private" virt="non-virtual"><scope>Post::Vector3D</scope><name>_x</name></member>
+      <member refid="class_post_1_1_vector3_d_1a79880f222bdd5b8d4fad7644d9fe6df0" prot="private" virt="non-virtual"><scope>Post::Vector3D</scope><name>_y</name></member>
+      <member refid="class_post_1_1_vector3_d_1a3cd2b837c5117c34b9d6414dba841611" prot="private" virt="non-virtual"><scope>Post::Vector3D</scope><name>_z</name></member>
+      <member refid="class_post_1_1_vector3_d_1adb6b934963eff5d6b4bc13014accea4e" prot="public" virt="non-virtual"><scope>Post::Vector3D</scope><name>Norm</name></member>
+      <member refid="class_post_1_1_vector3_d_1a34550bd5bc8f1b768077e10244f3f688" prot="public" virt="non-virtual"><scope>Post::Vector3D</scope><name>operator*</name></member>
+      <member refid="class_post_1_1_vector3_d_1a68efe99ec8dcf34c56d50180845653f7" prot="public" virt="non-virtual"><scope>Post::Vector3D</scope><name>operator*</name></member>
+      <member refid="class_post_1_1_vector3_d_1aba3b620fc0a6feb038e68fc16d4cfe46" prot="public" virt="non-virtual"><scope>Post::Vector3D</scope><name>operator+</name></member>
+      <member refid="class_post_1_1_vector3_d_1a721ed5afb0c533ba6b0d7cbfebaf6354" prot="public" virt="non-virtual"><scope>Post::Vector3D</scope><name>operator-</name></member>
+      <member refid="class_post_1_1_vector3_d_1a497c83bb3cec88eea7fc133ac40884d7" prot="public" virt="non-virtual"><scope>Post::Vector3D</scope><name>operator/</name></member>
+      <member refid="class_post_1_1_vector3_d_1af52a808fa23078341dd7596ba707c536" prot="public" virt="non-virtual"><scope>Post::Vector3D</scope><name>operator=</name></member>
+      <member refid="class_post_1_1_vector3_d_1a886339b8b97c67637984359328b87561" prot="public" virt="non-virtual"><scope>Post::Vector3D</scope><name>operator==</name></member>
+      <member refid="class_post_1_1_vector3_d_1a7b1bd050fb737adcdea85f400da4d426" prot="public" virt="non-virtual"><scope>Post::Vector3D</scope><name>operator[]</name></member>
+      <member refid="class_post_1_1_vector3_d_1aef76551dc30beef1ba36a29433c6ef4e" prot="public" virt="non-virtual"><scope>Post::Vector3D</scope><name>operator^</name></member>
+      <member refid="class_post_1_1_vector3_d_1a1fa92e6ba11c22b947a3553448325fb5" prot="public" virt="non-virtual"><scope>Post::Vector3D</scope><name>SetXYZ</name></member>
+      <member refid="class_post_1_1_vector3_d_1ae323cf4978b4acc25c6ba23d2d7fad36" prot="public" virt="non-virtual"><scope>Post::Vector3D</scope><name>SetXYZ</name></member>
+      <member refid="class_post_1_1_vector3_d_1a566ece85e798819e1cb9b7e12ad0abc1" prot="public" virt="non-virtual"><scope>Post::Vector3D</scope><name>Size</name></member>
+      <member refid="class_post_1_1_vector3_d_1aa6b42209dc7583518d937db274953c40" prot="public" virt="non-virtual"><scope>Post::Vector3D</scope><name>Vector3D</name></member>
+      <member refid="class_post_1_1_vector3_d_1a211444a62fd71aa00489a053b0913b6a" prot="public" virt="non-virtual"><scope>Post::Vector3D</scope><name>Vector3D</name></member>
+      <member refid="class_post_1_1_vector3_d_1afd98b024de0e042f732fc80d3791fc3c" prot="public" virt="non-virtual"><scope>Post::Vector3D</scope><name>Vector3D</name></member>
+      <member refid="class_post_1_1_vector3_d_1a44317ba797db1ec9635866aa7c4cf749" prot="public" virt="non-virtual"><scope>Post::Vector3D</scope><name>X</name></member>
+      <member refid="class_post_1_1_vector3_d_1adc5a4ebb5d0164b8d1356facb64fe209" prot="public" virt="non-virtual"><scope>Post::Vector3D</scope><name>X</name></member>
+      <member refid="class_post_1_1_vector3_d_1a3ee0de7fa31240b94f6895efdb03fe14" prot="public" virt="non-virtual"><scope>Post::Vector3D</scope><name>Y</name></member>
+      <member refid="class_post_1_1_vector3_d_1a57782062d9b6ab13d06bbeced015a4ac" prot="public" virt="non-virtual"><scope>Post::Vector3D</scope><name>Y</name></member>
+      <member refid="class_post_1_1_vector3_d_1a998e52de6a856a31ec794bae88d5dc1e" prot="public" virt="non-virtual"><scope>Post::Vector3D</scope><name>Z</name></member>
+      <member refid="class_post_1_1_vector3_d_1a2e9ca37ec6ab4c705fff2da31fbaca1a" prot="public" virt="non-virtual"><scope>Post::Vector3D</scope><name>Z</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

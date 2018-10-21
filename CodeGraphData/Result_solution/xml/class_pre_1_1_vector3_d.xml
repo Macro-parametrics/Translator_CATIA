@@ -1,0 +1,559 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_pre_1_1_vector3_d" kind="class" prot="public">
+    <compoundname>Pre::Vector3D</compoundname>
+    <includes refid="_pre_manager_2ref_2_definition_8h" local="no">Definition.h</includes>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_pre_1_1_vector3_d_1a016c11dba1f7586de886da2a76d7b628" prot="private" static="no" mutable="no">
+        <type>double</type>
+        <definition>double Pre::Vector3D::_x</definition>
+        <argsstring></argsstring>
+        <name>_x</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/PreManager/ref/Definition.h" line="71" column="1" bodyfile="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/PreManager/ref/Definition.h" bodystart="71" bodyend="-1"/>
+        <referencedby refid="class_pre_1_1_vector3_d_1a7bee8be1c0b8265050359305e2f84bfe" compoundref="_pre_manager_2ref_2_definition_8h" startline="68" endline="68">Norm</referencedby>
+        <referencedby refid="class_pre_1_1_vector3_d_1a9b821d1d2a0c4110f2ad59e38a9f6a7f" compoundref="_pre_manager_2ref_2_definition_8h" startline="42" endline="44">operator*</referencedby>
+        <referencedby refid="class_pre_1_1_vector3_d_1a0b6d3e39bfbf8536dc446f644dc32d52" compoundref="_pre_manager_2ref_2_definition_8h" startline="36" endline="38">operator+</referencedby>
+        <referencedby refid="class_pre_1_1_vector3_d_1a429e0024629bd73a85d98838ef83a8fc" compoundref="_pre_manager_2ref_2_definition_8h" startline="39" endline="41">operator-</referencedby>
+        <referencedby refid="class_pre_1_1_vector3_d_1a85e3512c7105e69c36ba5baa5c2b2681" compoundref="_pre_manager_2ref_2_definition_8h" startline="45" endline="47">operator/</referencedby>
+        <referencedby refid="class_pre_1_1_vector3_d_1a0d7d7368a49354641dd2e321a160e949" compoundref="_pre_manager_2ref_2_definition_8h" startline="63" endline="65">operator=</referencedby>
+        <referencedby refid="class_pre_1_1_vector3_d_1aac49ebefc43dcd2e4e6b4141dcdfc8be" compoundref="_pre_manager_2ref_2_definition_8h" startline="59" endline="62">operator==</referencedby>
+        <referencedby refid="class_pre_1_1_vector3_d_1a9c6bb90926b989304dddce5efca5b2fa" compoundref="_pre_manager_2ref_2_definition_8h" startline="34" endline="34">operator[]</referencedby>
+        <referencedby refid="class_pre_1_1_vector3_d_1af5c8ee8e774d68c5d86447f261ac4284" compoundref="_pre_manager_2ref_2_definition_8h" startline="53" endline="58">operator^</referencedby>
+        <referencedby refid="class_pre_1_1_vector3_d_1a41786c47b74e60571dae97b89e0e3195" compoundref="_pre_manager_2ref_2_definition_8h" startline="28" endline="28">SetX</referencedby>
+        <referencedby refid="class_pre_1_1_vector3_d_1ac24aaad681768a479555aaf979491be8" compoundref="_pre_manager_2ref_2_definition_8h" startline="31" endline="31">SetXYZ</referencedby>
+        <referencedby refid="class_pre_1_1_vector3_d_1a6e408e55958e49f89eb67f4119495603" compoundref="_pre_manager_2ref_2_definition_8h" startline="67" endline="67">Size</referencedby>
+        <referencedby refid="class_pre_1_1_vector3_d_1a40a8859da6dfadec6e9e1fb43df1340e" compoundref="_pre_manager_2ref_2_definition_8h" startline="25" endline="25">X</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_pre_1_1_vector3_d_1ae4a05bc166892a327945872aaa1bb21f" prot="private" static="no" mutable="no">
+        <type>double</type>
+        <definition>double Pre::Vector3D::_y</definition>
+        <argsstring></argsstring>
+        <name>_y</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/PreManager/ref/Definition.h" line="71" column="1" bodyfile="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/PreManager/ref/Definition.h" bodystart="71" bodyend="-1"/>
+        <referencedby refid="class_pre_1_1_vector3_d_1a7bee8be1c0b8265050359305e2f84bfe" compoundref="_pre_manager_2ref_2_definition_8h" startline="68" endline="68">Norm</referencedby>
+        <referencedby refid="class_pre_1_1_vector3_d_1a9b821d1d2a0c4110f2ad59e38a9f6a7f" compoundref="_pre_manager_2ref_2_definition_8h" startline="42" endline="44">operator*</referencedby>
+        <referencedby refid="class_pre_1_1_vector3_d_1a0b6d3e39bfbf8536dc446f644dc32d52" compoundref="_pre_manager_2ref_2_definition_8h" startline="36" endline="38">operator+</referencedby>
+        <referencedby refid="class_pre_1_1_vector3_d_1a429e0024629bd73a85d98838ef83a8fc" compoundref="_pre_manager_2ref_2_definition_8h" startline="39" endline="41">operator-</referencedby>
+        <referencedby refid="class_pre_1_1_vector3_d_1a85e3512c7105e69c36ba5baa5c2b2681" compoundref="_pre_manager_2ref_2_definition_8h" startline="45" endline="47">operator/</referencedby>
+        <referencedby refid="class_pre_1_1_vector3_d_1a0d7d7368a49354641dd2e321a160e949" compoundref="_pre_manager_2ref_2_definition_8h" startline="63" endline="65">operator=</referencedby>
+        <referencedby refid="class_pre_1_1_vector3_d_1aac49ebefc43dcd2e4e6b4141dcdfc8be" compoundref="_pre_manager_2ref_2_definition_8h" startline="59" endline="62">operator==</referencedby>
+        <referencedby refid="class_pre_1_1_vector3_d_1af5c8ee8e774d68c5d86447f261ac4284" compoundref="_pre_manager_2ref_2_definition_8h" startline="53" endline="58">operator^</referencedby>
+        <referencedby refid="class_pre_1_1_vector3_d_1ac24aaad681768a479555aaf979491be8" compoundref="_pre_manager_2ref_2_definition_8h" startline="31" endline="31">SetXYZ</referencedby>
+        <referencedby refid="class_pre_1_1_vector3_d_1ac5ca2bf996f43755aed99e5e02f2ca23" compoundref="_pre_manager_2ref_2_definition_8h" startline="29" endline="29">SetY</referencedby>
+        <referencedby refid="class_pre_1_1_vector3_d_1a6e408e55958e49f89eb67f4119495603" compoundref="_pre_manager_2ref_2_definition_8h" startline="67" endline="67">Size</referencedby>
+        <referencedby refid="class_pre_1_1_vector3_d_1a05ede4a1126109ea4bf745f8780a3380" compoundref="_pre_manager_2ref_2_definition_8h" startline="26" endline="26">Y</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_pre_1_1_vector3_d_1a5c498b74b658a3f3f406f224961f5b30" prot="private" static="no" mutable="no">
+        <type>double</type>
+        <definition>double Pre::Vector3D::_z</definition>
+        <argsstring></argsstring>
+        <name>_z</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/PreManager/ref/Definition.h" line="71" column="1" bodyfile="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/PreManager/ref/Definition.h" bodystart="71" bodyend="-1"/>
+        <referencedby refid="class_pre_1_1_vector3_d_1a7bee8be1c0b8265050359305e2f84bfe" compoundref="_pre_manager_2ref_2_definition_8h" startline="68" endline="68">Norm</referencedby>
+        <referencedby refid="class_pre_1_1_vector3_d_1a9b821d1d2a0c4110f2ad59e38a9f6a7f" compoundref="_pre_manager_2ref_2_definition_8h" startline="42" endline="44">operator*</referencedby>
+        <referencedby refid="class_pre_1_1_vector3_d_1a0b6d3e39bfbf8536dc446f644dc32d52" compoundref="_pre_manager_2ref_2_definition_8h" startline="36" endline="38">operator+</referencedby>
+        <referencedby refid="class_pre_1_1_vector3_d_1a429e0024629bd73a85d98838ef83a8fc" compoundref="_pre_manager_2ref_2_definition_8h" startline="39" endline="41">operator-</referencedby>
+        <referencedby refid="class_pre_1_1_vector3_d_1a85e3512c7105e69c36ba5baa5c2b2681" compoundref="_pre_manager_2ref_2_definition_8h" startline="45" endline="47">operator/</referencedby>
+        <referencedby refid="class_pre_1_1_vector3_d_1a0d7d7368a49354641dd2e321a160e949" compoundref="_pre_manager_2ref_2_definition_8h" startline="63" endline="65">operator=</referencedby>
+        <referencedby refid="class_pre_1_1_vector3_d_1aac49ebefc43dcd2e4e6b4141dcdfc8be" compoundref="_pre_manager_2ref_2_definition_8h" startline="59" endline="62">operator==</referencedby>
+        <referencedby refid="class_pre_1_1_vector3_d_1af5c8ee8e774d68c5d86447f261ac4284" compoundref="_pre_manager_2ref_2_definition_8h" startline="53" endline="58">operator^</referencedby>
+        <referencedby refid="class_pre_1_1_vector3_d_1ac24aaad681768a479555aaf979491be8" compoundref="_pre_manager_2ref_2_definition_8h" startline="31" endline="31">SetXYZ</referencedby>
+        <referencedby refid="class_pre_1_1_vector3_d_1a2b422bbe1eb84f9d287a19e8afba08a0" compoundref="_pre_manager_2ref_2_definition_8h" startline="30" endline="30">SetZ</referencedby>
+        <referencedby refid="class_pre_1_1_vector3_d_1a6e408e55958e49f89eb67f4119495603" compoundref="_pre_manager_2ref_2_definition_8h" startline="67" endline="67">Size</referencedby>
+        <referencedby refid="class_pre_1_1_vector3_d_1adf8da12135644df0a9d6c7d3cb593cc2" compoundref="_pre_manager_2ref_2_definition_8h" startline="27" endline="27">Z</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_pre_1_1_vector3_d_1a2d0c994056c1052d1faf576c28ef294e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>Pre::Vector3D::Vector3D</definition>
+        <argsstring>(void)</argsstring>
+        <name>Vector3D</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/PreManager/ref/Definition.h" line="21" column="1" bodyfile="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/PreManager/ref/Definition.h" bodystart="21" bodyend="21"/>
+        <referencedby refid="class_pre_1_1_vector3_d_1a7bee8be1c0b8265050359305e2f84bfe" compoundref="_pre_manager_2ref_2_definition_8h" startline="68" endline="68">Norm</referencedby>
+        <referencedby refid="class_pre_1_1_vector3_d_1a9b821d1d2a0c4110f2ad59e38a9f6a7f" compoundref="_pre_manager_2ref_2_definition_8h" startline="42" endline="44">operator*</referencedby>
+        <referencedby refid="class_pre_1_1_vector3_d_1a0b6d3e39bfbf8536dc446f644dc32d52" compoundref="_pre_manager_2ref_2_definition_8h" startline="36" endline="38">operator+</referencedby>
+        <referencedby refid="class_pre_1_1_vector3_d_1a429e0024629bd73a85d98838ef83a8fc" compoundref="_pre_manager_2ref_2_definition_8h" startline="39" endline="41">operator-</referencedby>
+        <referencedby refid="class_pre_1_1_vector3_d_1a85e3512c7105e69c36ba5baa5c2b2681" compoundref="_pre_manager_2ref_2_definition_8h" startline="45" endline="47">operator/</referencedby>
+        <referencedby refid="class_pre_1_1_vector3_d_1af5c8ee8e774d68c5d86447f261ac4284" compoundref="_pre_manager_2ref_2_definition_8h" startline="53" endline="58">operator^</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_pre_1_1_vector3_d_1aedd312222b6a6568c22dcb22d98f1107" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>Pre::Vector3D::Vector3D</definition>
+        <argsstring>(double x, double y, double z)</argsstring>
+        <name>Vector3D</name>
+        <param>
+          <type>double</type>
+          <declname>x</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>y</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>z</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/PreManager/ref/Definition.h" line="22" column="1" bodyfile="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/PreManager/ref/Definition.h" bodystart="22" bodyend="22"/>
+      </memberdef>
+      <memberdef kind="function" id="class_pre_1_1_vector3_d_1a4ec57e0f5ad4d8bbcfee9826da2dc0b9" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>Pre::Vector3D::Vector3D</definition>
+        <argsstring>(double coord[])</argsstring>
+        <name>Vector3D</name>
+        <param>
+          <type>double</type>
+          <declname>coord</declname>
+          <array>[]</array>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/PreManager/ref/Definition.h" line="23" column="1" bodyfile="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/PreManager/ref/Definition.h" bodystart="23" bodyend="23"/>
+      </memberdef>
+      <memberdef kind="function" id="class_pre_1_1_vector3_d_1a40a8859da6dfadec6e9e1fb43df1340e" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>double</type>
+        <definition>double Pre::Vector3D::X</definition>
+        <argsstring>(void) const </argsstring>
+        <name>X</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/PreManager/ref/Definition.h" line="25" column="1" bodyfile="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/PreManager/ref/Definition.h" bodystart="25" bodyend="25"/>
+        <references refid="class_pre_1_1_vector3_d_1a016c11dba1f7586de886da2a76d7b628" compoundref="_pre_manager_2ref_2_definition_8h" startline="71">_x</references>
+      </memberdef>
+      <memberdef kind="function" id="class_pre_1_1_vector3_d_1a05ede4a1126109ea4bf745f8780a3380" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>double</type>
+        <definition>double Pre::Vector3D::Y</definition>
+        <argsstring>(void) const </argsstring>
+        <name>Y</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/PreManager/ref/Definition.h" line="26" column="1" bodyfile="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/PreManager/ref/Definition.h" bodystart="26" bodyend="26"/>
+        <references refid="class_pre_1_1_vector3_d_1ae4a05bc166892a327945872aaa1bb21f" compoundref="_pre_manager_2ref_2_definition_8h" startline="71">_y</references>
+      </memberdef>
+      <memberdef kind="function" id="class_pre_1_1_vector3_d_1adf8da12135644df0a9d6c7d3cb593cc2" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>double</type>
+        <definition>double Pre::Vector3D::Z</definition>
+        <argsstring>(void) const </argsstring>
+        <name>Z</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/PreManager/ref/Definition.h" line="27" column="1" bodyfile="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/PreManager/ref/Definition.h" bodystart="27" bodyend="27"/>
+        <references refid="class_pre_1_1_vector3_d_1a5c498b74b658a3f3f406f224961f5b30" compoundref="_pre_manager_2ref_2_definition_8h" startline="71">_z</references>
+      </memberdef>
+      <memberdef kind="function" id="class_pre_1_1_vector3_d_1a41786c47b74e60571dae97b89e0e3195" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Pre::Vector3D::SetX</definition>
+        <argsstring>(double x)</argsstring>
+        <name>SetX</name>
+        <param>
+          <type>double</type>
+          <declname>x</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/PreManager/ref/Definition.h" line="28" column="1" bodyfile="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/PreManager/ref/Definition.h" bodystart="28" bodyend="28"/>
+        <references refid="class_pre_1_1_vector3_d_1a016c11dba1f7586de886da2a76d7b628" compoundref="_pre_manager_2ref_2_definition_8h" startline="71">_x</references>
+      </memberdef>
+      <memberdef kind="function" id="class_pre_1_1_vector3_d_1ac5ca2bf996f43755aed99e5e02f2ca23" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Pre::Vector3D::SetY</definition>
+        <argsstring>(double y)</argsstring>
+        <name>SetY</name>
+        <param>
+          <type>double</type>
+          <declname>y</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/PreManager/ref/Definition.h" line="29" column="1" bodyfile="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/PreManager/ref/Definition.h" bodystart="29" bodyend="29"/>
+        <references refid="class_pre_1_1_vector3_d_1ae4a05bc166892a327945872aaa1bb21f" compoundref="_pre_manager_2ref_2_definition_8h" startline="71">_y</references>
+      </memberdef>
+      <memberdef kind="function" id="class_pre_1_1_vector3_d_1a2b422bbe1eb84f9d287a19e8afba08a0" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Pre::Vector3D::SetZ</definition>
+        <argsstring>(double z)</argsstring>
+        <name>SetZ</name>
+        <param>
+          <type>double</type>
+          <declname>z</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/PreManager/ref/Definition.h" line="30" column="1" bodyfile="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/PreManager/ref/Definition.h" bodystart="30" bodyend="30"/>
+        <references refid="class_pre_1_1_vector3_d_1a5c498b74b658a3f3f406f224961f5b30" compoundref="_pre_manager_2ref_2_definition_8h" startline="71">_z</references>
+      </memberdef>
+      <memberdef kind="function" id="class_pre_1_1_vector3_d_1ac24aaad681768a479555aaf979491be8" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Pre::Vector3D::SetXYZ</definition>
+        <argsstring>(double sz[3])</argsstring>
+        <name>SetXYZ</name>
+        <param>
+          <type>double</type>
+          <declname>sz</declname>
+          <array>[3]</array>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/PreManager/ref/Definition.h" line="31" column="1" bodyfile="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/PreManager/ref/Definition.h" bodystart="31" bodyend="31"/>
+        <references refid="class_pre_1_1_vector3_d_1a016c11dba1f7586de886da2a76d7b628" compoundref="_pre_manager_2ref_2_definition_8h" startline="71">_x</references>
+        <references refid="class_pre_1_1_vector3_d_1ae4a05bc166892a327945872aaa1bb21f" compoundref="_pre_manager_2ref_2_definition_8h" startline="71">_y</references>
+        <references refid="class_pre_1_1_vector3_d_1a5c498b74b658a3f3f406f224961f5b30" compoundref="_pre_manager_2ref_2_definition_8h" startline="71">_z</references>
+      </memberdef>
+      <memberdef kind="function" id="class_pre_1_1_vector3_d_1a9aa1a87e54766ff91010ca67464fd6a5" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Pre::Vector3D::SetXYZ</definition>
+        <argsstring>(double x, double y, double z)</argsstring>
+        <name>SetXYZ</name>
+        <param>
+          <type>double</type>
+          <declname>x</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>y</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>z</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/PreManager/ref/Definition.h" line="32" column="1" bodyfile="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/PreManager/ref/Definition.h" bodystart="32" bodyend="32"/>
+        <references refid="class_pre_1_1_vector3_d_1a016c11dba1f7586de886da2a76d7b628" compoundref="_pre_manager_2ref_2_definition_8h" startline="71">_x</references>
+        <references refid="class_pre_1_1_vector3_d_1ae4a05bc166892a327945872aaa1bb21f" compoundref="_pre_manager_2ref_2_definition_8h" startline="71">_y</references>
+        <references refid="class_pre_1_1_vector3_d_1a5c498b74b658a3f3f406f224961f5b30" compoundref="_pre_manager_2ref_2_definition_8h" startline="71">_z</references>
+      </memberdef>
+      <memberdef kind="function" id="class_pre_1_1_vector3_d_1a9c6bb90926b989304dddce5efca5b2fa" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>double &amp;</type>
+        <definition>double&amp; Pre::Vector3D::operator[]</definition>
+        <argsstring>(int i)</argsstring>
+        <name>operator[]</name>
+        <param>
+          <type>int</type>
+          <declname>i</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/PreManager/ref/Definition.h" line="34" column="1" bodyfile="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/PreManager/ref/Definition.h" bodystart="34" bodyend="34"/>
+        <references refid="class_pre_1_1_vector3_d_1a016c11dba1f7586de886da2a76d7b628" compoundref="_pre_manager_2ref_2_definition_8h" startline="71">_x</references>
+      </memberdef>
+      <memberdef kind="function" id="class_pre_1_1_vector3_d_1a0b6d3e39bfbf8536dc446f644dc32d52" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="class_pre_1_1_vector3_d" kindref="compound">Vector3D</ref></type>
+        <definition>Vector3D Pre::Vector3D::operator+</definition>
+        <argsstring>(const Vector3D &amp;rhs)</argsstring>
+        <name>operator+</name>
+        <param>
+          <type>const <ref refid="class_pre_1_1_vector3_d" kindref="compound">Vector3D</ref> &amp;</type>
+          <declname>rhs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/PreManager/ref/Definition.h" line="36" column="1" bodyfile="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/PreManager/ref/Definition.h" bodystart="36" bodyend="38"/>
+        <references refid="class_pre_1_1_vector3_d_1a016c11dba1f7586de886da2a76d7b628" compoundref="_pre_manager_2ref_2_definition_8h" startline="71">_x</references>
+        <references refid="class_pre_1_1_vector3_d_1ae4a05bc166892a327945872aaa1bb21f" compoundref="_pre_manager_2ref_2_definition_8h" startline="71">_y</references>
+        <references refid="class_pre_1_1_vector3_d_1a5c498b74b658a3f3f406f224961f5b30" compoundref="_pre_manager_2ref_2_definition_8h" startline="71">_z</references>
+        <references refid="class_pre_1_1_vector3_d_1a2d0c994056c1052d1faf576c28ef294e" compoundref="_pre_manager_2ref_2_definition_8h" startline="21" endline="21">Vector3D</references>
+      </memberdef>
+      <memberdef kind="function" id="class_pre_1_1_vector3_d_1a429e0024629bd73a85d98838ef83a8fc" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="class_pre_1_1_vector3_d" kindref="compound">Vector3D</ref></type>
+        <definition>Vector3D Pre::Vector3D::operator-</definition>
+        <argsstring>(const Vector3D &amp;rhs)</argsstring>
+        <name>operator-</name>
+        <param>
+          <type>const <ref refid="class_pre_1_1_vector3_d" kindref="compound">Vector3D</ref> &amp;</type>
+          <declname>rhs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/PreManager/ref/Definition.h" line="39" column="1" bodyfile="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/PreManager/ref/Definition.h" bodystart="39" bodyend="41"/>
+        <references refid="class_pre_1_1_vector3_d_1a016c11dba1f7586de886da2a76d7b628" compoundref="_pre_manager_2ref_2_definition_8h" startline="71">_x</references>
+        <references refid="class_pre_1_1_vector3_d_1ae4a05bc166892a327945872aaa1bb21f" compoundref="_pre_manager_2ref_2_definition_8h" startline="71">_y</references>
+        <references refid="class_pre_1_1_vector3_d_1a5c498b74b658a3f3f406f224961f5b30" compoundref="_pre_manager_2ref_2_definition_8h" startline="71">_z</references>
+        <references refid="class_pre_1_1_vector3_d_1a2d0c994056c1052d1faf576c28ef294e" compoundref="_pre_manager_2ref_2_definition_8h" startline="21" endline="21">Vector3D</references>
+      </memberdef>
+      <memberdef kind="function" id="class_pre_1_1_vector3_d_1a9b821d1d2a0c4110f2ad59e38a9f6a7f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="class_pre_1_1_vector3_d" kindref="compound">Vector3D</ref></type>
+        <definition>Vector3D Pre::Vector3D::operator*</definition>
+        <argsstring>(double d)</argsstring>
+        <name>operator*</name>
+        <param>
+          <type>double</type>
+          <declname>d</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/PreManager/ref/Definition.h" line="42" column="1" bodyfile="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/PreManager/ref/Definition.h" bodystart="42" bodyend="44"/>
+        <references refid="class_pre_1_1_vector3_d_1a016c11dba1f7586de886da2a76d7b628" compoundref="_pre_manager_2ref_2_definition_8h" startline="71">_x</references>
+        <references refid="class_pre_1_1_vector3_d_1ae4a05bc166892a327945872aaa1bb21f" compoundref="_pre_manager_2ref_2_definition_8h" startline="71">_y</references>
+        <references refid="class_pre_1_1_vector3_d_1a5c498b74b658a3f3f406f224961f5b30" compoundref="_pre_manager_2ref_2_definition_8h" startline="71">_z</references>
+        <references refid="class_pre_1_1_vector3_d_1a2d0c994056c1052d1faf576c28ef294e" compoundref="_pre_manager_2ref_2_definition_8h" startline="21" endline="21">Vector3D</references>
+      </memberdef>
+      <memberdef kind="function" id="class_pre_1_1_vector3_d_1a85e3512c7105e69c36ba5baa5c2b2681" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="class_pre_1_1_vector3_d" kindref="compound">Vector3D</ref></type>
+        <definition>Vector3D Pre::Vector3D::operator/</definition>
+        <argsstring>(double d)</argsstring>
+        <name>operator/</name>
+        <param>
+          <type>double</type>
+          <declname>d</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/PreManager/ref/Definition.h" line="45" column="1" bodyfile="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/PreManager/ref/Definition.h" bodystart="45" bodyend="47"/>
+        <references refid="class_pre_1_1_vector3_d_1a016c11dba1f7586de886da2a76d7b628" compoundref="_pre_manager_2ref_2_definition_8h" startline="71">_x</references>
+        <references refid="class_pre_1_1_vector3_d_1ae4a05bc166892a327945872aaa1bb21f" compoundref="_pre_manager_2ref_2_definition_8h" startline="71">_y</references>
+        <references refid="class_pre_1_1_vector3_d_1a5c498b74b658a3f3f406f224961f5b30" compoundref="_pre_manager_2ref_2_definition_8h" startline="71">_z</references>
+        <references refid="class_pre_1_1_vector3_d_1a2d0c994056c1052d1faf576c28ef294e" compoundref="_pre_manager_2ref_2_definition_8h" startline="21" endline="21">Vector3D</references>
+      </memberdef>
+      <memberdef kind="function" id="class_pre_1_1_vector3_d_1a42597666e108e0fe50905b591386eb4e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>double</type>
+        <definition>double Pre::Vector3D::operator*</definition>
+        <argsstring>(Vector3D &amp;d)</argsstring>
+        <name>operator*</name>
+        <param>
+          <type><ref refid="class_pre_1_1_vector3_d" kindref="compound">Vector3D</ref> &amp;</type>
+          <declname>d</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/PreManager/ref/Definition.h" line="49" column="1" bodyfile="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/PreManager/ref/Definition.h" bodystart="49" bodyend="51"/>
+        <references refid="class_pre_1_1_vector3_d_1a016c11dba1f7586de886da2a76d7b628" compoundref="_pre_manager_2ref_2_definition_8h" startline="71">_x</references>
+        <references refid="class_pre_1_1_vector3_d_1ae4a05bc166892a327945872aaa1bb21f" compoundref="_pre_manager_2ref_2_definition_8h" startline="71">_y</references>
+        <references refid="class_pre_1_1_vector3_d_1a5c498b74b658a3f3f406f224961f5b30" compoundref="_pre_manager_2ref_2_definition_8h" startline="71">_z</references>
+      </memberdef>
+      <memberdef kind="function" id="class_pre_1_1_vector3_d_1af5c8ee8e774d68c5d86447f261ac4284" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="class_pre_1_1_vector3_d" kindref="compound">Vector3D</ref></type>
+        <definition>Vector3D Pre::Vector3D::operator^</definition>
+        <argsstring>(Vector3D &amp;d)</argsstring>
+        <name>operator^</name>
+        <param>
+          <type><ref refid="class_pre_1_1_vector3_d" kindref="compound">Vector3D</ref> &amp;</type>
+          <declname>d</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/PreManager/ref/Definition.h" line="53" column="1" bodyfile="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/PreManager/ref/Definition.h" bodystart="53" bodyend="58"/>
+        <references refid="class_pre_1_1_vector3_d_1a016c11dba1f7586de886da2a76d7b628" compoundref="_pre_manager_2ref_2_definition_8h" startline="71">_x</references>
+        <references refid="class_pre_1_1_vector3_d_1ae4a05bc166892a327945872aaa1bb21f" compoundref="_pre_manager_2ref_2_definition_8h" startline="71">_y</references>
+        <references refid="class_pre_1_1_vector3_d_1a5c498b74b658a3f3f406f224961f5b30" compoundref="_pre_manager_2ref_2_definition_8h" startline="71">_z</references>
+        <references refid="class_pre_1_1_vector3_d_1a2d0c994056c1052d1faf576c28ef294e" compoundref="_pre_manager_2ref_2_definition_8h" startline="21" endline="21">Vector3D</references>
+      </memberdef>
+      <memberdef kind="function" id="class_pre_1_1_vector3_d_1aac49ebefc43dcd2e4e6b4141dcdfc8be" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool Pre::Vector3D::operator==</definition>
+        <argsstring>(const Vector3D &amp;rhs)</argsstring>
+        <name>operator==</name>
+        <param>
+          <type>const <ref refid="class_pre_1_1_vector3_d" kindref="compound">Vector3D</ref> &amp;</type>
+          <declname>rhs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/PreManager/ref/Definition.h" line="59" column="1" bodyfile="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/PreManager/ref/Definition.h" bodystart="59" bodyend="62"/>
+        <references refid="class_pre_1_1_vector3_d_1a016c11dba1f7586de886da2a76d7b628" compoundref="_pre_manager_2ref_2_definition_8h" startline="71">_x</references>
+        <references refid="class_pre_1_1_vector3_d_1ae4a05bc166892a327945872aaa1bb21f" compoundref="_pre_manager_2ref_2_definition_8h" startline="71">_y</references>
+        <references refid="class_pre_1_1_vector3_d_1a5c498b74b658a3f3f406f224961f5b30" compoundref="_pre_manager_2ref_2_definition_8h" startline="71">_z</references>
+      </memberdef>
+      <memberdef kind="function" id="class_pre_1_1_vector3_d_1a0d7d7368a49354641dd2e321a160e949" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Pre::Vector3D::operator=</definition>
+        <argsstring>(const Vector3D &amp;rhs)</argsstring>
+        <name>operator=</name>
+        <param>
+          <type>const <ref refid="class_pre_1_1_vector3_d" kindref="compound">Vector3D</ref> &amp;</type>
+          <declname>rhs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/PreManager/ref/Definition.h" line="63" column="1" bodyfile="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/PreManager/ref/Definition.h" bodystart="63" bodyend="65"/>
+        <references refid="class_pre_1_1_vector3_d_1a016c11dba1f7586de886da2a76d7b628" compoundref="_pre_manager_2ref_2_definition_8h" startline="71">_x</references>
+        <references refid="class_pre_1_1_vector3_d_1ae4a05bc166892a327945872aaa1bb21f" compoundref="_pre_manager_2ref_2_definition_8h" startline="71">_y</references>
+        <references refid="class_pre_1_1_vector3_d_1a5c498b74b658a3f3f406f224961f5b30" compoundref="_pre_manager_2ref_2_definition_8h" startline="71">_z</references>
+      </memberdef>
+      <memberdef kind="function" id="class_pre_1_1_vector3_d_1a6e408e55958e49f89eb67f4119495603" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>double</type>
+        <definition>double Pre::Vector3D::Size</definition>
+        <argsstring>() const </argsstring>
+        <name>Size</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/PreManager/ref/Definition.h" line="67" column="1" bodyfile="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/PreManager/ref/Definition.h" bodystart="67" bodyend="67"/>
+        <references refid="class_pre_1_1_vector3_d_1a016c11dba1f7586de886da2a76d7b628" compoundref="_pre_manager_2ref_2_definition_8h" startline="71">_x</references>
+        <references refid="class_pre_1_1_vector3_d_1ae4a05bc166892a327945872aaa1bb21f" compoundref="_pre_manager_2ref_2_definition_8h" startline="71">_y</references>
+        <references refid="class_pre_1_1_vector3_d_1a5c498b74b658a3f3f406f224961f5b30" compoundref="_pre_manager_2ref_2_definition_8h" startline="71">_z</references>
+        <referencedby refid="class_pre_1_1_vector3_d_1a7bee8be1c0b8265050359305e2f84bfe" compoundref="_pre_manager_2ref_2_definition_8h" startline="68" endline="68">Norm</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_pre_1_1_vector3_d_1a7bee8be1c0b8265050359305e2f84bfe" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="class_pre_1_1_vector3_d" kindref="compound">Vector3D</ref></type>
+        <definition>Vector3D Pre::Vector3D::Norm</definition>
+        <argsstring>(void)</argsstring>
+        <name>Norm</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/PreManager/ref/Definition.h" line="68" column="1" bodyfile="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/PreManager/ref/Definition.h" bodystart="68" bodyend="68"/>
+        <references refid="class_pre_1_1_vector3_d_1a016c11dba1f7586de886da2a76d7b628" compoundref="_pre_manager_2ref_2_definition_8h" startline="71">_x</references>
+        <references refid="class_pre_1_1_vector3_d_1ae4a05bc166892a327945872aaa1bb21f" compoundref="_pre_manager_2ref_2_definition_8h" startline="71">_y</references>
+        <references refid="class_pre_1_1_vector3_d_1a5c498b74b658a3f3f406f224961f5b30" compoundref="_pre_manager_2ref_2_definition_8h" startline="71">_z</references>
+        <references refid="class_pre_1_1_vector3_d_1a6e408e55958e49f89eb67f4119495603" compoundref="_pre_manager_2ref_2_definition_8h" startline="67" endline="67">Size</references>
+        <references refid="class_pre_1_1_vector3_d_1a2d0c994056c1052d1faf576c28ef294e" compoundref="_pre_manager_2ref_2_definition_8h" startline="21" endline="21">Vector3D</references>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/PreManager/ref/Definition.h" line="18" column="1" bodyfile="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/PreManager/ref/Definition.h" bodystart="18" bodyend="72"/>
+    <listofallmembers>
+      <member refid="class_pre_1_1_vector3_d_1a016c11dba1f7586de886da2a76d7b628" prot="private" virt="non-virtual"><scope>Pre::Vector3D</scope><name>_x</name></member>
+      <member refid="class_pre_1_1_vector3_d_1ae4a05bc166892a327945872aaa1bb21f" prot="private" virt="non-virtual"><scope>Pre::Vector3D</scope><name>_y</name></member>
+      <member refid="class_pre_1_1_vector3_d_1a5c498b74b658a3f3f406f224961f5b30" prot="private" virt="non-virtual"><scope>Pre::Vector3D</scope><name>_z</name></member>
+      <member refid="class_pre_1_1_vector3_d_1a7bee8be1c0b8265050359305e2f84bfe" prot="public" virt="non-virtual"><scope>Pre::Vector3D</scope><name>Norm</name></member>
+      <member refid="class_pre_1_1_vector3_d_1a9b821d1d2a0c4110f2ad59e38a9f6a7f" prot="public" virt="non-virtual"><scope>Pre::Vector3D</scope><name>operator*</name></member>
+      <member refid="class_pre_1_1_vector3_d_1a42597666e108e0fe50905b591386eb4e" prot="public" virt="non-virtual"><scope>Pre::Vector3D</scope><name>operator*</name></member>
+      <member refid="class_pre_1_1_vector3_d_1a0b6d3e39bfbf8536dc446f644dc32d52" prot="public" virt="non-virtual"><scope>Pre::Vector3D</scope><name>operator+</name></member>
+      <member refid="class_pre_1_1_vector3_d_1a429e0024629bd73a85d98838ef83a8fc" prot="public" virt="non-virtual"><scope>Pre::Vector3D</scope><name>operator-</name></member>
+      <member refid="class_pre_1_1_vector3_d_1a85e3512c7105e69c36ba5baa5c2b2681" prot="public" virt="non-virtual"><scope>Pre::Vector3D</scope><name>operator/</name></member>
+      <member refid="class_pre_1_1_vector3_d_1a0d7d7368a49354641dd2e321a160e949" prot="public" virt="non-virtual"><scope>Pre::Vector3D</scope><name>operator=</name></member>
+      <member refid="class_pre_1_1_vector3_d_1aac49ebefc43dcd2e4e6b4141dcdfc8be" prot="public" virt="non-virtual"><scope>Pre::Vector3D</scope><name>operator==</name></member>
+      <member refid="class_pre_1_1_vector3_d_1a9c6bb90926b989304dddce5efca5b2fa" prot="public" virt="non-virtual"><scope>Pre::Vector3D</scope><name>operator[]</name></member>
+      <member refid="class_pre_1_1_vector3_d_1af5c8ee8e774d68c5d86447f261ac4284" prot="public" virt="non-virtual"><scope>Pre::Vector3D</scope><name>operator^</name></member>
+      <member refid="class_pre_1_1_vector3_d_1a41786c47b74e60571dae97b89e0e3195" prot="public" virt="non-virtual"><scope>Pre::Vector3D</scope><name>SetX</name></member>
+      <member refid="class_pre_1_1_vector3_d_1ac24aaad681768a479555aaf979491be8" prot="public" virt="non-virtual"><scope>Pre::Vector3D</scope><name>SetXYZ</name></member>
+      <member refid="class_pre_1_1_vector3_d_1a9aa1a87e54766ff91010ca67464fd6a5" prot="public" virt="non-virtual"><scope>Pre::Vector3D</scope><name>SetXYZ</name></member>
+      <member refid="class_pre_1_1_vector3_d_1ac5ca2bf996f43755aed99e5e02f2ca23" prot="public" virt="non-virtual"><scope>Pre::Vector3D</scope><name>SetY</name></member>
+      <member refid="class_pre_1_1_vector3_d_1a2b422bbe1eb84f9d287a19e8afba08a0" prot="public" virt="non-virtual"><scope>Pre::Vector3D</scope><name>SetZ</name></member>
+      <member refid="class_pre_1_1_vector3_d_1a6e408e55958e49f89eb67f4119495603" prot="public" virt="non-virtual"><scope>Pre::Vector3D</scope><name>Size</name></member>
+      <member refid="class_pre_1_1_vector3_d_1a2d0c994056c1052d1faf576c28ef294e" prot="public" virt="non-virtual"><scope>Pre::Vector3D</scope><name>Vector3D</name></member>
+      <member refid="class_pre_1_1_vector3_d_1aedd312222b6a6568c22dcb22d98f1107" prot="public" virt="non-virtual"><scope>Pre::Vector3D</scope><name>Vector3D</name></member>
+      <member refid="class_pre_1_1_vector3_d_1a4ec57e0f5ad4d8bbcfee9826da2dc0b9" prot="public" virt="non-virtual"><scope>Pre::Vector3D</scope><name>Vector3D</name></member>
+      <member refid="class_pre_1_1_vector3_d_1a40a8859da6dfadec6e9e1fb43df1340e" prot="public" virt="non-virtual"><scope>Pre::Vector3D</scope><name>X</name></member>
+      <member refid="class_pre_1_1_vector3_d_1a05ede4a1126109ea4bf745f8780a3380" prot="public" virt="non-virtual"><scope>Pre::Vector3D</scope><name>Y</name></member>
+      <member refid="class_pre_1_1_vector3_d_1adf8da12135644df0a9d6c7d3cb593cc2" prot="public" virt="non-virtual"><scope>Pre::Vector3D</scope><name>Z</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,347 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_post_1_1_s_k_e_t_c_h_create2_d_circle_center_point" kind="class" prot="public">
+    <compoundname>Post::SKETCHCreate2DCircleCenterPoint</compoundname>
+    <basecompoundref refid="class_post_1_1_s_k_e_t_c_h_item" prot="public" virt="non-virtual">Post::SKETCHItem</basecompoundref>
+    <includes refid="_s_k_e_t_c_h_create2_d_circle_center_point_8h" local="no">SKETCHCreate2DCircleCenterPoint.h</includes>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_post_1_1_s_k_e_t_c_h_create2_d_circle_center_point_1ad950361dbbe8b49858b0c562eab2a2d3" prot="public" static="no" mutable="no">
+        <type>string</type>
+        <definition>string Post::SKETCHCreate2DCircleCenterPoint::TransCADName</definition>
+        <argsstring></argsstring>
+        <name>TransCADName</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/PostManager/ref/SKETCHCreate2DCircleCenterPoint.h" line="23" column="1" bodyfile="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/PostManager/ref/SKETCHCreate2DCircleCenterPoint.h" bodystart="23" bodyend="-1"/>
+        <referencedby refid="class_post_1_1_s_k_e_t_c_h_create2_d_circle_center_point_1a8a23bf3543170f9b80656d6fe84896d3" compoundref="_s_k_e_t_c_h_create2_d_circle_center_point_8cpp" startline="14" endline="26">GetInfo</referencedby>
+        <referencedby refid="class_post_1_1_s_k_e_t_c_h_create2_d_circle_center_point_1a6a4387c56c3b7d0f2e28441701aa16c5" compoundref="_s_k_e_t_c_h_create2_d_circle_center_point_8cpp" startline="28" endline="40">ToCATIA</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_post_1_1_s_k_e_t_c_h_create2_d_circle_center_point_1acb436215dbe5a7b159454854a1319707" prot="private" static="no" mutable="no">
+        <type><ref refid="namespace_post_1a80911619713a0105ed4134e3ca90fa57" kindref="member">Point3D</ref></type>
+        <definition>Point3D Post::SKETCHCreate2DCircleCenterPoint::_centerPoint</definition>
+        <argsstring></argsstring>
+        <name>_centerPoint</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/PostManager/ref/SKETCHCreate2DCircleCenterPoint.h" line="26" column="1" bodyfile="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/PostManager/ref/SKETCHCreate2DCircleCenterPoint.h" bodystart="26" bodyend="-1"/>
+        <referencedby refid="class_post_1_1_s_k_e_t_c_h_create2_d_circle_center_point_1adba551ec5e72e16df6107a9cde95358c" compoundref="_s_k_e_t_c_h_create2_d_circle_center_point_8h" startline="16" endline="16">GetCenterPoint</referencedby>
+        <referencedby refid="class_post_1_1_s_k_e_t_c_h_create2_d_circle_center_point_1a8a23bf3543170f9b80656d6fe84896d3" compoundref="_s_k_e_t_c_h_create2_d_circle_center_point_8cpp" startline="14" endline="26">GetInfo</referencedby>
+        <referencedby refid="class_post_1_1_s_k_e_t_c_h_create2_d_circle_center_point_1a9c7b38e49856755bfb78260b906a0eb6" compoundref="_s_k_e_t_c_h_create2_d_circle_center_point_8h" startline="13" endline="13">SetCenterPoint</referencedby>
+        <referencedby refid="class_post_1_1_s_k_e_t_c_h_create2_d_circle_center_point_1a6a4387c56c3b7d0f2e28441701aa16c5" compoundref="_s_k_e_t_c_h_create2_d_circle_center_point_8cpp" startline="28" endline="40">ToCATIA</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_post_1_1_s_k_e_t_c_h_create2_d_circle_center_point_1a64cb15d50b926063688b24557a3aadb4" prot="private" static="no" mutable="no">
+        <type>double</type>
+        <definition>double Post::SKETCHCreate2DCircleCenterPoint::_rad</definition>
+        <argsstring></argsstring>
+        <name>_rad</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/PostManager/ref/SKETCHCreate2DCircleCenterPoint.h" line="27" column="1" bodyfile="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/PostManager/ref/SKETCHCreate2DCircleCenterPoint.h" bodystart="27" bodyend="-1"/>
+        <referencedby refid="class_post_1_1_s_k_e_t_c_h_create2_d_circle_center_point_1a8a23bf3543170f9b80656d6fe84896d3" compoundref="_s_k_e_t_c_h_create2_d_circle_center_point_8cpp" startline="14" endline="26">GetInfo</referencedby>
+        <referencedby refid="class_post_1_1_s_k_e_t_c_h_create2_d_circle_center_point_1a06217b1711919254fec65e85fcbd4880" compoundref="_s_k_e_t_c_h_create2_d_circle_center_point_8h" startline="17" endline="17">GetRadius</referencedby>
+        <referencedby refid="class_post_1_1_s_k_e_t_c_h_create2_d_circle_center_point_1a182944825e44a4086427028b6450b653" compoundref="_s_k_e_t_c_h_create2_d_circle_center_point_8h" startline="14" endline="14">SetRadius</referencedby>
+        <referencedby refid="class_post_1_1_s_k_e_t_c_h_create2_d_circle_center_point_1a6a4387c56c3b7d0f2e28441701aa16c5" compoundref="_s_k_e_t_c_h_create2_d_circle_center_point_8cpp" startline="28" endline="40">ToCATIA</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_post_1_1_s_k_e_t_c_h_create2_d_circle_center_point_1a32f86dcdc528ce8505cacb99a4c4fb72" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>Post::SKETCHCreate2DCircleCenterPoint::SKETCHCreate2DCircleCenterPoint</definition>
+        <argsstring>(FSketch *pFSketch, TransCAD::IStdSketchGeometryPtr spItem)</argsstring>
+        <name>SKETCHCreate2DCircleCenterPoint</name>
+        <param>
+          <type><ref refid="class_post_1_1_f_sketch" kindref="compound">FSketch</ref> *</type>
+          <declname>pFSketch</declname>
+        </param>
+        <param>
+          <type>TransCAD::IStdSketchGeometryPtr</type>
+          <declname>spItem</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/PostManager/ref/SKETCHCreate2DCircleCenterPoint.h" line="10" column="1" bodyfile="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/PostManager/ref/SKETCHCreate2DCircleCenterPoint.cpp" bodystart="5" bodyend="8"/>
+      </memberdef>
+      <memberdef kind="function" id="class_post_1_1_s_k_e_t_c_h_create2_d_circle_center_point_1ab64bc91fd44d53a4393a449dc4dc9d08" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type></type>
+        <definition>Post::SKETCHCreate2DCircleCenterPoint::~SKETCHCreate2DCircleCenterPoint</definition>
+        <argsstring>(void)</argsstring>
+        <name>~SKETCHCreate2DCircleCenterPoint</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/PostManager/ref/SKETCHCreate2DCircleCenterPoint.h" line="11" column="1" bodyfile="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/PostManager/ref/SKETCHCreate2DCircleCenterPoint.cpp" bodystart="10" bodyend="12"/>
+      </memberdef>
+      <memberdef kind="function" id="class_post_1_1_s_k_e_t_c_h_create2_d_circle_center_point_1a9c7b38e49856755bfb78260b906a0eb6" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Post::SKETCHCreate2DCircleCenterPoint::SetCenterPoint</definition>
+        <argsstring>(const Point3D &amp;centerPoint)</argsstring>
+        <name>SetCenterPoint</name>
+        <param>
+          <type>const <ref refid="namespace_post_1a80911619713a0105ed4134e3ca90fa57" kindref="member">Point3D</ref> &amp;</type>
+          <declname>centerPoint</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/PostManager/ref/SKETCHCreate2DCircleCenterPoint.h" line="13" column="1" bodyfile="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/PostManager/ref/SKETCHCreate2DCircleCenterPoint.h" bodystart="13" bodyend="13"/>
+        <references refid="class_post_1_1_s_k_e_t_c_h_create2_d_circle_center_point_1acb436215dbe5a7b159454854a1319707" compoundref="_s_k_e_t_c_h_create2_d_circle_center_point_8h" startline="26">_centerPoint</references>
+        <referencedby refid="class_post_1_1_s_k_e_t_c_h_create2_d_circle_center_point_1a8a23bf3543170f9b80656d6fe84896d3" compoundref="_s_k_e_t_c_h_create2_d_circle_center_point_8cpp" startline="14" endline="26">GetInfo</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_post_1_1_s_k_e_t_c_h_create2_d_circle_center_point_1a182944825e44a4086427028b6450b653" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Post::SKETCHCreate2DCircleCenterPoint::SetRadius</definition>
+        <argsstring>(const double rad)</argsstring>
+        <name>SetRadius</name>
+        <param>
+          <type>const double</type>
+          <declname>rad</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/PostManager/ref/SKETCHCreate2DCircleCenterPoint.h" line="14" column="1" bodyfile="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/PostManager/ref/SKETCHCreate2DCircleCenterPoint.h" bodystart="14" bodyend="14"/>
+        <references refid="class_post_1_1_s_k_e_t_c_h_create2_d_circle_center_point_1a64cb15d50b926063688b24557a3aadb4" compoundref="_s_k_e_t_c_h_create2_d_circle_center_point_8h" startline="27">_rad</references>
+        <referencedby refid="class_post_1_1_s_k_e_t_c_h_create2_d_circle_center_point_1a8a23bf3543170f9b80656d6fe84896d3" compoundref="_s_k_e_t_c_h_create2_d_circle_center_point_8cpp" startline="14" endline="26">GetInfo</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_post_1_1_s_k_e_t_c_h_create2_d_circle_center_point_1adba551ec5e72e16df6107a9cde95358c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="namespace_post_1a80911619713a0105ed4134e3ca90fa57" kindref="member">Point3D</ref></type>
+        <definition>Point3D Post::SKETCHCreate2DCircleCenterPoint::GetCenterPoint</definition>
+        <argsstring>()</argsstring>
+        <name>GetCenterPoint</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/PostManager/ref/SKETCHCreate2DCircleCenterPoint.h" line="16" column="1" bodyfile="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/PostManager/ref/SKETCHCreate2DCircleCenterPoint.h" bodystart="16" bodyend="16"/>
+        <references refid="class_post_1_1_s_k_e_t_c_h_create2_d_circle_center_point_1acb436215dbe5a7b159454854a1319707" compoundref="_s_k_e_t_c_h_create2_d_circle_center_point_8h" startline="26">_centerPoint</references>
+      </memberdef>
+      <memberdef kind="function" id="class_post_1_1_s_k_e_t_c_h_create2_d_circle_center_point_1a06217b1711919254fec65e85fcbd4880" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>double</type>
+        <definition>double Post::SKETCHCreate2DCircleCenterPoint::GetRadius</definition>
+        <argsstring>()</argsstring>
+        <name>GetRadius</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/PostManager/ref/SKETCHCreate2DCircleCenterPoint.h" line="17" column="1" bodyfile="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/PostManager/ref/SKETCHCreate2DCircleCenterPoint.h" bodystart="17" bodyend="17"/>
+        <references refid="class_post_1_1_s_k_e_t_c_h_create2_d_circle_center_point_1a64cb15d50b926063688b24557a3aadb4" compoundref="_s_k_e_t_c_h_create2_d_circle_center_point_8h" startline="27">_rad</references>
+      </memberdef>
+      <memberdef kind="function" id="class_post_1_1_s_k_e_t_c_h_create2_d_circle_center_point_1a8a23bf3543170f9b80656d6fe84896d3" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void Post::SKETCHCreate2DCircleCenterPoint::GetInfo</definition>
+        <argsstring>()</argsstring>
+        <name>GetInfo</name>
+        <reimplements refid="class_post_1_1_s_k_e_t_c_h_item_1a0f78eab80c6b5b6e0c9117ae130c4990">GetInfo</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/PostManager/ref/SKETCHCreate2DCircleCenterPoint.h" line="19" column="1" bodyfile="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/PostManager/ref/SKETCHCreate2DCircleCenterPoint.cpp" bodystart="14" bodyend="26"/>
+        <references refid="class_post_1_1_s_k_e_t_c_h_create2_d_circle_center_point_1acb436215dbe5a7b159454854a1319707" compoundref="_s_k_e_t_c_h_create2_d_circle_center_point_8h" startline="26">_centerPoint</references>
+        <references refid="class_post_1_1_s_k_e_t_c_h_item_1a6b886d0c62b1c66218f4848d23346a0b" compoundref="_s_k_e_t_c_h_item_8h" startline="21">Post::SKETCHItem::_pFSketch</references>
+        <references refid="class_post_1_1_s_k_e_t_c_h_create2_d_circle_center_point_1a64cb15d50b926063688b24557a3aadb4" compoundref="_s_k_e_t_c_h_create2_d_circle_center_point_8h" startline="27">_rad</references>
+        <references refid="class_post_1_1_c_a_t_i_a_reference_manager_1a7136483a68c4864c1ecdffe3b842f030" compoundref="_c_a_t_i_a_reference_manager_8cpp" startline="18" endline="42">Post::CATIAReferenceManager::AddNewEntity</references>
+        <references refid="_post_manager_2ref_2_part_8cpp_1a7a8829f663f72e520593688e551c372e" compoundref="_post_manager_2_stdafx_8cpp" startline="10">ExternMode</references>
+        <references refid="namespace_post_1a757521acb19b64cd9a29879d6c5a7d5f" compoundref="_c_a_t_i_apost___d_l_l_8cpp" startline="32">Post::g_pRefManager</references>
+        <references refid="class_post_1_1_feature_1a252ade4e8188c192beaf03a8abbdca65" compoundref="_post_manager_2ref_2_feature_8h" startline="18" endline="18">Post::Feature::GetTransCADFeature</references>
+        <references refid="class_post_1_1_s_k_e_t_c_h_item_1aa0f68d0863dd30c3c116d4271bddd3a2" compoundref="_s_k_e_t_c_h_item_8h" startline="14" endline="14">Post::SKETCHItem::GetTransCADGeometryItem</references>
+        <references refid="class_post_1_1_s_k_e_t_c_h_create2_d_circle_center_point_1a9c7b38e49856755bfb78260b906a0eb6" compoundref="_s_k_e_t_c_h_create2_d_circle_center_point_8h" startline="13" endline="13">SetCenterPoint</references>
+        <references refid="class_post_1_1_s_k_e_t_c_h_create2_d_circle_center_point_1a182944825e44a4086427028b6450b653" compoundref="_s_k_e_t_c_h_create2_d_circle_center_point_8h" startline="14" endline="14">SetRadius</references>
+        <references refid="class_post_1_1_s_k_e_t_c_h_create2_d_circle_center_point_1ad950361dbbe8b49858b0c562eab2a2d3" compoundref="_s_k_e_t_c_h_create2_d_circle_center_point_8h" startline="23">TransCADName</references>
+      </memberdef>
+      <memberdef kind="function" id="class_post_1_1_s_k_e_t_c_h_create2_d_circle_center_point_1a6a4387c56c3b7d0f2e28441701aa16c5" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void Post::SKETCHCreate2DCircleCenterPoint::ToCATIA</definition>
+        <argsstring>()</argsstring>
+        <name>ToCATIA</name>
+        <reimplements refid="class_post_1_1_s_k_e_t_c_h_item_1a968893b49cba397d8db6c151c991e726">ToCATIA</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/PostManager/ref/SKETCHCreate2DCircleCenterPoint.h" line="20" column="1" bodyfile="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/PostManager/ref/SKETCHCreate2DCircleCenterPoint.cpp" bodystart="28" bodyend="40"/>
+        <references refid="class_post_1_1_s_k_e_t_c_h_create2_d_circle_center_point_1acb436215dbe5a7b159454854a1319707" compoundref="_s_k_e_t_c_h_create2_d_circle_center_point_8h" startline="26">_centerPoint</references>
+        <references refid="class_post_1_1_s_k_e_t_c_h_item_1a6b886d0c62b1c66218f4848d23346a0b" compoundref="_s_k_e_t_c_h_item_8h" startline="21">Post::SKETCHItem::_pFSketch</references>
+        <references refid="class_post_1_1_s_k_e_t_c_h_create2_d_circle_center_point_1a64cb15d50b926063688b24557a3aadb4" compoundref="_s_k_e_t_c_h_create2_d_circle_center_point_8h" startline="27">_rad</references>
+        <references refid="class_post_1_1_c_a_t_i_a_reference_manager_1a7136483a68c4864c1ecdffe3b842f030" compoundref="_c_a_t_i_a_reference_manager_8cpp" startline="18" endline="42">Post::CATIAReferenceManager::AddNewEntity</references>
+        <references refid="_c_a_t_i_apost___d_l_l_8cpp_1a019d2786df3a9bf26d2731fe80b2fc66" compoundref="_c_a_t_i_apost___d_l_l_8cpp" startline="25">circle_index</references>
+        <references refid="namespace_post_1a757521acb19b64cd9a29879d6c5a7d5f" compoundref="_c_a_t_i_apost___d_l_l_8cpp" startline="32">Post::g_pRefManager</references>
+        <references refid="class_post_1_1_s_k_e_t_c_h_item_1a457dc0a741f123c076fa9bd89bee7300" compoundref="_s_k_e_t_c_h_item_8h" startline="12" endline="12">Post::SKETCHItem::GetFeatureSketch</references>
+        <references refid="class_post_1_1_s_k_e_t_c_h_item_1aa5d406ee269bc731c37495f91d6cd8cc" compoundref="_s_k_e_t_c_h_item_8h" startline="13" endline="13">Post::SKETCHItem::GetSketchItemName</references>
+        <references refid="class_post_1_1_feature_1a252ade4e8188c192beaf03a8abbdca65" compoundref="_post_manager_2ref_2_feature_8h" startline="18" endline="18">Post::Feature::GetTransCADFeature</references>
+        <references refid="_c_a_t_i_apost___d_l_l_8cpp_1a0dbf0a49be0c3f6f56054c0efbb53c31" compoundref="_c_a_t_i_apost___d_l_l_8cpp" startline="26">sktch</references>
+        <references refid="class_post_1_1_s_k_e_t_c_h_create2_d_circle_center_point_1ad950361dbbe8b49858b0c562eab2a2d3" compoundref="_s_k_e_t_c_h_create2_d_circle_center_point_8h" startline="23">TransCADName</references>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1195">
+        <label>Post::SKETCHItem</label>
+        <link refid="class_post_1_1_s_k_e_t_c_h_item"/>
+      </node>
+      <node id="1194">
+        <label>Post::SKETCHCreate2DCircleCenterPoint</label>
+        <link refid="class_post_1_1_s_k_e_t_c_h_create2_d_circle_center_point"/>
+        <childnode refid="1195" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1200">
+        <label>Post::Part</label>
+        <link refid="class_post_1_1_part"/>
+        <childnode refid="1201" relation="usage">
+          <edgelabel>_featureList</edgelabel>
+        </childnode>
+        <childnode refid="1202" relation="usage">
+          <edgelabel>_strPartName</edgelabel>
+        </childnode>
+      </node>
+      <node id="1199">
+        <label>Post::Feature</label>
+        <link refid="class_post_1_1_feature"/>
+        <childnode refid="1200" relation="usage">
+          <edgelabel>_pPart</edgelabel>
+        </childnode>
+        <childnode refid="1202" relation="usage">
+          <edgelabel>_strName</edgelabel>
+        </childnode>
+      </node>
+      <node id="1198">
+        <label>Post::FSketch</label>
+        <link refid="class_post_1_1_f_sketch"/>
+        <childnode refid="1199" relation="public-inheritance">
+        </childnode>
+        <childnode refid="1204" relation="usage">
+          <edgelabel>sInfo</edgelabel>
+        </childnode>
+        <childnode refid="1202" relation="usage">
+          <edgelabel>_refName</edgelabel>
+        </childnode>
+        <childnode refid="1205" relation="usage">
+          <edgelabel>_sketchItemList</edgelabel>
+        </childnode>
+      </node>
+      <node id="1206">
+        <label>Post::Vector3D</label>
+        <link refid="class_post_1_1_vector3_d"/>
+      </node>
+      <node id="1197">
+        <label>Post::SKETCHItem</label>
+        <link refid="class_post_1_1_s_k_e_t_c_h_item"/>
+        <childnode refid="1198" relation="usage">
+          <edgelabel>_pFSketch</edgelabel>
+        </childnode>
+        <childnode refid="1202" relation="usage">
+          <edgelabel>_strName</edgelabel>
+        </childnode>
+      </node>
+      <node id="1196">
+        <label>Post::SKETCHCreate2DCircleCenterPoint</label>
+        <link refid="class_post_1_1_s_k_e_t_c_h_create2_d_circle_center_point"/>
+        <childnode refid="1197" relation="public-inheritance">
+        </childnode>
+        <childnode refid="1206" relation="usage">
+          <edgelabel>_centerPoint</edgelabel>
+        </childnode>
+        <childnode refid="1202" relation="usage">
+          <edgelabel>TransCADName</edgelabel>
+        </childnode>
+      </node>
+      <node id="1203">
+        <label>std::basic_string&lt; char &gt;</label>
+      </node>
+      <node id="1204">
+        <label>Post::_sketchInfo</label>
+        <link refid="struct_post_1_1__sketch_info"/>
+        <childnode refid="1202" relation="usage">
+          <edgelabel>sketch_name</edgelabel>
+          <edgelabel>sketch_ref</edgelabel>
+        </childnode>
+      </node>
+      <node id="1205">
+        <label>std::vector&lt; Post::SKETCHItem * &gt;</label>
+        <childnode refid="1197" relation="usage">
+          <edgelabel>elements</edgelabel>
+        </childnode>
+      </node>
+      <node id="1201">
+        <label>std::vector&lt; Post::Feature * &gt;</label>
+        <childnode refid="1199" relation="usage">
+          <edgelabel>elements</edgelabel>
+        </childnode>
+      </node>
+      <node id="1202">
+        <label>std::string</label>
+        <childnode refid="1203" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/PostManager/ref/SKETCHCreate2DCircleCenterPoint.h" line="8" column="1" bodyfile="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/PostManager/ref/SKETCHCreate2DCircleCenterPoint.h" bodystart="6" bodyend="28"/>
+    <listofallmembers>
+      <member refid="class_post_1_1_s_k_e_t_c_h_create2_d_circle_center_point_1acb436215dbe5a7b159454854a1319707" prot="private" virt="non-virtual"><scope>Post::SKETCHCreate2DCircleCenterPoint</scope><name>_centerPoint</name></member>
+      <member refid="class_post_1_1_s_k_e_t_c_h_item_1ae20db5278e833c6122e1602e918e3636" prot="protected" virt="non-virtual"><scope>Post::SKETCHCreate2DCircleCenterPoint</scope><name>_nIndex</name></member>
+      <member refid="class_post_1_1_s_k_e_t_c_h_item_1a6b886d0c62b1c66218f4848d23346a0b" prot="protected" virt="non-virtual"><scope>Post::SKETCHCreate2DCircleCenterPoint</scope><name>_pFSketch</name></member>
+      <member refid="class_post_1_1_s_k_e_t_c_h_create2_d_circle_center_point_1a64cb15d50b926063688b24557a3aadb4" prot="private" virt="non-virtual"><scope>Post::SKETCHCreate2DCircleCenterPoint</scope><name>_rad</name></member>
+      <member refid="class_post_1_1_s_k_e_t_c_h_item_1aa0fc0c40bede3b4bd4e03236169b34ba" prot="protected" virt="non-virtual"><scope>Post::SKETCHCreate2DCircleCenterPoint</scope><name>_spItem</name></member>
+      <member refid="class_post_1_1_s_k_e_t_c_h_item_1a3db0bd68d86246112e1cd8516eff9521" prot="protected" virt="non-virtual"><scope>Post::SKETCHCreate2DCircleCenterPoint</scope><name>_strName</name></member>
+      <member refid="class_post_1_1_s_k_e_t_c_h_create2_d_circle_center_point_1adba551ec5e72e16df6107a9cde95358c" prot="public" virt="non-virtual"><scope>Post::SKETCHCreate2DCircleCenterPoint</scope><name>GetCenterPoint</name></member>
+      <member refid="class_post_1_1_s_k_e_t_c_h_item_1a457dc0a741f123c076fa9bd89bee7300" prot="public" virt="non-virtual"><scope>Post::SKETCHCreate2DCircleCenterPoint</scope><name>GetFeatureSketch</name></member>
+      <member refid="class_post_1_1_s_k_e_t_c_h_create2_d_circle_center_point_1a8a23bf3543170f9b80656d6fe84896d3" prot="public" virt="virtual"><scope>Post::SKETCHCreate2DCircleCenterPoint</scope><name>GetInfo</name></member>
+      <member refid="class_post_1_1_s_k_e_t_c_h_create2_d_circle_center_point_1a06217b1711919254fec65e85fcbd4880" prot="public" virt="non-virtual"><scope>Post::SKETCHCreate2DCircleCenterPoint</scope><name>GetRadius</name></member>
+      <member refid="class_post_1_1_s_k_e_t_c_h_item_1aa5d406ee269bc731c37495f91d6cd8cc" prot="public" virt="non-virtual"><scope>Post::SKETCHCreate2DCircleCenterPoint</scope><name>GetSketchItemName</name></member>
+      <member refid="class_post_1_1_s_k_e_t_c_h_item_1aa0f68d0863dd30c3c116d4271bddd3a2" prot="public" virt="non-virtual"><scope>Post::SKETCHCreate2DCircleCenterPoint</scope><name>GetTransCADGeometryItem</name></member>
+      <member refid="class_post_1_1_s_k_e_t_c_h_item_1a199a887392ed5fc1e156a1a8772e949b" prot="public" virt="non-virtual"><scope>Post::SKETCHCreate2DCircleCenterPoint</scope><name>GetType</name></member>
+      <member refid="class_post_1_1_s_k_e_t_c_h_create2_d_circle_center_point_1a9c7b38e49856755bfb78260b906a0eb6" prot="public" virt="non-virtual"><scope>Post::SKETCHCreate2DCircleCenterPoint</scope><name>SetCenterPoint</name></member>
+      <member refid="class_post_1_1_s_k_e_t_c_h_create2_d_circle_center_point_1a182944825e44a4086427028b6450b653" prot="public" virt="non-virtual"><scope>Post::SKETCHCreate2DCircleCenterPoint</scope><name>SetRadius</name></member>
+      <member refid="class_post_1_1_s_k_e_t_c_h_create2_d_circle_center_point_1a32f86dcdc528ce8505cacb99a4c4fb72" prot="public" virt="non-virtual"><scope>Post::SKETCHCreate2DCircleCenterPoint</scope><name>SKETCHCreate2DCircleCenterPoint</name></member>
+      <member refid="class_post_1_1_s_k_e_t_c_h_item_1a2045a90aa8118586c5122ca3c88d2362" prot="public" virt="non-virtual"><scope>Post::SKETCHCreate2DCircleCenterPoint</scope><name>SKETCHItem</name></member>
+      <member refid="class_post_1_1_s_k_e_t_c_h_create2_d_circle_center_point_1a6a4387c56c3b7d0f2e28441701aa16c5" prot="public" virt="virtual"><scope>Post::SKETCHCreate2DCircleCenterPoint</scope><name>ToCATIA</name></member>
+      <member refid="class_post_1_1_s_k_e_t_c_h_create2_d_circle_center_point_1ad950361dbbe8b49858b0c562eab2a2d3" prot="public" virt="non-virtual"><scope>Post::SKETCHCreate2DCircleCenterPoint</scope><name>TransCADName</name></member>
+      <member refid="class_post_1_1_s_k_e_t_c_h_create2_d_circle_center_point_1ab64bc91fd44d53a4393a449dc4dc9d08" prot="public" virt="virtual"><scope>Post::SKETCHCreate2DCircleCenterPoint</scope><name>~SKETCHCreate2DCircleCenterPoint</name></member>
+      <member refid="class_post_1_1_s_k_e_t_c_h_item_1a842c119ebafee7a66717bcb8a585754e" prot="public" virt="non-virtual"><scope>Post::SKETCHCreate2DCircleCenterPoint</scope><name>~SKETCHItem</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

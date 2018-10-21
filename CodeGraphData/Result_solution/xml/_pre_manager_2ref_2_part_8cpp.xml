@@ -1,0 +1,713 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="_pre_manager_2ref_2_part_8cpp" kind="file">
+    <compoundname>Part.cpp</compoundname>
+    <includes local="yes">stdafx.h</includes>
+    <includes refid="_pre_manager_2ref_2_part_8h" local="yes">Part.h</includes>
+    <includes refid="_pre_manager_2ref_2_feature_8h" local="yes">Feature.h</includes>
+    <includes refid="_pre_manager_2ref_2_f_sketch_8h" local="yes">FSketch.h</includes>
+    <includes refid="_feature_s_o_l_i_d_create_extrude_8h" local="yes">FeatureSOLIDCreateExtrude.h</includes>
+    <includes refid="_feature_s_o_l_i_d_create_sweep_8h" local="yes">FeatureSOLIDCreateSweep.h</includes>
+    <includes refid="_feature_s_o_l_i_d_create_revolve_8h" local="yes">FeatureSOLIDCreateRevolve.h</includes>
+    <includes refid="_pre_manager_2ref_2_feature_s_o_l_i_d_create_fillet_constant_8h" local="yes">FeatureSOLIDCreateFilletConstant.h</includes>
+    <includes refid="_pre_manager_2ref_2_feature_s_o_l_i_d_create_chamfer_8h" local="yes">FeatureSOLIDCreateChamfer.h</includes>
+    <includes refid="_pre_manager_2ref_2_feature_s_o_l_i_d_create_pattern_rectangular_8h" local="yes">FeatureSOLIDCreatePatternRectangular.h</includes>
+    <includes refid="_pre_manager_2ref_2_feature_s_o_l_i_d_create_pattern_circular_8h" local="yes">FeatureSOLIDCreatePatternCircular.h</includes>
+    <includes refid="_feature_s_o_l_i_d_create_hole_8h" local="yes">FeatureSOLIDCreateHole.h</includes>
+    <includes refid="_pre_manager_2ref_2_f_datum_plane_offset_8h" local="yes">FDatumPlaneOffset.h</includes>
+    <includes refid="_reference_entity_8h" local="yes">ReferenceEntity.h</includes>
+    <includes refid="_attribute_item_8h" local="yes">AttributeItem.h</includes>
+    <includes refid="_att_angle_8h" local="yes">AttAngle.h</includes>
+    <includes refid="_att_length_8h" local="yes">AttLength.h</includes>
+    <includes refid="_att_limit_8h" local="yes">AttLimit.h</includes>
+    <includes refid="_att_parameter_8h" local="yes">AttParameter.h</includes>
+    <includes refid="_att_angular_repartation_8h" local="yes">AttAngularRepartation.h</includes>
+    <includes refid="_att_linear_repartation_8h" local="yes">AttLinearRepartation.h</includes>
+    <includes refid="_att_int_param_8h" local="yes">AttIntParam.h</includes>
+    <incdepgraph>
+      <node id="2179">
+        <label>FDatumPlaneOffset.h</label>
+        <link refid="_pre_manager_2ref_2_f_datum_plane_offset_8h"/>
+        <childnode refid="2169" relation="include">
+        </childnode>
+      </node>
+      <node id="2152">
+        <label>stdafx.h</label>
+      </node>
+      <node id="2168">
+        <label>strstream</label>
+      </node>
+      <node id="2185">
+        <label>AttParameter.h</label>
+        <link refid="_att_parameter_8h"/>
+        <childnode refid="2181" relation="include">
+        </childnode>
+      </node>
+      <node id="2182">
+        <label>AttAngle.h</label>
+        <link refid="_att_angle_8h"/>
+        <childnode refid="2181" relation="include">
+        </childnode>
+      </node>
+      <node id="2174">
+        <label>FeatureSOLIDCreateFilletConstant.h</label>
+        <link refid="_pre_manager_2ref_2_feature_s_o_l_i_d_create_fillet_constant_8h"/>
+        <childnode refid="2169" relation="include">
+        </childnode>
+      </node>
+      <node id="2169">
+        <label>Feature.h</label>
+        <link refid="_pre_manager_2ref_2_feature_8h"/>
+        <childnode refid="2153" relation="include">
+        </childnode>
+      </node>
+      <node id="2162">
+        <label>cmath</label>
+      </node>
+      <node id="2178">
+        <label>FeatureSOLIDCreateHole.h</label>
+        <link refid="_feature_s_o_l_i_d_create_hole_8h"/>
+        <childnode refid="2169" relation="include">
+        </childnode>
+      </node>
+      <node id="2175">
+        <label>FeatureSOLIDCreateChamfer.h</label>
+        <link refid="_pre_manager_2ref_2_feature_s_o_l_i_d_create_chamfer_8h"/>
+        <childnode refid="2169" relation="include">
+        </childnode>
+      </node>
+      <node id="2157">
+        <label>string</label>
+      </node>
+      <node id="2166">
+        <label>comdef.h</label>
+      </node>
+      <node id="2165">
+        <label>comutil.h</label>
+      </node>
+      <node id="2180">
+        <label>ReferenceEntity.h</label>
+        <link refid="_reference_entity_8h"/>
+        <childnode refid="2153" relation="include">
+        </childnode>
+        <childnode refid="2170" relation="include">
+        </childnode>
+      </node>
+      <node id="2170">
+        <label>FSketch.h</label>
+        <link refid="_pre_manager_2ref_2_f_sketch_8h"/>
+        <childnode refid="2169" relation="include">
+        </childnode>
+      </node>
+      <node id="2160">
+        <label>fstream</label>
+      </node>
+      <node id="2186">
+        <label>AttAngularRepartation.h</label>
+        <link refid="_att_angular_repartation_8h"/>
+        <childnode refid="2181" relation="include">
+        </childnode>
+      </node>
+      <node id="2177">
+        <label>FeatureSOLIDCreatePatternCircular.h</label>
+        <link refid="_pre_manager_2ref_2_feature_s_o_l_i_d_create_pattern_circular_8h"/>
+        <childnode refid="2169" relation="include">
+        </childnode>
+      </node>
+      <node id="2188">
+        <label>AttIntParam.h</label>
+        <link refid="_att_int_param_8h"/>
+        <childnode refid="2181" relation="include">
+        </childnode>
+      </node>
+      <node id="2183">
+        <label>AttLength.h</label>
+        <link refid="_att_length_8h"/>
+        <childnode refid="2181" relation="include">
+        </childnode>
+      </node>
+      <node id="2158">
+        <label>string.h</label>
+      </node>
+      <node id="2154">
+        <label>CATIApre_DLL.h</label>
+        <link refid="_c_a_t_i_apre___d_l_l_8h"/>
+        <childnode refid="2155" relation="include">
+        </childnode>
+        <childnode refid="2156" relation="include">
+        </childnode>
+        <childnode refid="2157" relation="include">
+        </childnode>
+        <childnode refid="2158" relation="include">
+        </childnode>
+        <childnode refid="2159" relation="include">
+        </childnode>
+        <childnode refid="2160" relation="include">
+        </childnode>
+        <childnode refid="2161" relation="include">
+        </childnode>
+        <childnode refid="2162" relation="include">
+        </childnode>
+        <childnode refid="2163" relation="include">
+        </childnode>
+        <childnode refid="2164" relation="include">
+        </childnode>
+        <childnode refid="2165" relation="include">
+        </childnode>
+        <childnode refid="2166" relation="include">
+        </childnode>
+        <childnode refid="2167" relation="include">
+        </childnode>
+      </node>
+      <node id="2181">
+        <label>AttributeItem.h</label>
+        <link refid="_attribute_item_8h"/>
+        <childnode refid="2153" relation="include">
+        </childnode>
+        <childnode refid="2169" relation="include">
+        </childnode>
+      </node>
+      <node id="2176">
+        <label>FeatureSOLIDCreatePatternRectangular.h</label>
+        <link refid="_pre_manager_2ref_2_feature_s_o_l_i_d_create_pattern_rectangular_8h"/>
+        <childnode refid="2169" relation="include">
+        </childnode>
+      </node>
+      <node id="2173">
+        <label>FeatureSOLIDCreateRevolve.h</label>
+        <link refid="_feature_s_o_l_i_d_create_revolve_8h"/>
+        <childnode refid="2169" relation="include">
+        </childnode>
+      </node>
+      <node id="2161">
+        <label>vector</label>
+      </node>
+      <node id="2164">
+        <label>sstream</label>
+      </node>
+      <node id="2163">
+        <label>math.h</label>
+      </node>
+      <node id="2159">
+        <label>iostream</label>
+      </node>
+      <node id="2172">
+        <label>FeatureSOLIDCreateSweep.h</label>
+        <link refid="_feature_s_o_l_i_d_create_sweep_8h"/>
+        <childnode refid="2169" relation="include">
+        </childnode>
+      </node>
+      <node id="2156">
+        <label>tchar.h</label>
+      </node>
+      <node id="2167">
+        <label>Definition.h</label>
+        <link refid="_pre_manager_2ref_2_definition_8h"/>
+        <childnode refid="2168" relation="include">
+        </childnode>
+        <childnode refid="2159" relation="include">
+        </childnode>
+        <childnode refid="2163" relation="include">
+        </childnode>
+      </node>
+      <node id="2151">
+        <label>PreManager/ref/Part.cpp</label>
+        <link refid="PreManager/ref/Part.cpp"/>
+        <childnode refid="2152" relation="include">
+        </childnode>
+        <childnode refid="2153" relation="include">
+        </childnode>
+        <childnode refid="2169" relation="include">
+        </childnode>
+        <childnode refid="2170" relation="include">
+        </childnode>
+        <childnode refid="2171" relation="include">
+        </childnode>
+        <childnode refid="2172" relation="include">
+        </childnode>
+        <childnode refid="2173" relation="include">
+        </childnode>
+        <childnode refid="2174" relation="include">
+        </childnode>
+        <childnode refid="2175" relation="include">
+        </childnode>
+        <childnode refid="2176" relation="include">
+        </childnode>
+        <childnode refid="2177" relation="include">
+        </childnode>
+        <childnode refid="2178" relation="include">
+        </childnode>
+        <childnode refid="2179" relation="include">
+        </childnode>
+        <childnode refid="2180" relation="include">
+        </childnode>
+        <childnode refid="2181" relation="include">
+        </childnode>
+        <childnode refid="2182" relation="include">
+        </childnode>
+        <childnode refid="2183" relation="include">
+        </childnode>
+        <childnode refid="2184" relation="include">
+        </childnode>
+        <childnode refid="2185" relation="include">
+        </childnode>
+        <childnode refid="2186" relation="include">
+        </childnode>
+        <childnode refid="2187" relation="include">
+        </childnode>
+        <childnode refid="2188" relation="include">
+        </childnode>
+      </node>
+      <node id="2153">
+        <label>Part.h</label>
+        <link refid="_pre_manager_2ref_2_part_8h"/>
+        <childnode refid="2154" relation="include">
+        </childnode>
+      </node>
+      <node id="2184">
+        <label>AttLimit.h</label>
+        <link refid="_att_limit_8h"/>
+        <childnode refid="2181" relation="include">
+        </childnode>
+      </node>
+      <node id="2171">
+        <label>FeatureSOLIDCreateExtrude.h</label>
+        <link refid="_feature_s_o_l_i_d_create_extrude_8h"/>
+        <childnode refid="2169" relation="include">
+        </childnode>
+      </node>
+      <node id="2155">
+        <label>stdio.h</label>
+      </node>
+      <node id="2187">
+        <label>AttLinearRepartation.h</label>
+        <link refid="_att_linear_repartation_8h"/>
+        <childnode refid="2181" relation="include">
+        </childnode>
+      </node>
+    </incdepgraph>
+    <innernamespace refid="namespace_pre">Pre</innernamespace>
+      <sectiondef kind="var">
+      <memberdef kind="variable" id="_pre_manager_2ref_2_part_8cpp_1a74cbb141b07d303f2487f95f2f03b7bf" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int _planeDatumNumber</definition>
+        <argsstring></argsstring>
+        <name>_planeDatumNumber</name>
+        <initializer>= 0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/PreManager/ref/Part.cpp" line="27" column="1" bodyfile="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/PreManager/ref/Part.cpp" bodystart="27" bodyend="-1"/>
+        <referencedby refid="class_pre_1_1_part_1a8aec8753beef663387b06d892963a6d6" compoundref="_pre_manager_2ref_2_part_8cpp" startline="147" endline="191">Pre::Part::CreateFeature</referencedby>
+        <referencedby refid="class_pre_1_1_part_1a2eae23bb6af40588fa085f0cca5fd95f" compoundref="_pre_manager_2ref_2_part_8cpp" startline="101" endline="115">Pre::Part::~Part</referencedby>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="preprocessor">#include<sp/>&quot;stdafx.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="_pre_manager_2ref_2_part_8h" kindref="compound">Part.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="_pre_manager_2ref_2_feature_8h" kindref="compound">Feature.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="_pre_manager_2ref_2_f_sketch_8h" kindref="compound">FSketch.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="_feature_s_o_l_i_d_create_extrude_8h" kindref="compound">FeatureSOLIDCreateExtrude.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="_feature_s_o_l_i_d_create_sweep_8h" kindref="compound">FeatureSOLIDCreateSweep.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="_feature_s_o_l_i_d_create_revolve_8h" kindref="compound">FeatureSOLIDCreateRevolve.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="_pre_manager_2ref_2_feature_s_o_l_i_d_create_fillet_constant_8h" kindref="compound">FeatureSOLIDCreateFilletConstant.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="10"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="_pre_manager_2ref_2_feature_s_o_l_i_d_create_chamfer_8h" kindref="compound">FeatureSOLIDCreateChamfer.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="11"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="_pre_manager_2ref_2_feature_s_o_l_i_d_create_pattern_rectangular_8h" kindref="compound">FeatureSOLIDCreatePatternRectangular.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="12"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="_pre_manager_2ref_2_feature_s_o_l_i_d_create_pattern_circular_8h" kindref="compound">FeatureSOLIDCreatePatternCircular.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="13"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="_feature_s_o_l_i_d_create_hole_8h" kindref="compound">FeatureSOLIDCreateHole.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="14"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="_pre_manager_2ref_2_f_datum_plane_offset_8h" kindref="compound">FDatumPlaneOffset.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="15"><highlight class="normal"></highlight></codeline>
+<codeline lineno="16"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="_reference_entity_8h" kindref="compound">ReferenceEntity.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="17"><highlight class="normal"></highlight></codeline>
+<codeline lineno="18"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="_attribute_item_8h" kindref="compound">AttributeItem.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="19"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="_att_angle_8h" kindref="compound">AttAngle.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="20"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="_att_length_8h" kindref="compound">AttLength.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="21"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="_att_limit_8h" kindref="compound">AttLimit.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="22"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="_att_parameter_8h" kindref="compound">AttParameter.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="23"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="_att_angular_repartation_8h" kindref="compound">AttAngularRepartation.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="24"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="_att_linear_repartation_8h" kindref="compound">AttLinearRepartation.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="25"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="_att_int_param_8h" kindref="compound">AttIntParam.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="26"><highlight class="normal"></highlight></codeline>
+<codeline lineno="27" refid="_pre_manager_2ref_2_part_8cpp_1a74cbb141b07d303f2487f95f2f03b7bf" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="_pre_manager_2ref_2_part_8cpp_1a74cbb141b07d303f2487f95f2f03b7bf" kindref="member">_planeDatumNumber</ref><sp/>=<sp/>0;</highlight></codeline>
+<codeline lineno="28"><highlight class="normal"></highlight></codeline>
+<codeline lineno="29"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal">Pre<sp/>{</highlight></codeline>
+<codeline lineno="30"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="class_pre_1_1_part_1a9c14c62f01c70ea9d3e58718dd64c809" kindref="member">Part::Part</ref>(</highlight><highlight class="keywordtype">string</highlight><highlight class="normal"><sp/>fileName)</highlight></codeline>
+<codeline lineno="31"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="32"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_pre_1_1_part_1a499e2522dc016db3f73a8754cb36482f" kindref="member">_spDocuments</ref><sp/>=<sp/><ref refid="namespace_pre_1ab590816a169f99c588976c3b9a269fbd" kindref="member">g_spApplication</ref>-&gt;Documents;</highlight></codeline>
+<codeline lineno="33"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_pre_1_1_part_1a6ad325717234a2f25edbaa0dcdff7a5b" kindref="member">_spDocument</ref><sp/>=<sp/><ref refid="class_pre_1_1_part_1a499e2522dc016db3f73a8754cb36482f" kindref="member">_spDocuments</ref>-&gt;AddPartDocument();</highlight></codeline>
+<codeline lineno="34"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_pre_1_1_part_1abe7d81bc84a9423e1d09c27e36125b64" kindref="member">_spPart</ref><sp/>=<sp/><ref refid="class_pre_1_1_part_1a6ad325717234a2f25edbaa0dcdff7a5b" kindref="member">_spDocument</ref>-&gt;Part;<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>Set<sp/>TransCAD<sp/>Part<sp/>Ptr</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="35"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_pre_1_1_part_1a0fa084e40ad2822e8214ba40b4751825" kindref="member">_spFeatures</ref><sp/>=<sp/><ref refid="class_pre_1_1_part_1abe7d81bc84a9423e1d09c27e36125b64" kindref="member">_spPart</ref>-&gt;Features;<sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>Set<sp/>TransCAD<sp/>Features<sp/>Ptr</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="36"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_pre_1_1_part_1a0769b6a8dd2610701be43da838e020e3" kindref="member">_filePath</ref><sp/>=<sp/>fileName;</highlight></codeline>
+<codeline lineno="37"><highlight class="normal"></highlight></codeline>
+<codeline lineno="38"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>start<sp/>=<sp/>fileName.find_last_of(</highlight><highlight class="stringliteral">&quot;\\&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="39"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>end<sp/>=<sp/>fileName.find(</highlight><highlight class="stringliteral">&quot;.CATScript&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="40"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>fileName.erase(end);</highlight></codeline>
+<codeline lineno="41"><highlight class="normal"></highlight></codeline>
+<codeline lineno="42"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_pre_1_1_part_1aa35dc7c5e0f2ad53f855385e452ba3c0" kindref="member">_fileName</ref><sp/>=<sp/>fileName.substr(start<sp/>+<sp/>1);</highlight></codeline>
+<codeline lineno="43"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_pre_1_1_part_1a22ed1b89777887f99492183654b3df3a" kindref="member">_partDocNum</ref><sp/>=<sp/><ref refid="class_pre_1_1_part_1a499e2522dc016db3f73a8754cb36482f" kindref="member">_spDocuments</ref>-&gt;GetCount();</highlight></codeline>
+<codeline lineno="44"><highlight class="normal"></highlight></codeline>
+<codeline lineno="45"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>_bstr_t<sp/>obj(<ref refid="class_pre_1_1_part_1aa35dc7c5e0f2ad53f855385e452ba3c0" kindref="member">_fileName</ref>.c_str());</highlight></codeline>
+<codeline lineno="46"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_pre_1_1_part_1abe7d81bc84a9423e1d09c27e36125b64" kindref="member">_spPart</ref>-&gt;set_Name(obj);</highlight></codeline>
+<codeline lineno="47"><highlight class="normal"></highlight></codeline>
+<codeline lineno="48"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_pre_1_1_part_1ab44f91ae378f3d72eb1bd3f1544c5429" kindref="member">fin</ref>.open(<ref refid="class_pre_1_1_part_1a0769b6a8dd2610701be43da838e020e3" kindref="member">_filePath</ref>,<sp/>ios::in);<sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>해당<sp/>경로의<sp/>CATIA<sp/>매크로<sp/>파일<sp/>읽기</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="49"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="50"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="class_pre_1_1_part_1a9c14c62f01c70ea9d3e58718dd64c809" kindref="member">Part::Part</ref>(</highlight><highlight class="keywordtype">string</highlight><highlight class="normal"><sp/>fileName,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>partNum)</highlight></codeline>
+<codeline lineno="51"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="52"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(partNum<sp/>!=<sp/>-1)<sp/>{</highlight></codeline>
+<codeline lineno="53"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_pre_1_1_part_1a0769b6a8dd2610701be43da838e020e3" kindref="member">_filePath</ref><sp/>=<sp/>fileName;</highlight></codeline>
+<codeline lineno="54"><highlight class="normal"></highlight></codeline>
+<codeline lineno="55"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>start<sp/>=<sp/>fileName.find_last_of(</highlight><highlight class="stringliteral">&quot;\\&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="56"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>end<sp/>=<sp/>fileName.find(</highlight><highlight class="stringliteral">&quot;.CATScript&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="57"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>fileName.erase(end);</highlight></codeline>
+<codeline lineno="58"><highlight class="normal"></highlight></codeline>
+<codeline lineno="59"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_pre_1_1_part_1aa35dc7c5e0f2ad53f855385e452ba3c0" kindref="member">_fileName</ref><sp/>=<sp/>fileName.substr(start<sp/>+<sp/>1);</highlight></codeline>
+<codeline lineno="60"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_pre_1_1_part_1a22ed1b89777887f99492183654b3df3a" kindref="member">_partDocNum</ref><sp/>=<sp/>partNum;</highlight></codeline>
+<codeline lineno="61"><highlight class="normal"></highlight></codeline>
+<codeline lineno="62"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>_bstr_t<sp/>obj(<ref refid="class_pre_1_1_part_1aa35dc7c5e0f2ad53f855385e452ba3c0" kindref="member">_fileName</ref>.c_str());</highlight></codeline>
+<codeline lineno="63"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//_spPart-&gt;set_Name(obj);</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="64"><highlight class="normal"></highlight></codeline>
+<codeline lineno="65"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_pre_1_1_part_1ab44f91ae378f3d72eb1bd3f1544c5429" kindref="member">fin</ref>.open(<ref refid="class_pre_1_1_part_1a0769b6a8dd2610701be43da838e020e3" kindref="member">_filePath</ref>,<sp/>ios::in);<sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>해당<sp/>경로의<sp/>CATIA<sp/>매크로<sp/>파일<sp/>읽기</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="66"><highlight class="normal"></highlight></codeline>
+<codeline lineno="67"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="68"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal"><sp/>{</highlight></codeline>
+<codeline lineno="69"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="70"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="71"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//_spDocuments<sp/>=<sp/>g_spApplication-&gt;Documents;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="72"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//_spDocument<sp/>=<sp/>partdoc;//_spDocuments-&gt;AddPartDocument();</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="73"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//_spPart<sp/>=<sp/>assem_part;<sp/><sp/><sp/><sp/><sp/>//<sp/>Set<sp/>TransCAD<sp/>Part<sp/>Ptr</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="74"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//_spFeatures<sp/>=<sp/>_spPart-&gt;Features;<sp/><sp/>//<sp/>Set<sp/>TransCAD<sp/>Features<sp/>Ptr</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="75"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="76"><highlight class="normal"></highlight></codeline>
+<codeline lineno="77"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="78"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="class_pre_1_1_part_1a9c14c62f01c70ea9d3e58718dd64c809" kindref="member">Part::Part</ref>(</highlight><highlight class="keywordtype">string</highlight><highlight class="normal"><sp/>fileName,<sp/>TransCAD::IPartDocumentPtr<sp/>partdoc)</highlight></codeline>
+<codeline lineno="79"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="80"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//_spDocuments<sp/>=<sp/>g_spApplication-&gt;Documents;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="81"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_pre_1_1_part_1a6ad325717234a2f25edbaa0dcdff7a5b" kindref="member">_spDocument</ref><sp/>=<sp/>partdoc;</highlight><highlight class="comment">//_spDocuments-&gt;AddPartDocument();</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="82"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_pre_1_1_part_1abe7d81bc84a9423e1d09c27e36125b64" kindref="member">_spPart</ref><sp/>=<sp/><ref refid="class_pre_1_1_part_1a6ad325717234a2f25edbaa0dcdff7a5b" kindref="member">_spDocument</ref>-&gt;Part;<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>Set<sp/>TransCAD<sp/>Part<sp/>Ptr</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="83"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_pre_1_1_part_1a0fa084e40ad2822e8214ba40b4751825" kindref="member">_spFeatures</ref><sp/>=<sp/><ref refid="class_pre_1_1_part_1abe7d81bc84a9423e1d09c27e36125b64" kindref="member">_spPart</ref>-&gt;Features;<sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>Set<sp/>TransCAD<sp/>Features<sp/>Ptr</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="84"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_pre_1_1_part_1a0769b6a8dd2610701be43da838e020e3" kindref="member">_filePath</ref><sp/>=<sp/>fileName;</highlight></codeline>
+<codeline lineno="85"><highlight class="normal"></highlight></codeline>
+<codeline lineno="86"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>start<sp/>=<sp/>fileName.find_last_of(</highlight><highlight class="stringliteral">&quot;\\&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="87"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>end<sp/>=<sp/>fileName.find(</highlight><highlight class="stringliteral">&quot;.CATScript&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="88"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>fileName.erase(end);</highlight></codeline>
+<codeline lineno="89"><highlight class="normal"></highlight></codeline>
+<codeline lineno="90"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_pre_1_1_part_1aa35dc7c5e0f2ad53f855385e452ba3c0" kindref="member">_fileName</ref><sp/>=<sp/>fileName.substr(start<sp/>+<sp/>1);</highlight></codeline>
+<codeline lineno="91"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//_partDocNum<sp/>=<sp/>_spDocuments-&gt;GetCount();</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="92"><highlight class="normal"></highlight></codeline>
+<codeline lineno="93"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>_bstr_t<sp/>obj(<ref refid="class_pre_1_1_part_1aa35dc7c5e0f2ad53f855385e452ba3c0" kindref="member">_fileName</ref>.c_str());</highlight></codeline>
+<codeline lineno="94"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_pre_1_1_part_1abe7d81bc84a9423e1d09c27e36125b64" kindref="member">_spPart</ref>-&gt;set_Name(obj);</highlight></codeline>
+<codeline lineno="95"><highlight class="normal"></highlight></codeline>
+<codeline lineno="96"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_pre_1_1_part_1ab44f91ae378f3d72eb1bd3f1544c5429" kindref="member">fin</ref>.open(<ref refid="class_pre_1_1_part_1a0769b6a8dd2610701be43da838e020e3" kindref="member">_filePath</ref>,<sp/>ios::in);<sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>해당<sp/>경로의<sp/>CATIA<sp/>매크로<sp/>파일<sp/>읽기</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="97"><highlight class="normal"></highlight></codeline>
+<codeline lineno="98"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="99"><highlight class="normal"></highlight></codeline>
+<codeline lineno="100"><highlight class="normal"></highlight></codeline>
+<codeline lineno="101" refid="class_pre_1_1_part_1a2eae23bb6af40588fa085f0cca5fd95f" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="class_pre_1_1_part_1a2eae23bb6af40588fa085f0cca5fd95f" kindref="member">Part::~Part</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">)</highlight></codeline>
+<codeline lineno="102"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="103"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_pre_1_1_part_1ab44f91ae378f3d72eb1bd3f1544c5429" kindref="member">fin</ref>.close();</highlight></codeline>
+<codeline lineno="104"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_pre_1_1_part_1a0055215f12e34d304f1ee26c8d61f8f6" kindref="member">Clear</ref>();</highlight></codeline>
+<codeline lineno="105"><highlight class="normal"></highlight></codeline>
+<codeline lineno="106"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="_pre_manager_2ref_2_part_8cpp_1a74cbb141b07d303f2487f95f2f03b7bf" kindref="member">_planeDatumNumber</ref><sp/>=<sp/>0;</highlight></codeline>
+<codeline lineno="107"><highlight class="normal"></highlight></codeline>
+<codeline lineno="108"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>Clear<sp/>TransCAD</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="109"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="namespace_pre_1ab590816a169f99c588976c3b9a269fbd" kindref="member">g_spApplication</ref><sp/>=<sp/>NULL;</highlight></codeline>
+<codeline lineno="110"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_pre_1_1_part_1a499e2522dc016db3f73a8754cb36482f" kindref="member">_spDocuments</ref><sp/>=<sp/>NULL;</highlight></codeline>
+<codeline lineno="111"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_pre_1_1_part_1a6ad325717234a2f25edbaa0dcdff7a5b" kindref="member">_spDocument</ref><sp/>=<sp/>NULL;</highlight></codeline>
+<codeline lineno="112"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_pre_1_1_part_1abe7d81bc84a9423e1d09c27e36125b64" kindref="member">_spPart</ref><sp/>=<sp/>NULL;</highlight></codeline>
+<codeline lineno="113"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_pre_1_1_part_1a0fa084e40ad2822e8214ba40b4751825" kindref="member">_spFeatures</ref><sp/>=<sp/>NULL;</highlight></codeline>
+<codeline lineno="114"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>::CoUninitialize();<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>COM<sp/>Automation<sp/>API<sp/>Uninitialization</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="115"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="116"><highlight class="normal"></highlight></codeline>
+<codeline lineno="117" refid="class_pre_1_1_part_1a0055215f12e34d304f1ee26c8d61f8f6" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_pre_1_1_part_1a0055215f12e34d304f1ee26c8d61f8f6" kindref="member">Part::Clear</ref>()</highlight></codeline>
+<codeline lineno="118"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="119"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>Reference<sp/>리스트<sp/>제거</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="120"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>std::vector&lt;ReferenceEntity<sp/>*&gt;::iterator<sp/>j<sp/>=<sp/><ref refid="class_pre_1_1_part_1a5fb84c9de5fb87a9bfa806a73d6c5ae3" kindref="member">_referenceEntityList</ref>.begin();</highlight></codeline>
+<codeline lineno="121"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">while</highlight><highlight class="normal"><sp/>(j<sp/>!=<sp/><ref refid="class_pre_1_1_part_1a5fb84c9de5fb87a9bfa806a73d6c5ae3" kindref="member">_referenceEntityList</ref>.end())</highlight></codeline>
+<codeline lineno="122"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="123"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">delete</highlight><highlight class="normal"><sp/>*j;</highlight></codeline>
+<codeline lineno="124"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>j++;</highlight></codeline>
+<codeline lineno="125"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="126"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_pre_1_1_part_1a5fb84c9de5fb87a9bfa806a73d6c5ae3" kindref="member">_referenceEntityList</ref>.clear();</highlight></codeline>
+<codeline lineno="127"><highlight class="normal"></highlight></codeline>
+<codeline lineno="128"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>Feature<sp/>리스트<sp/>제거</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="129"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>std::vector&lt;Feature<sp/>*&gt;::iterator<sp/>i<sp/>=<sp/><ref refid="class_pre_1_1_part_1a94b230ce233726adad7d3020f95eb13d" kindref="member">_featureList</ref>.begin();</highlight></codeline>
+<codeline lineno="130"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">while</highlight><highlight class="normal"><sp/>(i<sp/>!=<sp/><ref refid="class_pre_1_1_part_1a94b230ce233726adad7d3020f95eb13d" kindref="member">_featureList</ref>.end())</highlight></codeline>
+<codeline lineno="131"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="132"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">delete</highlight><highlight class="normal"><sp/>*i;</highlight></codeline>
+<codeline lineno="133"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>i++;</highlight></codeline>
+<codeline lineno="134"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="135"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_pre_1_1_part_1a94b230ce233726adad7d3020f95eb13d" kindref="member">_featureList</ref>.clear();</highlight></codeline>
+<codeline lineno="136"><highlight class="normal"></highlight></codeline>
+<codeline lineno="137"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>Attribute<sp/>리스트<sp/>제거</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="138"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>std::vector&lt;AttributeItem<sp/>*&gt;::iterator<sp/>k<sp/>=<sp/><ref refid="class_pre_1_1_part_1a145911d1e6f4484ab3e84eb3d1756798" kindref="member">_attributeItemList</ref>.begin();</highlight></codeline>
+<codeline lineno="139"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">while</highlight><highlight class="normal"><sp/>(k<sp/>!=<sp/><ref refid="class_pre_1_1_part_1a145911d1e6f4484ab3e84eb3d1756798" kindref="member">_attributeItemList</ref>.end())</highlight></codeline>
+<codeline lineno="140"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="141"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">delete</highlight><highlight class="normal"><sp/>*k;</highlight></codeline>
+<codeline lineno="142"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>k++;</highlight></codeline>
+<codeline lineno="143"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="144"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_pre_1_1_part_1a145911d1e6f4484ab3e84eb3d1756798" kindref="member">_attributeItemList</ref>.clear();</highlight></codeline>
+<codeline lineno="145"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="146"><highlight class="normal"></highlight></codeline>
+<codeline lineno="147" refid="class_pre_1_1_part_1a8aec8753beef663387b06d892963a6d6" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_pre_1_1_part_1a8aec8753beef663387b06d892963a6d6" kindref="member">Part::CreateFeature</ref>(</highlight><highlight class="keywordtype">string</highlight><highlight class="normal"><sp/>type,<sp/></highlight><highlight class="keywordtype">string</highlight><highlight class="normal"><sp/>name,<sp/>ifstream<sp/>&amp;is)</highlight></codeline>
+<codeline lineno="148"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="149"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_pre_1_1_feature" kindref="compound">Feature</ref><sp/>*<sp/>pFeature<sp/>=<sp/>0;</highlight></codeline>
+<codeline lineno="150"><highlight class="normal"></highlight></codeline>
+<codeline lineno="151"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(type<sp/>==<sp/></highlight><highlight class="stringliteral">&quot;Sketch&quot;</highlight><highlight class="normal">)<sp/></highlight><highlight class="comment">//Sketch<sp/>:<sp/>0</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="152"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>pFeature<sp/>=<sp/></highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/><ref refid="class_pre_1_1_f_sketch" kindref="compound">FSketch</ref>(</highlight><highlight class="keyword">this</highlight><highlight class="normal">,<sp/>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal">)0,<sp/>name);</highlight></codeline>
+<codeline lineno="153"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(type<sp/>==<sp/></highlight><highlight class="stringliteral">&quot;Pad&quot;</highlight><highlight class="normal">)<sp/></highlight><highlight class="comment">//Pad<sp/>:<sp/>1</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="154"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>pFeature<sp/>=<sp/></highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/><ref refid="class_pre_1_1_feature_s_o_l_i_d_create_extrude" kindref="compound">FeatureSOLIDCreateExtrude</ref>(</highlight><highlight class="keyword">this</highlight><highlight class="normal">,<sp/>1,<sp/>name);</highlight></codeline>
+<codeline lineno="155"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(type<sp/>==<sp/></highlight><highlight class="stringliteral">&quot;Pocket&quot;</highlight><highlight class="normal">)<sp/></highlight><highlight class="comment">//Pocket<sp/>:<sp/>2</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="156"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>pFeature<sp/>=<sp/></highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/><ref refid="class_pre_1_1_feature_s_o_l_i_d_create_extrude" kindref="compound">FeatureSOLIDCreateExtrude</ref>(</highlight><highlight class="keyword">this</highlight><highlight class="normal">,<sp/>2,<sp/>name);</highlight></codeline>
+<codeline lineno="157"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(type<sp/>==<sp/></highlight><highlight class="stringliteral">&quot;ConstRadEdgeFillet&quot;</highlight><highlight class="normal">)<sp/></highlight><highlight class="comment">//EdgeFillet<sp/>:<sp/>3</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="158"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>pFeature<sp/>=<sp/></highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/><ref refid="class_pre_1_1_feature_s_o_l_i_d_create_fillet_constant" kindref="compound">FeatureSOLIDCreateFilletConstant</ref>(</highlight><highlight class="keyword">this</highlight><highlight class="normal">,<sp/>3,<sp/>name);</highlight></codeline>
+<codeline lineno="159"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(type<sp/>==<sp/></highlight><highlight class="stringliteral">&quot;Rib&quot;</highlight><highlight class="normal">)<sp/></highlight><highlight class="comment">//Rib<sp/>:<sp/>4</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="160"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>pFeature<sp/>=<sp/></highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/><ref refid="class_pre_1_1_feature_s_o_l_i_d_create_sweep" kindref="compound">FeatureSOLIDCreateSweep</ref>(</highlight><highlight class="keyword">this</highlight><highlight class="normal">,<sp/>4,<sp/>name);</highlight></codeline>
+<codeline lineno="161"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(type<sp/>==<sp/></highlight><highlight class="stringliteral">&quot;Shaft&quot;</highlight><highlight class="normal">)<sp/></highlight><highlight class="comment">//Shaft<sp/>:<sp/>5</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="162"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>pFeature<sp/>=<sp/></highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/><ref refid="class_pre_1_1_feature_s_o_l_i_d_create_revolve" kindref="compound">FeatureSOLIDCreateRevolve</ref>(</highlight><highlight class="keyword">this</highlight><highlight class="normal">,<sp/>5,<sp/>name);</highlight></codeline>
+<codeline lineno="163"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(type<sp/>==<sp/></highlight><highlight class="stringliteral">&quot;Groove&quot;</highlight><highlight class="normal">)<sp/></highlight><highlight class="comment">//Groove<sp/>:<sp/>6</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="164"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>pFeature<sp/>=<sp/></highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/><ref refid="class_pre_1_1_feature_s_o_l_i_d_create_revolve" kindref="compound">FeatureSOLIDCreateRevolve</ref>(</highlight><highlight class="keyword">this</highlight><highlight class="normal">,<sp/>6,<sp/>name);</highlight></codeline>
+<codeline lineno="165"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(type<sp/>==<sp/></highlight><highlight class="stringliteral">&quot;Chamfer&quot;</highlight><highlight class="normal">)<sp/></highlight><highlight class="comment">//Chamfer<sp/>:<sp/>7</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="166"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>pFeature<sp/>=<sp/></highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/><ref refid="class_pre_1_1_feature_s_o_l_i_d_create_chamfer" kindref="compound">FeatureSOLIDCreateChamfer</ref>(</highlight><highlight class="keyword">this</highlight><highlight class="normal">,<sp/>7,<sp/>name);</highlight></codeline>
+<codeline lineno="167"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(type<sp/>==<sp/></highlight><highlight class="stringliteral">&quot;HybridShapePlaneOffset&quot;</highlight><highlight class="normal">)<sp/></highlight><highlight class="comment">//DatumPlaneOffset<sp/>:<sp/>8</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="168"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="169"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="_pre_manager_2ref_2_part_8cpp_1a74cbb141b07d303f2487f95f2f03b7bf" kindref="member">_planeDatumNumber</ref>++;</highlight></codeline>
+<codeline lineno="170"><highlight class="normal"></highlight></codeline>
+<codeline lineno="171"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>buf[256];</highlight></codeline>
+<codeline lineno="172"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>sprintf_s(buf,<sp/></highlight><highlight class="keyword">sizeof</highlight><highlight class="normal">(buf),<sp/></highlight><highlight class="stringliteral">&quot;Plane.%d&quot;</highlight><highlight class="normal">,<sp/><ref refid="_pre_manager_2ref_2_part_8cpp_1a74cbb141b07d303f2487f95f2f03b7bf" kindref="member">_planeDatumNumber</ref>);</highlight></codeline>
+<codeline lineno="173"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>name<sp/>=<sp/>buf;<sp/></highlight><highlight class="comment">//<sp/>향<sp/>후,<sp/>CATIApost로의<sp/>변환을<sp/>위해서<sp/>CATIA의<sp/>네이밍<sp/>룰을<sp/>따름.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="174"><highlight class="normal"></highlight></codeline>
+<codeline lineno="175"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>pFeature<sp/>=<sp/></highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/><ref refid="class_pre_1_1_f_datum_plane_offset" kindref="compound">FDatumPlaneOffset</ref>(</highlight><highlight class="keyword">this</highlight><highlight class="normal">,<sp/>8,<sp/>name);</highlight></codeline>
+<codeline lineno="176"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="177"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(type<sp/>==<sp/></highlight><highlight class="stringliteral">&quot;RectPattern&quot;</highlight><highlight class="normal">)<sp/></highlight><highlight class="comment">//Rectangular<sp/>Pattern<sp/>:<sp/>9</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="178"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>pFeature<sp/>=<sp/></highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/><ref refid="class_pre_1_1_feature_s_o_l_i_d_create_pattern_rectangular" kindref="compound">FeatureSOLIDCreatePatternRectangular</ref>(</highlight><highlight class="keyword">this</highlight><highlight class="normal">,<sp/>9,<sp/>name);</highlight></codeline>
+<codeline lineno="179"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(type<sp/>==<sp/></highlight><highlight class="stringliteral">&quot;CircPattern&quot;</highlight><highlight class="normal">)<sp/></highlight><highlight class="comment">//Circular<sp/>Pattern<sp/>:<sp/>10</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="180"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>pFeature<sp/>=<sp/></highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/><ref refid="class_pre_1_1_feature_s_o_l_i_d_create_pattern_circular" kindref="compound">FeatureSOLIDCreatePatternCircular</ref>(</highlight><highlight class="keyword">this</highlight><highlight class="normal">,<sp/>10,<sp/>name);</highlight></codeline>
+<codeline lineno="181"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(type<sp/>==<sp/></highlight><highlight class="stringliteral">&quot;Hole&quot;</highlight><highlight class="normal">)<sp/></highlight><highlight class="comment">//HoleCounterbored<sp/>or<sp/>HoleCountersunk<sp/>:<sp/>11</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="182"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>pFeature<sp/>=<sp/></highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/><ref refid="class_pre_1_1_feature_s_o_l_i_d_create_hole" kindref="compound">FeatureSOLIDCreateHole</ref>(</highlight><highlight class="keyword">this</highlight><highlight class="normal">,<sp/>11,<sp/>name);</highlight></codeline>
+<codeline lineno="183"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(type<sp/>==<sp/></highlight><highlight class="stringliteral">&quot;Slot&quot;</highlight><highlight class="normal">)</highlight></codeline>
+<codeline lineno="184"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>pFeature<sp/>=<sp/></highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/><ref refid="class_pre_1_1_feature_s_o_l_i_d_create_sweep" kindref="compound">FeatureSOLIDCreateSweep</ref>(</highlight><highlight class="keyword">this</highlight><highlight class="normal">,<sp/>12,<sp/>name);</highlight></codeline>
+<codeline lineno="185"><highlight class="normal"></highlight></codeline>
+<codeline lineno="186"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(pFeature)</highlight></codeline>
+<codeline lineno="187"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="188"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>pFeature-&gt;<ref refid="class_pre_1_1_feature_1af58dd6004076ee16ada8ed600965de6c" kindref="member">GetInfo</ref>(is);</highlight></codeline>
+<codeline lineno="189"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_pre_1_1_part_1a94b230ce233726adad7d3020f95eb13d" kindref="member">_featureList</ref>.push_back(pFeature);</highlight></codeline>
+<codeline lineno="190"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="191"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="192"><highlight class="normal"></highlight></codeline>
+<codeline lineno="193" refid="class_pre_1_1_part_1a5426eb43bd7824fb2e9f491537c4a6db" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_pre_1_1_part_1a5426eb43bd7824fb2e9f491537c4a6db" kindref="member">Part::CreateAttributeItem</ref>(</highlight><highlight class="keywordtype">string</highlight><highlight class="normal"><sp/>type,<sp/></highlight><highlight class="keywordtype">string</highlight><highlight class="normal"><sp/>name,<sp/>ifstream<sp/>&amp;is)</highlight></codeline>
+<codeline lineno="194"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="195"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_pre_1_1_attribute_item" kindref="compound">AttributeItem</ref><sp/>*<sp/>pAttributeItem<sp/>=<sp/>0;</highlight></codeline>
+<codeline lineno="196"><highlight class="normal"></highlight></codeline>
+<codeline lineno="197"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(type<sp/>==<sp/></highlight><highlight class="stringliteral">&quot;Length&quot;</highlight><highlight class="normal">)<sp/></highlight><highlight class="comment">//Length<sp/><sp/></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="198"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>pAttributeItem<sp/>=<sp/></highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/><ref refid="class_pre_1_1_att_length" kindref="compound">AttLength</ref>(</highlight><highlight class="keyword">this</highlight><highlight class="normal">,<sp/>1,<sp/>name);</highlight></codeline>
+<codeline lineno="199"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(type<sp/>==<sp/></highlight><highlight class="stringliteral">&quot;Angle&quot;</highlight><highlight class="normal">)<sp/></highlight><highlight class="comment">//Angle<sp/><sp/></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="200"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>pAttributeItem<sp/>=<sp/></highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/><ref refid="class_pre_1_1_att_angle" kindref="compound">AttAngle</ref>(</highlight><highlight class="keyword">this</highlight><highlight class="normal">,<sp/>2,<sp/>name);</highlight></codeline>
+<codeline lineno="201"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(type<sp/>==<sp/></highlight><highlight class="stringliteral">&quot;Limit&quot;</highlight><highlight class="normal">)</highlight></codeline>
+<codeline lineno="202"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>pAttributeItem<sp/>=<sp/></highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/><ref refid="class_pre_1_1_att_limit" kindref="compound">AttLimit</ref>(</highlight><highlight class="keyword">this</highlight><highlight class="normal">,<sp/>3,<sp/>name);</highlight></codeline>
+<codeline lineno="203"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(type<sp/>==<sp/></highlight><highlight class="stringliteral">&quot;Parameter&quot;</highlight><highlight class="normal">)</highlight></codeline>
+<codeline lineno="204"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>pAttributeItem<sp/>=<sp/></highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/><ref refid="class_pre_1_1_att_parameter" kindref="compound">AttParameter</ref>(</highlight><highlight class="keyword">this</highlight><highlight class="normal">,<sp/>4,<sp/>name);</highlight></codeline>
+<codeline lineno="205"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(type<sp/>==<sp/></highlight><highlight class="stringliteral">&quot;LinearRepartition&quot;</highlight><highlight class="normal">)</highlight></codeline>
+<codeline lineno="206"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>pAttributeItem<sp/>=<sp/></highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/><ref refid="class_pre_1_1_att_linear_repartation" kindref="compound">AttLinearRepartation</ref>(</highlight><highlight class="keyword">this</highlight><highlight class="normal">,<sp/>5,<sp/>name);</highlight></codeline>
+<codeline lineno="207"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(type<sp/>==<sp/></highlight><highlight class="stringliteral">&quot;AngularRepartition&quot;</highlight><highlight class="normal">)</highlight></codeline>
+<codeline lineno="208"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>pAttributeItem<sp/>=<sp/></highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/><ref refid="class_pre_1_1_att_angular_repartation" kindref="compound">AttAngularRepartation</ref>(</highlight><highlight class="keyword">this</highlight><highlight class="normal">,<sp/>6,<sp/>name);</highlight></codeline>
+<codeline lineno="209"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(type<sp/>==<sp/></highlight><highlight class="stringliteral">&quot;IntParam&quot;</highlight><highlight class="normal">)</highlight></codeline>
+<codeline lineno="210"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>pAttributeItem<sp/>=<sp/></highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/><ref refid="class_pre_1_1_att_int_param" kindref="compound">AttIntParam</ref>(</highlight><highlight class="keyword">this</highlight><highlight class="normal">,<sp/>7,<sp/>name);</highlight></codeline>
+<codeline lineno="211"><highlight class="normal"></highlight></codeline>
+<codeline lineno="212"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(pAttributeItem)</highlight></codeline>
+<codeline lineno="213"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="214"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>pAttributeItem-&gt;<ref refid="class_pre_1_1_attribute_item_1ae525b9c616a40016532a29d6df424de3" kindref="member">GetInfo</ref>(is);</highlight></codeline>
+<codeline lineno="215"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_pre_1_1_part_1a145911d1e6f4484ab3e84eb3d1756798" kindref="member">_attributeItemList</ref>.push_back(pAttributeItem);</highlight></codeline>
+<codeline lineno="216"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="217"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="218"><highlight class="normal"></highlight></codeline>
+<codeline lineno="219" refid="class_pre_1_1_part_1ac997876e1c7bdde6240f4bb5de21a967" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_pre_1_1_part_1ac997876e1c7bdde6240f4bb5de21a967" kindref="member">Part::CreateReferenceEntity</ref>(</highlight><highlight class="keywordtype">string</highlight><highlight class="normal"><sp/>type,<sp/></highlight><highlight class="keywordtype">string</highlight><highlight class="normal"><sp/>name,<sp/>ifstream<sp/>&amp;is)</highlight></codeline>
+<codeline lineno="220"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="221"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_pre_1_1_reference_entity" kindref="compound">ReferenceEntity</ref><sp/>*<sp/>pReference<sp/>=<sp/>0;</highlight></codeline>
+<codeline lineno="222"><highlight class="normal"></highlight></codeline>
+<codeline lineno="223"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(type<sp/>==<sp/></highlight><highlight class="stringliteral">&quot;Reference&quot;</highlight><highlight class="normal">)</highlight></codeline>
+<codeline lineno="224"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>pReference<sp/>=<sp/></highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/><ref refid="class_pre_1_1_reference_entity" kindref="compound">ReferenceEntity</ref>(</highlight><highlight class="keyword">this</highlight><highlight class="normal">,<sp/>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal">)0,<sp/>name);</highlight></codeline>
+<codeline lineno="225"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(type<sp/>==<sp/></highlight><highlight class="stringliteral">&quot;AnyObject&quot;</highlight><highlight class="normal"><sp/>||<sp/>type<sp/>==<sp/></highlight><highlight class="stringliteral">&quot;HybridShape&quot;</highlight><highlight class="normal"><sp/>||<sp/>type<sp/>==<sp/></highlight><highlight class="stringliteral">&quot;CATBaseDispatch&quot;</highlight><highlight class="normal">)</highlight></codeline>
+<codeline lineno="226"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>pReference<sp/>=<sp/></highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/><ref refid="class_pre_1_1_reference_entity" kindref="compound">ReferenceEntity</ref>(</highlight><highlight class="keyword">this</highlight><highlight class="normal">,<sp/>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal">)1,<sp/>name);</highlight></codeline>
+<codeline lineno="227"><highlight class="normal"></highlight></codeline>
+<codeline lineno="228"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(pReference)</highlight></codeline>
+<codeline lineno="229"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="230"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>pReference-&gt;<ref refid="class_pre_1_1_reference_entity_1a777fcc45777d37978ddb586b590133aa" kindref="member">GetInfo</ref>(is);</highlight></codeline>
+<codeline lineno="231"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_pre_1_1_part_1a5fb84c9de5fb87a9bfa806a73d6c5ae3" kindref="member">_referenceEntityList</ref>.push_back(pReference);</highlight></codeline>
+<codeline lineno="232"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="233"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="234"><highlight class="normal"></highlight></codeline>
+<codeline lineno="235" refid="class_pre_1_1_part_1a8b5e2a2bbf385223d67ce40232b23e45" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_pre_1_1_part_1a8b5e2a2bbf385223d67ce40232b23e45" kindref="member">Part::GetInfo</ref>()</highlight></codeline>
+<codeline lineno="236"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="237"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>buffer[1000];<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>CATIA<sp/>매크로<sp/>파일의<sp/>라인을<sp/>임시로<sp/>저장하는<sp/>배열</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="238"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>seps[]<sp/>=<sp/></highlight><highlight class="stringliteral">&quot;<sp/>.=&quot;</highlight><highlight class="normal">;<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>구분자</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="239"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*<sp/>context<sp/>=<sp/>NULL;<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>strtok_s<sp/>함수의<sp/>입력<sp/>변수</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="240"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">string</highlight><highlight class="normal"><sp/>token,<sp/>name,<sp/>type;<sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>문자열<sp/>token,<sp/>객체<sp/>이름<sp/>및<sp/>타입</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="241"><highlight class="normal"></highlight></codeline>
+<codeline lineno="242"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">try</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="243"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="244"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">while</highlight><highlight class="normal"><sp/>(!<ref refid="class_pre_1_1_part_1ab44f91ae378f3d72eb1bd3f1544c5429" kindref="member">fin</ref>.eof())<sp/></highlight><highlight class="comment">//<sp/>CATIA<sp/>매크로<sp/>파일의<sp/>끝까지<sp/>라인<sp/>읽기<sp/>수행</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="245"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="246"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_pre_1_1_part_1ab44f91ae378f3d72eb1bd3f1544c5429" kindref="member">fin</ref>.getline(buffer,<sp/>1000);<sp/><sp/><sp/></highlight><highlight class="comment">//한<sp/>라인을<sp/>읽는다.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="247"><highlight class="normal"></highlight></codeline>
+<codeline lineno="248"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(strlen(buffer)<sp/>==<sp/>0)<sp/><sp/></highlight><highlight class="comment">//<sp/>빈<sp/>라인의<sp/>경우는<sp/>통과</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="249"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="250"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="251"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(!strncmp(buffer,<sp/></highlight><highlight class="stringliteral">&quot;Dim&quot;</highlight><highlight class="normal">,<sp/>3))<sp/><sp/></highlight><highlight class="comment">//첫번째<sp/>단어가<sp/>Dim인<sp/>경우.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="252"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="253"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>token<sp/>=<sp/>strtok_s(buffer,<sp/>seps,<sp/>&amp;context);<sp/><sp/><sp/></highlight><highlight class="comment">//Dim</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="254"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>token<sp/>=<sp/>strtok_s(NULL,<sp/>seps,<sp/>&amp;context);<sp/></highlight><highlight class="comment">//pad1</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="255"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>name<sp/>=<sp/>token;<sp/></highlight><highlight class="comment">//객체의<sp/>이름<sp/>저장</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="256"><highlight class="normal"></highlight></codeline>
+<codeline lineno="257"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>token<sp/>=<sp/>strtok_s(NULL,<sp/>seps,<sp/>&amp;context);<sp/></highlight><highlight class="comment">//As</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="258"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>token<sp/>=<sp/>strtok_s(NULL,<sp/>seps,<sp/>&amp;context);<sp/></highlight><highlight class="comment">//Pad</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="259"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>type<sp/>=<sp/>token;<sp/></highlight><highlight class="comment">//객체의<sp/>타입<sp/>저장</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="260"><highlight class="normal"></highlight></codeline>
+<codeline lineno="261"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_pre_1_1_part_1ac997876e1c7bdde6240f4bb5de21a967" kindref="member">CreateReferenceEntity</ref>(type,<sp/>name,<sp/><ref refid="class_pre_1_1_part_1ab44f91ae378f3d72eb1bd3f1544c5429" kindref="member">fin</ref>);<sp/></highlight><highlight class="comment">//<sp/>레퍼런스<sp/>생성</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="262"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_pre_1_1_part_1a8aec8753beef663387b06d892963a6d6" kindref="member">CreateFeature</ref>(type,<sp/>name,<sp/><ref refid="class_pre_1_1_part_1ab44f91ae378f3d72eb1bd3f1544c5429" kindref="member">fin</ref>);<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>특징형상<sp/>생성<sp/><sp/></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="263"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_pre_1_1_part_1a5426eb43bd7824fb2e9f491537c4a6db" kindref="member">CreateAttributeItem</ref>(type,<sp/>name,<sp/><ref refid="class_pre_1_1_part_1ab44f91ae378f3d72eb1bd3f1544c5429" kindref="member">fin</ref>);<sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>속성<sp/>생성</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="264"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="265"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(!strncmp(buffer,<sp/></highlight><highlight class="stringliteral">&quot;Set&quot;</highlight><highlight class="normal">,<sp/>3))</highlight></codeline>
+<codeline lineno="266"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="267"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>token<sp/>=<sp/>strtok_s(buffer,<sp/>seps,<sp/>&amp;context);<sp/><sp/><sp/></highlight><highlight class="comment">//Set</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="268"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>token<sp/>=<sp/>strtok_s(NULL,<sp/>seps,<sp/>&amp;context);<sp/></highlight><highlight class="comment">//factory2D11</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="269"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>token<sp/>=<sp/>strtok_s(NULL,<sp/>seps,<sp/>&amp;context);<sp/></highlight><highlight class="comment">//sketch1</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="270"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>name<sp/>=<sp/>token;<sp/></highlight><highlight class="comment">//객체의<sp/>이름<sp/>저장</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="271"><highlight class="normal"></highlight></codeline>
+<codeline lineno="272"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>token<sp/>=<sp/>strtok_s(NULL,<sp/>seps,<sp/>&amp;context);<sp/></highlight><highlight class="comment">//OpenEdition()</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="273"><highlight class="normal"></highlight></codeline>
+<codeline lineno="274"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>스케치를<sp/>다시<sp/>열어<sp/>작업할<sp/>때<sp/>진입</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="275"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(token<sp/>==<sp/></highlight><highlight class="stringliteral">&quot;OpenEdition()&quot;</highlight><highlight class="normal">)</highlight></codeline>
+<codeline lineno="276"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="277"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_pre_1_1_f_sketch" kindref="compound">FSketch</ref><sp/>*<sp/>pFsketch<sp/>=<sp/>(<ref refid="class_pre_1_1_f_sketch" kindref="compound">FSketch</ref><sp/>*)<ref refid="class_pre_1_1_part_1a757a376bdc640e00119c3489ee35d2aa" kindref="member">GetFeatureByName</ref>(name);</highlight></codeline>
+<codeline lineno="278"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>pFsketch-&gt;<ref refid="class_pre_1_1_f_sketch_1a3ca083220e4cbe4fa0e9849e07a5d195" kindref="member">GetSketchItemInfo</ref>(<ref refid="class_pre_1_1_part_1ab44f91ae378f3d72eb1bd3f1544c5429" kindref="member">fin</ref>);</highlight></codeline>
+<codeline lineno="279"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="280"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="281"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="282"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="283"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//아래의<sp/>예제와<sp/>같이<sp/>Script<sp/>파일에<sp/>바로<sp/>Class<sp/>인스턴스<sp/>이름이<sp/>나올때<sp/>사용</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="284"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//FeatureManager나<sp/>AttributeManager에<sp/>이름에<sp/>따른<sp/>값이<sp/>있으면</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="285"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//각<sp/>Feature의<sp/>Attribute<sp/>Class의<sp/>Modify함수<sp/>호출하여<sp/>업데이트.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="286"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/><sp/>length1.Value<sp/>=<sp/>40.000000</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="287"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/><sp/>chamfer1.Propagation<sp/>=<sp/>0</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="288"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/><sp/>angle2.Value<sp/>=<sp/>10.000000</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="289"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/><sp/>pad2.DirectionOrientation<sp/>=<sp/>1</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="290"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>temp[1000];</highlight></codeline>
+<codeline lineno="291"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>strcpy_s(temp,<sp/>buffer);</highlight></codeline>
+<codeline lineno="292"><highlight class="normal"></highlight></codeline>
+<codeline lineno="293"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>token<sp/>=<sp/>strtok_s(buffer,<sp/>seps,<sp/>&amp;context);</highlight></codeline>
+<codeline lineno="294"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>name<sp/>=<sp/>token;</highlight></codeline>
+<codeline lineno="295"><highlight class="normal"></highlight></codeline>
+<codeline lineno="296"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(<ref refid="class_pre_1_1_part_1a757a376bdc640e00119c3489ee35d2aa" kindref="member">GetFeatureByName</ref>(name))<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//Feature에<sp/>있는지<sp/>확인</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="297"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_pre_1_1_part_1a757a376bdc640e00119c3489ee35d2aa" kindref="member">GetFeatureByName</ref>(name)-&gt;<ref refid="class_pre_1_1_feature_1a11f5aafa54439cf08dd44adb6fcd4d9c" kindref="member">Modify</ref>(temp);<sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//값을<sp/>수정</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="298"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(<ref refid="class_pre_1_1_part_1a528af6b04af596db59046c191e453a00" kindref="member">GetAttributeItemByName</ref>(name))<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//Attribute에<sp/>있는지<sp/>확인</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="299"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_pre_1_1_part_1a528af6b04af596db59046c191e453a00" kindref="member">GetAttributeItemByName</ref>(name)-&gt;<ref refid="class_pre_1_1_attribute_item_1ab6fe550dca4ebaf060433c962cc5e014" kindref="member">Modify</ref>(temp);<sp/></highlight><highlight class="comment">//값을<sp/>수정</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="300"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="301"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="302"><highlight class="normal"></highlight></codeline>
+<codeline lineno="303"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>context<sp/>=<sp/>NULL;</highlight></codeline>
+<codeline lineno="304"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="305"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">catch</highlight><highlight class="normal"><sp/>(...)</highlight></codeline>
+<codeline lineno="306"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="307"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="308"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="309"><highlight class="normal"></highlight></codeline>
+<codeline lineno="310" refid="class_pre_1_1_part_1aa981061fc510bc931b60ce995551281b" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_pre_1_1_part_1aa981061fc510bc931b60ce995551281b" kindref="member">Part::ToTransCAD</ref>()</highlight></codeline>
+<codeline lineno="311"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="312"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>특징형상<sp/>TransCAD<sp/>로<sp/>변환</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="313"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">for</highlight><highlight class="normal"><sp/>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>i<sp/>=<sp/>0;<sp/>(</highlight><highlight class="keywordtype">unsigned</highlight><highlight class="normal"><sp/>int)i<sp/>&lt;<sp/><ref refid="class_pre_1_1_part_1af88e1e8ff7bca403feae121ccaf33b79" kindref="member">GetSize</ref>();<sp/>++i)</highlight></codeline>
+<codeline lineno="314"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="315"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_pre_1_1_part_1a7ba363812fc0e860164001cb4bb2a24e" kindref="member">GetFeature</ref>(i)-&gt;<ref refid="class_pre_1_1_feature_1a43c7ceaf04580d2e948aedd882208d80" kindref="member">ToTransCAD</ref>();</highlight></codeline>
+<codeline lineno="316"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="317"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="318"><highlight class="normal"></highlight></codeline>
+<codeline lineno="319"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>Feature의<sp/>이름을<sp/>입력받아<sp/>해당<sp/>Feature<sp/>포인터를<sp/>리턴</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="320" refid="class_pre_1_1_part_1a757a376bdc640e00119c3489ee35d2aa" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="class_pre_1_1_feature" kindref="compound">Feature</ref><sp/>*<sp/><ref refid="class_pre_1_1_part_1a757a376bdc640e00119c3489ee35d2aa" kindref="member">Part::GetFeatureByName</ref>(</highlight><highlight class="keywordtype">string</highlight><highlight class="normal"><sp/>name)</highlight></codeline>
+<codeline lineno="321"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="322"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">for</highlight><highlight class="normal"><sp/>(</highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>i<sp/>=<sp/>0;<sp/>(</highlight><highlight class="keywordtype">unsigned</highlight><highlight class="normal"><sp/>int)i<sp/>&lt;<sp/><ref refid="class_pre_1_1_part_1af88e1e8ff7bca403feae121ccaf33b79" kindref="member">GetSize</ref>();<sp/>++i)</highlight></codeline>
+<codeline lineno="323"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="324"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_pre_1_1_feature" kindref="compound">Feature</ref><sp/>*<sp/>pFeature<sp/>=<sp/><ref refid="class_pre_1_1_part_1a7ba363812fc0e860164001cb4bb2a24e" kindref="member">GetFeature</ref>((</highlight><highlight class="keywordtype">int</highlight><highlight class="normal">)i);</highlight></codeline>
+<codeline lineno="325"><highlight class="normal"></highlight></codeline>
+<codeline lineno="326"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(name<sp/>==<sp/>pFeature-&gt;<ref refid="class_pre_1_1_feature_1aeec702655239d43b9fb7af691bc4f85c" kindref="member">GetFeatureName</ref>())</highlight></codeline>
+<codeline lineno="327"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>pFeature;</highlight></codeline>
+<codeline lineno="328"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="329"><highlight class="normal"></highlight></codeline>
+<codeline lineno="330"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>NULL;</highlight></codeline>
+<codeline lineno="331"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="332"><highlight class="normal"></highlight></codeline>
+<codeline lineno="333"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>ReferenceEntity의<sp/>이름을<sp/>입력받아<sp/>해당<sp/>ReferenceEntity<sp/>포인터를<sp/>리턴</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="334" refid="class_pre_1_1_part_1a5643b5eda5bff62d642532663c62b63c" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="class_pre_1_1_reference_entity" kindref="compound">ReferenceEntity</ref><sp/>*<sp/><ref refid="class_pre_1_1_part_1a5643b5eda5bff62d642532663c62b63c" kindref="member">Part::GetReferenceEntityByName</ref>(</highlight><highlight class="keywordtype">string</highlight><highlight class="normal"><sp/>name)</highlight></codeline>
+<codeline lineno="335"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="336"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">for</highlight><highlight class="normal"><sp/>(</highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>i<sp/>=<sp/>0;<sp/>(</highlight><highlight class="keywordtype">unsigned</highlight><highlight class="normal"><sp/>int)i<sp/>&lt;<sp/><ref refid="class_pre_1_1_part_1a5fb84c9de5fb87a9bfa806a73d6c5ae3" kindref="member">_referenceEntityList</ref>.size();<sp/>++i)</highlight></codeline>
+<codeline lineno="337"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="338"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_pre_1_1_reference_entity" kindref="compound">ReferenceEntity</ref><sp/>*<sp/>_pReferenceEntity<sp/>=<sp/><ref refid="class_pre_1_1_part_1a2e4f92e469965dca6a39e9dd3122cb46" kindref="member">GetReferenceEntity</ref>((</highlight><highlight class="keywordtype">int</highlight><highlight class="normal">)i);</highlight></codeline>
+<codeline lineno="339"><highlight class="normal"></highlight></codeline>
+<codeline lineno="340"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(name<sp/>==<sp/>_pReferenceEntity-&gt;<ref refid="class_pre_1_1_reference_entity_1a6cbf4ad68ae79722ee486cd77181a703" kindref="member">GetName</ref>())</highlight></codeline>
+<codeline lineno="341"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>_pReferenceEntity;</highlight></codeline>
+<codeline lineno="342"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="343"><highlight class="normal"></highlight></codeline>
+<codeline lineno="344"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>NULL;</highlight></codeline>
+<codeline lineno="345"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="346"><highlight class="normal"></highlight></codeline>
+<codeline lineno="347"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>AttributeItem의<sp/>이름을<sp/>입력받아<sp/>해당<sp/>AttributeItem<sp/>포인터를<sp/>리턴</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="348" refid="class_pre_1_1_part_1a528af6b04af596db59046c191e453a00" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="class_pre_1_1_attribute_item" kindref="compound">AttributeItem</ref><sp/>*<sp/><ref refid="class_pre_1_1_part_1a528af6b04af596db59046c191e453a00" kindref="member">Part::GetAttributeItemByName</ref>(</highlight><highlight class="keywordtype">string</highlight><highlight class="normal"><sp/>name)</highlight></codeline>
+<codeline lineno="349"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="350"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">for</highlight><highlight class="normal"><sp/>(</highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>i<sp/>=<sp/>0;<sp/>(</highlight><highlight class="keywordtype">unsigned</highlight><highlight class="normal"><sp/>int)i<sp/>&lt;<sp/><ref refid="class_pre_1_1_part_1a145911d1e6f4484ab3e84eb3d1756798" kindref="member">_attributeItemList</ref>.size();<sp/>++i)</highlight></codeline>
+<codeline lineno="351"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="352"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_pre_1_1_attribute_item" kindref="compound">AttributeItem</ref><sp/>*<sp/>_pAttributeItem<sp/>=<sp/><ref refid="class_pre_1_1_part_1a5a515d9986c606a11cd63797a149abb4" kindref="member">GetAttributeItem</ref>((</highlight><highlight class="keywordtype">int</highlight><highlight class="normal">)i);</highlight></codeline>
+<codeline lineno="353"><highlight class="normal"></highlight></codeline>
+<codeline lineno="354"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(name<sp/>==<sp/>_pAttributeItem-&gt;<ref refid="class_pre_1_1_attribute_item_1a1a9180e1336ee3cad4e736f7bba27184" kindref="member">GetName</ref>())</highlight></codeline>
+<codeline lineno="355"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>_pAttributeItem;</highlight></codeline>
+<codeline lineno="356"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="357"><highlight class="normal"></highlight></codeline>
+<codeline lineno="358"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>NULL;</highlight></codeline>
+<codeline lineno="359"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="360"><highlight class="normal"></highlight></codeline>
+<codeline lineno="361"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>Sketch-based<sp/>Feature의<sp/>이름과,<sp/>상응하는<sp/>Sketch<sp/>이름을<sp/>저장하기<sp/>위한<sp/>용도로<sp/>쓰임</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="362" refid="class_pre_1_1_part_1afe3d79628d4af1d9cfb19fa1653ee716" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_pre_1_1_part_1afe3d79628d4af1d9cfb19fa1653ee716" kindref="member">Part::AddFeatureNameSketchName</ref>(</highlight><highlight class="keywordtype">string</highlight><highlight class="normal"><sp/>featureName,<sp/></highlight><highlight class="keywordtype">string</highlight><highlight class="normal"><sp/>sketchName)</highlight></codeline>
+<codeline lineno="363"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="364"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="struct_pre_1_1_sketch_feature" kindref="compound">SketchFeature</ref><sp/>_sketchFeature;</highlight></codeline>
+<codeline lineno="365"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>_sketchFeature.<ref refid="struct_pre_1_1_sketch_feature_1aa8235105643bed83b3b0dcb21291b804" kindref="member">_featureName</ref><sp/>=<sp/>featureName;</highlight></codeline>
+<codeline lineno="366"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>_sketchFeature.<ref refid="struct_pre_1_1_sketch_feature_1a1a7b6ae54b8b312385c55f5f3593055c" kindref="member">_sketchName</ref><sp/>=<sp/>sketchName;</highlight></codeline>
+<codeline lineno="367"><highlight class="normal"></highlight></codeline>
+<codeline lineno="368"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_pre_1_1_part_1a41a05a19613b35fbae441993af005d50" kindref="member">sketchNameTable</ref>.push_back(_sketchFeature);</highlight></codeline>
+<codeline lineno="369"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="370"><highlight class="normal"></highlight></codeline>
+<codeline lineno="371"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>Sketch-based<sp/>Feature의<sp/>이름을<sp/>입력하여<sp/>상응하는<sp/>Sketch<sp/>이름을<sp/>출력하기<sp/>위한<sp/>용도로<sp/>쓰임</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="372" refid="class_pre_1_1_part_1a7acf7b9167ac05823795172ef97742fc" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">string</highlight><highlight class="normal"><sp/><ref refid="class_pre_1_1_part_1a7acf7b9167ac05823795172ef97742fc" kindref="member">Part::GetSketchNameFromFeatureName</ref>(</highlight><highlight class="keywordtype">string</highlight><highlight class="normal"><sp/>featureName)</highlight></codeline>
+<codeline lineno="373"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="374"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">string</highlight><highlight class="normal"><sp/>sketchName;</highlight></codeline>
+<codeline lineno="375"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">for</highlight><highlight class="normal"><sp/>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>i<sp/>=<sp/>0;<sp/>(</highlight><highlight class="keywordtype">unsigned</highlight><highlight class="normal"><sp/>int)i<sp/>&lt;<sp/><ref refid="class_pre_1_1_part_1a41a05a19613b35fbae441993af005d50" kindref="member">sketchNameTable</ref>.size();<sp/>++i)</highlight></codeline>
+<codeline lineno="376"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="377"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(<ref refid="class_pre_1_1_part_1a41a05a19613b35fbae441993af005d50" kindref="member">sketchNameTable</ref>[i]._featureName<sp/>==<sp/>featureName)</highlight></codeline>
+<codeline lineno="378"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>sketchName<sp/>=<sp/><ref refid="class_pre_1_1_part_1a41a05a19613b35fbae441993af005d50" kindref="member">sketchNameTable</ref>[i]._sketchName;</highlight></codeline>
+<codeline lineno="379"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="380"><highlight class="normal"></highlight></codeline>
+<codeline lineno="381"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>sketchName;</highlight></codeline>
+<codeline lineno="382"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="383"><highlight class="normal"></highlight></codeline>
+<codeline lineno="384"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>Sketch의<sp/>이름을<sp/>입력하여<sp/>상응하는<sp/>Sketch-based<sp/>Feature이름을<sp/>출력하기<sp/>위한<sp/>용도로<sp/>쓰임</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="385" refid="class_pre_1_1_part_1a4bf757092c00e1a969d0a73a0c4ed0c8" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">string</highlight><highlight class="normal"><sp/><ref refid="class_pre_1_1_part_1a4bf757092c00e1a969d0a73a0c4ed0c8" kindref="member">Part::GetFeatureNameFromSketchName</ref>(</highlight><highlight class="keywordtype">string</highlight><highlight class="normal"><sp/>sketchName)</highlight></codeline>
+<codeline lineno="386"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="387"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">string</highlight><highlight class="normal"><sp/>featureName;</highlight></codeline>
+<codeline lineno="388"><highlight class="normal"></highlight></codeline>
+<codeline lineno="389"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">for</highlight><highlight class="normal"><sp/>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>i<sp/>=<sp/>0;<sp/>(</highlight><highlight class="keywordtype">unsigned</highlight><highlight class="normal"><sp/>int)i<sp/>&lt;<sp/><ref refid="class_pre_1_1_part_1a41a05a19613b35fbae441993af005d50" kindref="member">sketchNameTable</ref>.size();<sp/>++i)</highlight></codeline>
+<codeline lineno="390"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="391"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(<ref refid="class_pre_1_1_part_1a41a05a19613b35fbae441993af005d50" kindref="member">sketchNameTable</ref>[i]._sketchName<sp/>==<sp/>sketchName)</highlight></codeline>
+<codeline lineno="392"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>featureName<sp/>=<sp/><ref refid="class_pre_1_1_part_1a41a05a19613b35fbae441993af005d50" kindref="member">sketchNameTable</ref>[i]._featureName;</highlight></codeline>
+<codeline lineno="393"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="394"><highlight class="normal"></highlight></codeline>
+<codeline lineno="395"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>featureName;</highlight></codeline>
+<codeline lineno="396"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="397"><highlight class="normal">}</highlight></codeline>
+    </programlisting>
+    <location file="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/PreManager/ref/Part.cpp"/>
+  </compounddef>
+</doxygen>

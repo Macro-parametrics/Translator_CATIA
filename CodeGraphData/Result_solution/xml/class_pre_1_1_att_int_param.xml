@@ -1,0 +1,338 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_pre_1_1_att_int_param" kind="class" prot="public">
+    <compoundname>Pre::AttIntParam</compoundname>
+    <basecompoundref refid="class_pre_1_1_attribute_item" prot="public" virt="non-virtual">Pre::AttributeItem</basecompoundref>
+    <includes refid="_att_int_param_8h" local="no">AttIntParam.h</includes>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_pre_1_1_att_int_param_1a127ab8dda8f429e1f3132e16ce0ffeea" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>Pre::AttIntParam::AttIntParam</definition>
+        <argsstring>(Part *pPart, int type, string name)</argsstring>
+        <name>AttIntParam</name>
+        <param>
+          <type><ref refid="class_pre_1_1_part" kindref="compound">Part</ref> *</type>
+          <declname>pPart</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>type</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>name</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/PreManager/ref/AttIntParam.h" line="7" column="1" bodyfile="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/PreManager/ref/AttIntParam.cpp" bodystart="4" bodyend="8"/>
+        <references refid="class_pre_1_1_attribute_item_1a55411a73e84ce380f4b22d87be0c065a" compoundref="_attribute_item_8h" startline="27">Pre::AttributeItem::_value</references>
+      </memberdef>
+      <memberdef kind="function" id="class_pre_1_1_att_int_param_1a8b98658d9ce09ef0ff5d64b5a921c36b" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type></type>
+        <definition>Pre::AttIntParam::~AttIntParam</definition>
+        <argsstring>()</argsstring>
+        <name>~AttIntParam</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/PreManager/ref/AttIntParam.h" line="8" column="1" bodyfile="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/PreManager/ref/AttIntParam.cpp" bodystart="10" bodyend="12"/>
+      </memberdef>
+      <memberdef kind="function" id="class_pre_1_1_att_int_param_1a2e33a947c0dcef3a929b02783c384924" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void Pre::AttIntParam::GetInfo</definition>
+        <argsstring>(ifstream &amp;is)</argsstring>
+        <name>GetInfo</name>
+        <reimplements refid="class_pre_1_1_attribute_item_1ae525b9c616a40016532a29d6df424de3">GetInfo</reimplements>
+        <param>
+          <type>ifstream &amp;</type>
+          <declname>is</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/PreManager/ref/AttIntParam.h" line="10" column="1" bodyfile="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/PreManager/ref/AttIntParam.cpp" bodystart="14" bodyend="37"/>
+        <references refid="class_pre_1_1_attribute_item_1a2367284f0672249ae539ac1924f12bb7" compoundref="_attribute_item_8h" startline="26">Pre::AttributeItem::_attributeName</references>
+        <references refid="class_pre_1_1_attribute_item_1a921288c89d639a103f98ccad5f3f01cb" compoundref="_attribute_item_8h" startline="25">Pre::AttributeItem::_featureName</references>
+      </memberdef>
+      <memberdef kind="function" id="class_pre_1_1_att_int_param_1a2d5af6fdd6fb02fd753b53a8d9d244ed" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void Pre::AttIntParam::Modify</definition>
+        <argsstring>(char *buffer)</argsstring>
+        <name>Modify</name>
+        <reimplements refid="class_pre_1_1_attribute_item_1ab6fe550dca4ebaf060433c962cc5e014">Modify</reimplements>
+        <param>
+          <type>char *</type>
+          <declname>buffer</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/PreManager/ref/AttIntParam.h" line="11" column="1" bodyfile="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/PreManager/ref/AttIntParam.cpp" bodystart="39" bodyend="64"/>
+        <references refid="class_pre_1_1_attribute_item_1a2367284f0672249ae539ac1924f12bb7" compoundref="_attribute_item_8h" startline="26">Pre::AttributeItem::_attributeName</references>
+        <references refid="class_pre_1_1_attribute_item_1a921288c89d639a103f98ccad5f3f01cb" compoundref="_attribute_item_8h" startline="25">Pre::AttributeItem::_featureName</references>
+        <references refid="class_pre_1_1_attribute_item_1a444b077c58fe0ada93ee55fd9eb58d52" compoundref="_attribute_item_8h" startline="29">Pre::AttributeItem::_type</references>
+        <references refid="class_pre_1_1_attribute_item_1a55411a73e84ce380f4b22d87be0c065a" compoundref="_attribute_item_8h" startline="27">Pre::AttributeItem::_value</references>
+        <references refid="class_pre_1_1_attribute_item_1aee247cd7e3f5b5b86562ceec3dd9b283" compoundref="_attribute_item_8cpp" startline="20" endline="22">Pre::AttributeItem::CheckAttribute</references>
+        <references refid="class_pre_1_1_part_1a528af6b04af596db59046c191e453a00" compoundref="_pre_manager_2ref_2_part_8cpp" startline="348" endline="359">Pre::Part::GetAttributeItemByName</references>
+        <references refid="class_pre_1_1_attribute_item_1a028595a3b4b90035019a41f1c590062e" compoundref="_attribute_item_8h" startline="13" endline="13">Pre::AttributeItem::GetPart</references>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="86">
+        <label>Pre::AttIntParam</label>
+        <link refid="class_pre_1_1_att_int_param"/>
+        <childnode refid="87" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="87">
+        <label>Pre::AttributeItem</label>
+        <link refid="class_pre_1_1_attribute_item"/>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="106">
+        <label>std::basic_ifstream&lt; char &gt;</label>
+        <childnode refid="107" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="91">
+        <label>std::vector&lt; Pre::ReferenceEntity * &gt;</label>
+        <childnode refid="92" relation="usage">
+          <edgelabel>elements</edgelabel>
+        </childnode>
+      </node>
+      <node id="88">
+        <label>Pre::AttIntParam</label>
+        <link refid="class_pre_1_1_att_int_param"/>
+        <childnode refid="89" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="110">
+        <label>std::vector&lt; Pre::SketchFeature &gt;</label>
+        <childnode refid="111" relation="usage">
+          <edgelabel>elements</edgelabel>
+        </childnode>
+      </node>
+      <node id="101">
+        <label>Pre::FSKETCHItem</label>
+        <link refid="class_pre_1_1_f_s_k_e_t_c_h_item"/>
+        <childnode refid="94" relation="usage">
+          <edgelabel>_name</edgelabel>
+        </childnode>
+        <childnode refid="98" relation="usage">
+          <edgelabel>_pFSketch</edgelabel>
+        </childnode>
+      </node>
+      <node id="100">
+        <label>std::vector&lt; Pre::FSKETCHItem * &gt;</label>
+        <childnode refid="101" relation="usage">
+          <edgelabel>elements</edgelabel>
+        </childnode>
+      </node>
+      <node id="107">
+        <label>std::basic_istream&lt; Char &gt;</label>
+        <childnode refid="108" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="113">
+        <label>std::vector&lt; Pre::Feature * &gt;</label>
+        <childnode refid="99" relation="usage">
+          <edgelabel>elements</edgelabel>
+        </childnode>
+      </node>
+      <node id="102">
+        <label>std::vector&lt; Pre::ReportItem &gt;</label>
+        <childnode refid="103" relation="usage">
+          <edgelabel>elements</edgelabel>
+        </childnode>
+      </node>
+      <node id="99">
+        <label>Pre::Feature</label>
+        <link refid="class_pre_1_1_feature"/>
+        <childnode refid="90" relation="usage">
+          <edgelabel>_pPart</edgelabel>
+        </childnode>
+        <childnode refid="94" relation="usage">
+          <edgelabel>_name</edgelabel>
+        </childnode>
+      </node>
+      <node id="93">
+        <label>std::vector&lt; FaceInfoList &gt;</label>
+      </node>
+      <node id="92">
+        <label>Pre::ReferenceEntity</label>
+        <link refid="class_pre_1_1_reference_entity"/>
+        <childnode refid="93" relation="usage">
+          <edgelabel>pEdge</edgelabel>
+        </childnode>
+        <childnode refid="90" relation="usage">
+          <edgelabel>_pPart</edgelabel>
+        </childnode>
+        <childnode refid="94" relation="usage">
+          <edgelabel>feature</edgelabel>
+          <edgelabel>TransCADEdgeName</edgelabel>
+          <edgelabel>TransCADFaceName</edgelabel>
+          <edgelabel>name</edgelabel>
+          <edgelabel>axis</edgelabel>
+        </childnode>
+        <childnode refid="96" relation="usage">
+          <edgelabel>pFace</edgelabel>
+        </childnode>
+        <childnode refid="98" relation="usage">
+          <edgelabel>pSketchManager</edgelabel>
+        </childnode>
+        <childnode refid="104" relation="usage">
+          <edgelabel>pWire</edgelabel>
+        </childnode>
+      </node>
+      <node id="95">
+        <label>std::basic_string&lt; char &gt;</label>
+      </node>
+      <node id="97">
+        <label>FaceInfo</label>
+        <link refid="struct_face_info"/>
+      </node>
+      <node id="103">
+        <label>Pre::ReportItem</label>
+        <link refid="struct_pre_1_1_report_item"/>
+        <childnode refid="94" relation="usage">
+          <edgelabel>_entityName</edgelabel>
+        </childnode>
+      </node>
+      <node id="104">
+        <label>WireInfo</label>
+        <link refid="struct_wire_info"/>
+      </node>
+      <node id="89">
+        <label>Pre::AttributeItem</label>
+        <link refid="class_pre_1_1_attribute_item"/>
+        <childnode refid="90" relation="usage">
+          <edgelabel>_pPart</edgelabel>
+        </childnode>
+        <childnode refid="94" relation="usage">
+          <edgelabel>_featureName</edgelabel>
+          <edgelabel>_name</edgelabel>
+          <edgelabel>_attributeName</edgelabel>
+        </childnode>
+      </node>
+      <node id="111">
+        <label>Pre::SketchFeature</label>
+        <link refid="struct_pre_1_1_sketch_feature"/>
+        <childnode refid="94" relation="usage">
+          <edgelabel>_featureName</edgelabel>
+          <edgelabel>_sketchName</edgelabel>
+        </childnode>
+      </node>
+      <node id="108">
+        <label>std::basic_ios&lt; Char &gt;</label>
+        <childnode refid="109" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="90">
+        <label>Pre::Part</label>
+        <link refid="class_pre_1_1_part"/>
+        <childnode refid="91" relation="usage">
+          <edgelabel>_referenceEntityList</edgelabel>
+        </childnode>
+        <childnode refid="105" relation="usage">
+          <edgelabel>fin</edgelabel>
+        </childnode>
+        <childnode refid="110" relation="usage">
+          <edgelabel>sketchNameTable</edgelabel>
+        </childnode>
+        <childnode refid="94" relation="usage">
+          <edgelabel>_fileName</edgelabel>
+          <edgelabel>_filePath</edgelabel>
+        </childnode>
+        <childnode refid="112" relation="usage">
+          <edgelabel>_attributeItemList</edgelabel>
+        </childnode>
+        <childnode refid="113" relation="usage">
+          <edgelabel>_featureList</edgelabel>
+        </childnode>
+      </node>
+      <node id="109">
+        <label>std::ios_base</label>
+      </node>
+      <node id="105">
+        <label>std::ifstream</label>
+        <childnode refid="106" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="112">
+        <label>std::vector&lt; Pre::AttributeItem * &gt;</label>
+        <childnode refid="89" relation="usage">
+          <edgelabel>elements</edgelabel>
+        </childnode>
+      </node>
+      <node id="96">
+        <label>std::vector&lt; FaceInfo &gt;</label>
+        <childnode refid="97" relation="usage">
+          <edgelabel>elements</edgelabel>
+        </childnode>
+      </node>
+      <node id="94">
+        <label>std::string</label>
+        <childnode refid="95" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="98">
+        <label>Pre::FSketch</label>
+        <link refid="class_pre_1_1_f_sketch"/>
+        <childnode refid="99" relation="public-inheritance">
+        </childnode>
+        <childnode refid="100" relation="usage">
+          <edgelabel>_sketchItemList</edgelabel>
+        </childnode>
+        <childnode refid="92" relation="usage">
+          <edgelabel>_pReferenceEntity</edgelabel>
+        </childnode>
+        <childnode refid="94" relation="usage">
+          <edgelabel>_axisName</edgelabel>
+          <edgelabel>_factoryName</edgelabel>
+        </childnode>
+        <childnode refid="102" relation="usage">
+          <edgelabel>reportNameTable</edgelabel>
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/PreManager/ref/AttIntParam.h" line="5" column="1" bodyfile="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/PreManager/ref/AttIntParam.h" bodystart="4" bodyend="12"/>
+    <listofallmembers>
+      <member refid="class_pre_1_1_attribute_item_1a2367284f0672249ae539ac1924f12bb7" prot="protected" virt="non-virtual"><scope>Pre::AttIntParam</scope><name>_attributeName</name></member>
+      <member refid="class_pre_1_1_attribute_item_1a921288c89d639a103f98ccad5f3f01cb" prot="protected" virt="non-virtual"><scope>Pre::AttIntParam</scope><name>_featureName</name></member>
+      <member refid="class_pre_1_1_attribute_item_1ac709c5fd9ce19ec7c34bfde540ff33b8" prot="protected" virt="non-virtual"><scope>Pre::AttIntParam</scope><name>_id</name></member>
+      <member refid="class_pre_1_1_attribute_item_1a038f7f3ec13f1a554ab853a646ea731c" prot="protected" virt="non-virtual"><scope>Pre::AttIntParam</scope><name>_name</name></member>
+      <member refid="class_pre_1_1_attribute_item_1a4fd56bf25f94537ccf373c6469f51738" prot="protected" virt="non-virtual"><scope>Pre::AttIntParam</scope><name>_pPart</name></member>
+      <member refid="class_pre_1_1_attribute_item_1a444b077c58fe0ada93ee55fd9eb58d52" prot="protected" virt="non-virtual"><scope>Pre::AttIntParam</scope><name>_type</name></member>
+      <member refid="class_pre_1_1_attribute_item_1a55411a73e84ce380f4b22d87be0c065a" prot="protected" virt="non-virtual"><scope>Pre::AttIntParam</scope><name>_value</name></member>
+      <member refid="class_pre_1_1_att_int_param_1a127ab8dda8f429e1f3132e16ce0ffeea" prot="public" virt="non-virtual"><scope>Pre::AttIntParam</scope><name>AttIntParam</name></member>
+      <member refid="class_pre_1_1_attribute_item_1af09ccc36da03bf511b44247b25c83f35" prot="public" virt="non-virtual"><scope>Pre::AttIntParam</scope><name>AttributeItem</name></member>
+      <member refid="class_pre_1_1_attribute_item_1aee247cd7e3f5b5b86562ceec3dd9b283" prot="public" virt="virtual"><scope>Pre::AttIntParam</scope><name>CheckAttribute</name></member>
+      <member refid="class_pre_1_1_attribute_item_1a912344f0ae1aeb9a30ca84254fa228f1" prot="public" virt="non-virtual"><scope>Pre::AttIntParam</scope><name>GetId</name></member>
+      <member refid="class_pre_1_1_att_int_param_1a2e33a947c0dcef3a929b02783c384924" prot="public" virt="virtual"><scope>Pre::AttIntParam</scope><name>GetInfo</name></member>
+      <member refid="class_pre_1_1_attribute_item_1a1a9180e1336ee3cad4e736f7bba27184" prot="public" virt="non-virtual"><scope>Pre::AttIntParam</scope><name>GetName</name></member>
+      <member refid="class_pre_1_1_attribute_item_1a028595a3b4b90035019a41f1c590062e" prot="public" virt="non-virtual"><scope>Pre::AttIntParam</scope><name>GetPart</name></member>
+      <member refid="class_pre_1_1_attribute_item_1ac05a2863468303053150293b6f10ceec" prot="public" virt="non-virtual"><scope>Pre::AttIntParam</scope><name>GetType</name></member>
+      <member refid="class_pre_1_1_att_int_param_1a2d5af6fdd6fb02fd753b53a8d9d244ed" prot="public" virt="virtual"><scope>Pre::AttIntParam</scope><name>Modify</name></member>
+      <member refid="class_pre_1_1_att_int_param_1a8b98658d9ce09ef0ff5d64b5a921c36b" prot="public" virt="virtual"><scope>Pre::AttIntParam</scope><name>~AttIntParam</name></member>
+      <member refid="class_pre_1_1_attribute_item_1aad0efaa8b68b971b8342b8634576c1d5" prot="public" virt="virtual"><scope>Pre::AttIntParam</scope><name>~AttributeItem</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

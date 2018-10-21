@@ -1,0 +1,376 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="_pre_manager_2targetver_8h" kind="file">
+    <compoundname>targetver.h</compoundname>
+    <includes local="no">SDKDDKVer.h</includes>
+    <includedby refid="_pre_manager_2_stdafx_8h" local="yes">PreManager/stdafx.h</includedby>
+    <incdepgraph>
+      <node id="2734">
+        <label>SDKDDKVer.h</label>
+      </node>
+      <node id="2733">
+        <label>PreManager/targetver.h</label>
+        <link refid="PreManager/targetver.h"/>
+        <childnode refid="2734" relation="include">
+        </childnode>
+      </node>
+    </incdepgraph>
+    <invincdepgraph>
+      <node id="2786">
+        <label>PreManager/ref/FSKETCHCreate2DLine2Points.cpp</label>
+        <link refid="_f_s_k_e_t_c_h_create2_d_line2_points_8cpp"/>
+      </node>
+      <node id="2738">
+        <label>PostManager/ref/CATIAReferenceManager.cpp</label>
+        <link refid="_c_a_t_i_a_reference_manager_8cpp"/>
+      </node>
+      <node id="2745">
+        <label>PostManager/ref/FeatureSOLIDCreateFacesLoft.cpp</label>
+        <link refid="_feature_s_o_l_i_d_create_faces_loft_8cpp"/>
+      </node>
+      <node id="2788">
+        <label>PreManager/ref/FSKETCHItem.cpp</label>
+        <link refid="_f_s_k_e_t_c_h_item_8cpp"/>
+      </node>
+      <node id="2758">
+        <label>PostManager/ref/Part.cpp</label>
+        <link refid="_post_manager_2ref_2_part_8cpp"/>
+      </node>
+      <node id="2761">
+        <label>PostManager/ref/SKETCHCreate2DCircularArc.cpp</label>
+        <link refid="_s_k_e_t_c_h_create2_d_circular_arc_8cpp"/>
+      </node>
+      <node id="2784">
+        <label>PreManager/ref/FSketch.cpp</label>
+        <link refid="_pre_manager_2ref_2_f_sketch_8cpp"/>
+      </node>
+      <node id="2749">
+        <label>PostManager/ref/FeatureSOLIDCreatePatternCircular.cpp</label>
+        <link refid="_post_manager_2ref_2_feature_s_o_l_i_d_create_pattern_circular_8cpp"/>
+      </node>
+      <node id="2778">
+        <label>PreManager/ref/FeatureSOLIDCreateFilletConstant.cpp</label>
+        <link refid="_pre_manager_2ref_2_feature_s_o_l_i_d_create_fillet_constant_8cpp"/>
+      </node>
+      <node id="2769">
+        <label>PreManager/ref/AttLimit.cpp</label>
+        <link refid="_att_limit_8cpp"/>
+      </node>
+      <node id="2775">
+        <label>PreManager/ref/Feature.cpp</label>
+        <link refid="_pre_manager_2ref_2_feature_8cpp"/>
+      </node>
+      <node id="2759">
+        <label>PostManager/ref/SKETCHCreate2DCenterline.cpp</label>
+        <link refid="_s_k_e_t_c_h_create2_d_centerline_8cpp"/>
+      </node>
+      <node id="2763">
+        <label>PostManager/ref/SKETCHCreate2DPoint.cpp</label>
+        <link refid="_s_k_e_t_c_h_create2_d_point_8cpp"/>
+      </node>
+      <node id="2770">
+        <label>PreManager/ref/AttLinearRepartation.cpp</label>
+        <link refid="_att_linear_repartation_8cpp"/>
+      </node>
+      <node id="2744">
+        <label>PostManager/ref/FeatureSOLIDCreateCutRevolve.cpp</label>
+        <link refid="_feature_s_o_l_i_d_create_cut_revolve_8cpp"/>
+      </node>
+      <node id="2757">
+        <label>PostManager/ref/MP_Utility.cpp</label>
+        <link refid="_m_p___utility_8cpp"/>
+      </node>
+      <node id="2773">
+        <label>PreManager/ref/CATIApre_DLL.cpp</label>
+        <link refid="_c_a_t_i_apre___d_l_l_8cpp"/>
+      </node>
+      <node id="2779">
+        <label>PreManager/ref/FeatureSOLIDCreateHole.cpp</label>
+        <link refid="_feature_s_o_l_i_d_create_hole_8cpp"/>
+      </node>
+      <node id="2750">
+        <label>PostManager/ref/FeatureSOLIDCreatePatternRectangular.cpp</label>
+        <link refid="_post_manager_2ref_2_feature_s_o_l_i_d_create_pattern_rectangular_8cpp"/>
+      </node>
+      <node id="2780">
+        <label>PreManager/ref/FeatureSOLIDCreatePatternCircular.cpp</label>
+        <link refid="_pre_manager_2ref_2_feature_s_o_l_i_d_create_pattern_circular_8cpp"/>
+      </node>
+      <node id="2743">
+        <label>PostManager/ref/FeatureSOLIDCreateCutExtrude.cpp</label>
+        <link refid="_feature_s_o_l_i_d_create_cut_extrude_8cpp"/>
+      </node>
+      <node id="2762">
+        <label>PostManager/ref/SKETCHCreate2DLine2Points.cpp</label>
+        <link refid="_s_k_e_t_c_h_create2_d_line2_points_8cpp"/>
+      </node>
+      <node id="2740">
+        <label>PostManager/ref/FDatumPlaneOffset.cpp</label>
+        <link refid="_post_manager_2ref_2_f_datum_plane_offset_8cpp"/>
+      </node>
+      <node id="2768">
+        <label>PreManager/ref/AttLength.cpp</label>
+        <link refid="_att_length_8cpp"/>
+      </node>
+      <node id="2764">
+        <label>PostManager/ref/SKETCHItem.cpp</label>
+        <link refid="_s_k_e_t_c_h_item_8cpp"/>
+      </node>
+      <node id="2783">
+        <label>PreManager/ref/FeatureSOLIDCreateSweep.cpp</label>
+        <link refid="_feature_s_o_l_i_d_create_sweep_8cpp"/>
+      </node>
+      <node id="2747">
+        <label>PostManager/ref/FeatureSOLIDCreateHoleCounterbored.cpp</label>
+        <link refid="_feature_s_o_l_i_d_create_hole_counterbored_8cpp"/>
+      </node>
+      <node id="2781">
+        <label>PreManager/ref/FeatureSOLIDCreatePatternRectangular.cpp</label>
+        <link refid="_pre_manager_2ref_2_feature_s_o_l_i_d_create_pattern_rectangular_8cpp"/>
+      </node>
+      <node id="2776">
+        <label>PreManager/ref/FeatureSOLIDCreateChamfer.cpp</label>
+        <link refid="_pre_manager_2ref_2_feature_s_o_l_i_d_create_chamfer_8cpp"/>
+      </node>
+      <node id="2751">
+        <label>PostManager/ref/FeatureSOLIDCreateProtrusionExtrude.cpp</label>
+        <link refid="_feature_s_o_l_i_d_create_protrusion_extrude_8cpp"/>
+      </node>
+      <node id="2787">
+        <label>PreManager/ref/FSKETCHCreate2DPoint.cpp</label>
+        <link refid="_f_s_k_e_t_c_h_create2_d_point_8cpp"/>
+      </node>
+      <node id="2782">
+        <label>PreManager/ref/FeatureSOLIDCreateRevolve.cpp</label>
+        <link refid="_feature_s_o_l_i_d_create_revolve_8cpp"/>
+      </node>
+      <node id="2771">
+        <label>PreManager/ref/AttParameter.cpp</label>
+        <link refid="_att_parameter_8cpp"/>
+      </node>
+      <node id="2736">
+        <label>PreManager/stdafx.h</label>
+        <link refid="_pre_manager_2_stdafx_8h"/>
+        <childnode refid="2737" relation="include">
+        </childnode>
+        <childnode refid="2738" relation="include">
+        </childnode>
+        <childnode refid="2739" relation="include">
+        </childnode>
+        <childnode refid="2740" relation="include">
+        </childnode>
+        <childnode refid="2741" relation="include">
+        </childnode>
+        <childnode refid="2742" relation="include">
+        </childnode>
+        <childnode refid="2743" relation="include">
+        </childnode>
+        <childnode refid="2744" relation="include">
+        </childnode>
+        <childnode refid="2745" relation="include">
+        </childnode>
+        <childnode refid="2746" relation="include">
+        </childnode>
+        <childnode refid="2747" relation="include">
+        </childnode>
+        <childnode refid="2748" relation="include">
+        </childnode>
+        <childnode refid="2749" relation="include">
+        </childnode>
+        <childnode refid="2750" relation="include">
+        </childnode>
+        <childnode refid="2751" relation="include">
+        </childnode>
+        <childnode refid="2752" relation="include">
+        </childnode>
+        <childnode refid="2753" relation="include">
+        </childnode>
+        <childnode refid="2754" relation="include">
+        </childnode>
+        <childnode refid="2755" relation="include">
+        </childnode>
+        <childnode refid="2756" relation="include">
+        </childnode>
+        <childnode refid="2757" relation="include">
+        </childnode>
+        <childnode refid="2758" relation="include">
+        </childnode>
+        <childnode refid="2759" relation="include">
+        </childnode>
+        <childnode refid="2760" relation="include">
+        </childnode>
+        <childnode refid="2761" relation="include">
+        </childnode>
+        <childnode refid="2762" relation="include">
+        </childnode>
+        <childnode refid="2763" relation="include">
+        </childnode>
+        <childnode refid="2764" relation="include">
+        </childnode>
+        <childnode refid="2765" relation="include">
+        </childnode>
+        <childnode refid="2766" relation="include">
+        </childnode>
+        <childnode refid="2767" relation="include">
+        </childnode>
+        <childnode refid="2768" relation="include">
+        </childnode>
+        <childnode refid="2769" relation="include">
+        </childnode>
+        <childnode refid="2770" relation="include">
+        </childnode>
+        <childnode refid="2771" relation="include">
+        </childnode>
+        <childnode refid="2772" relation="include">
+        </childnode>
+        <childnode refid="2773" relation="include">
+        </childnode>
+        <childnode refid="2774" relation="include">
+        </childnode>
+        <childnode refid="2775" relation="include">
+        </childnode>
+        <childnode refid="2776" relation="include">
+        </childnode>
+        <childnode refid="2777" relation="include">
+        </childnode>
+        <childnode refid="2778" relation="include">
+        </childnode>
+        <childnode refid="2779" relation="include">
+        </childnode>
+        <childnode refid="2780" relation="include">
+        </childnode>
+        <childnode refid="2781" relation="include">
+        </childnode>
+        <childnode refid="2782" relation="include">
+        </childnode>
+        <childnode refid="2783" relation="include">
+        </childnode>
+        <childnode refid="2784" relation="include">
+        </childnode>
+        <childnode refid="2785" relation="include">
+        </childnode>
+        <childnode refid="2786" relation="include">
+        </childnode>
+        <childnode refid="2787" relation="include">
+        </childnode>
+        <childnode refid="2788" relation="include">
+        </childnode>
+        <childnode refid="2789" relation="include">
+        </childnode>
+        <childnode refid="2790" relation="include">
+        </childnode>
+        <childnode refid="2791" relation="include">
+        </childnode>
+      </node>
+      <node id="2791">
+        <label>PreManager/stdafx.cpp</label>
+        <link refid="_pre_manager_2_stdafx_8cpp"/>
+      </node>
+      <node id="2767">
+        <label>PreManager/ref/AttIntParam.cpp</label>
+        <link refid="_att_int_param_8cpp"/>
+      </node>
+      <node id="2748">
+        <label>PostManager/ref/FeatureSOLIDCreateHoleCountersunk.cpp</label>
+        <link refid="_feature_s_o_l_i_d_create_hole_countersunk_8cpp"/>
+      </node>
+      <node id="2772">
+        <label>PreManager/ref/AttributeItem.cpp</label>
+        <link refid="_attribute_item_8cpp"/>
+      </node>
+      <node id="2774">
+        <label>PreManager/ref/FDatumPlaneOffset.cpp</label>
+        <link refid="_pre_manager_2ref_2_f_datum_plane_offset_8cpp"/>
+      </node>
+      <node id="2777">
+        <label>PreManager/ref/FeatureSOLIDCreateExtrude.cpp</label>
+        <link refid="_feature_s_o_l_i_d_create_extrude_8cpp"/>
+      </node>
+      <node id="2739">
+        <label>PostManager/ref/FDatumPlane.cpp</label>
+        <link refid="_f_datum_plane_8cpp"/>
+      </node>
+      <node id="2760">
+        <label>PostManager/ref/SKETCHCreate2DCircleCenterPoint.cpp</label>
+        <link refid="_s_k_e_t_c_h_create2_d_circle_center_point_8cpp"/>
+      </node>
+      <node id="2765">
+        <label>PreManager/ref/AttAngle.cpp</label>
+        <link refid="_att_angle_8cpp"/>
+      </node>
+      <node id="2766">
+        <label>PreManager/ref/AttAngularRepartation.cpp</label>
+        <link refid="_att_angular_repartation_8cpp"/>
+      </node>
+      <node id="2790">
+        <label>PreManager/ref/ReferenceEntity.cpp</label>
+        <link refid="_reference_entity_8cpp"/>
+      </node>
+      <node id="2735">
+        <label>PreManager/targetver.h</label>
+        <link refid="PreManager/targetver.h"/>
+        <childnode refid="2736" relation="include">
+        </childnode>
+      </node>
+      <node id="2752">
+        <label>PostManager/ref/FeatureSOLIDCreateProtrusionLoft.cpp</label>
+        <link refid="_feature_s_o_l_i_d_create_protrusion_loft_8cpp"/>
+      </node>
+      <node id="2785">
+        <label>PreManager/ref/FSKETCHCreate2DCircleCenterPoint.cpp</label>
+        <link refid="_f_s_k_e_t_c_h_create2_d_circle_center_point_8cpp"/>
+      </node>
+      <node id="2789">
+        <label>PreManager/ref/Part.cpp</label>
+        <link refid="_pre_manager_2ref_2_part_8cpp"/>
+      </node>
+      <node id="2755">
+        <label>PostManager/ref/FeatureSOLIDCreateSectionsLoft.cpp</label>
+        <link refid="_feature_s_o_l_i_d_create_sections_loft_8cpp"/>
+      </node>
+      <node id="2754">
+        <label>PostManager/ref/FeatureSOLIDCreateProtrusionSweep.cpp</label>
+        <link refid="_feature_s_o_l_i_d_create_protrusion_sweep_8cpp"/>
+      </node>
+      <node id="2756">
+        <label>PostManager/ref/FSketch.cpp</label>
+        <link refid="_post_manager_2ref_2_f_sketch_8cpp"/>
+      </node>
+      <node id="2746">
+        <label>PostManager/ref/FeatureSOLIDCreateFilletConstant.cpp</label>
+        <link refid="_post_manager_2ref_2_feature_s_o_l_i_d_create_fillet_constant_8cpp"/>
+      </node>
+      <node id="2737">
+        <label>PostManager/ref/CATIApost_DLL.cpp</label>
+        <link refid="_c_a_t_i_apost___d_l_l_8cpp"/>
+      </node>
+      <node id="2741">
+        <label>PostManager/ref/Feature.cpp</label>
+        <link refid="_post_manager_2ref_2_feature_8cpp"/>
+      </node>
+      <node id="2753">
+        <label>PostManager/ref/FeatureSOLIDCreateProtrusionRevolve.cpp</label>
+        <link refid="_feature_s_o_l_i_d_create_protrusion_revolve_8cpp"/>
+      </node>
+      <node id="2742">
+        <label>PostManager/ref/FeatureSOLIDCreateChamfer.cpp</label>
+        <link refid="_post_manager_2ref_2_feature_s_o_l_i_d_create_chamfer_8cpp"/>
+      </node>
+    </invincdepgraph>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="preprocessor">#pragma<sp/>once</highlight></codeline>
+<codeline lineno="2"><highlight class="preprocessor"></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="comment">//<sp/>SDKDDKVer.h를<sp/>포함하면<sp/>최고<sp/>수준의<sp/>가용성을<sp/>가진<sp/>Windows<sp/>플랫폼이<sp/>정의됩니다.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight><highlight class="comment">//<sp/>이전<sp/>Windows<sp/>플랫폼에<sp/>대해<sp/>응용<sp/>프로그램을<sp/>빌드하려는<sp/>경우에는<sp/>SDKDDKVer.h를<sp/>포함하기<sp/>전에</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight><highlight class="comment">//<sp/>WinSDKVer.h를<sp/>포함하고<sp/>_WIN32_WINNT<sp/>매크로를<sp/>지원하려는<sp/>플랫폼으로<sp/>설정하십시오.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;SDKDDKVer.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+    </programlisting>
+    <location file="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/PreManager/targetver.h"/>
+  </compounddef>
+</doxygen>

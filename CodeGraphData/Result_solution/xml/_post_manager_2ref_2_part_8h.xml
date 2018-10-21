@@ -1,0 +1,587 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="_post_manager_2ref_2_part_8h" kind="file">
+    <compoundname>Part.h</compoundname>
+    <includes refid="_c_a_t_i_apost___d_l_l_8h" local="yes">CATIApost_DLL.h</includes>
+    <includes refid="_c_a_t_i_a_reference_manager_8h" local="yes">CATIAReferenceManager.h</includes>
+    <includedby refid="_reference_class_8h" local="yes">CPPWITHCSHARP/ReferenceClass.h</includedby>
+    <includedby refid="_c_a_t_i_apost___d_l_l_8cpp" local="yes">PostManager/ref/CATIApost_DLL.cpp</includedby>
+    <includedby refid="_post_manager_2ref_2_feature_8h" local="yes">PostManager/ref/Feature.h</includedby>
+    <includedby refid="_post_manager_2ref_2_part_8cpp" local="yes">PostManager/ref/Part.cpp</includedby>
+    <incdepgraph>
+      <node id="2193">
+        <label>atlstr.h</label>
+      </node>
+      <node id="2199">
+        <label>stdlib.h</label>
+      </node>
+      <node id="2201">
+        <label>cmath</label>
+      </node>
+      <node id="2195">
+        <label>string</label>
+      </node>
+      <node id="2200">
+        <label>comutil.h</label>
+      </node>
+      <node id="2196">
+        <label>fstream</label>
+      </node>
+      <node id="2190">
+        <label>PostManager/ref/Part.h</label>
+        <link refid="PostManager/ref/Part.h"/>
+        <childnode refid="2191" relation="include">
+        </childnode>
+        <childnode refid="2204" relation="include">
+        </childnode>
+      </node>
+      <node id="2208">
+        <label>MP_Utility.h</label>
+        <link refid="_m_p___utility_8h"/>
+        <childnode refid="2205" relation="include">
+        </childnode>
+      </node>
+      <node id="2207">
+        <label>string.h</label>
+      </node>
+      <node id="2197">
+        <label>vector</label>
+      </node>
+      <node id="2203">
+        <label>math.h</label>
+      </node>
+      <node id="2192">
+        <label>atlbase.h</label>
+      </node>
+      <node id="2204">
+        <label>CATIAReferenceManager.h</label>
+        <link refid="_c_a_t_i_a_reference_manager_8h"/>
+        <childnode refid="2191" relation="include">
+        </childnode>
+        <childnode refid="2205" relation="include">
+        </childnode>
+        <childnode refid="2208" relation="include">
+        </childnode>
+      </node>
+      <node id="2194">
+        <label>iostream</label>
+      </node>
+      <node id="2202">
+        <label>Definition.h</label>
+        <link refid="_post_manager_2ref_2_definition_8h"/>
+        <childnode refid="2203" relation="include">
+        </childnode>
+      </node>
+      <node id="2206">
+        <label>algorithm</label>
+      </node>
+      <node id="2198">
+        <label>stdio.h</label>
+      </node>
+      <node id="2205">
+        <label>PN_TYPE.h</label>
+        <link refid="_p_n___t_y_p_e_8h"/>
+        <childnode refid="2194" relation="include">
+        </childnode>
+        <childnode refid="2195" relation="include">
+        </childnode>
+        <childnode refid="2197" relation="include">
+        </childnode>
+        <childnode refid="2206" relation="include">
+        </childnode>
+        <childnode refid="2203" relation="include">
+        </childnode>
+        <childnode refid="2207" relation="include">
+        </childnode>
+      </node>
+      <node id="2191">
+        <label>CATIApost_DLL.h</label>
+        <link refid="_c_a_t_i_apost___d_l_l_8h"/>
+        <childnode refid="2192" relation="include">
+        </childnode>
+        <childnode refid="2193" relation="include">
+        </childnode>
+        <childnode refid="2194" relation="include">
+        </childnode>
+        <childnode refid="2195" relation="include">
+        </childnode>
+        <childnode refid="2196" relation="include">
+        </childnode>
+        <childnode refid="2197" relation="include">
+        </childnode>
+        <childnode refid="2198" relation="include">
+        </childnode>
+        <childnode refid="2199" relation="include">
+        </childnode>
+        <childnode refid="2200" relation="include">
+        </childnode>
+        <childnode refid="2201" relation="include">
+        </childnode>
+        <childnode refid="2202" relation="include">
+        </childnode>
+      </node>
+    </incdepgraph>
+    <invincdepgraph>
+      <node id="2221">
+        <label>PostManager/ref/FeatureSOLIDCreateFacesLoft.cpp</label>
+        <link refid="_feature_s_o_l_i_d_create_faces_loft_8cpp"/>
+      </node>
+      <node id="2265">
+        <label>PostManager/ref/FeatureSOLIDCreateSectionsLoft.h</label>
+        <link refid="_feature_s_o_l_i_d_create_sections_loft_8h"/>
+        <childnode refid="2226" relation="include">
+        </childnode>
+        <childnode refid="2240" relation="include">
+        </childnode>
+      </node>
+      <node id="2240">
+        <label>PostManager/ref/Part.cpp</label>
+        <link refid="_post_manager_2ref_2_part_8cpp"/>
+      </node>
+      <node id="2236">
+        <label>PostManager/ref/SKETCHCreate2DCircularArc.cpp</label>
+        <link refid="_s_k_e_t_c_h_create2_d_circular_arc_8cpp"/>
+      </node>
+      <node id="2211">
+        <label>CPPWITHCSHARP/ReferenceClass.cpp</label>
+        <link refid="_reference_class_8cpp"/>
+      </node>
+      <node id="2258">
+        <label>PostManager/ref/FeatureSOLIDCreatePatternCircular.cpp</label>
+        <link refid="_post_manager_2ref_2_feature_s_o_l_i_d_create_pattern_circular_8cpp"/>
+      </node>
+      <node id="2218">
+        <label>PostManager/ref/FSketch.h</label>
+        <link refid="_post_manager_2ref_2_f_sketch_8h"/>
+        <childnode refid="2216" relation="include">
+        </childnode>
+        <childnode refid="2219" relation="include">
+        </childnode>
+        <childnode refid="2220" relation="include">
+        </childnode>
+        <childnode refid="2221" relation="include">
+        </childnode>
+        <childnode refid="2222" relation="include">
+        </childnode>
+        <childnode refid="2223" relation="include">
+        </childnode>
+        <childnode refid="2224" relation="include">
+        </childnode>
+        <childnode refid="2225" relation="include">
+        </childnode>
+        <childnode refid="2226" relation="include">
+        </childnode>
+        <childnode refid="2227" relation="include">
+        </childnode>
+        <childnode refid="2228" relation="include">
+        </childnode>
+        <childnode refid="2240" relation="include">
+        </childnode>
+      </node>
+      <node id="2255">
+        <label>PostManager/ref/FeatureSOLIDCreateHoleCountersunk.h</label>
+        <link refid="_feature_s_o_l_i_d_create_hole_countersunk_8h"/>
+        <childnode refid="2256" relation="include">
+        </childnode>
+        <childnode refid="2240" relation="include">
+        </childnode>
+      </node>
+      <node id="2217">
+        <label>PostManager/ref/Feature.h</label>
+        <link refid="_post_manager_2ref_2_feature_8h"/>
+        <childnode refid="2218" relation="include">
+        </childnode>
+        <childnode refid="2241" relation="include">
+        </childnode>
+        <childnode refid="2243" relation="include">
+        </childnode>
+        <childnode refid="2245" relation="include">
+        </childnode>
+        <childnode refid="2246" relation="include">
+        </childnode>
+        <childnode refid="2248" relation="include">
+        </childnode>
+        <childnode refid="2249" relation="include">
+        </childnode>
+        <childnode refid="2250" relation="include">
+        </childnode>
+        <childnode refid="2251" relation="include">
+        </childnode>
+        <childnode refid="2253" relation="include">
+        </childnode>
+        <childnode refid="2255" relation="include">
+        </childnode>
+        <childnode refid="2257" relation="include">
+        </childnode>
+        <childnode refid="2259" relation="include">
+        </childnode>
+        <childnode refid="2261" relation="include">
+        </childnode>
+        <childnode refid="2262" relation="include">
+        </childnode>
+        <childnode refid="2263" relation="include">
+        </childnode>
+        <childnode refid="2264" relation="include">
+        </childnode>
+        <childnode refid="2265" relation="include">
+        </childnode>
+        <childnode refid="2240" relation="include">
+        </childnode>
+      </node>
+      <node id="2238">
+        <label>PostManager/ref/SKETCHCreate2DCenterline.cpp</label>
+        <link refid="_s_k_e_t_c_h_create2_d_centerline_8cpp"/>
+      </node>
+      <node id="2234">
+        <label>PostManager/ref/SKETCHCreate2DPoint.cpp</label>
+        <link refid="_s_k_e_t_c_h_create2_d_point_8cpp"/>
+      </node>
+      <node id="2220">
+        <label>PostManager/ref/FeatureSOLIDCreateCutRevolve.cpp</label>
+        <link refid="_feature_s_o_l_i_d_create_cut_revolve_8cpp"/>
+      </node>
+      <node id="2215">
+        <label>CPPWITHCSHARP/ReferenceClass_Pre.cpp</label>
+        <link refid="_reference_class___pre_8cpp"/>
+      </node>
+      <node id="2229">
+        <label>PostManager/ref/SKETCHCreate2DCircleCenterPoint.h</label>
+        <link refid="_s_k_e_t_c_h_create2_d_circle_center_point_8h"/>
+        <childnode refid="2227" relation="include">
+        </childnode>
+        <childnode refid="2230" relation="include">
+        </childnode>
+      </node>
+      <node id="2260">
+        <label>PostManager/ref/FeatureSOLIDCreatePatternRectangular.cpp</label>
+        <link refid="_post_manager_2ref_2_feature_s_o_l_i_d_create_pattern_rectangular_8cpp"/>
+      </node>
+      <node id="2231">
+        <label>PostManager/ref/SKETCHCreate2DLine2Points.h</label>
+        <link refid="_s_k_e_t_c_h_create2_d_line2_points_8h"/>
+        <childnode refid="2227" relation="include">
+        </childnode>
+        <childnode refid="2232" relation="include">
+        </childnode>
+      </node>
+      <node id="2243">
+        <label>PostManager/ref/FDatumPlaneOffset.h</label>
+        <link refid="_post_manager_2ref_2_f_datum_plane_offset_8h"/>
+        <childnode refid="2244" relation="include">
+        </childnode>
+        <childnode refid="2227" relation="include">
+        </childnode>
+        <childnode refid="2240" relation="include">
+        </childnode>
+      </node>
+      <node id="2210">
+        <label>CPPWITHCSHARP/ReferenceClass.h</label>
+        <link refid="_reference_class_8h"/>
+        <childnode refid="2211" relation="include">
+        </childnode>
+        <childnode refid="2212" relation="include">
+        </childnode>
+        <childnode refid="2214" relation="include">
+        </childnode>
+      </node>
+      <node id="2209">
+        <label>PostManager/ref/Part.h</label>
+        <link refid="PostManager/ref/Part.h"/>
+        <childnode refid="2210" relation="include">
+        </childnode>
+        <childnode refid="2216" relation="include">
+        </childnode>
+        <childnode refid="2217" relation="include">
+        </childnode>
+        <childnode refid="2240" relation="include">
+        </childnode>
+      </node>
+      <node id="2214">
+        <label>CPPWITHCSHARP/ReferenceClass_Pre.h</label>
+        <link refid="_reference_class___pre_8h"/>
+        <childnode refid="2215" relation="include">
+        </childnode>
+      </node>
+      <node id="2241">
+        <label>PostManager/ref/FDatumPlane.h</label>
+        <link refid="_f_datum_plane_8h"/>
+        <childnode refid="2242" relation="include">
+        </childnode>
+        <childnode refid="2240" relation="include">
+        </childnode>
+      </node>
+      <node id="2219">
+        <label>PostManager/ref/FeatureSOLIDCreateCutExtrude.cpp</label>
+        <link refid="_feature_s_o_l_i_d_create_cut_extrude_8cpp"/>
+      </node>
+      <node id="2232">
+        <label>PostManager/ref/SKETCHCreate2DLine2Points.cpp</label>
+        <link refid="_s_k_e_t_c_h_create2_d_line2_points_8cpp"/>
+      </node>
+      <node id="2237">
+        <label>PostManager/ref/SKETCHCreate2DCenterline.h</label>
+        <link refid="_s_k_e_t_c_h_create2_d_centerline_8h"/>
+        <childnode refid="2227" relation="include">
+        </childnode>
+        <childnode refid="2238" relation="include">
+        </childnode>
+      </node>
+      <node id="2244">
+        <label>PostManager/ref/FDatumPlaneOffset.cpp</label>
+        <link refid="_post_manager_2ref_2_f_datum_plane_offset_8cpp"/>
+      </node>
+      <node id="2264">
+        <label>PostManager/ref/FeatureSOLIDCreateProtrusionSweep.h</label>
+        <link refid="_feature_s_o_l_i_d_create_protrusion_sweep_8h"/>
+        <childnode refid="2225" relation="include">
+        </childnode>
+        <childnode refid="2240" relation="include">
+        </childnode>
+      </node>
+      <node id="2259">
+        <label>PostManager/ref/FeatureSOLIDCreatePatternRectangular.h</label>
+        <link refid="_post_manager_2ref_2_feature_s_o_l_i_d_create_pattern_rectangular_8h"/>
+        <childnode refid="2260" relation="include">
+        </childnode>
+        <childnode refid="2240" relation="include">
+        </childnode>
+      </node>
+      <node id="2239">
+        <label>PostManager/ref/SKETCHItem.cpp</label>
+        <link refid="_s_k_e_t_c_h_item_8cpp"/>
+      </node>
+      <node id="2212">
+        <label>CPPWITHCSHARP/ReferenceClass_Post.h</label>
+        <link refid="_reference_class___post_8h"/>
+        <childnode refid="2213" relation="include">
+        </childnode>
+      </node>
+      <node id="2249">
+        <label>PostManager/ref/FeatureSOLIDCreateCutRevolve.h</label>
+        <link refid="_feature_s_o_l_i_d_create_cut_revolve_8h"/>
+        <childnode refid="2220" relation="include">
+        </childnode>
+        <childnode refid="2240" relation="include">
+        </childnode>
+      </node>
+      <node id="2261">
+        <label>PostManager/ref/FeatureSOLIDCreateProtrusionExtrude.h</label>
+        <link refid="_feature_s_o_l_i_d_create_protrusion_extrude_8h"/>
+        <childnode refid="2222" relation="include">
+        </childnode>
+        <childnode refid="2240" relation="include">
+        </childnode>
+      </node>
+      <node id="2263">
+        <label>PostManager/ref/FeatureSOLIDCreateProtrusionRevolve.h</label>
+        <link refid="_feature_s_o_l_i_d_create_protrusion_revolve_8h"/>
+        <childnode refid="2224" relation="include">
+        </childnode>
+        <childnode refid="2240" relation="include">
+        </childnode>
+      </node>
+      <node id="2254">
+        <label>PostManager/ref/FeatureSOLIDCreateHoleCounterbored.cpp</label>
+        <link refid="_feature_s_o_l_i_d_create_hole_counterbored_8cpp"/>
+      </node>
+      <node id="2262">
+        <label>PostManager/ref/FeatureSOLIDCreateProtrusionLoft.h</label>
+        <link refid="_feature_s_o_l_i_d_create_protrusion_loft_8h"/>
+        <childnode refid="2223" relation="include">
+        </childnode>
+      </node>
+      <node id="2228">
+        <label>PostManager/ref/SKETCHItem.h</label>
+        <link refid="_s_k_e_t_c_h_item_8h"/>
+        <childnode refid="2227" relation="include">
+        </childnode>
+        <childnode refid="2229" relation="include">
+        </childnode>
+        <childnode refid="2231" relation="include">
+        </childnode>
+        <childnode refid="2233" relation="include">
+        </childnode>
+        <childnode refid="2235" relation="include">
+        </childnode>
+        <childnode refid="2237" relation="include">
+        </childnode>
+        <childnode refid="2239" relation="include">
+        </childnode>
+      </node>
+      <node id="2222">
+        <label>PostManager/ref/FeatureSOLIDCreateProtrusionExtrude.cpp</label>
+        <link refid="_feature_s_o_l_i_d_create_protrusion_extrude_8cpp"/>
+      </node>
+      <node id="2256">
+        <label>PostManager/ref/FeatureSOLIDCreateHoleCountersunk.cpp</label>
+        <link refid="_feature_s_o_l_i_d_create_hole_countersunk_8cpp"/>
+      </node>
+      <node id="2251">
+        <label>PostManager/ref/FeatureSOLIDCreateFilletConstant.h</label>
+        <link refid="_post_manager_2ref_2_feature_s_o_l_i_d_create_fillet_constant_8h"/>
+        <childnode refid="2252" relation="include">
+        </childnode>
+        <childnode refid="2240" relation="include">
+        </childnode>
+      </node>
+      <node id="2248">
+        <label>PostManager/ref/FeatureSOLIDCreateCutExtrude.h</label>
+        <link refid="_feature_s_o_l_i_d_create_cut_extrude_8h"/>
+        <childnode refid="2219" relation="include">
+        </childnode>
+        <childnode refid="2240" relation="include">
+        </childnode>
+      </node>
+      <node id="2233">
+        <label>PostManager/ref/SKETCHCreate2DPoint.h</label>
+        <link refid="_s_k_e_t_c_h_create2_d_point_8h"/>
+        <childnode refid="2227" relation="include">
+        </childnode>
+        <childnode refid="2234" relation="include">
+        </childnode>
+      </node>
+      <node id="2242">
+        <label>PostManager/ref/FDatumPlane.cpp</label>
+        <link refid="_f_datum_plane_8cpp"/>
+      </node>
+      <node id="2230">
+        <label>PostManager/ref/SKETCHCreate2DCircleCenterPoint.cpp</label>
+        <link refid="_s_k_e_t_c_h_create2_d_circle_center_point_8cpp"/>
+      </node>
+      <node id="2213">
+        <label>CPPWITHCSHARP/ReferenceClass_Post.cpp</label>
+        <link refid="_reference_class___post_8cpp"/>
+      </node>
+      <node id="2246">
+        <label>PostManager/ref/FeatureSOLIDCreateChamfer.h</label>
+        <link refid="_post_manager_2ref_2_feature_s_o_l_i_d_create_chamfer_8h"/>
+        <childnode refid="2247" relation="include">
+        </childnode>
+        <childnode refid="2240" relation="include">
+        </childnode>
+      </node>
+      <node id="2223">
+        <label>PostManager/ref/FeatureSOLIDCreateProtrusionLoft.cpp</label>
+        <link refid="_feature_s_o_l_i_d_create_protrusion_loft_8cpp"/>
+      </node>
+      <node id="2235">
+        <label>PostManager/ref/SKETCHCreate2DCircularArc.h</label>
+        <link refid="_s_k_e_t_c_h_create2_d_circular_arc_8h"/>
+        <childnode refid="2227" relation="include">
+        </childnode>
+        <childnode refid="2236" relation="include">
+        </childnode>
+      </node>
+      <node id="2253">
+        <label>PostManager/ref/FeatureSOLIDCreateHoleCounterbored.h</label>
+        <link refid="_feature_s_o_l_i_d_create_hole_counterbored_8h"/>
+        <childnode refid="2254" relation="include">
+        </childnode>
+        <childnode refid="2240" relation="include">
+        </childnode>
+      </node>
+      <node id="2226">
+        <label>PostManager/ref/FeatureSOLIDCreateSectionsLoft.cpp</label>
+        <link refid="_feature_s_o_l_i_d_create_sections_loft_8cpp"/>
+      </node>
+      <node id="2257">
+        <label>PostManager/ref/FeatureSOLIDCreatePatternCircular.h</label>
+        <link refid="_post_manager_2ref_2_feature_s_o_l_i_d_create_pattern_circular_8h"/>
+        <childnode refid="2258" relation="include">
+        </childnode>
+        <childnode refid="2240" relation="include">
+        </childnode>
+      </node>
+      <node id="2225">
+        <label>PostManager/ref/FeatureSOLIDCreateProtrusionSweep.cpp</label>
+        <link refid="_feature_s_o_l_i_d_create_protrusion_sweep_8cpp"/>
+      </node>
+      <node id="2227">
+        <label>PostManager/ref/FSketch.cpp</label>
+        <link refid="_post_manager_2ref_2_f_sketch_8cpp"/>
+      </node>
+      <node id="2252">
+        <label>PostManager/ref/FeatureSOLIDCreateFilletConstant.cpp</label>
+        <link refid="_post_manager_2ref_2_feature_s_o_l_i_d_create_fillet_constant_8cpp"/>
+      </node>
+      <node id="2216">
+        <label>PostManager/ref/CATIApost_DLL.cpp</label>
+        <link refid="_c_a_t_i_apost___d_l_l_8cpp"/>
+      </node>
+      <node id="2245">
+        <label>PostManager/ref/Feature.cpp</label>
+        <link refid="_post_manager_2ref_2_feature_8cpp"/>
+      </node>
+      <node id="2224">
+        <label>PostManager/ref/FeatureSOLIDCreateProtrusionRevolve.cpp</label>
+        <link refid="_feature_s_o_l_i_d_create_protrusion_revolve_8cpp"/>
+      </node>
+      <node id="2247">
+        <label>PostManager/ref/FeatureSOLIDCreateChamfer.cpp</label>
+        <link refid="_post_manager_2ref_2_feature_s_o_l_i_d_create_chamfer_8cpp"/>
+      </node>
+      <node id="2250">
+        <label>PostManager/ref/FeatureSOLIDCreateFacesLoft.h</label>
+        <link refid="_feature_s_o_l_i_d_create_faces_loft_8h"/>
+        <childnode refid="2221" relation="include">
+        </childnode>
+        <childnode refid="2240" relation="include">
+        </childnode>
+      </node>
+    </invincdepgraph>
+    <innerclass refid="class_post_1_1_part" prot="public">Post::Part</innerclass>
+    <innernamespace refid="namespace_post">Post</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="preprocessor">#pragma<sp/>once</highlight></codeline>
+<codeline lineno="2"><highlight class="preprocessor"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="_c_a_t_i_apost___d_l_l_8h" kindref="compound">CATIApost_DLL.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="_c_a_t_i_a_reference_manager_8h" kindref="compound">CATIAReferenceManager.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal">Post<sp/>{</highlight></codeline>
+<codeline lineno="6"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal">Feature;</highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight></codeline>
+<codeline lineno="8" refid="class_post_1_1_part" refkind="compound"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="class_post_1_1_part" kindref="compound">Part</ref></highlight></codeline>
+<codeline lineno="9"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="10"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="11"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_post_1_1_part_1a2257604aa6fc901a3e64185cf15262de" kindref="member">Part</ref>();<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//used<sp/>to<sp/>make<sp/>Part<sp/>class<sp/>array</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="12"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_post_1_1_part_1a2257604aa6fc901a3e64185cf15262de" kindref="member">Part::Part</ref>(</highlight><highlight class="keywordtype">string</highlight><highlight class="normal"><sp/>fileName);<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//Basic<sp/>Part<sp/>Constructor<sp/>:<sp/>For<sp/>a<sp/>Part<sp/>Translation,<sp/>TransCAD<sp/>Document<sp/>must<sp/>be<sp/>PartDocument(filename<sp/>:<sp/>fullpath)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="13"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_post_1_1_part_1a2257604aa6fc901a3e64185cf15262de" kindref="member">Part</ref>(TransCAD::IPartPtr<sp/>_p,<sp/></highlight><highlight class="keywordtype">string</highlight><highlight class="normal"><sp/>fileName);<sp/><sp/><sp/></highlight><highlight class="comment">//used<sp/>Assembly<sp/>Part<sp/>:<sp/>if<sp/>you<sp/>already<sp/>have<sp/>TransCAD<sp/>Part<sp/>ptr(IPartPtr)<sp/>and<sp/>you<sp/>need<sp/>to<sp/>make<sp/>a<sp/>Script,<sp/>use<sp/>this<sp/>constructor(filename<sp/>:<sp/>fullpath)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="14"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_post_1_1_part_1a2257604aa6fc901a3e64185cf15262de" kindref="member">Part</ref>(TransCAD::IPartPtr<sp/>_p,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>f);<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//used<sp/>Assembly<sp/>Part<sp/>:<sp/>if<sp/>you<sp/>already<sp/>have<sp/>TransCAD<sp/>Part<sp/>ptr(IPartPtr)<sp/>and<sp/>you<sp/>don&apos;t<sp/>need<sp/>to<sp/>make<sp/>a<sp/>Script,<sp/>use<sp/>this<sp/>constructor(default<sp/>f=0)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="15"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_post_1_1_part_1a6d8e1e6c3200a296bb301df7e52221d3" kindref="member">~Part</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="16"><highlight class="normal"></highlight></codeline>
+<codeline lineno="17"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_post_1_1_part_1a3cc35a3d835798bd2b7412d5604cac1b" kindref="member">Clear</ref>();</highlight></codeline>
+<codeline lineno="18"><highlight class="normal"></highlight></codeline>
+<codeline lineno="19" refid="class_post_1_1_part_1a0b69b59bb1e3d01a902168a7dd624b1d" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">string</highlight><highlight class="normal"><sp/><ref refid="class_post_1_1_part_1a0b69b59bb1e3d01a902168a7dd624b1d" kindref="member">GetPartName</ref>()</highlight><highlight class="keyword"><sp/>const<sp/></highlight><highlight class="normal">{<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/><ref refid="class_post_1_1_part_1ab5f74460bbbf64f7f864389b63498cbc" kindref="member">_strPartName</ref>;<sp/>}</highlight></codeline>
+<codeline lineno="20"><highlight class="normal"></highlight></codeline>
+<codeline lineno="21" refid="class_post_1_1_part_1afc364489a6b0a8b9d085fc1f53e29986" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_post_1_1_feature" kindref="compound">Feature</ref><sp/>*<sp/><ref refid="class_post_1_1_part_1afc364489a6b0a8b9d085fc1f53e29986" kindref="member">GetFeature</ref>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>i)</highlight><highlight class="keyword"><sp/>const<sp/></highlight><highlight class="normal">{<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/><ref refid="class_post_1_1_part_1a58fac1113335a9dec0a990dee4e33e1a" kindref="member">_featureList</ref>.at(i);<sp/>}</highlight></codeline>
+<codeline lineno="22"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_post_1_1_feature" kindref="compound">Feature</ref><sp/>*<sp/><ref refid="class_post_1_1_part_1a07f75907c17887e5f7576fb9d726a469" kindref="member">GetFeatureByName</ref>(</highlight><highlight class="keywordtype">string</highlight><highlight class="normal"><sp/>name);</highlight></codeline>
+<codeline lineno="23"><highlight class="normal"></highlight></codeline>
+<codeline lineno="24" refid="class_post_1_1_part_1a84448a04d48c260eb780831d8430e038" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/><ref refid="class_post_1_1_part_1a84448a04d48c260eb780831d8430e038" kindref="member">GetSize</ref>()</highlight><highlight class="keyword"><sp/>const<sp/></highlight><highlight class="normal">{<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/><ref refid="class_post_1_1_part_1a58fac1113335a9dec0a990dee4e33e1a" kindref="member">_featureList</ref>.size();<sp/>}</highlight></codeline>
+<codeline lineno="25"><highlight class="normal"></highlight></codeline>
+<codeline lineno="26"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_post_1_1_part_1afce2710ace93d175f5f4f9ba56493a14" kindref="member">GetInfo</ref>();</highlight></codeline>
+<codeline lineno="27"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_post_1_1_part_1adc255ebba204dd825fe5e330debb7caa" kindref="member">ToCATIA</ref>();</highlight></codeline>
+<codeline lineno="28"><highlight class="normal"></highlight></codeline>
+<codeline lineno="29"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_post_1_1_part_1afa2055a5c24cd753a3b5d9900950d987" kindref="member">ExternModeToggle</ref>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>mode);</highlight></codeline>
+<codeline lineno="30"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_post_1_1_part_1a3aec7e70aa614b5823544d87d700cce6" kindref="member">InitReferManager</ref>();</highlight></codeline>
+<codeline lineno="31"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">protected</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="32"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_post_1_1_feature" kindref="compound">Feature</ref><sp/>*<sp/><ref refid="class_post_1_1_part_1a794aead29a8756e83fddc77a278a33e1" kindref="member">CreateFeature</ref>(TransCAD::IFeaturePtr<sp/>spFeature);</highlight></codeline>
+<codeline lineno="33"><highlight class="normal"></highlight></codeline>
+<codeline lineno="34"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="35" refid="class_post_1_1_part_1acfc76a6eafc95673a2c37b40e65405a5" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>FILE<sp/>*<sp/><ref refid="class_post_1_1_part_1acfc76a6eafc95673a2c37b40e65405a5" kindref="member">file</ref>;</highlight></codeline>
+<codeline lineno="36" refid="class_post_1_1_part_1aa7b062a5e5dc7019f273ada56d51a605" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>TransCAD::IDocsPtr<sp/><ref refid="class_post_1_1_part_1aa7b062a5e5dc7019f273ada56d51a605" kindref="member">_spDocuments</ref>;</highlight></codeline>
+<codeline lineno="37" refid="class_post_1_1_part_1ae8a076ea6bd1b67b283a9fcd083792c6" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>TransCAD::IPartDocumentPtr<sp/><sp/><ref refid="class_post_1_1_part_1ae8a076ea6bd1b67b283a9fcd083792c6" kindref="member">_spDocument</ref>;</highlight></codeline>
+<codeline lineno="38" refid="class_post_1_1_part_1aed8bf00c8a73ff2d7c8e67ab3e824365" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>TransCAD::IPartPtr<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_post_1_1_part_1aed8bf00c8a73ff2d7c8e67ab3e824365" kindref="member">_spPart</ref>;</highlight></codeline>
+<codeline lineno="39" refid="class_post_1_1_part_1a96499e27869e4f2b69212e55549bb4e9" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>TransCAD::IFeaturesPtr<sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_post_1_1_part_1a96499e27869e4f2b69212e55549bb4e9" kindref="member">_spFeatures</ref>;</highlight></codeline>
+<codeline lineno="40"><highlight class="normal"></highlight></codeline>
+<codeline lineno="41"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">private</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="42" refid="class_post_1_1_part_1ab5f74460bbbf64f7f864389b63498cbc" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">string</highlight><highlight class="normal"><sp/><sp/><ref refid="class_post_1_1_part_1ab5f74460bbbf64f7f864389b63498cbc" kindref="member">_strPartName</ref>;<sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>TransCAD<sp/>Part<sp/>full<sp/>path<sp/>name</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="43" refid="class_post_1_1_part_1a58fac1113335a9dec0a990dee4e33e1a" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>vector&lt;Feature*&gt;<sp/><ref refid="class_post_1_1_part_1a58fac1113335a9dec0a990dee4e33e1a" kindref="member">_featureList</ref>;</highlight></codeline>
+<codeline lineno="44"><highlight class="normal"><sp/><sp/><sp/><sp/>};</highlight></codeline>
+<codeline lineno="45"><highlight class="normal">}</highlight></codeline>
+    </programlisting>
+    <location file="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/PostManager/ref/Part.h"/>
+  </compounddef>
+</doxygen>

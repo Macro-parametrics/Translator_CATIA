@@ -1,0 +1,243 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="_pre_manager_2ref_2_f_datum_plane_offset_8cpp" kind="file">
+    <compoundname>FDatumPlaneOffset.cpp</compoundname>
+    <includes local="yes">stdafx.h</includes>
+    <includes refid="_pre_manager_2ref_2_f_datum_plane_offset_8h" local="yes">FDatumPlaneOffset.h</includes>
+    <includes refid="_reference_entity_8h" local="yes">ReferenceEntity.h</includes>
+    <incdepgraph>
+      <node id="775">
+        <label>FDatumPlaneOffset.h</label>
+        <link refid="_pre_manager_2ref_2_f_datum_plane_offset_8h"/>
+        <childnode refid="776" relation="include">
+        </childnode>
+      </node>
+      <node id="774">
+        <label>stdafx.h</label>
+      </node>
+      <node id="792">
+        <label>strstream</label>
+      </node>
+      <node id="776">
+        <label>Feature.h</label>
+        <link refid="_pre_manager_2ref_2_feature_8h"/>
+        <childnode refid="777" relation="include">
+        </childnode>
+      </node>
+      <node id="786">
+        <label>cmath</label>
+      </node>
+      <node id="781">
+        <label>string</label>
+      </node>
+      <node id="790">
+        <label>comdef.h</label>
+      </node>
+      <node id="789">
+        <label>comutil.h</label>
+      </node>
+      <node id="793">
+        <label>ReferenceEntity.h</label>
+        <link refid="_reference_entity_8h"/>
+        <childnode refid="777" relation="include">
+        </childnode>
+        <childnode refid="794" relation="include">
+        </childnode>
+      </node>
+      <node id="794">
+        <label>FSketch.h</label>
+        <link refid="_pre_manager_2ref_2_f_sketch_8h"/>
+        <childnode refid="776" relation="include">
+        </childnode>
+      </node>
+      <node id="784">
+        <label>fstream</label>
+      </node>
+      <node id="782">
+        <label>string.h</label>
+      </node>
+      <node id="778">
+        <label>CATIApre_DLL.h</label>
+        <link refid="_c_a_t_i_apre___d_l_l_8h"/>
+        <childnode refid="779" relation="include">
+        </childnode>
+        <childnode refid="780" relation="include">
+        </childnode>
+        <childnode refid="781" relation="include">
+        </childnode>
+        <childnode refid="782" relation="include">
+        </childnode>
+        <childnode refid="783" relation="include">
+        </childnode>
+        <childnode refid="784" relation="include">
+        </childnode>
+        <childnode refid="785" relation="include">
+        </childnode>
+        <childnode refid="786" relation="include">
+        </childnode>
+        <childnode refid="787" relation="include">
+        </childnode>
+        <childnode refid="788" relation="include">
+        </childnode>
+        <childnode refid="789" relation="include">
+        </childnode>
+        <childnode refid="790" relation="include">
+        </childnode>
+        <childnode refid="791" relation="include">
+        </childnode>
+      </node>
+      <node id="785">
+        <label>vector</label>
+      </node>
+      <node id="788">
+        <label>sstream</label>
+      </node>
+      <node id="773">
+        <label>PreManager/ref/FDatumPlaneOffset.cpp</label>
+        <link refid="PreManager/ref/FDatumPlaneOffset.cpp"/>
+        <childnode refid="774" relation="include">
+        </childnode>
+        <childnode refid="775" relation="include">
+        </childnode>
+        <childnode refid="793" relation="include">
+        </childnode>
+      </node>
+      <node id="787">
+        <label>math.h</label>
+      </node>
+      <node id="783">
+        <label>iostream</label>
+      </node>
+      <node id="780">
+        <label>tchar.h</label>
+      </node>
+      <node id="791">
+        <label>Definition.h</label>
+        <link refid="_pre_manager_2ref_2_definition_8h"/>
+        <childnode refid="792" relation="include">
+        </childnode>
+        <childnode refid="783" relation="include">
+        </childnode>
+        <childnode refid="787" relation="include">
+        </childnode>
+      </node>
+      <node id="777">
+        <label>Part.h</label>
+        <link refid="_pre_manager_2ref_2_part_8h"/>
+        <childnode refid="778" relation="include">
+        </childnode>
+      </node>
+      <node id="779">
+        <label>stdio.h</label>
+      </node>
+    </incdepgraph>
+    <innernamespace refid="namespace_pre">Pre</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="preprocessor">#include<sp/>&quot;stdafx.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="_pre_manager_2ref_2_f_datum_plane_offset_8h" kindref="compound">FDatumPlaneOffset.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="_reference_entity_8h" kindref="compound">ReferenceEntity.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal">Pre<sp/>{</highlight></codeline>
+<codeline lineno="6" refid="class_pre_1_1_f_datum_plane_offset_1ab852b9646a060d7605e873f1ef9c3f5a" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="class_pre_1_1_f_datum_plane_offset_1ab852b9646a060d7605e873f1ef9c3f5a" kindref="member">FDatumPlaneOffset::FDatumPlaneOffset</ref>(<ref refid="class_pre_1_1_part" kindref="compound">Part</ref><sp/>*<sp/>pPart,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>type,<sp/></highlight><highlight class="keywordtype">string</highlight><highlight class="normal"><sp/>name)</highlight></codeline>
+<codeline lineno="7"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>:<sp/><ref refid="class_pre_1_1_feature" kindref="compound">Feature</ref>(pPart,<sp/>type,<sp/>name)</highlight></codeline>
+<codeline lineno="8"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="9"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_pre_1_1_f_datum_plane_offset_1a59166de0f20a672c684daa101672a51a" kindref="member">_distance</ref><sp/>=<sp/>0;</highlight></codeline>
+<codeline lineno="10"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_pre_1_1_f_datum_plane_offset_1a60044c8bb0df9f4d4b6613e2d52ca91d" kindref="member">_flip</ref><sp/>=<sp/>0;</highlight></codeline>
+<codeline lineno="11"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="12"><highlight class="normal"></highlight></codeline>
+<codeline lineno="13" refid="class_pre_1_1_f_datum_plane_offset_1a8abf62fd05522daea92bfebbc037509f" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="class_pre_1_1_f_datum_plane_offset_1a8abf62fd05522daea92bfebbc037509f" kindref="member">FDatumPlaneOffset::~FDatumPlaneOffset</ref>()</highlight></codeline>
+<codeline lineno="14"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="15"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="16"><highlight class="normal"></highlight></codeline>
+<codeline lineno="17" refid="class_pre_1_1_f_datum_plane_offset_1a4ee871c225f6c829ca970ce45f41fd1d" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_pre_1_1_f_datum_plane_offset_1a4ee871c225f6c829ca970ce45f41fd1d" kindref="member">FDatumPlaneOffset::GetInfo</ref>(ifstream<sp/>&amp;is)</highlight></codeline>
+<codeline lineno="18"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="19"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>Chamfer의<sp/>정보<sp/>입력</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="20"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>buffer[500];</highlight></codeline>
+<codeline lineno="21"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>is.getline(buffer,<sp/>500);</highlight></codeline>
+<codeline lineno="22"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">while</highlight><highlight class="normal"><sp/>(strncmp(buffer,<sp/></highlight><highlight class="stringliteral">&quot;Set&quot;</highlight><highlight class="normal">,<sp/>3))<sp/><sp/></highlight><highlight class="comment">//<sp/>Set<sp/>chamfer1을<sp/>찾는<sp/>부분</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="23"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="24"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>is.getline(buffer,<sp/>500);</highlight></codeline>
+<codeline lineno="25"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="26"><highlight class="normal"></highlight></codeline>
+<codeline lineno="27"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">string</highlight><highlight class="normal"><sp/>planeOffsetValue;</highlight></codeline>
+<codeline lineno="28"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>seps_temp[]<sp/>=<sp/></highlight><highlight class="stringliteral">&quot;<sp/>,\t\n()=&quot;</highlight><highlight class="normal">;<sp/></highlight><highlight class="comment">//구분자</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="29"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*<sp/>context<sp/>=<sp/>NULL;<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>strtok_s<sp/>함수의<sp/>입력<sp/>변수</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="30"><highlight class="normal"></highlight></codeline>
+<codeline lineno="31"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>planeOffsetValue<sp/>=<sp/>strtok_s(buffer,<sp/>seps_temp,<sp/>&amp;context);<sp/></highlight><highlight class="comment">//Set</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="32"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>planeOffsetValue<sp/>=<sp/>strtok_s(NULL,<sp/>seps_temp,<sp/>&amp;context);<sp/><sp/></highlight><highlight class="comment">//hybridShapePlaneOffset1</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="33"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>planeOffsetValue<sp/>=<sp/>strtok_s(NULL,<sp/>seps_temp,<sp/>&amp;context);<sp/><sp/></highlight><highlight class="comment">//hybridShapeFactory1.AddNewPlaneOffset</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="34"><highlight class="normal"></highlight></codeline>
+<codeline lineno="35"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>planeOffsetValue<sp/>=<sp/>strtok_s(NULL,<sp/>seps_temp,<sp/>&amp;context);<sp/><sp/></highlight><highlight class="comment">//reference1</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="36"><highlight class="normal"></highlight></codeline>
+<codeline lineno="37"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>ReferenceElement<sp/>정보를<sp/>feature에<sp/>저장.<sp/><sp/><sp/><sp/></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="38"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>처음<sp/>reference<sp/>entity의<sp/>이름을<sp/>읽고<sp/>다시<sp/>그<sp/>이름을<sp/>가지고<sp/>다른<sp/>reference<sp/>entity의<sp/>이름을<sp/>가져온다.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="39"><highlight class="normal"></highlight></codeline>
+<codeline lineno="40"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">string</highlight><highlight class="normal"><sp/>target_surface;</highlight></codeline>
+<codeline lineno="41"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>target_surface<sp/>=<sp/><ref refid="class_pre_1_1_feature_1a22de04ab5c0ef7206d32c780ccfafee7" kindref="member">GetPart</ref>()-&gt;<ref refid="class_pre_1_1_part_1a5643b5eda5bff62d642532663c62b63c" kindref="member">GetReferenceEntityByName</ref>(planeOffsetValue)-&gt;<ref refid="class_pre_1_1_reference_entity_1ab7834eec27b178f18cad28f6baf1b146" kindref="member">GetFeatureName</ref>();</highlight></codeline>
+<codeline lineno="42"><highlight class="normal"></highlight></codeline>
+<codeline lineno="43"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(<ref refid="class_pre_1_1_feature_1a22de04ab5c0ef7206d32c780ccfafee7" kindref="member">GetPart</ref>()-&gt;GetReferenceEntityByName(target_surface))</highlight></codeline>
+<codeline lineno="44"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_pre_1_1_f_datum_plane_offset_1ab1dcb6826455b62b07f32cae1579f0e4" kindref="member">_referenceEntityList</ref>.push_back(<ref refid="class_pre_1_1_feature_1a22de04ab5c0ef7206d32c780ccfafee7" kindref="member">GetPart</ref>()-&gt;GetReferenceEntityByName(target_surface));</highlight></codeline>
+<codeline lineno="45"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="46"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_pre_1_1_f_datum_plane_offset_1ab1dcb6826455b62b07f32cae1579f0e4" kindref="member">_referenceEntityList</ref>.push_back(<ref refid="class_pre_1_1_feature_1a22de04ab5c0ef7206d32c780ccfafee7" kindref="member">GetPart</ref>()-&gt;GetReferenceEntityByName(planeOffsetValue));</highlight></codeline>
+<codeline lineno="47"><highlight class="normal"></highlight></codeline>
+<codeline lineno="48"><highlight class="normal"></highlight></codeline>
+<codeline lineno="49"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>planeOffsetValue<sp/>=<sp/>strtok_s(NULL,<sp/>seps_temp,<sp/>&amp;context);<sp/><sp/></highlight><highlight class="comment">//20.000000</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="50"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_pre_1_1_f_datum_plane_offset_1a59166de0f20a672c684daa101672a51a" kindref="member">_distance</ref><sp/>=<sp/>atof(planeOffsetValue.c_str());</highlight></codeline>
+<codeline lineno="51"><highlight class="normal"></highlight></codeline>
+<codeline lineno="52"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>planeOffsetValue<sp/>=<sp/>strtok_s(NULL,<sp/>seps_temp,<sp/>&amp;context);<sp/><sp/></highlight><highlight class="comment">//False</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="53"><highlight class="normal"></highlight></codeline>
+<codeline lineno="54"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(planeOffsetValue<sp/>==<sp/></highlight><highlight class="stringliteral">&quot;False&quot;</highlight><highlight class="normal">)</highlight></codeline>
+<codeline lineno="55"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="56"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_pre_1_1_f_datum_plane_offset_1a60044c8bb0df9f4d4b6613e2d52ca91d" kindref="member">_flip</ref><sp/>=<sp/>0;</highlight></codeline>
+<codeline lineno="57"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="58"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="59"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="60"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_pre_1_1_f_datum_plane_offset_1a60044c8bb0df9f4d4b6613e2d52ca91d" kindref="member">_flip</ref><sp/>=<sp/>1;</highlight></codeline>
+<codeline lineno="61"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="62"><highlight class="normal"></highlight></codeline>
+<codeline lineno="63"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>context<sp/>=<sp/>NULL;</highlight></codeline>
+<codeline lineno="64"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="65"><highlight class="normal"></highlight></codeline>
+<codeline lineno="66" refid="class_pre_1_1_f_datum_plane_offset_1abbe382247fd98bb6397e91d5e2985da1" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_pre_1_1_f_datum_plane_offset_1abbe382247fd98bb6397e91d5e2985da1" kindref="member">FDatumPlaneOffset::ToTransCAD</ref>()</highlight></codeline>
+<codeline lineno="67"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="68"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>cerr<sp/>&lt;&lt;<sp/></highlight><highlight class="stringliteral">&quot;#--<sp/>Call<sp/>DatumPlaneOffset::Translate2TransCAD()<sp/>--#&quot;</highlight><highlight class="normal"><sp/>&lt;&lt;<sp/>endl;</highlight></codeline>
+<codeline lineno="69"><highlight class="normal"></highlight></codeline>
+<codeline lineno="70"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>TransCAD::IReferencePtr<sp/>spPlane;</highlight></codeline>
+<codeline lineno="71"><highlight class="normal"></highlight></codeline>
+<codeline lineno="72"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>vector&lt;ReferenceEntity<sp/>*&gt;::iterator<sp/>iter<sp/>=<sp/><ref refid="class_pre_1_1_f_datum_plane_offset_1ab1dcb6826455b62b07f32cae1579f0e4" kindref="member">_referenceEntityList</ref>.begin();</highlight></codeline>
+<codeline lineno="73"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">while</highlight><highlight class="normal"><sp/>(iter<sp/>!=<sp/><ref refid="class_pre_1_1_f_datum_plane_offset_1ab1dcb6826455b62b07f32cae1579f0e4" kindref="member">_referenceEntityList</ref>.end())</highlight></codeline>
+<codeline lineno="74"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="75"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>(*iter)-&gt;ToTransCAD();</highlight></codeline>
+<codeline lineno="76"><highlight class="normal"></highlight></codeline>
+<codeline lineno="77"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>((*iter)-&gt;GetReferencePtr()<sp/>!=<sp/>NULL)</highlight></codeline>
+<codeline lineno="78"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>spPlane<sp/>=<sp/>(*iter)-&gt;GetReferencePtr();</highlight></codeline>
+<codeline lineno="79"><highlight class="normal"></highlight></codeline>
+<codeline lineno="80"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>iter++;</highlight></codeline>
+<codeline lineno="81"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="82"><highlight class="normal"></highlight></codeline>
+<codeline lineno="83"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>Create<sp/>a<sp/>datum<sp/>plane<sp/>offset<sp/>feature</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="84"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_pre_1_1_feature_1a22de04ab5c0ef7206d32c780ccfafee7" kindref="member">GetPart</ref>()-&gt;<ref refid="class_pre_1_1_part_1a0fa084e40ad2822e8214ba40b4751825" kindref="member">_spFeatures</ref>-&gt;AddNewDatumPlaneOffsetFeature(<ref refid="class_pre_1_1_feature_1ae8c43a10be919286c9450125b1a0afb9" kindref="member">_name</ref>.c_str(),<sp/>spPlane,<sp/><ref refid="class_pre_1_1_f_datum_plane_offset_1a59166de0f20a672c684daa101672a51a" kindref="member">_distance</ref>,<sp/><ref refid="class_pre_1_1_f_datum_plane_offset_1a60044c8bb0df9f4d4b6613e2d52ca91d" kindref="member">_flip</ref>);</highlight></codeline>
+<codeline lineno="85"><highlight class="normal"></highlight></codeline>
+<codeline lineno="86"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>cerr<sp/>&lt;&lt;<sp/></highlight><highlight class="stringliteral">&quot;#--<sp/>End<sp/>DatumPlaneOffset::Translate2TransCAD()<sp/>--#&quot;</highlight><highlight class="normal"><sp/>&lt;&lt;<sp/>endl<sp/>&lt;&lt;<sp/>endl;</highlight></codeline>
+<codeline lineno="87"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="88"><highlight class="normal"></highlight></codeline>
+<codeline lineno="89" refid="class_pre_1_1_f_datum_plane_offset_1a49d95d6ab256283bb53cade9310f39c1" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_pre_1_1_f_datum_plane_offset_1a49d95d6ab256283bb53cade9310f39c1" kindref="member">FDatumPlaneOffset::Modify</ref>(</highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*<sp/>buffer)<sp/></highlight><highlight class="comment">//Script<sp/>파일에<sp/>바로<sp/>Class<sp/>인스턴스<sp/>이름이<sp/>나올때<sp/></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="90"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="91"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="92"><highlight class="normal"></highlight></codeline>
+<codeline lineno="93" refid="class_pre_1_1_f_datum_plane_offset_1a4ef97067f27b5e7166faaa96491492a6" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_pre_1_1_f_datum_plane_offset_1a4ef97067f27b5e7166faaa96491492a6" kindref="member">FDatumPlaneOffset::CheckAttribute</ref>(</highlight><highlight class="keywordtype">string</highlight><highlight class="normal"><sp/>name,<sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>value,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>type)</highlight></codeline>
+<codeline lineno="94"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="95"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="96"><highlight class="normal"></highlight></codeline>
+<codeline lineno="97"><highlight class="normal"></highlight></codeline>
+<codeline lineno="98"><highlight class="normal"></highlight></codeline>
+<codeline lineno="99"><highlight class="normal"></highlight></codeline>
+<codeline lineno="100"><highlight class="normal">}</highlight></codeline>
+    </programlisting>
+    <location file="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/PreManager/ref/FDatumPlaneOffset.cpp"/>
+  </compounddef>
+</doxygen>

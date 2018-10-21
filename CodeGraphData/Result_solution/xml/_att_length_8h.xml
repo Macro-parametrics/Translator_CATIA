@@ -1,0 +1,156 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="_att_length_8h" kind="file">
+    <compoundname>AttLength.h</compoundname>
+    <includes refid="_attribute_item_8h" local="yes">AttributeItem.h</includes>
+    <includedby refid="_att_length_8cpp" local="yes">PreManager/ref/AttLength.cpp</includedby>
+    <includedby refid="_pre_manager_2ref_2_part_8cpp" local="yes">PreManager/ref/Part.cpp</includedby>
+    <incdepgraph>
+      <node id="2963">
+        <label>strstream</label>
+      </node>
+      <node id="2964">
+        <label>Feature.h</label>
+        <link refid="_pre_manager_2ref_2_feature_8h"/>
+        <childnode refid="2948" relation="include">
+        </childnode>
+      </node>
+      <node id="2957">
+        <label>cmath</label>
+      </node>
+      <node id="2952">
+        <label>string</label>
+      </node>
+      <node id="2961">
+        <label>comdef.h</label>
+      </node>
+      <node id="2960">
+        <label>comutil.h</label>
+      </node>
+      <node id="2955">
+        <label>fstream</label>
+      </node>
+      <node id="2946">
+        <label>PreManager/ref/AttLength.h</label>
+        <link refid="AttLength.h"/>
+        <childnode refid="2947" relation="include">
+        </childnode>
+      </node>
+      <node id="2953">
+        <label>string.h</label>
+      </node>
+      <node id="2949">
+        <label>CATIApre_DLL.h</label>
+        <link refid="_c_a_t_i_apre___d_l_l_8h"/>
+        <childnode refid="2950" relation="include">
+        </childnode>
+        <childnode refid="2951" relation="include">
+        </childnode>
+        <childnode refid="2952" relation="include">
+        </childnode>
+        <childnode refid="2953" relation="include">
+        </childnode>
+        <childnode refid="2954" relation="include">
+        </childnode>
+        <childnode refid="2955" relation="include">
+        </childnode>
+        <childnode refid="2956" relation="include">
+        </childnode>
+        <childnode refid="2957" relation="include">
+        </childnode>
+        <childnode refid="2958" relation="include">
+        </childnode>
+        <childnode refid="2959" relation="include">
+        </childnode>
+        <childnode refid="2960" relation="include">
+        </childnode>
+        <childnode refid="2961" relation="include">
+        </childnode>
+        <childnode refid="2962" relation="include">
+        </childnode>
+      </node>
+      <node id="2947">
+        <label>AttributeItem.h</label>
+        <link refid="_attribute_item_8h"/>
+        <childnode refid="2948" relation="include">
+        </childnode>
+        <childnode refid="2964" relation="include">
+        </childnode>
+      </node>
+      <node id="2956">
+        <label>vector</label>
+      </node>
+      <node id="2959">
+        <label>sstream</label>
+      </node>
+      <node id="2958">
+        <label>math.h</label>
+      </node>
+      <node id="2954">
+        <label>iostream</label>
+      </node>
+      <node id="2951">
+        <label>tchar.h</label>
+      </node>
+      <node id="2962">
+        <label>Definition.h</label>
+        <link refid="_pre_manager_2ref_2_definition_8h"/>
+        <childnode refid="2963" relation="include">
+        </childnode>
+        <childnode refid="2954" relation="include">
+        </childnode>
+        <childnode refid="2958" relation="include">
+        </childnode>
+      </node>
+      <node id="2948">
+        <label>Part.h</label>
+        <link refid="_pre_manager_2ref_2_part_8h"/>
+        <childnode refid="2949" relation="include">
+        </childnode>
+      </node>
+      <node id="2950">
+        <label>stdio.h</label>
+      </node>
+    </incdepgraph>
+    <invincdepgraph>
+      <node id="2966">
+        <label>PreManager/ref/AttLength.cpp</label>
+        <link refid="_att_length_8cpp"/>
+      </node>
+      <node id="2965">
+        <label>PreManager/ref/AttLength.h</label>
+        <link refid="AttLength.h"/>
+        <childnode refid="2966" relation="include">
+        </childnode>
+        <childnode refid="2967" relation="include">
+        </childnode>
+      </node>
+      <node id="2967">
+        <label>PreManager/ref/Part.cpp</label>
+        <link refid="_pre_manager_2ref_2_part_8cpp"/>
+      </node>
+    </invincdepgraph>
+    <innerclass refid="class_pre_1_1_att_length" prot="public">Pre::AttLength</innerclass>
+    <innernamespace refid="namespace_pre">Pre</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="preprocessor">#pragma<sp/>once</highlight></codeline>
+<codeline lineno="2"><highlight class="preprocessor"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="_attribute_item_8h" kindref="compound">AttributeItem.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal">Pre<sp/>{</highlight></codeline>
+<codeline lineno="4" refid="class_pre_1_1_att_length" refkind="compound"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="class_pre_1_1_att_length" kindref="compound">AttLength</ref><sp/>:<sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/><ref refid="class_pre_1_1_attribute_item" kindref="compound">AttributeItem</ref></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="6"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="7"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_pre_1_1_att_length_1a9a58720ad1d6c6cc2f5ba5e43bec176e" kindref="member">AttLength</ref>(<ref refid="class_pre_1_1_part" kindref="compound">Part</ref><sp/>*<sp/>pPart,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>type,<sp/></highlight><highlight class="keywordtype">string</highlight><highlight class="normal"><sp/>name);</highlight></codeline>
+<codeline lineno="8"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/><ref refid="class_pre_1_1_att_length_1a920778dad2bea2c42c2bdcddde185155" kindref="member">~AttLength</ref>();</highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight></codeline>
+<codeline lineno="10"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_pre_1_1_att_length_1a6170a48b9d8c7fa63be80f78216f7e3f" kindref="member">GetInfo</ref>(ifstream<sp/>&amp;is);</highlight></codeline>
+<codeline lineno="11"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_pre_1_1_att_length_1a2172c3f4a31954125614781c4d27d5a0" kindref="member">Modify</ref>(</highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*<sp/>buffer);</highlight></codeline>
+<codeline lineno="12"><highlight class="normal"><sp/><sp/><sp/><sp/>};</highlight></codeline>
+<codeline lineno="13"><highlight class="normal">}</highlight></codeline>
+    </programlisting>
+    <location file="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/PreManager/ref/AttLength.h"/>
+  </compounddef>
+</doxygen>

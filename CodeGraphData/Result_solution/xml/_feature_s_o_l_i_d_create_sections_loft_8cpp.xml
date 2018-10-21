@@ -1,0 +1,282 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="_feature_s_o_l_i_d_create_sections_loft_8cpp" kind="file">
+    <compoundname>FeatureSOLIDCreateSectionsLoft.cpp</compoundname>
+    <includes local="yes">stdafx.h</includes>
+    <includes refid="_feature_s_o_l_i_d_create_sections_loft_8h" local="yes">FeatureSOLIDCreateSectionsLoft.h</includes>
+    <includes refid="_post_manager_2ref_2_f_sketch_8h" local="yes">FSketch.h</includes>
+    <incdepgraph>
+      <node id="1837">
+        <label>FeatureSOLIDCreateSectionsLoft.h</label>
+        <link refid="_feature_s_o_l_i_d_create_sections_loft_8h"/>
+        <childnode refid="1838" relation="include">
+        </childnode>
+      </node>
+      <node id="1842">
+        <label>atlstr.h</label>
+      </node>
+      <node id="1858">
+        <label>FSketch.h</label>
+        <link refid="_post_manager_2ref_2_f_sketch_8h"/>
+        <childnode refid="1838" relation="include">
+        </childnode>
+      </node>
+      <node id="1838">
+        <label>Feature.h</label>
+        <link refid="_post_manager_2ref_2_feature_8h"/>
+        <childnode refid="1839" relation="include">
+        </childnode>
+      </node>
+      <node id="1836">
+        <label>stdafx.h</label>
+      </node>
+      <node id="1848">
+        <label>stdlib.h</label>
+      </node>
+      <node id="1850">
+        <label>cmath</label>
+      </node>
+      <node id="1844">
+        <label>string</label>
+      </node>
+      <node id="1849">
+        <label>comutil.h</label>
+      </node>
+      <node id="1845">
+        <label>fstream</label>
+      </node>
+      <node id="1839">
+        <label>Part.h</label>
+        <link refid="_post_manager_2ref_2_part_8h"/>
+        <childnode refid="1840" relation="include">
+        </childnode>
+        <childnode refid="1853" relation="include">
+        </childnode>
+      </node>
+      <node id="1857">
+        <label>MP_Utility.h</label>
+        <link refid="_m_p___utility_8h"/>
+        <childnode refid="1854" relation="include">
+        </childnode>
+      </node>
+      <node id="1856">
+        <label>string.h</label>
+      </node>
+      <node id="1846">
+        <label>vector</label>
+      </node>
+      <node id="1852">
+        <label>math.h</label>
+      </node>
+      <node id="1841">
+        <label>atlbase.h</label>
+      </node>
+      <node id="1853">
+        <label>CATIAReferenceManager.h</label>
+        <link refid="_c_a_t_i_a_reference_manager_8h"/>
+        <childnode refid="1840" relation="include">
+        </childnode>
+        <childnode refid="1854" relation="include">
+        </childnode>
+        <childnode refid="1857" relation="include">
+        </childnode>
+      </node>
+      <node id="1843">
+        <label>iostream</label>
+      </node>
+      <node id="1851">
+        <label>Definition.h</label>
+        <link refid="_post_manager_2ref_2_definition_8h"/>
+        <childnode refid="1852" relation="include">
+        </childnode>
+      </node>
+      <node id="1835">
+        <label>PostManager/ref/FeatureSOLIDCreateSectionsLoft.cpp</label>
+        <link refid="FeatureSOLIDCreateSectionsLoft.cpp"/>
+        <childnode refid="1836" relation="include">
+        </childnode>
+        <childnode refid="1837" relation="include">
+        </childnode>
+        <childnode refid="1858" relation="include">
+        </childnode>
+      </node>
+      <node id="1855">
+        <label>algorithm</label>
+      </node>
+      <node id="1847">
+        <label>stdio.h</label>
+      </node>
+      <node id="1854">
+        <label>PN_TYPE.h</label>
+        <link refid="_p_n___t_y_p_e_8h"/>
+        <childnode refid="1843" relation="include">
+        </childnode>
+        <childnode refid="1844" relation="include">
+        </childnode>
+        <childnode refid="1846" relation="include">
+        </childnode>
+        <childnode refid="1855" relation="include">
+        </childnode>
+        <childnode refid="1852" relation="include">
+        </childnode>
+        <childnode refid="1856" relation="include">
+        </childnode>
+      </node>
+      <node id="1840">
+        <label>CATIApost_DLL.h</label>
+        <link refid="_c_a_t_i_apost___d_l_l_8h"/>
+        <childnode refid="1841" relation="include">
+        </childnode>
+        <childnode refid="1842" relation="include">
+        </childnode>
+        <childnode refid="1843" relation="include">
+        </childnode>
+        <childnode refid="1844" relation="include">
+        </childnode>
+        <childnode refid="1845" relation="include">
+        </childnode>
+        <childnode refid="1846" relation="include">
+        </childnode>
+        <childnode refid="1847" relation="include">
+        </childnode>
+        <childnode refid="1848" relation="include">
+        </childnode>
+        <childnode refid="1849" relation="include">
+        </childnode>
+        <childnode refid="1850" relation="include">
+        </childnode>
+        <childnode refid="1851" relation="include">
+        </childnode>
+      </node>
+    </incdepgraph>
+    <innernamespace refid="namespace_post">Post</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="preprocessor">#include<sp/>&quot;stdafx.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="_feature_s_o_l_i_d_create_sections_loft_8h" kindref="compound">FeatureSOLIDCreateSectionsLoft.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="_post_manager_2ref_2_f_sketch_8h" kindref="compound">FSketch.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal">Post<sp/>{</highlight></codeline>
+<codeline lineno="6" refid="class_post_1_1_feature_s_o_l_i_d_create_sections_loft_1a8db77850967a56a7f750e574c9d667e9" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="class_post_1_1_feature_s_o_l_i_d_create_sections_loft_1a8db77850967a56a7f750e574c9d667e9" kindref="member">FeatureSOLIDCreateSectionsLoft::FeatureSOLIDCreateSectionsLoft</ref>(<ref refid="class_post_1_1_part" kindref="compound">Part</ref><sp/>*<sp/>pPart,<sp/>TransCAD::IFeaturePtr<sp/>spFeature)</highlight></codeline>
+<codeline lineno="7"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>:<sp/><ref refid="class_post_1_1_feature" kindref="compound">Feature</ref>(pPart,<sp/>spFeature)</highlight></codeline>
+<codeline lineno="8"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="9"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_post_1_1_feature_s_o_l_i_d_create_sections_loft_1a698a1617b898f828c08d6abcdb4141d7" kindref="member">hybridShapeExtremumNum</ref><sp/>=<sp/>0;</highlight></codeline>
+<codeline lineno="10"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="11"><highlight class="normal"></highlight></codeline>
+<codeline lineno="12" refid="class_post_1_1_feature_s_o_l_i_d_create_sections_loft_1af4891d183d4907e54e3efe12c4440602" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="class_post_1_1_feature_s_o_l_i_d_create_sections_loft_1af4891d183d4907e54e3efe12c4440602" kindref="member">FeatureSOLIDCreateSectionsLoft::~FeatureSOLIDCreateSectionsLoft</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">)</highlight></codeline>
+<codeline lineno="13"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="14"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="15"><highlight class="normal"></highlight></codeline>
+<codeline lineno="16" refid="class_post_1_1_feature_s_o_l_i_d_create_sections_loft_1aeca2b7fdb92f496947072e1d6c2f2920" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_post_1_1_feature_s_o_l_i_d_create_sections_loft_1aeca2b7fdb92f496947072e1d6c2f2920" kindref="member">FeatureSOLIDCreateSectionsLoft::GetInfo</ref>()</highlight></codeline>
+<codeline lineno="17"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="18"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>TransCAD::IStdSolidLoftSectionsFeaturePtr<sp/>spFeature<sp/>=<sp/><ref refid="class_post_1_1_feature_1a252ade4e8188c192beaf03a8abbdca65" kindref="member">GetTransCADFeature</ref>();</highlight></codeline>
+<codeline lineno="19"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>TransCAD::IReferencesPtr<sp/>spReferences<sp/>=<sp/>spFeature-&gt;References;</highlight></codeline>
+<codeline lineno="20"><highlight class="normal"></highlight></codeline>
+<codeline lineno="21"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_post_1_1_feature_s_o_l_i_d_create_sections_loft_1a6106ba232b2cd073c31144b76d197f07" kindref="member">_sectionCount</ref><sp/>=<sp/>spReferences-&gt;Count;</highlight></codeline>
+<codeline lineno="22"><highlight class="normal"></highlight></codeline>
+<codeline lineno="23"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">for</highlight><highlight class="normal"><sp/>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>i<sp/>=<sp/>1;<sp/>i<sp/>&lt;=<sp/><ref refid="class_post_1_1_feature_s_o_l_i_d_create_sections_loft_1a6106ba232b2cd073c31144b76d197f07" kindref="member">_sectionCount</ref>;<sp/>++i)</highlight></codeline>
+<codeline lineno="24"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="25"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>TransCAD::IReferencePtr<sp/>spReference<sp/>=<sp/>spReferences-&gt;Item[i];</highlight></codeline>
+<codeline lineno="26"><highlight class="normal"></highlight></codeline>
+<codeline lineno="27"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>cout<sp/>&lt;&lt;<sp/></highlight><highlight class="stringliteral">&quot;<sp/><sp/><sp/>&quot;</highlight><highlight class="normal"><sp/>&lt;&lt;<sp/></highlight><highlight class="stringliteral">&quot;Name<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>:<sp/>&quot;</highlight><highlight class="normal"><sp/>&lt;&lt;<sp/>spReference-&gt;Name<sp/>&lt;&lt;<sp/>endl;</highlight></codeline>
+<codeline lineno="28"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>cout<sp/>&lt;&lt;<sp/></highlight><highlight class="stringliteral">&quot;<sp/><sp/><sp/>&quot;</highlight><highlight class="normal"><sp/>&lt;&lt;<sp/></highlight><highlight class="stringliteral">&quot;ReferenceeName<sp/>:<sp/>&quot;</highlight><highlight class="normal"><sp/>&lt;&lt;<sp/>spReference-&gt;ReferenceeName<sp/>&lt;&lt;<sp/>endl;</highlight></codeline>
+<codeline lineno="29"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>cout<sp/>&lt;&lt;<sp/></highlight><highlight class="stringliteral">&quot;<sp/><sp/><sp/>&quot;</highlight><highlight class="normal"><sp/>&lt;&lt;<sp/></highlight><highlight class="stringliteral">&quot;Type<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>:<sp/>&quot;</highlight><highlight class="normal"><sp/>&lt;&lt;<sp/>spReference-&gt;Type<sp/>&lt;&lt;<sp/>endl;<sp/><sp/></highlight><highlight class="comment">//<sp/>1<sp/>:<sp/>Brep</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="30"><highlight class="normal"></highlight></codeline>
+<codeline lineno="31"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_post_1_1_feature_s_o_l_i_d_create_sections_loft_1a001c7895613b4c0834f7de1c24724213" kindref="member">_sectionname</ref>[i]<sp/>=<sp/>spReference-&gt;ReferenceeName;</highlight></codeline>
+<codeline lineno="32"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="33"><highlight class="normal"></highlight></codeline>
+<codeline lineno="34"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//cout<sp/>&lt;&lt;<sp/>&quot;<sp/>LoftSections-&gt;<sp/>&quot;<sp/>&lt;&lt;<sp/>SectionNum&lt;&lt;<sp/>endl;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="35"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>spReferences-&gt;Item[]</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="36"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//_section<sp/>=<sp/>(FSketch*)(GetPart()-&gt;GetFeature(spReferences-&gt;Item));</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="37"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//TransCAD::IReferences<sp/>sectionzxcvs<sp/>=<sp/>spReferences-&gt;Item;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="38"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//string<sp/>SectionSketchName<sp/>=<sp/>;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="39"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//string<sp/>sketchName<sp/>=<sp/>spReferences-&gt;Count;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="40"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//cout<sp/>&lt;&lt;<sp/>&quot;<sp/>sketch-&gt;<sp/>&quot;<sp/>&lt;&lt;<sp/>sketchName.c_str()<sp/>&lt;&lt;<sp/>endl;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="41"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//_startSection<sp/>=<sp/>spFeature.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="42"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/><sp/>_startSection<sp/>=<sp/>spFeature-&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="43"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="44"><highlight class="normal"></highlight></codeline>
+<codeline lineno="45" refid="class_post_1_1_feature_s_o_l_i_d_create_sections_loft_1a24653567189674cf9624c7ce852b204b" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_post_1_1_feature_s_o_l_i_d_create_sections_loft_1a24653567189674cf9624c7ce852b204b" kindref="member">FeatureSOLIDCreateSectionsLoft::ToCATIA</ref>()</highlight></codeline>
+<codeline lineno="46"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="47"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="_c_a_t_i_apost___d_l_l_8cpp_1a4a001227aeffed8767cfd035c687e1ca" kindref="member">ref_index</ref>;</highlight></codeline>
+<codeline lineno="48"><highlight class="normal"></highlight></codeline>
+<codeline lineno="49"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//int<sp/>SectionSketchNum;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="50"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//if(!g_pRefManager-&gt;GetFeatureIDByTransCADName(std::string(_profileSketch-&gt;GetTransCADFeature()-&gt;GetName()),<sp/>SectionSketchNum))</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="51"><highlight class="normal"></highlight></codeline>
+<codeline lineno="52"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>LoftID<sp/>=<sp/>1;</highlight></codeline>
+<codeline lineno="53"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(!<ref refid="namespace_post_1a757521acb19b64cd9a29879d6c5a7d5f" kindref="member">g_pRefManager</ref>-&gt;<ref refid="class_post_1_1_c_a_t_i_a_reference_manager_1ab00159c9905b3d3d14361f390db87e48" kindref="member">GetFeatureIDByTransCADName</ref>(std::string(<ref refid="class_post_1_1_feature_1a9d39434cf1acdc737198fefcf8b32e67" kindref="member">_spFeature</ref>-&gt;GetName()),<sp/>LoftID))</highlight></codeline>
+<codeline lineno="54"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="55"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>shapeFactoryID<sp/>=<sp/>LoftID<sp/>+<sp/>1;</highlight></codeline>
+<codeline lineno="56"><highlight class="normal"></highlight></codeline>
+<codeline lineno="57"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//Loft는<sp/>여러개더라도<sp/>아래<sp/>두<sp/>줄은<sp/>한번만<sp/>(shapeFactory)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="58"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>fprintf(<ref refid="class_post_1_1_feature_1aace9d720d9a16b17c62ab6b4b91cea3c" kindref="member">GetPart</ref>()-&gt;file,<sp/></highlight><highlight class="stringliteral">&quot;Dim<sp/>shapeFactory%d<sp/>As<sp/>Factory\n&quot;</highlight><highlight class="normal">,<sp/>shapeFactoryID);</highlight></codeline>
+<codeline lineno="59"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>fprintf(<ref refid="class_post_1_1_feature_1aace9d720d9a16b17c62ab6b4b91cea3c" kindref="member">GetPart</ref>()-&gt;file,<sp/></highlight><highlight class="stringliteral">&quot;Set<sp/>shapeFactory%d<sp/>=<sp/>part1.ShapeFactory\n\n&quot;</highlight><highlight class="normal">,<sp/>shapeFactoryID);</highlight></codeline>
+<codeline lineno="60"><highlight class="normal"></highlight></codeline>
+<codeline lineno="61"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>fprintf(<ref refid="class_post_1_1_feature_1aace9d720d9a16b17c62ab6b4b91cea3c" kindref="member">GetPart</ref>()-&gt;file,<sp/></highlight><highlight class="stringliteral">&quot;Dim<sp/>loft%d<sp/>As<sp/>AnyObject\n&quot;</highlight><highlight class="normal">,<sp/>LoftID);</highlight></codeline>
+<codeline lineno="62"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>fprintf(<ref refid="class_post_1_1_feature_1aace9d720d9a16b17c62ab6b4b91cea3c" kindref="member">GetPart</ref>()-&gt;file,<sp/></highlight><highlight class="stringliteral">&quot;Set<sp/>loft%d<sp/>=<sp/>shapeFactory%d.AddNewLoft()\n\n&quot;</highlight><highlight class="normal">,<sp/>LoftID,<sp/>shapeFactoryID);<sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//Loft<sp/>정의</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="63"><highlight class="normal"></highlight></codeline>
+<codeline lineno="64"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>fprintf(<ref refid="class_post_1_1_feature_1aace9d720d9a16b17c62ab6b4b91cea3c" kindref="member">GetPart</ref>()-&gt;file,<sp/></highlight><highlight class="stringliteral">&quot;Dim<sp/>hybridShapeLoft%d<sp/>As<sp/>HybridShape\n&quot;</highlight><highlight class="normal">,<sp/>LoftID);</highlight></codeline>
+<codeline lineno="65"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>fprintf(<ref refid="class_post_1_1_feature_1aace9d720d9a16b17c62ab6b4b91cea3c" kindref="member">GetPart</ref>()-&gt;file,<sp/></highlight><highlight class="stringliteral">&quot;Set<sp/>hybridShapeLoft%d<sp/>=<sp/>loft1.HybridShape\n\n&quot;</highlight><highlight class="normal">,<sp/>LoftID);</highlight></codeline>
+<codeline lineno="66"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>fprintf(<ref refid="class_post_1_1_feature_1aace9d720d9a16b17c62ab6b4b91cea3c" kindref="member">GetPart</ref>()-&gt;file,<sp/></highlight><highlight class="stringliteral">&quot;hybridShapeLoft%d.SectionCoupling<sp/>=<sp/>1\n&quot;</highlight><highlight class="normal">,<sp/>LoftID);</highlight></codeline>
+<codeline lineno="67"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>fprintf(<ref refid="class_post_1_1_feature_1aace9d720d9a16b17c62ab6b4b91cea3c" kindref="member">GetPart</ref>()-&gt;file,<sp/></highlight><highlight class="stringliteral">&quot;hybridShapeLoft%d.Relimitation<sp/>=<sp/>1\n&quot;</highlight><highlight class="normal">,<sp/>LoftID);</highlight></codeline>
+<codeline lineno="68"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>fprintf(<ref refid="class_post_1_1_feature_1aace9d720d9a16b17c62ab6b4b91cea3c" kindref="member">GetPart</ref>()-&gt;file,<sp/></highlight><highlight class="stringliteral">&quot;hybridShapeLoft%d.CanonicalDetection<sp/>=<sp/>2\n&quot;</highlight><highlight class="normal">,<sp/>LoftID);</highlight></codeline>
+<codeline lineno="69"><highlight class="normal"></highlight></codeline>
+<codeline lineno="70"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//Extremum<sp/>정의</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="71"><highlight class="normal"></highlight></codeline>
+<codeline lineno="72"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">for</highlight><highlight class="normal"><sp/>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>i<sp/>=<sp/>1;<sp/>i<sp/>&lt;=<sp/><ref refid="class_post_1_1_feature_s_o_l_i_d_create_sections_loft_1a6106ba232b2cd073c31144b76d197f07" kindref="member">_sectionCount</ref>;<sp/>++i)<sp/>{</highlight></codeline>
+<codeline lineno="73"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>ref_index++;</highlight></codeline>
+<codeline lineno="74"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_post_1_1_feature_s_o_l_i_d_create_sections_loft_1a698a1617b898f828c08d6abcdb4141d7" kindref="member">hybridShapeExtremumNum</ref>++;</highlight></codeline>
+<codeline lineno="75"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>fprintf(<ref refid="class_post_1_1_feature_1aace9d720d9a16b17c62ab6b4b91cea3c" kindref="member">GetPart</ref>()-&gt;file,<sp/></highlight><highlight class="stringliteral">&quot;Dim<sp/>hybridShapeDirection%d<sp/>As<sp/>HybridShapeDirection\n&quot;</highlight><highlight class="normal">,<sp/><ref refid="class_post_1_1_feature_s_o_l_i_d_create_sections_loft_1a698a1617b898f828c08d6abcdb4141d7" kindref="member">hybridShapeExtremumNum</ref>);</highlight></codeline>
+<codeline lineno="76"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>fprintf(<ref refid="class_post_1_1_feature_1aace9d720d9a16b17c62ab6b4b91cea3c" kindref="member">GetPart</ref>()-&gt;file,<sp/></highlight><highlight class="stringliteral">&quot;Set<sp/>hybridShapeDirection%d<sp/>=<sp/>hybridShapeFactory1.AddNewDirectionByCoord(1.000000,<sp/>2.000000,<sp/>3.000000)\n\n&quot;</highlight><highlight class="normal">,<sp/><ref refid="class_post_1_1_feature_s_o_l_i_d_create_sections_loft_1a698a1617b898f828c08d6abcdb4141d7" kindref="member">hybridShapeExtremumNum</ref>);</highlight></codeline>
+<codeline lineno="77"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>std::string<sp/>sectionNameToCAT<sp/>=<sp/><ref refid="class_post_1_1_feature_s_o_l_i_d_create_sections_loft_1a001c7895613b4c0834f7de1c24724213" kindref="member">_sectionname</ref>[i];</highlight></codeline>
+<codeline lineno="78"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>fprintf(<ref refid="class_post_1_1_feature_1aace9d720d9a16b17c62ab6b4b91cea3c" kindref="member">GetPart</ref>()-&gt;file,<sp/></highlight><highlight class="stringliteral">&quot;Dim<sp/>reference%d<sp/>As<sp/>Reference\n&quot;</highlight><highlight class="normal">,<sp/>ref_index);</highlight></codeline>
+<codeline lineno="79"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>fprintf(<ref refid="class_post_1_1_feature_1aace9d720d9a16b17c62ab6b4b91cea3c" kindref="member">GetPart</ref>()-&gt;file,<sp/></highlight><highlight class="stringliteral">&quot;Set<sp/>reference%d<sp/>=<sp/>part1.CreateReferenceFromObject(%s)\n\n&quot;</highlight><highlight class="normal">,<sp/>ref_index,<sp/>sectionNameToCAT.c_str());</highlight><highlight class="comment">//여기서<sp/>에러발생함.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="80"><highlight class="normal"></highlight></codeline>
+<codeline lineno="81"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>fprintf(<ref refid="class_post_1_1_feature_1aace9d720d9a16b17c62ab6b4b91cea3c" kindref="member">GetPart</ref>()-&gt;file,<sp/></highlight><highlight class="stringliteral">&quot;Dim<sp/>hybridShapeExtremum%d<sp/>As<sp/>HybridShapeExtremum\n&quot;</highlight><highlight class="normal">,<sp/><ref refid="class_post_1_1_feature_s_o_l_i_d_create_sections_loft_1a698a1617b898f828c08d6abcdb4141d7" kindref="member">hybridShapeExtremumNum</ref>);</highlight></codeline>
+<codeline lineno="82"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>fprintf(<ref refid="class_post_1_1_feature_1aace9d720d9a16b17c62ab6b4b91cea3c" kindref="member">GetPart</ref>()-&gt;file,<sp/></highlight><highlight class="stringliteral">&quot;Set<sp/>hybridShapeExtremum%d<sp/>=<sp/>hybridShapeFactory%d.AddNewExtremum(reference%d,<sp/>hybridShapeDirection%d,<sp/>1)\n&quot;</highlight><highlight class="normal">,<sp/><ref refid="class_post_1_1_feature_s_o_l_i_d_create_sections_loft_1a698a1617b898f828c08d6abcdb4141d7" kindref="member">hybridShapeExtremumNum</ref>,<sp/>shapeFactoryID,<sp/>ref_index,<sp/><ref refid="class_post_1_1_feature_s_o_l_i_d_create_sections_loft_1a698a1617b898f828c08d6abcdb4141d7" kindref="member">hybridShapeExtremumNum</ref>);</highlight></codeline>
+<codeline lineno="83"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>fprintf(<ref refid="class_post_1_1_feature_1aace9d720d9a16b17c62ab6b4b91cea3c" kindref="member">GetPart</ref>()-&gt;file,<sp/></highlight><highlight class="stringliteral">&quot;body1.InsertHybridShape<sp/>hybridShapeExtremum%d\n&quot;</highlight><highlight class="normal">,<sp/><ref refid="class_post_1_1_feature_s_o_l_i_d_create_sections_loft_1a698a1617b898f828c08d6abcdb4141d7" kindref="member">hybridShapeExtremumNum</ref>);</highlight></codeline>
+<codeline lineno="84"><highlight class="normal"></highlight></codeline>
+<codeline lineno="85"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>fprintf(<ref refid="class_post_1_1_feature_1aace9d720d9a16b17c62ab6b4b91cea3c" kindref="member">GetPart</ref>()-&gt;file,<sp/></highlight><highlight class="stringliteral">&quot;part1.InWorkObject<sp/>=<sp/>hybridShapeExtremum%d\n&quot;</highlight><highlight class="normal">,<sp/><ref refid="class_post_1_1_feature_s_o_l_i_d_create_sections_loft_1a698a1617b898f828c08d6abcdb4141d7" kindref="member">hybridShapeExtremumNum</ref>);</highlight></codeline>
+<codeline lineno="86"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>fprintf(<ref refid="class_post_1_1_feature_1aace9d720d9a16b17c62ab6b4b91cea3c" kindref="member">GetPart</ref>()-&gt;file,<sp/></highlight><highlight class="stringliteral">&quot;part1.Update\n\n&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="87"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="88"><highlight class="normal"></highlight></codeline>
+<codeline lineno="89"><highlight class="normal"></highlight></codeline>
+<codeline lineno="90"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//SectionNum<sp/>개수만큼<sp/>반복되야함.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="91"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_post_1_1_feature_s_o_l_i_d_create_sections_loft_1a698a1617b898f828c08d6abcdb4141d7" kindref="member">hybridShapeExtremumNum</ref><sp/>=<sp/>1;</highlight></codeline>
+<codeline lineno="92"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">for</highlight><highlight class="normal"><sp/>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>i<sp/>=<sp/>1;<sp/>i<sp/>&lt;=<sp/><ref refid="class_post_1_1_feature_s_o_l_i_d_create_sections_loft_1a6106ba232b2cd073c31144b76d197f07" kindref="member">_sectionCount</ref>;<sp/>++i)<sp/>{</highlight></codeline>
+<codeline lineno="93"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>ref_index++;</highlight></codeline>
+<codeline lineno="94"><highlight class="normal"></highlight></codeline>
+<codeline lineno="95"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>std::string<sp/>sectionNameToCAT<sp/>=<sp/><ref refid="class_post_1_1_feature_s_o_l_i_d_create_sections_loft_1a001c7895613b4c0834f7de1c24724213" kindref="member">_sectionname</ref>[i];</highlight></codeline>
+<codeline lineno="96"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>fprintf(<ref refid="class_post_1_1_feature_1aace9d720d9a16b17c62ab6b4b91cea3c" kindref="member">GetPart</ref>()-&gt;file,<sp/></highlight><highlight class="stringliteral">&quot;Dim<sp/>reference%d<sp/>As<sp/>Reference\n&quot;</highlight><highlight class="normal">,<sp/>ref_index);</highlight></codeline>
+<codeline lineno="97"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>fprintf(<ref refid="class_post_1_1_feature_1aace9d720d9a16b17c62ab6b4b91cea3c" kindref="member">GetPart</ref>()-&gt;file,<sp/></highlight><highlight class="stringliteral">&quot;Set<sp/>reference%d<sp/>=<sp/>part1.CreateReferenceFromObject(%s)\n\n&quot;</highlight><highlight class="normal">,<sp/>ref_index,<sp/>sectionNameToCAT.c_str());</highlight><highlight class="comment">//여기서<sp/>에러발생함.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="98"><highlight class="normal"></highlight></codeline>
+<codeline lineno="99"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>ref_index++;</highlight></codeline>
+<codeline lineno="100"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>fprintf(<ref refid="class_post_1_1_feature_1aace9d720d9a16b17c62ab6b4b91cea3c" kindref="member">GetPart</ref>()-&gt;file,<sp/></highlight><highlight class="stringliteral">&quot;Dim<sp/>reference%d<sp/>As<sp/>Reference\n&quot;</highlight><highlight class="normal">,<sp/>ref_index);</highlight></codeline>
+<codeline lineno="101"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>fprintf(<ref refid="class_post_1_1_feature_1aace9d720d9a16b17c62ab6b4b91cea3c" kindref="member">GetPart</ref>()-&gt;file,<sp/></highlight><highlight class="stringliteral">&quot;Set<sp/>reference%d<sp/>=<sp/>part1.CreateReferenceFromObject(hybridShapeExtremum%d)\n\n&quot;</highlight><highlight class="normal">,<sp/>ref_index,<sp/><ref refid="class_post_1_1_feature_s_o_l_i_d_create_sections_loft_1a698a1617b898f828c08d6abcdb4141d7" kindref="member">hybridShapeExtremumNum</ref>);</highlight></codeline>
+<codeline lineno="102"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_post_1_1_feature_s_o_l_i_d_create_sections_loft_1a698a1617b898f828c08d6abcdb4141d7" kindref="member">hybridShapeExtremumNum</ref>++;</highlight></codeline>
+<codeline lineno="103"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>fprintf(<ref refid="class_post_1_1_feature_1aace9d720d9a16b17c62ab6b4b91cea3c" kindref="member">GetPart</ref>()-&gt;file,<sp/></highlight><highlight class="stringliteral">&quot;hybridShapeLoft%d.AddSectionToLoft<sp/>reference%d,<sp/>1,<sp/>reference%d\n&quot;</highlight><highlight class="normal">,<sp/>LoftID,<sp/>ref_index<sp/>-<sp/>1,<sp/>ref_index);</highlight></codeline>
+<codeline lineno="104"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="105"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//SectionNum<sp/>개수만큼<sp/>반복되야함.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="106"><highlight class="normal"></highlight></codeline>
+<codeline lineno="107"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//fprintf(GetPart()-&gt;file,&quot;Dim<sp/>reference%d<sp/>As<sp/>Reference\n&quot;,<sp/>ref_index);</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="108"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//fprintf(GetPart()-&gt;file,<sp/>&quot;Set<sp/>reference%d<sp/>=<sp/>part1.CreateReferenceFromObject(sketch%d)\n\n&quot;,<sp/>ref_index,<sp/>guidesktchNum);</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="109"><highlight class="normal"></highlight></codeline>
+<codeline lineno="110"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//fprintf(GetPart()-&gt;file,&quot;Dim<sp/>rib%d<sp/>As<sp/>Rib\n&quot;,<sp/>ribID);</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="111"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//fprintf(GetPart()-&gt;file,<sp/>&quot;Set<sp/>rib%d<sp/>=<sp/>shapeFactory1.AddNewRibFromRef(reference%d,<sp/>reference%d)\n\n&quot;,<sp/>ribID,<sp/>ref_index-1,<sp/>ref_index);</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="112"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//fprintf(GetPart()-&gt;file,<sp/>&quot;%s&quot;,<sp/>&quot;part1.Update\n\n&quot;);</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="113"><highlight class="normal"></highlight></codeline>
+<codeline lineno="114"><highlight class="normal"></highlight></codeline>
+<codeline lineno="115"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//END</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="116"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>fprintf(<ref refid="class_post_1_1_feature_1aace9d720d9a16b17c62ab6b4b91cea3c" kindref="member">GetPart</ref>()-&gt;file,<sp/></highlight><highlight class="stringliteral">&quot;part1.InWorkObject<sp/>=<sp/>hybridShapeLoft%d&quot;</highlight><highlight class="normal">,<sp/>LoftID);</highlight></codeline>
+<codeline lineno="117"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>fprintf(<ref refid="class_post_1_1_feature_1aace9d720d9a16b17c62ab6b4b91cea3c" kindref="member">GetPart</ref>()-&gt;file,<sp/></highlight><highlight class="stringliteral">&quot;%s&quot;</highlight><highlight class="normal">,<sp/></highlight><highlight class="stringliteral">&quot;part1.Update\n\n&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="118"><highlight class="normal"></highlight></codeline>
+<codeline lineno="119"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>ref_index++;</highlight></codeline>
+<codeline lineno="120"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="121"><highlight class="normal">}</highlight></codeline>
+    </programlisting>
+    <location file="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/PostManager/ref/FeatureSOLIDCreateSectionsLoft.cpp"/>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,429 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_reference_class_1_1ref___pre" kind="class" prot="public">
+    <compoundname>ReferenceClass::ref_Pre</compoundname>
+    <includes refid="_reference_class___pre_8h" local="no">ReferenceClass_Pre.h</includes>
+      <sectiondef kind="public-type">
+      <memberdef kind="enum" id="class_reference_class_1_1ref___pre_1aa03606a79215698128eb9e4c1c985c1b" prot="public" static="no">
+        <name>TARGETPART</name>
+        <enumvalue id="class_reference_class_1_1ref___pre_1aa03606a79215698128eb9e4c1c985c1ba89a1533c37ec9254f22b5e0f29c9c0ff" prot="public">
+          <name>MASTER</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="class_reference_class_1_1ref___pre_1aa03606a79215698128eb9e4c1c985c1ba79e19bc2ac33d6c81272024561992f37" prot="public">
+          <name>SLAVE</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="class_reference_class_1_1ref___pre_1aa03606a79215698128eb9e4c1c985c1bac76f2bdb601e9957ef1376220546b782" prot="public">
+          <name>REFERENCE_SIZE</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/CPPWITHCSHARP/ReferenceClass_Pre.h" line="12" column="1" bodyfile="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/CPPWITHCSHARP/ReferenceClass_Pre.h" bodystart="12" bodyend="12"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_reference_class_1_1ref___pre_1a21ed6ea22faa931d53ee4e59b21d6749" prot="public" static="no" mutable="no">
+        <type>TransCAD::IAssemDocumentPtr *</type>
+        <definition>TransCAD::IAssemDocumentPtr* ReferenceClass::ref_Pre::_spAssemDocument</definition>
+        <argsstring></argsstring>
+        <name>_spAssemDocument</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/CPPWITHCSHARP/ReferenceClass_Pre.h" line="22" column="1" bodyfile="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/CPPWITHCSHARP/ReferenceClass_Pre.h" bodystart="22" bodyend="-1"/>
+        <referencedby refid="class_reference_class_1_1ref___pre_1a83c8590946e5baf2c304cfc3d9526cc7" compoundref="_reference_class___pre_8cpp" startline="16" endline="35">ref_Pre</referencedby>
+        <referencedby refid="class_reference_class_1_1ref___pre_1af46f69f170b7626db974e08e24894353" compoundref="_reference_class___pre_8cpp" startline="66" endline="121">TestEnvironment</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_reference_class_1_1ref___pre_1af7d8f4c68eeb85e8e5edee16761d355a" prot="public" static="no" mutable="no">
+        <type>TransCAD::IAssemPtr *</type>
+        <definition>TransCAD::IAssemPtr* ReferenceClass::ref_Pre::_spAssem</definition>
+        <argsstring></argsstring>
+        <name>_spAssem</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/CPPWITHCSHARP/ReferenceClass_Pre.h" line="23" column="1" bodyfile="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/CPPWITHCSHARP/ReferenceClass_Pre.h" bodystart="23" bodyend="-1"/>
+        <referencedby refid="class_reference_class_1_1ref___pre_1a83c8590946e5baf2c304cfc3d9526cc7" compoundref="_reference_class___pre_8cpp" startline="16" endline="35">ref_Pre</referencedby>
+        <referencedby refid="class_reference_class_1_1ref___pre_1af46f69f170b7626db974e08e24894353" compoundref="_reference_class___pre_8cpp" startline="66" endline="121">TestEnvironment</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_reference_class_1_1ref___pre_1a89793ff594f20a555df1142984c48da6" prot="public" static="no" mutable="no">
+        <type>TransCAD::ICompPtr *</type>
+        <definition>TransCAD::ICompPtr* ReferenceClass::ref_Pre::_spComp</definition>
+        <argsstring></argsstring>
+        <name>_spComp</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/CPPWITHCSHARP/ReferenceClass_Pre.h" line="24" column="1" bodyfile="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/CPPWITHCSHARP/ReferenceClass_Pre.h" bodystart="24" bodyend="-1"/>
+        <referencedby refid="class_reference_class_1_1ref___pre_1a8d058d5b4069f52fe9673bc9202f3cd0" compoundref="_reference_class___pre_8cpp" startline="258" endline="301">GetTransCADName_from_buffer</referencedby>
+        <referencedby refid="class_reference_class_1_1ref___pre_1af46f69f170b7626db974e08e24894353" compoundref="_reference_class___pre_8cpp" startline="66" endline="121">TestEnvironment</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_reference_class_1_1ref___pre_1acad4634ae08a868ca337cf9020e21e18" prot="public" static="no" mutable="no">
+        <type><ref refid="structparsing" kindref="compound">parsing</ref> *</type>
+        <definition>parsing* ReferenceClass::ref_Pre::pre_data</definition>
+        <argsstring></argsstring>
+        <name>pre_data</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/CPPWITHCSHARP/ReferenceClass_Pre.h" line="26" column="1" bodyfile="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/CPPWITHCSHARP/ReferenceClass_Pre.h" bodystart="26" bodyend="-1"/>
+        <referencedby refid="class_reference_class_1_1ref___pre_1ac8cd404fe503874a3b72314edf6c07ae" compoundref="_reference_class___pre_8cpp" startline="303" endline="337">Constraint_to_TransCAD</referencedby>
+        <referencedby refid="class_reference_class_1_1ref___pre_1a8d058d5b4069f52fe9673bc9202f3cd0" compoundref="_reference_class___pre_8cpp" startline="258" endline="301">GetTransCADName_from_buffer</referencedby>
+        <referencedby refid="class_reference_class_1_1ref___pre_1a83c8590946e5baf2c304cfc3d9526cc7" compoundref="_reference_class___pre_8cpp" startline="16" endline="35">ref_Pre</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_reference_class_1_1ref___pre_1a83c8590946e5baf2c304cfc3d9526cc7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>ReferenceClass::ref_Pre::ref_Pre</definition>
+        <argsstring>()</argsstring>
+        <name>ref_Pre</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/CPPWITHCSHARP/ReferenceClass_Pre.h" line="15" column="1" bodyfile="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/CPPWITHCSHARP/ReferenceClass_Pre.cpp" bodystart="16" bodyend="35"/>
+        <references refid="class_reference_class_1_1ref___pre_1af7d8f4c68eeb85e8e5edee16761d355a" compoundref="_reference_class___pre_8h" startline="23">_spAssem</references>
+        <references refid="class_reference_class_1_1ref___pre_1a21ed6ea22faa931d53ee4e59b21d6749" compoundref="_reference_class___pre_8h" startline="22">_spAssemDocument</references>
+        <references refid="namespace_pre_1ab590816a169f99c588976c3b9a269fbd" compoundref="_c_a_t_i_apre___d_l_l_8cpp" startline="16">Pre::g_spApplication</references>
+        <references refid="class_reference_class_1_1ref___pre_1acad4634ae08a868ca337cf9020e21e18" compoundref="_reference_class___pre_8h" startline="26">pre_data</references>
+      </memberdef>
+      <memberdef kind="function" id="class_reference_class_1_1ref___pre_1a3ea7b9b3a1602cde34ba327a97131675" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>ReferenceClass::ref_Pre::ref_Pre</definition>
+        <argsstring>(PreStack^buffer)</argsstring>
+        <name>ref_Pre</name>
+        <param>
+          <type><ref refid="class_pre_stack" kindref="compound">PreStack</ref>^</type>
+          <declname>buffer</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/CPPWITHCSHARP/ReferenceClass_Pre.h" line="16" column="1" bodyfile="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/CPPWITHCSHARP/ReferenceClass_Pre.cpp" bodystart="38" bodyend="59"/>
+        <references refid="class_reference_class_1_1ref___pre_1af7d8f4c68eeb85e8e5edee16761d355a" compoundref="_reference_class___pre_8h" startline="23">_spAssem</references>
+        <references refid="class_reference_class_1_1ref___pre_1a21ed6ea22faa931d53ee4e59b21d6749" compoundref="_reference_class___pre_8h" startline="22">_spAssemDocument</references>
+        <references refid="namespace_pre_1ab590816a169f99c588976c3b9a269fbd" compoundref="_c_a_t_i_apre___d_l_l_8cpp" startline="16">Pre::g_spApplication</references>
+        <references refid="class_reference_class_1_1ref___pre_1acad4634ae08a868ca337cf9020e21e18" compoundref="_reference_class___pre_8h" startline="26">pre_data</references>
+        <references refid="class_reference_class_1_1ref___pre_1af46f69f170b7626db974e08e24894353" compoundref="_reference_class___pre_8cpp" startline="66" endline="121">TestEnvironment</references>
+      </memberdef>
+      <memberdef kind="function" id="class_reference_class_1_1ref___pre_1a54f9805513c471dfca835ed445d724af" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type></type>
+        <definition>ReferenceClass::ref_Pre::~ref_Pre</definition>
+        <argsstring>()</argsstring>
+        <name>~ref_Pre</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/CPPWITHCSHARP/ReferenceClass_Pre.h" line="17" column="1" bodyfile="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/CPPWITHCSHARP/ReferenceClass_Pre.cpp" bodystart="64" bodyend="64"/>
+      </memberdef>
+      <memberdef kind="function" id="class_reference_class_1_1ref___pre_1aa86023525dbb1186e4c9247399445a24" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void ReferenceClass::ref_Pre::PreTest</definition>
+        <argsstring>(PreStack^buffer, int totnum, String^_CstType, String^_master_ref, String^_slave_ref)</argsstring>
+        <name>PreTest</name>
+        <param>
+          <type><ref refid="class_pre_stack" kindref="compound">PreStack</ref>^</type>
+          <declname>buffer</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>totnum</declname>
+        </param>
+        <param>
+          <type>String^</type>
+          <declname>_CstType</declname>
+        </param>
+        <param>
+          <type>String^</type>
+          <declname>_master_ref</declname>
+        </param>
+        <param>
+          <type>String^</type>
+          <declname>_slave_ref</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/CPPWITHCSHARP/ReferenceClass_Pre.h" line="31" column="1" bodyfile="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/CPPWITHCSHARP/ReferenceClass_Pre.cpp" bodystart="123" bodyend="127"/>
+      </memberdef>
+      <memberdef kind="function" id="class_reference_class_1_1ref___pre_1af46f69f170b7626db974e08e24894353" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void ReferenceClass::ref_Pre::TestEnvironment</definition>
+        <argsstring>(PreStack^buffer)</argsstring>
+        <name>TestEnvironment</name>
+        <param>
+          <type><ref refid="class_pre_stack" kindref="compound">PreStack</ref>^</type>
+          <declname>buffer</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/CPPWITHCSHARP/ReferenceClass_Pre.h" line="32" column="1" bodyfile="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/CPPWITHCSHARP/ReferenceClass_Pre.cpp" bodystart="66" bodyend="121"/>
+        <references refid="class_reference_class_1_1ref___pre_1af7d8f4c68eeb85e8e5edee16761d355a" compoundref="_reference_class___pre_8h" startline="23">_spAssem</references>
+        <references refid="class_reference_class_1_1ref___pre_1a21ed6ea22faa931d53ee4e59b21d6749" compoundref="_reference_class___pre_8h" startline="22">_spAssemDocument</references>
+        <references refid="class_reference_class_1_1ref___pre_1a89793ff594f20a555df1142984c48da6" compoundref="_reference_class___pre_8h" startline="24">_spComp</references>
+        <references refid="class_pre_1_1_part_1abe7d81bc84a9423e1d09c27e36125b64" compoundref="_pre_manager_2ref_2_part_8h" startline="52">Pre::Part::_spPart</references>
+        <references refid="namespace_pre_1ab590816a169f99c588976c3b9a269fbd" compoundref="_c_a_t_i_apre___d_l_l_8cpp" startline="16">Pre::g_spApplication</references>
+        <references refid="class_pre_1_1_part_1a8b5e2a2bbf385223d67ce40232b23e45" compoundref="_pre_manager_2ref_2_part_8cpp" startline="235" endline="308">Pre::Part::GetInfo</references>
+        <references refid="class_pre_stack_1a2dc1d77864de7e01e83891bd46777f7c" compoundref="_reference_class_8h" startline="59" endline="64">PreStack::Getitem_from_index</references>
+        <references refid="class_pre_stack_1adb9f10b73879559db98cc9e418f79a48" compoundref="_reference_class_8h" startline="48" endline="48">PreStack::GetSize</references>
+        <references refid="_reference_class_8cpp_1a845542c4adade4e6695e66ef7405b936" compoundref="_reference_class_8cpp" startline="10" endline="27">replace_all</references>
+        <references refid="_reference_class_8cpp_1a27d7884109d4b05adb7fd28a8a98a7ce" compoundref="_reference_class_8cpp" startline="6" endline="6">Stos</references>
+        <references refid="class_pre_1_1_part_1aa981061fc510bc931b60ce995551281b" compoundref="_pre_manager_2ref_2_part_8cpp" startline="310" endline="317">Pre::Part::ToTransCAD</references>
+        <referencedby refid="class_reference_class_1_1ref___pre_1a3ea7b9b3a1602cde34ba327a97131675" compoundref="_reference_class___pre_8cpp" startline="38" endline="59">ref_Pre</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_reference_class_1_1ref___pre_1ace43f6d79720cdc0bc281eb5660fe966" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="structref_command" kindref="compound">refCommand</ref></type>
+        <definition>refCommand ReferenceClass::ref_Pre::ref_Pre::SetConstraint</definition>
+        <argsstring>(PreStack^buffer, int totnum, String^_CstType, String^_master_ref, String^_slave_ref, String^_option, int^_option_int)</argsstring>
+        <name>ref_Pre::SetConstraint</name>
+        <param>
+          <type><ref refid="class_pre_stack" kindref="compound">PreStack</ref>^</type>
+          <declname>buffer</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>totnum</declname>
+        </param>
+        <param>
+          <type>String^</type>
+          <declname>_CstType</declname>
+        </param>
+        <param>
+          <type>String^</type>
+          <declname>_master_ref</declname>
+        </param>
+        <param>
+          <type>String^</type>
+          <declname>_slave_ref</declname>
+        </param>
+        <param>
+          <type>String^</type>
+          <declname>_option</declname>
+        </param>
+        <param>
+          <type>int^</type>
+          <declname>_option_int</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/CPPWITHCSHARP/ReferenceClass_Pre.h" line="33" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="class_reference_class_1_1ref___pre_1a68edab67fd4e452677bb5b2d783b5085" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void ReferenceClass::ref_Pre::Parsing</definition>
+        <argsstring>(String^ref, string *product, string *part, string *geometry)</argsstring>
+        <name>Parsing</name>
+        <param>
+          <type>String^</type>
+          <declname>ref</declname>
+        </param>
+        <param>
+          <type>string *</type>
+          <declname>product</declname>
+        </param>
+        <param>
+          <type>string *</type>
+          <declname>part</declname>
+        </param>
+        <param>
+          <type>string *</type>
+          <declname>geometry</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+<para>Axis:(Selection_RSur:(Face:(Brp:(Pocket.1;0:(Brp:(Sketch.2;4)));None:();Cf11:());Pocket.1_ResultOUT;Z0;G3563))</para><para>Axis:(Selection_RSur:(Face:(Brp:(Pocket.1;0:(Brp:(Sketch.2;4)));None:();Cf11:());Pocket.1_ResultOUT;Z0;G3563)) </para>        </inbodydescription>
+        <location file="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/CPPWITHCSHARP/ReferenceClass_Pre.h" line="35" column="1" bodyfile="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/CPPWITHCSHARP/ReferenceClass_Pre.cpp" bodystart="238" bodyend="256"/>
+        <references refid="_reference_class_8cpp_1a27d7884109d4b05adb7fd28a8a98a7ce" compoundref="_reference_class_8cpp" startline="6" endline="6">Stos</references>
+      </memberdef>
+      <memberdef kind="function" id="class_reference_class_1_1ref___pre_1a8d058d5b4069f52fe9673bc9202f3cd0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int ReferenceClass::ref_Pre::GetTransCADName_from_buffer</definition>
+        <argsstring>(PreStack^buffer, string *Transcad_subAssemName, string *Transcad_partName, string *Transcad_geometry)</argsstring>
+        <name>GetTransCADName_from_buffer</name>
+        <param>
+          <type><ref refid="class_pre_stack" kindref="compound">PreStack</ref>^</type>
+          <declname>buffer</declname>
+        </param>
+        <param>
+          <type>string *</type>
+          <declname>Transcad_subAssemName</declname>
+        </param>
+        <param>
+          <type>string *</type>
+          <declname>Transcad_partName</declname>
+        </param>
+        <param>
+          <type>string *</type>
+          <declname>Transcad_geometry</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/CPPWITHCSHARP/ReferenceClass_Pre.h" line="36" column="1" bodyfile="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/CPPWITHCSHARP/ReferenceClass_Pre.cpp" bodystart="258" bodyend="301"/>
+        <references refid="class_reference_class_1_1ref___pre_1a89793ff594f20a555df1142984c48da6" compoundref="_reference_class___pre_8h" startline="24">_spComp</references>
+        <references refid="structparsing_1a5402c87864310e1985935b298bce61f9" compoundref="_reference_class_8h" startline="73">parsing::assem_geometry</references>
+        <references refid="structparsing_1adbcbf43366347f99b814fb375be7c162" compoundref="_reference_class_8h" startline="71">parsing::assem_part</references>
+        <references refid="structparsing_1a602513d02949072c8892d5af6714c54c" compoundref="_reference_class_8h" startline="69">parsing::assem_product</references>
+        <references refid="class_pre_stack_1ab97cfcc64415c2cb573333ea52d31ca8" compoundref="_reference_class_8h" startline="50" endline="58">PreStack::Getindex_from_name</references>
+        <references refid="class_pre_1_1_part_1a8b5e2a2bbf385223d67ce40232b23e45" compoundref="_pre_manager_2ref_2_part_8cpp" startline="235" endline="308">Pre::Part::GetInfo</references>
+        <references refid="class_pre_stack_1a2dc1d77864de7e01e83891bd46777f7c" compoundref="_reference_class_8h" startline="59" endline="64">PreStack::Getitem_from_index</references>
+        <references refid="class_pre_1_1_reference_entity_1ab193a350f007a3546577bf6171a50889" compoundref="_reference_entity_8cpp" startline="436" endline="587">Pre::ReferenceEntity::GetReferName</references>
+        <references refid="structparsing_1a280067936b80cf528e48af66c750c81c" compoundref="_reference_class_8h" startline="72">parsing::part_num</references>
+        <references refid="class_reference_class_1_1ref___pre_1acad4634ae08a868ca337cf9020e21e18" compoundref="_reference_class___pre_8h" startline="26">pre_data</references>
+        <references refid="structparsing_1a291835b970e948e4aefe92403bcd5589" compoundref="_reference_class_8h" startline="70">parsing::product_num</references>
+        <references refid="_reference_class_8cpp_1a27d7884109d4b05adb7fd28a8a98a7ce" compoundref="_reference_class_8cpp" startline="6" endline="6">Stos</references>
+        <references refid="_reference_class_8cpp_1a1df4caf6a0641fd90e6044b6b29da131" compoundref="_reference_class_8cpp" startline="7" endline="7">stoS</references>
+      </memberdef>
+      <memberdef kind="function" id="class_reference_class_1_1ref___pre_1ac8cd404fe503874a3b72314edf6c07ae" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>string</type>
+        <definition>string ReferenceClass::ref_Pre::Constraint_to_TransCAD</definition>
+        <argsstring>(TransCAD::IStdAssemConstraintsPtr f, string type, TransCAD::IPartPtr master, TransCAD::IReferencePtr master_ref, TransCAD::IPartPtr slave, TransCAD::IReferencePtr slave_ref, string option, int^option_int)</argsstring>
+        <name>Constraint_to_TransCAD</name>
+        <param>
+          <type>TransCAD::IStdAssemConstraintsPtr</type>
+          <declname>f</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>type</declname>
+        </param>
+        <param>
+          <type>TransCAD::IPartPtr</type>
+          <declname>master</declname>
+        </param>
+        <param>
+          <type>TransCAD::IReferencePtr</type>
+          <declname>master_ref</declname>
+        </param>
+        <param>
+          <type>TransCAD::IPartPtr</type>
+          <declname>slave</declname>
+        </param>
+        <param>
+          <type>TransCAD::IReferencePtr</type>
+          <declname>slave_ref</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>option</declname>
+        </param>
+        <param>
+          <type>int^</type>
+          <declname>option_int</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/CPPWITHCSHARP/ReferenceClass_Pre.h" line="37" column="1" bodyfile="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/CPPWITHCSHARP/ReferenceClass_Pre.cpp" bodystart="303" bodyend="337"/>
+        <references refid="class_reference_class_1_1ref___pre_1acad4634ae08a868ca337cf9020e21e18" compoundref="_reference_class___pre_8h" startline="26">pre_data</references>
+        <references refid="structparsing_1a291835b970e948e4aefe92403bcd5589" compoundref="_reference_class_8h" startline="70">parsing::product_num</references>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="1122">
+        <label>parsing</label>
+        <link refid="structparsing"/>
+        <childnode refid="1123" relation="usage">
+          <edgelabel>assem_part</edgelabel>
+          <edgelabel>assem_product</edgelabel>
+          <edgelabel>Transcad_subAssemName</edgelabel>
+          <edgelabel>Transcad_geometry</edgelabel>
+          <edgelabel>Transcad_partName</edgelabel>
+          <edgelabel>assem_geometry</edgelabel>
+        </childnode>
+      </node>
+      <node id="1124">
+        <label>std::basic_string&lt; char &gt;</label>
+      </node>
+      <node id="1121">
+        <label>ReferenceClass::ref_Pre</label>
+        <link refid="class_reference_class_1_1ref___pre"/>
+        <childnode refid="1122" relation="usage">
+          <edgelabel>pre_data</edgelabel>
+        </childnode>
+      </node>
+      <node id="1123">
+        <label>std::string</label>
+        <childnode refid="1124" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/CPPWITHCSHARP/ReferenceClass_Pre.h" line="11" column="1" bodyfile="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/CPPWITHCSHARP/ReferenceClass_Pre.h" bodystart="10" bodyend="39"/>
+    <listofallmembers>
+      <member refid="class_reference_class_1_1ref___pre_1af7d8f4c68eeb85e8e5edee16761d355a" prot="public" virt="non-virtual"><scope>ReferenceClass::ref_Pre</scope><name>_spAssem</name></member>
+      <member refid="class_reference_class_1_1ref___pre_1a21ed6ea22faa931d53ee4e59b21d6749" prot="public" virt="non-virtual"><scope>ReferenceClass::ref_Pre</scope><name>_spAssemDocument</name></member>
+      <member refid="class_reference_class_1_1ref___pre_1a89793ff594f20a555df1142984c48da6" prot="public" virt="non-virtual"><scope>ReferenceClass::ref_Pre</scope><name>_spComp</name></member>
+      <member refid="class_reference_class_1_1ref___pre_1ac8cd404fe503874a3b72314edf6c07ae" prot="public" virt="non-virtual"><scope>ReferenceClass::ref_Pre</scope><name>Constraint_to_TransCAD</name></member>
+      <member refid="class_reference_class_1_1ref___pre_1a8d058d5b4069f52fe9673bc9202f3cd0" prot="public" virt="non-virtual"><scope>ReferenceClass::ref_Pre</scope><name>GetTransCADName_from_buffer</name></member>
+      <member refid="class_reference_class_1_1ref___pre_1a68edab67fd4e452677bb5b2d783b5085" prot="public" virt="non-virtual"><scope>ReferenceClass::ref_Pre</scope><name>Parsing</name></member>
+      <member refid="class_reference_class_1_1ref___pre_1acad4634ae08a868ca337cf9020e21e18" prot="public" virt="non-virtual"><scope>ReferenceClass::ref_Pre</scope><name>pre_data</name></member>
+      <member refid="class_reference_class_1_1ref___pre_1aa86023525dbb1186e4c9247399445a24" prot="public" virt="non-virtual"><scope>ReferenceClass::ref_Pre</scope><name>PreTest</name></member>
+      <member refid="class_reference_class_1_1ref___pre_1a83c8590946e5baf2c304cfc3d9526cc7" prot="public" virt="non-virtual"><scope>ReferenceClass::ref_Pre</scope><name>ref_Pre</name></member>
+      <member refid="class_reference_class_1_1ref___pre_1a3ea7b9b3a1602cde34ba327a97131675" prot="public" virt="non-virtual"><scope>ReferenceClass::ref_Pre</scope><name>ref_Pre</name></member>
+      <member refid="class_reference_class_1_1ref___pre_1ace43f6d79720cdc0bc281eb5660fe966" prot="public" virt="non-virtual"><scope>ReferenceClass::ref_Pre</scope><name>ref_Pre::SetConstraint</name></member>
+      <member refid="class_reference_class_1_1ref___pre_1aa03606a79215698128eb9e4c1c985c1b" prot="public" virt="non-virtual"><scope>ReferenceClass::ref_Pre</scope><name>TARGETPART</name></member>
+      <member refid="class_reference_class_1_1ref___pre_1af46f69f170b7626db974e08e24894353" prot="public" virt="non-virtual"><scope>ReferenceClass::ref_Pre</scope><name>TestEnvironment</name></member>
+      <member refid="class_reference_class_1_1ref___pre_1a54f9805513c471dfca835ed445d724af" prot="public" virt="virtual"><scope>ReferenceClass::ref_Pre</scope><name>~ref_Pre</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

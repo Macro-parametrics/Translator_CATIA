@@ -1,0 +1,127 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="struct_post_1_1_e_n___f" kind="struct" prot="public">
+    <compoundname>Post::EN_F</compoundname>
+    <includes refid="_p_n___t_y_p_e_8h" local="no">PN_TYPE.h</includes>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="struct_post_1_1_e_n___f_1a8e2b53b6957374a942d13a8609d64310" prot="public" static="no" mutable="no">
+        <type><ref refid="struct_post_1_1basic__naming" kindref="compound">basic_naming</ref></type>
+        <definition>basic_naming Post::EN_F::_bn</definition>
+        <argsstring></argsstring>
+        <name>_bn</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/PostManager/ref/PN_TYPE.h" line="72" column="1" bodyfile="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/PostManager/ref/PN_TYPE.h" bodystart="72" bodyend="-1"/>
+        <referencedby refid="class_post_1_1_c_a_t_i_a_reference_manager_1a833a8035817475a393e82cd8920cc9bd" compoundref="_c_a_t_i_a_reference_manager_8cpp" startline="301" endline="344">Post::CATIAReferenceManager::ConvertToBRepEdge</referencedby>
+        <referencedby refid="class_post_1_1_c_a_t_i_a_reference_manager_1a14b0bf73747d910e987049d1f11e53fa" compoundref="_c_a_t_i_a_reference_manager_8cpp" startline="181" endline="212">Post::CATIAReferenceManager::ConvertToBRepFace</referencedby>
+        <referencedby refid="class_post_1_1_c_a_t_i_a_reference_manager_1a85d0117a972b7913dbd075b2bd80c4db" compoundref="_c_a_t_i_a_reference_manager_8cpp" startline="258" endline="298">Post::CATIAReferenceManager::ConvertToBRepFaceForDatumPlane</referencedby>
+        <referencedby refid="class_post_1_1_c_a_t_i_a_reference_manager_1a1cb21f058f48445ec86600788ce3284a" compoundref="_c_a_t_i_a_reference_manager_8cpp" startline="215" endline="255">Post::CATIAReferenceManager::ConvertToBRepFaceForHole</referencedby>
+        <referencedby refid="class_post_1_1_c_a_t_i_a_reference_manager_1ac1fead06b42883f7c35328d3773be7d8" compoundref="_c_a_t_i_a_reference_manager_8cpp" startline="347" endline="362">Post::CATIAReferenceManager::GetFaceNameOfCATIA</referencedby>
+        <referencedby refid="class_post_1_1_c_a_t_i_a_reference_manager_1a93bf73889d62708888ebeb5861dcef17" compoundref="_c_a_t_i_a_reference_manager_8cpp" startline="442" endline="455">Post::CATIAReferenceManager::GetReferenceeFeature</referencedby>
+        <referencedby refid="namespace_post_1ae3e42cd6a90b8e710aaacb3800b6d23f" compoundref="_m_p___utility_8cpp" startline="4" endline="11">Post::Parsing_F</referencedby>
+        <referencedby refid="namespace_post_1a0f0e985103a6b12c1b20e7329df20074" compoundref="_m_p___utility_8cpp" startline="249" endline="254">Post::Print_F</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="struct_post_1_1_e_n___f_1ad385700f95272e9a27b7c19edd2457cd" prot="public" static="no" mutable="no">
+        <type><ref refid="struct_post_1_1_o_s_i" kindref="compound">OSI</ref></type>
+        <definition>OSI Post::EN_F::_osi</definition>
+        <argsstring></argsstring>
+        <name>_osi</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/PostManager/ref/PN_TYPE.h" line="73" column="1" bodyfile="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/PostManager/ref/PN_TYPE.h" bodystart="73" bodyend="-1"/>
+        <referencedby refid="namespace_post_1ae3e42cd6a90b8e710aaacb3800b6d23f" compoundref="_m_p___utility_8cpp" startline="4" endline="11">Post::Parsing_F</referencedby>
+        <referencedby refid="namespace_post_1a0f0e985103a6b12c1b20e7329df20074" compoundref="_m_p___utility_8cpp" startline="249" endline="254">Post::Print_F</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="struct_post_1_1_e_n___f_1a91d71dbe012d955b239f80a900452557" prot="public" static="no" mutable="no">
+        <type><ref refid="struct_post_1_1secondary__name" kindref="compound">secondary_name</ref></type>
+        <definition>secondary_name Post::EN_F::_sn</definition>
+        <argsstring></argsstring>
+        <name>_sn</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/PostManager/ref/PN_TYPE.h" line="74" column="1" bodyfile="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/PostManager/ref/PN_TYPE.h" bodystart="74" bodyend="-1"/>
+        <referencedby refid="class_post_1_1_c_a_t_i_a_reference_manager_1a833a8035817475a393e82cd8920cc9bd" compoundref="_c_a_t_i_a_reference_manager_8cpp" startline="301" endline="344">Post::CATIAReferenceManager::ConvertToBRepEdge</referencedby>
+        <referencedby refid="class_post_1_1_c_a_t_i_a_reference_manager_1a14b0bf73747d910e987049d1f11e53fa" compoundref="_c_a_t_i_a_reference_manager_8cpp" startline="181" endline="212">Post::CATIAReferenceManager::ConvertToBRepFace</referencedby>
+        <referencedby refid="class_post_1_1_c_a_t_i_a_reference_manager_1a85d0117a972b7913dbd075b2bd80c4db" compoundref="_c_a_t_i_a_reference_manager_8cpp" startline="258" endline="298">Post::CATIAReferenceManager::ConvertToBRepFaceForDatumPlane</referencedby>
+        <referencedby refid="class_post_1_1_c_a_t_i_a_reference_manager_1a1cb21f058f48445ec86600788ce3284a" compoundref="_c_a_t_i_a_reference_manager_8cpp" startline="215" endline="255">Post::CATIAReferenceManager::ConvertToBRepFaceForHole</referencedby>
+        <referencedby refid="class_post_1_1_c_a_t_i_a_reference_manager_1ac1fead06b42883f7c35328d3773be7d8" compoundref="_c_a_t_i_a_reference_manager_8cpp" startline="347" endline="362">Post::CATIAReferenceManager::GetFaceNameOfCATIA</referencedby>
+        <referencedby refid="namespace_post_1ae3e42cd6a90b8e710aaacb3800b6d23f" compoundref="_m_p___utility_8cpp" startline="4" endline="11">Post::Parsing_F</referencedby>
+        <referencedby refid="namespace_post_1a0f0e985103a6b12c1b20e7329df20074" compoundref="_m_p___utility_8cpp" startline="249" endline="254">Post::Print_F</referencedby>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="297">
+        <label>Post::OSI</label>
+        <link refid="struct_post_1_1_o_s_i"/>
+      </node>
+      <node id="296">
+        <label>std::vector&lt; Post::basic_naming &gt;</label>
+        <childnode refid="292" relation="usage">
+          <edgelabel>elements</edgelabel>
+        </childnode>
+      </node>
+      <node id="294">
+        <label>std::basic_string&lt; char &gt;</label>
+      </node>
+      <node id="292">
+        <label>Post::basic_naming</label>
+        <link refid="struct_post_1_1basic__naming"/>
+        <childnode refid="293" relation="usage">
+          <edgelabel>feature_id</edgelabel>
+          <edgelabel>id1</edgelabel>
+          <edgelabel>id2</edgelabel>
+          <edgelabel>id3</edgelabel>
+          <edgelabel>id4</edgelabel>
+          <edgelabel>id5</edgelabel>
+        </childnode>
+      </node>
+      <node id="295">
+        <label>Post::secondary_name</label>
+        <link refid="struct_post_1_1secondary__name"/>
+        <childnode refid="296" relation="usage">
+          <edgelabel>_bn_list</edgelabel>
+        </childnode>
+      </node>
+      <node id="291">
+        <label>Post::EN_F</label>
+        <link refid="struct_post_1_1_e_n___f"/>
+        <childnode refid="292" relation="usage">
+          <edgelabel>_bn</edgelabel>
+        </childnode>
+        <childnode refid="295" relation="usage">
+          <edgelabel>_sn</edgelabel>
+        </childnode>
+        <childnode refid="297" relation="usage">
+          <edgelabel>_osi</edgelabel>
+        </childnode>
+      </node>
+      <node id="293">
+        <label>std::string</label>
+        <childnode refid="294" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/PostManager/ref/PN_TYPE.h" line="71" column="1" bodyfile="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/PostManager/ref/PN_TYPE.h" bodystart="70" bodyend="75"/>
+    <listofallmembers>
+      <member refid="struct_post_1_1_e_n___f_1a8e2b53b6957374a942d13a8609d64310" prot="public" virt="non-virtual"><scope>Post::EN_F</scope><name>_bn</name></member>
+      <member refid="struct_post_1_1_e_n___f_1ad385700f95272e9a27b7c19edd2457cd" prot="public" virt="non-virtual"><scope>Post::EN_F</scope><name>_osi</name></member>
+      <member refid="struct_post_1_1_e_n___f_1a91d71dbe012d955b239f80a900452557" prot="public" virt="non-virtual"><scope>Post::EN_F</scope><name>_sn</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

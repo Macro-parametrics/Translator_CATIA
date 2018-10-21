@@ -1,0 +1,566 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="_pre_manager_2ref_2_feature_8h" kind="file">
+    <compoundname>Feature.h</compoundname>
+    <includes refid="_pre_manager_2ref_2_part_8h" local="yes">Part.h</includes>
+    <includedby refid="_pre_manager_2ref_2_f_sketch_8h" local="yes">PreManager/ref/FSketch.h</includedby>
+    <includedby refid="_attribute_item_8h" local="yes">PreManager/ref/AttributeItem.h</includedby>
+    <includedby refid="_pre_manager_2ref_2_f_datum_plane_offset_8h" local="yes">PreManager/ref/FDatumPlaneOffset.h</includedby>
+    <includedby refid="_pre_manager_2ref_2_feature_8cpp" local="yes">PreManager/ref/Feature.cpp</includedby>
+    <includedby refid="_pre_manager_2ref_2_feature_s_o_l_i_d_create_chamfer_8h" local="yes">PreManager/ref/FeatureSOLIDCreateChamfer.h</includedby>
+    <includedby refid="_feature_s_o_l_i_d_create_extrude_8h" local="yes">PreManager/ref/FeatureSOLIDCreateExtrude.h</includedby>
+    <includedby refid="_pre_manager_2ref_2_feature_s_o_l_i_d_create_fillet_constant_8h" local="yes">PreManager/ref/FeatureSOLIDCreateFilletConstant.h</includedby>
+    <includedby refid="_feature_s_o_l_i_d_create_hole_8h" local="yes">PreManager/ref/FeatureSOLIDCreateHole.h</includedby>
+    <includedby refid="_pre_manager_2ref_2_feature_s_o_l_i_d_create_pattern_circular_8h" local="yes">PreManager/ref/FeatureSOLIDCreatePatternCircular.h</includedby>
+    <includedby refid="_pre_manager_2ref_2_feature_s_o_l_i_d_create_pattern_rectangular_8h" local="yes">PreManager/ref/FeatureSOLIDCreatePatternRectangular.h</includedby>
+    <includedby refid="_feature_s_o_l_i_d_create_revolve_8h" local="yes">PreManager/ref/FeatureSOLIDCreateRevolve.h</includedby>
+    <includedby refid="_feature_s_o_l_i_d_create_sweep_8h" local="yes">PreManager/ref/FeatureSOLIDCreateSweep.h</includedby>
+    <includedby refid="_pre_manager_2ref_2_part_8cpp" local="yes">PreManager/ref/Part.cpp</includedby>
+    <incdepgraph>
+      <node id="971">
+        <label>strstream</label>
+      </node>
+      <node id="955">
+        <label>PreManager/ref/Feature.h</label>
+        <link refid="PreManager/ref/Feature.h"/>
+        <childnode refid="956" relation="include">
+        </childnode>
+      </node>
+      <node id="965">
+        <label>cmath</label>
+      </node>
+      <node id="960">
+        <label>string</label>
+      </node>
+      <node id="969">
+        <label>comdef.h</label>
+      </node>
+      <node id="968">
+        <label>comutil.h</label>
+      </node>
+      <node id="963">
+        <label>fstream</label>
+      </node>
+      <node id="961">
+        <label>string.h</label>
+      </node>
+      <node id="957">
+        <label>CATIApre_DLL.h</label>
+        <link refid="_c_a_t_i_apre___d_l_l_8h"/>
+        <childnode refid="958" relation="include">
+        </childnode>
+        <childnode refid="959" relation="include">
+        </childnode>
+        <childnode refid="960" relation="include">
+        </childnode>
+        <childnode refid="961" relation="include">
+        </childnode>
+        <childnode refid="962" relation="include">
+        </childnode>
+        <childnode refid="963" relation="include">
+        </childnode>
+        <childnode refid="964" relation="include">
+        </childnode>
+        <childnode refid="965" relation="include">
+        </childnode>
+        <childnode refid="966" relation="include">
+        </childnode>
+        <childnode refid="967" relation="include">
+        </childnode>
+        <childnode refid="968" relation="include">
+        </childnode>
+        <childnode refid="969" relation="include">
+        </childnode>
+        <childnode refid="970" relation="include">
+        </childnode>
+      </node>
+      <node id="964">
+        <label>vector</label>
+      </node>
+      <node id="967">
+        <label>sstream</label>
+      </node>
+      <node id="966">
+        <label>math.h</label>
+      </node>
+      <node id="962">
+        <label>iostream</label>
+      </node>
+      <node id="959">
+        <label>tchar.h</label>
+      </node>
+      <node id="970">
+        <label>Definition.h</label>
+        <link refid="_pre_manager_2ref_2_definition_8h"/>
+        <childnode refid="971" relation="include">
+        </childnode>
+        <childnode refid="962" relation="include">
+        </childnode>
+        <childnode refid="966" relation="include">
+        </childnode>
+      </node>
+      <node id="956">
+        <label>Part.h</label>
+        <link refid="_pre_manager_2ref_2_part_8h"/>
+        <childnode refid="957" relation="include">
+        </childnode>
+      </node>
+      <node id="958">
+        <label>stdio.h</label>
+      </node>
+    </incdepgraph>
+    <invincdepgraph>
+      <node id="997">
+        <label>PreManager/ref/FSKETCHCreate2DLine2Points.cpp</label>
+        <link refid="_f_s_k_e_t_c_h_create2_d_line2_points_8cpp"/>
+      </node>
+      <node id="1017">
+        <label>PreManager/ref/FDatumPlaneOffset.h</label>
+        <link refid="_pre_manager_2ref_2_f_datum_plane_offset_8h"/>
+        <childnode refid="981" relation="include">
+        </childnode>
+        <childnode refid="991" relation="include">
+        </childnode>
+      </node>
+      <node id="1000">
+        <label>PreManager/ref/FSKETCHItem.cpp</label>
+        <link refid="_f_s_k_e_t_c_h_item_8cpp"/>
+      </node>
+      <node id="990">
+        <label>PreManager/ref/FSketch.cpp</label>
+        <link refid="_pre_manager_2ref_2_f_sketch_8cpp"/>
+      </node>
+      <node id="976">
+        <label>CPPWITHCSHARP/ReferenceClass.cpp</label>
+        <link refid="_reference_class_8cpp"/>
+      </node>
+      <node id="984">
+        <label>PreManager/ref/FeatureSOLIDCreateFilletConstant.cpp</label>
+        <link refid="_pre_manager_2ref_2_feature_s_o_l_i_d_create_fillet_constant_8cpp"/>
+      </node>
+      <node id="1011">
+        <label>PreManager/ref/AttLimit.cpp</label>
+        <link refid="_att_limit_8cpp"/>
+      </node>
+      <node id="1018">
+        <label>PreManager/ref/Feature.cpp</label>
+        <link refid="_pre_manager_2ref_2_feature_8cpp"/>
+      </node>
+      <node id="1014">
+        <label>PreManager/ref/AttParameter.h</label>
+        <link refid="_att_parameter_8h"/>
+        <childnode refid="1015" relation="include">
+        </childnode>
+        <childnode refid="991" relation="include">
+        </childnode>
+      </node>
+      <node id="1002">
+        <label>PreManager/ref/AttAngle.h</label>
+        <link refid="_att_angle_8h"/>
+        <childnode refid="1003" relation="include">
+        </childnode>
+        <childnode refid="991" relation="include">
+        </childnode>
+      </node>
+      <node id="1021">
+        <label>PreManager/ref/FeatureSOLIDCreateFilletConstant.h</label>
+        <link refid="_pre_manager_2ref_2_feature_s_o_l_i_d_create_fillet_constant_8h"/>
+        <childnode refid="984" relation="include">
+        </childnode>
+        <childnode refid="991" relation="include">
+        </childnode>
+      </node>
+      <node id="972">
+        <label>PreManager/ref/Feature.h</label>
+        <link refid="PreManager/ref/Feature.h"/>
+        <childnode refid="973" relation="include">
+        </childnode>
+        <childnode refid="1001" relation="include">
+        </childnode>
+        <childnode refid="1017" relation="include">
+        </childnode>
+        <childnode refid="1018" relation="include">
+        </childnode>
+        <childnode refid="1019" relation="include">
+        </childnode>
+        <childnode refid="1020" relation="include">
+        </childnode>
+        <childnode refid="1021" relation="include">
+        </childnode>
+        <childnode refid="1022" relation="include">
+        </childnode>
+        <childnode refid="1023" relation="include">
+        </childnode>
+        <childnode refid="1024" relation="include">
+        </childnode>
+        <childnode refid="1025" relation="include">
+        </childnode>
+        <childnode refid="1026" relation="include">
+        </childnode>
+        <childnode refid="991" relation="include">
+        </childnode>
+      </node>
+      <node id="1013">
+        <label>PreManager/ref/AttLinearRepartation.cpp</label>
+        <link refid="_att_linear_repartation_8cpp"/>
+      </node>
+      <node id="1022">
+        <label>PreManager/ref/FeatureSOLIDCreateHole.h</label>
+        <link refid="_feature_s_o_l_i_d_create_hole_8h"/>
+        <childnode refid="985" relation="include">
+        </childnode>
+        <childnode refid="991" relation="include">
+        </childnode>
+      </node>
+      <node id="980">
+        <label>CPPWITHCSHARP/ReferenceClass_Pre.cpp</label>
+        <link refid="_reference_class___pre_8cpp"/>
+      </node>
+      <node id="1019">
+        <label>PreManager/ref/FeatureSOLIDCreateChamfer.h</label>
+        <link refid="_pre_manager_2ref_2_feature_s_o_l_i_d_create_chamfer_8h"/>
+        <childnode refid="982" relation="include">
+        </childnode>
+        <childnode refid="991" relation="include">
+        </childnode>
+      </node>
+      <node id="985">
+        <label>PreManager/ref/FeatureSOLIDCreateHole.cpp</label>
+        <link refid="_feature_s_o_l_i_d_create_hole_8cpp"/>
+      </node>
+      <node id="974">
+        <label>PreManager/ref/ReferenceEntity.h</label>
+        <link refid="_reference_entity_8h"/>
+        <childnode refid="975" relation="include">
+        </childnode>
+        <childnode refid="981" relation="include">
+        </childnode>
+        <childnode refid="982" relation="include">
+        </childnode>
+        <childnode refid="983" relation="include">
+        </childnode>
+        <childnode refid="984" relation="include">
+        </childnode>
+        <childnode refid="985" relation="include">
+        </childnode>
+        <childnode refid="986" relation="include">
+        </childnode>
+        <childnode refid="987" relation="include">
+        </childnode>
+        <childnode refid="988" relation="include">
+        </childnode>
+        <childnode refid="989" relation="include">
+        </childnode>
+        <childnode refid="990" relation="include">
+        </childnode>
+        <childnode refid="991" relation="include">
+        </childnode>
+        <childnode refid="992" relation="include">
+        </childnode>
+      </node>
+      <node id="993">
+        <label>PreManager/ref/FSKETCHItem.h</label>
+        <link refid="_f_s_k_e_t_c_h_item_8h"/>
+        <childnode refid="994" relation="include">
+        </childnode>
+        <childnode refid="988" relation="include">
+        </childnode>
+        <childnode refid="996" relation="include">
+        </childnode>
+        <childnode refid="990" relation="include">
+        </childnode>
+        <childnode refid="998" relation="include">
+        </childnode>
+        <childnode refid="1000" relation="include">
+        </childnode>
+      </node>
+      <node id="975">
+        <label>CPPWITHCSHARP/ReferenceClass.h</label>
+        <link refid="_reference_class_8h"/>
+        <childnode refid="976" relation="include">
+        </childnode>
+        <childnode refid="977" relation="include">
+        </childnode>
+        <childnode refid="979" relation="include">
+        </childnode>
+      </node>
+      <node id="973">
+        <label>PreManager/ref/FSketch.h</label>
+        <link refid="_pre_manager_2ref_2_f_sketch_8h"/>
+        <childnode refid="974" relation="include">
+        </childnode>
+        <childnode refid="983" relation="include">
+        </childnode>
+        <childnode refid="986" relation="include">
+        </childnode>
+        <childnode refid="993" relation="include">
+        </childnode>
+        <childnode refid="990" relation="include">
+        </childnode>
+        <childnode refid="995" relation="include">
+        </childnode>
+        <childnode refid="997" relation="include">
+        </childnode>
+        <childnode refid="999" relation="include">
+        </childnode>
+        <childnode refid="991" relation="include">
+        </childnode>
+      </node>
+      <node id="986">
+        <label>PreManager/ref/FeatureSOLIDCreatePatternCircular.cpp</label>
+        <link refid="_pre_manager_2ref_2_feature_s_o_l_i_d_create_pattern_circular_8cpp"/>
+      </node>
+      <node id="1004">
+        <label>PreManager/ref/AttAngularRepartation.h</label>
+        <link refid="_att_angular_repartation_8h"/>
+        <childnode refid="1005" relation="include">
+        </childnode>
+        <childnode refid="991" relation="include">
+        </childnode>
+      </node>
+      <node id="1023">
+        <label>PreManager/ref/FeatureSOLIDCreatePatternCircular.h</label>
+        <link refid="_pre_manager_2ref_2_feature_s_o_l_i_d_create_pattern_circular_8h"/>
+        <childnode refid="986" relation="include">
+        </childnode>
+        <childnode refid="991" relation="include">
+        </childnode>
+      </node>
+      <node id="979">
+        <label>CPPWITHCSHARP/ReferenceClass_Pre.h</label>
+        <link refid="_reference_class___pre_8h"/>
+        <childnode refid="980" relation="include">
+        </childnode>
+      </node>
+      <node id="1006">
+        <label>PreManager/ref/AttIntParam.h</label>
+        <link refid="_att_int_param_8h"/>
+        <childnode refid="1007" relation="include">
+        </childnode>
+        <childnode refid="991" relation="include">
+        </childnode>
+      </node>
+      <node id="1009">
+        <label>PreManager/ref/AttLength.cpp</label>
+        <link refid="_att_length_8cpp"/>
+      </node>
+      <node id="977">
+        <label>CPPWITHCSHARP/ReferenceClass_Post.h</label>
+        <link refid="_reference_class___post_8h"/>
+        <childnode refid="978" relation="include">
+        </childnode>
+      </node>
+      <node id="989">
+        <label>PreManager/ref/FeatureSOLIDCreateSweep.cpp</label>
+        <link refid="_feature_s_o_l_i_d_create_sweep_8cpp"/>
+      </node>
+      <node id="1008">
+        <label>PreManager/ref/AttLength.h</label>
+        <link refid="_att_length_8h"/>
+        <childnode refid="1009" relation="include">
+        </childnode>
+        <childnode refid="991" relation="include">
+        </childnode>
+      </node>
+      <node id="987">
+        <label>PreManager/ref/FeatureSOLIDCreatePatternRectangular.cpp</label>
+        <link refid="_pre_manager_2ref_2_feature_s_o_l_i_d_create_pattern_rectangular_8cpp"/>
+      </node>
+      <node id="1001">
+        <label>PreManager/ref/AttributeItem.h</label>
+        <link refid="_attribute_item_8h"/>
+        <childnode refid="1002" relation="include">
+        </childnode>
+        <childnode refid="1004" relation="include">
+        </childnode>
+        <childnode refid="1006" relation="include">
+        </childnode>
+        <childnode refid="1008" relation="include">
+        </childnode>
+        <childnode refid="1010" relation="include">
+        </childnode>
+        <childnode refid="1012" relation="include">
+        </childnode>
+        <childnode refid="1014" relation="include">
+        </childnode>
+        <childnode refid="1016" relation="include">
+        </childnode>
+        <childnode refid="991" relation="include">
+        </childnode>
+      </node>
+      <node id="982">
+        <label>PreManager/ref/FeatureSOLIDCreateChamfer.cpp</label>
+        <link refid="_pre_manager_2ref_2_feature_s_o_l_i_d_create_chamfer_8cpp"/>
+      </node>
+      <node id="994">
+        <label>PreManager/ref/FSKETCHCreate2DCircleCenterPoint.h</label>
+        <link refid="_f_s_k_e_t_c_h_create2_d_circle_center_point_8h"/>
+        <childnode refid="986" relation="include">
+        </childnode>
+        <childnode refid="988" relation="include">
+        </childnode>
+        <childnode refid="990" relation="include">
+        </childnode>
+        <childnode refid="995" relation="include">
+        </childnode>
+      </node>
+      <node id="998">
+        <label>PreManager/ref/FSKETCHCreate2DPoint.h</label>
+        <link refid="_f_s_k_e_t_c_h_create2_d_point_8h"/>
+        <childnode refid="990" relation="include">
+        </childnode>
+        <childnode refid="999" relation="include">
+        </childnode>
+      </node>
+      <node id="999">
+        <label>PreManager/ref/FSKETCHCreate2DPoint.cpp</label>
+        <link refid="_f_s_k_e_t_c_h_create2_d_point_8cpp"/>
+      </node>
+      <node id="1025">
+        <label>PreManager/ref/FeatureSOLIDCreateRevolve.h</label>
+        <link refid="_feature_s_o_l_i_d_create_revolve_8h"/>
+        <childnode refid="988" relation="include">
+        </childnode>
+        <childnode refid="991" relation="include">
+        </childnode>
+      </node>
+      <node id="1024">
+        <label>PreManager/ref/FeatureSOLIDCreatePatternRectangular.h</label>
+        <link refid="_pre_manager_2ref_2_feature_s_o_l_i_d_create_pattern_rectangular_8h"/>
+        <childnode refid="987" relation="include">
+        </childnode>
+        <childnode refid="991" relation="include">
+        </childnode>
+      </node>
+      <node id="988">
+        <label>PreManager/ref/FeatureSOLIDCreateRevolve.cpp</label>
+        <link refid="_feature_s_o_l_i_d_create_revolve_8cpp"/>
+      </node>
+      <node id="1015">
+        <label>PreManager/ref/AttParameter.cpp</label>
+        <link refid="_att_parameter_8cpp"/>
+      </node>
+      <node id="1007">
+        <label>PreManager/ref/AttIntParam.cpp</label>
+        <link refid="_att_int_param_8cpp"/>
+      </node>
+      <node id="1016">
+        <label>PreManager/ref/AttributeItem.cpp</label>
+        <link refid="_attribute_item_8cpp"/>
+      </node>
+      <node id="981">
+        <label>PreManager/ref/FDatumPlaneOffset.cpp</label>
+        <link refid="_pre_manager_2ref_2_f_datum_plane_offset_8cpp"/>
+      </node>
+      <node id="983">
+        <label>PreManager/ref/FeatureSOLIDCreateExtrude.cpp</label>
+        <link refid="_feature_s_o_l_i_d_create_extrude_8cpp"/>
+      </node>
+      <node id="1003">
+        <label>PreManager/ref/AttAngle.cpp</label>
+        <link refid="_att_angle_8cpp"/>
+      </node>
+      <node id="1005">
+        <label>PreManager/ref/AttAngularRepartation.cpp</label>
+        <link refid="_att_angular_repartation_8cpp"/>
+      </node>
+      <node id="978">
+        <label>CPPWITHCSHARP/ReferenceClass_Post.cpp</label>
+        <link refid="_reference_class___post_8cpp"/>
+      </node>
+      <node id="992">
+        <label>PreManager/ref/ReferenceEntity.cpp</label>
+        <link refid="_reference_entity_8cpp"/>
+      </node>
+      <node id="1026">
+        <label>PreManager/ref/FeatureSOLIDCreateSweep.h</label>
+        <link refid="_feature_s_o_l_i_d_create_sweep_8h"/>
+        <childnode refid="989" relation="include">
+        </childnode>
+        <childnode refid="991" relation="include">
+        </childnode>
+      </node>
+      <node id="995">
+        <label>PreManager/ref/FSKETCHCreate2DCircleCenterPoint.cpp</label>
+        <link refid="_f_s_k_e_t_c_h_create2_d_circle_center_point_8cpp"/>
+      </node>
+      <node id="991">
+        <label>PreManager/ref/Part.cpp</label>
+        <link refid="_pre_manager_2ref_2_part_8cpp"/>
+      </node>
+      <node id="1010">
+        <label>PreManager/ref/AttLimit.h</label>
+        <link refid="_att_limit_8h"/>
+        <childnode refid="1011" relation="include">
+        </childnode>
+        <childnode refid="991" relation="include">
+        </childnode>
+      </node>
+      <node id="1020">
+        <label>PreManager/ref/FeatureSOLIDCreateExtrude.h</label>
+        <link refid="_feature_s_o_l_i_d_create_extrude_8h"/>
+        <childnode refid="983" relation="include">
+        </childnode>
+        <childnode refid="991" relation="include">
+        </childnode>
+      </node>
+      <node id="996">
+        <label>PreManager/ref/FSKETCHCreate2DLine2Points.h</label>
+        <link refid="_f_s_k_e_t_c_h_create2_d_line2_points_8h"/>
+        <childnode refid="988" relation="include">
+        </childnode>
+        <childnode refid="990" relation="include">
+        </childnode>
+        <childnode refid="997" relation="include">
+        </childnode>
+      </node>
+      <node id="1012">
+        <label>PreManager/ref/AttLinearRepartation.h</label>
+        <link refid="_att_linear_repartation_8h"/>
+        <childnode refid="1013" relation="include">
+        </childnode>
+        <childnode refid="991" relation="include">
+        </childnode>
+      </node>
+    </invincdepgraph>
+    <innerclass refid="class_pre_1_1_feature" prot="public">Pre::Feature</innerclass>
+    <innernamespace refid="namespace_pre">Pre</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="preprocessor">#pragma<sp/>once</highlight></codeline>
+<codeline lineno="2"><highlight class="preprocessor"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="_pre_manager_2ref_2_part_8h" kindref="compound">Part.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal">Pre<sp/>{</highlight></codeline>
+<codeline lineno="4"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal">Part;</highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight></codeline>
+<codeline lineno="6" refid="class_pre_1_1_feature" refkind="compound"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="class_pre_1_1_feature" kindref="compound">Feature</ref></highlight></codeline>
+<codeline lineno="7"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="8"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="9"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_pre_1_1_feature_1a23c64c5988ab1337beceaa7c1c5c0d77" kindref="member">Feature</ref>(<ref refid="class_pre_1_1_part" kindref="compound">Part</ref><sp/>*<sp/>pPart,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>type,<sp/></highlight><highlight class="keywordtype">string</highlight><highlight class="normal"><sp/>name);</highlight></codeline>
+<codeline lineno="10"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/><ref refid="class_pre_1_1_feature_1ac9e4bbb034ce47ce1ddd02adb52aee98" kindref="member">~Feature</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="11"><highlight class="normal"></highlight></codeline>
+<codeline lineno="12" refid="class_pre_1_1_feature_1a22de04ab5c0ef7206d32c780ccfafee7" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_pre_1_1_part" kindref="compound">Part</ref><sp/>*<sp/><sp/><ref refid="class_pre_1_1_feature_1a22de04ab5c0ef7206d32c780ccfafee7" kindref="member">GetPart</ref>()<sp/>{<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/><ref refid="class_pre_1_1_feature_1a64772d4f47afe0052d5a94f773de5211" kindref="member">_pPart</ref>;<sp/>}</highlight></codeline>
+<codeline lineno="13" refid="class_pre_1_1_feature_1aeec702655239d43b9fb7af691bc4f85c" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">string</highlight><highlight class="normal"><sp/><sp/><ref refid="class_pre_1_1_feature_1aeec702655239d43b9fb7af691bc4f85c" kindref="member">GetFeatureName</ref>()<sp/>{<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/><ref refid="class_pre_1_1_feature_1ae8c43a10be919286c9450125b1a0afb9" kindref="member">_name</ref>;<sp/>}</highlight></codeline>
+<codeline lineno="14" refid="class_pre_1_1_feature_1aef6c7020e3bf305f38a88195b794b110" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="class_pre_1_1_feature_1aef6c7020e3bf305f38a88195b794b110" kindref="member">GetFeatureType</ref>()</highlight><highlight class="keyword"><sp/>const<sp/></highlight><highlight class="normal">{<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/><ref refid="class_pre_1_1_feature_1a341b5b05bd448a814e86099e70f1a747" kindref="member">_type</ref>;<sp/>}</highlight></codeline>
+<codeline lineno="15"><highlight class="normal"></highlight></codeline>
+<codeline lineno="16" refid="class_pre_1_1_feature_1a6a061740e7d2d749b1efe097ae87928d" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_pre_1_1_feature_1a6a061740e7d2d749b1efe097ae87928d" kindref="member">SetFeatureName</ref>(</highlight><highlight class="keywordtype">string</highlight><highlight class="normal"><sp/>featureName)<sp/>{<sp/><ref refid="class_pre_1_1_feature_1ae8c43a10be919286c9450125b1a0afb9" kindref="member">_name</ref><sp/>=<sp/>featureName;<sp/>}</highlight></codeline>
+<codeline lineno="17" refid="class_pre_1_1_feature_1a07534d290ca5363cd628efd011c070be" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_pre_1_1_feature_1a07534d290ca5363cd628efd011c070be" kindref="member">SetFeatureType</ref>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>featureType)<sp/>{<sp/><ref refid="class_pre_1_1_feature_1a341b5b05bd448a814e86099e70f1a747" kindref="member">_type</ref><sp/>=<sp/>featureType;<sp/>}</highlight></codeline>
+<codeline lineno="18"><highlight class="normal"></highlight></codeline>
+<codeline lineno="19" refid="class_pre_1_1_feature_1af58dd6004076ee16ada8ed600965de6c" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_pre_1_1_feature_1af58dd6004076ee16ada8ed600965de6c" kindref="member">GetInfo</ref>(ifstream<sp/>&amp;<sp/>is)<sp/>{}</highlight></codeline>
+<codeline lineno="20" refid="class_pre_1_1_feature_1a43c7ceaf04580d2e948aedd882208d80" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_pre_1_1_feature_1a43c7ceaf04580d2e948aedd882208d80" kindref="member">ToTransCAD</ref>()<sp/>{}</highlight></codeline>
+<codeline lineno="21"><highlight class="normal"></highlight></codeline>
+<codeline lineno="22"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_pre_1_1_feature_1a3b4b453b4ac49dde010d6760917266b7" kindref="member">CheckAttribute</ref>(</highlight><highlight class="keywordtype">string</highlight><highlight class="normal"><sp/>name,<sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>value,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>type);</highlight></codeline>
+<codeline lineno="23"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_pre_1_1_feature_1a11f5aafa54439cf08dd44adb6fcd4d9c" kindref="member">Modify</ref>(</highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*<sp/>buffer);</highlight></codeline>
+<codeline lineno="24"><highlight class="normal"></highlight></codeline>
+<codeline lineno="25"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="26" refid="class_pre_1_1_feature_1a64772d4f47afe0052d5a94f773de5211" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_pre_1_1_part" kindref="compound">Part</ref><sp/>*<sp/><sp/><ref refid="class_pre_1_1_feature_1a64772d4f47afe0052d5a94f773de5211" kindref="member">_pPart</ref>;</highlight></codeline>
+<codeline lineno="27" refid="class_pre_1_1_feature_1ae8c43a10be919286c9450125b1a0afb9" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">string</highlight><highlight class="normal"><sp/><sp/><ref refid="class_pre_1_1_feature_1ae8c43a10be919286c9450125b1a0afb9" kindref="member">_name</ref>;</highlight></codeline>
+<codeline lineno="28" refid="class_pre_1_1_feature_1a341b5b05bd448a814e86099e70f1a747" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="class_pre_1_1_feature_1a341b5b05bd448a814e86099e70f1a747" kindref="member">_type</ref>;</highlight></codeline>
+<codeline lineno="29"><highlight class="normal"><sp/><sp/><sp/><sp/>};</highlight></codeline>
+<codeline lineno="30"><highlight class="normal">}</highlight></codeline>
+    </programlisting>
+    <location file="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/PreManager/ref/Feature.h"/>
+  </compounddef>
+</doxygen>

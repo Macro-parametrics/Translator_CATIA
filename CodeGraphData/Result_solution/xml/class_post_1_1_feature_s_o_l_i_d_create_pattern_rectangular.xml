@@ -1,0 +1,404 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_post_1_1_feature_s_o_l_i_d_create_pattern_rectangular" kind="class" prot="public">
+    <compoundname>Post::FeatureSOLIDCreatePatternRectangular</compoundname>
+    <basecompoundref refid="class_post_1_1_feature" prot="public" virt="non-virtual">Post::Feature</basecompoundref>
+    <includes refid="_post_manager_2ref_2_feature_s_o_l_i_d_create_pattern_rectangular_8h" local="no">FeatureSOLIDCreatePatternRectangular.h</includes>
+      <sectiondef kind="protected-attrib">
+      <memberdef kind="variable" id="class_post_1_1_feature_s_o_l_i_d_create_pattern_rectangular_1a0277318036f00d42603486f5cb53c300" prot="protected" static="no" mutable="no">
+        <type>string</type>
+        <definition>string Post::FeatureSOLIDCreatePatternRectangular::_featurename</definition>
+        <argsstring></argsstring>
+        <name>_featurename</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/PostManager/ref/FeatureSOLIDCreatePatternRectangular.h" line="15" column="1" bodyfile="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/PostManager/ref/FeatureSOLIDCreatePatternRectangular.h" bodystart="15" bodyend="-1"/>
+        <referencedby refid="class_post_1_1_feature_s_o_l_i_d_create_pattern_rectangular_1abb31233e316bac582f8b8b529dac7f49" compoundref="_post_manager_2ref_2_feature_s_o_l_i_d_create_pattern_rectangular_8cpp" startline="14" endline="64">GetInfo</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_post_1_1_feature_s_o_l_i_d_create_pattern_rectangular_1a2454ce7a69796b8440f2441e034ef20b" prot="protected" static="no" mutable="no">
+        <type>char</type>
+        <definition>char Post::FeatureSOLIDCreatePatternRectangular::_featurenameCATIA[1024]</definition>
+        <argsstring>[1024]</argsstring>
+        <name>_featurenameCATIA</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/PostManager/ref/FeatureSOLIDCreatePatternRectangular.h" line="16" column="1" bodyfile="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/PostManager/ref/FeatureSOLIDCreatePatternRectangular.h" bodystart="16" bodyend="-1"/>
+        <referencedby refid="class_post_1_1_feature_s_o_l_i_d_create_pattern_rectangular_1abb31233e316bac582f8b8b529dac7f49" compoundref="_post_manager_2ref_2_feature_s_o_l_i_d_create_pattern_rectangular_8cpp" startline="14" endline="64">GetInfo</referencedby>
+        <referencedby refid="class_post_1_1_feature_s_o_l_i_d_create_pattern_rectangular_1a3c104d07dd42a6c50984884c5ccc9fcb" compoundref="_post_manager_2ref_2_feature_s_o_l_i_d_create_pattern_rectangular_8cpp" startline="66" endline="100">ToCATIA</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_post_1_1_feature_s_o_l_i_d_create_pattern_rectangular_1ad176e08f2e7988a65e7c8b89e4b814b0" prot="protected" static="no" mutable="no">
+        <type>double</type>
+        <definition>double Post::FeatureSOLIDCreatePatternRectangular::_colspacing</definition>
+        <argsstring></argsstring>
+        <name>_colspacing</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/PostManager/ref/FeatureSOLIDCreatePatternRectangular.h" line="18" column="1" bodyfile="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/PostManager/ref/FeatureSOLIDCreatePatternRectangular.h" bodystart="18" bodyend="-1"/>
+        <referencedby refid="class_post_1_1_feature_s_o_l_i_d_create_pattern_rectangular_1abb31233e316bac582f8b8b529dac7f49" compoundref="_post_manager_2ref_2_feature_s_o_l_i_d_create_pattern_rectangular_8cpp" startline="14" endline="64">GetInfo</referencedby>
+        <referencedby refid="class_post_1_1_feature_s_o_l_i_d_create_pattern_rectangular_1a67dde003b7a175875b6750403179ef03" compoundref="_post_manager_2ref_2_feature_s_o_l_i_d_create_pattern_rectangular_8cpp" startline="102" endline="144">GetRectReferencePlane</referencedby>
+        <referencedby refid="class_post_1_1_feature_s_o_l_i_d_create_pattern_rectangular_1a3c104d07dd42a6c50984884c5ccc9fcb" compoundref="_post_manager_2ref_2_feature_s_o_l_i_d_create_pattern_rectangular_8cpp" startline="66" endline="100">ToCATIA</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_post_1_1_feature_s_o_l_i_d_create_pattern_rectangular_1a04c63f3fea5abaecf7ce844c8b9952f3" prot="protected" static="no" mutable="no">
+        <type>double</type>
+        <definition>double Post::FeatureSOLIDCreatePatternRectangular::_rowspacing</definition>
+        <argsstring></argsstring>
+        <name>_rowspacing</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/PostManager/ref/FeatureSOLIDCreatePatternRectangular.h" line="19" column="1" bodyfile="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/PostManager/ref/FeatureSOLIDCreatePatternRectangular.h" bodystart="19" bodyend="-1"/>
+        <referencedby refid="class_post_1_1_feature_s_o_l_i_d_create_pattern_rectangular_1abb31233e316bac582f8b8b529dac7f49" compoundref="_post_manager_2ref_2_feature_s_o_l_i_d_create_pattern_rectangular_8cpp" startline="14" endline="64">GetInfo</referencedby>
+        <referencedby refid="class_post_1_1_feature_s_o_l_i_d_create_pattern_rectangular_1a67dde003b7a175875b6750403179ef03" compoundref="_post_manager_2ref_2_feature_s_o_l_i_d_create_pattern_rectangular_8cpp" startline="102" endline="144">GetRectReferencePlane</referencedby>
+        <referencedby refid="class_post_1_1_feature_s_o_l_i_d_create_pattern_rectangular_1a3c104d07dd42a6c50984884c5ccc9fcb" compoundref="_post_manager_2ref_2_feature_s_o_l_i_d_create_pattern_rectangular_8cpp" startline="66" endline="100">ToCATIA</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_post_1_1_feature_s_o_l_i_d_create_pattern_rectangular_1abdee9add2b1e1586978caea875ab72dd" prot="protected" static="no" mutable="no">
+        <type>int</type>
+        <definition>int Post::FeatureSOLIDCreatePatternRectangular::_colnumber</definition>
+        <argsstring></argsstring>
+        <name>_colnumber</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/PostManager/ref/FeatureSOLIDCreatePatternRectangular.h" line="20" column="1" bodyfile="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/PostManager/ref/FeatureSOLIDCreatePatternRectangular.h" bodystart="20" bodyend="-1"/>
+        <referencedby refid="class_post_1_1_feature_s_o_l_i_d_create_pattern_rectangular_1abb31233e316bac582f8b8b529dac7f49" compoundref="_post_manager_2ref_2_feature_s_o_l_i_d_create_pattern_rectangular_8cpp" startline="14" endline="64">GetInfo</referencedby>
+        <referencedby refid="class_post_1_1_feature_s_o_l_i_d_create_pattern_rectangular_1a67dde003b7a175875b6750403179ef03" compoundref="_post_manager_2ref_2_feature_s_o_l_i_d_create_pattern_rectangular_8cpp" startline="102" endline="144">GetRectReferencePlane</referencedby>
+        <referencedby refid="class_post_1_1_feature_s_o_l_i_d_create_pattern_rectangular_1a3c104d07dd42a6c50984884c5ccc9fcb" compoundref="_post_manager_2ref_2_feature_s_o_l_i_d_create_pattern_rectangular_8cpp" startline="66" endline="100">ToCATIA</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_post_1_1_feature_s_o_l_i_d_create_pattern_rectangular_1adb02511efae82a0b2ee0bf056bfb0b8f" prot="protected" static="no" mutable="no">
+        <type>int</type>
+        <definition>int Post::FeatureSOLIDCreatePatternRectangular::_rownumber</definition>
+        <argsstring></argsstring>
+        <name>_rownumber</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/PostManager/ref/FeatureSOLIDCreatePatternRectangular.h" line="21" column="1" bodyfile="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/PostManager/ref/FeatureSOLIDCreatePatternRectangular.h" bodystart="21" bodyend="-1"/>
+        <referencedby refid="class_post_1_1_feature_s_o_l_i_d_create_pattern_rectangular_1abb31233e316bac582f8b8b529dac7f49" compoundref="_post_manager_2ref_2_feature_s_o_l_i_d_create_pattern_rectangular_8cpp" startline="14" endline="64">GetInfo</referencedby>
+        <referencedby refid="class_post_1_1_feature_s_o_l_i_d_create_pattern_rectangular_1a67dde003b7a175875b6750403179ef03" compoundref="_post_manager_2ref_2_feature_s_o_l_i_d_create_pattern_rectangular_8cpp" startline="102" endline="144">GetRectReferencePlane</referencedby>
+        <referencedby refid="class_post_1_1_feature_s_o_l_i_d_create_pattern_rectangular_1a3c104d07dd42a6c50984884c5ccc9fcb" compoundref="_post_manager_2ref_2_feature_s_o_l_i_d_create_pattern_rectangular_8cpp" startline="66" endline="100">ToCATIA</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_post_1_1_feature_s_o_l_i_d_create_pattern_rectangular_1a41afc6be3b0709e5a035c561fa973ff8" prot="protected" static="no" mutable="no">
+        <type>double</type>
+        <definition>double Post::FeatureSOLIDCreatePatternRectangular::_coldir[3]</definition>
+        <argsstring>[3]</argsstring>
+        <name>_coldir</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/PostManager/ref/FeatureSOLIDCreatePatternRectangular.h" line="22" column="1" bodyfile="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/PostManager/ref/FeatureSOLIDCreatePatternRectangular.h" bodystart="22" bodyend="-1"/>
+        <referencedby refid="class_post_1_1_feature_s_o_l_i_d_create_pattern_rectangular_1abb31233e316bac582f8b8b529dac7f49" compoundref="_post_manager_2ref_2_feature_s_o_l_i_d_create_pattern_rectangular_8cpp" startline="14" endline="64">GetInfo</referencedby>
+        <referencedby refid="class_post_1_1_feature_s_o_l_i_d_create_pattern_rectangular_1a67dde003b7a175875b6750403179ef03" compoundref="_post_manager_2ref_2_feature_s_o_l_i_d_create_pattern_rectangular_8cpp" startline="102" endline="144">GetRectReferencePlane</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_post_1_1_feature_s_o_l_i_d_create_pattern_rectangular_1a64f63a176eb336d3a40677b58a85b3ce" prot="protected" static="no" mutable="no">
+        <type>double</type>
+        <definition>double Post::FeatureSOLIDCreatePatternRectangular::_rowdir[3]</definition>
+        <argsstring>[3]</argsstring>
+        <name>_rowdir</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/PostManager/ref/FeatureSOLIDCreatePatternRectangular.h" line="23" column="1" bodyfile="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/PostManager/ref/FeatureSOLIDCreatePatternRectangular.h" bodystart="23" bodyend="-1"/>
+        <referencedby refid="class_post_1_1_feature_s_o_l_i_d_create_pattern_rectangular_1abb31233e316bac582f8b8b529dac7f49" compoundref="_post_manager_2ref_2_feature_s_o_l_i_d_create_pattern_rectangular_8cpp" startline="14" endline="64">GetInfo</referencedby>
+        <referencedby refid="class_post_1_1_feature_s_o_l_i_d_create_pattern_rectangular_1a67dde003b7a175875b6750403179ef03" compoundref="_post_manager_2ref_2_feature_s_o_l_i_d_create_pattern_rectangular_8cpp" startline="102" endline="144">GetRectReferencePlane</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_post_1_1_feature_s_o_l_i_d_create_pattern_rectangular_1a2596e162c939c5ec4193c7fdad735bf4" prot="protected" static="no" mutable="no">
+        <type>double</type>
+        <definition>double Post::FeatureSOLIDCreatePatternRectangular::coldir</definition>
+        <argsstring></argsstring>
+        <name>coldir</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/PostManager/ref/FeatureSOLIDCreatePatternRectangular.h" line="25" column="1" bodyfile="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/PostManager/ref/FeatureSOLIDCreatePatternRectangular.h" bodystart="25" bodyend="-1"/>
+        <referencedby refid="class_post_1_1_feature_s_o_l_i_d_create_pattern_rectangular_1a67dde003b7a175875b6750403179ef03" compoundref="_post_manager_2ref_2_feature_s_o_l_i_d_create_pattern_rectangular_8cpp" startline="102" endline="144">GetRectReferencePlane</referencedby>
+        <referencedby refid="class_post_1_1_feature_s_o_l_i_d_create_pattern_rectangular_1a3c104d07dd42a6c50984884c5ccc9fcb" compoundref="_post_manager_2ref_2_feature_s_o_l_i_d_create_pattern_rectangular_8cpp" startline="66" endline="100">ToCATIA</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_post_1_1_feature_s_o_l_i_d_create_pattern_rectangular_1a965d1f5ba67f856569766cfd2dbf288b" prot="protected" static="no" mutable="no">
+        <type>double</type>
+        <definition>double Post::FeatureSOLIDCreatePatternRectangular::rowdir</definition>
+        <argsstring></argsstring>
+        <name>rowdir</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/PostManager/ref/FeatureSOLIDCreatePatternRectangular.h" line="25" column="1" bodyfile="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/PostManager/ref/FeatureSOLIDCreatePatternRectangular.h" bodystart="25" bodyend="-1"/>
+        <referencedby refid="class_post_1_1_feature_s_o_l_i_d_create_pattern_rectangular_1a67dde003b7a175875b6750403179ef03" compoundref="_post_manager_2ref_2_feature_s_o_l_i_d_create_pattern_rectangular_8cpp" startline="102" endline="144">GetRectReferencePlane</referencedby>
+        <referencedby refid="class_post_1_1_feature_s_o_l_i_d_create_pattern_rectangular_1a3c104d07dd42a6c50984884c5ccc9fcb" compoundref="_post_manager_2ref_2_feature_s_o_l_i_d_create_pattern_rectangular_8cpp" startline="66" endline="100">ToCATIA</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_post_1_1_feature_s_o_l_i_d_create_pattern_rectangular_1a40e5fa40eccab733e14bfe3be0e73f73" prot="protected" static="no" mutable="no">
+        <type>int</type>
+        <definition>int Post::FeatureSOLIDCreatePatternRectangular::_refdir[2]</definition>
+        <argsstring>[2]</argsstring>
+        <name>_refdir</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/PostManager/ref/FeatureSOLIDCreatePatternRectangular.h" line="26" column="1" bodyfile="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/PostManager/ref/FeatureSOLIDCreatePatternRectangular.h" bodystart="26" bodyend="-1"/>
+        <referencedby refid="class_post_1_1_feature_s_o_l_i_d_create_pattern_rectangular_1a67dde003b7a175875b6750403179ef03" compoundref="_post_manager_2ref_2_feature_s_o_l_i_d_create_pattern_rectangular_8cpp" startline="102" endline="144">GetRectReferencePlane</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_post_1_1_feature_s_o_l_i_d_create_pattern_rectangular_1a65d098d2acb0785f04b629100b6687b1" prot="protected" static="no" mutable="no">
+        <type>char</type>
+        <definition>char Post::FeatureSOLIDCreatePatternRectangular::_refPlane[1024]</definition>
+        <argsstring>[1024]</argsstring>
+        <name>_refPlane</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/PostManager/ref/FeatureSOLIDCreatePatternRectangular.h" line="27" column="1" bodyfile="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/PostManager/ref/FeatureSOLIDCreatePatternRectangular.h" bodystart="27" bodyend="-1"/>
+        <referencedby refid="class_post_1_1_feature_s_o_l_i_d_create_pattern_rectangular_1a67dde003b7a175875b6750403179ef03" compoundref="_post_manager_2ref_2_feature_s_o_l_i_d_create_pattern_rectangular_8cpp" startline="102" endline="144">GetRectReferencePlane</referencedby>
+        <referencedby refid="class_post_1_1_feature_s_o_l_i_d_create_pattern_rectangular_1a3c104d07dd42a6c50984884c5ccc9fcb" compoundref="_post_manager_2ref_2_feature_s_o_l_i_d_create_pattern_rectangular_8cpp" startline="66" endline="100">ToCATIA</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_post_1_1_feature_s_o_l_i_d_create_pattern_rectangular_1a09b16cfa4610f831f809e341c68d230b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>Post::FeatureSOLIDCreatePatternRectangular::FeatureSOLIDCreatePatternRectangular</definition>
+        <argsstring>(Part *pPart, TransCAD::IFeaturePtr spFeature)</argsstring>
+        <name>FeatureSOLIDCreatePatternRectangular</name>
+        <param>
+          <type><ref refid="class_post_1_1_part" kindref="compound">Part</ref> *</type>
+          <declname>pPart</declname>
+        </param>
+        <param>
+          <type>TransCAD::IFeaturePtr</type>
+          <declname>spFeature</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/PostManager/ref/FeatureSOLIDCreatePatternRectangular.h" line="7" column="1" bodyfile="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/PostManager/ref/FeatureSOLIDCreatePatternRectangular.cpp" bodystart="5" bodyend="8"/>
+      </memberdef>
+      <memberdef kind="function" id="class_post_1_1_feature_s_o_l_i_d_create_pattern_rectangular_1a483503ee2307af563d09979d66b81945" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type></type>
+        <definition>Post::FeatureSOLIDCreatePatternRectangular::~FeatureSOLIDCreatePatternRectangular</definition>
+        <argsstring>(void)</argsstring>
+        <name>~FeatureSOLIDCreatePatternRectangular</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/PostManager/ref/FeatureSOLIDCreatePatternRectangular.h" line="8" column="1" bodyfile="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/PostManager/ref/FeatureSOLIDCreatePatternRectangular.cpp" bodystart="10" bodyend="12"/>
+      </memberdef>
+      <memberdef kind="function" id="class_post_1_1_feature_s_o_l_i_d_create_pattern_rectangular_1abb31233e316bac582f8b8b529dac7f49" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void Post::FeatureSOLIDCreatePatternRectangular::GetInfo</definition>
+        <argsstring>()</argsstring>
+        <name>GetInfo</name>
+        <reimplements refid="class_post_1_1_feature_1af8d63a27b30083d99102016ae177b45f">GetInfo</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/PostManager/ref/FeatureSOLIDCreatePatternRectangular.h" line="10" column="1" bodyfile="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/PostManager/ref/FeatureSOLIDCreatePatternRectangular.cpp" bodystart="14" bodyend="64"/>
+        <references refid="class_post_1_1_feature_s_o_l_i_d_create_pattern_rectangular_1a41afc6be3b0709e5a035c561fa973ff8" compoundref="_post_manager_2ref_2_feature_s_o_l_i_d_create_pattern_rectangular_8h" startline="22">_coldir</references>
+        <references refid="class_post_1_1_feature_s_o_l_i_d_create_pattern_rectangular_1abdee9add2b1e1586978caea875ab72dd" compoundref="_post_manager_2ref_2_feature_s_o_l_i_d_create_pattern_rectangular_8h" startline="20">_colnumber</references>
+        <references refid="class_post_1_1_feature_s_o_l_i_d_create_pattern_rectangular_1ad176e08f2e7988a65e7c8b89e4b814b0" compoundref="_post_manager_2ref_2_feature_s_o_l_i_d_create_pattern_rectangular_8h" startline="18">_colspacing</references>
+        <references refid="class_post_1_1_feature_s_o_l_i_d_create_pattern_rectangular_1a0277318036f00d42603486f5cb53c300" compoundref="_post_manager_2ref_2_feature_s_o_l_i_d_create_pattern_rectangular_8h" startline="15">_featurename</references>
+        <references refid="class_post_1_1_feature_s_o_l_i_d_create_pattern_rectangular_1a2454ce7a69796b8440f2441e034ef20b" compoundref="_post_manager_2ref_2_feature_s_o_l_i_d_create_pattern_rectangular_8h" startline="16">_featurenameCATIA</references>
+        <references refid="class_post_1_1_feature_s_o_l_i_d_create_pattern_rectangular_1a64f63a176eb336d3a40677b58a85b3ce" compoundref="_post_manager_2ref_2_feature_s_o_l_i_d_create_pattern_rectangular_8h" startline="23">_rowdir</references>
+        <references refid="class_post_1_1_feature_s_o_l_i_d_create_pattern_rectangular_1adb02511efae82a0b2ee0bf056bfb0b8f" compoundref="_post_manager_2ref_2_feature_s_o_l_i_d_create_pattern_rectangular_8h" startline="21">_rownumber</references>
+        <references refid="class_post_1_1_feature_s_o_l_i_d_create_pattern_rectangular_1a04c63f3fea5abaecf7ce844c8b9952f3" compoundref="_post_manager_2ref_2_feature_s_o_l_i_d_create_pattern_rectangular_8h" startline="19">_rowspacing</references>
+        <references refid="class_post_1_1_c_a_t_i_a_reference_manager_1a1d6e06fdc183ccb458d935acf9c7bfba" compoundref="_c_a_t_i_a_reference_manager_8cpp" startline="159" endline="178">Post::CATIAReferenceManager::FeatureTypeToString</references>
+        <references refid="namespace_post_1a757521acb19b64cd9a29879d6c5a7d5f" compoundref="_c_a_t_i_apost___d_l_l_8cpp" startline="32">Post::g_pRefManager</references>
+        <references refid="class_post_1_1_c_a_t_i_a_reference_manager_1ab00159c9905b3d3d14361f390db87e48" compoundref="_c_a_t_i_a_reference_manager_8cpp" startline="102" endline="114">Post::CATIAReferenceManager::GetFeatureIDByTransCADName</references>
+        <references refid="class_post_1_1_c_a_t_i_a_reference_manager_1a40000b07f85cedef424b70e7926cd0a0" compoundref="_c_a_t_i_a_reference_manager_8cpp" startline="117" endline="129">Post::CATIAReferenceManager::GetFeatureTypeByTransCADName</references>
+        <references refid="class_post_1_1_feature_s_o_l_i_d_create_pattern_rectangular_1a67dde003b7a175875b6750403179ef03" compoundref="_post_manager_2ref_2_feature_s_o_l_i_d_create_pattern_rectangular_8cpp" startline="102" endline="144">GetRectReferencePlane</references>
+        <references refid="class_post_1_1_feature_1a252ade4e8188c192beaf03a8abbdca65" compoundref="_post_manager_2ref_2_feature_8h" startline="18" endline="18">Post::Feature::GetTransCADFeature</references>
+      </memberdef>
+      <memberdef kind="function" id="class_post_1_1_feature_s_o_l_i_d_create_pattern_rectangular_1a3c104d07dd42a6c50984884c5ccc9fcb" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void Post::FeatureSOLIDCreatePatternRectangular::ToCATIA</definition>
+        <argsstring>()</argsstring>
+        <name>ToCATIA</name>
+        <reimplements refid="class_post_1_1_feature_1af5e4685a9e9a3a1b80c65d43a5260bf3">ToCATIA</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/PostManager/ref/FeatureSOLIDCreatePatternRectangular.h" line="11" column="1" bodyfile="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/PostManager/ref/FeatureSOLIDCreatePatternRectangular.cpp" bodystart="66" bodyend="100"/>
+        <references refid="class_post_1_1_feature_s_o_l_i_d_create_pattern_rectangular_1abdee9add2b1e1586978caea875ab72dd" compoundref="_post_manager_2ref_2_feature_s_o_l_i_d_create_pattern_rectangular_8h" startline="20">_colnumber</references>
+        <references refid="class_post_1_1_feature_s_o_l_i_d_create_pattern_rectangular_1ad176e08f2e7988a65e7c8b89e4b814b0" compoundref="_post_manager_2ref_2_feature_s_o_l_i_d_create_pattern_rectangular_8h" startline="18">_colspacing</references>
+        <references refid="class_post_1_1_feature_s_o_l_i_d_create_pattern_rectangular_1a2454ce7a69796b8440f2441e034ef20b" compoundref="_post_manager_2ref_2_feature_s_o_l_i_d_create_pattern_rectangular_8h" startline="16">_featurenameCATIA</references>
+        <references refid="class_post_1_1_feature_s_o_l_i_d_create_pattern_rectangular_1a65d098d2acb0785f04b629100b6687b1" compoundref="_post_manager_2ref_2_feature_s_o_l_i_d_create_pattern_rectangular_8h" startline="27">_refPlane</references>
+        <references refid="class_post_1_1_feature_s_o_l_i_d_create_pattern_rectangular_1adb02511efae82a0b2ee0bf056bfb0b8f" compoundref="_post_manager_2ref_2_feature_s_o_l_i_d_create_pattern_rectangular_8h" startline="21">_rownumber</references>
+        <references refid="class_post_1_1_feature_s_o_l_i_d_create_pattern_rectangular_1a04c63f3fea5abaecf7ce844c8b9952f3" compoundref="_post_manager_2ref_2_feature_s_o_l_i_d_create_pattern_rectangular_8h" startline="19">_rowspacing</references>
+        <references refid="class_post_1_1_feature_1a9d39434cf1acdc737198fefcf8b32e67" compoundref="_post_manager_2ref_2_feature_8h" startline="30">Post::Feature::_spFeature</references>
+        <references refid="class_post_1_1_feature_s_o_l_i_d_create_pattern_rectangular_1a2596e162c939c5ec4193c7fdad735bf4" compoundref="_post_manager_2ref_2_feature_s_o_l_i_d_create_pattern_rectangular_8h" startline="25">coldir</references>
+        <references refid="namespace_post_1a757521acb19b64cd9a29879d6c5a7d5f" compoundref="_c_a_t_i_apost___d_l_l_8cpp" startline="32">Post::g_pRefManager</references>
+        <references refid="class_post_1_1_c_a_t_i_a_reference_manager_1ab00159c9905b3d3d14361f390db87e48" compoundref="_c_a_t_i_a_reference_manager_8cpp" startline="102" endline="114">Post::CATIAReferenceManager::GetFeatureIDByTransCADName</references>
+        <references refid="class_post_1_1_feature_1aace9d720d9a16b17c62ab6b4b91cea3c" compoundref="_post_manager_2ref_2_feature_8h" startline="12" endline="12">Post::Feature::GetPart</references>
+        <references refid="_c_a_t_i_apost___d_l_l_8cpp_1a4a001227aeffed8767cfd035c687e1ca" compoundref="_c_a_t_i_apost___d_l_l_8cpp" startline="17">ref_index</references>
+        <references refid="class_post_1_1_feature_s_o_l_i_d_create_pattern_rectangular_1a965d1f5ba67f856569766cfd2dbf288b" compoundref="_post_manager_2ref_2_feature_s_o_l_i_d_create_pattern_rectangular_8h" startline="25">rowdir</references>
+      </memberdef>
+      <memberdef kind="function" id="class_post_1_1_feature_s_o_l_i_d_create_pattern_rectangular_1a67dde003b7a175875b6750403179ef03" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Post::FeatureSOLIDCreatePatternRectangular::GetRectReferencePlane</definition>
+        <argsstring>()</argsstring>
+        <name>GetRectReferencePlane</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/PostManager/ref/FeatureSOLIDCreatePatternRectangular.h" line="12" column="1" bodyfile="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/PostManager/ref/FeatureSOLIDCreatePatternRectangular.cpp" bodystart="102" bodyend="144"/>
+        <references refid="class_post_1_1_feature_s_o_l_i_d_create_pattern_rectangular_1a41afc6be3b0709e5a035c561fa973ff8" compoundref="_post_manager_2ref_2_feature_s_o_l_i_d_create_pattern_rectangular_8h" startline="22">_coldir</references>
+        <references refid="class_post_1_1_feature_s_o_l_i_d_create_pattern_rectangular_1abdee9add2b1e1586978caea875ab72dd" compoundref="_post_manager_2ref_2_feature_s_o_l_i_d_create_pattern_rectangular_8h" startline="20">_colnumber</references>
+        <references refid="class_post_1_1_feature_s_o_l_i_d_create_pattern_rectangular_1ad176e08f2e7988a65e7c8b89e4b814b0" compoundref="_post_manager_2ref_2_feature_s_o_l_i_d_create_pattern_rectangular_8h" startline="18">_colspacing</references>
+        <references refid="class_post_1_1_feature_s_o_l_i_d_create_pattern_rectangular_1a40e5fa40eccab733e14bfe3be0e73f73" compoundref="_post_manager_2ref_2_feature_s_o_l_i_d_create_pattern_rectangular_8h" startline="26">_refdir</references>
+        <references refid="class_post_1_1_feature_s_o_l_i_d_create_pattern_rectangular_1a65d098d2acb0785f04b629100b6687b1" compoundref="_post_manager_2ref_2_feature_s_o_l_i_d_create_pattern_rectangular_8h" startline="27">_refPlane</references>
+        <references refid="class_post_1_1_feature_s_o_l_i_d_create_pattern_rectangular_1a64f63a176eb336d3a40677b58a85b3ce" compoundref="_post_manager_2ref_2_feature_s_o_l_i_d_create_pattern_rectangular_8h" startline="23">_rowdir</references>
+        <references refid="class_post_1_1_feature_s_o_l_i_d_create_pattern_rectangular_1adb02511efae82a0b2ee0bf056bfb0b8f" compoundref="_post_manager_2ref_2_feature_s_o_l_i_d_create_pattern_rectangular_8h" startline="21">_rownumber</references>
+        <references refid="class_post_1_1_feature_s_o_l_i_d_create_pattern_rectangular_1a04c63f3fea5abaecf7ce844c8b9952f3" compoundref="_post_manager_2ref_2_feature_s_o_l_i_d_create_pattern_rectangular_8h" startline="19">_rowspacing</references>
+        <references refid="class_post_1_1_feature_s_o_l_i_d_create_pattern_rectangular_1a2596e162c939c5ec4193c7fdad735bf4" compoundref="_post_manager_2ref_2_feature_s_o_l_i_d_create_pattern_rectangular_8h" startline="25">coldir</references>
+        <references refid="class_post_1_1_feature_s_o_l_i_d_create_pattern_rectangular_1a965d1f5ba67f856569766cfd2dbf288b" compoundref="_post_manager_2ref_2_feature_s_o_l_i_d_create_pattern_rectangular_8h" startline="25">rowdir</references>
+        <referencedby refid="class_post_1_1_feature_s_o_l_i_d_create_pattern_rectangular_1abb31233e316bac582f8b8b529dac7f49" compoundref="_post_manager_2ref_2_feature_s_o_l_i_d_create_pattern_rectangular_8cpp" startline="14" endline="64">GetInfo</referencedby>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="743">
+        <label>Post::Feature</label>
+        <link refid="class_post_1_1_feature"/>
+      </node>
+      <node id="742">
+        <label>Post::FeatureSOLIDCreatePatternRectangular</label>
+        <link refid="class_post_1_1_feature_s_o_l_i_d_create_pattern_rectangular"/>
+        <childnode refid="743" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="746">
+        <label>Post::Part</label>
+        <link refid="class_post_1_1_part"/>
+        <childnode refid="747" relation="usage">
+          <edgelabel>_featureList</edgelabel>
+        </childnode>
+        <childnode refid="748" relation="usage">
+          <edgelabel>_strPartName</edgelabel>
+        </childnode>
+      </node>
+      <node id="745">
+        <label>Post::Feature</label>
+        <link refid="class_post_1_1_feature"/>
+        <childnode refid="746" relation="usage">
+          <edgelabel>_pPart</edgelabel>
+        </childnode>
+        <childnode refid="748" relation="usage">
+          <edgelabel>_strName</edgelabel>
+        </childnode>
+      </node>
+      <node id="744">
+        <label>Post::FeatureSOLIDCreatePatternRectangular</label>
+        <link refid="class_post_1_1_feature_s_o_l_i_d_create_pattern_rectangular"/>
+        <childnode refid="745" relation="public-inheritance">
+        </childnode>
+        <childnode refid="748" relation="usage">
+          <edgelabel>_featurename</edgelabel>
+        </childnode>
+      </node>
+      <node id="749">
+        <label>std::basic_string&lt; char &gt;</label>
+      </node>
+      <node id="747">
+        <label>std::vector&lt; Post::Feature * &gt;</label>
+        <childnode refid="745" relation="usage">
+          <edgelabel>elements</edgelabel>
+        </childnode>
+      </node>
+      <node id="748">
+        <label>std::string</label>
+        <childnode refid="749" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/PostManager/ref/FeatureSOLIDCreatePatternRectangular.h" line="5" column="1" bodyfile="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/PostManager/ref/FeatureSOLIDCreatePatternRectangular.h" bodystart="4" bodyend="28"/>
+    <listofallmembers>
+      <member refid="class_post_1_1_feature_s_o_l_i_d_create_pattern_rectangular_1a41afc6be3b0709e5a035c561fa973ff8" prot="protected" virt="non-virtual"><scope>Post::FeatureSOLIDCreatePatternRectangular</scope><name>_coldir</name></member>
+      <member refid="class_post_1_1_feature_s_o_l_i_d_create_pattern_rectangular_1abdee9add2b1e1586978caea875ab72dd" prot="protected" virt="non-virtual"><scope>Post::FeatureSOLIDCreatePatternRectangular</scope><name>_colnumber</name></member>
+      <member refid="class_post_1_1_feature_s_o_l_i_d_create_pattern_rectangular_1ad176e08f2e7988a65e7c8b89e4b814b0" prot="protected" virt="non-virtual"><scope>Post::FeatureSOLIDCreatePatternRectangular</scope><name>_colspacing</name></member>
+      <member refid="class_post_1_1_feature_s_o_l_i_d_create_pattern_rectangular_1a0277318036f00d42603486f5cb53c300" prot="protected" virt="non-virtual"><scope>Post::FeatureSOLIDCreatePatternRectangular</scope><name>_featurename</name></member>
+      <member refid="class_post_1_1_feature_s_o_l_i_d_create_pattern_rectangular_1a2454ce7a69796b8440f2441e034ef20b" prot="protected" virt="non-virtual"><scope>Post::FeatureSOLIDCreatePatternRectangular</scope><name>_featurenameCATIA</name></member>
+      <member refid="class_post_1_1_feature_1a6a0b62ac67583207cd51d36b8540f75b" prot="public" virt="non-virtual"><scope>Post::FeatureSOLIDCreatePatternRectangular</scope><name>_nIndex</name></member>
+      <member refid="class_post_1_1_feature_1a93e0edd3b8a4639ad851119b773582cb" prot="public" virt="non-virtual"><scope>Post::FeatureSOLIDCreatePatternRectangular</scope><name>_pPart</name></member>
+      <member refid="class_post_1_1_feature_s_o_l_i_d_create_pattern_rectangular_1a40e5fa40eccab733e14bfe3be0e73f73" prot="protected" virt="non-virtual"><scope>Post::FeatureSOLIDCreatePatternRectangular</scope><name>_refdir</name></member>
+      <member refid="class_post_1_1_feature_s_o_l_i_d_create_pattern_rectangular_1a65d098d2acb0785f04b629100b6687b1" prot="protected" virt="non-virtual"><scope>Post::FeatureSOLIDCreatePatternRectangular</scope><name>_refPlane</name></member>
+      <member refid="class_post_1_1_feature_s_o_l_i_d_create_pattern_rectangular_1a64f63a176eb336d3a40677b58a85b3ce" prot="protected" virt="non-virtual"><scope>Post::FeatureSOLIDCreatePatternRectangular</scope><name>_rowdir</name></member>
+      <member refid="class_post_1_1_feature_s_o_l_i_d_create_pattern_rectangular_1adb02511efae82a0b2ee0bf056bfb0b8f" prot="protected" virt="non-virtual"><scope>Post::FeatureSOLIDCreatePatternRectangular</scope><name>_rownumber</name></member>
+      <member refid="class_post_1_1_feature_s_o_l_i_d_create_pattern_rectangular_1a04c63f3fea5abaecf7ce844c8b9952f3" prot="protected" virt="non-virtual"><scope>Post::FeatureSOLIDCreatePatternRectangular</scope><name>_rowspacing</name></member>
+      <member refid="class_post_1_1_feature_1a9d39434cf1acdc737198fefcf8b32e67" prot="public" virt="non-virtual"><scope>Post::FeatureSOLIDCreatePatternRectangular</scope><name>_spFeature</name></member>
+      <member refid="class_post_1_1_feature_1a89de9a11285c07976c881031857287bc" prot="public" virt="non-virtual"><scope>Post::FeatureSOLIDCreatePatternRectangular</scope><name>_strName</name></member>
+      <member refid="class_post_1_1_feature_s_o_l_i_d_create_pattern_rectangular_1a2596e162c939c5ec4193c7fdad735bf4" prot="protected" virt="non-virtual"><scope>Post::FeatureSOLIDCreatePatternRectangular</scope><name>coldir</name></member>
+      <member refid="class_post_1_1_feature_1a757c6724362593cf5b61c06777e1476f" prot="public" virt="non-virtual"><scope>Post::FeatureSOLIDCreatePatternRectangular</scope><name>Feature</name></member>
+      <member refid="class_post_1_1_feature_s_o_l_i_d_create_pattern_rectangular_1a09b16cfa4610f831f809e341c68d230b" prot="public" virt="non-virtual"><scope>Post::FeatureSOLIDCreatePatternRectangular</scope><name>FeatureSOLIDCreatePatternRectangular</name></member>
+      <member refid="class_post_1_1_feature_1a4abc47e4eee19b3da64571f8ccd61a3c" prot="public" virt="virtual"><scope>Post::FeatureSOLIDCreatePatternRectangular</scope><name>GetEndDepth</name></member>
+      <member refid="class_post_1_1_feature_1a17937115029d464402a274393c9efc82" prot="public" virt="non-virtual"><scope>Post::FeatureSOLIDCreatePatternRectangular</scope><name>GetFeatureIndex</name></member>
+      <member refid="class_post_1_1_feature_1a68d3fb9f274c6170d83e2a51d01400ac" prot="public" virt="non-virtual"><scope>Post::FeatureSOLIDCreatePatternRectangular</scope><name>GetFeatureName</name></member>
+      <member refid="class_post_1_1_feature_s_o_l_i_d_create_pattern_rectangular_1abb31233e316bac582f8b8b529dac7f49" prot="public" virt="virtual"><scope>Post::FeatureSOLIDCreatePatternRectangular</scope><name>GetInfo</name></member>
+      <member refid="class_post_1_1_feature_1aace9d720d9a16b17c62ab6b4b91cea3c" prot="public" virt="non-virtual"><scope>Post::FeatureSOLIDCreatePatternRectangular</scope><name>GetPart</name></member>
+      <member refid="class_post_1_1_feature_s_o_l_i_d_create_pattern_rectangular_1a67dde003b7a175875b6750403179ef03" prot="public" virt="non-virtual"><scope>Post::FeatureSOLIDCreatePatternRectangular</scope><name>GetRectReferencePlane</name></member>
+      <member refid="class_post_1_1_feature_1a0dc31facfd898c9f2c7907403bd3c4e1" prot="public" virt="virtual"><scope>Post::FeatureSOLIDCreatePatternRectangular</scope><name>GetStartDepth</name></member>
+      <member refid="class_post_1_1_feature_1a252ade4e8188c192beaf03a8abbdca65" prot="public" virt="non-virtual"><scope>Post::FeatureSOLIDCreatePatternRectangular</scope><name>GetTransCADFeature</name></member>
+      <member refid="class_post_1_1_feature_s_o_l_i_d_create_pattern_rectangular_1a965d1f5ba67f856569766cfd2dbf288b" prot="protected" virt="non-virtual"><scope>Post::FeatureSOLIDCreatePatternRectangular</scope><name>rowdir</name></member>
+      <member refid="class_post_1_1_feature_1a2cdd61cc7885d66a902e7a29cca9bc05" prot="public" virt="non-virtual"><scope>Post::FeatureSOLIDCreatePatternRectangular</scope><name>SetFeatureName</name></member>
+      <member refid="class_post_1_1_feature_s_o_l_i_d_create_pattern_rectangular_1a3c104d07dd42a6c50984884c5ccc9fcb" prot="public" virt="virtual"><scope>Post::FeatureSOLIDCreatePatternRectangular</scope><name>ToCATIA</name></member>
+      <member refid="class_post_1_1_feature_1a9a8ee05393f4321a5ceba0d075573a25" prot="public" virt="virtual"><scope>Post::FeatureSOLIDCreatePatternRectangular</scope><name>~Feature</name></member>
+      <member refid="class_post_1_1_feature_s_o_l_i_d_create_pattern_rectangular_1a483503ee2307af563d09979d66b81945" prot="public" virt="virtual"><scope>Post::FeatureSOLIDCreatePatternRectangular</scope><name>~FeatureSOLIDCreatePatternRectangular</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

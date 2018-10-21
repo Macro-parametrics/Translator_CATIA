@@ -1,0 +1,68 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="_c_p_p_w_i_t_h_c_s_h_a_r_p_2_stdafx_8h" kind="file">
+    <compoundname>Stdafx.h</compoundname>
+    <includedby refid="_assembly_info_8cpp" local="yes">CPPWITHCSHARP/AssemblyInfo.cpp</includedby>
+    <includedby refid="_c_p_p_w_i_t_h_c_s_h_a_r_p_8cpp" local="yes">CPPWITHCSHARP/CPPWITHCSHARP.cpp</includedby>
+    <includedby refid="_reference_class_8cpp" local="yes">CPPWITHCSHARP/ReferenceClass.cpp</includedby>
+    <includedby refid="_reference_class___post_8cpp" local="yes">CPPWITHCSHARP/ReferenceClass_Post.cpp</includedby>
+    <includedby refid="_reference_class___pre_8cpp" local="yes">CPPWITHCSHARP/ReferenceClass_Pre.cpp</includedby>
+    <includedby refid="_c_p_p_w_i_t_h_c_s_h_a_r_p_2_stdafx_8cpp" local="yes">CPPWITHCSHARP/Stdafx.cpp</includedby>
+    <invincdepgraph>
+      <node id="309">
+        <label>CPPWITHCSHARP/ReferenceClass.cpp</label>
+        <link refid="_reference_class_8cpp"/>
+      </node>
+      <node id="306">
+        <label>CPPWITHCSHARP/Stdafx.h</label>
+        <link refid="CPPWITHCSHARP/Stdafx.h"/>
+        <childnode refid="307" relation="include">
+        </childnode>
+        <childnode refid="308" relation="include">
+        </childnode>
+        <childnode refid="309" relation="include">
+        </childnode>
+        <childnode refid="310" relation="include">
+        </childnode>
+        <childnode refid="311" relation="include">
+        </childnode>
+        <childnode refid="312" relation="include">
+        </childnode>
+      </node>
+      <node id="312">
+        <label>CPPWITHCSHARP/Stdafx.cpp</label>
+        <link refid="_c_p_p_w_i_t_h_c_s_h_a_r_p_2_stdafx_8cpp"/>
+      </node>
+      <node id="308">
+        <label>CPPWITHCSHARP/CPPWITHCSHARP.cpp</label>
+        <link refid="_c_p_p_w_i_t_h_c_s_h_a_r_p_8cpp"/>
+      </node>
+      <node id="311">
+        <label>CPPWITHCSHARP/ReferenceClass_Pre.cpp</label>
+        <link refid="_reference_class___pre_8cpp"/>
+      </node>
+      <node id="310">
+        <label>CPPWITHCSHARP/ReferenceClass_Post.cpp</label>
+        <link refid="_reference_class___post_8cpp"/>
+      </node>
+      <node id="307">
+        <label>CPPWITHCSHARP/AssemblyInfo.cpp</label>
+        <link refid="_assembly_info_8cpp"/>
+      </node>
+    </invincdepgraph>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="comment">//<sp/>stdafx.h<sp/>:<sp/>자주<sp/>사용하지만<sp/>자주<sp/>변경되지는<sp/>않는</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight><highlight class="comment">//<sp/>표준<sp/>시스템<sp/>포함<sp/>파일<sp/>및<sp/>프로젝트<sp/>관련<sp/>포함<sp/>파일이</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="comment">//<sp/>들어<sp/>있는<sp/>포함<sp/>파일입니다.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight><highlight class="preprocessor">#pragma<sp/>once</highlight></codeline>
+<codeline lineno="6"><highlight class="preprocessor"></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight></codeline>
+    </programlisting>
+    <location file="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/CPPWITHCSHARP/Stdafx.h"/>
+  </compounddef>
+</doxygen>

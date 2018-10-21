@@ -1,0 +1,669 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_c_a_t_i_a_translator_1_1_part" kind="class" prot="public">
+    <compoundname>CATIATranslator::Part</compoundname>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_c_a_t_i_a_translator_1_1_part_1a4d15bb69043c5d9b1bb618daf49ef1d8" prot="public" static="no" mutable="no">
+        <type>INFITF.Application</type>
+        <definition>INFITF.Application CATIATranslator.Part.cApp</definition>
+        <argsstring></argsstring>
+        <name>cApp</name>
+        <initializer>= null</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/CATIATranslator/Part/Part.cs" line="13" column="1" bodyfile="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/CATIATranslator/Part/Part.cs" bodystart="13" bodyend="-1"/>
+        <referencedby refid="class_c_a_t_i_a_translator_1_1_part_1ae4fec9ff28eb930f5f2271034679308b" compoundref="_part_8cs" startline="48" endline="87">CATIATranslator.Part.InitializeCATIA</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_c_a_t_i_a_translator_1_1_part_1a1b2437bf82d05b273305ff5a61a84e80" prot="public" static="no" mutable="no">
+        <type>INFITF.Documents</type>
+        <definition>INFITF.Documents CATIATranslator.Part.cDocs</definition>
+        <argsstring></argsstring>
+        <name>cDocs</name>
+        <initializer>= null</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/CATIATranslator/Part/Part.cs" line="14" column="1" bodyfile="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/CATIATranslator/Part/Part.cs" bodystart="14" bodyend="-1"/>
+        <referencedby refid="class_c_a_t_i_a_translator_1_1_part_1ae4fec9ff28eb930f5f2271034679308b" compoundref="_part_8cs" startline="48" endline="87">CATIATranslator.Part.InitializeCATIA</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_c_a_t_i_a_translator_1_1_part_1aae7d733db04046d15fd674af09b8d544" prot="public" static="no" mutable="no">
+        <type>MECMOD.PartDocument</type>
+        <definition>MECMOD.PartDocument CATIATranslator.Part.cPartDoc</definition>
+        <argsstring></argsstring>
+        <name>cPartDoc</name>
+        <initializer>= null</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/CATIATranslator/Part/Part.cs" line="16" column="1" bodyfile="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/CATIATranslator/Part/Part.cs" bodystart="16" bodyend="-1"/>
+        <referencedby refid="class_c_a_t_i_a_translator_1_1_part_1ae4fec9ff28eb930f5f2271034679308b" compoundref="_part_8cs" startline="48" endline="87">CATIATranslator.Part.InitializeCATIA</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_c_a_t_i_a_translator_1_1_part_1af6fe1d850ddf5524a57cb31a520efe17" prot="public" static="no" mutable="no">
+        <type>MECMOD.Part</type>
+        <definition>MECMOD.Part CATIATranslator.Part.cPart</definition>
+        <argsstring></argsstring>
+        <name>cPart</name>
+        <initializer>= null</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/CATIATranslator/Part/Part.cs" line="17" column="1" bodyfile="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/CATIATranslator/Part/Part.cs" bodystart="17" bodyend="-1"/>
+        <referencedby refid="class_c_a_t_i_a_translator_1_1_part_1ae4fec9ff28eb930f5f2271034679308b" compoundref="_part_8cs" startline="48" endline="87">CATIATranslator.Part.InitializeCATIA</referencedby>
+        <referencedby refid="class_c_a_t_i_a_translator_1_1_part_1a8063e639329fb3510072607b4b6becd9" compoundref="_part_8cs" startline="89" endline="100">CATIATranslator.Part.UninitializeCATIA</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_c_a_t_i_a_translator_1_1_part_1ac78af25e1545704dd7e88541f7ccb711" prot="public" static="no" mutable="no">
+        <type>MECMOD.OriginElements</type>
+        <definition>MECMOD.OriginElements CATIATranslator.Part.cOriginalElements</definition>
+        <argsstring></argsstring>
+        <name>cOriginalElements</name>
+        <initializer>= null</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/CATIATranslator/Part/Part.cs" line="18" column="1" bodyfile="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/CATIATranslator/Part/Part.cs" bodystart="18" bodyend="-1"/>
+        <referencedby refid="class_c_a_t_i_a_translator_1_1_reference_1a8f6b4a510fdeea9fa56007b4085f4149" compoundref="_reference_8cs" startline="470" endline="496">CATIATranslator.Reference.GetCATIASketchReference</referencedby>
+        <referencedby refid="class_c_a_t_i_a_translator_1_1_feature_rect_pattern_1a72a9b5af6fe5334e04eff670220d3797" compoundref="_feature_rect_pattern_8cs" startline="103" endline="150">CATIATranslator.FeatureRectPattern.GetReferencePlane</referencedby>
+        <referencedby refid="class_c_a_t_i_a_translator_1_1_feature_circ_pattern_1adaf463f4604e8d94bf4ede314a948494" compoundref="_feature_circ_pattern_8cs" startline="83" endline="113">CATIATranslator.FeatureCircPattern.GetRotationAxis</referencedby>
+        <referencedby refid="class_c_a_t_i_a_translator_1_1_part_1ae4fec9ff28eb930f5f2271034679308b" compoundref="_part_8cs" startline="48" endline="87">CATIATranslator.Part.InitializeCATIA</referencedby>
+        <referencedby refid="class_c_a_t_i_a_translator_1_1_part_1a8063e639329fb3510072607b4b6becd9" compoundref="_part_8cs" startline="89" endline="100">CATIATranslator.Part.UninitializeCATIA</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_c_a_t_i_a_translator_1_1_part_1a66983264cdc67ee2ccc5855b8d0165ca" prot="public" static="no" mutable="no">
+        <type>MECMOD.Bodies</type>
+        <definition>MECMOD.Bodies CATIATranslator.Part.cBodies</definition>
+        <argsstring></argsstring>
+        <name>cBodies</name>
+        <initializer>= null</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/CATIATranslator/Part/Part.cs" line="19" column="1" bodyfile="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/CATIATranslator/Part/Part.cs" bodystart="19" bodyend="-1"/>
+        <referencedby refid="class_c_a_t_i_a_translator_1_1_part_1ae4fec9ff28eb930f5f2271034679308b" compoundref="_part_8cs" startline="48" endline="87">CATIATranslator.Part.InitializeCATIA</referencedby>
+        <referencedby refid="class_c_a_t_i_a_translator_1_1_part_1a8063e639329fb3510072607b4b6becd9" compoundref="_part_8cs" startline="89" endline="100">CATIATranslator.Part.UninitializeCATIA</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_c_a_t_i_a_translator_1_1_part_1a083c5e772dc80dca9278bea767e3eb0f" prot="public" static="no" mutable="no">
+        <type>MECMOD.Body</type>
+        <definition>MECMOD.Body CATIATranslator.Part.cCurrentBody</definition>
+        <argsstring></argsstring>
+        <name>cCurrentBody</name>
+        <initializer>= null</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/CATIATranslator/Part/Part.cs" line="20" column="1" bodyfile="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/CATIATranslator/Part/Part.cs" bodystart="20" bodyend="-1"/>
+        <referencedby refid="class_c_a_t_i_a_translator_1_1_part_1ae4fec9ff28eb930f5f2271034679308b" compoundref="_part_8cs" startline="48" endline="87">CATIATranslator.Part.InitializeCATIA</referencedby>
+        <referencedby refid="class_c_a_t_i_a_translator_1_1_part_1a8063e639329fb3510072607b4b6becd9" compoundref="_part_8cs" startline="89" endline="100">CATIATranslator.Part.UninitializeCATIA</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_c_a_t_i_a_translator_1_1_part_1a797eb7ad90838dc2f86e7cc66406801f" prot="public" static="no" mutable="no">
+        <type>MECMOD.Shapes</type>
+        <definition>MECMOD.Shapes CATIATranslator.Part.cShapes</definition>
+        <argsstring></argsstring>
+        <name>cShapes</name>
+        <initializer>= null</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/CATIATranslator/Part/Part.cs" line="21" column="1" bodyfile="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/CATIATranslator/Part/Part.cs" bodystart="21" bodyend="-1"/>
+        <referencedby refid="class_c_a_t_i_a_translator_1_1_part_1ae4fec9ff28eb930f5f2271034679308b" compoundref="_part_8cs" startline="48" endline="87">CATIATranslator.Part.InitializeCATIA</referencedby>
+        <referencedby refid="class_c_a_t_i_a_translator_1_1_feature_circ_pattern_1a0297c10b464eb9148261d60fd37c67e0" compoundref="_feature_circ_pattern_8cs" startline="43" endline="81">CATIATranslator.FeatureCircPattern.TranslateT2C</referencedby>
+        <referencedby refid="class_c_a_t_i_a_translator_1_1_feature_rect_pattern_1aed05a35ca5f2ba50466bd955224279fd" compoundref="_feature_rect_pattern_8cs" startline="60" endline="101">CATIATranslator.FeatureRectPattern.TranslateT2C</referencedby>
+        <referencedby refid="class_c_a_t_i_a_translator_1_1_part_1a8063e639329fb3510072607b4b6becd9" compoundref="_part_8cs" startline="89" endline="100">CATIATranslator.Part.UninitializeCATIA</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_c_a_t_i_a_translator_1_1_part_1a987eabd2c25236028970723cc5740af0" prot="public" static="no" mutable="no">
+        <type>MECMOD.Factory</type>
+        <definition>MECMOD.Factory CATIATranslator.Part.cFactory</definition>
+        <argsstring></argsstring>
+        <name>cFactory</name>
+        <initializer>= null</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/CATIATranslator/Part/Part.cs" line="22" column="1" bodyfile="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/CATIATranslator/Part/Part.cs" bodystart="22" bodyend="-1"/>
+        <referencedby refid="class_c_a_t_i_a_translator_1_1_part_1ae4fec9ff28eb930f5f2271034679308b" compoundref="_part_8cs" startline="48" endline="87">CATIATranslator.Part.InitializeCATIA</referencedby>
+        <referencedby refid="class_c_a_t_i_a_translator_1_1_part_1a8063e639329fb3510072607b4b6becd9" compoundref="_part_8cs" startline="89" endline="100">CATIATranslator.Part.UninitializeCATIA</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_c_a_t_i_a_translator_1_1_part_1a8c1111ae7ae18e22e10b053dd637e644" prot="public" static="no" mutable="no">
+        <type>MECMOD.Sketches</type>
+        <definition>MECMOD.Sketches CATIATranslator.Part.cSketches</definition>
+        <argsstring></argsstring>
+        <name>cSketches</name>
+        <initializer>= null</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/CATIATranslator/Part/Part.cs" line="23" column="1" bodyfile="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/CATIATranslator/Part/Part.cs" bodystart="23" bodyend="-1"/>
+        <referencedby refid="class_c_a_t_i_a_translator_1_1_part_1ae4fec9ff28eb930f5f2271034679308b" compoundref="_part_8cs" startline="48" endline="87">CATIATranslator.Part.InitializeCATIA</referencedby>
+        <referencedby refid="class_c_a_t_i_a_translator_1_1_part_1a8063e639329fb3510072607b4b6becd9" compoundref="_part_8cs" startline="89" endline="100">CATIATranslator.Part.UninitializeCATIA</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_c_a_t_i_a_translator_1_1_part_1ab1e742b1e378d45d2a321354a70d6c1a" prot="public" static="no" mutable="no">
+        <type>PARTITF.ShapeFactory</type>
+        <definition>PARTITF.ShapeFactory CATIATranslator.Part.cShapeFactory</definition>
+        <argsstring></argsstring>
+        <name>cShapeFactory</name>
+        <initializer>= null</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/CATIATranslator/Part/Part.cs" line="25" column="1" bodyfile="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/CATIATranslator/Part/Part.cs" bodystart="25" bodyend="-1"/>
+        <referencedby refid="class_c_a_t_i_a_translator_1_1_part_1ae4fec9ff28eb930f5f2271034679308b" compoundref="_part_8cs" startline="48" endline="87">CATIATranslator.Part.InitializeCATIA</referencedby>
+        <referencedby refid="class_c_a_t_i_a_translator_1_1_part_1a8063e639329fb3510072607b4b6becd9" compoundref="_part_8cs" startline="89" endline="100">CATIATranslator.Part.UninitializeCATIA</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_c_a_t_i_a_translator_1_1_part_1a2135fdd47e179ea789e0bcdc088e155f" prot="public" static="no" mutable="no">
+        <type>HybridShapeTypeLib.HybridShapeFactory</type>
+        <definition>HybridShapeTypeLib.HybridShapeFactory CATIATranslator.Part.cHybridShapeFactory</definition>
+        <argsstring></argsstring>
+        <name>cHybridShapeFactory</name>
+        <initializer>= null</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/CATIATranslator/Part/Part.cs" line="26" column="1" bodyfile="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/CATIATranslator/Part/Part.cs" bodystart="26" bodyend="-1"/>
+        <referencedby refid="class_c_a_t_i_a_translator_1_1_part_1ae4fec9ff28eb930f5f2271034679308b" compoundref="_part_8cs" startline="48" endline="87">CATIATranslator.Part.InitializeCATIA</referencedby>
+        <referencedby refid="class_c_a_t_i_a_translator_1_1_part_1a8063e639329fb3510072607b4b6becd9" compoundref="_part_8cs" startline="89" endline="100">CATIATranslator.Part.UninitializeCATIA</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_c_a_t_i_a_translator_1_1_part_1a8c8341d6d4e0991521900044f6d27891" prot="public" static="no" mutable="no">
+        <type>TransCAD.Application</type>
+        <definition>TransCAD.Application CATIATranslator.Part.tApp</definition>
+        <argsstring></argsstring>
+        <name>tApp</name>
+        <initializer>= null</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/CATIATranslator/Part/Part.cs" line="30" column="1" bodyfile="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/CATIATranslator/Part/Part.cs" bodystart="30" bodyend="-1"/>
+        <referencedby refid="class_c_a_t_i_a_translator_1_1_part_1a52ba4965203633fc29560d9acd758d6f" compoundref="_part_8cs" startline="213" endline="253">CATIATranslator.Part.InitializeTransCAD</referencedby>
+        <referencedby refid="class_c_a_t_i_a_translator_1_1_part_1ae3f349e3728774e65cb72d02580a7269" compoundref="_part_8cs" startline="255" endline="263">CATIATranslator.Part.UninitializeTransCAD</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_c_a_t_i_a_translator_1_1_part_1a4b597969b13fdaf8fb7795ea450ffce6" prot="public" static="no" mutable="no">
+        <type>TransCAD.Documents</type>
+        <definition>TransCAD.Documents CATIATranslator.Part.tDocs</definition>
+        <argsstring></argsstring>
+        <name>tDocs</name>
+        <initializer>= null</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/CATIATranslator/Part/Part.cs" line="31" column="1" bodyfile="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/CATIATranslator/Part/Part.cs" bodystart="31" bodyend="-1"/>
+        <referencedby refid="class_c_a_t_i_a_translator_1_1_part_1a52ba4965203633fc29560d9acd758d6f" compoundref="_part_8cs" startline="213" endline="253">CATIATranslator.Part.InitializeTransCAD</referencedby>
+        <referencedby refid="class_c_a_t_i_a_translator_1_1_part_1ae3f349e3728774e65cb72d02580a7269" compoundref="_part_8cs" startline="255" endline="263">CATIATranslator.Part.UninitializeTransCAD</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_c_a_t_i_a_translator_1_1_part_1a189a93f8d198fd6216635792b94e0b5e" prot="public" static="no" mutable="no">
+        <type>TransCAD.IAssemDocument</type>
+        <definition>TransCAD.IAssemDocument CATIATranslator.Part.tAssemDoc</definition>
+        <argsstring></argsstring>
+        <name>tAssemDoc</name>
+        <initializer>= null</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/CATIATranslator/Part/Part.cs" line="32" column="1" bodyfile="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/CATIATranslator/Part/Part.cs" bodystart="32" bodyend="-1"/>
+        <referencedby refid="class_c_a_t_i_a_translator_1_1_part_1a52ba4965203633fc29560d9acd758d6f" compoundref="_part_8cs" startline="213" endline="253">CATIATranslator.Part.InitializeTransCAD</referencedby>
+        <referencedby refid="class_c_a_t_i_a_translator_1_1_part_1ae3f349e3728774e65cb72d02580a7269" compoundref="_part_8cs" startline="255" endline="263">CATIATranslator.Part.UninitializeTransCAD</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_c_a_t_i_a_translator_1_1_part_1ae583ca60446f1e1eadda553e071c22ad" prot="public" static="no" mutable="no">
+        <type>TransCAD.Assem</type>
+        <definition>TransCAD.Assem CATIATranslator.Part.tAssem</definition>
+        <argsstring></argsstring>
+        <name>tAssem</name>
+        <initializer>= null</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/CATIATranslator/Part/Part.cs" line="33" column="1" bodyfile="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/CATIATranslator/Part/Part.cs" bodystart="33" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_c_a_t_i_a_translator_1_1_part_1a81dc830eddfd816ef3b1c73af9588a8f" prot="public" static="no" mutable="no">
+        <type>TransCAD.IComp</type>
+        <definition>TransCAD.IComp CATIATranslator.Part.tComp</definition>
+        <argsstring></argsstring>
+        <name>tComp</name>
+        <initializer>= null</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/CATIATranslator/Part/Part.cs" line="34" column="1" bodyfile="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/CATIATranslator/Part/Part.cs" bodystart="34" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_c_a_t_i_a_translator_1_1_part_1ad5cf52d2c59f4a921d8f685bdacc3656" prot="public" static="no" mutable="no">
+        <type>TransCAD.PartDocument</type>
+        <definition>TransCAD.PartDocument CATIATranslator.Part.tPartDoc</definition>
+        <argsstring></argsstring>
+        <name>tPartDoc</name>
+        <initializer>= null</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/CATIATranslator/Part/Part.cs" line="35" column="1" bodyfile="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/CATIATranslator/Part/Part.cs" bodystart="35" bodyend="-1"/>
+        <referencedby refid="class_c_a_t_i_a_translator_1_1_part_1a52ba4965203633fc29560d9acd758d6f" compoundref="_part_8cs" startline="213" endline="253">CATIATranslator.Part.InitializeTransCAD</referencedby>
+        <referencedby refid="class_c_a_t_i_a_translator_1_1_part_1ae3f349e3728774e65cb72d02580a7269" compoundref="_part_8cs" startline="255" endline="263">CATIATranslator.Part.UninitializeTransCAD</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_c_a_t_i_a_translator_1_1_part_1a68448409d1b05513a1e56fe00ee32b6b" prot="public" static="no" mutable="no">
+        <type>TransCAD.Part</type>
+        <definition>TransCAD.Part CATIATranslator.Part.tPart</definition>
+        <argsstring></argsstring>
+        <name>tPart</name>
+        <initializer>= null</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/CATIATranslator/Part/Part.cs" line="36" column="1" bodyfile="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/CATIATranslator/Part/Part.cs" bodystart="36" bodyend="-1"/>
+        <referencedby refid="class_c_a_t_i_a_translator_1_1_part_1a52ba4965203633fc29560d9acd758d6f" compoundref="_part_8cs" startline="213" endline="253">CATIATranslator.Part.InitializeTransCAD</referencedby>
+        <referencedby refid="class_c_a_t_i_a_translator_1_1_part_1ae3f349e3728774e65cb72d02580a7269" compoundref="_part_8cs" startline="255" endline="263">CATIATranslator.Part.UninitializeTransCAD</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_c_a_t_i_a_translator_1_1_part_1a349bcd8be858b6112786b7f855a83f19" prot="public" static="no" mutable="no">
+        <type>TransCAD.Features</type>
+        <definition>TransCAD.Features CATIATranslator.Part.tFeatures</definition>
+        <argsstring></argsstring>
+        <name>tFeatures</name>
+        <initializer>= null</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/CATIATranslator/Part/Part.cs" line="37" column="1" bodyfile="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/CATIATranslator/Part/Part.cs" bodystart="37" bodyend="-1"/>
+        <referencedby refid="class_c_a_t_i_a_translator_1_1_part_1a52ba4965203633fc29560d9acd758d6f" compoundref="_part_8cs" startline="213" endline="253">CATIATranslator.Part.InitializeTransCAD</referencedby>
+        <referencedby refid="class_c_a_t_i_a_translator_1_1_part_1ae3f349e3728774e65cb72d02580a7269" compoundref="_part_8cs" startline="255" endline="263">CATIATranslator.Part.UninitializeTransCAD</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_c_a_t_i_a_translator_1_1_part_1a39146a4f6633e94374627d590020c980" prot="public" static="no" mutable="no">
+        <type><ref refid="class_c_a_t_i_a_translator_1_1_reference" kindref="compound">Reference</ref></type>
+        <definition>Reference CATIATranslator.Part.ReferenceManager</definition>
+        <argsstring></argsstring>
+        <name>ReferenceManager</name>
+        <initializer>= null</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/CATIATranslator/Part/Part.cs" line="41" column="1" bodyfile="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/CATIATranslator/Part/Part.cs" bodystart="41" bodyend="-1"/>
+        <referencedby refid="class_c_a_t_i_a_translator_1_1_part_1ae4fec9ff28eb930f5f2271034679308b" compoundref="_part_8cs" startline="48" endline="87">CATIATranslator.Part.InitializeCATIA</referencedby>
+        <referencedby refid="class_c_a_t_i_a_translator_1_1_part_1a52ba4965203633fc29560d9acd758d6f" compoundref="_part_8cs" startline="213" endline="253">CATIATranslator.Part.InitializeTransCAD</referencedby>
+        <referencedby refid="class_c_a_t_i_a_translator_1_1_feature_chamfer_1afb3237c69c7f22ac3df3db8b7f4d68a9" compoundref="_feature_chamfer_8cs" startline="34" endline="57">CATIATranslator.FeatureChamfer.TranslateT2C</referencedby>
+        <referencedby refid="class_c_a_t_i_a_translator_1_1_feature_edge_fillet_1a0127e835242204ae4fa280dbdd341bc4" compoundref="_feature_edge_fillet_8cs" startline="39" endline="65">CATIATranslator.FeatureEdgeFillet.TranslateT2C</referencedby>
+        <referencedby refid="class_c_a_t_i_a_translator_1_1_feature_circ_pattern_1a0297c10b464eb9148261d60fd37c67e0" compoundref="_feature_circ_pattern_8cs" startline="43" endline="81">CATIATranslator.FeatureCircPattern.TranslateT2C</referencedby>
+        <referencedby refid="class_c_a_t_i_a_translator_1_1_feature_rect_pattern_1aed05a35ca5f2ba50466bd955224279fd" compoundref="_feature_rect_pattern_8cs" startline="60" endline="101">CATIATranslator.FeatureRectPattern.TranslateT2C</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-static-attrib">
+      <memberdef kind="variable" id="class_c_a_t_i_a_translator_1_1_part_1a194a6fffbcf277045e5a21f9487d75f7" prot="public" static="yes" mutable="no">
+        <type>bool</type>
+        <definition>bool CATIATranslator.Part.isSubAssemblyPart</definition>
+        <argsstring></argsstring>
+        <name>isSubAssemblyPart</name>
+        <initializer>= false</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/CATIATranslator/Part/Part.cs" line="44" column="1" bodyfile="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/CATIATranslator/Part/Part.cs" bodystart="44" bodyend="-1"/>
+        <referencedby refid="class_c_a_t_i_a_translator_1_1_part_1a52ba4965203633fc29560d9acd758d6f" compoundref="_part_8cs" startline="213" endline="253">CATIATranslator.Part.InitializeTransCAD</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_c_a_t_i_a_translator_1_1_part_1a2c234b2263f3e4ef0242d8b9bfd6b133" prot="public" static="yes" mutable="no">
+        <type>int</type>
+        <definition>int CATIATranslator.Part.partNum</definition>
+        <argsstring></argsstring>
+        <name>partNum</name>
+        <initializer>=0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/CATIATranslator/Part/Part.cs" line="45" column="1" bodyfile="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/CATIATranslator/Part/Part.cs" bodystart="45" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_c_a_t_i_a_translator_1_1_part_1ae4fec9ff28eb930f5f2271034679308b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool CATIATranslator.Part.InitializeCATIA</definition>
+        <argsstring>(string filePath, int mode)</argsstring>
+        <name>InitializeCATIA</name>
+        <param>
+          <type>string</type>
+          <declname>filePath</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>mode</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/CATIATranslator/Part/Part.cs" line="48" column="1" bodyfile="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/CATIATranslator/Part/Part.cs" bodystart="48" bodyend="87"/>
+        <references refid="class_c_a_t_i_a_translator_1_1_part_1a4d15bb69043c5d9b1bb618daf49ef1d8" compoundref="_part_8cs" startline="13">CATIATranslator.Part.cApp</references>
+        <references refid="class_c_a_t_i_a_translator_1_1_part_1a66983264cdc67ee2ccc5855b8d0165ca" compoundref="_part_8cs" startline="19">CATIATranslator.Part.cBodies</references>
+        <references refid="class_c_a_t_i_a_translator_1_1_part_1a083c5e772dc80dca9278bea767e3eb0f" compoundref="_part_8cs" startline="20">CATIATranslator.Part.cCurrentBody</references>
+        <references refid="class_c_a_t_i_a_translator_1_1_part_1a1b2437bf82d05b273305ff5a61a84e80" compoundref="_part_8cs" startline="14">CATIATranslator.Part.cDocs</references>
+        <references refid="class_c_a_t_i_a_translator_1_1_part_1a987eabd2c25236028970723cc5740af0" compoundref="_part_8cs" startline="22">CATIATranslator.Part.cFactory</references>
+        <references refid="class_c_a_t_i_a_translator_1_1_part_1a2135fdd47e179ea789e0bcdc088e155f" compoundref="_part_8cs" startline="26">CATIATranslator.Part.cHybridShapeFactory</references>
+        <references refid="class_c_a_t_i_a_translator_1_1_part_1ac78af25e1545704dd7e88541f7ccb711" compoundref="_part_8cs" startline="18">CATIATranslator.Part.cOriginalElements</references>
+        <references refid="class_c_a_t_i_a_translator_1_1_part_1af6fe1d850ddf5524a57cb31a520efe17" compoundref="_part_8cs" startline="17">CATIATranslator.Part.cPart</references>
+        <references refid="class_c_a_t_i_a_translator_1_1_part_1aae7d733db04046d15fd674af09b8d544" compoundref="_part_8cs" startline="16">CATIATranslator.Part.cPartDoc</references>
+        <references refid="class_c_a_t_i_a_translator_1_1_part_1ab1e742b1e378d45d2a321354a70d6c1a" compoundref="_part_8cs" startline="25">CATIATranslator.Part.cShapeFactory</references>
+        <references refid="class_c_a_t_i_a_translator_1_1_part_1a797eb7ad90838dc2f86e7cc66406801f" compoundref="_part_8cs" startline="21">CATIATranslator.Part.cShapes</references>
+        <references refid="class_c_a_t_i_a_translator_1_1_part_1a8c1111ae7ae18e22e10b053dd637e644" compoundref="_part_8cs" startline="23">CATIATranslator.Part.cSketches</references>
+        <references refid="class_c_a_t_i_a_translator_1_1_part_1a39146a4f6633e94374627d590020c980" compoundref="_part_8cs" startline="41">CATIATranslator.Part.ReferenceManager</references>
+        <referencedby refid="class_c_a_t_i_a_translator_1_1_form1_1acfe155afe3d23f51ac8cb36919fd5768" compoundref="_form1_8cs" startline="45" endline="63">CATIATranslator.Form1.button1_Click</referencedby>
+        <referencedby refid="class_c_a_t_i_a_translator_1_1_program_1a86f19640fd443e4febc90940f0869e23" compoundref="_program_8cs" startline="14" endline="97">CATIATranslator.Program.Main</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_c_a_t_i_a_translator_1_1_part_1a8063e639329fb3510072607b4b6becd9" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void CATIATranslator.Part.UninitializeCATIA</definition>
+        <argsstring>()</argsstring>
+        <name>UninitializeCATIA</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/CATIATranslator/Part/Part.cs" line="89" column="1" bodyfile="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/CATIATranslator/Part/Part.cs" bodystart="89" bodyend="100"/>
+        <references refid="class_c_a_t_i_a_translator_1_1_part_1a66983264cdc67ee2ccc5855b8d0165ca" compoundref="_part_8cs" startline="19">CATIATranslator.Part.cBodies</references>
+        <references refid="class_c_a_t_i_a_translator_1_1_part_1a083c5e772dc80dca9278bea767e3eb0f" compoundref="_part_8cs" startline="20">CATIATranslator.Part.cCurrentBody</references>
+        <references refid="class_c_a_t_i_a_translator_1_1_part_1a987eabd2c25236028970723cc5740af0" compoundref="_part_8cs" startline="22">CATIATranslator.Part.cFactory</references>
+        <references refid="class_c_a_t_i_a_translator_1_1_part_1a2135fdd47e179ea789e0bcdc088e155f" compoundref="_part_8cs" startline="26">CATIATranslator.Part.cHybridShapeFactory</references>
+        <references refid="class_c_a_t_i_a_translator_1_1_part_1ac78af25e1545704dd7e88541f7ccb711" compoundref="_part_8cs" startline="18">CATIATranslator.Part.cOriginalElements</references>
+        <references refid="class_c_a_t_i_a_translator_1_1_part_1af6fe1d850ddf5524a57cb31a520efe17" compoundref="_part_8cs" startline="17">CATIATranslator.Part.cPart</references>
+        <references refid="class_c_a_t_i_a_translator_1_1_part_1ab1e742b1e378d45d2a321354a70d6c1a" compoundref="_part_8cs" startline="25">CATIATranslator.Part.cShapeFactory</references>
+        <references refid="class_c_a_t_i_a_translator_1_1_part_1a797eb7ad90838dc2f86e7cc66406801f" compoundref="_part_8cs" startline="21">CATIATranslator.Part.cShapes</references>
+        <references refid="class_c_a_t_i_a_translator_1_1_part_1a8c1111ae7ae18e22e10b053dd637e644" compoundref="_part_8cs" startline="23">CATIATranslator.Part.cSketches</references>
+      </memberdef>
+      <memberdef kind="function" id="class_c_a_t_i_a_translator_1_1_part_1a630c70304071d29cbe089e4a13317adc" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void CATIATranslator.Part.TranslateC2T</definition>
+        <argsstring>()</argsstring>
+        <name>TranslateC2T</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/CATIATranslator/Part/Part.cs" line="102" column="1" bodyfile="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/CATIATranslator/Part/Part.cs" bodystart="102" bodyend="154"/>
+      </memberdef>
+      <memberdef kind="function" id="class_c_a_t_i_a_translator_1_1_part_1a5f1f825d249126abf1ec0f10bba72503" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void CATIATranslator.Part.SaveCATPartFile</definition>
+        <argsstring>(string filePath)</argsstring>
+        <name>SaveCATPartFile</name>
+        <param>
+          <type>string</type>
+          <declname>filePath</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/CATIATranslator/Part/Part.cs" line="156" column="1" bodyfile="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/CATIATranslator/Part/Part.cs" bodystart="156" bodyend="178"/>
+      </memberdef>
+      <memberdef kind="function" id="class_c_a_t_i_a_translator_1_1_part_1a99fe75849fdb4f51ad977bd2fe6566b8" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>INFITF.AnyObject</type>
+        <definition>INFITF.AnyObject CATIATranslator.Part.GetRecentFeature</definition>
+        <argsstring>()</argsstring>
+        <name>GetRecentFeature</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/CATIATranslator/Part/Part.cs" line="180" column="1" bodyfile="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/CATIATranslator/Part/Part.cs" bodystart="180" bodyend="209"/>
+      </memberdef>
+      <memberdef kind="function" id="class_c_a_t_i_a_translator_1_1_part_1a52ba4965203633fc29560d9acd758d6f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool CATIATranslator.Part.InitializeTransCAD</definition>
+        <argsstring>(int mode)</argsstring>
+        <name>InitializeTransCAD</name>
+        <param>
+          <type>int</type>
+          <declname>mode</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/CATIATranslator/Part/Part.cs" line="213" column="1" bodyfile="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/CATIATranslator/Part/Part.cs" bodystart="213" bodyend="253"/>
+        <references refid="class_c_a_t_i_a_translator_1_1_part_1a194a6fffbcf277045e5a21f9487d75f7" compoundref="_part_8cs" startline="44">CATIATranslator.Part.isSubAssemblyPart</references>
+        <references refid="class_c_a_t_i_a_translator_1_1_part_1a39146a4f6633e94374627d590020c980" compoundref="_part_8cs" startline="41">CATIATranslator.Part.ReferenceManager</references>
+        <references refid="class_c_a_t_i_a_translator_1_1_part_1a8c8341d6d4e0991521900044f6d27891" compoundref="_part_8cs" startline="30">CATIATranslator.Part.tApp</references>
+        <references refid="class_c_a_t_i_a_translator_1_1_part_1a189a93f8d198fd6216635792b94e0b5e" compoundref="_part_8cs" startline="32">CATIATranslator.Part.tAssemDoc</references>
+        <references refid="class_c_a_t_i_a_translator_1_1_part_1a4b597969b13fdaf8fb7795ea450ffce6" compoundref="_part_8cs" startline="31">CATIATranslator.Part.tDocs</references>
+        <references refid="class_c_a_t_i_a_translator_1_1_part_1a349bcd8be858b6112786b7f855a83f19" compoundref="_part_8cs" startline="37">CATIATranslator.Part.tFeatures</references>
+        <references refid="class_c_a_t_i_a_translator_1_1_part_1a68448409d1b05513a1e56fe00ee32b6b" compoundref="_part_8cs" startline="36">CATIATranslator.Part.tPart</references>
+        <references refid="class_c_a_t_i_a_translator_1_1_part_1ad5cf52d2c59f4a921d8f685bdacc3656" compoundref="_part_8cs" startline="35">CATIATranslator.Part.tPartDoc</references>
+        <referencedby refid="class_c_a_t_i_a_translator_1_1_form1_1a2f38bcac1ec3f3b7efb1148984a93f3f" compoundref="_form1_8cs" startline="66" endline="86">CATIATranslator.Form1.button2_Click</referencedby>
+        <referencedby refid="class_c_a_t_i_a_translator_1_1_program_1a86f19640fd443e4febc90940f0869e23" compoundref="_program_8cs" startline="14" endline="97">CATIATranslator.Program.Main</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_c_a_t_i_a_translator_1_1_part_1ae3f349e3728774e65cb72d02580a7269" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void CATIATranslator.Part.UninitializeTransCAD</definition>
+        <argsstring>()</argsstring>
+        <name>UninitializeTransCAD</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/CATIATranslator/Part/Part.cs" line="255" column="1" bodyfile="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/CATIATranslator/Part/Part.cs" bodystart="255" bodyend="263"/>
+        <references refid="class_c_a_t_i_a_translator_1_1_part_1a8c8341d6d4e0991521900044f6d27891" compoundref="_part_8cs" startline="30">CATIATranslator.Part.tApp</references>
+        <references refid="class_c_a_t_i_a_translator_1_1_part_1a189a93f8d198fd6216635792b94e0b5e" compoundref="_part_8cs" startline="32">CATIATranslator.Part.tAssemDoc</references>
+        <references refid="class_c_a_t_i_a_translator_1_1_part_1a4b597969b13fdaf8fb7795ea450ffce6" compoundref="_part_8cs" startline="31">CATIATranslator.Part.tDocs</references>
+        <references refid="class_c_a_t_i_a_translator_1_1_part_1a349bcd8be858b6112786b7f855a83f19" compoundref="_part_8cs" startline="37">CATIATranslator.Part.tFeatures</references>
+        <references refid="class_c_a_t_i_a_translator_1_1_part_1a68448409d1b05513a1e56fe00ee32b6b" compoundref="_part_8cs" startline="36">CATIATranslator.Part.tPart</references>
+        <references refid="class_c_a_t_i_a_translator_1_1_part_1ad5cf52d2c59f4a921d8f685bdacc3656" compoundref="_part_8cs" startline="35">CATIATranslator.Part.tPartDoc</references>
+      </memberdef>
+      <memberdef kind="function" id="class_c_a_t_i_a_translator_1_1_part_1a728f82e205a1dd2a3d08313bc2aa710e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void CATIATranslator.Part.TranslateT2C</definition>
+        <argsstring>()</argsstring>
+        <name>TranslateT2C</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/CATIATranslator/Part/Part.cs" line="265" column="1" bodyfile="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/CATIATranslator/Part/Part.cs" bodystart="265" bodyend="313"/>
+      </memberdef>
+      <memberdef kind="function" id="class_c_a_t_i_a_translator_1_1_part_1ab65b1ebce06f34fedf18ae2d6dedcd2b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void CATIATranslator.Part.TranslateT2C</definition>
+        <argsstring>(TransCAD.IPart tPart)</argsstring>
+        <name>TranslateT2C</name>
+        <param>
+          <type>TransCAD.IPart</type>
+          <declname>tPart</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/CATIATranslator/Part/Part.cs" line="315" column="1" bodyfile="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/CATIATranslator/Part/Part.cs" bodystart="315" bodyend="367"/>
+      </memberdef>
+      <memberdef kind="function" id="class_c_a_t_i_a_translator_1_1_part_1ad673001fb01f2139c7c490d9f0400341" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>TransCAD.IFeature</type>
+        <definition>TransCAD.IFeature CATIATranslator.Part.GetFeatureFromReference</definition>
+        <argsstring>(TransCAD.Reference reference)</argsstring>
+        <name>GetFeatureFromReference</name>
+        <param>
+          <type>TransCAD.Reference</type>
+          <declname>reference</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/CATIATranslator/Part/Part.cs" line="369" column="1" bodyfile="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/CATIATranslator/Part/Part.cs" bodystart="369" bodyend="400"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="1060">
+        <label>TransCAD</label>
+      </node>
+      <node id="1061">
+        <label>CATIATranslator.Reference</label>
+        <link refid="class_c_a_t_i_a_translator_1_1_reference"/>
+        <childnode refid="1062" relation="usage">
+          <edgelabel>assembly</edgelabel>
+        </childnode>
+        <childnode refid="1059" relation="usage">
+          <edgelabel>PartManager</edgelabel>
+        </childnode>
+      </node>
+      <node id="1059">
+        <label>CATIATranslator.Part</label>
+        <link refid="class_c_a_t_i_a_translator_1_1_part"/>
+        <childnode refid="1060" relation="usage">
+          <edgelabel>tAssemDoc</edgelabel>
+          <edgelabel>tApp</edgelabel>
+          <edgelabel>tPartDoc</edgelabel>
+          <edgelabel>tDocs</edgelabel>
+          <edgelabel>tFeatures</edgelabel>
+          <edgelabel>tAssem</edgelabel>
+          <edgelabel>tComp</edgelabel>
+          <edgelabel>tPart</edgelabel>
+        </childnode>
+        <childnode refid="1061" relation="usage">
+          <edgelabel>ReferenceManager</edgelabel>
+        </childnode>
+        <childnode refid="1059" relation="usage">
+          <edgelabel>cPart</edgelabel>
+        </childnode>
+      </node>
+      <node id="1062">
+        <label>CATIATranslator.Assembly</label>
+        <link refid="class_c_a_t_i_a_translator_1_1_assembly"/>
+        <childnode refid="1060" relation="usage">
+          <edgelabel>tConstraints</edgelabel>
+          <edgelabel>tAssemDoc</edgelabel>
+          <edgelabel>tApp</edgelabel>
+          <edgelabel>tPartDoc</edgelabel>
+          <edgelabel>tDocs</edgelabel>
+          <edgelabel>tFeatures</edgelabel>
+          <edgelabel>tAssem</edgelabel>
+          <edgelabel>tComp</edgelabel>
+          <edgelabel>tPart</edgelabel>
+        </childnode>
+        <childnode refid="1061" relation="usage">
+          <edgelabel>ReferenceManager</edgelabel>
+        </childnode>
+        <childnode refid="1059" relation="usage">
+          <edgelabel>cPart</edgelabel>
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/CATIATranslator/Part/Part.cs" line="11" column="1" bodyfile="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/CATIATranslator/Part/Part.cs" bodystart="10" bodyend="402"/>
+    <listofallmembers>
+      <member refid="class_c_a_t_i_a_translator_1_1_part_1a4d15bb69043c5d9b1bb618daf49ef1d8" prot="public" virt="non-virtual"><scope>CATIATranslator::Part</scope><name>cApp</name></member>
+      <member refid="class_c_a_t_i_a_translator_1_1_part_1a66983264cdc67ee2ccc5855b8d0165ca" prot="public" virt="non-virtual"><scope>CATIATranslator::Part</scope><name>cBodies</name></member>
+      <member refid="class_c_a_t_i_a_translator_1_1_part_1a083c5e772dc80dca9278bea767e3eb0f" prot="public" virt="non-virtual"><scope>CATIATranslator::Part</scope><name>cCurrentBody</name></member>
+      <member refid="class_c_a_t_i_a_translator_1_1_part_1a1b2437bf82d05b273305ff5a61a84e80" prot="public" virt="non-virtual"><scope>CATIATranslator::Part</scope><name>cDocs</name></member>
+      <member refid="class_c_a_t_i_a_translator_1_1_part_1a987eabd2c25236028970723cc5740af0" prot="public" virt="non-virtual"><scope>CATIATranslator::Part</scope><name>cFactory</name></member>
+      <member refid="class_c_a_t_i_a_translator_1_1_part_1a2135fdd47e179ea789e0bcdc088e155f" prot="public" virt="non-virtual"><scope>CATIATranslator::Part</scope><name>cHybridShapeFactory</name></member>
+      <member refid="class_c_a_t_i_a_translator_1_1_part_1ac78af25e1545704dd7e88541f7ccb711" prot="public" virt="non-virtual"><scope>CATIATranslator::Part</scope><name>cOriginalElements</name></member>
+      <member refid="class_c_a_t_i_a_translator_1_1_part_1af6fe1d850ddf5524a57cb31a520efe17" prot="public" virt="non-virtual"><scope>CATIATranslator::Part</scope><name>cPart</name></member>
+      <member refid="class_c_a_t_i_a_translator_1_1_part_1aae7d733db04046d15fd674af09b8d544" prot="public" virt="non-virtual"><scope>CATIATranslator::Part</scope><name>cPartDoc</name></member>
+      <member refid="class_c_a_t_i_a_translator_1_1_part_1ab1e742b1e378d45d2a321354a70d6c1a" prot="public" virt="non-virtual"><scope>CATIATranslator::Part</scope><name>cShapeFactory</name></member>
+      <member refid="class_c_a_t_i_a_translator_1_1_part_1a797eb7ad90838dc2f86e7cc66406801f" prot="public" virt="non-virtual"><scope>CATIATranslator::Part</scope><name>cShapes</name></member>
+      <member refid="class_c_a_t_i_a_translator_1_1_part_1a8c1111ae7ae18e22e10b053dd637e644" prot="public" virt="non-virtual"><scope>CATIATranslator::Part</scope><name>cSketches</name></member>
+      <member refid="class_c_a_t_i_a_translator_1_1_part_1ad673001fb01f2139c7c490d9f0400341" prot="public" virt="non-virtual"><scope>CATIATranslator::Part</scope><name>GetFeatureFromReference</name></member>
+      <member refid="class_c_a_t_i_a_translator_1_1_part_1a99fe75849fdb4f51ad977bd2fe6566b8" prot="public" virt="non-virtual"><scope>CATIATranslator::Part</scope><name>GetRecentFeature</name></member>
+      <member refid="class_c_a_t_i_a_translator_1_1_part_1ae4fec9ff28eb930f5f2271034679308b" prot="public" virt="non-virtual"><scope>CATIATranslator::Part</scope><name>InitializeCATIA</name></member>
+      <member refid="class_c_a_t_i_a_translator_1_1_part_1a52ba4965203633fc29560d9acd758d6f" prot="public" virt="non-virtual"><scope>CATIATranslator::Part</scope><name>InitializeTransCAD</name></member>
+      <member refid="class_c_a_t_i_a_translator_1_1_part_1a194a6fffbcf277045e5a21f9487d75f7" prot="public" virt="non-virtual"><scope>CATIATranslator::Part</scope><name>isSubAssemblyPart</name></member>
+      <member refid="class_c_a_t_i_a_translator_1_1_part_1a2c234b2263f3e4ef0242d8b9bfd6b133" prot="public" virt="non-virtual"><scope>CATIATranslator::Part</scope><name>partNum</name></member>
+      <member refid="class_c_a_t_i_a_translator_1_1_part_1a39146a4f6633e94374627d590020c980" prot="public" virt="non-virtual"><scope>CATIATranslator::Part</scope><name>ReferenceManager</name></member>
+      <member refid="class_c_a_t_i_a_translator_1_1_part_1a5f1f825d249126abf1ec0f10bba72503" prot="public" virt="non-virtual"><scope>CATIATranslator::Part</scope><name>SaveCATPartFile</name></member>
+      <member refid="class_c_a_t_i_a_translator_1_1_part_1a8c8341d6d4e0991521900044f6d27891" prot="public" virt="non-virtual"><scope>CATIATranslator::Part</scope><name>tApp</name></member>
+      <member refid="class_c_a_t_i_a_translator_1_1_part_1ae583ca60446f1e1eadda553e071c22ad" prot="public" virt="non-virtual"><scope>CATIATranslator::Part</scope><name>tAssem</name></member>
+      <member refid="class_c_a_t_i_a_translator_1_1_part_1a189a93f8d198fd6216635792b94e0b5e" prot="public" virt="non-virtual"><scope>CATIATranslator::Part</scope><name>tAssemDoc</name></member>
+      <member refid="class_c_a_t_i_a_translator_1_1_part_1a81dc830eddfd816ef3b1c73af9588a8f" prot="public" virt="non-virtual"><scope>CATIATranslator::Part</scope><name>tComp</name></member>
+      <member refid="class_c_a_t_i_a_translator_1_1_part_1a4b597969b13fdaf8fb7795ea450ffce6" prot="public" virt="non-virtual"><scope>CATIATranslator::Part</scope><name>tDocs</name></member>
+      <member refid="class_c_a_t_i_a_translator_1_1_part_1a349bcd8be858b6112786b7f855a83f19" prot="public" virt="non-virtual"><scope>CATIATranslator::Part</scope><name>tFeatures</name></member>
+      <member refid="class_c_a_t_i_a_translator_1_1_part_1a68448409d1b05513a1e56fe00ee32b6b" prot="public" virt="non-virtual"><scope>CATIATranslator::Part</scope><name>tPart</name></member>
+      <member refid="class_c_a_t_i_a_translator_1_1_part_1ad5cf52d2c59f4a921d8f685bdacc3656" prot="public" virt="non-virtual"><scope>CATIATranslator::Part</scope><name>tPartDoc</name></member>
+      <member refid="class_c_a_t_i_a_translator_1_1_part_1a630c70304071d29cbe089e4a13317adc" prot="public" virt="non-virtual"><scope>CATIATranslator::Part</scope><name>TranslateC2T</name></member>
+      <member refid="class_c_a_t_i_a_translator_1_1_part_1a728f82e205a1dd2a3d08313bc2aa710e" prot="public" virt="non-virtual"><scope>CATIATranslator::Part</scope><name>TranslateT2C</name></member>
+      <member refid="class_c_a_t_i_a_translator_1_1_part_1ab65b1ebce06f34fedf18ae2d6dedcd2b" prot="public" virt="non-virtual"><scope>CATIATranslator::Part</scope><name>TranslateT2C</name></member>
+      <member refid="class_c_a_t_i_a_translator_1_1_part_1a8063e639329fb3510072607b4b6becd9" prot="public" virt="non-virtual"><scope>CATIATranslator::Part</scope><name>UninitializeCATIA</name></member>
+      <member refid="class_c_a_t_i_a_translator_1_1_part_1ae3f349e3728774e65cb72d02580a7269" prot="public" virt="non-virtual"><scope>CATIATranslator::Part</scope><name>UninitializeTransCAD</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

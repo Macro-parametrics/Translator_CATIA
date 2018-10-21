@@ -1,0 +1,187 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="_post_manager_2ref_2_feature_s_o_l_i_d_create_pattern_circular_8h" kind="file">
+    <compoundname>FeatureSOLIDCreatePatternCircular.h</compoundname>
+    <includes refid="_post_manager_2ref_2_feature_8h" local="yes">Feature.h</includes>
+    <includedby refid="_post_manager_2ref_2_feature_s_o_l_i_d_create_pattern_circular_8cpp" local="yes">PostManager/ref/FeatureSOLIDCreatePatternCircular.cpp</includedby>
+    <includedby refid="_post_manager_2ref_2_part_8cpp" local="yes">PostManager/ref/Part.cpp</includedby>
+    <incdepgraph>
+      <node id="1508">
+        <label>atlstr.h</label>
+      </node>
+      <node id="1504">
+        <label>Feature.h</label>
+        <link refid="_post_manager_2ref_2_feature_8h"/>
+        <childnode refid="1505" relation="include">
+        </childnode>
+      </node>
+      <node id="1514">
+        <label>stdlib.h</label>
+      </node>
+      <node id="1516">
+        <label>cmath</label>
+      </node>
+      <node id="1510">
+        <label>string</label>
+      </node>
+      <node id="1515">
+        <label>comutil.h</label>
+      </node>
+      <node id="1511">
+        <label>fstream</label>
+      </node>
+      <node id="1505">
+        <label>Part.h</label>
+        <link refid="_post_manager_2ref_2_part_8h"/>
+        <childnode refid="1506" relation="include">
+        </childnode>
+        <childnode refid="1519" relation="include">
+        </childnode>
+      </node>
+      <node id="1523">
+        <label>MP_Utility.h</label>
+        <link refid="_m_p___utility_8h"/>
+        <childnode refid="1520" relation="include">
+        </childnode>
+      </node>
+      <node id="1522">
+        <label>string.h</label>
+      </node>
+      <node id="1512">
+        <label>vector</label>
+      </node>
+      <node id="1518">
+        <label>math.h</label>
+      </node>
+      <node id="1507">
+        <label>atlbase.h</label>
+      </node>
+      <node id="1519">
+        <label>CATIAReferenceManager.h</label>
+        <link refid="_c_a_t_i_a_reference_manager_8h"/>
+        <childnode refid="1506" relation="include">
+        </childnode>
+        <childnode refid="1520" relation="include">
+        </childnode>
+        <childnode refid="1523" relation="include">
+        </childnode>
+      </node>
+      <node id="1509">
+        <label>iostream</label>
+      </node>
+      <node id="1517">
+        <label>Definition.h</label>
+        <link refid="_post_manager_2ref_2_definition_8h"/>
+        <childnode refid="1518" relation="include">
+        </childnode>
+      </node>
+      <node id="1503">
+        <label>PostManager/ref/FeatureSOLIDCreatePatternCircular.h</label>
+        <link refid="PostManager/ref/FeatureSOLIDCreatePatternCircular.h"/>
+        <childnode refid="1504" relation="include">
+        </childnode>
+      </node>
+      <node id="1521">
+        <label>algorithm</label>
+      </node>
+      <node id="1513">
+        <label>stdio.h</label>
+      </node>
+      <node id="1520">
+        <label>PN_TYPE.h</label>
+        <link refid="_p_n___t_y_p_e_8h"/>
+        <childnode refid="1509" relation="include">
+        </childnode>
+        <childnode refid="1510" relation="include">
+        </childnode>
+        <childnode refid="1512" relation="include">
+        </childnode>
+        <childnode refid="1521" relation="include">
+        </childnode>
+        <childnode refid="1518" relation="include">
+        </childnode>
+        <childnode refid="1522" relation="include">
+        </childnode>
+      </node>
+      <node id="1506">
+        <label>CATIApost_DLL.h</label>
+        <link refid="_c_a_t_i_apost___d_l_l_8h"/>
+        <childnode refid="1507" relation="include">
+        </childnode>
+        <childnode refid="1508" relation="include">
+        </childnode>
+        <childnode refid="1509" relation="include">
+        </childnode>
+        <childnode refid="1510" relation="include">
+        </childnode>
+        <childnode refid="1511" relation="include">
+        </childnode>
+        <childnode refid="1512" relation="include">
+        </childnode>
+        <childnode refid="1513" relation="include">
+        </childnode>
+        <childnode refid="1514" relation="include">
+        </childnode>
+        <childnode refid="1515" relation="include">
+        </childnode>
+        <childnode refid="1516" relation="include">
+        </childnode>
+        <childnode refid="1517" relation="include">
+        </childnode>
+      </node>
+    </incdepgraph>
+    <invincdepgraph>
+      <node id="1526">
+        <label>PostManager/ref/Part.cpp</label>
+        <link refid="_post_manager_2ref_2_part_8cpp"/>
+      </node>
+      <node id="1525">
+        <label>PostManager/ref/FeatureSOLIDCreatePatternCircular.cpp</label>
+        <link refid="_post_manager_2ref_2_feature_s_o_l_i_d_create_pattern_circular_8cpp"/>
+      </node>
+      <node id="1524">
+        <label>PostManager/ref/FeatureSOLIDCreatePatternCircular.h</label>
+        <link refid="PostManager/ref/FeatureSOLIDCreatePatternCircular.h"/>
+        <childnode refid="1525" relation="include">
+        </childnode>
+        <childnode refid="1526" relation="include">
+        </childnode>
+      </node>
+    </invincdepgraph>
+    <innerclass refid="class_post_1_1_feature_s_o_l_i_d_create_pattern_circular" prot="public">Post::FeatureSOLIDCreatePatternCircular</innerclass>
+    <innernamespace refid="namespace_post">Post</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="preprocessor">#pragma<sp/>once</highlight></codeline>
+<codeline lineno="2"><highlight class="preprocessor"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="_post_manager_2ref_2_feature_8h" kindref="compound">Feature.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal">Post<sp/>{</highlight></codeline>
+<codeline lineno="4" refid="class_post_1_1_feature_s_o_l_i_d_create_pattern_circular" refkind="compound"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="class_post_1_1_feature_s_o_l_i_d_create_pattern_circular" kindref="compound">FeatureSOLIDCreatePatternCircular</ref><sp/>:<sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/><ref refid="class_post_1_1_feature" kindref="compound">Feature</ref></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="6"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="7"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_post_1_1_feature_s_o_l_i_d_create_pattern_circular_1aeb14f7ed01b6e6619952c709b63479e7" kindref="member">FeatureSOLIDCreatePatternCircular</ref>(<ref refid="class_post_1_1_part" kindref="compound">Part</ref><sp/>*<sp/>pPart,<sp/>TransCAD::IFeaturePtr<sp/>spFeature);</highlight></codeline>
+<codeline lineno="8"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/><ref refid="class_post_1_1_feature_s_o_l_i_d_create_pattern_circular_1a2519168fe6c4b0abed2e94e260093f3f" kindref="member">~FeatureSOLIDCreatePatternCircular</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight></codeline>
+<codeline lineno="10"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_post_1_1_feature_s_o_l_i_d_create_pattern_circular_1a3529b594c7fb28c9976579e4eec5d947" kindref="member">GetInfo</ref>();</highlight></codeline>
+<codeline lineno="11"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_post_1_1_feature_s_o_l_i_d_create_pattern_circular_1a572bd9787a8d00fb43cceab6ce4260a9" kindref="member">ToCATIA</ref>();</highlight></codeline>
+<codeline lineno="12"><highlight class="normal"></highlight></codeline>
+<codeline lineno="13"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">protected</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="14" refid="class_post_1_1_feature_s_o_l_i_d_create_pattern_circular_1a6160e9ea3656895b580b1f5ccaca053f" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">string</highlight><highlight class="normal"><sp/><ref refid="class_post_1_1_feature_s_o_l_i_d_create_pattern_circular_1a6160e9ea3656895b580b1f5ccaca053f" kindref="member">_featurename</ref>;</highlight></codeline>
+<codeline lineno="15" refid="class_post_1_1_feature_s_o_l_i_d_create_pattern_circular_1a616fb3d2887890455adb8443d6ecbf99" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/><ref refid="class_post_1_1_feature_s_o_l_i_d_create_pattern_circular_1a616fb3d2887890455adb8443d6ecbf99" kindref="member">_featurenameCATIA</ref>[1024];</highlight></codeline>
+<codeline lineno="16"><highlight class="normal"></highlight></codeline>
+<codeline lineno="17" refid="class_post_1_1_feature_s_o_l_i_d_create_pattern_circular_1adf3e04006dc9b266b64e8e2df876a849" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/><ref refid="class_post_1_1_feature_s_o_l_i_d_create_pattern_circular_1adf3e04006dc9b266b64e8e2df876a849" kindref="member">_angleincrement</ref>[<ref refid="_post_manager_2ref_2_definition_8h_1a8d1867bc52b33855a7ab1d5c3676adda" kindref="member">MAX_CHAR_LIMIT</ref>];</highlight></codeline>
+<codeline lineno="18" refid="class_post_1_1_feature_s_o_l_i_d_create_pattern_circular_1ae51604b685a896fbae3279e34999dfa4" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/><sp/><ref refid="class_post_1_1_feature_s_o_l_i_d_create_pattern_circular_1ae51604b685a896fbae3279e34999dfa4" kindref="member">_patternnumber</ref>[<ref refid="_post_manager_2ref_2_definition_8h_1a8d1867bc52b33855a7ab1d5c3676adda" kindref="member">MAX_CHAR_LIMIT</ref>];</highlight></codeline>
+<codeline lineno="19" refid="class_post_1_1_feature_s_o_l_i_d_create_pattern_circular_1aa7667b697ab09d77671415b5414f895c" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/><ref refid="class_post_1_1_feature_s_o_l_i_d_create_pattern_circular_1aa7667b697ab09d77671415b5414f895c" kindref="member">_rowspacing</ref>;</highlight></codeline>
+<codeline lineno="20" refid="class_post_1_1_feature_s_o_l_i_d_create_pattern_circular_1a1fc381d1e59519639573b1bc149ebaca" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="class_post_1_1_feature_s_o_l_i_d_create_pattern_circular_1a1fc381d1e59519639573b1bc149ebaca" kindref="member">_isradial</ref>;</highlight></codeline>
+<codeline lineno="21" refid="class_post_1_1_feature_s_o_l_i_d_create_pattern_circular_1ab97298358b176589507ffacf0c34f72b" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/><ref refid="class_post_1_1_feature_s_o_l_i_d_create_pattern_circular_1ac6353ba23db188e6686a33a56708df60" kindref="member">_ptorg</ref>[3],<sp/><ref refid="class_post_1_1_feature_s_o_l_i_d_create_pattern_circular_1ab97298358b176589507ffacf0c34f72b" kindref="member">_ptvec</ref>[3];</highlight></codeline>
+<codeline lineno="22"><highlight class="normal"></highlight></codeline>
+<codeline lineno="23" refid="class_post_1_1_feature_s_o_l_i_d_create_pattern_circular_1a0668b7d49730c0fd63ff874b2f05797a" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/><ref refid="class_post_1_1_feature_s_o_l_i_d_create_pattern_circular_1a0668b7d49730c0fd63ff874b2f05797a" kindref="member">_refPlane</ref>[1024];</highlight></codeline>
+<codeline lineno="24"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_post_1_1_feature_s_o_l_i_d_create_pattern_circular_1a99e6ef6e9bd624491162bb5773bd67f6" kindref="member">GetCircReferencePlane</ref>();</highlight></codeline>
+<codeline lineno="25"><highlight class="normal"><sp/><sp/><sp/><sp/>};</highlight></codeline>
+<codeline lineno="26"><highlight class="normal">}</highlight></codeline>
+    </programlisting>
+    <location file="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/PostManager/ref/FeatureSOLIDCreatePatternCircular.h"/>
+  </compounddef>
+</doxygen>

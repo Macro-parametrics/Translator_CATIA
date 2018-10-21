@@ -1,0 +1,622 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_pre_1_1_attribute_item" kind="class" prot="public">
+    <compoundname>Pre::AttributeItem</compoundname>
+    <derivedcompoundref refid="class_pre_1_1_att_angle" prot="public" virt="non-virtual">Pre::AttAngle</derivedcompoundref>
+    <derivedcompoundref refid="class_pre_1_1_att_angular_repartation" prot="public" virt="non-virtual">Pre::AttAngularRepartation</derivedcompoundref>
+    <derivedcompoundref refid="class_pre_1_1_att_int_param" prot="public" virt="non-virtual">Pre::AttIntParam</derivedcompoundref>
+    <derivedcompoundref refid="class_pre_1_1_att_length" prot="public" virt="non-virtual">Pre::AttLength</derivedcompoundref>
+    <derivedcompoundref refid="class_pre_1_1_att_limit" prot="public" virt="non-virtual">Pre::AttLimit</derivedcompoundref>
+    <derivedcompoundref refid="class_pre_1_1_att_linear_repartation" prot="public" virt="non-virtual">Pre::AttLinearRepartation</derivedcompoundref>
+    <derivedcompoundref refid="class_pre_1_1_att_parameter" prot="public" virt="non-virtual">Pre::AttParameter</derivedcompoundref>
+    <includes refid="_attribute_item_8h" local="no">AttributeItem.h</includes>
+      <sectiondef kind="protected-attrib">
+      <memberdef kind="variable" id="class_pre_1_1_attribute_item_1a4fd56bf25f94537ccf373c6469f51738" prot="protected" static="no" mutable="no">
+        <type><ref refid="class_pre_1_1_part" kindref="compound">Part</ref> *</type>
+        <definition>Part* Pre::AttributeItem::_pPart</definition>
+        <argsstring></argsstring>
+        <name>_pPart</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/PreManager/ref/AttributeItem.h" line="23" column="1" bodyfile="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/PreManager/ref/AttributeItem.h" bodystart="23" bodyend="-1"/>
+        <referencedby refid="class_pre_1_1_attribute_item_1af09ccc36da03bf511b44247b25c83f35" compoundref="_attribute_item_8cpp" startline="5" endline="10">AttributeItem</referencedby>
+        <referencedby refid="class_pre_1_1_attribute_item_1a028595a3b4b90035019a41f1c590062e" compoundref="_attribute_item_8h" startline="13" endline="13">GetPart</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_pre_1_1_attribute_item_1a038f7f3ec13f1a554ab853a646ea731c" prot="protected" static="no" mutable="no">
+        <type>string</type>
+        <definition>string Pre::AttributeItem::_name</definition>
+        <argsstring></argsstring>
+        <name>_name</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/PreManager/ref/AttributeItem.h" line="24" column="1" bodyfile="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/PreManager/ref/AttributeItem.h" bodystart="24" bodyend="-1"/>
+        <referencedby refid="class_pre_1_1_attribute_item_1af09ccc36da03bf511b44247b25c83f35" compoundref="_attribute_item_8cpp" startline="5" endline="10">AttributeItem</referencedby>
+        <referencedby refid="class_pre_1_1_attribute_item_1a1a9180e1336ee3cad4e736f7bba27184" compoundref="_attribute_item_8h" startline="16" endline="16">GetName</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_pre_1_1_attribute_item_1a921288c89d639a103f98ccad5f3f01cb" prot="protected" static="no" mutable="no">
+        <type>string</type>
+        <definition>string Pre::AttributeItem::_featureName</definition>
+        <argsstring></argsstring>
+        <name>_featureName</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/PreManager/ref/AttributeItem.h" line="25" column="1" bodyfile="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/PreManager/ref/AttributeItem.h" bodystart="25" bodyend="-1"/>
+        <referencedby refid="class_pre_1_1_att_angular_repartation_1aad74e7f06664601a22ccab8397a52d1f" compoundref="_att_angular_repartation_8cpp" startline="45" endline="53">Pre::AttAngularRepartation::CheckAttribute</referencedby>
+        <referencedby refid="class_pre_1_1_att_limit_1a2cfdc460c9cf47e6bba257ec886ac201" compoundref="_att_limit_8cpp" startline="86" endline="93">Pre::AttLimit::CheckAttribute</referencedby>
+        <referencedby refid="class_pre_1_1_att_linear_repartation_1a3aeac04c09da376d73179487a93ff7bc" compoundref="_att_linear_repartation_8cpp" startline="44" endline="52">Pre::AttLinearRepartation::CheckAttribute</referencedby>
+        <referencedby refid="class_pre_1_1_att_limit_1a67cb0772dda7abcb835980f3be52305d" compoundref="_att_limit_8cpp" startline="15" endline="38">Pre::AttLimit::GetInfo</referencedby>
+        <referencedby refid="class_pre_1_1_att_angular_repartation_1aeb2e43e41721104280093855168f5d43" compoundref="_att_angular_repartation_8cpp" startline="15" endline="39">Pre::AttAngularRepartation::GetInfo</referencedby>
+        <referencedby refid="class_pre_1_1_att_int_param_1a2e33a947c0dcef3a929b02783c384924" compoundref="_att_int_param_8cpp" startline="14" endline="37">Pre::AttIntParam::GetInfo</referencedby>
+        <referencedby refid="class_pre_1_1_att_length_1a6170a48b9d8c7fa63be80f78216f7e3f" compoundref="_att_length_8cpp" startline="15" endline="38">Pre::AttLength::GetInfo</referencedby>
+        <referencedby refid="class_pre_1_1_att_linear_repartation_1a33c7ff4ca180dd6b7e25a8cd62f66a9b" compoundref="_att_linear_repartation_8cpp" startline="15" endline="38">Pre::AttLinearRepartation::GetInfo</referencedby>
+        <referencedby refid="class_pre_1_1_att_parameter_1a428a1c98ce2bf894c5c17a6086218cc0" compoundref="_att_parameter_8cpp" startline="15" endline="61">Pre::AttParameter::GetInfo</referencedby>
+        <referencedby refid="class_pre_1_1_att_angle_1a5255aaed38771679d1a086c1bca796e5" compoundref="_att_angle_8cpp" startline="15" endline="40">Pre::AttAngle::GetInfo</referencedby>
+        <referencedby refid="class_pre_1_1_att_length_1a2172c3f4a31954125614781c4d27d5a0" compoundref="_att_length_8cpp" startline="40" endline="65">Pre::AttLength::Modify</referencedby>
+        <referencedby refid="class_pre_1_1_att_int_param_1a2d5af6fdd6fb02fd753b53a8d9d244ed" compoundref="_att_int_param_8cpp" startline="39" endline="64">Pre::AttIntParam::Modify</referencedby>
+        <referencedby refid="class_pre_1_1_att_parameter_1a54c176a0943d3405aae9304a221126aa" compoundref="_att_parameter_8cpp" startline="63" endline="90">Pre::AttParameter::Modify</referencedby>
+        <referencedby refid="class_pre_1_1_att_limit_1a73ab5c59fa236d5e74609f1e4f8d40ac" compoundref="_att_limit_8cpp" startline="40" endline="84">Pre::AttLimit::Modify</referencedby>
+        <referencedby refid="class_pre_1_1_att_angle_1ad0a2b58e353b6eb332fb80a90e103653" compoundref="_att_angle_8cpp" startline="42" endline="69">Pre::AttAngle::Modify</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_pre_1_1_attribute_item_1a2367284f0672249ae539ac1924f12bb7" prot="protected" static="no" mutable="no">
+        <type>string</type>
+        <definition>string Pre::AttributeItem::_attributeName</definition>
+        <argsstring></argsstring>
+        <name>_attributeName</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/PreManager/ref/AttributeItem.h" line="26" column="1" bodyfile="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/PreManager/ref/AttributeItem.h" bodystart="26" bodyend="-1"/>
+        <referencedby refid="class_pre_1_1_att_angular_repartation_1aad74e7f06664601a22ccab8397a52d1f" compoundref="_att_angular_repartation_8cpp" startline="45" endline="53">Pre::AttAngularRepartation::CheckAttribute</referencedby>
+        <referencedby refid="class_pre_1_1_att_limit_1a2cfdc460c9cf47e6bba257ec886ac201" compoundref="_att_limit_8cpp" startline="86" endline="93">Pre::AttLimit::CheckAttribute</referencedby>
+        <referencedby refid="class_pre_1_1_att_linear_repartation_1a3aeac04c09da376d73179487a93ff7bc" compoundref="_att_linear_repartation_8cpp" startline="44" endline="52">Pre::AttLinearRepartation::CheckAttribute</referencedby>
+        <referencedby refid="class_pre_1_1_att_limit_1a67cb0772dda7abcb835980f3be52305d" compoundref="_att_limit_8cpp" startline="15" endline="38">Pre::AttLimit::GetInfo</referencedby>
+        <referencedby refid="class_pre_1_1_att_angular_repartation_1aeb2e43e41721104280093855168f5d43" compoundref="_att_angular_repartation_8cpp" startline="15" endline="39">Pre::AttAngularRepartation::GetInfo</referencedby>
+        <referencedby refid="class_pre_1_1_att_int_param_1a2e33a947c0dcef3a929b02783c384924" compoundref="_att_int_param_8cpp" startline="14" endline="37">Pre::AttIntParam::GetInfo</referencedby>
+        <referencedby refid="class_pre_1_1_att_length_1a6170a48b9d8c7fa63be80f78216f7e3f" compoundref="_att_length_8cpp" startline="15" endline="38">Pre::AttLength::GetInfo</referencedby>
+        <referencedby refid="class_pre_1_1_att_linear_repartation_1a33c7ff4ca180dd6b7e25a8cd62f66a9b" compoundref="_att_linear_repartation_8cpp" startline="15" endline="38">Pre::AttLinearRepartation::GetInfo</referencedby>
+        <referencedby refid="class_pre_1_1_att_parameter_1a428a1c98ce2bf894c5c17a6086218cc0" compoundref="_att_parameter_8cpp" startline="15" endline="61">Pre::AttParameter::GetInfo</referencedby>
+        <referencedby refid="class_pre_1_1_att_angle_1a5255aaed38771679d1a086c1bca796e5" compoundref="_att_angle_8cpp" startline="15" endline="40">Pre::AttAngle::GetInfo</referencedby>
+        <referencedby refid="class_pre_1_1_att_length_1a2172c3f4a31954125614781c4d27d5a0" compoundref="_att_length_8cpp" startline="40" endline="65">Pre::AttLength::Modify</referencedby>
+        <referencedby refid="class_pre_1_1_att_int_param_1a2d5af6fdd6fb02fd753b53a8d9d244ed" compoundref="_att_int_param_8cpp" startline="39" endline="64">Pre::AttIntParam::Modify</referencedby>
+        <referencedby refid="class_pre_1_1_att_parameter_1a54c176a0943d3405aae9304a221126aa" compoundref="_att_parameter_8cpp" startline="63" endline="90">Pre::AttParameter::Modify</referencedby>
+        <referencedby refid="class_pre_1_1_att_limit_1a73ab5c59fa236d5e74609f1e4f8d40ac" compoundref="_att_limit_8cpp" startline="40" endline="84">Pre::AttLimit::Modify</referencedby>
+        <referencedby refid="class_pre_1_1_att_angle_1ad0a2b58e353b6eb332fb80a90e103653" compoundref="_att_angle_8cpp" startline="42" endline="69">Pre::AttAngle::Modify</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_pre_1_1_attribute_item_1a55411a73e84ce380f4b22d87be0c065a" prot="protected" static="no" mutable="no">
+        <type>double</type>
+        <definition>double Pre::AttributeItem::_value</definition>
+        <argsstring></argsstring>
+        <name>_value</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/PreManager/ref/AttributeItem.h" line="27" column="1" bodyfile="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/PreManager/ref/AttributeItem.h" bodystart="27" bodyend="-1"/>
+        <referencedby refid="class_pre_1_1_att_angle_1a84f5b919e9ad31ec078ac8308443188e" compoundref="_att_angle_8cpp" startline="5" endline="9">Pre::AttAngle::AttAngle</referencedby>
+        <referencedby refid="class_pre_1_1_att_angular_repartation_1adfe19b75e2fe3429d88b1a30f951730e" compoundref="_att_angular_repartation_8cpp" startline="5" endline="9">Pre::AttAngularRepartation::AttAngularRepartation</referencedby>
+        <referencedby refid="class_pre_1_1_att_int_param_1a127ab8dda8f429e1f3132e16ce0ffeea" compoundref="_att_int_param_8cpp" startline="4" endline="8">Pre::AttIntParam::AttIntParam</referencedby>
+        <referencedby refid="class_pre_1_1_att_length_1a9a58720ad1d6c6cc2f5ba5e43bec176e" compoundref="_att_length_8cpp" startline="5" endline="9">Pre::AttLength::AttLength</referencedby>
+        <referencedby refid="class_pre_1_1_att_limit_1a9378471822f2659ede420b8803cb3d72" compoundref="_att_limit_8cpp" startline="5" endline="9">Pre::AttLimit::AttLimit</referencedby>
+        <referencedby refid="class_pre_1_1_att_linear_repartation_1a7912547f5bf5a8ad27d043150c1a907e" compoundref="_att_linear_repartation_8cpp" startline="5" endline="9">Pre::AttLinearRepartation::AttLinearRepartation</referencedby>
+        <referencedby refid="class_pre_1_1_att_parameter_1a24b3633e0706a822b90db55e0caf2f94" compoundref="_att_parameter_8cpp" startline="5" endline="9">Pre::AttParameter::AttParameter</referencedby>
+        <referencedby refid="class_pre_1_1_att_parameter_1a54c176a0943d3405aae9304a221126aa" compoundref="_att_parameter_8cpp" startline="63" endline="90">Pre::AttParameter::Modify</referencedby>
+        <referencedby refid="class_pre_1_1_att_limit_1a73ab5c59fa236d5e74609f1e4f8d40ac" compoundref="_att_limit_8cpp" startline="40" endline="84">Pre::AttLimit::Modify</referencedby>
+        <referencedby refid="class_pre_1_1_att_length_1a2172c3f4a31954125614781c4d27d5a0" compoundref="_att_length_8cpp" startline="40" endline="65">Pre::AttLength::Modify</referencedby>
+        <referencedby refid="class_pre_1_1_att_int_param_1a2d5af6fdd6fb02fd753b53a8d9d244ed" compoundref="_att_int_param_8cpp" startline="39" endline="64">Pre::AttIntParam::Modify</referencedby>
+        <referencedby refid="class_pre_1_1_att_angle_1ad0a2b58e353b6eb332fb80a90e103653" compoundref="_att_angle_8cpp" startline="42" endline="69">Pre::AttAngle::Modify</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_pre_1_1_attribute_item_1ac709c5fd9ce19ec7c34bfde540ff33b8" prot="protected" static="no" mutable="no">
+        <type>int</type>
+        <definition>int Pre::AttributeItem::_id</definition>
+        <argsstring></argsstring>
+        <name>_id</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/PreManager/ref/AttributeItem.h" line="28" column="1" bodyfile="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/PreManager/ref/AttributeItem.h" bodystart="28" bodyend="-1"/>
+        <referencedby refid="class_pre_1_1_attribute_item_1a912344f0ae1aeb9a30ca84254fa228f1" compoundref="_attribute_item_8h" startline="14" endline="14">GetId</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_pre_1_1_attribute_item_1a444b077c58fe0ada93ee55fd9eb58d52" prot="protected" static="no" mutable="no">
+        <type>int</type>
+        <definition>int Pre::AttributeItem::_type</definition>
+        <argsstring></argsstring>
+        <name>_type</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/PreManager/ref/AttributeItem.h" line="29" column="1" bodyfile="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/PreManager/ref/AttributeItem.h" bodystart="29" bodyend="-1"/>
+        <referencedby refid="class_pre_1_1_attribute_item_1af09ccc36da03bf511b44247b25c83f35" compoundref="_attribute_item_8cpp" startline="5" endline="10">AttributeItem</referencedby>
+        <referencedby refid="class_pre_1_1_attribute_item_1ac05a2863468303053150293b6f10ceec" compoundref="_attribute_item_8h" startline="15" endline="15">GetType</referencedby>
+        <referencedby refid="class_pre_1_1_att_int_param_1a2d5af6fdd6fb02fd753b53a8d9d244ed" compoundref="_att_int_param_8cpp" startline="39" endline="64">Pre::AttIntParam::Modify</referencedby>
+        <referencedby refid="class_pre_1_1_att_limit_1a73ab5c59fa236d5e74609f1e4f8d40ac" compoundref="_att_limit_8cpp" startline="40" endline="84">Pre::AttLimit::Modify</referencedby>
+        <referencedby refid="class_pre_1_1_att_angle_1ad0a2b58e353b6eb332fb80a90e103653" compoundref="_att_angle_8cpp" startline="42" endline="69">Pre::AttAngle::Modify</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_pre_1_1_attribute_item_1af09ccc36da03bf511b44247b25c83f35" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>Pre::AttributeItem::AttributeItem</definition>
+        <argsstring>(Part *pPart, int type, string name)</argsstring>
+        <name>AttributeItem</name>
+        <param>
+          <type><ref refid="class_pre_1_1_part" kindref="compound">Part</ref> *</type>
+          <declname>pPart</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>type</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>name</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/PreManager/ref/AttributeItem.h" line="10" column="1" bodyfile="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/PreManager/ref/AttributeItem.cpp" bodystart="5" bodyend="10"/>
+        <references refid="class_pre_1_1_attribute_item_1a038f7f3ec13f1a554ab853a646ea731c" compoundref="_attribute_item_8h" startline="24">_name</references>
+        <references refid="class_pre_1_1_attribute_item_1a4fd56bf25f94537ccf373c6469f51738" compoundref="_attribute_item_8h" startline="23">_pPart</references>
+        <references refid="class_pre_1_1_attribute_item_1a444b077c58fe0ada93ee55fd9eb58d52" compoundref="_attribute_item_8h" startline="29">_type</references>
+      </memberdef>
+      <memberdef kind="function" id="class_pre_1_1_attribute_item_1aad0efaa8b68b971b8342b8634576c1d5" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type></type>
+        <definition>Pre::AttributeItem::~AttributeItem</definition>
+        <argsstring>()</argsstring>
+        <name>~AttributeItem</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/PreManager/ref/AttributeItem.h" line="11" column="1" bodyfile="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/PreManager/ref/AttributeItem.cpp" bodystart="12" bodyend="14"/>
+      </memberdef>
+      <memberdef kind="function" id="class_pre_1_1_attribute_item_1a028595a3b4b90035019a41f1c590062e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="class_pre_1_1_part" kindref="compound">Part</ref> *</type>
+        <definition>Part* Pre::AttributeItem::GetPart</definition>
+        <argsstring>()</argsstring>
+        <name>GetPart</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/PreManager/ref/AttributeItem.h" line="13" column="1" bodyfile="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/PreManager/ref/AttributeItem.h" bodystart="13" bodyend="13"/>
+        <references refid="class_pre_1_1_attribute_item_1a4fd56bf25f94537ccf373c6469f51738" compoundref="_attribute_item_8h" startline="23">_pPart</references>
+        <referencedby refid="class_pre_1_1_att_angular_repartation_1aad74e7f06664601a22ccab8397a52d1f" compoundref="_att_angular_repartation_8cpp" startline="45" endline="53">Pre::AttAngularRepartation::CheckAttribute</referencedby>
+        <referencedby refid="class_pre_1_1_att_limit_1a2cfdc460c9cf47e6bba257ec886ac201" compoundref="_att_limit_8cpp" startline="86" endline="93">Pre::AttLimit::CheckAttribute</referencedby>
+        <referencedby refid="class_pre_1_1_att_linear_repartation_1a3aeac04c09da376d73179487a93ff7bc" compoundref="_att_linear_repartation_8cpp" startline="44" endline="52">Pre::AttLinearRepartation::CheckAttribute</referencedby>
+        <referencedby refid="class_pre_1_1_att_length_1a2172c3f4a31954125614781c4d27d5a0" compoundref="_att_length_8cpp" startline="40" endline="65">Pre::AttLength::Modify</referencedby>
+        <referencedby refid="class_pre_1_1_att_limit_1a73ab5c59fa236d5e74609f1e4f8d40ac" compoundref="_att_limit_8cpp" startline="40" endline="84">Pre::AttLimit::Modify</referencedby>
+        <referencedby refid="class_pre_1_1_att_parameter_1a54c176a0943d3405aae9304a221126aa" compoundref="_att_parameter_8cpp" startline="63" endline="90">Pre::AttParameter::Modify</referencedby>
+        <referencedby refid="class_pre_1_1_att_int_param_1a2d5af6fdd6fb02fd753b53a8d9d244ed" compoundref="_att_int_param_8cpp" startline="39" endline="64">Pre::AttIntParam::Modify</referencedby>
+        <referencedby refid="class_pre_1_1_att_angle_1ad0a2b58e353b6eb332fb80a90e103653" compoundref="_att_angle_8cpp" startline="42" endline="69">Pre::AttAngle::Modify</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_pre_1_1_attribute_item_1a912344f0ae1aeb9a30ca84254fa228f1" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>int</type>
+        <definition>int Pre::AttributeItem::GetId</definition>
+        <argsstring>()</argsstring>
+        <name>GetId</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/PreManager/ref/AttributeItem.h" line="14" column="1" bodyfile="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/PreManager/ref/AttributeItem.h" bodystart="14" bodyend="14"/>
+        <references refid="class_pre_1_1_attribute_item_1ac709c5fd9ce19ec7c34bfde540ff33b8" compoundref="_attribute_item_8h" startline="28">_id</references>
+      </memberdef>
+      <memberdef kind="function" id="class_pre_1_1_attribute_item_1ac05a2863468303053150293b6f10ceec" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>int</type>
+        <definition>int Pre::AttributeItem::GetType</definition>
+        <argsstring>()</argsstring>
+        <name>GetType</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/PreManager/ref/AttributeItem.h" line="15" column="1" bodyfile="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/PreManager/ref/AttributeItem.h" bodystart="15" bodyend="15"/>
+        <references refid="class_pre_1_1_attribute_item_1a444b077c58fe0ada93ee55fd9eb58d52" compoundref="_attribute_item_8h" startline="29">_type</references>
+      </memberdef>
+      <memberdef kind="function" id="class_pre_1_1_attribute_item_1a1a9180e1336ee3cad4e736f7bba27184" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>string</type>
+        <definition>string Pre::AttributeItem::GetName</definition>
+        <argsstring>()</argsstring>
+        <name>GetName</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/PreManager/ref/AttributeItem.h" line="16" column="1" bodyfile="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/PreManager/ref/AttributeItem.h" bodystart="16" bodyend="16"/>
+        <references refid="class_pre_1_1_attribute_item_1a038f7f3ec13f1a554ab853a646ea731c" compoundref="_attribute_item_8h" startline="24">_name</references>
+        <referencedby refid="class_pre_1_1_part_1a528af6b04af596db59046c191e453a00" compoundref="_pre_manager_2ref_2_part_8cpp" startline="348" endline="359">Pre::Part::GetAttributeItemByName</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_pre_1_1_attribute_item_1ae525b9c616a40016532a29d6df424de3" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void Pre::AttributeItem::GetInfo</definition>
+        <argsstring>(ifstream &amp;is)</argsstring>
+        <name>GetInfo</name>
+        <reimplementedby refid="class_pre_1_1_att_parameter_1a428a1c98ce2bf894c5c17a6086218cc0">GetInfo</reimplementedby>
+        <reimplementedby refid="class_pre_1_1_att_linear_repartation_1a33c7ff4ca180dd6b7e25a8cd62f66a9b">GetInfo</reimplementedby>
+        <reimplementedby refid="class_pre_1_1_att_limit_1a67cb0772dda7abcb835980f3be52305d">GetInfo</reimplementedby>
+        <reimplementedby refid="class_pre_1_1_att_length_1a6170a48b9d8c7fa63be80f78216f7e3f">GetInfo</reimplementedby>
+        <reimplementedby refid="class_pre_1_1_att_int_param_1a2e33a947c0dcef3a929b02783c384924">GetInfo</reimplementedby>
+        <reimplementedby refid="class_pre_1_1_att_angular_repartation_1aeb2e43e41721104280093855168f5d43">GetInfo</reimplementedby>
+        <reimplementedby refid="class_pre_1_1_att_angle_1a5255aaed38771679d1a086c1bca796e5">GetInfo</reimplementedby>
+        <param>
+          <type>ifstream &amp;</type>
+          <declname>is</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/PreManager/ref/AttributeItem.h" line="18" column="1" bodyfile="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/PreManager/ref/AttributeItem.cpp" bodystart="16" bodyend="18"/>
+        <referencedby refid="class_pre_1_1_part_1a5426eb43bd7824fb2e9f491537c4a6db" compoundref="_pre_manager_2ref_2_part_8cpp" startline="193" endline="217">Pre::Part::CreateAttributeItem</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_pre_1_1_attribute_item_1ab6fe550dca4ebaf060433c962cc5e014" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void Pre::AttributeItem::Modify</definition>
+        <argsstring>(char *buffer)</argsstring>
+        <name>Modify</name>
+        <reimplementedby refid="class_pre_1_1_att_parameter_1a54c176a0943d3405aae9304a221126aa">Modify</reimplementedby>
+        <reimplementedby refid="class_pre_1_1_att_linear_repartation_1a89321a568688c3defa0251677d5d5bac">Modify</reimplementedby>
+        <reimplementedby refid="class_pre_1_1_att_limit_1a73ab5c59fa236d5e74609f1e4f8d40ac">Modify</reimplementedby>
+        <reimplementedby refid="class_pre_1_1_att_length_1a2172c3f4a31954125614781c4d27d5a0">Modify</reimplementedby>
+        <reimplementedby refid="class_pre_1_1_att_int_param_1a2d5af6fdd6fb02fd753b53a8d9d244ed">Modify</reimplementedby>
+        <reimplementedby refid="class_pre_1_1_att_angular_repartation_1a81a040a8fdf0df1e751baeacc2e1fabe">Modify</reimplementedby>
+        <reimplementedby refid="class_pre_1_1_att_angle_1ad0a2b58e353b6eb332fb80a90e103653">Modify</reimplementedby>
+        <param>
+          <type>char *</type>
+          <declname>buffer</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/PreManager/ref/AttributeItem.h" line="19" column="1" bodyfile="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/PreManager/ref/AttributeItem.cpp" bodystart="24" bodyend="26"/>
+        <referencedby refid="class_pre_1_1_part_1a8b5e2a2bbf385223d67ce40232b23e45" compoundref="_pre_manager_2ref_2_part_8cpp" startline="235" endline="308">Pre::Part::GetInfo</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_pre_1_1_attribute_item_1aee247cd7e3f5b5b86562ceec3dd9b283" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void Pre::AttributeItem::CheckAttribute</definition>
+        <argsstring>(string name, double value, int type)</argsstring>
+        <name>CheckAttribute</name>
+        <reimplementedby refid="class_pre_1_1_att_parameter_1a8dd27fd94458ab6d53c07d2ffcd7163a">CheckAttribute</reimplementedby>
+        <reimplementedby refid="class_pre_1_1_att_linear_repartation_1a3aeac04c09da376d73179487a93ff7bc">CheckAttribute</reimplementedby>
+        <reimplementedby refid="class_pre_1_1_att_limit_1a2cfdc460c9cf47e6bba257ec886ac201">CheckAttribute</reimplementedby>
+        <reimplementedby refid="class_pre_1_1_att_angular_repartation_1aad74e7f06664601a22ccab8397a52d1f">CheckAttribute</reimplementedby>
+        <param>
+          <type>string</type>
+          <declname>name</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>value</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>type</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/PreManager/ref/AttributeItem.h" line="20" column="1" bodyfile="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/PreManager/ref/AttributeItem.cpp" bodystart="20" bodyend="22"/>
+        <referencedby refid="class_pre_1_1_att_int_param_1a2d5af6fdd6fb02fd753b53a8d9d244ed" compoundref="_att_int_param_8cpp" startline="39" endline="64">Pre::AttIntParam::Modify</referencedby>
+        <referencedby refid="class_pre_1_1_att_parameter_1a54c176a0943d3405aae9304a221126aa" compoundref="_att_parameter_8cpp" startline="63" endline="90">Pre::AttParameter::Modify</referencedby>
+        <referencedby refid="class_pre_1_1_att_length_1a2172c3f4a31954125614781c4d27d5a0" compoundref="_att_length_8cpp" startline="40" endline="65">Pre::AttLength::Modify</referencedby>
+        <referencedby refid="class_pre_1_1_att_angle_1ad0a2b58e353b6eb332fb80a90e103653" compoundref="_att_angle_8cpp" startline="42" endline="69">Pre::AttAngle::Modify</referencedby>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="233">
+        <label>Pre::AttParameter</label>
+        <link refid="class_pre_1_1_att_parameter"/>
+        <childnode refid="226" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="232">
+        <label>Pre::AttLinearRepartation</label>
+        <link refid="class_pre_1_1_att_linear_repartation"/>
+        <childnode refid="226" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="229">
+        <label>Pre::AttIntParam</label>
+        <link refid="class_pre_1_1_att_int_param"/>
+        <childnode refid="226" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="231">
+        <label>Pre::AttLimit</label>
+        <link refid="class_pre_1_1_att_limit"/>
+        <childnode refid="226" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="226">
+        <label>Pre::AttributeItem</label>
+        <link refid="class_pre_1_1_attribute_item"/>
+      </node>
+      <node id="228">
+        <label>Pre::AttAngularRepartation</label>
+        <link refid="class_pre_1_1_att_angular_repartation"/>
+        <childnode refid="226" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="227">
+        <label>Pre::AttAngle</label>
+        <link refid="class_pre_1_1_att_angle"/>
+        <childnode refid="226" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="230">
+        <label>Pre::AttLength</label>
+        <link refid="class_pre_1_1_att_length"/>
+        <childnode refid="226" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="251">
+        <label>std::basic_ifstream&lt; char &gt;</label>
+        <childnode refid="252" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="236">
+        <label>std::vector&lt; Pre::ReferenceEntity * &gt;</label>
+        <childnode refid="237" relation="usage">
+          <edgelabel>elements</edgelabel>
+        </childnode>
+      </node>
+      <node id="255">
+        <label>std::vector&lt; Pre::SketchFeature &gt;</label>
+        <childnode refid="256" relation="usage">
+          <edgelabel>elements</edgelabel>
+        </childnode>
+      </node>
+      <node id="246">
+        <label>Pre::FSKETCHItem</label>
+        <link refid="class_pre_1_1_f_s_k_e_t_c_h_item"/>
+        <childnode refid="239" relation="usage">
+          <edgelabel>_name</edgelabel>
+        </childnode>
+        <childnode refid="243" relation="usage">
+          <edgelabel>_pFSketch</edgelabel>
+        </childnode>
+      </node>
+      <node id="245">
+        <label>std::vector&lt; Pre::FSKETCHItem * &gt;</label>
+        <childnode refid="246" relation="usage">
+          <edgelabel>elements</edgelabel>
+        </childnode>
+      </node>
+      <node id="252">
+        <label>std::basic_istream&lt; Char &gt;</label>
+        <childnode refid="253" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="258">
+        <label>std::vector&lt; Pre::Feature * &gt;</label>
+        <childnode refid="244" relation="usage">
+          <edgelabel>elements</edgelabel>
+        </childnode>
+      </node>
+      <node id="247">
+        <label>std::vector&lt; Pre::ReportItem &gt;</label>
+        <childnode refid="248" relation="usage">
+          <edgelabel>elements</edgelabel>
+        </childnode>
+      </node>
+      <node id="244">
+        <label>Pre::Feature</label>
+        <link refid="class_pre_1_1_feature"/>
+        <childnode refid="235" relation="usage">
+          <edgelabel>_pPart</edgelabel>
+        </childnode>
+        <childnode refid="239" relation="usage">
+          <edgelabel>_name</edgelabel>
+        </childnode>
+      </node>
+      <node id="238">
+        <label>std::vector&lt; FaceInfoList &gt;</label>
+      </node>
+      <node id="237">
+        <label>Pre::ReferenceEntity</label>
+        <link refid="class_pre_1_1_reference_entity"/>
+        <childnode refid="238" relation="usage">
+          <edgelabel>pEdge</edgelabel>
+        </childnode>
+        <childnode refid="235" relation="usage">
+          <edgelabel>_pPart</edgelabel>
+        </childnode>
+        <childnode refid="239" relation="usage">
+          <edgelabel>feature</edgelabel>
+          <edgelabel>TransCADEdgeName</edgelabel>
+          <edgelabel>TransCADFaceName</edgelabel>
+          <edgelabel>name</edgelabel>
+          <edgelabel>axis</edgelabel>
+        </childnode>
+        <childnode refid="241" relation="usage">
+          <edgelabel>pFace</edgelabel>
+        </childnode>
+        <childnode refid="243" relation="usage">
+          <edgelabel>pSketchManager</edgelabel>
+        </childnode>
+        <childnode refid="249" relation="usage">
+          <edgelabel>pWire</edgelabel>
+        </childnode>
+      </node>
+      <node id="240">
+        <label>std::basic_string&lt; char &gt;</label>
+      </node>
+      <node id="242">
+        <label>FaceInfo</label>
+        <link refid="struct_face_info"/>
+      </node>
+      <node id="248">
+        <label>Pre::ReportItem</label>
+        <link refid="struct_pre_1_1_report_item"/>
+        <childnode refid="239" relation="usage">
+          <edgelabel>_entityName</edgelabel>
+        </childnode>
+      </node>
+      <node id="249">
+        <label>WireInfo</label>
+        <link refid="struct_wire_info"/>
+      </node>
+      <node id="234">
+        <label>Pre::AttributeItem</label>
+        <link refid="class_pre_1_1_attribute_item"/>
+        <childnode refid="235" relation="usage">
+          <edgelabel>_pPart</edgelabel>
+        </childnode>
+        <childnode refid="239" relation="usage">
+          <edgelabel>_featureName</edgelabel>
+          <edgelabel>_name</edgelabel>
+          <edgelabel>_attributeName</edgelabel>
+        </childnode>
+      </node>
+      <node id="256">
+        <label>Pre::SketchFeature</label>
+        <link refid="struct_pre_1_1_sketch_feature"/>
+        <childnode refid="239" relation="usage">
+          <edgelabel>_featureName</edgelabel>
+          <edgelabel>_sketchName</edgelabel>
+        </childnode>
+      </node>
+      <node id="253">
+        <label>std::basic_ios&lt; Char &gt;</label>
+        <childnode refid="254" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="235">
+        <label>Pre::Part</label>
+        <link refid="class_pre_1_1_part"/>
+        <childnode refid="236" relation="usage">
+          <edgelabel>_referenceEntityList</edgelabel>
+        </childnode>
+        <childnode refid="250" relation="usage">
+          <edgelabel>fin</edgelabel>
+        </childnode>
+        <childnode refid="255" relation="usage">
+          <edgelabel>sketchNameTable</edgelabel>
+        </childnode>
+        <childnode refid="239" relation="usage">
+          <edgelabel>_fileName</edgelabel>
+          <edgelabel>_filePath</edgelabel>
+        </childnode>
+        <childnode refid="257" relation="usage">
+          <edgelabel>_attributeItemList</edgelabel>
+        </childnode>
+        <childnode refid="258" relation="usage">
+          <edgelabel>_featureList</edgelabel>
+        </childnode>
+      </node>
+      <node id="254">
+        <label>std::ios_base</label>
+      </node>
+      <node id="250">
+        <label>std::ifstream</label>
+        <childnode refid="251" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="257">
+        <label>std::vector&lt; Pre::AttributeItem * &gt;</label>
+        <childnode refid="234" relation="usage">
+          <edgelabel>elements</edgelabel>
+        </childnode>
+      </node>
+      <node id="241">
+        <label>std::vector&lt; FaceInfo &gt;</label>
+        <childnode refid="242" relation="usage">
+          <edgelabel>elements</edgelabel>
+        </childnode>
+      </node>
+      <node id="239">
+        <label>std::string</label>
+        <childnode refid="240" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="243">
+        <label>Pre::FSketch</label>
+        <link refid="class_pre_1_1_f_sketch"/>
+        <childnode refid="244" relation="public-inheritance">
+        </childnode>
+        <childnode refid="245" relation="usage">
+          <edgelabel>_sketchItemList</edgelabel>
+        </childnode>
+        <childnode refid="237" relation="usage">
+          <edgelabel>_pReferenceEntity</edgelabel>
+        </childnode>
+        <childnode refid="239" relation="usage">
+          <edgelabel>_axisName</edgelabel>
+          <edgelabel>_factoryName</edgelabel>
+        </childnode>
+        <childnode refid="247" relation="usage">
+          <edgelabel>reportNameTable</edgelabel>
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/PreManager/ref/AttributeItem.h" line="8" column="1" bodyfile="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/PreManager/ref/AttributeItem.h" bodystart="7" bodyend="30"/>
+    <listofallmembers>
+      <member refid="class_pre_1_1_attribute_item_1a2367284f0672249ae539ac1924f12bb7" prot="protected" virt="non-virtual"><scope>Pre::AttributeItem</scope><name>_attributeName</name></member>
+      <member refid="class_pre_1_1_attribute_item_1a921288c89d639a103f98ccad5f3f01cb" prot="protected" virt="non-virtual"><scope>Pre::AttributeItem</scope><name>_featureName</name></member>
+      <member refid="class_pre_1_1_attribute_item_1ac709c5fd9ce19ec7c34bfde540ff33b8" prot="protected" virt="non-virtual"><scope>Pre::AttributeItem</scope><name>_id</name></member>
+      <member refid="class_pre_1_1_attribute_item_1a038f7f3ec13f1a554ab853a646ea731c" prot="protected" virt="non-virtual"><scope>Pre::AttributeItem</scope><name>_name</name></member>
+      <member refid="class_pre_1_1_attribute_item_1a4fd56bf25f94537ccf373c6469f51738" prot="protected" virt="non-virtual"><scope>Pre::AttributeItem</scope><name>_pPart</name></member>
+      <member refid="class_pre_1_1_attribute_item_1a444b077c58fe0ada93ee55fd9eb58d52" prot="protected" virt="non-virtual"><scope>Pre::AttributeItem</scope><name>_type</name></member>
+      <member refid="class_pre_1_1_attribute_item_1a55411a73e84ce380f4b22d87be0c065a" prot="protected" virt="non-virtual"><scope>Pre::AttributeItem</scope><name>_value</name></member>
+      <member refid="class_pre_1_1_attribute_item_1af09ccc36da03bf511b44247b25c83f35" prot="public" virt="non-virtual"><scope>Pre::AttributeItem</scope><name>AttributeItem</name></member>
+      <member refid="class_pre_1_1_attribute_item_1aee247cd7e3f5b5b86562ceec3dd9b283" prot="public" virt="virtual"><scope>Pre::AttributeItem</scope><name>CheckAttribute</name></member>
+      <member refid="class_pre_1_1_attribute_item_1a912344f0ae1aeb9a30ca84254fa228f1" prot="public" virt="non-virtual"><scope>Pre::AttributeItem</scope><name>GetId</name></member>
+      <member refid="class_pre_1_1_attribute_item_1ae525b9c616a40016532a29d6df424de3" prot="public" virt="virtual"><scope>Pre::AttributeItem</scope><name>GetInfo</name></member>
+      <member refid="class_pre_1_1_attribute_item_1a1a9180e1336ee3cad4e736f7bba27184" prot="public" virt="non-virtual"><scope>Pre::AttributeItem</scope><name>GetName</name></member>
+      <member refid="class_pre_1_1_attribute_item_1a028595a3b4b90035019a41f1c590062e" prot="public" virt="non-virtual"><scope>Pre::AttributeItem</scope><name>GetPart</name></member>
+      <member refid="class_pre_1_1_attribute_item_1ac05a2863468303053150293b6f10ceec" prot="public" virt="non-virtual"><scope>Pre::AttributeItem</scope><name>GetType</name></member>
+      <member refid="class_pre_1_1_attribute_item_1ab6fe550dca4ebaf060433c962cc5e014" prot="public" virt="virtual"><scope>Pre::AttributeItem</scope><name>Modify</name></member>
+      <member refid="class_pre_1_1_attribute_item_1aad0efaa8b68b971b8342b8634576c1d5" prot="public" virt="virtual"><scope>Pre::AttributeItem</scope><name>~AttributeItem</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

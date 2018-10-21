@@ -1,0 +1,156 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="_att_int_param_8h" kind="file">
+    <compoundname>AttIntParam.h</compoundname>
+    <includes refid="_attribute_item_8h" local="yes">AttributeItem.h</includes>
+    <includedby refid="_att_int_param_8cpp" local="yes">PreManager/ref/AttIntParam.cpp</includedby>
+    <includedby refid="_pre_manager_2ref_2_part_8cpp" local="yes">PreManager/ref/Part.cpp</includedby>
+    <incdepgraph>
+      <node id="2919">
+        <label>strstream</label>
+      </node>
+      <node id="2920">
+        <label>Feature.h</label>
+        <link refid="_pre_manager_2ref_2_feature_8h"/>
+        <childnode refid="2904" relation="include">
+        </childnode>
+      </node>
+      <node id="2913">
+        <label>cmath</label>
+      </node>
+      <node id="2908">
+        <label>string</label>
+      </node>
+      <node id="2917">
+        <label>comdef.h</label>
+      </node>
+      <node id="2916">
+        <label>comutil.h</label>
+      </node>
+      <node id="2911">
+        <label>fstream</label>
+      </node>
+      <node id="2902">
+        <label>PreManager/ref/AttIntParam.h</label>
+        <link refid="AttIntParam.h"/>
+        <childnode refid="2903" relation="include">
+        </childnode>
+      </node>
+      <node id="2909">
+        <label>string.h</label>
+      </node>
+      <node id="2905">
+        <label>CATIApre_DLL.h</label>
+        <link refid="_c_a_t_i_apre___d_l_l_8h"/>
+        <childnode refid="2906" relation="include">
+        </childnode>
+        <childnode refid="2907" relation="include">
+        </childnode>
+        <childnode refid="2908" relation="include">
+        </childnode>
+        <childnode refid="2909" relation="include">
+        </childnode>
+        <childnode refid="2910" relation="include">
+        </childnode>
+        <childnode refid="2911" relation="include">
+        </childnode>
+        <childnode refid="2912" relation="include">
+        </childnode>
+        <childnode refid="2913" relation="include">
+        </childnode>
+        <childnode refid="2914" relation="include">
+        </childnode>
+        <childnode refid="2915" relation="include">
+        </childnode>
+        <childnode refid="2916" relation="include">
+        </childnode>
+        <childnode refid="2917" relation="include">
+        </childnode>
+        <childnode refid="2918" relation="include">
+        </childnode>
+      </node>
+      <node id="2903">
+        <label>AttributeItem.h</label>
+        <link refid="_attribute_item_8h"/>
+        <childnode refid="2904" relation="include">
+        </childnode>
+        <childnode refid="2920" relation="include">
+        </childnode>
+      </node>
+      <node id="2912">
+        <label>vector</label>
+      </node>
+      <node id="2915">
+        <label>sstream</label>
+      </node>
+      <node id="2914">
+        <label>math.h</label>
+      </node>
+      <node id="2910">
+        <label>iostream</label>
+      </node>
+      <node id="2907">
+        <label>tchar.h</label>
+      </node>
+      <node id="2918">
+        <label>Definition.h</label>
+        <link refid="_pre_manager_2ref_2_definition_8h"/>
+        <childnode refid="2919" relation="include">
+        </childnode>
+        <childnode refid="2910" relation="include">
+        </childnode>
+        <childnode refid="2914" relation="include">
+        </childnode>
+      </node>
+      <node id="2904">
+        <label>Part.h</label>
+        <link refid="_pre_manager_2ref_2_part_8h"/>
+        <childnode refid="2905" relation="include">
+        </childnode>
+      </node>
+      <node id="2906">
+        <label>stdio.h</label>
+      </node>
+    </incdepgraph>
+    <invincdepgraph>
+      <node id="2921">
+        <label>PreManager/ref/AttIntParam.h</label>
+        <link refid="AttIntParam.h"/>
+        <childnode refid="2922" relation="include">
+        </childnode>
+        <childnode refid="2923" relation="include">
+        </childnode>
+      </node>
+      <node id="2922">
+        <label>PreManager/ref/AttIntParam.cpp</label>
+        <link refid="_att_int_param_8cpp"/>
+      </node>
+      <node id="2923">
+        <label>PreManager/ref/Part.cpp</label>
+        <link refid="_pre_manager_2ref_2_part_8cpp"/>
+      </node>
+    </invincdepgraph>
+    <innerclass refid="class_pre_1_1_att_int_param" prot="public">Pre::AttIntParam</innerclass>
+    <innernamespace refid="namespace_pre">Pre</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="preprocessor">#pragma<sp/>once</highlight></codeline>
+<codeline lineno="2"><highlight class="preprocessor"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="_attribute_item_8h" kindref="compound">AttributeItem.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal">Pre<sp/>{</highlight></codeline>
+<codeline lineno="4" refid="class_pre_1_1_att_int_param" refkind="compound"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="class_pre_1_1_att_int_param" kindref="compound">AttIntParam</ref><sp/>:<sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/><ref refid="class_pre_1_1_attribute_item" kindref="compound">AttributeItem</ref></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="6"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="7"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_pre_1_1_att_int_param_1a127ab8dda8f429e1f3132e16ce0ffeea" kindref="member">AttIntParam</ref>(<ref refid="class_pre_1_1_part" kindref="compound">Part</ref><sp/>*<sp/>pPart,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>type,<sp/></highlight><highlight class="keywordtype">string</highlight><highlight class="normal"><sp/>name);</highlight></codeline>
+<codeline lineno="8"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/><ref refid="class_pre_1_1_att_int_param_1a8b98658d9ce09ef0ff5d64b5a921c36b" kindref="member">~AttIntParam</ref>();</highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight></codeline>
+<codeline lineno="10"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_pre_1_1_att_int_param_1a2e33a947c0dcef3a929b02783c384924" kindref="member">GetInfo</ref>(ifstream<sp/>&amp;is);</highlight></codeline>
+<codeline lineno="11"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_pre_1_1_att_int_param_1a2d5af6fdd6fb02fd753b53a8d9d244ed" kindref="member">Modify</ref>(</highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*<sp/>buffer);</highlight></codeline>
+<codeline lineno="12"><highlight class="normal"><sp/><sp/><sp/><sp/>};</highlight></codeline>
+<codeline lineno="13"><highlight class="normal">}</highlight></codeline>
+    </programlisting>
+    <location file="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/PreManager/ref/AttIntParam.h"/>
+  </compounddef>
+</doxygen>

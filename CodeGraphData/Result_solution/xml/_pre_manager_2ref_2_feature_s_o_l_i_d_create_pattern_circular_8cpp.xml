@@ -1,0 +1,431 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="_pre_manager_2ref_2_feature_s_o_l_i_d_create_pattern_circular_8cpp" kind="file">
+    <compoundname>FeatureSOLIDCreatePatternCircular.cpp</compoundname>
+    <includes local="yes">stdafx.h</includes>
+    <includes refid="_pre_manager_2ref_2_feature_s_o_l_i_d_create_pattern_circular_8h" local="yes">FeatureSOLIDCreatePatternCircular.h</includes>
+    <includes refid="_pre_manager_2ref_2_f_sketch_8h" local="yes">FSketch.h</includes>
+    <includes refid="_reference_entity_8h" local="yes">ReferenceEntity.h</includes>
+    <includes refid="_f_s_k_e_t_c_h_create2_d_circle_center_point_8h" local="yes">FSKETCHCreate2DCircleCenterPoint.h</includes>
+    <incdepgraph>
+      <node id="1479">
+        <label>stdafx.h</label>
+      </node>
+      <node id="1497">
+        <label>strstream</label>
+      </node>
+      <node id="1481">
+        <label>Feature.h</label>
+        <link refid="_pre_manager_2ref_2_feature_8h"/>
+        <childnode refid="1482" relation="include">
+        </childnode>
+      </node>
+      <node id="1491">
+        <label>cmath</label>
+      </node>
+      <node id="1486">
+        <label>string</label>
+      </node>
+      <node id="1495">
+        <label>comdef.h</label>
+      </node>
+      <node id="1494">
+        <label>comutil.h</label>
+      </node>
+      <node id="1499">
+        <label>ReferenceEntity.h</label>
+        <link refid="_reference_entity_8h"/>
+        <childnode refid="1482" relation="include">
+        </childnode>
+        <childnode refid="1498" relation="include">
+        </childnode>
+      </node>
+      <node id="1501">
+        <label>FSKETCHItem.h</label>
+        <link refid="_f_s_k_e_t_c_h_item_8h"/>
+        <childnode refid="1498" relation="include">
+        </childnode>
+      </node>
+      <node id="1498">
+        <label>FSketch.h</label>
+        <link refid="_pre_manager_2ref_2_f_sketch_8h"/>
+        <childnode refid="1481" relation="include">
+        </childnode>
+      </node>
+      <node id="1478">
+        <label>PreManager/ref/FeatureSOLIDCreatePatternCircular.cpp</label>
+        <link refid="PreManager/ref/FeatureSOLIDCreatePatternCircular.cpp"/>
+        <childnode refid="1479" relation="include">
+        </childnode>
+        <childnode refid="1480" relation="include">
+        </childnode>
+        <childnode refid="1498" relation="include">
+        </childnode>
+        <childnode refid="1499" relation="include">
+        </childnode>
+        <childnode refid="1500" relation="include">
+        </childnode>
+      </node>
+      <node id="1489">
+        <label>fstream</label>
+      </node>
+      <node id="1480">
+        <label>FeatureSOLIDCreatePatternCircular.h</label>
+        <link refid="_pre_manager_2ref_2_feature_s_o_l_i_d_create_pattern_circular_8h"/>
+        <childnode refid="1481" relation="include">
+        </childnode>
+      </node>
+      <node id="1487">
+        <label>string.h</label>
+      </node>
+      <node id="1483">
+        <label>CATIApre_DLL.h</label>
+        <link refid="_c_a_t_i_apre___d_l_l_8h"/>
+        <childnode refid="1484" relation="include">
+        </childnode>
+        <childnode refid="1485" relation="include">
+        </childnode>
+        <childnode refid="1486" relation="include">
+        </childnode>
+        <childnode refid="1487" relation="include">
+        </childnode>
+        <childnode refid="1488" relation="include">
+        </childnode>
+        <childnode refid="1489" relation="include">
+        </childnode>
+        <childnode refid="1490" relation="include">
+        </childnode>
+        <childnode refid="1491" relation="include">
+        </childnode>
+        <childnode refid="1492" relation="include">
+        </childnode>
+        <childnode refid="1493" relation="include">
+        </childnode>
+        <childnode refid="1494" relation="include">
+        </childnode>
+        <childnode refid="1495" relation="include">
+        </childnode>
+        <childnode refid="1496" relation="include">
+        </childnode>
+      </node>
+      <node id="1500">
+        <label>FSKETCHCreate2DCircleCenterPoint.h</label>
+        <link refid="_f_s_k_e_t_c_h_create2_d_circle_center_point_8h"/>
+        <childnode refid="1501" relation="include">
+        </childnode>
+      </node>
+      <node id="1490">
+        <label>vector</label>
+      </node>
+      <node id="1493">
+        <label>sstream</label>
+      </node>
+      <node id="1492">
+        <label>math.h</label>
+      </node>
+      <node id="1488">
+        <label>iostream</label>
+      </node>
+      <node id="1485">
+        <label>tchar.h</label>
+      </node>
+      <node id="1496">
+        <label>Definition.h</label>
+        <link refid="_pre_manager_2ref_2_definition_8h"/>
+        <childnode refid="1497" relation="include">
+        </childnode>
+        <childnode refid="1488" relation="include">
+        </childnode>
+        <childnode refid="1492" relation="include">
+        </childnode>
+      </node>
+      <node id="1482">
+        <label>Part.h</label>
+        <link refid="_pre_manager_2ref_2_part_8h"/>
+        <childnode refid="1483" relation="include">
+        </childnode>
+      </node>
+      <node id="1484">
+        <label>stdio.h</label>
+      </node>
+    </incdepgraph>
+    <innernamespace refid="namespace_pre">Pre</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="preprocessor">#include<sp/>&quot;stdafx.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="_pre_manager_2ref_2_feature_s_o_l_i_d_create_pattern_circular_8h" kindref="compound">FeatureSOLIDCreatePatternCircular.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="_pre_manager_2ref_2_f_sketch_8h" kindref="compound">FSketch.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="_reference_entity_8h" kindref="compound">ReferenceEntity.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="_f_s_k_e_t_c_h_create2_d_circle_center_point_8h" kindref="compound">FSKETCHCreate2DCircleCenterPoint.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal">Pre<sp/>{</highlight></codeline>
+<codeline lineno="8" refid="class_pre_1_1_feature_s_o_l_i_d_create_pattern_circular_1a929a3c33e02cd7f671571b79568ee8ac" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="class_pre_1_1_feature_s_o_l_i_d_create_pattern_circular_1a929a3c33e02cd7f671571b79568ee8ac" kindref="member">FeatureSOLIDCreatePatternCircular::FeatureSOLIDCreatePatternCircular</ref>(<ref refid="class_pre_1_1_part" kindref="compound">Part</ref><sp/>*<sp/>pPart,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>type,<sp/></highlight><highlight class="keywordtype">string</highlight><highlight class="normal"><sp/>name)</highlight></codeline>
+<codeline lineno="9"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>:<sp/><ref refid="class_pre_1_1_feature" kindref="compound">Feature</ref>(pPart,<sp/>type,<sp/>name)</highlight></codeline>
+<codeline lineno="10"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="11"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_pre_1_1_feature_s_o_l_i_d_create_pattern_circular_1a71422b4a1694bf64d5b00776df5d1d91" kindref="member">CircleSpacing</ref><sp/>=<sp/>0;</highlight></codeline>
+<codeline lineno="12"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_pre_1_1_feature_s_o_l_i_d_create_pattern_circular_1ab662645b6b5e1a523331b0676c982902" kindref="member">OrgX</ref><sp/>=<sp/>0;</highlight></codeline>
+<codeline lineno="13"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_pre_1_1_feature_s_o_l_i_d_create_pattern_circular_1a33b8c8903ce4ec31b12dc98915a016f6" kindref="member">OrgY</ref><sp/>=<sp/>0;</highlight></codeline>
+<codeline lineno="14"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_pre_1_1_feature_s_o_l_i_d_create_pattern_circular_1a0d7139355e9878011eb4f9c783351750" kindref="member">OrgZ</ref><sp/>=<sp/>0;</highlight></codeline>
+<codeline lineno="15"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_pre_1_1_feature_s_o_l_i_d_create_pattern_circular_1a27412055ad261b7e0a4ada87793b5e93" kindref="member">CircleNumber</ref><sp/>=<sp/>0;</highlight></codeline>
+<codeline lineno="16"><highlight class="normal"></highlight></codeline>
+<codeline lineno="17"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_pre_1_1_feature_s_o_l_i_d_create_pattern_circular_1a001e66727eac8b64a4edb83270c5af17" kindref="member">AngularSpacing</ref><sp/>=<sp/>0;</highlight></codeline>
+<codeline lineno="18"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_pre_1_1_feature_s_o_l_i_d_create_pattern_circular_1aa1086fc3619f3acf330ddcecd3878ef3" kindref="member">DirX</ref><sp/>=<sp/>0;</highlight></codeline>
+<codeline lineno="19"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_pre_1_1_feature_s_o_l_i_d_create_pattern_circular_1a19608e46395511d73beb73051d2d27aa" kindref="member">DirY</ref><sp/>=<sp/>0;</highlight></codeline>
+<codeline lineno="20"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_pre_1_1_feature_s_o_l_i_d_create_pattern_circular_1a57dc6668fabf295b24b32002e339a4bf" kindref="member">DirZ</ref><sp/>=<sp/>0;</highlight></codeline>
+<codeline lineno="21"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_pre_1_1_feature_s_o_l_i_d_create_pattern_circular_1a7f70e053f761e4ff39a165ad1dc2df32" kindref="member">AngularNumber</ref><sp/>=<sp/>0;</highlight></codeline>
+<codeline lineno="22"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="23"><highlight class="normal"></highlight></codeline>
+<codeline lineno="24" refid="class_pre_1_1_feature_s_o_l_i_d_create_pattern_circular_1ab698edad410dcff97e4924142486b47c" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="class_pre_1_1_feature_s_o_l_i_d_create_pattern_circular_1ab698edad410dcff97e4924142486b47c" kindref="member">FeatureSOLIDCreatePatternCircular::~FeatureSOLIDCreatePatternCircular</ref>()</highlight></codeline>
+<codeline lineno="25"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="26"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="27"><highlight class="normal"></highlight></codeline>
+<codeline lineno="28" refid="class_pre_1_1_feature_s_o_l_i_d_create_pattern_circular_1a9480a8aa263b45f8a3b3c46eb6cb83fb" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_pre_1_1_feature_s_o_l_i_d_create_pattern_circular_1a9480a8aa263b45f8a3b3c46eb6cb83fb" kindref="member">FeatureSOLIDCreatePatternCircular::GetInfo</ref>(ifstream<sp/>&amp;is)</highlight></codeline>
+<codeline lineno="29"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="30"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>buffer[400];</highlight></codeline>
+<codeline lineno="31"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*<sp/>context<sp/>=<sp/>NULL;</highlight></codeline>
+<codeline lineno="32"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>is.getline(buffer,<sp/>400);</highlight></codeline>
+<codeline lineno="33"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">while</highlight><highlight class="normal"><sp/>(strncmp(buffer,<sp/></highlight><highlight class="stringliteral">&quot;Set&quot;</highlight><highlight class="normal">,<sp/>3))<sp/><sp/></highlight><highlight class="comment">//<sp/>Set<sp/>chamfer1을<sp/>찾는<sp/>부분</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="34"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="35"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>is.getline(buffer,<sp/>400);</highlight></codeline>
+<codeline lineno="36"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="37"><highlight class="normal"></highlight></codeline>
+<codeline lineno="38"><highlight class="normal"></highlight></codeline>
+<codeline lineno="39"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">string</highlight><highlight class="normal"><sp/>circpatternValue;</highlight></codeline>
+<codeline lineno="40"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>seps_temp[]<sp/>=<sp/></highlight><highlight class="stringliteral">&quot;<sp/>,\t\n()=&quot;</highlight><highlight class="normal">;<sp/></highlight><highlight class="comment">//구분자</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="41"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>circpatternValue<sp/>=<sp/>strtok_s(buffer,<sp/>seps_temp,<sp/>&amp;context);<sp/></highlight><highlight class="comment">//첫번째<sp/>단어</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="42"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>circpatternValue<sp/>=<sp/>strtok_s(NULL,<sp/>seps_temp,<sp/>&amp;context);<sp/><sp/></highlight><highlight class="comment">//두번째<sp/>단어</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="43"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>circpatternValue<sp/>=<sp/>strtok_s(NULL,<sp/>seps_temp,<sp/>&amp;context);<sp/><sp/></highlight><highlight class="comment">//세번째<sp/>단어</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="44"><highlight class="normal"></highlight></codeline>
+<codeline lineno="45"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>circpatternValue<sp/>=<sp/>strtok_s(NULL,<sp/>seps_temp,<sp/>&amp;context);<sp/><sp/></highlight><highlight class="comment">//네번째<sp/>단어<sp/></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="46"><highlight class="normal"></highlight></codeline>
+<codeline lineno="47"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_pre_1_1_feature_s_o_l_i_d_create_pattern_circular_1a9217020d1187496b18e715416e83bfa6" kindref="member">_spTargetFeature</ref><sp/>=<sp/>circpatternValue.c_str();<sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>Pattern이<sp/>적용<sp/>될<sp/>Target<sp/>Feature</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="48"><highlight class="normal"></highlight></codeline>
+<codeline lineno="49"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>circpatternValue<sp/>=<sp/>strtok_s(NULL,<sp/>seps_temp,<sp/>&amp;context);<sp/><sp/></highlight><highlight class="comment">//Number<sp/>of<sp/>circles</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="50"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_pre_1_1_feature_s_o_l_i_d_create_pattern_circular_1a27412055ad261b7e0a4ada87793b5e93" kindref="member">CircleNumber</ref><sp/>=<sp/>atoi(circpatternValue.c_str());</highlight></codeline>
+<codeline lineno="51"><highlight class="normal"></highlight></codeline>
+<codeline lineno="52"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>circpatternValue<sp/>=<sp/>strtok_s(NULL,<sp/>seps_temp,<sp/>&amp;context);<sp/><sp/></highlight><highlight class="comment">//Number<sp/>of<sp/>instances</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="53"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_pre_1_1_feature_s_o_l_i_d_create_pattern_circular_1a7f70e053f761e4ff39a165ad1dc2df32" kindref="member">AngularNumber</ref><sp/>=<sp/>atoi(circpatternValue.c_str());</highlight></codeline>
+<codeline lineno="54"><highlight class="normal"></highlight></codeline>
+<codeline lineno="55"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>circpatternValue<sp/>=<sp/>strtok_s(NULL,<sp/>seps_temp,<sp/>&amp;context);<sp/><sp/></highlight><highlight class="comment">//Circle<sp/>spacing</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="56"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_pre_1_1_feature_s_o_l_i_d_create_pattern_circular_1a71422b4a1694bf64d5b00776df5d1d91" kindref="member">CircleSpacing</ref><sp/>=<sp/>atoi(circpatternValue.c_str());</highlight></codeline>
+<codeline lineno="57"><highlight class="normal"></highlight></codeline>
+<codeline lineno="58"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>circpatternValue<sp/>=<sp/>strtok_s(NULL,<sp/>seps_temp,<sp/>&amp;context);<sp/><sp/></highlight><highlight class="comment">//Angular<sp/>spacing</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="59"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_pre_1_1_feature_s_o_l_i_d_create_pattern_circular_1a001e66727eac8b64a4edb83270c5af17" kindref="member">AngularSpacing</ref><sp/>=<sp/>atof(circpatternValue.c_str());</highlight></codeline>
+<codeline lineno="60"><highlight class="normal"></highlight></codeline>
+<codeline lineno="61"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>context<sp/>=<sp/>NULL;</highlight></codeline>
+<codeline lineno="62"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="63"><highlight class="normal"></highlight></codeline>
+<codeline lineno="64" refid="class_pre_1_1_feature_s_o_l_i_d_create_pattern_circular_1a74cc4f5b46d2c89fe0df483213f045ae" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_pre_1_1_feature_s_o_l_i_d_create_pattern_circular_1a74cc4f5b46d2c89fe0df483213f045ae" kindref="member">FeatureSOLIDCreatePatternCircular::ToTransCAD</ref>()</highlight></codeline>
+<codeline lineno="65"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="66"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>cerr<sp/>&lt;&lt;<sp/></highlight><highlight class="stringliteral">&quot;#--<sp/>Call<sp/>RectPattern::Translate2TransCAD()<sp/>--#&quot;</highlight><highlight class="normal"><sp/>&lt;&lt;<sp/>endl;</highlight></codeline>
+<codeline lineno="67"><highlight class="normal"></highlight></codeline>
+<codeline lineno="68"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>cerr<sp/>&lt;&lt;<sp/></highlight><highlight class="stringliteral">&quot;RectPattern<sp/>Name:&quot;</highlight><highlight class="normal"><sp/>&lt;&lt;<sp/><ref refid="class_pre_1_1_feature_1ae8c43a10be919286c9450125b1a0afb9" kindref="member">_name</ref>.c_str()<sp/>&lt;&lt;<sp/>endl;</highlight></codeline>
+<codeline lineno="69"><highlight class="normal"></highlight></codeline>
+<codeline lineno="70"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>패턴<sp/>방향<sp/>설정</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="71"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_pre_1_1_feature_s_o_l_i_d_create_pattern_circular_1a69865b7be3e41ea824d1701e9c891e78" kindref="member">SetDirection</ref>(<ref refid="class_pre_1_1_feature_s_o_l_i_d_create_pattern_circular_1ace89ecb5710096596107bd67d890142b" kindref="member">_RefPlane</ref>);</highlight></codeline>
+<codeline lineno="72"><highlight class="normal"></highlight></codeline>
+<codeline lineno="73"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>TransCAD::IReferencePtr<sp/>spTargetFeature<sp/>=<sp/><ref refid="class_pre_1_1_feature_1a22de04ab5c0ef7206d32c780ccfafee7" kindref="member">GetPart</ref>()-&gt;<ref refid="class_pre_1_1_part_1abe7d81bc84a9423e1d09c27e36125b64" kindref="member">_spPart</ref>-&gt;SelectFeatureByName(<ref refid="class_pre_1_1_feature_s_o_l_i_d_create_pattern_circular_1a9217020d1187496b18e715416e83bfa6" kindref="member">_spTargetFeature</ref>);</highlight></codeline>
+<codeline lineno="74"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>TransCAD::IReferencesPtr<sp/>spTargetFeatures<sp/>=<sp/><ref refid="class_pre_1_1_feature_1a22de04ab5c0ef7206d32c780ccfafee7" kindref="member">GetPart</ref>()-&gt;<ref refid="class_pre_1_1_part_1abe7d81bc84a9423e1d09c27e36125b64" kindref="member">_spPart</ref>-&gt;CreateReferences();</highlight></codeline>
+<codeline lineno="75"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>spTargetFeatures-&gt;Add(spTargetFeature);</highlight></codeline>
+<codeline lineno="76"><highlight class="normal"></highlight></codeline>
+<codeline lineno="77"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_pre_1_1_feature_1a22de04ab5c0ef7206d32c780ccfafee7" kindref="member">GetPart</ref>()-&gt;<ref refid="class_pre_1_1_part_1a0fa084e40ad2822e8214ba40b4751825" kindref="member">_spFeatures</ref>-&gt;AddNewSolidOperatePatternCircularFeature(<ref refid="class_pre_1_1_feature_1ae8c43a10be919286c9450125b1a0afb9" kindref="member">_name</ref>.c_str(),<sp/>spTargetFeatures,<sp/><ref refid="class_pre_1_1_feature_s_o_l_i_d_create_pattern_circular_1ab662645b6b5e1a523331b0676c982902" kindref="member">OrgX</ref>,<sp/><ref refid="class_pre_1_1_feature_s_o_l_i_d_create_pattern_circular_1a33b8c8903ce4ec31b12dc98915a016f6" kindref="member">OrgY</ref>,<sp/><ref refid="class_pre_1_1_feature_s_o_l_i_d_create_pattern_circular_1a0d7139355e9878011eb4f9c783351750" kindref="member">OrgZ</ref>,<sp/><ref refid="class_pre_1_1_feature_s_o_l_i_d_create_pattern_circular_1aa1086fc3619f3acf330ddcecd3878ef3" kindref="member">DirX</ref>,<sp/><ref refid="class_pre_1_1_feature_s_o_l_i_d_create_pattern_circular_1a19608e46395511d73beb73051d2d27aa" kindref="member">DirY</ref>,<sp/><ref refid="class_pre_1_1_feature_s_o_l_i_d_create_pattern_circular_1a57dc6668fabf295b24b32002e339a4bf" kindref="member">DirZ</ref>,</highlight></codeline>
+<codeline lineno="78"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_pre_1_1_feature_s_o_l_i_d_create_pattern_circular_1a7f70e053f761e4ff39a165ad1dc2df32" kindref="member">AngularNumber</ref>,<sp/><ref refid="class_pre_1_1_feature_s_o_l_i_d_create_pattern_circular_1a001e66727eac8b64a4edb83270c5af17" kindref="member">AngularSpacing</ref>,<sp/><ref refid="class_pre_1_1_feature_s_o_l_i_d_create_pattern_circular_1a27412055ad261b7e0a4ada87793b5e93" kindref="member">CircleNumber</ref>,<sp/><ref refid="class_pre_1_1_feature_s_o_l_i_d_create_pattern_circular_1a71422b4a1694bf64d5b00776df5d1d91" kindref="member">CircleSpacing</ref>,<sp/></highlight><highlight class="keyword">true</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="79"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>cerr<sp/>&lt;&lt;<sp/></highlight><highlight class="stringliteral">&quot;#--<sp/>End<sp/>RectPattern::Translate2TransCAD()<sp/>--#&quot;</highlight><highlight class="normal"><sp/>&lt;&lt;<sp/>endl<sp/>&lt;&lt;<sp/>endl;</highlight></codeline>
+<codeline lineno="80"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="81"><highlight class="normal"></highlight></codeline>
+<codeline lineno="82" refid="class_pre_1_1_feature_s_o_l_i_d_create_pattern_circular_1afea4290408acc17879fde6a0c50028d5" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_pre_1_1_feature_s_o_l_i_d_create_pattern_circular_1afea4290408acc17879fde6a0c50028d5" kindref="member">FeatureSOLIDCreatePatternCircular::CheckAttribute</ref>(</highlight><highlight class="keywordtype">string</highlight><highlight class="normal"><sp/>name,<sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>value,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>type)</highlight></codeline>
+<codeline lineno="83"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="84"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(name<sp/>==<sp/></highlight><highlight class="stringliteral">&quot;AngularRepartition&quot;</highlight><highlight class="normal">)</highlight></codeline>
+<codeline lineno="85"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="86"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(type<sp/>==<sp/>0)</highlight></codeline>
+<codeline lineno="87"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_pre_1_1_feature_s_o_l_i_d_create_pattern_circular_1a7f70e053f761e4ff39a165ad1dc2df32" kindref="member">AngularNumber</ref><sp/>=<sp/>(int)value;</highlight></codeline>
+<codeline lineno="88"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(type<sp/>==<sp/>1)</highlight></codeline>
+<codeline lineno="89"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_pre_1_1_feature_s_o_l_i_d_create_pattern_circular_1a001e66727eac8b64a4edb83270c5af17" kindref="member">AngularSpacing</ref><sp/>=<sp/>(double)value;</highlight></codeline>
+<codeline lineno="90"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="91"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(name<sp/>==<sp/></highlight><highlight class="stringliteral">&quot;RadialRepartition&quot;</highlight><highlight class="normal">)</highlight></codeline>
+<codeline lineno="92"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="93"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(type<sp/>==<sp/>0)</highlight></codeline>
+<codeline lineno="94"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_pre_1_1_feature_s_o_l_i_d_create_pattern_circular_1a27412055ad261b7e0a4ada87793b5e93" kindref="member">CircleNumber</ref><sp/>=<sp/>(int)value;</highlight></codeline>
+<codeline lineno="95"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(type<sp/>==<sp/>1)</highlight></codeline>
+<codeline lineno="96"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_pre_1_1_feature_s_o_l_i_d_create_pattern_circular_1a71422b4a1694bf64d5b00776df5d1d91" kindref="member">CircleSpacing</ref><sp/>=<sp/>(double)value;</highlight></codeline>
+<codeline lineno="97"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="98"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="99"><highlight class="normal"></highlight></codeline>
+<codeline lineno="100" refid="class_pre_1_1_feature_s_o_l_i_d_create_pattern_circular_1a85a93812a56839fb2b42872c3070f481" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_pre_1_1_feature_s_o_l_i_d_create_pattern_circular_1a85a93812a56839fb2b42872c3070f481" kindref="member">FeatureSOLIDCreatePatternCircular::Modify</ref>(</highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*<sp/>buffer)<sp/><sp/></highlight><highlight class="comment">//Script<sp/>파일에<sp/>바로<sp/>Class<sp/>인스턴스<sp/>이름이<sp/>나올때<sp/></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="101"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="102"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">string</highlight><highlight class="normal"><sp/>token;</highlight></codeline>
+<codeline lineno="103"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*<sp/>context<sp/>=<sp/>NULL;</highlight></codeline>
+<codeline lineno="104"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>seps[]<sp/>=<sp/></highlight><highlight class="stringliteral">&quot;<sp/>,\t\n().=&quot;</highlight><highlight class="normal">;<sp/></highlight><highlight class="comment">//구분자</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="105"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>token<sp/>=<sp/>strtok_s(buffer,<sp/>seps,<sp/>&amp;context);<sp/><sp/><sp/></highlight><highlight class="comment">//rectPattern1</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="106"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>token<sp/>=<sp/>strtok_s(NULL,<sp/>seps,<sp/>&amp;context);<sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//SetFirst<sp/>Direction</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="107"><highlight class="normal"></highlight></codeline>
+<codeline lineno="108"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="class_pre_1_1_feature_1a341b5b05bd448a814e86099e70f1a747" kindref="member">_type</ref>;</highlight></codeline>
+<codeline lineno="109"><highlight class="normal"></highlight></codeline>
+<codeline lineno="110"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(token<sp/>==<sp/></highlight><highlight class="stringliteral">&quot;SetRotationAxis&quot;</highlight><highlight class="normal">)</highlight></codeline>
+<codeline lineno="111"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="112"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>token<sp/>=<sp/>strtok_s(NULL,<sp/>seps,<sp/>&amp;context);<sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//reference11</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="113"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_pre_1_1_feature_s_o_l_i_d_create_pattern_circular_1ab08b282115c13d2bd2e7b726a20e2238" kindref="member">_rotationAxis</ref><sp/>=<sp/>token;</highlight></codeline>
+<codeline lineno="114"><highlight class="normal"></highlight></codeline>
+<codeline lineno="115"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>_type<sp/>=<sp/><ref refid="class_pre_1_1_feature_1a64772d4f47afe0052d5a94f773de5211" kindref="member">_pPart</ref>-&gt;<ref refid="class_pre_1_1_part_1a5643b5eda5bff62d642532663c62b63c" kindref="member">GetReferenceEntityByName</ref>(token)-&gt;<ref refid="class_pre_1_1_reference_entity_1af7e7c453fa7cc8c4df1e1cf65980381c" kindref="member">GetReferenceType</ref>();</highlight></codeline>
+<codeline lineno="116"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="117"><highlight class="normal"></highlight></codeline>
+<codeline lineno="118"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(token<sp/>==<sp/></highlight><highlight class="stringliteral">&quot;RotationOrientation&quot;</highlight><highlight class="normal">)</highlight></codeline>
+<codeline lineno="119"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="120"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>token<sp/>=<sp/>strtok_s(NULL,<sp/>seps,<sp/>&amp;context);<sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//reference11</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="121"><highlight class="normal"></highlight></codeline>
+<codeline lineno="122"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(token<sp/>==<sp/></highlight><highlight class="stringliteral">&quot;False&quot;</highlight><highlight class="normal">)</highlight></codeline>
+<codeline lineno="123"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="124"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_pre_1_1_feature_s_o_l_i_d_create_pattern_circular_1aa1086fc3619f3acf330ddcecd3878ef3" kindref="member">DirX</ref><sp/>=<sp/>(-1)*<ref refid="class_pre_1_1_feature_s_o_l_i_d_create_pattern_circular_1aa1086fc3619f3acf330ddcecd3878ef3" kindref="member">DirX</ref>;</highlight></codeline>
+<codeline lineno="125"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_pre_1_1_feature_s_o_l_i_d_create_pattern_circular_1a19608e46395511d73beb73051d2d27aa" kindref="member">DirY</ref><sp/>=<sp/>(-1)*<ref refid="class_pre_1_1_feature_s_o_l_i_d_create_pattern_circular_1a19608e46395511d73beb73051d2d27aa" kindref="member">DirY</ref>;</highlight></codeline>
+<codeline lineno="126"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_pre_1_1_feature_s_o_l_i_d_create_pattern_circular_1a57dc6668fabf295b24b32002e339a4bf" kindref="member">DirZ</ref><sp/>=<sp/>(-1)*<ref refid="class_pre_1_1_feature_s_o_l_i_d_create_pattern_circular_1a57dc6668fabf295b24b32002e339a4bf" kindref="member">DirZ</ref>;</highlight></codeline>
+<codeline lineno="127"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="128"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="129"><highlight class="normal"></highlight></codeline>
+<codeline lineno="130"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>레퍼런스가<sp/>Plane<sp/>혹은<sp/>Face인<sp/>경우<sp/></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="131"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(_type<sp/>==<sp/>1<sp/>||<sp/>_type<sp/>==<sp/>3<sp/>||<sp/>_type<sp/>==<sp/>4)</highlight></codeline>
+<codeline lineno="132"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_pre_1_1_feature_s_o_l_i_d_create_pattern_circular_1ace89ecb5710096596107bd67d890142b" kindref="member">_RefPlane</ref><sp/>=<sp/>token;</highlight></codeline>
+<codeline lineno="133"><highlight class="normal"></highlight></codeline>
+<codeline lineno="134"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>context<sp/>=<sp/>NULL;</highlight></codeline>
+<codeline lineno="135"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="136"><highlight class="normal"></highlight></codeline>
+<codeline lineno="137" refid="class_pre_1_1_feature_s_o_l_i_d_create_pattern_circular_1a69865b7be3e41ea824d1701e9c891e78" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_pre_1_1_feature_s_o_l_i_d_create_pattern_circular_1a69865b7be3e41ea824d1701e9c891e78" kindref="member">FeatureSOLIDCreatePatternCircular::SetDirection</ref>(</highlight><highlight class="keywordtype">string</highlight><highlight class="normal"><sp/>refplane)</highlight></codeline>
+<codeline lineno="138"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="139"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">string</highlight><highlight class="normal"><sp/>RefPlane<sp/>=<sp/><ref refid="class_pre_1_1_feature_1a64772d4f47afe0052d5a94f773de5211" kindref="member">_pPart</ref>-&gt;<ref refid="class_pre_1_1_part_1a5643b5eda5bff62d642532663c62b63c" kindref="member">GetReferenceEntityByName</ref>(refplane)-&gt;<ref refid="class_pre_1_1_reference_entity_1ab7834eec27b178f18cad28f6baf1b146" kindref="member">GetFeatureName</ref>();</highlight></codeline>
+<codeline lineno="140"><highlight class="normal"></highlight></codeline>
+<codeline lineno="141"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(RefPlane<sp/>==<sp/></highlight><highlight class="stringliteral">&quot;PlaneXY&quot;</highlight><highlight class="normal">)</highlight></codeline>
+<codeline lineno="142"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="143"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_pre_1_1_feature_s_o_l_i_d_create_pattern_circular_1a57dc6668fabf295b24b32002e339a4bf" kindref="member">DirZ</ref><sp/>=<sp/>1.0;</highlight></codeline>
+<codeline lineno="144"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="145"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(RefPlane<sp/>==<sp/></highlight><highlight class="stringliteral">&quot;PlaneYZ&quot;</highlight><highlight class="normal">)</highlight></codeline>
+<codeline lineno="146"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="147"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_pre_1_1_feature_s_o_l_i_d_create_pattern_circular_1aa1086fc3619f3acf330ddcecd3878ef3" kindref="member">DirX</ref><sp/>=<sp/>1.0;</highlight></codeline>
+<codeline lineno="148"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="149"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(RefPlane<sp/>==<sp/></highlight><highlight class="stringliteral">&quot;PlaneZX&quot;</highlight><highlight class="normal">)</highlight></codeline>
+<codeline lineno="150"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="151"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_pre_1_1_feature_s_o_l_i_d_create_pattern_circular_1a19608e46395511d73beb73051d2d27aa" kindref="member">DirY</ref><sp/>=<sp/>1.0;</highlight></codeline>
+<codeline lineno="152"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="153"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="154"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="155"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(RefPlane<sp/>!=<sp/></highlight><highlight class="stringliteral">&quot;&quot;</highlight><highlight class="normal">)</highlight></codeline>
+<codeline lineno="156"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="157"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">string</highlight><highlight class="normal"><sp/>RefPlane1<sp/>=<sp/><ref refid="class_pre_1_1_feature_1a64772d4f47afe0052d5a94f773de5211" kindref="member">_pPart</ref>-&gt;<ref refid="class_pre_1_1_part_1a5643b5eda5bff62d642532663c62b63c" kindref="member">GetReferenceEntityByName</ref>(RefPlane)-&gt;<ref refid="class_pre_1_1_reference_entity_1ab7834eec27b178f18cad28f6baf1b146" kindref="member">GetFeatureName</ref>();</highlight></codeline>
+<codeline lineno="158"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(RefPlane1<sp/>==<sp/></highlight><highlight class="stringliteral">&quot;PlaneXY&quot;</highlight><highlight class="normal">)</highlight></codeline>
+<codeline lineno="159"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="160"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_pre_1_1_feature_s_o_l_i_d_create_pattern_circular_1a57dc6668fabf295b24b32002e339a4bf" kindref="member">DirZ</ref><sp/>=<sp/>1.0;</highlight></codeline>
+<codeline lineno="161"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="162"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(RefPlane1<sp/>==<sp/></highlight><highlight class="stringliteral">&quot;PlaneYZ&quot;</highlight><highlight class="normal">)</highlight></codeline>
+<codeline lineno="163"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="164"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_pre_1_1_feature_s_o_l_i_d_create_pattern_circular_1aa1086fc3619f3acf330ddcecd3878ef3" kindref="member">DirX</ref><sp/>=<sp/>1.0;</highlight></codeline>
+<codeline lineno="165"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="166"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(RefPlane1<sp/>==<sp/></highlight><highlight class="stringliteral">&quot;PlaneZX&quot;</highlight><highlight class="normal">)</highlight></codeline>
+<codeline lineno="167"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="168"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_pre_1_1_feature_s_o_l_i_d_create_pattern_circular_1a19608e46395511d73beb73051d2d27aa" kindref="member">DirY</ref><sp/>=<sp/>1.0;</highlight></codeline>
+<codeline lineno="169"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="170"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="171"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="172"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="173"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">string</highlight><highlight class="normal"><sp/>_revRefSketName<sp/>=<sp/><ref refid="class_pre_1_1_feature_1a22de04ab5c0ef7206d32c780ccfafee7" kindref="member">GetPart</ref>()-&gt;<ref refid="class_pre_1_1_part_1a5643b5eda5bff62d642532663c62b63c" kindref="member">GetReferenceEntityByName</ref>(refplane)-&gt;<ref refid="class_pre_1_1_reference_entity_1a2e731278fa3a1a00dfeccaaf9f238051" kindref="member">GetFaceInfo</ref>()[0]._sketchName1;<sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>스케치<sp/>이름</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="174"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">string</highlight><highlight class="normal"><sp/>_revRefEntName<sp/>=<sp/><ref refid="class_pre_1_1_feature_1a22de04ab5c0ef7206d32c780ccfafee7" kindref="member">GetPart</ref>()-&gt;<ref refid="class_pre_1_1_part_1a5643b5eda5bff62d642532663c62b63c" kindref="member">GetReferenceEntityByName</ref>(refplane)-&gt;<ref refid="class_pre_1_1_reference_entity_1a2e731278fa3a1a00dfeccaaf9f238051" kindref="member">GetFaceInfo</ref>()[0]._sketchItemName1;<sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>스케치에<sp/>포함<sp/>된<sp/>라인.<sp/>즉,<sp/>회전<sp/>축</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="175"><highlight class="normal"></highlight></codeline>
+<codeline lineno="176"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>Circle을<sp/>Extrude한<sp/>원기둥인<sp/>경우</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="177"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_pre_1_1_f_sketch" kindref="compound">FSketch</ref><sp/>*<sp/>pRefSketch<sp/>=<sp/>(<ref refid="class_pre_1_1_f_sketch" kindref="compound">FSketch</ref>*)<ref refid="class_pre_1_1_feature_1a22de04ab5c0ef7206d32c780ccfafee7" kindref="member">GetPart</ref>()-&gt;<ref refid="class_pre_1_1_part_1a757a376bdc640e00119c3489ee35d2aa" kindref="member">GetFeatureByName</ref>(_revRefSketName);</highlight></codeline>
+<codeline lineno="178"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="namespace_pre_1a42512ff1a00cd929e4efd66d0b148707" kindref="member">Point3D</ref><sp/>origin,<sp/>direction;</highlight></codeline>
+<codeline lineno="179"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(_revRefEntName.find(</highlight><highlight class="stringliteral">&quot;circle2D&quot;</highlight><highlight class="normal">)<sp/>==<sp/>0)</highlight></codeline>
+<codeline lineno="180"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="181"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_pre_1_1_f_s_k_e_t_c_h_create2_d_circle_center_point" kindref="compound">FSKETCHCreate2DCircleCenterPoint</ref><sp/>*<sp/>pRefCircle<sp/>=<sp/>(<ref refid="class_pre_1_1_f_s_k_e_t_c_h_create2_d_circle_center_point" kindref="compound">FSKETCHCreate2DCircleCenterPoint</ref>*)pRefSketch-&gt;<ref refid="class_pre_1_1_f_sketch_1ab6314d4544a5000966d189bc2ed06652" kindref="member">GetSketchItemFromName</ref>(_revRefEntName);</highlight></codeline>
+<codeline lineno="182"><highlight class="normal"></highlight></codeline>
+<codeline lineno="183"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>circle의<sp/>중점.<sp/>단,<sp/>이<sp/>때는<sp/>Local<sp/>좌표</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="184"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>pRefCircle-&gt;<ref refid="class_pre_1_1_f_s_k_e_t_c_h_create2_d_circle_center_point_1a99df820d39b3f066880ad6fb3e8c4c6b" kindref="member">GetCenterPoint</ref>(origin);</highlight></codeline>
+<codeline lineno="185"><highlight class="normal"></highlight></codeline>
+<codeline lineno="186"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>circle<sp/>중점의<sp/>normal<sp/>벡터</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="187"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>direction.SetX(origin.X());</highlight></codeline>
+<codeline lineno="188"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>direction.SetY(origin.Y());</highlight></codeline>
+<codeline lineno="189"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>direction.SetZ(origin.Z()<sp/>+<sp/>1.0);</highlight></codeline>
+<codeline lineno="190"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="191"><highlight class="normal"></highlight></codeline>
+<codeline lineno="192"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_pre_1_1_feature_s_o_l_i_d_create_pattern_circular_1aafaeac9091d769a4f42616e192cee68b" kindref="member">CreateAxis</ref>(pRefSketch,<sp/>0,<sp/>origin,<sp/>direction);</highlight></codeline>
+<codeline lineno="193"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_pre_1_1_feature_s_o_l_i_d_create_pattern_circular_1ab662645b6b5e1a523331b0676c982902" kindref="member">OrgX</ref><sp/>=<sp/>origin.X();<sp/><ref refid="class_pre_1_1_feature_s_o_l_i_d_create_pattern_circular_1a33b8c8903ce4ec31b12dc98915a016f6" kindref="member">OrgY</ref><sp/>=<sp/>origin.Y();<sp/><ref refid="class_pre_1_1_feature_s_o_l_i_d_create_pattern_circular_1a0d7139355e9878011eb4f9c783351750" kindref="member">OrgZ</ref><sp/>=<sp/>origin.Z();</highlight></codeline>
+<codeline lineno="194"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_pre_1_1_feature_s_o_l_i_d_create_pattern_circular_1aa1086fc3619f3acf330ddcecd3878ef3" kindref="member">DirX</ref><sp/>=<sp/>direction.X();<sp/><ref refid="class_pre_1_1_feature_s_o_l_i_d_create_pattern_circular_1a19608e46395511d73beb73051d2d27aa" kindref="member">DirY</ref><sp/>=<sp/>direction.Y();<sp/><ref refid="class_pre_1_1_feature_s_o_l_i_d_create_pattern_circular_1a57dc6668fabf295b24b32002e339a4bf" kindref="member">DirZ</ref><sp/>=<sp/>direction.Z();</highlight></codeline>
+<codeline lineno="195"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="196"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="197"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="198"><highlight class="normal"></highlight></codeline>
+<codeline lineno="199" refid="class_pre_1_1_feature_s_o_l_i_d_create_pattern_circular_1aafaeac9091d769a4f42616e192cee68b" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_pre_1_1_feature_s_o_l_i_d_create_pattern_circular_1aafaeac9091d769a4f42616e192cee68b" kindref="member">FeatureSOLIDCreatePatternCircular::CreateAxis</ref>(<ref refid="class_pre_1_1_f_sketch" kindref="compound">FSketch</ref><sp/>*<sp/>pRefSketch,<sp/><ref refid="class_pre_1_1_f_sketch" kindref="compound">FSketch</ref><sp/>*<sp/>pRevSketch,<sp/><ref refid="namespace_pre_1a42512ff1a00cd929e4efd66d0b148707" kindref="member">Point3D</ref><sp/>origin,<sp/><ref refid="namespace_pre_1a42512ff1a00cd929e4efd66d0b148707" kindref="member">Point3D</ref><sp/>direction)</highlight></codeline>
+<codeline lineno="200"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="201"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(pRefSketch<sp/>&amp;&amp;<sp/>(pRefSketch<sp/>!=<sp/>pRevSketch))</highlight></codeline>
+<codeline lineno="202"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="203"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_pre_1_1_feature_s_o_l_i_d_create_pattern_circular_1a36c02dbd0af75dacd5829e9f0a218a13" kindref="member">TransformAxis</ref>(pRefSketch-&gt;<ref refid="class_pre_1_1_f_sketch_1a899341ec1e118f4642e4e03685c25163" kindref="member">sketchCoord</ref>,<sp/>pRevSketch-&gt;<ref refid="class_pre_1_1_f_sketch_1a899341ec1e118f4642e4e03685c25163" kindref="member">sketchCoord</ref>,<sp/>origin);</highlight></codeline>
+<codeline lineno="204"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_pre_1_1_feature_s_o_l_i_d_create_pattern_circular_1a36c02dbd0af75dacd5829e9f0a218a13" kindref="member">TransformAxis</ref>(pRefSketch-&gt;<ref refid="class_pre_1_1_f_sketch_1a899341ec1e118f4642e4e03685c25163" kindref="member">sketchCoord</ref>,<sp/>pRevSketch-&gt;<ref refid="class_pre_1_1_f_sketch_1a899341ec1e118f4642e4e03685c25163" kindref="member">sketchCoord</ref>,<sp/>direction);</highlight></codeline>
+<codeline lineno="205"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="206"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="207"><highlight class="normal"></highlight></codeline>
+<codeline lineno="208" refid="class_pre_1_1_feature_s_o_l_i_d_create_pattern_circular_1a36c02dbd0af75dacd5829e9f0a218a13" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_pre_1_1_feature_s_o_l_i_d_create_pattern_circular_1a36c02dbd0af75dacd5829e9f0a218a13" kindref="member">FeatureSOLIDCreatePatternCircular::TransformAxis</ref>(</highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>refSketCSYS[9],<sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>revSketCSYS[9],<sp/><ref refid="namespace_pre_1a42512ff1a00cd929e4efd66d0b148707" kindref="member">Point3D</ref><sp/>&amp;coords)</highlight></codeline>
+<codeline lineno="209"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="210"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>globalCSYS[3][3],<sp/>localCSYS[3][3];</highlight></codeline>
+<codeline lineno="211"><highlight class="normal"></highlight></codeline>
+<codeline lineno="212"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>Global<sp/>좌표계</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="213"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>globalCSYS[0][0]<sp/>=<sp/>1;<sp/>globalCSYS[0][1]<sp/>=<sp/>0;<sp/>globalCSYS[0][2]<sp/>=<sp/>0;</highlight></codeline>
+<codeline lineno="214"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>globalCSYS[1][0]<sp/>=<sp/>0;<sp/>globalCSYS[1][1]<sp/>=<sp/>1;<sp/>globalCSYS[1][2]<sp/>=<sp/>0;</highlight></codeline>
+<codeline lineno="215"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>globalCSYS[2][0]<sp/>=<sp/>0;<sp/>globalCSYS[2][1]<sp/>=<sp/>0;<sp/>globalCSYS[2][2]<sp/>=<sp/>1;</highlight></codeline>
+<codeline lineno="216"><highlight class="normal"></highlight></codeline>
+<codeline lineno="217"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>Local<sp/>좌표계<sp/>(Reference<sp/>스케치)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="218"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>localCSYS[0][0]<sp/>=<sp/>refSketCSYS[3];<sp/>localCSYS[0][1]<sp/>=<sp/>refSketCSYS[4];<sp/>localCSYS[0][2]<sp/>=<sp/>refSketCSYS[5];</highlight></codeline>
+<codeline lineno="219"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>localCSYS[1][0]<sp/>=<sp/>refSketCSYS[6];<sp/>localCSYS[1][1]<sp/>=<sp/>refSketCSYS[7];<sp/>localCSYS[1][2]<sp/>=<sp/>refSketCSYS[8];</highlight></codeline>
+<codeline lineno="220"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>localCSYS[2][0]<sp/>=<sp/>localCSYS[0][1]<sp/>*<sp/>localCSYS[1][2]<sp/>-<sp/>localCSYS[0][2]<sp/>*<sp/>localCSYS[1][1];</highlight></codeline>
+<codeline lineno="221"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>localCSYS[2][1]<sp/>=<sp/>localCSYS[0][2]<sp/>*<sp/>localCSYS[1][0]<sp/>-<sp/>localCSYS[0][0]<sp/>*<sp/>localCSYS[1][2];</highlight></codeline>
+<codeline lineno="222"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>localCSYS[2][2]<sp/>=<sp/>localCSYS[0][0]<sp/>*<sp/>localCSYS[1][1]<sp/>-<sp/>localCSYS[0][1]<sp/>*<sp/>localCSYS[1][0];</highlight></codeline>
+<codeline lineno="223"><highlight class="normal"></highlight></codeline>
+<codeline lineno="224"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>Local<sp/>좌표계<sp/>→<sp/>Global<sp/>좌표계<sp/>변환</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="225"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_pre_1_1_feature_s_o_l_i_d_create_pattern_circular_1a2f015cfb6697134af875c2cacb4496f0" kindref="member">TransformCoordinates</ref>(localCSYS,<sp/>globalCSYS,<sp/>coords);</highlight></codeline>
+<codeline lineno="226"><highlight class="normal"></highlight></codeline>
+<codeline lineno="227"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>좌표계<sp/>중점<sp/>이동</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="228"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>Reference<sp/>스케치의<sp/>중점만큼<sp/>양(+)의<sp/>이동(Local→Global),<sp/>Revolve<sp/>스케치의<sp/>중점만큼<sp/>음(-)의<sp/>이동(Global→Local)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="229"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>coords.SetX(coords.X()<sp/>+<sp/>refSketCSYS[0]);</highlight></codeline>
+<codeline lineno="230"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>coords.SetY(coords.Y()<sp/>+<sp/>refSketCSYS[1]);</highlight></codeline>
+<codeline lineno="231"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>coords.SetZ(coords.Z()<sp/>+<sp/>refSketCSYS[2]);</highlight></codeline>
+<codeline lineno="232"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="233"><highlight class="normal"></highlight></codeline>
+<codeline lineno="234" refid="class_pre_1_1_feature_s_o_l_i_d_create_pattern_circular_1a2f015cfb6697134af875c2cacb4496f0" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_pre_1_1_feature_s_o_l_i_d_create_pattern_circular_1a2f015cfb6697134af875c2cacb4496f0" kindref="member">FeatureSOLIDCreatePatternCircular::TransformCoordinates</ref>(</highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>sourceCSYS[3][3],<sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>targetCSYS[3][3],<sp/><ref refid="namespace_pre_1a42512ff1a00cd929e4efd66d0b148707" kindref="member">Point3D</ref><sp/>&amp;coords)</highlight></codeline>
+<codeline lineno="235"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="236"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>sourceCoords[3],<sp/>targetCoords[3],<sp/>transMatrix[3][3];</highlight></codeline>
+<codeline lineno="237"><highlight class="normal"></highlight></codeline>
+<codeline lineno="238"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>sourceCSYS의<sp/>좌표점</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="239"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>sourceCoords[0]<sp/>=<sp/>coords.X();</highlight></codeline>
+<codeline lineno="240"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>sourceCoords[1]<sp/>=<sp/>coords.Y();</highlight></codeline>
+<codeline lineno="241"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>sourceCoords[2]<sp/>=<sp/>coords.Z();</highlight></codeline>
+<codeline lineno="242"><highlight class="normal"></highlight></codeline>
+<codeline lineno="243"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>Transformation<sp/>matrix<sp/>구하기</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="244"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">for</highlight><highlight class="normal"><sp/>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>i<sp/>=<sp/>0;<sp/>i<sp/>&lt;<sp/>3;<sp/>++i)</highlight></codeline>
+<codeline lineno="245"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="246"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">for</highlight><highlight class="normal"><sp/>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>j<sp/>=<sp/>0;<sp/>j<sp/>&lt;<sp/>3;<sp/>++j)</highlight></codeline>
+<codeline lineno="247"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="248"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>transMatrix[i][j]<sp/>=<sp/>0;</highlight></codeline>
+<codeline lineno="249"><highlight class="normal"></highlight></codeline>
+<codeline lineno="250"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">for</highlight><highlight class="normal"><sp/>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>k<sp/>=<sp/>0;<sp/>k<sp/>&lt;<sp/>3;<sp/>++k)</highlight></codeline>
+<codeline lineno="251"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>transMatrix[i][j]<sp/>=<sp/>transMatrix[i][j]<sp/>+<sp/>targetCSYS[i][k]<sp/>*<sp/>sourceCSYS[j][k];</highlight></codeline>
+<codeline lineno="252"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="253"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="254"><highlight class="normal"></highlight></codeline>
+<codeline lineno="255"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>Transformation<sp/>matrix를<sp/>기반으로<sp/>targetCSYS의<sp/>좌표점<sp/>구하기</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="256"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">for</highlight><highlight class="normal"><sp/>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>i<sp/>=<sp/>0;<sp/>i<sp/>&lt;<sp/>3;<sp/>++i)</highlight></codeline>
+<codeline lineno="257"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="258"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>targetCoords[i]<sp/>=<sp/>0;</highlight></codeline>
+<codeline lineno="259"><highlight class="normal"></highlight></codeline>
+<codeline lineno="260"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">for</highlight><highlight class="normal"><sp/>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>j<sp/>=<sp/>0;<sp/>j<sp/>&lt;<sp/>3;<sp/>++j)</highlight></codeline>
+<codeline lineno="261"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>targetCoords[i]<sp/>=<sp/>targetCoords[i]<sp/>+<sp/>transMatrix[i][j]<sp/>*<sp/>sourceCoords[j];</highlight></codeline>
+<codeline lineno="262"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="263"><highlight class="normal"></highlight></codeline>
+<codeline lineno="264"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>coords.SetX(targetCoords[0]);</highlight></codeline>
+<codeline lineno="265"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>coords.SetY(targetCoords[1]);</highlight></codeline>
+<codeline lineno="266"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>coords.SetZ(targetCoords[2]);</highlight></codeline>
+<codeline lineno="267"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="268"><highlight class="normal"></highlight></codeline>
+<codeline lineno="269"><highlight class="normal"></highlight></codeline>
+<codeline lineno="270"><highlight class="normal">}</highlight></codeline>
+    </programlisting>
+    <location file="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/PreManager/ref/FeatureSOLIDCreatePatternCircular.cpp"/>
+  </compounddef>
+</doxygen>

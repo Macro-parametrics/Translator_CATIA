@@ -1,0 +1,365 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_reference_class_1_1ref___post" kind="class" prot="public">
+    <compoundname>ReferenceClass::ref_Post</compoundname>
+    <includes refid="_reference_class___post_8h" local="no">ReferenceClass_Post.h</includes>
+      <sectiondef kind="protected-attrib">
+      <memberdef kind="variable" id="class_reference_class_1_1ref___post_1a17e43e980efceb3b8833500e5e6e7041" prot="protected" static="no" mutable="no">
+        <type><ref refid="class_post_1_1_c_a_t_i_a_reference_manager" kindref="compound">Post::CATIAReferenceManager</ref> *</type>
+        <definition>Post::CATIAReferenceManager* ReferenceClass::ref_Post::m_pReferenceManager</definition>
+        <argsstring></argsstring>
+        <name>m_pReferenceManager</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/CPPWITHCSHARP/ReferenceClass_Post.h" line="18" column="1" bodyfile="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/CPPWITHCSHARP/ReferenceClass_Post.h" bodystart="18" bodyend="-1"/>
+        <referencedby refid="class_reference_class_1_1ref___post_1a011c6b4d96fa378706defa0975aa969d" compoundref="_reference_class___post_8cpp" startline="31" endline="31">~ref_Post</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_reference_class_1_1ref___post_1a23cbfc18cfa13007c0e14c4844d51cc8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>ReferenceClass::ref_Post::ref_Post</definition>
+        <argsstring>()</argsstring>
+        <name>ref_Post</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/CPPWITHCSHARP/ReferenceClass_Post.h" line="14" column="1" bodyfile="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/CPPWITHCSHARP/ReferenceClass_Post.cpp" bodystart="30" bodyend="30"/>
+      </memberdef>
+      <memberdef kind="function" id="class_reference_class_1_1ref___post_1a011c6b4d96fa378706defa0975aa969d" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type></type>
+        <definition>ReferenceClass::ref_Post::~ref_Post</definition>
+        <argsstring>()</argsstring>
+        <name>~ref_Post</name>
+        <briefdescription>
+<para>Constructor(持失切) : Connect with C++ Dll. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/CPPWITHCSHARP/ReferenceClass_Post.h" line="15" column="1" bodyfile="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/CPPWITHCSHARP/ReferenceClass_Post.cpp" bodystart="31" bodyend="31"/>
+        <references refid="class_reference_class_1_1ref___post_1a17e43e980efceb3b8833500e5e6e7041" compoundref="_reference_class___post_8h" startline="18">m_pReferenceManager</references>
+      </memberdef>
+      <memberdef kind="function" id="class_reference_class_1_1ref___post_1a7aaf4a9810744d048c43799edafe81f2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="structref_command" kindref="compound">refCommand</ref></type>
+        <definition>refCommand ReferenceClass::ref_Post::ConvertRefPost</definition>
+        <argsstring>(refCommand w)</argsstring>
+        <name>ConvertRefPost</name>
+        <param>
+          <type><ref refid="structref_command" kindref="compound">refCommand</ref></type>
+          <declname>w</declname>
+        </param>
+        <briefdescription>
+<para>Destructor(社瑚切) </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+<para>w.command : Constraint Type(int), w.Param : Reference Pack; w.MasterPart : Master Part Name w.SlavePart : Slave Part Name w.MasterPartRef : Master Part Reference Name(TransCAD name) w.SlavePartRef : Slave Part Reference Name(TransCAD name)</para><para>&quot;_spAssem&quot; has &quot;_spComp(SubAssembly information)&quot; and &quot;_spConstraints(Constraint information)&quot; _spComp(SubAssembly) has Part information</para><para>Generate TransCAD instance</para><para>Generate TransCAD initialize error check</para><para>Get Activated Assembly document(TransCAD)</para><para>Generate Assem Object (TransCAD)</para><para>Translate MasterPartReferenceName</para><para>Translate SlavePartReferenceName</para><para>COM Automation API Uninitialization</para><para>Constraint Type id</para><para>constraint type name</para><para>Master Part</para><para>Slave Part</para><para>Translated Master Reference(CATIA name)</para><para>Translated Slave Reference(CATIA name) </para>        </inbodydescription>
+        <location file="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/CPPWITHCSHARP/ReferenceClass_Post.h" line="30" column="1" bodyfile="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/CPPWITHCSHARP/ReferenceClass_Post.cpp" bodystart="41" bodyend="88"/>
+        <references refid="structref_command_1af019dca898c0c6d98f9a33d161df0f51" compoundref="_reference_class_8h" startline="21">refCommand::command</references>
+        <references refid="_c_a_t_i_apre_8h_1afc0d0c3dfd86863834cd6a3d772714c8" compoundref="_c_a_t_i_apost___d_l_l_8cpp" startline="31">g_spApplication</references>
+        <references refid="class_reference_class_1_1ref___post_1acec99a2942b05b07782977b795d63384" compoundref="_reference_class___post_8cpp" startline="190" endline="206">GetConstType</references>
+        <references refid="structref_command_1a268be2d545121a5f5ebe771b4c0c31c2" compoundref="_reference_class_8h" startline="23">refCommand::MasterPart</references>
+        <references refid="structref_command_1aac2edc97183e6f2ee8bb500d64a36bc6" compoundref="_reference_class_8h" startline="25">refCommand::MasterPart_Ref</references>
+        <references refid="structref_command_1a56fa000f646f251c254d7650afb8f6c2" compoundref="_reference_class_8h" startline="22">refCommand::param</references>
+        <references refid="structref_command_1a8d74ad1451efb4c529c8e3ba25750467" compoundref="_reference_class_8h" startline="24">refCommand::SlavePart</references>
+        <references refid="structref_command_1a49a1c36550613662a08c8c98613fae37" compoundref="_reference_class_8h" startline="26">refCommand::SlavePart_Ref</references>
+        <references refid="_reference_class_8cpp_1a27d7884109d4b05adb7fd28a8a98a7ce" compoundref="_reference_class_8cpp" startline="6" endline="6">Stos</references>
+        <references refid="_reference_class_8cpp_1a1df4caf6a0641fd90e6044b6b29da131" compoundref="_reference_class_8cpp" startline="7" endline="7">stoS</references>
+        <references refid="class_reference_class_1_1ref___post_1ac0300e51670b871abbd0ea7dc7e5d701" compoundref="_reference_class___post_8cpp" startline="232" endline="253">T2C_ReferenceName_From_Assembly</references>
+      </memberdef>
+      <memberdef kind="function" id="class_reference_class_1_1ref___post_1ac19c799206473a3eff81a0e106675b28" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void ReferenceClass::ref_Post::AssemblyPartT2C</definition>
+        <argsstring>(int CompNum, int PartNum, String^path)</argsstring>
+        <name>AssemblyPartT2C</name>
+        <param>
+          <type>int</type>
+          <declname>CompNum</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>PartNum</declname>
+        </param>
+        <param>
+          <type>String^</type>
+          <declname>path</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+<para>&quot;_spAssem&quot; has &quot;_spComp(SubAssembly information)&quot; and &quot;_spConstraints(Constraint information)&quot; _spComp(SubAssembly) has Part information</para><para>Generate TransCAD instance</para><para>Generate TransCAD initialize error check</para><para>Get Activated Assembly document(TransCAD)</para><para>Get Assem Object (TransCAD)</para><para>Get Components from Assem (TransCAD)</para><para>Get Part from Components by partnumber (TransCAD)</para><para>Mode 0 : To Translate and Export to CATScript Mode 1 : To Translate but not Export to CATScript, Just Translate naming</para><para>Get Feature Information</para><para>Translate and Export to CATScript</para><para>Initialize value is important after process</para><para>::CoUninitialize(); //COM Automation API Uninitialization g_pRefManager-&gt;~CATIAReferenceManager(); </para>        </inbodydescription>
+        <location file="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/CPPWITHCSHARP/ReferenceClass_Post.h" line="31" column="1" bodyfile="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/CPPWITHCSHARP/ReferenceClass_Post.cpp" bodystart="96" bodyend="139"/>
+        <references refid="class_post_1_1_part_1afa2055a5c24cd753a3b5d9900950d987" compoundref="_post_manager_2ref_2_part_8cpp" startline="314" endline="317">Post::Part::ExternModeToggle</references>
+        <references refid="namespace_post_1a757521acb19b64cd9a29879d6c5a7d5f" compoundref="_c_a_t_i_apost___d_l_l_8cpp" startline="32">Post::g_pRefManager</references>
+        <references refid="_c_a_t_i_apre_8h_1afc0d0c3dfd86863834cd6a3d772714c8" compoundref="_c_a_t_i_apost___d_l_l_8cpp" startline="31">g_spApplication</references>
+        <references refid="class_post_1_1_part_1afce2710ace93d175f5f4f9ba56493a14" compoundref="_post_manager_2ref_2_part_8cpp" startline="284" endline="302">Post::Part::GetInfo</references>
+        <references refid="class_post_1_1_part_1a3aec7e70aa614b5823544d87d700cce6" compoundref="_post_manager_2ref_2_part_8cpp" startline="319" endline="335">Post::Part::InitReferManager</references>
+        <references refid="_reference_class_8cpp_1a27d7884109d4b05adb7fd28a8a98a7ce" compoundref="_reference_class_8cpp" startline="6" endline="6">Stos</references>
+        <references refid="class_post_1_1_part_1adc255ebba204dd825fe5e330debb7caa" compoundref="_post_manager_2ref_2_part_8cpp" startline="304" endline="312">Post::Part::ToCATIA</references>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_reference_class_1_1ref___post_1a9397129abeba942dd59a4e2f22ce8c60" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int ReferenceClass::ref_Post::GetPartNum_From_PartName</definition>
+        <argsstring>(TransCAD::ICompPtr u_spComp, string PartName)</argsstring>
+        <name>GetPartNum_From_PartName</name>
+        <param>
+          <type>TransCAD::ICompPtr</type>
+          <declname>u_spComp</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>PartName</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/CPPWITHCSHARP/ReferenceClass_Post.h" line="21" column="1" bodyfile="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/CPPWITHCSHARP/ReferenceClass_Post.cpp" bodystart="148" bodyend="165"/>
+        <referencedby refid="class_reference_class_1_1ref___post_1ac0300e51670b871abbd0ea7dc7e5d701" compoundref="_reference_class___post_8cpp" startline="232" endline="253">T2C_ReferenceName_From_Assembly</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_reference_class_1_1ref___post_1a655fa1d143936d1fd7b4e14f7738a5f4" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int ReferenceClass::ref_Post::GetProductNum_From_SubAssemName</definition>
+        <argsstring>(TransCAD::IAssemPtr u_spAssem, string SubAssemName)</argsstring>
+        <name>GetProductNum_From_SubAssemName</name>
+        <param>
+          <type>TransCAD::IAssemPtr</type>
+          <declname>u_spAssem</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>SubAssemName</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/CPPWITHCSHARP/ReferenceClass_Post.h" line="22" column="1" bodyfile="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/CPPWITHCSHARP/ReferenceClass_Post.cpp" bodystart="168" bodyend="187"/>
+        <referencedby refid="class_reference_class_1_1ref___post_1ac0300e51670b871abbd0ea7dc7e5d701" compoundref="_reference_class___post_8cpp" startline="232" endline="253">T2C_ReferenceName_From_Assembly</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_reference_class_1_1ref___post_1ac03f868795100aae6025febab7f6d2e6" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>string</type>
+        <definition>string ReferenceClass::ref_Post::T2C_ReferenceName_From_Part</definition>
+        <argsstring>(TransCAD::ICompPtr u_spComp, int partNum, string persistentName)</argsstring>
+        <name>T2C_ReferenceName_From_Part</name>
+        <param>
+          <type>TransCAD::ICompPtr</type>
+          <declname>u_spComp</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>partNum</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>persistentName</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/CPPWITHCSHARP/ReferenceClass_Post.h" line="23" column="1" bodyfile="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/CPPWITHCSHARP/ReferenceClass_Post.cpp" bodystart="209" bodyend="229"/>
+        <references refid="class_post_1_1_c_a_t_i_a_reference_manager_1a14b0bf73747d910e987049d1f11e53fa" compoundref="_c_a_t_i_a_reference_manager_8cpp" startline="181" endline="212">Post::CATIAReferenceManager::ConvertToBRepFace</references>
+        <references refid="class_post_1_1_part_1afa2055a5c24cd753a3b5d9900950d987" compoundref="_post_manager_2ref_2_part_8cpp" startline="314" endline="317">Post::Part::ExternModeToggle</references>
+        <references refid="namespace_post_1a757521acb19b64cd9a29879d6c5a7d5f" compoundref="_c_a_t_i_apost___d_l_l_8cpp" startline="32">Post::g_pRefManager</references>
+        <references refid="class_post_1_1_part_1afce2710ace93d175f5f4f9ba56493a14" compoundref="_post_manager_2ref_2_part_8cpp" startline="284" endline="302">Post::Part::GetInfo</references>
+        <references refid="class_post_1_1_part_1a3aec7e70aa614b5823544d87d700cce6" compoundref="_post_manager_2ref_2_part_8cpp" startline="319" endline="335">Post::Part::InitReferManager</references>
+        <referencedby refid="class_reference_class_1_1ref___post_1ac0300e51670b871abbd0ea7dc7e5d701" compoundref="_reference_class___post_8cpp" startline="232" endline="253">T2C_ReferenceName_From_Assembly</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_reference_class_1_1ref___post_1ac0300e51670b871abbd0ea7dc7e5d701" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>string</type>
+        <definition>string ReferenceClass::ref_Post::T2C_ReferenceName_From_Assembly</definition>
+        <argsstring>(TransCAD::IAssemPtr u_spAssem, int constype, string Pack, string PartName, string assembly_persistentName)</argsstring>
+        <name>T2C_ReferenceName_From_Assembly</name>
+        <param>
+          <type>TransCAD::IAssemPtr</type>
+          <declname>u_spAssem</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>constype</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>Pack</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>PartName</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>assembly_persistentName</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/CPPWITHCSHARP/ReferenceClass_Post.h" line="24" column="1" bodyfile="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/CPPWITHCSHARP/ReferenceClass_Post.cpp" bodystart="232" bodyend="253"/>
+        <references refid="class_reference_class_1_1ref___post_1a9397129abeba942dd59a4e2f22ce8c60" compoundref="_reference_class___post_8cpp" startline="148" endline="165">GetPartNum_From_PartName</references>
+        <references refid="class_reference_class_1_1ref___post_1a655fa1d143936d1fd7b4e14f7738a5f4" compoundref="_reference_class___post_8cpp" startline="168" endline="187">GetProductNum_From_SubAssemName</references>
+        <references refid="class_reference_class_1_1ref___post_1ac03f868795100aae6025febab7f6d2e6" compoundref="_reference_class___post_8cpp" startline="209" endline="229">T2C_ReferenceName_From_Part</references>
+        <referencedby refid="class_reference_class_1_1ref___post_1a7aaf4a9810744d048c43799edafe81f2" compoundref="_reference_class___post_8cpp" startline="41" endline="88">ConvertRefPost</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_reference_class_1_1ref___post_1acec99a2942b05b07782977b795d63384" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>String</type>
+        <definition>String ReferenceClass::ref_Post::GetConstType</definition>
+        <argsstring>(int type)</argsstring>
+        <name>GetConstType</name>
+        <param>
+          <type>int</type>
+          <declname>type</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/CPPWITHCSHARP/ReferenceClass_Post.h" line="25" column="1" bodyfile="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/CPPWITHCSHARP/ReferenceClass_Post.cpp" bodystart="190" bodyend="206"/>
+        <referencedby refid="class_reference_class_1_1ref___post_1a7aaf4a9810744d048c43799edafe81f2" compoundref="_reference_class___post_8cpp" startline="41" endline="88">ConvertRefPost</referencedby>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="1108">
+        <label>std::vector&lt; Post::_sketchInfo &gt;</label>
+        <childnode refid="1109" relation="usage">
+          <edgelabel>elements</edgelabel>
+        </childnode>
+      </node>
+      <node id="1106">
+        <label>ReferenceClass::ref_Post</label>
+        <link refid="class_reference_class_1_1ref___post"/>
+        <childnode refid="1107" relation="usage">
+          <edgelabel>m_pReferenceManager</edgelabel>
+        </childnode>
+      </node>
+      <node id="1113">
+        <label>std::vector&lt; Post::_tagpointNameMap &gt;</label>
+        <childnode refid="1114" relation="usage">
+          <edgelabel>elements</edgelabel>
+        </childnode>
+      </node>
+      <node id="1115">
+        <label>std::vector&lt; Post::_tagNameMap &gt;</label>
+        <childnode refid="1116" relation="usage">
+          <edgelabel>elements</edgelabel>
+        </childnode>
+      </node>
+      <node id="1119">
+        <label>Post::_tagEntityMap</label>
+        <link refid="struct_post_1_1__tag_entity_map"/>
+        <childnode refid="1110" relation="usage">
+          <edgelabel>_entityName</edgelabel>
+          <edgelabel>_sketchName</edgelabel>
+        </childnode>
+      </node>
+      <node id="1107">
+        <label>Post::CATIAReferenceManager</label>
+        <link refid="class_post_1_1_c_a_t_i_a_reference_manager"/>
+        <childnode refid="1108" relation="usage">
+          <edgelabel>_listSketchInfo</edgelabel>
+        </childnode>
+        <childnode refid="1112" relation="usage">
+          <edgelabel>_listEntityID</edgelabel>
+        </childnode>
+        <childnode refid="1113" relation="usage">
+          <edgelabel>_listPointNameMap</edgelabel>
+        </childnode>
+        <childnode refid="1115" relation="usage">
+          <edgelabel>_listNameMap</edgelabel>
+        </childnode>
+        <childnode refid="1117" relation="usage">
+          <edgelabel>_listTransCADName</edgelabel>
+        </childnode>
+        <childnode refid="1118" relation="usage">
+          <edgelabel>_listEntityNameMap</edgelabel>
+        </childnode>
+      </node>
+      <node id="1111">
+        <label>std::basic_string&lt; char &gt;</label>
+      </node>
+      <node id="1117">
+        <label>std::vector&lt; std::string &gt;</label>
+        <childnode refid="1110" relation="usage">
+          <edgelabel>elements</edgelabel>
+        </childnode>
+      </node>
+      <node id="1118">
+        <label>std::vector&lt; Post::_tagEntityMap &gt;</label>
+        <childnode refid="1119" relation="usage">
+          <edgelabel>elements</edgelabel>
+        </childnode>
+      </node>
+      <node id="1114">
+        <label>Post::_tagpointNameMap</label>
+        <link refid="struct_post_1_1__tagpoint_name_map"/>
+        <childnode refid="1110" relation="usage">
+          <edgelabel>_TransCADName</edgelabel>
+          <edgelabel>_sketchName</edgelabel>
+          <edgelabel>_CATIAName</edgelabel>
+        </childnode>
+      </node>
+      <node id="1109">
+        <label>Post::_sketchInfo</label>
+        <link refid="struct_post_1_1__sketch_info"/>
+        <childnode refid="1110" relation="usage">
+          <edgelabel>sketch_name</edgelabel>
+          <edgelabel>sketch_ref</edgelabel>
+        </childnode>
+      </node>
+      <node id="1116">
+        <label>Post::_tagNameMap</label>
+        <link refid="struct_post_1_1__tag_name_map"/>
+        <childnode refid="1110" relation="usage">
+          <edgelabel>_name</edgelabel>
+        </childnode>
+      </node>
+      <node id="1112">
+        <label>std::vector&lt; int &gt;</label>
+      </node>
+      <node id="1110">
+        <label>std::string</label>
+        <childnode refid="1111" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/CPPWITHCSHARP/ReferenceClass_Post.h" line="10" column="1" bodyfile="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/CPPWITHCSHARP/ReferenceClass_Post.h" bodystart="9" bodyend="33"/>
+    <listofallmembers>
+      <member refid="class_reference_class_1_1ref___post_1ac19c799206473a3eff81a0e106675b28" prot="public" virt="non-virtual"><scope>ReferenceClass::ref_Post</scope><name>AssemblyPartT2C</name></member>
+      <member refid="class_reference_class_1_1ref___post_1a7aaf4a9810744d048c43799edafe81f2" prot="public" virt="non-virtual"><scope>ReferenceClass::ref_Post</scope><name>ConvertRefPost</name></member>
+      <member refid="class_reference_class_1_1ref___post_1acec99a2942b05b07782977b795d63384" prot="private" virt="non-virtual"><scope>ReferenceClass::ref_Post</scope><name>GetConstType</name></member>
+      <member refid="class_reference_class_1_1ref___post_1a9397129abeba942dd59a4e2f22ce8c60" prot="private" virt="non-virtual"><scope>ReferenceClass::ref_Post</scope><name>GetPartNum_From_PartName</name></member>
+      <member refid="class_reference_class_1_1ref___post_1a655fa1d143936d1fd7b4e14f7738a5f4" prot="private" virt="non-virtual"><scope>ReferenceClass::ref_Post</scope><name>GetProductNum_From_SubAssemName</name></member>
+      <member refid="class_reference_class_1_1ref___post_1a17e43e980efceb3b8833500e5e6e7041" prot="protected" virt="non-virtual"><scope>ReferenceClass::ref_Post</scope><name>m_pReferenceManager</name></member>
+      <member refid="class_reference_class_1_1ref___post_1a23cbfc18cfa13007c0e14c4844d51cc8" prot="public" virt="non-virtual"><scope>ReferenceClass::ref_Post</scope><name>ref_Post</name></member>
+      <member refid="class_reference_class_1_1ref___post_1ac0300e51670b871abbd0ea7dc7e5d701" prot="private" virt="non-virtual"><scope>ReferenceClass::ref_Post</scope><name>T2C_ReferenceName_From_Assembly</name></member>
+      <member refid="class_reference_class_1_1ref___post_1ac03f868795100aae6025febab7f6d2e6" prot="private" virt="non-virtual"><scope>ReferenceClass::ref_Post</scope><name>T2C_ReferenceName_From_Part</name></member>
+      <member refid="class_reference_class_1_1ref___post_1a011c6b4d96fa378706defa0975aa969d" prot="public" virt="virtual"><scope>ReferenceClass::ref_Post</scope><name>~ref_Post</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

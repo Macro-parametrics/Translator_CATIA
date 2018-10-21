@@ -1,0 +1,385 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_pre_1_1_f_s_k_e_t_c_h_create2_d_point" kind="class" prot="public">
+    <compoundname>Pre::FSKETCHCreate2DPoint</compoundname>
+    <basecompoundref refid="class_pre_1_1_f_s_k_e_t_c_h_item" prot="public" virt="non-virtual">Pre::FSKETCHItem</basecompoundref>
+    <includes refid="_f_s_k_e_t_c_h_create2_d_point_8h" local="no">FSKETCHCreate2DPoint.h</includes>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_pre_1_1_f_s_k_e_t_c_h_create2_d_point_1acfeb03f5aeb3a7b0e1c5df54aab2376e" prot="private" static="no" mutable="no">
+        <type>double</type>
+        <definition>double Pre::FSKETCHCreate2DPoint::_point[3]</definition>
+        <argsstring>[3]</argsstring>
+        <name>_point</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/PreManager/ref/FSKETCHCreate2DPoint.h" line="18" column="1" bodyfile="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/PreManager/ref/FSKETCHCreate2DPoint.h" bodystart="18" bodyend="-1"/>
+        <referencedby refid="class_pre_1_1_f_s_k_e_t_c_h_create2_d_point_1a358ffa73af5381055b331adbbd52b63b" compoundref="_f_s_k_e_t_c_h_create2_d_point_8cpp" startline="15" endline="49">GetInfo</referencedby>
+        <referencedby refid="class_pre_1_1_f_s_k_e_t_c_h_create2_d_point_1a645cc2610cd7128cd6539548d116fd03" compoundref="_f_s_k_e_t_c_h_create2_d_point_8h" startline="10" endline="10">GetPoint</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_pre_1_1_f_s_k_e_t_c_h_create2_d_point_1ae8e5d19344edcccb74ad74b890ce95ff" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>Pre::FSKETCHCreate2DPoint::FSKETCHCreate2DPoint</definition>
+        <argsstring>(FSketch *pFSketch, int type, string name)</argsstring>
+        <name>FSKETCHCreate2DPoint</name>
+        <param>
+          <type><ref refid="class_pre_1_1_f_sketch" kindref="compound">FSketch</ref> *</type>
+          <declname>pFSketch</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>type</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>name</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/PreManager/ref/FSKETCHCreate2DPoint.h" line="7" column="1" bodyfile="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/PreManager/ref/FSKETCHCreate2DPoint.cpp" bodystart="6" bodyend="9"/>
+      </memberdef>
+      <memberdef kind="function" id="class_pre_1_1_f_s_k_e_t_c_h_create2_d_point_1aa92efa19e0902034a0b908acdbc8aff5" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type></type>
+        <definition>Pre::FSKETCHCreate2DPoint::~FSKETCHCreate2DPoint</definition>
+        <argsstring>(void)</argsstring>
+        <name>~FSKETCHCreate2DPoint</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/PreManager/ref/FSKETCHCreate2DPoint.h" line="8" column="1" bodyfile="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/PreManager/ref/FSKETCHCreate2DPoint.cpp" bodystart="11" bodyend="13"/>
+      </memberdef>
+      <memberdef kind="function" id="class_pre_1_1_f_s_k_e_t_c_h_create2_d_point_1a645cc2610cd7128cd6539548d116fd03" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Pre::FSKETCHCreate2DPoint::GetPoint</definition>
+        <argsstring>(Point3D &amp;point)</argsstring>
+        <name>GetPoint</name>
+        <param>
+          <type><ref refid="namespace_pre_1a42512ff1a00cd929e4efd66d0b148707" kindref="member">Point3D</ref> &amp;</type>
+          <declname>point</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/PreManager/ref/FSKETCHCreate2DPoint.h" line="10" column="1" bodyfile="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/PreManager/ref/FSKETCHCreate2DPoint.h" bodystart="10" bodyend="10"/>
+        <references refid="class_pre_1_1_f_s_k_e_t_c_h_create2_d_point_1acfeb03f5aeb3a7b0e1c5df54aab2376e" compoundref="_f_s_k_e_t_c_h_create2_d_point_8h" startline="18">_point</references>
+      </memberdef>
+      <memberdef kind="function" id="class_pre_1_1_f_s_k_e_t_c_h_create2_d_point_1a358ffa73af5381055b331adbbd52b63b" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void Pre::FSKETCHCreate2DPoint::GetInfo</definition>
+        <argsstring>(ifstream &amp;is)</argsstring>
+        <name>GetInfo</name>
+        <reimplements refid="class_pre_1_1_f_s_k_e_t_c_h_item_1ab33dc481063716f7cd3d451a9e3eeedb">GetInfo</reimplements>
+        <param>
+          <type>ifstream &amp;</type>
+          <declname>is</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/PreManager/ref/FSKETCHCreate2DPoint.h" line="12" column="1" bodyfile="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/PreManager/ref/FSKETCHCreate2DPoint.cpp" bodystart="15" bodyend="49"/>
+        <references refid="class_pre_1_1_f_s_k_e_t_c_h_create2_d_point_1acfeb03f5aeb3a7b0e1c5df54aab2376e" compoundref="_f_s_k_e_t_c_h_create2_d_point_8h" startline="18">_point</references>
+      </memberdef>
+      <memberdef kind="function" id="class_pre_1_1_f_s_k_e_t_c_h_create2_d_point_1abc6602e2434ad71c2cb0300bfd92822c" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void Pre::FSKETCHCreate2DPoint::ToTransCAD</definition>
+        <argsstring>()</argsstring>
+        <name>ToTransCAD</name>
+        <reimplements refid="class_pre_1_1_f_s_k_e_t_c_h_item_1a55c32443afffa113d494cc8e02078243">ToTransCAD</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/PreManager/ref/FSKETCHCreate2DPoint.h" line="13" column="1" bodyfile="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/PreManager/ref/FSKETCHCreate2DPoint.cpp" bodystart="51" bodyend="54"/>
+      </memberdef>
+      <memberdef kind="function" id="class_pre_1_1_f_s_k_e_t_c_h_create2_d_point_1aa66275b9c4ef057e73049b0b913e831d" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void Pre::FSKETCHCreate2DPoint::Modify</definition>
+        <argsstring>(char *buffer)</argsstring>
+        <name>Modify</name>
+        <reimplements refid="class_pre_1_1_f_s_k_e_t_c_h_item_1acddf15f6ed935c9821bf7942e331e8bd">Modify</reimplements>
+        <param>
+          <type>char *</type>
+          <declname>buffer</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/PreManager/ref/FSKETCHCreate2DPoint.h" line="15" column="1" bodyfile="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/PreManager/ref/FSKETCHCreate2DPoint.cpp" bodystart="56" bodyend="75"/>
+        <references refid="class_pre_1_1_f_s_k_e_t_c_h_item_1a58472d1aa8c47958f3d8e79cc6f18ec1" compoundref="_f_s_k_e_t_c_h_item_8h" startline="26">Pre::FSKETCHItem::_id</references>
+        <references refid="class_pre_1_1_f_s_k_e_t_c_h_item_1ab3262c5a79567120c19b2cc3f1cf1e14" compoundref="_f_s_k_e_t_c_h_item_8h" startline="24">Pre::FSKETCHItem::_name</references>
+        <references refid="class_pre_1_1_f_sketch_1a0656c7068d8d8606fd98daf21fccb982" compoundref="_pre_manager_2ref_2_f_sketch_8cpp" startline="231" endline="238">Pre::FSketch::AddEntityNameReportName</references>
+        <references refid="class_pre_1_1_f_s_k_e_t_c_h_item_1ab77eb44d1c8b6cb802d230700fc642ca" compoundref="_f_s_k_e_t_c_h_item_8h" startline="12" endline="12">Pre::FSKETCHItem::GetFeatureSketch</references>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="996">
+        <label>Pre::FSKETCHItem</label>
+        <link refid="class_pre_1_1_f_s_k_e_t_c_h_item"/>
+      </node>
+      <node id="995">
+        <label>Pre::FSKETCHCreate2DPoint</label>
+        <link refid="class_pre_1_1_f_s_k_e_t_c_h_create2_d_point"/>
+        <childnode refid="996" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1011">
+        <label>std::basic_ifstream&lt; char &gt;</label>
+        <childnode refid="1012" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1004">
+        <label>std::vector&lt; Pre::ReferenceEntity * &gt;</label>
+        <childnode refid="1005" relation="usage">
+          <edgelabel>elements</edgelabel>
+        </childnode>
+      </node>
+      <node id="1015">
+        <label>std::vector&lt; Pre::SketchFeature &gt;</label>
+        <childnode refid="1016" relation="usage">
+          <edgelabel>elements</edgelabel>
+        </childnode>
+      </node>
+      <node id="998">
+        <label>Pre::FSKETCHItem</label>
+        <link refid="class_pre_1_1_f_s_k_e_t_c_h_item"/>
+        <childnode refid="999" relation="usage">
+          <edgelabel>_name</edgelabel>
+        </childnode>
+        <childnode refid="1001" relation="usage">
+          <edgelabel>_pFSketch</edgelabel>
+        </childnode>
+      </node>
+      <node id="1020">
+        <label>std::vector&lt; Pre::FSKETCHItem * &gt;</label>
+        <childnode refid="998" relation="usage">
+          <edgelabel>elements</edgelabel>
+        </childnode>
+      </node>
+      <node id="1012">
+        <label>std::basic_istream&lt; Char &gt;</label>
+        <childnode refid="1013" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1019">
+        <label>std::vector&lt; Pre::Feature * &gt;</label>
+        <childnode refid="1002" relation="usage">
+          <edgelabel>elements</edgelabel>
+        </childnode>
+      </node>
+      <node id="1021">
+        <label>std::vector&lt; Pre::ReportItem &gt;</label>
+        <childnode refid="1022" relation="usage">
+          <edgelabel>elements</edgelabel>
+        </childnode>
+      </node>
+      <node id="1002">
+        <label>Pre::Feature</label>
+        <link refid="class_pre_1_1_feature"/>
+        <childnode refid="1003" relation="usage">
+          <edgelabel>_pPart</edgelabel>
+        </childnode>
+        <childnode refid="999" relation="usage">
+          <edgelabel>_name</edgelabel>
+        </childnode>
+      </node>
+      <node id="1006">
+        <label>std::vector&lt; FaceInfoList &gt;</label>
+      </node>
+      <node id="997">
+        <label>Pre::FSKETCHCreate2DPoint</label>
+        <link refid="class_pre_1_1_f_s_k_e_t_c_h_create2_d_point"/>
+        <childnode refid="998" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1005">
+        <label>Pre::ReferenceEntity</label>
+        <link refid="class_pre_1_1_reference_entity"/>
+        <childnode refid="1006" relation="usage">
+          <edgelabel>pEdge</edgelabel>
+        </childnode>
+        <childnode refid="1003" relation="usage">
+          <edgelabel>_pPart</edgelabel>
+        </childnode>
+        <childnode refid="999" relation="usage">
+          <edgelabel>feature</edgelabel>
+          <edgelabel>TransCADEdgeName</edgelabel>
+          <edgelabel>TransCADFaceName</edgelabel>
+          <edgelabel>name</edgelabel>
+          <edgelabel>axis</edgelabel>
+        </childnode>
+        <childnode refid="1007" relation="usage">
+          <edgelabel>pFace</edgelabel>
+        </childnode>
+        <childnode refid="1001" relation="usage">
+          <edgelabel>pSketchManager</edgelabel>
+        </childnode>
+        <childnode refid="1009" relation="usage">
+          <edgelabel>pWire</edgelabel>
+        </childnode>
+      </node>
+      <node id="1000">
+        <label>std::basic_string&lt; char &gt;</label>
+      </node>
+      <node id="1008">
+        <label>FaceInfo</label>
+        <link refid="struct_face_info"/>
+      </node>
+      <node id="1022">
+        <label>Pre::ReportItem</label>
+        <link refid="struct_pre_1_1_report_item"/>
+        <childnode refid="999" relation="usage">
+          <edgelabel>_entityName</edgelabel>
+        </childnode>
+      </node>
+      <node id="1009">
+        <label>WireInfo</label>
+        <link refid="struct_wire_info"/>
+      </node>
+      <node id="1018">
+        <label>Pre::AttributeItem</label>
+        <link refid="class_pre_1_1_attribute_item"/>
+        <childnode refid="1003" relation="usage">
+          <edgelabel>_pPart</edgelabel>
+        </childnode>
+        <childnode refid="999" relation="usage">
+          <edgelabel>_featureName</edgelabel>
+          <edgelabel>_name</edgelabel>
+          <edgelabel>_attributeName</edgelabel>
+        </childnode>
+      </node>
+      <node id="1016">
+        <label>Pre::SketchFeature</label>
+        <link refid="struct_pre_1_1_sketch_feature"/>
+        <childnode refid="999" relation="usage">
+          <edgelabel>_featureName</edgelabel>
+          <edgelabel>_sketchName</edgelabel>
+        </childnode>
+      </node>
+      <node id="1013">
+        <label>std::basic_ios&lt; Char &gt;</label>
+        <childnode refid="1014" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1003">
+        <label>Pre::Part</label>
+        <link refid="class_pre_1_1_part"/>
+        <childnode refid="1004" relation="usage">
+          <edgelabel>_referenceEntityList</edgelabel>
+        </childnode>
+        <childnode refid="1010" relation="usage">
+          <edgelabel>fin</edgelabel>
+        </childnode>
+        <childnode refid="1015" relation="usage">
+          <edgelabel>sketchNameTable</edgelabel>
+        </childnode>
+        <childnode refid="999" relation="usage">
+          <edgelabel>_fileName</edgelabel>
+          <edgelabel>_filePath</edgelabel>
+        </childnode>
+        <childnode refid="1017" relation="usage">
+          <edgelabel>_attributeItemList</edgelabel>
+        </childnode>
+        <childnode refid="1019" relation="usage">
+          <edgelabel>_featureList</edgelabel>
+        </childnode>
+      </node>
+      <node id="1014">
+        <label>std::ios_base</label>
+      </node>
+      <node id="1010">
+        <label>std::ifstream</label>
+        <childnode refid="1011" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1017">
+        <label>std::vector&lt; Pre::AttributeItem * &gt;</label>
+        <childnode refid="1018" relation="usage">
+          <edgelabel>elements</edgelabel>
+        </childnode>
+      </node>
+      <node id="1007">
+        <label>std::vector&lt; FaceInfo &gt;</label>
+        <childnode refid="1008" relation="usage">
+          <edgelabel>elements</edgelabel>
+        </childnode>
+      </node>
+      <node id="999">
+        <label>std::string</label>
+        <childnode refid="1000" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1001">
+        <label>Pre::FSketch</label>
+        <link refid="class_pre_1_1_f_sketch"/>
+        <childnode refid="1002" relation="public-inheritance">
+        </childnode>
+        <childnode refid="1020" relation="usage">
+          <edgelabel>_sketchItemList</edgelabel>
+        </childnode>
+        <childnode refid="1005" relation="usage">
+          <edgelabel>_pReferenceEntity</edgelabel>
+        </childnode>
+        <childnode refid="999" relation="usage">
+          <edgelabel>_axisName</edgelabel>
+          <edgelabel>_factoryName</edgelabel>
+        </childnode>
+        <childnode refid="1021" relation="usage">
+          <edgelabel>reportNameTable</edgelabel>
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/PreManager/ref/FSKETCHCreate2DPoint.h" line="5" column="1" bodyfile="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/PreManager/ref/FSKETCHCreate2DPoint.h" bodystart="4" bodyend="19"/>
+    <listofallmembers>
+      <member refid="class_pre_1_1_f_s_k_e_t_c_h_item_1ab2dc1d55175553b6cb7ae2b1d0b44992" prot="protected" virt="non-virtual"><scope>Pre::FSKETCHCreate2DPoint</scope><name>_centerLineInfo</name></member>
+      <member refid="class_pre_1_1_f_s_k_e_t_c_h_item_1a58472d1aa8c47958f3d8e79cc6f18ec1" prot="protected" virt="non-virtual"><scope>Pre::FSKETCHCreate2DPoint</scope><name>_id</name></member>
+      <member refid="class_pre_1_1_f_s_k_e_t_c_h_item_1ab3262c5a79567120c19b2cc3f1cf1e14" prot="protected" virt="non-virtual"><scope>Pre::FSKETCHCreate2DPoint</scope><name>_name</name></member>
+      <member refid="class_pre_1_1_f_s_k_e_t_c_h_item_1a3af56aa70077d32552e6ddb4cbeaac64" prot="protected" virt="non-virtual"><scope>Pre::FSKETCHCreate2DPoint</scope><name>_pFSketch</name></member>
+      <member refid="class_pre_1_1_f_s_k_e_t_c_h_create2_d_point_1acfeb03f5aeb3a7b0e1c5df54aab2376e" prot="private" virt="non-virtual"><scope>Pre::FSKETCHCreate2DPoint</scope><name>_point</name></member>
+      <member refid="class_pre_1_1_f_s_k_e_t_c_h_item_1a504884b15e6f9fc4d949fded992512db" prot="protected" virt="non-virtual"><scope>Pre::FSKETCHCreate2DPoint</scope><name>_type</name></member>
+      <member refid="class_pre_1_1_f_s_k_e_t_c_h_create2_d_point_1ae8e5d19344edcccb74ad74b890ce95ff" prot="public" virt="non-virtual"><scope>Pre::FSKETCHCreate2DPoint</scope><name>FSKETCHCreate2DPoint</name></member>
+      <member refid="class_pre_1_1_f_s_k_e_t_c_h_item_1af829b0b4c881b07e2b62bfe4ecf28583" prot="public" virt="non-virtual"><scope>Pre::FSKETCHCreate2DPoint</scope><name>FSKETCHItem</name></member>
+      <member refid="class_pre_1_1_f_s_k_e_t_c_h_item_1ab77eb44d1c8b6cb802d230700fc642ca" prot="public" virt="non-virtual"><scope>Pre::FSKETCHCreate2DPoint</scope><name>GetFeatureSketch</name></member>
+      <member refid="class_pre_1_1_f_s_k_e_t_c_h_create2_d_point_1a358ffa73af5381055b331adbbd52b63b" prot="public" virt="virtual"><scope>Pre::FSKETCHCreate2DPoint</scope><name>GetInfo</name></member>
+      <member refid="class_pre_1_1_f_s_k_e_t_c_h_create2_d_point_1a645cc2610cd7128cd6539548d116fd03" prot="public" virt="non-virtual"><scope>Pre::FSKETCHCreate2DPoint</scope><name>GetPoint</name></member>
+      <member refid="class_pre_1_1_f_s_k_e_t_c_h_item_1a7a52b5f35e067c93c5c6fd6c319cfd6f" prot="public" virt="non-virtual"><scope>Pre::FSKETCHCreate2DPoint</scope><name>GetSketchItemName</name></member>
+      <member refid="class_pre_1_1_f_s_k_e_t_c_h_item_1a89da279ae4b90d0e323709d16e87e8d0" prot="public" virt="non-virtual"><scope>Pre::FSKETCHCreate2DPoint</scope><name>GetSketchItemType</name></member>
+      <member refid="class_pre_1_1_f_s_k_e_t_c_h_create2_d_point_1aa66275b9c4ef057e73049b0b913e831d" prot="public" virt="virtual"><scope>Pre::FSKETCHCreate2DPoint</scope><name>Modify</name></member>
+      <member refid="class_pre_1_1_f_s_k_e_t_c_h_item_1ae20aaa450f8d9533ecbb5a9f2a368ddd" prot="public" virt="non-virtual"><scope>Pre::FSKETCHCreate2DPoint</scope><name>SetCenterLineInfo</name></member>
+      <member refid="class_pre_1_1_f_s_k_e_t_c_h_create2_d_point_1abc6602e2434ad71c2cb0300bfd92822c" prot="public" virt="virtual"><scope>Pre::FSKETCHCreate2DPoint</scope><name>ToTransCAD</name></member>
+      <member refid="class_pre_1_1_f_s_k_e_t_c_h_create2_d_point_1aa92efa19e0902034a0b908acdbc8aff5" prot="public" virt="virtual"><scope>Pre::FSKETCHCreate2DPoint</scope><name>~FSKETCHCreate2DPoint</name></member>
+      <member refid="class_pre_1_1_f_s_k_e_t_c_h_item_1a9b4f3fb30a72890c9252e8ca1a365f70" prot="public" virt="non-virtual"><scope>Pre::FSKETCHCreate2DPoint</scope><name>~FSKETCHItem</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

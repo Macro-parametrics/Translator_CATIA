@@ -1,0 +1,381 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="_pre_manager_2ref_2_f_sketch_8h" kind="file">
+    <compoundname>FSketch.h</compoundname>
+    <includes refid="_pre_manager_2ref_2_feature_8h" local="yes">Feature.h</includes>
+    <includedby refid="_reference_entity_8h" local="yes">PreManager/ref/ReferenceEntity.h</includedby>
+    <includedby refid="_feature_s_o_l_i_d_create_extrude_8cpp" local="yes">PreManager/ref/FeatureSOLIDCreateExtrude.cpp</includedby>
+    <includedby refid="_pre_manager_2ref_2_feature_s_o_l_i_d_create_pattern_circular_8cpp" local="yes">PreManager/ref/FeatureSOLIDCreatePatternCircular.cpp</includedby>
+    <includedby refid="_f_s_k_e_t_c_h_item_8h" local="yes">PreManager/ref/FSKETCHItem.h</includedby>
+    <includedby refid="_pre_manager_2ref_2_f_sketch_8cpp" local="yes">PreManager/ref/FSketch.cpp</includedby>
+    <includedby refid="_f_s_k_e_t_c_h_create2_d_circle_center_point_8cpp" local="yes">PreManager/ref/FSKETCHCreate2DCircleCenterPoint.cpp</includedby>
+    <includedby refid="_f_s_k_e_t_c_h_create2_d_line2_points_8cpp" local="yes">PreManager/ref/FSKETCHCreate2DLine2Points.cpp</includedby>
+    <includedby refid="_f_s_k_e_t_c_h_create2_d_point_8cpp" local="yes">PreManager/ref/FSKETCHCreate2DPoint.cpp</includedby>
+    <includedby refid="_pre_manager_2ref_2_part_8cpp" local="yes">PreManager/ref/Part.cpp</includedby>
+    <incdepgraph>
+      <node id="2003">
+        <label>strstream</label>
+      </node>
+      <node id="1987">
+        <label>Feature.h</label>
+        <link refid="_pre_manager_2ref_2_feature_8h"/>
+        <childnode refid="1988" relation="include">
+        </childnode>
+      </node>
+      <node id="1997">
+        <label>cmath</label>
+      </node>
+      <node id="1992">
+        <label>string</label>
+      </node>
+      <node id="2001">
+        <label>comdef.h</label>
+      </node>
+      <node id="2000">
+        <label>comutil.h</label>
+      </node>
+      <node id="1986">
+        <label>PreManager/ref/FSketch.h</label>
+        <link refid="PreManager/ref/FSketch.h"/>
+        <childnode refid="1987" relation="include">
+        </childnode>
+      </node>
+      <node id="1995">
+        <label>fstream</label>
+      </node>
+      <node id="1993">
+        <label>string.h</label>
+      </node>
+      <node id="1989">
+        <label>CATIApre_DLL.h</label>
+        <link refid="_c_a_t_i_apre___d_l_l_8h"/>
+        <childnode refid="1990" relation="include">
+        </childnode>
+        <childnode refid="1991" relation="include">
+        </childnode>
+        <childnode refid="1992" relation="include">
+        </childnode>
+        <childnode refid="1993" relation="include">
+        </childnode>
+        <childnode refid="1994" relation="include">
+        </childnode>
+        <childnode refid="1995" relation="include">
+        </childnode>
+        <childnode refid="1996" relation="include">
+        </childnode>
+        <childnode refid="1997" relation="include">
+        </childnode>
+        <childnode refid="1998" relation="include">
+        </childnode>
+        <childnode refid="1999" relation="include">
+        </childnode>
+        <childnode refid="2000" relation="include">
+        </childnode>
+        <childnode refid="2001" relation="include">
+        </childnode>
+        <childnode refid="2002" relation="include">
+        </childnode>
+      </node>
+      <node id="1996">
+        <label>vector</label>
+      </node>
+      <node id="1999">
+        <label>sstream</label>
+      </node>
+      <node id="1998">
+        <label>math.h</label>
+      </node>
+      <node id="1994">
+        <label>iostream</label>
+      </node>
+      <node id="1991">
+        <label>tchar.h</label>
+      </node>
+      <node id="2002">
+        <label>Definition.h</label>
+        <link refid="_pre_manager_2ref_2_definition_8h"/>
+        <childnode refid="2003" relation="include">
+        </childnode>
+        <childnode refid="1994" relation="include">
+        </childnode>
+        <childnode refid="1998" relation="include">
+        </childnode>
+      </node>
+      <node id="1988">
+        <label>Part.h</label>
+        <link refid="_pre_manager_2ref_2_part_8h"/>
+        <childnode refid="1989" relation="include">
+        </childnode>
+      </node>
+      <node id="1990">
+        <label>stdio.h</label>
+      </node>
+    </incdepgraph>
+    <invincdepgraph>
+      <node id="2028">
+        <label>PreManager/ref/FSKETCHCreate2DLine2Points.cpp</label>
+        <link refid="_f_s_k_e_t_c_h_create2_d_line2_points_8cpp"/>
+      </node>
+      <node id="2031">
+        <label>PreManager/ref/FSKETCHItem.cpp</label>
+        <link refid="_f_s_k_e_t_c_h_item_8cpp"/>
+      </node>
+      <node id="2021">
+        <label>PreManager/ref/FSketch.cpp</label>
+        <link refid="_pre_manager_2ref_2_f_sketch_8cpp"/>
+      </node>
+      <node id="2007">
+        <label>CPPWITHCSHARP/ReferenceClass.cpp</label>
+        <link refid="_reference_class_8cpp"/>
+      </node>
+      <node id="2015">
+        <label>PreManager/ref/FeatureSOLIDCreateFilletConstant.cpp</label>
+        <link refid="_pre_manager_2ref_2_feature_s_o_l_i_d_create_fillet_constant_8cpp"/>
+      </node>
+      <node id="2011">
+        <label>CPPWITHCSHARP/ReferenceClass_Pre.cpp</label>
+        <link refid="_reference_class___pre_8cpp"/>
+      </node>
+      <node id="2016">
+        <label>PreManager/ref/FeatureSOLIDCreateHole.cpp</label>
+        <link refid="_feature_s_o_l_i_d_create_hole_8cpp"/>
+      </node>
+      <node id="2005">
+        <label>PreManager/ref/ReferenceEntity.h</label>
+        <link refid="_reference_entity_8h"/>
+        <childnode refid="2006" relation="include">
+        </childnode>
+        <childnode refid="2012" relation="include">
+        </childnode>
+        <childnode refid="2013" relation="include">
+        </childnode>
+        <childnode refid="2014" relation="include">
+        </childnode>
+        <childnode refid="2015" relation="include">
+        </childnode>
+        <childnode refid="2016" relation="include">
+        </childnode>
+        <childnode refid="2017" relation="include">
+        </childnode>
+        <childnode refid="2018" relation="include">
+        </childnode>
+        <childnode refid="2019" relation="include">
+        </childnode>
+        <childnode refid="2020" relation="include">
+        </childnode>
+        <childnode refid="2021" relation="include">
+        </childnode>
+        <childnode refid="2022" relation="include">
+        </childnode>
+        <childnode refid="2023" relation="include">
+        </childnode>
+      </node>
+      <node id="2024">
+        <label>PreManager/ref/FSKETCHItem.h</label>
+        <link refid="_f_s_k_e_t_c_h_item_8h"/>
+        <childnode refid="2025" relation="include">
+        </childnode>
+        <childnode refid="2019" relation="include">
+        </childnode>
+        <childnode refid="2027" relation="include">
+        </childnode>
+        <childnode refid="2021" relation="include">
+        </childnode>
+        <childnode refid="2029" relation="include">
+        </childnode>
+        <childnode refid="2031" relation="include">
+        </childnode>
+      </node>
+      <node id="2006">
+        <label>CPPWITHCSHARP/ReferenceClass.h</label>
+        <link refid="_reference_class_8h"/>
+        <childnode refid="2007" relation="include">
+        </childnode>
+        <childnode refid="2008" relation="include">
+        </childnode>
+        <childnode refid="2010" relation="include">
+        </childnode>
+      </node>
+      <node id="2004">
+        <label>PreManager/ref/FSketch.h</label>
+        <link refid="PreManager/ref/FSketch.h"/>
+        <childnode refid="2005" relation="include">
+        </childnode>
+        <childnode refid="2014" relation="include">
+        </childnode>
+        <childnode refid="2017" relation="include">
+        </childnode>
+        <childnode refid="2024" relation="include">
+        </childnode>
+        <childnode refid="2021" relation="include">
+        </childnode>
+        <childnode refid="2026" relation="include">
+        </childnode>
+        <childnode refid="2028" relation="include">
+        </childnode>
+        <childnode refid="2030" relation="include">
+        </childnode>
+        <childnode refid="2022" relation="include">
+        </childnode>
+      </node>
+      <node id="2017">
+        <label>PreManager/ref/FeatureSOLIDCreatePatternCircular.cpp</label>
+        <link refid="_pre_manager_2ref_2_feature_s_o_l_i_d_create_pattern_circular_8cpp"/>
+      </node>
+      <node id="2010">
+        <label>CPPWITHCSHARP/ReferenceClass_Pre.h</label>
+        <link refid="_reference_class___pre_8h"/>
+        <childnode refid="2011" relation="include">
+        </childnode>
+      </node>
+      <node id="2008">
+        <label>CPPWITHCSHARP/ReferenceClass_Post.h</label>
+        <link refid="_reference_class___post_8h"/>
+        <childnode refid="2009" relation="include">
+        </childnode>
+      </node>
+      <node id="2020">
+        <label>PreManager/ref/FeatureSOLIDCreateSweep.cpp</label>
+        <link refid="_feature_s_o_l_i_d_create_sweep_8cpp"/>
+      </node>
+      <node id="2018">
+        <label>PreManager/ref/FeatureSOLIDCreatePatternRectangular.cpp</label>
+        <link refid="_pre_manager_2ref_2_feature_s_o_l_i_d_create_pattern_rectangular_8cpp"/>
+      </node>
+      <node id="2013">
+        <label>PreManager/ref/FeatureSOLIDCreateChamfer.cpp</label>
+        <link refid="_pre_manager_2ref_2_feature_s_o_l_i_d_create_chamfer_8cpp"/>
+      </node>
+      <node id="2025">
+        <label>PreManager/ref/FSKETCHCreate2DCircleCenterPoint.h</label>
+        <link refid="_f_s_k_e_t_c_h_create2_d_circle_center_point_8h"/>
+        <childnode refid="2017" relation="include">
+        </childnode>
+        <childnode refid="2019" relation="include">
+        </childnode>
+        <childnode refid="2021" relation="include">
+        </childnode>
+        <childnode refid="2026" relation="include">
+        </childnode>
+      </node>
+      <node id="2029">
+        <label>PreManager/ref/FSKETCHCreate2DPoint.h</label>
+        <link refid="_f_s_k_e_t_c_h_create2_d_point_8h"/>
+        <childnode refid="2021" relation="include">
+        </childnode>
+        <childnode refid="2030" relation="include">
+        </childnode>
+      </node>
+      <node id="2030">
+        <label>PreManager/ref/FSKETCHCreate2DPoint.cpp</label>
+        <link refid="_f_s_k_e_t_c_h_create2_d_point_8cpp"/>
+      </node>
+      <node id="2019">
+        <label>PreManager/ref/FeatureSOLIDCreateRevolve.cpp</label>
+        <link refid="_feature_s_o_l_i_d_create_revolve_8cpp"/>
+      </node>
+      <node id="2012">
+        <label>PreManager/ref/FDatumPlaneOffset.cpp</label>
+        <link refid="_pre_manager_2ref_2_f_datum_plane_offset_8cpp"/>
+      </node>
+      <node id="2014">
+        <label>PreManager/ref/FeatureSOLIDCreateExtrude.cpp</label>
+        <link refid="_feature_s_o_l_i_d_create_extrude_8cpp"/>
+      </node>
+      <node id="2009">
+        <label>CPPWITHCSHARP/ReferenceClass_Post.cpp</label>
+        <link refid="_reference_class___post_8cpp"/>
+      </node>
+      <node id="2023">
+        <label>PreManager/ref/ReferenceEntity.cpp</label>
+        <link refid="_reference_entity_8cpp"/>
+      </node>
+      <node id="2026">
+        <label>PreManager/ref/FSKETCHCreate2DCircleCenterPoint.cpp</label>
+        <link refid="_f_s_k_e_t_c_h_create2_d_circle_center_point_8cpp"/>
+      </node>
+      <node id="2022">
+        <label>PreManager/ref/Part.cpp</label>
+        <link refid="_pre_manager_2ref_2_part_8cpp"/>
+      </node>
+      <node id="2027">
+        <label>PreManager/ref/FSKETCHCreate2DLine2Points.h</label>
+        <link refid="_f_s_k_e_t_c_h_create2_d_line2_points_8h"/>
+        <childnode refid="2019" relation="include">
+        </childnode>
+        <childnode refid="2021" relation="include">
+        </childnode>
+        <childnode refid="2028" relation="include">
+        </childnode>
+      </node>
+    </invincdepgraph>
+    <innerclass refid="struct_pre_1_1_report_item" prot="public">Pre::ReportItem</innerclass>
+    <innerclass refid="class_pre_1_1_f_sketch" prot="public">Pre::FSketch</innerclass>
+    <innernamespace refid="namespace_pre">Pre</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="preprocessor">#pragma<sp/>once</highlight></codeline>
+<codeline lineno="2"><highlight class="preprocessor"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="_pre_manager_2ref_2_feature_8h" kindref="compound">Feature.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal">Pre<sp/>{</highlight></codeline>
+<codeline lineno="4"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal">FSKETCHItem;</highlight></codeline>
+<codeline lineno="5"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal">ReferenceEntity;</highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight></codeline>
+<codeline lineno="7" refid="struct_pre_1_1_report_item" refkind="compound"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="struct_pre_1_1_report_item" kindref="compound">ReportItem</ref></highlight></codeline>
+<codeline lineno="8"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="9" refid="struct_pre_1_1_report_item_1a9ef43228e08660b9690f14d036942c79" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="struct_pre_1_1_report_item_1a9ef43228e08660b9690f14d036942c79" kindref="member">_reportName</ref>;</highlight></codeline>
+<codeline lineno="10" refid="struct_pre_1_1_report_item_1a493acafbbbbca80f8e05745a3f6535cc" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">string</highlight><highlight class="normal"><sp/><ref refid="struct_pre_1_1_report_item_1a493acafbbbbca80f8e05745a3f6535cc" kindref="member">_entityName</ref>;</highlight></codeline>
+<codeline lineno="11"><highlight class="normal"><sp/><sp/><sp/><sp/>};</highlight></codeline>
+<codeline lineno="12"><highlight class="normal"></highlight></codeline>
+<codeline lineno="13" refid="class_pre_1_1_f_sketch" refkind="compound"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="class_pre_1_1_f_sketch" kindref="compound">FSketch</ref><sp/>:<sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/><ref refid="class_pre_1_1_feature" kindref="compound">Feature</ref></highlight></codeline>
+<codeline lineno="14"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="15"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="16"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_pre_1_1_f_sketch_1a40d83a4e6bff4d4e830b3dfada979359" kindref="member">FSketch</ref>(<ref refid="class_pre_1_1_part" kindref="compound">Part</ref><sp/>*<sp/>pPart,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="class_pre_1_1_f_sketch_1a9c38001e64398becdbd38d4378cf5ac0" kindref="member">type</ref>,<sp/></highlight><highlight class="keywordtype">string</highlight><highlight class="normal"><sp/>name);</highlight></codeline>
+<codeline lineno="17"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/><ref refid="class_pre_1_1_f_sketch_1a9da46f4734a4bbc410cf1179f969dc47" kindref="member">~FSketch</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="18"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_pre_1_1_f_sketch_1a1566200d0c2cf0ebf5e12e6a2f9ff5b6" kindref="member">Clear</ref>();</highlight></codeline>
+<codeline lineno="19"><highlight class="normal"></highlight></codeline>
+<codeline lineno="20" refid="class_pre_1_1_f_sketch_1a9511d63c3590966928b49a67b97f9b94" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_pre_1_1_f_s_k_e_t_c_h_item" kindref="compound">FSKETCHItem</ref><sp/>*<sp/><ref refid="class_pre_1_1_f_sketch_1a9511d63c3590966928b49a67b97f9b94" kindref="member">GetSketchItem</ref>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>index)</highlight><highlight class="keyword"><sp/>const<sp/></highlight><highlight class="normal">{<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/><ref refid="class_pre_1_1_f_sketch_1ac722665cfc7adb5e7ada5885e9be88ad" kindref="member">_sketchItemList</ref>.at(index);<sp/>}</highlight></codeline>
+<codeline lineno="21" refid="class_pre_1_1_f_sketch_1aedb98e1bc875d743d459704e5b92c781" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/><ref refid="class_pre_1_1_f_sketch_1aedb98e1bc875d743d459704e5b92c781" kindref="member">GetSketchItemsSize</ref>()</highlight><highlight class="keyword"><sp/>const<sp/></highlight><highlight class="normal">{<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/><ref refid="class_pre_1_1_f_sketch_1ac722665cfc7adb5e7ada5885e9be88ad" kindref="member">_sketchItemList</ref>.size();<sp/>}</highlight></codeline>
+<codeline lineno="22" refid="class_pre_1_1_f_sketch_1a99c3852aceaa9b25d54a7ef51bff7122" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">string</highlight><highlight class="normal"><sp/><ref refid="class_pre_1_1_f_sketch_1a99c3852aceaa9b25d54a7ef51bff7122" kindref="member">GetFactoryName</ref>()<sp/>{<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/><ref refid="class_pre_1_1_f_sketch_1ac1daa210d1c335b3f6a48328fd2e2f1b" kindref="member">_factoryName</ref>;<sp/>}</highlight></codeline>
+<codeline lineno="23" refid="class_pre_1_1_f_sketch_1a7266246be77ff6aa36f54a8fd2b273bf" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">string</highlight><highlight class="normal"><sp/><ref refid="class_pre_1_1_f_sketch_1a7266246be77ff6aa36f54a8fd2b273bf" kindref="member">GetAxisName</ref>()<sp/>{<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/><ref refid="class_pre_1_1_f_sketch_1a0c211df95e7be9816637cefe4af64f02" kindref="member">_axisName</ref>;<sp/>}</highlight></codeline>
+<codeline lineno="24"><highlight class="normal"></highlight></codeline>
+<codeline lineno="25" refid="class_pre_1_1_f_sketch_1a113a6b5fb8d5131aac7ee68ff6fdbb59" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/><ref refid="class_pre_1_1_reference_entity" kindref="compound">ReferenceEntity</ref><sp/>*<sp/><ref refid="class_pre_1_1_f_sketch_1a113a6b5fb8d5131aac7ee68ff6fdbb59" kindref="member">GetReferenceEntity</ref>()<sp/>{<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/><ref refid="class_pre_1_1_f_sketch_1af9ce328c392c7eabd72c5046f138780c" kindref="member">_pReferenceEntity</ref>;<sp/>}</highlight></codeline>
+<codeline lineno="26"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/><ref refid="class_pre_1_1_f_s_k_e_t_c_h_item" kindref="compound">FSKETCHItem</ref><sp/>*<sp/><ref refid="class_pre_1_1_f_sketch_1ab6314d4544a5000966d189bc2ed06652" kindref="member">GetSketchItemFromName</ref>(</highlight><highlight class="keywordtype">string</highlight><highlight class="normal"><sp/>name);</highlight></codeline>
+<codeline lineno="27"><highlight class="normal"></highlight></codeline>
+<codeline lineno="28"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_pre_1_1_f_sketch_1a0656c7068d8d8606fd98daf21fccb982" kindref="member">AddEntityNameReportName</ref>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>reportName,<sp/></highlight><highlight class="keywordtype">string</highlight><highlight class="normal"><sp/>entityName);</highlight></codeline>
+<codeline lineno="29"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">string</highlight><highlight class="normal"><sp/><ref refid="class_pre_1_1_f_sketch_1a3a3ac310f23864b029128898fcfc85c7" kindref="member">GetEntityNameFromReportName</ref>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>reportName);</highlight></codeline>
+<codeline lineno="30" refid="class_pre_1_1_f_sketch_1ab85e025f6b48c609b3eb8a7b01344f14" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/>TransCAD::ISketchEditorPtr<sp/><ref refid="class_pre_1_1_f_sketch_1ab85e025f6b48c609b3eb8a7b01344f14" kindref="member">GetSketchEditorPtr</ref>()<sp/>{<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/><ref refid="class_pre_1_1_f_sketch_1a6d418045295090b9c004c930ccacbd6e" kindref="member">_spSketEditor</ref>;<sp/>}</highlight></codeline>
+<codeline lineno="31" refid="class_pre_1_1_f_sketch_1aed61e94eef62ac425b8fb898dc2a3e36" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/>TransCAD::IStdSketchFeaturePtr<sp/><ref refid="class_pre_1_1_f_sketch_1aed61e94eef62ac425b8fb898dc2a3e36" kindref="member">GetSketchFeaturePtr</ref>()<sp/>{<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/><ref refid="class_pre_1_1_f_sketch_1a4dfc38ffa1d4e9c1987a4c70435f8910" kindref="member">_spSketch</ref>;<sp/>}</highlight></codeline>
+<codeline lineno="32"><highlight class="normal"></highlight></codeline>
+<codeline lineno="33"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_pre_1_1_f_sketch_1a1bedc78f172e28317a3b1ce9d16daa13" kindref="member">GetInfo</ref>(ifstream<sp/>&amp;<sp/>is);</highlight></codeline>
+<codeline lineno="34"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_pre_1_1_f_sketch_1a3ca083220e4cbe4fa0e9849e07a5d195" kindref="member">GetSketchItemInfo</ref>(ifstream<sp/>&amp;<sp/>is);</highlight></codeline>
+<codeline lineno="35"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_pre_1_1_f_sketch_1a87e0647858ab90fe459223b5715ec08a" kindref="member">ToTransCAD</ref>();</highlight></codeline>
+<codeline lineno="36"><highlight class="normal"></highlight></codeline>
+<codeline lineno="37"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_pre_1_1_f_sketch_1a288419dcb1075f5bd3a270e4451f4f29" kindref="member">Modify</ref>(</highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*<sp/>buffer);</highlight></codeline>
+<codeline lineno="38"><highlight class="normal"></highlight></codeline>
+<codeline lineno="39"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">protected</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="40"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_pre_1_1_f_sketch_1ae9bc9f88548ae184123dc0c64e623cca" kindref="member">CreateSketchItem</ref>(</highlight><highlight class="keywordtype">string</highlight><highlight class="normal"><sp/>type,<sp/></highlight><highlight class="keywordtype">string</highlight><highlight class="normal"><sp/>name,<sp/>ifstream<sp/>&amp;is);</highlight></codeline>
+<codeline lineno="41"><highlight class="normal"></highlight></codeline>
+<codeline lineno="42" refid="class_pre_1_1_f_sketch_1af9ce328c392c7eabd72c5046f138780c" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_pre_1_1_reference_entity" kindref="compound">ReferenceEntity</ref><sp/>*<sp/><ref refid="class_pre_1_1_f_sketch_1af9ce328c392c7eabd72c5046f138780c" kindref="member">_pReferenceEntity</ref>;</highlight></codeline>
+<codeline lineno="43"><highlight class="normal"></highlight></codeline>
+<codeline lineno="44"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="45" refid="class_pre_1_1_f_sketch_1ac722665cfc7adb5e7ada5885e9be88ad" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>std::vector&lt;FSKETCHItem*&gt;<sp/><ref refid="class_pre_1_1_f_sketch_1ac722665cfc7adb5e7ada5885e9be88ad" kindref="member">_sketchItemList</ref>;</highlight></codeline>
+<codeline lineno="46" refid="class_pre_1_1_f_sketch_1a7ca83dde56087548b85fcbc26495edaa" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>vector&lt;ReportItem&gt;<sp/><ref refid="class_pre_1_1_f_sketch_1a7ca83dde56087548b85fcbc26495edaa" kindref="member">reportNameTable</ref>;</highlight></codeline>
+<codeline lineno="47"><highlight class="normal"></highlight></codeline>
+<codeline lineno="48" refid="class_pre_1_1_f_sketch_1a899341ec1e118f4642e4e03685c25163" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/><ref refid="class_pre_1_1_f_sketch_1a899341ec1e118f4642e4e03685c25163" kindref="member">sketchCoord</ref>[9];</highlight></codeline>
+<codeline lineno="49" refid="class_pre_1_1_f_sketch_1a8a04393b87aff3f7f58640a5d4cc1fa8" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="class_pre_1_1_f_sketch_1a8a04393b87aff3f7f58640a5d4cc1fa8" kindref="member">id</ref>;</highlight></codeline>
+<codeline lineno="50" refid="class_pre_1_1_f_sketch_1a9c38001e64398becdbd38d4378cf5ac0" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="class_pre_1_1_f_sketch_1a9c38001e64398becdbd38d4378cf5ac0" kindref="member">type</ref>;<sp/><sp/></highlight><highlight class="comment">//<sp/>0:<sp/>none,<sp/>1:<sp/>base<sp/>Sketch,<sp/>2:<sp/>other<sp/>Sketch</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="51" refid="class_pre_1_1_f_sketch_1ac1daa210d1c335b3f6a48328fd2e2f1b" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">string</highlight><highlight class="normal"><sp/><ref refid="class_pre_1_1_f_sketch_1ac1daa210d1c335b3f6a48328fd2e2f1b" kindref="member">_factoryName</ref>;</highlight></codeline>
+<codeline lineno="52" refid="class_pre_1_1_f_sketch_1a0c211df95e7be9816637cefe4af64f02" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">string</highlight><highlight class="normal"><sp/><ref refid="class_pre_1_1_f_sketch_1a0c211df95e7be9816637cefe4af64f02" kindref="member">_axisName</ref>;</highlight></codeline>
+<codeline lineno="53"><highlight class="normal"></highlight></codeline>
+<codeline lineno="54"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="55" refid="class_pre_1_1_f_sketch_1a6d418045295090b9c004c930ccacbd6e" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>TransCAD::ISketchEditorPtr<sp/><ref refid="class_pre_1_1_f_sketch_1a6d418045295090b9c004c930ccacbd6e" kindref="member">_spSketEditor</ref>;<sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>TransCAD<sp/>SketchEditorPtr</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="56" refid="class_pre_1_1_f_sketch_1a4dfc38ffa1d4e9c1987a4c70435f8910" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>TransCAD::IStdSketchFeaturePtr<sp/><ref refid="class_pre_1_1_f_sketch_1a4dfc38ffa1d4e9c1987a4c70435f8910" kindref="member">_spSketch</ref>;</highlight></codeline>
+<codeline lineno="57"><highlight class="normal"><sp/><sp/><sp/><sp/>};</highlight></codeline>
+<codeline lineno="58"><highlight class="normal">}</highlight></codeline>
+    </programlisting>
+    <location file="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/PreManager/ref/FSketch.h"/>
+  </compounddef>
+</doxygen>

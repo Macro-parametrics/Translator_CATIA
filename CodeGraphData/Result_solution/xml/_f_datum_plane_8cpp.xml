@@ -1,0 +1,190 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="_f_datum_plane_8cpp" kind="file">
+    <compoundname>FDatumPlane.cpp</compoundname>
+    <includes local="yes">stdafx.h</includes>
+    <includes refid="_f_datum_plane_8h" local="yes">FDatumPlane.h</includes>
+    <incdepgraph>
+      <node id="708">
+        <label>atlstr.h</label>
+      </node>
+      <node id="704">
+        <label>Feature.h</label>
+        <link refid="_post_manager_2ref_2_feature_8h"/>
+        <childnode refid="705" relation="include">
+        </childnode>
+      </node>
+      <node id="702">
+        <label>stdafx.h</label>
+      </node>
+      <node id="714">
+        <label>stdlib.h</label>
+      </node>
+      <node id="716">
+        <label>cmath</label>
+      </node>
+      <node id="710">
+        <label>string</label>
+      </node>
+      <node id="715">
+        <label>comutil.h</label>
+      </node>
+      <node id="711">
+        <label>fstream</label>
+      </node>
+      <node id="705">
+        <label>Part.h</label>
+        <link refid="_post_manager_2ref_2_part_8h"/>
+        <childnode refid="706" relation="include">
+        </childnode>
+        <childnode refid="719" relation="include">
+        </childnode>
+      </node>
+      <node id="723">
+        <label>MP_Utility.h</label>
+        <link refid="_m_p___utility_8h"/>
+        <childnode refid="720" relation="include">
+        </childnode>
+      </node>
+      <node id="703">
+        <label>FDatumPlane.h</label>
+        <link refid="_f_datum_plane_8h"/>
+        <childnode refid="704" relation="include">
+        </childnode>
+      </node>
+      <node id="722">
+        <label>string.h</label>
+      </node>
+      <node id="712">
+        <label>vector</label>
+      </node>
+      <node id="701">
+        <label>PostManager/ref/FDatumPlane.cpp</label>
+        <link refid="FDatumPlane.cpp"/>
+        <childnode refid="702" relation="include">
+        </childnode>
+        <childnode refid="703" relation="include">
+        </childnode>
+      </node>
+      <node id="718">
+        <label>math.h</label>
+      </node>
+      <node id="707">
+        <label>atlbase.h</label>
+      </node>
+      <node id="719">
+        <label>CATIAReferenceManager.h</label>
+        <link refid="_c_a_t_i_a_reference_manager_8h"/>
+        <childnode refid="706" relation="include">
+        </childnode>
+        <childnode refid="720" relation="include">
+        </childnode>
+        <childnode refid="723" relation="include">
+        </childnode>
+      </node>
+      <node id="709">
+        <label>iostream</label>
+      </node>
+      <node id="717">
+        <label>Definition.h</label>
+        <link refid="_post_manager_2ref_2_definition_8h"/>
+        <childnode refid="718" relation="include">
+        </childnode>
+      </node>
+      <node id="721">
+        <label>algorithm</label>
+      </node>
+      <node id="713">
+        <label>stdio.h</label>
+      </node>
+      <node id="720">
+        <label>PN_TYPE.h</label>
+        <link refid="_p_n___t_y_p_e_8h"/>
+        <childnode refid="709" relation="include">
+        </childnode>
+        <childnode refid="710" relation="include">
+        </childnode>
+        <childnode refid="712" relation="include">
+        </childnode>
+        <childnode refid="721" relation="include">
+        </childnode>
+        <childnode refid="718" relation="include">
+        </childnode>
+        <childnode refid="722" relation="include">
+        </childnode>
+      </node>
+      <node id="706">
+        <label>CATIApost_DLL.h</label>
+        <link refid="_c_a_t_i_apost___d_l_l_8h"/>
+        <childnode refid="707" relation="include">
+        </childnode>
+        <childnode refid="708" relation="include">
+        </childnode>
+        <childnode refid="709" relation="include">
+        </childnode>
+        <childnode refid="710" relation="include">
+        </childnode>
+        <childnode refid="711" relation="include">
+        </childnode>
+        <childnode refid="712" relation="include">
+        </childnode>
+        <childnode refid="713" relation="include">
+        </childnode>
+        <childnode refid="714" relation="include">
+        </childnode>
+        <childnode refid="715" relation="include">
+        </childnode>
+        <childnode refid="716" relation="include">
+        </childnode>
+        <childnode refid="717" relation="include">
+        </childnode>
+      </node>
+    </incdepgraph>
+    <innernamespace refid="namespace_post">Post</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="preprocessor">#include<sp/>&quot;stdafx.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="_f_datum_plane_8h" kindref="compound">FDatumPlane.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal">Post<sp/>{</highlight></codeline>
+<codeline lineno="5" refid="class_post_1_1_f_datum_plane_1a5e7a65013b0e5c00dafc25d2e064a206" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="class_post_1_1_f_datum_plane_1a5e7a65013b0e5c00dafc25d2e064a206" kindref="member">FDatumPlane::FDatumPlane</ref>(<ref refid="class_post_1_1_part" kindref="compound">Part</ref><sp/>*<sp/>pPart,<sp/><ref refid="namespace_post_1a80911619713a0105ed4134e3ca90fa57" kindref="member">Point3D</ref>&amp;<sp/>origin,<sp/><ref refid="namespace_post_1a6353cf8ba34adaee185d9623338a213b" kindref="member">Direct3D</ref>&amp;<sp/>normal)<sp/>:<sp/><ref refid="class_post_1_1_feature" kindref="compound">Feature</ref>(pPart,<sp/>NULL)</highlight></codeline>
+<codeline lineno="6"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="7"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_post_1_1_f_datum_plane_1a14153814b45cd08939f25d019257ab76" kindref="member">_origin</ref><sp/>=<sp/>origin;</highlight></codeline>
+<codeline lineno="8"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_post_1_1_f_datum_plane_1ac8dcc77afb6f8b5d23c345b9e769ee16" kindref="member">_normal</ref><sp/>=<sp/>normal;</highlight></codeline>
+<codeline lineno="9"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="10"><highlight class="normal"></highlight></codeline>
+<codeline lineno="11" refid="class_post_1_1_f_datum_plane_1a2142a1cbfe9c6a516c08d7995613e30c" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="class_post_1_1_f_datum_plane_1a5e7a65013b0e5c00dafc25d2e064a206" kindref="member">FDatumPlane::FDatumPlane</ref>(<ref refid="class_post_1_1_part" kindref="compound">Part</ref><sp/>*<sp/>pPart,<sp/>TransCAD::IFeaturePtr<sp/>spFeature)<sp/>:</highlight></codeline>
+<codeline lineno="12"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_post_1_1_feature" kindref="compound">Feature</ref>(pPart,<sp/>spFeature)</highlight></codeline>
+<codeline lineno="13"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="14"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="15"><highlight class="normal"></highlight></codeline>
+<codeline lineno="16" refid="class_post_1_1_f_datum_plane_1a4aa19f84b948d27b267a0400e0fc2d4b" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="class_post_1_1_f_datum_plane_1a4aa19f84b948d27b267a0400e0fc2d4b" kindref="member">FDatumPlane::~FDatumPlane</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">)</highlight></codeline>
+<codeline lineno="17"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="18"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="19"><highlight class="normal"></highlight></codeline>
+<codeline lineno="20" refid="class_post_1_1_f_datum_plane_1a5d0271cd3bee3777b43eaf2e90c1bb1d" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_post_1_1_f_datum_plane_1a5d0271cd3bee3777b43eaf2e90c1bb1d" kindref="member">FDatumPlane::GetInfo</ref>()</highlight></codeline>
+<codeline lineno="21"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="22"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">string</highlight><highlight class="normal"><sp/>featureName<sp/>=<sp/><ref refid="class_post_1_1_feature_1a68d3fb9f274c6170d83e2a51d01400ac" kindref="member">GetFeatureName</ref>();</highlight></codeline>
+<codeline lineno="23"><highlight class="normal"></highlight></codeline>
+<codeline lineno="24"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_post_1_1_f_datum_plane_1a14153814b45cd08939f25d019257ab76" kindref="member">_origin</ref><sp/>=<sp/><ref refid="namespace_post_1a80911619713a0105ed4134e3ca90fa57" kindref="member">Point3D</ref>(0,<sp/>0,<sp/>0);</highlight></codeline>
+<codeline lineno="25"><highlight class="normal"></highlight></codeline>
+<codeline lineno="26"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(featureName<sp/>==<sp/></highlight><highlight class="keywordtype">string</highlight><highlight class="normal">(</highlight><highlight class="stringliteral">&quot;XYPlane&quot;</highlight><highlight class="normal">))</highlight></codeline>
+<codeline lineno="27"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_post_1_1_f_datum_plane_1ac8dcc77afb6f8b5d23c345b9e769ee16" kindref="member">_normal</ref><sp/>=<sp/><ref refid="namespace_post_1a6353cf8ba34adaee185d9623338a213b" kindref="member">Direct3D</ref>(0,<sp/>0,<sp/>1);</highlight></codeline>
+<codeline lineno="28"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(featureName<sp/>==<sp/></highlight><highlight class="keywordtype">string</highlight><highlight class="normal">(</highlight><highlight class="stringliteral">&quot;YZPlane&quot;</highlight><highlight class="normal">))</highlight></codeline>
+<codeline lineno="29"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_post_1_1_f_datum_plane_1ac8dcc77afb6f8b5d23c345b9e769ee16" kindref="member">_normal</ref><sp/>=<sp/><ref refid="namespace_post_1a6353cf8ba34adaee185d9623338a213b" kindref="member">Direct3D</ref>(1,<sp/>0,<sp/>0);</highlight></codeline>
+<codeline lineno="30"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(featureName<sp/>==<sp/></highlight><highlight class="keywordtype">string</highlight><highlight class="normal">(</highlight><highlight class="stringliteral">&quot;ZXPlane&quot;</highlight><highlight class="normal">))</highlight></codeline>
+<codeline lineno="31"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_post_1_1_f_datum_plane_1ac8dcc77afb6f8b5d23c345b9e769ee16" kindref="member">_normal</ref><sp/>=<sp/><ref refid="namespace_post_1a6353cf8ba34adaee185d9623338a213b" kindref="member">Direct3D</ref>(0,<sp/>1,<sp/>0);</highlight></codeline>
+<codeline lineno="32"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="33"><highlight class="normal"></highlight></codeline>
+<codeline lineno="34" refid="class_post_1_1_f_datum_plane_1a7c90b5abc0106379cb9a49c4c7ed2c8d" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_post_1_1_f_datum_plane_1a7c90b5abc0106379cb9a49c4c7ed2c8d" kindref="member">FDatumPlane::ToCATIA</ref>()</highlight></codeline>
+<codeline lineno="35"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="36"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>cout<sp/>&lt;&lt;<sp/></highlight><highlight class="stringliteral">&quot;<sp/><sp/>FixedDatumPlane<sp/>&quot;</highlight><highlight class="normal"><sp/>&lt;&lt;<sp/><ref refid="class_post_1_1_feature_1a68d3fb9f274c6170d83e2a51d01400ac" kindref="member">GetFeatureName</ref>()<sp/>&lt;&lt;<sp/>endl;</highlight></codeline>
+<codeline lineno="37"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="38"><highlight class="normal">}</highlight></codeline>
+    </programlisting>
+    <location file="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/PostManager/ref/FDatumPlane.cpp"/>
+  </compounddef>
+</doxygen>

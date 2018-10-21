@@ -1,0 +1,186 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="_feature_s_o_l_i_d_create_protrusion_revolve_8h" kind="file">
+    <compoundname>FeatureSOLIDCreateProtrusionRevolve.h</compoundname>
+    <includes refid="_post_manager_2ref_2_feature_8h" local="yes">Feature.h</includes>
+    <includedby refid="_feature_s_o_l_i_d_create_protrusion_revolve_8cpp" local="yes">PostManager/ref/FeatureSOLIDCreateProtrusionRevolve.cpp</includedby>
+    <includedby refid="_post_manager_2ref_2_part_8cpp" local="yes">PostManager/ref/Part.cpp</includedby>
+    <incdepgraph>
+      <node id="1767">
+        <label>atlstr.h</label>
+      </node>
+      <node id="1763">
+        <label>Feature.h</label>
+        <link refid="_post_manager_2ref_2_feature_8h"/>
+        <childnode refid="1764" relation="include">
+        </childnode>
+      </node>
+      <node id="1773">
+        <label>stdlib.h</label>
+      </node>
+      <node id="1775">
+        <label>cmath</label>
+      </node>
+      <node id="1769">
+        <label>string</label>
+      </node>
+      <node id="1774">
+        <label>comutil.h</label>
+      </node>
+      <node id="1770">
+        <label>fstream</label>
+      </node>
+      <node id="1764">
+        <label>Part.h</label>
+        <link refid="_post_manager_2ref_2_part_8h"/>
+        <childnode refid="1765" relation="include">
+        </childnode>
+        <childnode refid="1778" relation="include">
+        </childnode>
+      </node>
+      <node id="1782">
+        <label>MP_Utility.h</label>
+        <link refid="_m_p___utility_8h"/>
+        <childnode refid="1779" relation="include">
+        </childnode>
+      </node>
+      <node id="1762">
+        <label>PostManager/ref/FeatureSOLIDCreateProtrusionRevolve.h</label>
+        <link refid="FeatureSOLIDCreateProtrusionRevolve.h"/>
+        <childnode refid="1763" relation="include">
+        </childnode>
+      </node>
+      <node id="1781">
+        <label>string.h</label>
+      </node>
+      <node id="1771">
+        <label>vector</label>
+      </node>
+      <node id="1777">
+        <label>math.h</label>
+      </node>
+      <node id="1766">
+        <label>atlbase.h</label>
+      </node>
+      <node id="1778">
+        <label>CATIAReferenceManager.h</label>
+        <link refid="_c_a_t_i_a_reference_manager_8h"/>
+        <childnode refid="1765" relation="include">
+        </childnode>
+        <childnode refid="1779" relation="include">
+        </childnode>
+        <childnode refid="1782" relation="include">
+        </childnode>
+      </node>
+      <node id="1768">
+        <label>iostream</label>
+      </node>
+      <node id="1776">
+        <label>Definition.h</label>
+        <link refid="_post_manager_2ref_2_definition_8h"/>
+        <childnode refid="1777" relation="include">
+        </childnode>
+      </node>
+      <node id="1780">
+        <label>algorithm</label>
+      </node>
+      <node id="1772">
+        <label>stdio.h</label>
+      </node>
+      <node id="1779">
+        <label>PN_TYPE.h</label>
+        <link refid="_p_n___t_y_p_e_8h"/>
+        <childnode refid="1768" relation="include">
+        </childnode>
+        <childnode refid="1769" relation="include">
+        </childnode>
+        <childnode refid="1771" relation="include">
+        </childnode>
+        <childnode refid="1780" relation="include">
+        </childnode>
+        <childnode refid="1777" relation="include">
+        </childnode>
+        <childnode refid="1781" relation="include">
+        </childnode>
+      </node>
+      <node id="1765">
+        <label>CATIApost_DLL.h</label>
+        <link refid="_c_a_t_i_apost___d_l_l_8h"/>
+        <childnode refid="1766" relation="include">
+        </childnode>
+        <childnode refid="1767" relation="include">
+        </childnode>
+        <childnode refid="1768" relation="include">
+        </childnode>
+        <childnode refid="1769" relation="include">
+        </childnode>
+        <childnode refid="1770" relation="include">
+        </childnode>
+        <childnode refid="1771" relation="include">
+        </childnode>
+        <childnode refid="1772" relation="include">
+        </childnode>
+        <childnode refid="1773" relation="include">
+        </childnode>
+        <childnode refid="1774" relation="include">
+        </childnode>
+        <childnode refid="1775" relation="include">
+        </childnode>
+        <childnode refid="1776" relation="include">
+        </childnode>
+      </node>
+    </incdepgraph>
+    <invincdepgraph>
+      <node id="1785">
+        <label>PostManager/ref/Part.cpp</label>
+        <link refid="_post_manager_2ref_2_part_8cpp"/>
+      </node>
+      <node id="1783">
+        <label>PostManager/ref/FeatureSOLIDCreateProtrusionRevolve.h</label>
+        <link refid="FeatureSOLIDCreateProtrusionRevolve.h"/>
+        <childnode refid="1784" relation="include">
+        </childnode>
+        <childnode refid="1785" relation="include">
+        </childnode>
+      </node>
+      <node id="1784">
+        <label>PostManager/ref/FeatureSOLIDCreateProtrusionRevolve.cpp</label>
+        <link refid="_feature_s_o_l_i_d_create_protrusion_revolve_8cpp"/>
+      </node>
+    </invincdepgraph>
+    <innerclass refid="class_post_1_1_feature_s_o_l_i_d_create_protrusion_revolve" prot="public">Post::FeatureSOLIDCreateProtrusionRevolve</innerclass>
+    <innernamespace refid="namespace_post">Post</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="preprocessor">#pragma<sp/>once</highlight></codeline>
+<codeline lineno="2"><highlight class="preprocessor"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="_post_manager_2ref_2_feature_8h" kindref="compound">Feature.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal">Post<sp/>{</highlight></codeline>
+<codeline lineno="4"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal">FSketch;</highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight></codeline>
+<codeline lineno="6" refid="class_post_1_1_feature_s_o_l_i_d_create_protrusion_revolve" refkind="compound"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="class_post_1_1_feature_s_o_l_i_d_create_protrusion_revolve" kindref="compound">FeatureSOLIDCreateProtrusionRevolve</ref><sp/>:<sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/><ref refid="class_post_1_1_feature" kindref="compound">Feature</ref></highlight></codeline>
+<codeline lineno="7"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="8"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="9"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_post_1_1_feature_s_o_l_i_d_create_protrusion_revolve_1a990720ae4947115cbb53811f070cc3c5" kindref="member">FeatureSOLIDCreateProtrusionRevolve</ref>(<ref refid="class_post_1_1_part" kindref="compound">Part</ref><sp/>*<sp/>pPart,<sp/>TransCAD::IFeaturePtr<sp/>spFeature);</highlight></codeline>
+<codeline lineno="10"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/><ref refid="class_post_1_1_feature_s_o_l_i_d_create_protrusion_revolve_1ad2edb0faed25034492ae1dac6041462b" kindref="member">~FeatureSOLIDCreateProtrusionRevolve</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="11"><highlight class="normal"></highlight></codeline>
+<codeline lineno="12" refid="class_post_1_1_feature_s_o_l_i_d_create_protrusion_revolve_1a17f3a2f4c0fb323fe5b0a656a61ac986" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_post_1_1_f_sketch" kindref="compound">FSketch</ref><sp/>*<sp/><ref refid="class_post_1_1_feature_s_o_l_i_d_create_protrusion_revolve_1a17f3a2f4c0fb323fe5b0a656a61ac986" kindref="member">GetFeatureProfileSketch</ref>()<sp/>{<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/><ref refid="class_post_1_1_feature_s_o_l_i_d_create_protrusion_revolve_1a8b97762088a5516b8731cf5237aac263" kindref="member">_featureProfileSketch</ref>;<sp/>}</highlight></codeline>
+<codeline lineno="13"><highlight class="normal"></highlight></codeline>
+<codeline lineno="14"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_post_1_1_feature_s_o_l_i_d_create_protrusion_revolve_1a985d6dcd1120fb38b3a9b0a49728d230" kindref="member">GetInfo</ref>();</highlight></codeline>
+<codeline lineno="15"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_post_1_1_feature_s_o_l_i_d_create_protrusion_revolve_1a694f7011ec7ebeca3d7bd3850dc756bf" kindref="member">ToCATIA</ref>();</highlight></codeline>
+<codeline lineno="16"><highlight class="normal"></highlight></codeline>
+<codeline lineno="17"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">private</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="18" refid="class_post_1_1_feature_s_o_l_i_d_create_protrusion_revolve_1a10fb6490ca485d58ab0ec70df9bc4c83" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="class_post_1_1_feature_s_o_l_i_d_create_protrusion_revolve_1a10fb6490ca485d58ab0ec70df9bc4c83" kindref="member">_flip</ref>;</highlight></codeline>
+<codeline lineno="19" refid="class_post_1_1_feature_s_o_l_i_d_create_protrusion_revolve_1a97ce34a5a3273ff5bca254db025cc0e1" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/><sp/><ref refid="class_post_1_1_feature_s_o_l_i_d_create_protrusion_revolve_1a97ce34a5a3273ff5bca254db025cc0e1" kindref="member">_startAngle</ref>;</highlight></codeline>
+<codeline lineno="20" refid="class_post_1_1_feature_s_o_l_i_d_create_protrusion_revolve_1aaeb44784e19198bf8145177d9f8de002" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/><sp/><ref refid="class_post_1_1_feature_s_o_l_i_d_create_protrusion_revolve_1aaeb44784e19198bf8145177d9f8de002" kindref="member">_endAngle</ref>;</highlight></codeline>
+<codeline lineno="21"><highlight class="normal"></highlight></codeline>
+<codeline lineno="22"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">protected</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="23" refid="class_post_1_1_feature_s_o_l_i_d_create_protrusion_revolve_1a8b97762088a5516b8731cf5237aac263" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_post_1_1_f_sketch" kindref="compound">FSketch</ref><sp/>*<sp/><ref refid="class_post_1_1_feature_s_o_l_i_d_create_protrusion_revolve_1a8b97762088a5516b8731cf5237aac263" kindref="member">_featureProfileSketch</ref>;</highlight></codeline>
+<codeline lineno="24"><highlight class="normal"><sp/><sp/><sp/><sp/>};</highlight></codeline>
+<codeline lineno="25"><highlight class="normal">}</highlight></codeline>
+    </programlisting>
+    <location file="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/PostManager/ref/FeatureSOLIDCreateProtrusionRevolve.h"/>
+  </compounddef>
+</doxygen>

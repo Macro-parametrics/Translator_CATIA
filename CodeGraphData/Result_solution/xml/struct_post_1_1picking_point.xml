@@ -1,0 +1,58 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="struct_post_1_1picking_point" kind="struct" prot="public">
+    <compoundname>Post::pickingPoint</compoundname>
+    <includes refid="_p_n___t_y_p_e_8h" local="no">PN_TYPE.h</includes>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="struct_post_1_1picking_point_1a4243c9349d7bd8a7587fd591ad1daf77" prot="public" static="no" mutable="no">
+        <type>double</type>
+        <definition>double Post::pickingPoint::_x</definition>
+        <argsstring></argsstring>
+        <name>_x</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/PostManager/ref/PN_TYPE.h" line="14" column="1" bodyfile="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/PostManager/ref/PN_TYPE.h" bodystart="14" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_post_1_1picking_point_1aaeb636e93d7925d50612a3ae8c1d32c9" prot="public" static="no" mutable="no">
+        <type>double</type>
+        <definition>double Post::pickingPoint::_y</definition>
+        <argsstring></argsstring>
+        <name>_y</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/PostManager/ref/PN_TYPE.h" line="14" column="1" bodyfile="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/PostManager/ref/PN_TYPE.h" bodystart="14" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_post_1_1picking_point_1a5c497de65ced1592735b73b3f3f23de7" prot="public" static="no" mutable="no">
+        <type>double</type>
+        <definition>double Post::pickingPoint::_z</definition>
+        <argsstring></argsstring>
+        <name>_z</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/PostManager/ref/PN_TYPE.h" line="14" column="1" bodyfile="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/PostManager/ref/PN_TYPE.h" bodystart="14" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/PostManager/ref/PN_TYPE.h" line="13" column="1" bodyfile="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/PostManager/ref/PN_TYPE.h" bodystart="12" bodyend="15"/>
+    <listofallmembers>
+      <member refid="struct_post_1_1picking_point_1a4243c9349d7bd8a7587fd591ad1daf77" prot="public" virt="non-virtual"><scope>Post::pickingPoint</scope><name>_x</name></member>
+      <member refid="struct_post_1_1picking_point_1aaeb636e93d7925d50612a3ae8c1d32c9" prot="public" virt="non-virtual"><scope>Post::pickingPoint</scope><name>_y</name></member>
+      <member refid="struct_post_1_1picking_point_1a5c497de65ced1592735b73b3f3f23de7" prot="public" virt="non-virtual"><scope>Post::pickingPoint</scope><name>_z</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

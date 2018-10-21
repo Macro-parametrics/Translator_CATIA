@@ -1,0 +1,605 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_c_a_t_i_a_translator_1_1_form1" kind="class" prot="public">
+    <compoundname>CATIATranslator::Form1</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">Form</basecompoundref>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_c_a_t_i_a_translator_1_1_form1_1ae69d2a6bb65785080ed022d5fbfc7d30" prot="private" static="no" mutable="no">
+        <type><ref refid="class_c_a_t_i_a_translator_1_1_part_script___dll" kindref="compound">PartScript_Dll</ref></type>
+        <definition>PartScript_Dll CATIATranslator.Form1.m_DLL</definition>
+        <argsstring></argsstring>
+        <name>m_DLL</name>
+        <initializer>= new <ref refid="class_c_a_t_i_a_translator_1_1_part_script___dll" kindref="compound">PartScript_Dll</ref>()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/CATIATranslator/Form1.cs" line="240" column="1" bodyfile="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/CATIATranslator/Form1.cs" bodystart="240" bodyend="-1"/>
+        <referencedby refid="class_c_a_t_i_a_translator_1_1_form1_1a6374dccae22f5c0f3d28ac2d6a8fa884" compoundref="_form1_8cs" startline="243" endline="272">CATIATranslator.Form1.button5_Click_1</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_c_a_t_i_a_translator_1_1_form1_1ae880abc25c8a38a6f834953ad7d3e5a0" prot="private" static="no" mutable="no">
+        <type>System.ComponentModel.IContainer</type>
+        <definition>System.ComponentModel.IContainer CATIATranslator.Form1.components</definition>
+        <argsstring></argsstring>
+        <name>components</name>
+        <initializer>= null</initializer>
+        <briefdescription>
+<para>필수 디자이너 변수입니다. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/CATIATranslator/Form1.Designer.cs" line="8" column="1" bodyfile="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/CATIATranslator/Form1.Designer.cs" bodystart="8" bodyend="-1"/>
+        <referencedby refid="class_c_a_t_i_a_translator_1_1_form1_1abcb7ca869bde80d07f5da1a2eb1d05ce" compoundref="_form1_8_designer_8cs" startline="14" endline="21">CATIATranslator.Form1.Dispose</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_c_a_t_i_a_translator_1_1_form1_1ae8a8b1d2fc49bc882a2c2b8ef7ee23ff" prot="private" static="no" mutable="no">
+        <type>System.Windows.Forms.Button</type>
+        <definition>System.Windows.Forms.Button CATIATranslator.Form1.button2</definition>
+        <argsstring></argsstring>
+        <name>button2</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/CATIATranslator/Form1.Designer.cs" line="174" column="1" bodyfile="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/CATIATranslator/Form1.Designer.cs" bodystart="174" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_c_a_t_i_a_translator_1_1_form1_1afeb817cca056598f361ede87b5e247e6" prot="private" static="no" mutable="no">
+        <type>System.Windows.Forms.Button</type>
+        <definition>System.Windows.Forms.Button CATIATranslator.Form1.button1</definition>
+        <argsstring></argsstring>
+        <name>button1</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/CATIATranslator/Form1.Designer.cs" line="175" column="1" bodyfile="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/CATIATranslator/Form1.Designer.cs" bodystart="175" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_c_a_t_i_a_translator_1_1_form1_1a1eb77aa1326a20dbde0b2e134392169f" prot="private" static="no" mutable="no">
+        <type>System.Windows.Forms.Button</type>
+        <definition>System.Windows.Forms.Button CATIATranslator.Form1.button3</definition>
+        <argsstring></argsstring>
+        <name>button3</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/CATIATranslator/Form1.Designer.cs" line="176" column="1" bodyfile="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/CATIATranslator/Form1.Designer.cs" bodystart="176" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_c_a_t_i_a_translator_1_1_form1_1ae191ab49e9b6fb9f2bee284fc141ef54" prot="private" static="no" mutable="no">
+        <type>System.Windows.Forms.Button</type>
+        <definition>System.Windows.Forms.Button CATIATranslator.Form1.button4</definition>
+        <argsstring></argsstring>
+        <name>button4</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/CATIATranslator/Form1.Designer.cs" line="177" column="1" bodyfile="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/CATIATranslator/Form1.Designer.cs" bodystart="177" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_c_a_t_i_a_translator_1_1_form1_1a9a1aede88ecb4ae8c9d4108eb7544864" prot="private" static="no" mutable="no">
+        <type>System.Windows.Forms.Button</type>
+        <definition>System.Windows.Forms.Button CATIATranslator.Form1.button5</definition>
+        <argsstring></argsstring>
+        <name>button5</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/CATIATranslator/Form1.Designer.cs" line="178" column="1" bodyfile="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/CATIATranslator/Form1.Designer.cs" bodystart="178" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_c_a_t_i_a_translator_1_1_form1_1ac1e7d75e9945c45e9f99bdc9b2896361" prot="private" static="no" mutable="no">
+        <type>System.Windows.Forms.Button</type>
+        <definition>System.Windows.Forms.Button CATIATranslator.Form1.button6</definition>
+        <argsstring></argsstring>
+        <name>button6</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/CATIATranslator/Form1.Designer.cs" line="179" column="1" bodyfile="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/CATIATranslator/Form1.Designer.cs" bodystart="179" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_c_a_t_i_a_translator_1_1_form1_1a3a63b5181ddb868dcef7f52a687cf1ec" prot="private" static="no" mutable="no">
+        <type>System.Windows.Forms.Label</type>
+        <definition>System.Windows.Forms.Label CATIATranslator.Form1.label1</definition>
+        <argsstring></argsstring>
+        <name>label1</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/CATIATranslator/Form1.Designer.cs" line="180" column="1" bodyfile="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/CATIATranslator/Form1.Designer.cs" bodystart="180" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_c_a_t_i_a_translator_1_1_form1_1a96f2747060699bb42f31253d0a985f3f" prot="private" static="no" mutable="no">
+        <type>System.Windows.Forms.Label</type>
+        <definition>System.Windows.Forms.Label CATIATranslator.Form1.label2</definition>
+        <argsstring></argsstring>
+        <name>label2</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/CATIATranslator/Form1.Designer.cs" line="181" column="1" bodyfile="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/CATIATranslator/Form1.Designer.cs" bodystart="181" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_c_a_t_i_a_translator_1_1_form1_1a5498fb7d68af957ecb2819cd00047144" prot="private" static="no" mutable="no">
+        <type>System.Windows.Forms.Label</type>
+        <definition>System.Windows.Forms.Label CATIATranslator.Form1.label3</definition>
+        <argsstring></argsstring>
+        <name>label3</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/CATIATranslator/Form1.Designer.cs" line="182" column="1" bodyfile="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/CATIATranslator/Form1.Designer.cs" bodystart="182" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_c_a_t_i_a_translator_1_1_form1_1a94b5050cdddd7a9af2a6c72818b846f8" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>CATIATranslator.Form1.Form1</definition>
+        <argsstring>()</argsstring>
+        <name>Form1</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/CATIATranslator/Form1.cs" line="37" column="1" bodyfile="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/CATIATranslator/Form1.cs" bodystart="37" bodyend="40"/>
+        <references refid="class_c_a_t_i_a_translator_1_1_form1_1a5f78223840a87d02aad0793a08ec8225" compoundref="_form1_8_designer_8cs" startline="29" endline="171">CATIATranslator.Form1.InitializeComponent</references>
+      </memberdef>
+      <memberdef kind="function" id="class_c_a_t_i_a_translator_1_1_form1_1abe4ec2916b46659337251703f66cca36" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>string</type>
+        <definition>string CATIATranslator.Form1.CATPartOpenDialog</definition>
+        <argsstring>()</argsstring>
+        <name>CATPartOpenDialog</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/CATIATranslator/Form1.cs" line="297" column="1" bodyfile="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/CATIATranslator/Form1.cs" bodystart="297" bodyend="324"/>
+        <referencedby refid="class_c_a_t_i_a_translator_1_1_form1_1acfe155afe3d23f51ac8cb36919fd5768" compoundref="_form1_8cs" startline="45" endline="63">CATIATranslator.Form1.button1_Click</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_c_a_t_i_a_translator_1_1_form1_1a7bbcb8ea5979ccfb935fdddb627a663e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>string</type>
+        <definition>string CATIATranslator.Form1.CATPartSaveDialog</definition>
+        <argsstring>()</argsstring>
+        <name>CATPartSaveDialog</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/CATIATranslator/Form1.cs" line="326" column="1" bodyfile="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/CATIATranslator/Form1.cs" bodystart="326" bodyend="353"/>
+        <referencedby refid="class_c_a_t_i_a_translator_1_1_form1_1a2f38bcac1ec3f3b7efb1148984a93f3f" compoundref="_form1_8cs" startline="66" endline="86">CATIATranslator.Form1.button2_Click</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_c_a_t_i_a_translator_1_1_form1_1a789c4f6c0b0a3317428b85a1ae716a1d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>string</type>
+        <definition>string CATIATranslator.Form1.CATScriptOpenDialog</definition>
+        <argsstring>()</argsstring>
+        <name>CATScriptOpenDialog</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/CATIATranslator/Form1.cs" line="355" column="1" bodyfile="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/CATIATranslator/Form1.cs" bodystart="355" bodyend="382"/>
+        <referencedby refid="class_c_a_t_i_a_translator_1_1_form1_1a8acaee5459783c66d2d564283fd5653e" compoundref="_form1_8cs" startline="91" endline="195">CATIATranslator.Form1.button3_Click_1</referencedby>
+        <referencedby refid="class_c_a_t_i_a_translator_1_1_form1_1a6374dccae22f5c0f3d28ac2d6a8fa884" compoundref="_form1_8cs" startline="243" endline="272">CATIATranslator.Form1.button5_Click_1</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_c_a_t_i_a_translator_1_1_form1_1af78fe81974f6b68c27958e81dcd2d98b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>string</type>
+        <definition>string CATIATranslator.Form1.CATScriptSaveDialog</definition>
+        <argsstring>()</argsstring>
+        <name>CATScriptSaveDialog</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/CATIATranslator/Form1.cs" line="384" column="1" bodyfile="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/CATIATranslator/Form1.cs" bodystart="384" bodyend="411"/>
+        <referencedby refid="class_c_a_t_i_a_translator_1_1_form1_1a64882cf43e95a039a40f67a17a9d6c6e" compoundref="_form1_8cs" startline="198" endline="234">CATIATranslator.Form1.button4_Click_1</referencedby>
+        <referencedby refid="class_c_a_t_i_a_translator_1_1_form1_1ab65cbed52fcdba8412effc409d961e0d" compoundref="_form1_8cs" startline="275" endline="289">CATIATranslator.Form1.button6_Click_1</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_c_a_t_i_a_translator_1_1_form1_1a1fda946e60a7ee2a508602259ee1adc4" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>string</type>
+        <definition>string CATIATranslator.Form1.CATAssemblyOpenDialog</definition>
+        <argsstring>()</argsstring>
+        <name>CATAssemblyOpenDialog</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/CATIATranslator/Form1.cs" line="413" column="1" bodyfile="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/CATIATranslator/Form1.cs" bodystart="413" bodyend="440"/>
+      </memberdef>
+      <memberdef kind="function" id="class_c_a_t_i_a_translator_1_1_form1_1a66c58d2a4f2772a7521f2e2cec7583a4" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>string</type>
+        <definition>string CATIATranslator.Form1.CATAssemblySaveDialog</definition>
+        <argsstring>()</argsstring>
+        <name>CATAssemblySaveDialog</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/CATIATranslator/Form1.cs" line="442" column="1" bodyfile="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/CATIATranslator/Form1.cs" bodystart="442" bodyend="469"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_c_a_t_i_a_translator_1_1_form1_1acfe155afe3d23f51ac8cb36919fd5768" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void CATIATranslator.Form1.button1_Click</definition>
+        <argsstring>(object sender, EventArgs e)</argsstring>
+        <name>button1_Click</name>
+        <param>
+          <type>object</type>
+          <declname>sender</declname>
+        </param>
+        <param>
+          <type>EventArgs</type>
+          <declname>e</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/CATIATranslator/Form1.cs" line="45" column="1" bodyfile="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/CATIATranslator/Form1.cs" bodystart="45" bodyend="63"/>
+        <references refid="class_c_a_t_i_a_translator_1_1_form1_1abe4ec2916b46659337251703f66cca36" compoundref="_form1_8cs" startline="297" endline="324">CATIATranslator.Form1.CATPartOpenDialog</references>
+        <references refid="class_c_a_t_i_a_translator_1_1_part_1ae4fec9ff28eb930f5f2271034679308b" compoundref="_part_8cs" startline="48" endline="87">CATIATranslator.Part.InitializeCATIA</references>
+      </memberdef>
+      <memberdef kind="function" id="class_c_a_t_i_a_translator_1_1_form1_1a2f38bcac1ec3f3b7efb1148984a93f3f" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void CATIATranslator.Form1.button2_Click</definition>
+        <argsstring>(object sender, EventArgs e)</argsstring>
+        <name>button2_Click</name>
+        <param>
+          <type>object</type>
+          <declname>sender</declname>
+        </param>
+        <param>
+          <type>EventArgs</type>
+          <declname>e</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/CATIATranslator/Form1.cs" line="66" column="1" bodyfile="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/CATIATranslator/Form1.cs" bodystart="66" bodyend="86"/>
+        <references refid="class_c_a_t_i_a_translator_1_1_form1_1a7bbcb8ea5979ccfb935fdddb627a663e" compoundref="_form1_8cs" startline="326" endline="353">CATIATranslator.Form1.CATPartSaveDialog</references>
+        <references refid="class_c_a_t_i_a_translator_1_1_part_1a52ba4965203633fc29560d9acd758d6f" compoundref="_part_8cs" startline="213" endline="253">CATIATranslator.Part.InitializeTransCAD</references>
+      </memberdef>
+      <memberdef kind="function" id="class_c_a_t_i_a_translator_1_1_form1_1a8acaee5459783c66d2d564283fd5653e" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void CATIATranslator.Form1.button3_Click_1</definition>
+        <argsstring>(object sender, EventArgs e)</argsstring>
+        <name>button3_Click_1</name>
+        <param>
+          <type>object</type>
+          <declname>sender</declname>
+        </param>
+        <param>
+          <type>EventArgs</type>
+          <declname>e</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/CATIATranslator/Form1.cs" line="91" column="1" bodyfile="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/CATIATranslator/Form1.cs" bodystart="91" bodyend="195"/>
+        <references refid="class_c_a_t_i_a_translator_1_1_form1_1a789c4f6c0b0a3317428b85a1ae716a1d" compoundref="_form1_8cs" startline="355" endline="382">CATIATranslator.Form1.CATScriptOpenDialog</references>
+        <references refid="struct_constraint_info_1a5246616a66724677f7ae4fa0bf597999" compoundref="_form1_8cs" startline="28">ConstraintInfo.master_ref</references>
+        <references refid="struct_constraint_info_1a309fae948189e4453c59850aa7b0d1f0" compoundref="_form1_8cs" startline="29">ConstraintInfo.slave_ref</references>
+      </memberdef>
+      <memberdef kind="function" id="class_c_a_t_i_a_translator_1_1_form1_1a64882cf43e95a039a40f67a17a9d6c6e" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void CATIATranslator.Form1.button4_Click_1</definition>
+        <argsstring>(object sender, EventArgs e)</argsstring>
+        <name>button4_Click_1</name>
+        <param>
+          <type>object</type>
+          <declname>sender</declname>
+        </param>
+        <param>
+          <type>EventArgs</type>
+          <declname>e</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/CATIATranslator/Form1.cs" line="198" column="1" bodyfile="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/CATIATranslator/Form1.cs" bodystart="198" bodyend="234"/>
+        <references refid="class_c_a_t_i_a_translator_1_1_form1_1af78fe81974f6b68c27958e81dcd2d98b" compoundref="_form1_8cs" startline="384" endline="411">CATIATranslator.Form1.CATScriptSaveDialog</references>
+      </memberdef>
+      <memberdef kind="function" id="class_c_a_t_i_a_translator_1_1_form1_1a6374dccae22f5c0f3d28ac2d6a8fa884" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void CATIATranslator.Form1.button5_Click_1</definition>
+        <argsstring>(object sender, EventArgs e)</argsstring>
+        <name>button5_Click_1</name>
+        <param>
+          <type>object</type>
+          <declname>sender</declname>
+        </param>
+        <param>
+          <type>EventArgs</type>
+          <declname>e</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/CATIATranslator/Form1.cs" line="243" column="1" bodyfile="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/CATIATranslator/Form1.cs" bodystart="243" bodyend="272"/>
+        <references refid="class_c_a_t_i_a_translator_1_1_form1_1a789c4f6c0b0a3317428b85a1ae716a1d" compoundref="_form1_8cs" startline="355" endline="382">CATIATranslator.Form1.CATScriptOpenDialog</references>
+        <references refid="_c_a_t_i_apre_8h_1afc0d0c3dfd86863834cd6a3d772714c8" compoundref="_c_a_t_i_apost___d_l_l_8cpp" startline="31">g_spApplication</references>
+        <references refid="class_c_a_t_i_a_translator_1_1_form1_1ae69d2a6bb65785080ed022d5fbfc7d30" compoundref="_form1_8cs" startline="240">CATIATranslator.Form1.m_DLL</references>
+        <references refid="class_c_a_t_i_a_translator_1_1_part_script___dll_1adf57f61d9d532a2ec58fa17e64796d28" compoundref="_part_script___dll_8cs" startline="11">CATIATranslator.PartScript_Dll.TransStatus</references>
+      </memberdef>
+      <memberdef kind="function" id="class_c_a_t_i_a_translator_1_1_form1_1ab65cbed52fcdba8412effc409d961e0d" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void CATIATranslator.Form1.button6_Click_1</definition>
+        <argsstring>(object sender, EventArgs e)</argsstring>
+        <name>button6_Click_1</name>
+        <param>
+          <type>object</type>
+          <declname>sender</declname>
+        </param>
+        <param>
+          <type>EventArgs</type>
+          <declname>e</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/CATIATranslator/Form1.cs" line="275" column="1" bodyfile="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/CATIATranslator/Form1.cs" bodystart="275" bodyend="289"/>
+        <references refid="class_c_a_t_i_a_translator_1_1_form1_1af78fe81974f6b68c27958e81dcd2d98b" compoundref="_form1_8cs" startline="384" endline="411">CATIATranslator.Form1.CATScriptSaveDialog</references>
+      </memberdef>
+      <memberdef kind="function" id="class_c_a_t_i_a_translator_1_1_form1_1af265c41202a2f5eaad14abd2e0d280c8" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void CATIATranslator.Form1.Form1_Load</definition>
+        <argsstring>(object sender, EventArgs e)</argsstring>
+        <name>Form1_Load</name>
+        <param>
+          <type>object</type>
+          <declname>sender</declname>
+        </param>
+        <param>
+          <type>EventArgs</type>
+          <declname>e</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/CATIATranslator/Form1.cs" line="471" column="1" bodyfile="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/CATIATranslator/Form1.cs" bodystart="471" bodyend="474"/>
+      </memberdef>
+      <memberdef kind="function" id="class_c_a_t_i_a_translator_1_1_form1_1af334454212705315462568b9420555ec" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void CATIATranslator.Form1.label1_Click</definition>
+        <argsstring>(object sender, EventArgs e)</argsstring>
+        <name>label1_Click</name>
+        <param>
+          <type>object</type>
+          <declname>sender</declname>
+        </param>
+        <param>
+          <type>EventArgs</type>
+          <declname>e</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/CATIATranslator/Form1.cs" line="476" column="1" bodyfile="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/CATIATranslator/Form1.cs" bodystart="476" bodyend="479"/>
+      </memberdef>
+      <memberdef kind="function" id="class_c_a_t_i_a_translator_1_1_form1_1a25c460b8775680a5057a9bc06377df7d" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void CATIATranslator.Form1.label2_Click</definition>
+        <argsstring>(object sender, EventArgs e)</argsstring>
+        <name>label2_Click</name>
+        <param>
+          <type>object</type>
+          <declname>sender</declname>
+        </param>
+        <param>
+          <type>EventArgs</type>
+          <declname>e</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/CATIATranslator/Form1.cs" line="481" column="1" bodyfile="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/CATIATranslator/Form1.cs" bodystart="481" bodyend="484"/>
+      </memberdef>
+      <memberdef kind="function" id="class_c_a_t_i_a_translator_1_1_form1_1ad2390c053ceeba307ce00d9dc95ce2c6" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void CATIATranslator.Form1.label3_Click</definition>
+        <argsstring>(object sender, EventArgs e)</argsstring>
+        <name>label3_Click</name>
+        <param>
+          <type>object</type>
+          <declname>sender</declname>
+        </param>
+        <param>
+          <type>EventArgs</type>
+          <declname>e</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/CATIATranslator/Form1.cs" line="486" column="1" bodyfile="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/CATIATranslator/Form1.cs" bodystart="486" bodyend="489"/>
+      </memberdef>
+      <memberdef kind="function" id="class_c_a_t_i_a_translator_1_1_form1_1a5f78223840a87d02aad0793a08ec8225" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void CATIATranslator.Form1.InitializeComponent</definition>
+        <argsstring>()</argsstring>
+        <name>InitializeComponent</name>
+        <briefdescription>
+<para>디자이너 지원에 필요한 메서드입니다. 이 메서드의 내용을 코드 편집기로 수정하지 마십시오. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/CATIATranslator/Form1.Designer.cs" line="29" column="1" bodyfile="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/CATIATranslator/Form1.Designer.cs" bodystart="29" bodyend="171"/>
+        <referencedby refid="class_c_a_t_i_a_translator_1_1_form1_1a94b5050cdddd7a9af2a6c72818b846f8" compoundref="_form1_8cs" startline="37" endline="40">CATIATranslator.Form1.Form1</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="protected-func">
+      <memberdef kind="function" id="class_c_a_t_i_a_translator_1_1_form1_1abcb7ca869bde80d07f5da1a2eb1d05ce" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>override void</type>
+        <definition>override void CATIATranslator.Form1.Dispose</definition>
+        <argsstring>(bool disposing)</argsstring>
+        <name>Dispose</name>
+        <param>
+          <type>bool</type>
+          <declname>disposing</declname>
+        </param>
+        <briefdescription>
+<para>사용 중인 모든 리소스를 정리합니다. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>disposing</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>관리되는 리소스를 삭제해야 하면 true이고, 그렇지 않으면 false입니다.</para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/CATIATranslator/Form1.Designer.cs" line="14" column="1" bodyfile="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/CATIATranslator/Form1.Designer.cs" bodystart="14" bodyend="21"/>
+        <references refid="class_c_a_t_i_a_translator_1_1_form1_1ae880abc25c8a38a6f834953ad7d3e5a0" compoundref="_form1_8_designer_8cs" startline="8">CATIATranslator.Form1.components</references>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="896">
+        <label>Form</label>
+      </node>
+      <node id="895">
+        <label>CATIATranslator.Form1</label>
+        <link refid="class_c_a_t_i_a_translator_1_1_form1"/>
+        <childnode refid="896" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="898">
+        <label>Form</label>
+      </node>
+      <node id="900">
+        <label>System</label>
+      </node>
+      <node id="897">
+        <label>CATIATranslator.Form1</label>
+        <link refid="class_c_a_t_i_a_translator_1_1_form1"/>
+        <childnode refid="898" relation="public-inheritance">
+        </childnode>
+        <childnode refid="899" relation="usage">
+          <edgelabel>m_DLL</edgelabel>
+        </childnode>
+        <childnode refid="900" relation="usage">
+          <edgelabel>button4</edgelabel>
+          <edgelabel>label1</edgelabel>
+          <edgelabel>button5</edgelabel>
+          <edgelabel>label2</edgelabel>
+          <edgelabel>button6</edgelabel>
+          <edgelabel>label3</edgelabel>
+          <edgelabel>components</edgelabel>
+          <edgelabel>button1</edgelabel>
+          <edgelabel>button2</edgelabel>
+          <edgelabel>button3</edgelabel>
+          <edgelabel>...</edgelabel>
+        </childnode>
+      </node>
+      <node id="899">
+        <label>CATIATranslator.PartScript_Dll</label>
+        <link refid="class_c_a_t_i_a_translator_1_1_part_script___dll"/>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/CATIATranslator/Form1.cs" line="36" column="1" bodyfile="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/CATIATranslator/Form1.cs" bodystart="35" bodyend="490"/>
+    <listofallmembers>
+      <member refid="class_c_a_t_i_a_translator_1_1_form1_1afeb817cca056598f361ede87b5e247e6" prot="private" virt="non-virtual"><scope>CATIATranslator::Form1</scope><name>button1</name></member>
+      <member refid="class_c_a_t_i_a_translator_1_1_form1_1acfe155afe3d23f51ac8cb36919fd5768" prot="private" virt="non-virtual"><scope>CATIATranslator::Form1</scope><name>button1_Click</name></member>
+      <member refid="class_c_a_t_i_a_translator_1_1_form1_1ae8a8b1d2fc49bc882a2c2b8ef7ee23ff" prot="private" virt="non-virtual"><scope>CATIATranslator::Form1</scope><name>button2</name></member>
+      <member refid="class_c_a_t_i_a_translator_1_1_form1_1a2f38bcac1ec3f3b7efb1148984a93f3f" prot="private" virt="non-virtual"><scope>CATIATranslator::Form1</scope><name>button2_Click</name></member>
+      <member refid="class_c_a_t_i_a_translator_1_1_form1_1a1eb77aa1326a20dbde0b2e134392169f" prot="private" virt="non-virtual"><scope>CATIATranslator::Form1</scope><name>button3</name></member>
+      <member refid="class_c_a_t_i_a_translator_1_1_form1_1a8acaee5459783c66d2d564283fd5653e" prot="private" virt="non-virtual"><scope>CATIATranslator::Form1</scope><name>button3_Click_1</name></member>
+      <member refid="class_c_a_t_i_a_translator_1_1_form1_1ae191ab49e9b6fb9f2bee284fc141ef54" prot="private" virt="non-virtual"><scope>CATIATranslator::Form1</scope><name>button4</name></member>
+      <member refid="class_c_a_t_i_a_translator_1_1_form1_1a64882cf43e95a039a40f67a17a9d6c6e" prot="private" virt="non-virtual"><scope>CATIATranslator::Form1</scope><name>button4_Click_1</name></member>
+      <member refid="class_c_a_t_i_a_translator_1_1_form1_1a9a1aede88ecb4ae8c9d4108eb7544864" prot="private" virt="non-virtual"><scope>CATIATranslator::Form1</scope><name>button5</name></member>
+      <member refid="class_c_a_t_i_a_translator_1_1_form1_1a6374dccae22f5c0f3d28ac2d6a8fa884" prot="private" virt="non-virtual"><scope>CATIATranslator::Form1</scope><name>button5_Click_1</name></member>
+      <member refid="class_c_a_t_i_a_translator_1_1_form1_1ac1e7d75e9945c45e9f99bdc9b2896361" prot="private" virt="non-virtual"><scope>CATIATranslator::Form1</scope><name>button6</name></member>
+      <member refid="class_c_a_t_i_a_translator_1_1_form1_1ab65cbed52fcdba8412effc409d961e0d" prot="private" virt="non-virtual"><scope>CATIATranslator::Form1</scope><name>button6_Click_1</name></member>
+      <member refid="class_c_a_t_i_a_translator_1_1_form1_1a1fda946e60a7ee2a508602259ee1adc4" prot="public" virt="non-virtual"><scope>CATIATranslator::Form1</scope><name>CATAssemblyOpenDialog</name></member>
+      <member refid="class_c_a_t_i_a_translator_1_1_form1_1a66c58d2a4f2772a7521f2e2cec7583a4" prot="public" virt="non-virtual"><scope>CATIATranslator::Form1</scope><name>CATAssemblySaveDialog</name></member>
+      <member refid="class_c_a_t_i_a_translator_1_1_form1_1abe4ec2916b46659337251703f66cca36" prot="public" virt="non-virtual"><scope>CATIATranslator::Form1</scope><name>CATPartOpenDialog</name></member>
+      <member refid="class_c_a_t_i_a_translator_1_1_form1_1a7bbcb8ea5979ccfb935fdddb627a663e" prot="public" virt="non-virtual"><scope>CATIATranslator::Form1</scope><name>CATPartSaveDialog</name></member>
+      <member refid="class_c_a_t_i_a_translator_1_1_form1_1a789c4f6c0b0a3317428b85a1ae716a1d" prot="public" virt="non-virtual"><scope>CATIATranslator::Form1</scope><name>CATScriptOpenDialog</name></member>
+      <member refid="class_c_a_t_i_a_translator_1_1_form1_1af78fe81974f6b68c27958e81dcd2d98b" prot="public" virt="non-virtual"><scope>CATIATranslator::Form1</scope><name>CATScriptSaveDialog</name></member>
+      <member refid="class_c_a_t_i_a_translator_1_1_form1_1ae880abc25c8a38a6f834953ad7d3e5a0" prot="private" virt="non-virtual"><scope>CATIATranslator::Form1</scope><name>components</name></member>
+      <member refid="class_c_a_t_i_a_translator_1_1_form1_1abcb7ca869bde80d07f5da1a2eb1d05ce" prot="protected" virt="non-virtual"><scope>CATIATranslator::Form1</scope><name>Dispose</name></member>
+      <member refid="class_c_a_t_i_a_translator_1_1_form1_1a94b5050cdddd7a9af2a6c72818b846f8" prot="public" virt="non-virtual"><scope>CATIATranslator::Form1</scope><name>Form1</name></member>
+      <member refid="class_c_a_t_i_a_translator_1_1_form1_1af265c41202a2f5eaad14abd2e0d280c8" prot="private" virt="non-virtual"><scope>CATIATranslator::Form1</scope><name>Form1_Load</name></member>
+      <member refid="class_c_a_t_i_a_translator_1_1_form1_1a5f78223840a87d02aad0793a08ec8225" prot="private" virt="non-virtual"><scope>CATIATranslator::Form1</scope><name>InitializeComponent</name></member>
+      <member refid="class_c_a_t_i_a_translator_1_1_form1_1a3a63b5181ddb868dcef7f52a687cf1ec" prot="private" virt="non-virtual"><scope>CATIATranslator::Form1</scope><name>label1</name></member>
+      <member refid="class_c_a_t_i_a_translator_1_1_form1_1af334454212705315462568b9420555ec" prot="private" virt="non-virtual"><scope>CATIATranslator::Form1</scope><name>label1_Click</name></member>
+      <member refid="class_c_a_t_i_a_translator_1_1_form1_1a96f2747060699bb42f31253d0a985f3f" prot="private" virt="non-virtual"><scope>CATIATranslator::Form1</scope><name>label2</name></member>
+      <member refid="class_c_a_t_i_a_translator_1_1_form1_1a25c460b8775680a5057a9bc06377df7d" prot="private" virt="non-virtual"><scope>CATIATranslator::Form1</scope><name>label2_Click</name></member>
+      <member refid="class_c_a_t_i_a_translator_1_1_form1_1a5498fb7d68af957ecb2819cd00047144" prot="private" virt="non-virtual"><scope>CATIATranslator::Form1</scope><name>label3</name></member>
+      <member refid="class_c_a_t_i_a_translator_1_1_form1_1ad2390c053ceeba307ce00d9dc95ce2c6" prot="private" virt="non-virtual"><scope>CATIATranslator::Form1</scope><name>label3_Click</name></member>
+      <member refid="class_c_a_t_i_a_translator_1_1_form1_1ae69d2a6bb65785080ed022d5fbfc7d30" prot="private" virt="non-virtual"><scope>CATIATranslator::Form1</scope><name>m_DLL</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

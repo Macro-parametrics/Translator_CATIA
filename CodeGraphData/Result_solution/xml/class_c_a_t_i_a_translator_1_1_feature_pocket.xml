@@ -1,0 +1,157 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_c_a_t_i_a_translator_1_1_feature_pocket" kind="class" prot="public">
+    <compoundname>CATIATranslator::FeaturePocket</compoundname>
+    <basecompoundref refid="class_c_a_t_i_a_translator_1_1_feature" prot="public" virt="non-virtual">CATIATranslator.Feature</basecompoundref>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_c_a_t_i_a_translator_1_1_feature_pocket_1ac55d4e623f591e289b560f96f50647c8" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>CATIATranslator.FeaturePocket.FeaturePocket</definition>
+        <argsstring>(Part PartManager)</argsstring>
+        <name>FeaturePocket</name>
+        <param>
+          <type><ref refid="class_c_a_t_i_a_translator_1_1_part" kindref="compound">Part</ref></type>
+          <declname>PartManager</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/CATIATranslator/Part/Feature/FeaturePocket.cs" line="6" column="1" bodyfile="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/CATIATranslator/Part/Feature/FeaturePocket.cs" bodystart="6" bodyend="9"/>
+        <references refid="class_c_a_t_i_a_translator_1_1_feature_1ad90561702fbff5b6fc8f87cdf9531751" compoundref="_feature_8cs" startline="6">CATIATranslator.Feature.PartManager</references>
+      </memberdef>
+      <memberdef kind="function" id="class_c_a_t_i_a_translator_1_1_feature_pocket_1aec5ac0a75ba18a81244db2cd5ae957b2" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>override void</type>
+        <definition>override void CATIATranslator.FeaturePocket.TranslateC2T</definition>
+        <argsstring>(MECMOD.Shape cShape)</argsstring>
+        <name>TranslateC2T</name>
+        <reimplements refid="class_c_a_t_i_a_translator_1_1_feature_1a4ca679cb7db6b544a062441f9c46995e">TranslateC2T</reimplements>
+        <param>
+          <type>MECMOD.Shape</type>
+          <declname>cShape</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/CATIATranslator/Part/Feature/FeaturePocket.cs" line="12" column="1" bodyfile="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/CATIATranslator/Part/Feature/FeaturePocket.cs" bodystart="12" bodyend="39"/>
+        <references refid="class_c_a_t_i_a_translator_1_1_feature_1ad90561702fbff5b6fc8f87cdf9531751" compoundref="_feature_8cs" startline="6">CATIATranslator.Feature.PartManager</references>
+      </memberdef>
+      <memberdef kind="function" id="class_c_a_t_i_a_translator_1_1_feature_pocket_1ad7f9a075c0e00897ee6adcc7dbbbf67a" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>override void</type>
+        <definition>override void CATIATranslator.FeaturePocket.TranslateT2C</definition>
+        <argsstring>(TransCAD.IFeature tFeature)</argsstring>
+        <name>TranslateT2C</name>
+        <reimplements refid="class_c_a_t_i_a_translator_1_1_feature_1a9b3c6155e1ff78f54afdeecc4c422129">TranslateT2C</reimplements>
+        <param>
+          <type>TransCAD.IFeature</type>
+          <declname>tFeature</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/CATIATranslator/Part/Feature/FeaturePocket.cs" line="42" column="1" bodyfile="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/CATIATranslator/Part/Feature/FeaturePocket.cs" bodystart="42" bodyend="76"/>
+        <references refid="class_c_a_t_i_a_translator_1_1_feature_1ad90561702fbff5b6fc8f87cdf9531751" compoundref="_feature_8cs" startline="6">CATIATranslator.Feature.PartManager</references>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="478">
+        <label>CATIATranslator.FeaturePocket</label>
+        <link refid="class_c_a_t_i_a_translator_1_1_feature_pocket"/>
+        <childnode refid="479" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="479">
+        <label>Feature</label>
+        <link refid="class_c_a_t_i_a_translator_1_1_feature"/>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="483">
+        <label>TransCAD</label>
+      </node>
+      <node id="480">
+        <label>CATIATranslator.FeaturePocket</label>
+        <link refid="class_c_a_t_i_a_translator_1_1_feature_pocket"/>
+        <childnode refid="481" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="484">
+        <label>CATIATranslator.Reference</label>
+        <link refid="class_c_a_t_i_a_translator_1_1_reference"/>
+        <childnode refid="485" relation="usage">
+          <edgelabel>assembly</edgelabel>
+        </childnode>
+        <childnode refid="482" relation="usage">
+          <edgelabel>PartManager</edgelabel>
+        </childnode>
+      </node>
+      <node id="482">
+        <label>CATIATranslator.Part</label>
+        <link refid="class_c_a_t_i_a_translator_1_1_part"/>
+        <childnode refid="483" relation="usage">
+          <edgelabel>tAssemDoc</edgelabel>
+          <edgelabel>tApp</edgelabel>
+          <edgelabel>tPartDoc</edgelabel>
+          <edgelabel>tDocs</edgelabel>
+          <edgelabel>tFeatures</edgelabel>
+          <edgelabel>tAssem</edgelabel>
+          <edgelabel>tComp</edgelabel>
+          <edgelabel>tPart</edgelabel>
+        </childnode>
+        <childnode refid="484" relation="usage">
+          <edgelabel>ReferenceManager</edgelabel>
+        </childnode>
+        <childnode refid="482" relation="usage">
+          <edgelabel>cPart</edgelabel>
+        </childnode>
+      </node>
+      <node id="481">
+        <label>Feature</label>
+        <link refid="class_c_a_t_i_a_translator_1_1_feature"/>
+        <childnode refid="482" relation="usage">
+          <edgelabel>PartManager</edgelabel>
+        </childnode>
+      </node>
+      <node id="485">
+        <label>CATIATranslator.Assembly</label>
+        <link refid="class_c_a_t_i_a_translator_1_1_assembly"/>
+        <childnode refid="483" relation="usage">
+          <edgelabel>tConstraints</edgelabel>
+          <edgelabel>tAssemDoc</edgelabel>
+          <edgelabel>tApp</edgelabel>
+          <edgelabel>tPartDoc</edgelabel>
+          <edgelabel>tDocs</edgelabel>
+          <edgelabel>tFeatures</edgelabel>
+          <edgelabel>tAssem</edgelabel>
+          <edgelabel>tComp</edgelabel>
+          <edgelabel>tPart</edgelabel>
+        </childnode>
+        <childnode refid="484" relation="usage">
+          <edgelabel>ReferenceManager</edgelabel>
+        </childnode>
+        <childnode refid="482" relation="usage">
+          <edgelabel>cPart</edgelabel>
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/CATIATranslator/Part/Feature/FeaturePocket.cs" line="5" column="1" bodyfile="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/CATIATranslator/Part/Feature/FeaturePocket.cs" bodystart="4" bodyend="77"/>
+    <listofallmembers>
+      <member refid="class_c_a_t_i_a_translator_1_1_feature_pocket_1ac55d4e623f591e289b560f96f50647c8" prot="public" virt="non-virtual"><scope>CATIATranslator::FeaturePocket</scope><name>FeaturePocket</name></member>
+      <member refid="class_c_a_t_i_a_translator_1_1_feature_1ad90561702fbff5b6fc8f87cdf9531751" prot="public" virt="non-virtual"><scope>CATIATranslator::FeaturePocket</scope><name>PartManager</name></member>
+      <member refid="class_c_a_t_i_a_translator_1_1_feature_pocket_1aec5ac0a75ba18a81244db2cd5ae957b2" prot="public" virt="virtual"><scope>CATIATranslator::FeaturePocket</scope><name>TranslateC2T</name></member>
+      <member refid="class_c_a_t_i_a_translator_1_1_feature_pocket_1ad7f9a075c0e00897ee6adcc7dbbbf67a" prot="public" virt="virtual"><scope>CATIATranslator::FeaturePocket</scope><name>TranslateT2C</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

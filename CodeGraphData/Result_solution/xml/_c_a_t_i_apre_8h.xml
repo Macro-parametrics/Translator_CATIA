@@ -1,0 +1,67 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="_c_a_t_i_apre_8h" kind="file">
+    <compoundname>CATIApre.h</compoundname>
+    <includes local="no">atlbase.h</includes>
+    <includes local="no">atlstr.h</includes>
+    <incdepgraph>
+      <node id="3158">
+        <label>atlstr.h</label>
+      </node>
+      <node id="3156">
+        <label>PreManager/ref/CATIApre.h</label>
+        <link refid="CATIApre.h"/>
+        <childnode refid="3157" relation="include">
+        </childnode>
+        <childnode refid="3158" relation="include">
+        </childnode>
+      </node>
+      <node id="3157">
+        <label>atlbase.h</label>
+      </node>
+    </incdepgraph>
+      <sectiondef kind="var">
+      <memberdef kind="variable" id="_c_a_t_i_apre_8h_1afc0d0c3dfd86863834cd6a3d772714c8" prot="public" static="no" mutable="no">
+        <type>TransCAD::IApplicationPtr</type>
+        <definition>TransCAD::IApplicationPtr g_spApplication</definition>
+        <argsstring></argsstring>
+        <name>g_spApplication</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/PreManager/ref/CATIApre.h" line="8" column="1" bodyfile="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/PostManager/ref/CATIApost_DLL.cpp" bodystart="31" bodyend="-1"/>
+        <referencedby refid="class_reference_class_1_1ref___post_1ac19c799206473a3eff81a0e106675b28" compoundref="_reference_class___post_8cpp" startline="96" endline="139">ReferenceClass::ref_Post::AssemblyPartT2C</referencedby>
+        <referencedby refid="class_c_a_t_i_a_translator_1_1_form1_1a6374dccae22f5c0f3d28ac2d6a8fa884" compoundref="_form1_8cs" startline="243" endline="272">CATIATranslator.Form1.button5_Click_1</referencedby>
+        <referencedby refid="namespace_post_1ab52e0fdbee71689753553a608c714d13" compoundref="_c_a_t_i_apost___d_l_l_8cpp" startline="35" endline="58">Post::CATIAPostStartService</referencedby>
+        <referencedby refid="namespace_post_1a03a52362c2b8f0e17b6b0438ba6d7910" compoundref="_c_a_t_i_apost___d_l_l_8cpp" startline="60" endline="109">Post::CATIAPostTranslate</referencedby>
+        <referencedby refid="namespace_pre_1af67ebdb899e0a91d6f1c6661909ed8e8" compoundref="_c_a_t_i_apre___d_l_l_8cpp" startline="19" endline="41">Pre::CATIAPreStartService</referencedby>
+        <referencedby refid="namespace_pre_1a79a6f4543e08e216a906e708840f64a3" compoundref="_c_a_t_i_apre___d_l_l_8cpp" startline="64" endline="96">Pre::CATIAPreTranslateAssem</referencedby>
+        <referencedby refid="class_reference_class_1_1ref___post_1a7aaf4a9810744d048c43799edafe81f2" compoundref="_reference_class___post_8cpp" startline="41" endline="88">ReferenceClass::ref_Post::ConvertRefPost</referencedby>
+        <referencedby refid="class_reference_class_1_1ref___pre_1a83c8590946e5baf2c304cfc3d9526cc7" compoundref="_reference_class___pre_8cpp" startline="16" endline="35">ReferenceClass::ref_Pre::ref_Pre</referencedby>
+        <referencedby refid="class_reference_class_1_1ref___pre_1af46f69f170b7626db974e08e24894353" compoundref="_reference_class___pre_8cpp" startline="66" endline="121">ReferenceClass::ref_Pre::TestEnvironment</referencedby>
+        <referencedby refid="class_post_1_1_part_1a6d8e1e6c3200a296bb301df7e52221d3" compoundref="_post_manager_2ref_2_part_8cpp" startline="149" endline="162">Post::Part::~Part</referencedby>
+        <referencedby refid="class_pre_1_1_part_1a2eae23bb6af40588fa085f0cca5fd95f" compoundref="_pre_manager_2ref_2_part_8cpp" startline="101" endline="115">Pre::Part::~Part</referencedby>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="preprocessor">#pragma<sp/>once</highlight></codeline>
+<codeline lineno="2"><highlight class="preprocessor"></highlight><highlight class="preprocessor">#include<sp/>&lt;atlbase.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;atlstr.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight><highlight class="comment">//#import<sp/>&quot;C:\\Program<sp/>Files<sp/>(x86)\\MACRO\\TransCAD\\TransCAD.exe&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight><highlight class="preprocessor">#import<sp/>&quot;C:\\Program<sp/>Files<sp/>(x86)\\MACRO\\TransCAD\\TransCAD.exe&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/>TransCAD::IApplicationPtr<sp/><ref refid="_c_a_t_i_apre_8h_1afc0d0c3dfd86863834cd6a3d772714c8" kindref="member">g_spApplication</ref>;</highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight></codeline>
+<codeline lineno="10"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>DIR_PATH<sp/>&quot;C:\\Users\\SOONJOY\\Desktop\\&quot;</highlight></codeline>
+    </programlisting>
+    <location file="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/PreManager/ref/CATIApre.h"/>
+  </compounddef>
+</doxygen>

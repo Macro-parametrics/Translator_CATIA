@@ -1,0 +1,941 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_pre_1_1_part" kind="class" prot="public">
+    <compoundname>Pre::Part</compoundname>
+    <includes refid="_pre_manager_2ref_2_part_8h" local="no">Part.h</includes>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_pre_1_1_part_1ab44f91ae378f3d72eb1bd3f1544c5429" prot="public" static="no" mutable="no">
+        <type>ifstream</type>
+        <definition>ifstream Pre::Part::fin</definition>
+        <argsstring></argsstring>
+        <name>fin</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/PreManager/ref/Part.h" line="49" column="1" bodyfile="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/PreManager/ref/Part.h" bodystart="49" bodyend="-1"/>
+        <referencedby refid="class_pre_1_1_part_1a8b5e2a2bbf385223d67ce40232b23e45" compoundref="_pre_manager_2ref_2_part_8cpp" startline="235" endline="308">GetInfo</referencedby>
+        <referencedby refid="class_pre_1_1_part_1a2eae23bb6af40588fa085f0cca5fd95f" compoundref="_pre_manager_2ref_2_part_8cpp" startline="101" endline="115">~Part</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_pre_1_1_part_1a499e2522dc016db3f73a8754cb36482f" prot="public" static="no" mutable="no">
+        <type>TransCAD::IDocsPtr</type>
+        <definition>TransCAD::IDocsPtr Pre::Part::_spDocuments</definition>
+        <argsstring></argsstring>
+        <name>_spDocuments</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/PreManager/ref/Part.h" line="50" column="1" bodyfile="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/PreManager/ref/Part.h" bodystart="50" bodyend="-1"/>
+        <referencedby refid="class_pre_1_1_part_1a2eae23bb6af40588fa085f0cca5fd95f" compoundref="_pre_manager_2ref_2_part_8cpp" startline="101" endline="115">~Part</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_pre_1_1_part_1a6ad325717234a2f25edbaa0dcdff7a5b" prot="public" static="no" mutable="no">
+        <type>TransCAD::IPartDocumentPtr</type>
+        <definition>TransCAD::IPartDocumentPtr Pre::Part::_spDocument</definition>
+        <argsstring></argsstring>
+        <name>_spDocument</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/PreManager/ref/Part.h" line="51" column="1" bodyfile="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/PreManager/ref/Part.h" bodystart="51" bodyend="-1"/>
+        <referencedby refid="class_pre_1_1_part_1a2eae23bb6af40588fa085f0cca5fd95f" compoundref="_pre_manager_2ref_2_part_8cpp" startline="101" endline="115">~Part</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_pre_1_1_part_1abe7d81bc84a9423e1d09c27e36125b64" prot="public" static="no" mutable="no">
+        <type>TransCAD::IPartPtr</type>
+        <definition>TransCAD::IPartPtr Pre::Part::_spPart</definition>
+        <argsstring></argsstring>
+        <name>_spPart</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/PreManager/ref/Part.h" line="52" column="1" bodyfile="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/PreManager/ref/Part.h" bodystart="52" bodyend="-1"/>
+        <referencedby refid="class_reference_class_1_1ref___pre_1af46f69f170b7626db974e08e24894353" compoundref="_reference_class___pre_8cpp" startline="66" endline="121">ReferenceClass::ref_Pre::TestEnvironment</referencedby>
+        <referencedby refid="class_pre_1_1_feature_s_o_l_i_d_create_sweep_1acd9ab6880676dd9928c91cdb448aab45" compoundref="_feature_s_o_l_i_d_create_sweep_8cpp" startline="53" endline="71">Pre::FeatureSOLIDCreateSweep::ToTransCAD</referencedby>
+        <referencedby refid="class_pre_1_1_feature_s_o_l_i_d_create_pattern_rectangular_1a4602022ba7cd0187bfa733371f653a89" compoundref="_pre_manager_2ref_2_feature_s_o_l_i_d_create_pattern_rectangular_8cpp" startline="63" endline="80">Pre::FeatureSOLIDCreatePatternRectangular::ToTransCAD</referencedby>
+        <referencedby refid="class_pre_1_1_feature_s_o_l_i_d_create_pattern_circular_1a74cc4f5b46d2c89fe0df483213f045ae" compoundref="_pre_manager_2ref_2_feature_s_o_l_i_d_create_pattern_circular_8cpp" startline="64" endline="80">Pre::FeatureSOLIDCreatePatternCircular::ToTransCAD</referencedby>
+        <referencedby refid="class_pre_1_1_feature_s_o_l_i_d_create_chamfer_1a966e05e6344c3606084d58f4ffb11331" compoundref="_pre_manager_2ref_2_feature_s_o_l_i_d_create_chamfer_8cpp" startline="57" endline="75">Pre::FeatureSOLIDCreateChamfer::ToTransCAD</referencedby>
+        <referencedby refid="class_pre_1_1_feature_s_o_l_i_d_create_revolve_1a37a17dc5281ee5ec8a1b07c3dd7b8e6a" compoundref="_feature_s_o_l_i_d_create_revolve_8cpp" startline="74" endline="105">Pre::FeatureSOLIDCreateRevolve::ToTransCAD</referencedby>
+        <referencedby refid="class_pre_1_1_feature_s_o_l_i_d_create_fillet_constant_1ae83a9a5f2cb42fff9f8c50f32394527f" compoundref="_pre_manager_2ref_2_feature_s_o_l_i_d_create_fillet_constant_8cpp" startline="48" endline="71">Pre::FeatureSOLIDCreateFilletConstant::ToTransCAD</referencedby>
+        <referencedby refid="class_pre_1_1_feature_s_o_l_i_d_create_extrude_1a58367beca79a366413642004614bfb8b" compoundref="_feature_s_o_l_i_d_create_extrude_8cpp" startline="73" endline="101">Pre::FeatureSOLIDCreateExtrude::ToTransCAD</referencedby>
+        <referencedby refid="class_pre_1_1_reference_entity_1a1e77eae25e8169dd905ddb1fcbb33691" compoundref="_reference_entity_8cpp" startline="196" endline="247">Pre::ReferenceEntity::ToTransCAD</referencedby>
+        <referencedby refid="class_pre_1_1_part_1a2eae23bb6af40588fa085f0cca5fd95f" compoundref="_pre_manager_2ref_2_part_8cpp" startline="101" endline="115">~Part</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_pre_1_1_part_1a0fa084e40ad2822e8214ba40b4751825" prot="public" static="no" mutable="no">
+        <type>TransCAD::IFeaturesPtr</type>
+        <definition>TransCAD::IFeaturesPtr Pre::Part::_spFeatures</definition>
+        <argsstring></argsstring>
+        <name>_spFeatures</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/PreManager/ref/Part.h" line="53" column="1" bodyfile="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/PreManager/ref/Part.h" bodystart="53" bodyend="-1"/>
+        <referencedby refid="class_pre_1_1_feature_s_o_l_i_d_create_sweep_1acd9ab6880676dd9928c91cdb448aab45" compoundref="_feature_s_o_l_i_d_create_sweep_8cpp" startline="53" endline="71">Pre::FeatureSOLIDCreateSweep::ToTransCAD</referencedby>
+        <referencedby refid="class_pre_1_1_f_datum_plane_offset_1abbe382247fd98bb6397e91d5e2985da1" compoundref="_pre_manager_2ref_2_f_datum_plane_offset_8cpp" startline="66" endline="87">Pre::FDatumPlaneOffset::ToTransCAD</referencedby>
+        <referencedby refid="class_pre_1_1_feature_s_o_l_i_d_create_hole_1aaa01847d6147ea534bcf1d1425a6a0fa" compoundref="_feature_s_o_l_i_d_create_hole_8cpp" startline="54" endline="75">Pre::FeatureSOLIDCreateHole::ToTransCAD</referencedby>
+        <referencedby refid="class_pre_1_1_feature_s_o_l_i_d_create_pattern_rectangular_1a4602022ba7cd0187bfa733371f653a89" compoundref="_pre_manager_2ref_2_feature_s_o_l_i_d_create_pattern_rectangular_8cpp" startline="63" endline="80">Pre::FeatureSOLIDCreatePatternRectangular::ToTransCAD</referencedby>
+        <referencedby refid="class_pre_1_1_feature_s_o_l_i_d_create_pattern_circular_1a74cc4f5b46d2c89fe0df483213f045ae" compoundref="_pre_manager_2ref_2_feature_s_o_l_i_d_create_pattern_circular_8cpp" startline="64" endline="80">Pre::FeatureSOLIDCreatePatternCircular::ToTransCAD</referencedby>
+        <referencedby refid="class_pre_1_1_feature_s_o_l_i_d_create_chamfer_1a966e05e6344c3606084d58f4ffb11331" compoundref="_pre_manager_2ref_2_feature_s_o_l_i_d_create_chamfer_8cpp" startline="57" endline="75">Pre::FeatureSOLIDCreateChamfer::ToTransCAD</referencedby>
+        <referencedby refid="class_pre_1_1_feature_s_o_l_i_d_create_revolve_1a37a17dc5281ee5ec8a1b07c3dd7b8e6a" compoundref="_feature_s_o_l_i_d_create_revolve_8cpp" startline="74" endline="105">Pre::FeatureSOLIDCreateRevolve::ToTransCAD</referencedby>
+        <referencedby refid="class_pre_1_1_feature_s_o_l_i_d_create_fillet_constant_1ae83a9a5f2cb42fff9f8c50f32394527f" compoundref="_pre_manager_2ref_2_feature_s_o_l_i_d_create_fillet_constant_8cpp" startline="48" endline="71">Pre::FeatureSOLIDCreateFilletConstant::ToTransCAD</referencedby>
+        <referencedby refid="class_pre_1_1_feature_s_o_l_i_d_create_extrude_1a58367beca79a366413642004614bfb8b" compoundref="_feature_s_o_l_i_d_create_extrude_8cpp" startline="73" endline="101">Pre::FeatureSOLIDCreateExtrude::ToTransCAD</referencedby>
+        <referencedby refid="class_pre_1_1_f_sketch_1a87e0647858ab90fe459223b5715ec08a" compoundref="_pre_manager_2ref_2_f_sketch_8cpp" startline="186" endline="208">Pre::FSketch::ToTransCAD</referencedby>
+        <referencedby refid="class_pre_1_1_part_1a2eae23bb6af40588fa085f0cca5fd95f" compoundref="_pre_manager_2ref_2_part_8cpp" startline="101" endline="115">~Part</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_pre_1_1_part_1a22ed1b89777887f99492183654b3df3a" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int Pre::Part::_partDocNum</definition>
+        <argsstring></argsstring>
+        <name>_partDocNum</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/PreManager/ref/Part.h" line="54" column="1" bodyfile="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/PreManager/ref/Part.h" bodystart="54" bodyend="-1"/>
+        <referencedby refid="class_pre_1_1_part_1aca93980dc1f1ad5f24f56e21ffa36e4b" compoundref="_pre_manager_2ref_2_part_8h" startline="41" endline="41">GetPartDocNumber</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_pre_1_1_part_1a94b230ce233726adad7d3020f95eb13d" prot="private" static="no" mutable="no">
+        <type>vector&lt; <ref refid="class_pre_1_1_feature" kindref="compound">Feature</ref> * &gt;</type>
+        <definition>vector&lt;Feature*&gt; Pre::Part::_featureList</definition>
+        <argsstring></argsstring>
+        <name>_featureList</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/PreManager/ref/Part.h" line="57" column="1" bodyfile="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/PreManager/ref/Part.h" bodystart="57" bodyend="-1"/>
+        <referencedby refid="class_pre_1_1_part_1a0055215f12e34d304f1ee26c8d61f8f6" compoundref="_pre_manager_2ref_2_part_8cpp" startline="117" endline="145">Clear</referencedby>
+        <referencedby refid="class_pre_1_1_part_1a8aec8753beef663387b06d892963a6d6" compoundref="_pre_manager_2ref_2_part_8cpp" startline="147" endline="191">CreateFeature</referencedby>
+        <referencedby refid="class_pre_1_1_part_1a7ba363812fc0e860164001cb4bb2a24e" compoundref="_pre_manager_2ref_2_part_8h" startline="24" endline="24">GetFeature</referencedby>
+        <referencedby refid="class_pre_1_1_part_1af88e1e8ff7bca403feae121ccaf33b79" compoundref="_pre_manager_2ref_2_part_8h" startline="36" endline="36">GetSize</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_pre_1_1_part_1a145911d1e6f4484ab3e84eb3d1756798" prot="private" static="no" mutable="no">
+        <type>vector&lt; <ref refid="class_pre_1_1_attribute_item" kindref="compound">AttributeItem</ref> * &gt;</type>
+        <definition>vector&lt;AttributeItem*&gt; Pre::Part::_attributeItemList</definition>
+        <argsstring></argsstring>
+        <name>_attributeItemList</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/PreManager/ref/Part.h" line="58" column="1" bodyfile="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/PreManager/ref/Part.h" bodystart="58" bodyend="-1"/>
+        <referencedby refid="class_pre_1_1_part_1a0055215f12e34d304f1ee26c8d61f8f6" compoundref="_pre_manager_2ref_2_part_8cpp" startline="117" endline="145">Clear</referencedby>
+        <referencedby refid="class_pre_1_1_part_1a5426eb43bd7824fb2e9f491537c4a6db" compoundref="_pre_manager_2ref_2_part_8cpp" startline="193" endline="217">CreateAttributeItem</referencedby>
+        <referencedby refid="class_pre_1_1_part_1a5a515d9986c606a11cd63797a149abb4" compoundref="_pre_manager_2ref_2_part_8h" startline="30" endline="30">GetAttributeItem</referencedby>
+        <referencedby refid="class_pre_1_1_part_1a528af6b04af596db59046c191e453a00" compoundref="_pre_manager_2ref_2_part_8cpp" startline="348" endline="359">GetAttributeItemByName</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_pre_1_1_part_1a5fb84c9de5fb87a9bfa806a73d6c5ae3" prot="private" static="no" mutable="no">
+        <type>vector&lt; <ref refid="class_pre_1_1_reference_entity" kindref="compound">ReferenceEntity</ref> * &gt;</type>
+        <definition>vector&lt;ReferenceEntity*&gt; Pre::Part::_referenceEntityList</definition>
+        <argsstring></argsstring>
+        <name>_referenceEntityList</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/PreManager/ref/Part.h" line="59" column="1" bodyfile="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/PreManager/ref/Part.h" bodystart="59" bodyend="-1"/>
+        <referencedby refid="class_pre_1_1_part_1a0055215f12e34d304f1ee26c8d61f8f6" compoundref="_pre_manager_2ref_2_part_8cpp" startline="117" endline="145">Clear</referencedby>
+        <referencedby refid="class_pre_1_1_part_1ac997876e1c7bdde6240f4bb5de21a967" compoundref="_pre_manager_2ref_2_part_8cpp" startline="219" endline="233">CreateReferenceEntity</referencedby>
+        <referencedby refid="class_pre_1_1_part_1a2e4f92e469965dca6a39e9dd3122cb46" compoundref="_pre_manager_2ref_2_part_8h" startline="27" endline="27">GetReferenceEntity</referencedby>
+        <referencedby refid="class_pre_1_1_part_1a5643b5eda5bff62d642532663c62b63c" compoundref="_pre_manager_2ref_2_part_8cpp" startline="334" endline="345">GetReferenceEntityByName</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_pre_1_1_part_1a41a05a19613b35fbae441993af005d50" prot="private" static="no" mutable="no">
+        <type>vector&lt; <ref refid="struct_pre_1_1_sketch_feature" kindref="compound">SketchFeature</ref> &gt;</type>
+        <definition>vector&lt;SketchFeature&gt; Pre::Part::sketchNameTable</definition>
+        <argsstring></argsstring>
+        <name>sketchNameTable</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/PreManager/ref/Part.h" line="60" column="1" bodyfile="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/PreManager/ref/Part.h" bodystart="60" bodyend="-1"/>
+        <referencedby refid="class_pre_1_1_part_1afe3d79628d4af1d9cfb19fa1653ee716" compoundref="_pre_manager_2ref_2_part_8cpp" startline="362" endline="369">AddFeatureNameSketchName</referencedby>
+        <referencedby refid="class_pre_1_1_part_1a4bf757092c00e1a969d0a73a0c4ed0c8" compoundref="_pre_manager_2ref_2_part_8cpp" startline="385" endline="396">GetFeatureNameFromSketchName</referencedby>
+        <referencedby refid="class_pre_1_1_part_1a7acf7b9167ac05823795172ef97742fc" compoundref="_pre_manager_2ref_2_part_8cpp" startline="372" endline="382">GetSketchNameFromFeatureName</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_pre_1_1_part_1a0769b6a8dd2610701be43da838e020e3" prot="private" static="no" mutable="no">
+        <type>string</type>
+        <definition>string Pre::Part::_filePath</definition>
+        <argsstring></argsstring>
+        <name>_filePath</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/PreManager/ref/Part.h" line="61" column="1" bodyfile="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/PreManager/ref/Part.h" bodystart="61" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_pre_1_1_part_1aa35dc7c5e0f2ad53f855385e452ba3c0" prot="private" static="no" mutable="no">
+        <type>string</type>
+        <definition>string Pre::Part::_fileName</definition>
+        <argsstring></argsstring>
+        <name>_fileName</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/PreManager/ref/Part.h" line="62" column="1" bodyfile="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/PreManager/ref/Part.h" bodystart="62" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_pre_1_1_part_1a9c14c62f01c70ea9d3e58718dd64c809" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>Pre::Part::Part</definition>
+        <argsstring>(string fileName)</argsstring>
+        <name>Part</name>
+        <param>
+          <type>string</type>
+          <declname>fileName</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/PreManager/ref/Part.h" line="18" column="1" bodyfile="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/PostManager/ref/Part.cpp" bodystart="47" bodyend="94"/>
+        <references refid="class_post_1_1_part_1ae8a076ea6bd1b67b283a9fcd083792c6" compoundref="_post_manager_2ref_2_part_8h" startline="37">Post::Part::_spDocument</references>
+        <references refid="class_post_1_1_part_1a96499e27869e4f2b69212e55549bb4e9" compoundref="_post_manager_2ref_2_part_8h" startline="39">Post::Part::_spFeatures</references>
+        <references refid="class_post_1_1_part_1aed8bf00c8a73ff2d7c8e67ab3e824365" compoundref="_post_manager_2ref_2_part_8h" startline="38">Post::Part::_spPart</references>
+        <references refid="class_post_1_1_part_1ab5f74460bbbf64f7f864389b63498cbc" compoundref="_post_manager_2ref_2_part_8h" startline="42">Post::Part::_strPartName</references>
+        <references refid="class_post_1_1_part_1acfc76a6eafc95673a2c37b40e65405a5" compoundref="_post_manager_2ref_2_part_8h" startline="35">Post::Part::file</references>
+      </memberdef>
+      <memberdef kind="function" id="class_pre_1_1_part_1a6ed7d6321234a7d056b3a7fb63a20e00" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>Pre::Part::Part::Part</definition>
+        <argsstring>(string fileName, int partNum)</argsstring>
+        <name>Part::Part</name>
+        <param>
+          <type>string</type>
+          <declname>fileName</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>partNum</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/PreManager/ref/Part.h" line="19" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="class_pre_1_1_part_1a4ec7622789e8e12de58ff21aab70af99" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>Pre::Part::Part::Part</definition>
+        <argsstring>(string fileName, TransCAD::IPartDocumentPtr partdoc)</argsstring>
+        <name>Part::Part</name>
+        <param>
+          <type>string</type>
+          <declname>fileName</declname>
+        </param>
+        <param>
+          <type>TransCAD::IPartDocumentPtr</type>
+          <declname>partdoc</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/PreManager/ref/Part.h" line="20" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="class_pre_1_1_part_1a2eae23bb6af40588fa085f0cca5fd95f" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type></type>
+        <definition>Pre::Part::~Part</definition>
+        <argsstring>(void)</argsstring>
+        <name>~Part</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/PreManager/ref/Part.h" line="21" column="1" bodyfile="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/PreManager/ref/Part.cpp" bodystart="101" bodyend="115"/>
+        <references refid="_pre_manager_2ref_2_part_8cpp_1a74cbb141b07d303f2487f95f2f03b7bf" compoundref="_pre_manager_2ref_2_part_8cpp" startline="27">_planeDatumNumber</references>
+        <references refid="class_pre_1_1_part_1a6ad325717234a2f25edbaa0dcdff7a5b" compoundref="_pre_manager_2ref_2_part_8h" startline="51">_spDocument</references>
+        <references refid="class_pre_1_1_part_1a499e2522dc016db3f73a8754cb36482f" compoundref="_pre_manager_2ref_2_part_8h" startline="50">_spDocuments</references>
+        <references refid="class_pre_1_1_part_1a0fa084e40ad2822e8214ba40b4751825" compoundref="_pre_manager_2ref_2_part_8h" startline="53">_spFeatures</references>
+        <references refid="class_pre_1_1_part_1abe7d81bc84a9423e1d09c27e36125b64" compoundref="_pre_manager_2ref_2_part_8h" startline="52">_spPart</references>
+        <references refid="class_pre_1_1_part_1a0055215f12e34d304f1ee26c8d61f8f6" compoundref="_pre_manager_2ref_2_part_8cpp" startline="117" endline="145">Clear</references>
+        <references refid="class_pre_1_1_part_1ab44f91ae378f3d72eb1bd3f1544c5429" compoundref="_pre_manager_2ref_2_part_8h" startline="49">fin</references>
+        <references refid="namespace_pre_1ab590816a169f99c588976c3b9a269fbd" compoundref="_c_a_t_i_apre___d_l_l_8cpp" startline="16">Pre::g_spApplication</references>
+      </memberdef>
+      <memberdef kind="function" id="class_pre_1_1_part_1a0055215f12e34d304f1ee26c8d61f8f6" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void Pre::Part::Clear</definition>
+        <argsstring>()</argsstring>
+        <name>Clear</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/PreManager/ref/Part.h" line="22" column="1" bodyfile="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/PreManager/ref/Part.cpp" bodystart="117" bodyend="145"/>
+        <references refid="class_pre_1_1_part_1a145911d1e6f4484ab3e84eb3d1756798" compoundref="_pre_manager_2ref_2_part_8h" startline="58">_attributeItemList</references>
+        <references refid="class_pre_1_1_part_1a94b230ce233726adad7d3020f95eb13d" compoundref="_pre_manager_2ref_2_part_8h" startline="57">_featureList</references>
+        <references refid="class_pre_1_1_part_1a5fb84c9de5fb87a9bfa806a73d6c5ae3" compoundref="_pre_manager_2ref_2_part_8h" startline="59">_referenceEntityList</references>
+        <referencedby refid="class_pre_1_1_part_1a2eae23bb6af40588fa085f0cca5fd95f" compoundref="_pre_manager_2ref_2_part_8cpp" startline="101" endline="115">~Part</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_pre_1_1_part_1a7ba363812fc0e860164001cb4bb2a24e" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="class_pre_1_1_feature" kindref="compound">Feature</ref> *</type>
+        <definition>Feature* Pre::Part::GetFeature</definition>
+        <argsstring>(int i) const </argsstring>
+        <name>GetFeature</name>
+        <param>
+          <type>int</type>
+          <declname>i</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/PreManager/ref/Part.h" line="24" column="1" bodyfile="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/PreManager/ref/Part.h" bodystart="24" bodyend="24"/>
+        <references refid="class_pre_1_1_part_1a94b230ce233726adad7d3020f95eb13d" compoundref="_pre_manager_2ref_2_part_8h" startline="57">_featureList</references>
+        <referencedby refid="class_pre_1_1_part_1a757a376bdc640e00119c3489ee35d2aa" compoundref="_pre_manager_2ref_2_part_8cpp" startline="320" endline="331">GetFeatureByName</referencedby>
+        <referencedby refid="class_pre_1_1_part_1aa981061fc510bc931b60ce995551281b" compoundref="_pre_manager_2ref_2_part_8cpp" startline="310" endline="317">ToTransCAD</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_pre_1_1_part_1a757a376bdc640e00119c3489ee35d2aa" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="class_pre_1_1_feature" kindref="compound">Feature</ref> *</type>
+        <definition>Feature * Pre::Part::GetFeatureByName</definition>
+        <argsstring>(string name)</argsstring>
+        <name>GetFeatureByName</name>
+        <param>
+          <type>string</type>
+          <declname>name</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/PreManager/ref/Part.h" line="25" column="1" bodyfile="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/PreManager/ref/Part.cpp" bodystart="320" bodyend="331"/>
+        <references refid="class_pre_1_1_part_1a7ba363812fc0e860164001cb4bb2a24e" compoundref="_pre_manager_2ref_2_part_8h" startline="24" endline="24">GetFeature</references>
+        <references refid="class_pre_1_1_feature_1aeec702655239d43b9fb7af691bc4f85c" compoundref="_pre_manager_2ref_2_feature_8h" startline="13" endline="13">Pre::Feature::GetFeatureName</references>
+        <references refid="class_pre_1_1_part_1af88e1e8ff7bca403feae121ccaf33b79" compoundref="_pre_manager_2ref_2_part_8h" startline="36" endline="36">GetSize</references>
+        <referencedby refid="class_pre_1_1_feature_s_o_l_i_d_create_revolve_1a0ff557f26cc9a7551a1a78b83f7673cf" compoundref="_feature_s_o_l_i_d_create_revolve_8cpp" startline="149" endline="215">Pre::FeatureSOLIDCreateRevolve::AddNewRevolveAxis</referencedby>
+        <referencedby refid="class_pre_1_1_att_linear_repartation_1a3aeac04c09da376d73179487a93ff7bc" compoundref="_att_linear_repartation_8cpp" startline="44" endline="52">Pre::AttLinearRepartation::CheckAttribute</referencedby>
+        <referencedby refid="class_pre_1_1_att_angular_repartation_1aad74e7f06664601a22ccab8397a52d1f" compoundref="_att_angular_repartation_8cpp" startline="45" endline="53">Pre::AttAngularRepartation::CheckAttribute</referencedby>
+        <referencedby refid="class_pre_1_1_att_limit_1a2cfdc460c9cf47e6bba257ec886ac201" compoundref="_att_limit_8cpp" startline="86" endline="93">Pre::AttLimit::CheckAttribute</referencedby>
+        <referencedby refid="class_pre_1_1_reference_entity_1af0e5e81f63cd804bca73dfcf46c7d46e" compoundref="_reference_entity_8cpp" startline="312" endline="430">Pre::ReferenceEntity::GetBasicFaceName</referencedby>
+        <referencedby refid="class_pre_1_1_feature_s_o_l_i_d_create_revolve_1a127c834b172d477d022337d8867e9251" compoundref="_feature_s_o_l_i_d_create_revolve_8cpp" startline="28" endline="72">Pre::FeatureSOLIDCreateRevolve::GetInfo</referencedby>
+        <referencedby refid="class_pre_1_1_feature_s_o_l_i_d_create_extrude_1a41d123689e3484f89f0eaf8da8c2b77d" compoundref="_feature_s_o_l_i_d_create_extrude_8cpp" startline="23" endline="71">Pre::FeatureSOLIDCreateExtrude::GetInfo</referencedby>
+        <referencedby refid="class_pre_1_1_reference_entity_1a777fcc45777d37978ddb586b590133aa" compoundref="_reference_entity_8cpp" startline="18" endline="194">Pre::ReferenceEntity::GetInfo</referencedby>
+        <referencedby refid="class_pre_1_1_part_1a8b5e2a2bbf385223d67ce40232b23e45" compoundref="_pre_manager_2ref_2_part_8cpp" startline="235" endline="308">GetInfo</referencedby>
+        <referencedby refid="class_pre_1_1_reference_entity_1ab193a350f007a3546577bf6171a50889" compoundref="_reference_entity_8cpp" startline="436" endline="587">Pre::ReferenceEntity::GetReferName</referencedby>
+        <referencedby refid="class_pre_1_1_att_limit_1a73ab5c59fa236d5e74609f1e4f8d40ac" compoundref="_att_limit_8cpp" startline="40" endline="84">Pre::AttLimit::Modify</referencedby>
+        <referencedby refid="class_pre_1_1_att_length_1a2172c3f4a31954125614781c4d27d5a0" compoundref="_att_length_8cpp" startline="40" endline="65">Pre::AttLength::Modify</referencedby>
+        <referencedby refid="class_pre_1_1_att_parameter_1a54c176a0943d3405aae9304a221126aa" compoundref="_att_parameter_8cpp" startline="63" endline="90">Pre::AttParameter::Modify</referencedby>
+        <referencedby refid="class_pre_1_1_att_angle_1ad0a2b58e353b6eb332fb80a90e103653" compoundref="_att_angle_8cpp" startline="42" endline="69">Pre::AttAngle::Modify</referencedby>
+        <referencedby refid="class_pre_1_1_feature_s_o_l_i_d_create_pattern_circular_1a69865b7be3e41ea824d1701e9c891e78" compoundref="_pre_manager_2ref_2_feature_s_o_l_i_d_create_pattern_circular_8cpp" startline="137" endline="197">Pre::FeatureSOLIDCreatePatternCircular::SetDirection</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_pre_1_1_part_1a2e4f92e469965dca6a39e9dd3122cb46" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="class_pre_1_1_reference_entity" kindref="compound">ReferenceEntity</ref> *</type>
+        <definition>ReferenceEntity* Pre::Part::GetReferenceEntity</definition>
+        <argsstring>(int i) const </argsstring>
+        <name>GetReferenceEntity</name>
+        <param>
+          <type>int</type>
+          <declname>i</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/PreManager/ref/Part.h" line="27" column="1" bodyfile="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/PreManager/ref/Part.h" bodystart="27" bodyend="27"/>
+        <references refid="class_pre_1_1_part_1a5fb84c9de5fb87a9bfa806a73d6c5ae3" compoundref="_pre_manager_2ref_2_part_8h" startline="59">_referenceEntityList</references>
+        <referencedby refid="class_pre_1_1_part_1a5643b5eda5bff62d642532663c62b63c" compoundref="_pre_manager_2ref_2_part_8cpp" startline="334" endline="345">GetReferenceEntityByName</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_pre_1_1_part_1a5643b5eda5bff62d642532663c62b63c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="class_pre_1_1_reference_entity" kindref="compound">ReferenceEntity</ref> *</type>
+        <definition>ReferenceEntity * Pre::Part::GetReferenceEntityByName</definition>
+        <argsstring>(string name)</argsstring>
+        <name>GetReferenceEntityByName</name>
+        <param>
+          <type>string</type>
+          <declname>name</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/PreManager/ref/Part.h" line="28" column="1" bodyfile="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/PreManager/ref/Part.cpp" bodystart="334" bodyend="345"/>
+        <references refid="class_pre_1_1_part_1a5fb84c9de5fb87a9bfa806a73d6c5ae3" compoundref="_pre_manager_2ref_2_part_8h" startline="59">_referenceEntityList</references>
+        <references refid="class_pre_1_1_reference_entity_1a6cbf4ad68ae79722ee486cd77181a703" compoundref="_reference_entity_8h" startline="20" endline="20">Pre::ReferenceEntity::GetName</references>
+        <references refid="class_pre_1_1_part_1a2e4f92e469965dca6a39e9dd3122cb46" compoundref="_pre_manager_2ref_2_part_8h" startline="27" endline="27">GetReferenceEntity</references>
+        <referencedby refid="class_pre_1_1_feature_s_o_l_i_d_create_revolve_1a0ff557f26cc9a7551a1a78b83f7673cf" compoundref="_feature_s_o_l_i_d_create_revolve_8cpp" startline="149" endline="215">Pre::FeatureSOLIDCreateRevolve::AddNewRevolveAxis</referencedby>
+        <referencedby refid="class_pre_1_1_feature_s_o_l_i_d_create_sweep_1a373d28c03b7c1833494f54dd9e0670ca" compoundref="_feature_s_o_l_i_d_create_sweep_8cpp" startline="16" endline="51">Pre::FeatureSOLIDCreateSweep::GetInfo</referencedby>
+        <referencedby refid="class_pre_1_1_f_datum_plane_offset_1a4ee871c225f6c829ca970ce45f41fd1d" compoundref="_pre_manager_2ref_2_f_datum_plane_offset_8cpp" startline="17" endline="64">Pre::FDatumPlaneOffset::GetInfo</referencedby>
+        <referencedby refid="class_pre_1_1_feature_s_o_l_i_d_create_hole_1a7975ebdc0d729820eb09a574e17646d9" compoundref="_feature_s_o_l_i_d_create_hole_8cpp" startline="19" endline="52">Pre::FeatureSOLIDCreateHole::GetInfo</referencedby>
+        <referencedby refid="class_pre_1_1_feature_s_o_l_i_d_create_chamfer_1af680fb31944af06af9105ae56b309ce4" compoundref="_pre_manager_2ref_2_feature_s_o_l_i_d_create_chamfer_8cpp" startline="15" endline="55">Pre::FeatureSOLIDCreateChamfer::GetInfo</referencedby>
+        <referencedby refid="class_pre_1_1_feature_s_o_l_i_d_create_fillet_constant_1a54ffaefb717339edc2755870551f5181" compoundref="_pre_manager_2ref_2_feature_s_o_l_i_d_create_fillet_constant_8cpp" startline="16" endline="46">Pre::FeatureSOLIDCreateFilletConstant::GetInfo</referencedby>
+        <referencedby refid="class_pre_1_1_feature_s_o_l_i_d_create_revolve_1a127c834b172d477d022337d8867e9251" compoundref="_feature_s_o_l_i_d_create_revolve_8cpp" startline="28" endline="72">Pre::FeatureSOLIDCreateRevolve::GetInfo</referencedby>
+        <referencedby refid="class_pre_1_1_feature_s_o_l_i_d_create_extrude_1a41d123689e3484f89f0eaf8da8c2b77d" compoundref="_feature_s_o_l_i_d_create_extrude_8cpp" startline="23" endline="71">Pre::FeatureSOLIDCreateExtrude::GetInfo</referencedby>
+        <referencedby refid="class_pre_1_1_f_sketch_1a1bedc78f172e28317a3b1ce9d16daa13" compoundref="_pre_manager_2ref_2_f_sketch_8cpp" startline="64" endline="112">Pre::FSketch::GetInfo</referencedby>
+        <referencedby refid="class_pre_1_1_feature_s_o_l_i_d_create_sweep_1a8e4501efee10b8fe7339a3d570255254" compoundref="_feature_s_o_l_i_d_create_sweep_8cpp" startline="77" endline="102">Pre::FeatureSOLIDCreateSweep::Modify</referencedby>
+        <referencedby refid="class_pre_1_1_feature_s_o_l_i_d_create_pattern_rectangular_1aaf997bf99035b24e79acd3861094cbf9" compoundref="_pre_manager_2ref_2_feature_s_o_l_i_d_create_pattern_rectangular_8cpp" startline="82" endline="128">Pre::FeatureSOLIDCreatePatternRectangular::Modify</referencedby>
+        <referencedby refid="class_pre_1_1_feature_s_o_l_i_d_create_pattern_circular_1a85a93812a56839fb2b42872c3070f481" compoundref="_pre_manager_2ref_2_feature_s_o_l_i_d_create_pattern_circular_8cpp" startline="100" endline="135">Pre::FeatureSOLIDCreatePatternCircular::Modify</referencedby>
+        <referencedby refid="class_pre_1_1_feature_s_o_l_i_d_create_chamfer_1a69e7d76172186b637e4eca01eaa70f09" compoundref="_pre_manager_2ref_2_feature_s_o_l_i_d_create_chamfer_8cpp" startline="77" endline="111">Pre::FeatureSOLIDCreateChamfer::Modify</referencedby>
+        <referencedby refid="class_pre_1_1_feature_s_o_l_i_d_create_fillet_constant_1ae07257e74ab0ee80fceb2c60ca9f43fd" compoundref="_pre_manager_2ref_2_feature_s_o_l_i_d_create_fillet_constant_8cpp" startline="73" endline="99">Pre::FeatureSOLIDCreateFilletConstant::Modify</referencedby>
+        <referencedby refid="class_pre_1_1_feature_s_o_l_i_d_create_revolve_1ad220673013d89395c84d67102f39ba7b" compoundref="_feature_s_o_l_i_d_create_revolve_8cpp" startline="119" endline="147">Pre::FeatureSOLIDCreateRevolve::Modify</referencedby>
+        <referencedby refid="class_pre_1_1_feature_s_o_l_i_d_create_extrude_1a92efe8b36d4b8fd4a26396eb7f248944" compoundref="_feature_s_o_l_i_d_create_extrude_8cpp" startline="103" endline="154">Pre::FeatureSOLIDCreateExtrude::Modify</referencedby>
+        <referencedby refid="class_pre_1_1_feature_s_o_l_i_d_create_pattern_rectangular_1a18084e6aaa36649509f8c43d2b15f5b9" compoundref="_pre_manager_2ref_2_feature_s_o_l_i_d_create_pattern_rectangular_8cpp" startline="148" endline="223">Pre::FeatureSOLIDCreatePatternRectangular::SetDirection</referencedby>
+        <referencedby refid="class_pre_1_1_feature_s_o_l_i_d_create_pattern_circular_1a69865b7be3e41ea824d1701e9c891e78" compoundref="_pre_manager_2ref_2_feature_s_o_l_i_d_create_pattern_circular_8cpp" startline="137" endline="197">Pre::FeatureSOLIDCreatePatternCircular::SetDirection</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_pre_1_1_part_1a5a515d9986c606a11cd63797a149abb4" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="class_pre_1_1_attribute_item" kindref="compound">AttributeItem</ref> *</type>
+        <definition>AttributeItem* Pre::Part::GetAttributeItem</definition>
+        <argsstring>(int i) const </argsstring>
+        <name>GetAttributeItem</name>
+        <param>
+          <type>int</type>
+          <declname>i</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/PreManager/ref/Part.h" line="30" column="1" bodyfile="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/PreManager/ref/Part.h" bodystart="30" bodyend="30"/>
+        <references refid="class_pre_1_1_part_1a145911d1e6f4484ab3e84eb3d1756798" compoundref="_pre_manager_2ref_2_part_8h" startline="58">_attributeItemList</references>
+        <referencedby refid="class_pre_1_1_part_1a528af6b04af596db59046c191e453a00" compoundref="_pre_manager_2ref_2_part_8cpp" startline="348" endline="359">GetAttributeItemByName</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_pre_1_1_part_1a528af6b04af596db59046c191e453a00" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="class_pre_1_1_attribute_item" kindref="compound">AttributeItem</ref> *</type>
+        <definition>AttributeItem * Pre::Part::GetAttributeItemByName</definition>
+        <argsstring>(string name)</argsstring>
+        <name>GetAttributeItemByName</name>
+        <param>
+          <type>string</type>
+          <declname>name</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/PreManager/ref/Part.h" line="31" column="1" bodyfile="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/PreManager/ref/Part.cpp" bodystart="348" bodyend="359"/>
+        <references refid="class_pre_1_1_part_1a145911d1e6f4484ab3e84eb3d1756798" compoundref="_pre_manager_2ref_2_part_8h" startline="58">_attributeItemList</references>
+        <references refid="class_pre_1_1_part_1a5a515d9986c606a11cd63797a149abb4" compoundref="_pre_manager_2ref_2_part_8h" startline="30" endline="30">GetAttributeItem</references>
+        <references refid="class_pre_1_1_attribute_item_1a1a9180e1336ee3cad4e736f7bba27184" compoundref="_attribute_item_8h" startline="16" endline="16">Pre::AttributeItem::GetName</references>
+        <referencedby refid="class_pre_1_1_part_1a8b5e2a2bbf385223d67ce40232b23e45" compoundref="_pre_manager_2ref_2_part_8cpp" startline="235" endline="308">GetInfo</referencedby>
+        <referencedby refid="class_pre_1_1_att_parameter_1a54c176a0943d3405aae9304a221126aa" compoundref="_att_parameter_8cpp" startline="63" endline="90">Pre::AttParameter::Modify</referencedby>
+        <referencedby refid="class_pre_1_1_att_length_1a2172c3f4a31954125614781c4d27d5a0" compoundref="_att_length_8cpp" startline="40" endline="65">Pre::AttLength::Modify</referencedby>
+        <referencedby refid="class_pre_1_1_att_int_param_1a2d5af6fdd6fb02fd753b53a8d9d244ed" compoundref="_att_int_param_8cpp" startline="39" endline="64">Pre::AttIntParam::Modify</referencedby>
+        <referencedby refid="class_pre_1_1_att_angle_1ad0a2b58e353b6eb332fb80a90e103653" compoundref="_att_angle_8cpp" startline="42" endline="69">Pre::AttAngle::Modify</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_pre_1_1_part_1afe3d79628d4af1d9cfb19fa1653ee716" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void Pre::Part::AddFeatureNameSketchName</definition>
+        <argsstring>(string featureName, string sketchName)</argsstring>
+        <name>AddFeatureNameSketchName</name>
+        <param>
+          <type>string</type>
+          <declname>featureName</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>sketchName</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/PreManager/ref/Part.h" line="33" column="1" bodyfile="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/PreManager/ref/Part.cpp" bodystart="362" bodyend="369"/>
+        <references refid="struct_pre_1_1_sketch_feature_1aa8235105643bed83b3b0dcb21291b804" compoundref="_pre_manager_2ref_2_part_8h" startline="10">Pre::SketchFeature::_featureName</references>
+        <references refid="struct_pre_1_1_sketch_feature_1a1a7b6ae54b8b312385c55f5f3593055c" compoundref="_pre_manager_2ref_2_part_8h" startline="11">Pre::SketchFeature::_sketchName</references>
+        <references refid="class_pre_1_1_part_1a41a05a19613b35fbae441993af005d50" compoundref="_pre_manager_2ref_2_part_8h" startline="60">sketchNameTable</references>
+        <referencedby refid="class_pre_1_1_feature_s_o_l_i_d_create_sweep_1a373d28c03b7c1833494f54dd9e0670ca" compoundref="_feature_s_o_l_i_d_create_sweep_8cpp" startline="16" endline="51">Pre::FeatureSOLIDCreateSweep::GetInfo</referencedby>
+        <referencedby refid="class_pre_1_1_feature_s_o_l_i_d_create_revolve_1a127c834b172d477d022337d8867e9251" compoundref="_feature_s_o_l_i_d_create_revolve_8cpp" startline="28" endline="72">Pre::FeatureSOLIDCreateRevolve::GetInfo</referencedby>
+        <referencedby refid="class_pre_1_1_feature_s_o_l_i_d_create_extrude_1a41d123689e3484f89f0eaf8da8c2b77d" compoundref="_feature_s_o_l_i_d_create_extrude_8cpp" startline="23" endline="71">Pre::FeatureSOLIDCreateExtrude::GetInfo</referencedby>
+        <referencedby refid="class_pre_1_1_feature_s_o_l_i_d_create_sweep_1a8e4501efee10b8fe7339a3d570255254" compoundref="_feature_s_o_l_i_d_create_sweep_8cpp" startline="77" endline="102">Pre::FeatureSOLIDCreateSweep::Modify</referencedby>
+        <referencedby refid="class_pre_1_1_feature_s_o_l_i_d_create_revolve_1ad220673013d89395c84d67102f39ba7b" compoundref="_feature_s_o_l_i_d_create_revolve_8cpp" startline="119" endline="147">Pre::FeatureSOLIDCreateRevolve::Modify</referencedby>
+        <referencedby refid="class_pre_1_1_feature_s_o_l_i_d_create_extrude_1a92efe8b36d4b8fd4a26396eb7f248944" compoundref="_feature_s_o_l_i_d_create_extrude_8cpp" startline="103" endline="154">Pre::FeatureSOLIDCreateExtrude::Modify</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_pre_1_1_part_1a7acf7b9167ac05823795172ef97742fc" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>string</type>
+        <definition>string Pre::Part::GetSketchNameFromFeatureName</definition>
+        <argsstring>(string featureName)</argsstring>
+        <name>GetSketchNameFromFeatureName</name>
+        <param>
+          <type>string</type>
+          <declname>featureName</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/PreManager/ref/Part.h" line="34" column="1" bodyfile="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/PreManager/ref/Part.cpp" bodystart="372" bodyend="382"/>
+        <references refid="class_pre_1_1_part_1a41a05a19613b35fbae441993af005d50" compoundref="_pre_manager_2ref_2_part_8h" startline="60">sketchNameTable</references>
+        <referencedby refid="class_pre_1_1_feature_s_o_l_i_d_create_revolve_1a0ff557f26cc9a7551a1a78b83f7673cf" compoundref="_feature_s_o_l_i_d_create_revolve_8cpp" startline="149" endline="215">Pre::FeatureSOLIDCreateRevolve::AddNewRevolveAxis</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_pre_1_1_part_1a4bf757092c00e1a969d0a73a0c4ed0c8" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>string</type>
+        <definition>string Pre::Part::GetFeatureNameFromSketchName</definition>
+        <argsstring>(string sketchName)</argsstring>
+        <name>GetFeatureNameFromSketchName</name>
+        <param>
+          <type>string</type>
+          <declname>sketchName</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/PreManager/ref/Part.h" line="35" column="1" bodyfile="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/PreManager/ref/Part.cpp" bodystart="385" bodyend="396"/>
+        <references refid="class_pre_1_1_part_1a41a05a19613b35fbae441993af005d50" compoundref="_pre_manager_2ref_2_part_8h" startline="60">sketchNameTable</references>
+        <referencedby refid="class_pre_1_1_feature_s_o_l_i_d_create_revolve_1a0ff557f26cc9a7551a1a78b83f7673cf" compoundref="_feature_s_o_l_i_d_create_revolve_8cpp" startline="149" endline="215">Pre::FeatureSOLIDCreateRevolve::AddNewRevolveAxis</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_pre_1_1_part_1af88e1e8ff7bca403feae121ccaf33b79" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>size_t</type>
+        <definition>size_t Pre::Part::GetSize</definition>
+        <argsstring>() const </argsstring>
+        <name>GetSize</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/PreManager/ref/Part.h" line="36" column="1" bodyfile="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/PreManager/ref/Part.h" bodystart="36" bodyend="36"/>
+        <references refid="class_pre_1_1_part_1a94b230ce233726adad7d3020f95eb13d" compoundref="_pre_manager_2ref_2_part_8h" startline="57">_featureList</references>
+        <referencedby refid="class_pre_1_1_part_1a757a376bdc640e00119c3489ee35d2aa" compoundref="_pre_manager_2ref_2_part_8cpp" startline="320" endline="331">GetFeatureByName</referencedby>
+        <referencedby refid="class_pre_1_1_part_1aa981061fc510bc931b60ce995551281b" compoundref="_pre_manager_2ref_2_part_8cpp" startline="310" endline="317">ToTransCAD</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_pre_1_1_part_1a8b5e2a2bbf385223d67ce40232b23e45" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Pre::Part::GetInfo</definition>
+        <argsstring>()</argsstring>
+        <name>GetInfo</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/PreManager/ref/Part.h" line="38" column="1" bodyfile="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/PreManager/ref/Part.cpp" bodystart="235" bodyend="308"/>
+        <references refid="class_pre_1_1_part_1a5426eb43bd7824fb2e9f491537c4a6db" compoundref="_pre_manager_2ref_2_part_8cpp" startline="193" endline="217">CreateAttributeItem</references>
+        <references refid="class_pre_1_1_part_1a8aec8753beef663387b06d892963a6d6" compoundref="_pre_manager_2ref_2_part_8cpp" startline="147" endline="191">CreateFeature</references>
+        <references refid="class_pre_1_1_part_1ac997876e1c7bdde6240f4bb5de21a967" compoundref="_pre_manager_2ref_2_part_8cpp" startline="219" endline="233">CreateReferenceEntity</references>
+        <references refid="class_pre_1_1_part_1ab44f91ae378f3d72eb1bd3f1544c5429" compoundref="_pre_manager_2ref_2_part_8h" startline="49">fin</references>
+        <references refid="class_pre_1_1_part_1a528af6b04af596db59046c191e453a00" compoundref="_pre_manager_2ref_2_part_8cpp" startline="348" endline="359">GetAttributeItemByName</references>
+        <references refid="class_pre_1_1_part_1a757a376bdc640e00119c3489ee35d2aa" compoundref="_pre_manager_2ref_2_part_8cpp" startline="320" endline="331">GetFeatureByName</references>
+        <references refid="class_pre_1_1_f_sketch_1a3ca083220e4cbe4fa0e9849e07a5d195" compoundref="_pre_manager_2ref_2_f_sketch_8cpp" startline="114" endline="184">Pre::FSketch::GetSketchItemInfo</references>
+        <references refid="class_pre_1_1_attribute_item_1ab6fe550dca4ebaf060433c962cc5e014" compoundref="_attribute_item_8cpp" startline="24" endline="26">Pre::AttributeItem::Modify</references>
+        <references refid="class_pre_1_1_feature_1a11f5aafa54439cf08dd44adb6fcd4d9c" compoundref="_pre_manager_2ref_2_feature_8cpp" startline="31" endline="33">Pre::Feature::Modify</references>
+        <referencedby refid="namespace_pre_1a4f53310fdf2d200bbbe007e4c0d3d790" compoundref="_c_a_t_i_apre___d_l_l_8cpp" startline="43" endline="62">Pre::CATIAPreTranslate</referencedby>
+        <referencedby refid="class_reference_class_1_1ref___pre_1a8d058d5b4069f52fe9673bc9202f3cd0" compoundref="_reference_class___pre_8cpp" startline="258" endline="301">ReferenceClass::ref_Pre::GetTransCADName_from_buffer</referencedby>
+        <referencedby refid="class_reference_class_1_1ref___pre_1af46f69f170b7626db974e08e24894353" compoundref="_reference_class___pre_8cpp" startline="66" endline="121">ReferenceClass::ref_Pre::TestEnvironment</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_pre_1_1_part_1aa981061fc510bc931b60ce995551281b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Pre::Part::ToTransCAD</definition>
+        <argsstring>()</argsstring>
+        <name>ToTransCAD</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/PreManager/ref/Part.h" line="39" column="1" bodyfile="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/PreManager/ref/Part.cpp" bodystart="310" bodyend="317"/>
+        <references refid="class_pre_1_1_part_1a7ba363812fc0e860164001cb4bb2a24e" compoundref="_pre_manager_2ref_2_part_8h" startline="24" endline="24">GetFeature</references>
+        <references refid="class_pre_1_1_part_1af88e1e8ff7bca403feae121ccaf33b79" compoundref="_pre_manager_2ref_2_part_8h" startline="36" endline="36">GetSize</references>
+        <references refid="class_pre_1_1_feature_1a43c7ceaf04580d2e948aedd882208d80" compoundref="_pre_manager_2ref_2_feature_8h" startline="20" endline="20">Pre::Feature::ToTransCAD</references>
+        <referencedby refid="namespace_pre_1a4f53310fdf2d200bbbe007e4c0d3d790" compoundref="_c_a_t_i_apre___d_l_l_8cpp" startline="43" endline="62">Pre::CATIAPreTranslate</referencedby>
+        <referencedby refid="class_reference_class_1_1ref___pre_1af46f69f170b7626db974e08e24894353" compoundref="_reference_class___pre_8cpp" startline="66" endline="121">ReferenceClass::ref_Pre::TestEnvironment</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_pre_1_1_part_1aca93980dc1f1ad5f24f56e21ffa36e4b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>int</type>
+        <definition>int Pre::Part::GetPartDocNumber</definition>
+        <argsstring>()</argsstring>
+        <name>GetPartDocNumber</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/PreManager/ref/Part.h" line="41" column="1" bodyfile="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/PreManager/ref/Part.h" bodystart="41" bodyend="41"/>
+        <references refid="class_pre_1_1_part_1a22ed1b89777887f99492183654b3df3a" compoundref="_pre_manager_2ref_2_part_8h" startline="54">_partDocNum</references>
+        <referencedby refid="namespace_pre_1a4f53310fdf2d200bbbe007e4c0d3d790" compoundref="_c_a_t_i_apre___d_l_l_8cpp" startline="43" endline="62">Pre::CATIAPreTranslate</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="protected-func">
+      <memberdef kind="function" id="class_pre_1_1_part_1a8aec8753beef663387b06d892963a6d6" prot="protected" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Pre::Part::CreateFeature</definition>
+        <argsstring>(string type, string name, ifstream &amp;is)</argsstring>
+        <name>CreateFeature</name>
+        <param>
+          <type>string</type>
+          <declname>type</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>name</declname>
+        </param>
+        <param>
+          <type>ifstream &amp;</type>
+          <declname>is</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/PreManager/ref/Part.h" line="44" column="1" bodyfile="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/PreManager/ref/Part.cpp" bodystart="147" bodyend="191"/>
+        <references refid="class_pre_1_1_part_1a94b230ce233726adad7d3020f95eb13d" compoundref="_pre_manager_2ref_2_part_8h" startline="57">_featureList</references>
+        <references refid="_pre_manager_2ref_2_part_8cpp_1a74cbb141b07d303f2487f95f2f03b7bf" compoundref="_pre_manager_2ref_2_part_8cpp" startline="27">_planeDatumNumber</references>
+        <references refid="class_pre_1_1_feature_1af58dd6004076ee16ada8ed600965de6c" compoundref="_pre_manager_2ref_2_feature_8h" startline="19" endline="19">Pre::Feature::GetInfo</references>
+        <referencedby refid="class_pre_1_1_part_1a8b5e2a2bbf385223d67ce40232b23e45" compoundref="_pre_manager_2ref_2_part_8cpp" startline="235" endline="308">GetInfo</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_pre_1_1_part_1a5426eb43bd7824fb2e9f491537c4a6db" prot="protected" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Pre::Part::CreateAttributeItem</definition>
+        <argsstring>(string type, string name, ifstream &amp;is)</argsstring>
+        <name>CreateAttributeItem</name>
+        <param>
+          <type>string</type>
+          <declname>type</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>name</declname>
+        </param>
+        <param>
+          <type>ifstream &amp;</type>
+          <declname>is</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/PreManager/ref/Part.h" line="45" column="1" bodyfile="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/PreManager/ref/Part.cpp" bodystart="193" bodyend="217"/>
+        <references refid="class_pre_1_1_part_1a145911d1e6f4484ab3e84eb3d1756798" compoundref="_pre_manager_2ref_2_part_8h" startline="58">_attributeItemList</references>
+        <references refid="class_pre_1_1_attribute_item_1ae525b9c616a40016532a29d6df424de3" compoundref="_attribute_item_8cpp" startline="16" endline="18">Pre::AttributeItem::GetInfo</references>
+        <referencedby refid="class_pre_1_1_part_1a8b5e2a2bbf385223d67ce40232b23e45" compoundref="_pre_manager_2ref_2_part_8cpp" startline="235" endline="308">GetInfo</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_pre_1_1_part_1ac997876e1c7bdde6240f4bb5de21a967" prot="protected" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Pre::Part::CreateReferenceEntity</definition>
+        <argsstring>(string type, string name, ifstream &amp;is)</argsstring>
+        <name>CreateReferenceEntity</name>
+        <param>
+          <type>string</type>
+          <declname>type</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>name</declname>
+        </param>
+        <param>
+          <type>ifstream &amp;</type>
+          <declname>is</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/PreManager/ref/Part.h" line="46" column="1" bodyfile="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/PreManager/ref/Part.cpp" bodystart="219" bodyend="233"/>
+        <references refid="class_pre_1_1_part_1a5fb84c9de5fb87a9bfa806a73d6c5ae3" compoundref="_pre_manager_2ref_2_part_8h" startline="59">_referenceEntityList</references>
+        <references refid="class_pre_1_1_reference_entity_1a777fcc45777d37978ddb586b590133aa" compoundref="_reference_entity_8cpp" startline="18" endline="194">Pre::ReferenceEntity::GetInfo</references>
+        <referencedby refid="class_pre_1_1_part_1a8b5e2a2bbf385223d67ce40232b23e45" compoundref="_pre_manager_2ref_2_part_8cpp" startline="235" endline="308">GetInfo</referencedby>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="1086">
+        <label>std::basic_ifstream&lt; char &gt;</label>
+        <childnode refid="1087" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1071">
+        <label>std::vector&lt; Pre::ReferenceEntity * &gt;</label>
+        <childnode refid="1072" relation="usage">
+          <edgelabel>elements</edgelabel>
+        </childnode>
+      </node>
+      <node id="1090">
+        <label>std::vector&lt; Pre::SketchFeature &gt;</label>
+        <childnode refid="1091" relation="usage">
+          <edgelabel>elements</edgelabel>
+        </childnode>
+      </node>
+      <node id="1081">
+        <label>Pre::FSKETCHItem</label>
+        <link refid="class_pre_1_1_f_s_k_e_t_c_h_item"/>
+        <childnode refid="1074" relation="usage">
+          <edgelabel>_name</edgelabel>
+        </childnode>
+        <childnode refid="1078" relation="usage">
+          <edgelabel>_pFSketch</edgelabel>
+        </childnode>
+      </node>
+      <node id="1080">
+        <label>std::vector&lt; Pre::FSKETCHItem * &gt;</label>
+        <childnode refid="1081" relation="usage">
+          <edgelabel>elements</edgelabel>
+        </childnode>
+      </node>
+      <node id="1087">
+        <label>std::basic_istream&lt; Char &gt;</label>
+        <childnode refid="1088" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1094">
+        <label>std::vector&lt; Pre::Feature * &gt;</label>
+        <childnode refid="1079" relation="usage">
+          <edgelabel>elements</edgelabel>
+        </childnode>
+      </node>
+      <node id="1082">
+        <label>std::vector&lt; Pre::ReportItem &gt;</label>
+        <childnode refid="1083" relation="usage">
+          <edgelabel>elements</edgelabel>
+        </childnode>
+      </node>
+      <node id="1079">
+        <label>Pre::Feature</label>
+        <link refid="class_pre_1_1_feature"/>
+        <childnode refid="1070" relation="usage">
+          <edgelabel>_pPart</edgelabel>
+        </childnode>
+        <childnode refid="1074" relation="usage">
+          <edgelabel>_name</edgelabel>
+        </childnode>
+      </node>
+      <node id="1073">
+        <label>std::vector&lt; FaceInfoList &gt;</label>
+      </node>
+      <node id="1072">
+        <label>Pre::ReferenceEntity</label>
+        <link refid="class_pre_1_1_reference_entity"/>
+        <childnode refid="1073" relation="usage">
+          <edgelabel>pEdge</edgelabel>
+        </childnode>
+        <childnode refid="1070" relation="usage">
+          <edgelabel>_pPart</edgelabel>
+        </childnode>
+        <childnode refid="1074" relation="usage">
+          <edgelabel>feature</edgelabel>
+          <edgelabel>TransCADEdgeName</edgelabel>
+          <edgelabel>TransCADFaceName</edgelabel>
+          <edgelabel>name</edgelabel>
+          <edgelabel>axis</edgelabel>
+        </childnode>
+        <childnode refid="1076" relation="usage">
+          <edgelabel>pFace</edgelabel>
+        </childnode>
+        <childnode refid="1078" relation="usage">
+          <edgelabel>pSketchManager</edgelabel>
+        </childnode>
+        <childnode refid="1084" relation="usage">
+          <edgelabel>pWire</edgelabel>
+        </childnode>
+      </node>
+      <node id="1075">
+        <label>std::basic_string&lt; char &gt;</label>
+      </node>
+      <node id="1077">
+        <label>FaceInfo</label>
+        <link refid="struct_face_info"/>
+      </node>
+      <node id="1083">
+        <label>Pre::ReportItem</label>
+        <link refid="struct_pre_1_1_report_item"/>
+        <childnode refid="1074" relation="usage">
+          <edgelabel>_entityName</edgelabel>
+        </childnode>
+      </node>
+      <node id="1084">
+        <label>WireInfo</label>
+        <link refid="struct_wire_info"/>
+      </node>
+      <node id="1093">
+        <label>Pre::AttributeItem</label>
+        <link refid="class_pre_1_1_attribute_item"/>
+        <childnode refid="1070" relation="usage">
+          <edgelabel>_pPart</edgelabel>
+        </childnode>
+        <childnode refid="1074" relation="usage">
+          <edgelabel>_featureName</edgelabel>
+          <edgelabel>_name</edgelabel>
+          <edgelabel>_attributeName</edgelabel>
+        </childnode>
+      </node>
+      <node id="1091">
+        <label>Pre::SketchFeature</label>
+        <link refid="struct_pre_1_1_sketch_feature"/>
+        <childnode refid="1074" relation="usage">
+          <edgelabel>_featureName</edgelabel>
+          <edgelabel>_sketchName</edgelabel>
+        </childnode>
+      </node>
+      <node id="1088">
+        <label>std::basic_ios&lt; Char &gt;</label>
+        <childnode refid="1089" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1070">
+        <label>Pre::Part</label>
+        <link refid="class_pre_1_1_part"/>
+        <childnode refid="1071" relation="usage">
+          <edgelabel>_referenceEntityList</edgelabel>
+        </childnode>
+        <childnode refid="1085" relation="usage">
+          <edgelabel>fin</edgelabel>
+        </childnode>
+        <childnode refid="1090" relation="usage">
+          <edgelabel>sketchNameTable</edgelabel>
+        </childnode>
+        <childnode refid="1074" relation="usage">
+          <edgelabel>_fileName</edgelabel>
+          <edgelabel>_filePath</edgelabel>
+        </childnode>
+        <childnode refid="1092" relation="usage">
+          <edgelabel>_attributeItemList</edgelabel>
+        </childnode>
+        <childnode refid="1094" relation="usage">
+          <edgelabel>_featureList</edgelabel>
+        </childnode>
+      </node>
+      <node id="1089">
+        <label>std::ios_base</label>
+      </node>
+      <node id="1085">
+        <label>std::ifstream</label>
+        <childnode refid="1086" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1092">
+        <label>std::vector&lt; Pre::AttributeItem * &gt;</label>
+        <childnode refid="1093" relation="usage">
+          <edgelabel>elements</edgelabel>
+        </childnode>
+      </node>
+      <node id="1076">
+        <label>std::vector&lt; FaceInfo &gt;</label>
+        <childnode refid="1077" relation="usage">
+          <edgelabel>elements</edgelabel>
+        </childnode>
+      </node>
+      <node id="1074">
+        <label>std::string</label>
+        <childnode refid="1075" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1078">
+        <label>Pre::FSketch</label>
+        <link refid="class_pre_1_1_f_sketch"/>
+        <childnode refid="1079" relation="public-inheritance">
+        </childnode>
+        <childnode refid="1080" relation="usage">
+          <edgelabel>_sketchItemList</edgelabel>
+        </childnode>
+        <childnode refid="1072" relation="usage">
+          <edgelabel>_pReferenceEntity</edgelabel>
+        </childnode>
+        <childnode refid="1074" relation="usage">
+          <edgelabel>_axisName</edgelabel>
+          <edgelabel>_factoryName</edgelabel>
+        </childnode>
+        <childnode refid="1082" relation="usage">
+          <edgelabel>reportNameTable</edgelabel>
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/PreManager/ref/Part.h" line="15" column="1" bodyfile="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/PreManager/ref/Part.h" bodystart="14" bodyend="63"/>
+    <listofallmembers>
+      <member refid="class_pre_1_1_part_1a145911d1e6f4484ab3e84eb3d1756798" prot="private" virt="non-virtual"><scope>Pre::Part</scope><name>_attributeItemList</name></member>
+      <member refid="class_pre_1_1_part_1a94b230ce233726adad7d3020f95eb13d" prot="private" virt="non-virtual"><scope>Pre::Part</scope><name>_featureList</name></member>
+      <member refid="class_pre_1_1_part_1aa35dc7c5e0f2ad53f855385e452ba3c0" prot="private" virt="non-virtual"><scope>Pre::Part</scope><name>_fileName</name></member>
+      <member refid="class_pre_1_1_part_1a0769b6a8dd2610701be43da838e020e3" prot="private" virt="non-virtual"><scope>Pre::Part</scope><name>_filePath</name></member>
+      <member refid="class_pre_1_1_part_1a22ed1b89777887f99492183654b3df3a" prot="public" virt="non-virtual"><scope>Pre::Part</scope><name>_partDocNum</name></member>
+      <member refid="class_pre_1_1_part_1a5fb84c9de5fb87a9bfa806a73d6c5ae3" prot="private" virt="non-virtual"><scope>Pre::Part</scope><name>_referenceEntityList</name></member>
+      <member refid="class_pre_1_1_part_1a6ad325717234a2f25edbaa0dcdff7a5b" prot="public" virt="non-virtual"><scope>Pre::Part</scope><name>_spDocument</name></member>
+      <member refid="class_pre_1_1_part_1a499e2522dc016db3f73a8754cb36482f" prot="public" virt="non-virtual"><scope>Pre::Part</scope><name>_spDocuments</name></member>
+      <member refid="class_pre_1_1_part_1a0fa084e40ad2822e8214ba40b4751825" prot="public" virt="non-virtual"><scope>Pre::Part</scope><name>_spFeatures</name></member>
+      <member refid="class_pre_1_1_part_1abe7d81bc84a9423e1d09c27e36125b64" prot="public" virt="non-virtual"><scope>Pre::Part</scope><name>_spPart</name></member>
+      <member refid="class_pre_1_1_part_1afe3d79628d4af1d9cfb19fa1653ee716" prot="public" virt="virtual"><scope>Pre::Part</scope><name>AddFeatureNameSketchName</name></member>
+      <member refid="class_pre_1_1_part_1a0055215f12e34d304f1ee26c8d61f8f6" prot="public" virt="virtual"><scope>Pre::Part</scope><name>Clear</name></member>
+      <member refid="class_pre_1_1_part_1a5426eb43bd7824fb2e9f491537c4a6db" prot="protected" virt="non-virtual"><scope>Pre::Part</scope><name>CreateAttributeItem</name></member>
+      <member refid="class_pre_1_1_part_1a8aec8753beef663387b06d892963a6d6" prot="protected" virt="non-virtual"><scope>Pre::Part</scope><name>CreateFeature</name></member>
+      <member refid="class_pre_1_1_part_1ac997876e1c7bdde6240f4bb5de21a967" prot="protected" virt="non-virtual"><scope>Pre::Part</scope><name>CreateReferenceEntity</name></member>
+      <member refid="class_pre_1_1_part_1ab44f91ae378f3d72eb1bd3f1544c5429" prot="public" virt="non-virtual"><scope>Pre::Part</scope><name>fin</name></member>
+      <member refid="class_pre_1_1_part_1a5a515d9986c606a11cd63797a149abb4" prot="public" virt="non-virtual"><scope>Pre::Part</scope><name>GetAttributeItem</name></member>
+      <member refid="class_pre_1_1_part_1a528af6b04af596db59046c191e453a00" prot="public" virt="non-virtual"><scope>Pre::Part</scope><name>GetAttributeItemByName</name></member>
+      <member refid="class_pre_1_1_part_1a7ba363812fc0e860164001cb4bb2a24e" prot="public" virt="non-virtual"><scope>Pre::Part</scope><name>GetFeature</name></member>
+      <member refid="class_pre_1_1_part_1a757a376bdc640e00119c3489ee35d2aa" prot="public" virt="non-virtual"><scope>Pre::Part</scope><name>GetFeatureByName</name></member>
+      <member refid="class_pre_1_1_part_1a4bf757092c00e1a969d0a73a0c4ed0c8" prot="public" virt="virtual"><scope>Pre::Part</scope><name>GetFeatureNameFromSketchName</name></member>
+      <member refid="class_pre_1_1_part_1a8b5e2a2bbf385223d67ce40232b23e45" prot="public" virt="non-virtual"><scope>Pre::Part</scope><name>GetInfo</name></member>
+      <member refid="class_pre_1_1_part_1aca93980dc1f1ad5f24f56e21ffa36e4b" prot="public" virt="non-virtual"><scope>Pre::Part</scope><name>GetPartDocNumber</name></member>
+      <member refid="class_pre_1_1_part_1a2e4f92e469965dca6a39e9dd3122cb46" prot="public" virt="non-virtual"><scope>Pre::Part</scope><name>GetReferenceEntity</name></member>
+      <member refid="class_pre_1_1_part_1a5643b5eda5bff62d642532663c62b63c" prot="public" virt="non-virtual"><scope>Pre::Part</scope><name>GetReferenceEntityByName</name></member>
+      <member refid="class_pre_1_1_part_1af88e1e8ff7bca403feae121ccaf33b79" prot="public" virt="non-virtual"><scope>Pre::Part</scope><name>GetSize</name></member>
+      <member refid="class_pre_1_1_part_1a7acf7b9167ac05823795172ef97742fc" prot="public" virt="virtual"><scope>Pre::Part</scope><name>GetSketchNameFromFeatureName</name></member>
+      <member refid="class_pre_1_1_part_1a9c14c62f01c70ea9d3e58718dd64c809" prot="public" virt="non-virtual"><scope>Pre::Part</scope><name>Part</name></member>
+      <member refid="class_pre_1_1_part_1a6ed7d6321234a7d056b3a7fb63a20e00" prot="public" virt="non-virtual"><scope>Pre::Part</scope><name>Part::Part</name></member>
+      <member refid="class_pre_1_1_part_1a4ec7622789e8e12de58ff21aab70af99" prot="public" virt="non-virtual"><scope>Pre::Part</scope><name>Part::Part</name></member>
+      <member refid="class_pre_1_1_part_1a41a05a19613b35fbae441993af005d50" prot="private" virt="non-virtual"><scope>Pre::Part</scope><name>sketchNameTable</name></member>
+      <member refid="class_pre_1_1_part_1aa981061fc510bc931b60ce995551281b" prot="public" virt="non-virtual"><scope>Pre::Part</scope><name>ToTransCAD</name></member>
+      <member refid="class_pre_1_1_part_1a2eae23bb6af40588fa085f0cca5fd95f" prot="public" virt="virtual"><scope>Pre::Part</scope><name>~Part</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

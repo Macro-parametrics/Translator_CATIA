@@ -1,0 +1,170 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="_feature_s_o_l_i_d_create_extrude_8h" kind="file">
+    <compoundname>FeatureSOLIDCreateExtrude.h</compoundname>
+    <includes refid="_pre_manager_2ref_2_feature_8h" local="yes">Feature.h</includes>
+    <includedby refid="_feature_s_o_l_i_d_create_extrude_8cpp" local="yes">PreManager/ref/FeatureSOLIDCreateExtrude.cpp</includedby>
+    <includedby refid="_pre_manager_2ref_2_part_8cpp" local="yes">PreManager/ref/Part.cpp</includedby>
+    <incdepgraph>
+      <node id="3292">
+        <label>strstream</label>
+      </node>
+      <node id="3276">
+        <label>Feature.h</label>
+        <link refid="_pre_manager_2ref_2_feature_8h"/>
+        <childnode refid="3277" relation="include">
+        </childnode>
+      </node>
+      <node id="3286">
+        <label>cmath</label>
+      </node>
+      <node id="3281">
+        <label>string</label>
+      </node>
+      <node id="3290">
+        <label>comdef.h</label>
+      </node>
+      <node id="3289">
+        <label>comutil.h</label>
+      </node>
+      <node id="3284">
+        <label>fstream</label>
+      </node>
+      <node id="3282">
+        <label>string.h</label>
+      </node>
+      <node id="3278">
+        <label>CATIApre_DLL.h</label>
+        <link refid="_c_a_t_i_apre___d_l_l_8h"/>
+        <childnode refid="3279" relation="include">
+        </childnode>
+        <childnode refid="3280" relation="include">
+        </childnode>
+        <childnode refid="3281" relation="include">
+        </childnode>
+        <childnode refid="3282" relation="include">
+        </childnode>
+        <childnode refid="3283" relation="include">
+        </childnode>
+        <childnode refid="3284" relation="include">
+        </childnode>
+        <childnode refid="3285" relation="include">
+        </childnode>
+        <childnode refid="3286" relation="include">
+        </childnode>
+        <childnode refid="3287" relation="include">
+        </childnode>
+        <childnode refid="3288" relation="include">
+        </childnode>
+        <childnode refid="3289" relation="include">
+        </childnode>
+        <childnode refid="3290" relation="include">
+        </childnode>
+        <childnode refid="3291" relation="include">
+        </childnode>
+      </node>
+      <node id="3285">
+        <label>vector</label>
+      </node>
+      <node id="3288">
+        <label>sstream</label>
+      </node>
+      <node id="3287">
+        <label>math.h</label>
+      </node>
+      <node id="3283">
+        <label>iostream</label>
+      </node>
+      <node id="3280">
+        <label>tchar.h</label>
+      </node>
+      <node id="3291">
+        <label>Definition.h</label>
+        <link refid="_pre_manager_2ref_2_definition_8h"/>
+        <childnode refid="3292" relation="include">
+        </childnode>
+        <childnode refid="3283" relation="include">
+        </childnode>
+        <childnode refid="3287" relation="include">
+        </childnode>
+      </node>
+      <node id="3277">
+        <label>Part.h</label>
+        <link refid="_pre_manager_2ref_2_part_8h"/>
+        <childnode refid="3278" relation="include">
+        </childnode>
+      </node>
+      <node id="3275">
+        <label>PreManager/ref/FeatureSOLIDCreateExtrude.h</label>
+        <link refid="FeatureSOLIDCreateExtrude.h"/>
+        <childnode refid="3276" relation="include">
+        </childnode>
+      </node>
+      <node id="3279">
+        <label>stdio.h</label>
+      </node>
+    </incdepgraph>
+    <invincdepgraph>
+      <node id="3294">
+        <label>PreManager/ref/FeatureSOLIDCreateExtrude.cpp</label>
+        <link refid="_feature_s_o_l_i_d_create_extrude_8cpp"/>
+      </node>
+      <node id="3295">
+        <label>PreManager/ref/Part.cpp</label>
+        <link refid="_pre_manager_2ref_2_part_8cpp"/>
+      </node>
+      <node id="3293">
+        <label>PreManager/ref/FeatureSOLIDCreateExtrude.h</label>
+        <link refid="FeatureSOLIDCreateExtrude.h"/>
+        <childnode refid="3294" relation="include">
+        </childnode>
+        <childnode refid="3295" relation="include">
+        </childnode>
+      </node>
+    </invincdepgraph>
+    <innerclass refid="class_pre_1_1_feature_s_o_l_i_d_create_extrude" prot="public">Pre::FeatureSOLIDCreateExtrude</innerclass>
+    <innernamespace refid="namespace_pre">Pre</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="preprocessor">#pragma<sp/>once</highlight></codeline>
+<codeline lineno="2"><highlight class="preprocessor"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="_pre_manager_2ref_2_feature_8h" kindref="compound">Feature.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal">Pre<sp/>{</highlight></codeline>
+<codeline lineno="4"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal">FSketch;</highlight></codeline>
+<codeline lineno="5"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal">ReferenceEntity;</highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight></codeline>
+<codeline lineno="7" refid="class_pre_1_1_feature_s_o_l_i_d_create_extrude" refkind="compound"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="class_pre_1_1_feature_s_o_l_i_d_create_extrude" kindref="compound">FeatureSOLIDCreateExtrude</ref><sp/>:<sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/><ref refid="class_pre_1_1_feature" kindref="compound">Feature</ref></highlight></codeline>
+<codeline lineno="8"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight></codeline>
+<codeline lineno="10"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="11"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_pre_1_1_feature_s_o_l_i_d_create_extrude_1a010b7fa89a088f071d1f6279d30e9223" kindref="member">FeatureSOLIDCreateExtrude</ref>(<ref refid="class_pre_1_1_part" kindref="compound">Part</ref><sp/>*<sp/>pPart,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>type,<sp/></highlight><highlight class="keywordtype">string</highlight><highlight class="normal"><sp/>name);</highlight></codeline>
+<codeline lineno="12"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/><ref refid="class_pre_1_1_feature_s_o_l_i_d_create_extrude_1a814301ccc7a1e4577febe95a857a1a15" kindref="member">~FeatureSOLIDCreateExtrude</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="13"><highlight class="normal"></highlight></codeline>
+<codeline lineno="14" refid="class_pre_1_1_feature_s_o_l_i_d_create_extrude_1a4e7c658e91ab36b51ad186f0547e5810" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_pre_1_1_f_sketch" kindref="compound">FSketch</ref><sp/>*<sp/><ref refid="class_pre_1_1_feature_s_o_l_i_d_create_extrude_1a4e7c658e91ab36b51ad186f0547e5810" kindref="member">GetFeatureProfileSketch</ref>()<sp/>{<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/><ref refid="class_pre_1_1_feature_s_o_l_i_d_create_extrude_1af3c27410b187b2837e7fcad2b5b0b1a2" kindref="member">_featureProfileSketch</ref>;<sp/>}</highlight></codeline>
+<codeline lineno="15"><highlight class="normal"></highlight></codeline>
+<codeline lineno="16"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_pre_1_1_feature_s_o_l_i_d_create_extrude_1a41d123689e3484f89f0eaf8da8c2b77d" kindref="member">GetInfo</ref>(ifstream<sp/>&amp;<sp/>is);</highlight></codeline>
+<codeline lineno="17"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_pre_1_1_feature_s_o_l_i_d_create_extrude_1a58367beca79a366413642004614bfb8b" kindref="member">ToTransCAD</ref>();</highlight></codeline>
+<codeline lineno="18"><highlight class="normal"></highlight></codeline>
+<codeline lineno="19" refid="class_pre_1_1_feature_s_o_l_i_d_create_extrude_1a2d4e0ff84c86d76c32358b37943e77da" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/><ref refid="class_pre_1_1_feature_s_o_l_i_d_create_extrude_1a2d4e0ff84c86d76c32358b37943e77da" kindref="member">GetStartDepth</ref>()<sp/>{<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/><ref refid="class_pre_1_1_feature_s_o_l_i_d_create_extrude_1a95ee4627337c0eb26b6a76a122553985" kindref="member">_startDepth</ref>;<sp/>}</highlight></codeline>
+<codeline lineno="20" refid="class_pre_1_1_feature_s_o_l_i_d_create_extrude_1a813aa164e3390b7dd5dc82064980afaf" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/><ref refid="class_pre_1_1_feature_s_o_l_i_d_create_extrude_1a813aa164e3390b7dd5dc82064980afaf" kindref="member">GetEndDepth</ref>()<sp/>{<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/><ref refid="class_pre_1_1_feature_s_o_l_i_d_create_extrude_1a445c219e9149426e0210eb03192e0db1" kindref="member">_endDepth</ref>;<sp/>}</highlight></codeline>
+<codeline lineno="21"><highlight class="normal"></highlight></codeline>
+<codeline lineno="22"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_pre_1_1_feature_s_o_l_i_d_create_extrude_1a92efe8b36d4b8fd4a26396eb7f248944" kindref="member">Modify</ref>(</highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*<sp/>buffer);</highlight></codeline>
+<codeline lineno="23"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_pre_1_1_feature_s_o_l_i_d_create_extrude_1abb4f57bdb8ac8a26f753cedc941230a4" kindref="member">CheckAttribute</ref>(</highlight><highlight class="keywordtype">string</highlight><highlight class="normal"><sp/>name,<sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>value,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>type);</highlight></codeline>
+<codeline lineno="24"><highlight class="normal"></highlight></codeline>
+<codeline lineno="25"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">private</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="26" refid="class_pre_1_1_feature_s_o_l_i_d_create_extrude_1abf428323580439f15dbd0c315b5f21ad" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>VARIANT_BOOL<sp/><ref refid="class_pre_1_1_feature_s_o_l_i_d_create_extrude_1abf428323580439f15dbd0c315b5f21ad" kindref="member">_flip</ref>;</highlight></codeline>
+<codeline lineno="27" refid="class_pre_1_1_feature_s_o_l_i_d_create_extrude_1a95ee4627337c0eb26b6a76a122553985" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/><sp/><ref refid="class_pre_1_1_feature_s_o_l_i_d_create_extrude_1a95ee4627337c0eb26b6a76a122553985" kindref="member">_startDepth</ref>;</highlight></codeline>
+<codeline lineno="28" refid="class_pre_1_1_feature_s_o_l_i_d_create_extrude_1a445c219e9149426e0210eb03192e0db1" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/><sp/><ref refid="class_pre_1_1_feature_s_o_l_i_d_create_extrude_1a445c219e9149426e0210eb03192e0db1" kindref="member">_endDepth</ref>;</highlight></codeline>
+<codeline lineno="29" refid="class_pre_1_1_feature_s_o_l_i_d_create_extrude_1a8e446958fc72e2bee7eed1850369e54d" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>TransCAD::StdExtrudeEndType<sp/><ref refid="class_pre_1_1_feature_s_o_l_i_d_create_extrude_1a8e446958fc72e2bee7eed1850369e54d" kindref="member">_startCondition</ref>,<sp/><ref refid="class_pre_1_1_feature_s_o_l_i_d_create_extrude_1a4a4ec002bb9eb580ca6f7d0ed539a28e" kindref="member">_endCondition</ref>;</highlight></codeline>
+<codeline lineno="30"><highlight class="normal"></highlight></codeline>
+<codeline lineno="31"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">protected</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="32" refid="class_pre_1_1_feature_s_o_l_i_d_create_extrude_1af3c27410b187b2837e7fcad2b5b0b1a2" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_pre_1_1_f_sketch" kindref="compound">FSketch</ref><sp/>*<sp/><ref refid="class_pre_1_1_feature_s_o_l_i_d_create_extrude_1af3c27410b187b2837e7fcad2b5b0b1a2" kindref="member">_featureProfileSketch</ref>;</highlight></codeline>
+<codeline lineno="33" refid="class_pre_1_1_feature_s_o_l_i_d_create_extrude_1a2619d81470d5616ef8f03719c81ca0df" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>vector&lt;ReferenceEntity<sp/>*&gt;<sp/><ref refid="class_pre_1_1_feature_s_o_l_i_d_create_extrude_1a2619d81470d5616ef8f03719c81ca0df" kindref="member">_referenceEntityList</ref>;</highlight></codeline>
+<codeline lineno="34"><highlight class="normal"><sp/><sp/><sp/><sp/>};</highlight></codeline>
+<codeline lineno="35"><highlight class="normal">}</highlight></codeline>
+    </programlisting>
+    <location file="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/PreManager/ref/FeatureSOLIDCreateExtrude.h"/>
+  </compounddef>
+</doxygen>

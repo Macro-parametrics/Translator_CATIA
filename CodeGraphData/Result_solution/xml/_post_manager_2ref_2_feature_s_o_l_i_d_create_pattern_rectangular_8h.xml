@@ -1,0 +1,190 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="_post_manager_2ref_2_feature_s_o_l_i_d_create_pattern_rectangular_8h" kind="file">
+    <compoundname>FeatureSOLIDCreatePatternRectangular.h</compoundname>
+    <includes refid="_post_manager_2ref_2_feature_8h" local="yes">Feature.h</includes>
+    <includedby refid="_post_manager_2ref_2_feature_s_o_l_i_d_create_pattern_rectangular_8cpp" local="yes">PostManager/ref/FeatureSOLIDCreatePatternRectangular.cpp</includedby>
+    <includedby refid="_post_manager_2ref_2_part_8cpp" local="yes">PostManager/ref/Part.cpp</includedby>
+    <incdepgraph>
+      <node id="1600">
+        <label>atlstr.h</label>
+      </node>
+      <node id="1596">
+        <label>Feature.h</label>
+        <link refid="_post_manager_2ref_2_feature_8h"/>
+        <childnode refid="1597" relation="include">
+        </childnode>
+      </node>
+      <node id="1606">
+        <label>stdlib.h</label>
+      </node>
+      <node id="1608">
+        <label>cmath</label>
+      </node>
+      <node id="1602">
+        <label>string</label>
+      </node>
+      <node id="1607">
+        <label>comutil.h</label>
+      </node>
+      <node id="1603">
+        <label>fstream</label>
+      </node>
+      <node id="1597">
+        <label>Part.h</label>
+        <link refid="_post_manager_2ref_2_part_8h"/>
+        <childnode refid="1598" relation="include">
+        </childnode>
+        <childnode refid="1611" relation="include">
+        </childnode>
+      </node>
+      <node id="1615">
+        <label>MP_Utility.h</label>
+        <link refid="_m_p___utility_8h"/>
+        <childnode refid="1612" relation="include">
+        </childnode>
+      </node>
+      <node id="1595">
+        <label>PostManager/ref/FeatureSOLIDCreatePatternRectangular.h</label>
+        <link refid="PostManager/ref/FeatureSOLIDCreatePatternRectangular.h"/>
+        <childnode refid="1596" relation="include">
+        </childnode>
+      </node>
+      <node id="1614">
+        <label>string.h</label>
+      </node>
+      <node id="1604">
+        <label>vector</label>
+      </node>
+      <node id="1610">
+        <label>math.h</label>
+      </node>
+      <node id="1599">
+        <label>atlbase.h</label>
+      </node>
+      <node id="1611">
+        <label>CATIAReferenceManager.h</label>
+        <link refid="_c_a_t_i_a_reference_manager_8h"/>
+        <childnode refid="1598" relation="include">
+        </childnode>
+        <childnode refid="1612" relation="include">
+        </childnode>
+        <childnode refid="1615" relation="include">
+        </childnode>
+      </node>
+      <node id="1601">
+        <label>iostream</label>
+      </node>
+      <node id="1609">
+        <label>Definition.h</label>
+        <link refid="_post_manager_2ref_2_definition_8h"/>
+        <childnode refid="1610" relation="include">
+        </childnode>
+      </node>
+      <node id="1613">
+        <label>algorithm</label>
+      </node>
+      <node id="1605">
+        <label>stdio.h</label>
+      </node>
+      <node id="1612">
+        <label>PN_TYPE.h</label>
+        <link refid="_p_n___t_y_p_e_8h"/>
+        <childnode refid="1601" relation="include">
+        </childnode>
+        <childnode refid="1602" relation="include">
+        </childnode>
+        <childnode refid="1604" relation="include">
+        </childnode>
+        <childnode refid="1613" relation="include">
+        </childnode>
+        <childnode refid="1610" relation="include">
+        </childnode>
+        <childnode refid="1614" relation="include">
+        </childnode>
+      </node>
+      <node id="1598">
+        <label>CATIApost_DLL.h</label>
+        <link refid="_c_a_t_i_apost___d_l_l_8h"/>
+        <childnode refid="1599" relation="include">
+        </childnode>
+        <childnode refid="1600" relation="include">
+        </childnode>
+        <childnode refid="1601" relation="include">
+        </childnode>
+        <childnode refid="1602" relation="include">
+        </childnode>
+        <childnode refid="1603" relation="include">
+        </childnode>
+        <childnode refid="1604" relation="include">
+        </childnode>
+        <childnode refid="1605" relation="include">
+        </childnode>
+        <childnode refid="1606" relation="include">
+        </childnode>
+        <childnode refid="1607" relation="include">
+        </childnode>
+        <childnode refid="1608" relation="include">
+        </childnode>
+        <childnode refid="1609" relation="include">
+        </childnode>
+      </node>
+    </incdepgraph>
+    <invincdepgraph>
+      <node id="1618">
+        <label>PostManager/ref/Part.cpp</label>
+        <link refid="_post_manager_2ref_2_part_8cpp"/>
+      </node>
+      <node id="1617">
+        <label>PostManager/ref/FeatureSOLIDCreatePatternRectangular.cpp</label>
+        <link refid="_post_manager_2ref_2_feature_s_o_l_i_d_create_pattern_rectangular_8cpp"/>
+      </node>
+      <node id="1616">
+        <label>PostManager/ref/FeatureSOLIDCreatePatternRectangular.h</label>
+        <link refid="PostManager/ref/FeatureSOLIDCreatePatternRectangular.h"/>
+        <childnode refid="1617" relation="include">
+        </childnode>
+        <childnode refid="1618" relation="include">
+        </childnode>
+      </node>
+    </invincdepgraph>
+    <innerclass refid="class_post_1_1_feature_s_o_l_i_d_create_pattern_rectangular" prot="public">Post::FeatureSOLIDCreatePatternRectangular</innerclass>
+    <innernamespace refid="namespace_post">Post</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="preprocessor">#pragma<sp/>once</highlight></codeline>
+<codeline lineno="2"><highlight class="preprocessor"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="_post_manager_2ref_2_feature_8h" kindref="compound">Feature.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal">Post<sp/>{</highlight></codeline>
+<codeline lineno="4" refid="class_post_1_1_feature_s_o_l_i_d_create_pattern_rectangular" refkind="compound"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="class_post_1_1_feature_s_o_l_i_d_create_pattern_rectangular" kindref="compound">FeatureSOLIDCreatePatternRectangular</ref><sp/>:<sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/><ref refid="class_post_1_1_feature" kindref="compound">Feature</ref></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="6"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="7"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_post_1_1_feature_s_o_l_i_d_create_pattern_rectangular_1a09b16cfa4610f831f809e341c68d230b" kindref="member">FeatureSOLIDCreatePatternRectangular</ref>(<ref refid="class_post_1_1_part" kindref="compound">Part</ref><sp/>*<sp/>pPart,<sp/>TransCAD::IFeaturePtr<sp/>spFeature);</highlight></codeline>
+<codeline lineno="8"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/><ref refid="class_post_1_1_feature_s_o_l_i_d_create_pattern_rectangular_1a483503ee2307af563d09979d66b81945" kindref="member">~FeatureSOLIDCreatePatternRectangular</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight></codeline>
+<codeline lineno="10"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_post_1_1_feature_s_o_l_i_d_create_pattern_rectangular_1abb31233e316bac582f8b8b529dac7f49" kindref="member">GetInfo</ref>();</highlight></codeline>
+<codeline lineno="11"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_post_1_1_feature_s_o_l_i_d_create_pattern_rectangular_1a3c104d07dd42a6c50984884c5ccc9fcb" kindref="member">ToCATIA</ref>();</highlight></codeline>
+<codeline lineno="12"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_post_1_1_feature_s_o_l_i_d_create_pattern_rectangular_1a67dde003b7a175875b6750403179ef03" kindref="member">GetRectReferencePlane</ref>();</highlight></codeline>
+<codeline lineno="13"><highlight class="normal"></highlight></codeline>
+<codeline lineno="14"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">protected</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="15" refid="class_post_1_1_feature_s_o_l_i_d_create_pattern_rectangular_1a0277318036f00d42603486f5cb53c300" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">string</highlight><highlight class="normal"><sp/><ref refid="class_post_1_1_feature_s_o_l_i_d_create_pattern_rectangular_1a0277318036f00d42603486f5cb53c300" kindref="member">_featurename</ref>;</highlight></codeline>
+<codeline lineno="16" refid="class_post_1_1_feature_s_o_l_i_d_create_pattern_rectangular_1a2454ce7a69796b8440f2441e034ef20b" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/><ref refid="class_post_1_1_feature_s_o_l_i_d_create_pattern_rectangular_1a2454ce7a69796b8440f2441e034ef20b" kindref="member">_featurenameCATIA</ref>[1024];</highlight></codeline>
+<codeline lineno="17"><highlight class="normal"></highlight></codeline>
+<codeline lineno="18" refid="class_post_1_1_feature_s_o_l_i_d_create_pattern_rectangular_1ad176e08f2e7988a65e7c8b89e4b814b0" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/><ref refid="class_post_1_1_feature_s_o_l_i_d_create_pattern_rectangular_1ad176e08f2e7988a65e7c8b89e4b814b0" kindref="member">_colspacing</ref>;</highlight></codeline>
+<codeline lineno="19" refid="class_post_1_1_feature_s_o_l_i_d_create_pattern_rectangular_1a04c63f3fea5abaecf7ce844c8b9952f3" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/><ref refid="class_post_1_1_feature_s_o_l_i_d_create_pattern_rectangular_1a04c63f3fea5abaecf7ce844c8b9952f3" kindref="member">_rowspacing</ref>;</highlight></codeline>
+<codeline lineno="20" refid="class_post_1_1_feature_s_o_l_i_d_create_pattern_rectangular_1abdee9add2b1e1586978caea875ab72dd" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="class_post_1_1_feature_s_o_l_i_d_create_pattern_rectangular_1abdee9add2b1e1586978caea875ab72dd" kindref="member">_colnumber</ref>;</highlight></codeline>
+<codeline lineno="21" refid="class_post_1_1_feature_s_o_l_i_d_create_pattern_rectangular_1adb02511efae82a0b2ee0bf056bfb0b8f" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="class_post_1_1_feature_s_o_l_i_d_create_pattern_rectangular_1adb02511efae82a0b2ee0bf056bfb0b8f" kindref="member">_rownumber</ref>;</highlight></codeline>
+<codeline lineno="22" refid="class_post_1_1_feature_s_o_l_i_d_create_pattern_rectangular_1a41afc6be3b0709e5a035c561fa973ff8" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/><ref refid="class_post_1_1_feature_s_o_l_i_d_create_pattern_rectangular_1a41afc6be3b0709e5a035c561fa973ff8" kindref="member">_coldir</ref>[3];</highlight></codeline>
+<codeline lineno="23" refid="class_post_1_1_feature_s_o_l_i_d_create_pattern_rectangular_1a64f63a176eb336d3a40677b58a85b3ce" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/><ref refid="class_post_1_1_feature_s_o_l_i_d_create_pattern_rectangular_1a64f63a176eb336d3a40677b58a85b3ce" kindref="member">_rowdir</ref>[3];</highlight></codeline>
+<codeline lineno="24"><highlight class="normal"></highlight></codeline>
+<codeline lineno="25" refid="class_post_1_1_feature_s_o_l_i_d_create_pattern_rectangular_1a965d1f5ba67f856569766cfd2dbf288b" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/><ref refid="class_post_1_1_feature_s_o_l_i_d_create_pattern_rectangular_1a2596e162c939c5ec4193c7fdad735bf4" kindref="member">coldir</ref>,<sp/><ref refid="class_post_1_1_feature_s_o_l_i_d_create_pattern_rectangular_1a965d1f5ba67f856569766cfd2dbf288b" kindref="member">rowdir</ref>;</highlight></codeline>
+<codeline lineno="26" refid="class_post_1_1_feature_s_o_l_i_d_create_pattern_rectangular_1a40e5fa40eccab733e14bfe3be0e73f73" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="class_post_1_1_feature_s_o_l_i_d_create_pattern_rectangular_1a40e5fa40eccab733e14bfe3be0e73f73" kindref="member">_refdir</ref>[2];</highlight></codeline>
+<codeline lineno="27" refid="class_post_1_1_feature_s_o_l_i_d_create_pattern_rectangular_1a65d098d2acb0785f04b629100b6687b1" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/><ref refid="class_post_1_1_feature_s_o_l_i_d_create_pattern_rectangular_1a65d098d2acb0785f04b629100b6687b1" kindref="member">_refPlane</ref>[1024];</highlight></codeline>
+<codeline lineno="28"><highlight class="normal"><sp/><sp/><sp/><sp/>};</highlight></codeline>
+<codeline lineno="29"><highlight class="normal">}</highlight></codeline>
+    </programlisting>
+    <location file="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/PostManager/ref/FeatureSOLIDCreatePatternRectangular.h"/>
+  </compounddef>
+</doxygen>

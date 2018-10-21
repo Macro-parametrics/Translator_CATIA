@@ -1,0 +1,63 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="struct_pre_1_1_report_item" kind="struct" prot="public">
+    <compoundname>Pre::ReportItem</compoundname>
+    <includes refid="_pre_manager_2ref_2_f_sketch_8h" local="no">FSketch.h</includes>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="struct_pre_1_1_report_item_1a9ef43228e08660b9690f14d036942c79" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int Pre::ReportItem::_reportName</definition>
+        <argsstring></argsstring>
+        <name>_reportName</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/PreManager/ref/FSketch.h" line="9" column="1" bodyfile="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/PreManager/ref/FSketch.h" bodystart="9" bodyend="-1"/>
+        <referencedby refid="class_pre_1_1_f_sketch_1a0656c7068d8d8606fd98daf21fccb982" compoundref="_pre_manager_2ref_2_f_sketch_8cpp" startline="231" endline="238">Pre::FSketch::AddEntityNameReportName</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="struct_pre_1_1_report_item_1a493acafbbbbca80f8e05745a3f6535cc" prot="public" static="no" mutable="no">
+        <type>string</type>
+        <definition>string Pre::ReportItem::_entityName</definition>
+        <argsstring></argsstring>
+        <name>_entityName</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/PreManager/ref/FSketch.h" line="10" column="1" bodyfile="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/PreManager/ref/FSketch.h" bodystart="10" bodyend="-1"/>
+        <referencedby refid="class_pre_1_1_f_sketch_1a0656c7068d8d8606fd98daf21fccb982" compoundref="_pre_manager_2ref_2_f_sketch_8cpp" startline="231" endline="238">Pre::FSketch::AddEntityNameReportName</referencedby>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="1161">
+        <label>std::basic_string&lt; char &gt;</label>
+      </node>
+      <node id="1159">
+        <label>Pre::ReportItem</label>
+        <link refid="struct_pre_1_1_report_item"/>
+        <childnode refid="1160" relation="usage">
+          <edgelabel>_entityName</edgelabel>
+        </childnode>
+      </node>
+      <node id="1160">
+        <label>std::string</label>
+        <childnode refid="1161" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/PreManager/ref/FSketch.h" line="8" column="1" bodyfile="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/PreManager/ref/FSketch.h" bodystart="7" bodyend="11"/>
+    <listofallmembers>
+      <member refid="struct_pre_1_1_report_item_1a493acafbbbbca80f8e05745a3f6535cc" prot="public" virt="non-virtual"><scope>Pre::ReportItem</scope><name>_entityName</name></member>
+      <member refid="struct_pre_1_1_report_item_1a9ef43228e08660b9690f14d036942c79" prot="public" virt="non-virtual"><scope>Pre::ReportItem</scope><name>_reportName</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

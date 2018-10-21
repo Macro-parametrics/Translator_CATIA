@@ -1,0 +1,168 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_c_a_t_i_a_translator_1_1_sketch_circle2_d" kind="class" prot="public">
+    <compoundname>CATIATranslator::SketchCircle2D</compoundname>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_c_a_t_i_a_translator_1_1_sketch_circle2_d_1a6c5ffeb6601fcb216be51a3e8c1b6002" prot="public" static="no" mutable="no">
+        <type><ref refid="class_c_a_t_i_a_translator_1_1_feature_sketch" kindref="compound">FeatureSketch</ref></type>
+        <definition>FeatureSketch CATIATranslator.SketchCircle2D.SketchManager</definition>
+        <argsstring></argsstring>
+        <name>SketchManager</name>
+        <initializer>= null</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/CATIATranslator/Part/Sketch/SketchElement/SketchCircle2D.cs" line="7" column="1" bodyfile="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/CATIATranslator/Part/Sketch/SketchElement/SketchCircle2D.cs" bodystart="7" bodyend="-1"/>
+        <referencedby refid="class_c_a_t_i_a_translator_1_1_sketch_circle2_d_1ad76da2e67b2e75cfa4648f87bd9c215c" compoundref="_sketch_circle2_d_8cs" startline="9" endline="12">CATIATranslator.SketchCircle2D.SketchCircle2D</referencedby>
+        <referencedby refid="class_c_a_t_i_a_translator_1_1_sketch_circle2_d_1a2922c705ac3e4bdaf640344919016610" compoundref="_sketch_circle2_d_8cs" startline="65" endline="119">CATIATranslator.SketchCircle2D.TranslateT2C</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_c_a_t_i_a_translator_1_1_sketch_circle2_d_1ad76da2e67b2e75cfa4648f87bd9c215c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>CATIATranslator.SketchCircle2D.SketchCircle2D</definition>
+        <argsstring>(FeatureSketch SketchManager)</argsstring>
+        <name>SketchCircle2D</name>
+        <param>
+          <type><ref refid="class_c_a_t_i_a_translator_1_1_feature_sketch" kindref="compound">FeatureSketch</ref></type>
+          <declname>SketchManager</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/CATIATranslator/Part/Sketch/SketchElement/SketchCircle2D.cs" line="9" column="1" bodyfile="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/CATIATranslator/Part/Sketch/SketchElement/SketchCircle2D.cs" bodystart="9" bodyend="12"/>
+        <references refid="class_c_a_t_i_a_translator_1_1_sketch_circle2_d_1a6c5ffeb6601fcb216be51a3e8c1b6002" compoundref="_sketch_circle2_d_8cs" startline="7">CATIATranslator.SketchCircle2D.SketchManager</references>
+      </memberdef>
+      <memberdef kind="function" id="class_c_a_t_i_a_translator_1_1_sketch_circle2_d_1a745356d6eeb6cadf8cb36bd13e1a2751" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void CATIATranslator.SketchCircle2D.TranslateC2T</definition>
+        <argsstring>(MECMOD.GeometricElement cGeom)</argsstring>
+        <name>TranslateC2T</name>
+        <param>
+          <type>MECMOD.GeometricElement</type>
+          <declname>cGeom</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/CATIATranslator/Part/Sketch/SketchElement/SketchCircle2D.cs" line="15" column="1" bodyfile="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/CATIATranslator/Part/Sketch/SketchElement/SketchCircle2D.cs" bodystart="15" bodyend="62"/>
+      </memberdef>
+      <memberdef kind="function" id="class_c_a_t_i_a_translator_1_1_sketch_circle2_d_1a2922c705ac3e4bdaf640344919016610" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void CATIATranslator.SketchCircle2D.TranslateT2C</definition>
+        <argsstring>(TransCAD.IStdSketchGeometry tGeom)</argsstring>
+        <name>TranslateT2C</name>
+        <param>
+          <type>TransCAD.IStdSketchGeometry</type>
+          <declname>tGeom</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/CATIATranslator/Part/Sketch/SketchElement/SketchCircle2D.cs" line="65" column="1" bodyfile="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/CATIATranslator/Part/Sketch/SketchElement/SketchCircle2D.cs" bodystart="65" bodyend="119"/>
+        <references refid="class_c_a_t_i_a_translator_1_1_feature_sketch_1aa243392fc4b3ca21b034d6d850eac3a5" compoundref="_feature_sketch_8cs" startline="16">CATIATranslator.FeatureSketch.cFactory</references>
+        <references refid="class_c_a_t_i_a_translator_1_1_sketch_circle2_d_1a6c5ffeb6601fcb216be51a3e8c1b6002" compoundref="_sketch_circle2_d_8cs" startline="7">CATIATranslator.SketchCircle2D.SketchManager</references>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="1176">
+        <label>CATIATranslator.FeatureSketch</label>
+        <link refid="class_c_a_t_i_a_translator_1_1_feature_sketch"/>
+        <childnode refid="1177" relation="usage">
+          <edgelabel>tReference</edgelabel>
+          <edgelabel>tSketchEditor</edgelabel>
+        </childnode>
+        <childnode refid="1178" relation="usage">
+          <edgelabel>cReference</edgelabel>
+        </childnode>
+        <childnode refid="1180" relation="usage">
+          <edgelabel>PartManager</edgelabel>
+        </childnode>
+      </node>
+      <node id="1177">
+        <label>TransCAD</label>
+      </node>
+      <node id="1175">
+        <label>CATIATranslator.SketchCircle2D</label>
+        <link refid="class_c_a_t_i_a_translator_1_1_sketch_circle2_d"/>
+        <childnode refid="1176" relation="usage">
+          <edgelabel>SketchManager</edgelabel>
+        </childnode>
+      </node>
+      <node id="1178">
+        <label>CATIATranslator.Reference</label>
+        <link refid="class_c_a_t_i_a_translator_1_1_reference"/>
+        <childnode refid="1179" relation="usage">
+          <edgelabel>assembly</edgelabel>
+        </childnode>
+        <childnode refid="1180" relation="usage">
+          <edgelabel>PartManager</edgelabel>
+        </childnode>
+      </node>
+      <node id="1180">
+        <label>CATIATranslator.Part</label>
+        <link refid="class_c_a_t_i_a_translator_1_1_part"/>
+        <childnode refid="1177" relation="usage">
+          <edgelabel>tAssemDoc</edgelabel>
+          <edgelabel>tApp</edgelabel>
+          <edgelabel>tPartDoc</edgelabel>
+          <edgelabel>tDocs</edgelabel>
+          <edgelabel>tFeatures</edgelabel>
+          <edgelabel>tAssem</edgelabel>
+          <edgelabel>tComp</edgelabel>
+          <edgelabel>tPart</edgelabel>
+        </childnode>
+        <childnode refid="1178" relation="usage">
+          <edgelabel>ReferenceManager</edgelabel>
+        </childnode>
+        <childnode refid="1180" relation="usage">
+          <edgelabel>cPart</edgelabel>
+        </childnode>
+      </node>
+      <node id="1179">
+        <label>CATIATranslator.Assembly</label>
+        <link refid="class_c_a_t_i_a_translator_1_1_assembly"/>
+        <childnode refid="1177" relation="usage">
+          <edgelabel>tConstraints</edgelabel>
+          <edgelabel>tAssemDoc</edgelabel>
+          <edgelabel>tApp</edgelabel>
+          <edgelabel>tPartDoc</edgelabel>
+          <edgelabel>tDocs</edgelabel>
+          <edgelabel>tFeatures</edgelabel>
+          <edgelabel>tAssem</edgelabel>
+          <edgelabel>tComp</edgelabel>
+          <edgelabel>tPart</edgelabel>
+        </childnode>
+        <childnode refid="1178" relation="usage">
+          <edgelabel>ReferenceManager</edgelabel>
+        </childnode>
+        <childnode refid="1180" relation="usage">
+          <edgelabel>cPart</edgelabel>
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/CATIATranslator/Part/Sketch/SketchElement/SketchCircle2D.cs" line="6" column="1" bodyfile="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/CATIATranslator/Part/Sketch/SketchElement/SketchCircle2D.cs" bodystart="5" bodyend="120"/>
+    <listofallmembers>
+      <member refid="class_c_a_t_i_a_translator_1_1_sketch_circle2_d_1ad76da2e67b2e75cfa4648f87bd9c215c" prot="public" virt="non-virtual"><scope>CATIATranslator::SketchCircle2D</scope><name>SketchCircle2D</name></member>
+      <member refid="class_c_a_t_i_a_translator_1_1_sketch_circle2_d_1a6c5ffeb6601fcb216be51a3e8c1b6002" prot="public" virt="non-virtual"><scope>CATIATranslator::SketchCircle2D</scope><name>SketchManager</name></member>
+      <member refid="class_c_a_t_i_a_translator_1_1_sketch_circle2_d_1a745356d6eeb6cadf8cb36bd13e1a2751" prot="public" virt="non-virtual"><scope>CATIATranslator::SketchCircle2D</scope><name>TranslateC2T</name></member>
+      <member refid="class_c_a_t_i_a_translator_1_1_sketch_circle2_d_1a2922c705ac3e4bdaf640344919016610" prot="public" virt="non-virtual"><scope>CATIATranslator::SketchCircle2D</scope><name>TranslateT2C</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

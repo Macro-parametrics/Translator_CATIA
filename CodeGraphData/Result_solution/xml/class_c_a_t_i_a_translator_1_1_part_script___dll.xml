@@ -1,0 +1,97 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_c_a_t_i_a_translator_1_1_part_script___dll" kind="class" prot="public">
+    <compoundname>CATIATranslator::PartScript_Dll</compoundname>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_c_a_t_i_a_translator_1_1_part_script___dll_1adf57f61d9d532a2ec58fa17e64796d28" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int CATIATranslator.PartScript_Dll.TransStatus</definition>
+        <argsstring></argsstring>
+        <name>TransStatus</name>
+        <initializer>= 0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/CATIATranslator/Part/PartScript_Dll.cs" line="11" column="1" bodyfile="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/CATIATranslator/Part/PartScript_Dll.cs" bodystart="11" bodyend="-1"/>
+        <referencedby refid="class_c_a_t_i_a_translator_1_1_form1_1a6374dccae22f5c0f3d28ac2d6a8fa884" compoundref="_form1_8cs" startline="243" endline="272">CATIATranslator.Form1.button5_Click_1</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_c_a_t_i_a_translator_1_1_part_script___dll_1ab5aacc95af098e1ecdf72f160da3706a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>static int CATIATranslator.PartScript_Dll.CATIAPreStartService</definition>
+        <argsstring>()</argsstring>
+        <name>CATIAPreStartService</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/CATIATranslator/Part/PartScript_Dll.cs" line="15" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="class_c_a_t_i_a_translator_1_1_part_script___dll_1a281389c2c8d5b10c854ecf2e8880cb55" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>static int CATIATranslator.PartScript_Dll.CATIAPreTranslate</definition>
+        <argsstring>(string path)</argsstring>
+        <name>CATIAPreTranslate</name>
+        <param>
+          <type>string</type>
+          <declname>path</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/CATIATranslator/Part/PartScript_Dll.cs" line="17" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="class_c_a_t_i_a_translator_1_1_part_script___dll_1a467058e6c4c0602b1af1550c3e569bf8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>static int CATIATranslator.PartScript_Dll.CATIAPostStartService</definition>
+        <argsstring>()</argsstring>
+        <name>CATIAPostStartService</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/CATIATranslator/Part/PartScript_Dll.cs" line="20" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="class_c_a_t_i_a_translator_1_1_part_script___dll_1a4d09ee8deba9558bf841dcc593865454" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>static int CATIATranslator.PartScript_Dll.CATIAPostTranslate</definition>
+        <argsstring>(string path)</argsstring>
+        <name>CATIAPostTranslate</name>
+        <param>
+          <type>string</type>
+          <declname>path</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/CATIATranslator/Part/PartScript_Dll.cs" line="22" column="1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/CATIATranslator/Part/PartScript_Dll.cs" line="10" column="1" bodyfile="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/CATIATranslator/Part/PartScript_Dll.cs" bodystart="9" bodyend="23"/>
+    <listofallmembers>
+      <member refid="class_c_a_t_i_a_translator_1_1_part_script___dll_1a467058e6c4c0602b1af1550c3e569bf8" prot="public" virt="non-virtual"><scope>CATIATranslator::PartScript_Dll</scope><name>CATIAPostStartService</name></member>
+      <member refid="class_c_a_t_i_a_translator_1_1_part_script___dll_1a4d09ee8deba9558bf841dcc593865454" prot="public" virt="non-virtual"><scope>CATIATranslator::PartScript_Dll</scope><name>CATIAPostTranslate</name></member>
+      <member refid="class_c_a_t_i_a_translator_1_1_part_script___dll_1ab5aacc95af098e1ecdf72f160da3706a" prot="public" virt="non-virtual"><scope>CATIATranslator::PartScript_Dll</scope><name>CATIAPreStartService</name></member>
+      <member refid="class_c_a_t_i_a_translator_1_1_part_script___dll_1a281389c2c8d5b10c854ecf2e8880cb55" prot="public" virt="non-virtual"><scope>CATIATranslator::PartScript_Dll</scope><name>CATIAPreTranslate</name></member>
+      <member refid="class_c_a_t_i_a_translator_1_1_part_script___dll_1adf57f61d9d532a2ec58fa17e64796d28" prot="public" virt="non-virtual"><scope>CATIATranslator::PartScript_Dll</scope><name>TransStatus</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

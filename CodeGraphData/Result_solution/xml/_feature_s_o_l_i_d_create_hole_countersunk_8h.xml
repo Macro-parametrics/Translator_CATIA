@@ -1,0 +1,185 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="_feature_s_o_l_i_d_create_hole_countersunk_8h" kind="file">
+    <compoundname>FeatureSOLIDCreateHoleCountersunk.h</compoundname>
+    <includes refid="_post_manager_2ref_2_feature_8h" local="yes">Feature.h</includes>
+    <includedby refid="_feature_s_o_l_i_d_create_hole_countersunk_8cpp" local="yes">PostManager/ref/FeatureSOLIDCreateHoleCountersunk.cpp</includedby>
+    <includedby refid="_post_manager_2ref_2_part_8cpp" local="yes">PostManager/ref/Part.cpp</includedby>
+    <incdepgraph>
+      <node id="1435">
+        <label>atlstr.h</label>
+      </node>
+      <node id="1430">
+        <label>PostManager/ref/FeatureSOLIDCreateHoleCountersunk.h</label>
+        <link refid="FeatureSOLIDCreateHoleCountersunk.h"/>
+        <childnode refid="1431" relation="include">
+        </childnode>
+      </node>
+      <node id="1431">
+        <label>Feature.h</label>
+        <link refid="_post_manager_2ref_2_feature_8h"/>
+        <childnode refid="1432" relation="include">
+        </childnode>
+      </node>
+      <node id="1441">
+        <label>stdlib.h</label>
+      </node>
+      <node id="1443">
+        <label>cmath</label>
+      </node>
+      <node id="1437">
+        <label>string</label>
+      </node>
+      <node id="1442">
+        <label>comutil.h</label>
+      </node>
+      <node id="1438">
+        <label>fstream</label>
+      </node>
+      <node id="1432">
+        <label>Part.h</label>
+        <link refid="_post_manager_2ref_2_part_8h"/>
+        <childnode refid="1433" relation="include">
+        </childnode>
+        <childnode refid="1446" relation="include">
+        </childnode>
+      </node>
+      <node id="1450">
+        <label>MP_Utility.h</label>
+        <link refid="_m_p___utility_8h"/>
+        <childnode refid="1447" relation="include">
+        </childnode>
+      </node>
+      <node id="1449">
+        <label>string.h</label>
+      </node>
+      <node id="1439">
+        <label>vector</label>
+      </node>
+      <node id="1445">
+        <label>math.h</label>
+      </node>
+      <node id="1434">
+        <label>atlbase.h</label>
+      </node>
+      <node id="1446">
+        <label>CATIAReferenceManager.h</label>
+        <link refid="_c_a_t_i_a_reference_manager_8h"/>
+        <childnode refid="1433" relation="include">
+        </childnode>
+        <childnode refid="1447" relation="include">
+        </childnode>
+        <childnode refid="1450" relation="include">
+        </childnode>
+      </node>
+      <node id="1436">
+        <label>iostream</label>
+      </node>
+      <node id="1444">
+        <label>Definition.h</label>
+        <link refid="_post_manager_2ref_2_definition_8h"/>
+        <childnode refid="1445" relation="include">
+        </childnode>
+      </node>
+      <node id="1448">
+        <label>algorithm</label>
+      </node>
+      <node id="1440">
+        <label>stdio.h</label>
+      </node>
+      <node id="1447">
+        <label>PN_TYPE.h</label>
+        <link refid="_p_n___t_y_p_e_8h"/>
+        <childnode refid="1436" relation="include">
+        </childnode>
+        <childnode refid="1437" relation="include">
+        </childnode>
+        <childnode refid="1439" relation="include">
+        </childnode>
+        <childnode refid="1448" relation="include">
+        </childnode>
+        <childnode refid="1445" relation="include">
+        </childnode>
+        <childnode refid="1449" relation="include">
+        </childnode>
+      </node>
+      <node id="1433">
+        <label>CATIApost_DLL.h</label>
+        <link refid="_c_a_t_i_apost___d_l_l_8h"/>
+        <childnode refid="1434" relation="include">
+        </childnode>
+        <childnode refid="1435" relation="include">
+        </childnode>
+        <childnode refid="1436" relation="include">
+        </childnode>
+        <childnode refid="1437" relation="include">
+        </childnode>
+        <childnode refid="1438" relation="include">
+        </childnode>
+        <childnode refid="1439" relation="include">
+        </childnode>
+        <childnode refid="1440" relation="include">
+        </childnode>
+        <childnode refid="1441" relation="include">
+        </childnode>
+        <childnode refid="1442" relation="include">
+        </childnode>
+        <childnode refid="1443" relation="include">
+        </childnode>
+        <childnode refid="1444" relation="include">
+        </childnode>
+      </node>
+    </incdepgraph>
+    <invincdepgraph>
+      <node id="1453">
+        <label>PostManager/ref/Part.cpp</label>
+        <link refid="_post_manager_2ref_2_part_8cpp"/>
+      </node>
+      <node id="1451">
+        <label>PostManager/ref/FeatureSOLIDCreateHoleCountersunk.h</label>
+        <link refid="FeatureSOLIDCreateHoleCountersunk.h"/>
+        <childnode refid="1452" relation="include">
+        </childnode>
+        <childnode refid="1453" relation="include">
+        </childnode>
+      </node>
+      <node id="1452">
+        <label>PostManager/ref/FeatureSOLIDCreateHoleCountersunk.cpp</label>
+        <link refid="_feature_s_o_l_i_d_create_hole_countersunk_8cpp"/>
+      </node>
+    </invincdepgraph>
+    <innerclass refid="class_post_1_1_feature_s_o_l_i_d_create_hole_countersunk" prot="public">Post::FeatureSOLIDCreateHoleCountersunk</innerclass>
+    <innernamespace refid="namespace_post">Post</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="preprocessor">#pragma<sp/>once</highlight></codeline>
+<codeline lineno="2"><highlight class="preprocessor"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="_post_manager_2ref_2_feature_8h" kindref="compound">Feature.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal">Post<sp/>{</highlight></codeline>
+<codeline lineno="4" refid="class_post_1_1_feature_s_o_l_i_d_create_hole_countersunk" refkind="compound"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="class_post_1_1_feature_s_o_l_i_d_create_hole_countersunk" kindref="compound">FeatureSOLIDCreateHoleCountersunk</ref><sp/>:<sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/><ref refid="class_post_1_1_feature" kindref="compound">Feature</ref></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="6"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="7"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_post_1_1_feature_s_o_l_i_d_create_hole_countersunk_1a19d808f2d2fd58bb0e0a332d8a55779c" kindref="member">FeatureSOLIDCreateHoleCountersunk</ref>(<ref refid="class_post_1_1_part" kindref="compound">Part</ref><sp/>*<sp/>pPart,<sp/>TransCAD::IFeaturePtr<sp/>spFeature);</highlight></codeline>
+<codeline lineno="8"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/><ref refid="class_post_1_1_feature_s_o_l_i_d_create_hole_countersunk_1ab7b6d319d4c9d9356729749bc0b3c5c6" kindref="member">~FeatureSOLIDCreateHoleCountersunk</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight></codeline>
+<codeline lineno="10"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_post_1_1_feature_s_o_l_i_d_create_hole_countersunk_1ab3b5d0c0cfb307e533792e43fb351e90" kindref="member">GetInfo</ref>();</highlight></codeline>
+<codeline lineno="11"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_post_1_1_feature_s_o_l_i_d_create_hole_countersunk_1a076b56d8a0a35f24cd0ae55d0760e87e" kindref="member">ToCATIA</ref>();</highlight></codeline>
+<codeline lineno="12"><highlight class="normal"></highlight></codeline>
+<codeline lineno="13"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">protected</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="14" refid="class_post_1_1_feature_s_o_l_i_d_create_hole_countersunk_1a4424406ae14c9b5375624e80f6d4f109" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/><ref refid="class_post_1_1_feature_s_o_l_i_d_create_hole_countersunk_1a4424406ae14c9b5375624e80f6d4f109" kindref="member">_Radius</ref>;</highlight></codeline>
+<codeline lineno="15" refid="class_post_1_1_feature_s_o_l_i_d_create_hole_countersunk_1a8673bb97ae613a1769b5f0b8c2fd2bc8" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/><ref refid="class_post_1_1_feature_s_o_l_i_d_create_hole_countersunk_1a8673bb97ae613a1769b5f0b8c2fd2bc8" kindref="member">_Depth</ref>;</highlight></codeline>
+<codeline lineno="16" refid="class_post_1_1_feature_s_o_l_i_d_create_hole_countersunk_1ace32a7f8bd231d8a3e82c330cf8924e8" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/><ref refid="class_post_1_1_feature_s_o_l_i_d_create_hole_countersunk_1ace32a7f8bd231d8a3e82c330cf8924e8" kindref="member">_sinkRadius</ref>;</highlight></codeline>
+<codeline lineno="17" refid="class_post_1_1_feature_s_o_l_i_d_create_hole_countersunk_1a2201d97bd7a6603baf64f9c047a03452" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/><ref refid="class_post_1_1_feature_s_o_l_i_d_create_hole_countersunk_1a2201d97bd7a6603baf64f9c047a03452" kindref="member">_sinkAngle</ref>;</highlight></codeline>
+<codeline lineno="18" refid="class_post_1_1_feature_s_o_l_i_d_create_hole_countersunk_1ad89160d514ada1dff0aaeb229a5557e0" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/><ref refid="class_post_1_1_feature_s_o_l_i_d_create_hole_countersunk_1ad89160d514ada1dff0aaeb229a5557e0" kindref="member">_headDepth</ref>;</highlight></codeline>
+<codeline lineno="19" refid="class_post_1_1_feature_s_o_l_i_d_create_hole_countersunk_1a327b715a0167648453084cb627eefc28" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/><ref refid="class_post_1_1_feature_s_o_l_i_d_create_hole_countersunk_1a327b715a0167648453084cb627eefc28" kindref="member">_centerpoint</ref>[3];</highlight></codeline>
+<codeline lineno="20" refid="class_post_1_1_feature_s_o_l_i_d_create_hole_countersunk_1afb78c3312e8353161e38493846b78b3e" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/><ref refid="class_post_1_1_feature_s_o_l_i_d_create_hole_countersunk_1afb78c3312e8353161e38493846b78b3e" kindref="member">_bottomAngle</ref>;</highlight></codeline>
+<codeline lineno="21" refid="class_post_1_1_feature_s_o_l_i_d_create_hole_countersunk_1a3bb9a27d2196d3674f977b19131abe19" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">string</highlight><highlight class="normal"><sp/><ref refid="class_post_1_1_feature_s_o_l_i_d_create_hole_countersunk_1a3bb9a27d2196d3674f977b19131abe19" kindref="member">_featurename</ref>;</highlight></codeline>
+<codeline lineno="22" refid="class_post_1_1_feature_s_o_l_i_d_create_hole_countersunk_1aea67f4a17b905f6251f3a13c8ef1d6c8" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">string</highlight><highlight class="normal"><sp/><ref refid="class_post_1_1_feature_s_o_l_i_d_create_hole_countersunk_1aea67f4a17b905f6251f3a13c8ef1d6c8" kindref="member">_referenceName</ref>;</highlight></codeline>
+<codeline lineno="23"><highlight class="normal"><sp/><sp/><sp/><sp/>};</highlight></codeline>
+<codeline lineno="24"><highlight class="normal">}</highlight></codeline>
+    </programlisting>
+    <location file="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/PostManager/ref/FeatureSOLIDCreateHoleCountersunk.h"/>
+  </compounddef>
+</doxygen>

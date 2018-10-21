@@ -1,0 +1,325 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_post_1_1_s_k_e_t_c_h_create2_d_point" kind="class" prot="public">
+    <compoundname>Post::SKETCHCreate2DPoint</compoundname>
+    <basecompoundref refid="class_post_1_1_s_k_e_t_c_h_item" prot="public" virt="non-virtual">Post::SKETCHItem</basecompoundref>
+    <includes refid="_s_k_e_t_c_h_create2_d_point_8h" local="no">SKETCHCreate2DPoint.h</includes>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_post_1_1_s_k_e_t_c_h_create2_d_point_1a8c02f3edd50f022f58778e329e59c776" prot="public" static="no" mutable="no">
+        <type>string</type>
+        <definition>string Post::SKETCHCreate2DPoint::TransCADName</definition>
+        <argsstring></argsstring>
+        <name>TransCADName</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/PostManager/ref/SKETCHCreate2DPoint.h" line="21" column="1" bodyfile="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/PostManager/ref/SKETCHCreate2DPoint.h" bodystart="21" bodyend="-1"/>
+        <referencedby refid="class_post_1_1_s_k_e_t_c_h_create2_d_point_1a723681b77947166bb9c0a8b9a093bca2" compoundref="_s_k_e_t_c_h_create2_d_point_8cpp" startline="14" endline="22">GetInfo</referencedby>
+        <referencedby refid="class_post_1_1_s_k_e_t_c_h_create2_d_point_1a877072a679bbda32955a75b4d79a46b3" compoundref="_s_k_e_t_c_h_create2_d_point_8cpp" startline="24" endline="39">ToCATIA</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_post_1_1_s_k_e_t_c_h_create2_d_point_1a0d079b4616019842bb65b90c74361c40" prot="private" static="no" mutable="no">
+        <type><ref refid="namespace_post_1a80911619713a0105ed4134e3ca90fa57" kindref="member">Point3D</ref></type>
+        <definition>Point3D Post::SKETCHCreate2DPoint::_point</definition>
+        <argsstring></argsstring>
+        <name>_point</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/PostManager/ref/SKETCHCreate2DPoint.h" line="24" column="1" bodyfile="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/PostManager/ref/SKETCHCreate2DPoint.h" bodystart="24" bodyend="-1"/>
+        <referencedby refid="class_post_1_1_s_k_e_t_c_h_create2_d_point_1ac96c83de5d2d94c92b281ba5c8012c10" compoundref="_s_k_e_t_c_h_create2_d_point_8h" startline="13" endline="13">GetPoint</referencedby>
+        <referencedby refid="class_post_1_1_s_k_e_t_c_h_create2_d_point_1abe2c371028ff652d7d42965c480208da" compoundref="_s_k_e_t_c_h_create2_d_point_8h" startline="12" endline="12">SetPoint</referencedby>
+        <referencedby refid="class_post_1_1_s_k_e_t_c_h_create2_d_point_1a877072a679bbda32955a75b4d79a46b3" compoundref="_s_k_e_t_c_h_create2_d_point_8cpp" startline="24" endline="39">ToCATIA</referencedby>
+        <referencedby refid="class_post_1_1_s_k_e_t_c_h_create2_d_point_1a1df557ddd4fbb14db4a16a0dd768d125" compoundref="_s_k_e_t_c_h_create2_d_point_8h" startline="14" endline="14">X</referencedby>
+        <referencedby refid="class_post_1_1_s_k_e_t_c_h_create2_d_point_1a593938ace88b695066bbe4b79c57971b" compoundref="_s_k_e_t_c_h_create2_d_point_8h" startline="15" endline="15">Y</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_post_1_1_s_k_e_t_c_h_create2_d_point_1a4e9ddab5699ba0104caa9e56b9c88afc" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>Post::SKETCHCreate2DPoint::SKETCHCreate2DPoint</definition>
+        <argsstring>(FSketch *pFSketch, TransCAD::IStdSketchGeometryPtr spItem)</argsstring>
+        <name>SKETCHCreate2DPoint</name>
+        <param>
+          <type><ref refid="class_post_1_1_f_sketch" kindref="compound">FSketch</ref> *</type>
+          <declname>pFSketch</declname>
+        </param>
+        <param>
+          <type>TransCAD::IStdSketchGeometryPtr</type>
+          <declname>spItem</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/PostManager/ref/SKETCHCreate2DPoint.h" line="9" column="1" bodyfile="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/PostManager/ref/SKETCHCreate2DPoint.cpp" bodystart="5" bodyend="8"/>
+      </memberdef>
+      <memberdef kind="function" id="class_post_1_1_s_k_e_t_c_h_create2_d_point_1a1166b62c176eb822f7c98c52be1f3faa" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type></type>
+        <definition>Post::SKETCHCreate2DPoint::~SKETCHCreate2DPoint</definition>
+        <argsstring>(void)</argsstring>
+        <name>~SKETCHCreate2DPoint</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/PostManager/ref/SKETCHCreate2DPoint.h" line="10" column="1" bodyfile="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/PostManager/ref/SKETCHCreate2DPoint.cpp" bodystart="10" bodyend="12"/>
+      </memberdef>
+      <memberdef kind="function" id="class_post_1_1_s_k_e_t_c_h_create2_d_point_1abe2c371028ff652d7d42965c480208da" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Post::SKETCHCreate2DPoint::SetPoint</definition>
+        <argsstring>(const Point3D &amp;point)</argsstring>
+        <name>SetPoint</name>
+        <param>
+          <type>const <ref refid="namespace_post_1a80911619713a0105ed4134e3ca90fa57" kindref="member">Point3D</ref> &amp;</type>
+          <declname>point</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/PostManager/ref/SKETCHCreate2DPoint.h" line="12" column="1" bodyfile="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/PostManager/ref/SKETCHCreate2DPoint.h" bodystart="12" bodyend="12"/>
+        <references refid="class_post_1_1_s_k_e_t_c_h_create2_d_point_1a0d079b4616019842bb65b90c74361c40" compoundref="_s_k_e_t_c_h_create2_d_point_8h" startline="24">_point</references>
+        <referencedby refid="class_post_1_1_s_k_e_t_c_h_create2_d_point_1a723681b77947166bb9c0a8b9a093bca2" compoundref="_s_k_e_t_c_h_create2_d_point_8cpp" startline="14" endline="22">GetInfo</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_post_1_1_s_k_e_t_c_h_create2_d_point_1ac96c83de5d2d94c92b281ba5c8012c10" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Post::SKETCHCreate2DPoint::GetPoint</definition>
+        <argsstring>(Point3D &amp;point)</argsstring>
+        <name>GetPoint</name>
+        <param>
+          <type><ref refid="namespace_post_1a80911619713a0105ed4134e3ca90fa57" kindref="member">Point3D</ref> &amp;</type>
+          <declname>point</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/PostManager/ref/SKETCHCreate2DPoint.h" line="13" column="1" bodyfile="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/PostManager/ref/SKETCHCreate2DPoint.h" bodystart="13" bodyend="13"/>
+        <references refid="class_post_1_1_s_k_e_t_c_h_create2_d_point_1a0d079b4616019842bb65b90c74361c40" compoundref="_s_k_e_t_c_h_create2_d_point_8h" startline="24">_point</references>
+      </memberdef>
+      <memberdef kind="function" id="class_post_1_1_s_k_e_t_c_h_create2_d_point_1a1df557ddd4fbb14db4a16a0dd768d125" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>double</type>
+        <definition>double Post::SKETCHCreate2DPoint::X</definition>
+        <argsstring>()</argsstring>
+        <name>X</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/PostManager/ref/SKETCHCreate2DPoint.h" line="14" column="1" bodyfile="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/PostManager/ref/SKETCHCreate2DPoint.h" bodystart="14" bodyend="14"/>
+        <references refid="class_post_1_1_s_k_e_t_c_h_create2_d_point_1a0d079b4616019842bb65b90c74361c40" compoundref="_s_k_e_t_c_h_create2_d_point_8h" startline="24">_point</references>
+      </memberdef>
+      <memberdef kind="function" id="class_post_1_1_s_k_e_t_c_h_create2_d_point_1a593938ace88b695066bbe4b79c57971b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>double</type>
+        <definition>double Post::SKETCHCreate2DPoint::Y</definition>
+        <argsstring>()</argsstring>
+        <name>Y</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/PostManager/ref/SKETCHCreate2DPoint.h" line="15" column="1" bodyfile="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/PostManager/ref/SKETCHCreate2DPoint.h" bodystart="15" bodyend="15"/>
+        <references refid="class_post_1_1_s_k_e_t_c_h_create2_d_point_1a0d079b4616019842bb65b90c74361c40" compoundref="_s_k_e_t_c_h_create2_d_point_8h" startline="24">_point</references>
+      </memberdef>
+      <memberdef kind="function" id="class_post_1_1_s_k_e_t_c_h_create2_d_point_1a723681b77947166bb9c0a8b9a093bca2" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void Post::SKETCHCreate2DPoint::GetInfo</definition>
+        <argsstring>()</argsstring>
+        <name>GetInfo</name>
+        <reimplements refid="class_post_1_1_s_k_e_t_c_h_item_1a0f78eab80c6b5b6e0c9117ae130c4990">GetInfo</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/PostManager/ref/SKETCHCreate2DPoint.h" line="17" column="1" bodyfile="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/PostManager/ref/SKETCHCreate2DPoint.cpp" bodystart="14" bodyend="22"/>
+        <references refid="class_post_1_1_s_k_e_t_c_h_item_1a6b886d0c62b1c66218f4848d23346a0b" compoundref="_s_k_e_t_c_h_item_8h" startline="21">Post::SKETCHItem::_pFSketch</references>
+        <references refid="class_post_1_1_c_a_t_i_a_reference_manager_1a7136483a68c4864c1ecdffe3b842f030" compoundref="_c_a_t_i_a_reference_manager_8cpp" startline="18" endline="42">Post::CATIAReferenceManager::AddNewEntity</references>
+        <references refid="_post_manager_2ref_2_part_8cpp_1a7a8829f663f72e520593688e551c372e" compoundref="_post_manager_2_stdafx_8cpp" startline="10">ExternMode</references>
+        <references refid="namespace_post_1a757521acb19b64cd9a29879d6c5a7d5f" compoundref="_c_a_t_i_apost___d_l_l_8cpp" startline="32">Post::g_pRefManager</references>
+        <references refid="class_post_1_1_feature_1a252ade4e8188c192beaf03a8abbdca65" compoundref="_post_manager_2ref_2_feature_8h" startline="18" endline="18">Post::Feature::GetTransCADFeature</references>
+        <references refid="class_post_1_1_s_k_e_t_c_h_item_1aa0f68d0863dd30c3c116d4271bddd3a2" compoundref="_s_k_e_t_c_h_item_8h" startline="14" endline="14">Post::SKETCHItem::GetTransCADGeometryItem</references>
+        <references refid="class_post_1_1_s_k_e_t_c_h_create2_d_point_1abe2c371028ff652d7d42965c480208da" compoundref="_s_k_e_t_c_h_create2_d_point_8h" startline="12" endline="12">SetPoint</references>
+        <references refid="class_post_1_1_s_k_e_t_c_h_create2_d_point_1a8c02f3edd50f022f58778e329e59c776" compoundref="_s_k_e_t_c_h_create2_d_point_8h" startline="21">TransCADName</references>
+      </memberdef>
+      <memberdef kind="function" id="class_post_1_1_s_k_e_t_c_h_create2_d_point_1a877072a679bbda32955a75b4d79a46b3" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void Post::SKETCHCreate2DPoint::ToCATIA</definition>
+        <argsstring>()</argsstring>
+        <name>ToCATIA</name>
+        <reimplements refid="class_post_1_1_s_k_e_t_c_h_item_1a968893b49cba397d8db6c151c991e726">ToCATIA</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/PostManager/ref/SKETCHCreate2DPoint.h" line="18" column="1" bodyfile="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/PostManager/ref/SKETCHCreate2DPoint.cpp" bodystart="24" bodyend="39"/>
+        <references refid="class_post_1_1_s_k_e_t_c_h_item_1a6b886d0c62b1c66218f4848d23346a0b" compoundref="_s_k_e_t_c_h_item_8h" startline="21">Post::SKETCHItem::_pFSketch</references>
+        <references refid="class_post_1_1_s_k_e_t_c_h_create2_d_point_1a0d079b4616019842bb65b90c74361c40" compoundref="_s_k_e_t_c_h_create2_d_point_8h" startline="24">_point</references>
+        <references refid="class_post_1_1_c_a_t_i_a_reference_manager_1a7136483a68c4864c1ecdffe3b842f030" compoundref="_c_a_t_i_a_reference_manager_8cpp" startline="18" endline="42">Post::CATIAReferenceManager::AddNewEntity</references>
+        <references refid="class_post_1_1_c_a_t_i_a_reference_manager_1a25f67887620b45f7443dcbcf674b7417" compoundref="_c_a_t_i_a_reference_manager_8cpp" startline="132" endline="140">Post::CATIAReferenceManager::AddNewPointName</references>
+        <references refid="namespace_post_1a757521acb19b64cd9a29879d6c5a7d5f" compoundref="_c_a_t_i_apost___d_l_l_8cpp" startline="32">Post::g_pRefManager</references>
+        <references refid="class_post_1_1_s_k_e_t_c_h_item_1a457dc0a741f123c076fa9bd89bee7300" compoundref="_s_k_e_t_c_h_item_8h" startline="12" endline="12">Post::SKETCHItem::GetFeatureSketch</references>
+        <references refid="class_post_1_1_feature_1a252ade4e8188c192beaf03a8abbdca65" compoundref="_post_manager_2ref_2_feature_8h" startline="18" endline="18">Post::Feature::GetTransCADFeature</references>
+        <references refid="_c_a_t_i_apost___d_l_l_8cpp_1ab856c50c5e05dee4c52ae991cc9cf5eb" compoundref="_c_a_t_i_apost___d_l_l_8cpp" startline="19">pt_index</references>
+        <references refid="_c_a_t_i_apost___d_l_l_8cpp_1a0dbf0a49be0c3f6f56054c0efbb53c31" compoundref="_c_a_t_i_apost___d_l_l_8cpp" startline="26">sktch</references>
+        <references refid="class_post_1_1_s_k_e_t_c_h_create2_d_point_1a8c02f3edd50f022f58778e329e59c776" compoundref="_s_k_e_t_c_h_create2_d_point_8h" startline="21">TransCADName</references>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1233">
+        <label>Post::SKETCHCreate2DPoint</label>
+        <link refid="class_post_1_1_s_k_e_t_c_h_create2_d_point"/>
+        <childnode refid="1234" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1234">
+        <label>Post::SKETCHItem</label>
+        <link refid="class_post_1_1_s_k_e_t_c_h_item"/>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1239">
+        <label>Post::Part</label>
+        <link refid="class_post_1_1_part"/>
+        <childnode refid="1240" relation="usage">
+          <edgelabel>_featureList</edgelabel>
+        </childnode>
+        <childnode refid="1241" relation="usage">
+          <edgelabel>_strPartName</edgelabel>
+        </childnode>
+      </node>
+      <node id="1238">
+        <label>Post::Feature</label>
+        <link refid="class_post_1_1_feature"/>
+        <childnode refid="1239" relation="usage">
+          <edgelabel>_pPart</edgelabel>
+        </childnode>
+        <childnode refid="1241" relation="usage">
+          <edgelabel>_strName</edgelabel>
+        </childnode>
+      </node>
+      <node id="1235">
+        <label>Post::SKETCHCreate2DPoint</label>
+        <link refid="class_post_1_1_s_k_e_t_c_h_create2_d_point"/>
+        <childnode refid="1236" relation="public-inheritance">
+        </childnode>
+        <childnode refid="1245" relation="usage">
+          <edgelabel>_point</edgelabel>
+        </childnode>
+        <childnode refid="1241" relation="usage">
+          <edgelabel>TransCADName</edgelabel>
+        </childnode>
+      </node>
+      <node id="1237">
+        <label>Post::FSketch</label>
+        <link refid="class_post_1_1_f_sketch"/>
+        <childnode refid="1238" relation="public-inheritance">
+        </childnode>
+        <childnode refid="1243" relation="usage">
+          <edgelabel>sInfo</edgelabel>
+        </childnode>
+        <childnode refid="1241" relation="usage">
+          <edgelabel>_refName</edgelabel>
+        </childnode>
+        <childnode refid="1244" relation="usage">
+          <edgelabel>_sketchItemList</edgelabel>
+        </childnode>
+      </node>
+      <node id="1245">
+        <label>Post::Vector3D</label>
+        <link refid="class_post_1_1_vector3_d"/>
+      </node>
+      <node id="1236">
+        <label>Post::SKETCHItem</label>
+        <link refid="class_post_1_1_s_k_e_t_c_h_item"/>
+        <childnode refid="1237" relation="usage">
+          <edgelabel>_pFSketch</edgelabel>
+        </childnode>
+        <childnode refid="1241" relation="usage">
+          <edgelabel>_strName</edgelabel>
+        </childnode>
+      </node>
+      <node id="1242">
+        <label>std::basic_string&lt; char &gt;</label>
+      </node>
+      <node id="1243">
+        <label>Post::_sketchInfo</label>
+        <link refid="struct_post_1_1__sketch_info"/>
+        <childnode refid="1241" relation="usage">
+          <edgelabel>sketch_name</edgelabel>
+          <edgelabel>sketch_ref</edgelabel>
+        </childnode>
+      </node>
+      <node id="1244">
+        <label>std::vector&lt; Post::SKETCHItem * &gt;</label>
+        <childnode refid="1236" relation="usage">
+          <edgelabel>elements</edgelabel>
+        </childnode>
+      </node>
+      <node id="1240">
+        <label>std::vector&lt; Post::Feature * &gt;</label>
+        <childnode refid="1238" relation="usage">
+          <edgelabel>elements</edgelabel>
+        </childnode>
+      </node>
+      <node id="1241">
+        <label>std::string</label>
+        <childnode refid="1242" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/PostManager/ref/SKETCHCreate2DPoint.h" line="7" column="1" bodyfile="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/PostManager/ref/SKETCHCreate2DPoint.h" bodystart="6" bodyend="25"/>
+    <listofallmembers>
+      <member refid="class_post_1_1_s_k_e_t_c_h_item_1ae20db5278e833c6122e1602e918e3636" prot="protected" virt="non-virtual"><scope>Post::SKETCHCreate2DPoint</scope><name>_nIndex</name></member>
+      <member refid="class_post_1_1_s_k_e_t_c_h_item_1a6b886d0c62b1c66218f4848d23346a0b" prot="protected" virt="non-virtual"><scope>Post::SKETCHCreate2DPoint</scope><name>_pFSketch</name></member>
+      <member refid="class_post_1_1_s_k_e_t_c_h_create2_d_point_1a0d079b4616019842bb65b90c74361c40" prot="private" virt="non-virtual"><scope>Post::SKETCHCreate2DPoint</scope><name>_point</name></member>
+      <member refid="class_post_1_1_s_k_e_t_c_h_item_1aa0fc0c40bede3b4bd4e03236169b34ba" prot="protected" virt="non-virtual"><scope>Post::SKETCHCreate2DPoint</scope><name>_spItem</name></member>
+      <member refid="class_post_1_1_s_k_e_t_c_h_item_1a3db0bd68d86246112e1cd8516eff9521" prot="protected" virt="non-virtual"><scope>Post::SKETCHCreate2DPoint</scope><name>_strName</name></member>
+      <member refid="class_post_1_1_s_k_e_t_c_h_item_1a457dc0a741f123c076fa9bd89bee7300" prot="public" virt="non-virtual"><scope>Post::SKETCHCreate2DPoint</scope><name>GetFeatureSketch</name></member>
+      <member refid="class_post_1_1_s_k_e_t_c_h_create2_d_point_1a723681b77947166bb9c0a8b9a093bca2" prot="public" virt="virtual"><scope>Post::SKETCHCreate2DPoint</scope><name>GetInfo</name></member>
+      <member refid="class_post_1_1_s_k_e_t_c_h_create2_d_point_1ac96c83de5d2d94c92b281ba5c8012c10" prot="public" virt="non-virtual"><scope>Post::SKETCHCreate2DPoint</scope><name>GetPoint</name></member>
+      <member refid="class_post_1_1_s_k_e_t_c_h_item_1aa5d406ee269bc731c37495f91d6cd8cc" prot="public" virt="non-virtual"><scope>Post::SKETCHCreate2DPoint</scope><name>GetSketchItemName</name></member>
+      <member refid="class_post_1_1_s_k_e_t_c_h_item_1aa0f68d0863dd30c3c116d4271bddd3a2" prot="public" virt="non-virtual"><scope>Post::SKETCHCreate2DPoint</scope><name>GetTransCADGeometryItem</name></member>
+      <member refid="class_post_1_1_s_k_e_t_c_h_item_1a199a887392ed5fc1e156a1a8772e949b" prot="public" virt="non-virtual"><scope>Post::SKETCHCreate2DPoint</scope><name>GetType</name></member>
+      <member refid="class_post_1_1_s_k_e_t_c_h_create2_d_point_1abe2c371028ff652d7d42965c480208da" prot="public" virt="non-virtual"><scope>Post::SKETCHCreate2DPoint</scope><name>SetPoint</name></member>
+      <member refid="class_post_1_1_s_k_e_t_c_h_create2_d_point_1a4e9ddab5699ba0104caa9e56b9c88afc" prot="public" virt="non-virtual"><scope>Post::SKETCHCreate2DPoint</scope><name>SKETCHCreate2DPoint</name></member>
+      <member refid="class_post_1_1_s_k_e_t_c_h_item_1a2045a90aa8118586c5122ca3c88d2362" prot="public" virt="non-virtual"><scope>Post::SKETCHCreate2DPoint</scope><name>SKETCHItem</name></member>
+      <member refid="class_post_1_1_s_k_e_t_c_h_create2_d_point_1a877072a679bbda32955a75b4d79a46b3" prot="public" virt="virtual"><scope>Post::SKETCHCreate2DPoint</scope><name>ToCATIA</name></member>
+      <member refid="class_post_1_1_s_k_e_t_c_h_create2_d_point_1a8c02f3edd50f022f58778e329e59c776" prot="public" virt="non-virtual"><scope>Post::SKETCHCreate2DPoint</scope><name>TransCADName</name></member>
+      <member refid="class_post_1_1_s_k_e_t_c_h_create2_d_point_1a1df557ddd4fbb14db4a16a0dd768d125" prot="public" virt="non-virtual"><scope>Post::SKETCHCreate2DPoint</scope><name>X</name></member>
+      <member refid="class_post_1_1_s_k_e_t_c_h_create2_d_point_1a593938ace88b695066bbe4b79c57971b" prot="public" virt="non-virtual"><scope>Post::SKETCHCreate2DPoint</scope><name>Y</name></member>
+      <member refid="class_post_1_1_s_k_e_t_c_h_create2_d_point_1a1166b62c176eb822f7c98c52be1f3faa" prot="public" virt="virtual"><scope>Post::SKETCHCreate2DPoint</scope><name>~SKETCHCreate2DPoint</name></member>
+      <member refid="class_post_1_1_s_k_e_t_c_h_item_1a842c119ebafee7a66717bcb8a585754e" prot="public" virt="non-virtual"><scope>Post::SKETCHCreate2DPoint</scope><name>~SKETCHItem</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

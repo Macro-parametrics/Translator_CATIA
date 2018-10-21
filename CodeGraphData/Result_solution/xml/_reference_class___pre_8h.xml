@@ -1,0 +1,291 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="_reference_class___pre_8h" kind="file">
+    <compoundname>ReferenceClass_Pre.h</compoundname>
+    <includes refid="_reference_class_8h" local="yes">ReferenceClass.h</includes>
+    <includedby refid="_reference_class___pre_8cpp" local="yes">CPPWITHCSHARP/ReferenceClass_Pre.cpp</includedby>
+    <incdepgraph>
+      <node id="255">
+        <label>atlstr.h</label>
+      </node>
+      <node id="282">
+        <label>msclr/marshal_cppstd.h</label>
+      </node>
+      <node id="277">
+        <label>strstream</label>
+      </node>
+      <node id="261">
+        <label>stdlib.h</label>
+      </node>
+      <node id="280">
+        <label>Feature.h</label>
+        <link refid="_pre_manager_2ref_2_feature_8h"/>
+        <childnode refid="271" relation="include">
+        </childnode>
+      </node>
+      <node id="263">
+        <label>cmath</label>
+      </node>
+      <node id="257">
+        <label>string</label>
+      </node>
+      <node id="275">
+        <label>comdef.h</label>
+      </node>
+      <node id="262">
+        <label>comutil.h</label>
+      </node>
+      <node id="278">
+        <label>..\PreManager\ref\ReferenceEntity.h</label>
+        <link refid="_reference_entity_8h"/>
+        <childnode refid="271" relation="include">
+        </childnode>
+        <childnode refid="279" relation="include">
+        </childnode>
+      </node>
+      <node id="251">
+        <label>ReferenceClass.h</label>
+        <link refid="_reference_class_8h"/>
+        <childnode refid="252" relation="include">
+        </childnode>
+        <childnode refid="253" relation="include">
+        </childnode>
+        <childnode refid="264" relation="include">
+        </childnode>
+        <childnode refid="271" relation="include">
+        </childnode>
+        <childnode refid="272" relation="include">
+        </childnode>
+        <childnode refid="278" relation="include">
+        </childnode>
+        <childnode refid="281" relation="include">
+        </childnode>
+        <childnode refid="282" relation="include">
+        </childnode>
+      </node>
+      <node id="279">
+        <label>FSketch.h</label>
+        <link refid="_pre_manager_2ref_2_f_sketch_8h"/>
+        <childnode refid="280" relation="include">
+        </childnode>
+      </node>
+      <node id="258">
+        <label>fstream</label>
+      </node>
+      <node id="252">
+        <label>..\PostManager\ref\Part.h</label>
+        <link refid="_post_manager_2ref_2_part_8h"/>
+        <childnode refid="253" relation="include">
+        </childnode>
+        <childnode refid="266" relation="include">
+        </childnode>
+      </node>
+      <node id="250">
+        <label>CPPWITHCSHARP/ReferenceClass_Pre.h</label>
+        <link refid="ReferenceClass_Pre.h"/>
+        <childnode refid="251" relation="include">
+        </childnode>
+      </node>
+      <node id="270">
+        <label>MP_Utility.h</label>
+        <link refid="_m_p___utility_8h"/>
+        <childnode refid="267" relation="include">
+        </childnode>
+      </node>
+      <node id="269">
+        <label>string.h</label>
+      </node>
+      <node id="272">
+        <label>CATIApre_DLL.h</label>
+        <link refid="_c_a_t_i_apre___d_l_l_8h"/>
+        <childnode refid="260" relation="include">
+        </childnode>
+        <childnode refid="273" relation="include">
+        </childnode>
+        <childnode refid="257" relation="include">
+        </childnode>
+        <childnode refid="269" relation="include">
+        </childnode>
+        <childnode refid="256" relation="include">
+        </childnode>
+        <childnode refid="258" relation="include">
+        </childnode>
+        <childnode refid="259" relation="include">
+        </childnode>
+        <childnode refid="263" relation="include">
+        </childnode>
+        <childnode refid="265" relation="include">
+        </childnode>
+        <childnode refid="274" relation="include">
+        </childnode>
+        <childnode refid="262" relation="include">
+        </childnode>
+        <childnode refid="275" relation="include">
+        </childnode>
+        <childnode refid="276" relation="include">
+        </childnode>
+      </node>
+      <node id="259">
+        <label>vector</label>
+      </node>
+      <node id="274">
+        <label>sstream</label>
+      </node>
+      <node id="265">
+        <label>math.h</label>
+      </node>
+      <node id="254">
+        <label>atlbase.h</label>
+      </node>
+      <node id="266">
+        <label>CATIAReferenceManager.h</label>
+        <link refid="_c_a_t_i_a_reference_manager_8h"/>
+        <childnode refid="253" relation="include">
+        </childnode>
+        <childnode refid="267" relation="include">
+        </childnode>
+        <childnode refid="270" relation="include">
+        </childnode>
+      </node>
+      <node id="256">
+        <label>iostream</label>
+      </node>
+      <node id="264">
+        <label>Definition.h</label>
+        <link refid="_post_manager_2ref_2_definition_8h"/>
+        <childnode refid="265" relation="include">
+        </childnode>
+      </node>
+      <node id="273">
+        <label>tchar.h</label>
+      </node>
+      <node id="276">
+        <label>Definition.h</label>
+        <link refid="_pre_manager_2ref_2_definition_8h"/>
+        <childnode refid="277" relation="include">
+        </childnode>
+        <childnode refid="256" relation="include">
+        </childnode>
+        <childnode refid="265" relation="include">
+        </childnode>
+      </node>
+      <node id="281">
+        <label>vcclr.h</label>
+      </node>
+      <node id="271">
+        <label>..\PreManager\ref\Part.h</label>
+        <link refid="_pre_manager_2ref_2_part_8h"/>
+        <childnode refid="272" relation="include">
+        </childnode>
+      </node>
+      <node id="268">
+        <label>algorithm</label>
+      </node>
+      <node id="260">
+        <label>stdio.h</label>
+      </node>
+      <node id="267">
+        <label>PN_TYPE.h</label>
+        <link refid="_p_n___t_y_p_e_8h"/>
+        <childnode refid="256" relation="include">
+        </childnode>
+        <childnode refid="257" relation="include">
+        </childnode>
+        <childnode refid="259" relation="include">
+        </childnode>
+        <childnode refid="268" relation="include">
+        </childnode>
+        <childnode refid="265" relation="include">
+        </childnode>
+        <childnode refid="269" relation="include">
+        </childnode>
+      </node>
+      <node id="253">
+        <label>CATIApost_DLL.h</label>
+        <link refid="_c_a_t_i_apost___d_l_l_8h"/>
+        <childnode refid="254" relation="include">
+        </childnode>
+        <childnode refid="255" relation="include">
+        </childnode>
+        <childnode refid="256" relation="include">
+        </childnode>
+        <childnode refid="257" relation="include">
+        </childnode>
+        <childnode refid="258" relation="include">
+        </childnode>
+        <childnode refid="259" relation="include">
+        </childnode>
+        <childnode refid="260" relation="include">
+        </childnode>
+        <childnode refid="261" relation="include">
+        </childnode>
+        <childnode refid="262" relation="include">
+        </childnode>
+        <childnode refid="263" relation="include">
+        </childnode>
+        <childnode refid="264" relation="include">
+        </childnode>
+      </node>
+    </incdepgraph>
+    <invincdepgraph>
+      <node id="284">
+        <label>CPPWITHCSHARP/ReferenceClass_Pre.cpp</label>
+        <link refid="_reference_class___pre_8cpp"/>
+      </node>
+      <node id="283">
+        <label>CPPWITHCSHARP/ReferenceClass_Pre.h</label>
+        <link refid="ReferenceClass_Pre.h"/>
+        <childnode refid="284" relation="include">
+        </childnode>
+      </node>
+    </invincdepgraph>
+    <innerclass refid="class_reference_class_1_1ref___pre" prot="public">ReferenceClass::ref_Pre</innerclass>
+    <innernamespace refid="namespace_reference_class">ReferenceClass</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="preprocessor">#pragma<sp/>once</highlight></codeline>
+<codeline lineno="2"><highlight class="preprocessor"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="_reference_class_8h" kindref="compound">ReferenceClass.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal">ReferenceClass</highlight></codeline>
+<codeline lineno="5"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight></codeline>
+<codeline lineno="10" refid="class_reference_class_1_1ref___pre" refkind="compound"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public<sp/>ref<sp/>class</highlight><highlight class="normal"><sp/><ref refid="class_reference_class_1_1ref___pre" kindref="compound">ref_Pre</ref></highlight></codeline>
+<codeline lineno="11"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="12" refid="class_reference_class_1_1ref___pre_1aa03606a79215698128eb9e4c1c985c1b" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">enum<sp/>class</highlight><highlight class="normal"><sp/><ref refid="class_reference_class_1_1ref___pre_1aa03606a79215698128eb9e4c1c985c1b" kindref="member">TARGETPART</ref><sp/>:<sp/>int<sp/>{<sp/><ref refid="class_reference_class_1_1ref___pre_1aa03606a79215698128eb9e4c1c985c1ba89a1533c37ec9254f22b5e0f29c9c0ff" kindref="member">MASTER</ref>,<sp/><ref refid="class_reference_class_1_1ref___pre_1aa03606a79215698128eb9e4c1c985c1ba79e19bc2ac33d6c81272024561992f37" kindref="member">SLAVE</ref>,<sp/><ref refid="class_reference_class_1_1ref___pre_1aa03606a79215698128eb9e4c1c985c1bac76f2bdb601e9957ef1376220546b782" kindref="member">REFERENCE_SIZE</ref><sp/>};</highlight><highlight class="comment">//REFERENCE_SIZE는<sp/>항상<sp/>맨뒤에<sp/>있어야한다.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="13"><highlight class="normal"></highlight></codeline>
+<codeline lineno="14"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="15"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_reference_class_1_1ref___pre_1a83c8590946e5baf2c304cfc3d9526cc7" kindref="member">ref_Pre</ref>();</highlight></codeline>
+<codeline lineno="16"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_reference_class_1_1ref___pre_1a83c8590946e5baf2c304cfc3d9526cc7" kindref="member">ref_Pre</ref>(<ref refid="class_pre_stack" kindref="compound">PreStack</ref>^<sp/>buffer);</highlight></codeline>
+<codeline lineno="17"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/><ref refid="class_reference_class_1_1ref___pre_1a54f9805513c471dfca835ed445d724af" kindref="member">~ref_Pre</ref>();</highlight></codeline>
+<codeline lineno="18"><highlight class="normal"></highlight></codeline>
+<codeline lineno="19"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">private</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="20"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//::CATIAReferenceManager<sp/><sp/><sp/>*m_pReferenceManager;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="21"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="22" refid="class_reference_class_1_1ref___pre_1a21ed6ea22faa931d53ee4e59b21d6749" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>TransCAD::IAssemDocumentPtr*<sp/><ref refid="class_reference_class_1_1ref___pre_1a21ed6ea22faa931d53ee4e59b21d6749" kindref="member">_spAssemDocument</ref>;</highlight></codeline>
+<codeline lineno="23" refid="class_reference_class_1_1ref___pre_1af7d8f4c68eeb85e8e5edee16761d355a" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>TransCAD::IAssemPtr*<sp/><ref refid="class_reference_class_1_1ref___pre_1af7d8f4c68eeb85e8e5edee16761d355a" kindref="member">_spAssem</ref>;</highlight></codeline>
+<codeline lineno="24" refid="class_reference_class_1_1ref___pre_1a89793ff594f20a555df1142984c48da6" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>TransCAD::ICompPtr*<sp/><ref refid="class_reference_class_1_1ref___pre_1a89793ff594f20a555df1142984c48da6" kindref="member">_spComp</ref>;</highlight></codeline>
+<codeline lineno="25"><highlight class="normal"></highlight></codeline>
+<codeline lineno="26" refid="class_reference_class_1_1ref___pre_1acad4634ae08a868ca337cf9020e21e18" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="structparsing" kindref="compound">parsing</ref>*<sp/><ref refid="class_reference_class_1_1ref___pre_1acad4634ae08a868ca337cf9020e21e18" kindref="member">pre_data</ref>;</highlight></codeline>
+<codeline lineno="27"><highlight class="normal"></highlight></codeline>
+<codeline lineno="28"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="30"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">/*외부로<sp/>노출시킬<sp/>함수를<sp/>만들고<sp/>이<sp/>안에서<sp/>m_pReferenceManager를<sp/>통해<sp/>실제<sp/>함수를<sp/>사용한다*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="31"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_reference_class_1_1ref___pre_1aa86023525dbb1186e4c9247399445a24" kindref="member">PreTest</ref>(<ref refid="class_pre_stack" kindref="compound">PreStack</ref>^<sp/>buffer,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>totnum,<sp/>String^<sp/>_CstType,<sp/>String^<sp/>_master_ref,<sp/>String^<sp/>_slave_ref);</highlight></codeline>
+<codeline lineno="32"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_reference_class_1_1ref___pre_1af46f69f170b7626db974e08e24894353" kindref="member">TestEnvironment</ref>(<ref refid="class_pre_stack" kindref="compound">PreStack</ref>^<sp/>buffer);</highlight></codeline>
+<codeline lineno="33"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="structref_command" kindref="compound">refCommand</ref><sp/><ref refid="class_reference_class_1_1ref___pre_1ace43f6d79720cdc0bc281eb5660fe966" kindref="member">ref_Pre::SetConstraint</ref>(<ref refid="class_pre_stack" kindref="compound">PreStack</ref>^<sp/>buffer,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>totnum,<sp/>String^<sp/>_CstType,<sp/>String^<sp/>_master_ref,<sp/>String^<sp/>_slave_ref,<sp/>String^<sp/>_option,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal">^<sp/>_option_int);</highlight></codeline>
+<codeline lineno="34"><highlight class="normal"></highlight></codeline>
+<codeline lineno="35"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_reference_class_1_1ref___pre_1a68edab67fd4e452677bb5b2d783b5085" kindref="member">Parsing</ref>(String^<sp/>ref,<sp/></highlight><highlight class="keywordtype">string</highlight><highlight class="normal">*<sp/>product,<sp/></highlight><highlight class="keywordtype">string</highlight><highlight class="normal">*<sp/>part,<sp/></highlight><highlight class="keywordtype">string</highlight><highlight class="normal">*<sp/>geometry);</highlight></codeline>
+<codeline lineno="36"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="class_reference_class_1_1ref___pre_1a8d058d5b4069f52fe9673bc9202f3cd0" kindref="member">GetTransCADName_from_buffer</ref>(<ref refid="class_pre_stack" kindref="compound">PreStack</ref>^<sp/>buffer,<sp/></highlight><highlight class="keywordtype">string</highlight><highlight class="normal">*<sp/>Transcad_subAssemName,<sp/></highlight><highlight class="keywordtype">string</highlight><highlight class="normal">*<sp/>Transcad_partName,<sp/></highlight><highlight class="keywordtype">string</highlight><highlight class="normal">*<sp/>Transcad_geometry);</highlight></codeline>
+<codeline lineno="37"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">string</highlight><highlight class="normal"><sp/><ref refid="class_reference_class_1_1ref___pre_1ac8cd404fe503874a3b72314edf6c07ae" kindref="member">Constraint_to_TransCAD</ref>(TransCAD::IStdAssemConstraintsPtr<sp/>f,<sp/></highlight><highlight class="keywordtype">string</highlight><highlight class="normal"><sp/>type,<sp/>TransCAD::IPartPtr<sp/>master,<sp/>TransCAD::IReferencePtr<sp/>master_ref,<sp/>TransCAD::IPartPtr<sp/>slave,<sp/>TransCAD::IReferencePtr<sp/>slave_ref,<sp/></highlight><highlight class="keywordtype">string</highlight><highlight class="normal"><sp/>option,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal">^<sp/>option_int);</highlight></codeline>
+<codeline lineno="38"><highlight class="normal"></highlight></codeline>
+<codeline lineno="39"><highlight class="normal"><sp/><sp/><sp/><sp/>};</highlight></codeline>
+<codeline lineno="40"><highlight class="normal">}</highlight></codeline>
+    </programlisting>
+    <location file="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/CPPWITHCSHARP/ReferenceClass_Pre.h"/>
+  </compounddef>
+</doxygen>

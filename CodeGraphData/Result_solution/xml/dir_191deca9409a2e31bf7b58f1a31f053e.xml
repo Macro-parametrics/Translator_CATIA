@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="dir_191deca9409a2e31bf7b58f1a31f053e" kind="dir">
+    <compoundname>CATIATranslator/Part</compoundname>
+    <innerdir refid="dir_4498e03dde19b1f53fb62020f7aa169e">CATIATranslator/Part/Feature</innerdir>
+    <innerdir refid="dir_c2e19f410eaf03babf4f385edb749756">CATIATranslator/Part/Reference</innerdir>
+    <innerdir refid="dir_a1a72a9c1bee0c87c9c08034dcbaf229">CATIATranslator/Part/Sketch</innerdir>
+    <innerfile refid="_part_8cs">Part.cs</innerfile>
+    <innerfile refid="_part_script___dll_8cs">PartScript_Dll.cs</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/CATIATranslator/Part/"/>
+  </compounddef>
+</doxygen>

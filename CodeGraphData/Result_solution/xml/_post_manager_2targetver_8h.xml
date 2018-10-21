@@ -1,0 +1,52 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="_post_manager_2targetver_8h" kind="file">
+    <compoundname>targetver.h</compoundname>
+    <includes local="no">SDKDDKVer.h</includes>
+    <includedby refid="_post_manager_2_stdafx_8h" local="yes">PostManager/stdafx.h</includedby>
+    <incdepgraph>
+      <node id="2729">
+        <label>SDKDDKVer.h</label>
+      </node>
+      <node id="2728">
+        <label>PostManager/targetver.h</label>
+        <link refid="PostManager/targetver.h"/>
+        <childnode refid="2729" relation="include">
+        </childnode>
+      </node>
+    </incdepgraph>
+    <invincdepgraph>
+      <node id="2731">
+        <label>PostManager/stdafx.h</label>
+        <link refid="_post_manager_2_stdafx_8h"/>
+        <childnode refid="2732" relation="include">
+        </childnode>
+      </node>
+      <node id="2730">
+        <label>PostManager/targetver.h</label>
+        <link refid="PostManager/targetver.h"/>
+        <childnode refid="2731" relation="include">
+        </childnode>
+      </node>
+      <node id="2732">
+        <label>PostManager/stdafx.cpp</label>
+        <link refid="_post_manager_2_stdafx_8cpp"/>
+      </node>
+    </invincdepgraph>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="preprocessor">#pragma<sp/>once</highlight></codeline>
+<codeline lineno="2"><highlight class="preprocessor"></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="comment">//<sp/>SDKDDKVer.h를<sp/>포함하면<sp/>최고<sp/>수준의<sp/>가용성을<sp/>가진<sp/>Windows<sp/>플랫폼이<sp/>정의됩니다.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight><highlight class="comment">//<sp/>이전<sp/>Windows<sp/>플랫폼에<sp/>대해<sp/>응용<sp/>프로그램을<sp/>빌드하려는<sp/>경우에는<sp/>SDKDDKVer.h를<sp/>포함하기<sp/>전에</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight><highlight class="comment">//<sp/>WinSDKVer.h를<sp/>포함하고<sp/>_WIN32_WINNT<sp/>매크로를<sp/>지원하려는<sp/>플랫폼으로<sp/>설정하십시오.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;SDKDDKVer.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+    </programlisting>
+    <location file="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/PostManager/targetver.h"/>
+  </compounddef>
+</doxygen>

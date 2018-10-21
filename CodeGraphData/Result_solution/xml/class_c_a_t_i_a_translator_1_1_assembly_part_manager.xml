@@ -1,0 +1,522 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_c_a_t_i_a_translator_1_1_assembly_part_manager" kind="class" prot="public">
+    <compoundname>CATIATranslator::AssemblyPartManager</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">Form</basecompoundref>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_c_a_t_i_a_translator_1_1_assembly_part_manager_1a242c8905e99751f605f18a2a40bdc544" prot="private" static="no" mutable="no">
+        <type>string</type>
+        <definition>string CATIATranslator.AssemblyPartManager.path</definition>
+        <argsstring></argsstring>
+        <name>path</name>
+        <initializer>= &quot;&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/CATIATranslator/AssemblyPartManager.cs" line="36" column="1" bodyfile="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/CATIATranslator/AssemblyPartManager.cs" bodystart="36" bodyend="-1"/>
+        <referencedby refid="class_c_a_t_i_a_translator_1_1_assembly_part_manager_1a98a9d8c528ea4243f6d6757563cd6b82" compoundref="_assembly_part_manager_8cs" startline="43" endline="87">CATIATranslator.AssemblyPartManager.AssemblyPartManager</referencedby>
+        <referencedby refid="class_c_a_t_i_a_translator_1_1_assembly_part_manager_1af6feff25a2505e5075f65176b3541827" compoundref="_assembly_part_manager_8cs" startline="169" endline="192">CATIATranslator.AssemblyPartManager.button2_Click</referencedby>
+        <referencedby refid="class_c_a_t_i_a_translator_1_1_assembly_part_manager_1a61bcad363fff0152afd816d4668a24ac" compoundref="_assembly_part_manager_8cs" startline="216" endline="237">CATIATranslator.AssemblyPartManager.button3_Click</referencedby>
+        <referencedby refid="class_c_a_t_i_a_translator_1_1_assembly_part_manager_1a72bf99c27ead62508aeba2a0bbac6f79" compoundref="_assembly_part_manager_8cs" startline="196" endline="212">CATIATranslator.AssemblyPartManager.button4_Click</referencedby>
+        <referencedby refid="class_c_a_t_i_a_translator_1_1_assembly_part_manager_1a92f0397bfb37dea23846163e8ad4d83d" compoundref="_assembly_part_manager_8cs" startline="90" endline="156">CATIATranslator.AssemblyPartManager.Updatelist</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_c_a_t_i_a_translator_1_1_assembly_part_manager_1ad6b458bded43edfcb4c6762c84e88564" prot="private" static="no" mutable="no">
+        <type>string</type>
+        <definition>string CATIATranslator.AssemblyPartManager.fullpath</definition>
+        <argsstring></argsstring>
+        <name>fullpath</name>
+        <initializer>= &quot;&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/CATIATranslator/AssemblyPartManager.cs" line="37" column="1" bodyfile="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/CATIATranslator/AssemblyPartManager.cs" bodystart="37" bodyend="-1"/>
+        <referencedby refid="class_c_a_t_i_a_translator_1_1_assembly_part_manager_1a98a9d8c528ea4243f6d6757563cd6b82" compoundref="_assembly_part_manager_8cs" startline="43" endline="87">CATIATranslator.AssemblyPartManager.AssemblyPartManager</referencedby>
+        <referencedby refid="class_c_a_t_i_a_translator_1_1_assembly_part_manager_1af6feff25a2505e5075f65176b3541827" compoundref="_assembly_part_manager_8cs" startline="169" endline="192">CATIATranslator.AssemblyPartManager.button2_Click</referencedby>
+        <referencedby refid="class_c_a_t_i_a_translator_1_1_assembly_part_manager_1a61bcad363fff0152afd816d4668a24ac" compoundref="_assembly_part_manager_8cs" startline="216" endline="237">CATIATranslator.AssemblyPartManager.button3_Click</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_c_a_t_i_a_translator_1_1_assembly_part_manager_1a55e0204accd0e936bd06a93a2665eed4" prot="private" static="no" mutable="no">
+        <type><ref refid="class_c_a_t_i_a_translator_1_1_assembly" kindref="compound">Assembly</ref></type>
+        <definition>Assembly CATIATranslator.AssemblyPartManager.AssemblyManager</definition>
+        <argsstring></argsstring>
+        <name>AssemblyManager</name>
+        <initializer>= new <ref refid="class_c_a_t_i_a_translator_1_1_assembly" kindref="compound">Assembly</ref>()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/CATIATranslator/AssemblyPartManager.cs" line="38" column="1" bodyfile="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/CATIATranslator/AssemblyPartManager.cs" bodystart="38" bodyend="-1"/>
+        <referencedby refid="class_c_a_t_i_a_translator_1_1_assembly_part_manager_1a98a9d8c528ea4243f6d6757563cd6b82" compoundref="_assembly_part_manager_8cs" startline="43" endline="87">CATIATranslator.AssemblyPartManager.AssemblyPartManager</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_c_a_t_i_a_translator_1_1_assembly_part_manager_1ae05d26c49d18b462c48dcf8c48288956" prot="private" static="no" mutable="no">
+        <type>TransCAD.Assem</type>
+        <definition>TransCAD.Assem CATIATranslator.AssemblyPartManager._tAssem</definition>
+        <argsstring></argsstring>
+        <name>_tAssem</name>
+        <initializer>= null</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/CATIATranslator/AssemblyPartManager.cs" line="39" column="1" bodyfile="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/CATIATranslator/AssemblyPartManager.cs" bodystart="39" bodyend="-1"/>
+        <referencedby refid="class_c_a_t_i_a_translator_1_1_assembly_part_manager_1a98a9d8c528ea4243f6d6757563cd6b82" compoundref="_assembly_part_manager_8cs" startline="43" endline="87">CATIATranslator.AssemblyPartManager.AssemblyPartManager</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_c_a_t_i_a_translator_1_1_assembly_part_manager_1a0e7ccf39eab058c603f9528c13d26a9d" prot="private" static="no" mutable="no">
+        <type>System.ComponentModel.IContainer</type>
+        <definition>System.ComponentModel.IContainer CATIATranslator.AssemblyPartManager.components</definition>
+        <argsstring></argsstring>
+        <name>components</name>
+        <initializer>= null</initializer>
+        <briefdescription>
+<para>Required designer variable. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/CATIATranslator/AssemblyPartManager.Designer.cs" line="8" column="1" bodyfile="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/CATIATranslator/AssemblyPartManager.Designer.cs" bodystart="8" bodyend="-1"/>
+        <referencedby refid="class_c_a_t_i_a_translator_1_1_assembly_part_manager_1ab3648c70dbd4958383818d3f3d7261a8" compoundref="_assembly_part_manager_8_designer_8cs" startline="14" endline="21">CATIATranslator.AssemblyPartManager.Dispose</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_c_a_t_i_a_translator_1_1_assembly_part_manager_1ad56d7b52e4df910cef106b2553561c66" prot="private" static="no" mutable="no">
+        <type>System.Windows.Forms.ListView</type>
+        <definition>System.Windows.Forms.ListView CATIATranslator.AssemblyPartManager.listView1</definition>
+        <argsstring></argsstring>
+        <name>listView1</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/CATIATranslator/AssemblyPartManager.Designer.cs" line="150" column="1" bodyfile="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/CATIATranslator/AssemblyPartManager.Designer.cs" bodystart="150" bodyend="-1"/>
+        <referencedby refid="class_c_a_t_i_a_translator_1_1_assembly_part_manager_1af6feff25a2505e5075f65176b3541827" compoundref="_assembly_part_manager_8cs" startline="169" endline="192">CATIATranslator.AssemblyPartManager.button2_Click</referencedby>
+        <referencedby refid="class_c_a_t_i_a_translator_1_1_assembly_part_manager_1a61bcad363fff0152afd816d4668a24ac" compoundref="_assembly_part_manager_8cs" startline="216" endline="237">CATIATranslator.AssemblyPartManager.button3_Click</referencedby>
+        <referencedby refid="class_c_a_t_i_a_translator_1_1_assembly_part_manager_1a72bf99c27ead62508aeba2a0bbac6f79" compoundref="_assembly_part_manager_8cs" startline="196" endline="212">CATIATranslator.AssemblyPartManager.button4_Click</referencedby>
+        <referencedby refid="class_c_a_t_i_a_translator_1_1_assembly_part_manager_1a92f0397bfb37dea23846163e8ad4d83d" compoundref="_assembly_part_manager_8cs" startline="90" endline="156">CATIATranslator.AssemblyPartManager.Updatelist</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_c_a_t_i_a_translator_1_1_assembly_part_manager_1a1177c5abccf5d77ed3850cafc5fcb026" prot="private" static="no" mutable="no">
+        <type>System.Windows.Forms.ColumnHeader</type>
+        <definition>System.Windows.Forms.ColumnHeader CATIATranslator.AssemblyPartManager.PartName</definition>
+        <argsstring></argsstring>
+        <name>PartName</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/CATIATranslator/AssemblyPartManager.Designer.cs" line="151" column="1" bodyfile="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/CATIATranslator/AssemblyPartManager.Designer.cs" bodystart="151" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_c_a_t_i_a_translator_1_1_assembly_part_manager_1af42d1d2d5ab1aa3e4150233270b934a4" prot="private" static="no" mutable="no">
+        <type>System.Windows.Forms.ColumnHeader</type>
+        <definition>System.Windows.Forms.ColumnHeader CATIATranslator.AssemblyPartManager.CatScripts</definition>
+        <argsstring></argsstring>
+        <name>CatScripts</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/CATIATranslator/AssemblyPartManager.Designer.cs" line="152" column="1" bodyfile="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/CATIATranslator/AssemblyPartManager.Designer.cs" bodystart="152" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_c_a_t_i_a_translator_1_1_assembly_part_manager_1a615662c926a00e58acaa49aa93cee7f8" prot="private" static="no" mutable="no">
+        <type>System.Windows.Forms.ColumnHeader</type>
+        <definition>System.Windows.Forms.ColumnHeader CATIATranslator.AssemblyPartManager.CatParts</definition>
+        <argsstring></argsstring>
+        <name>CatParts</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/CATIATranslator/AssemblyPartManager.Designer.cs" line="153" column="1" bodyfile="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/CATIATranslator/AssemblyPartManager.Designer.cs" bodystart="153" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_c_a_t_i_a_translator_1_1_assembly_part_manager_1a45326182380c69ba2f604c6c1b3449b4" prot="private" static="no" mutable="no">
+        <type>System.Windows.Forms.Label</type>
+        <definition>System.Windows.Forms.Label CATIATranslator.AssemblyPartManager.label1</definition>
+        <argsstring></argsstring>
+        <name>label1</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/CATIATranslator/AssemblyPartManager.Designer.cs" line="154" column="1" bodyfile="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/CATIATranslator/AssemblyPartManager.Designer.cs" bodystart="154" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_c_a_t_i_a_translator_1_1_assembly_part_manager_1aa10b089a59e28d5242a3addbdd886be7" prot="private" static="no" mutable="no">
+        <type>System.Windows.Forms.Button</type>
+        <definition>System.Windows.Forms.Button CATIATranslator.AssemblyPartManager.button1</definition>
+        <argsstring></argsstring>
+        <name>button1</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/CATIATranslator/AssemblyPartManager.Designer.cs" line="155" column="1" bodyfile="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/CATIATranslator/AssemblyPartManager.Designer.cs" bodystart="155" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_c_a_t_i_a_translator_1_1_assembly_part_manager_1a21236b477653f40925d65c605f181f85" prot="private" static="no" mutable="no">
+        <type>System.Windows.Forms.Button</type>
+        <definition>System.Windows.Forms.Button CATIATranslator.AssemblyPartManager.button2</definition>
+        <argsstring></argsstring>
+        <name>button2</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/CATIATranslator/AssemblyPartManager.Designer.cs" line="156" column="1" bodyfile="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/CATIATranslator/AssemblyPartManager.Designer.cs" bodystart="156" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_c_a_t_i_a_translator_1_1_assembly_part_manager_1a94e0c71722ef2f26f5962a7a06eedc23" prot="private" static="no" mutable="no">
+        <type>System.Windows.Forms.Button</type>
+        <definition>System.Windows.Forms.Button CATIATranslator.AssemblyPartManager.button3</definition>
+        <argsstring></argsstring>
+        <name>button3</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/CATIATranslator/AssemblyPartManager.Designer.cs" line="157" column="1" bodyfile="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/CATIATranslator/AssemblyPartManager.Designer.cs" bodystart="157" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_c_a_t_i_a_translator_1_1_assembly_part_manager_1a78ad162347821f0ceaef03f307d06c05" prot="private" static="no" mutable="no">
+        <type>System.Windows.Forms.Button</type>
+        <definition>System.Windows.Forms.Button CATIATranslator.AssemblyPartManager.button4</definition>
+        <argsstring></argsstring>
+        <name>button4</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/CATIATranslator/AssemblyPartManager.Designer.cs" line="158" column="1" bodyfile="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/CATIATranslator/AssemblyPartManager.Designer.cs" bodystart="158" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_c_a_t_i_a_translator_1_1_assembly_part_manager_1a98a9d8c528ea4243f6d6757563cd6b82" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>CATIATranslator.AssemblyPartManager.AssemblyPartManager</definition>
+        <argsstring>(string filePath)</argsstring>
+        <name>AssemblyPartManager</name>
+        <param>
+          <type>string</type>
+          <declname>filePath</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/CATIATranslator/AssemblyPartManager.cs" line="43" column="1" bodyfile="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/CATIATranslator/AssemblyPartManager.cs" bodystart="43" bodyend="87"/>
+        <references refid="class_c_a_t_i_a_translator_1_1_assembly_part_manager_1ae05d26c49d18b462c48dcf8c48288956" compoundref="_assembly_part_manager_8cs" startline="39">CATIATranslator.AssemblyPartManager._tAssem</references>
+        <references refid="class_c_a_t_i_a_translator_1_1_assembly_part_manager_1a55e0204accd0e936bd06a93a2665eed4" compoundref="_assembly_part_manager_8cs" startline="38">CATIATranslator.AssemblyPartManager.AssemblyManager</references>
+        <references refid="class_c_a_t_i_a_translator_1_1_assembly_part_manager_1ad6b458bded43edfcb4c6762c84e88564" compoundref="_assembly_part_manager_8cs" startline="37">CATIATranslator.AssemblyPartManager.fullpath</references>
+        <references refid="class_c_a_t_i_a_translator_1_1_assembly_part_manager_1ac0bf3960f8e90005f18ab469740f45e0" compoundref="_assembly_part_manager_8_designer_8cs" startline="29" endline="146">CATIATranslator.AssemblyPartManager.InitializeComponent</references>
+        <references refid="class_c_a_t_i_a_translator_1_1_assembly_part_manager_1a242c8905e99751f605f18a2a40bdc544" compoundref="_assembly_part_manager_8cs" startline="36">CATIATranslator.AssemblyPartManager.path</references>
+        <references refid="class_c_a_t_i_a_translator_1_1_assembly_1a0b696619036b74a542270176694898da" compoundref="_assembly_8cs" startline="44">CATIATranslator.Assembly.tAssemDoc</references>
+        <references refid="class_c_a_t_i_a_translator_1_1_assembly_part_manager_1a92f0397bfb37dea23846163e8ad4d83d" compoundref="_assembly_part_manager_8cs" startline="90" endline="156">CATIATranslator.AssemblyPartManager.Updatelist</references>
+      </memberdef>
+      <memberdef kind="function" id="class_c_a_t_i_a_translator_1_1_assembly_part_manager_1a92f0397bfb37dea23846163e8ad4d83d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void CATIATranslator.AssemblyPartManager.Updatelist</definition>
+        <argsstring>()</argsstring>
+        <name>Updatelist</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/CATIATranslator/AssemblyPartManager.cs" line="90" column="1" bodyfile="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/CATIATranslator/AssemblyPartManager.cs" bodystart="90" bodyend="156"/>
+        <references refid="class_c_a_t_i_a_translator_1_1_assembly_part_manager_1ad56d7b52e4df910cef106b2553561c66" compoundref="_assembly_part_manager_8_designer_8cs" startline="150">CATIATranslator.AssemblyPartManager.listView1</references>
+        <references refid="class_c_a_t_i_a_translator_1_1_assembly_part_manager_1a242c8905e99751f605f18a2a40bdc544" compoundref="_assembly_part_manager_8cs" startline="36">CATIATranslator.AssemblyPartManager.path</references>
+        <referencedby refid="class_c_a_t_i_a_translator_1_1_assembly_part_manager_1a98a9d8c528ea4243f6d6757563cd6b82" compoundref="_assembly_part_manager_8cs" startline="43" endline="87">CATIATranslator.AssemblyPartManager.AssemblyPartManager</referencedby>
+        <referencedby refid="class_c_a_t_i_a_translator_1_1_assembly_part_manager_1ab8a380cd4ad89292b2dfe69eac4fe1f6" compoundref="_assembly_part_manager_8cs" startline="161" endline="164">CATIATranslator.AssemblyPartManager.button1_Click</referencedby>
+        <referencedby refid="class_c_a_t_i_a_translator_1_1_assembly_part_manager_1af6feff25a2505e5075f65176b3541827" compoundref="_assembly_part_manager_8cs" startline="169" endline="192">CATIATranslator.AssemblyPartManager.button2_Click</referencedby>
+        <referencedby refid="class_c_a_t_i_a_translator_1_1_assembly_part_manager_1a72bf99c27ead62508aeba2a0bbac6f79" compoundref="_assembly_part_manager_8cs" startline="196" endline="212">CATIATranslator.AssemblyPartManager.button4_Click</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_c_a_t_i_a_translator_1_1_assembly_part_manager_1ab8a380cd4ad89292b2dfe69eac4fe1f6" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void CATIATranslator.AssemblyPartManager.button1_Click</definition>
+        <argsstring>(object sender, EventArgs e)</argsstring>
+        <name>button1_Click</name>
+        <param>
+          <type>object</type>
+          <declname>sender</declname>
+        </param>
+        <param>
+          <type>EventArgs</type>
+          <declname>e</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/CATIATranslator/AssemblyPartManager.cs" line="161" column="1" bodyfile="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/CATIATranslator/AssemblyPartManager.cs" bodystart="161" bodyend="164"/>
+        <references refid="class_c_a_t_i_a_translator_1_1_assembly_part_manager_1a92f0397bfb37dea23846163e8ad4d83d" compoundref="_assembly_part_manager_8cs" startline="90" endline="156">CATIATranslator.AssemblyPartManager.Updatelist</references>
+      </memberdef>
+      <memberdef kind="function" id="class_c_a_t_i_a_translator_1_1_assembly_part_manager_1af6feff25a2505e5075f65176b3541827" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void CATIATranslator.AssemblyPartManager.button2_Click</definition>
+        <argsstring>(object sender, EventArgs e)</argsstring>
+        <name>button2_Click</name>
+        <param>
+          <type>object</type>
+          <declname>sender</declname>
+        </param>
+        <param>
+          <type>EventArgs</type>
+          <declname>e</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/CATIATranslator/AssemblyPartManager.cs" line="169" column="1" bodyfile="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/CATIATranslator/AssemblyPartManager.cs" bodystart="169" bodyend="192"/>
+        <references refid="class_c_a_t_i_a_translator_1_1_assembly_part_manager_1ad6b458bded43edfcb4c6762c84e88564" compoundref="_assembly_part_manager_8cs" startline="37">CATIATranslator.AssemblyPartManager.fullpath</references>
+        <references refid="class_c_a_t_i_a_translator_1_1_assembly_part_manager_1ad56d7b52e4df910cef106b2553561c66" compoundref="_assembly_part_manager_8_designer_8cs" startline="150">CATIATranslator.AssemblyPartManager.listView1</references>
+        <references refid="class_c_a_t_i_a_translator_1_1_assembly_part_manager_1a242c8905e99751f605f18a2a40bdc544" compoundref="_assembly_part_manager_8cs" startline="36">CATIATranslator.AssemblyPartManager.path</references>
+        <references refid="class_c_a_t_i_a_translator_1_1_assembly_part_manager_1a92f0397bfb37dea23846163e8ad4d83d" compoundref="_assembly_part_manager_8cs" startline="90" endline="156">CATIATranslator.AssemblyPartManager.Updatelist</references>
+      </memberdef>
+      <memberdef kind="function" id="class_c_a_t_i_a_translator_1_1_assembly_part_manager_1a72bf99c27ead62508aeba2a0bbac6f79" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void CATIATranslator.AssemblyPartManager.button4_Click</definition>
+        <argsstring>(object sender, EventArgs e)</argsstring>
+        <name>button4_Click</name>
+        <param>
+          <type>object</type>
+          <declname>sender</declname>
+        </param>
+        <param>
+          <type>EventArgs</type>
+          <declname>e</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/CATIATranslator/AssemblyPartManager.cs" line="196" column="1" bodyfile="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/CATIATranslator/AssemblyPartManager.cs" bodystart="196" bodyend="212"/>
+        <references refid="class_c_a_t_i_a_translator_1_1_assembly_part_manager_1ad56d7b52e4df910cef106b2553561c66" compoundref="_assembly_part_manager_8_designer_8cs" startline="150">CATIATranslator.AssemblyPartManager.listView1</references>
+        <references refid="class_c_a_t_i_a_translator_1_1_assembly_part_manager_1a242c8905e99751f605f18a2a40bdc544" compoundref="_assembly_part_manager_8cs" startline="36">CATIATranslator.AssemblyPartManager.path</references>
+        <references refid="class_c_a_t_i_a_translator_1_1_assembly_part_manager_1a92f0397bfb37dea23846163e8ad4d83d" compoundref="_assembly_part_manager_8cs" startline="90" endline="156">CATIATranslator.AssemblyPartManager.Updatelist</references>
+      </memberdef>
+      <memberdef kind="function" id="class_c_a_t_i_a_translator_1_1_assembly_part_manager_1a61bcad363fff0152afd816d4668a24ac" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void CATIATranslator.AssemblyPartManager.button3_Click</definition>
+        <argsstring>(object sender, EventArgs e)</argsstring>
+        <name>button3_Click</name>
+        <param>
+          <type>object</type>
+          <declname>sender</declname>
+        </param>
+        <param>
+          <type>EventArgs</type>
+          <declname>e</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/CATIATranslator/AssemblyPartManager.cs" line="216" column="1" bodyfile="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/CATIATranslator/AssemblyPartManager.cs" bodystart="216" bodyend="237"/>
+        <references refid="class_c_a_t_i_a_translator_1_1_assembly_part_manager_1ad6b458bded43edfcb4c6762c84e88564" compoundref="_assembly_part_manager_8cs" startline="37">CATIATranslator.AssemblyPartManager.fullpath</references>
+        <references refid="class_c_a_t_i_a_translator_1_1_assembly_part_manager_1ad56d7b52e4df910cef106b2553561c66" compoundref="_assembly_part_manager_8_designer_8cs" startline="150">CATIATranslator.AssemblyPartManager.listView1</references>
+        <references refid="class_c_a_t_i_a_translator_1_1_assembly_part_manager_1a242c8905e99751f605f18a2a40bdc544" compoundref="_assembly_part_manager_8cs" startline="36">CATIATranslator.AssemblyPartManager.path</references>
+      </memberdef>
+      <memberdef kind="function" id="class_c_a_t_i_a_translator_1_1_assembly_part_manager_1ac0bf3960f8e90005f18ab469740f45e0" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void CATIATranslator.AssemblyPartManager.InitializeComponent</definition>
+        <argsstring>()</argsstring>
+        <name>InitializeComponent</name>
+        <briefdescription>
+<para>Required method for Designer support - do not modify the contents of this method with the code editor. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/CATIATranslator/AssemblyPartManager.Designer.cs" line="29" column="1" bodyfile="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/CATIATranslator/AssemblyPartManager.Designer.cs" bodystart="29" bodyend="146"/>
+        <referencedby refid="class_c_a_t_i_a_translator_1_1_assembly_part_manager_1a98a9d8c528ea4243f6d6757563cd6b82" compoundref="_assembly_part_manager_8cs" startline="43" endline="87">CATIATranslator.AssemblyPartManager.AssemblyPartManager</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="protected-func">
+      <memberdef kind="function" id="class_c_a_t_i_a_translator_1_1_assembly_part_manager_1ab3648c70dbd4958383818d3f3d7261a8" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>override void</type>
+        <definition>override void CATIATranslator.AssemblyPartManager.Dispose</definition>
+        <argsstring>(bool disposing)</argsstring>
+        <name>Dispose</name>
+        <param>
+          <type>bool</type>
+          <declname>disposing</declname>
+        </param>
+        <briefdescription>
+<para>Clean up any resources being used. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>disposing</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>true if managed resources should be disposed; otherwise, false.</para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/CATIATranslator/AssemblyPartManager.Designer.cs" line="14" column="1" bodyfile="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/CATIATranslator/AssemblyPartManager.Designer.cs" bodystart="14" bodyend="21"/>
+        <references refid="class_c_a_t_i_a_translator_1_1_assembly_part_manager_1a0e7ccf39eab058c603f9528c13d26a9d" compoundref="_assembly_part_manager_8_designer_8cs" startline="8">CATIATranslator.AssemblyPartManager.components</references>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="21">
+        <label>CATIATranslator.AssemblyPartManager</label>
+        <link refid="class_c_a_t_i_a_translator_1_1_assembly_part_manager"/>
+        <childnode refid="22" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="22">
+        <label>Form</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="23">
+        <label>CATIATranslator.AssemblyPartManager</label>
+        <link refid="class_c_a_t_i_a_translator_1_1_assembly_part_manager"/>
+        <childnode refid="24" relation="public-inheritance">
+        </childnode>
+        <childnode refid="25" relation="usage">
+          <edgelabel>_tAssem</edgelabel>
+        </childnode>
+        <childnode refid="26" relation="usage">
+          <edgelabel>AssemblyManager</edgelabel>
+        </childnode>
+        <childnode refid="29" relation="usage">
+          <edgelabel>button4</edgelabel>
+          <edgelabel>label1</edgelabel>
+          <edgelabel>CatScripts</edgelabel>
+          <edgelabel>PartName</edgelabel>
+          <edgelabel>components</edgelabel>
+          <edgelabel>CatParts</edgelabel>
+          <edgelabel>listView1</edgelabel>
+          <edgelabel>button1</edgelabel>
+          <edgelabel>button2</edgelabel>
+          <edgelabel>button3</edgelabel>
+          <edgelabel>...</edgelabel>
+        </childnode>
+      </node>
+      <node id="25">
+        <label>TransCAD</label>
+      </node>
+      <node id="24">
+        <label>Form</label>
+      </node>
+      <node id="27">
+        <label>CATIATranslator.Reference</label>
+        <link refid="class_c_a_t_i_a_translator_1_1_reference"/>
+        <childnode refid="26" relation="usage">
+          <edgelabel>assembly</edgelabel>
+        </childnode>
+        <childnode refid="28" relation="usage">
+          <edgelabel>PartManager</edgelabel>
+        </childnode>
+      </node>
+      <node id="28">
+        <label>CATIATranslator.Part</label>
+        <link refid="class_c_a_t_i_a_translator_1_1_part"/>
+        <childnode refid="25" relation="usage">
+          <edgelabel>tAssemDoc</edgelabel>
+          <edgelabel>tApp</edgelabel>
+          <edgelabel>tPartDoc</edgelabel>
+          <edgelabel>tDocs</edgelabel>
+          <edgelabel>tFeatures</edgelabel>
+          <edgelabel>tAssem</edgelabel>
+          <edgelabel>tComp</edgelabel>
+          <edgelabel>tPart</edgelabel>
+        </childnode>
+        <childnode refid="27" relation="usage">
+          <edgelabel>ReferenceManager</edgelabel>
+        </childnode>
+        <childnode refid="28" relation="usage">
+          <edgelabel>cPart</edgelabel>
+        </childnode>
+      </node>
+      <node id="29">
+        <label>System</label>
+      </node>
+      <node id="26">
+        <label>CATIATranslator.Assembly</label>
+        <link refid="class_c_a_t_i_a_translator_1_1_assembly"/>
+        <childnode refid="25" relation="usage">
+          <edgelabel>tConstraints</edgelabel>
+          <edgelabel>tAssemDoc</edgelabel>
+          <edgelabel>tApp</edgelabel>
+          <edgelabel>tPartDoc</edgelabel>
+          <edgelabel>tDocs</edgelabel>
+          <edgelabel>tFeatures</edgelabel>
+          <edgelabel>tAssem</edgelabel>
+          <edgelabel>tComp</edgelabel>
+          <edgelabel>tPart</edgelabel>
+        </childnode>
+        <childnode refid="27" relation="usage">
+          <edgelabel>ReferenceManager</edgelabel>
+        </childnode>
+        <childnode refid="28" relation="usage">
+          <edgelabel>cPart</edgelabel>
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/CATIATranslator/AssemblyPartManager.cs" line="34" column="1" bodyfile="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/CATIATranslator/AssemblyPartManager.cs" bodystart="33" bodyend="240"/>
+    <listofallmembers>
+      <member refid="class_c_a_t_i_a_translator_1_1_assembly_part_manager_1ae05d26c49d18b462c48dcf8c48288956" prot="private" virt="non-virtual"><scope>CATIATranslator::AssemblyPartManager</scope><name>_tAssem</name></member>
+      <member refid="class_c_a_t_i_a_translator_1_1_assembly_part_manager_1a55e0204accd0e936bd06a93a2665eed4" prot="private" virt="non-virtual"><scope>CATIATranslator::AssemblyPartManager</scope><name>AssemblyManager</name></member>
+      <member refid="class_c_a_t_i_a_translator_1_1_assembly_part_manager_1a98a9d8c528ea4243f6d6757563cd6b82" prot="public" virt="non-virtual"><scope>CATIATranslator::AssemblyPartManager</scope><name>AssemblyPartManager</name></member>
+      <member refid="class_c_a_t_i_a_translator_1_1_assembly_part_manager_1aa10b089a59e28d5242a3addbdd886be7" prot="private" virt="non-virtual"><scope>CATIATranslator::AssemblyPartManager</scope><name>button1</name></member>
+      <member refid="class_c_a_t_i_a_translator_1_1_assembly_part_manager_1ab8a380cd4ad89292b2dfe69eac4fe1f6" prot="private" virt="non-virtual"><scope>CATIATranslator::AssemblyPartManager</scope><name>button1_Click</name></member>
+      <member refid="class_c_a_t_i_a_translator_1_1_assembly_part_manager_1a21236b477653f40925d65c605f181f85" prot="private" virt="non-virtual"><scope>CATIATranslator::AssemblyPartManager</scope><name>button2</name></member>
+      <member refid="class_c_a_t_i_a_translator_1_1_assembly_part_manager_1af6feff25a2505e5075f65176b3541827" prot="private" virt="non-virtual"><scope>CATIATranslator::AssemblyPartManager</scope><name>button2_Click</name></member>
+      <member refid="class_c_a_t_i_a_translator_1_1_assembly_part_manager_1a94e0c71722ef2f26f5962a7a06eedc23" prot="private" virt="non-virtual"><scope>CATIATranslator::AssemblyPartManager</scope><name>button3</name></member>
+      <member refid="class_c_a_t_i_a_translator_1_1_assembly_part_manager_1a61bcad363fff0152afd816d4668a24ac" prot="private" virt="non-virtual"><scope>CATIATranslator::AssemblyPartManager</scope><name>button3_Click</name></member>
+      <member refid="class_c_a_t_i_a_translator_1_1_assembly_part_manager_1a78ad162347821f0ceaef03f307d06c05" prot="private" virt="non-virtual"><scope>CATIATranslator::AssemblyPartManager</scope><name>button4</name></member>
+      <member refid="class_c_a_t_i_a_translator_1_1_assembly_part_manager_1a72bf99c27ead62508aeba2a0bbac6f79" prot="private" virt="non-virtual"><scope>CATIATranslator::AssemblyPartManager</scope><name>button4_Click</name></member>
+      <member refid="class_c_a_t_i_a_translator_1_1_assembly_part_manager_1a615662c926a00e58acaa49aa93cee7f8" prot="private" virt="non-virtual"><scope>CATIATranslator::AssemblyPartManager</scope><name>CatParts</name></member>
+      <member refid="class_c_a_t_i_a_translator_1_1_assembly_part_manager_1af42d1d2d5ab1aa3e4150233270b934a4" prot="private" virt="non-virtual"><scope>CATIATranslator::AssemblyPartManager</scope><name>CatScripts</name></member>
+      <member refid="class_c_a_t_i_a_translator_1_1_assembly_part_manager_1a0e7ccf39eab058c603f9528c13d26a9d" prot="private" virt="non-virtual"><scope>CATIATranslator::AssemblyPartManager</scope><name>components</name></member>
+      <member refid="class_c_a_t_i_a_translator_1_1_assembly_part_manager_1ab3648c70dbd4958383818d3f3d7261a8" prot="protected" virt="non-virtual"><scope>CATIATranslator::AssemblyPartManager</scope><name>Dispose</name></member>
+      <member refid="class_c_a_t_i_a_translator_1_1_assembly_part_manager_1ad6b458bded43edfcb4c6762c84e88564" prot="private" virt="non-virtual"><scope>CATIATranslator::AssemblyPartManager</scope><name>fullpath</name></member>
+      <member refid="class_c_a_t_i_a_translator_1_1_assembly_part_manager_1ac0bf3960f8e90005f18ab469740f45e0" prot="private" virt="non-virtual"><scope>CATIATranslator::AssemblyPartManager</scope><name>InitializeComponent</name></member>
+      <member refid="class_c_a_t_i_a_translator_1_1_assembly_part_manager_1a45326182380c69ba2f604c6c1b3449b4" prot="private" virt="non-virtual"><scope>CATIATranslator::AssemblyPartManager</scope><name>label1</name></member>
+      <member refid="class_c_a_t_i_a_translator_1_1_assembly_part_manager_1ad56d7b52e4df910cef106b2553561c66" prot="private" virt="non-virtual"><scope>CATIATranslator::AssemblyPartManager</scope><name>listView1</name></member>
+      <member refid="class_c_a_t_i_a_translator_1_1_assembly_part_manager_1a1177c5abccf5d77ed3850cafc5fcb026" prot="private" virt="non-virtual"><scope>CATIATranslator::AssemblyPartManager</scope><name>PartName</name></member>
+      <member refid="class_c_a_t_i_a_translator_1_1_assembly_part_manager_1a242c8905e99751f605f18a2a40bdc544" prot="private" virt="non-virtual"><scope>CATIATranslator::AssemblyPartManager</scope><name>path</name></member>
+      <member refid="class_c_a_t_i_a_translator_1_1_assembly_part_manager_1a92f0397bfb37dea23846163e8ad4d83d" prot="public" virt="non-virtual"><scope>CATIATranslator::AssemblyPartManager</scope><name>Updatelist</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

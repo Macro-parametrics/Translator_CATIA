@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="dir_b1ccb420f6544db8b590bcc5c8d9ea1b" kind="dir">
+    <compoundname>PreManager</compoundname>
+    <innerdir refid="dir_8b83867b887d3bb40298e7e0d19b98e2">PreManager/ref</innerdir>
+    <innerfile refid="_pre_manager_2_stdafx_8cpp">stdafx.cpp</innerfile>
+    <innerfile refid="_pre_manager_2_stdafx_8h">stdafx.h</innerfile>
+    <innerfile refid="_pre_manager_2targetver_8h">targetver.h</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/PreManager/"/>
+  </compounddef>
+</doxygen>

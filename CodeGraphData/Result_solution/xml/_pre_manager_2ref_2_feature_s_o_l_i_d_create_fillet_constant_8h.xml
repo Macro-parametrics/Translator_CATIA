@@ -1,0 +1,163 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="_pre_manager_2ref_2_feature_s_o_l_i_d_create_fillet_constant_8h" kind="file">
+    <compoundname>FeatureSOLIDCreateFilletConstant.h</compoundname>
+    <includes refid="_pre_manager_2ref_2_feature_8h" local="yes">Feature.h</includes>
+    <includedby refid="_pre_manager_2ref_2_feature_s_o_l_i_d_create_fillet_constant_8cpp" local="yes">PreManager/ref/FeatureSOLIDCreateFilletConstant.cpp</includedby>
+    <includedby refid="_pre_manager_2ref_2_part_8cpp" local="yes">PreManager/ref/Part.cpp</includedby>
+    <incdepgraph>
+      <node id="1354">
+        <label>strstream</label>
+      </node>
+      <node id="1337">
+        <label>PreManager/ref/FeatureSOLIDCreateFilletConstant.h</label>
+        <link refid="PreManager/ref/FeatureSOLIDCreateFilletConstant.h"/>
+        <childnode refid="1338" relation="include">
+        </childnode>
+      </node>
+      <node id="1338">
+        <label>Feature.h</label>
+        <link refid="_pre_manager_2ref_2_feature_8h"/>
+        <childnode refid="1339" relation="include">
+        </childnode>
+      </node>
+      <node id="1348">
+        <label>cmath</label>
+      </node>
+      <node id="1343">
+        <label>string</label>
+      </node>
+      <node id="1352">
+        <label>comdef.h</label>
+      </node>
+      <node id="1351">
+        <label>comutil.h</label>
+      </node>
+      <node id="1346">
+        <label>fstream</label>
+      </node>
+      <node id="1344">
+        <label>string.h</label>
+      </node>
+      <node id="1340">
+        <label>CATIApre_DLL.h</label>
+        <link refid="_c_a_t_i_apre___d_l_l_8h"/>
+        <childnode refid="1341" relation="include">
+        </childnode>
+        <childnode refid="1342" relation="include">
+        </childnode>
+        <childnode refid="1343" relation="include">
+        </childnode>
+        <childnode refid="1344" relation="include">
+        </childnode>
+        <childnode refid="1345" relation="include">
+        </childnode>
+        <childnode refid="1346" relation="include">
+        </childnode>
+        <childnode refid="1347" relation="include">
+        </childnode>
+        <childnode refid="1348" relation="include">
+        </childnode>
+        <childnode refid="1349" relation="include">
+        </childnode>
+        <childnode refid="1350" relation="include">
+        </childnode>
+        <childnode refid="1351" relation="include">
+        </childnode>
+        <childnode refid="1352" relation="include">
+        </childnode>
+        <childnode refid="1353" relation="include">
+        </childnode>
+      </node>
+      <node id="1347">
+        <label>vector</label>
+      </node>
+      <node id="1350">
+        <label>sstream</label>
+      </node>
+      <node id="1349">
+        <label>math.h</label>
+      </node>
+      <node id="1345">
+        <label>iostream</label>
+      </node>
+      <node id="1342">
+        <label>tchar.h</label>
+      </node>
+      <node id="1353">
+        <label>Definition.h</label>
+        <link refid="_pre_manager_2ref_2_definition_8h"/>
+        <childnode refid="1354" relation="include">
+        </childnode>
+        <childnode refid="1345" relation="include">
+        </childnode>
+        <childnode refid="1349" relation="include">
+        </childnode>
+      </node>
+      <node id="1339">
+        <label>Part.h</label>
+        <link refid="_pre_manager_2ref_2_part_8h"/>
+        <childnode refid="1340" relation="include">
+        </childnode>
+      </node>
+      <node id="1341">
+        <label>stdio.h</label>
+      </node>
+    </incdepgraph>
+    <invincdepgraph>
+      <node id="1356">
+        <label>PreManager/ref/FeatureSOLIDCreateFilletConstant.cpp</label>
+        <link refid="_pre_manager_2ref_2_feature_s_o_l_i_d_create_fillet_constant_8cpp"/>
+      </node>
+      <node id="1355">
+        <label>PreManager/ref/FeatureSOLIDCreateFilletConstant.h</label>
+        <link refid="PreManager/ref/FeatureSOLIDCreateFilletConstant.h"/>
+        <childnode refid="1356" relation="include">
+        </childnode>
+        <childnode refid="1357" relation="include">
+        </childnode>
+      </node>
+      <node id="1357">
+        <label>PreManager/ref/Part.cpp</label>
+        <link refid="_pre_manager_2ref_2_part_8cpp"/>
+      </node>
+    </invincdepgraph>
+    <innerclass refid="class_pre_1_1_feature_s_o_l_i_d_create_fillet_constant" prot="public">Pre::FeatureSOLIDCreateFilletConstant</innerclass>
+    <innernamespace refid="namespace_pre">Pre</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="preprocessor">#pragma<sp/>once</highlight></codeline>
+<codeline lineno="2"><highlight class="preprocessor"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="_pre_manager_2ref_2_feature_8h" kindref="compound">Feature.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal">Pre<sp/>{</highlight></codeline>
+<codeline lineno="4"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal">ReferenceEntity;</highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight></codeline>
+<codeline lineno="6" refid="class_pre_1_1_feature_s_o_l_i_d_create_fillet_constant" refkind="compound"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="class_pre_1_1_feature_s_o_l_i_d_create_fillet_constant" kindref="compound">FeatureSOLIDCreateFilletConstant</ref><sp/>:<sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/><ref refid="class_pre_1_1_feature" kindref="compound">Feature</ref></highlight></codeline>
+<codeline lineno="7"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="8"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="9"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_pre_1_1_feature_s_o_l_i_d_create_fillet_constant_1ab1a35dc362d231547fbd3b9e2df0bc6b" kindref="member">FeatureSOLIDCreateFilletConstant</ref>(<ref refid="class_pre_1_1_part" kindref="compound">Part</ref><sp/>*<sp/>pPart,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>type,<sp/></highlight><highlight class="keywordtype">string</highlight><highlight class="normal"><sp/>name);</highlight></codeline>
+<codeline lineno="10"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/><ref refid="class_pre_1_1_feature_s_o_l_i_d_create_fillet_constant_1ae4d331200bdc5065151eadad24efb89a" kindref="member">~FeatureSOLIDCreateFilletConstant</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="11"><highlight class="normal"></highlight></codeline>
+<codeline lineno="12" refid="class_pre_1_1_feature_s_o_l_i_d_create_fillet_constant_1a605af79c7c68845de338f874df3b0c52" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/><ref refid="class_pre_1_1_feature_s_o_l_i_d_create_fillet_constant_1a605af79c7c68845de338f874df3b0c52" kindref="member">GetRadius</ref>()</highlight><highlight class="keyword"><sp/>const<sp/></highlight><highlight class="normal">{<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/><ref refid="class_pre_1_1_feature_s_o_l_i_d_create_fillet_constant_1a2f5508f2566584a7d1fb6e1dcb1e66ed" kindref="member">_radius</ref>;<sp/>}</highlight></codeline>
+<codeline lineno="13" refid="class_pre_1_1_feature_s_o_l_i_d_create_fillet_constant_1abde4b0320f9f25d091125768745d2969" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="_pre_manager_2ref_2_definition_8h_1a2477a42547ead4995131c881e573ede5" kindref="member">TransCAD::PropagationType</ref><sp/><ref refid="class_pre_1_1_feature_s_o_l_i_d_create_fillet_constant_1abde4b0320f9f25d091125768745d2969" kindref="member">GetPropagationType</ref>()<sp/>{<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/><ref refid="class_pre_1_1_feature_s_o_l_i_d_create_fillet_constant_1a17e06ffeea6de12d1292b1565a43b579" kindref="member">_propagationType</ref>;<sp/>}</highlight></codeline>
+<codeline lineno="14"><highlight class="normal"></highlight></codeline>
+<codeline lineno="15"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_pre_1_1_feature_s_o_l_i_d_create_fillet_constant_1a54ffaefb717339edc2755870551f5181" kindref="member">GetInfo</ref>(ifstream<sp/>&amp;<sp/>is);</highlight></codeline>
+<codeline lineno="16"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_pre_1_1_feature_s_o_l_i_d_create_fillet_constant_1ae83a9a5f2cb42fff9f8c50f32394527f" kindref="member">ToTransCAD</ref>();</highlight></codeline>
+<codeline lineno="17"><highlight class="normal"></highlight></codeline>
+<codeline lineno="18"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_pre_1_1_feature_s_o_l_i_d_create_fillet_constant_1a7826dd730178001b472e7f26e5b361ab" kindref="member">CheckAttribute</ref>(</highlight><highlight class="keywordtype">string</highlight><highlight class="normal"><sp/>name,<sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>value,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>type);</highlight></codeline>
+<codeline lineno="19"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_pre_1_1_feature_s_o_l_i_d_create_fillet_constant_1ae07257e74ab0ee80fceb2c60ca9f43fd" kindref="member">Modify</ref>(</highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*<sp/>buffer);</highlight></codeline>
+<codeline lineno="20"><highlight class="normal"></highlight></codeline>
+<codeline lineno="21"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">private</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="22" refid="class_pre_1_1_feature_s_o_l_i_d_create_fillet_constant_1a2f5508f2566584a7d1fb6e1dcb1e66ed" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/><sp/><ref refid="class_pre_1_1_feature_s_o_l_i_d_create_fillet_constant_1a2f5508f2566584a7d1fb6e1dcb1e66ed" kindref="member">_radius</ref>;<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>Fillet<sp/>Radius</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="23" refid="class_pre_1_1_feature_s_o_l_i_d_create_fillet_constant_1a17e06ffeea6de12d1292b1565a43b579" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="_pre_manager_2ref_2_definition_8h_1a2477a42547ead4995131c881e573ede5" kindref="member">TransCAD::PropagationType</ref><sp/><ref refid="class_pre_1_1_feature_s_o_l_i_d_create_fillet_constant_1a17e06ffeea6de12d1292b1565a43b579" kindref="member">_propagationType</ref>;<sp/></highlight><highlight class="comment">//<sp/>Propagation<sp/>Type</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="24" refid="class_pre_1_1_feature_s_o_l_i_d_create_fillet_constant_1a3709bc171b567333f96e579b4f2d550c" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="class_pre_1_1_feature_s_o_l_i_d_create_fillet_constant_1a3709bc171b567333f96e579b4f2d550c" kindref="member">_propagation</ref>;</highlight></codeline>
+<codeline lineno="25" refid="class_pre_1_1_feature_s_o_l_i_d_create_fillet_constant_1adde9f6089609c59d19f268a65703dc3c" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>vector&lt;ReferenceEntity<sp/>*&gt;<sp/><ref refid="class_pre_1_1_feature_s_o_l_i_d_create_fillet_constant_1adde9f6089609c59d19f268a65703dc3c" kindref="member">_referenceEntityList</ref>;</highlight></codeline>
+<codeline lineno="26"><highlight class="normal"><sp/><sp/><sp/><sp/>};</highlight></codeline>
+<codeline lineno="27"><highlight class="normal"></highlight></codeline>
+<codeline lineno="28"><highlight class="normal">}</highlight></codeline>
+    </programlisting>
+    <location file="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/PreManager/ref/FeatureSOLIDCreateFilletConstant.h"/>
+  </compounddef>
+</doxygen>

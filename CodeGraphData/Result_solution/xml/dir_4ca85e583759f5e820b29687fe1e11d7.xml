@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="dir_4ca85e583759f5e820b29687fe1e11d7" kind="dir">
+    <compoundname>CATIATranslator</compoundname>
+    <innerdir refid="dir_8ec30fb1df9838aac007bb899ca2b43d">CATIATranslator/Assembly</innerdir>
+    <innerdir refid="dir_191deca9409a2e31bf7b58f1a31f053e">CATIATranslator/Part</innerdir>
+    <innerdir refid="dir_ec7ac1e7e87c183bef077f2110cf9e34">CATIATranslator/Properties</innerdir>
+    <innerfile refid="_assembly_part_manager_8cs">AssemblyPartManager.cs</innerfile>
+    <innerfile refid="_assembly_part_manager_8_designer_8cs">AssemblyPartManager.Designer.cs</innerfile>
+    <innerfile refid="_form1_8cs">Form1.cs</innerfile>
+    <innerfile refid="_form1_8_designer_8cs">Form1.Designer.cs</innerfile>
+    <innerfile refid="_program_8cs">Program.cs</innerfile>
+    <innerfile refid="_tool_8cs">Tool.cs</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/CATIATranslator/"/>
+  </compounddef>
+</doxygen>

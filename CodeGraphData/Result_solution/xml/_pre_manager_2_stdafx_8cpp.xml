@@ -1,0 +1,68 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="_pre_manager_2_stdafx_8cpp" kind="file">
+    <compoundname>stdafx.cpp</compoundname>
+    <includes refid="_pre_manager_2_stdafx_8h" local="yes">stdafx.h</includes>
+    <incdepgraph>
+      <node id="301">
+        <label>SDKDDKVer.h</label>
+      </node>
+      <node id="299">
+        <label>stdafx.h</label>
+        <link refid="_pre_manager_2_stdafx_8h"/>
+        <childnode refid="300" relation="include">
+        </childnode>
+        <childnode refid="302" relation="include">
+        </childnode>
+        <childnode refid="303" relation="include">
+        </childnode>
+      </node>
+      <node id="298">
+        <label>PreManager/stdafx.cpp</label>
+        <link refid="PreManager/Stdafx.cpp"/>
+        <childnode refid="299" relation="include">
+        </childnode>
+      </node>
+      <node id="300">
+        <label>targetver.h</label>
+        <link refid="_pre_manager_2targetver_8h"/>
+        <childnode refid="301" relation="include">
+        </childnode>
+      </node>
+      <node id="303">
+        <label>tchar.h</label>
+      </node>
+      <node id="302">
+        <label>stdio.h</label>
+      </node>
+    </incdepgraph>
+      <sectiondef kind="define">
+      <memberdef kind="define" id="_pre_manager_2_stdafx_8cpp_1a598a3330b3c21701223ee0ca14316eca" prot="public" static="no">
+        <name>PI</name>
+        <initializer>3.14159265358979323846</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/PreManager/stdafx.cpp" line="5" column="9"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="comment">//<sp/>stdafx.cpp<sp/>:<sp/>표준<sp/>포함<sp/>파일만<sp/>들어<sp/>있는<sp/>소스<sp/>파일입니다.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight><highlight class="comment">//<sp/>PreManager.pch는<sp/>미리<sp/>컴파일된<sp/>헤더가<sp/>됩니다.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="comment">//<sp/>stdafx.obj에는<sp/>미리<sp/>컴파일된<sp/>형식<sp/>정보가<sp/>포함됩니다.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="_pre_manager_2_stdafx_8h" kindref="compound">stdafx.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight><highlight class="comment">//<sp/>TODO:<sp/>필요한<sp/>추가<sp/>헤더는</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight><highlight class="comment">//<sp/>이<sp/>파일이<sp/>아닌<sp/>STDAFX.H에서<sp/>참조합니다.</highlight><highlight class="normal"></highlight></codeline>
+    </programlisting>
+    <location file="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/PreManager/stdafx.cpp"/>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,763 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_pre_1_1_feature_s_o_l_i_d_create_revolve" kind="class" prot="public">
+    <compoundname>Pre::FeatureSOLIDCreateRevolve</compoundname>
+    <basecompoundref refid="class_pre_1_1_feature" prot="public" virt="non-virtual">Pre::Feature</basecompoundref>
+    <includes refid="_feature_s_o_l_i_d_create_revolve_8h" local="no">FeatureSOLIDCreateRevolve.h</includes>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_pre_1_1_feature_s_o_l_i_d_create_revolve_1ac7592a01598a57ec1fe93766e5c09b82" prot="private" static="no" mutable="no">
+        <type>double</type>
+        <definition>double Pre::FeatureSOLIDCreateRevolve::startAngle</definition>
+        <argsstring></argsstring>
+        <name>startAngle</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/PreManager/ref/FeatureSOLIDCreateRevolve.h" line="31" column="1" bodyfile="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/PreManager/ref/FeatureSOLIDCreateRevolve.h" bodystart="31" bodyend="-1"/>
+        <referencedby refid="class_pre_1_1_feature_s_o_l_i_d_create_revolve_1ac876aa3a22239637b346c1946934c93a" compoundref="_feature_s_o_l_i_d_create_revolve_8cpp" startline="107" endline="117">CheckAttribute</referencedby>
+        <referencedby refid="class_pre_1_1_feature_s_o_l_i_d_create_revolve_1aacbc40eef03be6fb65abbeacfe5d0d92" compoundref="_feature_s_o_l_i_d_create_revolve_8cpp" startline="12" endline="22">FeatureSOLIDCreateRevolve</referencedby>
+        <referencedby refid="class_pre_1_1_feature_s_o_l_i_d_create_revolve_1a37a17dc5281ee5ec8a1b07c3dd7b8e6a" compoundref="_feature_s_o_l_i_d_create_revolve_8cpp" startline="74" endline="105">ToTransCAD</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_pre_1_1_feature_s_o_l_i_d_create_revolve_1af65c6439310be73297f994c4f5ef722b" prot="private" static="no" mutable="no">
+        <type>double</type>
+        <definition>double Pre::FeatureSOLIDCreateRevolve::endAngle</definition>
+        <argsstring></argsstring>
+        <name>endAngle</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/PreManager/ref/FeatureSOLIDCreateRevolve.h" line="32" column="1" bodyfile="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/PreManager/ref/FeatureSOLIDCreateRevolve.h" bodystart="32" bodyend="-1"/>
+        <referencedby refid="class_pre_1_1_feature_s_o_l_i_d_create_revolve_1ac876aa3a22239637b346c1946934c93a" compoundref="_feature_s_o_l_i_d_create_revolve_8cpp" startline="107" endline="117">CheckAttribute</referencedby>
+        <referencedby refid="class_pre_1_1_feature_s_o_l_i_d_create_revolve_1aacbc40eef03be6fb65abbeacfe5d0d92" compoundref="_feature_s_o_l_i_d_create_revolve_8cpp" startline="12" endline="22">FeatureSOLIDCreateRevolve</referencedby>
+        <referencedby refid="class_pre_1_1_feature_s_o_l_i_d_create_revolve_1a37a17dc5281ee5ec8a1b07c3dd7b8e6a" compoundref="_feature_s_o_l_i_d_create_revolve_8cpp" startline="74" endline="105">ToTransCAD</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_pre_1_1_feature_s_o_l_i_d_create_revolve_1af767f1ece7234ca5efb12dc55432035f" prot="private" static="no" mutable="no">
+        <type>string</type>
+        <definition>string Pre::FeatureSOLIDCreateRevolve::startCondition</definition>
+        <argsstring></argsstring>
+        <name>startCondition</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/PreManager/ref/FeatureSOLIDCreateRevolve.h" line="33" column="1" bodyfile="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/PreManager/ref/FeatureSOLIDCreateRevolve.h" bodystart="33" bodyend="-1"/>
+        <referencedby refid="class_pre_1_1_feature_s_o_l_i_d_create_revolve_1aacbc40eef03be6fb65abbeacfe5d0d92" compoundref="_feature_s_o_l_i_d_create_revolve_8cpp" startline="12" endline="22">FeatureSOLIDCreateRevolve</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_pre_1_1_feature_s_o_l_i_d_create_revolve_1a03297c04c3f2a83cf231f5431dc985be" prot="private" static="no" mutable="no">
+        <type>string</type>
+        <definition>string Pre::FeatureSOLIDCreateRevolve::endCondition</definition>
+        <argsstring></argsstring>
+        <name>endCondition</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/PreManager/ref/FeatureSOLIDCreateRevolve.h" line="34" column="1" bodyfile="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/PreManager/ref/FeatureSOLIDCreateRevolve.h" bodystart="34" bodyend="-1"/>
+        <referencedby refid="class_pre_1_1_feature_s_o_l_i_d_create_revolve_1aacbc40eef03be6fb65abbeacfe5d0d92" compoundref="_feature_s_o_l_i_d_create_revolve_8cpp" startline="12" endline="22">FeatureSOLIDCreateRevolve</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_pre_1_1_feature_s_o_l_i_d_create_revolve_1a0468b14b0474bf6aadd47cd8f6b01670" prot="private" static="no" mutable="no">
+        <type>string</type>
+        <definition>string Pre::FeatureSOLIDCreateRevolve::_revolveAxis</definition>
+        <argsstring></argsstring>
+        <name>_revolveAxis</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/PreManager/ref/FeatureSOLIDCreateRevolve.h" line="35" column="1" bodyfile="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/PreManager/ref/FeatureSOLIDCreateRevolve.h" bodystart="35" bodyend="-1"/>
+        <referencedby refid="class_pre_1_1_feature_s_o_l_i_d_create_revolve_1a0ff557f26cc9a7551a1a78b83f7673cf" compoundref="_feature_s_o_l_i_d_create_revolve_8cpp" startline="149" endline="215">AddNewRevolveAxis</referencedby>
+        <referencedby refid="class_pre_1_1_feature_s_o_l_i_d_create_revolve_1ad220673013d89395c84d67102f39ba7b" compoundref="_feature_s_o_l_i_d_create_revolve_8cpp" startline="119" endline="147">Modify</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_pre_1_1_feature_s_o_l_i_d_create_revolve_1adc014c54314746fd2761aa5bc94fbc82" prot="private" static="no" mutable="no">
+        <type><ref refid="namespace_pre_1a42512ff1a00cd929e4efd66d0b148707" kindref="member">Point3D</ref></type>
+        <definition>Point3D Pre::FeatureSOLIDCreateRevolve::origin</definition>
+        <argsstring></argsstring>
+        <name>origin</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/PreManager/ref/FeatureSOLIDCreateRevolve.h" line="36" column="1" bodyfile="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/PreManager/ref/FeatureSOLIDCreateRevolve.h" bodystart="36" bodyend="-1"/>
+        <referencedby refid="class_pre_1_1_feature_s_o_l_i_d_create_revolve_1a0ff557f26cc9a7551a1a78b83f7673cf" compoundref="_feature_s_o_l_i_d_create_revolve_8cpp" startline="149" endline="215">AddNewRevolveAxis</referencedby>
+        <referencedby refid="class_pre_1_1_feature_s_o_l_i_d_create_revolve_1a24ac5c2f0389c4a6acc52de6ac46208b" compoundref="_feature_s_o_l_i_d_create_revolve_8h" startline="21" endline="21">GetAxisOrigin</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_pre_1_1_feature_s_o_l_i_d_create_revolve_1af36571139f21dd9238f207e536dc148a" prot="private" static="no" mutable="no">
+        <type><ref refid="namespace_pre_1a42512ff1a00cd929e4efd66d0b148707" kindref="member">Point3D</ref></type>
+        <definition>Point3D Pre::FeatureSOLIDCreateRevolve::direction</definition>
+        <argsstring></argsstring>
+        <name>direction</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/PreManager/ref/FeatureSOLIDCreateRevolve.h" line="36" column="1" bodyfile="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/PreManager/ref/FeatureSOLIDCreateRevolve.h" bodystart="36" bodyend="-1"/>
+        <referencedby refid="class_pre_1_1_feature_s_o_l_i_d_create_revolve_1a0ff557f26cc9a7551a1a78b83f7673cf" compoundref="_feature_s_o_l_i_d_create_revolve_8cpp" startline="149" endline="215">AddNewRevolveAxis</referencedby>
+        <referencedby refid="class_pre_1_1_feature_s_o_l_i_d_create_revolve_1a88e915fa6b4578f700961ce6876c4768" compoundref="_feature_s_o_l_i_d_create_revolve_8h" startline="22" endline="22">GetAxisDirection</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_pre_1_1_feature_s_o_l_i_d_create_revolve_1afd1cc6e0ff1c48beceb174ae390a1206" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int Pre::FeatureSOLIDCreateRevolve::flip</definition>
+        <argsstring></argsstring>
+        <name>flip</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/PreManager/ref/FeatureSOLIDCreateRevolve.h" line="37" column="1" bodyfile="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/PreManager/ref/FeatureSOLIDCreateRevolve.h" bodystart="37" bodyend="-1"/>
+        <referencedby refid="class_pre_1_1_feature_s_o_l_i_d_create_revolve_1aacbc40eef03be6fb65abbeacfe5d0d92" compoundref="_feature_s_o_l_i_d_create_revolve_8cpp" startline="12" endline="22">FeatureSOLIDCreateRevolve</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_pre_1_1_feature_s_o_l_i_d_create_revolve_1a9564e02278b1e389c552ddaf764bce1e" prot="private" static="no" mutable="no">
+        <type><ref refid="class_pre_1_1_f_sketch" kindref="compound">FSketch</ref> *</type>
+        <definition>FSketch* Pre::FeatureSOLIDCreateRevolve::_featureProfileSketch</definition>
+        <argsstring></argsstring>
+        <name>_featureProfileSketch</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/PreManager/ref/FeatureSOLIDCreateRevolve.h" line="39" column="1" bodyfile="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/PreManager/ref/FeatureSOLIDCreateRevolve.h" bodystart="39" bodyend="-1"/>
+        <referencedby refid="class_pre_1_1_feature_s_o_l_i_d_create_revolve_1aacbc40eef03be6fb65abbeacfe5d0d92" compoundref="_feature_s_o_l_i_d_create_revolve_8cpp" startline="12" endline="22">FeatureSOLIDCreateRevolve</referencedby>
+        <referencedby refid="class_pre_1_1_feature_s_o_l_i_d_create_revolve_1aac5228217159ad1238e381efbf1abed0" compoundref="_feature_s_o_l_i_d_create_revolve_8h" startline="13" endline="13">GetFeatureProfileSketch</referencedby>
+        <referencedby refid="class_pre_1_1_feature_s_o_l_i_d_create_revolve_1a127c834b172d477d022337d8867e9251" compoundref="_feature_s_o_l_i_d_create_revolve_8cpp" startline="28" endline="72">GetInfo</referencedby>
+        <referencedby refid="class_pre_1_1_feature_s_o_l_i_d_create_revolve_1a37a17dc5281ee5ec8a1b07c3dd7b8e6a" compoundref="_feature_s_o_l_i_d_create_revolve_8cpp" startline="74" endline="105">ToTransCAD</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_pre_1_1_feature_s_o_l_i_d_create_revolve_1ada4a0225810bef0118e51a56c7a24c1b" prot="private" static="no" mutable="no">
+        <type>vector&lt; <ref refid="class_pre_1_1_reference_entity" kindref="compound">ReferenceEntity</ref> * &gt;</type>
+        <definition>vector&lt;ReferenceEntity *&gt; Pre::FeatureSOLIDCreateRevolve::_referenceEntityList</definition>
+        <argsstring></argsstring>
+        <name>_referenceEntityList</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/PreManager/ref/FeatureSOLIDCreateRevolve.h" line="40" column="1" bodyfile="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/PreManager/ref/FeatureSOLIDCreateRevolve.h" bodystart="40" bodyend="-1"/>
+        <referencedby refid="class_pre_1_1_feature_s_o_l_i_d_create_revolve_1a127c834b172d477d022337d8867e9251" compoundref="_feature_s_o_l_i_d_create_revolve_8cpp" startline="28" endline="72">GetInfo</referencedby>
+        <referencedby refid="class_pre_1_1_feature_s_o_l_i_d_create_revolve_1ad220673013d89395c84d67102f39ba7b" compoundref="_feature_s_o_l_i_d_create_revolve_8cpp" startline="119" endline="147">Modify</referencedby>
+        <referencedby refid="class_pre_1_1_feature_s_o_l_i_d_create_revolve_1a37a17dc5281ee5ec8a1b07c3dd7b8e6a" compoundref="_feature_s_o_l_i_d_create_revolve_8cpp" startline="74" endline="105">ToTransCAD</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_pre_1_1_feature_s_o_l_i_d_create_revolve_1aacbc40eef03be6fb65abbeacfe5d0d92" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>Pre::FeatureSOLIDCreateRevolve::FeatureSOLIDCreateRevolve</definition>
+        <argsstring>(Part *pPart, int type, string name)</argsstring>
+        <name>FeatureSOLIDCreateRevolve</name>
+        <param>
+          <type><ref refid="class_pre_1_1_part" kindref="compound">Part</ref> *</type>
+          <declname>pPart</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>type</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>name</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/PreManager/ref/FeatureSOLIDCreateRevolve.h" line="10" column="1" bodyfile="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/PreManager/ref/FeatureSOLIDCreateRevolve.cpp" bodystart="12" bodyend="22"/>
+        <references refid="class_pre_1_1_feature_s_o_l_i_d_create_revolve_1a9564e02278b1e389c552ddaf764bce1e" compoundref="_feature_s_o_l_i_d_create_revolve_8h" startline="39">_featureProfileSketch</references>
+        <references refid="class_pre_1_1_feature_s_o_l_i_d_create_revolve_1af65c6439310be73297f994c4f5ef722b" compoundref="_feature_s_o_l_i_d_create_revolve_8h" startline="32">endAngle</references>
+        <references refid="class_pre_1_1_feature_s_o_l_i_d_create_revolve_1a03297c04c3f2a83cf231f5431dc985be" compoundref="_feature_s_o_l_i_d_create_revolve_8h" startline="34">endCondition</references>
+        <references refid="class_pre_1_1_feature_s_o_l_i_d_create_revolve_1afd1cc6e0ff1c48beceb174ae390a1206" compoundref="_feature_s_o_l_i_d_create_revolve_8h" startline="37">flip</references>
+        <references refid="class_pre_1_1_feature_s_o_l_i_d_create_revolve_1ac7592a01598a57ec1fe93766e5c09b82" compoundref="_feature_s_o_l_i_d_create_revolve_8h" startline="31">startAngle</references>
+        <references refid="class_pre_1_1_feature_s_o_l_i_d_create_revolve_1af767f1ece7234ca5efb12dc55432035f" compoundref="_feature_s_o_l_i_d_create_revolve_8h" startline="33">startCondition</references>
+      </memberdef>
+      <memberdef kind="function" id="class_pre_1_1_feature_s_o_l_i_d_create_revolve_1a482f19fad21640abfebf6b26ca9ef5bf" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type></type>
+        <definition>Pre::FeatureSOLIDCreateRevolve::~FeatureSOLIDCreateRevolve</definition>
+        <argsstring>()</argsstring>
+        <name>~FeatureSOLIDCreateRevolve</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/PreManager/ref/FeatureSOLIDCreateRevolve.h" line="11" column="1" bodyfile="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/PreManager/ref/FeatureSOLIDCreateRevolve.cpp" bodystart="24" bodyend="26"/>
+      </memberdef>
+      <memberdef kind="function" id="class_pre_1_1_feature_s_o_l_i_d_create_revolve_1aac5228217159ad1238e381efbf1abed0" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="class_pre_1_1_f_sketch" kindref="compound">FSketch</ref> *</type>
+        <definition>FSketch* Pre::FeatureSOLIDCreateRevolve::GetFeatureProfileSketch</definition>
+        <argsstring>()</argsstring>
+        <name>GetFeatureProfileSketch</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/PreManager/ref/FeatureSOLIDCreateRevolve.h" line="13" column="1" bodyfile="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/PreManager/ref/FeatureSOLIDCreateRevolve.h" bodystart="13" bodyend="13"/>
+        <references refid="class_pre_1_1_feature_s_o_l_i_d_create_revolve_1a9564e02278b1e389c552ddaf764bce1e" compoundref="_feature_s_o_l_i_d_create_revolve_8h" startline="39">_featureProfileSketch</references>
+        <referencedby refid="class_pre_1_1_feature_s_o_l_i_d_create_revolve_1a37a17dc5281ee5ec8a1b07c3dd7b8e6a" compoundref="_feature_s_o_l_i_d_create_revolve_8cpp" startline="74" endline="105">ToTransCAD</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_pre_1_1_feature_s_o_l_i_d_create_revolve_1a127c834b172d477d022337d8867e9251" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void Pre::FeatureSOLIDCreateRevolve::GetInfo</definition>
+        <argsstring>(ifstream &amp;is)</argsstring>
+        <name>GetInfo</name>
+        <reimplements refid="class_pre_1_1_feature_1af58dd6004076ee16ada8ed600965de6c">GetInfo</reimplements>
+        <param>
+          <type>ifstream &amp;</type>
+          <declname>is</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/PreManager/ref/FeatureSOLIDCreateRevolve.h" line="15" column="1" bodyfile="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/PreManager/ref/FeatureSOLIDCreateRevolve.cpp" bodystart="28" bodyend="72"/>
+        <references refid="class_pre_1_1_feature_s_o_l_i_d_create_revolve_1a9564e02278b1e389c552ddaf764bce1e" compoundref="_feature_s_o_l_i_d_create_revolve_8h" startline="39">_featureProfileSketch</references>
+        <references refid="class_pre_1_1_feature_1a64772d4f47afe0052d5a94f773de5211" compoundref="_pre_manager_2ref_2_feature_8h" startline="26">Pre::Feature::_pPart</references>
+        <references refid="class_pre_1_1_feature_s_o_l_i_d_create_revolve_1ada4a0225810bef0118e51a56c7a24c1b" compoundref="_feature_s_o_l_i_d_create_revolve_8h" startline="40">_referenceEntityList</references>
+        <references refid="class_pre_1_1_part_1afe3d79628d4af1d9cfb19fa1653ee716" compoundref="_pre_manager_2ref_2_part_8cpp" startline="362" endline="369">Pre::Part::AddFeatureNameSketchName</references>
+        <references refid="class_pre_1_1_part_1a757a376bdc640e00119c3489ee35d2aa" compoundref="_pre_manager_2ref_2_part_8cpp" startline="320" endline="331">Pre::Part::GetFeatureByName</references>
+        <references refid="class_pre_1_1_feature_1aeec702655239d43b9fb7af691bc4f85c" compoundref="_pre_manager_2ref_2_feature_8h" startline="13" endline="13">Pre::Feature::GetFeatureName</references>
+        <references refid="class_pre_1_1_reference_entity_1ab7834eec27b178f18cad28f6baf1b146" compoundref="_reference_entity_8h" startline="21" endline="21">Pre::ReferenceEntity::GetFeatureName</references>
+        <references refid="class_pre_1_1_feature_1a22de04ab5c0ef7206d32c780ccfafee7" compoundref="_pre_manager_2ref_2_feature_8h" startline="12" endline="12">Pre::Feature::GetPart</references>
+        <references refid="class_pre_1_1_part_1a5643b5eda5bff62d642532663c62b63c" compoundref="_pre_manager_2ref_2_part_8cpp" startline="334" endline="345">Pre::Part::GetReferenceEntityByName</references>
+      </memberdef>
+      <memberdef kind="function" id="class_pre_1_1_feature_s_o_l_i_d_create_revolve_1a37a17dc5281ee5ec8a1b07c3dd7b8e6a" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void Pre::FeatureSOLIDCreateRevolve::ToTransCAD</definition>
+        <argsstring>()</argsstring>
+        <name>ToTransCAD</name>
+        <reimplements refid="class_pre_1_1_feature_1a43c7ceaf04580d2e948aedd882208d80">ToTransCAD</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/PreManager/ref/FeatureSOLIDCreateRevolve.h" line="16" column="1" bodyfile="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/PreManager/ref/FeatureSOLIDCreateRevolve.cpp" bodystart="74" bodyend="105"/>
+        <references refid="class_pre_1_1_feature_s_o_l_i_d_create_revolve_1a9564e02278b1e389c552ddaf764bce1e" compoundref="_feature_s_o_l_i_d_create_revolve_8h" startline="39">_featureProfileSketch</references>
+        <references refid="class_pre_1_1_feature_1ae8c43a10be919286c9450125b1a0afb9" compoundref="_pre_manager_2ref_2_feature_8h" startline="27">Pre::Feature::_name</references>
+        <references refid="class_pre_1_1_feature_s_o_l_i_d_create_revolve_1ada4a0225810bef0118e51a56c7a24c1b" compoundref="_feature_s_o_l_i_d_create_revolve_8h" startline="40">_referenceEntityList</references>
+        <references refid="class_pre_1_1_part_1a0fa084e40ad2822e8214ba40b4751825" compoundref="_pre_manager_2ref_2_part_8h" startline="53">Pre::Part::_spFeatures</references>
+        <references refid="class_pre_1_1_part_1abe7d81bc84a9423e1d09c27e36125b64" compoundref="_pre_manager_2ref_2_part_8h" startline="52">Pre::Part::_spPart</references>
+        <references refid="class_pre_1_1_feature_1a341b5b05bd448a814e86099e70f1a747" compoundref="_pre_manager_2ref_2_feature_8h" startline="28">Pre::Feature::_type</references>
+        <references refid="class_pre_1_1_feature_s_o_l_i_d_create_revolve_1a0ff557f26cc9a7551a1a78b83f7673cf" compoundref="_feature_s_o_l_i_d_create_revolve_8cpp" startline="149" endline="215">AddNewRevolveAxis</references>
+        <references refid="class_pre_1_1_feature_s_o_l_i_d_create_revolve_1af65c6439310be73297f994c4f5ef722b" compoundref="_feature_s_o_l_i_d_create_revolve_8h" startline="32">endAngle</references>
+        <references refid="class_pre_1_1_feature_1aeec702655239d43b9fb7af691bc4f85c" compoundref="_pre_manager_2ref_2_feature_8h" startline="13" endline="13">Pre::Feature::GetFeatureName</references>
+        <references refid="class_pre_1_1_feature_s_o_l_i_d_create_revolve_1aac5228217159ad1238e381efbf1abed0" compoundref="_feature_s_o_l_i_d_create_revolve_8h" startline="13" endline="13">GetFeatureProfileSketch</references>
+        <references refid="class_pre_1_1_feature_1a22de04ab5c0ef7206d32c780ccfafee7" compoundref="_pre_manager_2ref_2_feature_8h" startline="12" endline="12">Pre::Feature::GetPart</references>
+        <references refid="class_pre_1_1_feature_s_o_l_i_d_create_revolve_1ac7592a01598a57ec1fe93766e5c09b82" compoundref="_feature_s_o_l_i_d_create_revolve_8h" startline="31">startAngle</references>
+      </memberdef>
+      <memberdef kind="function" id="class_pre_1_1_feature_s_o_l_i_d_create_revolve_1ac876aa3a22239637b346c1946934c93a" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void Pre::FeatureSOLIDCreateRevolve::CheckAttribute</definition>
+        <argsstring>(string name, double value, int type)</argsstring>
+        <name>CheckAttribute</name>
+        <reimplements refid="class_pre_1_1_feature_1a3b4b453b4ac49dde010d6760917266b7">CheckAttribute</reimplements>
+        <param>
+          <type>string</type>
+          <declname>name</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>value</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>type</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/PreManager/ref/FeatureSOLIDCreateRevolve.h" line="18" column="1" bodyfile="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/PreManager/ref/FeatureSOLIDCreateRevolve.cpp" bodystart="107" bodyend="117"/>
+        <references refid="class_pre_1_1_feature_s_o_l_i_d_create_revolve_1af65c6439310be73297f994c4f5ef722b" compoundref="_feature_s_o_l_i_d_create_revolve_8h" startline="32">endAngle</references>
+        <references refid="class_pre_1_1_feature_s_o_l_i_d_create_revolve_1ac7592a01598a57ec1fe93766e5c09b82" compoundref="_feature_s_o_l_i_d_create_revolve_8h" startline="31">startAngle</references>
+      </memberdef>
+      <memberdef kind="function" id="class_pre_1_1_feature_s_o_l_i_d_create_revolve_1ad220673013d89395c84d67102f39ba7b" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void Pre::FeatureSOLIDCreateRevolve::Modify</definition>
+        <argsstring>(char *buffer)</argsstring>
+        <name>Modify</name>
+        <reimplements refid="class_pre_1_1_feature_1a11f5aafa54439cf08dd44adb6fcd4d9c">Modify</reimplements>
+        <param>
+          <type>char *</type>
+          <declname>buffer</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/PreManager/ref/FeatureSOLIDCreateRevolve.h" line="19" column="1" bodyfile="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/PreManager/ref/FeatureSOLIDCreateRevolve.cpp" bodystart="119" bodyend="147"/>
+        <references refid="class_pre_1_1_feature_1a64772d4f47afe0052d5a94f773de5211" compoundref="_pre_manager_2ref_2_feature_8h" startline="26">Pre::Feature::_pPart</references>
+        <references refid="class_pre_1_1_feature_s_o_l_i_d_create_revolve_1ada4a0225810bef0118e51a56c7a24c1b" compoundref="_feature_s_o_l_i_d_create_revolve_8h" startline="40">_referenceEntityList</references>
+        <references refid="class_pre_1_1_feature_s_o_l_i_d_create_revolve_1a0468b14b0474bf6aadd47cd8f6b01670" compoundref="_feature_s_o_l_i_d_create_revolve_8h" startline="35">_revolveAxis</references>
+        <references refid="class_pre_1_1_part_1afe3d79628d4af1d9cfb19fa1653ee716" compoundref="_pre_manager_2ref_2_part_8cpp" startline="362" endline="369">Pre::Part::AddFeatureNameSketchName</references>
+        <references refid="class_pre_1_1_feature_1aeec702655239d43b9fb7af691bc4f85c" compoundref="_pre_manager_2ref_2_feature_8h" startline="13" endline="13">Pre::Feature::GetFeatureName</references>
+        <references refid="class_pre_1_1_reference_entity_1ab7834eec27b178f18cad28f6baf1b146" compoundref="_reference_entity_8h" startline="21" endline="21">Pre::ReferenceEntity::GetFeatureName</references>
+        <references refid="class_pre_1_1_feature_1a22de04ab5c0ef7206d32c780ccfafee7" compoundref="_pre_manager_2ref_2_feature_8h" startline="12" endline="12">Pre::Feature::GetPart</references>
+        <references refid="class_pre_1_1_part_1a5643b5eda5bff62d642532663c62b63c" compoundref="_pre_manager_2ref_2_part_8cpp" startline="334" endline="345">Pre::Part::GetReferenceEntityByName</references>
+      </memberdef>
+      <memberdef kind="function" id="class_pre_1_1_feature_s_o_l_i_d_create_revolve_1a24ac5c2f0389c4a6acc52de6ac46208b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="namespace_pre_1a42512ff1a00cd929e4efd66d0b148707" kindref="member">Point3D</ref></type>
+        <definition>Point3D Pre::FeatureSOLIDCreateRevolve::GetAxisOrigin</definition>
+        <argsstring>()</argsstring>
+        <name>GetAxisOrigin</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/PreManager/ref/FeatureSOLIDCreateRevolve.h" line="21" column="1" bodyfile="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/PreManager/ref/FeatureSOLIDCreateRevolve.h" bodystart="21" bodyend="21"/>
+        <references refid="class_pre_1_1_feature_s_o_l_i_d_create_revolve_1adc014c54314746fd2761aa5bc94fbc82" compoundref="_feature_s_o_l_i_d_create_revolve_8h" startline="36">origin</references>
+        <referencedby refid="class_pre_1_1_feature_s_o_l_i_d_create_revolve_1a0ff557f26cc9a7551a1a78b83f7673cf" compoundref="_feature_s_o_l_i_d_create_revolve_8cpp" startline="149" endline="215">AddNewRevolveAxis</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_pre_1_1_feature_s_o_l_i_d_create_revolve_1a88e915fa6b4578f700961ce6876c4768" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="namespace_pre_1a42512ff1a00cd929e4efd66d0b148707" kindref="member">Point3D</ref></type>
+        <definition>Point3D Pre::FeatureSOLIDCreateRevolve::GetAxisDirection</definition>
+        <argsstring>()</argsstring>
+        <name>GetAxisDirection</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/PreManager/ref/FeatureSOLIDCreateRevolve.h" line="22" column="1" bodyfile="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/PreManager/ref/FeatureSOLIDCreateRevolve.h" bodystart="22" bodyend="22"/>
+        <references refid="class_pre_1_1_feature_s_o_l_i_d_create_revolve_1af36571139f21dd9238f207e536dc148a" compoundref="_feature_s_o_l_i_d_create_revolve_8h" startline="36">direction</references>
+        <referencedby refid="class_pre_1_1_feature_s_o_l_i_d_create_revolve_1a0ff557f26cc9a7551a1a78b83f7673cf" compoundref="_feature_s_o_l_i_d_create_revolve_8cpp" startline="149" endline="215">AddNewRevolveAxis</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="protected-func">
+      <memberdef kind="function" id="class_pre_1_1_feature_s_o_l_i_d_create_revolve_1a0ff557f26cc9a7551a1a78b83f7673cf" prot="protected" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Pre::FeatureSOLIDCreateRevolve::AddNewRevolveAxis</definition>
+        <argsstring>()</argsstring>
+        <name>AddNewRevolveAxis</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/PreManager/ref/FeatureSOLIDCreateRevolve.h" line="25" column="1" bodyfile="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/PreManager/ref/FeatureSOLIDCreateRevolve.cpp" bodystart="149" bodyend="215"/>
+        <references refid="class_pre_1_1_feature_1ae8c43a10be919286c9450125b1a0afb9" compoundref="_pre_manager_2ref_2_feature_8h" startline="27">Pre::Feature::_name</references>
+        <references refid="class_pre_1_1_feature_s_o_l_i_d_create_revolve_1a0468b14b0474bf6aadd47cd8f6b01670" compoundref="_feature_s_o_l_i_d_create_revolve_8h" startline="35">_revolveAxis</references>
+        <references refid="struct_wire_info_1adbc541ae5a8c1b618af1e73300571717" compoundref="_pre_manager_2ref_2_definition_8h" startline="155">WireInfo::_sketchItemName</references>
+        <references refid="struct_wire_info_1a704a0100a840c019e717a912cc694853" compoundref="_pre_manager_2ref_2_definition_8h" startline="154">WireInfo::_sketchName</references>
+        <references refid="class_pre_1_1_feature_s_o_l_i_d_create_revolve_1afa97ebe3e5d5ddae4b85d8c36bfee011" compoundref="_feature_s_o_l_i_d_create_revolve_8cpp" startline="217" endline="227">CreateRevolveAxis</references>
+        <references refid="class_pre_1_1_feature_s_o_l_i_d_create_revolve_1af36571139f21dd9238f207e536dc148a" compoundref="_feature_s_o_l_i_d_create_revolve_8h" startline="36">direction</references>
+        <references refid="class_pre_1_1_feature_s_o_l_i_d_create_revolve_1a88e915fa6b4578f700961ce6876c4768" compoundref="_feature_s_o_l_i_d_create_revolve_8h" startline="22" endline="22">GetAxisDirection</references>
+        <references refid="class_pre_1_1_feature_s_o_l_i_d_create_revolve_1a24ac5c2f0389c4a6acc52de6ac46208b" compoundref="_feature_s_o_l_i_d_create_revolve_8h" startline="21" endline="21">GetAxisOrigin</references>
+        <references refid="class_pre_1_1_f_s_k_e_t_c_h_create2_d_circle_center_point_1a99df820d39b3f066880ad6fb3e8c4c6b" compoundref="_f_s_k_e_t_c_h_create2_d_circle_center_point_8h" startline="10" endline="10">Pre::FSKETCHCreate2DCircleCenterPoint::GetCenterPoint</references>
+        <references refid="class_pre_1_1_f_s_k_e_t_c_h_create2_d_line2_points_1a14d41b663104aeab8f966903f2b7b6f9" compoundref="_f_s_k_e_t_c_h_create2_d_line2_points_8h" startline="11" endline="11">Pre::FSKETCHCreate2DLine2Points::GetEndPoint</references>
+        <references refid="class_pre_1_1_part_1a757a376bdc640e00119c3489ee35d2aa" compoundref="_pre_manager_2ref_2_part_8cpp" startline="320" endline="331">Pre::Part::GetFeatureByName</references>
+        <references refid="class_pre_1_1_part_1a4bf757092c00e1a969d0a73a0c4ed0c8" compoundref="_pre_manager_2ref_2_part_8cpp" startline="385" endline="396">Pre::Part::GetFeatureNameFromSketchName</references>
+        <references refid="class_pre_1_1_feature_1a22de04ab5c0ef7206d32c780ccfafee7" compoundref="_pre_manager_2ref_2_feature_8h" startline="12" endline="12">Pre::Feature::GetPart</references>
+        <references refid="class_pre_1_1_part_1a5643b5eda5bff62d642532663c62b63c" compoundref="_pre_manager_2ref_2_part_8cpp" startline="334" endline="345">Pre::Part::GetReferenceEntityByName</references>
+        <references refid="class_pre_1_1_f_sketch_1ab6314d4544a5000966d189bc2ed06652" compoundref="_pre_manager_2ref_2_f_sketch_8cpp" startline="210" endline="223">Pre::FSketch::GetSketchItemFromName</references>
+        <references refid="class_pre_1_1_part_1a7acf7b9167ac05823795172ef97742fc" compoundref="_pre_manager_2ref_2_part_8cpp" startline="372" endline="382">Pre::Part::GetSketchNameFromFeatureName</references>
+        <references refid="class_pre_1_1_f_s_k_e_t_c_h_create2_d_line2_points_1a38ac774ea58625f24447ff7ea537240d" compoundref="_f_s_k_e_t_c_h_create2_d_line2_points_8h" startline="10" endline="10">Pre::FSKETCHCreate2DLine2Points::GetStartPoint</references>
+        <references refid="class_pre_1_1_reference_entity_1a2c18b44279e3cef219fe90768ecb1be7" compoundref="_reference_entity_8h" startline="28" endline="28">Pre::ReferenceEntity::GetWireInfo</references>
+        <references refid="class_pre_1_1_feature_s_o_l_i_d_create_revolve_1adc014c54314746fd2761aa5bc94fbc82" compoundref="_feature_s_o_l_i_d_create_revolve_8h" startline="36">origin</references>
+        <referencedby refid="class_pre_1_1_feature_s_o_l_i_d_create_revolve_1a37a17dc5281ee5ec8a1b07c3dd7b8e6a" compoundref="_feature_s_o_l_i_d_create_revolve_8cpp" startline="74" endline="105">ToTransCAD</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_pre_1_1_feature_s_o_l_i_d_create_revolve_1afa97ebe3e5d5ddae4b85d8c36bfee011" prot="protected" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Pre::FeatureSOLIDCreateRevolve::CreateRevolveAxis</definition>
+        <argsstring>(FSketch *pRefSketch, FSketch *pRevSketch, Point3D origin, Point3D direction)</argsstring>
+        <name>CreateRevolveAxis</name>
+        <param>
+          <type><ref refid="class_pre_1_1_f_sketch" kindref="compound">FSketch</ref> *</type>
+          <declname>pRefSketch</declname>
+        </param>
+        <param>
+          <type><ref refid="class_pre_1_1_f_sketch" kindref="compound">FSketch</ref> *</type>
+          <declname>pRevSketch</declname>
+        </param>
+        <param>
+          <type><ref refid="namespace_pre_1a42512ff1a00cd929e4efd66d0b148707" kindref="member">Point3D</ref></type>
+          <declname>origin</declname>
+        </param>
+        <param>
+          <type><ref refid="namespace_pre_1a42512ff1a00cd929e4efd66d0b148707" kindref="member">Point3D</ref></type>
+          <declname>direction</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/PreManager/ref/FeatureSOLIDCreateRevolve.h" line="26" column="1" bodyfile="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/PreManager/ref/FeatureSOLIDCreateRevolve.cpp" bodystart="217" bodyend="227"/>
+        <references refid="class_pre_1_1_f_sketch_1aed61e94eef62ac425b8fb898dc2a3e36" compoundref="_pre_manager_2ref_2_f_sketch_8h" startline="31" endline="31">Pre::FSketch::GetSketchFeaturePtr</references>
+        <references refid="class_pre_1_1_f_sketch_1a899341ec1e118f4642e4e03685c25163" compoundref="_pre_manager_2ref_2_f_sketch_8h" startline="48">Pre::FSketch::sketchCoord</references>
+        <references refid="class_pre_1_1_feature_s_o_l_i_d_create_revolve_1a0df0710b1bbb466f16239c8dfe1d7280" compoundref="_feature_s_o_l_i_d_create_revolve_8cpp" startline="229" endline="263">TransformRevolveAxis</references>
+        <referencedby refid="class_pre_1_1_feature_s_o_l_i_d_create_revolve_1a0ff557f26cc9a7551a1a78b83f7673cf" compoundref="_feature_s_o_l_i_d_create_revolve_8cpp" startline="149" endline="215">AddNewRevolveAxis</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_pre_1_1_feature_s_o_l_i_d_create_revolve_1a0df0710b1bbb466f16239c8dfe1d7280" prot="protected" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Pre::FeatureSOLIDCreateRevolve::TransformRevolveAxis</definition>
+        <argsstring>(double refSketCSYS[9], double revSketCSYS[9], Point3D &amp;coords)</argsstring>
+        <name>TransformRevolveAxis</name>
+        <param>
+          <type>double</type>
+          <declname>refSketCSYS</declname>
+          <array>[9]</array>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>revSketCSYS</declname>
+          <array>[9]</array>
+        </param>
+        <param>
+          <type><ref refid="namespace_pre_1a42512ff1a00cd929e4efd66d0b148707" kindref="member">Point3D</ref> &amp;</type>
+          <declname>coords</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/PreManager/ref/FeatureSOLIDCreateRevolve.h" line="27" column="1" bodyfile="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/PreManager/ref/FeatureSOLIDCreateRevolve.cpp" bodystart="229" bodyend="263"/>
+        <references refid="class_pre_1_1_feature_s_o_l_i_d_create_revolve_1a713d7516aa2688f511e36455e0241a84" compoundref="_feature_s_o_l_i_d_create_revolve_8cpp" startline="265" endline="299">TransformCoordinates</references>
+        <referencedby refid="class_pre_1_1_feature_s_o_l_i_d_create_revolve_1afa97ebe3e5d5ddae4b85d8c36bfee011" compoundref="_feature_s_o_l_i_d_create_revolve_8cpp" startline="217" endline="227">CreateRevolveAxis</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_pre_1_1_feature_s_o_l_i_d_create_revolve_1a713d7516aa2688f511e36455e0241a84" prot="protected" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Pre::FeatureSOLIDCreateRevolve::TransformCoordinates</definition>
+        <argsstring>(double sourceCSYS[3][3], double targetCSYS[3][3], Point3D &amp;coords)</argsstring>
+        <name>TransformCoordinates</name>
+        <param>
+          <type>double</type>
+          <declname>sourceCSYS</declname>
+          <array>[3][3]</array>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>targetCSYS</declname>
+          <array>[3][3]</array>
+        </param>
+        <param>
+          <type><ref refid="namespace_pre_1a42512ff1a00cd929e4efd66d0b148707" kindref="member">Point3D</ref> &amp;</type>
+          <declname>coords</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/PreManager/ref/FeatureSOLIDCreateRevolve.h" line="28" column="1" bodyfile="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/PreManager/ref/FeatureSOLIDCreateRevolve.cpp" bodystart="265" bodyend="299"/>
+        <referencedby refid="class_pre_1_1_feature_s_o_l_i_d_create_revolve_1a0df0710b1bbb466f16239c8dfe1d7280" compoundref="_feature_s_o_l_i_d_create_revolve_8cpp" startline="229" endline="263">TransformRevolveAxis</referencedby>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="827">
+        <label>Pre::Feature</label>
+        <link refid="class_pre_1_1_feature"/>
+      </node>
+      <node id="826">
+        <label>Pre::FeatureSOLIDCreateRevolve</label>
+        <link refid="class_pre_1_1_feature_s_o_l_i_d_create_revolve"/>
+        <childnode refid="827" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="845">
+        <label>std::basic_ifstream&lt; char &gt;</label>
+        <childnode refid="846" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="831">
+        <label>std::vector&lt; Pre::ReferenceEntity * &gt;</label>
+        <childnode refid="832" relation="usage">
+          <edgelabel>elements</edgelabel>
+        </childnode>
+      </node>
+      <node id="849">
+        <label>std::vector&lt; Pre::SketchFeature &gt;</label>
+        <childnode refid="850" relation="usage">
+          <edgelabel>elements</edgelabel>
+        </childnode>
+      </node>
+      <node id="840">
+        <label>Pre::FSKETCHItem</label>
+        <link refid="class_pre_1_1_f_s_k_e_t_c_h_item"/>
+        <childnode refid="834" relation="usage">
+          <edgelabel>_name</edgelabel>
+        </childnode>
+        <childnode refid="838" relation="usage">
+          <edgelabel>_pFSketch</edgelabel>
+        </childnode>
+      </node>
+      <node id="839">
+        <label>std::vector&lt; Pre::FSKETCHItem * &gt;</label>
+        <childnode refid="840" relation="usage">
+          <edgelabel>elements</edgelabel>
+        </childnode>
+      </node>
+      <node id="846">
+        <label>std::basic_istream&lt; Char &gt;</label>
+        <childnode refid="847" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="853">
+        <label>std::vector&lt; Pre::Feature * &gt;</label>
+        <childnode refid="829" relation="usage">
+          <edgelabel>elements</edgelabel>
+        </childnode>
+      </node>
+      <node id="841">
+        <label>std::vector&lt; Pre::ReportItem &gt;</label>
+        <childnode refid="842" relation="usage">
+          <edgelabel>elements</edgelabel>
+        </childnode>
+      </node>
+      <node id="829">
+        <label>Pre::Feature</label>
+        <link refid="class_pre_1_1_feature"/>
+        <childnode refid="830" relation="usage">
+          <edgelabel>_pPart</edgelabel>
+        </childnode>
+        <childnode refid="834" relation="usage">
+          <edgelabel>_name</edgelabel>
+        </childnode>
+      </node>
+      <node id="833">
+        <label>std::vector&lt; FaceInfoList &gt;</label>
+      </node>
+      <node id="832">
+        <label>Pre::ReferenceEntity</label>
+        <link refid="class_pre_1_1_reference_entity"/>
+        <childnode refid="833" relation="usage">
+          <edgelabel>pEdge</edgelabel>
+        </childnode>
+        <childnode refid="830" relation="usage">
+          <edgelabel>_pPart</edgelabel>
+        </childnode>
+        <childnode refid="834" relation="usage">
+          <edgelabel>feature</edgelabel>
+          <edgelabel>TransCADEdgeName</edgelabel>
+          <edgelabel>TransCADFaceName</edgelabel>
+          <edgelabel>name</edgelabel>
+          <edgelabel>axis</edgelabel>
+        </childnode>
+        <childnode refid="836" relation="usage">
+          <edgelabel>pFace</edgelabel>
+        </childnode>
+        <childnode refid="838" relation="usage">
+          <edgelabel>pSketchManager</edgelabel>
+        </childnode>
+        <childnode refid="843" relation="usage">
+          <edgelabel>pWire</edgelabel>
+        </childnode>
+      </node>
+      <node id="828">
+        <label>Pre::FeatureSOLIDCreateRevolve</label>
+        <link refid="class_pre_1_1_feature_s_o_l_i_d_create_revolve"/>
+        <childnode refid="829" relation="public-inheritance">
+        </childnode>
+        <childnode refid="831" relation="usage">
+          <edgelabel>_referenceEntityList</edgelabel>
+        </childnode>
+        <childnode refid="854" relation="usage">
+          <edgelabel>origin</edgelabel>
+          <edgelabel>direction</edgelabel>
+        </childnode>
+        <childnode refid="834" relation="usage">
+          <edgelabel>startCondition</edgelabel>
+          <edgelabel>_revolveAxis</edgelabel>
+          <edgelabel>endCondition</edgelabel>
+        </childnode>
+        <childnode refid="838" relation="usage">
+          <edgelabel>_featureProfileSketch</edgelabel>
+        </childnode>
+      </node>
+      <node id="835">
+        <label>std::basic_string&lt; char &gt;</label>
+      </node>
+      <node id="837">
+        <label>FaceInfo</label>
+        <link refid="struct_face_info"/>
+      </node>
+      <node id="854">
+        <label>Pre::Vector3D</label>
+        <link refid="class_pre_1_1_vector3_d"/>
+      </node>
+      <node id="842">
+        <label>Pre::ReportItem</label>
+        <link refid="struct_pre_1_1_report_item"/>
+        <childnode refid="834" relation="usage">
+          <edgelabel>_entityName</edgelabel>
+        </childnode>
+      </node>
+      <node id="843">
+        <label>WireInfo</label>
+        <link refid="struct_wire_info"/>
+      </node>
+      <node id="852">
+        <label>Pre::AttributeItem</label>
+        <link refid="class_pre_1_1_attribute_item"/>
+        <childnode refid="830" relation="usage">
+          <edgelabel>_pPart</edgelabel>
+        </childnode>
+        <childnode refid="834" relation="usage">
+          <edgelabel>_featureName</edgelabel>
+          <edgelabel>_name</edgelabel>
+          <edgelabel>_attributeName</edgelabel>
+        </childnode>
+      </node>
+      <node id="850">
+        <label>Pre::SketchFeature</label>
+        <link refid="struct_pre_1_1_sketch_feature"/>
+        <childnode refid="834" relation="usage">
+          <edgelabel>_featureName</edgelabel>
+          <edgelabel>_sketchName</edgelabel>
+        </childnode>
+      </node>
+      <node id="847">
+        <label>std::basic_ios&lt; Char &gt;</label>
+        <childnode refid="848" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="830">
+        <label>Pre::Part</label>
+        <link refid="class_pre_1_1_part"/>
+        <childnode refid="831" relation="usage">
+          <edgelabel>_referenceEntityList</edgelabel>
+        </childnode>
+        <childnode refid="844" relation="usage">
+          <edgelabel>fin</edgelabel>
+        </childnode>
+        <childnode refid="849" relation="usage">
+          <edgelabel>sketchNameTable</edgelabel>
+        </childnode>
+        <childnode refid="834" relation="usage">
+          <edgelabel>_fileName</edgelabel>
+          <edgelabel>_filePath</edgelabel>
+        </childnode>
+        <childnode refid="851" relation="usage">
+          <edgelabel>_attributeItemList</edgelabel>
+        </childnode>
+        <childnode refid="853" relation="usage">
+          <edgelabel>_featureList</edgelabel>
+        </childnode>
+      </node>
+      <node id="848">
+        <label>std::ios_base</label>
+      </node>
+      <node id="844">
+        <label>std::ifstream</label>
+        <childnode refid="845" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="851">
+        <label>std::vector&lt; Pre::AttributeItem * &gt;</label>
+        <childnode refid="852" relation="usage">
+          <edgelabel>elements</edgelabel>
+        </childnode>
+      </node>
+      <node id="836">
+        <label>std::vector&lt; FaceInfo &gt;</label>
+        <childnode refid="837" relation="usage">
+          <edgelabel>elements</edgelabel>
+        </childnode>
+      </node>
+      <node id="834">
+        <label>std::string</label>
+        <childnode refid="835" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="838">
+        <label>Pre::FSketch</label>
+        <link refid="class_pre_1_1_f_sketch"/>
+        <childnode refid="829" relation="public-inheritance">
+        </childnode>
+        <childnode refid="839" relation="usage">
+          <edgelabel>_sketchItemList</edgelabel>
+        </childnode>
+        <childnode refid="832" relation="usage">
+          <edgelabel>_pReferenceEntity</edgelabel>
+        </childnode>
+        <childnode refid="834" relation="usage">
+          <edgelabel>_axisName</edgelabel>
+          <edgelabel>_factoryName</edgelabel>
+        </childnode>
+        <childnode refid="841" relation="usage">
+          <edgelabel>reportNameTable</edgelabel>
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/PreManager/ref/FeatureSOLIDCreateRevolve.h" line="8" column="1" bodyfile="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/PreManager/ref/FeatureSOLIDCreateRevolve.h" bodystart="7" bodyend="41"/>
+    <listofallmembers>
+      <member refid="class_pre_1_1_feature_s_o_l_i_d_create_revolve_1a9564e02278b1e389c552ddaf764bce1e" prot="private" virt="non-virtual"><scope>Pre::FeatureSOLIDCreateRevolve</scope><name>_featureProfileSketch</name></member>
+      <member refid="class_pre_1_1_feature_1ae8c43a10be919286c9450125b1a0afb9" prot="public" virt="non-virtual"><scope>Pre::FeatureSOLIDCreateRevolve</scope><name>_name</name></member>
+      <member refid="class_pre_1_1_feature_1a64772d4f47afe0052d5a94f773de5211" prot="public" virt="non-virtual"><scope>Pre::FeatureSOLIDCreateRevolve</scope><name>_pPart</name></member>
+      <member refid="class_pre_1_1_feature_s_o_l_i_d_create_revolve_1ada4a0225810bef0118e51a56c7a24c1b" prot="private" virt="non-virtual"><scope>Pre::FeatureSOLIDCreateRevolve</scope><name>_referenceEntityList</name></member>
+      <member refid="class_pre_1_1_feature_s_o_l_i_d_create_revolve_1a0468b14b0474bf6aadd47cd8f6b01670" prot="private" virt="non-virtual"><scope>Pre::FeatureSOLIDCreateRevolve</scope><name>_revolveAxis</name></member>
+      <member refid="class_pre_1_1_feature_1a341b5b05bd448a814e86099e70f1a747" prot="public" virt="non-virtual"><scope>Pre::FeatureSOLIDCreateRevolve</scope><name>_type</name></member>
+      <member refid="class_pre_1_1_feature_s_o_l_i_d_create_revolve_1a0ff557f26cc9a7551a1a78b83f7673cf" prot="protected" virt="non-virtual"><scope>Pre::FeatureSOLIDCreateRevolve</scope><name>AddNewRevolveAxis</name></member>
+      <member refid="class_pre_1_1_feature_s_o_l_i_d_create_revolve_1ac876aa3a22239637b346c1946934c93a" prot="public" virt="virtual"><scope>Pre::FeatureSOLIDCreateRevolve</scope><name>CheckAttribute</name></member>
+      <member refid="class_pre_1_1_feature_s_o_l_i_d_create_revolve_1afa97ebe3e5d5ddae4b85d8c36bfee011" prot="protected" virt="non-virtual"><scope>Pre::FeatureSOLIDCreateRevolve</scope><name>CreateRevolveAxis</name></member>
+      <member refid="class_pre_1_1_feature_s_o_l_i_d_create_revolve_1af36571139f21dd9238f207e536dc148a" prot="private" virt="non-virtual"><scope>Pre::FeatureSOLIDCreateRevolve</scope><name>direction</name></member>
+      <member refid="class_pre_1_1_feature_s_o_l_i_d_create_revolve_1af65c6439310be73297f994c4f5ef722b" prot="private" virt="non-virtual"><scope>Pre::FeatureSOLIDCreateRevolve</scope><name>endAngle</name></member>
+      <member refid="class_pre_1_1_feature_s_o_l_i_d_create_revolve_1a03297c04c3f2a83cf231f5431dc985be" prot="private" virt="non-virtual"><scope>Pre::FeatureSOLIDCreateRevolve</scope><name>endCondition</name></member>
+      <member refid="class_pre_1_1_feature_1a23c64c5988ab1337beceaa7c1c5c0d77" prot="public" virt="non-virtual"><scope>Pre::FeatureSOLIDCreateRevolve</scope><name>Feature</name></member>
+      <member refid="class_pre_1_1_feature_s_o_l_i_d_create_revolve_1aacbc40eef03be6fb65abbeacfe5d0d92" prot="public" virt="non-virtual"><scope>Pre::FeatureSOLIDCreateRevolve</scope><name>FeatureSOLIDCreateRevolve</name></member>
+      <member refid="class_pre_1_1_feature_s_o_l_i_d_create_revolve_1afd1cc6e0ff1c48beceb174ae390a1206" prot="private" virt="non-virtual"><scope>Pre::FeatureSOLIDCreateRevolve</scope><name>flip</name></member>
+      <member refid="class_pre_1_1_feature_s_o_l_i_d_create_revolve_1a88e915fa6b4578f700961ce6876c4768" prot="public" virt="non-virtual"><scope>Pre::FeatureSOLIDCreateRevolve</scope><name>GetAxisDirection</name></member>
+      <member refid="class_pre_1_1_feature_s_o_l_i_d_create_revolve_1a24ac5c2f0389c4a6acc52de6ac46208b" prot="public" virt="non-virtual"><scope>Pre::FeatureSOLIDCreateRevolve</scope><name>GetAxisOrigin</name></member>
+      <member refid="class_pre_1_1_feature_1aeec702655239d43b9fb7af691bc4f85c" prot="public" virt="non-virtual"><scope>Pre::FeatureSOLIDCreateRevolve</scope><name>GetFeatureName</name></member>
+      <member refid="class_pre_1_1_feature_s_o_l_i_d_create_revolve_1aac5228217159ad1238e381efbf1abed0" prot="public" virt="non-virtual"><scope>Pre::FeatureSOLIDCreateRevolve</scope><name>GetFeatureProfileSketch</name></member>
+      <member refid="class_pre_1_1_feature_1aef6c7020e3bf305f38a88195b794b110" prot="public" virt="non-virtual"><scope>Pre::FeatureSOLIDCreateRevolve</scope><name>GetFeatureType</name></member>
+      <member refid="class_pre_1_1_feature_s_o_l_i_d_create_revolve_1a127c834b172d477d022337d8867e9251" prot="public" virt="virtual"><scope>Pre::FeatureSOLIDCreateRevolve</scope><name>GetInfo</name></member>
+      <member refid="class_pre_1_1_feature_1a22de04ab5c0ef7206d32c780ccfafee7" prot="public" virt="non-virtual"><scope>Pre::FeatureSOLIDCreateRevolve</scope><name>GetPart</name></member>
+      <member refid="class_pre_1_1_feature_s_o_l_i_d_create_revolve_1ad220673013d89395c84d67102f39ba7b" prot="public" virt="virtual"><scope>Pre::FeatureSOLIDCreateRevolve</scope><name>Modify</name></member>
+      <member refid="class_pre_1_1_feature_s_o_l_i_d_create_revolve_1adc014c54314746fd2761aa5bc94fbc82" prot="private" virt="non-virtual"><scope>Pre::FeatureSOLIDCreateRevolve</scope><name>origin</name></member>
+      <member refid="class_pre_1_1_feature_1a6a061740e7d2d749b1efe097ae87928d" prot="public" virt="non-virtual"><scope>Pre::FeatureSOLIDCreateRevolve</scope><name>SetFeatureName</name></member>
+      <member refid="class_pre_1_1_feature_1a07534d290ca5363cd628efd011c070be" prot="public" virt="non-virtual"><scope>Pre::FeatureSOLIDCreateRevolve</scope><name>SetFeatureType</name></member>
+      <member refid="class_pre_1_1_feature_s_o_l_i_d_create_revolve_1ac7592a01598a57ec1fe93766e5c09b82" prot="private" virt="non-virtual"><scope>Pre::FeatureSOLIDCreateRevolve</scope><name>startAngle</name></member>
+      <member refid="class_pre_1_1_feature_s_o_l_i_d_create_revolve_1af767f1ece7234ca5efb12dc55432035f" prot="private" virt="non-virtual"><scope>Pre::FeatureSOLIDCreateRevolve</scope><name>startCondition</name></member>
+      <member refid="class_pre_1_1_feature_s_o_l_i_d_create_revolve_1a37a17dc5281ee5ec8a1b07c3dd7b8e6a" prot="public" virt="virtual"><scope>Pre::FeatureSOLIDCreateRevolve</scope><name>ToTransCAD</name></member>
+      <member refid="class_pre_1_1_feature_s_o_l_i_d_create_revolve_1a713d7516aa2688f511e36455e0241a84" prot="protected" virt="non-virtual"><scope>Pre::FeatureSOLIDCreateRevolve</scope><name>TransformCoordinates</name></member>
+      <member refid="class_pre_1_1_feature_s_o_l_i_d_create_revolve_1a0df0710b1bbb466f16239c8dfe1d7280" prot="protected" virt="non-virtual"><scope>Pre::FeatureSOLIDCreateRevolve</scope><name>TransformRevolveAxis</name></member>
+      <member refid="class_pre_1_1_feature_1ac9e4bbb034ce47ce1ddd02adb52aee98" prot="public" virt="virtual"><scope>Pre::FeatureSOLIDCreateRevolve</scope><name>~Feature</name></member>
+      <member refid="class_pre_1_1_feature_s_o_l_i_d_create_revolve_1a482f19fad21640abfebf6b26ca9ef5bf" prot="public" virt="virtual"><scope>Pre::FeatureSOLIDCreateRevolve</scope><name>~FeatureSOLIDCreateRevolve</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

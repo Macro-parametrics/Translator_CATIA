@@ -99,7 +99,7 @@ namespace CATIATranslator
             ConstraintInfo[] a1_constraint = new ConstraintInfo[100]; //동적할당: 수정
 
             //Assembly file: bring CATScript and address
-            string CATAssem = CATScriptOpenDialog();
+            string CATAssem = CATScriptOpenDialog(); //Assembly CATScript address
             if (CATAssem == "") return;
             string folder_address = CATAssem.Substring(0, CATAssem.LastIndexOf("\\"));
             Console.WriteLine(folder_address);
@@ -183,7 +183,7 @@ namespace CATIATranslator
             }
 
             
-            //각 part 파일 열어서 part number 가져오기.
+            //각 part 파일 열어서 catia name(part number) 가져오기.
             for(int i = 0; i < part_num; i++)
             {
                 Part test1 = new Part();
@@ -196,6 +196,10 @@ namespace CATIATranslator
             Console.WriteLine(a_part[0].catname);
             Console.WriteLine(a_part[1].catname);
             Console.WriteLine("Success!!");
+
+            //파트 번역
+            //script 열어서 instance name 가져오기.
+
 
             //parts information
             PreStack stack = new PreStack();

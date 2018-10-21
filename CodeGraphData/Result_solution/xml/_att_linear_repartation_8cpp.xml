@@ -1,0 +1,187 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="_att_linear_repartation_8cpp" kind="file">
+    <compoundname>AttLinearRepartation.cpp</compoundname>
+    <includes local="yes">stdafx.h</includes>
+    <includes refid="_att_linear_repartation_8h" local="yes">AttLinearRepartation.h</includes>
+    <incdepgraph>
+      <node id="3013">
+        <label>stdafx.h</label>
+      </node>
+      <node id="3031">
+        <label>strstream</label>
+      </node>
+      <node id="3032">
+        <label>Feature.h</label>
+        <link refid="_pre_manager_2ref_2_feature_8h"/>
+        <childnode refid="3016" relation="include">
+        </childnode>
+      </node>
+      <node id="3012">
+        <label>PreManager/ref/AttLinearRepartation.cpp</label>
+        <link refid="AttLinearRepartation.cpp"/>
+        <childnode refid="3013" relation="include">
+        </childnode>
+        <childnode refid="3014" relation="include">
+        </childnode>
+      </node>
+      <node id="3025">
+        <label>cmath</label>
+      </node>
+      <node id="3020">
+        <label>string</label>
+      </node>
+      <node id="3029">
+        <label>comdef.h</label>
+      </node>
+      <node id="3028">
+        <label>comutil.h</label>
+      </node>
+      <node id="3023">
+        <label>fstream</label>
+      </node>
+      <node id="3021">
+        <label>string.h</label>
+      </node>
+      <node id="3017">
+        <label>CATIApre_DLL.h</label>
+        <link refid="_c_a_t_i_apre___d_l_l_8h"/>
+        <childnode refid="3018" relation="include">
+        </childnode>
+        <childnode refid="3019" relation="include">
+        </childnode>
+        <childnode refid="3020" relation="include">
+        </childnode>
+        <childnode refid="3021" relation="include">
+        </childnode>
+        <childnode refid="3022" relation="include">
+        </childnode>
+        <childnode refid="3023" relation="include">
+        </childnode>
+        <childnode refid="3024" relation="include">
+        </childnode>
+        <childnode refid="3025" relation="include">
+        </childnode>
+        <childnode refid="3026" relation="include">
+        </childnode>
+        <childnode refid="3027" relation="include">
+        </childnode>
+        <childnode refid="3028" relation="include">
+        </childnode>
+        <childnode refid="3029" relation="include">
+        </childnode>
+        <childnode refid="3030" relation="include">
+        </childnode>
+      </node>
+      <node id="3015">
+        <label>AttributeItem.h</label>
+        <link refid="_attribute_item_8h"/>
+        <childnode refid="3016" relation="include">
+        </childnode>
+        <childnode refid="3032" relation="include">
+        </childnode>
+      </node>
+      <node id="3024">
+        <label>vector</label>
+      </node>
+      <node id="3027">
+        <label>sstream</label>
+      </node>
+      <node id="3026">
+        <label>math.h</label>
+      </node>
+      <node id="3022">
+        <label>iostream</label>
+      </node>
+      <node id="3019">
+        <label>tchar.h</label>
+      </node>
+      <node id="3030">
+        <label>Definition.h</label>
+        <link refid="_pre_manager_2ref_2_definition_8h"/>
+        <childnode refid="3031" relation="include">
+        </childnode>
+        <childnode refid="3022" relation="include">
+        </childnode>
+        <childnode refid="3026" relation="include">
+        </childnode>
+      </node>
+      <node id="3016">
+        <label>Part.h</label>
+        <link refid="_pre_manager_2ref_2_part_8h"/>
+        <childnode refid="3017" relation="include">
+        </childnode>
+      </node>
+      <node id="3018">
+        <label>stdio.h</label>
+      </node>
+      <node id="3014">
+        <label>AttLinearRepartation.h</label>
+        <link refid="_att_linear_repartation_8h"/>
+        <childnode refid="3015" relation="include">
+        </childnode>
+      </node>
+    </incdepgraph>
+    <innernamespace refid="namespace_pre">Pre</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="preprocessor">#include<sp/>&quot;stdafx.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="_att_linear_repartation_8h" kindref="compound">AttLinearRepartation.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal">Pre<sp/>{</highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight></codeline>
+<codeline lineno="5" refid="class_pre_1_1_att_linear_repartation_1a7912547f5bf5a8ad27d043150c1a907e" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="class_pre_1_1_att_linear_repartation_1a7912547f5bf5a8ad27d043150c1a907e" kindref="member">AttLinearRepartation::AttLinearRepartation</ref>(<ref refid="class_pre_1_1_part" kindref="compound">Part</ref><sp/>*<sp/>pPart,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>type,<sp/></highlight><highlight class="keywordtype">string</highlight><highlight class="normal"><sp/>name)</highlight></codeline>
+<codeline lineno="6"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>:<sp/><ref refid="class_pre_1_1_attribute_item" kindref="compound">AttributeItem</ref>(pPart,<sp/>type,<sp/>name)</highlight></codeline>
+<codeline lineno="7"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="8"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_pre_1_1_attribute_item_1a55411a73e84ce380f4b22d87be0c065a" kindref="member">_value</ref><sp/>=<sp/>0;</highlight></codeline>
+<codeline lineno="9"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="10"><highlight class="normal"></highlight></codeline>
+<codeline lineno="11" refid="class_pre_1_1_att_linear_repartation_1aafb713f1cbf1c8f28407717b4140695f" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="class_pre_1_1_att_linear_repartation_1aafb713f1cbf1c8f28407717b4140695f" kindref="member">AttLinearRepartation::~AttLinearRepartation</ref>()</highlight></codeline>
+<codeline lineno="12"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="13"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="14"><highlight class="normal"></highlight></codeline>
+<codeline lineno="15" refid="class_pre_1_1_att_linear_repartation_1a33c7ff4ca180dd6b7e25a8cd62f66a9b" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_pre_1_1_att_linear_repartation_1a33c7ff4ca180dd6b7e25a8cd62f66a9b" kindref="member">AttLinearRepartation::GetInfo</ref>(ifstream<sp/>&amp;is)</highlight></codeline>
+<codeline lineno="16"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="17"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>buffer[500];</highlight></codeline>
+<codeline lineno="18"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>is.getline(buffer,<sp/>500);</highlight></codeline>
+<codeline lineno="19"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">while</highlight><highlight class="normal"><sp/>(strncmp(buffer,<sp/></highlight><highlight class="stringliteral">&quot;Set&quot;</highlight><highlight class="normal">,<sp/>3))</highlight></codeline>
+<codeline lineno="20"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="21"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>is.getline(buffer,<sp/>500);</highlight></codeline>
+<codeline lineno="22"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="23"><highlight class="normal"></highlight></codeline>
+<codeline lineno="24"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">string</highlight><highlight class="normal"><sp/>LengthValue;</highlight></codeline>
+<codeline lineno="25"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>seps_temp[]<sp/>=<sp/></highlight><highlight class="stringliteral">&quot;<sp/>,\t\n()=.&quot;</highlight><highlight class="normal">;<sp/></highlight><highlight class="comment">//구분자</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="26"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*<sp/>context<sp/>=<sp/>NULL;</highlight></codeline>
+<codeline lineno="27"><highlight class="normal"></highlight></codeline>
+<codeline lineno="28"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>LengthValue<sp/>=<sp/>strtok_s(buffer,<sp/>seps_temp,<sp/>&amp;context);<sp/></highlight><highlight class="comment">//첫번째<sp/>단어</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="29"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>LengthValue<sp/>=<sp/>strtok_s(NULL,<sp/>seps_temp,<sp/>&amp;context);<sp/><sp/></highlight><highlight class="comment">//두번째<sp/>단어</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="30"><highlight class="normal"></highlight></codeline>
+<codeline lineno="31"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>LengthValue<sp/>=<sp/>strtok_s(NULL,<sp/>seps_temp,<sp/>&amp;context);<sp/><sp/></highlight><highlight class="comment">//세번째<sp/>단어<sp/>:<sp/>rectPattern1</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="32"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_pre_1_1_attribute_item_1a921288c89d639a103f98ccad5f3f01cb" kindref="member">_featureName</ref><sp/>=<sp/>LengthValue;</highlight></codeline>
+<codeline lineno="33"><highlight class="normal"></highlight></codeline>
+<codeline lineno="34"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>LengthValue<sp/>=<sp/>strtok_s(NULL,<sp/>seps_temp,<sp/>&amp;context);<sp/><sp/></highlight><highlight class="comment">//네번째<sp/>단어<sp/>:<sp/>FirstDirectionRepartition</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="35"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_pre_1_1_attribute_item_1a2367284f0672249ae539ac1924f12bb7" kindref="member">_attributeName</ref><sp/>=<sp/>LengthValue;</highlight></codeline>
+<codeline lineno="36"><highlight class="normal"></highlight></codeline>
+<codeline lineno="37"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>context<sp/>=<sp/>NULL;</highlight></codeline>
+<codeline lineno="38"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="39"><highlight class="normal"></highlight></codeline>
+<codeline lineno="40" refid="class_pre_1_1_att_linear_repartation_1a89321a568688c3defa0251677d5d5bac" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_pre_1_1_att_linear_repartation_1a89321a568688c3defa0251677d5d5bac" kindref="member">AttLinearRepartation::Modify</ref>(</highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*<sp/>buffer)<sp/><sp/></highlight><highlight class="comment">//Script<sp/>파일에<sp/>바로<sp/>Class<sp/>인스턴스<sp/>이름이<sp/>나올때<sp/></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="41"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="42"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="43"><highlight class="normal"></highlight></codeline>
+<codeline lineno="44" refid="class_pre_1_1_att_linear_repartation_1a3aeac04c09da376d73179487a93ff7bc" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_pre_1_1_att_linear_repartation_1a3aeac04c09da376d73179487a93ff7bc" kindref="member">AttLinearRepartation::CheckAttribute</ref>(</highlight><highlight class="keywordtype">string</highlight><highlight class="normal"><sp/>name,<sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>value,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>type)</highlight></codeline>
+<codeline lineno="45"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="46"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(name<sp/>==<sp/></highlight><highlight class="stringliteral">&quot;InstancesCount&quot;</highlight><highlight class="normal">)</highlight></codeline>
+<codeline lineno="47"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>type<sp/>=<sp/>0;</highlight></codeline>
+<codeline lineno="48"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(name<sp/>==<sp/></highlight><highlight class="stringliteral">&quot;Spacing&quot;</highlight><highlight class="normal">)</highlight></codeline>
+<codeline lineno="49"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>type<sp/>=<sp/>1;</highlight></codeline>
+<codeline lineno="50"><highlight class="normal"></highlight></codeline>
+<codeline lineno="51"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_pre_1_1_attribute_item_1a028595a3b4b90035019a41f1c590062e" kindref="member">GetPart</ref>()-&gt;<ref refid="class_pre_1_1_part_1a757a376bdc640e00119c3489ee35d2aa" kindref="member">GetFeatureByName</ref>(<ref refid="class_pre_1_1_attribute_item_1a921288c89d639a103f98ccad5f3f01cb" kindref="member">_featureName</ref>)-&gt;<ref refid="class_pre_1_1_feature_1a3b4b453b4ac49dde010d6760917266b7" kindref="member">CheckAttribute</ref>(<ref refid="class_pre_1_1_attribute_item_1a2367284f0672249ae539ac1924f12bb7" kindref="member">_attributeName</ref>,<sp/>value,<sp/>type);</highlight></codeline>
+<codeline lineno="52"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="53"><highlight class="normal">}</highlight></codeline>
+    </programlisting>
+    <location file="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/PreManager/ref/AttLinearRepartation.cpp"/>
+  </compounddef>
+</doxygen>

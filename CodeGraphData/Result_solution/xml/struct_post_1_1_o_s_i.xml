@@ -1,0 +1,48 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="struct_post_1_1_o_s_i" kind="struct" prot="public">
+    <compoundname>Post::OSI</compoundname>
+    <includes refid="_p_n___t_y_p_e_8h" local="no">PN_TYPE.h</includes>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="struct_post_1_1_o_s_i_1addeb46b89c10a374b626dba3c3da8dce" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int Post::OSI::order</definition>
+        <argsstring></argsstring>
+        <name>order</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/PostManager/ref/PN_TYPE.h" line="60" column="1" bodyfile="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/PostManager/ref/PN_TYPE.h" bodystart="60" bodyend="-1"/>
+        <referencedby refid="namespace_post_1a8319957e40fb76c8ac8339e9201964ee" compoundref="_m_p___utility_8cpp" startline="66" endline="79">Post::Parsing_OSI</referencedby>
+        <referencedby refid="namespace_post_1a66996c501d4d93bb1888bb3894a050a0" compoundref="_m_p___utility_8cpp" startline="212" endline="225">Post::Print_OSI</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="struct_post_1_1_o_s_i_1a76ccb381d1fe4f00dc625d4960facc22" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int Post::OSI::total_num</definition>
+        <argsstring></argsstring>
+        <name>total_num</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/PostManager/ref/PN_TYPE.h" line="61" column="1" bodyfile="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/PostManager/ref/PN_TYPE.h" bodystart="61" bodyend="-1"/>
+        <referencedby refid="namespace_post_1a8319957e40fb76c8ac8339e9201964ee" compoundref="_m_p___utility_8cpp" startline="66" endline="79">Post::Parsing_OSI</referencedby>
+        <referencedby refid="namespace_post_1a66996c501d4d93bb1888bb3894a050a0" compoundref="_m_p___utility_8cpp" startline="212" endline="225">Post::Print_OSI</referencedby>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/PostManager/ref/PN_TYPE.h" line="59" column="1" bodyfile="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/PostManager/ref/PN_TYPE.h" bodystart="58" bodyend="62"/>
+    <listofallmembers>
+      <member refid="struct_post_1_1_o_s_i_1addeb46b89c10a374b626dba3c3da8dce" prot="public" virt="non-virtual"><scope>Post::OSI</scope><name>order</name></member>
+      <member refid="struct_post_1_1_o_s_i_1a76ccb381d1fe4f00dc625d4960facc22" prot="public" virt="non-virtual"><scope>Post::OSI</scope><name>total_num</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

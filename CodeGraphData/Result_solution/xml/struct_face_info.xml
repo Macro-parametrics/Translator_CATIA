@@ -1,0 +1,106 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="struct_face_info" kind="struct" prot="public">
+    <compoundname>FaceInfo</compoundname>
+    <includes refid="_pre_manager_2ref_2_definition_8h" local="no">Definition.h</includes>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="struct_face_info_1a52dc20a0b83c0c78d895b412977690aa" prot="public" static="no" mutable="no">
+        <type>string</type>
+        <definition>string FaceInfo::_featureName</definition>
+        <argsstring></argsstring>
+        <name>_featureName</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/PreManager/ref/Definition.h" line="140" column="1" bodyfile="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/PreManager/ref/Definition.h" bodystart="140" bodyend="-1"/>
+        <referencedby refid="class_pre_1_1_reference_entity_1af0e5e81f63cd804bca73dfcf46c7d46e" compoundref="_reference_entity_8cpp" startline="312" endline="430">Pre::ReferenceEntity::GetBasicFaceName</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="struct_face_info_1a5fcaf1c49381e6e105e38e11839f8992" prot="public" static="no" mutable="no">
+        <type>string</type>
+        <definition>string FaceInfo::_sketchName1</definition>
+        <argsstring></argsstring>
+        <name>_sketchName1</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/PreManager/ref/Definition.h" line="141" column="1" bodyfile="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/PreManager/ref/Definition.h" bodystart="141" bodyend="-1"/>
+        <referencedby refid="class_pre_1_1_reference_entity_1af0e5e81f63cd804bca73dfcf46c7d46e" compoundref="_reference_entity_8cpp" startline="312" endline="430">Pre::ReferenceEntity::GetBasicFaceName</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="struct_face_info_1a9e0cf6f2285c0cae19e452e06248d627" prot="public" static="no" mutable="no">
+        <type>string</type>
+        <definition>string FaceInfo::_sketchItemName1</definition>
+        <argsstring></argsstring>
+        <name>_sketchItemName1</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/PreManager/ref/Definition.h" line="142" column="1" bodyfile="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/PreManager/ref/Definition.h" bodystart="142" bodyend="-1"/>
+        <referencedby refid="class_pre_1_1_reference_entity_1af0e5e81f63cd804bca73dfcf46c7d46e" compoundref="_reference_entity_8cpp" startline="312" endline="430">Pre::ReferenceEntity::GetBasicFaceName</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="struct_face_info_1abbf4e43e65b004fe0bd9d17cca1a89d7" prot="public" static="no" mutable="no">
+        <type>string</type>
+        <definition>string FaceInfo::_sketchName2</definition>
+        <argsstring></argsstring>
+        <name>_sketchName2</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/PreManager/ref/Definition.h" line="143" column="1" bodyfile="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/PreManager/ref/Definition.h" bodystart="143" bodyend="-1"/>
+        <referencedby refid="class_pre_1_1_reference_entity_1af0e5e81f63cd804bca73dfcf46c7d46e" compoundref="_reference_entity_8cpp" startline="312" endline="430">Pre::ReferenceEntity::GetBasicFaceName</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="struct_face_info_1a5fbc84cf881a2bbc00aec21c6da328c8" prot="public" static="no" mutable="no">
+        <type>string</type>
+        <definition>string FaceInfo::_sketchItemName2</definition>
+        <argsstring></argsstring>
+        <name>_sketchItemName2</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/PreManager/ref/Definition.h" line="144" column="1" bodyfile="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/PreManager/ref/Definition.h" bodystart="144" bodyend="-1"/>
+        <referencedby refid="class_pre_1_1_reference_entity_1af0e5e81f63cd804bca73dfcf46c7d46e" compoundref="_reference_entity_8cpp" startline="312" endline="430">Pre::ReferenceEntity::GetBasicFaceName</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="struct_face_info_1a28e8ff6a3b1e3ccf50093a345c98c58a" prot="public" static="no" mutable="no">
+        <type>string</type>
+        <definition>string FaceInfo::_featureType</definition>
+        <argsstring></argsstring>
+        <name>_featureType</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/PreManager/ref/Definition.h" line="145" column="1" bodyfile="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/PreManager/ref/Definition.h" bodystart="145" bodyend="-1"/>
+        <referencedby refid="class_pre_1_1_reference_entity_1af0e5e81f63cd804bca73dfcf46c7d46e" compoundref="_reference_entity_8cpp" startline="312" endline="430">Pre::ReferenceEntity::GetBasicFaceName</referencedby>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/PreManager/ref/Definition.h" line="139" column="1" bodyfile="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/PreManager/ref/Definition.h" bodystart="138" bodyend="146"/>
+    <listofallmembers>
+      <member refid="struct_face_info_1a52dc20a0b83c0c78d895b412977690aa" prot="public" virt="non-virtual"><scope>FaceInfo</scope><name>_featureName</name></member>
+      <member refid="struct_face_info_1a28e8ff6a3b1e3ccf50093a345c98c58a" prot="public" virt="non-virtual"><scope>FaceInfo</scope><name>_featureType</name></member>
+      <member refid="struct_face_info_1a9e0cf6f2285c0cae19e452e06248d627" prot="public" virt="non-virtual"><scope>FaceInfo</scope><name>_sketchItemName1</name></member>
+      <member refid="struct_face_info_1a5fbc84cf881a2bbc00aec21c6da328c8" prot="public" virt="non-virtual"><scope>FaceInfo</scope><name>_sketchItemName2</name></member>
+      <member refid="struct_face_info_1a5fcaf1c49381e6e105e38e11839f8992" prot="public" virt="non-virtual"><scope>FaceInfo</scope><name>_sketchName1</name></member>
+      <member refid="struct_face_info_1abbf4e43e65b004fe0bd9d17cca1a89d7" prot="public" virt="non-virtual"><scope>FaceInfo</scope><name>_sketchName2</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

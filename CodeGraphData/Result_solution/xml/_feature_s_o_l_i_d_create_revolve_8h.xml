@@ -1,0 +1,178 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="_feature_s_o_l_i_d_create_revolve_8h" kind="file">
+    <compoundname>FeatureSOLIDCreateRevolve.h</compoundname>
+    <includes refid="_pre_manager_2ref_2_feature_8h" local="yes">Feature.h</includes>
+    <includedby refid="_feature_s_o_l_i_d_create_revolve_8cpp" local="yes">PreManager/ref/FeatureSOLIDCreateRevolve.cpp</includedby>
+    <includedby refid="_pre_manager_2ref_2_part_8cpp" local="yes">PreManager/ref/Part.cpp</includedby>
+    <incdepgraph>
+      <node id="3383">
+        <label>strstream</label>
+      </node>
+      <node id="3367">
+        <label>Feature.h</label>
+        <link refid="_pre_manager_2ref_2_feature_8h"/>
+        <childnode refid="3368" relation="include">
+        </childnode>
+      </node>
+      <node id="3377">
+        <label>cmath</label>
+      </node>
+      <node id="3372">
+        <label>string</label>
+      </node>
+      <node id="3381">
+        <label>comdef.h</label>
+      </node>
+      <node id="3380">
+        <label>comutil.h</label>
+      </node>
+      <node id="3375">
+        <label>fstream</label>
+      </node>
+      <node id="3373">
+        <label>string.h</label>
+      </node>
+      <node id="3369">
+        <label>CATIApre_DLL.h</label>
+        <link refid="_c_a_t_i_apre___d_l_l_8h"/>
+        <childnode refid="3370" relation="include">
+        </childnode>
+        <childnode refid="3371" relation="include">
+        </childnode>
+        <childnode refid="3372" relation="include">
+        </childnode>
+        <childnode refid="3373" relation="include">
+        </childnode>
+        <childnode refid="3374" relation="include">
+        </childnode>
+        <childnode refid="3375" relation="include">
+        </childnode>
+        <childnode refid="3376" relation="include">
+        </childnode>
+        <childnode refid="3377" relation="include">
+        </childnode>
+        <childnode refid="3378" relation="include">
+        </childnode>
+        <childnode refid="3379" relation="include">
+        </childnode>
+        <childnode refid="3380" relation="include">
+        </childnode>
+        <childnode refid="3381" relation="include">
+        </childnode>
+        <childnode refid="3382" relation="include">
+        </childnode>
+      </node>
+      <node id="3366">
+        <label>PreManager/ref/FeatureSOLIDCreateRevolve.h</label>
+        <link refid="FeatureSOLIDCreateRevolve.h"/>
+        <childnode refid="3367" relation="include">
+        </childnode>
+      </node>
+      <node id="3376">
+        <label>vector</label>
+      </node>
+      <node id="3379">
+        <label>sstream</label>
+      </node>
+      <node id="3378">
+        <label>math.h</label>
+      </node>
+      <node id="3374">
+        <label>iostream</label>
+      </node>
+      <node id="3371">
+        <label>tchar.h</label>
+      </node>
+      <node id="3382">
+        <label>Definition.h</label>
+        <link refid="_pre_manager_2ref_2_definition_8h"/>
+        <childnode refid="3383" relation="include">
+        </childnode>
+        <childnode refid="3374" relation="include">
+        </childnode>
+        <childnode refid="3378" relation="include">
+        </childnode>
+      </node>
+      <node id="3368">
+        <label>Part.h</label>
+        <link refid="_pre_manager_2ref_2_part_8h"/>
+        <childnode refid="3369" relation="include">
+        </childnode>
+      </node>
+      <node id="3370">
+        <label>stdio.h</label>
+      </node>
+    </incdepgraph>
+    <invincdepgraph>
+      <node id="3384">
+        <label>PreManager/ref/FeatureSOLIDCreateRevolve.h</label>
+        <link refid="FeatureSOLIDCreateRevolve.h"/>
+        <childnode refid="3385" relation="include">
+        </childnode>
+        <childnode refid="3386" relation="include">
+        </childnode>
+      </node>
+      <node id="3385">
+        <label>PreManager/ref/FeatureSOLIDCreateRevolve.cpp</label>
+        <link refid="_feature_s_o_l_i_d_create_revolve_8cpp"/>
+      </node>
+      <node id="3386">
+        <label>PreManager/ref/Part.cpp</label>
+        <link refid="_pre_manager_2ref_2_part_8cpp"/>
+      </node>
+    </invincdepgraph>
+    <innerclass refid="class_pre_1_1_feature_s_o_l_i_d_create_revolve" prot="public">Pre::FeatureSOLIDCreateRevolve</innerclass>
+    <innernamespace refid="namespace_pre">Pre</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="preprocessor">#pragma<sp/>once</highlight></codeline>
+<codeline lineno="2"><highlight class="preprocessor"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="_pre_manager_2ref_2_feature_8h" kindref="compound">Feature.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal">Pre<sp/>{</highlight></codeline>
+<codeline lineno="4"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal">FSketch;</highlight></codeline>
+<codeline lineno="5"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal">ReferenceEntity;</highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight></codeline>
+<codeline lineno="7" refid="class_pre_1_1_feature_s_o_l_i_d_create_revolve" refkind="compound"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="class_pre_1_1_feature_s_o_l_i_d_create_revolve" kindref="compound">FeatureSOLIDCreateRevolve</ref><sp/>:<sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/><ref refid="class_pre_1_1_feature" kindref="compound">Feature</ref></highlight></codeline>
+<codeline lineno="8"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="9"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="10"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_pre_1_1_feature_s_o_l_i_d_create_revolve_1aacbc40eef03be6fb65abbeacfe5d0d92" kindref="member">FeatureSOLIDCreateRevolve</ref>(<ref refid="class_pre_1_1_part" kindref="compound">Part</ref><sp/>*<sp/>pPart,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>type,<sp/></highlight><highlight class="keywordtype">string</highlight><highlight class="normal"><sp/>name);</highlight></codeline>
+<codeline lineno="11"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/><ref refid="class_pre_1_1_feature_s_o_l_i_d_create_revolve_1a482f19fad21640abfebf6b26ca9ef5bf" kindref="member">~FeatureSOLIDCreateRevolve</ref>();</highlight></codeline>
+<codeline lineno="12"><highlight class="normal"></highlight></codeline>
+<codeline lineno="13" refid="class_pre_1_1_feature_s_o_l_i_d_create_revolve_1aac5228217159ad1238e381efbf1abed0" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_pre_1_1_f_sketch" kindref="compound">FSketch</ref><sp/>*<sp/><ref refid="class_pre_1_1_feature_s_o_l_i_d_create_revolve_1aac5228217159ad1238e381efbf1abed0" kindref="member">GetFeatureProfileSketch</ref>()<sp/>{<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/><ref refid="class_pre_1_1_feature_s_o_l_i_d_create_revolve_1a9564e02278b1e389c552ddaf764bce1e" kindref="member">_featureProfileSketch</ref>;<sp/>}</highlight></codeline>
+<codeline lineno="14"><highlight class="normal"></highlight></codeline>
+<codeline lineno="15"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_pre_1_1_feature_s_o_l_i_d_create_revolve_1a127c834b172d477d022337d8867e9251" kindref="member">GetInfo</ref>(ifstream<sp/>&amp;is);</highlight></codeline>
+<codeline lineno="16"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_pre_1_1_feature_s_o_l_i_d_create_revolve_1a37a17dc5281ee5ec8a1b07c3dd7b8e6a" kindref="member">ToTransCAD</ref>();</highlight></codeline>
+<codeline lineno="17"><highlight class="normal"></highlight></codeline>
+<codeline lineno="18"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_pre_1_1_feature_s_o_l_i_d_create_revolve_1ac876aa3a22239637b346c1946934c93a" kindref="member">CheckAttribute</ref>(</highlight><highlight class="keywordtype">string</highlight><highlight class="normal"><sp/>name,<sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>value,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>type);</highlight></codeline>
+<codeline lineno="19"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_pre_1_1_feature_s_o_l_i_d_create_revolve_1ad220673013d89395c84d67102f39ba7b" kindref="member">Modify</ref>(</highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*<sp/>buffer);</highlight></codeline>
+<codeline lineno="20"><highlight class="normal"></highlight></codeline>
+<codeline lineno="21" refid="class_pre_1_1_feature_s_o_l_i_d_create_revolve_1a24ac5c2f0389c4a6acc52de6ac46208b" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="namespace_pre_1a42512ff1a00cd929e4efd66d0b148707" kindref="member">Point3D</ref><sp/><ref refid="class_pre_1_1_feature_s_o_l_i_d_create_revolve_1a24ac5c2f0389c4a6acc52de6ac46208b" kindref="member">GetAxisOrigin</ref>()<sp/>{<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/><ref refid="class_pre_1_1_feature_s_o_l_i_d_create_revolve_1adc014c54314746fd2761aa5bc94fbc82" kindref="member">origin</ref>;<sp/>}</highlight></codeline>
+<codeline lineno="22" refid="class_pre_1_1_feature_s_o_l_i_d_create_revolve_1a88e915fa6b4578f700961ce6876c4768" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="namespace_pre_1a42512ff1a00cd929e4efd66d0b148707" kindref="member">Point3D</ref><sp/><ref refid="class_pre_1_1_feature_s_o_l_i_d_create_revolve_1a88e915fa6b4578f700961ce6876c4768" kindref="member">GetAxisDirection</ref>()<sp/>{<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/><ref refid="class_pre_1_1_feature_s_o_l_i_d_create_revolve_1af36571139f21dd9238f207e536dc148a" kindref="member">direction</ref>;<sp/>}</highlight></codeline>
+<codeline lineno="23"><highlight class="normal"></highlight></codeline>
+<codeline lineno="24"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">protected</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="25"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_pre_1_1_feature_s_o_l_i_d_create_revolve_1a0ff557f26cc9a7551a1a78b83f7673cf" kindref="member">AddNewRevolveAxis</ref>();</highlight></codeline>
+<codeline lineno="26"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_pre_1_1_feature_s_o_l_i_d_create_revolve_1afa97ebe3e5d5ddae4b85d8c36bfee011" kindref="member">CreateRevolveAxis</ref>(<ref refid="class_pre_1_1_f_sketch" kindref="compound">FSketch</ref><sp/>*<sp/>pRefSketch,<sp/><ref refid="class_pre_1_1_f_sketch" kindref="compound">FSketch</ref><sp/>*<sp/>pRevSketch,<sp/><ref refid="namespace_pre_1a42512ff1a00cd929e4efd66d0b148707" kindref="member">Point3D</ref><sp/><ref refid="class_pre_1_1_feature_s_o_l_i_d_create_revolve_1adc014c54314746fd2761aa5bc94fbc82" kindref="member">origin</ref>,<sp/><ref refid="namespace_pre_1a42512ff1a00cd929e4efd66d0b148707" kindref="member">Point3D</ref><sp/><ref refid="class_pre_1_1_feature_s_o_l_i_d_create_revolve_1af36571139f21dd9238f207e536dc148a" kindref="member">direction</ref>);</highlight></codeline>
+<codeline lineno="27"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_pre_1_1_feature_s_o_l_i_d_create_revolve_1a0df0710b1bbb466f16239c8dfe1d7280" kindref="member">TransformRevolveAxis</ref>(</highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>refSketCSYS[9],<sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>revSketCSYS[9],<sp/><ref refid="namespace_pre_1a42512ff1a00cd929e4efd66d0b148707" kindref="member">Point3D</ref><sp/>&amp;coords);</highlight></codeline>
+<codeline lineno="28"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_pre_1_1_feature_s_o_l_i_d_create_revolve_1a713d7516aa2688f511e36455e0241a84" kindref="member">TransformCoordinates</ref>(</highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>sourceCSYS[3][3],<sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>targetCSYS[3][3],<sp/><ref refid="namespace_pre_1a42512ff1a00cd929e4efd66d0b148707" kindref="member">Point3D</ref><sp/>&amp;coords);</highlight></codeline>
+<codeline lineno="29"><highlight class="normal"></highlight></codeline>
+<codeline lineno="30"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">private</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="31" refid="class_pre_1_1_feature_s_o_l_i_d_create_revolve_1ac7592a01598a57ec1fe93766e5c09b82" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/><ref refid="class_pre_1_1_feature_s_o_l_i_d_create_revolve_1ac7592a01598a57ec1fe93766e5c09b82" kindref="member">startAngle</ref>;</highlight></codeline>
+<codeline lineno="32" refid="class_pre_1_1_feature_s_o_l_i_d_create_revolve_1af65c6439310be73297f994c4f5ef722b" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/><ref refid="class_pre_1_1_feature_s_o_l_i_d_create_revolve_1af65c6439310be73297f994c4f5ef722b" kindref="member">endAngle</ref>;</highlight></codeline>
+<codeline lineno="33" refid="class_pre_1_1_feature_s_o_l_i_d_create_revolve_1af767f1ece7234ca5efb12dc55432035f" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">string</highlight><highlight class="normal"><sp/><ref refid="class_pre_1_1_feature_s_o_l_i_d_create_revolve_1af767f1ece7234ca5efb12dc55432035f" kindref="member">startCondition</ref>;</highlight></codeline>
+<codeline lineno="34" refid="class_pre_1_1_feature_s_o_l_i_d_create_revolve_1a03297c04c3f2a83cf231f5431dc985be" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">string</highlight><highlight class="normal"><sp/><ref refid="class_pre_1_1_feature_s_o_l_i_d_create_revolve_1a03297c04c3f2a83cf231f5431dc985be" kindref="member">endCondition</ref>;</highlight></codeline>
+<codeline lineno="35" refid="class_pre_1_1_feature_s_o_l_i_d_create_revolve_1a0468b14b0474bf6aadd47cd8f6b01670" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">string</highlight><highlight class="normal"><sp/><ref refid="class_pre_1_1_feature_s_o_l_i_d_create_revolve_1a0468b14b0474bf6aadd47cd8f6b01670" kindref="member">_revolveAxis</ref>;</highlight></codeline>
+<codeline lineno="36" refid="class_pre_1_1_feature_s_o_l_i_d_create_revolve_1adc014c54314746fd2761aa5bc94fbc82" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="namespace_pre_1a42512ff1a00cd929e4efd66d0b148707" kindref="member">Point3D</ref><sp/><ref refid="class_pre_1_1_feature_s_o_l_i_d_create_revolve_1adc014c54314746fd2761aa5bc94fbc82" kindref="member">origin</ref>,<sp/><ref refid="class_pre_1_1_feature_s_o_l_i_d_create_revolve_1af36571139f21dd9238f207e536dc148a" kindref="member">direction</ref>;</highlight></codeline>
+<codeline lineno="37" refid="class_pre_1_1_feature_s_o_l_i_d_create_revolve_1afd1cc6e0ff1c48beceb174ae390a1206" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="class_pre_1_1_feature_s_o_l_i_d_create_revolve_1afd1cc6e0ff1c48beceb174ae390a1206" kindref="member">flip</ref>;</highlight></codeline>
+<codeline lineno="38"><highlight class="normal"></highlight></codeline>
+<codeline lineno="39" refid="class_pre_1_1_feature_s_o_l_i_d_create_revolve_1a9564e02278b1e389c552ddaf764bce1e" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_pre_1_1_f_sketch" kindref="compound">FSketch</ref><sp/>*<sp/><ref refid="class_pre_1_1_feature_s_o_l_i_d_create_revolve_1a9564e02278b1e389c552ddaf764bce1e" kindref="member">_featureProfileSketch</ref>;</highlight></codeline>
+<codeline lineno="40" refid="class_pre_1_1_feature_s_o_l_i_d_create_revolve_1ada4a0225810bef0118e51a56c7a24c1b" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>vector&lt;ReferenceEntity<sp/>*&gt;<sp/><ref refid="class_pre_1_1_feature_s_o_l_i_d_create_revolve_1ada4a0225810bef0118e51a56c7a24c1b" kindref="member">_referenceEntityList</ref>;</highlight></codeline>
+<codeline lineno="41"><highlight class="normal"><sp/><sp/><sp/><sp/>};</highlight></codeline>
+<codeline lineno="42"><highlight class="normal"></highlight></codeline>
+<codeline lineno="43"><highlight class="normal">}</highlight></codeline>
+    </programlisting>
+    <location file="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/PreManager/ref/FeatureSOLIDCreateRevolve.h"/>
+  </compounddef>
+</doxygen>

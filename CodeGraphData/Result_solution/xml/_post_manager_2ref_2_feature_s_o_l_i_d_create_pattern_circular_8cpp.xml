@@ -1,0 +1,276 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="_post_manager_2ref_2_feature_s_o_l_i_d_create_pattern_circular_8cpp" kind="file">
+    <compoundname>FeatureSOLIDCreatePatternCircular.cpp</compoundname>
+    <includes local="yes">stdafx.h</includes>
+    <includes refid="_post_manager_2ref_2_feature_s_o_l_i_d_create_pattern_circular_8h" local="yes">FeatureSOLIDCreatePatternCircular.h</includes>
+    <incdepgraph>
+      <node id="1461">
+        <label>atlstr.h</label>
+      </node>
+      <node id="1454">
+        <label>PostManager/ref/FeatureSOLIDCreatePatternCircular.cpp</label>
+        <link refid="PostManager/ref/FeatureSOLIDCreatePatternCircular.cpp"/>
+        <childnode refid="1455" relation="include">
+        </childnode>
+        <childnode refid="1456" relation="include">
+        </childnode>
+      </node>
+      <node id="1457">
+        <label>Feature.h</label>
+        <link refid="_post_manager_2ref_2_feature_8h"/>
+        <childnode refid="1458" relation="include">
+        </childnode>
+      </node>
+      <node id="1455">
+        <label>stdafx.h</label>
+      </node>
+      <node id="1467">
+        <label>stdlib.h</label>
+      </node>
+      <node id="1469">
+        <label>cmath</label>
+      </node>
+      <node id="1463">
+        <label>string</label>
+      </node>
+      <node id="1468">
+        <label>comutil.h</label>
+      </node>
+      <node id="1464">
+        <label>fstream</label>
+      </node>
+      <node id="1458">
+        <label>Part.h</label>
+        <link refid="_post_manager_2ref_2_part_8h"/>
+        <childnode refid="1459" relation="include">
+        </childnode>
+        <childnode refid="1472" relation="include">
+        </childnode>
+      </node>
+      <node id="1476">
+        <label>MP_Utility.h</label>
+        <link refid="_m_p___utility_8h"/>
+        <childnode refid="1473" relation="include">
+        </childnode>
+      </node>
+      <node id="1475">
+        <label>string.h</label>
+      </node>
+      <node id="1465">
+        <label>vector</label>
+      </node>
+      <node id="1471">
+        <label>math.h</label>
+      </node>
+      <node id="1460">
+        <label>atlbase.h</label>
+      </node>
+      <node id="1472">
+        <label>CATIAReferenceManager.h</label>
+        <link refid="_c_a_t_i_a_reference_manager_8h"/>
+        <childnode refid="1459" relation="include">
+        </childnode>
+        <childnode refid="1473" relation="include">
+        </childnode>
+        <childnode refid="1476" relation="include">
+        </childnode>
+      </node>
+      <node id="1462">
+        <label>iostream</label>
+      </node>
+      <node id="1470">
+        <label>Definition.h</label>
+        <link refid="_post_manager_2ref_2_definition_8h"/>
+        <childnode refid="1471" relation="include">
+        </childnode>
+      </node>
+      <node id="1456">
+        <label>FeatureSOLIDCreatePatternCircular.h</label>
+        <link refid="_post_manager_2ref_2_feature_s_o_l_i_d_create_pattern_circular_8h"/>
+        <childnode refid="1457" relation="include">
+        </childnode>
+      </node>
+      <node id="1474">
+        <label>algorithm</label>
+      </node>
+      <node id="1466">
+        <label>stdio.h</label>
+      </node>
+      <node id="1473">
+        <label>PN_TYPE.h</label>
+        <link refid="_p_n___t_y_p_e_8h"/>
+        <childnode refid="1462" relation="include">
+        </childnode>
+        <childnode refid="1463" relation="include">
+        </childnode>
+        <childnode refid="1465" relation="include">
+        </childnode>
+        <childnode refid="1474" relation="include">
+        </childnode>
+        <childnode refid="1471" relation="include">
+        </childnode>
+        <childnode refid="1475" relation="include">
+        </childnode>
+      </node>
+      <node id="1459">
+        <label>CATIApost_DLL.h</label>
+        <link refid="_c_a_t_i_apost___d_l_l_8h"/>
+        <childnode refid="1460" relation="include">
+        </childnode>
+        <childnode refid="1461" relation="include">
+        </childnode>
+        <childnode refid="1462" relation="include">
+        </childnode>
+        <childnode refid="1463" relation="include">
+        </childnode>
+        <childnode refid="1464" relation="include">
+        </childnode>
+        <childnode refid="1465" relation="include">
+        </childnode>
+        <childnode refid="1466" relation="include">
+        </childnode>
+        <childnode refid="1467" relation="include">
+        </childnode>
+        <childnode refid="1468" relation="include">
+        </childnode>
+        <childnode refid="1469" relation="include">
+        </childnode>
+        <childnode refid="1470" relation="include">
+        </childnode>
+      </node>
+    </incdepgraph>
+    <innernamespace refid="namespace_post">Post</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="preprocessor">#include<sp/>&quot;stdafx.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="_post_manager_2ref_2_feature_s_o_l_i_d_create_pattern_circular_8h" kindref="compound">FeatureSOLIDCreatePatternCircular.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal">Post<sp/>{</highlight></codeline>
+<codeline lineno="5" refid="class_post_1_1_feature_s_o_l_i_d_create_pattern_circular_1aeb14f7ed01b6e6619952c709b63479e7" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="class_post_1_1_feature_s_o_l_i_d_create_pattern_circular_1aeb14f7ed01b6e6619952c709b63479e7" kindref="member">FeatureSOLIDCreatePatternCircular::FeatureSOLIDCreatePatternCircular</ref>(<ref refid="class_post_1_1_part" kindref="compound">Part</ref><sp/>*<sp/>pPart,<sp/>TransCAD::IFeaturePtr<sp/>spFeature)</highlight></codeline>
+<codeline lineno="6"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>:<sp/><ref refid="class_post_1_1_feature" kindref="compound">Feature</ref>(pPart,<sp/>spFeature)</highlight></codeline>
+<codeline lineno="7"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="8"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight></codeline>
+<codeline lineno="10" refid="class_post_1_1_feature_s_o_l_i_d_create_pattern_circular_1a2519168fe6c4b0abed2e94e260093f3f" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="class_post_1_1_feature_s_o_l_i_d_create_pattern_circular_1a2519168fe6c4b0abed2e94e260093f3f" kindref="member">FeatureSOLIDCreatePatternCircular::~FeatureSOLIDCreatePatternCircular</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">)</highlight></codeline>
+<codeline lineno="11"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="12"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="13"><highlight class="normal"></highlight></codeline>
+<codeline lineno="14" refid="class_post_1_1_feature_s_o_l_i_d_create_pattern_circular_1a3529b594c7fb28c9976579e4eec5d947" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_post_1_1_feature_s_o_l_i_d_create_pattern_circular_1a3529b594c7fb28c9976579e4eec5d947" kindref="member">FeatureSOLIDCreatePatternCircular::GetInfo</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">)</highlight></codeline>
+<codeline lineno="15"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="16"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>TransCAD::IStdSolidOperatePatternCircularFeaturePtr<sp/>spFeature<sp/>=<sp/><ref refid="class_post_1_1_feature_1a252ade4e8188c192beaf03a8abbdca65" kindref="member">GetTransCADFeature</ref>();</highlight></codeline>
+<codeline lineno="17"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>TransCAD::IReferencesPtr<sp/>spTargetFeatures<sp/>=<sp/>spFeature-&gt;GetTargetFeatures();</highlight></codeline>
+<codeline lineno="18"><highlight class="normal"></highlight></codeline>
+<codeline lineno="19"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">for</highlight><highlight class="normal"><sp/>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>i<sp/>=<sp/>1;<sp/>i<sp/>&lt;=<sp/>spTargetFeatures-&gt;GetCount();<sp/>++i)</highlight></codeline>
+<codeline lineno="20"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="21"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>TransCAD::IReferencePtr<sp/>spReference<sp/>=<sp/>spTargetFeatures-&gt;GetItem(i);</highlight></codeline>
+<codeline lineno="22"><highlight class="normal"></highlight></codeline>
+<codeline lineno="23"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>cout<sp/>&lt;&lt;<sp/></highlight><highlight class="stringliteral">&quot;<sp/><sp/><sp/>&quot;</highlight><highlight class="normal"><sp/>&lt;&lt;<sp/></highlight><highlight class="stringliteral">&quot;Name<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>:<sp/>&quot;</highlight><highlight class="normal"><sp/>&lt;&lt;<sp/>spReference-&gt;Name<sp/>&lt;&lt;<sp/>endl;</highlight></codeline>
+<codeline lineno="24"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>cout<sp/>&lt;&lt;<sp/></highlight><highlight class="stringliteral">&quot;<sp/><sp/><sp/>&quot;</highlight><highlight class="normal"><sp/>&lt;&lt;<sp/></highlight><highlight class="stringliteral">&quot;ReferenceeName<sp/>:<sp/>&quot;</highlight><highlight class="normal"><sp/>&lt;&lt;<sp/>spReference-&gt;ReferenceeName<sp/>&lt;&lt;<sp/>endl;</highlight></codeline>
+<codeline lineno="25"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>cout<sp/>&lt;&lt;<sp/></highlight><highlight class="stringliteral">&quot;<sp/><sp/><sp/>&quot;</highlight><highlight class="normal"><sp/>&lt;&lt;<sp/></highlight><highlight class="stringliteral">&quot;Type<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>:<sp/>&quot;</highlight><highlight class="normal"><sp/>&lt;&lt;<sp/>spReference-&gt;Type<sp/>&lt;&lt;<sp/>endl;</highlight></codeline>
+<codeline lineno="26"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="27"><highlight class="normal"></highlight></codeline>
+<codeline lineno="28"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_post_1_1_feature_s_o_l_i_d_create_pattern_circular_1a6160e9ea3656895b580b1f5ccaca053f" kindref="member">_featurename</ref><sp/>=<sp/>spTargetFeatures-&gt;GetItem(1)-&gt;GetReferenceeName();</highlight></codeline>
+<codeline lineno="29"><highlight class="normal"></highlight></codeline>
+<codeline lineno="30"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_post_1_1_feature_s_o_l_i_d_create_pattern_circular_1a1fc381d1e59519639573b1bc149ebaca" kindref="member">_isradial</ref><sp/>=<sp/>spFeature-&gt;IsRadialAnignment<sp/>?<sp/></highlight><highlight class="keyword">true</highlight><highlight class="normal"><sp/>:<sp/></highlight><highlight class="keyword">false</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="31"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>_gcvt_s(<ref refid="class_post_1_1_feature_s_o_l_i_d_create_pattern_circular_1ae51604b685a896fbae3279e34999dfa4" kindref="member">_patternnumber</ref>,<sp/>spFeature-&gt;GetAngleNumber(),<sp/><ref refid="_post_manager_2ref_2_definition_8h_1a001791a21d538b8b9176287ae60d9b61" kindref="member">MAX_DIGITS</ref>);</highlight></codeline>
+<codeline lineno="32"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>_gcvt_s(<ref refid="class_post_1_1_feature_s_o_l_i_d_create_pattern_circular_1adf3e04006dc9b266b64e8e2df876a849" kindref="member">_angleincrement</ref>,<sp/>spFeature-&gt;AngleIncrement,<sp/><ref refid="_post_manager_2ref_2_definition_8h_1a001791a21d538b8b9176287ae60d9b61" kindref="member">MAX_DIGITS</ref>);</highlight></codeline>
+<codeline lineno="33"><highlight class="normal"></highlight></codeline>
+<codeline lineno="34"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>Center</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="35"><highlight class="normal"></highlight></codeline>
+<codeline lineno="36"><highlight class="normal"></highlight></codeline>
+<codeline lineno="37"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//설정<sp/>부분.<sp/></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="38"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>spFeature-&gt;GetCenterAxis(&amp;<ref refid="class_post_1_1_feature_s_o_l_i_d_create_pattern_circular_1ac6353ba23db188e6686a33a56708df60" kindref="member">_ptorg</ref>[0],<sp/>&amp;<ref refid="class_post_1_1_feature_s_o_l_i_d_create_pattern_circular_1ac6353ba23db188e6686a33a56708df60" kindref="member">_ptorg</ref>[1],<sp/>&amp;<ref refid="class_post_1_1_feature_s_o_l_i_d_create_pattern_circular_1ac6353ba23db188e6686a33a56708df60" kindref="member">_ptorg</ref>[2],<sp/>&amp;<ref refid="class_post_1_1_feature_s_o_l_i_d_create_pattern_circular_1ab97298358b176589507ffacf0c34f72b" kindref="member">_ptvec</ref>[0],<sp/>&amp;<ref refid="class_post_1_1_feature_s_o_l_i_d_create_pattern_circular_1ab97298358b176589507ffacf0c34f72b" kindref="member">_ptvec</ref>[1],<sp/>&amp;<ref refid="class_post_1_1_feature_s_o_l_i_d_create_pattern_circular_1ab97298358b176589507ffacf0c34f72b" kindref="member">_ptvec</ref>[2]);</highlight></codeline>
+<codeline lineno="39"><highlight class="normal"></highlight></codeline>
+<codeline lineno="40"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//Circular<sp/>Pattern의<sp/>Reference<sp/>Plane<sp/>구하기</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="41"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_post_1_1_feature_s_o_l_i_d_create_pattern_circular_1a99e6ef6e9bd624491162bb5773bd67f6" kindref="member">GetCircReferencePlane</ref>();</highlight></codeline>
+<codeline lineno="42"><highlight class="normal"></highlight></codeline>
+<codeline lineno="43"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>TransCAD<sp/>특징형상<sp/>이름으로<sp/>CATIA<sp/>특징형상<sp/>이름<sp/>구하기</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="44"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>TransCAD::FeatureType<sp/>type;</highlight></codeline>
+<codeline lineno="45"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>_featurenum;</highlight></codeline>
+<codeline lineno="46"><highlight class="normal"></highlight></codeline>
+<codeline lineno="47"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="namespace_post_1a757521acb19b64cd9a29879d6c5a7d5f" kindref="member">g_pRefManager</ref>-&gt;<ref refid="class_post_1_1_c_a_t_i_a_reference_manager_1a40000b07f85cedef424b70e7926cd0a0" kindref="member">GetFeatureTypeByTransCADName</ref>(<ref refid="class_post_1_1_feature_s_o_l_i_d_create_pattern_circular_1a6160e9ea3656895b580b1f5ccaca053f" kindref="member">_featurename</ref>,<sp/>type);</highlight></codeline>
+<codeline lineno="48"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="namespace_post_1a757521acb19b64cd9a29879d6c5a7d5f" kindref="member">g_pRefManager</ref>-&gt;<ref refid="class_post_1_1_c_a_t_i_a_reference_manager_1ab00159c9905b3d3d14361f390db87e48" kindref="member">GetFeatureIDByTransCADName</ref>(<ref refid="class_post_1_1_feature_s_o_l_i_d_create_pattern_circular_1a6160e9ea3656895b580b1f5ccaca053f" kindref="member">_featurename</ref>,<sp/>_featurenum);</highlight></codeline>
+<codeline lineno="49"><highlight class="normal"></highlight></codeline>
+<codeline lineno="50"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(<ref refid="namespace_post_1a757521acb19b64cd9a29879d6c5a7d5f" kindref="member">g_pRefManager</ref>-&gt;<ref refid="class_post_1_1_c_a_t_i_a_reference_manager_1a1d6e06fdc183ccb458d935acf9c7bfba" kindref="member">FeatureTypeToString</ref>(type)<sp/>==<sp/></highlight><highlight class="stringliteral">&quot;Pad&quot;</highlight><highlight class="normal">)</highlight></codeline>
+<codeline lineno="51"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>sprintf_s(<ref refid="class_post_1_1_feature_s_o_l_i_d_create_pattern_circular_1a616fb3d2887890455adb8443d6ecbf99" kindref="member">_featurenameCATIA</ref>,<sp/></highlight><highlight class="stringliteral">&quot;pad%d&quot;</highlight><highlight class="normal">,<sp/>_featurenum);</highlight></codeline>
+<codeline lineno="52"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(<ref refid="namespace_post_1a757521acb19b64cd9a29879d6c5a7d5f" kindref="member">g_pRefManager</ref>-&gt;<ref refid="class_post_1_1_c_a_t_i_a_reference_manager_1a1d6e06fdc183ccb458d935acf9c7bfba" kindref="member">FeatureTypeToString</ref>(type)<sp/>==<sp/></highlight><highlight class="stringliteral">&quot;Pocket&quot;</highlight><highlight class="normal">)</highlight></codeline>
+<codeline lineno="53"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>sprintf_s(<ref refid="class_post_1_1_feature_s_o_l_i_d_create_pattern_circular_1a616fb3d2887890455adb8443d6ecbf99" kindref="member">_featurenameCATIA</ref>,<sp/></highlight><highlight class="stringliteral">&quot;pocket%d&quot;</highlight><highlight class="normal">,<sp/>_featurenum);</highlight></codeline>
+<codeline lineno="54"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(<ref refid="namespace_post_1a757521acb19b64cd9a29879d6c5a7d5f" kindref="member">g_pRefManager</ref>-&gt;<ref refid="class_post_1_1_c_a_t_i_a_reference_manager_1a1d6e06fdc183ccb458d935acf9c7bfba" kindref="member">FeatureTypeToString</ref>(type)<sp/>==<sp/></highlight><highlight class="stringliteral">&quot;Rib&quot;</highlight><highlight class="normal">)</highlight></codeline>
+<codeline lineno="55"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>sprintf_s(<ref refid="class_post_1_1_feature_s_o_l_i_d_create_pattern_circular_1a616fb3d2887890455adb8443d6ecbf99" kindref="member">_featurenameCATIA</ref>,<sp/></highlight><highlight class="stringliteral">&quot;rib%d&quot;</highlight><highlight class="normal">,<sp/>_featurenum);</highlight></codeline>
+<codeline lineno="56"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(<ref refid="namespace_post_1a757521acb19b64cd9a29879d6c5a7d5f" kindref="member">g_pRefManager</ref>-&gt;<ref refid="class_post_1_1_c_a_t_i_a_reference_manager_1a1d6e06fdc183ccb458d935acf9c7bfba" kindref="member">FeatureTypeToString</ref>(type)<sp/>==<sp/></highlight><highlight class="stringliteral">&quot;Shaft&quot;</highlight><highlight class="normal">)</highlight></codeline>
+<codeline lineno="57"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>sprintf_s(<ref refid="class_post_1_1_feature_s_o_l_i_d_create_pattern_circular_1a616fb3d2887890455adb8443d6ecbf99" kindref="member">_featurenameCATIA</ref>,<sp/></highlight><highlight class="stringliteral">&quot;shaft%d&quot;</highlight><highlight class="normal">,<sp/>_featurenum);</highlight></codeline>
+<codeline lineno="58"><highlight class="normal"></highlight></codeline>
+<codeline lineno="59"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>cout<sp/>&lt;&lt;<sp/></highlight><highlight class="stringliteral">&quot;<sp/><sp/><sp/>&quot;</highlight><highlight class="normal"><sp/>&lt;&lt;<sp/></highlight><highlight class="stringliteral">&quot;Name<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>:<sp/>&quot;</highlight><highlight class="normal"><sp/>&lt;&lt;<sp/><ref refid="class_post_1_1_feature_s_o_l_i_d_create_pattern_circular_1a6160e9ea3656895b580b1f5ccaca053f" kindref="member">_featurename</ref><sp/>&lt;&lt;<sp/>endl;</highlight></codeline>
+<codeline lineno="60"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>cout<sp/>&lt;&lt;<sp/></highlight><highlight class="stringliteral">&quot;<sp/><sp/><sp/>&quot;</highlight><highlight class="normal"><sp/>&lt;&lt;<sp/></highlight><highlight class="stringliteral">&quot;Pattern<sp/>Number<sp/><sp/><sp/><sp/><sp/>:<sp/>&quot;</highlight><highlight class="normal"><sp/>&lt;&lt;<sp/><ref refid="class_post_1_1_feature_s_o_l_i_d_create_pattern_circular_1ae51604b685a896fbae3279e34999dfa4" kindref="member">_patternnumber</ref><sp/>&lt;&lt;<sp/>endl;</highlight></codeline>
+<codeline lineno="61"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>cout<sp/>&lt;&lt;<sp/></highlight><highlight class="stringliteral">&quot;<sp/><sp/><sp/>&quot;</highlight><highlight class="normal"><sp/>&lt;&lt;<sp/></highlight><highlight class="stringliteral">&quot;Angle<sp/>Increment<sp/><sp/><sp/><sp/>:<sp/>&quot;</highlight><highlight class="normal"><sp/>&lt;&lt;<sp/><ref refid="class_post_1_1_feature_s_o_l_i_d_create_pattern_circular_1adf3e04006dc9b266b64e8e2df876a849" kindref="member">_angleincrement</ref><sp/>&lt;&lt;<sp/>endl;</highlight></codeline>
+<codeline lineno="62"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>cout<sp/>&lt;&lt;<sp/></highlight><highlight class="stringliteral">&quot;<sp/><sp/><sp/>&quot;</highlight><highlight class="normal"><sp/>&lt;&lt;<sp/></highlight><highlight class="stringliteral">&quot;Radial<sp/>Alignment<sp/><sp/><sp/>:<sp/>&quot;</highlight><highlight class="normal"><sp/>&lt;&lt;<sp/><ref refid="class_post_1_1_feature_s_o_l_i_d_create_pattern_circular_1a1fc381d1e59519639573b1bc149ebaca" kindref="member">_isradial</ref><sp/>&lt;&lt;<sp/>endl;</highlight></codeline>
+<codeline lineno="63"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>cout<sp/>&lt;&lt;<sp/></highlight><highlight class="stringliteral">&quot;<sp/><sp/><sp/>&quot;</highlight><highlight class="normal"><sp/>&lt;&lt;<sp/></highlight><highlight class="stringliteral">&quot;Center<sp/>Axis<sp/>Points<sp/>:<sp/>&quot;</highlight><highlight class="normal"><sp/>&lt;&lt;<sp/></highlight><highlight class="stringliteral">&quot;(&quot;</highlight><highlight class="normal"><sp/>&lt;&lt;<sp/><ref refid="class_post_1_1_feature_s_o_l_i_d_create_pattern_circular_1ac6353ba23db188e6686a33a56708df60" kindref="member">_ptorg</ref>[0]<sp/>&lt;&lt;<sp/></highlight><highlight class="stringliteral">&quot;,&quot;</highlight><highlight class="normal"><sp/>&lt;&lt;<sp/><ref refid="class_post_1_1_feature_s_o_l_i_d_create_pattern_circular_1ac6353ba23db188e6686a33a56708df60" kindref="member">_ptorg</ref>[1]<sp/>&lt;&lt;<sp/></highlight><highlight class="stringliteral">&quot;,&quot;</highlight><highlight class="normal"><sp/>&lt;&lt;<sp/><ref refid="class_post_1_1_feature_s_o_l_i_d_create_pattern_circular_1ac6353ba23db188e6686a33a56708df60" kindref="member">_ptorg</ref>[2]<sp/>&lt;&lt;<sp/></highlight><highlight class="stringliteral">&quot;),<sp/>(&quot;</highlight><highlight class="normal"><sp/>&lt;&lt;<sp/><ref refid="class_post_1_1_feature_s_o_l_i_d_create_pattern_circular_1ab97298358b176589507ffacf0c34f72b" kindref="member">_ptvec</ref>[0]<sp/>&lt;&lt;<sp/></highlight><highlight class="stringliteral">&quot;,&quot;</highlight><highlight class="normal"><sp/>&lt;&lt;<sp/><ref refid="class_post_1_1_feature_s_o_l_i_d_create_pattern_circular_1ab97298358b176589507ffacf0c34f72b" kindref="member">_ptvec</ref>[1]<sp/>&lt;&lt;<sp/></highlight><highlight class="stringliteral">&quot;,&quot;</highlight><highlight class="normal"><sp/>&lt;&lt;<sp/><ref refid="class_post_1_1_feature_s_o_l_i_d_create_pattern_circular_1ab97298358b176589507ffacf0c34f72b" kindref="member">_ptvec</ref>[2]<sp/>&lt;&lt;<sp/></highlight><highlight class="stringliteral">&quot;)&quot;</highlight><highlight class="normal"><sp/>&lt;&lt;<sp/>endl;</highlight></codeline>
+<codeline lineno="64"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="65"><highlight class="normal"></highlight></codeline>
+<codeline lineno="66" refid="class_post_1_1_feature_s_o_l_i_d_create_pattern_circular_1a572bd9787a8d00fb43cceab6ce4260a9" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_post_1_1_feature_s_o_l_i_d_create_pattern_circular_1a572bd9787a8d00fb43cceab6ce4260a9" kindref="member">FeatureSOLIDCreatePatternCircular::ToCATIA</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">)</highlight></codeline>
+<codeline lineno="67"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="68"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="_c_a_t_i_apost___d_l_l_8cpp_1a4a001227aeffed8767cfd035c687e1ca" kindref="member">ref_index</ref>;</highlight></codeline>
+<codeline lineno="69"><highlight class="normal"></highlight></codeline>
+<codeline lineno="70"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>fprintf(<ref refid="class_post_1_1_feature_1aace9d720d9a16b17c62ab6b4b91cea3c" kindref="member">GetPart</ref>()-&gt;file,<sp/></highlight><highlight class="stringliteral">&quot;Dim<sp/>reference%d<sp/>As<sp/>Reference\n&quot;</highlight><highlight class="normal">,<sp/>ref_index);</highlight></codeline>
+<codeline lineno="71"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>fprintf(<ref refid="class_post_1_1_feature_1aace9d720d9a16b17c62ab6b4b91cea3c" kindref="member">GetPart</ref>()-&gt;file,<sp/></highlight><highlight class="stringliteral">&quot;Set<sp/>reference%d<sp/>=<sp/>part1.CreateReferenceFromName(\&quot;\&quot;)\n\n&quot;</highlight><highlight class="normal">,<sp/>ref_index);</highlight></codeline>
+<codeline lineno="72"><highlight class="normal"></highlight></codeline>
+<codeline lineno="73"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>ref_index<sp/>+=<sp/>1;</highlight></codeline>
+<codeline lineno="74"><highlight class="normal"></highlight></codeline>
+<codeline lineno="75"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>fprintf(<ref refid="class_post_1_1_feature_1aace9d720d9a16b17c62ab6b4b91cea3c" kindref="member">GetPart</ref>()-&gt;file,<sp/></highlight><highlight class="stringliteral">&quot;Dim<sp/>reference%d<sp/>As<sp/>Reference\n&quot;</highlight><highlight class="normal">,<sp/>ref_index);</highlight></codeline>
+<codeline lineno="76"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>fprintf(<ref refid="class_post_1_1_feature_1aace9d720d9a16b17c62ab6b4b91cea3c" kindref="member">GetPart</ref>()-&gt;file,<sp/></highlight><highlight class="stringliteral">&quot;Set<sp/>reference%d<sp/>=<sp/>part1.CreateReferenceFromName(\&quot;\&quot;)\n\n&quot;</highlight><highlight class="normal">,<sp/>ref_index);</highlight></codeline>
+<codeline lineno="77"><highlight class="normal"></highlight></codeline>
+<codeline lineno="78"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>CircpatternID<sp/>=<sp/>1;</highlight></codeline>
+<codeline lineno="79"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(!<ref refid="namespace_post_1a757521acb19b64cd9a29879d6c5a7d5f" kindref="member">g_pRefManager</ref>-&gt;<ref refid="class_post_1_1_c_a_t_i_a_reference_manager_1ab00159c9905b3d3d14361f390db87e48" kindref="member">GetFeatureIDByTransCADName</ref>(std::string(<ref refid="class_post_1_1_feature_1a9d39434cf1acdc737198fefcf8b32e67" kindref="member">_spFeature</ref>-&gt;GetName()),<sp/>CircpatternID))</highlight></codeline>
+<codeline lineno="80"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="81"><highlight class="normal"></highlight></codeline>
+<codeline lineno="82"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>fprintf(<ref refid="class_post_1_1_feature_1aace9d720d9a16b17c62ab6b4b91cea3c" kindref="member">GetPart</ref>()-&gt;file,<sp/></highlight><highlight class="stringliteral">&quot;Dim<sp/>circPattern%d<sp/>As<sp/>CircPattern\n&quot;</highlight><highlight class="normal">,<sp/>CircpatternID);</highlight></codeline>
+<codeline lineno="83"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>fprintf(<ref refid="class_post_1_1_feature_1aace9d720d9a16b17c62ab6b4b91cea3c" kindref="member">GetPart</ref>()-&gt;file,<sp/></highlight><highlight class="stringliteral">&quot;Set<sp/>circPattern%d<sp/>=<sp/>shapeFactory1.AddNewCircPattern(%s,<sp/>1,<sp/>%s0,<sp/>20,<sp/>%s0,<sp/>1,<sp/>1,<sp/>&quot;</highlight><highlight class="normal">,<sp/>CircpatternID,<sp/><ref refid="class_post_1_1_feature_s_o_l_i_d_create_pattern_circular_1a616fb3d2887890455adb8443d6ecbf99" kindref="member">_featurenameCATIA</ref>,<sp/><ref refid="class_post_1_1_feature_s_o_l_i_d_create_pattern_circular_1ae51604b685a896fbae3279e34999dfa4" kindref="member">_patternnumber</ref>,<sp/><ref refid="class_post_1_1_feature_s_o_l_i_d_create_pattern_circular_1adf3e04006dc9b266b64e8e2df876a849" kindref="member">_angleincrement</ref>);</highlight></codeline>
+<codeline lineno="84"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>fprintf(<ref refid="class_post_1_1_feature_1aace9d720d9a16b17c62ab6b4b91cea3c" kindref="member">GetPart</ref>()-&gt;file,<sp/></highlight><highlight class="stringliteral">&quot;reference%d,<sp/>reference%d,<sp/>True,<sp/>0,<sp/>True)\n\n&quot;</highlight><highlight class="normal">,<sp/>ref_index<sp/>-<sp/>1,<sp/>ref_index);</highlight></codeline>
+<codeline lineno="85"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>fprintf(<ref refid="class_post_1_1_feature_1aace9d720d9a16b17c62ab6b4b91cea3c" kindref="member">GetPart</ref>()-&gt;file,<sp/></highlight><highlight class="stringliteral">&quot;circPattern%d.CircularPatternParameters<sp/>=<sp/>catInstancesandAngularSpacing\n\n&quot;</highlight><highlight class="normal">,<sp/>CircpatternID);</highlight></codeline>
+<codeline lineno="86"><highlight class="normal"></highlight></codeline>
+<codeline lineno="87"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>ref_index<sp/>+=<sp/>1;</highlight></codeline>
+<codeline lineno="88"><highlight class="normal"></highlight></codeline>
+<codeline lineno="89"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>fprintf(<ref refid="class_post_1_1_feature_1aace9d720d9a16b17c62ab6b4b91cea3c" kindref="member">GetPart</ref>()-&gt;file,<sp/></highlight><highlight class="stringliteral">&quot;Dim<sp/>reference%d<sp/>As<sp/>Reference\n&quot;</highlight><highlight class="normal">,<sp/>ref_index);</highlight></codeline>
+<codeline lineno="90"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>fprintf(<ref refid="class_post_1_1_feature_1aace9d720d9a16b17c62ab6b4b91cea3c" kindref="member">GetPart</ref>()-&gt;file,<sp/></highlight><highlight class="stringliteral">&quot;Set<sp/>reference%d<sp/>=<sp/>originElements1.%s\n\n&quot;</highlight><highlight class="normal">,<sp/>ref_index,<sp/><ref refid="class_post_1_1_feature_s_o_l_i_d_create_pattern_circular_1a0668b7d49730c0fd63ff874b2f05797a" kindref="member">_refPlane</ref>);</highlight></codeline>
+<codeline lineno="91"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>fprintf(<ref refid="class_post_1_1_feature_1aace9d720d9a16b17c62ab6b4b91cea3c" kindref="member">GetPart</ref>()-&gt;file,<sp/></highlight><highlight class="stringliteral">&quot;<sp/>circPattern%d.SetRotationAxis<sp/>reference%d\n\n&quot;</highlight><highlight class="normal">,<sp/>CircpatternID,<sp/>ref_index);</highlight></codeline>
+<codeline lineno="92"><highlight class="normal"></highlight></codeline>
+<codeline lineno="93"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>fprintf(<ref refid="class_post_1_1_feature_1aace9d720d9a16b17c62ab6b4b91cea3c" kindref="member">GetPart</ref>()-&gt;file,<sp/></highlight><highlight class="stringliteral">&quot;part1.UpdateObject<sp/>circPattern%d\n\n&quot;</highlight><highlight class="normal">,<sp/>CircpatternID);</highlight></codeline>
+<codeline lineno="94"><highlight class="normal"></highlight></codeline>
+<codeline lineno="95"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>ref_index<sp/>+=<sp/>1;</highlight></codeline>
+<codeline lineno="96"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="97"><highlight class="normal"></highlight></codeline>
+<codeline lineno="98" refid="class_post_1_1_feature_s_o_l_i_d_create_pattern_circular_1a99e6ef6e9bd624491162bb5773bd67f6" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_post_1_1_feature_s_o_l_i_d_create_pattern_circular_1a99e6ef6e9bd624491162bb5773bd67f6" kindref="member">FeatureSOLIDCreatePatternCircular::GetCircReferencePlane</ref>()</highlight></codeline>
+<codeline lineno="99"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="100"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>Vector[3][3];</highlight></codeline>
+<codeline lineno="101"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>Vector[0][0]<sp/>=<sp/>1;<sp/>Vector[0][1]<sp/>=<sp/>1;<sp/>Vector[0][2]<sp/>=<sp/>0;<sp/></highlight><highlight class="comment">//XY<sp/>Plane<sp/>위의<sp/>벡터</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="102"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>Vector[1][0]<sp/>=<sp/>0;<sp/>Vector[1][1]<sp/>=<sp/>1;<sp/>Vector[1][2]<sp/>=<sp/>1;<sp/></highlight><highlight class="comment">//YZ</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="103"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>Vector[2][0]<sp/>=<sp/>1;<sp/>Vector[2][1]<sp/>=<sp/>0;<sp/>Vector[2][2]<sp/>=<sp/>1;<sp/></highlight><highlight class="comment">//ZX</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="104"><highlight class="normal"></highlight></codeline>
+<codeline lineno="105"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>InnerProduct[3];</highlight></codeline>
+<codeline lineno="106"><highlight class="normal"></highlight></codeline>
+<codeline lineno="107"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">for</highlight><highlight class="normal"><sp/>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>i<sp/>=<sp/>0;<sp/>i<sp/>&lt;<sp/>3;<sp/>++i)</highlight></codeline>
+<codeline lineno="108"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="109"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//벡터<sp/>내적.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="110"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>InnerProduct[i]<sp/>=<sp/>(<ref refid="class_post_1_1_feature_s_o_l_i_d_create_pattern_circular_1ab97298358b176589507ffacf0c34f72b" kindref="member">_ptvec</ref>[0]<sp/>*<sp/>Vector[i][0])<sp/>+<sp/>(<ref refid="class_post_1_1_feature_s_o_l_i_d_create_pattern_circular_1ab97298358b176589507ffacf0c34f72b" kindref="member">_ptvec</ref>[1]<sp/>*<sp/>Vector[i][1])<sp/>+<sp/>(<ref refid="class_post_1_1_feature_s_o_l_i_d_create_pattern_circular_1ab97298358b176589507ffacf0c34f72b" kindref="member">_ptvec</ref>[2]<sp/>*<sp/>Vector[i][2]);</highlight></codeline>
+<codeline lineno="111"><highlight class="normal"></highlight></codeline>
+<codeline lineno="112"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//내적값이<sp/>0일때,<sp/>Ref<sp/>Plane<sp/>확정.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="113"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(InnerProduct[i]<sp/>==<sp/>0)<sp/>{</highlight></codeline>
+<codeline lineno="114"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(i<sp/>==<sp/>0)</highlight></codeline>
+<codeline lineno="115"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>sprintf_s(<ref refid="class_post_1_1_feature_s_o_l_i_d_create_pattern_circular_1a0668b7d49730c0fd63ff874b2f05797a" kindref="member">_refPlane</ref>,<sp/></highlight><highlight class="stringliteral">&quot;%s&quot;</highlight><highlight class="normal">,<sp/></highlight><highlight class="stringliteral">&quot;PlaneXY&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="116"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(i<sp/>==<sp/>1)</highlight></codeline>
+<codeline lineno="117"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>sprintf_s(<ref refid="class_post_1_1_feature_s_o_l_i_d_create_pattern_circular_1a0668b7d49730c0fd63ff874b2f05797a" kindref="member">_refPlane</ref>,<sp/></highlight><highlight class="stringliteral">&quot;%s&quot;</highlight><highlight class="normal">,<sp/></highlight><highlight class="stringliteral">&quot;PlaneYZ&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="118"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(i<sp/>==<sp/>2)</highlight></codeline>
+<codeline lineno="119"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>sprintf_s(<ref refid="class_post_1_1_feature_s_o_l_i_d_create_pattern_circular_1a0668b7d49730c0fd63ff874b2f05797a" kindref="member">_refPlane</ref>,<sp/></highlight><highlight class="stringliteral">&quot;%s&quot;</highlight><highlight class="normal">,<sp/></highlight><highlight class="stringliteral">&quot;PlaneZX&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="120"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">break</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="121"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="122"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="123"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="124"><highlight class="normal">}</highlight></codeline>
+    </programlisting>
+    <location file="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/PostManager/ref/FeatureSOLIDCreatePatternCircular.cpp"/>
+  </compounddef>
+</doxygen>

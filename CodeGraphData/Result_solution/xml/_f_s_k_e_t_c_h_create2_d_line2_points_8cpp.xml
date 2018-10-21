@@ -1,0 +1,268 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="_f_s_k_e_t_c_h_create2_d_line2_points_8cpp" kind="file">
+    <compoundname>FSKETCHCreate2DLine2Points.cpp</compoundname>
+    <includes local="yes">stdafx.h</includes>
+    <includes refid="_f_s_k_e_t_c_h_create2_d_line2_points_8h" local="yes">FSKETCHCreate2DLine2Points.h</includes>
+    <includes refid="_pre_manager_2ref_2_f_sketch_8h" local="yes">FSketch.h</includes>
+    <incdepgraph>
+      <node id="3479">
+        <label>PreManager/ref/FSKETCHCreate2DLine2Points.cpp</label>
+        <link refid="FSKETCHCreate2DLine2Points.cpp"/>
+        <childnode refid="3480" relation="include">
+        </childnode>
+        <childnode refid="3481" relation="include">
+        </childnode>
+        <childnode refid="3483" relation="include">
+        </childnode>
+      </node>
+      <node id="3480">
+        <label>stdafx.h</label>
+      </node>
+      <node id="3500">
+        <label>strstream</label>
+      </node>
+      <node id="3484">
+        <label>Feature.h</label>
+        <link refid="_pre_manager_2ref_2_feature_8h"/>
+        <childnode refid="3485" relation="include">
+        </childnode>
+      </node>
+      <node id="3494">
+        <label>cmath</label>
+      </node>
+      <node id="3489">
+        <label>string</label>
+      </node>
+      <node id="3498">
+        <label>comdef.h</label>
+      </node>
+      <node id="3497">
+        <label>comutil.h</label>
+      </node>
+      <node id="3482">
+        <label>FSKETCHItem.h</label>
+        <link refid="_f_s_k_e_t_c_h_item_8h"/>
+        <childnode refid="3483" relation="include">
+        </childnode>
+      </node>
+      <node id="3483">
+        <label>FSketch.h</label>
+        <link refid="_pre_manager_2ref_2_f_sketch_8h"/>
+        <childnode refid="3484" relation="include">
+        </childnode>
+      </node>
+      <node id="3492">
+        <label>fstream</label>
+      </node>
+      <node id="3490">
+        <label>string.h</label>
+      </node>
+      <node id="3486">
+        <label>CATIApre_DLL.h</label>
+        <link refid="_c_a_t_i_apre___d_l_l_8h"/>
+        <childnode refid="3487" relation="include">
+        </childnode>
+        <childnode refid="3488" relation="include">
+        </childnode>
+        <childnode refid="3489" relation="include">
+        </childnode>
+        <childnode refid="3490" relation="include">
+        </childnode>
+        <childnode refid="3491" relation="include">
+        </childnode>
+        <childnode refid="3492" relation="include">
+        </childnode>
+        <childnode refid="3493" relation="include">
+        </childnode>
+        <childnode refid="3494" relation="include">
+        </childnode>
+        <childnode refid="3495" relation="include">
+        </childnode>
+        <childnode refid="3496" relation="include">
+        </childnode>
+        <childnode refid="3497" relation="include">
+        </childnode>
+        <childnode refid="3498" relation="include">
+        </childnode>
+        <childnode refid="3499" relation="include">
+        </childnode>
+      </node>
+      <node id="3493">
+        <label>vector</label>
+      </node>
+      <node id="3496">
+        <label>sstream</label>
+      </node>
+      <node id="3495">
+        <label>math.h</label>
+      </node>
+      <node id="3491">
+        <label>iostream</label>
+      </node>
+      <node id="3488">
+        <label>tchar.h</label>
+      </node>
+      <node id="3499">
+        <label>Definition.h</label>
+        <link refid="_pre_manager_2ref_2_definition_8h"/>
+        <childnode refid="3500" relation="include">
+        </childnode>
+        <childnode refid="3491" relation="include">
+        </childnode>
+        <childnode refid="3495" relation="include">
+        </childnode>
+      </node>
+      <node id="3485">
+        <label>Part.h</label>
+        <link refid="_pre_manager_2ref_2_part_8h"/>
+        <childnode refid="3486" relation="include">
+        </childnode>
+      </node>
+      <node id="3487">
+        <label>stdio.h</label>
+      </node>
+      <node id="3481">
+        <label>FSKETCHCreate2DLine2Points.h</label>
+        <link refid="_f_s_k_e_t_c_h_create2_d_line2_points_8h"/>
+        <childnode refid="3482" relation="include">
+        </childnode>
+      </node>
+    </incdepgraph>
+    <innernamespace refid="namespace_pre">Pre</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="preprocessor">#include<sp/>&quot;stdafx.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="_f_s_k_e_t_c_h_create2_d_line2_points_8h" kindref="compound">FSKETCHCreate2DLine2Points.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="_pre_manager_2ref_2_f_sketch_8h" kindref="compound">FSketch.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal">Pre<sp/>{</highlight></codeline>
+<codeline lineno="6" refid="class_pre_1_1_f_s_k_e_t_c_h_create2_d_line2_points_1abc88a9495e9838544f664827dfb2bb2b" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="class_pre_1_1_f_s_k_e_t_c_h_create2_d_line2_points_1abc88a9495e9838544f664827dfb2bb2b" kindref="member">FSKETCHCreate2DLine2Points::FSKETCHCreate2DLine2Points</ref>(<ref refid="class_pre_1_1_f_sketch" kindref="compound">FSketch</ref><sp/>*<sp/>pFSketch,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>type,<sp/></highlight><highlight class="keywordtype">string</highlight><highlight class="normal"><sp/>name)</highlight></codeline>
+<codeline lineno="7"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>:<sp/><ref refid="class_pre_1_1_f_s_k_e_t_c_h_item" kindref="compound">FSKETCHItem</ref>(pFSketch,<sp/>type,<sp/>name)</highlight></codeline>
+<codeline lineno="8"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="9"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_pre_1_1_f_s_k_e_t_c_h_create2_d_line2_points_1a965d40dd288a6db08f5cf7145dedee86" kindref="member">centerLineNum</ref><sp/>=<sp/>0;</highlight></codeline>
+<codeline lineno="10"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_pre_1_1_f_s_k_e_t_c_h_create2_d_line2_points_1a9c12fb73bd3a903f39905483578da757" kindref="member">_isLocalAxis</ref><sp/>=<sp/></highlight><highlight class="keyword">false</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="11"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="12"><highlight class="normal"></highlight></codeline>
+<codeline lineno="13" refid="class_pre_1_1_f_s_k_e_t_c_h_create2_d_line2_points_1a20d0029511224ca7a0cea813e5a4ce03" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="class_pre_1_1_f_s_k_e_t_c_h_create2_d_line2_points_1a20d0029511224ca7a0cea813e5a4ce03" kindref="member">FSKETCHCreate2DLine2Points::~FSKETCHCreate2DLine2Points</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">)</highlight></codeline>
+<codeline lineno="14"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="15"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="16"><highlight class="normal"></highlight></codeline>
+<codeline lineno="17" refid="class_pre_1_1_f_s_k_e_t_c_h_create2_d_line2_points_1a644671c10bd70a1b769d53ffdc591c0c" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_pre_1_1_f_s_k_e_t_c_h_create2_d_line2_points_1a644671c10bd70a1b769d53ffdc591c0c" kindref="member">FSKETCHCreate2DLine2Points::GetInfo</ref>(ifstream<sp/>&amp;<sp/>is)</highlight></codeline>
+<codeline lineno="18"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="19"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>buffer[500];</highlight></codeline>
+<codeline lineno="20"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>is.getline(buffer,<sp/>500);</highlight></codeline>
+<codeline lineno="21"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">while</highlight><highlight class="normal"><sp/>(strncmp(buffer,<sp/></highlight><highlight class="stringliteral">&quot;Set&quot;</highlight><highlight class="normal">,<sp/>3))<sp/><sp/></highlight><highlight class="comment">//<sp/>Set<sp/>point2D1을<sp/>찾는<sp/>부분</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="22"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="23"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>is.getline(buffer,<sp/>500);</highlight></codeline>
+<codeline lineno="24"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="25"><highlight class="normal"></highlight></codeline>
+<codeline lineno="26"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>두개의<sp/>시작점과<sp/>끝점의<sp/>데이터를<sp/>읽는<sp/>부분</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="27"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">string</highlight><highlight class="normal"><sp/>coordinate;</highlight></codeline>
+<codeline lineno="28"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>seps_temp[]<sp/>=<sp/></highlight><highlight class="stringliteral">&quot;<sp/>,\&quot;\t\n()=&quot;</highlight><highlight class="normal">;<sp/></highlight><highlight class="comment">//구분자</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="29"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*<sp/>context<sp/>=<sp/>NULL;<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>strtok_s<sp/>함수의<sp/>입력<sp/>변수</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="30"><highlight class="normal"></highlight></codeline>
+<codeline lineno="31"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>coordinate<sp/>=<sp/>strtok_s(buffer,<sp/>seps_temp,<sp/>&amp;context);<sp/></highlight><highlight class="comment">//첫번째<sp/>단어</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="32"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>coordinate<sp/>=<sp/>strtok_s(NULL,<sp/>seps_temp,<sp/>&amp;context);<sp/><sp/></highlight><highlight class="comment">//두번째<sp/>단어</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="33"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>coordinate<sp/>=<sp/>strtok_s(NULL,<sp/>seps_temp,<sp/>&amp;context);<sp/><sp/></highlight><highlight class="comment">//세번째<sp/>단어</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="34"><highlight class="normal"></highlight></codeline>
+<codeline lineno="35"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>coordinate<sp/>=<sp/>strtok_s(NULL,<sp/>seps_temp,<sp/>&amp;context);<sp/><sp/></highlight><highlight class="comment">//Point1의<sp/>x</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="36"><highlight class="normal"></highlight></codeline>
+<codeline lineno="37"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(coordinate<sp/>==<sp/></highlight><highlight class="stringliteral">&quot;HDirection&quot;</highlight><highlight class="normal"><sp/>||<sp/>coordinate<sp/>==<sp/></highlight><highlight class="stringliteral">&quot;VDirection&quot;</highlight><highlight class="normal">)</highlight></codeline>
+<codeline lineno="38"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="39"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_pre_1_1_f_s_k_e_t_c_h_create2_d_line2_points_1ad74f21d48710194845db01b49c1bb8bd" kindref="member">startPoint</ref>[0]<sp/>=<sp/>0.0;</highlight></codeline>
+<codeline lineno="40"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_pre_1_1_f_s_k_e_t_c_h_create2_d_line2_points_1ad74f21d48710194845db01b49c1bb8bd" kindref="member">startPoint</ref>[1]<sp/>=<sp/>0.0;</highlight></codeline>
+<codeline lineno="41"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_pre_1_1_f_s_k_e_t_c_h_create2_d_line2_points_1ad74f21d48710194845db01b49c1bb8bd" kindref="member">startPoint</ref>[2]<sp/>=<sp/>0.0;</highlight></codeline>
+<codeline lineno="42"><highlight class="normal"></highlight></codeline>
+<codeline lineno="43"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(coordinate<sp/>==<sp/></highlight><highlight class="stringliteral">&quot;HDirection&quot;</highlight><highlight class="normal">)</highlight></codeline>
+<codeline lineno="44"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="45"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//endPoint[0]<sp/>=<sp/>GetFeatureSketch()-&gt;sketchCoord[3];</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="46"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//endPoint[1]<sp/>=<sp/>GetFeatureSketch()-&gt;sketchCoord[4];</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="47"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//endPoint[2]<sp/>=<sp/>GetFeatureSketch()-&gt;sketchCoord[5];</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="48"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="49"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="50"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="51"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//endPoint[0]<sp/>=<sp/>GetFeatureSketch()-&gt;sketchCoord[6];</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="52"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//endPoint[1]<sp/>=<sp/>GetFeatureSketch()-&gt;sketchCoord[7];</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="53"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//endPoint[2]<sp/>=<sp/>GetFeatureSketch()-&gt;sketchCoord[8];</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="54"><highlight class="normal"></highlight></codeline>
+<codeline lineno="55"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="56"><highlight class="normal"></highlight></codeline>
+<codeline lineno="57"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_pre_1_1_f_s_k_e_t_c_h_create2_d_line2_points_1a9c12fb73bd3a903f39905483578da757" kindref="member">_isLocalAxis</ref><sp/>=<sp/></highlight><highlight class="keyword">true</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="58"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="59"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal"><sp/></highlight><highlight class="comment">//일반<sp/>Line<sp/>의<sp/>경우</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="60"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="61"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_pre_1_1_f_s_k_e_t_c_h_create2_d_line2_points_1ad74f21d48710194845db01b49c1bb8bd" kindref="member">startPoint</ref>[0]<sp/>=<sp/>atof(coordinate.c_str());</highlight></codeline>
+<codeline lineno="62"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>coordinate<sp/>=<sp/>strtok_s(NULL,<sp/>seps_temp,<sp/>&amp;context);<sp/><sp/></highlight><highlight class="comment">//Point1의<sp/>y</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="63"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_pre_1_1_f_s_k_e_t_c_h_create2_d_line2_points_1ad74f21d48710194845db01b49c1bb8bd" kindref="member">startPoint</ref>[1]<sp/>=<sp/>atof(coordinate.c_str());</highlight></codeline>
+<codeline lineno="64"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_pre_1_1_f_s_k_e_t_c_h_create2_d_line2_points_1ad74f21d48710194845db01b49c1bb8bd" kindref="member">startPoint</ref>[2]<sp/>=<sp/>0;<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//Point1의<sp/>z</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="65"><highlight class="normal"></highlight></codeline>
+<codeline lineno="66"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>coordinate<sp/>=<sp/>strtok_s(NULL,<sp/>seps_temp,<sp/>&amp;context);<sp/><sp/></highlight><highlight class="comment">//point2의<sp/>x</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="67"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_pre_1_1_f_s_k_e_t_c_h_create2_d_line2_points_1a8c72b79d3d56e2c5b8af40de3f8dda66" kindref="member">endPoint</ref>[0]<sp/>=<sp/>atof(coordinate.c_str());</highlight></codeline>
+<codeline lineno="68"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>coordinate<sp/>=<sp/>strtok_s(NULL,<sp/>seps_temp,<sp/>&amp;context);<sp/><sp/></highlight><highlight class="comment">//Point2의<sp/>y</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="69"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_pre_1_1_f_s_k_e_t_c_h_create2_d_line2_points_1a8c72b79d3d56e2c5b8af40de3f8dda66" kindref="member">endPoint</ref>[1]<sp/>=<sp/>atof(coordinate.c_str());</highlight></codeline>
+<codeline lineno="70"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_pre_1_1_f_s_k_e_t_c_h_create2_d_line2_points_1a8c72b79d3d56e2c5b8af40de3f8dda66" kindref="member">endPoint</ref>[2]<sp/>=<sp/>0;<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//Point2의<sp/>z</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="71"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="72"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="73"><highlight class="normal"></highlight></codeline>
+<codeline lineno="74" refid="class_pre_1_1_f_s_k_e_t_c_h_create2_d_line2_points_1a390313202ea998e2038c8e096a493836" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_pre_1_1_f_s_k_e_t_c_h_create2_d_line2_points_1a390313202ea998e2038c8e096a493836" kindref="member">FSKETCHCreate2DLine2Points::ToTransCAD</ref>()</highlight></codeline>
+<codeline lineno="75"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="76"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>TransCADAPI<sp/>-<sp/>Get<sp/>SketchEditorPtr</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="77"><highlight class="normal"></highlight></codeline>
+<codeline lineno="78"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(<ref refid="class_pre_1_1_f_s_k_e_t_c_h_item_1ab2dc1d55175553b6cb7ae2b1d0b44992" kindref="member">_centerLineInfo</ref><sp/>==<sp/>0)<sp/></highlight><highlight class="comment">//<sp/>일반<sp/>Line<sp/>인<sp/>경우</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="79"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="80"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>TransCADAPI<sp/>-<sp/>Create<sp/>sketch<sp/>lines</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="81"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(!<ref refid="class_pre_1_1_f_s_k_e_t_c_h_create2_d_line2_points_1a9c12fb73bd3a903f39905483578da757" kindref="member">_isLocalAxis</ref>)</highlight></codeline>
+<codeline lineno="82"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="83"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>TransCAD::ISketchEditorPtr<sp/>spSketchEditor<sp/>=<sp/><ref refid="class_pre_1_1_f_s_k_e_t_c_h_item_1ab77eb44d1c8b6cb802d230700fc642ca" kindref="member">GetFeatureSketch</ref>()-&gt;<ref refid="class_pre_1_1_f_sketch_1ab85e025f6b48c609b3eb8a7b01344f14" kindref="member">GetSketchEditorPtr</ref>();</highlight></codeline>
+<codeline lineno="84"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>spSketchEditor-&gt;Create2DLine2Points(<ref refid="class_pre_1_1_f_s_k_e_t_c_h_item_1ab3262c5a79567120c19b2cc3f1cf1e14" kindref="member">_name</ref>.c_str(),<sp/><ref refid="class_pre_1_1_f_s_k_e_t_c_h_create2_d_line2_points_1ad74f21d48710194845db01b49c1bb8bd" kindref="member">startPoint</ref>[0],<sp/><ref refid="class_pre_1_1_f_s_k_e_t_c_h_create2_d_line2_points_1ad74f21d48710194845db01b49c1bb8bd" kindref="member">startPoint</ref>[1],<sp/><ref refid="class_pre_1_1_f_s_k_e_t_c_h_create2_d_line2_points_1a8c72b79d3d56e2c5b8af40de3f8dda66" kindref="member">endPoint</ref>[0],<sp/>endPoint[1]);</highlight></codeline>
+<codeline lineno="85"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="86"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="87"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(<ref refid="class_pre_1_1_f_s_k_e_t_c_h_item_1ab2dc1d55175553b6cb7ae2b1d0b44992" kindref="member">_centerLineInfo</ref><sp/>==<sp/>1)<sp/></highlight><highlight class="comment">//<sp/>CenterLine<sp/>인<sp/>경우</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="88"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="89"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>centerLineName[1024];</highlight></codeline>
+<codeline lineno="90"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>sprintf_s(centerLineName,<sp/></highlight><highlight class="stringliteral">&quot;%s.%d&quot;</highlight><highlight class="normal">,<sp/></highlight><highlight class="stringliteral">&quot;CenterLine&quot;</highlight><highlight class="normal">,<sp/><ref refid="class_pre_1_1_f_s_k_e_t_c_h_create2_d_line2_points_1a965d40dd288a6db08f5cf7145dedee86" kindref="member">centerLineNum</ref>);</highlight></codeline>
+<codeline lineno="91"><highlight class="normal"></highlight></codeline>
+<codeline lineno="92"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>TransCADAPI<sp/>-<sp/>Create<sp/>sketch<sp/>center<sp/>lines</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="93"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>TransCAD::ISketchEditorPtr<sp/>spSketchEditor<sp/>=<sp/><ref refid="class_pre_1_1_f_s_k_e_t_c_h_item_1ab77eb44d1c8b6cb802d230700fc642ca" kindref="member">GetFeatureSketch</ref>()-&gt;<ref refid="class_pre_1_1_f_sketch_1ab85e025f6b48c609b3eb8a7b01344f14" kindref="member">GetSketchEditorPtr</ref>();</highlight></codeline>
+<codeline lineno="94"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>spSketchEditor-&gt;Create2DCenterline2Points(centerLineName,<sp/><ref refid="class_pre_1_1_f_s_k_e_t_c_h_create2_d_line2_points_1ad74f21d48710194845db01b49c1bb8bd" kindref="member">startPoint</ref>[0],<sp/><ref refid="class_pre_1_1_f_s_k_e_t_c_h_create2_d_line2_points_1ad74f21d48710194845db01b49c1bb8bd" kindref="member">startPoint</ref>[1],<sp/><ref refid="class_pre_1_1_f_s_k_e_t_c_h_create2_d_line2_points_1a8c72b79d3d56e2c5b8af40de3f8dda66" kindref="member">endPoint</ref>[0],<sp/><ref refid="class_pre_1_1_f_s_k_e_t_c_h_create2_d_line2_points_1a8c72b79d3d56e2c5b8af40de3f8dda66" kindref="member">endPoint</ref>[1]);</highlight></codeline>
+<codeline lineno="95"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_pre_1_1_f_s_k_e_t_c_h_create2_d_line2_points_1a965d40dd288a6db08f5cf7145dedee86" kindref="member">centerLineNum</ref>++;</highlight></codeline>
+<codeline lineno="96"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="97"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="98"><highlight class="normal"></highlight></codeline>
+<codeline lineno="99" refid="class_pre_1_1_f_s_k_e_t_c_h_create2_d_line2_points_1aee655a8795027929cb55ce867aa4fc60" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_pre_1_1_f_s_k_e_t_c_h_create2_d_line2_points_1aee655a8795027929cb55ce867aa4fc60" kindref="member">FSKETCHCreate2DLine2Points::Modify</ref>(</highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*<sp/>buffer)</highlight></codeline>
+<codeline lineno="100"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="101"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">string</highlight><highlight class="normal"><sp/>token;</highlight></codeline>
+<codeline lineno="102"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>seps[]<sp/>=<sp/></highlight><highlight class="stringliteral">&quot;<sp/>,\t\n().=&quot;</highlight><highlight class="normal">;<sp/></highlight><highlight class="comment">//구분자</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="103"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*<sp/>context<sp/>=<sp/>NULL;<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>strtok_s<sp/>함수의<sp/>입력<sp/>변수</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="104"><highlight class="normal"></highlight></codeline>
+<codeline lineno="105"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>token<sp/>=<sp/>strtok_s(buffer,<sp/>seps,<sp/>&amp;context);<sp/><sp/></highlight><highlight class="comment">//line2D7</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="106"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>token<sp/>=<sp/>strtok_s(NULL,<sp/>seps,<sp/>&amp;context);<sp/></highlight><highlight class="comment">//StartPoint</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="107"><highlight class="normal"></highlight></codeline>
+<codeline lineno="108"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(token<sp/>==<sp/></highlight><highlight class="stringliteral">&quot;StartPoint&quot;</highlight><highlight class="normal">)</highlight></codeline>
+<codeline lineno="109"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="110"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>token<sp/>=<sp/>strtok_s(NULL,<sp/>seps,<sp/>&amp;context);<sp/></highlight><highlight class="comment">//point2D2</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="111"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_pre_1_1_f_s_k_e_t_c_h_create2_d_line2_points_1a0657d509ce327faf4658a1a00bb84aae" kindref="member">_startPoint</ref><sp/>=<sp/>token.c_str();</highlight></codeline>
+<codeline lineno="112"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="113"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(token<sp/>==<sp/></highlight><highlight class="stringliteral">&quot;EndPoint&quot;</highlight><highlight class="normal">)</highlight></codeline>
+<codeline lineno="114"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="115"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>token<sp/>=<sp/>strtok_s(NULL,<sp/>seps,<sp/>&amp;context);<sp/></highlight><highlight class="comment">//point2D3</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="116"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_pre_1_1_f_s_k_e_t_c_h_create2_d_line2_points_1ac66a95e939c2c224ea38bca47c6fba59" kindref="member">_endPoint</ref><sp/>=<sp/>token.c_str();</highlight></codeline>
+<codeline lineno="117"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="118"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(token<sp/>==<sp/></highlight><highlight class="stringliteral">&quot;ReportName&quot;</highlight><highlight class="normal">)</highlight></codeline>
+<codeline lineno="119"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="120"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>token<sp/>=<sp/>strtok_s(NULL,<sp/>seps,<sp/>&amp;context);<sp/></highlight><highlight class="comment">//point2D3</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="121"><highlight class="normal"></highlight></codeline>
+<codeline lineno="122"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_pre_1_1_f_s_k_e_t_c_h_item_1a58472d1aa8c47958f3d8e79cc6f18ec1" kindref="member">_id</ref><sp/>=<sp/>atoi(token.c_str());</highlight></codeline>
+<codeline lineno="123"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_pre_1_1_f_s_k_e_t_c_h_item_1ab77eb44d1c8b6cb802d230700fc642ca" kindref="member">GetFeatureSketch</ref>()-&gt;<ref refid="class_pre_1_1_f_sketch_1a0656c7068d8d8606fd98daf21fccb982" kindref="member">AddEntityNameReportName</ref>(<ref refid="class_pre_1_1_f_s_k_e_t_c_h_item_1a58472d1aa8c47958f3d8e79cc6f18ec1" kindref="member">_id</ref>,<sp/><ref refid="class_pre_1_1_f_s_k_e_t_c_h_item_1ab3262c5a79567120c19b2cc3f1cf1e14" kindref="member">_name</ref>);</highlight></codeline>
+<codeline lineno="124"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="125"><highlight class="normal"></highlight></codeline>
+<codeline lineno="126"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="127"><highlight class="normal">}</highlight></codeline>
+    </programlisting>
+    <location file="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/PreManager/ref/FSKETCHCreate2DLine2Points.cpp"/>
+  </compounddef>
+</doxygen>

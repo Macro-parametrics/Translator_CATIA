@@ -1,0 +1,128 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="struct_post_1_1_e_n___e" kind="struct" prot="public">
+    <compoundname>Post::EN_E</compoundname>
+    <includes refid="_p_n___t_y_p_e_8h" local="no">PN_TYPE.h</includes>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="struct_post_1_1_e_n___e_1a036b5b858a9930cca72fbcb7e32e2061" prot="public" static="no" mutable="no">
+        <type><ref refid="struct_post_1_1_e_n___f" kindref="compound">EN_F</ref></type>
+        <definition>EN_F Post::EN_E::_f1</definition>
+        <argsstring></argsstring>
+        <name>_f1</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/PostManager/ref/PN_TYPE.h" line="79" column="1" bodyfile="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/PostManager/ref/PN_TYPE.h" bodystart="79" bodyend="-1"/>
+        <referencedby refid="class_post_1_1_c_a_t_i_a_reference_manager_1a833a8035817475a393e82cd8920cc9bd" compoundref="_c_a_t_i_a_reference_manager_8cpp" startline="301" endline="344">Post::CATIAReferenceManager::ConvertToBRepEdge</referencedby>
+        <referencedby refid="namespace_post_1accad7a93fa3eb05cccced87b3d7fd230" compoundref="_m_p___utility_8cpp" startline="13" endline="21">Post::Parsing_E</referencedby>
+        <referencedby refid="namespace_post_1a3f5830d14dbc2563db551180e28fd453" compoundref="_m_p___utility_8cpp" startline="256" endline="261">Post::Print_E</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="struct_post_1_1_e_n___e_1a84b184aa31a43db7176c43d96f5bfa0e" prot="public" static="no" mutable="no">
+        <type><ref refid="struct_post_1_1_e_n___f" kindref="compound">EN_F</ref></type>
+        <definition>EN_F Post::EN_E::_f2</definition>
+        <argsstring></argsstring>
+        <name>_f2</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/PostManager/ref/PN_TYPE.h" line="80" column="1" bodyfile="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/PostManager/ref/PN_TYPE.h" bodystart="80" bodyend="-1"/>
+        <referencedby refid="class_post_1_1_c_a_t_i_a_reference_manager_1a833a8035817475a393e82cd8920cc9bd" compoundref="_c_a_t_i_a_reference_manager_8cpp" startline="301" endline="344">Post::CATIAReferenceManager::ConvertToBRepEdge</referencedby>
+        <referencedby refid="namespace_post_1accad7a93fa3eb05cccced87b3d7fd230" compoundref="_m_p___utility_8cpp" startline="13" endline="21">Post::Parsing_E</referencedby>
+        <referencedby refid="namespace_post_1a3f5830d14dbc2563db551180e28fd453" compoundref="_m_p___utility_8cpp" startline="256" endline="261">Post::Print_E</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="struct_post_1_1_e_n___e_1a7b26c153b991a20662f97a62a6b4b7d0" prot="public" static="no" mutable="no">
+        <type><ref refid="struct_post_1_1_o_s_i" kindref="compound">OSI</ref></type>
+        <definition>OSI Post::EN_E::_osi</definition>
+        <argsstring></argsstring>
+        <name>_osi</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/PostManager/ref/PN_TYPE.h" line="81" column="1" bodyfile="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/PostManager/ref/PN_TYPE.h" bodystart="81" bodyend="-1"/>
+        <referencedby refid="namespace_post_1a3f5830d14dbc2563db551180e28fd453" compoundref="_m_p___utility_8cpp" startline="256" endline="261">Post::Print_E</referencedby>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="289">
+        <label>Post::OSI</label>
+        <link refid="struct_post_1_1_o_s_i"/>
+      </node>
+      <node id="288">
+        <label>std::vector&lt; Post::basic_naming &gt;</label>
+        <childnode refid="284" relation="usage">
+          <edgelabel>elements</edgelabel>
+        </childnode>
+      </node>
+      <node id="286">
+        <label>std::basic_string&lt; char &gt;</label>
+      </node>
+      <node id="284">
+        <label>Post::basic_naming</label>
+        <link refid="struct_post_1_1basic__naming"/>
+        <childnode refid="285" relation="usage">
+          <edgelabel>feature_id</edgelabel>
+          <edgelabel>id1</edgelabel>
+          <edgelabel>id2</edgelabel>
+          <edgelabel>id3</edgelabel>
+          <edgelabel>id4</edgelabel>
+          <edgelabel>id5</edgelabel>
+        </childnode>
+      </node>
+      <node id="287">
+        <label>Post::secondary_name</label>
+        <link refid="struct_post_1_1secondary__name"/>
+        <childnode refid="288" relation="usage">
+          <edgelabel>_bn_list</edgelabel>
+        </childnode>
+      </node>
+      <node id="282">
+        <label>Post::EN_E</label>
+        <link refid="struct_post_1_1_e_n___e"/>
+        <childnode refid="283" relation="usage">
+          <edgelabel>_f1</edgelabel>
+          <edgelabel>_f2</edgelabel>
+        </childnode>
+        <childnode refid="289" relation="usage">
+          <edgelabel>_osi</edgelabel>
+        </childnode>
+      </node>
+      <node id="283">
+        <label>Post::EN_F</label>
+        <link refid="struct_post_1_1_e_n___f"/>
+        <childnode refid="284" relation="usage">
+          <edgelabel>_bn</edgelabel>
+        </childnode>
+        <childnode refid="287" relation="usage">
+          <edgelabel>_sn</edgelabel>
+        </childnode>
+        <childnode refid="289" relation="usage">
+          <edgelabel>_osi</edgelabel>
+        </childnode>
+      </node>
+      <node id="285">
+        <label>std::string</label>
+        <childnode refid="286" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/PostManager/ref/PN_TYPE.h" line="78" column="1" bodyfile="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/PostManager/ref/PN_TYPE.h" bodystart="77" bodyend="82"/>
+    <listofallmembers>
+      <member refid="struct_post_1_1_e_n___e_1a036b5b858a9930cca72fbcb7e32e2061" prot="public" virt="non-virtual"><scope>Post::EN_E</scope><name>_f1</name></member>
+      <member refid="struct_post_1_1_e_n___e_1a84b184aa31a43db7176c43d96f5bfa0e" prot="public" virt="non-virtual"><scope>Post::EN_E</scope><name>_f2</name></member>
+      <member refid="struct_post_1_1_e_n___e_1a7b26c153b991a20662f97a62a6b4b7d0" prot="public" virt="non-virtual"><scope>Post::EN_E</scope><name>_osi</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,225 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_post_1_1_feature_s_o_l_i_d_create_chamfer" kind="class" prot="public">
+    <compoundname>Post::FeatureSOLIDCreateChamfer</compoundname>
+    <basecompoundref refid="class_post_1_1_feature" prot="public" virt="non-virtual">Post::Feature</basecompoundref>
+    <includes refid="_post_manager_2ref_2_feature_s_o_l_i_d_create_chamfer_8h" local="no">FeatureSOLIDCreateChamfer.h</includes>
+      <sectiondef kind="protected-attrib">
+      <memberdef kind="variable" id="class_post_1_1_feature_s_o_l_i_d_create_chamfer_1a017d090987833d9cdb2934754dcb074a" prot="protected" static="no" mutable="no">
+        <type>double</type>
+        <definition>double Post::FeatureSOLIDCreateChamfer::_length</definition>
+        <argsstring></argsstring>
+        <name>_length</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/PostManager/ref/FeatureSOLIDCreateChamfer.h" line="14" column="1" bodyfile="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/PostManager/ref/FeatureSOLIDCreateChamfer.h" bodystart="14" bodyend="-1"/>
+        <referencedby refid="class_post_1_1_feature_s_o_l_i_d_create_chamfer_1acf8baea1eff0088d8124a6bfb186432f" compoundref="_post_manager_2ref_2_feature_s_o_l_i_d_create_chamfer_8cpp" startline="14" endline="31">GetInfo</referencedby>
+        <referencedby refid="class_post_1_1_feature_s_o_l_i_d_create_chamfer_1adc476aca0219e6111ebad3f6807e53a6" compoundref="_post_manager_2ref_2_feature_s_o_l_i_d_create_chamfer_8cpp" startline="33" endline="67">ToCATIA</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_post_1_1_feature_s_o_l_i_d_create_chamfer_1a9b07e577e0a4050a5a01e16845b921a2" prot="protected" static="no" mutable="no">
+        <type>int</type>
+        <definition>int Post::FeatureSOLIDCreateChamfer::_edgeCount</definition>
+        <argsstring></argsstring>
+        <name>_edgeCount</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/PostManager/ref/FeatureSOLIDCreateChamfer.h" line="15" column="1" bodyfile="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/PostManager/ref/FeatureSOLIDCreateChamfer.h" bodystart="15" bodyend="-1"/>
+        <referencedby refid="class_post_1_1_feature_s_o_l_i_d_create_chamfer_1acf8baea1eff0088d8124a6bfb186432f" compoundref="_post_manager_2ref_2_feature_s_o_l_i_d_create_chamfer_8cpp" startline="14" endline="31">GetInfo</referencedby>
+        <referencedby refid="class_post_1_1_feature_s_o_l_i_d_create_chamfer_1adc476aca0219e6111ebad3f6807e53a6" compoundref="_post_manager_2ref_2_feature_s_o_l_i_d_create_chamfer_8cpp" startline="33" endline="67">ToCATIA</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_post_1_1_feature_s_o_l_i_d_create_chamfer_1a5b46bf8ae182378d765556144a6fea22" prot="protected" static="no" mutable="no">
+        <type>vector&lt; string &gt;</type>
+        <definition>vector&lt;string&gt; Post::FeatureSOLIDCreateChamfer::_edgeNames</definition>
+        <argsstring></argsstring>
+        <name>_edgeNames</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/PostManager/ref/FeatureSOLIDCreateChamfer.h" line="16" column="1" bodyfile="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/PostManager/ref/FeatureSOLIDCreateChamfer.h" bodystart="16" bodyend="-1"/>
+        <referencedby refid="class_post_1_1_feature_s_o_l_i_d_create_chamfer_1acf8baea1eff0088d8124a6bfb186432f" compoundref="_post_manager_2ref_2_feature_s_o_l_i_d_create_chamfer_8cpp" startline="14" endline="31">GetInfo</referencedby>
+        <referencedby refid="class_post_1_1_feature_s_o_l_i_d_create_chamfer_1adc476aca0219e6111ebad3f6807e53a6" compoundref="_post_manager_2ref_2_feature_s_o_l_i_d_create_chamfer_8cpp" startline="33" endline="67">ToCATIA</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_post_1_1_feature_s_o_l_i_d_create_chamfer_1af12a45c4b2bf14f95ff873f6fbd29a06" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>Post::FeatureSOLIDCreateChamfer::FeatureSOLIDCreateChamfer</definition>
+        <argsstring>(Part *pPart, TransCAD::IFeaturePtr spFeature)</argsstring>
+        <name>FeatureSOLIDCreateChamfer</name>
+        <param>
+          <type><ref refid="class_post_1_1_part" kindref="compound">Part</ref> *</type>
+          <declname>pPart</declname>
+        </param>
+        <param>
+          <type>TransCAD::IFeaturePtr</type>
+          <declname>spFeature</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/PostManager/ref/FeatureSOLIDCreateChamfer.h" line="7" column="1" bodyfile="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/PostManager/ref/FeatureSOLIDCreateChamfer.cpp" bodystart="5" bodyend="8"/>
+      </memberdef>
+      <memberdef kind="function" id="class_post_1_1_feature_s_o_l_i_d_create_chamfer_1a3fe9072a172913a8120fced74382a5a2" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type></type>
+        <definition>Post::FeatureSOLIDCreateChamfer::~FeatureSOLIDCreateChamfer</definition>
+        <argsstring>(void)</argsstring>
+        <name>~FeatureSOLIDCreateChamfer</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/PostManager/ref/FeatureSOLIDCreateChamfer.h" line="8" column="1" bodyfile="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/PostManager/ref/FeatureSOLIDCreateChamfer.cpp" bodystart="10" bodyend="12"/>
+      </memberdef>
+      <memberdef kind="function" id="class_post_1_1_feature_s_o_l_i_d_create_chamfer_1acf8baea1eff0088d8124a6bfb186432f" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void Post::FeatureSOLIDCreateChamfer::GetInfo</definition>
+        <argsstring>()</argsstring>
+        <name>GetInfo</name>
+        <reimplements refid="class_post_1_1_feature_1af8d63a27b30083d99102016ae177b45f">GetInfo</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/PostManager/ref/FeatureSOLIDCreateChamfer.h" line="10" column="1" bodyfile="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/PostManager/ref/FeatureSOLIDCreateChamfer.cpp" bodystart="14" bodyend="31"/>
+        <references refid="class_post_1_1_feature_s_o_l_i_d_create_chamfer_1a9b07e577e0a4050a5a01e16845b921a2" compoundref="_post_manager_2ref_2_feature_s_o_l_i_d_create_chamfer_8h" startline="15">_edgeCount</references>
+        <references refid="class_post_1_1_feature_s_o_l_i_d_create_chamfer_1a5b46bf8ae182378d765556144a6fea22" compoundref="_post_manager_2ref_2_feature_s_o_l_i_d_create_chamfer_8h" startline="16">_edgeNames</references>
+        <references refid="class_post_1_1_feature_s_o_l_i_d_create_chamfer_1a017d090987833d9cdb2934754dcb074a" compoundref="_post_manager_2ref_2_feature_s_o_l_i_d_create_chamfer_8h" startline="14">_length</references>
+        <references refid="class_post_1_1_feature_1a252ade4e8188c192beaf03a8abbdca65" compoundref="_post_manager_2ref_2_feature_8h" startline="18" endline="18">Post::Feature::GetTransCADFeature</references>
+      </memberdef>
+      <memberdef kind="function" id="class_post_1_1_feature_s_o_l_i_d_create_chamfer_1adc476aca0219e6111ebad3f6807e53a6" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void Post::FeatureSOLIDCreateChamfer::ToCATIA</definition>
+        <argsstring>()</argsstring>
+        <name>ToCATIA</name>
+        <reimplements refid="class_post_1_1_feature_1af5e4685a9e9a3a1b80c65d43a5260bf3">ToCATIA</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/PostManager/ref/FeatureSOLIDCreateChamfer.h" line="11" column="1" bodyfile="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/PostManager/ref/FeatureSOLIDCreateChamfer.cpp" bodystart="33" bodyend="67"/>
+        <references refid="class_post_1_1_feature_s_o_l_i_d_create_chamfer_1a9b07e577e0a4050a5a01e16845b921a2" compoundref="_post_manager_2ref_2_feature_s_o_l_i_d_create_chamfer_8h" startline="15">_edgeCount</references>
+        <references refid="class_post_1_1_feature_s_o_l_i_d_create_chamfer_1a5b46bf8ae182378d765556144a6fea22" compoundref="_post_manager_2ref_2_feature_s_o_l_i_d_create_chamfer_8h" startline="16">_edgeNames</references>
+        <references refid="class_post_1_1_feature_s_o_l_i_d_create_chamfer_1a017d090987833d9cdb2934754dcb074a" compoundref="_post_manager_2ref_2_feature_s_o_l_i_d_create_chamfer_8h" startline="14">_length</references>
+        <references refid="class_post_1_1_feature_1a9d39434cf1acdc737198fefcf8b32e67" compoundref="_post_manager_2ref_2_feature_8h" startline="30">Post::Feature::_spFeature</references>
+        <references refid="class_post_1_1_c_a_t_i_a_reference_manager_1a833a8035817475a393e82cd8920cc9bd" compoundref="_c_a_t_i_a_reference_manager_8cpp" startline="301" endline="344">Post::CATIAReferenceManager::ConvertToBRepEdge</references>
+        <references refid="namespace_post_1a757521acb19b64cd9a29879d6c5a7d5f" compoundref="_c_a_t_i_apost___d_l_l_8cpp" startline="32">Post::g_pRefManager</references>
+        <references refid="class_post_1_1_c_a_t_i_a_reference_manager_1ab00159c9905b3d3d14361f390db87e48" compoundref="_c_a_t_i_a_reference_manager_8cpp" startline="102" endline="114">Post::CATIAReferenceManager::GetFeatureIDByTransCADName</references>
+        <references refid="class_post_1_1_feature_1aace9d720d9a16b17c62ab6b4b91cea3c" compoundref="_post_manager_2ref_2_feature_8h" startline="12" endline="12">Post::Feature::GetPart</references>
+        <references refid="_c_a_t_i_apost___d_l_l_8cpp_1a4a001227aeffed8767cfd035c687e1ca" compoundref="_c_a_t_i_apost___d_l_l_8cpp" startline="17">ref_index</references>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="525">
+        <label>Post::Feature</label>
+        <link refid="class_post_1_1_feature"/>
+      </node>
+      <node id="524">
+        <label>Post::FeatureSOLIDCreateChamfer</label>
+        <link refid="class_post_1_1_feature_s_o_l_i_d_create_chamfer"/>
+        <childnode refid="525" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="528">
+        <label>Post::Part</label>
+        <link refid="class_post_1_1_part"/>
+        <childnode refid="529" relation="usage">
+          <edgelabel>_featureList</edgelabel>
+        </childnode>
+        <childnode refid="530" relation="usage">
+          <edgelabel>_strPartName</edgelabel>
+        </childnode>
+      </node>
+      <node id="527">
+        <label>Post::Feature</label>
+        <link refid="class_post_1_1_feature"/>
+        <childnode refid="528" relation="usage">
+          <edgelabel>_pPart</edgelabel>
+        </childnode>
+        <childnode refid="530" relation="usage">
+          <edgelabel>_strName</edgelabel>
+        </childnode>
+      </node>
+      <node id="532">
+        <label>std::vector&lt; string &gt;</label>
+        <childnode refid="530" relation="usage">
+          <edgelabel>elements</edgelabel>
+        </childnode>
+      </node>
+      <node id="526">
+        <label>Post::FeatureSOLIDCreateChamfer</label>
+        <link refid="class_post_1_1_feature_s_o_l_i_d_create_chamfer"/>
+        <childnode refid="527" relation="public-inheritance">
+        </childnode>
+        <childnode refid="532" relation="usage">
+          <edgelabel>_edgeNames</edgelabel>
+        </childnode>
+      </node>
+      <node id="531">
+        <label>std::basic_string&lt; char &gt;</label>
+      </node>
+      <node id="529">
+        <label>std::vector&lt; Post::Feature * &gt;</label>
+        <childnode refid="527" relation="usage">
+          <edgelabel>elements</edgelabel>
+        </childnode>
+      </node>
+      <node id="530">
+        <label>std::string</label>
+        <childnode refid="531" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/PostManager/ref/FeatureSOLIDCreateChamfer.h" line="5" column="1" bodyfile="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/PostManager/ref/FeatureSOLIDCreateChamfer.h" bodystart="4" bodyend="17"/>
+    <listofallmembers>
+      <member refid="class_post_1_1_feature_s_o_l_i_d_create_chamfer_1a9b07e577e0a4050a5a01e16845b921a2" prot="protected" virt="non-virtual"><scope>Post::FeatureSOLIDCreateChamfer</scope><name>_edgeCount</name></member>
+      <member refid="class_post_1_1_feature_s_o_l_i_d_create_chamfer_1a5b46bf8ae182378d765556144a6fea22" prot="protected" virt="non-virtual"><scope>Post::FeatureSOLIDCreateChamfer</scope><name>_edgeNames</name></member>
+      <member refid="class_post_1_1_feature_s_o_l_i_d_create_chamfer_1a017d090987833d9cdb2934754dcb074a" prot="protected" virt="non-virtual"><scope>Post::FeatureSOLIDCreateChamfer</scope><name>_length</name></member>
+      <member refid="class_post_1_1_feature_1a6a0b62ac67583207cd51d36b8540f75b" prot="public" virt="non-virtual"><scope>Post::FeatureSOLIDCreateChamfer</scope><name>_nIndex</name></member>
+      <member refid="class_post_1_1_feature_1a93e0edd3b8a4639ad851119b773582cb" prot="public" virt="non-virtual"><scope>Post::FeatureSOLIDCreateChamfer</scope><name>_pPart</name></member>
+      <member refid="class_post_1_1_feature_1a9d39434cf1acdc737198fefcf8b32e67" prot="public" virt="non-virtual"><scope>Post::FeatureSOLIDCreateChamfer</scope><name>_spFeature</name></member>
+      <member refid="class_post_1_1_feature_1a89de9a11285c07976c881031857287bc" prot="public" virt="non-virtual"><scope>Post::FeatureSOLIDCreateChamfer</scope><name>_strName</name></member>
+      <member refid="class_post_1_1_feature_1a757c6724362593cf5b61c06777e1476f" prot="public" virt="non-virtual"><scope>Post::FeatureSOLIDCreateChamfer</scope><name>Feature</name></member>
+      <member refid="class_post_1_1_feature_s_o_l_i_d_create_chamfer_1af12a45c4b2bf14f95ff873f6fbd29a06" prot="public" virt="non-virtual"><scope>Post::FeatureSOLIDCreateChamfer</scope><name>FeatureSOLIDCreateChamfer</name></member>
+      <member refid="class_post_1_1_feature_1a4abc47e4eee19b3da64571f8ccd61a3c" prot="public" virt="virtual"><scope>Post::FeatureSOLIDCreateChamfer</scope><name>GetEndDepth</name></member>
+      <member refid="class_post_1_1_feature_1a17937115029d464402a274393c9efc82" prot="public" virt="non-virtual"><scope>Post::FeatureSOLIDCreateChamfer</scope><name>GetFeatureIndex</name></member>
+      <member refid="class_post_1_1_feature_1a68d3fb9f274c6170d83e2a51d01400ac" prot="public" virt="non-virtual"><scope>Post::FeatureSOLIDCreateChamfer</scope><name>GetFeatureName</name></member>
+      <member refid="class_post_1_1_feature_s_o_l_i_d_create_chamfer_1acf8baea1eff0088d8124a6bfb186432f" prot="public" virt="virtual"><scope>Post::FeatureSOLIDCreateChamfer</scope><name>GetInfo</name></member>
+      <member refid="class_post_1_1_feature_1aace9d720d9a16b17c62ab6b4b91cea3c" prot="public" virt="non-virtual"><scope>Post::FeatureSOLIDCreateChamfer</scope><name>GetPart</name></member>
+      <member refid="class_post_1_1_feature_1a0dc31facfd898c9f2c7907403bd3c4e1" prot="public" virt="virtual"><scope>Post::FeatureSOLIDCreateChamfer</scope><name>GetStartDepth</name></member>
+      <member refid="class_post_1_1_feature_1a252ade4e8188c192beaf03a8abbdca65" prot="public" virt="non-virtual"><scope>Post::FeatureSOLIDCreateChamfer</scope><name>GetTransCADFeature</name></member>
+      <member refid="class_post_1_1_feature_1a2cdd61cc7885d66a902e7a29cca9bc05" prot="public" virt="non-virtual"><scope>Post::FeatureSOLIDCreateChamfer</scope><name>SetFeatureName</name></member>
+      <member refid="class_post_1_1_feature_s_o_l_i_d_create_chamfer_1adc476aca0219e6111ebad3f6807e53a6" prot="public" virt="virtual"><scope>Post::FeatureSOLIDCreateChamfer</scope><name>ToCATIA</name></member>
+      <member refid="class_post_1_1_feature_1a9a8ee05393f4321a5ceba0d075573a25" prot="public" virt="virtual"><scope>Post::FeatureSOLIDCreateChamfer</scope><name>~Feature</name></member>
+      <member refid="class_post_1_1_feature_s_o_l_i_d_create_chamfer_1a3fe9072a172913a8120fced74382a5a2" prot="public" virt="virtual"><scope>Post::FeatureSOLIDCreateChamfer</scope><name>~FeatureSOLIDCreateChamfer</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

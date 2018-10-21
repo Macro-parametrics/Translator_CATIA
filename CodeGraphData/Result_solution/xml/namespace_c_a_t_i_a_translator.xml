@@ -1,0 +1,35 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="namespace_c_a_t_i_a_translator" kind="namespace">
+    <compoundname>CATIATranslator</compoundname>
+    <innerclass refid="class_c_a_t_i_a_translator_1_1_assembly" prot="public">CATIATranslator::Assembly</innerclass>
+    <innerclass refid="class_c_a_t_i_a_translator_1_1_assembly_part_manager" prot="public">CATIATranslator::AssemblyPartManager</innerclass>
+    <innerclass refid="class_c_a_t_i_a_translator_1_1_form1" prot="public">CATIATranslator::Form1</innerclass>
+    <innerclass refid="class_c_a_t_i_a_translator_1_1_program" prot="public">CATIATranslator::Program</innerclass>
+    <innerclass refid="class_c_a_t_i_a_translator_1_1_tool" prot="public">CATIATranslator::Tool</innerclass>
+    <innerclass refid="class_c_a_t_i_a_translator_1_1_feature" prot="public">CATIATranslator::Feature</innerclass>
+    <innerclass refid="class_c_a_t_i_a_translator_1_1_feature_chamfer" prot="public">CATIATranslator::FeatureChamfer</innerclass>
+    <innerclass refid="class_c_a_t_i_a_translator_1_1_feature_circ_pattern" prot="public">CATIATranslator::FeatureCircPattern</innerclass>
+    <innerclass refid="class_c_a_t_i_a_translator_1_1_feature_edge_fillet" prot="public">CATIATranslator::FeatureEdgeFillet</innerclass>
+    <innerclass refid="class_c_a_t_i_a_translator_1_1_feature_groove" prot="public">CATIATranslator::FeatureGroove</innerclass>
+    <innerclass refid="class_c_a_t_i_a_translator_1_1_feature_hole" prot="public">CATIATranslator::FeatureHole</innerclass>
+    <innerclass refid="class_c_a_t_i_a_translator_1_1_feature_pad" prot="public">CATIATranslator::FeaturePad</innerclass>
+    <innerclass refid="class_c_a_t_i_a_translator_1_1_feature_pocket" prot="public">CATIATranslator::FeaturePocket</innerclass>
+    <innerclass refid="class_c_a_t_i_a_translator_1_1_feature_rect_pattern" prot="public">CATIATranslator::FeatureRectPattern</innerclass>
+    <innerclass refid="class_c_a_t_i_a_translator_1_1_feature_rib" prot="public">CATIATranslator::FeatureRib</innerclass>
+    <innerclass refid="class_c_a_t_i_a_translator_1_1_feature_shaft" prot="public">CATIATranslator::FeatureShaft</innerclass>
+    <innerclass refid="class_c_a_t_i_a_translator_1_1_feature_slot" prot="public">CATIATranslator::FeatureSlot</innerclass>
+    <innerclass refid="class_c_a_t_i_a_translator_1_1_part" prot="public">CATIATranslator::Part</innerclass>
+    <innerclass refid="class_c_a_t_i_a_translator_1_1_part_script___dll" prot="public">CATIATranslator::PartScript_Dll</innerclass>
+    <innerclass refid="class_c_a_t_i_a_translator_1_1_reference" prot="public">CATIATranslator::Reference</innerclass>
+    <innerclass refid="class_c_a_t_i_a_translator_1_1_feature_sketch" prot="public">CATIATranslator::FeatureSketch</innerclass>
+    <innerclass refid="class_c_a_t_i_a_translator_1_1_sketch_circle2_d" prot="public">CATIATranslator::SketchCircle2D</innerclass>
+    <innerclass refid="class_c_a_t_i_a_translator_1_1_sketch_line2_d" prot="public">CATIATranslator::SketchLine2D</innerclass>
+    <innernamespace refid="namespace_c_a_t_i_a_translator_1_1_properties">CATIATranslator::Properties</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/CATIATranslator/Assembly/Assembly.cs" line="19" column="1"/>
+  </compounddef>
+</doxygen>

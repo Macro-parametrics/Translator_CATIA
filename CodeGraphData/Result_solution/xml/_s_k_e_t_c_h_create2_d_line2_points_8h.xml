@@ -1,0 +1,203 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="_s_k_e_t_c_h_create2_d_line2_points_8h" kind="file">
+    <compoundname>SKETCHCreate2DLine2Points.h</compoundname>
+    <includes refid="_s_k_e_t_c_h_item_8h" local="yes">SKETCHItem.h</includes>
+    <includedby refid="_post_manager_2ref_2_f_sketch_8cpp" local="yes">PostManager/ref/FSketch.cpp</includedby>
+    <includedby refid="_s_k_e_t_c_h_create2_d_line2_points_8cpp" local="yes">PostManager/ref/SKETCHCreate2DLine2Points.cpp</includedby>
+    <incdepgraph>
+      <node id="2597">
+        <label>atlstr.h</label>
+      </node>
+      <node id="2592">
+        <label>FSketch.h</label>
+        <link refid="_post_manager_2ref_2_f_sketch_8h"/>
+        <childnode refid="2593" relation="include">
+        </childnode>
+      </node>
+      <node id="2593">
+        <label>Feature.h</label>
+        <link refid="_post_manager_2ref_2_feature_8h"/>
+        <childnode refid="2594" relation="include">
+        </childnode>
+      </node>
+      <node id="2603">
+        <label>stdlib.h</label>
+      </node>
+      <node id="2605">
+        <label>cmath</label>
+      </node>
+      <node id="2599">
+        <label>string</label>
+      </node>
+      <node id="2604">
+        <label>comutil.h</label>
+      </node>
+      <node id="2590">
+        <label>PostManager/ref/SKETCHCreate2DLine2Points.h</label>
+        <link refid="SKETCHCreate2DLine2Points.h"/>
+        <childnode refid="2591" relation="include">
+        </childnode>
+      </node>
+      <node id="2600">
+        <label>fstream</label>
+      </node>
+      <node id="2594">
+        <label>Part.h</label>
+        <link refid="_post_manager_2ref_2_part_8h"/>
+        <childnode refid="2595" relation="include">
+        </childnode>
+        <childnode refid="2608" relation="include">
+        </childnode>
+      </node>
+      <node id="2612">
+        <label>MP_Utility.h</label>
+        <link refid="_m_p___utility_8h"/>
+        <childnode refid="2609" relation="include">
+        </childnode>
+      </node>
+      <node id="2611">
+        <label>string.h</label>
+      </node>
+      <node id="2591">
+        <label>SKETCHItem.h</label>
+        <link refid="_s_k_e_t_c_h_item_8h"/>
+        <childnode refid="2592" relation="include">
+        </childnode>
+      </node>
+      <node id="2601">
+        <label>vector</label>
+      </node>
+      <node id="2607">
+        <label>math.h</label>
+      </node>
+      <node id="2596">
+        <label>atlbase.h</label>
+      </node>
+      <node id="2608">
+        <label>CATIAReferenceManager.h</label>
+        <link refid="_c_a_t_i_a_reference_manager_8h"/>
+        <childnode refid="2595" relation="include">
+        </childnode>
+        <childnode refid="2609" relation="include">
+        </childnode>
+        <childnode refid="2612" relation="include">
+        </childnode>
+      </node>
+      <node id="2598">
+        <label>iostream</label>
+      </node>
+      <node id="2606">
+        <label>Definition.h</label>
+        <link refid="_post_manager_2ref_2_definition_8h"/>
+        <childnode refid="2607" relation="include">
+        </childnode>
+      </node>
+      <node id="2610">
+        <label>algorithm</label>
+      </node>
+      <node id="2602">
+        <label>stdio.h</label>
+      </node>
+      <node id="2609">
+        <label>PN_TYPE.h</label>
+        <link refid="_p_n___t_y_p_e_8h"/>
+        <childnode refid="2598" relation="include">
+        </childnode>
+        <childnode refid="2599" relation="include">
+        </childnode>
+        <childnode refid="2601" relation="include">
+        </childnode>
+        <childnode refid="2610" relation="include">
+        </childnode>
+        <childnode refid="2607" relation="include">
+        </childnode>
+        <childnode refid="2611" relation="include">
+        </childnode>
+      </node>
+      <node id="2595">
+        <label>CATIApost_DLL.h</label>
+        <link refid="_c_a_t_i_apost___d_l_l_8h"/>
+        <childnode refid="2596" relation="include">
+        </childnode>
+        <childnode refid="2597" relation="include">
+        </childnode>
+        <childnode refid="2598" relation="include">
+        </childnode>
+        <childnode refid="2599" relation="include">
+        </childnode>
+        <childnode refid="2600" relation="include">
+        </childnode>
+        <childnode refid="2601" relation="include">
+        </childnode>
+        <childnode refid="2602" relation="include">
+        </childnode>
+        <childnode refid="2603" relation="include">
+        </childnode>
+        <childnode refid="2604" relation="include">
+        </childnode>
+        <childnode refid="2605" relation="include">
+        </childnode>
+        <childnode refid="2606" relation="include">
+        </childnode>
+      </node>
+    </incdepgraph>
+    <invincdepgraph>
+      <node id="2613">
+        <label>PostManager/ref/SKETCHCreate2DLine2Points.h</label>
+        <link refid="SKETCHCreate2DLine2Points.h"/>
+        <childnode refid="2614" relation="include">
+        </childnode>
+        <childnode refid="2615" relation="include">
+        </childnode>
+      </node>
+      <node id="2615">
+        <label>PostManager/ref/SKETCHCreate2DLine2Points.cpp</label>
+        <link refid="_s_k_e_t_c_h_create2_d_line2_points_8cpp"/>
+      </node>
+      <node id="2614">
+        <label>PostManager/ref/FSketch.cpp</label>
+        <link refid="_post_manager_2ref_2_f_sketch_8cpp"/>
+      </node>
+    </invincdepgraph>
+    <innerclass refid="class_post_1_1_s_k_e_t_c_h_create2_d_line2_points" prot="public">Post::SKETCHCreate2DLine2Points</innerclass>
+    <innernamespace refid="namespace_post">Post</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="preprocessor">#pragma<sp/>once</highlight></codeline>
+<codeline lineno="2"><highlight class="preprocessor"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="_s_k_e_t_c_h_item_8h" kindref="compound">SKETCHItem.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal">Post<sp/>{</highlight></codeline>
+<codeline lineno="4"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal">FSketch;</highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight></codeline>
+<codeline lineno="6" refid="class_post_1_1_s_k_e_t_c_h_create2_d_line2_points" refkind="compound"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="class_post_1_1_s_k_e_t_c_h_create2_d_line2_points" kindref="compound">SKETCHCreate2DLine2Points</ref><sp/>:<sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/><ref refid="class_post_1_1_s_k_e_t_c_h_item" kindref="compound">SKETCHItem</ref></highlight></codeline>
+<codeline lineno="7"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="8"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="9"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_post_1_1_s_k_e_t_c_h_create2_d_line2_points_1a7fdbd01a1c738b339dfa3f2a6c8b7023" kindref="member">SKETCHCreate2DLine2Points</ref>(<ref refid="class_post_1_1_f_sketch" kindref="compound">FSketch</ref><sp/>*<sp/>pFSketch,<sp/>TransCAD::IStdSketchGeometryPtr<sp/>spItem);</highlight></codeline>
+<codeline lineno="10"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/><ref refid="class_post_1_1_s_k_e_t_c_h_create2_d_line2_points_1a00ddf444d5a48e6b0b948cb703d38c05" kindref="member">~SKETCHCreate2DLine2Points</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="11"><highlight class="normal"></highlight></codeline>
+<codeline lineno="12" refid="class_post_1_1_s_k_e_t_c_h_create2_d_line2_points_1ae45a4a2d3b73cdee25d78ef0bc6de0af" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_post_1_1_s_k_e_t_c_h_create2_d_line2_points_1ae45a4a2d3b73cdee25d78ef0bc6de0af" kindref="member">SetStartPoint</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="namespace_post_1a80911619713a0105ed4134e3ca90fa57" kindref="member">Point3D</ref><sp/>&amp;<sp/>startPoint)<sp/>{<sp/><ref refid="class_post_1_1_s_k_e_t_c_h_create2_d_line2_points_1a1dbb64b96899dcc8f38edf99478923e2" kindref="member">_startPoint</ref><sp/>=<sp/>startPoint;<sp/>}</highlight></codeline>
+<codeline lineno="13" refid="class_post_1_1_s_k_e_t_c_h_create2_d_line2_points_1af978bb283cc9ef5eee20d53be3c2147c" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_post_1_1_s_k_e_t_c_h_create2_d_line2_points_1af978bb283cc9ef5eee20d53be3c2147c" kindref="member">SetEndPoint</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="namespace_post_1a80911619713a0105ed4134e3ca90fa57" kindref="member">Point3D</ref><sp/>&amp;<sp/>endPoint)<sp/>{<sp/><ref refid="class_post_1_1_s_k_e_t_c_h_create2_d_line2_points_1a2e0e42a9211dba270c12642567322cda" kindref="member">_endPoint</ref><sp/>=<sp/>endPoint;<sp/>}</highlight></codeline>
+<codeline lineno="14"><highlight class="normal"></highlight></codeline>
+<codeline lineno="15" refid="class_post_1_1_s_k_e_t_c_h_create2_d_line2_points_1abae1a5e544d6311ca9e6edfbf701d2a4" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_post_1_1_s_k_e_t_c_h_create2_d_line2_points_1abae1a5e544d6311ca9e6edfbf701d2a4" kindref="member">GetStartPoint</ref>(<ref refid="namespace_post_1a80911619713a0105ed4134e3ca90fa57" kindref="member">Point3D</ref><sp/>&amp;<sp/>startPoint)<sp/>{<sp/>startPoint<sp/>=<sp/><ref refid="class_post_1_1_s_k_e_t_c_h_create2_d_line2_points_1a1dbb64b96899dcc8f38edf99478923e2" kindref="member">_startPoint</ref>;<sp/>}</highlight></codeline>
+<codeline lineno="16" refid="class_post_1_1_s_k_e_t_c_h_create2_d_line2_points_1a7207f6e46a3a25610727cd5e2ced8897" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_post_1_1_s_k_e_t_c_h_create2_d_line2_points_1a7207f6e46a3a25610727cd5e2ced8897" kindref="member">GetEndPoint</ref>(<ref refid="namespace_post_1a80911619713a0105ed4134e3ca90fa57" kindref="member">Point3D</ref><sp/>&amp;<sp/>endPoint)<sp/>{<sp/>endPoint<sp/>=<sp/><ref refid="class_post_1_1_s_k_e_t_c_h_create2_d_line2_points_1a2e0e42a9211dba270c12642567322cda" kindref="member">_endPoint</ref>;<sp/>}</highlight></codeline>
+<codeline lineno="17" refid="class_post_1_1_s_k_e_t_c_h_create2_d_line2_points_1a248cd25aa309557d6186de1887d0ed3a" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_post_1_1_s_k_e_t_c_h_create2_d_line2_points_1a248cd25aa309557d6186de1887d0ed3a" kindref="member">GetPickingPoint</ref>(<ref refid="namespace_post_1a80911619713a0105ed4134e3ca90fa57" kindref="member">Point3D</ref><sp/>&amp;<sp/>pickPnt)<sp/>{<sp/>pickPnt<sp/>=<sp/>(<ref refid="class_post_1_1_s_k_e_t_c_h_create2_d_line2_points_1a1dbb64b96899dcc8f38edf99478923e2" kindref="member">_startPoint</ref><sp/>+<sp/><ref refid="class_post_1_1_s_k_e_t_c_h_create2_d_line2_points_1a2e0e42a9211dba270c12642567322cda" kindref="member">_endPoint</ref>)*0.5;<sp/>}</highlight></codeline>
+<codeline lineno="18"><highlight class="normal"></highlight></codeline>
+<codeline lineno="19"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_post_1_1_s_k_e_t_c_h_create2_d_line2_points_1a3a001e53b6c6a2444690a3d1b5d81085" kindref="member">GetInfo</ref>();</highlight></codeline>
+<codeline lineno="20"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_post_1_1_s_k_e_t_c_h_create2_d_line2_points_1a0eb686cd9daa11bf0aebe136ce759ab0" kindref="member">ToCATIA</ref>();</highlight></codeline>
+<codeline lineno="21"><highlight class="normal"></highlight></codeline>
+<codeline lineno="22"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="23" refid="class_post_1_1_s_k_e_t_c_h_create2_d_line2_points_1a594a98b831139b39615ce18c3d326e3d" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/><ref refid="class_post_1_1_s_k_e_t_c_h_create2_d_line2_points_1a594a98b831139b39615ce18c3d326e3d" kindref="member">startPointName</ref>[1024],<sp/><ref refid="class_post_1_1_s_k_e_t_c_h_create2_d_line2_points_1ae82c570da2ad324eeae551cb821d9ef1" kindref="member">endPointName</ref>[1024];</highlight></codeline>
+<codeline lineno="24" refid="class_post_1_1_s_k_e_t_c_h_create2_d_line2_points_1a4c4b0581db7af171abc5eb20d1e2182e" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">string</highlight><highlight class="normal"><sp/><ref refid="class_post_1_1_s_k_e_t_c_h_create2_d_line2_points_1a4c4b0581db7af171abc5eb20d1e2182e" kindref="member">TransCADName</ref>;</highlight></codeline>
+<codeline lineno="25"><highlight class="normal"></highlight></codeline>
+<codeline lineno="26"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">private</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="27" refid="class_post_1_1_s_k_e_t_c_h_create2_d_line2_points_1a1dbb64b96899dcc8f38edf99478923e2" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="namespace_post_1a80911619713a0105ed4134e3ca90fa57" kindref="member">Point3D</ref><sp/><ref refid="class_post_1_1_s_k_e_t_c_h_create2_d_line2_points_1a1dbb64b96899dcc8f38edf99478923e2" kindref="member">_startPoint</ref>;</highlight></codeline>
+<codeline lineno="28" refid="class_post_1_1_s_k_e_t_c_h_create2_d_line2_points_1a2e0e42a9211dba270c12642567322cda" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="namespace_post_1a80911619713a0105ed4134e3ca90fa57" kindref="member">Point3D</ref><sp/><ref refid="class_post_1_1_s_k_e_t_c_h_create2_d_line2_points_1a2e0e42a9211dba270c12642567322cda" kindref="member">_endPoint</ref>;</highlight></codeline>
+<codeline lineno="29"><highlight class="normal"><sp/><sp/><sp/><sp/>};</highlight></codeline>
+<codeline lineno="30"><highlight class="normal">}</highlight></codeline>
+    </programlisting>
+    <location file="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/PostManager/ref/SKETCHCreate2DLine2Points.h"/>
+  </compounddef>
+</doxygen>

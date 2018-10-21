@@ -1,0 +1,276 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_post_1_1_feature_s_o_l_i_d_create_sections_loft" kind="class" prot="public">
+    <compoundname>Post::FeatureSOLIDCreateSectionsLoft</compoundname>
+    <basecompoundref refid="class_post_1_1_feature" prot="public" virt="non-virtual">Post::Feature</basecompoundref>
+    <includes refid="_feature_s_o_l_i_d_create_sections_loft_8h" local="no">FeatureSOLIDCreateSectionsLoft.h</includes>
+      <sectiondef kind="protected-attrib">
+      <memberdef kind="variable" id="class_post_1_1_feature_s_o_l_i_d_create_sections_loft_1a6106ba232b2cd073c31144b76d197f07" prot="protected" static="no" mutable="no">
+        <type>int</type>
+        <definition>int Post::FeatureSOLIDCreateSectionsLoft::_sectionCount</definition>
+        <argsstring></argsstring>
+        <name>_sectionCount</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/PostManager/ref/FeatureSOLIDCreateSectionsLoft.h" line="19" column="1" bodyfile="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/PostManager/ref/FeatureSOLIDCreateSectionsLoft.h" bodystart="19" bodyend="-1"/>
+        <referencedby refid="class_post_1_1_feature_s_o_l_i_d_create_sections_loft_1aeca2b7fdb92f496947072e1d6c2f2920" compoundref="_feature_s_o_l_i_d_create_sections_loft_8cpp" startline="16" endline="43">GetInfo</referencedby>
+        <referencedby refid="class_post_1_1_feature_s_o_l_i_d_create_sections_loft_1a24653567189674cf9624c7ce852b204b" compoundref="_feature_s_o_l_i_d_create_sections_loft_8cpp" startline="45" endline="120">ToCATIA</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_post_1_1_feature_s_o_l_i_d_create_sections_loft_1a698a1617b898f828c08d6abcdb4141d7" prot="protected" static="no" mutable="no">
+        <type>int</type>
+        <definition>int Post::FeatureSOLIDCreateSectionsLoft::hybridShapeExtremumNum</definition>
+        <argsstring></argsstring>
+        <name>hybridShapeExtremumNum</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/PostManager/ref/FeatureSOLIDCreateSectionsLoft.h" line="20" column="1" bodyfile="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/PostManager/ref/FeatureSOLIDCreateSectionsLoft.h" bodystart="20" bodyend="-1"/>
+        <referencedby refid="class_post_1_1_feature_s_o_l_i_d_create_sections_loft_1a8db77850967a56a7f750e574c9d667e9" compoundref="_feature_s_o_l_i_d_create_sections_loft_8cpp" startline="6" endline="10">FeatureSOLIDCreateSectionsLoft</referencedby>
+        <referencedby refid="class_post_1_1_feature_s_o_l_i_d_create_sections_loft_1a24653567189674cf9624c7ce852b204b" compoundref="_feature_s_o_l_i_d_create_sections_loft_8cpp" startline="45" endline="120">ToCATIA</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_post_1_1_feature_s_o_l_i_d_create_sections_loft_1a001c7895613b4c0834f7de1c24724213" prot="protected" static="no" mutable="no">
+        <type>string</type>
+        <definition>string Post::FeatureSOLIDCreateSectionsLoft::_sectionname[5]</definition>
+        <argsstring>[5]</argsstring>
+        <name>_sectionname</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/PostManager/ref/FeatureSOLIDCreateSectionsLoft.h" line="21" column="1" bodyfile="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/PostManager/ref/FeatureSOLIDCreateSectionsLoft.h" bodystart="21" bodyend="-1"/>
+        <referencedby refid="class_post_1_1_feature_s_o_l_i_d_create_sections_loft_1aeca2b7fdb92f496947072e1d6c2f2920" compoundref="_feature_s_o_l_i_d_create_sections_loft_8cpp" startline="16" endline="43">GetInfo</referencedby>
+        <referencedby refid="class_post_1_1_feature_s_o_l_i_d_create_sections_loft_1a24653567189674cf9624c7ce852b204b" compoundref="_feature_s_o_l_i_d_create_sections_loft_8cpp" startline="45" endline="120">ToCATIA</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_post_1_1_feature_s_o_l_i_d_create_sections_loft_1a3fe1a56972b2e24b139b113569fc69aa" prot="private" static="no" mutable="no">
+        <type><ref refid="class_post_1_1_f_sketch" kindref="compound">FSketch</ref> *</type>
+        <definition>FSketch* Post::FeatureSOLIDCreateSectionsLoft::_section[6]</definition>
+        <argsstring>[6]</argsstring>
+        <name>_section</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/PostManager/ref/FeatureSOLIDCreateSectionsLoft.h" line="31" column="1" bodyfile="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/PostManager/ref/FeatureSOLIDCreateSectionsLoft.h" bodystart="31" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_post_1_1_feature_s_o_l_i_d_create_sections_loft_1a8db77850967a56a7f750e574c9d667e9" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>Post::FeatureSOLIDCreateSectionsLoft::FeatureSOLIDCreateSectionsLoft</definition>
+        <argsstring>(Part *pPart, TransCAD::IFeaturePtr spFeature)</argsstring>
+        <name>FeatureSOLIDCreateSectionsLoft</name>
+        <param>
+          <type><ref refid="class_post_1_1_part" kindref="compound">Part</ref> *</type>
+          <declname>pPart</declname>
+        </param>
+        <param>
+          <type>TransCAD::IFeaturePtr</type>
+          <declname>spFeature</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/PostManager/ref/FeatureSOLIDCreateSectionsLoft.h" line="9" column="1" bodyfile="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/PostManager/ref/FeatureSOLIDCreateSectionsLoft.cpp" bodystart="6" bodyend="10"/>
+        <references refid="class_post_1_1_feature_s_o_l_i_d_create_sections_loft_1a698a1617b898f828c08d6abcdb4141d7" compoundref="_feature_s_o_l_i_d_create_sections_loft_8h" startline="20">hybridShapeExtremumNum</references>
+      </memberdef>
+      <memberdef kind="function" id="class_post_1_1_feature_s_o_l_i_d_create_sections_loft_1af4891d183d4907e54e3efe12c4440602" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type></type>
+        <definition>Post::FeatureSOLIDCreateSectionsLoft::~FeatureSOLIDCreateSectionsLoft</definition>
+        <argsstring>(void)</argsstring>
+        <name>~FeatureSOLIDCreateSectionsLoft</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/PostManager/ref/FeatureSOLIDCreateSectionsLoft.h" line="10" column="1" bodyfile="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/PostManager/ref/FeatureSOLIDCreateSectionsLoft.cpp" bodystart="12" bodyend="14"/>
+      </memberdef>
+      <memberdef kind="function" id="class_post_1_1_feature_s_o_l_i_d_create_sections_loft_1aeca2b7fdb92f496947072e1d6c2f2920" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void Post::FeatureSOLIDCreateSectionsLoft::GetInfo</definition>
+        <argsstring>()</argsstring>
+        <name>GetInfo</name>
+        <reimplements refid="class_post_1_1_feature_1af8d63a27b30083d99102016ae177b45f">GetInfo</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/PostManager/ref/FeatureSOLIDCreateSectionsLoft.h" line="15" column="1" bodyfile="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/PostManager/ref/FeatureSOLIDCreateSectionsLoft.cpp" bodystart="16" bodyend="43"/>
+        <references refid="class_post_1_1_feature_s_o_l_i_d_create_sections_loft_1a6106ba232b2cd073c31144b76d197f07" compoundref="_feature_s_o_l_i_d_create_sections_loft_8h" startline="19">_sectionCount</references>
+        <references refid="class_post_1_1_feature_s_o_l_i_d_create_sections_loft_1a001c7895613b4c0834f7de1c24724213" compoundref="_feature_s_o_l_i_d_create_sections_loft_8h" startline="21">_sectionname</references>
+        <references refid="class_post_1_1_feature_1a252ade4e8188c192beaf03a8abbdca65" compoundref="_post_manager_2ref_2_feature_8h" startline="18" endline="18">Post::Feature::GetTransCADFeature</references>
+      </memberdef>
+      <memberdef kind="function" id="class_post_1_1_feature_s_o_l_i_d_create_sections_loft_1a24653567189674cf9624c7ce852b204b" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void Post::FeatureSOLIDCreateSectionsLoft::ToCATIA</definition>
+        <argsstring>()</argsstring>
+        <name>ToCATIA</name>
+        <reimplements refid="class_post_1_1_feature_1af5e4685a9e9a3a1b80c65d43a5260bf3">ToCATIA</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/PostManager/ref/FeatureSOLIDCreateSectionsLoft.h" line="16" column="1" bodyfile="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/PostManager/ref/FeatureSOLIDCreateSectionsLoft.cpp" bodystart="45" bodyend="120"/>
+        <references refid="class_post_1_1_feature_s_o_l_i_d_create_sections_loft_1a6106ba232b2cd073c31144b76d197f07" compoundref="_feature_s_o_l_i_d_create_sections_loft_8h" startline="19">_sectionCount</references>
+        <references refid="class_post_1_1_feature_s_o_l_i_d_create_sections_loft_1a001c7895613b4c0834f7de1c24724213" compoundref="_feature_s_o_l_i_d_create_sections_loft_8h" startline="21">_sectionname</references>
+        <references refid="class_post_1_1_feature_1a9d39434cf1acdc737198fefcf8b32e67" compoundref="_post_manager_2ref_2_feature_8h" startline="30">Post::Feature::_spFeature</references>
+        <references refid="namespace_post_1a757521acb19b64cd9a29879d6c5a7d5f" compoundref="_c_a_t_i_apost___d_l_l_8cpp" startline="32">Post::g_pRefManager</references>
+        <references refid="class_post_1_1_c_a_t_i_a_reference_manager_1ab00159c9905b3d3d14361f390db87e48" compoundref="_c_a_t_i_a_reference_manager_8cpp" startline="102" endline="114">Post::CATIAReferenceManager::GetFeatureIDByTransCADName</references>
+        <references refid="class_post_1_1_feature_1aace9d720d9a16b17c62ab6b4b91cea3c" compoundref="_post_manager_2ref_2_feature_8h" startline="12" endline="12">Post::Feature::GetPart</references>
+        <references refid="class_post_1_1_feature_s_o_l_i_d_create_sections_loft_1a698a1617b898f828c08d6abcdb4141d7" compoundref="_feature_s_o_l_i_d_create_sections_loft_8h" startline="20">hybridShapeExtremumNum</references>
+        <references refid="_c_a_t_i_apost___d_l_l_8cpp_1a4a001227aeffed8767cfd035c687e1ca" compoundref="_c_a_t_i_apost___d_l_l_8cpp" startline="17">ref_index</references>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="856">
+        <label>Post::Feature</label>
+        <link refid="class_post_1_1_feature"/>
+      </node>
+      <node id="855">
+        <label>Post::FeatureSOLIDCreateSectionsLoft</label>
+        <link refid="class_post_1_1_feature_s_o_l_i_d_create_sections_loft"/>
+        <childnode refid="856" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="859">
+        <label>Post::Part</label>
+        <link refid="class_post_1_1_part"/>
+        <childnode refid="860" relation="usage">
+          <edgelabel>_featureList</edgelabel>
+        </childnode>
+        <childnode refid="861" relation="usage">
+          <edgelabel>_strPartName</edgelabel>
+        </childnode>
+      </node>
+      <node id="858">
+        <label>Post::Feature</label>
+        <link refid="class_post_1_1_feature"/>
+        <childnode refid="859" relation="usage">
+          <edgelabel>_pPart</edgelabel>
+        </childnode>
+        <childnode refid="861" relation="usage">
+          <edgelabel>_strName</edgelabel>
+        </childnode>
+      </node>
+      <node id="863">
+        <label>Post::FSketch</label>
+        <link refid="class_post_1_1_f_sketch"/>
+        <childnode refid="858" relation="public-inheritance">
+        </childnode>
+        <childnode refid="864" relation="usage">
+          <edgelabel>sInfo</edgelabel>
+        </childnode>
+        <childnode refid="861" relation="usage">
+          <edgelabel>_refName</edgelabel>
+        </childnode>
+        <childnode refid="865" relation="usage">
+          <edgelabel>_sketchItemList</edgelabel>
+        </childnode>
+      </node>
+      <node id="866">
+        <label>Post::SKETCHItem</label>
+        <link refid="class_post_1_1_s_k_e_t_c_h_item"/>
+        <childnode refid="863" relation="usage">
+          <edgelabel>_pFSketch</edgelabel>
+        </childnode>
+        <childnode refid="861" relation="usage">
+          <edgelabel>_strName</edgelabel>
+        </childnode>
+      </node>
+      <node id="862">
+        <label>std::basic_string&lt; char &gt;</label>
+      </node>
+      <node id="864">
+        <label>Post::_sketchInfo</label>
+        <link refid="struct_post_1_1__sketch_info"/>
+        <childnode refid="861" relation="usage">
+          <edgelabel>sketch_name</edgelabel>
+          <edgelabel>sketch_ref</edgelabel>
+        </childnode>
+      </node>
+      <node id="857">
+        <label>Post::FeatureSOLIDCreateSectionsLoft</label>
+        <link refid="class_post_1_1_feature_s_o_l_i_d_create_sections_loft"/>
+        <childnode refid="858" relation="public-inheritance">
+        </childnode>
+        <childnode refid="863" relation="usage">
+          <edgelabel>_section</edgelabel>
+        </childnode>
+        <childnode refid="861" relation="usage">
+          <edgelabel>_sectionname</edgelabel>
+        </childnode>
+      </node>
+      <node id="865">
+        <label>std::vector&lt; Post::SKETCHItem * &gt;</label>
+        <childnode refid="866" relation="usage">
+          <edgelabel>elements</edgelabel>
+        </childnode>
+      </node>
+      <node id="860">
+        <label>std::vector&lt; Post::Feature * &gt;</label>
+        <childnode refid="858" relation="usage">
+          <edgelabel>elements</edgelabel>
+        </childnode>
+      </node>
+      <node id="861">
+        <label>std::string</label>
+        <childnode refid="862" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/PostManager/ref/FeatureSOLIDCreateSectionsLoft.h" line="7" column="1" bodyfile="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/PostManager/ref/FeatureSOLIDCreateSectionsLoft.h" bodystart="6" bodyend="32"/>
+    <listofallmembers>
+      <member refid="class_post_1_1_feature_1a6a0b62ac67583207cd51d36b8540f75b" prot="public" virt="non-virtual"><scope>Post::FeatureSOLIDCreateSectionsLoft</scope><name>_nIndex</name></member>
+      <member refid="class_post_1_1_feature_1a93e0edd3b8a4639ad851119b773582cb" prot="public" virt="non-virtual"><scope>Post::FeatureSOLIDCreateSectionsLoft</scope><name>_pPart</name></member>
+      <member refid="class_post_1_1_feature_s_o_l_i_d_create_sections_loft_1a3fe1a56972b2e24b139b113569fc69aa" prot="private" virt="non-virtual"><scope>Post::FeatureSOLIDCreateSectionsLoft</scope><name>_section</name></member>
+      <member refid="class_post_1_1_feature_s_o_l_i_d_create_sections_loft_1a6106ba232b2cd073c31144b76d197f07" prot="protected" virt="non-virtual"><scope>Post::FeatureSOLIDCreateSectionsLoft</scope><name>_sectionCount</name></member>
+      <member refid="class_post_1_1_feature_s_o_l_i_d_create_sections_loft_1a001c7895613b4c0834f7de1c24724213" prot="protected" virt="non-virtual"><scope>Post::FeatureSOLIDCreateSectionsLoft</scope><name>_sectionname</name></member>
+      <member refid="class_post_1_1_feature_1a9d39434cf1acdc737198fefcf8b32e67" prot="public" virt="non-virtual"><scope>Post::FeatureSOLIDCreateSectionsLoft</scope><name>_spFeature</name></member>
+      <member refid="class_post_1_1_feature_1a89de9a11285c07976c881031857287bc" prot="public" virt="non-virtual"><scope>Post::FeatureSOLIDCreateSectionsLoft</scope><name>_strName</name></member>
+      <member refid="class_post_1_1_feature_1a757c6724362593cf5b61c06777e1476f" prot="public" virt="non-virtual"><scope>Post::FeatureSOLIDCreateSectionsLoft</scope><name>Feature</name></member>
+      <member refid="class_post_1_1_feature_s_o_l_i_d_create_sections_loft_1a8db77850967a56a7f750e574c9d667e9" prot="public" virt="non-virtual"><scope>Post::FeatureSOLIDCreateSectionsLoft</scope><name>FeatureSOLIDCreateSectionsLoft</name></member>
+      <member refid="class_post_1_1_feature_1a4abc47e4eee19b3da64571f8ccd61a3c" prot="public" virt="virtual"><scope>Post::FeatureSOLIDCreateSectionsLoft</scope><name>GetEndDepth</name></member>
+      <member refid="class_post_1_1_feature_1a17937115029d464402a274393c9efc82" prot="public" virt="non-virtual"><scope>Post::FeatureSOLIDCreateSectionsLoft</scope><name>GetFeatureIndex</name></member>
+      <member refid="class_post_1_1_feature_1a68d3fb9f274c6170d83e2a51d01400ac" prot="public" virt="non-virtual"><scope>Post::FeatureSOLIDCreateSectionsLoft</scope><name>GetFeatureName</name></member>
+      <member refid="class_post_1_1_feature_s_o_l_i_d_create_sections_loft_1aeca2b7fdb92f496947072e1d6c2f2920" prot="public" virt="virtual"><scope>Post::FeatureSOLIDCreateSectionsLoft</scope><name>GetInfo</name></member>
+      <member refid="class_post_1_1_feature_1aace9d720d9a16b17c62ab6b4b91cea3c" prot="public" virt="non-virtual"><scope>Post::FeatureSOLIDCreateSectionsLoft</scope><name>GetPart</name></member>
+      <member refid="class_post_1_1_feature_1a0dc31facfd898c9f2c7907403bd3c4e1" prot="public" virt="virtual"><scope>Post::FeatureSOLIDCreateSectionsLoft</scope><name>GetStartDepth</name></member>
+      <member refid="class_post_1_1_feature_1a252ade4e8188c192beaf03a8abbdca65" prot="public" virt="non-virtual"><scope>Post::FeatureSOLIDCreateSectionsLoft</scope><name>GetTransCADFeature</name></member>
+      <member refid="class_post_1_1_feature_s_o_l_i_d_create_sections_loft_1a698a1617b898f828c08d6abcdb4141d7" prot="protected" virt="non-virtual"><scope>Post::FeatureSOLIDCreateSectionsLoft</scope><name>hybridShapeExtremumNum</name></member>
+      <member refid="class_post_1_1_feature_1a2cdd61cc7885d66a902e7a29cca9bc05" prot="public" virt="non-virtual"><scope>Post::FeatureSOLIDCreateSectionsLoft</scope><name>SetFeatureName</name></member>
+      <member refid="class_post_1_1_feature_s_o_l_i_d_create_sections_loft_1a24653567189674cf9624c7ce852b204b" prot="public" virt="virtual"><scope>Post::FeatureSOLIDCreateSectionsLoft</scope><name>ToCATIA</name></member>
+      <member refid="class_post_1_1_feature_1a9a8ee05393f4321a5ceba0d075573a25" prot="public" virt="virtual"><scope>Post::FeatureSOLIDCreateSectionsLoft</scope><name>~Feature</name></member>
+      <member refid="class_post_1_1_feature_s_o_l_i_d_create_sections_loft_1af4891d183d4907e54e3efe12c4440602" prot="public" virt="virtual"><scope>Post::FeatureSOLIDCreateSectionsLoft</scope><name>~FeatureSOLIDCreateSectionsLoft</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

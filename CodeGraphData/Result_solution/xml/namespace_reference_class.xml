@@ -1,0 +1,49 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="namespace_reference_class" kind="namespace">
+    <compoundname>ReferenceClass</compoundname>
+    <innerclass refid="class_reference_class_1_1ref___post" prot="public">ReferenceClass::ref_Post</innerclass>
+    <innerclass refid="class_reference_class_1_1ref___pre" prot="public">ReferenceClass::ref_Pre</innerclass>
+      <sectiondef kind="func">
+      <memberdef kind="function" id="namespace_reference_class_1a7b836dbb40e109c6966102e6d62d5a40" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>public delegate void</type>
+        <definition>public delegate void ReferenceClass::SelectedDelegateCSharp</definition>
+        <argsstring>(Object^j)</argsstring>
+        <name>SelectedDelegateCSharp</name>
+        <param>
+          <type>Object^</type>
+          <declname>j</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/CPPWITHCSHARP/ReferenceClass_Post.h" line="6" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="namespace_reference_class_1ab46b353460a8649d02dfb2123317bce1" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>public delegate void</type>
+        <definition>public delegate void ReferenceClass::SelectedDelegateCplus</definition>
+        <argsstring>(int i)</argsstring>
+        <name>SelectedDelegateCplus</name>
+        <param>
+          <type>int</type>
+          <declname>i</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/CPPWITHCSHARP/ReferenceClass_Post.h" line="7" column="1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para><ref refid="namespace_post" kindref="compound">Post</ref> Process Reference 관리 Puclic //하나의 Constraint를 하기 위한 Master Part와 Slave Part의 참조 ReferenceName을 리턴 // TransCAD Assembly에서 사용하는 Part들을.CATScript로 변환하기 위한 함수 Private //하나의 Component를 받아와서 Part이름에 따라 그 Component의 몇번째 Part인지 번호를 리턴 //하나의 Assem을 받아와서 SubAssembly이름을 통하여 몇번째 CATIA의 Product에 해당하는지 알아냄 //Type을 인자로 받아서 CATIA에서 사용하는 consist Name으로 바꿔줌 //Part 정보를 통해서 TransCAD ReferenceName을 CATIA ReferenceName으로 변환 //TransCAD Assembly의 Reference 이름을 CATIA Reference 이름으로 변한</para><para><ref refid="namespace_pre" kindref="compound">Pre</ref> Process Reference 관리 </para>    </detaileddescription>
+    <location file="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/CPPWITHCSHARP/ReferenceClass_Post.cpp" line="27" column="1"/>
+  </compounddef>
+</doxygen>

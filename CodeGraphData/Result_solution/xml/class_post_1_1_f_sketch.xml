@@ -1,0 +1,441 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_post_1_1_f_sketch" kind="class" prot="public">
+    <compoundname>Post::FSketch</compoundname>
+    <basecompoundref refid="class_post_1_1_feature" prot="public" virt="non-virtual">Post::Feature</basecompoundref>
+    <includes refid="_post_manager_2ref_2_f_sketch_8h" local="no">FSketch.h</includes>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_post_1_1_f_sketch_1a417be726d2605fa5334c7bb574a93641" prot="private" static="no" mutable="no">
+        <type>TransCAD::IReferencePtr</type>
+        <definition>TransCAD::IReferencePtr Post::FSketch::_spReference</definition>
+        <argsstring></argsstring>
+        <name>_spReference</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/PostManager/ref/FSketch.h" line="25" column="1" bodyfile="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/PostManager/ref/FSketch.h" bodystart="25" bodyend="-1"/>
+        <referencedby refid="class_post_1_1_f_sketch_1ae9f4edcd006296df4706d1470285b1a6" compoundref="_post_manager_2ref_2_f_sketch_8cpp" startline="15" endline="31">FSketch</referencedby>
+        <referencedby refid="class_post_1_1_f_sketch_1a7bafff74162c56925124f63dc257948f" compoundref="_post_manager_2ref_2_f_sketch_8cpp" startline="87" endline="138">GetInfo</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_post_1_1_f_sketch_1ae406b77c56e901db0d7ca2dec5fb6018" prot="private" static="no" mutable="no">
+        <type>TransCAD::IStdSketchGeometriesPtr</type>
+        <definition>TransCAD::IStdSketchGeometriesPtr Post::FSketch::_spGeometries</definition>
+        <argsstring></argsstring>
+        <name>_spGeometries</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/PostManager/ref/FSketch.h" line="26" column="1" bodyfile="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/PostManager/ref/FSketch.h" bodystart="26" bodyend="-1"/>
+        <referencedby refid="class_post_1_1_f_sketch_1ae9f4edcd006296df4706d1470285b1a6" compoundref="_post_manager_2ref_2_f_sketch_8cpp" startline="15" endline="31">FSketch</referencedby>
+        <referencedby refid="class_post_1_1_f_sketch_1a7bafff74162c56925124f63dc257948f" compoundref="_post_manager_2ref_2_f_sketch_8cpp" startline="87" endline="138">GetInfo</referencedby>
+        <referencedby refid="class_post_1_1_f_sketch_1a04bbe4dfa30502ae0e62abd35ece66fe" compoundref="_post_manager_2ref_2_f_sketch_8cpp" startline="140" endline="276">ToCATIA</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_post_1_1_f_sketch_1a3414f497f1e3a099b21cd8e13b86fccf" prot="private" static="no" mutable="no">
+        <type>std::vector&lt; <ref refid="class_post_1_1_s_k_e_t_c_h_item" kindref="compound">SKETCHItem</ref> * &gt;</type>
+        <definition>std::vector&lt;SKETCHItem*&gt; Post::FSketch::_sketchItemList</definition>
+        <argsstring></argsstring>
+        <name>_sketchItemList</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/PostManager/ref/FSketch.h" line="28" column="1" bodyfile="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/PostManager/ref/FSketch.h" bodystart="28" bodyend="-1"/>
+        <referencedby refid="class_post_1_1_f_sketch_1a8fcfeea8f85bf3d4a7705ebf03f85041" compoundref="_post_manager_2ref_2_f_sketch_8cpp" startline="38" endline="49">Clear</referencedby>
+        <referencedby refid="class_post_1_1_f_sketch_1a5e1b9c9a8f8b2e7455c62e7d046197bc" compoundref="_post_manager_2ref_2_f_sketch_8cpp" startline="51" endline="85">CreateSketchItem</referencedby>
+        <referencedby refid="class_post_1_1_f_sketch_1a2f590bb3faea6b469ccbb3c4ba8cba0a" compoundref="_post_manager_2ref_2_f_sketch_8h" startline="15" endline="15">GetSketchItem</referencedby>
+        <referencedby refid="class_post_1_1_f_sketch_1a782755e4c05cc73bfb6227db02159e36" compoundref="_post_manager_2ref_2_f_sketch_8h" startline="16" endline="16">GetSketchItemsSize</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_post_1_1_f_sketch_1a8480fbea785fefebb34a067a98c7097d" prot="private" static="no" mutable="no">
+        <type>double</type>
+        <definition>double Post::FSketch::_CSYS[9]</definition>
+        <argsstring>[9]</argsstring>
+        <name>_CSYS</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/PostManager/ref/FSketch.h" line="29" column="1" bodyfile="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/PostManager/ref/FSketch.h" bodystart="29" bodyend="-1"/>
+        <referencedby refid="class_post_1_1_f_sketch_1ae9f4edcd006296df4706d1470285b1a6" compoundref="_post_manager_2ref_2_f_sketch_8cpp" startline="15" endline="31">FSketch</referencedby>
+        <referencedby refid="class_post_1_1_f_sketch_1a04bbe4dfa30502ae0e62abd35ece66fe" compoundref="_post_manager_2ref_2_f_sketch_8cpp" startline="140" endline="276">ToCATIA</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_post_1_1_f_sketch_1a0bd0cf875f9bd9430a2db6119b9b2d27" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int Post::FSketch::_type</definition>
+        <argsstring></argsstring>
+        <name>_type</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/PostManager/ref/FSketch.h" line="30" column="1" bodyfile="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/PostManager/ref/FSketch.h" bodystart="30" bodyend="-1"/>
+        <referencedby refid="class_post_1_1_f_sketch_1a7bafff74162c56925124f63dc257948f" compoundref="_post_manager_2ref_2_f_sketch_8cpp" startline="87" endline="138">GetInfo</referencedby>
+        <referencedby refid="class_post_1_1_f_sketch_1a04bbe4dfa30502ae0e62abd35ece66fe" compoundref="_post_manager_2ref_2_f_sketch_8cpp" startline="140" endline="276">ToCATIA</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_post_1_1_f_sketch_1ab252a05e664966ebfce2888aba352cd5" prot="private" static="no" mutable="no">
+        <type>string</type>
+        <definition>string Post::FSketch::_refName</definition>
+        <argsstring></argsstring>
+        <name>_refName</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/PostManager/ref/FSketch.h" line="32" column="1" bodyfile="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/PostManager/ref/FSketch.h" bodystart="32" bodyend="-1"/>
+        <referencedby refid="class_post_1_1_f_sketch_1a7bafff74162c56925124f63dc257948f" compoundref="_post_manager_2ref_2_f_sketch_8cpp" startline="87" endline="138">GetInfo</referencedby>
+        <referencedby refid="class_post_1_1_f_sketch_1a04bbe4dfa30502ae0e62abd35ece66fe" compoundref="_post_manager_2ref_2_f_sketch_8cpp" startline="140" endline="276">ToCATIA</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_post_1_1_f_sketch_1a19843f7a7d5c2b7eea114cb81413e59c" prot="private" static="no" mutable="no">
+        <type><ref refid="namespace_post_1a1a41e4a3a5e3a3aa143a7b7491a708dd" kindref="member">SKETCH_INFO</ref></type>
+        <definition>SKETCH_INFO Post::FSketch::sInfo</definition>
+        <argsstring></argsstring>
+        <name>sInfo</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/PostManager/ref/FSketch.h" line="33" column="1" bodyfile="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/PostManager/ref/FSketch.h" bodystart="33" bodyend="-1"/>
+        <referencedby refid="class_post_1_1_f_sketch_1a7bafff74162c56925124f63dc257948f" compoundref="_post_manager_2ref_2_f_sketch_8cpp" startline="87" endline="138">GetInfo</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_post_1_1_f_sketch_1af1f29243d6195dd7ea79663503dc6b1c" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool Post::FSketch::_isInversed</definition>
+        <argsstring></argsstring>
+        <name>_isInversed</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/PostManager/ref/FSketch.h" line="35" column="1" bodyfile="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/PostManager/ref/FSketch.h" bodystart="35" bodyend="-1"/>
+        <referencedby refid="class_post_1_1_f_sketch_1ae9f4edcd006296df4706d1470285b1a6" compoundref="_post_manager_2ref_2_f_sketch_8cpp" startline="15" endline="31">FSketch</referencedby>
+        <referencedby refid="class_post_1_1_f_sketch_1a04bbe4dfa30502ae0e62abd35ece66fe" compoundref="_post_manager_2ref_2_f_sketch_8cpp" startline="140" endline="276">ToCATIA</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_post_1_1_f_sketch_1ae9f4edcd006296df4706d1470285b1a6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>Post::FSketch::FSketch</definition>
+        <argsstring>(Part *pPart, TransCAD::IFeaturePtr spFeature)</argsstring>
+        <name>FSketch</name>
+        <param>
+          <type><ref refid="class_post_1_1_part" kindref="compound">Part</ref> *</type>
+          <declname>pPart</declname>
+        </param>
+        <param>
+          <type>TransCAD::IFeaturePtr</type>
+          <declname>spFeature</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/PostManager/ref/FSketch.h" line="10" column="1" bodyfile="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/PostManager/ref/FSketch.cpp" bodystart="15" bodyend="31"/>
+        <references refid="class_post_1_1_f_sketch_1a8480fbea785fefebb34a067a98c7097d" compoundref="_post_manager_2ref_2_f_sketch_8h" startline="29">_CSYS</references>
+        <references refid="class_post_1_1_f_sketch_1af1f29243d6195dd7ea79663503dc6b1c" compoundref="_post_manager_2ref_2_f_sketch_8h" startline="35">_isInversed</references>
+        <references refid="class_post_1_1_feature_1a9d39434cf1acdc737198fefcf8b32e67" compoundref="_post_manager_2ref_2_feature_8h" startline="30">Post::Feature::_spFeature</references>
+        <references refid="class_post_1_1_f_sketch_1ae406b77c56e901db0d7ca2dec5fb6018" compoundref="_post_manager_2ref_2_f_sketch_8h" startline="26">_spGeometries</references>
+        <references refid="class_post_1_1_f_sketch_1a417be726d2605fa5334c7bb574a93641" compoundref="_post_manager_2ref_2_f_sketch_8h" startline="25">_spReference</references>
+      </memberdef>
+      <memberdef kind="function" id="class_post_1_1_f_sketch_1aa86a4efc4b51d80889e37724ee19244c" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type></type>
+        <definition>Post::FSketch::~FSketch</definition>
+        <argsstring>(void)</argsstring>
+        <name>~FSketch</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/PostManager/ref/FSketch.h" line="11" column="1" bodyfile="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/PostManager/ref/FSketch.cpp" bodystart="33" bodyend="36"/>
+        <references refid="class_post_1_1_f_sketch_1a8fcfeea8f85bf3d4a7705ebf03f85041" compoundref="_post_manager_2ref_2_f_sketch_8cpp" startline="38" endline="49">Clear</references>
+      </memberdef>
+      <memberdef kind="function" id="class_post_1_1_f_sketch_1a8fcfeea8f85bf3d4a7705ebf03f85041" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Post::FSketch::Clear</definition>
+        <argsstring>()</argsstring>
+        <name>Clear</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/PostManager/ref/FSketch.h" line="13" column="1" bodyfile="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/PostManager/ref/FSketch.cpp" bodystart="38" bodyend="49"/>
+        <references refid="class_post_1_1_f_sketch_1a3414f497f1e3a099b21cd8e13b86fccf" compoundref="_post_manager_2ref_2_f_sketch_8h" startline="28">_sketchItemList</references>
+        <referencedby refid="class_post_1_1_f_sketch_1aa86a4efc4b51d80889e37724ee19244c" compoundref="_post_manager_2ref_2_f_sketch_8cpp" startline="33" endline="36">~FSketch</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_post_1_1_f_sketch_1a2f590bb3faea6b469ccbb3c4ba8cba0a" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="class_post_1_1_s_k_e_t_c_h_item" kindref="compound">SKETCHItem</ref> *</type>
+        <definition>SKETCHItem* Post::FSketch::GetSketchItem</definition>
+        <argsstring>(int index) const </argsstring>
+        <name>GetSketchItem</name>
+        <param>
+          <type>int</type>
+          <declname>index</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/PostManager/ref/FSketch.h" line="15" column="1" bodyfile="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/PostManager/ref/FSketch.h" bodystart="15" bodyend="15"/>
+        <references refid="class_post_1_1_f_sketch_1a3414f497f1e3a099b21cd8e13b86fccf" compoundref="_post_manager_2ref_2_f_sketch_8h" startline="28">_sketchItemList</references>
+        <referencedby refid="class_post_1_1_f_sketch_1a7bafff74162c56925124f63dc257948f" compoundref="_post_manager_2ref_2_f_sketch_8cpp" startline="87" endline="138">GetInfo</referencedby>
+        <referencedby refid="class_post_1_1_f_sketch_1a04bbe4dfa30502ae0e62abd35ece66fe" compoundref="_post_manager_2ref_2_f_sketch_8cpp" startline="140" endline="276">ToCATIA</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_post_1_1_f_sketch_1a782755e4c05cc73bfb6227db02159e36" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>size_t</type>
+        <definition>size_t Post::FSketch::GetSketchItemsSize</definition>
+        <argsstring>() const </argsstring>
+        <name>GetSketchItemsSize</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/PostManager/ref/FSketch.h" line="16" column="1" bodyfile="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/PostManager/ref/FSketch.h" bodystart="16" bodyend="16"/>
+        <references refid="class_post_1_1_f_sketch_1a3414f497f1e3a099b21cd8e13b86fccf" compoundref="_post_manager_2ref_2_f_sketch_8h" startline="28">_sketchItemList</references>
+        <referencedby refid="class_post_1_1_f_sketch_1a7bafff74162c56925124f63dc257948f" compoundref="_post_manager_2ref_2_f_sketch_8cpp" startline="87" endline="138">GetInfo</referencedby>
+        <referencedby refid="class_post_1_1_s_k_e_t_c_h_item_1a2045a90aa8118586c5122ca3c88d2362" compoundref="_s_k_e_t_c_h_item_8cpp" startline="5" endline="13">Post::SKETCHItem::SKETCHItem</referencedby>
+        <referencedby refid="class_post_1_1_f_sketch_1a04bbe4dfa30502ae0e62abd35ece66fe" compoundref="_post_manager_2ref_2_f_sketch_8cpp" startline="140" endline="276">ToCATIA</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_post_1_1_f_sketch_1a7bafff74162c56925124f63dc257948f" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void Post::FSketch::GetInfo</definition>
+        <argsstring>()</argsstring>
+        <name>GetInfo</name>
+        <reimplements refid="class_post_1_1_feature_1af8d63a27b30083d99102016ae177b45f">GetInfo</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/PostManager/ref/FSketch.h" line="18" column="1" bodyfile="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/PostManager/ref/FSketch.cpp" bodystart="87" bodyend="138"/>
+        <references refid="class_post_1_1_f_sketch_1ab252a05e664966ebfce2888aba352cd5" compoundref="_post_manager_2ref_2_f_sketch_8h" startline="32">_refName</references>
+        <references refid="class_post_1_1_f_sketch_1ae406b77c56e901db0d7ca2dec5fb6018" compoundref="_post_manager_2ref_2_f_sketch_8h" startline="26">_spGeometries</references>
+        <references refid="class_post_1_1_f_sketch_1a417be726d2605fa5334c7bb574a93641" compoundref="_post_manager_2ref_2_f_sketch_8h" startline="25">_spReference</references>
+        <references refid="class_post_1_1_f_sketch_1a0bd0cf875f9bd9430a2db6119b9b2d27" compoundref="_post_manager_2ref_2_f_sketch_8h" startline="30">_type</references>
+        <references refid="class_post_1_1_c_a_t_i_a_reference_manager_1a7136483a68c4864c1ecdffe3b842f030" compoundref="_c_a_t_i_a_reference_manager_8cpp" startline="18" endline="42">Post::CATIAReferenceManager::AddNewEntity</references>
+        <references refid="class_post_1_1_c_a_t_i_a_reference_manager_1a9a6d967f69a40e0f1b42a885dbf3c164" compoundref="_c_a_t_i_a_reference_manager_8h" startline="55" endline="55">Post::CATIAReferenceManager::AddSketchInfo</references>
+        <references refid="class_post_1_1_f_sketch_1a5e1b9c9a8f8b2e7455c62e7d046197bc" compoundref="_post_manager_2ref_2_f_sketch_8cpp" startline="51" endline="85">CreateSketchItem</references>
+        <references refid="_post_manager_2ref_2_part_8cpp_1a7a8829f663f72e520593688e551c372e" compoundref="_post_manager_2_stdafx_8cpp" startline="10">ExternMode</references>
+        <references refid="namespace_post_1a757521acb19b64cd9a29879d6c5a7d5f" compoundref="_c_a_t_i_apost___d_l_l_8cpp" startline="32">Post::g_pRefManager</references>
+        <references refid="class_post_1_1_feature_1a68d3fb9f274c6170d83e2a51d01400ac" compoundref="_post_manager_2ref_2_feature_8h" startline="16" endline="16">Post::Feature::GetFeatureName</references>
+        <references refid="class_post_1_1_s_k_e_t_c_h_item_1a0f78eab80c6b5b6e0c9117ae130c4990" compoundref="_s_k_e_t_c_h_item_8cpp" startline="19" endline="21">Post::SKETCHItem::GetInfo</references>
+        <references refid="class_post_1_1_f_sketch_1a2f590bb3faea6b469ccbb3c4ba8cba0a" compoundref="_post_manager_2ref_2_f_sketch_8h" startline="15" endline="15">GetSketchItem</references>
+        <references refid="class_post_1_1_f_sketch_1a782755e4c05cc73bfb6227db02159e36" compoundref="_post_manager_2ref_2_f_sketch_8h" startline="16" endline="16">GetSketchItemsSize</references>
+        <references refid="class_post_1_1_f_sketch_1a19843f7a7d5c2b7eea114cb81413e59c" compoundref="_post_manager_2ref_2_f_sketch_8h" startline="33">sInfo</references>
+        <references refid="struct_post_1_1__sketch_info_1a1a72142c3c5dd92469258d1232186757" compoundref="_c_a_t_i_a_reference_manager_8h" startline="29">Post::_sketchInfo::sketch_name</references>
+        <references refid="struct_post_1_1__sketch_info_1a03b66d598024921072b04dde20bc9577" compoundref="_c_a_t_i_a_reference_manager_8h" startline="30">Post::_sketchInfo::sketch_ref</references>
+      </memberdef>
+      <memberdef kind="function" id="class_post_1_1_f_sketch_1a04bbe4dfa30502ae0e62abd35ece66fe" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void Post::FSketch::ToCATIA</definition>
+        <argsstring>()</argsstring>
+        <name>ToCATIA</name>
+        <reimplements refid="class_post_1_1_feature_1af5e4685a9e9a3a1b80c65d43a5260bf3">ToCATIA</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/PostManager/ref/FSketch.h" line="19" column="1" bodyfile="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/PostManager/ref/FSketch.cpp" bodystart="140" bodyend="276"/>
+        <references refid="class_post_1_1_f_sketch_1a8480fbea785fefebb34a067a98c7097d" compoundref="_post_manager_2ref_2_f_sketch_8h" startline="29">_CSYS</references>
+        <references refid="class_post_1_1_f_sketch_1af1f29243d6195dd7ea79663503dc6b1c" compoundref="_post_manager_2ref_2_f_sketch_8h" startline="35">_isInversed</references>
+        <references refid="class_post_1_1_feature_1a93e0edd3b8a4639ad851119b773582cb" compoundref="_post_manager_2ref_2_feature_8h" startline="27">Post::Feature::_pPart</references>
+        <references refid="class_post_1_1_f_sketch_1ab252a05e664966ebfce2888aba352cd5" compoundref="_post_manager_2ref_2_f_sketch_8h" startline="32">_refName</references>
+        <references refid="class_post_1_1_part_1a96499e27869e4f2b69212e55549bb4e9" compoundref="_post_manager_2ref_2_part_8h" startline="39">Post::Part::_spFeatures</references>
+        <references refid="class_post_1_1_f_sketch_1ae406b77c56e901db0d7ca2dec5fb6018" compoundref="_post_manager_2ref_2_f_sketch_8h" startline="26">_spGeometries</references>
+        <references refid="class_post_1_1_f_sketch_1a0bd0cf875f9bd9430a2db6119b9b2d27" compoundref="_post_manager_2ref_2_f_sketch_8h" startline="30">_type</references>
+        <references refid="class_post_1_1_c_a_t_i_a_reference_manager_1a7136483a68c4864c1ecdffe3b842f030" compoundref="_c_a_t_i_a_reference_manager_8cpp" startline="18" endline="42">Post::CATIAReferenceManager::AddNewEntity</references>
+        <references refid="_c_a_t_i_apost___d_l_l_8cpp_1a217bd7e0678e7561d064b89ef20cea83" compoundref="_c_a_t_i_apost___d_l_l_8cpp" startline="21">arr_index</references>
+        <references refid="class_post_1_1_c_a_t_i_a_reference_manager_1a14b0bf73747d910e987049d1f11e53fa" compoundref="_c_a_t_i_a_reference_manager_8cpp" startline="181" endline="212">Post::CATIAReferenceManager::ConvertToBRepFace</references>
+        <references refid="class_post_1_1_f_sketch_1a5e1b9c9a8f8b2e7455c62e7d046197bc" compoundref="_post_manager_2ref_2_f_sketch_8cpp" startline="51" endline="85">CreateSketchItem</references>
+        <references refid="namespace_post_1a757521acb19b64cd9a29879d6c5a7d5f" compoundref="_c_a_t_i_apost___d_l_l_8cpp" startline="32">Post::g_pRefManager</references>
+        <references refid="class_post_1_1_part_1a07f75907c17887e5f7576fb9d726a469" compoundref="_post_manager_2ref_2_part_8cpp" startline="176" endline="187">Post::Part::GetFeatureByName</references>
+        <references refid="class_post_1_1_s_k_e_t_c_h_item_1a0f78eab80c6b5b6e0c9117ae130c4990" compoundref="_s_k_e_t_c_h_item_8cpp" startline="19" endline="21">Post::SKETCHItem::GetInfo</references>
+        <references refid="class_post_1_1_feature_1aace9d720d9a16b17c62ab6b4b91cea3c" compoundref="_post_manager_2ref_2_feature_8h" startline="12" endline="12">Post::Feature::GetPart</references>
+        <references refid="class_post_1_1_f_sketch_1a2f590bb3faea6b469ccbb3c4ba8cba0a" compoundref="_post_manager_2ref_2_f_sketch_8h" startline="15" endline="15">GetSketchItem</references>
+        <references refid="class_post_1_1_f_sketch_1a782755e4c05cc73bfb6227db02159e36" compoundref="_post_manager_2ref_2_f_sketch_8h" startline="16" endline="16">GetSketchItemsSize</references>
+        <references refid="class_post_1_1_feature_1a252ade4e8188c192beaf03a8abbdca65" compoundref="_post_manager_2ref_2_feature_8h" startline="18" endline="18">Post::Feature::GetTransCADFeature</references>
+        <references refid="class_post_1_1_f_datum_plane_offset_1a9194e7b4359f6d64cba1177fbaf467f3" compoundref="_post_manager_2ref_2_f_datum_plane_offset_8h" startline="13" endline="13">Post::FDatumPlaneOffset::IsBrepReference</references>
+        <references refid="_c_a_t_i_apost___d_l_l_8cpp_1aeb445a927ac5b1b741fdb4f80d547ad2" compoundref="_c_a_t_i_apost___d_l_l_8cpp" startline="20">ln_index</references>
+        <references refid="_c_a_t_i_apost___d_l_l_8cpp_1a4a001227aeffed8767cfd035c687e1ca" compoundref="_c_a_t_i_apost___d_l_l_8cpp" startline="17">ref_index</references>
+        <references refid="_c_a_t_i_apost___d_l_l_8cpp_1a0dbf0a49be0c3f6f56054c0efbb53c31" compoundref="_c_a_t_i_apost___d_l_l_8cpp" startline="26">sktch</references>
+        <references refid="class_post_1_1_s_k_e_t_c_h_item_1a968893b49cba397d8db6c151c991e726" compoundref="_s_k_e_t_c_h_item_8cpp" startline="23" endline="25">Post::SKETCHItem::ToCATIA</references>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="protected-func">
+      <memberdef kind="function" id="class_post_1_1_f_sketch_1a5e1b9c9a8f8b2e7455c62e7d046197bc" prot="protected" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="class_post_1_1_s_k_e_t_c_h_item" kindref="compound">SKETCHItem</ref> *</type>
+        <definition>SKETCHItem * Post::FSketch::CreateSketchItem</definition>
+        <argsstring>(TransCAD::IStdSketchGeometryPtr spItem)</argsstring>
+        <name>CreateSketchItem</name>
+        <param>
+          <type>TransCAD::IStdSketchGeometryPtr</type>
+          <declname>spItem</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/PostManager/ref/FSketch.h" line="22" column="1" bodyfile="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/PostManager/ref/FSketch.cpp" bodystart="51" bodyend="85"/>
+        <references refid="class_post_1_1_f_sketch_1a3414f497f1e3a099b21cd8e13b86fccf" compoundref="_post_manager_2ref_2_f_sketch_8h" startline="28">_sketchItemList</references>
+        <referencedby refid="class_post_1_1_f_sketch_1a7bafff74162c56925124f63dc257948f" compoundref="_post_manager_2ref_2_f_sketch_8cpp" startline="87" endline="138">GetInfo</referencedby>
+        <referencedby refid="class_post_1_1_f_sketch_1a04bbe4dfa30502ae0e62abd35ece66fe" compoundref="_post_manager_2ref_2_f_sketch_8cpp" startline="140" endline="276">ToCATIA</referencedby>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="902">
+        <label>Post::Feature</label>
+        <link refid="class_post_1_1_feature"/>
+      </node>
+      <node id="901">
+        <label>Post::FSketch</label>
+        <link refid="class_post_1_1_f_sketch"/>
+        <childnode refid="902" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="905">
+        <label>Post::Part</label>
+        <link refid="class_post_1_1_part"/>
+        <childnode refid="906" relation="usage">
+          <edgelabel>_featureList</edgelabel>
+        </childnode>
+        <childnode refid="907" relation="usage">
+          <edgelabel>_strPartName</edgelabel>
+        </childnode>
+      </node>
+      <node id="904">
+        <label>Post::Feature</label>
+        <link refid="class_post_1_1_feature"/>
+        <childnode refid="905" relation="usage">
+          <edgelabel>_pPart</edgelabel>
+        </childnode>
+        <childnode refid="907" relation="usage">
+          <edgelabel>_strName</edgelabel>
+        </childnode>
+      </node>
+      <node id="903">
+        <label>Post::FSketch</label>
+        <link refid="class_post_1_1_f_sketch"/>
+        <childnode refid="904" relation="public-inheritance">
+        </childnode>
+        <childnode refid="909" relation="usage">
+          <edgelabel>sInfo</edgelabel>
+        </childnode>
+        <childnode refid="907" relation="usage">
+          <edgelabel>_refName</edgelabel>
+        </childnode>
+        <childnode refid="910" relation="usage">
+          <edgelabel>_sketchItemList</edgelabel>
+        </childnode>
+      </node>
+      <node id="911">
+        <label>Post::SKETCHItem</label>
+        <link refid="class_post_1_1_s_k_e_t_c_h_item"/>
+        <childnode refid="903" relation="usage">
+          <edgelabel>_pFSketch</edgelabel>
+        </childnode>
+        <childnode refid="907" relation="usage">
+          <edgelabel>_strName</edgelabel>
+        </childnode>
+      </node>
+      <node id="908">
+        <label>std::basic_string&lt; char &gt;</label>
+      </node>
+      <node id="909">
+        <label>Post::_sketchInfo</label>
+        <link refid="struct_post_1_1__sketch_info"/>
+        <childnode refid="907" relation="usage">
+          <edgelabel>sketch_name</edgelabel>
+          <edgelabel>sketch_ref</edgelabel>
+        </childnode>
+      </node>
+      <node id="910">
+        <label>std::vector&lt; Post::SKETCHItem * &gt;</label>
+        <childnode refid="911" relation="usage">
+          <edgelabel>elements</edgelabel>
+        </childnode>
+      </node>
+      <node id="906">
+        <label>std::vector&lt; Post::Feature * &gt;</label>
+        <childnode refid="904" relation="usage">
+          <edgelabel>elements</edgelabel>
+        </childnode>
+      </node>
+      <node id="907">
+        <label>std::string</label>
+        <childnode refid="908" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/PostManager/ref/FSketch.h" line="8" column="1" bodyfile="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/PostManager/ref/FSketch.h" bodystart="7" bodyend="36"/>
+    <listofallmembers>
+      <member refid="class_post_1_1_f_sketch_1a8480fbea785fefebb34a067a98c7097d" prot="private" virt="non-virtual"><scope>Post::FSketch</scope><name>_CSYS</name></member>
+      <member refid="class_post_1_1_f_sketch_1af1f29243d6195dd7ea79663503dc6b1c" prot="private" virt="non-virtual"><scope>Post::FSketch</scope><name>_isInversed</name></member>
+      <member refid="class_post_1_1_feature_1a6a0b62ac67583207cd51d36b8540f75b" prot="public" virt="non-virtual"><scope>Post::FSketch</scope><name>_nIndex</name></member>
+      <member refid="class_post_1_1_feature_1a93e0edd3b8a4639ad851119b773582cb" prot="public" virt="non-virtual"><scope>Post::FSketch</scope><name>_pPart</name></member>
+      <member refid="class_post_1_1_f_sketch_1ab252a05e664966ebfce2888aba352cd5" prot="private" virt="non-virtual"><scope>Post::FSketch</scope><name>_refName</name></member>
+      <member refid="class_post_1_1_f_sketch_1a3414f497f1e3a099b21cd8e13b86fccf" prot="private" virt="non-virtual"><scope>Post::FSketch</scope><name>_sketchItemList</name></member>
+      <member refid="class_post_1_1_feature_1a9d39434cf1acdc737198fefcf8b32e67" prot="public" virt="non-virtual"><scope>Post::FSketch</scope><name>_spFeature</name></member>
+      <member refid="class_post_1_1_f_sketch_1ae406b77c56e901db0d7ca2dec5fb6018" prot="private" virt="non-virtual"><scope>Post::FSketch</scope><name>_spGeometries</name></member>
+      <member refid="class_post_1_1_f_sketch_1a417be726d2605fa5334c7bb574a93641" prot="private" virt="non-virtual"><scope>Post::FSketch</scope><name>_spReference</name></member>
+      <member refid="class_post_1_1_feature_1a89de9a11285c07976c881031857287bc" prot="public" virt="non-virtual"><scope>Post::FSketch</scope><name>_strName</name></member>
+      <member refid="class_post_1_1_f_sketch_1a0bd0cf875f9bd9430a2db6119b9b2d27" prot="private" virt="non-virtual"><scope>Post::FSketch</scope><name>_type</name></member>
+      <member refid="class_post_1_1_f_sketch_1a8fcfeea8f85bf3d4a7705ebf03f85041" prot="public" virt="non-virtual"><scope>Post::FSketch</scope><name>Clear</name></member>
+      <member refid="class_post_1_1_f_sketch_1a5e1b9c9a8f8b2e7455c62e7d046197bc" prot="protected" virt="non-virtual"><scope>Post::FSketch</scope><name>CreateSketchItem</name></member>
+      <member refid="class_post_1_1_feature_1a757c6724362593cf5b61c06777e1476f" prot="public" virt="non-virtual"><scope>Post::FSketch</scope><name>Feature</name></member>
+      <member refid="class_post_1_1_f_sketch_1ae9f4edcd006296df4706d1470285b1a6" prot="public" virt="non-virtual"><scope>Post::FSketch</scope><name>FSketch</name></member>
+      <member refid="class_post_1_1_feature_1a4abc47e4eee19b3da64571f8ccd61a3c" prot="public" virt="virtual"><scope>Post::FSketch</scope><name>GetEndDepth</name></member>
+      <member refid="class_post_1_1_feature_1a17937115029d464402a274393c9efc82" prot="public" virt="non-virtual"><scope>Post::FSketch</scope><name>GetFeatureIndex</name></member>
+      <member refid="class_post_1_1_feature_1a68d3fb9f274c6170d83e2a51d01400ac" prot="public" virt="non-virtual"><scope>Post::FSketch</scope><name>GetFeatureName</name></member>
+      <member refid="class_post_1_1_f_sketch_1a7bafff74162c56925124f63dc257948f" prot="public" virt="virtual"><scope>Post::FSketch</scope><name>GetInfo</name></member>
+      <member refid="class_post_1_1_feature_1aace9d720d9a16b17c62ab6b4b91cea3c" prot="public" virt="non-virtual"><scope>Post::FSketch</scope><name>GetPart</name></member>
+      <member refid="class_post_1_1_f_sketch_1a2f590bb3faea6b469ccbb3c4ba8cba0a" prot="public" virt="non-virtual"><scope>Post::FSketch</scope><name>GetSketchItem</name></member>
+      <member refid="class_post_1_1_f_sketch_1a782755e4c05cc73bfb6227db02159e36" prot="public" virt="non-virtual"><scope>Post::FSketch</scope><name>GetSketchItemsSize</name></member>
+      <member refid="class_post_1_1_feature_1a0dc31facfd898c9f2c7907403bd3c4e1" prot="public" virt="virtual"><scope>Post::FSketch</scope><name>GetStartDepth</name></member>
+      <member refid="class_post_1_1_feature_1a252ade4e8188c192beaf03a8abbdca65" prot="public" virt="non-virtual"><scope>Post::FSketch</scope><name>GetTransCADFeature</name></member>
+      <member refid="class_post_1_1_feature_1a2cdd61cc7885d66a902e7a29cca9bc05" prot="public" virt="non-virtual"><scope>Post::FSketch</scope><name>SetFeatureName</name></member>
+      <member refid="class_post_1_1_f_sketch_1a19843f7a7d5c2b7eea114cb81413e59c" prot="private" virt="non-virtual"><scope>Post::FSketch</scope><name>sInfo</name></member>
+      <member refid="class_post_1_1_f_sketch_1a04bbe4dfa30502ae0e62abd35ece66fe" prot="public" virt="virtual"><scope>Post::FSketch</scope><name>ToCATIA</name></member>
+      <member refid="class_post_1_1_feature_1a9a8ee05393f4321a5ceba0d075573a25" prot="public" virt="virtual"><scope>Post::FSketch</scope><name>~Feature</name></member>
+      <member refid="class_post_1_1_f_sketch_1aa86a4efc4b51d80889e37724ee19244c" prot="public" virt="virtual"><scope>Post::FSketch</scope><name>~FSketch</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

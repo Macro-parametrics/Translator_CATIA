@@ -1,0 +1,50 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="struct_wire_info" kind="struct" prot="public">
+    <compoundname>WireInfo</compoundname>
+    <includes refid="_pre_manager_2ref_2_definition_8h" local="no">Definition.h</includes>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="struct_wire_info_1a704a0100a840c019e717a912cc694853" prot="public" static="no" mutable="no">
+        <type>string</type>
+        <definition>string WireInfo::_sketchName</definition>
+        <argsstring></argsstring>
+        <name>_sketchName</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/PreManager/ref/Definition.h" line="154" column="1" bodyfile="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/PreManager/ref/Definition.h" bodystart="154" bodyend="-1"/>
+        <referencedby refid="class_pre_1_1_feature_s_o_l_i_d_create_revolve_1a0ff557f26cc9a7551a1a78b83f7673cf" compoundref="_feature_s_o_l_i_d_create_revolve_8cpp" startline="149" endline="215">Pre::FeatureSOLIDCreateRevolve::AddNewRevolveAxis</referencedby>
+        <referencedby refid="class_pre_1_1_reference_entity_1a777fcc45777d37978ddb586b590133aa" compoundref="_reference_entity_8cpp" startline="18" endline="194">Pre::ReferenceEntity::GetInfo</referencedby>
+        <referencedby refid="class_pre_1_1_reference_entity_1ab193a350f007a3546577bf6171a50889" compoundref="_reference_entity_8cpp" startline="436" endline="587">Pre::ReferenceEntity::GetReferName</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="struct_wire_info_1adbc541ae5a8c1b618af1e73300571717" prot="public" static="no" mutable="no">
+        <type>string</type>
+        <definition>string WireInfo::_sketchItemName</definition>
+        <argsstring></argsstring>
+        <name>_sketchItemName</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/PreManager/ref/Definition.h" line="155" column="1" bodyfile="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/PreManager/ref/Definition.h" bodystart="155" bodyend="-1"/>
+        <referencedby refid="class_pre_1_1_feature_s_o_l_i_d_create_revolve_1a0ff557f26cc9a7551a1a78b83f7673cf" compoundref="_feature_s_o_l_i_d_create_revolve_8cpp" startline="149" endline="215">Pre::FeatureSOLIDCreateRevolve::AddNewRevolveAxis</referencedby>
+        <referencedby refid="class_pre_1_1_reference_entity_1a777fcc45777d37978ddb586b590133aa" compoundref="_reference_entity_8cpp" startline="18" endline="194">Pre::ReferenceEntity::GetInfo</referencedby>
+        <referencedby refid="class_pre_1_1_reference_entity_1ab193a350f007a3546577bf6171a50889" compoundref="_reference_entity_8cpp" startline="436" endline="587">Pre::ReferenceEntity::GetReferName</referencedby>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/PreManager/ref/Definition.h" line="153" column="1" bodyfile="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/PreManager/ref/Definition.h" bodystart="152" bodyend="156"/>
+    <listofallmembers>
+      <member refid="struct_wire_info_1adbc541ae5a8c1b618af1e73300571717" prot="public" virt="non-virtual"><scope>WireInfo</scope><name>_sketchItemName</name></member>
+      <member refid="struct_wire_info_1a704a0100a840c019e717a912cc694853" prot="public" virt="non-virtual"><scope>WireInfo</scope><name>_sketchName</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

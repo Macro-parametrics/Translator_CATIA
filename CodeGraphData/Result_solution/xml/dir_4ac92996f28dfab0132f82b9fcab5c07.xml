@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="dir_4ac92996f28dfab0132f82b9fcab5c07" kind="dir">
+    <compoundname>PostManager</compoundname>
+    <innerdir refid="dir_9569f222c89eae0e3813db50416ca2e4">PostManager/ref</innerdir>
+    <innerfile refid="_post_manager_2_stdafx_8cpp">stdafx.cpp</innerfile>
+    <innerfile refid="_post_manager_2_stdafx_8h">stdafx.h</innerfile>
+    <innerfile refid="_post_manager_2targetver_8h">targetver.h</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/PostManager/"/>
+  </compounddef>
+</doxygen>

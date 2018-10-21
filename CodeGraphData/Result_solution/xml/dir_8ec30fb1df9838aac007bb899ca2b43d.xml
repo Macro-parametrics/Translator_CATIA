@@ -1,0 +1,14 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="dir_8ec30fb1df9838aac007bb899ca2b43d" kind="dir">
+    <compoundname>CATIATranslator/Assembly</compoundname>
+    <innerfile refid="_assembly_8cs">Assembly.cs</innerfile>
+    <innerfile refid="_assembly_constraints_8cs">AssemblyConstraints.cs</innerfile>
+    <innerfile refid="_assembly_parts_8cs">AssemblyParts.cs</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/CATIATranslator/Assembly/"/>
+  </compounddef>
+</doxygen>

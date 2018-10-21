@@ -1,0 +1,13 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="namespace_c_a_t_i_a_translator_1_1_properties" kind="namespace">
+    <compoundname>CATIATranslator::Properties</compoundname>
+    <innerclass refid="class_c_a_t_i_a_translator_1_1_properties_1_1_resources" prot="package">CATIATranslator::Properties::Resources</innerclass>
+    <innerclass refid="class_c_a_t_i_a_translator_1_1_properties_1_1_settings" prot="package">CATIATranslator::Properties::Settings</innerclass>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/CATIATranslator/Properties/Resources.Designer.cs" line="12" column="1"/>
+  </compounddef>
+</doxygen>

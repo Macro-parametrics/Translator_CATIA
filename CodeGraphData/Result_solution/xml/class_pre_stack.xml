@@ -1,0 +1,165 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_pre_stack" kind="class" prot="public">
+    <compoundname>PreStack</compoundname>
+    <includes refid="_reference_class_8h" local="no">ReferenceClass.h</includes>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_pre_stack_1a518f0521afc0d3de167063eb32d25b52" prot="private" static="no" mutable="no">
+        <type>List&lt; String^&gt;</type>
+        <definition>List&lt;String^&gt; PreStack::_dir</definition>
+        <argsstring></argsstring>
+        <name>_dir</name>
+        <initializer>= gcnew List&lt;String^&gt;()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/CPPWITHCSHARP/ReferenceClass.h" line="37" column="1" bodyfile="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/CPPWITHCSHARP/ReferenceClass.h" bodystart="37" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_pre_stack_1a784ae9cba26983735be0e111fa888877" prot="private" static="no" mutable="no">
+        <type>List&lt; String^&gt;</type>
+        <definition>List&lt;String^&gt; PreStack::_part_catia_name</definition>
+        <argsstring></argsstring>
+        <name>_part_catia_name</name>
+        <initializer>= gcnew List&lt;String^&gt;()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/CPPWITHCSHARP/ReferenceClass.h" line="38" column="1" bodyfile="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/CPPWITHCSHARP/ReferenceClass.h" bodystart="38" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_pre_stack_1aff4cabea8bceac6cf4c76a666bc773c8" prot="private" static="no" mutable="no">
+        <type>List&lt; String^&gt;</type>
+        <definition>List&lt;String^&gt; PreStack::_part_transcad_name</definition>
+        <argsstring></argsstring>
+        <name>_part_transcad_name</name>
+        <initializer>= gcnew List&lt;String^&gt;()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/CPPWITHCSHARP/ReferenceClass.h" line="39" column="1" bodyfile="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/CPPWITHCSHARP/ReferenceClass.h" bodystart="39" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_pre_stack_1a57dc1cb201f76e5098f8eb7de3aa6d22" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void PreStack::StackItem</definition>
+        <argsstring>(String^dir, String^part_catia_name, String^part_transcad_name)</argsstring>
+        <name>StackItem</name>
+        <param>
+          <type>String^</type>
+          <declname>dir</declname>
+        </param>
+        <param>
+          <type>String^</type>
+          <declname>part_catia_name</declname>
+        </param>
+        <param>
+          <type>String^</type>
+          <declname>part_transcad_name</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/CPPWITHCSHARP/ReferenceClass.h" line="41" column="1" bodyfile="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/CPPWITHCSHARP/ReferenceClass.h" bodystart="41" bodyend="47"/>
+      </memberdef>
+      <memberdef kind="function" id="class_pre_stack_1adb9f10b73879559db98cc9e418f79a48" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>int</type>
+        <definition>int PreStack::GetSize</definition>
+        <argsstring>()</argsstring>
+        <name>GetSize</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/CPPWITHCSHARP/ReferenceClass.h" line="48" column="1" bodyfile="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/CPPWITHCSHARP/ReferenceClass.h" bodystart="48" bodyend="48"/>
+        <referencedby refid="class_reference_class_1_1ref___pre_1af46f69f170b7626db974e08e24894353" compoundref="_reference_class___pre_8cpp" startline="66" endline="121">ReferenceClass::ref_Pre::TestEnvironment</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_pre_stack_1a789be7a07d29bec0fdb891c737da31a3" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void PreStack::Clear</definition>
+        <argsstring>()</argsstring>
+        <name>Clear</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/CPPWITHCSHARP/ReferenceClass.h" line="49" column="1" bodyfile="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/CPPWITHCSHARP/ReferenceClass.h" bodystart="49" bodyend="49"/>
+      </memberdef>
+      <memberdef kind="function" id="class_pre_stack_1ab97cfcc64415c2cb573333ea52d31ca8" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>int</type>
+        <definition>int PreStack::Getindex_from_name</definition>
+        <argsstring>(String^part_catia_name, int order)</argsstring>
+        <name>Getindex_from_name</name>
+        <param>
+          <type>String^</type>
+          <declname>part_catia_name</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>order</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/CPPWITHCSHARP/ReferenceClass.h" line="50" column="1" bodyfile="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/CPPWITHCSHARP/ReferenceClass.h" bodystart="50" bodyend="58"/>
+        <referencedby refid="class_reference_class_1_1ref___pre_1a8d058d5b4069f52fe9673bc9202f3cd0" compoundref="_reference_class___pre_8cpp" startline="258" endline="301">ReferenceClass::ref_Pre::GetTransCADName_from_buffer</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_pre_stack_1a2dc1d77864de7e01e83891bd46777f7c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>String</type>
+        <definition>String PreStack::Getitem_from_index</definition>
+        <argsstring>(int item, int index)</argsstring>
+        <name>Getitem_from_index</name>
+        <param>
+          <type>int</type>
+          <declname>item</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>index</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/CPPWITHCSHARP/ReferenceClass.h" line="59" column="1" bodyfile="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/CPPWITHCSHARP/ReferenceClass.h" bodystart="59" bodyend="64"/>
+        <referencedby refid="class_reference_class_1_1ref___pre_1a8d058d5b4069f52fe9673bc9202f3cd0" compoundref="_reference_class___pre_8cpp" startline="258" endline="301">ReferenceClass::ref_Pre::GetTransCADName_from_buffer</referencedby>
+        <referencedby refid="class_reference_class_1_1ref___pre_1af46f69f170b7626db974e08e24894353" compoundref="_reference_class___pre_8cpp" startline="66" endline="121">ReferenceClass::ref_Pre::TestEnvironment</referencedby>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/CPPWITHCSHARP/ReferenceClass.h" line="35" column="1" bodyfile="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/CPPWITHCSHARP/ReferenceClass.h" bodystart="35" bodyend="65"/>
+    <listofallmembers>
+      <member refid="class_pre_stack_1a518f0521afc0d3de167063eb32d25b52" prot="private" virt="non-virtual"><scope>PreStack</scope><name>_dir</name></member>
+      <member refid="class_pre_stack_1a784ae9cba26983735be0e111fa888877" prot="private" virt="non-virtual"><scope>PreStack</scope><name>_part_catia_name</name></member>
+      <member refid="class_pre_stack_1aff4cabea8bceac6cf4c76a666bc773c8" prot="private" virt="non-virtual"><scope>PreStack</scope><name>_part_transcad_name</name></member>
+      <member refid="class_pre_stack_1a789be7a07d29bec0fdb891c737da31a3" prot="public" virt="non-virtual"><scope>PreStack</scope><name>Clear</name></member>
+      <member refid="class_pre_stack_1ab97cfcc64415c2cb573333ea52d31ca8" prot="public" virt="non-virtual"><scope>PreStack</scope><name>Getindex_from_name</name></member>
+      <member refid="class_pre_stack_1a2dc1d77864de7e01e83891bd46777f7c" prot="public" virt="non-virtual"><scope>PreStack</scope><name>Getitem_from_index</name></member>
+      <member refid="class_pre_stack_1adb9f10b73879559db98cc9e418f79a48" prot="public" virt="non-virtual"><scope>PreStack</scope><name>GetSize</name></member>
+      <member refid="class_pre_stack_1a57dc1cb201f76e5098f8eb7de3aa6d22" prot="public" virt="non-virtual"><scope>PreStack</scope><name>StackItem</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

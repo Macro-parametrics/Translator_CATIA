@@ -1,0 +1,362 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_pre_1_1_att_angular_repartation" kind="class" prot="public">
+    <compoundname>Pre::AttAngularRepartation</compoundname>
+    <basecompoundref refid="class_pre_1_1_attribute_item" prot="public" virt="non-virtual">Pre::AttributeItem</basecompoundref>
+    <includes refid="_att_angular_repartation_8h" local="no">AttAngularRepartation.h</includes>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_pre_1_1_att_angular_repartation_1adfe19b75e2fe3429d88b1a30f951730e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>Pre::AttAngularRepartation::AttAngularRepartation</definition>
+        <argsstring>(Part *pPart, int type, string name)</argsstring>
+        <name>AttAngularRepartation</name>
+        <param>
+          <type><ref refid="class_pre_1_1_part" kindref="compound">Part</ref> *</type>
+          <declname>pPart</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>type</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>name</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/PreManager/ref/AttAngularRepartation.h" line="7" column="1" bodyfile="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/PreManager/ref/AttAngularRepartation.cpp" bodystart="5" bodyend="9"/>
+        <references refid="class_pre_1_1_attribute_item_1a55411a73e84ce380f4b22d87be0c065a" compoundref="_attribute_item_8h" startline="27">Pre::AttributeItem::_value</references>
+      </memberdef>
+      <memberdef kind="function" id="class_pre_1_1_att_angular_repartation_1a069a5a991ccfa763f5b73e9ffac31b0c" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type></type>
+        <definition>Pre::AttAngularRepartation::~AttAngularRepartation</definition>
+        <argsstring>()</argsstring>
+        <name>~AttAngularRepartation</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/PreManager/ref/AttAngularRepartation.h" line="8" column="1" bodyfile="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/PreManager/ref/AttAngularRepartation.cpp" bodystart="11" bodyend="13"/>
+      </memberdef>
+      <memberdef kind="function" id="class_pre_1_1_att_angular_repartation_1aeb2e43e41721104280093855168f5d43" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void Pre::AttAngularRepartation::GetInfo</definition>
+        <argsstring>(ifstream &amp;is)</argsstring>
+        <name>GetInfo</name>
+        <reimplements refid="class_pre_1_1_attribute_item_1ae525b9c616a40016532a29d6df424de3">GetInfo</reimplements>
+        <param>
+          <type>ifstream &amp;</type>
+          <declname>is</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/PreManager/ref/AttAngularRepartation.h" line="10" column="1" bodyfile="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/PreManager/ref/AttAngularRepartation.cpp" bodystart="15" bodyend="39"/>
+        <references refid="class_pre_1_1_attribute_item_1a2367284f0672249ae539ac1924f12bb7" compoundref="_attribute_item_8h" startline="26">Pre::AttributeItem::_attributeName</references>
+        <references refid="class_pre_1_1_attribute_item_1a921288c89d639a103f98ccad5f3f01cb" compoundref="_attribute_item_8h" startline="25">Pre::AttributeItem::_featureName</references>
+      </memberdef>
+      <memberdef kind="function" id="class_pre_1_1_att_angular_repartation_1a81a040a8fdf0df1e751baeacc2e1fabe" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void Pre::AttAngularRepartation::Modify</definition>
+        <argsstring>(char *buffer)</argsstring>
+        <name>Modify</name>
+        <reimplements refid="class_pre_1_1_attribute_item_1ab6fe550dca4ebaf060433c962cc5e014">Modify</reimplements>
+        <param>
+          <type>char *</type>
+          <declname>buffer</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/PreManager/ref/AttAngularRepartation.h" line="11" column="1" bodyfile="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/PreManager/ref/AttAngularRepartation.cpp" bodystart="41" bodyend="43"/>
+      </memberdef>
+      <memberdef kind="function" id="class_pre_1_1_att_angular_repartation_1aad74e7f06664601a22ccab8397a52d1f" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void Pre::AttAngularRepartation::CheckAttribute</definition>
+        <argsstring>(string name, double value, int type)</argsstring>
+        <name>CheckAttribute</name>
+        <reimplements refid="class_pre_1_1_attribute_item_1aee247cd7e3f5b5b86562ceec3dd9b283">CheckAttribute</reimplements>
+        <param>
+          <type>string</type>
+          <declname>name</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>value</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>type</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/PreManager/ref/AttAngularRepartation.h" line="12" column="1" bodyfile="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/PreManager/ref/AttAngularRepartation.cpp" bodystart="45" bodyend="53"/>
+        <references refid="class_pre_1_1_attribute_item_1a2367284f0672249ae539ac1924f12bb7" compoundref="_attribute_item_8h" startline="26">Pre::AttributeItem::_attributeName</references>
+        <references refid="class_pre_1_1_attribute_item_1a921288c89d639a103f98ccad5f3f01cb" compoundref="_attribute_item_8h" startline="25">Pre::AttributeItem::_featureName</references>
+        <references refid="class_pre_1_1_feature_1a3b4b453b4ac49dde010d6760917266b7" compoundref="_pre_manager_2ref_2_feature_8cpp" startline="26" endline="28">Pre::Feature::CheckAttribute</references>
+        <references refid="class_pre_1_1_part_1a757a376bdc640e00119c3489ee35d2aa" compoundref="_pre_manager_2ref_2_part_8cpp" startline="320" endline="331">Pre::Part::GetFeatureByName</references>
+        <references refid="class_pre_1_1_attribute_item_1a028595a3b4b90035019a41f1c590062e" compoundref="_attribute_item_8h" startline="13" endline="13">Pre::AttributeItem::GetPart</references>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="59">
+        <label>Pre::AttributeItem</label>
+        <link refid="class_pre_1_1_attribute_item"/>
+      </node>
+      <node id="58">
+        <label>Pre::AttAngularRepartation</label>
+        <link refid="class_pre_1_1_att_angular_repartation"/>
+        <childnode refid="59" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="78">
+        <label>std::basic_ifstream&lt; char &gt;</label>
+        <childnode refid="79" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="63">
+        <label>std::vector&lt; Pre::ReferenceEntity * &gt;</label>
+        <childnode refid="64" relation="usage">
+          <edgelabel>elements</edgelabel>
+        </childnode>
+      </node>
+      <node id="82">
+        <label>std::vector&lt; Pre::SketchFeature &gt;</label>
+        <childnode refid="83" relation="usage">
+          <edgelabel>elements</edgelabel>
+        </childnode>
+      </node>
+      <node id="73">
+        <label>Pre::FSKETCHItem</label>
+        <link refid="class_pre_1_1_f_s_k_e_t_c_h_item"/>
+        <childnode refid="66" relation="usage">
+          <edgelabel>_name</edgelabel>
+        </childnode>
+        <childnode refid="70" relation="usage">
+          <edgelabel>_pFSketch</edgelabel>
+        </childnode>
+      </node>
+      <node id="72">
+        <label>std::vector&lt; Pre::FSKETCHItem * &gt;</label>
+        <childnode refid="73" relation="usage">
+          <edgelabel>elements</edgelabel>
+        </childnode>
+      </node>
+      <node id="79">
+        <label>std::basic_istream&lt; Char &gt;</label>
+        <childnode refid="80" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="85">
+        <label>std::vector&lt; Pre::Feature * &gt;</label>
+        <childnode refid="71" relation="usage">
+          <edgelabel>elements</edgelabel>
+        </childnode>
+      </node>
+      <node id="74">
+        <label>std::vector&lt; Pre::ReportItem &gt;</label>
+        <childnode refid="75" relation="usage">
+          <edgelabel>elements</edgelabel>
+        </childnode>
+      </node>
+      <node id="71">
+        <label>Pre::Feature</label>
+        <link refid="class_pre_1_1_feature"/>
+        <childnode refid="62" relation="usage">
+          <edgelabel>_pPart</edgelabel>
+        </childnode>
+        <childnode refid="66" relation="usage">
+          <edgelabel>_name</edgelabel>
+        </childnode>
+      </node>
+      <node id="65">
+        <label>std::vector&lt; FaceInfoList &gt;</label>
+      </node>
+      <node id="64">
+        <label>Pre::ReferenceEntity</label>
+        <link refid="class_pre_1_1_reference_entity"/>
+        <childnode refid="65" relation="usage">
+          <edgelabel>pEdge</edgelabel>
+        </childnode>
+        <childnode refid="62" relation="usage">
+          <edgelabel>_pPart</edgelabel>
+        </childnode>
+        <childnode refid="66" relation="usage">
+          <edgelabel>feature</edgelabel>
+          <edgelabel>TransCADEdgeName</edgelabel>
+          <edgelabel>TransCADFaceName</edgelabel>
+          <edgelabel>name</edgelabel>
+          <edgelabel>axis</edgelabel>
+        </childnode>
+        <childnode refid="68" relation="usage">
+          <edgelabel>pFace</edgelabel>
+        </childnode>
+        <childnode refid="70" relation="usage">
+          <edgelabel>pSketchManager</edgelabel>
+        </childnode>
+        <childnode refid="76" relation="usage">
+          <edgelabel>pWire</edgelabel>
+        </childnode>
+      </node>
+      <node id="67">
+        <label>std::basic_string&lt; char &gt;</label>
+      </node>
+      <node id="69">
+        <label>FaceInfo</label>
+        <link refid="struct_face_info"/>
+      </node>
+      <node id="75">
+        <label>Pre::ReportItem</label>
+        <link refid="struct_pre_1_1_report_item"/>
+        <childnode refid="66" relation="usage">
+          <edgelabel>_entityName</edgelabel>
+        </childnode>
+      </node>
+      <node id="76">
+        <label>WireInfo</label>
+        <link refid="struct_wire_info"/>
+      </node>
+      <node id="61">
+        <label>Pre::AttributeItem</label>
+        <link refid="class_pre_1_1_attribute_item"/>
+        <childnode refid="62" relation="usage">
+          <edgelabel>_pPart</edgelabel>
+        </childnode>
+        <childnode refid="66" relation="usage">
+          <edgelabel>_featureName</edgelabel>
+          <edgelabel>_name</edgelabel>
+          <edgelabel>_attributeName</edgelabel>
+        </childnode>
+      </node>
+      <node id="83">
+        <label>Pre::SketchFeature</label>
+        <link refid="struct_pre_1_1_sketch_feature"/>
+        <childnode refid="66" relation="usage">
+          <edgelabel>_featureName</edgelabel>
+          <edgelabel>_sketchName</edgelabel>
+        </childnode>
+      </node>
+      <node id="60">
+        <label>Pre::AttAngularRepartation</label>
+        <link refid="class_pre_1_1_att_angular_repartation"/>
+        <childnode refid="61" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="80">
+        <label>std::basic_ios&lt; Char &gt;</label>
+        <childnode refid="81" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="62">
+        <label>Pre::Part</label>
+        <link refid="class_pre_1_1_part"/>
+        <childnode refid="63" relation="usage">
+          <edgelabel>_referenceEntityList</edgelabel>
+        </childnode>
+        <childnode refid="77" relation="usage">
+          <edgelabel>fin</edgelabel>
+        </childnode>
+        <childnode refid="82" relation="usage">
+          <edgelabel>sketchNameTable</edgelabel>
+        </childnode>
+        <childnode refid="66" relation="usage">
+          <edgelabel>_fileName</edgelabel>
+          <edgelabel>_filePath</edgelabel>
+        </childnode>
+        <childnode refid="84" relation="usage">
+          <edgelabel>_attributeItemList</edgelabel>
+        </childnode>
+        <childnode refid="85" relation="usage">
+          <edgelabel>_featureList</edgelabel>
+        </childnode>
+      </node>
+      <node id="81">
+        <label>std::ios_base</label>
+      </node>
+      <node id="77">
+        <label>std::ifstream</label>
+        <childnode refid="78" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="84">
+        <label>std::vector&lt; Pre::AttributeItem * &gt;</label>
+        <childnode refid="61" relation="usage">
+          <edgelabel>elements</edgelabel>
+        </childnode>
+      </node>
+      <node id="68">
+        <label>std::vector&lt; FaceInfo &gt;</label>
+        <childnode refid="69" relation="usage">
+          <edgelabel>elements</edgelabel>
+        </childnode>
+      </node>
+      <node id="66">
+        <label>std::string</label>
+        <childnode refid="67" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="70">
+        <label>Pre::FSketch</label>
+        <link refid="class_pre_1_1_f_sketch"/>
+        <childnode refid="71" relation="public-inheritance">
+        </childnode>
+        <childnode refid="72" relation="usage">
+          <edgelabel>_sketchItemList</edgelabel>
+        </childnode>
+        <childnode refid="64" relation="usage">
+          <edgelabel>_pReferenceEntity</edgelabel>
+        </childnode>
+        <childnode refid="66" relation="usage">
+          <edgelabel>_axisName</edgelabel>
+          <edgelabel>_factoryName</edgelabel>
+        </childnode>
+        <childnode refid="74" relation="usage">
+          <edgelabel>reportNameTable</edgelabel>
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/PreManager/ref/AttAngularRepartation.h" line="5" column="1" bodyfile="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/PreManager/ref/AttAngularRepartation.h" bodystart="4" bodyend="13"/>
+    <listofallmembers>
+      <member refid="class_pre_1_1_attribute_item_1a2367284f0672249ae539ac1924f12bb7" prot="protected" virt="non-virtual"><scope>Pre::AttAngularRepartation</scope><name>_attributeName</name></member>
+      <member refid="class_pre_1_1_attribute_item_1a921288c89d639a103f98ccad5f3f01cb" prot="protected" virt="non-virtual"><scope>Pre::AttAngularRepartation</scope><name>_featureName</name></member>
+      <member refid="class_pre_1_1_attribute_item_1ac709c5fd9ce19ec7c34bfde540ff33b8" prot="protected" virt="non-virtual"><scope>Pre::AttAngularRepartation</scope><name>_id</name></member>
+      <member refid="class_pre_1_1_attribute_item_1a038f7f3ec13f1a554ab853a646ea731c" prot="protected" virt="non-virtual"><scope>Pre::AttAngularRepartation</scope><name>_name</name></member>
+      <member refid="class_pre_1_1_attribute_item_1a4fd56bf25f94537ccf373c6469f51738" prot="protected" virt="non-virtual"><scope>Pre::AttAngularRepartation</scope><name>_pPart</name></member>
+      <member refid="class_pre_1_1_attribute_item_1a444b077c58fe0ada93ee55fd9eb58d52" prot="protected" virt="non-virtual"><scope>Pre::AttAngularRepartation</scope><name>_type</name></member>
+      <member refid="class_pre_1_1_attribute_item_1a55411a73e84ce380f4b22d87be0c065a" prot="protected" virt="non-virtual"><scope>Pre::AttAngularRepartation</scope><name>_value</name></member>
+      <member refid="class_pre_1_1_att_angular_repartation_1adfe19b75e2fe3429d88b1a30f951730e" prot="public" virt="non-virtual"><scope>Pre::AttAngularRepartation</scope><name>AttAngularRepartation</name></member>
+      <member refid="class_pre_1_1_attribute_item_1af09ccc36da03bf511b44247b25c83f35" prot="public" virt="non-virtual"><scope>Pre::AttAngularRepartation</scope><name>AttributeItem</name></member>
+      <member refid="class_pre_1_1_att_angular_repartation_1aad74e7f06664601a22ccab8397a52d1f" prot="public" virt="virtual"><scope>Pre::AttAngularRepartation</scope><name>CheckAttribute</name></member>
+      <member refid="class_pre_1_1_attribute_item_1a912344f0ae1aeb9a30ca84254fa228f1" prot="public" virt="non-virtual"><scope>Pre::AttAngularRepartation</scope><name>GetId</name></member>
+      <member refid="class_pre_1_1_att_angular_repartation_1aeb2e43e41721104280093855168f5d43" prot="public" virt="virtual"><scope>Pre::AttAngularRepartation</scope><name>GetInfo</name></member>
+      <member refid="class_pre_1_1_attribute_item_1a1a9180e1336ee3cad4e736f7bba27184" prot="public" virt="non-virtual"><scope>Pre::AttAngularRepartation</scope><name>GetName</name></member>
+      <member refid="class_pre_1_1_attribute_item_1a028595a3b4b90035019a41f1c590062e" prot="public" virt="non-virtual"><scope>Pre::AttAngularRepartation</scope><name>GetPart</name></member>
+      <member refid="class_pre_1_1_attribute_item_1ac05a2863468303053150293b6f10ceec" prot="public" virt="non-virtual"><scope>Pre::AttAngularRepartation</scope><name>GetType</name></member>
+      <member refid="class_pre_1_1_att_angular_repartation_1a81a040a8fdf0df1e751baeacc2e1fabe" prot="public" virt="virtual"><scope>Pre::AttAngularRepartation</scope><name>Modify</name></member>
+      <member refid="class_pre_1_1_att_angular_repartation_1a069a5a991ccfa763f5b73e9ffac31b0c" prot="public" virt="virtual"><scope>Pre::AttAngularRepartation</scope><name>~AttAngularRepartation</name></member>
+      <member refid="class_pre_1_1_attribute_item_1aad0efaa8b68b971b8342b8634576c1d5" prot="public" virt="virtual"><scope>Pre::AttAngularRepartation</scope><name>~AttributeItem</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

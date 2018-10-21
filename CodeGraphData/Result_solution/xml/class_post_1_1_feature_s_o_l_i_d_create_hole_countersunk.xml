@@ -1,0 +1,325 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_post_1_1_feature_s_o_l_i_d_create_hole_countersunk" kind="class" prot="public">
+    <compoundname>Post::FeatureSOLIDCreateHoleCountersunk</compoundname>
+    <basecompoundref refid="class_post_1_1_feature" prot="public" virt="non-virtual">Post::Feature</basecompoundref>
+    <includes refid="_feature_s_o_l_i_d_create_hole_countersunk_8h" local="no">FeatureSOLIDCreateHoleCountersunk.h</includes>
+      <sectiondef kind="protected-attrib">
+      <memberdef kind="variable" id="class_post_1_1_feature_s_o_l_i_d_create_hole_countersunk_1a4424406ae14c9b5375624e80f6d4f109" prot="protected" static="no" mutable="no">
+        <type>double</type>
+        <definition>double Post::FeatureSOLIDCreateHoleCountersunk::_Radius</definition>
+        <argsstring></argsstring>
+        <name>_Radius</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/PostManager/ref/FeatureSOLIDCreateHoleCountersunk.h" line="14" column="1" bodyfile="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/PostManager/ref/FeatureSOLIDCreateHoleCountersunk.h" bodystart="14" bodyend="-1"/>
+        <referencedby refid="class_post_1_1_feature_s_o_l_i_d_create_hole_countersunk_1ab3b5d0c0cfb307e533792e43fb351e90" compoundref="_feature_s_o_l_i_d_create_hole_countersunk_8cpp" startline="14" endline="35">GetInfo</referencedby>
+        <referencedby refid="class_post_1_1_feature_s_o_l_i_d_create_hole_countersunk_1a076b56d8a0a35f24cd0ae55d0760e87e" compoundref="_feature_s_o_l_i_d_create_hole_countersunk_8cpp" startline="37" endline="98">ToCATIA</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_post_1_1_feature_s_o_l_i_d_create_hole_countersunk_1a8673bb97ae613a1769b5f0b8c2fd2bc8" prot="protected" static="no" mutable="no">
+        <type>double</type>
+        <definition>double Post::FeatureSOLIDCreateHoleCountersunk::_Depth</definition>
+        <argsstring></argsstring>
+        <name>_Depth</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/PostManager/ref/FeatureSOLIDCreateHoleCountersunk.h" line="15" column="1" bodyfile="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/PostManager/ref/FeatureSOLIDCreateHoleCountersunk.h" bodystart="15" bodyend="-1"/>
+        <referencedby refid="class_post_1_1_feature_s_o_l_i_d_create_hole_countersunk_1ab3b5d0c0cfb307e533792e43fb351e90" compoundref="_feature_s_o_l_i_d_create_hole_countersunk_8cpp" startline="14" endline="35">GetInfo</referencedby>
+        <referencedby refid="class_post_1_1_feature_s_o_l_i_d_create_hole_countersunk_1a076b56d8a0a35f24cd0ae55d0760e87e" compoundref="_feature_s_o_l_i_d_create_hole_countersunk_8cpp" startline="37" endline="98">ToCATIA</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_post_1_1_feature_s_o_l_i_d_create_hole_countersunk_1ace32a7f8bd231d8a3e82c330cf8924e8" prot="protected" static="no" mutable="no">
+        <type>double</type>
+        <definition>double Post::FeatureSOLIDCreateHoleCountersunk::_sinkRadius</definition>
+        <argsstring></argsstring>
+        <name>_sinkRadius</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/PostManager/ref/FeatureSOLIDCreateHoleCountersunk.h" line="16" column="1" bodyfile="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/PostManager/ref/FeatureSOLIDCreateHoleCountersunk.h" bodystart="16" bodyend="-1"/>
+        <referencedby refid="class_post_1_1_feature_s_o_l_i_d_create_hole_countersunk_1ab3b5d0c0cfb307e533792e43fb351e90" compoundref="_feature_s_o_l_i_d_create_hole_countersunk_8cpp" startline="14" endline="35">GetInfo</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_post_1_1_feature_s_o_l_i_d_create_hole_countersunk_1a2201d97bd7a6603baf64f9c047a03452" prot="protected" static="no" mutable="no">
+        <type>double</type>
+        <definition>double Post::FeatureSOLIDCreateHoleCountersunk::_sinkAngle</definition>
+        <argsstring></argsstring>
+        <name>_sinkAngle</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/PostManager/ref/FeatureSOLIDCreateHoleCountersunk.h" line="17" column="1" bodyfile="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/PostManager/ref/FeatureSOLIDCreateHoleCountersunk.h" bodystart="17" bodyend="-1"/>
+        <referencedby refid="class_post_1_1_feature_s_o_l_i_d_create_hole_countersunk_1ab3b5d0c0cfb307e533792e43fb351e90" compoundref="_feature_s_o_l_i_d_create_hole_countersunk_8cpp" startline="14" endline="35">GetInfo</referencedby>
+        <referencedby refid="class_post_1_1_feature_s_o_l_i_d_create_hole_countersunk_1a076b56d8a0a35f24cd0ae55d0760e87e" compoundref="_feature_s_o_l_i_d_create_hole_countersunk_8cpp" startline="37" endline="98">ToCATIA</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_post_1_1_feature_s_o_l_i_d_create_hole_countersunk_1ad89160d514ada1dff0aaeb229a5557e0" prot="protected" static="no" mutable="no">
+        <type>double</type>
+        <definition>double Post::FeatureSOLIDCreateHoleCountersunk::_headDepth</definition>
+        <argsstring></argsstring>
+        <name>_headDepth</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/PostManager/ref/FeatureSOLIDCreateHoleCountersunk.h" line="18" column="1" bodyfile="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/PostManager/ref/FeatureSOLIDCreateHoleCountersunk.h" bodystart="18" bodyend="-1"/>
+        <referencedby refid="class_post_1_1_feature_s_o_l_i_d_create_hole_countersunk_1ab3b5d0c0cfb307e533792e43fb351e90" compoundref="_feature_s_o_l_i_d_create_hole_countersunk_8cpp" startline="14" endline="35">GetInfo</referencedby>
+        <referencedby refid="class_post_1_1_feature_s_o_l_i_d_create_hole_countersunk_1a076b56d8a0a35f24cd0ae55d0760e87e" compoundref="_feature_s_o_l_i_d_create_hole_countersunk_8cpp" startline="37" endline="98">ToCATIA</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_post_1_1_feature_s_o_l_i_d_create_hole_countersunk_1a327b715a0167648453084cb627eefc28" prot="protected" static="no" mutable="no">
+        <type>double</type>
+        <definition>double Post::FeatureSOLIDCreateHoleCountersunk::_centerpoint[3]</definition>
+        <argsstring>[3]</argsstring>
+        <name>_centerpoint</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/PostManager/ref/FeatureSOLIDCreateHoleCountersunk.h" line="19" column="1" bodyfile="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/PostManager/ref/FeatureSOLIDCreateHoleCountersunk.h" bodystart="19" bodyend="-1"/>
+        <referencedby refid="class_post_1_1_feature_s_o_l_i_d_create_hole_countersunk_1ab3b5d0c0cfb307e533792e43fb351e90" compoundref="_feature_s_o_l_i_d_create_hole_countersunk_8cpp" startline="14" endline="35">GetInfo</referencedby>
+        <referencedby refid="class_post_1_1_feature_s_o_l_i_d_create_hole_countersunk_1a076b56d8a0a35f24cd0ae55d0760e87e" compoundref="_feature_s_o_l_i_d_create_hole_countersunk_8cpp" startline="37" endline="98">ToCATIA</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_post_1_1_feature_s_o_l_i_d_create_hole_countersunk_1afb78c3312e8353161e38493846b78b3e" prot="protected" static="no" mutable="no">
+        <type>double</type>
+        <definition>double Post::FeatureSOLIDCreateHoleCountersunk::_bottomAngle</definition>
+        <argsstring></argsstring>
+        <name>_bottomAngle</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/PostManager/ref/FeatureSOLIDCreateHoleCountersunk.h" line="20" column="1" bodyfile="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/PostManager/ref/FeatureSOLIDCreateHoleCountersunk.h" bodystart="20" bodyend="-1"/>
+        <referencedby refid="class_post_1_1_feature_s_o_l_i_d_create_hole_countersunk_1ab3b5d0c0cfb307e533792e43fb351e90" compoundref="_feature_s_o_l_i_d_create_hole_countersunk_8cpp" startline="14" endline="35">GetInfo</referencedby>
+        <referencedby refid="class_post_1_1_feature_s_o_l_i_d_create_hole_countersunk_1a076b56d8a0a35f24cd0ae55d0760e87e" compoundref="_feature_s_o_l_i_d_create_hole_countersunk_8cpp" startline="37" endline="98">ToCATIA</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_post_1_1_feature_s_o_l_i_d_create_hole_countersunk_1a3bb9a27d2196d3674f977b19131abe19" prot="protected" static="no" mutable="no">
+        <type>string</type>
+        <definition>string Post::FeatureSOLIDCreateHoleCountersunk::_featurename</definition>
+        <argsstring></argsstring>
+        <name>_featurename</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/PostManager/ref/FeatureSOLIDCreateHoleCountersunk.h" line="21" column="1" bodyfile="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/PostManager/ref/FeatureSOLIDCreateHoleCountersunk.h" bodystart="21" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_post_1_1_feature_s_o_l_i_d_create_hole_countersunk_1aea67f4a17b905f6251f3a13c8ef1d6c8" prot="protected" static="no" mutable="no">
+        <type>string</type>
+        <definition>string Post::FeatureSOLIDCreateHoleCountersunk::_referenceName</definition>
+        <argsstring></argsstring>
+        <name>_referenceName</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/PostManager/ref/FeatureSOLIDCreateHoleCountersunk.h" line="22" column="1" bodyfile="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/PostManager/ref/FeatureSOLIDCreateHoleCountersunk.h" bodystart="22" bodyend="-1"/>
+        <referencedby refid="class_post_1_1_feature_s_o_l_i_d_create_hole_countersunk_1ab3b5d0c0cfb307e533792e43fb351e90" compoundref="_feature_s_o_l_i_d_create_hole_countersunk_8cpp" startline="14" endline="35">GetInfo</referencedby>
+        <referencedby refid="class_post_1_1_feature_s_o_l_i_d_create_hole_countersunk_1a076b56d8a0a35f24cd0ae55d0760e87e" compoundref="_feature_s_o_l_i_d_create_hole_countersunk_8cpp" startline="37" endline="98">ToCATIA</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_post_1_1_feature_s_o_l_i_d_create_hole_countersunk_1a19d808f2d2fd58bb0e0a332d8a55779c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>Post::FeatureSOLIDCreateHoleCountersunk::FeatureSOLIDCreateHoleCountersunk</definition>
+        <argsstring>(Part *pPart, TransCAD::IFeaturePtr spFeature)</argsstring>
+        <name>FeatureSOLIDCreateHoleCountersunk</name>
+        <param>
+          <type><ref refid="class_post_1_1_part" kindref="compound">Part</ref> *</type>
+          <declname>pPart</declname>
+        </param>
+        <param>
+          <type>TransCAD::IFeaturePtr</type>
+          <declname>spFeature</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/PostManager/ref/FeatureSOLIDCreateHoleCountersunk.h" line="7" column="1" bodyfile="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/PostManager/ref/FeatureSOLIDCreateHoleCountersunk.cpp" bodystart="5" bodyend="8"/>
+      </memberdef>
+      <memberdef kind="function" id="class_post_1_1_feature_s_o_l_i_d_create_hole_countersunk_1ab7b6d319d4c9d9356729749bc0b3c5c6" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type></type>
+        <definition>Post::FeatureSOLIDCreateHoleCountersunk::~FeatureSOLIDCreateHoleCountersunk</definition>
+        <argsstring>(void)</argsstring>
+        <name>~FeatureSOLIDCreateHoleCountersunk</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/PostManager/ref/FeatureSOLIDCreateHoleCountersunk.h" line="8" column="1" bodyfile="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/PostManager/ref/FeatureSOLIDCreateHoleCountersunk.cpp" bodystart="10" bodyend="12"/>
+      </memberdef>
+      <memberdef kind="function" id="class_post_1_1_feature_s_o_l_i_d_create_hole_countersunk_1ab3b5d0c0cfb307e533792e43fb351e90" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void Post::FeatureSOLIDCreateHoleCountersunk::GetInfo</definition>
+        <argsstring>()</argsstring>
+        <name>GetInfo</name>
+        <reimplements refid="class_post_1_1_feature_1af8d63a27b30083d99102016ae177b45f">GetInfo</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/PostManager/ref/FeatureSOLIDCreateHoleCountersunk.h" line="10" column="1" bodyfile="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/PostManager/ref/FeatureSOLIDCreateHoleCountersunk.cpp" bodystart="14" bodyend="35"/>
+        <references refid="class_post_1_1_feature_s_o_l_i_d_create_hole_countersunk_1afb78c3312e8353161e38493846b78b3e" compoundref="_feature_s_o_l_i_d_create_hole_countersunk_8h" startline="20">_bottomAngle</references>
+        <references refid="class_post_1_1_feature_s_o_l_i_d_create_hole_countersunk_1a327b715a0167648453084cb627eefc28" compoundref="_feature_s_o_l_i_d_create_hole_countersunk_8h" startline="19">_centerpoint</references>
+        <references refid="class_post_1_1_feature_s_o_l_i_d_create_hole_countersunk_1a8673bb97ae613a1769b5f0b8c2fd2bc8" compoundref="_feature_s_o_l_i_d_create_hole_countersunk_8h" startline="15">_Depth</references>
+        <references refid="class_post_1_1_feature_s_o_l_i_d_create_hole_countersunk_1ad89160d514ada1dff0aaeb229a5557e0" compoundref="_feature_s_o_l_i_d_create_hole_countersunk_8h" startline="18">_headDepth</references>
+        <references refid="class_post_1_1_feature_s_o_l_i_d_create_hole_countersunk_1a4424406ae14c9b5375624e80f6d4f109" compoundref="_feature_s_o_l_i_d_create_hole_countersunk_8h" startline="14">_Radius</references>
+        <references refid="class_post_1_1_feature_s_o_l_i_d_create_hole_countersunk_1aea67f4a17b905f6251f3a13c8ef1d6c8" compoundref="_feature_s_o_l_i_d_create_hole_countersunk_8h" startline="22">_referenceName</references>
+        <references refid="class_post_1_1_feature_s_o_l_i_d_create_hole_countersunk_1a2201d97bd7a6603baf64f9c047a03452" compoundref="_feature_s_o_l_i_d_create_hole_countersunk_8h" startline="17">_sinkAngle</references>
+        <references refid="class_post_1_1_feature_s_o_l_i_d_create_hole_countersunk_1ace32a7f8bd231d8a3e82c330cf8924e8" compoundref="_feature_s_o_l_i_d_create_hole_countersunk_8h" startline="16">_sinkRadius</references>
+        <references refid="class_post_1_1_feature_1a252ade4e8188c192beaf03a8abbdca65" compoundref="_post_manager_2ref_2_feature_8h" startline="18" endline="18">Post::Feature::GetTransCADFeature</references>
+        <references refid="_post_manager_2_stdafx_8h_1a598a3330b3c21701223ee0ca14316eca" compoundref="_post_manager_2_stdafx_8h" startline="13">PI</references>
+      </memberdef>
+      <memberdef kind="function" id="class_post_1_1_feature_s_o_l_i_d_create_hole_countersunk_1a076b56d8a0a35f24cd0ae55d0760e87e" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void Post::FeatureSOLIDCreateHoleCountersunk::ToCATIA</definition>
+        <argsstring>()</argsstring>
+        <name>ToCATIA</name>
+        <reimplements refid="class_post_1_1_feature_1af5e4685a9e9a3a1b80c65d43a5260bf3">ToCATIA</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/PostManager/ref/FeatureSOLIDCreateHoleCountersunk.h" line="11" column="1" bodyfile="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/PostManager/ref/FeatureSOLIDCreateHoleCountersunk.cpp" bodystart="37" bodyend="98"/>
+        <references refid="class_post_1_1_feature_s_o_l_i_d_create_hole_countersunk_1afb78c3312e8353161e38493846b78b3e" compoundref="_feature_s_o_l_i_d_create_hole_countersunk_8h" startline="20">_bottomAngle</references>
+        <references refid="class_post_1_1_feature_s_o_l_i_d_create_hole_countersunk_1a327b715a0167648453084cb627eefc28" compoundref="_feature_s_o_l_i_d_create_hole_countersunk_8h" startline="19">_centerpoint</references>
+        <references refid="class_post_1_1_feature_s_o_l_i_d_create_hole_countersunk_1a8673bb97ae613a1769b5f0b8c2fd2bc8" compoundref="_feature_s_o_l_i_d_create_hole_countersunk_8h" startline="15">_Depth</references>
+        <references refid="class_post_1_1_feature_s_o_l_i_d_create_hole_countersunk_1ad89160d514ada1dff0aaeb229a5557e0" compoundref="_feature_s_o_l_i_d_create_hole_countersunk_8h" startline="18">_headDepth</references>
+        <references refid="class_post_1_1_feature_s_o_l_i_d_create_hole_countersunk_1a4424406ae14c9b5375624e80f6d4f109" compoundref="_feature_s_o_l_i_d_create_hole_countersunk_8h" startline="14">_Radius</references>
+        <references refid="class_post_1_1_feature_s_o_l_i_d_create_hole_countersunk_1aea67f4a17b905f6251f3a13c8ef1d6c8" compoundref="_feature_s_o_l_i_d_create_hole_countersunk_8h" startline="22">_referenceName</references>
+        <references refid="class_post_1_1_feature_s_o_l_i_d_create_hole_countersunk_1a2201d97bd7a6603baf64f9c047a03452" compoundref="_feature_s_o_l_i_d_create_hole_countersunk_8h" startline="17">_sinkAngle</references>
+        <references refid="_c_a_t_i_apost___d_l_l_8cpp_1ab19f712b4a42f729c4b03c85bf315239" compoundref="_c_a_t_i_apost___d_l_l_8cpp" startline="28">ang_index</references>
+        <references refid="class_post_1_1_c_a_t_i_a_reference_manager_1a1cb21f058f48445ec86600788ce3284a" compoundref="_c_a_t_i_a_reference_manager_8cpp" startline="215" endline="255">Post::CATIAReferenceManager::ConvertToBRepFaceForHole</references>
+        <references refid="namespace_post_1a757521acb19b64cd9a29879d6c5a7d5f" compoundref="_c_a_t_i_apost___d_l_l_8cpp" startline="32">Post::g_pRefManager</references>
+        <references refid="class_post_1_1_feature_1aace9d720d9a16b17c62ab6b4b91cea3c" compoundref="_post_manager_2ref_2_feature_8h" startline="12" endline="12">Post::Feature::GetPart</references>
+        <references refid="_c_a_t_i_apost___d_l_l_8cpp_1a4755ab04787eb624e9b84fce74ea4e1f" compoundref="_c_a_t_i_apost___d_l_l_8cpp" startline="27">holecounterID</references>
+        <references refid="_c_a_t_i_apost___d_l_l_8cpp_1a9d0ccac49c6fa3a640bc5e48bef71480" compoundref="_c_a_t_i_apost___d_l_l_8cpp" startline="23">lim_index</references>
+        <references refid="_c_a_t_i_apost___d_l_l_8cpp_1a022e63e0684ba8af19134ea0510837f1" compoundref="_c_a_t_i_apost___d_l_l_8cpp" startline="24">lng_index</references>
+        <references refid="_c_a_t_i_apost___d_l_l_8cpp_1a4a001227aeffed8767cfd035c687e1ca" compoundref="_c_a_t_i_apost___d_l_l_8cpp" startline="17">ref_index</references>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="698">
+        <label>Post::FeatureSOLIDCreateHoleCountersunk</label>
+        <link refid="class_post_1_1_feature_s_o_l_i_d_create_hole_countersunk"/>
+        <childnode refid="699" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="699">
+        <label>Post::Feature</label>
+        <link refid="class_post_1_1_feature"/>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="700">
+        <label>Post::FeatureSOLIDCreateHoleCountersunk</label>
+        <link refid="class_post_1_1_feature_s_o_l_i_d_create_hole_countersunk"/>
+        <childnode refid="701" relation="public-inheritance">
+        </childnode>
+        <childnode refid="704" relation="usage">
+          <edgelabel>_featurename</edgelabel>
+          <edgelabel>_referenceName</edgelabel>
+        </childnode>
+      </node>
+      <node id="702">
+        <label>Post::Part</label>
+        <link refid="class_post_1_1_part"/>
+        <childnode refid="703" relation="usage">
+          <edgelabel>_featureList</edgelabel>
+        </childnode>
+        <childnode refid="704" relation="usage">
+          <edgelabel>_strPartName</edgelabel>
+        </childnode>
+      </node>
+      <node id="701">
+        <label>Post::Feature</label>
+        <link refid="class_post_1_1_feature"/>
+        <childnode refid="702" relation="usage">
+          <edgelabel>_pPart</edgelabel>
+        </childnode>
+        <childnode refid="704" relation="usage">
+          <edgelabel>_strName</edgelabel>
+        </childnode>
+      </node>
+      <node id="705">
+        <label>std::basic_string&lt; char &gt;</label>
+      </node>
+      <node id="703">
+        <label>std::vector&lt; Post::Feature * &gt;</label>
+        <childnode refid="701" relation="usage">
+          <edgelabel>elements</edgelabel>
+        </childnode>
+      </node>
+      <node id="704">
+        <label>std::string</label>
+        <childnode refid="705" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/PostManager/ref/FeatureSOLIDCreateHoleCountersunk.h" line="5" column="1" bodyfile="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/PostManager/ref/FeatureSOLIDCreateHoleCountersunk.h" bodystart="4" bodyend="23"/>
+    <listofallmembers>
+      <member refid="class_post_1_1_feature_s_o_l_i_d_create_hole_countersunk_1afb78c3312e8353161e38493846b78b3e" prot="protected" virt="non-virtual"><scope>Post::FeatureSOLIDCreateHoleCountersunk</scope><name>_bottomAngle</name></member>
+      <member refid="class_post_1_1_feature_s_o_l_i_d_create_hole_countersunk_1a327b715a0167648453084cb627eefc28" prot="protected" virt="non-virtual"><scope>Post::FeatureSOLIDCreateHoleCountersunk</scope><name>_centerpoint</name></member>
+      <member refid="class_post_1_1_feature_s_o_l_i_d_create_hole_countersunk_1a8673bb97ae613a1769b5f0b8c2fd2bc8" prot="protected" virt="non-virtual"><scope>Post::FeatureSOLIDCreateHoleCountersunk</scope><name>_Depth</name></member>
+      <member refid="class_post_1_1_feature_s_o_l_i_d_create_hole_countersunk_1a3bb9a27d2196d3674f977b19131abe19" prot="protected" virt="non-virtual"><scope>Post::FeatureSOLIDCreateHoleCountersunk</scope><name>_featurename</name></member>
+      <member refid="class_post_1_1_feature_s_o_l_i_d_create_hole_countersunk_1ad89160d514ada1dff0aaeb229a5557e0" prot="protected" virt="non-virtual"><scope>Post::FeatureSOLIDCreateHoleCountersunk</scope><name>_headDepth</name></member>
+      <member refid="class_post_1_1_feature_1a6a0b62ac67583207cd51d36b8540f75b" prot="public" virt="non-virtual"><scope>Post::FeatureSOLIDCreateHoleCountersunk</scope><name>_nIndex</name></member>
+      <member refid="class_post_1_1_feature_1a93e0edd3b8a4639ad851119b773582cb" prot="public" virt="non-virtual"><scope>Post::FeatureSOLIDCreateHoleCountersunk</scope><name>_pPart</name></member>
+      <member refid="class_post_1_1_feature_s_o_l_i_d_create_hole_countersunk_1a4424406ae14c9b5375624e80f6d4f109" prot="protected" virt="non-virtual"><scope>Post::FeatureSOLIDCreateHoleCountersunk</scope><name>_Radius</name></member>
+      <member refid="class_post_1_1_feature_s_o_l_i_d_create_hole_countersunk_1aea67f4a17b905f6251f3a13c8ef1d6c8" prot="protected" virt="non-virtual"><scope>Post::FeatureSOLIDCreateHoleCountersunk</scope><name>_referenceName</name></member>
+      <member refid="class_post_1_1_feature_s_o_l_i_d_create_hole_countersunk_1a2201d97bd7a6603baf64f9c047a03452" prot="protected" virt="non-virtual"><scope>Post::FeatureSOLIDCreateHoleCountersunk</scope><name>_sinkAngle</name></member>
+      <member refid="class_post_1_1_feature_s_o_l_i_d_create_hole_countersunk_1ace32a7f8bd231d8a3e82c330cf8924e8" prot="protected" virt="non-virtual"><scope>Post::FeatureSOLIDCreateHoleCountersunk</scope><name>_sinkRadius</name></member>
+      <member refid="class_post_1_1_feature_1a9d39434cf1acdc737198fefcf8b32e67" prot="public" virt="non-virtual"><scope>Post::FeatureSOLIDCreateHoleCountersunk</scope><name>_spFeature</name></member>
+      <member refid="class_post_1_1_feature_1a89de9a11285c07976c881031857287bc" prot="public" virt="non-virtual"><scope>Post::FeatureSOLIDCreateHoleCountersunk</scope><name>_strName</name></member>
+      <member refid="class_post_1_1_feature_1a757c6724362593cf5b61c06777e1476f" prot="public" virt="non-virtual"><scope>Post::FeatureSOLIDCreateHoleCountersunk</scope><name>Feature</name></member>
+      <member refid="class_post_1_1_feature_s_o_l_i_d_create_hole_countersunk_1a19d808f2d2fd58bb0e0a332d8a55779c" prot="public" virt="non-virtual"><scope>Post::FeatureSOLIDCreateHoleCountersunk</scope><name>FeatureSOLIDCreateHoleCountersunk</name></member>
+      <member refid="class_post_1_1_feature_1a4abc47e4eee19b3da64571f8ccd61a3c" prot="public" virt="virtual"><scope>Post::FeatureSOLIDCreateHoleCountersunk</scope><name>GetEndDepth</name></member>
+      <member refid="class_post_1_1_feature_1a17937115029d464402a274393c9efc82" prot="public" virt="non-virtual"><scope>Post::FeatureSOLIDCreateHoleCountersunk</scope><name>GetFeatureIndex</name></member>
+      <member refid="class_post_1_1_feature_1a68d3fb9f274c6170d83e2a51d01400ac" prot="public" virt="non-virtual"><scope>Post::FeatureSOLIDCreateHoleCountersunk</scope><name>GetFeatureName</name></member>
+      <member refid="class_post_1_1_feature_s_o_l_i_d_create_hole_countersunk_1ab3b5d0c0cfb307e533792e43fb351e90" prot="public" virt="virtual"><scope>Post::FeatureSOLIDCreateHoleCountersunk</scope><name>GetInfo</name></member>
+      <member refid="class_post_1_1_feature_1aace9d720d9a16b17c62ab6b4b91cea3c" prot="public" virt="non-virtual"><scope>Post::FeatureSOLIDCreateHoleCountersunk</scope><name>GetPart</name></member>
+      <member refid="class_post_1_1_feature_1a0dc31facfd898c9f2c7907403bd3c4e1" prot="public" virt="virtual"><scope>Post::FeatureSOLIDCreateHoleCountersunk</scope><name>GetStartDepth</name></member>
+      <member refid="class_post_1_1_feature_1a252ade4e8188c192beaf03a8abbdca65" prot="public" virt="non-virtual"><scope>Post::FeatureSOLIDCreateHoleCountersunk</scope><name>GetTransCADFeature</name></member>
+      <member refid="class_post_1_1_feature_1a2cdd61cc7885d66a902e7a29cca9bc05" prot="public" virt="non-virtual"><scope>Post::FeatureSOLIDCreateHoleCountersunk</scope><name>SetFeatureName</name></member>
+      <member refid="class_post_1_1_feature_s_o_l_i_d_create_hole_countersunk_1a076b56d8a0a35f24cd0ae55d0760e87e" prot="public" virt="virtual"><scope>Post::FeatureSOLIDCreateHoleCountersunk</scope><name>ToCATIA</name></member>
+      <member refid="class_post_1_1_feature_1a9a8ee05393f4321a5ceba0d075573a25" prot="public" virt="virtual"><scope>Post::FeatureSOLIDCreateHoleCountersunk</scope><name>~Feature</name></member>
+      <member refid="class_post_1_1_feature_s_o_l_i_d_create_hole_countersunk_1ab7b6d319d4c9d9356729749bc0b3c5c6" prot="public" virt="virtual"><scope>Post::FeatureSOLIDCreateHoleCountersunk</scope><name>~FeatureSOLIDCreateHoleCountersunk</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,191 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="_feature_s_o_l_i_d_create_protrusion_extrude_8h" kind="file">
+    <compoundname>FeatureSOLIDCreateProtrusionExtrude.h</compoundname>
+    <includes refid="_post_manager_2ref_2_feature_8h" local="yes">Feature.h</includes>
+    <includedby refid="_feature_s_o_l_i_d_create_protrusion_extrude_8cpp" local="yes">PostManager/ref/FeatureSOLIDCreateProtrusionExtrude.cpp</includedby>
+    <includedby refid="_post_manager_2ref_2_part_8cpp" local="yes">PostManager/ref/Part.cpp</includedby>
+    <incdepgraph>
+      <node id="1670">
+        <label>atlstr.h</label>
+      </node>
+      <node id="1666">
+        <label>Feature.h</label>
+        <link refid="_post_manager_2ref_2_feature_8h"/>
+        <childnode refid="1667" relation="include">
+        </childnode>
+      </node>
+      <node id="1676">
+        <label>stdlib.h</label>
+      </node>
+      <node id="1678">
+        <label>cmath</label>
+      </node>
+      <node id="1672">
+        <label>string</label>
+      </node>
+      <node id="1677">
+        <label>comutil.h</label>
+      </node>
+      <node id="1673">
+        <label>fstream</label>
+      </node>
+      <node id="1667">
+        <label>Part.h</label>
+        <link refid="_post_manager_2ref_2_part_8h"/>
+        <childnode refid="1668" relation="include">
+        </childnode>
+        <childnode refid="1681" relation="include">
+        </childnode>
+      </node>
+      <node id="1685">
+        <label>MP_Utility.h</label>
+        <link refid="_m_p___utility_8h"/>
+        <childnode refid="1682" relation="include">
+        </childnode>
+      </node>
+      <node id="1665">
+        <label>PostManager/ref/FeatureSOLIDCreateProtrusionExtrude.h</label>
+        <link refid="FeatureSOLIDCreateProtrusionExtrude.h"/>
+        <childnode refid="1666" relation="include">
+        </childnode>
+      </node>
+      <node id="1684">
+        <label>string.h</label>
+      </node>
+      <node id="1674">
+        <label>vector</label>
+      </node>
+      <node id="1680">
+        <label>math.h</label>
+      </node>
+      <node id="1669">
+        <label>atlbase.h</label>
+      </node>
+      <node id="1681">
+        <label>CATIAReferenceManager.h</label>
+        <link refid="_c_a_t_i_a_reference_manager_8h"/>
+        <childnode refid="1668" relation="include">
+        </childnode>
+        <childnode refid="1682" relation="include">
+        </childnode>
+        <childnode refid="1685" relation="include">
+        </childnode>
+      </node>
+      <node id="1671">
+        <label>iostream</label>
+      </node>
+      <node id="1679">
+        <label>Definition.h</label>
+        <link refid="_post_manager_2ref_2_definition_8h"/>
+        <childnode refid="1680" relation="include">
+        </childnode>
+      </node>
+      <node id="1683">
+        <label>algorithm</label>
+      </node>
+      <node id="1675">
+        <label>stdio.h</label>
+      </node>
+      <node id="1682">
+        <label>PN_TYPE.h</label>
+        <link refid="_p_n___t_y_p_e_8h"/>
+        <childnode refid="1671" relation="include">
+        </childnode>
+        <childnode refid="1672" relation="include">
+        </childnode>
+        <childnode refid="1674" relation="include">
+        </childnode>
+        <childnode refid="1683" relation="include">
+        </childnode>
+        <childnode refid="1680" relation="include">
+        </childnode>
+        <childnode refid="1684" relation="include">
+        </childnode>
+      </node>
+      <node id="1668">
+        <label>CATIApost_DLL.h</label>
+        <link refid="_c_a_t_i_apost___d_l_l_8h"/>
+        <childnode refid="1669" relation="include">
+        </childnode>
+        <childnode refid="1670" relation="include">
+        </childnode>
+        <childnode refid="1671" relation="include">
+        </childnode>
+        <childnode refid="1672" relation="include">
+        </childnode>
+        <childnode refid="1673" relation="include">
+        </childnode>
+        <childnode refid="1674" relation="include">
+        </childnode>
+        <childnode refid="1675" relation="include">
+        </childnode>
+        <childnode refid="1676" relation="include">
+        </childnode>
+        <childnode refid="1677" relation="include">
+        </childnode>
+        <childnode refid="1678" relation="include">
+        </childnode>
+        <childnode refid="1679" relation="include">
+        </childnode>
+      </node>
+    </incdepgraph>
+    <invincdepgraph>
+      <node id="1688">
+        <label>PostManager/ref/Part.cpp</label>
+        <link refid="_post_manager_2ref_2_part_8cpp"/>
+      </node>
+      <node id="1686">
+        <label>PostManager/ref/FeatureSOLIDCreateProtrusionExtrude.h</label>
+        <link refid="FeatureSOLIDCreateProtrusionExtrude.h"/>
+        <childnode refid="1687" relation="include">
+        </childnode>
+        <childnode refid="1688" relation="include">
+        </childnode>
+      </node>
+      <node id="1687">
+        <label>PostManager/ref/FeatureSOLIDCreateProtrusionExtrude.cpp</label>
+        <link refid="_feature_s_o_l_i_d_create_protrusion_extrude_8cpp"/>
+      </node>
+    </invincdepgraph>
+    <innerclass refid="class_post_1_1_feature_s_o_l_i_d_create_protrusion_extrude" prot="public">Post::FeatureSOLIDCreateProtrusionExtrude</innerclass>
+    <innernamespace refid="namespace_post">Post</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="preprocessor">#pragma<sp/>once</highlight></codeline>
+<codeline lineno="2"><highlight class="preprocessor"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="_post_manager_2ref_2_feature_8h" kindref="compound">Feature.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal">Post<sp/>{</highlight></codeline>
+<codeline lineno="4"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal">FSketch;</highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight></codeline>
+<codeline lineno="6" refid="class_post_1_1_feature_s_o_l_i_d_create_protrusion_extrude" refkind="compound"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="class_post_1_1_feature_s_o_l_i_d_create_protrusion_extrude" kindref="compound">FeatureSOLIDCreateProtrusionExtrude</ref><sp/>:<sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/><ref refid="class_post_1_1_feature" kindref="compound">Feature</ref></highlight></codeline>
+<codeline lineno="7"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="8"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="9"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_post_1_1_feature_s_o_l_i_d_create_protrusion_extrude_1a4ff5e1bd0b5bbc0de5f8180c9b81c16f" kindref="member">FeatureSOLIDCreateProtrusionExtrude</ref>(<ref refid="class_post_1_1_part" kindref="compound">Part</ref><sp/>*<sp/>pPart,<sp/>TransCAD::IFeaturePtr<sp/>spFeature);</highlight></codeline>
+<codeline lineno="10"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/><ref refid="class_post_1_1_feature_s_o_l_i_d_create_protrusion_extrude_1a2484bf653faed876dc6f8fddadc41d0b" kindref="member">~FeatureSOLIDCreateProtrusionExtrude</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="11"><highlight class="normal"></highlight></codeline>
+<codeline lineno="12" refid="class_post_1_1_feature_s_o_l_i_d_create_protrusion_extrude_1a03d5afbe16f387fe1904e60c8e3f7b0f" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_post_1_1_f_sketch" kindref="compound">FSketch</ref><sp/>*<sp/><ref refid="class_post_1_1_feature_s_o_l_i_d_create_protrusion_extrude_1a03d5afbe16f387fe1904e60c8e3f7b0f" kindref="member">GetFeatureProfileSketch</ref>()<sp/>{<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/><ref refid="class_post_1_1_feature_s_o_l_i_d_create_protrusion_extrude_1a555b9cf1c40bd203b7e4c2400c8182ce" kindref="member">_featureProfileSketch</ref>;<sp/>}</highlight></codeline>
+<codeline lineno="13"><highlight class="normal"></highlight></codeline>
+<codeline lineno="14"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_post_1_1_feature_s_o_l_i_d_create_protrusion_extrude_1a187483d2e702af009530405dd8724385" kindref="member">GetInfo</ref>();</highlight></codeline>
+<codeline lineno="15"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_post_1_1_feature_s_o_l_i_d_create_protrusion_extrude_1a64f136a9e115c09cd4f1b2fff857f4b3" kindref="member">ToCATIA</ref>();</highlight></codeline>
+<codeline lineno="16"><highlight class="normal"></highlight></codeline>
+<codeline lineno="17" refid="class_post_1_1_feature_s_o_l_i_d_create_protrusion_extrude_1a842319e96032d10a110a823f0a3a2798" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/><ref refid="class_post_1_1_feature_s_o_l_i_d_create_protrusion_extrude_1a842319e96032d10a110a823f0a3a2798" kindref="member">GetStartDepth</ref>()<sp/>{<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/><ref refid="class_post_1_1_feature_s_o_l_i_d_create_protrusion_extrude_1a494b04c6ead13c0a219d9f8fe2014e04" kindref="member">_startDepth</ref>;<sp/>}</highlight></codeline>
+<codeline lineno="18" refid="class_post_1_1_feature_s_o_l_i_d_create_protrusion_extrude_1a3260b1f52c30c6e7f3e3b6e5a378f510" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/><ref refid="class_post_1_1_feature_s_o_l_i_d_create_protrusion_extrude_1a3260b1f52c30c6e7f3e3b6e5a378f510" kindref="member">GetEndDepth</ref>()<sp/>{<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/><ref refid="class_post_1_1_feature_s_o_l_i_d_create_protrusion_extrude_1aa35aae8bbe36ba95a3bfec79e0f7ac3d" kindref="member">_endDepth</ref>;<sp/>}</highlight></codeline>
+<codeline lineno="19"><highlight class="normal"></highlight></codeline>
+<codeline lineno="20"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">private</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="21" refid="class_post_1_1_feature_s_o_l_i_d_create_protrusion_extrude_1ad101ae6b8866182142bff2c292e5b6b1" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="class_post_1_1_feature_s_o_l_i_d_create_protrusion_extrude_1ad101ae6b8866182142bff2c292e5b6b1" kindref="member">_flip</ref>;</highlight></codeline>
+<codeline lineno="22" refid="class_post_1_1_feature_s_o_l_i_d_create_protrusion_extrude_1a494b04c6ead13c0a219d9f8fe2014e04" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/><sp/><ref refid="class_post_1_1_feature_s_o_l_i_d_create_protrusion_extrude_1a494b04c6ead13c0a219d9f8fe2014e04" kindref="member">_startDepth</ref>;</highlight></codeline>
+<codeline lineno="23" refid="class_post_1_1_feature_s_o_l_i_d_create_protrusion_extrude_1aa35aae8bbe36ba95a3bfec79e0f7ac3d" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/><sp/><ref refid="class_post_1_1_feature_s_o_l_i_d_create_protrusion_extrude_1aa35aae8bbe36ba95a3bfec79e0f7ac3d" kindref="member">_endDepth</ref>;</highlight></codeline>
+<codeline lineno="24" refid="class_post_1_1_feature_s_o_l_i_d_create_protrusion_extrude_1ac3a4f3aea54e3017f50b5309fe57574c" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>TransCAD::StdExtrudeEndType<sp/><ref refid="class_post_1_1_feature_s_o_l_i_d_create_protrusion_extrude_1ac3a4f3aea54e3017f50b5309fe57574c" kindref="member">_startCondition</ref>;</highlight></codeline>
+<codeline lineno="25" refid="class_post_1_1_feature_s_o_l_i_d_create_protrusion_extrude_1a9f98152d0f8e60987709009c5ad25925" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>TransCAD::StdExtrudeEndType<sp/><ref refid="class_post_1_1_feature_s_o_l_i_d_create_protrusion_extrude_1a9f98152d0f8e60987709009c5ad25925" kindref="member">_endCondition</ref>;</highlight></codeline>
+<codeline lineno="26"><highlight class="normal"></highlight></codeline>
+<codeline lineno="27"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">protected</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="28" refid="class_post_1_1_feature_s_o_l_i_d_create_protrusion_extrude_1a555b9cf1c40bd203b7e4c2400c8182ce" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_post_1_1_f_sketch" kindref="compound">FSketch</ref><sp/>*<sp/><ref refid="class_post_1_1_feature_s_o_l_i_d_create_protrusion_extrude_1a555b9cf1c40bd203b7e4c2400c8182ce" kindref="member">_featureProfileSketch</ref>;</highlight></codeline>
+<codeline lineno="29"><highlight class="normal"><sp/><sp/><sp/><sp/>};</highlight></codeline>
+<codeline lineno="30"><highlight class="normal">}</highlight></codeline>
+    </programlisting>
+    <location file="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/PostManager/ref/FeatureSOLIDCreateProtrusionExtrude.h"/>
+  </compounddef>
+</doxygen>

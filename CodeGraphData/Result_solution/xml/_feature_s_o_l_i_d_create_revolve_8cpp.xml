@@ -1,0 +1,470 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="_feature_s_o_l_i_d_create_revolve_8cpp" kind="file">
+    <compoundname>FeatureSOLIDCreateRevolve.cpp</compoundname>
+    <includes local="yes">stdafx.h</includes>
+    <includes refid="_feature_s_o_l_i_d_create_revolve_8h" local="yes">FeatureSOLIDCreateRevolve.h</includes>
+    <includes refid="_reference_entity_8h" local="yes">ReferenceEntity.h</includes>
+    <includes refid="_f_s_k_e_t_c_h_item_8h" local="yes">FSketchItem.h</includes>
+    <includes refid="_f_s_k_e_t_c_h_create2_d_line2_points_8h" local="yes">FSKETCHCreate2DLine2Points.h</includes>
+    <includes refid="_f_s_k_e_t_c_h_create2_d_circle_center_point_8h" local="yes">FSKETCHCreate2DCircleCenterPoint.h</includes>
+    <incdepgraph>
+      <node id="3341">
+        <label>stdafx.h</label>
+      </node>
+      <node id="3359">
+        <label>strstream</label>
+      </node>
+      <node id="3343">
+        <label>Feature.h</label>
+        <link refid="_pre_manager_2ref_2_feature_8h"/>
+        <childnode refid="3344" relation="include">
+        </childnode>
+      </node>
+      <node id="3353">
+        <label>cmath</label>
+      </node>
+      <node id="3348">
+        <label>string</label>
+      </node>
+      <node id="3357">
+        <label>comdef.h</label>
+      </node>
+      <node id="3356">
+        <label>comutil.h</label>
+      </node>
+      <node id="3360">
+        <label>ReferenceEntity.h</label>
+        <link refid="_reference_entity_8h"/>
+        <childnode refid="3344" relation="include">
+        </childnode>
+        <childnode refid="3361" relation="include">
+        </childnode>
+      </node>
+      <node id="3362">
+        <label>FSketchItem.h</label>
+        <link refid="_f_s_k_e_t_c_h_item_8h"/>
+        <childnode refid="3361" relation="include">
+        </childnode>
+      </node>
+      <node id="3361">
+        <label>FSketch.h</label>
+        <link refid="_pre_manager_2ref_2_f_sketch_8h"/>
+        <childnode refid="3343" relation="include">
+        </childnode>
+      </node>
+      <node id="3351">
+        <label>fstream</label>
+      </node>
+      <node id="3349">
+        <label>string.h</label>
+      </node>
+      <node id="3345">
+        <label>CATIApre_DLL.h</label>
+        <link refid="_c_a_t_i_apre___d_l_l_8h"/>
+        <childnode refid="3346" relation="include">
+        </childnode>
+        <childnode refid="3347" relation="include">
+        </childnode>
+        <childnode refid="3348" relation="include">
+        </childnode>
+        <childnode refid="3349" relation="include">
+        </childnode>
+        <childnode refid="3350" relation="include">
+        </childnode>
+        <childnode refid="3351" relation="include">
+        </childnode>
+        <childnode refid="3352" relation="include">
+        </childnode>
+        <childnode refid="3353" relation="include">
+        </childnode>
+        <childnode refid="3354" relation="include">
+        </childnode>
+        <childnode refid="3355" relation="include">
+        </childnode>
+        <childnode refid="3356" relation="include">
+        </childnode>
+        <childnode refid="3357" relation="include">
+        </childnode>
+        <childnode refid="3358" relation="include">
+        </childnode>
+      </node>
+      <node id="3364">
+        <label>FSKETCHCreate2DCircleCenterPoint.h</label>
+        <link refid="_f_s_k_e_t_c_h_create2_d_circle_center_point_8h"/>
+        <childnode refid="3362" relation="include">
+        </childnode>
+      </node>
+      <node id="3342">
+        <label>FeatureSOLIDCreateRevolve.h</label>
+        <link refid="_feature_s_o_l_i_d_create_revolve_8h"/>
+        <childnode refid="3343" relation="include">
+        </childnode>
+      </node>
+      <node id="3340">
+        <label>PreManager/ref/FeatureSOLIDCreateRevolve.cpp</label>
+        <link refid="FeatureSOLIDCreateRevolve.cpp"/>
+        <childnode refid="3341" relation="include">
+        </childnode>
+        <childnode refid="3342" relation="include">
+        </childnode>
+        <childnode refid="3360" relation="include">
+        </childnode>
+        <childnode refid="3362" relation="include">
+        </childnode>
+        <childnode refid="3363" relation="include">
+        </childnode>
+        <childnode refid="3364" relation="include">
+        </childnode>
+      </node>
+      <node id="3352">
+        <label>vector</label>
+      </node>
+      <node id="3355">
+        <label>sstream</label>
+      </node>
+      <node id="3354">
+        <label>math.h</label>
+      </node>
+      <node id="3350">
+        <label>iostream</label>
+      </node>
+      <node id="3347">
+        <label>tchar.h</label>
+      </node>
+      <node id="3358">
+        <label>Definition.h</label>
+        <link refid="_pre_manager_2ref_2_definition_8h"/>
+        <childnode refid="3359" relation="include">
+        </childnode>
+        <childnode refid="3350" relation="include">
+        </childnode>
+        <childnode refid="3354" relation="include">
+        </childnode>
+      </node>
+      <node id="3344">
+        <label>Part.h</label>
+        <link refid="_pre_manager_2ref_2_part_8h"/>
+        <childnode refid="3345" relation="include">
+        </childnode>
+      </node>
+      <node id="3346">
+        <label>stdio.h</label>
+      </node>
+      <node id="3363">
+        <label>FSKETCHCreate2DLine2Points.h</label>
+        <link refid="_f_s_k_e_t_c_h_create2_d_line2_points_8h"/>
+        <childnode refid="3362" relation="include">
+        </childnode>
+      </node>
+    </incdepgraph>
+    <innernamespace refid="namespace_pre">Pre</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="preprocessor">#include<sp/>&quot;stdafx.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="_feature_s_o_l_i_d_create_revolve_8h" kindref="compound">FeatureSOLIDCreateRevolve.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="_reference_entity_8h" kindref="compound">ReferenceEntity.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="_f_s_k_e_t_c_h_item_8h" kindref="compound">FSketchItem.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="_f_s_k_e_t_c_h_create2_d_line2_points_8h" kindref="compound">FSKETCHCreate2DLine2Points.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="_f_s_k_e_t_c_h_create2_d_circle_center_point_8h" kindref="compound">FSKETCHCreate2DCircleCenterPoint.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight><highlight class="comment">//using<sp/>namespace<sp/>Pre;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight></codeline>
+<codeline lineno="10"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal">Pre<sp/>{</highlight></codeline>
+<codeline lineno="11"><highlight class="normal"></highlight></codeline>
+<codeline lineno="12" refid="class_pre_1_1_feature_s_o_l_i_d_create_revolve_1aacbc40eef03be6fb65abbeacfe5d0d92" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="class_pre_1_1_feature_s_o_l_i_d_create_revolve_1aacbc40eef03be6fb65abbeacfe5d0d92" kindref="member">FeatureSOLIDCreateRevolve::FeatureSOLIDCreateRevolve</ref>(<ref refid="class_pre_1_1_part" kindref="compound">Part</ref><sp/>*<sp/>pPart,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>type,<sp/></highlight><highlight class="keywordtype">string</highlight><highlight class="normal"><sp/>name)</highlight></codeline>
+<codeline lineno="13"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>:<sp/><ref refid="class_pre_1_1_feature" kindref="compound">Feature</ref>(pPart,<sp/>type,<sp/>name)</highlight></codeline>
+<codeline lineno="14"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="15"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_pre_1_1_feature_s_o_l_i_d_create_revolve_1ac7592a01598a57ec1fe93766e5c09b82" kindref="member">startAngle</ref><sp/>=<sp/>360;<sp/><sp/><sp/></highlight><highlight class="comment">//시작각은<sp/>360.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="16"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_pre_1_1_feature_s_o_l_i_d_create_revolve_1af65c6439310be73297f994c4f5ef722b" kindref="member">endAngle</ref><sp/>=<sp/>0;<sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//끝각은<sp/>0이다.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="17"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_pre_1_1_feature_s_o_l_i_d_create_revolve_1af767f1ece7234ca5efb12dc55432035f" kindref="member">startCondition</ref><sp/>=<sp/></highlight><highlight class="stringliteral">&quot;Dimension&quot;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="18"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_pre_1_1_feature_s_o_l_i_d_create_revolve_1a03297c04c3f2a83cf231f5431dc985be" kindref="member">endCondition</ref><sp/>=<sp/></highlight><highlight class="stringliteral">&quot;Dimension&quot;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="19"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_pre_1_1_feature_s_o_l_i_d_create_revolve_1afd1cc6e0ff1c48beceb174ae390a1206" kindref="member">flip</ref><sp/>=<sp/>0;<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//flip은<sp/>없다.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="20"><highlight class="normal"></highlight></codeline>
+<codeline lineno="21"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_pre_1_1_feature_s_o_l_i_d_create_revolve_1a9564e02278b1e389c552ddaf764bce1e" kindref="member">_featureProfileSketch</ref><sp/>=<sp/>0;</highlight></codeline>
+<codeline lineno="22"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="23"><highlight class="normal"></highlight></codeline>
+<codeline lineno="24" refid="class_pre_1_1_feature_s_o_l_i_d_create_revolve_1a482f19fad21640abfebf6b26ca9ef5bf" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="class_pre_1_1_feature_s_o_l_i_d_create_revolve_1a482f19fad21640abfebf6b26ca9ef5bf" kindref="member">FeatureSOLIDCreateRevolve::~FeatureSOLIDCreateRevolve</ref>()</highlight></codeline>
+<codeline lineno="25"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="26"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="27"><highlight class="normal"></highlight></codeline>
+<codeline lineno="28" refid="class_pre_1_1_feature_s_o_l_i_d_create_revolve_1a127c834b172d477d022337d8867e9251" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_pre_1_1_feature_s_o_l_i_d_create_revolve_1a127c834b172d477d022337d8867e9251" kindref="member">FeatureSOLIDCreateRevolve::GetInfo</ref>(ifstream<sp/>&amp;is)</highlight></codeline>
+<codeline lineno="29"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="30"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>buffer[500];</highlight></codeline>
+<codeline lineno="31"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>is.getline(buffer,<sp/>500);</highlight></codeline>
+<codeline lineno="32"><highlight class="normal"></highlight></codeline>
+<codeline lineno="33"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">while</highlight><highlight class="normal"><sp/>(strncmp(buffer,<sp/></highlight><highlight class="stringliteral">&quot;Set&quot;</highlight><highlight class="normal">,<sp/>3))<sp/><sp/></highlight><highlight class="comment">//<sp/>Set<sp/>pad1을<sp/>찾는<sp/>부분</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="34"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="35"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>is.getline(buffer,<sp/>500);</highlight></codeline>
+<codeline lineno="36"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="37"><highlight class="normal"></highlight></codeline>
+<codeline lineno="38"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">string</highlight><highlight class="normal"><sp/>sketchManagerName;</highlight></codeline>
+<codeline lineno="39"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>seps_temp[]<sp/>=<sp/></highlight><highlight class="stringliteral">&quot;<sp/>,\t\n().=&quot;</highlight><highlight class="normal">;<sp/></highlight><highlight class="comment">//구분자</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="40"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*<sp/>context<sp/>=<sp/>NULL;<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>strtok_s<sp/>함수의<sp/>입력<sp/>변수</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="41"><highlight class="normal"></highlight></codeline>
+<codeline lineno="42"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>sketchManagerName<sp/>=<sp/>strtok_s(buffer,<sp/>seps_temp,<sp/>&amp;context);<sp/></highlight><highlight class="comment">//첫번째<sp/>단어</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="43"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>sketchManagerName<sp/>=<sp/>strtok_s(NULL,<sp/>seps_temp,<sp/>&amp;context);<sp/><sp/></highlight><highlight class="comment">//두번째<sp/>단어</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="44"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>sketchManagerName<sp/>=<sp/>strtok_s(NULL,<sp/>seps_temp,<sp/>&amp;context);<sp/><sp/></highlight><highlight class="comment">//세번째<sp/>단어</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="45"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>sketchManagerName<sp/>=<sp/>strtok_s(NULL,<sp/>seps_temp,<sp/>&amp;context);<sp/><sp/></highlight><highlight class="comment">//네번째<sp/>단어</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="46"><highlight class="normal"></highlight></codeline>
+<codeline lineno="47"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(sketchManagerName<sp/>==<sp/></highlight><highlight class="stringliteral">&quot;AddNewShaft&quot;</highlight><highlight class="normal"><sp/>||<sp/>sketchManagerName<sp/>==<sp/></highlight><highlight class="stringliteral">&quot;AddNewGroove&quot;</highlight><highlight class="normal">)</highlight></codeline>
+<codeline lineno="48"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="49"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>sketchManagerName<sp/>=<sp/>strtok_s(NULL,<sp/>seps_temp,<sp/>&amp;context);</highlight></codeline>
+<codeline lineno="50"><highlight class="normal"></highlight></codeline>
+<codeline lineno="51"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>SketchManager의<sp/>이름으로<sp/>원하는<sp/>Sketch<sp/>정보를<sp/>가져온다.<sp/></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="52"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_pre_1_1_feature_s_o_l_i_d_create_revolve_1a9564e02278b1e389c552ddaf764bce1e" kindref="member">_featureProfileSketch</ref><sp/>=<sp/>(<ref refid="class_pre_1_1_f_sketch" kindref="compound">FSketch</ref>*)<ref refid="class_pre_1_1_feature_1a22de04ab5c0ef7206d32c780ccfafee7" kindref="member">GetPart</ref>()-&gt;<ref refid="class_pre_1_1_part_1a757a376bdc640e00119c3489ee35d2aa" kindref="member">GetFeatureByName</ref>(sketchManagerName);</highlight></codeline>
+<codeline lineno="53"><highlight class="normal"></highlight></codeline>
+<codeline lineno="54"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>Feature와<sp/>Sketch정보를<sp/>저장한다.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="55"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_pre_1_1_feature_1a22de04ab5c0ef7206d32c780ccfafee7" kindref="member">GetPart</ref>()-&gt;<ref refid="class_pre_1_1_part_1afe3d79628d4af1d9cfb19fa1653ee716" kindref="member">AddFeatureNameSketchName</ref>(<ref refid="class_pre_1_1_feature_1aeec702655239d43b9fb7af691bc4f85c" kindref="member">GetFeatureName</ref>(),<sp/>sketchManagerName);</highlight></codeline>
+<codeline lineno="56"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="57"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(sketchManagerName<sp/>==<sp/></highlight><highlight class="stringliteral">&quot;AddNewShaftFromRef&quot;</highlight><highlight class="normal"><sp/>||<sp/>sketchManagerName<sp/>==<sp/></highlight><highlight class="stringliteral">&quot;AddNewGrooveFromRef&quot;</highlight><highlight class="normal">)</highlight></codeline>
+<codeline lineno="58"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="59"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>sketchManagerName<sp/>=<sp/>strtok_s(NULL,<sp/>seps_temp,<sp/>&amp;context);</highlight></codeline>
+<codeline lineno="60"><highlight class="normal"></highlight></codeline>
+<codeline lineno="61"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>Reference를<sp/>저장한다.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="62"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_pre_1_1_feature_s_o_l_i_d_create_revolve_1ada4a0225810bef0118e51a56c7a24c1b" kindref="member">_referenceEntityList</ref>.push_back(<ref refid="class_pre_1_1_feature_1a64772d4f47afe0052d5a94f773de5211" kindref="member">_pPart</ref>-&gt;<ref refid="class_pre_1_1_part_1a5643b5eda5bff62d642532663c62b63c" kindref="member">GetReferenceEntityByName</ref>(sketchManagerName));</highlight></codeline>
+<codeline lineno="63"><highlight class="normal"></highlight></codeline>
+<codeline lineno="64"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>Feature와<sp/>Sketch정보를<sp/>저장한다.<sp/>단,<sp/>Sketch<sp/>정보가<sp/>있는<sp/>경우</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="65"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>sketchManagerName<sp/>=<sp/><ref refid="class_pre_1_1_feature_1a64772d4f47afe0052d5a94f773de5211" kindref="member">_pPart</ref>-&gt;<ref refid="class_pre_1_1_part_1a5643b5eda5bff62d642532663c62b63c" kindref="member">GetReferenceEntityByName</ref>(sketchManagerName)-&gt;<ref refid="class_pre_1_1_reference_entity_1ab7834eec27b178f18cad28f6baf1b146" kindref="member">GetFeatureName</ref>();</highlight></codeline>
+<codeline lineno="66"><highlight class="normal"></highlight></codeline>
+<codeline lineno="67"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(!sketchManagerName.empty())</highlight></codeline>
+<codeline lineno="68"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_pre_1_1_feature_1a22de04ab5c0ef7206d32c780ccfafee7" kindref="member">GetPart</ref>()-&gt;<ref refid="class_pre_1_1_part_1afe3d79628d4af1d9cfb19fa1653ee716" kindref="member">AddFeatureNameSketchName</ref>(<ref refid="class_pre_1_1_feature_1aeec702655239d43b9fb7af691bc4f85c" kindref="member">GetFeatureName</ref>(),<sp/>sketchManagerName);</highlight></codeline>
+<codeline lineno="69"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="70"><highlight class="normal"></highlight></codeline>
+<codeline lineno="71"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>context<sp/>=<sp/>NULL;</highlight></codeline>
+<codeline lineno="72"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="73"><highlight class="normal"></highlight></codeline>
+<codeline lineno="74" refid="class_pre_1_1_feature_s_o_l_i_d_create_revolve_1a37a17dc5281ee5ec8a1b07c3dd7b8e6a" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_pre_1_1_feature_s_o_l_i_d_create_revolve_1a37a17dc5281ee5ec8a1b07c3dd7b8e6a" kindref="member">FeatureSOLIDCreateRevolve::ToTransCAD</ref>()</highlight></codeline>
+<codeline lineno="75"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="76"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>스케치<sp/>외부에서<sp/>회전<sp/>축을<sp/>잡을<sp/>경우,<sp/>그<sp/>축을<sp/>스케치<sp/>내부에<sp/>생성</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="77"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_pre_1_1_feature_s_o_l_i_d_create_revolve_1a0ff557f26cc9a7551a1a78b83f7673cf" kindref="member">AddNewRevolveAxis</ref>();</highlight></codeline>
+<codeline lineno="78"><highlight class="normal"></highlight></codeline>
+<codeline lineno="79"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>TransCAD::IReferencePtr<sp/>spBaseSketch;</highlight></codeline>
+<codeline lineno="80"><highlight class="normal"></highlight></codeline>
+<codeline lineno="81"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(<ref refid="class_pre_1_1_feature_s_o_l_i_d_create_revolve_1a9564e02278b1e389c552ddaf764bce1e" kindref="member">_featureProfileSketch</ref>)</highlight></codeline>
+<codeline lineno="82"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="83"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>bstr_t<sp/>baseSketchName(<ref refid="class_pre_1_1_feature_s_o_l_i_d_create_revolve_1aac5228217159ad1238e381efbf1abed0" kindref="member">GetFeatureProfileSketch</ref>()-&gt;<ref refid="class_pre_1_1_feature_1aeec702655239d43b9fb7af691bc4f85c" kindref="member">GetFeatureName</ref>().c_str());</highlight></codeline>
+<codeline lineno="84"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>spBaseSketch<sp/>=<sp/><ref refid="class_pre_1_1_feature_1a22de04ab5c0ef7206d32c780ccfafee7" kindref="member">GetPart</ref>()-&gt;<ref refid="class_pre_1_1_part_1abe7d81bc84a9423e1d09c27e36125b64" kindref="member">_spPart</ref>-&gt;SelectObjectByName(baseSketchName);</highlight></codeline>
+<codeline lineno="85"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="86"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="87"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="88"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>vector&lt;ReferenceEntity<sp/>*&gt;::iterator<sp/>iter<sp/>=<sp/><ref refid="class_pre_1_1_feature_s_o_l_i_d_create_revolve_1ada4a0225810bef0118e51a56c7a24c1b" kindref="member">_referenceEntityList</ref>.begin();</highlight></codeline>
+<codeline lineno="89"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">while</highlight><highlight class="normal"><sp/>(iter<sp/>!=<sp/><ref refid="class_pre_1_1_feature_s_o_l_i_d_create_revolve_1ada4a0225810bef0118e51a56c7a24c1b" kindref="member">_referenceEntityList</ref>.end())</highlight></codeline>
+<codeline lineno="90"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="91"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>(*iter)-&gt;ToTransCAD();</highlight></codeline>
+<codeline lineno="92"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>((*iter)-&gt;GetReferencePtr()<sp/>!=<sp/>NULL)</highlight></codeline>
+<codeline lineno="93"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>spBaseSketch<sp/>=<sp/>(*iter)-&gt;GetReferencePtr();</highlight></codeline>
+<codeline lineno="94"><highlight class="normal"></highlight></codeline>
+<codeline lineno="95"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>iter++;</highlight></codeline>
+<codeline lineno="96"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="97"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="98"><highlight class="normal"></highlight></codeline>
+<codeline lineno="99"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(<ref refid="class_pre_1_1_feature_1a341b5b05bd448a814e86099e70f1a747" kindref="member">_type</ref><sp/>==<sp/>5)</highlight></codeline>
+<codeline lineno="100"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>Create<sp/>a<sp/>protrusion<sp/>Revolve<sp/>feature<sp/>with<sp/>the<sp/>sketch</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="101"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_pre_1_1_feature_1a22de04ab5c0ef7206d32c780ccfafee7" kindref="member">GetPart</ref>()-&gt;<ref refid="class_pre_1_1_part_1a0fa084e40ad2822e8214ba40b4751825" kindref="member">_spFeatures</ref>-&gt;AddNewSolidProtrusionRevolveFeature(<ref refid="class_pre_1_1_feature_1ae8c43a10be919286c9450125b1a0afb9" kindref="member">_name</ref>.c_str(),<sp/>spBaseSketch,<sp/><ref refid="class_pre_1_1_feature_s_o_l_i_d_create_revolve_1ac7592a01598a57ec1fe93766e5c09b82" kindref="member">startAngle</ref>,<sp/>TransCAD::StdRevolveEndType_Blind,<sp/><ref refid="class_pre_1_1_feature_s_o_l_i_d_create_revolve_1af65c6439310be73297f994c4f5ef722b" kindref="member">endAngle</ref>,<sp/>TransCAD::StdRevolveEndType_Blind,<sp/></highlight><highlight class="keyword">false</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="102"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="103"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>Create<sp/>a<sp/>cut<sp/>Revolve<sp/>feature<sp/>with<sp/>the<sp/>sketch</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="104"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_pre_1_1_feature_1a22de04ab5c0ef7206d32c780ccfafee7" kindref="member">GetPart</ref>()-&gt;<ref refid="class_pre_1_1_part_1a0fa084e40ad2822e8214ba40b4751825" kindref="member">_spFeatures</ref>-&gt;AddNewSolidCutRevolveFeature(<ref refid="class_pre_1_1_feature_1ae8c43a10be919286c9450125b1a0afb9" kindref="member">_name</ref>.c_str(),<sp/>spBaseSketch,<sp/><ref refid="class_pre_1_1_feature_s_o_l_i_d_create_revolve_1ac7592a01598a57ec1fe93766e5c09b82" kindref="member">startAngle</ref>,<sp/>TransCAD::StdRevolveEndType_Blind,<sp/><ref refid="class_pre_1_1_feature_s_o_l_i_d_create_revolve_1af65c6439310be73297f994c4f5ef722b" kindref="member">endAngle</ref>,<sp/>TransCAD::StdRevolveEndType_Blind,<sp/></highlight><highlight class="keyword">false</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="105"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="106"><highlight class="normal"></highlight></codeline>
+<codeline lineno="107" refid="class_pre_1_1_feature_s_o_l_i_d_create_revolve_1ac876aa3a22239637b346c1946934c93a" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_pre_1_1_feature_s_o_l_i_d_create_revolve_1ac876aa3a22239637b346c1946934c93a" kindref="member">FeatureSOLIDCreateRevolve::CheckAttribute</ref>(</highlight><highlight class="keywordtype">string</highlight><highlight class="normal"><sp/>name,<sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>value,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>type)</highlight></codeline>
+<codeline lineno="108"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="109"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(name<sp/>==<sp/></highlight><highlight class="stringliteral">&quot;FirstAngle&quot;</highlight><highlight class="normal">)</highlight></codeline>
+<codeline lineno="110"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="111"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_pre_1_1_feature_s_o_l_i_d_create_revolve_1ac7592a01598a57ec1fe93766e5c09b82" kindref="member">startAngle</ref><sp/>=<sp/>value;</highlight></codeline>
+<codeline lineno="112"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="113"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(name<sp/>==<sp/></highlight><highlight class="stringliteral">&quot;SecondAngle&quot;</highlight><highlight class="normal">)</highlight></codeline>
+<codeline lineno="114"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="115"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_pre_1_1_feature_s_o_l_i_d_create_revolve_1af65c6439310be73297f994c4f5ef722b" kindref="member">endAngle</ref><sp/>=<sp/>value;</highlight></codeline>
+<codeline lineno="116"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="117"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="118"><highlight class="normal"></highlight></codeline>
+<codeline lineno="119" refid="class_pre_1_1_feature_s_o_l_i_d_create_revolve_1ad220673013d89395c84d67102f39ba7b" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_pre_1_1_feature_s_o_l_i_d_create_revolve_1ad220673013d89395c84d67102f39ba7b" kindref="member">FeatureSOLIDCreateRevolve::Modify</ref>(</highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*<sp/>buffer)</highlight></codeline>
+<codeline lineno="120"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="121"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">string</highlight><highlight class="normal"><sp/>token;</highlight></codeline>
+<codeline lineno="122"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*<sp/>context<sp/>=<sp/>NULL;</highlight></codeline>
+<codeline lineno="123"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>seps[]<sp/>=<sp/></highlight><highlight class="stringliteral">&quot;<sp/>,\t\n().=&quot;</highlight><highlight class="normal">;<sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//구분자</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="124"><highlight class="normal"></highlight></codeline>
+<codeline lineno="125"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>token<sp/>=<sp/>strtok_s(buffer,<sp/>seps,<sp/>&amp;context);<sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//hole1</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="126"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>token<sp/>=<sp/>strtok_s(NULL,<sp/>seps,<sp/>&amp;context);<sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//두번째<sp/>구분자</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="127"><highlight class="normal"></highlight></codeline>
+<codeline lineno="128"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(token<sp/>==<sp/></highlight><highlight class="stringliteral">&quot;RevoluteAxis&quot;</highlight><highlight class="normal">)</highlight></codeline>
+<codeline lineno="129"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="130"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>token<sp/>=<sp/>strtok_s(NULL,<sp/>seps,<sp/>&amp;context);<sp/></highlight><highlight class="comment">//세번째<sp/>구분자</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="131"><highlight class="normal"></highlight></codeline>
+<codeline lineno="132"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_pre_1_1_feature_s_o_l_i_d_create_revolve_1a0468b14b0474bf6aadd47cd8f6b01670" kindref="member">_revolveAxis</ref><sp/>=<sp/>token;<sp/></highlight><highlight class="comment">//<sp/>reference</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="133"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="134"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(token<sp/>==<sp/></highlight><highlight class="stringliteral">&quot;SetProfileElement&quot;</highlight><highlight class="normal">)</highlight></codeline>
+<codeline lineno="135"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="136"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>token<sp/>=<sp/>strtok_s(NULL,<sp/>seps,<sp/>&amp;context);</highlight></codeline>
+<codeline lineno="137"><highlight class="normal"></highlight></codeline>
+<codeline lineno="138"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>ReferenceElement<sp/>정보를<sp/>vector에<sp/>저장.<sp/></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="139"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_pre_1_1_feature_s_o_l_i_d_create_revolve_1ada4a0225810bef0118e51a56c7a24c1b" kindref="member">_referenceEntityList</ref>.push_back(<ref refid="class_pre_1_1_feature_1a64772d4f47afe0052d5a94f773de5211" kindref="member">_pPart</ref>-&gt;<ref refid="class_pre_1_1_part_1a5643b5eda5bff62d642532663c62b63c" kindref="member">GetReferenceEntityByName</ref>(token));</highlight></codeline>
+<codeline lineno="140"><highlight class="normal"></highlight></codeline>
+<codeline lineno="141"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>Feature와<sp/>Sketch정보를<sp/>저장한다.<sp/>단,<sp/>Sketch<sp/>정보가<sp/>있는<sp/>경우</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="142"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>token<sp/>=<sp/><ref refid="class_pre_1_1_feature_1a64772d4f47afe0052d5a94f773de5211" kindref="member">_pPart</ref>-&gt;<ref refid="class_pre_1_1_part_1a5643b5eda5bff62d642532663c62b63c" kindref="member">GetReferenceEntityByName</ref>(token)-&gt;<ref refid="class_pre_1_1_reference_entity_1ab7834eec27b178f18cad28f6baf1b146" kindref="member">GetFeatureName</ref>();</highlight></codeline>
+<codeline lineno="143"><highlight class="normal"></highlight></codeline>
+<codeline lineno="144"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(!token.empty())</highlight></codeline>
+<codeline lineno="145"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_pre_1_1_feature_1a22de04ab5c0ef7206d32c780ccfafee7" kindref="member">GetPart</ref>()-&gt;<ref refid="class_pre_1_1_part_1afe3d79628d4af1d9cfb19fa1653ee716" kindref="member">AddFeatureNameSketchName</ref>(<ref refid="class_pre_1_1_feature_1aeec702655239d43b9fb7af691bc4f85c" kindref="member">GetFeatureName</ref>(),<sp/>token);</highlight></codeline>
+<codeline lineno="146"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="147"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="148"><highlight class="normal"></highlight></codeline>
+<codeline lineno="149" refid="class_pre_1_1_feature_s_o_l_i_d_create_revolve_1a0ff557f26cc9a7551a1a78b83f7673cf" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_pre_1_1_feature_s_o_l_i_d_create_revolve_1a0ff557f26cc9a7551a1a78b83f7673cf" kindref="member">FeatureSOLIDCreateRevolve::AddNewRevolveAxis</ref>()</highlight></codeline>
+<codeline lineno="150"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="151"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(!<ref refid="class_pre_1_1_feature_s_o_l_i_d_create_revolve_1a0468b14b0474bf6aadd47cd8f6b01670" kindref="member">_revolveAxis</ref>.empty())</highlight></codeline>
+<codeline lineno="152"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="153"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>레퍼런스<sp/>축의<sp/>스케치</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="154"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">string</highlight><highlight class="normal"><sp/>_revRefSketName<sp/>=<sp/><ref refid="class_pre_1_1_feature_1a22de04ab5c0ef7206d32c780ccfafee7" kindref="member">GetPart</ref>()-&gt;<ref refid="class_pre_1_1_part_1a5643b5eda5bff62d642532663c62b63c" kindref="member">GetReferenceEntityByName</ref>(<ref refid="class_pre_1_1_feature_s_o_l_i_d_create_revolve_1a0468b14b0474bf6aadd47cd8f6b01670" kindref="member">_revolveAxis</ref>)-&gt;<ref refid="class_pre_1_1_reference_entity_1a2c18b44279e3cef219fe90768ecb1be7" kindref="member">GetWireInfo</ref>().<ref refid="struct_wire_info_1a704a0100a840c019e717a912cc694853" kindref="member">_sketchName</ref>;<sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>스케치<sp/>이름</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="155"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">string</highlight><highlight class="normal"><sp/>_revRefEntName<sp/>=<sp/><ref refid="class_pre_1_1_feature_1a22de04ab5c0ef7206d32c780ccfafee7" kindref="member">GetPart</ref>()-&gt;<ref refid="class_pre_1_1_part_1a5643b5eda5bff62d642532663c62b63c" kindref="member">GetReferenceEntityByName</ref>(<ref refid="class_pre_1_1_feature_s_o_l_i_d_create_revolve_1a0468b14b0474bf6aadd47cd8f6b01670" kindref="member">_revolveAxis</ref>)-&gt;<ref refid="class_pre_1_1_reference_entity_1a2c18b44279e3cef219fe90768ecb1be7" kindref="member">GetWireInfo</ref>().<ref refid="struct_wire_info_1adbc541ae5a8c1b618af1e73300571717" kindref="member">_sketchItemName</ref>;<sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>스케치에<sp/>포함<sp/>된<sp/>라인.<sp/>즉,<sp/>회전<sp/>축</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="156"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_pre_1_1_f_sketch" kindref="compound">FSketch</ref><sp/>*<sp/>pRefSketch<sp/>=<sp/>(<ref refid="class_pre_1_1_f_sketch" kindref="compound">FSketch</ref>*)<ref refid="class_pre_1_1_feature_1a22de04ab5c0ef7206d32c780ccfafee7" kindref="member">GetPart</ref>()-&gt;<ref refid="class_pre_1_1_part_1a757a376bdc640e00119c3489ee35d2aa" kindref="member">GetFeatureByName</ref>(_revRefSketName);<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>레퍼런스<sp/>스케치</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="157"><highlight class="normal"></highlight></codeline>
+<codeline lineno="158"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">string</highlight><highlight class="normal"><sp/>_shaftSketName<sp/>=<sp/><ref refid="class_pre_1_1_feature_1a22de04ab5c0ef7206d32c780ccfafee7" kindref="member">GetPart</ref>()-&gt;<ref refid="class_pre_1_1_part_1a7acf7b9167ac05823795172ef97742fc" kindref="member">GetSketchNameFromFeatureName</ref>(<ref refid="class_pre_1_1_feature_1ae8c43a10be919286c9450125b1a0afb9" kindref="member">_name</ref>);<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>Revolve<sp/>스케치<sp/>이름</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="159"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_pre_1_1_f_sketch" kindref="compound">FSketch</ref><sp/>*<sp/>pRevSketch<sp/>=<sp/>(<ref refid="class_pre_1_1_f_sketch" kindref="compound">FSketch</ref>*)<ref refid="class_pre_1_1_feature_1a22de04ab5c0ef7206d32c780ccfafee7" kindref="member">GetPart</ref>()-&gt;<ref refid="class_pre_1_1_part_1a757a376bdc640e00119c3489ee35d2aa" kindref="member">GetFeatureByName</ref>(_shaftSketName);<sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>Revolve<sp/>스케치</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="160"><highlight class="normal"></highlight></codeline>
+<codeline lineno="161"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(_revRefSketName.find(</highlight><highlight class="stringliteral">&quot;sketch&quot;</highlight><highlight class="normal">)<sp/>==<sp/>0)</highlight></codeline>
+<codeline lineno="162"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="163"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>일반적인<sp/>경우.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="164"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>스케치<sp/>내부의<sp/>하나의<sp/>Line을<sp/>Centerline으로<sp/>지정함</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="165"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(_revRefSketName<sp/>==<sp/>_shaftSketName)</highlight></codeline>
+<codeline lineno="166"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="167"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_pre_1_1_f_s_k_e_t_c_h_create2_d_line2_points" kindref="compound">FSKETCHCreate2DLine2Points</ref><sp/>*<sp/>pRefLine<sp/>=<sp/>(<ref refid="class_pre_1_1_f_s_k_e_t_c_h_create2_d_line2_points" kindref="compound">FSKETCHCreate2DLine2Points</ref>*)pRefSketch-&gt;<ref refid="class_pre_1_1_f_sketch_1ab6314d4544a5000966d189bc2ed06652" kindref="member">GetSketchItemFromName</ref>(_revRefEntName);</highlight></codeline>
+<codeline lineno="168"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_pre_1_1_feature_s_o_l_i_d_create_revolve_1adc014c54314746fd2761aa5bc94fbc82" kindref="member">origin</ref><sp/>=<sp/>pRefLine-&gt;<ref refid="class_pre_1_1_f_s_k_e_t_c_h_create2_d_line2_points_1a38ac774ea58625f24447ff7ea537240d" kindref="member">GetStartPoint</ref>();</highlight></codeline>
+<codeline lineno="169"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_pre_1_1_feature_s_o_l_i_d_create_revolve_1af36571139f21dd9238f207e536dc148a" kindref="member">direction</ref><sp/>=<sp/>pRefLine-&gt;<ref refid="class_pre_1_1_f_s_k_e_t_c_h_create2_d_line2_points_1a14d41b663104aeab8f966903f2b7b6f9" kindref="member">GetEndPoint</ref>();</highlight></codeline>
+<codeline lineno="170"><highlight class="normal"></highlight></codeline>
+<codeline lineno="171"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="172"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>Revolve의<sp/>Sketch와<sp/>Revolve<sp/>Axis의<sp/>sketch가<sp/>다른<sp/>경우</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="173"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>예를<sp/>들어,<sp/>다른<sp/>원기둥의<sp/>Axis를<sp/>참조<sp/>할<sp/>경우</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="174"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="175"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="176"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>Circle을<sp/>Extrude한<sp/>원기둥인<sp/>경우</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="177"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(_revRefEntName.find(</highlight><highlight class="stringliteral">&quot;circle2D&quot;</highlight><highlight class="normal">)<sp/>==<sp/>0)</highlight></codeline>
+<codeline lineno="178"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="179"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_pre_1_1_f_s_k_e_t_c_h_create2_d_circle_center_point" kindref="compound">FSKETCHCreate2DCircleCenterPoint</ref><sp/>*<sp/>pRefCircle<sp/>=<sp/>(<ref refid="class_pre_1_1_f_s_k_e_t_c_h_create2_d_circle_center_point" kindref="compound">FSKETCHCreate2DCircleCenterPoint</ref>*)pRefSketch-&gt;<ref refid="class_pre_1_1_f_sketch_1ab6314d4544a5000966d189bc2ed06652" kindref="member">GetSketchItemFromName</ref>(_revRefEntName);</highlight></codeline>
+<codeline lineno="180"><highlight class="normal"></highlight></codeline>
+<codeline lineno="181"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>circle의<sp/>중점.<sp/>단,<sp/>이<sp/>때는<sp/>Local<sp/>좌표</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="182"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>pRefCircle-&gt;<ref refid="class_pre_1_1_f_s_k_e_t_c_h_create2_d_circle_center_point_1a99df820d39b3f066880ad6fb3e8c4c6b" kindref="member">GetCenterPoint</ref>(<ref refid="class_pre_1_1_feature_s_o_l_i_d_create_revolve_1adc014c54314746fd2761aa5bc94fbc82" kindref="member">origin</ref>);</highlight></codeline>
+<codeline lineno="183"><highlight class="normal"></highlight></codeline>
+<codeline lineno="184"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>circle<sp/>중점의<sp/>normal<sp/>벡터</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="185"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_pre_1_1_feature_s_o_l_i_d_create_revolve_1af36571139f21dd9238f207e536dc148a" kindref="member">direction</ref>.SetX(<ref refid="class_pre_1_1_feature_s_o_l_i_d_create_revolve_1adc014c54314746fd2761aa5bc94fbc82" kindref="member">origin</ref>.X());</highlight></codeline>
+<codeline lineno="186"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_pre_1_1_feature_s_o_l_i_d_create_revolve_1af36571139f21dd9238f207e536dc148a" kindref="member">direction</ref>.SetY(<ref refid="class_pre_1_1_feature_s_o_l_i_d_create_revolve_1adc014c54314746fd2761aa5bc94fbc82" kindref="member">origin</ref>.Y());</highlight></codeline>
+<codeline lineno="187"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_pre_1_1_feature_s_o_l_i_d_create_revolve_1af36571139f21dd9238f207e536dc148a" kindref="member">direction</ref>.SetZ(<ref refid="class_pre_1_1_feature_s_o_l_i_d_create_revolve_1adc014c54314746fd2761aa5bc94fbc82" kindref="member">origin</ref>.Z()<sp/>+<sp/>1.0);</highlight></codeline>
+<codeline lineno="188"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="189"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>일반<sp/>스케치를<sp/>Revolve한<sp/>회전체의<sp/>경우</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="190"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="191"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="192"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">string</highlight><highlight class="normal"><sp/>refFeatName<sp/>=<sp/><ref refid="class_pre_1_1_feature_1a22de04ab5c0ef7206d32c780ccfafee7" kindref="member">GetPart</ref>()-&gt;<ref refid="class_pre_1_1_part_1a4bf757092c00e1a969d0a73a0c4ed0c8" kindref="member">GetFeatureNameFromSketchName</ref>(_revRefSketName);</highlight></codeline>
+<codeline lineno="193"><highlight class="normal"></highlight></codeline>
+<codeline lineno="194"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_pre_1_1_feature_s_o_l_i_d_create_revolve" kindref="compound">FeatureSOLIDCreateRevolve</ref><sp/>*<sp/>pRevFeature<sp/>=<sp/>(<ref refid="class_pre_1_1_feature_s_o_l_i_d_create_revolve" kindref="compound">FeatureSOLIDCreateRevolve</ref><sp/>*)<ref refid="class_pre_1_1_feature_1a22de04ab5c0ef7206d32c780ccfafee7" kindref="member">GetPart</ref>()-&gt;<ref refid="class_pre_1_1_part_1a757a376bdc640e00119c3489ee35d2aa" kindref="member">GetFeatureByName</ref>(refFeatName);</highlight></codeline>
+<codeline lineno="195"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_pre_1_1_feature_s_o_l_i_d_create_revolve_1adc014c54314746fd2761aa5bc94fbc82" kindref="member">origin</ref><sp/>=<sp/>pRevFeature-&gt;<ref refid="class_pre_1_1_feature_s_o_l_i_d_create_revolve_1a24ac5c2f0389c4a6acc52de6ac46208b" kindref="member">GetAxisOrigin</ref>();</highlight></codeline>
+<codeline lineno="196"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_pre_1_1_feature_s_o_l_i_d_create_revolve_1af36571139f21dd9238f207e536dc148a" kindref="member">direction</ref><sp/>=<sp/>pRevFeature-&gt;<ref refid="class_pre_1_1_feature_s_o_l_i_d_create_revolve_1a88e915fa6b4578f700961ce6876c4768" kindref="member">GetAxisDirection</ref>();</highlight></codeline>
+<codeline lineno="197"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="198"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="199"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="200"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>스케치<sp/>내부의<sp/>Local<sp/>좌표계를<sp/>Axis로<sp/>잡는<sp/>경우</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="201"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(_revRefSketName.find(</highlight><highlight class="stringliteral">&quot;axis2D&quot;</highlight><highlight class="normal">)<sp/>==<sp/>0)</highlight></codeline>
+<codeline lineno="202"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="203"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>_revRefSketName<sp/>=<sp/></highlight><highlight class="stringliteral">&quot;sketch&quot;</highlight><highlight class="normal"><sp/>+<sp/>_revRefSketName.substr(6,<sp/>1);</highlight></codeline>
+<codeline lineno="204"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_pre_1_1_f_sketch" kindref="compound">FSketch</ref><sp/>*<sp/>pRevSketch<sp/>=<sp/>(<ref refid="class_pre_1_1_f_sketch" kindref="compound">FSketch</ref>*)<ref refid="class_pre_1_1_feature_1a22de04ab5c0ef7206d32c780ccfafee7" kindref="member">GetPart</ref>()-&gt;<ref refid="class_pre_1_1_part_1a757a376bdc640e00119c3489ee35d2aa" kindref="member">GetFeatureByName</ref>(_revRefSketName);</highlight></codeline>
+<codeline lineno="205"><highlight class="normal"></highlight></codeline>
+<codeline lineno="206"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(_revRefEntName<sp/>==<sp/></highlight><highlight class="stringliteral">&quot;HDirection&quot;</highlight><highlight class="normal">)</highlight></codeline>
+<codeline lineno="207"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_pre_1_1_feature_s_o_l_i_d_create_revolve_1af36571139f21dd9238f207e536dc148a" kindref="member">direction</ref>.SetX(1.0);</highlight></codeline>
+<codeline lineno="208"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(_revRefEntName<sp/>==<sp/></highlight><highlight class="stringliteral">&quot;VDirection&quot;</highlight><highlight class="normal">)</highlight></codeline>
+<codeline lineno="209"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_pre_1_1_feature_s_o_l_i_d_create_revolve_1af36571139f21dd9238f207e536dc148a" kindref="member">direction</ref>.SetY(1.0);</highlight></codeline>
+<codeline lineno="210"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="211"><highlight class="normal"></highlight></codeline>
+<codeline lineno="212"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//새로운<sp/>Centerline<sp/>생성</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="213"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_pre_1_1_feature_s_o_l_i_d_create_revolve_1afa97ebe3e5d5ddae4b85d8c36bfee011" kindref="member">CreateRevolveAxis</ref>(pRefSketch,<sp/>pRevSketch,<sp/><ref refid="class_pre_1_1_feature_s_o_l_i_d_create_revolve_1adc014c54314746fd2761aa5bc94fbc82" kindref="member">origin</ref>,<sp/><ref refid="class_pre_1_1_feature_s_o_l_i_d_create_revolve_1af36571139f21dd9238f207e536dc148a" kindref="member">direction</ref>);</highlight></codeline>
+<codeline lineno="214"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="215"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="216"><highlight class="normal"></highlight></codeline>
+<codeline lineno="217" refid="class_pre_1_1_feature_s_o_l_i_d_create_revolve_1afa97ebe3e5d5ddae4b85d8c36bfee011" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_pre_1_1_feature_s_o_l_i_d_create_revolve_1afa97ebe3e5d5ddae4b85d8c36bfee011" kindref="member">FeatureSOLIDCreateRevolve::CreateRevolveAxis</ref>(<ref refid="class_pre_1_1_f_sketch" kindref="compound">FSketch</ref><sp/>*<sp/>pRefSketch,<sp/><ref refid="class_pre_1_1_f_sketch" kindref="compound">FSketch</ref><sp/>*<sp/>pRevSketch,<sp/><ref refid="namespace_pre_1a42512ff1a00cd929e4efd66d0b148707" kindref="member">Point3D</ref><sp/>origin,<sp/><ref refid="namespace_pre_1a42512ff1a00cd929e4efd66d0b148707" kindref="member">Point3D</ref><sp/>direction)</highlight></codeline>
+<codeline lineno="218"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="219"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(pRefSketch<sp/>&amp;&amp;<sp/>(pRefSketch<sp/>!=<sp/>pRevSketch))</highlight></codeline>
+<codeline lineno="220"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="221"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_pre_1_1_feature_s_o_l_i_d_create_revolve_1a0df0710b1bbb466f16239c8dfe1d7280" kindref="member">TransformRevolveAxis</ref>(pRefSketch-&gt;<ref refid="class_pre_1_1_f_sketch_1a899341ec1e118f4642e4e03685c25163" kindref="member">sketchCoord</ref>,<sp/>pRevSketch-&gt;<ref refid="class_pre_1_1_f_sketch_1a899341ec1e118f4642e4e03685c25163" kindref="member">sketchCoord</ref>,<sp/>origin);</highlight></codeline>
+<codeline lineno="222"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_pre_1_1_feature_s_o_l_i_d_create_revolve_1a0df0710b1bbb466f16239c8dfe1d7280" kindref="member">TransformRevolveAxis</ref>(pRefSketch-&gt;<ref refid="class_pre_1_1_f_sketch_1a899341ec1e118f4642e4e03685c25163" kindref="member">sketchCoord</ref>,<sp/>pRevSketch-&gt;<ref refid="class_pre_1_1_f_sketch_1a899341ec1e118f4642e4e03685c25163" kindref="member">sketchCoord</ref>,<sp/>direction);</highlight></codeline>
+<codeline lineno="223"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="224"><highlight class="normal"></highlight></codeline>
+<codeline lineno="225"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>TransCAD::ISketchEditorPtr<sp/>spSketEditor<sp/>=<sp/>pRevSketch-&gt;<ref refid="class_pre_1_1_f_sketch_1aed61e94eef62ac425b8fb898dc2a3e36" kindref="member">GetSketchFeaturePtr</ref>()-&gt;OpenEditorEx(VARIANT_FALSE);</highlight></codeline>
+<codeline lineno="226"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>spSketEditor-&gt;Create2DCenterline2Points(</highlight><highlight class="stringliteral">&quot;ShaftAxis&quot;</highlight><highlight class="normal">,<sp/>origin.X(),<sp/>origin.Y(),<sp/>direction.X(),<sp/>direction.Y());</highlight></codeline>
+<codeline lineno="227"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="228"><highlight class="normal"></highlight></codeline>
+<codeline lineno="229" refid="class_pre_1_1_feature_s_o_l_i_d_create_revolve_1a0df0710b1bbb466f16239c8dfe1d7280" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_pre_1_1_feature_s_o_l_i_d_create_revolve_1a0df0710b1bbb466f16239c8dfe1d7280" kindref="member">FeatureSOLIDCreateRevolve::TransformRevolveAxis</ref>(</highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>refSketCSYS[9],<sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>revSketCSYS[9],<sp/><ref refid="namespace_pre_1a42512ff1a00cd929e4efd66d0b148707" kindref="member">Point3D</ref><sp/>&amp;coords)</highlight></codeline>
+<codeline lineno="230"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="231"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>globalCSYS[3][3],<sp/>localCSYS[3][3];</highlight></codeline>
+<codeline lineno="232"><highlight class="normal"></highlight></codeline>
+<codeline lineno="233"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>Global<sp/>좌표계</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="234"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>globalCSYS[0][0]<sp/>=<sp/>1;<sp/>globalCSYS[0][1]<sp/>=<sp/>0;<sp/>globalCSYS[0][2]<sp/>=<sp/>0;</highlight></codeline>
+<codeline lineno="235"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>globalCSYS[1][0]<sp/>=<sp/>0;<sp/>globalCSYS[1][1]<sp/>=<sp/>1;<sp/>globalCSYS[1][2]<sp/>=<sp/>0;</highlight></codeline>
+<codeline lineno="236"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>globalCSYS[2][0]<sp/>=<sp/>0;<sp/>globalCSYS[2][1]<sp/>=<sp/>0;<sp/>globalCSYS[2][2]<sp/>=<sp/>1;</highlight></codeline>
+<codeline lineno="237"><highlight class="normal"></highlight></codeline>
+<codeline lineno="238"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>Local<sp/>좌표계<sp/>(Reference<sp/>스케치)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="239"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>localCSYS[0][0]<sp/>=<sp/>refSketCSYS[3];<sp/>localCSYS[0][1]<sp/>=<sp/>refSketCSYS[4];<sp/>localCSYS[0][2]<sp/>=<sp/>refSketCSYS[5];</highlight></codeline>
+<codeline lineno="240"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>localCSYS[1][0]<sp/>=<sp/>refSketCSYS[6];<sp/>localCSYS[1][1]<sp/>=<sp/>refSketCSYS[7];<sp/>localCSYS[1][2]<sp/>=<sp/>refSketCSYS[8];</highlight></codeline>
+<codeline lineno="241"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>localCSYS[2][0]<sp/>=<sp/>localCSYS[0][1]<sp/>*<sp/>localCSYS[1][2]<sp/>-<sp/>localCSYS[0][2]<sp/>*<sp/>localCSYS[1][1];</highlight></codeline>
+<codeline lineno="242"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>localCSYS[2][1]<sp/>=<sp/>localCSYS[0][2]<sp/>*<sp/>localCSYS[1][0]<sp/>-<sp/>localCSYS[0][0]<sp/>*<sp/>localCSYS[1][2];</highlight></codeline>
+<codeline lineno="243"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>localCSYS[2][2]<sp/>=<sp/>localCSYS[0][0]<sp/>*<sp/>localCSYS[1][1]<sp/>-<sp/>localCSYS[0][1]<sp/>*<sp/>localCSYS[1][0];</highlight></codeline>
+<codeline lineno="244"><highlight class="normal"></highlight></codeline>
+<codeline lineno="245"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>Local<sp/>좌표계<sp/>→<sp/>Global<sp/>좌표계<sp/>변환</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="246"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_pre_1_1_feature_s_o_l_i_d_create_revolve_1a713d7516aa2688f511e36455e0241a84" kindref="member">TransformCoordinates</ref>(localCSYS,<sp/>globalCSYS,<sp/>coords);</highlight></codeline>
+<codeline lineno="247"><highlight class="normal"></highlight></codeline>
+<codeline lineno="248"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>좌표계<sp/>중점<sp/>이동</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="249"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>Reference<sp/>스케치의<sp/>중점만큼<sp/>양(+)의<sp/>이동(Local→Global),<sp/>Revolve<sp/>스케치의<sp/>중점만큼<sp/>음(-)의<sp/>이동(Global→Local)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="250"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>coords.SetX(coords.X()<sp/>+<sp/>refSketCSYS[0]<sp/>-<sp/>revSketCSYS[0]);</highlight></codeline>
+<codeline lineno="251"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>coords.SetY(coords.Y()<sp/>+<sp/>refSketCSYS[1]<sp/>-<sp/>revSketCSYS[1]);</highlight></codeline>
+<codeline lineno="252"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>coords.SetZ(coords.Z()<sp/>+<sp/>refSketCSYS[2]<sp/>-<sp/>revSketCSYS[2]);</highlight></codeline>
+<codeline lineno="253"><highlight class="normal"></highlight></codeline>
+<codeline lineno="254"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>Local<sp/>좌표계<sp/>(Revolve<sp/>스케치)<sp/><sp/></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="255"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>localCSYS[0][0]<sp/>=<sp/>revSketCSYS[3];<sp/>localCSYS[0][1]<sp/>=<sp/>revSketCSYS[4];<sp/>localCSYS[0][2]<sp/>=<sp/>revSketCSYS[5];</highlight></codeline>
+<codeline lineno="256"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>localCSYS[1][0]<sp/>=<sp/>revSketCSYS[6];<sp/>localCSYS[1][1]<sp/>=<sp/>revSketCSYS[7];<sp/>localCSYS[1][2]<sp/>=<sp/>revSketCSYS[8];</highlight></codeline>
+<codeline lineno="257"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>localCSYS[2][0]<sp/>=<sp/>localCSYS[0][1]<sp/>*<sp/>localCSYS[1][2]<sp/>-<sp/>localCSYS[0][2]<sp/>*<sp/>localCSYS[1][1];</highlight></codeline>
+<codeline lineno="258"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>localCSYS[2][1]<sp/>=<sp/>localCSYS[0][2]<sp/>*<sp/>localCSYS[1][0]<sp/>-<sp/>localCSYS[0][0]<sp/>*<sp/>localCSYS[1][2];</highlight></codeline>
+<codeline lineno="259"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>localCSYS[2][2]<sp/>=<sp/>localCSYS[0][0]<sp/>*<sp/>localCSYS[1][1]<sp/>-<sp/>localCSYS[0][1]<sp/>*<sp/>localCSYS[1][0];</highlight></codeline>
+<codeline lineno="260"><highlight class="normal"></highlight></codeline>
+<codeline lineno="261"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>Global<sp/>좌표계<sp/>→<sp/>Local<sp/>좌표계<sp/>변환</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="262"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_pre_1_1_feature_s_o_l_i_d_create_revolve_1a713d7516aa2688f511e36455e0241a84" kindref="member">TransformCoordinates</ref>(globalCSYS,<sp/>localCSYS,<sp/>coords);</highlight></codeline>
+<codeline lineno="263"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="264"><highlight class="normal"></highlight></codeline>
+<codeline lineno="265" refid="class_pre_1_1_feature_s_o_l_i_d_create_revolve_1a713d7516aa2688f511e36455e0241a84" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_pre_1_1_feature_s_o_l_i_d_create_revolve_1a713d7516aa2688f511e36455e0241a84" kindref="member">FeatureSOLIDCreateRevolve::TransformCoordinates</ref>(</highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>sourceCSYS[3][3],<sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>targetCSYS[3][3],<sp/><ref refid="namespace_pre_1a42512ff1a00cd929e4efd66d0b148707" kindref="member">Point3D</ref><sp/>&amp;coords)</highlight></codeline>
+<codeline lineno="266"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="267"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>sourceCoords[3],<sp/>targetCoords[3],<sp/>transMatrix[3][3];</highlight></codeline>
+<codeline lineno="268"><highlight class="normal"></highlight></codeline>
+<codeline lineno="269"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>sourceCSYS의<sp/>좌표점</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="270"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>sourceCoords[0]<sp/>=<sp/>coords.X();</highlight></codeline>
+<codeline lineno="271"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>sourceCoords[1]<sp/>=<sp/>coords.Y();</highlight></codeline>
+<codeline lineno="272"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>sourceCoords[2]<sp/>=<sp/>coords.Z();</highlight></codeline>
+<codeline lineno="273"><highlight class="normal"></highlight></codeline>
+<codeline lineno="274"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>Transformation<sp/>matrix<sp/>구하기</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="275"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">for</highlight><highlight class="normal"><sp/>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>i<sp/>=<sp/>0;<sp/>i<sp/>&lt;<sp/>3;<sp/>++i)</highlight></codeline>
+<codeline lineno="276"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="277"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">for</highlight><highlight class="normal"><sp/>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>j<sp/>=<sp/>0;<sp/>j<sp/>&lt;<sp/>3;<sp/>++j)</highlight></codeline>
+<codeline lineno="278"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="279"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>transMatrix[i][j]<sp/>=<sp/>0;</highlight></codeline>
+<codeline lineno="280"><highlight class="normal"></highlight></codeline>
+<codeline lineno="281"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">for</highlight><highlight class="normal"><sp/>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>k<sp/>=<sp/>0;<sp/>k<sp/>&lt;<sp/>3;<sp/>++k)</highlight></codeline>
+<codeline lineno="282"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>transMatrix[i][j]<sp/>=<sp/>transMatrix[i][j]<sp/>+<sp/>targetCSYS[i][k]<sp/>*<sp/>sourceCSYS[j][k];</highlight></codeline>
+<codeline lineno="283"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="284"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="285"><highlight class="normal"></highlight></codeline>
+<codeline lineno="286"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>Transformation<sp/>matrix를<sp/>기반으로<sp/>targetCSYS의<sp/>좌표점<sp/>구하기</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="287"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">for</highlight><highlight class="normal"><sp/>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>i<sp/>=<sp/>0;<sp/>i<sp/>&lt;<sp/>3;<sp/>++i)</highlight></codeline>
+<codeline lineno="288"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="289"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>targetCoords[i]<sp/>=<sp/>0;</highlight></codeline>
+<codeline lineno="290"><highlight class="normal"></highlight></codeline>
+<codeline lineno="291"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">for</highlight><highlight class="normal"><sp/>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>j<sp/>=<sp/>0;<sp/>j<sp/>&lt;<sp/>3;<sp/>++j)</highlight></codeline>
+<codeline lineno="292"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>targetCoords[i]<sp/>=<sp/>targetCoords[i]<sp/>+<sp/>transMatrix[i][j]<sp/>*<sp/>sourceCoords[j];</highlight></codeline>
+<codeline lineno="293"><highlight class="normal"></highlight></codeline>
+<codeline lineno="294"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="295"><highlight class="normal"></highlight></codeline>
+<codeline lineno="296"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>coords.SetX(targetCoords[0]);</highlight></codeline>
+<codeline lineno="297"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>coords.SetY(targetCoords[1]);</highlight></codeline>
+<codeline lineno="298"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>coords.SetZ(targetCoords[2]);</highlight></codeline>
+<codeline lineno="299"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="300"><highlight class="normal">}</highlight></codeline>
+    </programlisting>
+    <location file="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/PreManager/ref/FeatureSOLIDCreateRevolve.cpp"/>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,265 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_c_a_t_i_a_translator_1_1_feature" kind="class" prot="public">
+    <compoundname>CATIATranslator::Feature</compoundname>
+    <derivedcompoundref refid="class_c_a_t_i_a_translator_1_1_feature_chamfer" prot="public" virt="non-virtual">CATIATranslator.FeatureChamfer</derivedcompoundref>
+    <derivedcompoundref refid="class_c_a_t_i_a_translator_1_1_feature_circ_pattern" prot="public" virt="non-virtual">CATIATranslator.FeatureCircPattern</derivedcompoundref>
+    <derivedcompoundref refid="class_c_a_t_i_a_translator_1_1_feature_edge_fillet" prot="public" virt="non-virtual">CATIATranslator.FeatureEdgeFillet</derivedcompoundref>
+    <derivedcompoundref refid="class_c_a_t_i_a_translator_1_1_feature_groove" prot="public" virt="non-virtual">CATIATranslator.FeatureGroove</derivedcompoundref>
+    <derivedcompoundref refid="class_c_a_t_i_a_translator_1_1_feature_hole" prot="public" virt="non-virtual">CATIATranslator.FeatureHole</derivedcompoundref>
+    <derivedcompoundref refid="class_c_a_t_i_a_translator_1_1_feature_pad" prot="public" virt="non-virtual">CATIATranslator.FeaturePad</derivedcompoundref>
+    <derivedcompoundref refid="class_c_a_t_i_a_translator_1_1_feature_pocket" prot="public" virt="non-virtual">CATIATranslator.FeaturePocket</derivedcompoundref>
+    <derivedcompoundref refid="class_c_a_t_i_a_translator_1_1_feature_rect_pattern" prot="public" virt="non-virtual">CATIATranslator.FeatureRectPattern</derivedcompoundref>
+    <derivedcompoundref refid="class_c_a_t_i_a_translator_1_1_feature_rib" prot="public" virt="non-virtual">CATIATranslator.FeatureRib</derivedcompoundref>
+    <derivedcompoundref refid="class_c_a_t_i_a_translator_1_1_feature_shaft" prot="public" virt="non-virtual">CATIATranslator.FeatureShaft</derivedcompoundref>
+    <derivedcompoundref refid="class_c_a_t_i_a_translator_1_1_feature_slot" prot="public" virt="non-virtual">CATIATranslator.FeatureSlot</derivedcompoundref>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_c_a_t_i_a_translator_1_1_feature_1ad90561702fbff5b6fc8f87cdf9531751" prot="public" static="no" mutable="no">
+        <type><ref refid="class_c_a_t_i_a_translator_1_1_part" kindref="compound">Part</ref></type>
+        <definition>Part CATIATranslator.Feature.PartManager</definition>
+        <argsstring></argsstring>
+        <name>PartManager</name>
+        <initializer>= null</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/CATIATranslator/Part/Feature/Feature.cs" line="6" column="1" bodyfile="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/CATIATranslator/Part/Feature/Feature.cs" bodystart="6" bodyend="-1"/>
+        <referencedby refid="class_c_a_t_i_a_translator_1_1_feature_chamfer_1acaa95e66505ee1a7f867e42eb735e033" compoundref="_feature_chamfer_8cs" startline="7" endline="10">CATIATranslator.FeatureChamfer.FeatureChamfer</referencedby>
+        <referencedby refid="class_c_a_t_i_a_translator_1_1_feature_circ_pattern_1a6ec967a3215538ab168dcb5096303073" compoundref="_feature_circ_pattern_8cs" startline="8" endline="11">CATIATranslator.FeatureCircPattern.FeatureCircPattern</referencedby>
+        <referencedby refid="class_c_a_t_i_a_translator_1_1_feature_edge_fillet_1aeaf2c299821f0a69b6edbfa620283b26" compoundref="_feature_edge_fillet_8cs" startline="7" endline="10">CATIATranslator.FeatureEdgeFillet.FeatureEdgeFillet</referencedby>
+        <referencedby refid="class_c_a_t_i_a_translator_1_1_feature_groove_1ac7381fd6ffcb428615c67e83c66ca879" compoundref="_feature_groove_8cs" startline="6" endline="9">CATIATranslator.FeatureGroove.FeatureGroove</referencedby>
+        <referencedby refid="class_c_a_t_i_a_translator_1_1_feature_hole_1a6fafb5ff4d4a367c219f3ad0b4b484a6" compoundref="_feature_hole_8cs" startline="7" endline="10">CATIATranslator.FeatureHole.FeatureHole</referencedby>
+        <referencedby refid="class_c_a_t_i_a_translator_1_1_feature_pad_1ac469a21212f9de0d949e11e299d28898" compoundref="_feature_pad_8cs" startline="6" endline="9">CATIATranslator.FeaturePad.FeaturePad</referencedby>
+        <referencedby refid="class_c_a_t_i_a_translator_1_1_feature_pocket_1ac55d4e623f591e289b560f96f50647c8" compoundref="_feature_pocket_8cs" startline="6" endline="9">CATIATranslator.FeaturePocket.FeaturePocket</referencedby>
+        <referencedby refid="class_c_a_t_i_a_translator_1_1_feature_rect_pattern_1a8d3ee896bc85864cab2e62492504b0dc" compoundref="_feature_rect_pattern_8cs" startline="8" endline="11">CATIATranslator.FeatureRectPattern.FeatureRectPattern</referencedby>
+        <referencedby refid="class_c_a_t_i_a_translator_1_1_feature_rib_1a3455fe07685d180f8b8f60d50a802eb5" compoundref="_feature_rib_8cs" startline="6" endline="9">CATIATranslator.FeatureRib.FeatureRib</referencedby>
+        <referencedby refid="class_c_a_t_i_a_translator_1_1_feature_shaft_1aed6fb97f8b8d2c1151ff4fce5d9f0a5c" compoundref="_feature_shaft_8cs" startline="6" endline="9">CATIATranslator.FeatureShaft.FeatureShaft</referencedby>
+        <referencedby refid="class_c_a_t_i_a_translator_1_1_feature_slot_1ad6f363c4f396bfc1531ebbd818a5481c" compoundref="_feature_slot_8cs" startline="6" endline="9">CATIATranslator.FeatureSlot.FeatureSlot</referencedby>
+        <referencedby refid="class_c_a_t_i_a_translator_1_1_feature_rect_pattern_1a72a9b5af6fe5334e04eff670220d3797" compoundref="_feature_rect_pattern_8cs" startline="103" endline="150">CATIATranslator.FeatureRectPattern.GetReferencePlane</referencedby>
+        <referencedby refid="class_c_a_t_i_a_translator_1_1_feature_circ_pattern_1adaf463f4604e8d94bf4ede314a948494" compoundref="_feature_circ_pattern_8cs" startline="83" endline="113">CATIATranslator.FeatureCircPattern.GetRotationAxis</referencedby>
+        <referencedby refid="class_c_a_t_i_a_translator_1_1_feature_pocket_1aec5ac0a75ba18a81244db2cd5ae957b2" compoundref="_feature_pocket_8cs" startline="12" endline="39">CATIATranslator.FeaturePocket.TranslateC2T</referencedby>
+        <referencedby refid="class_c_a_t_i_a_translator_1_1_feature_groove_1aee33517b35cf86bcfd26477214d35b4f" compoundref="_feature_groove_8cs" startline="12" endline="26">CATIATranslator.FeatureGroove.TranslateC2T</referencedby>
+        <referencedby refid="class_c_a_t_i_a_translator_1_1_feature_pad_1a751e6b9668550c9ac2beeb11ef1f8191" compoundref="_feature_pad_8cs" startline="12" endline="40">CATIATranslator.FeaturePad.TranslateC2T</referencedby>
+        <referencedby refid="class_c_a_t_i_a_translator_1_1_feature_rib_1a5c2e81f14b2b9509b632cf597b1ff2d4" compoundref="_feature_rib_8cs" startline="12" endline="25">CATIATranslator.FeatureRib.TranslateC2T</referencedby>
+        <referencedby refid="class_c_a_t_i_a_translator_1_1_feature_shaft_1aaafff48be585415969f46fd45194c93b" compoundref="_feature_shaft_8cs" startline="12" endline="26">CATIATranslator.FeatureShaft.TranslateC2T</referencedby>
+        <referencedby refid="class_c_a_t_i_a_translator_1_1_feature_slot_1af60dab746fe14f5d77fe1c5d90f40b29" compoundref="_feature_slot_8cs" startline="12" endline="25">CATIATranslator.FeatureSlot.TranslateC2T</referencedby>
+        <referencedby refid="class_c_a_t_i_a_translator_1_1_feature_rib_1a5583f169ef25a306e1d2dbc56728681c" compoundref="_feature_rib_8cs" startline="28" endline="46">CATIATranslator.FeatureRib.TranslateT2C</referencedby>
+        <referencedby refid="class_c_a_t_i_a_translator_1_1_feature_slot_1a4bcb5f0342ffa95327cb7a11469c41d6" compoundref="_feature_slot_8cs" startline="28" endline="46">CATIATranslator.FeatureSlot.TranslateT2C</referencedby>
+        <referencedby refid="class_c_a_t_i_a_translator_1_1_feature_shaft_1a09f23130e74c8cb904a9bb5f40143cd7" compoundref="_feature_shaft_8cs" startline="29" endline="46">CATIATranslator.FeatureShaft.TranslateT2C</referencedby>
+        <referencedby refid="class_c_a_t_i_a_translator_1_1_feature_groove_1a03f7995ab298b66971a0f87d9b3ebe01" compoundref="_feature_groove_8cs" startline="29" endline="46">CATIATranslator.FeatureGroove.TranslateT2C</referencedby>
+        <referencedby refid="class_c_a_t_i_a_translator_1_1_feature_chamfer_1afb3237c69c7f22ac3df3db8b7f4d68a9" compoundref="_feature_chamfer_8cs" startline="34" endline="57">CATIATranslator.FeatureChamfer.TranslateT2C</referencedby>
+        <referencedby refid="class_c_a_t_i_a_translator_1_1_feature_edge_fillet_1a0127e835242204ae4fa280dbdd341bc4" compoundref="_feature_edge_fillet_8cs" startline="39" endline="65">CATIATranslator.FeatureEdgeFillet.TranslateT2C</referencedby>
+        <referencedby refid="class_c_a_t_i_a_translator_1_1_feature_pocket_1ad7f9a075c0e00897ee6adcc7dbbbf67a" compoundref="_feature_pocket_8cs" startline="42" endline="76">CATIATranslator.FeaturePocket.TranslateT2C</referencedby>
+        <referencedby refid="class_c_a_t_i_a_translator_1_1_feature_pad_1a87f785434829837ffc3ba92eb3771012" compoundref="_feature_pad_8cs" startline="43" endline="79">CATIATranslator.FeaturePad.TranslateT2C</referencedby>
+        <referencedby refid="class_c_a_t_i_a_translator_1_1_feature_circ_pattern_1a0297c10b464eb9148261d60fd37c67e0" compoundref="_feature_circ_pattern_8cs" startline="43" endline="81">CATIATranslator.FeatureCircPattern.TranslateT2C</referencedby>
+        <referencedby refid="class_c_a_t_i_a_translator_1_1_feature_rect_pattern_1aed05a35ca5f2ba50466bd955224279fd" compoundref="_feature_rect_pattern_8cs" startline="60" endline="101">CATIATranslator.FeatureRectPattern.TranslateT2C</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_c_a_t_i_a_translator_1_1_feature_1a4ca679cb7db6b544a062441f9c46995e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>void</type>
+        <definition>virtual void CATIATranslator.Feature.TranslateC2T</definition>
+        <argsstring>(MECMOD.Shape cShape)</argsstring>
+        <name>TranslateC2T</name>
+        <reimplementedby refid="class_c_a_t_i_a_translator_1_1_feature_slot_1af60dab746fe14f5d77fe1c5d90f40b29">TranslateC2T</reimplementedby>
+        <reimplementedby refid="class_c_a_t_i_a_translator_1_1_feature_shaft_1aaafff48be585415969f46fd45194c93b">TranslateC2T</reimplementedby>
+        <reimplementedby refid="class_c_a_t_i_a_translator_1_1_feature_rib_1a5c2e81f14b2b9509b632cf597b1ff2d4">TranslateC2T</reimplementedby>
+        <reimplementedby refid="class_c_a_t_i_a_translator_1_1_feature_pocket_1aec5ac0a75ba18a81244db2cd5ae957b2">TranslateC2T</reimplementedby>
+        <reimplementedby refid="class_c_a_t_i_a_translator_1_1_feature_pad_1a751e6b9668550c9ac2beeb11ef1f8191">TranslateC2T</reimplementedby>
+        <reimplementedby refid="class_c_a_t_i_a_translator_1_1_feature_groove_1aee33517b35cf86bcfd26477214d35b4f">TranslateC2T</reimplementedby>
+        <reimplementedby refid="class_c_a_t_i_a_translator_1_1_feature_hole_1a59feef115df65e5bf50ab91ce796364d">TranslateC2T</reimplementedby>
+        <reimplementedby refid="class_c_a_t_i_a_translator_1_1_feature_edge_fillet_1af67cd75d31f8f8879d4dd99db828a38e">TranslateC2T</reimplementedby>
+        <reimplementedby refid="class_c_a_t_i_a_translator_1_1_feature_chamfer_1ad289f623b22ccfa1f9936a74c6036859">TranslateC2T</reimplementedby>
+        <reimplementedby refid="class_c_a_t_i_a_translator_1_1_feature_rect_pattern_1a4379b7cc95bc96d564db9d8881d29b77">TranslateC2T</reimplementedby>
+        <reimplementedby refid="class_c_a_t_i_a_translator_1_1_feature_circ_pattern_1a3e446e7df97b0f3912268c292640d39f">TranslateC2T</reimplementedby>
+        <param>
+          <type>MECMOD.Shape</type>
+          <declname>cShape</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/CATIATranslator/Part/Feature/Feature.cs" line="8" column="1" bodyfile="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/CATIATranslator/Part/Feature/Feature.cs" bodystart="8" bodyend="11"/>
+      </memberdef>
+      <memberdef kind="function" id="class_c_a_t_i_a_translator_1_1_feature_1a9b3c6155e1ff78f54afdeecc4c422129" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>void</type>
+        <definition>virtual void CATIATranslator.Feature.TranslateT2C</definition>
+        <argsstring>(TransCAD.IFeature tFeature)</argsstring>
+        <name>TranslateT2C</name>
+        <reimplementedby refid="class_c_a_t_i_a_translator_1_1_feature_slot_1a4bcb5f0342ffa95327cb7a11469c41d6">TranslateT2C</reimplementedby>
+        <reimplementedby refid="class_c_a_t_i_a_translator_1_1_feature_rib_1a5583f169ef25a306e1d2dbc56728681c">TranslateT2C</reimplementedby>
+        <reimplementedby refid="class_c_a_t_i_a_translator_1_1_feature_shaft_1a09f23130e74c8cb904a9bb5f40143cd7">TranslateT2C</reimplementedby>
+        <reimplementedby refid="class_c_a_t_i_a_translator_1_1_feature_groove_1a03f7995ab298b66971a0f87d9b3ebe01">TranslateT2C</reimplementedby>
+        <reimplementedby refid="class_c_a_t_i_a_translator_1_1_feature_chamfer_1afb3237c69c7f22ac3df3db8b7f4d68a9">TranslateT2C</reimplementedby>
+        <reimplementedby refid="class_c_a_t_i_a_translator_1_1_feature_edge_fillet_1a0127e835242204ae4fa280dbdd341bc4">TranslateT2C</reimplementedby>
+        <reimplementedby refid="class_c_a_t_i_a_translator_1_1_feature_pocket_1ad7f9a075c0e00897ee6adcc7dbbbf67a">TranslateT2C</reimplementedby>
+        <reimplementedby refid="class_c_a_t_i_a_translator_1_1_feature_pad_1a87f785434829837ffc3ba92eb3771012">TranslateT2C</reimplementedby>
+        <reimplementedby refid="class_c_a_t_i_a_translator_1_1_feature_circ_pattern_1a0297c10b464eb9148261d60fd37c67e0">TranslateT2C</reimplementedby>
+        <reimplementedby refid="class_c_a_t_i_a_translator_1_1_feature_rect_pattern_1aed05a35ca5f2ba50466bd955224279fd">TranslateT2C</reimplementedby>
+        <reimplementedby refid="class_c_a_t_i_a_translator_1_1_feature_hole_1aa08760ac242a86ba9cc0f2027f9e888e">TranslateT2C</reimplementedby>
+        <param>
+          <type>TransCAD.IFeature</type>
+          <declname>tFeature</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/CATIATranslator/Part/Feature/Feature.cs" line="13" column="1" bodyfile="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/CATIATranslator/Part/Feature/Feature.cs" bodystart="13" bodyend="16"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="359">
+        <label>CATIATranslator.FeatureHole</label>
+        <link refid="class_c_a_t_i_a_translator_1_1_feature_hole"/>
+        <childnode refid="354" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="354">
+        <label>CATIATranslator.Feature</label>
+        <link refid="class_c_a_t_i_a_translator_1_1_feature"/>
+      </node>
+      <node id="363">
+        <label>CATIATranslator.FeatureRib</label>
+        <link refid="class_c_a_t_i_a_translator_1_1_feature_rib"/>
+        <childnode refid="354" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="361">
+        <label>CATIATranslator.FeaturePocket</label>
+        <link refid="class_c_a_t_i_a_translator_1_1_feature_pocket"/>
+        <childnode refid="354" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="358">
+        <label>CATIATranslator.FeatureGroove</label>
+        <link refid="class_c_a_t_i_a_translator_1_1_feature_groove"/>
+        <childnode refid="354" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="365">
+        <label>CATIATranslator.FeatureSlot</label>
+        <link refid="class_c_a_t_i_a_translator_1_1_feature_slot"/>
+        <childnode refid="354" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="357">
+        <label>CATIATranslator.FeatureEdgeFillet</label>
+        <link refid="class_c_a_t_i_a_translator_1_1_feature_edge_fillet"/>
+        <childnode refid="354" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="356">
+        <label>CATIATranslator.FeatureCircPattern</label>
+        <link refid="class_c_a_t_i_a_translator_1_1_feature_circ_pattern"/>
+        <childnode refid="354" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="355">
+        <label>CATIATranslator.FeatureChamfer</label>
+        <link refid="class_c_a_t_i_a_translator_1_1_feature_chamfer"/>
+        <childnode refid="354" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="362">
+        <label>CATIATranslator.FeatureRectPattern</label>
+        <link refid="class_c_a_t_i_a_translator_1_1_feature_rect_pattern"/>
+        <childnode refid="354" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="364">
+        <label>CATIATranslator.FeatureShaft</label>
+        <link refid="class_c_a_t_i_a_translator_1_1_feature_shaft"/>
+        <childnode refid="354" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="360">
+        <label>CATIATranslator.FeaturePad</label>
+        <link refid="class_c_a_t_i_a_translator_1_1_feature_pad"/>
+        <childnode refid="354" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="366">
+        <label>CATIATranslator.Feature</label>
+        <link refid="class_c_a_t_i_a_translator_1_1_feature"/>
+        <childnode refid="367" relation="usage">
+          <edgelabel>PartManager</edgelabel>
+        </childnode>
+      </node>
+      <node id="368">
+        <label>TransCAD</label>
+      </node>
+      <node id="369">
+        <label>CATIATranslator.Reference</label>
+        <link refid="class_c_a_t_i_a_translator_1_1_reference"/>
+        <childnode refid="370" relation="usage">
+          <edgelabel>assembly</edgelabel>
+        </childnode>
+        <childnode refid="367" relation="usage">
+          <edgelabel>PartManager</edgelabel>
+        </childnode>
+      </node>
+      <node id="367">
+        <label>CATIATranslator.Part</label>
+        <link refid="class_c_a_t_i_a_translator_1_1_part"/>
+        <childnode refid="368" relation="usage">
+          <edgelabel>tAssemDoc</edgelabel>
+          <edgelabel>tApp</edgelabel>
+          <edgelabel>tPartDoc</edgelabel>
+          <edgelabel>tDocs</edgelabel>
+          <edgelabel>tFeatures</edgelabel>
+          <edgelabel>tAssem</edgelabel>
+          <edgelabel>tComp</edgelabel>
+          <edgelabel>tPart</edgelabel>
+        </childnode>
+        <childnode refid="369" relation="usage">
+          <edgelabel>ReferenceManager</edgelabel>
+        </childnode>
+        <childnode refid="367" relation="usage">
+          <edgelabel>cPart</edgelabel>
+        </childnode>
+      </node>
+      <node id="370">
+        <label>CATIATranslator.Assembly</label>
+        <link refid="class_c_a_t_i_a_translator_1_1_assembly"/>
+        <childnode refid="368" relation="usage">
+          <edgelabel>tConstraints</edgelabel>
+          <edgelabel>tAssemDoc</edgelabel>
+          <edgelabel>tApp</edgelabel>
+          <edgelabel>tPartDoc</edgelabel>
+          <edgelabel>tDocs</edgelabel>
+          <edgelabel>tFeatures</edgelabel>
+          <edgelabel>tAssem</edgelabel>
+          <edgelabel>tComp</edgelabel>
+          <edgelabel>tPart</edgelabel>
+        </childnode>
+        <childnode refid="369" relation="usage">
+          <edgelabel>ReferenceManager</edgelabel>
+        </childnode>
+        <childnode refid="367" relation="usage">
+          <edgelabel>cPart</edgelabel>
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/CATIATranslator/Part/Feature/Feature.cs" line="5" column="1" bodyfile="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/CATIATranslator/Part/Feature/Feature.cs" bodystart="4" bodyend="17"/>
+    <listofallmembers>
+      <member refid="class_c_a_t_i_a_translator_1_1_feature_1ad90561702fbff5b6fc8f87cdf9531751" prot="public" virt="non-virtual"><scope>CATIATranslator::Feature</scope><name>PartManager</name></member>
+      <member refid="class_c_a_t_i_a_translator_1_1_feature_1a4ca679cb7db6b544a062441f9c46995e" prot="public" virt="virtual"><scope>CATIATranslator::Feature</scope><name>TranslateC2T</name></member>
+      <member refid="class_c_a_t_i_a_translator_1_1_feature_1a9b3c6155e1ff78f54afdeecc4c422129" prot="public" virt="virtual"><scope>CATIATranslator::Feature</scope><name>TranslateT2C</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,33 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_c_a_t_i_a_translator_1_1_tool" kind="class" prot="public">
+    <compoundname>CATIATranslator::Tool</compoundname>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="class_c_a_t_i_a_translator_1_1_tool_1a7c50ac8b11c31f3c53fb4003cfe71bc4" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void CATIATranslator.Tool.Round</definition>
+        <argsstring>(object[] coords)</argsstring>
+        <name>Round</name>
+        <param>
+          <type>object[]</type>
+          <declname>coords</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/CATIATranslator/Tool.cs" line="8" column="1" bodyfile="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/CATIATranslator/Tool.cs" bodystart="8" bodyend="20"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/CATIATranslator/Tool.cs" line="6" column="1" bodyfile="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/CATIATranslator/Tool.cs" bodystart="5" bodyend="21"/>
+    <listofallmembers>
+      <member refid="class_c_a_t_i_a_translator_1_1_tool_1a7c50ac8b11c31f3c53fb4003cfe71bc4" prot="public" virt="non-virtual"><scope>CATIATranslator::Tool</scope><name>Round</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

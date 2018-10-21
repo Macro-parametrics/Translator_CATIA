@@ -1,0 +1,532 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_post_1_1_feature" kind="class" prot="public">
+    <compoundname>Post::Feature</compoundname>
+    <derivedcompoundref refid="class_post_1_1_f_datum_plane" prot="public" virt="non-virtual">Post::FDatumPlane</derivedcompoundref>
+    <derivedcompoundref refid="class_post_1_1_f_datum_plane_offset" prot="public" virt="non-virtual">Post::FDatumPlaneOffset</derivedcompoundref>
+    <derivedcompoundref refid="class_post_1_1_feature_s_o_l_i_d_create_chamfer" prot="public" virt="non-virtual">Post::FeatureSOLIDCreateChamfer</derivedcompoundref>
+    <derivedcompoundref refid="class_post_1_1_feature_s_o_l_i_d_create_cut_extrude" prot="public" virt="non-virtual">Post::FeatureSOLIDCreateCutExtrude</derivedcompoundref>
+    <derivedcompoundref refid="class_post_1_1_feature_s_o_l_i_d_create_cut_revolve" prot="public" virt="non-virtual">Post::FeatureSOLIDCreateCutRevolve</derivedcompoundref>
+    <derivedcompoundref refid="class_post_1_1_feature_s_o_l_i_d_create_faces_loft" prot="public" virt="non-virtual">Post::FeatureSOLIDCreateFacesLoft</derivedcompoundref>
+    <derivedcompoundref refid="class_post_1_1_feature_s_o_l_i_d_create_fillet_constant" prot="public" virt="non-virtual">Post::FeatureSOLIDCreateFilletConstant</derivedcompoundref>
+    <derivedcompoundref refid="class_post_1_1_feature_s_o_l_i_d_create_hole_counterbored" prot="public" virt="non-virtual">Post::FeatureSOLIDCreateHoleCounterbored</derivedcompoundref>
+    <derivedcompoundref refid="class_post_1_1_feature_s_o_l_i_d_create_hole_countersunk" prot="public" virt="non-virtual">Post::FeatureSOLIDCreateHoleCountersunk</derivedcompoundref>
+    <derivedcompoundref refid="class_post_1_1_feature_s_o_l_i_d_create_pattern_circular" prot="public" virt="non-virtual">Post::FeatureSOLIDCreatePatternCircular</derivedcompoundref>
+    <derivedcompoundref refid="class_post_1_1_feature_s_o_l_i_d_create_pattern_rectangular" prot="public" virt="non-virtual">Post::FeatureSOLIDCreatePatternRectangular</derivedcompoundref>
+    <derivedcompoundref refid="class_post_1_1_feature_s_o_l_i_d_create_protrusion_extrude" prot="public" virt="non-virtual">Post::FeatureSOLIDCreateProtrusionExtrude</derivedcompoundref>
+    <derivedcompoundref refid="class_post_1_1_feature_s_o_l_i_d_create_protrusion_loft" prot="public" virt="non-virtual">Post::FeatureSOLIDCreateProtrusionLoft</derivedcompoundref>
+    <derivedcompoundref refid="class_post_1_1_feature_s_o_l_i_d_create_protrusion_revolve" prot="public" virt="non-virtual">Post::FeatureSOLIDCreateProtrusionRevolve</derivedcompoundref>
+    <derivedcompoundref refid="class_post_1_1_feature_s_o_l_i_d_create_protrusion_sweep" prot="public" virt="non-virtual">Post::FeatureSOLIDCreateProtrusionSweep</derivedcompoundref>
+    <derivedcompoundref refid="class_post_1_1_feature_s_o_l_i_d_create_sections_loft" prot="public" virt="non-virtual">Post::FeatureSOLIDCreateSectionsLoft</derivedcompoundref>
+    <derivedcompoundref refid="class_post_1_1_f_sketch" prot="public" virt="non-virtual">Post::FSketch</derivedcompoundref>
+    <includes refid="_post_manager_2ref_2_feature_8h" local="no">Feature.h</includes>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_post_1_1_feature_1a93e0edd3b8a4639ad851119b773582cb" prot="public" static="no" mutable="no">
+        <type><ref refid="class_post_1_1_part" kindref="compound">Part</ref> *</type>
+        <definition>Part* Post::Feature::_pPart</definition>
+        <argsstring></argsstring>
+        <name>_pPart</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/PostManager/ref/Feature.h" line="27" column="1" bodyfile="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/PostManager/ref/Feature.h" bodystart="27" bodyend="-1"/>
+        <referencedby refid="class_post_1_1_feature_1a757c6724362593cf5b61c06777e1476f" compoundref="_post_manager_2ref_2_feature_8cpp" startline="5" endline="16">Feature</referencedby>
+        <referencedby refid="class_post_1_1_feature_1aace9d720d9a16b17c62ab6b4b91cea3c" compoundref="_post_manager_2ref_2_feature_8h" startline="12" endline="12">GetPart</referencedby>
+        <referencedby refid="class_post_1_1_f_sketch_1a04bbe4dfa30502ae0e62abd35ece66fe" compoundref="_post_manager_2ref_2_f_sketch_8cpp" startline="140" endline="276">Post::FSketch::ToCATIA</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_post_1_1_feature_1a6a0b62ac67583207cd51d36b8540f75b" prot="public" static="no" mutable="no">
+        <type>size_t</type>
+        <definition>size_t Post::Feature::_nIndex</definition>
+        <argsstring></argsstring>
+        <name>_nIndex</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/PostManager/ref/Feature.h" line="28" column="1" bodyfile="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/PostManager/ref/Feature.h" bodystart="28" bodyend="-1"/>
+        <referencedby refid="class_post_1_1_feature_1a757c6724362593cf5b61c06777e1476f" compoundref="_post_manager_2ref_2_feature_8cpp" startline="5" endline="16">Feature</referencedby>
+        <referencedby refid="class_post_1_1_feature_1a17937115029d464402a274393c9efc82" compoundref="_post_manager_2ref_2_feature_8h" startline="15" endline="15">GetFeatureIndex</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_post_1_1_feature_1a89de9a11285c07976c881031857287bc" prot="public" static="no" mutable="no">
+        <type>string</type>
+        <definition>string Post::Feature::_strName</definition>
+        <argsstring></argsstring>
+        <name>_strName</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/PostManager/ref/Feature.h" line="29" column="1" bodyfile="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/PostManager/ref/Feature.h" bodystart="29" bodyend="-1"/>
+        <referencedby refid="class_post_1_1_feature_1a757c6724362593cf5b61c06777e1476f" compoundref="_post_manager_2ref_2_feature_8cpp" startline="5" endline="16">Feature</referencedby>
+        <referencedby refid="class_post_1_1_feature_1a68d3fb9f274c6170d83e2a51d01400ac" compoundref="_post_manager_2ref_2_feature_8h" startline="16" endline="16">GetFeatureName</referencedby>
+        <referencedby refid="class_post_1_1_feature_1a2cdd61cc7885d66a902e7a29cca9bc05" compoundref="_post_manager_2ref_2_feature_8h" startline="14" endline="14">SetFeatureName</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_post_1_1_feature_1a9d39434cf1acdc737198fefcf8b32e67" prot="public" static="no" mutable="no">
+        <type>TransCAD::IFeaturePtr</type>
+        <definition>TransCAD::IFeaturePtr Post::Feature::_spFeature</definition>
+        <argsstring></argsstring>
+        <name>_spFeature</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/PostManager/ref/Feature.h" line="30" column="1" bodyfile="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/PostManager/ref/Feature.h" bodystart="30" bodyend="-1"/>
+        <referencedby refid="class_post_1_1_feature_1a757c6724362593cf5b61c06777e1476f" compoundref="_post_manager_2ref_2_feature_8cpp" startline="5" endline="16">Feature</referencedby>
+        <referencedby refid="class_post_1_1_f_sketch_1ae9f4edcd006296df4706d1470285b1a6" compoundref="_post_manager_2ref_2_f_sketch_8cpp" startline="15" endline="31">Post::FSketch::FSketch</referencedby>
+        <referencedby refid="class_post_1_1_feature_1a252ade4e8188c192beaf03a8abbdca65" compoundref="_post_manager_2ref_2_feature_8h" startline="18" endline="18">GetTransCADFeature</referencedby>
+        <referencedby refid="class_post_1_1_feature_s_o_l_i_d_create_fillet_constant_1a395a9468714e65e59fdc9735a1c4c2da" compoundref="_post_manager_2ref_2_feature_s_o_l_i_d_create_fillet_constant_8cpp" startline="34" endline="69">Post::FeatureSOLIDCreateFilletConstant::ToCATIA</referencedby>
+        <referencedby refid="class_post_1_1_f_datum_plane_offset_1af34c0973ffefae44460713c5f5944e19" compoundref="_post_manager_2ref_2_f_datum_plane_offset_8cpp" startline="29" endline="111">Post::FDatumPlaneOffset::ToCATIA</referencedby>
+        <referencedby refid="class_post_1_1_feature_s_o_l_i_d_create_chamfer_1adc476aca0219e6111ebad3f6807e53a6" compoundref="_post_manager_2ref_2_feature_s_o_l_i_d_create_chamfer_8cpp" startline="33" endline="67">Post::FeatureSOLIDCreateChamfer::ToCATIA</referencedby>
+        <referencedby refid="class_post_1_1_feature_s_o_l_i_d_create_pattern_circular_1a572bd9787a8d00fb43cceab6ce4260a9" compoundref="_post_manager_2ref_2_feature_s_o_l_i_d_create_pattern_circular_8cpp" startline="66" endline="96">Post::FeatureSOLIDCreatePatternCircular::ToCATIA</referencedby>
+        <referencedby refid="class_post_1_1_feature_s_o_l_i_d_create_pattern_rectangular_1a3c104d07dd42a6c50984884c5ccc9fcb" compoundref="_post_manager_2ref_2_feature_s_o_l_i_d_create_pattern_rectangular_8cpp" startline="66" endline="100">Post::FeatureSOLIDCreatePatternRectangular::ToCATIA</referencedby>
+        <referencedby refid="class_post_1_1_feature_s_o_l_i_d_create_cut_extrude_1a7ffaba515665ad33e83e34d2af8a0cac" compoundref="_feature_s_o_l_i_d_create_cut_extrude_8cpp" startline="36" endline="99">Post::FeatureSOLIDCreateCutExtrude::ToCATIA</referencedby>
+        <referencedby refid="class_post_1_1_feature_s_o_l_i_d_create_protrusion_extrude_1a64f136a9e115c09cd4f1b2fff857f4b3" compoundref="_feature_s_o_l_i_d_create_protrusion_extrude_8cpp" startline="39" endline="101">Post::FeatureSOLIDCreateProtrusionExtrude::ToCATIA</referencedby>
+        <referencedby refid="class_post_1_1_feature_s_o_l_i_d_create_cut_revolve_1a943c15cf026572c40cb9d5d64b94ea55" compoundref="_feature_s_o_l_i_d_create_cut_revolve_8cpp" startline="42" endline="78">Post::FeatureSOLIDCreateCutRevolve::ToCATIA</referencedby>
+        <referencedby refid="class_post_1_1_feature_s_o_l_i_d_create_protrusion_revolve_1a694f7011ec7ebeca3d7bd3850dc756bf" compoundref="_feature_s_o_l_i_d_create_protrusion_revolve_8cpp" startline="43" endline="79">Post::FeatureSOLIDCreateProtrusionRevolve::ToCATIA</referencedby>
+        <referencedby refid="class_post_1_1_feature_s_o_l_i_d_create_sections_loft_1a24653567189674cf9624c7ce852b204b" compoundref="_feature_s_o_l_i_d_create_sections_loft_8cpp" startline="45" endline="120">Post::FeatureSOLIDCreateSectionsLoft::ToCATIA</referencedby>
+        <referencedby refid="class_post_1_1_feature_s_o_l_i_d_create_protrusion_loft_1a229923ce36140b183c02b87949f3a0f5" compoundref="_feature_s_o_l_i_d_create_protrusion_loft_8cpp" startline="41" endline="69">Post::FeatureSOLIDCreateProtrusionLoft::ToCATIA</referencedby>
+        <referencedby refid="class_post_1_1_feature_s_o_l_i_d_create_faces_loft_1a0cb2c7bcf5453a41a80ab8a42412e737" compoundref="_feature_s_o_l_i_d_create_faces_loft_8cpp" startline="41" endline="70">Post::FeatureSOLIDCreateFacesLoft::ToCATIA</referencedby>
+        <referencedby refid="class_post_1_1_feature_s_o_l_i_d_create_protrusion_sweep_1ad9d12144ce67b131f9d8b856abb32495" compoundref="_feature_s_o_l_i_d_create_protrusion_sweep_8cpp" startline="31" endline="60">Post::FeatureSOLIDCreateProtrusionSweep::ToCATIA</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_post_1_1_feature_1a757c6724362593cf5b61c06777e1476f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>Post::Feature::Feature</definition>
+        <argsstring>(Part *pPart, TransCAD::IFeaturePtr spFeature)</argsstring>
+        <name>Feature</name>
+        <param>
+          <type><ref refid="class_post_1_1_part" kindref="compound">Part</ref> *</type>
+          <declname>pPart</declname>
+        </param>
+        <param>
+          <type>TransCAD::IFeaturePtr</type>
+          <declname>spFeature</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/PostManager/ref/Feature.h" line="9" column="1" bodyfile="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/PostManager/ref/Feature.cpp" bodystart="5" bodyend="16"/>
+        <references refid="class_post_1_1_feature_1a6a0b62ac67583207cd51d36b8540f75b" compoundref="_post_manager_2ref_2_feature_8h" startline="28">_nIndex</references>
+        <references refid="class_post_1_1_feature_1a93e0edd3b8a4639ad851119b773582cb" compoundref="_post_manager_2ref_2_feature_8h" startline="27">_pPart</references>
+        <references refid="class_post_1_1_feature_1a9d39434cf1acdc737198fefcf8b32e67" compoundref="_post_manager_2ref_2_feature_8h" startline="30">_spFeature</references>
+        <references refid="class_post_1_1_feature_1a89de9a11285c07976c881031857287bc" compoundref="_post_manager_2ref_2_feature_8h" startline="29">_strName</references>
+        <references refid="class_post_1_1_part_1a84448a04d48c260eb780831d8430e038" compoundref="_post_manager_2ref_2_part_8h" startline="24" endline="24">Post::Part::GetSize</references>
+      </memberdef>
+      <memberdef kind="function" id="class_post_1_1_feature_1a9a8ee05393f4321a5ceba0d075573a25" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type></type>
+        <definition>Post::Feature::~Feature</definition>
+        <argsstring>(void)</argsstring>
+        <name>~Feature</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/PostManager/ref/Feature.h" line="10" column="1" bodyfile="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/PostManager/ref/Feature.cpp" bodystart="18" bodyend="20"/>
+      </memberdef>
+      <memberdef kind="function" id="class_post_1_1_feature_1aace9d720d9a16b17c62ab6b4b91cea3c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="class_post_1_1_part" kindref="compound">Part</ref> *</type>
+        <definition>Part* Post::Feature::GetPart</definition>
+        <argsstring>()</argsstring>
+        <name>GetPart</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/PostManager/ref/Feature.h" line="12" column="1" bodyfile="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/PostManager/ref/Feature.h" bodystart="12" bodyend="12"/>
+        <references refid="class_post_1_1_feature_1a93e0edd3b8a4639ad851119b773582cb" compoundref="_post_manager_2ref_2_feature_8h" startline="27">_pPart</references>
+        <referencedby refid="class_post_1_1_feature_s_o_l_i_d_create_cut_extrude_1a8688db3ec3f41c866d0690f9b39f3ede" compoundref="_feature_s_o_l_i_d_create_cut_extrude_8cpp" startline="14" endline="34">Post::FeatureSOLIDCreateCutExtrude::GetInfo</referencedby>
+        <referencedby refid="class_post_1_1_feature_s_o_l_i_d_create_cut_revolve_1a2659311498b64a4487e7b5d3cc4449d4" compoundref="_feature_s_o_l_i_d_create_cut_revolve_8cpp" startline="15" endline="40">Post::FeatureSOLIDCreateCutRevolve::GetInfo</referencedby>
+        <referencedby refid="class_post_1_1_feature_s_o_l_i_d_create_protrusion_extrude_1a187483d2e702af009530405dd8724385" compoundref="_feature_s_o_l_i_d_create_protrusion_extrude_8cpp" startline="15" endline="37">Post::FeatureSOLIDCreateProtrusionExtrude::GetInfo</referencedby>
+        <referencedby refid="class_post_1_1_feature_s_o_l_i_d_create_protrusion_revolve_1a985d6dcd1120fb38b3a9b0a49728d230" compoundref="_feature_s_o_l_i_d_create_protrusion_revolve_8cpp" startline="15" endline="41">Post::FeatureSOLIDCreateProtrusionRevolve::GetInfo</referencedby>
+        <referencedby refid="class_post_1_1_feature_s_o_l_i_d_create_protrusion_sweep_1a39ec993074d8213a73d1b2357d4bb1a3" compoundref="_feature_s_o_l_i_d_create_protrusion_sweep_8cpp" startline="15" endline="29">Post::FeatureSOLIDCreateProtrusionSweep::GetInfo</referencedby>
+        <referencedby refid="class_post_1_1_feature_s_o_l_i_d_create_hole_counterbored_1a8f74cad0535e4af5457336d82fde6109" compoundref="_feature_s_o_l_i_d_create_hole_counterbored_8cpp" startline="37" endline="96">Post::FeatureSOLIDCreateHoleCounterbored::ToCATIA</referencedby>
+        <referencedby refid="class_post_1_1_feature_s_o_l_i_d_create_hole_countersunk_1a076b56d8a0a35f24cd0ae55d0760e87e" compoundref="_feature_s_o_l_i_d_create_hole_countersunk_8cpp" startline="37" endline="98">Post::FeatureSOLIDCreateHoleCountersunk::ToCATIA</referencedby>
+        <referencedby refid="class_post_1_1_feature_s_o_l_i_d_create_chamfer_1adc476aca0219e6111ebad3f6807e53a6" compoundref="_post_manager_2ref_2_feature_s_o_l_i_d_create_chamfer_8cpp" startline="33" endline="67">Post::FeatureSOLIDCreateChamfer::ToCATIA</referencedby>
+        <referencedby refid="class_post_1_1_feature_s_o_l_i_d_create_pattern_circular_1a572bd9787a8d00fb43cceab6ce4260a9" compoundref="_post_manager_2ref_2_feature_s_o_l_i_d_create_pattern_circular_8cpp" startline="66" endline="96">Post::FeatureSOLIDCreatePatternCircular::ToCATIA</referencedby>
+        <referencedby refid="class_post_1_1_feature_s_o_l_i_d_create_pattern_rectangular_1a3c104d07dd42a6c50984884c5ccc9fcb" compoundref="_post_manager_2ref_2_feature_s_o_l_i_d_create_pattern_rectangular_8cpp" startline="66" endline="100">Post::FeatureSOLIDCreatePatternRectangular::ToCATIA</referencedby>
+        <referencedby refid="class_post_1_1_f_datum_plane_offset_1af34c0973ffefae44460713c5f5944e19" compoundref="_post_manager_2ref_2_f_datum_plane_offset_8cpp" startline="29" endline="111">Post::FDatumPlaneOffset::ToCATIA</referencedby>
+        <referencedby refid="class_post_1_1_feature_s_o_l_i_d_create_fillet_constant_1a395a9468714e65e59fdc9735a1c4c2da" compoundref="_post_manager_2ref_2_feature_s_o_l_i_d_create_fillet_constant_8cpp" startline="34" endline="69">Post::FeatureSOLIDCreateFilletConstant::ToCATIA</referencedby>
+        <referencedby refid="class_post_1_1_feature_s_o_l_i_d_create_protrusion_revolve_1a694f7011ec7ebeca3d7bd3850dc756bf" compoundref="_feature_s_o_l_i_d_create_protrusion_revolve_8cpp" startline="43" endline="79">Post::FeatureSOLIDCreateProtrusionRevolve::ToCATIA</referencedby>
+        <referencedby refid="class_post_1_1_feature_s_o_l_i_d_create_cut_extrude_1a7ffaba515665ad33e83e34d2af8a0cac" compoundref="_feature_s_o_l_i_d_create_cut_extrude_8cpp" startline="36" endline="99">Post::FeatureSOLIDCreateCutExtrude::ToCATIA</referencedby>
+        <referencedby refid="class_post_1_1_feature_s_o_l_i_d_create_protrusion_extrude_1a64f136a9e115c09cd4f1b2fff857f4b3" compoundref="_feature_s_o_l_i_d_create_protrusion_extrude_8cpp" startline="39" endline="101">Post::FeatureSOLIDCreateProtrusionExtrude::ToCATIA</referencedby>
+        <referencedby refid="class_post_1_1_feature_s_o_l_i_d_create_cut_revolve_1a943c15cf026572c40cb9d5d64b94ea55" compoundref="_feature_s_o_l_i_d_create_cut_revolve_8cpp" startline="42" endline="78">Post::FeatureSOLIDCreateCutRevolve::ToCATIA</referencedby>
+        <referencedby refid="class_post_1_1_feature_s_o_l_i_d_create_protrusion_sweep_1ad9d12144ce67b131f9d8b856abb32495" compoundref="_feature_s_o_l_i_d_create_protrusion_sweep_8cpp" startline="31" endline="60">Post::FeatureSOLIDCreateProtrusionSweep::ToCATIA</referencedby>
+        <referencedby refid="class_post_1_1_feature_s_o_l_i_d_create_sections_loft_1a24653567189674cf9624c7ce852b204b" compoundref="_feature_s_o_l_i_d_create_sections_loft_8cpp" startline="45" endline="120">Post::FeatureSOLIDCreateSectionsLoft::ToCATIA</referencedby>
+        <referencedby refid="class_post_1_1_f_sketch_1a04bbe4dfa30502ae0e62abd35ece66fe" compoundref="_post_manager_2ref_2_f_sketch_8cpp" startline="140" endline="276">Post::FSketch::ToCATIA</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_post_1_1_feature_1a2cdd61cc7885d66a902e7a29cca9bc05" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Post::Feature::SetFeatureName</definition>
+        <argsstring>(string featureName)</argsstring>
+        <name>SetFeatureName</name>
+        <param>
+          <type>string</type>
+          <declname>featureName</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/PostManager/ref/Feature.h" line="14" column="1" bodyfile="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/PostManager/ref/Feature.h" bodystart="14" bodyend="14"/>
+        <references refid="class_post_1_1_feature_1a89de9a11285c07976c881031857287bc" compoundref="_post_manager_2ref_2_feature_8h" startline="29">_strName</references>
+      </memberdef>
+      <memberdef kind="function" id="class_post_1_1_feature_1a17937115029d464402a274393c9efc82" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>size_t</type>
+        <definition>size_t Post::Feature::GetFeatureIndex</definition>
+        <argsstring>()</argsstring>
+        <name>GetFeatureIndex</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/PostManager/ref/Feature.h" line="15" column="1" bodyfile="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/PostManager/ref/Feature.h" bodystart="15" bodyend="15"/>
+        <references refid="class_post_1_1_feature_1a6a0b62ac67583207cd51d36b8540f75b" compoundref="_post_manager_2ref_2_feature_8h" startline="28">_nIndex</references>
+      </memberdef>
+      <memberdef kind="function" id="class_post_1_1_feature_1a68d3fb9f274c6170d83e2a51d01400ac" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>string</type>
+        <definition>string Post::Feature::GetFeatureName</definition>
+        <argsstring>()</argsstring>
+        <name>GetFeatureName</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/PostManager/ref/Feature.h" line="16" column="1" bodyfile="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/PostManager/ref/Feature.h" bodystart="16" bodyend="16"/>
+        <references refid="class_post_1_1_feature_1a89de9a11285c07976c881031857287bc" compoundref="_post_manager_2ref_2_feature_8h" startline="29">_strName</references>
+        <referencedby refid="class_post_1_1_part_1a07f75907c17887e5f7576fb9d726a469" compoundref="_post_manager_2ref_2_part_8cpp" startline="176" endline="187">Post::Part::GetFeatureByName</referencedby>
+        <referencedby refid="class_post_1_1_f_datum_plane_1a5d0271cd3bee3777b43eaf2e90c1bb1d" compoundref="_f_datum_plane_8cpp" startline="20" endline="32">Post::FDatumPlane::GetInfo</referencedby>
+        <referencedby refid="class_post_1_1_f_sketch_1a7bafff74162c56925124f63dc257948f" compoundref="_post_manager_2ref_2_f_sketch_8cpp" startline="87" endline="138">Post::FSketch::GetInfo</referencedby>
+        <referencedby refid="class_post_1_1_f_datum_plane_1a7c90b5abc0106379cb9a49c4c7ed2c8d" compoundref="_f_datum_plane_8cpp" startline="34" endline="37">Post::FDatumPlane::ToCATIA</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_post_1_1_feature_1a252ade4e8188c192beaf03a8abbdca65" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>TransCAD::IFeaturePtr</type>
+        <definition>TransCAD::IFeaturePtr Post::Feature::GetTransCADFeature</definition>
+        <argsstring>()</argsstring>
+        <name>GetTransCADFeature</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/PostManager/ref/Feature.h" line="18" column="1" bodyfile="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/PostManager/ref/Feature.h" bodystart="18" bodyend="18"/>
+        <references refid="class_post_1_1_feature_1a9d39434cf1acdc737198fefcf8b32e67" compoundref="_post_manager_2ref_2_feature_8h" startline="30">_spFeature</references>
+        <referencedby refid="class_post_1_1_f_datum_plane_offset_1a04c0d2134d84658841f069459c95a8f2" compoundref="_post_manager_2ref_2_f_datum_plane_offset_8cpp" startline="13" endline="27">Post::FDatumPlaneOffset::GetInfo</referencedby>
+        <referencedby refid="class_post_1_1_feature_s_o_l_i_d_create_chamfer_1acf8baea1eff0088d8124a6bfb186432f" compoundref="_post_manager_2ref_2_feature_s_o_l_i_d_create_chamfer_8cpp" startline="14" endline="31">Post::FeatureSOLIDCreateChamfer::GetInfo</referencedby>
+        <referencedby refid="class_post_1_1_feature_s_o_l_i_d_create_fillet_constant_1a0598504ff72ed59f68bdb0f011826737" compoundref="_post_manager_2ref_2_feature_s_o_l_i_d_create_fillet_constant_8cpp" startline="14" endline="32">Post::FeatureSOLIDCreateFilletConstant::GetInfo</referencedby>
+        <referencedby refid="class_post_1_1_feature_s_o_l_i_d_create_hole_counterbored_1a0297d50f10e63d36e925e9cff5e36a6a" compoundref="_feature_s_o_l_i_d_create_hole_counterbored_8cpp" startline="14" endline="35">Post::FeatureSOLIDCreateHoleCounterbored::GetInfo</referencedby>
+        <referencedby refid="class_post_1_1_feature_s_o_l_i_d_create_hole_countersunk_1ab3b5d0c0cfb307e533792e43fb351e90" compoundref="_feature_s_o_l_i_d_create_hole_countersunk_8cpp" startline="14" endline="35">Post::FeatureSOLIDCreateHoleCountersunk::GetInfo</referencedby>
+        <referencedby refid="class_post_1_1_feature_s_o_l_i_d_create_pattern_circular_1a3529b594c7fb28c9976579e4eec5d947" compoundref="_post_manager_2ref_2_feature_s_o_l_i_d_create_pattern_circular_8cpp" startline="14" endline="64">Post::FeatureSOLIDCreatePatternCircular::GetInfo</referencedby>
+        <referencedby refid="class_post_1_1_feature_s_o_l_i_d_create_pattern_rectangular_1abb31233e316bac582f8b8b529dac7f49" compoundref="_post_manager_2ref_2_feature_s_o_l_i_d_create_pattern_rectangular_8cpp" startline="14" endline="64">Post::FeatureSOLIDCreatePatternRectangular::GetInfo</referencedby>
+        <referencedby refid="class_post_1_1_feature_s_o_l_i_d_create_protrusion_revolve_1a985d6dcd1120fb38b3a9b0a49728d230" compoundref="_feature_s_o_l_i_d_create_protrusion_revolve_8cpp" startline="15" endline="41">Post::FeatureSOLIDCreateProtrusionRevolve::GetInfo</referencedby>
+        <referencedby refid="class_post_1_1_feature_s_o_l_i_d_create_cut_revolve_1a2659311498b64a4487e7b5d3cc4449d4" compoundref="_feature_s_o_l_i_d_create_cut_revolve_8cpp" startline="15" endline="40">Post::FeatureSOLIDCreateCutRevolve::GetInfo</referencedby>
+        <referencedby refid="class_post_1_1_feature_s_o_l_i_d_create_cut_extrude_1a8688db3ec3f41c866d0690f9b39f3ede" compoundref="_feature_s_o_l_i_d_create_cut_extrude_8cpp" startline="14" endline="34">Post::FeatureSOLIDCreateCutExtrude::GetInfo</referencedby>
+        <referencedby refid="class_post_1_1_feature_s_o_l_i_d_create_protrusion_extrude_1a187483d2e702af009530405dd8724385" compoundref="_feature_s_o_l_i_d_create_protrusion_extrude_8cpp" startline="15" endline="37">Post::FeatureSOLIDCreateProtrusionExtrude::GetInfo</referencedby>
+        <referencedby refid="class_post_1_1_feature_s_o_l_i_d_create_protrusion_loft_1a6e35bb77cecee5692aec88d93c403451" compoundref="_feature_s_o_l_i_d_create_protrusion_loft_8cpp" startline="15" endline="39">Post::FeatureSOLIDCreateProtrusionLoft::GetInfo</referencedby>
+        <referencedby refid="class_post_1_1_feature_s_o_l_i_d_create_protrusion_sweep_1a39ec993074d8213a73d1b2357d4bb1a3" compoundref="_feature_s_o_l_i_d_create_protrusion_sweep_8cpp" startline="15" endline="29">Post::FeatureSOLIDCreateProtrusionSweep::GetInfo</referencedby>
+        <referencedby refid="class_post_1_1_feature_s_o_l_i_d_create_sections_loft_1aeca2b7fdb92f496947072e1d6c2f2920" compoundref="_feature_s_o_l_i_d_create_sections_loft_8cpp" startline="16" endline="43">Post::FeatureSOLIDCreateSectionsLoft::GetInfo</referencedby>
+        <referencedby refid="class_post_1_1_s_k_e_t_c_h_create2_d_centerline_1aa13eba9ab4db3ba583dc46e250982179" compoundref="_s_k_e_t_c_h_create2_d_centerline_8cpp" startline="16" endline="27">Post::SKETCHCreate2DCenterline::GetInfo</referencedby>
+        <referencedby refid="class_post_1_1_feature_s_o_l_i_d_create_faces_loft_1af5d0cdacfbf881465c54bdc94e3b387b" compoundref="_feature_s_o_l_i_d_create_faces_loft_8cpp" startline="15" endline="39">Post::FeatureSOLIDCreateFacesLoft::GetInfo</referencedby>
+        <referencedby refid="class_post_1_1_s_k_e_t_c_h_create2_d_point_1a723681b77947166bb9c0a8b9a093bca2" compoundref="_s_k_e_t_c_h_create2_d_point_8cpp" startline="14" endline="22">Post::SKETCHCreate2DPoint::GetInfo</referencedby>
+        <referencedby refid="class_post_1_1_s_k_e_t_c_h_create2_d_circle_center_point_1a8a23bf3543170f9b80656d6fe84896d3" compoundref="_s_k_e_t_c_h_create2_d_circle_center_point_8cpp" startline="14" endline="26">Post::SKETCHCreate2DCircleCenterPoint::GetInfo</referencedby>
+        <referencedby refid="class_post_1_1_s_k_e_t_c_h_create2_d_line2_points_1a3a001e53b6c6a2444690a3d1b5d81085" compoundref="_s_k_e_t_c_h_create2_d_line2_points_8cpp" startline="14" endline="30">Post::SKETCHCreate2DLine2Points::GetInfo</referencedby>
+        <referencedby refid="class_post_1_1_s_k_e_t_c_h_create2_d_circular_arc_1a76e2210a8de8829e9b6d1229eec220bb" compoundref="_s_k_e_t_c_h_create2_d_circular_arc_8cpp" startline="14" endline="34">Post::SKETCHCreate2DCircularArc::GetInfo</referencedby>
+        <referencedby refid="class_post_1_1_feature_s_o_l_i_d_create_protrusion_extrude_1a64f136a9e115c09cd4f1b2fff857f4b3" compoundref="_feature_s_o_l_i_d_create_protrusion_extrude_8cpp" startline="39" endline="101">Post::FeatureSOLIDCreateProtrusionExtrude::ToCATIA</referencedby>
+        <referencedby refid="class_post_1_1_feature_s_o_l_i_d_create_cut_extrude_1a7ffaba515665ad33e83e34d2af8a0cac" compoundref="_feature_s_o_l_i_d_create_cut_extrude_8cpp" startline="36" endline="99">Post::FeatureSOLIDCreateCutExtrude::ToCATIA</referencedby>
+        <referencedby refid="class_post_1_1_feature_s_o_l_i_d_create_protrusion_revolve_1a694f7011ec7ebeca3d7bd3850dc756bf" compoundref="_feature_s_o_l_i_d_create_protrusion_revolve_8cpp" startline="43" endline="79">Post::FeatureSOLIDCreateProtrusionRevolve::ToCATIA</referencedby>
+        <referencedby refid="class_post_1_1_feature_s_o_l_i_d_create_cut_revolve_1a943c15cf026572c40cb9d5d64b94ea55" compoundref="_feature_s_o_l_i_d_create_cut_revolve_8cpp" startline="42" endline="78">Post::FeatureSOLIDCreateCutRevolve::ToCATIA</referencedby>
+        <referencedby refid="class_post_1_1_feature_s_o_l_i_d_create_protrusion_loft_1a229923ce36140b183c02b87949f3a0f5" compoundref="_feature_s_o_l_i_d_create_protrusion_loft_8cpp" startline="41" endline="69">Post::FeatureSOLIDCreateProtrusionLoft::ToCATIA</referencedby>
+        <referencedby refid="class_post_1_1_feature_s_o_l_i_d_create_protrusion_sweep_1ad9d12144ce67b131f9d8b856abb32495" compoundref="_feature_s_o_l_i_d_create_protrusion_sweep_8cpp" startline="31" endline="60">Post::FeatureSOLIDCreateProtrusionSweep::ToCATIA</referencedby>
+        <referencedby refid="class_post_1_1_feature_s_o_l_i_d_create_faces_loft_1a0cb2c7bcf5453a41a80ab8a42412e737" compoundref="_feature_s_o_l_i_d_create_faces_loft_8cpp" startline="41" endline="70">Post::FeatureSOLIDCreateFacesLoft::ToCATIA</referencedby>
+        <referencedby refid="class_post_1_1_s_k_e_t_c_h_create2_d_centerline_1a53de54224beb765c17dbb765e60e983a" compoundref="_s_k_e_t_c_h_create2_d_centerline_8cpp" startline="29" endline="43">Post::SKETCHCreate2DCenterline::ToCATIA</referencedby>
+        <referencedby refid="class_post_1_1_s_k_e_t_c_h_create2_d_point_1a877072a679bbda32955a75b4d79a46b3" compoundref="_s_k_e_t_c_h_create2_d_point_8cpp" startline="24" endline="39">Post::SKETCHCreate2DPoint::ToCATIA</referencedby>
+        <referencedby refid="class_post_1_1_f_sketch_1a04bbe4dfa30502ae0e62abd35ece66fe" compoundref="_post_manager_2ref_2_f_sketch_8cpp" startline="140" endline="276">Post::FSketch::ToCATIA</referencedby>
+        <referencedby refid="class_post_1_1_s_k_e_t_c_h_create2_d_line2_points_1a0eb686cd9daa11bf0aebe136ce759ab0" compoundref="_s_k_e_t_c_h_create2_d_line2_points_8cpp" startline="32" endline="49">Post::SKETCHCreate2DLine2Points::ToCATIA</referencedby>
+        <referencedby refid="class_post_1_1_s_k_e_t_c_h_create2_d_circle_center_point_1a6a4387c56c3b7d0f2e28441701aa16c5" compoundref="_s_k_e_t_c_h_create2_d_circle_center_point_8cpp" startline="28" endline="40">Post::SKETCHCreate2DCircleCenterPoint::ToCATIA</referencedby>
+        <referencedby refid="class_post_1_1_s_k_e_t_c_h_create2_d_circular_arc_1a742f7b647dd44fabf7d5db5006954c0d" compoundref="_s_k_e_t_c_h_create2_d_circular_arc_8cpp" startline="36" endline="50">Post::SKETCHCreate2DCircularArc::ToCATIA</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_post_1_1_feature_1af8d63a27b30083d99102016ae177b45f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>void</type>
+        <definition>virtual void Post::Feature::GetInfo</definition>
+        <argsstring>()</argsstring>
+        <name>GetInfo</name>
+        <reimplementedby refid="class_post_1_1_feature_s_o_l_i_d_create_pattern_rectangular_1abb31233e316bac582f8b8b529dac7f49">GetInfo</reimplementedby>
+        <reimplementedby refid="class_post_1_1_feature_s_o_l_i_d_create_pattern_circular_1a3529b594c7fb28c9976579e4eec5d947">GetInfo</reimplementedby>
+        <reimplementedby refid="class_post_1_1_feature_s_o_l_i_d_create_hole_countersunk_1ab3b5d0c0cfb307e533792e43fb351e90">GetInfo</reimplementedby>
+        <reimplementedby refid="class_post_1_1_feature_s_o_l_i_d_create_hole_counterbored_1a0297d50f10e63d36e925e9cff5e36a6a">GetInfo</reimplementedby>
+        <reimplementedby refid="class_post_1_1_feature_s_o_l_i_d_create_fillet_constant_1a0598504ff72ed59f68bdb0f011826737">GetInfo</reimplementedby>
+        <reimplementedby refid="class_post_1_1_feature_s_o_l_i_d_create_chamfer_1acf8baea1eff0088d8124a6bfb186432f">GetInfo</reimplementedby>
+        <reimplementedby refid="class_post_1_1_f_datum_plane_offset_1a04c0d2134d84658841f069459c95a8f2">GetInfo</reimplementedby>
+        <reimplementedby refid="class_post_1_1_feature_s_o_l_i_d_create_protrusion_revolve_1a985d6dcd1120fb38b3a9b0a49728d230">GetInfo</reimplementedby>
+        <reimplementedby refid="class_post_1_1_feature_s_o_l_i_d_create_protrusion_extrude_1a187483d2e702af009530405dd8724385">GetInfo</reimplementedby>
+        <reimplementedby refid="class_post_1_1_feature_s_o_l_i_d_create_cut_revolve_1a2659311498b64a4487e7b5d3cc4449d4">GetInfo</reimplementedby>
+        <reimplementedby refid="class_post_1_1_feature_s_o_l_i_d_create_cut_extrude_1a8688db3ec3f41c866d0690f9b39f3ede">GetInfo</reimplementedby>
+        <reimplementedby refid="class_post_1_1_feature_s_o_l_i_d_create_sections_loft_1aeca2b7fdb92f496947072e1d6c2f2920">GetInfo</reimplementedby>
+        <reimplementedby refid="class_post_1_1_feature_s_o_l_i_d_create_protrusion_sweep_1a39ec993074d8213a73d1b2357d4bb1a3">GetInfo</reimplementedby>
+        <reimplementedby refid="class_post_1_1_feature_s_o_l_i_d_create_protrusion_loft_1a6e35bb77cecee5692aec88d93c403451">GetInfo</reimplementedby>
+        <reimplementedby refid="class_post_1_1_feature_s_o_l_i_d_create_faces_loft_1af5d0cdacfbf881465c54bdc94e3b387b">GetInfo</reimplementedby>
+        <reimplementedby refid="class_post_1_1_f_datum_plane_1a5d0271cd3bee3777b43eaf2e90c1bb1d">GetInfo</reimplementedby>
+        <reimplementedby refid="class_post_1_1_f_sketch_1a7bafff74162c56925124f63dc257948f">GetInfo</reimplementedby>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/PostManager/ref/Feature.h" line="20" column="1" bodyfile="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/PostManager/ref/Feature.h" bodystart="20" bodyend="20"/>
+      </memberdef>
+      <memberdef kind="function" id="class_post_1_1_feature_1af5e4685a9e9a3a1b80c65d43a5260bf3" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>void</type>
+        <definition>virtual void Post::Feature::ToCATIA</definition>
+        <argsstring>()</argsstring>
+        <name>ToCATIA</name>
+        <reimplementedby refid="class_post_1_1_feature_s_o_l_i_d_create_pattern_rectangular_1a3c104d07dd42a6c50984884c5ccc9fcb">ToCATIA</reimplementedby>
+        <reimplementedby refid="class_post_1_1_feature_s_o_l_i_d_create_pattern_circular_1a572bd9787a8d00fb43cceab6ce4260a9">ToCATIA</reimplementedby>
+        <reimplementedby refid="class_post_1_1_feature_s_o_l_i_d_create_hole_countersunk_1a076b56d8a0a35f24cd0ae55d0760e87e">ToCATIA</reimplementedby>
+        <reimplementedby refid="class_post_1_1_feature_s_o_l_i_d_create_hole_counterbored_1a8f74cad0535e4af5457336d82fde6109">ToCATIA</reimplementedby>
+        <reimplementedby refid="class_post_1_1_feature_s_o_l_i_d_create_fillet_constant_1a395a9468714e65e59fdc9735a1c4c2da">ToCATIA</reimplementedby>
+        <reimplementedby refid="class_post_1_1_feature_s_o_l_i_d_create_chamfer_1adc476aca0219e6111ebad3f6807e53a6">ToCATIA</reimplementedby>
+        <reimplementedby refid="class_post_1_1_f_datum_plane_offset_1af34c0973ffefae44460713c5f5944e19">ToCATIA</reimplementedby>
+        <reimplementedby refid="class_post_1_1_feature_s_o_l_i_d_create_protrusion_revolve_1a694f7011ec7ebeca3d7bd3850dc756bf">ToCATIA</reimplementedby>
+        <reimplementedby refid="class_post_1_1_feature_s_o_l_i_d_create_protrusion_extrude_1a64f136a9e115c09cd4f1b2fff857f4b3">ToCATIA</reimplementedby>
+        <reimplementedby refid="class_post_1_1_feature_s_o_l_i_d_create_cut_revolve_1a943c15cf026572c40cb9d5d64b94ea55">ToCATIA</reimplementedby>
+        <reimplementedby refid="class_post_1_1_feature_s_o_l_i_d_create_cut_extrude_1a7ffaba515665ad33e83e34d2af8a0cac">ToCATIA</reimplementedby>
+        <reimplementedby refid="class_post_1_1_feature_s_o_l_i_d_create_sections_loft_1a24653567189674cf9624c7ce852b204b">ToCATIA</reimplementedby>
+        <reimplementedby refid="class_post_1_1_feature_s_o_l_i_d_create_protrusion_sweep_1ad9d12144ce67b131f9d8b856abb32495">ToCATIA</reimplementedby>
+        <reimplementedby refid="class_post_1_1_feature_s_o_l_i_d_create_protrusion_loft_1a229923ce36140b183c02b87949f3a0f5">ToCATIA</reimplementedby>
+        <reimplementedby refid="class_post_1_1_feature_s_o_l_i_d_create_faces_loft_1a0cb2c7bcf5453a41a80ab8a42412e737">ToCATIA</reimplementedby>
+        <reimplementedby refid="class_post_1_1_f_datum_plane_1a7c90b5abc0106379cb9a49c4c7ed2c8d">ToCATIA</reimplementedby>
+        <reimplementedby refid="class_post_1_1_f_sketch_1a04bbe4dfa30502ae0e62abd35ece66fe">ToCATIA</reimplementedby>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/PostManager/ref/Feature.h" line="21" column="1" bodyfile="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/PostManager/ref/Feature.h" bodystart="21" bodyend="21"/>
+      </memberdef>
+      <memberdef kind="function" id="class_post_1_1_feature_1a0dc31facfd898c9f2c7907403bd3c4e1" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>double</type>
+        <definition>virtual double Post::Feature::GetStartDepth</definition>
+        <argsstring>()</argsstring>
+        <name>GetStartDepth</name>
+        <reimplementedby refid="class_post_1_1_feature_s_o_l_i_d_create_protrusion_extrude_1a842319e96032d10a110a823f0a3a2798">GetStartDepth</reimplementedby>
+        <reimplementedby refid="class_post_1_1_feature_s_o_l_i_d_create_cut_extrude_1ab16e2d8ae54f45a687af147578b03905">GetStartDepth</reimplementedby>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/PostManager/ref/Feature.h" line="23" column="1" bodyfile="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/PostManager/ref/Feature.h" bodystart="23" bodyend="23"/>
+      </memberdef>
+      <memberdef kind="function" id="class_post_1_1_feature_1a4abc47e4eee19b3da64571f8ccd61a3c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>double</type>
+        <definition>virtual double Post::Feature::GetEndDepth</definition>
+        <argsstring>()</argsstring>
+        <name>GetEndDepth</name>
+        <reimplementedby refid="class_post_1_1_feature_s_o_l_i_d_create_protrusion_extrude_1a3260b1f52c30c6e7f3e3b6e5a378f510">GetEndDepth</reimplementedby>
+        <reimplementedby refid="class_post_1_1_feature_s_o_l_i_d_create_cut_extrude_1a7b12803b9c5117fff38528edea5da2bb">GetEndDepth</reimplementedby>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/PostManager/ref/Feature.h" line="24" column="1" bodyfile="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/PostManager/ref/Feature.h" bodystart="24" bodyend="24"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="384">
+        <label>Post::FeatureSOLIDCreateProtrusionLoft</label>
+        <link refid="class_post_1_1_feature_s_o_l_i_d_create_protrusion_loft"/>
+        <childnode refid="371" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="380">
+        <label>Post::FeatureSOLIDCreateHoleCountersunk</label>
+        <link refid="class_post_1_1_feature_s_o_l_i_d_create_hole_countersunk"/>
+        <childnode refid="371" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="381">
+        <label>Post::FeatureSOLIDCreatePatternCircular</label>
+        <link refid="class_post_1_1_feature_s_o_l_i_d_create_pattern_circular"/>
+        <childnode refid="371" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="371">
+        <label>Post::Feature</label>
+        <link refid="class_post_1_1_feature"/>
+      </node>
+      <node id="373">
+        <label>Post::FDatumPlaneOffset</label>
+        <link refid="class_post_1_1_f_datum_plane_offset"/>
+        <childnode refid="371" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="378">
+        <label>Post::FeatureSOLIDCreateFilletConstant</label>
+        <link refid="class_post_1_1_feature_s_o_l_i_d_create_fillet_constant"/>
+        <childnode refid="371" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="388">
+        <label>Post::FSketch</label>
+        <link refid="class_post_1_1_f_sketch"/>
+        <childnode refid="371" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="386">
+        <label>Post::FeatureSOLIDCreateProtrusionSweep</label>
+        <link refid="class_post_1_1_feature_s_o_l_i_d_create_protrusion_sweep"/>
+        <childnode refid="371" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="383">
+        <label>Post::FeatureSOLIDCreateProtrusionExtrude</label>
+        <link refid="class_post_1_1_feature_s_o_l_i_d_create_protrusion_extrude"/>
+        <childnode refid="371" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="382">
+        <label>Post::FeatureSOLIDCreatePatternRectangular</label>
+        <link refid="class_post_1_1_feature_s_o_l_i_d_create_pattern_rectangular"/>
+        <childnode refid="371" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="377">
+        <label>Post::FeatureSOLIDCreateFacesLoft</label>
+        <link refid="class_post_1_1_feature_s_o_l_i_d_create_faces_loft"/>
+        <childnode refid="371" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="379">
+        <label>Post::FeatureSOLIDCreateHoleCounterbored</label>
+        <link refid="class_post_1_1_feature_s_o_l_i_d_create_hole_counterbored"/>
+        <childnode refid="371" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="374">
+        <label>Post::FeatureSOLIDCreateChamfer</label>
+        <link refid="class_post_1_1_feature_s_o_l_i_d_create_chamfer"/>
+        <childnode refid="371" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="387">
+        <label>Post::FeatureSOLIDCreateSectionsLoft</label>
+        <link refid="class_post_1_1_feature_s_o_l_i_d_create_sections_loft"/>
+        <childnode refid="371" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="375">
+        <label>Post::FeatureSOLIDCreateCutExtrude</label>
+        <link refid="class_post_1_1_feature_s_o_l_i_d_create_cut_extrude"/>
+        <childnode refid="371" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="376">
+        <label>Post::FeatureSOLIDCreateCutRevolve</label>
+        <link refid="class_post_1_1_feature_s_o_l_i_d_create_cut_revolve"/>
+        <childnode refid="371" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="385">
+        <label>Post::FeatureSOLIDCreateProtrusionRevolve</label>
+        <link refid="class_post_1_1_feature_s_o_l_i_d_create_protrusion_revolve"/>
+        <childnode refid="371" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="372">
+        <label>Post::FDatumPlane</label>
+        <link refid="class_post_1_1_f_datum_plane"/>
+        <childnode refid="371" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="390">
+        <label>Post::Part</label>
+        <link refid="class_post_1_1_part"/>
+        <childnode refid="391" relation="usage">
+          <edgelabel>_featureList</edgelabel>
+        </childnode>
+        <childnode refid="392" relation="usage">
+          <edgelabel>_strPartName</edgelabel>
+        </childnode>
+      </node>
+      <node id="389">
+        <label>Post::Feature</label>
+        <link refid="class_post_1_1_feature"/>
+        <childnode refid="390" relation="usage">
+          <edgelabel>_pPart</edgelabel>
+        </childnode>
+        <childnode refid="392" relation="usage">
+          <edgelabel>_strName</edgelabel>
+        </childnode>
+      </node>
+      <node id="393">
+        <label>std::basic_string&lt; char &gt;</label>
+      </node>
+      <node id="391">
+        <label>std::vector&lt; Post::Feature * &gt;</label>
+        <childnode refid="389" relation="usage">
+          <edgelabel>elements</edgelabel>
+        </childnode>
+      </node>
+      <node id="392">
+        <label>std::string</label>
+        <childnode refid="393" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/PostManager/ref/Feature.h" line="7" column="1" bodyfile="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/PostManager/ref/Feature.h" bodystart="6" bodyend="31"/>
+    <listofallmembers>
+      <member refid="class_post_1_1_feature_1a6a0b62ac67583207cd51d36b8540f75b" prot="public" virt="non-virtual"><scope>Post::Feature</scope><name>_nIndex</name></member>
+      <member refid="class_post_1_1_feature_1a93e0edd3b8a4639ad851119b773582cb" prot="public" virt="non-virtual"><scope>Post::Feature</scope><name>_pPart</name></member>
+      <member refid="class_post_1_1_feature_1a9d39434cf1acdc737198fefcf8b32e67" prot="public" virt="non-virtual"><scope>Post::Feature</scope><name>_spFeature</name></member>
+      <member refid="class_post_1_1_feature_1a89de9a11285c07976c881031857287bc" prot="public" virt="non-virtual"><scope>Post::Feature</scope><name>_strName</name></member>
+      <member refid="class_post_1_1_feature_1a757c6724362593cf5b61c06777e1476f" prot="public" virt="non-virtual"><scope>Post::Feature</scope><name>Feature</name></member>
+      <member refid="class_post_1_1_feature_1a4abc47e4eee19b3da64571f8ccd61a3c" prot="public" virt="virtual"><scope>Post::Feature</scope><name>GetEndDepth</name></member>
+      <member refid="class_post_1_1_feature_1a17937115029d464402a274393c9efc82" prot="public" virt="non-virtual"><scope>Post::Feature</scope><name>GetFeatureIndex</name></member>
+      <member refid="class_post_1_1_feature_1a68d3fb9f274c6170d83e2a51d01400ac" prot="public" virt="non-virtual"><scope>Post::Feature</scope><name>GetFeatureName</name></member>
+      <member refid="class_post_1_1_feature_1af8d63a27b30083d99102016ae177b45f" prot="public" virt="virtual"><scope>Post::Feature</scope><name>GetInfo</name></member>
+      <member refid="class_post_1_1_feature_1aace9d720d9a16b17c62ab6b4b91cea3c" prot="public" virt="non-virtual"><scope>Post::Feature</scope><name>GetPart</name></member>
+      <member refid="class_post_1_1_feature_1a0dc31facfd898c9f2c7907403bd3c4e1" prot="public" virt="virtual"><scope>Post::Feature</scope><name>GetStartDepth</name></member>
+      <member refid="class_post_1_1_feature_1a252ade4e8188c192beaf03a8abbdca65" prot="public" virt="non-virtual"><scope>Post::Feature</scope><name>GetTransCADFeature</name></member>
+      <member refid="class_post_1_1_feature_1a2cdd61cc7885d66a902e7a29cca9bc05" prot="public" virt="non-virtual"><scope>Post::Feature</scope><name>SetFeatureName</name></member>
+      <member refid="class_post_1_1_feature_1af5e4685a9e9a3a1b80c65d43a5260bf3" prot="public" virt="virtual"><scope>Post::Feature</scope><name>ToCATIA</name></member>
+      <member refid="class_post_1_1_feature_1a9a8ee05393f4321a5ceba0d075573a25" prot="public" virt="virtual"><scope>Post::Feature</scope><name>~Feature</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

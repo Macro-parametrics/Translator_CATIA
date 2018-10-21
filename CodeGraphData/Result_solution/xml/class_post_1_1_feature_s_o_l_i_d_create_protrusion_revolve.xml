@@ -1,0 +1,297 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_post_1_1_feature_s_o_l_i_d_create_protrusion_revolve" kind="class" prot="public">
+    <compoundname>Post::FeatureSOLIDCreateProtrusionRevolve</compoundname>
+    <basecompoundref refid="class_post_1_1_feature" prot="public" virt="non-virtual">Post::Feature</basecompoundref>
+    <includes refid="_feature_s_o_l_i_d_create_protrusion_revolve_8h" local="no">FeatureSOLIDCreateProtrusionRevolve.h</includes>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_post_1_1_feature_s_o_l_i_d_create_protrusion_revolve_1a10fb6490ca485d58ab0ec70df9bc4c83" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool Post::FeatureSOLIDCreateProtrusionRevolve::_flip</definition>
+        <argsstring></argsstring>
+        <name>_flip</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/PostManager/ref/FeatureSOLIDCreateProtrusionRevolve.h" line="18" column="1" bodyfile="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/PostManager/ref/FeatureSOLIDCreateProtrusionRevolve.h" bodystart="18" bodyend="-1"/>
+        <referencedby refid="class_post_1_1_feature_s_o_l_i_d_create_protrusion_revolve_1a985d6dcd1120fb38b3a9b0a49728d230" compoundref="_feature_s_o_l_i_d_create_protrusion_revolve_8cpp" startline="15" endline="41">GetInfo</referencedby>
+        <referencedby refid="class_post_1_1_feature_s_o_l_i_d_create_protrusion_revolve_1a694f7011ec7ebeca3d7bd3850dc756bf" compoundref="_feature_s_o_l_i_d_create_protrusion_revolve_8cpp" startline="43" endline="79">ToCATIA</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_post_1_1_feature_s_o_l_i_d_create_protrusion_revolve_1a97ce34a5a3273ff5bca254db025cc0e1" prot="private" static="no" mutable="no">
+        <type>double</type>
+        <definition>double Post::FeatureSOLIDCreateProtrusionRevolve::_startAngle</definition>
+        <argsstring></argsstring>
+        <name>_startAngle</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/PostManager/ref/FeatureSOLIDCreateProtrusionRevolve.h" line="19" column="1" bodyfile="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/PostManager/ref/FeatureSOLIDCreateProtrusionRevolve.h" bodystart="19" bodyend="-1"/>
+        <referencedby refid="class_post_1_1_feature_s_o_l_i_d_create_protrusion_revolve_1a985d6dcd1120fb38b3a9b0a49728d230" compoundref="_feature_s_o_l_i_d_create_protrusion_revolve_8cpp" startline="15" endline="41">GetInfo</referencedby>
+        <referencedby refid="class_post_1_1_feature_s_o_l_i_d_create_protrusion_revolve_1a694f7011ec7ebeca3d7bd3850dc756bf" compoundref="_feature_s_o_l_i_d_create_protrusion_revolve_8cpp" startline="43" endline="79">ToCATIA</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_post_1_1_feature_s_o_l_i_d_create_protrusion_revolve_1aaeb44784e19198bf8145177d9f8de002" prot="private" static="no" mutable="no">
+        <type>double</type>
+        <definition>double Post::FeatureSOLIDCreateProtrusionRevolve::_endAngle</definition>
+        <argsstring></argsstring>
+        <name>_endAngle</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/PostManager/ref/FeatureSOLIDCreateProtrusionRevolve.h" line="20" column="1" bodyfile="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/PostManager/ref/FeatureSOLIDCreateProtrusionRevolve.h" bodystart="20" bodyend="-1"/>
+        <referencedby refid="class_post_1_1_feature_s_o_l_i_d_create_protrusion_revolve_1a985d6dcd1120fb38b3a9b0a49728d230" compoundref="_feature_s_o_l_i_d_create_protrusion_revolve_8cpp" startline="15" endline="41">GetInfo</referencedby>
+        <referencedby refid="class_post_1_1_feature_s_o_l_i_d_create_protrusion_revolve_1a694f7011ec7ebeca3d7bd3850dc756bf" compoundref="_feature_s_o_l_i_d_create_protrusion_revolve_8cpp" startline="43" endline="79">ToCATIA</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="protected-attrib">
+      <memberdef kind="variable" id="class_post_1_1_feature_s_o_l_i_d_create_protrusion_revolve_1a8b97762088a5516b8731cf5237aac263" prot="protected" static="no" mutable="no">
+        <type><ref refid="class_post_1_1_f_sketch" kindref="compound">FSketch</ref> *</type>
+        <definition>FSketch* Post::FeatureSOLIDCreateProtrusionRevolve::_featureProfileSketch</definition>
+        <argsstring></argsstring>
+        <name>_featureProfileSketch</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/PostManager/ref/FeatureSOLIDCreateProtrusionRevolve.h" line="23" column="1" bodyfile="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/PostManager/ref/FeatureSOLIDCreateProtrusionRevolve.h" bodystart="23" bodyend="-1"/>
+        <referencedby refid="class_post_1_1_feature_s_o_l_i_d_create_protrusion_revolve_1a17f3a2f4c0fb323fe5b0a656a61ac986" compoundref="_feature_s_o_l_i_d_create_protrusion_revolve_8h" startline="12" endline="12">GetFeatureProfileSketch</referencedby>
+        <referencedby refid="class_post_1_1_feature_s_o_l_i_d_create_protrusion_revolve_1a985d6dcd1120fb38b3a9b0a49728d230" compoundref="_feature_s_o_l_i_d_create_protrusion_revolve_8cpp" startline="15" endline="41">GetInfo</referencedby>
+        <referencedby refid="class_post_1_1_feature_s_o_l_i_d_create_protrusion_revolve_1a694f7011ec7ebeca3d7bd3850dc756bf" compoundref="_feature_s_o_l_i_d_create_protrusion_revolve_8cpp" startline="43" endline="79">ToCATIA</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_post_1_1_feature_s_o_l_i_d_create_protrusion_revolve_1a990720ae4947115cbb53811f070cc3c5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>Post::FeatureSOLIDCreateProtrusionRevolve::FeatureSOLIDCreateProtrusionRevolve</definition>
+        <argsstring>(Part *pPart, TransCAD::IFeaturePtr spFeature)</argsstring>
+        <name>FeatureSOLIDCreateProtrusionRevolve</name>
+        <param>
+          <type><ref refid="class_post_1_1_part" kindref="compound">Part</ref> *</type>
+          <declname>pPart</declname>
+        </param>
+        <param>
+          <type>TransCAD::IFeaturePtr</type>
+          <declname>spFeature</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/PostManager/ref/FeatureSOLIDCreateProtrusionRevolve.h" line="9" column="1" bodyfile="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/PostManager/ref/FeatureSOLIDCreateProtrusionRevolve.cpp" bodystart="6" bodyend="9"/>
+      </memberdef>
+      <memberdef kind="function" id="class_post_1_1_feature_s_o_l_i_d_create_protrusion_revolve_1ad2edb0faed25034492ae1dac6041462b" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type></type>
+        <definition>Post::FeatureSOLIDCreateProtrusionRevolve::~FeatureSOLIDCreateProtrusionRevolve</definition>
+        <argsstring>(void)</argsstring>
+        <name>~FeatureSOLIDCreateProtrusionRevolve</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/PostManager/ref/FeatureSOLIDCreateProtrusionRevolve.h" line="10" column="1" bodyfile="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/PostManager/ref/FeatureSOLIDCreateProtrusionRevolve.cpp" bodystart="11" bodyend="13"/>
+      </memberdef>
+      <memberdef kind="function" id="class_post_1_1_feature_s_o_l_i_d_create_protrusion_revolve_1a17f3a2f4c0fb323fe5b0a656a61ac986" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="class_post_1_1_f_sketch" kindref="compound">FSketch</ref> *</type>
+        <definition>FSketch* Post::FeatureSOLIDCreateProtrusionRevolve::GetFeatureProfileSketch</definition>
+        <argsstring>()</argsstring>
+        <name>GetFeatureProfileSketch</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/PostManager/ref/FeatureSOLIDCreateProtrusionRevolve.h" line="12" column="1" bodyfile="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/PostManager/ref/FeatureSOLIDCreateProtrusionRevolve.h" bodystart="12" bodyend="12"/>
+        <references refid="class_post_1_1_feature_s_o_l_i_d_create_protrusion_revolve_1a8b97762088a5516b8731cf5237aac263" compoundref="_feature_s_o_l_i_d_create_protrusion_revolve_8h" startline="23">_featureProfileSketch</references>
+      </memberdef>
+      <memberdef kind="function" id="class_post_1_1_feature_s_o_l_i_d_create_protrusion_revolve_1a985d6dcd1120fb38b3a9b0a49728d230" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void Post::FeatureSOLIDCreateProtrusionRevolve::GetInfo</definition>
+        <argsstring>()</argsstring>
+        <name>GetInfo</name>
+        <reimplements refid="class_post_1_1_feature_1af8d63a27b30083d99102016ae177b45f">GetInfo</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/PostManager/ref/FeatureSOLIDCreateProtrusionRevolve.h" line="14" column="1" bodyfile="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/PostManager/ref/FeatureSOLIDCreateProtrusionRevolve.cpp" bodystart="15" bodyend="41"/>
+        <references refid="class_post_1_1_feature_s_o_l_i_d_create_protrusion_revolve_1aaeb44784e19198bf8145177d9f8de002" compoundref="_feature_s_o_l_i_d_create_protrusion_revolve_8h" startline="20">_endAngle</references>
+        <references refid="class_post_1_1_feature_s_o_l_i_d_create_protrusion_revolve_1a8b97762088a5516b8731cf5237aac263" compoundref="_feature_s_o_l_i_d_create_protrusion_revolve_8h" startline="23">_featureProfileSketch</references>
+        <references refid="class_post_1_1_feature_s_o_l_i_d_create_protrusion_revolve_1a10fb6490ca485d58ab0ec70df9bc4c83" compoundref="_feature_s_o_l_i_d_create_protrusion_revolve_8h" startline="18">_flip</references>
+        <references refid="class_post_1_1_feature_s_o_l_i_d_create_protrusion_revolve_1a97ce34a5a3273ff5bca254db025cc0e1" compoundref="_feature_s_o_l_i_d_create_protrusion_revolve_8h" startline="19">_startAngle</references>
+        <references refid="class_post_1_1_part_1a07f75907c17887e5f7576fb9d726a469" compoundref="_post_manager_2ref_2_part_8cpp" startline="176" endline="187">Post::Part::GetFeatureByName</references>
+        <references refid="class_post_1_1_feature_1aace9d720d9a16b17c62ab6b4b91cea3c" compoundref="_post_manager_2ref_2_feature_8h" startline="12" endline="12">Post::Feature::GetPart</references>
+        <references refid="class_post_1_1_feature_1a252ade4e8188c192beaf03a8abbdca65" compoundref="_post_manager_2ref_2_feature_8h" startline="18" endline="18">Post::Feature::GetTransCADFeature</references>
+        <references refid="_post_manager_2_stdafx_8h_1a598a3330b3c21701223ee0ca14316eca" compoundref="_post_manager_2_stdafx_8h" startline="13">PI</references>
+      </memberdef>
+      <memberdef kind="function" id="class_post_1_1_feature_s_o_l_i_d_create_protrusion_revolve_1a694f7011ec7ebeca3d7bd3850dc756bf" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void Post::FeatureSOLIDCreateProtrusionRevolve::ToCATIA</definition>
+        <argsstring>()</argsstring>
+        <name>ToCATIA</name>
+        <reimplements refid="class_post_1_1_feature_1af5e4685a9e9a3a1b80c65d43a5260bf3">ToCATIA</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/PostManager/ref/FeatureSOLIDCreateProtrusionRevolve.h" line="15" column="1" bodyfile="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/PostManager/ref/FeatureSOLIDCreateProtrusionRevolve.cpp" bodystart="43" bodyend="79"/>
+        <references refid="class_post_1_1_feature_s_o_l_i_d_create_protrusion_revolve_1aaeb44784e19198bf8145177d9f8de002" compoundref="_feature_s_o_l_i_d_create_protrusion_revolve_8h" startline="20">_endAngle</references>
+        <references refid="class_post_1_1_feature_s_o_l_i_d_create_protrusion_revolve_1a8b97762088a5516b8731cf5237aac263" compoundref="_feature_s_o_l_i_d_create_protrusion_revolve_8h" startline="23">_featureProfileSketch</references>
+        <references refid="class_post_1_1_feature_s_o_l_i_d_create_protrusion_revolve_1a10fb6490ca485d58ab0ec70df9bc4c83" compoundref="_feature_s_o_l_i_d_create_protrusion_revolve_8h" startline="18">_flip</references>
+        <references refid="class_post_1_1_feature_1a9d39434cf1acdc737198fefcf8b32e67" compoundref="_post_manager_2ref_2_feature_8h" startline="30">Post::Feature::_spFeature</references>
+        <references refid="class_post_1_1_feature_s_o_l_i_d_create_protrusion_revolve_1a97ce34a5a3273ff5bca254db025cc0e1" compoundref="_feature_s_o_l_i_d_create_protrusion_revolve_8h" startline="19">_startAngle</references>
+        <references refid="_c_a_t_i_apost___d_l_l_8cpp_1ab19f712b4a42f729c4b03c85bf315239" compoundref="_c_a_t_i_apost___d_l_l_8cpp" startline="28">ang_index</references>
+        <references refid="namespace_post_1a757521acb19b64cd9a29879d6c5a7d5f" compoundref="_c_a_t_i_apost___d_l_l_8cpp" startline="32">Post::g_pRefManager</references>
+        <references refid="class_post_1_1_c_a_t_i_a_reference_manager_1ab00159c9905b3d3d14361f390db87e48" compoundref="_c_a_t_i_a_reference_manager_8cpp" startline="102" endline="114">Post::CATIAReferenceManager::GetFeatureIDByTransCADName</references>
+        <references refid="class_post_1_1_feature_1aace9d720d9a16b17c62ab6b4b91cea3c" compoundref="_post_manager_2ref_2_feature_8h" startline="12" endline="12">Post::Feature::GetPart</references>
+        <references refid="class_post_1_1_feature_1a252ade4e8188c192beaf03a8abbdca65" compoundref="_post_manager_2ref_2_feature_8h" startline="18" endline="18">Post::Feature::GetTransCADFeature</references>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="803">
+        <label>Post::Feature</label>
+        <link refid="class_post_1_1_feature"/>
+      </node>
+      <node id="802">
+        <label>Post::FeatureSOLIDCreateProtrusionRevolve</label>
+        <link refid="class_post_1_1_feature_s_o_l_i_d_create_protrusion_revolve"/>
+        <childnode refid="803" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="806">
+        <label>Post::Part</label>
+        <link refid="class_post_1_1_part"/>
+        <childnode refid="807" relation="usage">
+          <edgelabel>_featureList</edgelabel>
+        </childnode>
+        <childnode refid="808" relation="usage">
+          <edgelabel>_strPartName</edgelabel>
+        </childnode>
+      </node>
+      <node id="805">
+        <label>Post::Feature</label>
+        <link refid="class_post_1_1_feature"/>
+        <childnode refid="806" relation="usage">
+          <edgelabel>_pPart</edgelabel>
+        </childnode>
+        <childnode refid="808" relation="usage">
+          <edgelabel>_strName</edgelabel>
+        </childnode>
+      </node>
+      <node id="810">
+        <label>Post::FSketch</label>
+        <link refid="class_post_1_1_f_sketch"/>
+        <childnode refid="805" relation="public-inheritance">
+        </childnode>
+        <childnode refid="811" relation="usage">
+          <edgelabel>sInfo</edgelabel>
+        </childnode>
+        <childnode refid="808" relation="usage">
+          <edgelabel>_refName</edgelabel>
+        </childnode>
+        <childnode refid="812" relation="usage">
+          <edgelabel>_sketchItemList</edgelabel>
+        </childnode>
+      </node>
+      <node id="813">
+        <label>Post::SKETCHItem</label>
+        <link refid="class_post_1_1_s_k_e_t_c_h_item"/>
+        <childnode refid="810" relation="usage">
+          <edgelabel>_pFSketch</edgelabel>
+        </childnode>
+        <childnode refid="808" relation="usage">
+          <edgelabel>_strName</edgelabel>
+        </childnode>
+      </node>
+      <node id="809">
+        <label>std::basic_string&lt; char &gt;</label>
+      </node>
+      <node id="811">
+        <label>Post::_sketchInfo</label>
+        <link refid="struct_post_1_1__sketch_info"/>
+        <childnode refid="808" relation="usage">
+          <edgelabel>sketch_name</edgelabel>
+          <edgelabel>sketch_ref</edgelabel>
+        </childnode>
+      </node>
+      <node id="812">
+        <label>std::vector&lt; Post::SKETCHItem * &gt;</label>
+        <childnode refid="813" relation="usage">
+          <edgelabel>elements</edgelabel>
+        </childnode>
+      </node>
+      <node id="804">
+        <label>Post::FeatureSOLIDCreateProtrusionRevolve</label>
+        <link refid="class_post_1_1_feature_s_o_l_i_d_create_protrusion_revolve"/>
+        <childnode refid="805" relation="public-inheritance">
+        </childnode>
+        <childnode refid="810" relation="usage">
+          <edgelabel>_featureProfileSketch</edgelabel>
+        </childnode>
+      </node>
+      <node id="807">
+        <label>std::vector&lt; Post::Feature * &gt;</label>
+        <childnode refid="805" relation="usage">
+          <edgelabel>elements</edgelabel>
+        </childnode>
+      </node>
+      <node id="808">
+        <label>std::string</label>
+        <childnode refid="809" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/PostManager/ref/FeatureSOLIDCreateProtrusionRevolve.h" line="7" column="1" bodyfile="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/PostManager/ref/FeatureSOLIDCreateProtrusionRevolve.h" bodystart="6" bodyend="24"/>
+    <listofallmembers>
+      <member refid="class_post_1_1_feature_s_o_l_i_d_create_protrusion_revolve_1aaeb44784e19198bf8145177d9f8de002" prot="private" virt="non-virtual"><scope>Post::FeatureSOLIDCreateProtrusionRevolve</scope><name>_endAngle</name></member>
+      <member refid="class_post_1_1_feature_s_o_l_i_d_create_protrusion_revolve_1a8b97762088a5516b8731cf5237aac263" prot="protected" virt="non-virtual"><scope>Post::FeatureSOLIDCreateProtrusionRevolve</scope><name>_featureProfileSketch</name></member>
+      <member refid="class_post_1_1_feature_s_o_l_i_d_create_protrusion_revolve_1a10fb6490ca485d58ab0ec70df9bc4c83" prot="private" virt="non-virtual"><scope>Post::FeatureSOLIDCreateProtrusionRevolve</scope><name>_flip</name></member>
+      <member refid="class_post_1_1_feature_1a6a0b62ac67583207cd51d36b8540f75b" prot="public" virt="non-virtual"><scope>Post::FeatureSOLIDCreateProtrusionRevolve</scope><name>_nIndex</name></member>
+      <member refid="class_post_1_1_feature_1a93e0edd3b8a4639ad851119b773582cb" prot="public" virt="non-virtual"><scope>Post::FeatureSOLIDCreateProtrusionRevolve</scope><name>_pPart</name></member>
+      <member refid="class_post_1_1_feature_1a9d39434cf1acdc737198fefcf8b32e67" prot="public" virt="non-virtual"><scope>Post::FeatureSOLIDCreateProtrusionRevolve</scope><name>_spFeature</name></member>
+      <member refid="class_post_1_1_feature_s_o_l_i_d_create_protrusion_revolve_1a97ce34a5a3273ff5bca254db025cc0e1" prot="private" virt="non-virtual"><scope>Post::FeatureSOLIDCreateProtrusionRevolve</scope><name>_startAngle</name></member>
+      <member refid="class_post_1_1_feature_1a89de9a11285c07976c881031857287bc" prot="public" virt="non-virtual"><scope>Post::FeatureSOLIDCreateProtrusionRevolve</scope><name>_strName</name></member>
+      <member refid="class_post_1_1_feature_1a757c6724362593cf5b61c06777e1476f" prot="public" virt="non-virtual"><scope>Post::FeatureSOLIDCreateProtrusionRevolve</scope><name>Feature</name></member>
+      <member refid="class_post_1_1_feature_s_o_l_i_d_create_protrusion_revolve_1a990720ae4947115cbb53811f070cc3c5" prot="public" virt="non-virtual"><scope>Post::FeatureSOLIDCreateProtrusionRevolve</scope><name>FeatureSOLIDCreateProtrusionRevolve</name></member>
+      <member refid="class_post_1_1_feature_1a4abc47e4eee19b3da64571f8ccd61a3c" prot="public" virt="virtual"><scope>Post::FeatureSOLIDCreateProtrusionRevolve</scope><name>GetEndDepth</name></member>
+      <member refid="class_post_1_1_feature_1a17937115029d464402a274393c9efc82" prot="public" virt="non-virtual"><scope>Post::FeatureSOLIDCreateProtrusionRevolve</scope><name>GetFeatureIndex</name></member>
+      <member refid="class_post_1_1_feature_1a68d3fb9f274c6170d83e2a51d01400ac" prot="public" virt="non-virtual"><scope>Post::FeatureSOLIDCreateProtrusionRevolve</scope><name>GetFeatureName</name></member>
+      <member refid="class_post_1_1_feature_s_o_l_i_d_create_protrusion_revolve_1a17f3a2f4c0fb323fe5b0a656a61ac986" prot="public" virt="non-virtual"><scope>Post::FeatureSOLIDCreateProtrusionRevolve</scope><name>GetFeatureProfileSketch</name></member>
+      <member refid="class_post_1_1_feature_s_o_l_i_d_create_protrusion_revolve_1a985d6dcd1120fb38b3a9b0a49728d230" prot="public" virt="virtual"><scope>Post::FeatureSOLIDCreateProtrusionRevolve</scope><name>GetInfo</name></member>
+      <member refid="class_post_1_1_feature_1aace9d720d9a16b17c62ab6b4b91cea3c" prot="public" virt="non-virtual"><scope>Post::FeatureSOLIDCreateProtrusionRevolve</scope><name>GetPart</name></member>
+      <member refid="class_post_1_1_feature_1a0dc31facfd898c9f2c7907403bd3c4e1" prot="public" virt="virtual"><scope>Post::FeatureSOLIDCreateProtrusionRevolve</scope><name>GetStartDepth</name></member>
+      <member refid="class_post_1_1_feature_1a252ade4e8188c192beaf03a8abbdca65" prot="public" virt="non-virtual"><scope>Post::FeatureSOLIDCreateProtrusionRevolve</scope><name>GetTransCADFeature</name></member>
+      <member refid="class_post_1_1_feature_1a2cdd61cc7885d66a902e7a29cca9bc05" prot="public" virt="non-virtual"><scope>Post::FeatureSOLIDCreateProtrusionRevolve</scope><name>SetFeatureName</name></member>
+      <member refid="class_post_1_1_feature_s_o_l_i_d_create_protrusion_revolve_1a694f7011ec7ebeca3d7bd3850dc756bf" prot="public" virt="virtual"><scope>Post::FeatureSOLIDCreateProtrusionRevolve</scope><name>ToCATIA</name></member>
+      <member refid="class_post_1_1_feature_1a9a8ee05393f4321a5ceba0d075573a25" prot="public" virt="virtual"><scope>Post::FeatureSOLIDCreateProtrusionRevolve</scope><name>~Feature</name></member>
+      <member refid="class_post_1_1_feature_s_o_l_i_d_create_protrusion_revolve_1ad2edb0faed25034492ae1dac6041462b" prot="public" virt="virtual"><scope>Post::FeatureSOLIDCreateProtrusionRevolve</scope><name>~FeatureSOLIDCreateProtrusionRevolve</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,197 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_c_a_t_i_a_translator_1_1_feature_hole" kind="class" prot="public">
+    <compoundname>CATIATranslator::FeatureHole</compoundname>
+    <basecompoundref refid="class_c_a_t_i_a_translator_1_1_feature" prot="public" virt="non-virtual">CATIATranslator.Feature</basecompoundref>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_c_a_t_i_a_translator_1_1_feature_hole_1a6fafb5ff4d4a367c219f3ad0b4b484a6" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>CATIATranslator.FeatureHole.FeatureHole</definition>
+        <argsstring>(Part PartManager)</argsstring>
+        <name>FeatureHole</name>
+        <param>
+          <type><ref refid="class_c_a_t_i_a_translator_1_1_part" kindref="compound">Part</ref></type>
+          <declname>PartManager</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/CATIATranslator/Part/Feature/FeatureHole.cs" line="7" column="1" bodyfile="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/CATIATranslator/Part/Feature/FeatureHole.cs" bodystart="7" bodyend="10"/>
+        <references refid="class_c_a_t_i_a_translator_1_1_feature_1ad90561702fbff5b6fc8f87cdf9531751" compoundref="_feature_8cs" startline="6">CATIATranslator.Feature.PartManager</references>
+      </memberdef>
+      <memberdef kind="function" id="class_c_a_t_i_a_translator_1_1_feature_hole_1a59feef115df65e5bf50ab91ce796364d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>override void</type>
+        <definition>override void CATIATranslator.FeatureHole.TranslateC2T</definition>
+        <argsstring>(MECMOD.Shape cShape)</argsstring>
+        <name>TranslateC2T</name>
+        <reimplements refid="class_c_a_t_i_a_translator_1_1_feature_1a4ca679cb7db6b544a062441f9c46995e">TranslateC2T</reimplements>
+        <param>
+          <type>MECMOD.Shape</type>
+          <declname>cShape</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/CATIATranslator/Part/Feature/FeatureHole.cs" line="13" column="1" bodyfile="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/CATIATranslator/Part/Feature/FeatureHole.cs" bodystart="13" bodyend="53"/>
+        <references refid="class_c_a_t_i_a_translator_1_1_feature_hole_1a2b67aaf7c0000dba888f4d3f08b9f374" compoundref="_feature_hole_8cs" startline="55" endline="66">CATIATranslator.FeatureHole.GetTargetFace</references>
+      </memberdef>
+      <memberdef kind="function" id="class_c_a_t_i_a_translator_1_1_feature_hole_1aa08760ac242a86ba9cc0f2027f9e888e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>override void</type>
+        <definition>override void CATIATranslator.FeatureHole.TranslateT2C</definition>
+        <argsstring>(TransCAD.IFeature tFeature)</argsstring>
+        <name>TranslateT2C</name>
+        <reimplements refid="class_c_a_t_i_a_translator_1_1_feature_1a9b3c6155e1ff78f54afdeecc4c422129">TranslateT2C</reimplements>
+        <param>
+          <type>TransCAD.IFeature</type>
+          <declname>tFeature</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/CATIATranslator/Part/Feature/FeatureHole.cs" line="69" column="1" bodyfile="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/CATIATranslator/Part/Feature/FeatureHole.cs" bodystart="69" bodyend="151"/>
+        <references refid="class_c_a_t_i_a_translator_1_1_feature_hole_1a2b67aaf7c0000dba888f4d3f08b9f374" compoundref="_feature_hole_8cs" startline="55" endline="66">CATIATranslator.FeatureHole.GetTargetFace</references>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_c_a_t_i_a_translator_1_1_feature_hole_1a2b67aaf7c0000dba888f4d3f08b9f374" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>TransCAD.Reference</type>
+        <definition>TransCAD.Reference CATIATranslator.FeatureHole.GetTargetFace</definition>
+        <argsstring>(PARTITF.Hole hole)</argsstring>
+        <name>GetTargetFace</name>
+        <param>
+          <type>PARTITF.Hole</type>
+          <declname>hole</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/CATIATranslator/Part/Feature/FeatureHole.cs" line="55" column="1" bodyfile="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/CATIATranslator/Part/Feature/FeatureHole.cs" bodystart="55" bodyend="66"/>
+        <referencedby refid="class_c_a_t_i_a_translator_1_1_feature_hole_1a59feef115df65e5bf50ab91ce796364d" compoundref="_feature_hole_8cs" startline="13" endline="53">CATIATranslator.FeatureHole.TranslateC2T</referencedby>
+        <referencedby refid="class_c_a_t_i_a_translator_1_1_feature_hole_1aa08760ac242a86ba9cc0f2027f9e888e" compoundref="_feature_hole_8cs" startline="69" endline="151">CATIATranslator.FeatureHole.TranslateT2C</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_c_a_t_i_a_translator_1_1_feature_hole_1a208bd603163a967f768b337ffb8424f0" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>INFITF.Reference</type>
+        <definition>INFITF.Reference CATIATranslator.FeatureHole.GetTargetFace</definition>
+        <argsstring>(string tFaceName)</argsstring>
+        <name>GetTargetFace</name>
+        <param>
+          <type>string</type>
+          <declname>tFaceName</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/CATIATranslator/Part/Feature/FeatureHole.cs" line="153" column="1" bodyfile="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/CATIATranslator/Part/Feature/FeatureHole.cs" bodystart="153" bodyend="162"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="462">
+        <label>CATIATranslator.FeatureHole</label>
+        <link refid="class_c_a_t_i_a_translator_1_1_feature_hole"/>
+        <childnode refid="463" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="463">
+        <label>Feature</label>
+        <link refid="class_c_a_t_i_a_translator_1_1_feature"/>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="464">
+        <label>CATIATranslator.FeatureHole</label>
+        <link refid="class_c_a_t_i_a_translator_1_1_feature_hole"/>
+        <childnode refid="465" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="467">
+        <label>TransCAD</label>
+      </node>
+      <node id="468">
+        <label>CATIATranslator.Reference</label>
+        <link refid="class_c_a_t_i_a_translator_1_1_reference"/>
+        <childnode refid="469" relation="usage">
+          <edgelabel>assembly</edgelabel>
+        </childnode>
+        <childnode refid="466" relation="usage">
+          <edgelabel>PartManager</edgelabel>
+        </childnode>
+      </node>
+      <node id="466">
+        <label>CATIATranslator.Part</label>
+        <link refid="class_c_a_t_i_a_translator_1_1_part"/>
+        <childnode refid="467" relation="usage">
+          <edgelabel>tAssemDoc</edgelabel>
+          <edgelabel>tApp</edgelabel>
+          <edgelabel>tPartDoc</edgelabel>
+          <edgelabel>tDocs</edgelabel>
+          <edgelabel>tFeatures</edgelabel>
+          <edgelabel>tAssem</edgelabel>
+          <edgelabel>tComp</edgelabel>
+          <edgelabel>tPart</edgelabel>
+        </childnode>
+        <childnode refid="468" relation="usage">
+          <edgelabel>ReferenceManager</edgelabel>
+        </childnode>
+        <childnode refid="466" relation="usage">
+          <edgelabel>cPart</edgelabel>
+        </childnode>
+      </node>
+      <node id="465">
+        <label>Feature</label>
+        <link refid="class_c_a_t_i_a_translator_1_1_feature"/>
+        <childnode refid="466" relation="usage">
+          <edgelabel>PartManager</edgelabel>
+        </childnode>
+      </node>
+      <node id="469">
+        <label>CATIATranslator.Assembly</label>
+        <link refid="class_c_a_t_i_a_translator_1_1_assembly"/>
+        <childnode refid="467" relation="usage">
+          <edgelabel>tConstraints</edgelabel>
+          <edgelabel>tAssemDoc</edgelabel>
+          <edgelabel>tApp</edgelabel>
+          <edgelabel>tPartDoc</edgelabel>
+          <edgelabel>tDocs</edgelabel>
+          <edgelabel>tFeatures</edgelabel>
+          <edgelabel>tAssem</edgelabel>
+          <edgelabel>tComp</edgelabel>
+          <edgelabel>tPart</edgelabel>
+        </childnode>
+        <childnode refid="468" relation="usage">
+          <edgelabel>ReferenceManager</edgelabel>
+        </childnode>
+        <childnode refid="466" relation="usage">
+          <edgelabel>cPart</edgelabel>
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/CATIATranslator/Part/Feature/FeatureHole.cs" line="6" column="1" bodyfile="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/CATIATranslator/Part/Feature/FeatureHole.cs" bodystart="5" bodyend="163"/>
+    <listofallmembers>
+      <member refid="class_c_a_t_i_a_translator_1_1_feature_hole_1a6fafb5ff4d4a367c219f3ad0b4b484a6" prot="public" virt="non-virtual"><scope>CATIATranslator::FeatureHole</scope><name>FeatureHole</name></member>
+      <member refid="class_c_a_t_i_a_translator_1_1_feature_hole_1a2b67aaf7c0000dba888f4d3f08b9f374" prot="private" virt="non-virtual"><scope>CATIATranslator::FeatureHole</scope><name>GetTargetFace</name></member>
+      <member refid="class_c_a_t_i_a_translator_1_1_feature_hole_1a208bd603163a967f768b337ffb8424f0" prot="private" virt="non-virtual"><scope>CATIATranslator::FeatureHole</scope><name>GetTargetFace</name></member>
+      <member refid="class_c_a_t_i_a_translator_1_1_feature_1ad90561702fbff5b6fc8f87cdf9531751" prot="public" virt="non-virtual"><scope>CATIATranslator::FeatureHole</scope><name>PartManager</name></member>
+      <member refid="class_c_a_t_i_a_translator_1_1_feature_hole_1a59feef115df65e5bf50ab91ce796364d" prot="public" virt="virtual"><scope>CATIATranslator::FeatureHole</scope><name>TranslateC2T</name></member>
+      <member refid="class_c_a_t_i_a_translator_1_1_feature_hole_1aa08760ac242a86ba9cc0f2027f9e888e" prot="public" virt="virtual"><scope>CATIATranslator::FeatureHole</scope><name>TranslateT2C</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

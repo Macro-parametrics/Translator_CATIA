@@ -1,0 +1,791 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_pre_1_1_feature_s_o_l_i_d_create_hole" kind="class" prot="public">
+    <compoundname>Pre::FeatureSOLIDCreateHole</compoundname>
+    <basecompoundref refid="class_pre_1_1_feature" prot="public" virt="non-virtual">Pre::Feature</basecompoundref>
+    <includes refid="_feature_s_o_l_i_d_create_hole_8h" local="no">FeatureSOLIDCreateHole.h</includes>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_pre_1_1_feature_s_o_l_i_d_create_hole_1acac2741d688c25a308bfac2e325c290b" prot="private" static="no" mutable="no">
+        <type>string</type>
+        <definition>string Pre::FeatureSOLIDCreateHole::_selected_face</definition>
+        <argsstring></argsstring>
+        <name>_selected_face</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/PreManager/ref/FeatureSOLIDCreateHole.h" line="22" column="1" bodyfile="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/PreManager/ref/FeatureSOLIDCreateHole.h" bodystart="22" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_pre_1_1_feature_s_o_l_i_d_create_hole_1a010ff3d68c1b9eeea860ed35f042b806" prot="private" static="no" mutable="no">
+        <type>string</type>
+        <definition>string Pre::FeatureSOLIDCreateHole::_center</definition>
+        <argsstring></argsstring>
+        <name>_center</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/PreManager/ref/FeatureSOLIDCreateHole.h" line="23" column="1" bodyfile="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/PreManager/ref/FeatureSOLIDCreateHole.h" bodystart="23" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_pre_1_1_feature_s_o_l_i_d_create_hole_1a36362ad86e1933ef86f0fb91f0270559" prot="private" static="no" mutable="no">
+        <type>double</type>
+        <definition>double Pre::FeatureSOLIDCreateHole::center[3]</definition>
+        <argsstring>[3]</argsstring>
+        <name>center</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/PreManager/ref/FeatureSOLIDCreateHole.h" line="26" column="1" bodyfile="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/PreManager/ref/FeatureSOLIDCreateHole.h" bodystart="26" bodyend="-1"/>
+        <referencedby refid="class_pre_1_1_feature_s_o_l_i_d_create_hole_1a7975ebdc0d729820eb09a574e17646d9" compoundref="_feature_s_o_l_i_d_create_hole_8cpp" startline="19" endline="52">GetInfo</referencedby>
+        <referencedby refid="class_pre_1_1_feature_s_o_l_i_d_create_hole_1aaa01847d6147ea534bcf1d1425a6a0fa" compoundref="_feature_s_o_l_i_d_create_hole_8cpp" startline="54" endline="75">ToTransCAD</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_pre_1_1_feature_s_o_l_i_d_create_hole_1a0004c10806c548772ccea531e753304e" prot="private" static="no" mutable="no">
+        <type>double</type>
+        <definition>double Pre::FeatureSOLIDCreateHole::radius</definition>
+        <argsstring></argsstring>
+        <name>radius</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/PreManager/ref/FeatureSOLIDCreateHole.h" line="27" column="1" bodyfile="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/PreManager/ref/FeatureSOLIDCreateHole.h" bodystart="27" bodyend="-1"/>
+        <referencedby refid="class_pre_1_1_feature_s_o_l_i_d_create_hole_1a541fed4070544bde17c29d89851242a6" compoundref="_feature_s_o_l_i_d_create_hole_8cpp" startline="77" endline="112">CheckAttribute</referencedby>
+        <referencedby refid="class_pre_1_1_feature_s_o_l_i_d_create_hole_1a7975ebdc0d729820eb09a574e17646d9" compoundref="_feature_s_o_l_i_d_create_hole_8cpp" startline="19" endline="52">GetInfo</referencedby>
+        <referencedby refid="class_pre_1_1_feature_s_o_l_i_d_create_hole_1ab1dcdb8fba8745ef3da6b523f8b718ab" compoundref="_feature_s_o_l_i_d_create_hole_8cpp" startline="154" endline="160">ModifyCounterbore</referencedby>
+        <referencedby refid="class_pre_1_1_feature_s_o_l_i_d_create_hole_1a8eaff559f6919c2522dbe4f85dbf5c1f" compoundref="_feature_s_o_l_i_d_create_hole_8cpp" startline="162" endline="170">ModifyCountersunk</referencedby>
+        <referencedby refid="class_pre_1_1_feature_s_o_l_i_d_create_hole_1aaa01847d6147ea534bcf1d1425a6a0fa" compoundref="_feature_s_o_l_i_d_create_hole_8cpp" startline="54" endline="75">ToTransCAD</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_pre_1_1_feature_s_o_l_i_d_create_hole_1a6e2d776769087bad7e04e79d97c561e4" prot="private" static="no" mutable="no">
+        <type>double</type>
+        <definition>double Pre::FeatureSOLIDCreateHole::depth</definition>
+        <argsstring></argsstring>
+        <name>depth</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/PreManager/ref/FeatureSOLIDCreateHole.h" line="28" column="1" bodyfile="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/PreManager/ref/FeatureSOLIDCreateHole.h" bodystart="28" bodyend="-1"/>
+        <referencedby refid="class_pre_1_1_feature_s_o_l_i_d_create_hole_1a7975ebdc0d729820eb09a574e17646d9" compoundref="_feature_s_o_l_i_d_create_hole_8cpp" startline="19" endline="52">GetInfo</referencedby>
+        <referencedby refid="class_pre_1_1_feature_s_o_l_i_d_create_hole_1ab1dcdb8fba8745ef3da6b523f8b718ab" compoundref="_feature_s_o_l_i_d_create_hole_8cpp" startline="154" endline="160">ModifyCounterbore</referencedby>
+        <referencedby refid="class_pre_1_1_feature_s_o_l_i_d_create_hole_1aaa01847d6147ea534bcf1d1425a6a0fa" compoundref="_feature_s_o_l_i_d_create_hole_8cpp" startline="54" endline="75">ToTransCAD</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_pre_1_1_feature_s_o_l_i_d_create_hole_1ae0220490cd640922eaf8c047ef2f1b79" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int Pre::FeatureSOLIDCreateHole::end_condition</definition>
+        <argsstring></argsstring>
+        <name>end_condition</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/PreManager/ref/FeatureSOLIDCreateHole.h" line="29" column="1" bodyfile="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/PreManager/ref/FeatureSOLIDCreateHole.h" bodystart="29" bodyend="-1"/>
+        <referencedby refid="class_pre_1_1_feature_s_o_l_i_d_create_hole_1ac976809b346f899800e54c3cd943c3fc" compoundref="_feature_s_o_l_i_d_create_hole_8cpp" startline="5" endline="13">FeatureSOLIDCreateHole</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_pre_1_1_feature_s_o_l_i_d_create_hole_1a8e9ec2033a7afdf2c924e740d921efb0" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool Pre::FeatureSOLIDCreateHole::flip</definition>
+        <argsstring></argsstring>
+        <name>flip</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/PreManager/ref/FeatureSOLIDCreateHole.h" line="30" column="1" bodyfile="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/PreManager/ref/FeatureSOLIDCreateHole.h" bodystart="30" bodyend="-1"/>
+        <referencedby refid="class_pre_1_1_feature_s_o_l_i_d_create_hole_1ac976809b346f899800e54c3cd943c3fc" compoundref="_feature_s_o_l_i_d_create_hole_8cpp" startline="5" endline="13">FeatureSOLIDCreateHole</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_pre_1_1_feature_s_o_l_i_d_create_hole_1a08ef0260c29f4ea6780ed19221f13ace" prot="private" static="no" mutable="no">
+        <type>double</type>
+        <definition>double Pre::FeatureSOLIDCreateHole::lower_hole_diameter</definition>
+        <argsstring></argsstring>
+        <name>lower_hole_diameter</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/PreManager/ref/FeatureSOLIDCreateHole.h" line="33" column="1" bodyfile="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/PreManager/ref/FeatureSOLIDCreateHole.h" bodystart="33" bodyend="-1"/>
+        <referencedby refid="class_pre_1_1_feature_s_o_l_i_d_create_hole_1ab1dcdb8fba8745ef3da6b523f8b718ab" compoundref="_feature_s_o_l_i_d_create_hole_8cpp" startline="154" endline="160">ModifyCounterbore</referencedby>
+        <referencedby refid="class_pre_1_1_feature_s_o_l_i_d_create_hole_1aaa01847d6147ea534bcf1d1425a6a0fa" compoundref="_feature_s_o_l_i_d_create_hole_8cpp" startline="54" endline="75">ToTransCAD</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_pre_1_1_feature_s_o_l_i_d_create_hole_1ae4b2a20ce9fe0d17d14287e518b85f16" prot="private" static="no" mutable="no">
+        <type>double</type>
+        <definition>double Pre::FeatureSOLIDCreateHole::lower_hole_depth</definition>
+        <argsstring></argsstring>
+        <name>lower_hole_depth</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/PreManager/ref/FeatureSOLIDCreateHole.h" line="34" column="1" bodyfile="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/PreManager/ref/FeatureSOLIDCreateHole.h" bodystart="34" bodyend="-1"/>
+        <referencedby refid="class_pre_1_1_feature_s_o_l_i_d_create_hole_1ab1dcdb8fba8745ef3da6b523f8b718ab" compoundref="_feature_s_o_l_i_d_create_hole_8cpp" startline="154" endline="160">ModifyCounterbore</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_pre_1_1_feature_s_o_l_i_d_create_hole_1ac161f7606bc2126887f31cfdc0295533" prot="private" static="no" mutable="no">
+        <type>double</type>
+        <definition>double Pre::FeatureSOLIDCreateHole::bottom_angle</definition>
+        <argsstring></argsstring>
+        <name>bottom_angle</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/PreManager/ref/FeatureSOLIDCreateHole.h" line="35" column="1" bodyfile="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/PreManager/ref/FeatureSOLIDCreateHole.h" bodystart="35" bodyend="-1"/>
+        <referencedby refid="class_pre_1_1_feature_s_o_l_i_d_create_hole_1a541fed4070544bde17c29d89851242a6" compoundref="_feature_s_o_l_i_d_create_hole_8cpp" startline="77" endline="112">CheckAttribute</referencedby>
+        <referencedby refid="class_pre_1_1_feature_s_o_l_i_d_create_hole_1ac976809b346f899800e54c3cd943c3fc" compoundref="_feature_s_o_l_i_d_create_hole_8cpp" startline="5" endline="13">FeatureSOLIDCreateHole</referencedby>
+        <referencedby refid="class_pre_1_1_feature_s_o_l_i_d_create_hole_1aaa01847d6147ea534bcf1d1425a6a0fa" compoundref="_feature_s_o_l_i_d_create_hole_8cpp" startline="54" endline="75">ToTransCAD</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_pre_1_1_feature_s_o_l_i_d_create_hole_1a285407028bf61ffeee7e008c411aad7f" prot="private" static="no" mutable="no">
+        <type>double</type>
+        <definition>double Pre::FeatureSOLIDCreateHole::head_diameter</definition>
+        <argsstring></argsstring>
+        <name>head_diameter</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/PreManager/ref/FeatureSOLIDCreateHole.h" line="36" column="1" bodyfile="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/PreManager/ref/FeatureSOLIDCreateHole.h" bodystart="36" bodyend="-1"/>
+        <referencedby refid="class_pre_1_1_feature_s_o_l_i_d_create_hole_1a541fed4070544bde17c29d89851242a6" compoundref="_feature_s_o_l_i_d_create_hole_8cpp" startline="77" endline="112">CheckAttribute</referencedby>
+        <referencedby refid="class_pre_1_1_feature_s_o_l_i_d_create_hole_1ab1dcdb8fba8745ef3da6b523f8b718ab" compoundref="_feature_s_o_l_i_d_create_hole_8cpp" startline="154" endline="160">ModifyCounterbore</referencedby>
+        <referencedby refid="class_pre_1_1_feature_s_o_l_i_d_create_hole_1aaa01847d6147ea534bcf1d1425a6a0fa" compoundref="_feature_s_o_l_i_d_create_hole_8cpp" startline="54" endline="75">ToTransCAD</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_pre_1_1_feature_s_o_l_i_d_create_hole_1ad4813982f7ae92c9bde1579ae71e1e20" prot="private" static="no" mutable="no">
+        <type>double</type>
+        <definition>double Pre::FeatureSOLIDCreateHole::head_angle</definition>
+        <argsstring></argsstring>
+        <name>head_angle</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/PreManager/ref/FeatureSOLIDCreateHole.h" line="39" column="1" bodyfile="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/PreManager/ref/FeatureSOLIDCreateHole.h" bodystart="39" bodyend="-1"/>
+        <referencedby refid="class_pre_1_1_feature_s_o_l_i_d_create_hole_1a541fed4070544bde17c29d89851242a6" compoundref="_feature_s_o_l_i_d_create_hole_8cpp" startline="77" endline="112">CheckAttribute</referencedby>
+        <referencedby refid="class_pre_1_1_feature_s_o_l_i_d_create_hole_1a8eaff559f6919c2522dbe4f85dbf5c1f" compoundref="_feature_s_o_l_i_d_create_hole_8cpp" startline="162" endline="170">ModifyCountersunk</referencedby>
+        <referencedby refid="class_pre_1_1_feature_s_o_l_i_d_create_hole_1aaa01847d6147ea534bcf1d1425a6a0fa" compoundref="_feature_s_o_l_i_d_create_hole_8cpp" startline="54" endline="75">ToTransCAD</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_pre_1_1_feature_s_o_l_i_d_create_hole_1a0375d7eb19a0a2dedad884437704dc5b" prot="private" static="no" mutable="no">
+        <type>double</type>
+        <definition>double Pre::FeatureSOLIDCreateHole::head_depth</definition>
+        <argsstring></argsstring>
+        <name>head_depth</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/PreManager/ref/FeatureSOLIDCreateHole.h" line="40" column="1" bodyfile="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/PreManager/ref/FeatureSOLIDCreateHole.h" bodystart="40" bodyend="-1"/>
+        <referencedby refid="class_pre_1_1_feature_s_o_l_i_d_create_hole_1a541fed4070544bde17c29d89851242a6" compoundref="_feature_s_o_l_i_d_create_hole_8cpp" startline="77" endline="112">CheckAttribute</referencedby>
+        <referencedby refid="class_pre_1_1_feature_s_o_l_i_d_create_hole_1a8eaff559f6919c2522dbe4f85dbf5c1f" compoundref="_feature_s_o_l_i_d_create_hole_8cpp" startline="162" endline="170">ModifyCountersunk</referencedby>
+        <referencedby refid="class_pre_1_1_feature_s_o_l_i_d_create_hole_1aaa01847d6147ea534bcf1d1425a6a0fa" compoundref="_feature_s_o_l_i_d_create_hole_8cpp" startline="54" endline="75">ToTransCAD</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_pre_1_1_feature_s_o_l_i_d_create_hole_1a7673582345b91e9b2a45b2e1a9ff503a" prot="private" static="no" mutable="no">
+        <type>double</type>
+        <definition>double Pre::FeatureSOLIDCreateHole::upper_hole_diameter</definition>
+        <argsstring></argsstring>
+        <name>upper_hole_diameter</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/PreManager/ref/FeatureSOLIDCreateHole.h" line="41" column="1" bodyfile="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/PreManager/ref/FeatureSOLIDCreateHole.h" bodystart="41" bodyend="-1"/>
+        <referencedby refid="class_pre_1_1_feature_s_o_l_i_d_create_hole_1ab1dcdb8fba8745ef3da6b523f8b718ab" compoundref="_feature_s_o_l_i_d_create_hole_8cpp" startline="154" endline="160">ModifyCounterbore</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_pre_1_1_feature_s_o_l_i_d_create_hole_1a128f65576c156757f502950b140e41fe" prot="private" static="no" mutable="no">
+        <type>double</type>
+        <definition>double Pre::FeatureSOLIDCreateHole::upper_hole_depth</definition>
+        <argsstring></argsstring>
+        <name>upper_hole_depth</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/PreManager/ref/FeatureSOLIDCreateHole.h" line="42" column="1" bodyfile="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/PreManager/ref/FeatureSOLIDCreateHole.h" bodystart="42" bodyend="-1"/>
+        <referencedby refid="class_pre_1_1_feature_s_o_l_i_d_create_hole_1ab1dcdb8fba8745ef3da6b523f8b718ab" compoundref="_feature_s_o_l_i_d_create_hole_8cpp" startline="154" endline="160">ModifyCounterbore</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_pre_1_1_feature_s_o_l_i_d_create_hole_1a838f344f7a5bf2a19e26168893fcf887" prot="private" static="no" mutable="no">
+        <type>double</type>
+        <definition>double Pre::FeatureSOLIDCreateHole::countersink_angle</definition>
+        <argsstring></argsstring>
+        <name>countersink_angle</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/PreManager/ref/FeatureSOLIDCreateHole.h" line="43" column="1" bodyfile="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/PreManager/ref/FeatureSOLIDCreateHole.h" bodystart="43" bodyend="-1"/>
+        <referencedby refid="class_pre_1_1_feature_s_o_l_i_d_create_hole_1a8eaff559f6919c2522dbe4f85dbf5c1f" compoundref="_feature_s_o_l_i_d_create_hole_8cpp" startline="162" endline="170">ModifyCountersunk</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_pre_1_1_feature_s_o_l_i_d_create_hole_1a32ffe3d04ccddd6041794ad6c240bfd2" prot="private" static="no" mutable="no">
+        <type>double</type>
+        <definition>double Pre::FeatureSOLIDCreateHole::countersink_radius</definition>
+        <argsstring></argsstring>
+        <name>countersink_radius</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/PreManager/ref/FeatureSOLIDCreateHole.h" line="44" column="1" bodyfile="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/PreManager/ref/FeatureSOLIDCreateHole.h" bodystart="44" bodyend="-1"/>
+        <referencedby refid="class_pre_1_1_feature_s_o_l_i_d_create_hole_1a8eaff559f6919c2522dbe4f85dbf5c1f" compoundref="_feature_s_o_l_i_d_create_hole_8cpp" startline="162" endline="170">ModifyCountersunk</referencedby>
+        <referencedby refid="class_pre_1_1_feature_s_o_l_i_d_create_hole_1aaa01847d6147ea534bcf1d1425a6a0fa" compoundref="_feature_s_o_l_i_d_create_hole_8cpp" startline="54" endline="75">ToTransCAD</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_pre_1_1_feature_s_o_l_i_d_create_hole_1a3483102be8dabd27e14c0caf94f971b7" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int Pre::FeatureSOLIDCreateHole::hole_type</definition>
+        <argsstring></argsstring>
+        <name>hole_type</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/PreManager/ref/FeatureSOLIDCreateHole.h" line="47" column="1" bodyfile="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/PreManager/ref/FeatureSOLIDCreateHole.h" bodystart="47" bodyend="-1"/>
+        <referencedby refid="class_pre_1_1_feature_s_o_l_i_d_create_hole_1a541fed4070544bde17c29d89851242a6" compoundref="_feature_s_o_l_i_d_create_hole_8cpp" startline="77" endline="112">CheckAttribute</referencedby>
+        <referencedby refid="class_pre_1_1_feature_s_o_l_i_d_create_hole_1ac976809b346f899800e54c3cd943c3fc" compoundref="_feature_s_o_l_i_d_create_hole_8cpp" startline="5" endline="13">FeatureSOLIDCreateHole</referencedby>
+        <referencedby refid="class_pre_1_1_feature_s_o_l_i_d_create_hole_1ab89da794ba59346ad7987a3791a95a87" compoundref="_feature_s_o_l_i_d_create_hole_8cpp" startline="114" endline="152">Modify</referencedby>
+        <referencedby refid="class_pre_1_1_feature_s_o_l_i_d_create_hole_1aaa01847d6147ea534bcf1d1425a6a0fa" compoundref="_feature_s_o_l_i_d_create_hole_8cpp" startline="54" endline="75">ToTransCAD</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_pre_1_1_feature_s_o_l_i_d_create_hole_1a69239b445f11a71acb53efe651e29012" prot="private" static="no" mutable="no">
+        <type>double</type>
+        <definition>double Pre::FeatureSOLIDCreateHole::bottom_limit_dim</definition>
+        <argsstring></argsstring>
+        <name>bottom_limit_dim</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/PreManager/ref/FeatureSOLIDCreateHole.h" line="50" column="1" bodyfile="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/PreManager/ref/FeatureSOLIDCreateHole.h" bodystart="50" bodyend="-1"/>
+        <referencedby refid="class_pre_1_1_feature_s_o_l_i_d_create_hole_1ab1dcdb8fba8745ef3da6b523f8b718ab" compoundref="_feature_s_o_l_i_d_create_hole_8cpp" startline="154" endline="160">ModifyCounterbore</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_pre_1_1_feature_s_o_l_i_d_create_hole_1a804b72aff9700b26e433877f65dca2e1" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool Pre::FeatureSOLIDCreateHole::depth_default</definition>
+        <argsstring></argsstring>
+        <name>depth_default</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/PreManager/ref/FeatureSOLIDCreateHole.h" line="51" column="1" bodyfile="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/PreManager/ref/FeatureSOLIDCreateHole.h" bodystart="51" bodyend="-1"/>
+        <referencedby refid="class_pre_1_1_feature_s_o_l_i_d_create_hole_1ac976809b346f899800e54c3cd943c3fc" compoundref="_feature_s_o_l_i_d_create_hole_8cpp" startline="5" endline="13">FeatureSOLIDCreateHole</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_pre_1_1_feature_s_o_l_i_d_create_hole_1ac577fb5a470504a44df35cba47becbf8" prot="private" static="no" mutable="no">
+        <type>vector&lt; <ref refid="class_pre_1_1_reference_entity" kindref="compound">ReferenceEntity</ref> * &gt;</type>
+        <definition>vector&lt;ReferenceEntity *&gt; Pre::FeatureSOLIDCreateHole::_referenceEntityList</definition>
+        <argsstring></argsstring>
+        <name>_referenceEntityList</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/PreManager/ref/FeatureSOLIDCreateHole.h" line="53" column="1" bodyfile="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/PreManager/ref/FeatureSOLIDCreateHole.h" bodystart="53" bodyend="-1"/>
+        <referencedby refid="class_pre_1_1_feature_s_o_l_i_d_create_hole_1a7975ebdc0d729820eb09a574e17646d9" compoundref="_feature_s_o_l_i_d_create_hole_8cpp" startline="19" endline="52">GetInfo</referencedby>
+        <referencedby refid="class_pre_1_1_feature_s_o_l_i_d_create_hole_1aaa01847d6147ea534bcf1d1425a6a0fa" compoundref="_feature_s_o_l_i_d_create_hole_8cpp" startline="54" endline="75">ToTransCAD</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_pre_1_1_feature_s_o_l_i_d_create_hole_1ac976809b346f899800e54c3cd943c3fc" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>Pre::FeatureSOLIDCreateHole::FeatureSOLIDCreateHole</definition>
+        <argsstring>(Part *pPart, int type, string name)</argsstring>
+        <name>FeatureSOLIDCreateHole</name>
+        <param>
+          <type><ref refid="class_pre_1_1_part" kindref="compound">Part</ref> *</type>
+          <declname>pPart</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>type</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>name</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/PreManager/ref/FeatureSOLIDCreateHole.h" line="9" column="1" bodyfile="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/PreManager/ref/FeatureSOLIDCreateHole.cpp" bodystart="5" bodyend="13"/>
+        <references refid="class_pre_1_1_feature_s_o_l_i_d_create_hole_1ac161f7606bc2126887f31cfdc0295533" compoundref="_feature_s_o_l_i_d_create_hole_8h" startline="35">bottom_angle</references>
+        <references refid="class_pre_1_1_feature_s_o_l_i_d_create_hole_1a804b72aff9700b26e433877f65dca2e1" compoundref="_feature_s_o_l_i_d_create_hole_8h" startline="51">depth_default</references>
+        <references refid="class_pre_1_1_feature_s_o_l_i_d_create_hole_1ae0220490cd640922eaf8c047ef2f1b79" compoundref="_feature_s_o_l_i_d_create_hole_8h" startline="29">end_condition</references>
+        <references refid="class_pre_1_1_feature_s_o_l_i_d_create_hole_1a8e9ec2033a7afdf2c924e740d921efb0" compoundref="_feature_s_o_l_i_d_create_hole_8h" startline="30">flip</references>
+        <references refid="class_pre_1_1_feature_s_o_l_i_d_create_hole_1a3483102be8dabd27e14c0caf94f971b7" compoundref="_feature_s_o_l_i_d_create_hole_8h" startline="47">hole_type</references>
+      </memberdef>
+      <memberdef kind="function" id="class_pre_1_1_feature_s_o_l_i_d_create_hole_1a8e74c74503db6cc99a93e2fb9fe4b9a6" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type></type>
+        <definition>Pre::FeatureSOLIDCreateHole::~FeatureSOLIDCreateHole</definition>
+        <argsstring>()</argsstring>
+        <name>~FeatureSOLIDCreateHole</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/PreManager/ref/FeatureSOLIDCreateHole.h" line="10" column="1" bodyfile="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/PreManager/ref/FeatureSOLIDCreateHole.cpp" bodystart="15" bodyend="17"/>
+      </memberdef>
+      <memberdef kind="function" id="class_pre_1_1_feature_s_o_l_i_d_create_hole_1a7975ebdc0d729820eb09a574e17646d9" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void Pre::FeatureSOLIDCreateHole::GetInfo</definition>
+        <argsstring>(ifstream &amp;is)</argsstring>
+        <name>GetInfo</name>
+        <reimplements refid="class_pre_1_1_feature_1af58dd6004076ee16ada8ed600965de6c">GetInfo</reimplements>
+        <param>
+          <type>ifstream &amp;</type>
+          <declname>is</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/PreManager/ref/FeatureSOLIDCreateHole.h" line="12" column="1" bodyfile="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/PreManager/ref/FeatureSOLIDCreateHole.cpp" bodystart="19" bodyend="52"/>
+        <references refid="class_pre_1_1_feature_1a64772d4f47afe0052d5a94f773de5211" compoundref="_pre_manager_2ref_2_feature_8h" startline="26">Pre::Feature::_pPart</references>
+        <references refid="class_pre_1_1_feature_s_o_l_i_d_create_hole_1ac577fb5a470504a44df35cba47becbf8" compoundref="_feature_s_o_l_i_d_create_hole_8h" startline="53">_referenceEntityList</references>
+        <references refid="class_pre_1_1_feature_s_o_l_i_d_create_hole_1a36362ad86e1933ef86f0fb91f0270559" compoundref="_feature_s_o_l_i_d_create_hole_8h" startline="26">center</references>
+        <references refid="class_pre_1_1_feature_s_o_l_i_d_create_hole_1a6e2d776769087bad7e04e79d97c561e4" compoundref="_feature_s_o_l_i_d_create_hole_8h" startline="28">depth</references>
+        <references refid="class_pre_1_1_part_1a5643b5eda5bff62d642532663c62b63c" compoundref="_pre_manager_2ref_2_part_8cpp" startline="334" endline="345">Pre::Part::GetReferenceEntityByName</references>
+        <references refid="class_pre_1_1_feature_s_o_l_i_d_create_hole_1a0004c10806c548772ccea531e753304e" compoundref="_feature_s_o_l_i_d_create_hole_8h" startline="27">radius</references>
+      </memberdef>
+      <memberdef kind="function" id="class_pre_1_1_feature_s_o_l_i_d_create_hole_1aaa01847d6147ea534bcf1d1425a6a0fa" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void Pre::FeatureSOLIDCreateHole::ToTransCAD</definition>
+        <argsstring>()</argsstring>
+        <name>ToTransCAD</name>
+        <reimplements refid="class_pre_1_1_feature_1a43c7ceaf04580d2e948aedd882208d80">ToTransCAD</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/PreManager/ref/FeatureSOLIDCreateHole.h" line="13" column="1" bodyfile="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/PreManager/ref/FeatureSOLIDCreateHole.cpp" bodystart="54" bodyend="75"/>
+        <references refid="class_pre_1_1_feature_1ae8c43a10be919286c9450125b1a0afb9" compoundref="_pre_manager_2ref_2_feature_8h" startline="27">Pre::Feature::_name</references>
+        <references refid="class_pre_1_1_feature_s_o_l_i_d_create_hole_1ac577fb5a470504a44df35cba47becbf8" compoundref="_feature_s_o_l_i_d_create_hole_8h" startline="53">_referenceEntityList</references>
+        <references refid="class_pre_1_1_part_1a0fa084e40ad2822e8214ba40b4751825" compoundref="_pre_manager_2ref_2_part_8h" startline="53">Pre::Part::_spFeatures</references>
+        <references refid="class_pre_1_1_feature_s_o_l_i_d_create_hole_1ac161f7606bc2126887f31cfdc0295533" compoundref="_feature_s_o_l_i_d_create_hole_8h" startline="35">bottom_angle</references>
+        <references refid="class_pre_1_1_feature_s_o_l_i_d_create_hole_1a36362ad86e1933ef86f0fb91f0270559" compoundref="_feature_s_o_l_i_d_create_hole_8h" startline="26">center</references>
+        <references refid="class_pre_1_1_feature_s_o_l_i_d_create_hole_1a32ffe3d04ccddd6041794ad6c240bfd2" compoundref="_feature_s_o_l_i_d_create_hole_8h" startline="44">countersink_radius</references>
+        <references refid="class_pre_1_1_feature_s_o_l_i_d_create_hole_1a6e2d776769087bad7e04e79d97c561e4" compoundref="_feature_s_o_l_i_d_create_hole_8h" startline="28">depth</references>
+        <references refid="class_pre_1_1_feature_1a22de04ab5c0ef7206d32c780ccfafee7" compoundref="_pre_manager_2ref_2_feature_8h" startline="12" endline="12">Pre::Feature::GetPart</references>
+        <references refid="class_pre_1_1_feature_s_o_l_i_d_create_hole_1ad4813982f7ae92c9bde1579ae71e1e20" compoundref="_feature_s_o_l_i_d_create_hole_8h" startline="39">head_angle</references>
+        <references refid="class_pre_1_1_feature_s_o_l_i_d_create_hole_1a0375d7eb19a0a2dedad884437704dc5b" compoundref="_feature_s_o_l_i_d_create_hole_8h" startline="40">head_depth</references>
+        <references refid="class_pre_1_1_feature_s_o_l_i_d_create_hole_1a285407028bf61ffeee7e008c411aad7f" compoundref="_feature_s_o_l_i_d_create_hole_8h" startline="36">head_diameter</references>
+        <references refid="class_pre_1_1_feature_s_o_l_i_d_create_hole_1a3483102be8dabd27e14c0caf94f971b7" compoundref="_feature_s_o_l_i_d_create_hole_8h" startline="47">hole_type</references>
+        <references refid="class_pre_1_1_feature_s_o_l_i_d_create_hole_1a08ef0260c29f4ea6780ed19221f13ace" compoundref="_feature_s_o_l_i_d_create_hole_8h" startline="33">lower_hole_diameter</references>
+        <references refid="class_pre_1_1_feature_s_o_l_i_d_create_hole_1a0004c10806c548772ccea531e753304e" compoundref="_feature_s_o_l_i_d_create_hole_8h" startline="27">radius</references>
+      </memberdef>
+      <memberdef kind="function" id="class_pre_1_1_feature_s_o_l_i_d_create_hole_1ab89da794ba59346ad7987a3791a95a87" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void Pre::FeatureSOLIDCreateHole::Modify</definition>
+        <argsstring>(char *buffer)</argsstring>
+        <name>Modify</name>
+        <reimplements refid="class_pre_1_1_feature_1a11f5aafa54439cf08dd44adb6fcd4d9c">Modify</reimplements>
+        <param>
+          <type>char *</type>
+          <declname>buffer</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/PreManager/ref/FeatureSOLIDCreateHole.h" line="15" column="1" bodyfile="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/PreManager/ref/FeatureSOLIDCreateHole.cpp" bodystart="114" bodyend="152"/>
+        <references refid="class_pre_1_1_feature_s_o_l_i_d_create_hole_1a3483102be8dabd27e14c0caf94f971b7" compoundref="_feature_s_o_l_i_d_create_hole_8h" startline="47">hole_type</references>
+        <references refid="class_pre_1_1_feature_s_o_l_i_d_create_hole_1ab1dcdb8fba8745ef3da6b523f8b718ab" compoundref="_feature_s_o_l_i_d_create_hole_8cpp" startline="154" endline="160">ModifyCounterbore</references>
+        <references refid="class_pre_1_1_feature_s_o_l_i_d_create_hole_1a8eaff559f6919c2522dbe4f85dbf5c1f" compoundref="_feature_s_o_l_i_d_create_hole_8cpp" startline="162" endline="170">ModifyCountersunk</references>
+      </memberdef>
+      <memberdef kind="function" id="class_pre_1_1_feature_s_o_l_i_d_create_hole_1a541fed4070544bde17c29d89851242a6" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void Pre::FeatureSOLIDCreateHole::CheckAttribute</definition>
+        <argsstring>(string name, double value, int type)</argsstring>
+        <name>CheckAttribute</name>
+        <reimplements refid="class_pre_1_1_feature_1a3b4b453b4ac49dde010d6760917266b7">CheckAttribute</reimplements>
+        <param>
+          <type>string</type>
+          <declname>name</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>value</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>type</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/PreManager/ref/FeatureSOLIDCreateHole.h" line="16" column="1" bodyfile="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/PreManager/ref/FeatureSOLIDCreateHole.cpp" bodystart="77" bodyend="112"/>
+        <references refid="class_pre_1_1_feature_s_o_l_i_d_create_hole_1ac161f7606bc2126887f31cfdc0295533" compoundref="_feature_s_o_l_i_d_create_hole_8h" startline="35">bottom_angle</references>
+        <references refid="class_pre_1_1_feature_s_o_l_i_d_create_hole_1ad4813982f7ae92c9bde1579ae71e1e20" compoundref="_feature_s_o_l_i_d_create_hole_8h" startline="39">head_angle</references>
+        <references refid="class_pre_1_1_feature_s_o_l_i_d_create_hole_1a0375d7eb19a0a2dedad884437704dc5b" compoundref="_feature_s_o_l_i_d_create_hole_8h" startline="40">head_depth</references>
+        <references refid="class_pre_1_1_feature_s_o_l_i_d_create_hole_1a285407028bf61ffeee7e008c411aad7f" compoundref="_feature_s_o_l_i_d_create_hole_8h" startline="36">head_diameter</references>
+        <references refid="class_pre_1_1_feature_s_o_l_i_d_create_hole_1a3483102be8dabd27e14c0caf94f971b7" compoundref="_feature_s_o_l_i_d_create_hole_8h" startline="47">hole_type</references>
+        <references refid="class_pre_1_1_feature_s_o_l_i_d_create_hole_1ab1dcdb8fba8745ef3da6b523f8b718ab" compoundref="_feature_s_o_l_i_d_create_hole_8cpp" startline="154" endline="160">ModifyCounterbore</references>
+        <references refid="class_pre_1_1_feature_s_o_l_i_d_create_hole_1a8eaff559f6919c2522dbe4f85dbf5c1f" compoundref="_feature_s_o_l_i_d_create_hole_8cpp" startline="162" endline="170">ModifyCountersunk</references>
+        <references refid="class_pre_1_1_feature_s_o_l_i_d_create_hole_1a0004c10806c548772ccea531e753304e" compoundref="_feature_s_o_l_i_d_create_hole_8h" startline="27">radius</references>
+      </memberdef>
+      <memberdef kind="function" id="class_pre_1_1_feature_s_o_l_i_d_create_hole_1ab1dcdb8fba8745ef3da6b523f8b718ab" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Pre::FeatureSOLIDCreateHole::ModifyCounterbore</definition>
+        <argsstring>()</argsstring>
+        <name>ModifyCounterbore</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/PreManager/ref/FeatureSOLIDCreateHole.h" line="18" column="1" bodyfile="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/PreManager/ref/FeatureSOLIDCreateHole.cpp" bodystart="154" bodyend="160"/>
+        <references refid="class_pre_1_1_feature_s_o_l_i_d_create_hole_1a69239b445f11a71acb53efe651e29012" compoundref="_feature_s_o_l_i_d_create_hole_8h" startline="50">bottom_limit_dim</references>
+        <references refid="class_pre_1_1_feature_s_o_l_i_d_create_hole_1a6e2d776769087bad7e04e79d97c561e4" compoundref="_feature_s_o_l_i_d_create_hole_8h" startline="28">depth</references>
+        <references refid="class_pre_1_1_feature_s_o_l_i_d_create_hole_1a285407028bf61ffeee7e008c411aad7f" compoundref="_feature_s_o_l_i_d_create_hole_8h" startline="36">head_diameter</references>
+        <references refid="class_pre_1_1_feature_s_o_l_i_d_create_hole_1ae4b2a20ce9fe0d17d14287e518b85f16" compoundref="_feature_s_o_l_i_d_create_hole_8h" startline="34">lower_hole_depth</references>
+        <references refid="class_pre_1_1_feature_s_o_l_i_d_create_hole_1a08ef0260c29f4ea6780ed19221f13ace" compoundref="_feature_s_o_l_i_d_create_hole_8h" startline="33">lower_hole_diameter</references>
+        <references refid="class_pre_1_1_feature_s_o_l_i_d_create_hole_1a0004c10806c548772ccea531e753304e" compoundref="_feature_s_o_l_i_d_create_hole_8h" startline="27">radius</references>
+        <references refid="class_pre_1_1_feature_s_o_l_i_d_create_hole_1a128f65576c156757f502950b140e41fe" compoundref="_feature_s_o_l_i_d_create_hole_8h" startline="42">upper_hole_depth</references>
+        <references refid="class_pre_1_1_feature_s_o_l_i_d_create_hole_1a7673582345b91e9b2a45b2e1a9ff503a" compoundref="_feature_s_o_l_i_d_create_hole_8h" startline="41">upper_hole_diameter</references>
+        <referencedby refid="class_pre_1_1_feature_s_o_l_i_d_create_hole_1a541fed4070544bde17c29d89851242a6" compoundref="_feature_s_o_l_i_d_create_hole_8cpp" startline="77" endline="112">CheckAttribute</referencedby>
+        <referencedby refid="class_pre_1_1_feature_s_o_l_i_d_create_hole_1ab89da794ba59346ad7987a3791a95a87" compoundref="_feature_s_o_l_i_d_create_hole_8cpp" startline="114" endline="152">Modify</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_pre_1_1_feature_s_o_l_i_d_create_hole_1a8eaff559f6919c2522dbe4f85dbf5c1f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Pre::FeatureSOLIDCreateHole::ModifyCountersunk</definition>
+        <argsstring>()</argsstring>
+        <name>ModifyCountersunk</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/PreManager/ref/FeatureSOLIDCreateHole.h" line="19" column="1" bodyfile="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/PreManager/ref/FeatureSOLIDCreateHole.cpp" bodystart="162" bodyend="170"/>
+        <references refid="class_pre_1_1_feature_s_o_l_i_d_create_hole_1a838f344f7a5bf2a19e26168893fcf887" compoundref="_feature_s_o_l_i_d_create_hole_8h" startline="43">countersink_angle</references>
+        <references refid="class_pre_1_1_feature_s_o_l_i_d_create_hole_1a32ffe3d04ccddd6041794ad6c240bfd2" compoundref="_feature_s_o_l_i_d_create_hole_8h" startline="44">countersink_radius</references>
+        <references refid="class_pre_1_1_feature_s_o_l_i_d_create_hole_1ad4813982f7ae92c9bde1579ae71e1e20" compoundref="_feature_s_o_l_i_d_create_hole_8h" startline="39">head_angle</references>
+        <references refid="class_pre_1_1_feature_s_o_l_i_d_create_hole_1a0375d7eb19a0a2dedad884437704dc5b" compoundref="_feature_s_o_l_i_d_create_hole_8h" startline="40">head_depth</references>
+        <references refid="_post_manager_2_stdafx_8h_1a598a3330b3c21701223ee0ca14316eca" compoundref="_post_manager_2_stdafx_8h" startline="13">PI</references>
+        <references refid="class_pre_1_1_feature_s_o_l_i_d_create_hole_1a0004c10806c548772ccea531e753304e" compoundref="_feature_s_o_l_i_d_create_hole_8h" startline="27">radius</references>
+        <referencedby refid="class_pre_1_1_feature_s_o_l_i_d_create_hole_1a541fed4070544bde17c29d89851242a6" compoundref="_feature_s_o_l_i_d_create_hole_8cpp" startline="77" endline="112">CheckAttribute</referencedby>
+        <referencedby refid="class_pre_1_1_feature_s_o_l_i_d_create_hole_1ab89da794ba59346ad7987a3791a95a87" compoundref="_feature_s_o_l_i_d_create_hole_8cpp" startline="114" endline="152">Modify</referencedby>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="663">
+        <label>Pre::Feature</label>
+        <link refid="class_pre_1_1_feature"/>
+      </node>
+      <node id="662">
+        <label>Pre::FeatureSOLIDCreateHole</label>
+        <link refid="class_pre_1_1_feature_s_o_l_i_d_create_hole"/>
+        <childnode refid="663" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="681">
+        <label>std::basic_ifstream&lt; char &gt;</label>
+        <childnode refid="682" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="667">
+        <label>std::vector&lt; Pre::ReferenceEntity * &gt;</label>
+        <childnode refid="668" relation="usage">
+          <edgelabel>elements</edgelabel>
+        </childnode>
+      </node>
+      <node id="685">
+        <label>std::vector&lt; Pre::SketchFeature &gt;</label>
+        <childnode refid="686" relation="usage">
+          <edgelabel>elements</edgelabel>
+        </childnode>
+      </node>
+      <node id="676">
+        <label>Pre::FSKETCHItem</label>
+        <link refid="class_pre_1_1_f_s_k_e_t_c_h_item"/>
+        <childnode refid="670" relation="usage">
+          <edgelabel>_name</edgelabel>
+        </childnode>
+        <childnode refid="674" relation="usage">
+          <edgelabel>_pFSketch</edgelabel>
+        </childnode>
+      </node>
+      <node id="675">
+        <label>std::vector&lt; Pre::FSKETCHItem * &gt;</label>
+        <childnode refid="676" relation="usage">
+          <edgelabel>elements</edgelabel>
+        </childnode>
+      </node>
+      <node id="682">
+        <label>std::basic_istream&lt; Char &gt;</label>
+        <childnode refid="683" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="689">
+        <label>std::vector&lt; Pre::Feature * &gt;</label>
+        <childnode refid="665" relation="usage">
+          <edgelabel>elements</edgelabel>
+        </childnode>
+      </node>
+      <node id="677">
+        <label>std::vector&lt; Pre::ReportItem &gt;</label>
+        <childnode refid="678" relation="usage">
+          <edgelabel>elements</edgelabel>
+        </childnode>
+      </node>
+      <node id="665">
+        <label>Pre::Feature</label>
+        <link refid="class_pre_1_1_feature"/>
+        <childnode refid="666" relation="usage">
+          <edgelabel>_pPart</edgelabel>
+        </childnode>
+        <childnode refid="670" relation="usage">
+          <edgelabel>_name</edgelabel>
+        </childnode>
+      </node>
+      <node id="669">
+        <label>std::vector&lt; FaceInfoList &gt;</label>
+      </node>
+      <node id="668">
+        <label>Pre::ReferenceEntity</label>
+        <link refid="class_pre_1_1_reference_entity"/>
+        <childnode refid="669" relation="usage">
+          <edgelabel>pEdge</edgelabel>
+        </childnode>
+        <childnode refid="666" relation="usage">
+          <edgelabel>_pPart</edgelabel>
+        </childnode>
+        <childnode refid="670" relation="usage">
+          <edgelabel>feature</edgelabel>
+          <edgelabel>TransCADEdgeName</edgelabel>
+          <edgelabel>TransCADFaceName</edgelabel>
+          <edgelabel>name</edgelabel>
+          <edgelabel>axis</edgelabel>
+        </childnode>
+        <childnode refid="672" relation="usage">
+          <edgelabel>pFace</edgelabel>
+        </childnode>
+        <childnode refid="674" relation="usage">
+          <edgelabel>pSketchManager</edgelabel>
+        </childnode>
+        <childnode refid="679" relation="usage">
+          <edgelabel>pWire</edgelabel>
+        </childnode>
+      </node>
+      <node id="664">
+        <label>Pre::FeatureSOLIDCreateHole</label>
+        <link refid="class_pre_1_1_feature_s_o_l_i_d_create_hole"/>
+        <childnode refid="665" relation="public-inheritance">
+        </childnode>
+        <childnode refid="667" relation="usage">
+          <edgelabel>_referenceEntityList</edgelabel>
+        </childnode>
+        <childnode refid="670" relation="usage">
+          <edgelabel>_center</edgelabel>
+          <edgelabel>_selected_face</edgelabel>
+        </childnode>
+      </node>
+      <node id="671">
+        <label>std::basic_string&lt; char &gt;</label>
+      </node>
+      <node id="673">
+        <label>FaceInfo</label>
+        <link refid="struct_face_info"/>
+      </node>
+      <node id="678">
+        <label>Pre::ReportItem</label>
+        <link refid="struct_pre_1_1_report_item"/>
+        <childnode refid="670" relation="usage">
+          <edgelabel>_entityName</edgelabel>
+        </childnode>
+      </node>
+      <node id="679">
+        <label>WireInfo</label>
+        <link refid="struct_wire_info"/>
+      </node>
+      <node id="688">
+        <label>Pre::AttributeItem</label>
+        <link refid="class_pre_1_1_attribute_item"/>
+        <childnode refid="666" relation="usage">
+          <edgelabel>_pPart</edgelabel>
+        </childnode>
+        <childnode refid="670" relation="usage">
+          <edgelabel>_featureName</edgelabel>
+          <edgelabel>_name</edgelabel>
+          <edgelabel>_attributeName</edgelabel>
+        </childnode>
+      </node>
+      <node id="686">
+        <label>Pre::SketchFeature</label>
+        <link refid="struct_pre_1_1_sketch_feature"/>
+        <childnode refid="670" relation="usage">
+          <edgelabel>_featureName</edgelabel>
+          <edgelabel>_sketchName</edgelabel>
+        </childnode>
+      </node>
+      <node id="683">
+        <label>std::basic_ios&lt; Char &gt;</label>
+        <childnode refid="684" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="666">
+        <label>Pre::Part</label>
+        <link refid="class_pre_1_1_part"/>
+        <childnode refid="667" relation="usage">
+          <edgelabel>_referenceEntityList</edgelabel>
+        </childnode>
+        <childnode refid="680" relation="usage">
+          <edgelabel>fin</edgelabel>
+        </childnode>
+        <childnode refid="685" relation="usage">
+          <edgelabel>sketchNameTable</edgelabel>
+        </childnode>
+        <childnode refid="670" relation="usage">
+          <edgelabel>_fileName</edgelabel>
+          <edgelabel>_filePath</edgelabel>
+        </childnode>
+        <childnode refid="687" relation="usage">
+          <edgelabel>_attributeItemList</edgelabel>
+        </childnode>
+        <childnode refid="689" relation="usage">
+          <edgelabel>_featureList</edgelabel>
+        </childnode>
+      </node>
+      <node id="684">
+        <label>std::ios_base</label>
+      </node>
+      <node id="680">
+        <label>std::ifstream</label>
+        <childnode refid="681" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="687">
+        <label>std::vector&lt; Pre::AttributeItem * &gt;</label>
+        <childnode refid="688" relation="usage">
+          <edgelabel>elements</edgelabel>
+        </childnode>
+      </node>
+      <node id="672">
+        <label>std::vector&lt; FaceInfo &gt;</label>
+        <childnode refid="673" relation="usage">
+          <edgelabel>elements</edgelabel>
+        </childnode>
+      </node>
+      <node id="670">
+        <label>std::string</label>
+        <childnode refid="671" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="674">
+        <label>Pre::FSketch</label>
+        <link refid="class_pre_1_1_f_sketch"/>
+        <childnode refid="665" relation="public-inheritance">
+        </childnode>
+        <childnode refid="675" relation="usage">
+          <edgelabel>_sketchItemList</edgelabel>
+        </childnode>
+        <childnode refid="668" relation="usage">
+          <edgelabel>_pReferenceEntity</edgelabel>
+        </childnode>
+        <childnode refid="670" relation="usage">
+          <edgelabel>_axisName</edgelabel>
+          <edgelabel>_factoryName</edgelabel>
+        </childnode>
+        <childnode refid="677" relation="usage">
+          <edgelabel>reportNameTable</edgelabel>
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/PreManager/ref/FeatureSOLIDCreateHole.h" line="7" column="1" bodyfile="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/PreManager/ref/FeatureSOLIDCreateHole.h" bodystart="6" bodyend="54"/>
+    <listofallmembers>
+      <member refid="class_pre_1_1_feature_s_o_l_i_d_create_hole_1a010ff3d68c1b9eeea860ed35f042b806" prot="private" virt="non-virtual"><scope>Pre::FeatureSOLIDCreateHole</scope><name>_center</name></member>
+      <member refid="class_pre_1_1_feature_1ae8c43a10be919286c9450125b1a0afb9" prot="public" virt="non-virtual"><scope>Pre::FeatureSOLIDCreateHole</scope><name>_name</name></member>
+      <member refid="class_pre_1_1_feature_1a64772d4f47afe0052d5a94f773de5211" prot="public" virt="non-virtual"><scope>Pre::FeatureSOLIDCreateHole</scope><name>_pPart</name></member>
+      <member refid="class_pre_1_1_feature_s_o_l_i_d_create_hole_1ac577fb5a470504a44df35cba47becbf8" prot="private" virt="non-virtual"><scope>Pre::FeatureSOLIDCreateHole</scope><name>_referenceEntityList</name></member>
+      <member refid="class_pre_1_1_feature_s_o_l_i_d_create_hole_1acac2741d688c25a308bfac2e325c290b" prot="private" virt="non-virtual"><scope>Pre::FeatureSOLIDCreateHole</scope><name>_selected_face</name></member>
+      <member refid="class_pre_1_1_feature_1a341b5b05bd448a814e86099e70f1a747" prot="public" virt="non-virtual"><scope>Pre::FeatureSOLIDCreateHole</scope><name>_type</name></member>
+      <member refid="class_pre_1_1_feature_s_o_l_i_d_create_hole_1ac161f7606bc2126887f31cfdc0295533" prot="private" virt="non-virtual"><scope>Pre::FeatureSOLIDCreateHole</scope><name>bottom_angle</name></member>
+      <member refid="class_pre_1_1_feature_s_o_l_i_d_create_hole_1a69239b445f11a71acb53efe651e29012" prot="private" virt="non-virtual"><scope>Pre::FeatureSOLIDCreateHole</scope><name>bottom_limit_dim</name></member>
+      <member refid="class_pre_1_1_feature_s_o_l_i_d_create_hole_1a36362ad86e1933ef86f0fb91f0270559" prot="private" virt="non-virtual"><scope>Pre::FeatureSOLIDCreateHole</scope><name>center</name></member>
+      <member refid="class_pre_1_1_feature_s_o_l_i_d_create_hole_1a541fed4070544bde17c29d89851242a6" prot="public" virt="virtual"><scope>Pre::FeatureSOLIDCreateHole</scope><name>CheckAttribute</name></member>
+      <member refid="class_pre_1_1_feature_s_o_l_i_d_create_hole_1a838f344f7a5bf2a19e26168893fcf887" prot="private" virt="non-virtual"><scope>Pre::FeatureSOLIDCreateHole</scope><name>countersink_angle</name></member>
+      <member refid="class_pre_1_1_feature_s_o_l_i_d_create_hole_1a32ffe3d04ccddd6041794ad6c240bfd2" prot="private" virt="non-virtual"><scope>Pre::FeatureSOLIDCreateHole</scope><name>countersink_radius</name></member>
+      <member refid="class_pre_1_1_feature_s_o_l_i_d_create_hole_1a6e2d776769087bad7e04e79d97c561e4" prot="private" virt="non-virtual"><scope>Pre::FeatureSOLIDCreateHole</scope><name>depth</name></member>
+      <member refid="class_pre_1_1_feature_s_o_l_i_d_create_hole_1a804b72aff9700b26e433877f65dca2e1" prot="private" virt="non-virtual"><scope>Pre::FeatureSOLIDCreateHole</scope><name>depth_default</name></member>
+      <member refid="class_pre_1_1_feature_s_o_l_i_d_create_hole_1ae0220490cd640922eaf8c047ef2f1b79" prot="private" virt="non-virtual"><scope>Pre::FeatureSOLIDCreateHole</scope><name>end_condition</name></member>
+      <member refid="class_pre_1_1_feature_1a23c64c5988ab1337beceaa7c1c5c0d77" prot="public" virt="non-virtual"><scope>Pre::FeatureSOLIDCreateHole</scope><name>Feature</name></member>
+      <member refid="class_pre_1_1_feature_s_o_l_i_d_create_hole_1ac976809b346f899800e54c3cd943c3fc" prot="public" virt="non-virtual"><scope>Pre::FeatureSOLIDCreateHole</scope><name>FeatureSOLIDCreateHole</name></member>
+      <member refid="class_pre_1_1_feature_s_o_l_i_d_create_hole_1a8e9ec2033a7afdf2c924e740d921efb0" prot="private" virt="non-virtual"><scope>Pre::FeatureSOLIDCreateHole</scope><name>flip</name></member>
+      <member refid="class_pre_1_1_feature_1aeec702655239d43b9fb7af691bc4f85c" prot="public" virt="non-virtual"><scope>Pre::FeatureSOLIDCreateHole</scope><name>GetFeatureName</name></member>
+      <member refid="class_pre_1_1_feature_1aef6c7020e3bf305f38a88195b794b110" prot="public" virt="non-virtual"><scope>Pre::FeatureSOLIDCreateHole</scope><name>GetFeatureType</name></member>
+      <member refid="class_pre_1_1_feature_s_o_l_i_d_create_hole_1a7975ebdc0d729820eb09a574e17646d9" prot="public" virt="virtual"><scope>Pre::FeatureSOLIDCreateHole</scope><name>GetInfo</name></member>
+      <member refid="class_pre_1_1_feature_1a22de04ab5c0ef7206d32c780ccfafee7" prot="public" virt="non-virtual"><scope>Pre::FeatureSOLIDCreateHole</scope><name>GetPart</name></member>
+      <member refid="class_pre_1_1_feature_s_o_l_i_d_create_hole_1ad4813982f7ae92c9bde1579ae71e1e20" prot="private" virt="non-virtual"><scope>Pre::FeatureSOLIDCreateHole</scope><name>head_angle</name></member>
+      <member refid="class_pre_1_1_feature_s_o_l_i_d_create_hole_1a0375d7eb19a0a2dedad884437704dc5b" prot="private" virt="non-virtual"><scope>Pre::FeatureSOLIDCreateHole</scope><name>head_depth</name></member>
+      <member refid="class_pre_1_1_feature_s_o_l_i_d_create_hole_1a285407028bf61ffeee7e008c411aad7f" prot="private" virt="non-virtual"><scope>Pre::FeatureSOLIDCreateHole</scope><name>head_diameter</name></member>
+      <member refid="class_pre_1_1_feature_s_o_l_i_d_create_hole_1a3483102be8dabd27e14c0caf94f971b7" prot="private" virt="non-virtual"><scope>Pre::FeatureSOLIDCreateHole</scope><name>hole_type</name></member>
+      <member refid="class_pre_1_1_feature_s_o_l_i_d_create_hole_1ae4b2a20ce9fe0d17d14287e518b85f16" prot="private" virt="non-virtual"><scope>Pre::FeatureSOLIDCreateHole</scope><name>lower_hole_depth</name></member>
+      <member refid="class_pre_1_1_feature_s_o_l_i_d_create_hole_1a08ef0260c29f4ea6780ed19221f13ace" prot="private" virt="non-virtual"><scope>Pre::FeatureSOLIDCreateHole</scope><name>lower_hole_diameter</name></member>
+      <member refid="class_pre_1_1_feature_s_o_l_i_d_create_hole_1ab89da794ba59346ad7987a3791a95a87" prot="public" virt="virtual"><scope>Pre::FeatureSOLIDCreateHole</scope><name>Modify</name></member>
+      <member refid="class_pre_1_1_feature_s_o_l_i_d_create_hole_1ab1dcdb8fba8745ef3da6b523f8b718ab" prot="public" virt="non-virtual"><scope>Pre::FeatureSOLIDCreateHole</scope><name>ModifyCounterbore</name></member>
+      <member refid="class_pre_1_1_feature_s_o_l_i_d_create_hole_1a8eaff559f6919c2522dbe4f85dbf5c1f" prot="public" virt="non-virtual"><scope>Pre::FeatureSOLIDCreateHole</scope><name>ModifyCountersunk</name></member>
+      <member refid="class_pre_1_1_feature_s_o_l_i_d_create_hole_1a0004c10806c548772ccea531e753304e" prot="private" virt="non-virtual"><scope>Pre::FeatureSOLIDCreateHole</scope><name>radius</name></member>
+      <member refid="class_pre_1_1_feature_1a6a061740e7d2d749b1efe097ae87928d" prot="public" virt="non-virtual"><scope>Pre::FeatureSOLIDCreateHole</scope><name>SetFeatureName</name></member>
+      <member refid="class_pre_1_1_feature_1a07534d290ca5363cd628efd011c070be" prot="public" virt="non-virtual"><scope>Pre::FeatureSOLIDCreateHole</scope><name>SetFeatureType</name></member>
+      <member refid="class_pre_1_1_feature_s_o_l_i_d_create_hole_1aaa01847d6147ea534bcf1d1425a6a0fa" prot="public" virt="virtual"><scope>Pre::FeatureSOLIDCreateHole</scope><name>ToTransCAD</name></member>
+      <member refid="class_pre_1_1_feature_s_o_l_i_d_create_hole_1a128f65576c156757f502950b140e41fe" prot="private" virt="non-virtual"><scope>Pre::FeatureSOLIDCreateHole</scope><name>upper_hole_depth</name></member>
+      <member refid="class_pre_1_1_feature_s_o_l_i_d_create_hole_1a7673582345b91e9b2a45b2e1a9ff503a" prot="private" virt="non-virtual"><scope>Pre::FeatureSOLIDCreateHole</scope><name>upper_hole_diameter</name></member>
+      <member refid="class_pre_1_1_feature_1ac9e4bbb034ce47ce1ddd02adb52aee98" prot="public" virt="virtual"><scope>Pre::FeatureSOLIDCreateHole</scope><name>~Feature</name></member>
+      <member refid="class_pre_1_1_feature_s_o_l_i_d_create_hole_1a8e74c74503db6cc99a93e2fb9fe4b9a6" prot="public" virt="virtual"><scope>Pre::FeatureSOLIDCreateHole</scope><name>~FeatureSOLIDCreateHole</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

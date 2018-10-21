@@ -1,0 +1,600 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="_p_n___t_y_p_e_8h" kind="file">
+    <compoundname>PN_TYPE.h</compoundname>
+    <includes local="no">iostream</includes>
+    <includes local="no">string</includes>
+    <includes local="no">vector</includes>
+    <includes local="no">algorithm</includes>
+    <includes local="no">math.h</includes>
+    <includes local="no">string.h</includes>
+    <includedby refid="_c_a_t_i_a_reference_manager_8h" local="yes">PostManager/ref/CATIAReferenceManager.h</includedby>
+    <includedby refid="_m_p___utility_8h" local="yes">PostManager/ref/MP_Utility.h</includedby>
+    <incdepgraph>
+      <node id="2341">
+        <label>string</label>
+      </node>
+      <node id="2345">
+        <label>string.h</label>
+      </node>
+      <node id="2342">
+        <label>vector</label>
+      </node>
+      <node id="2344">
+        <label>math.h</label>
+      </node>
+      <node id="2340">
+        <label>iostream</label>
+      </node>
+      <node id="2343">
+        <label>algorithm</label>
+      </node>
+      <node id="2339">
+        <label>PostManager/ref/PN_TYPE.h</label>
+        <link refid="PN_TYPE.h"/>
+        <childnode refid="2340" relation="include">
+        </childnode>
+        <childnode refid="2341" relation="include">
+        </childnode>
+        <childnode refid="2342" relation="include">
+        </childnode>
+        <childnode refid="2343" relation="include">
+        </childnode>
+        <childnode refid="2344" relation="include">
+        </childnode>
+        <childnode refid="2345" relation="include">
+        </childnode>
+      </node>
+    </incdepgraph>
+    <invincdepgraph>
+      <node id="2405">
+        <label>PostManager/ref/CATIAReferenceManager.cpp</label>
+        <link refid="_c_a_t_i_a_reference_manager_8cpp"/>
+      </node>
+      <node id="2360">
+        <label>PostManager/ref/FeatureSOLIDCreateFacesLoft.cpp</label>
+        <link refid="_feature_s_o_l_i_d_create_faces_loft_8cpp"/>
+      </node>
+      <node id="2404">
+        <label>PostManager/ref/FeatureSOLIDCreateSectionsLoft.h</label>
+        <link refid="_feature_s_o_l_i_d_create_sections_loft_8h"/>
+        <childnode refid="2365" relation="include">
+        </childnode>
+        <childnode refid="2379" relation="include">
+        </childnode>
+      </node>
+      <node id="2379">
+        <label>PostManager/ref/Part.cpp</label>
+        <link refid="_post_manager_2ref_2_part_8cpp"/>
+      </node>
+      <node id="2375">
+        <label>PostManager/ref/SKETCHCreate2DCircularArc.cpp</label>
+        <link refid="_s_k_e_t_c_h_create2_d_circular_arc_8cpp"/>
+      </node>
+      <node id="2350">
+        <label>CPPWITHCSHARP/ReferenceClass.cpp</label>
+        <link refid="_reference_class_8cpp"/>
+      </node>
+      <node id="2397">
+        <label>PostManager/ref/FeatureSOLIDCreatePatternCircular.cpp</label>
+        <link refid="_post_manager_2ref_2_feature_s_o_l_i_d_create_pattern_circular_8cpp"/>
+      </node>
+      <node id="2357">
+        <label>PostManager/ref/FSketch.h</label>
+        <link refid="_post_manager_2ref_2_f_sketch_8h"/>
+        <childnode refid="2355" relation="include">
+        </childnode>
+        <childnode refid="2358" relation="include">
+        </childnode>
+        <childnode refid="2359" relation="include">
+        </childnode>
+        <childnode refid="2360" relation="include">
+        </childnode>
+        <childnode refid="2361" relation="include">
+        </childnode>
+        <childnode refid="2362" relation="include">
+        </childnode>
+        <childnode refid="2363" relation="include">
+        </childnode>
+        <childnode refid="2364" relation="include">
+        </childnode>
+        <childnode refid="2365" relation="include">
+        </childnode>
+        <childnode refid="2366" relation="include">
+        </childnode>
+        <childnode refid="2367" relation="include">
+        </childnode>
+        <childnode refid="2379" relation="include">
+        </childnode>
+      </node>
+      <node id="2394">
+        <label>PostManager/ref/FeatureSOLIDCreateHoleCountersunk.h</label>
+        <link refid="_feature_s_o_l_i_d_create_hole_countersunk_8h"/>
+        <childnode refid="2395" relation="include">
+        </childnode>
+        <childnode refid="2379" relation="include">
+        </childnode>
+      </node>
+      <node id="2356">
+        <label>PostManager/ref/Feature.h</label>
+        <link refid="_post_manager_2ref_2_feature_8h"/>
+        <childnode refid="2357" relation="include">
+        </childnode>
+        <childnode refid="2380" relation="include">
+        </childnode>
+        <childnode refid="2382" relation="include">
+        </childnode>
+        <childnode refid="2384" relation="include">
+        </childnode>
+        <childnode refid="2385" relation="include">
+        </childnode>
+        <childnode refid="2387" relation="include">
+        </childnode>
+        <childnode refid="2388" relation="include">
+        </childnode>
+        <childnode refid="2389" relation="include">
+        </childnode>
+        <childnode refid="2390" relation="include">
+        </childnode>
+        <childnode refid="2392" relation="include">
+        </childnode>
+        <childnode refid="2394" relation="include">
+        </childnode>
+        <childnode refid="2396" relation="include">
+        </childnode>
+        <childnode refid="2398" relation="include">
+        </childnode>
+        <childnode refid="2400" relation="include">
+        </childnode>
+        <childnode refid="2401" relation="include">
+        </childnode>
+        <childnode refid="2402" relation="include">
+        </childnode>
+        <childnode refid="2403" relation="include">
+        </childnode>
+        <childnode refid="2404" relation="include">
+        </childnode>
+        <childnode refid="2379" relation="include">
+        </childnode>
+      </node>
+      <node id="2377">
+        <label>PostManager/ref/SKETCHCreate2DCenterline.cpp</label>
+        <link refid="_s_k_e_t_c_h_create2_d_centerline_8cpp"/>
+      </node>
+      <node id="2373">
+        <label>PostManager/ref/SKETCHCreate2DPoint.cpp</label>
+        <link refid="_s_k_e_t_c_h_create2_d_point_8cpp"/>
+      </node>
+      <node id="2359">
+        <label>PostManager/ref/FeatureSOLIDCreateCutRevolve.cpp</label>
+        <link refid="_feature_s_o_l_i_d_create_cut_revolve_8cpp"/>
+      </node>
+      <node id="2354">
+        <label>CPPWITHCSHARP/ReferenceClass_Pre.cpp</label>
+        <link refid="_reference_class___pre_8cpp"/>
+      </node>
+      <node id="2407">
+        <label>PostManager/ref/MP_Utility.cpp</label>
+        <link refid="_m_p___utility_8cpp"/>
+      </node>
+      <node id="2368">
+        <label>PostManager/ref/SKETCHCreate2DCircleCenterPoint.h</label>
+        <link refid="_s_k_e_t_c_h_create2_d_circle_center_point_8h"/>
+        <childnode refid="2366" relation="include">
+        </childnode>
+        <childnode refid="2369" relation="include">
+        </childnode>
+      </node>
+      <node id="2399">
+        <label>PostManager/ref/FeatureSOLIDCreatePatternRectangular.cpp</label>
+        <link refid="_post_manager_2ref_2_feature_s_o_l_i_d_create_pattern_rectangular_8cpp"/>
+      </node>
+      <node id="2370">
+        <label>PostManager/ref/SKETCHCreate2DLine2Points.h</label>
+        <link refid="_s_k_e_t_c_h_create2_d_line2_points_8h"/>
+        <childnode refid="2366" relation="include">
+        </childnode>
+        <childnode refid="2371" relation="include">
+        </childnode>
+      </node>
+      <node id="2382">
+        <label>PostManager/ref/FDatumPlaneOffset.h</label>
+        <link refid="_post_manager_2ref_2_f_datum_plane_offset_8h"/>
+        <childnode refid="2383" relation="include">
+        </childnode>
+        <childnode refid="2366" relation="include">
+        </childnode>
+        <childnode refid="2379" relation="include">
+        </childnode>
+      </node>
+      <node id="2349">
+        <label>CPPWITHCSHARP/ReferenceClass.h</label>
+        <link refid="_reference_class_8h"/>
+        <childnode refid="2350" relation="include">
+        </childnode>
+        <childnode refid="2351" relation="include">
+        </childnode>
+        <childnode refid="2353" relation="include">
+        </childnode>
+      </node>
+      <node id="2348">
+        <label>PostManager/ref/Part.h</label>
+        <link refid="_post_manager_2ref_2_part_8h"/>
+        <childnode refid="2349" relation="include">
+        </childnode>
+        <childnode refid="2355" relation="include">
+        </childnode>
+        <childnode refid="2356" relation="include">
+        </childnode>
+        <childnode refid="2379" relation="include">
+        </childnode>
+      </node>
+      <node id="2353">
+        <label>CPPWITHCSHARP/ReferenceClass_Pre.h</label>
+        <link refid="_reference_class___pre_8h"/>
+        <childnode refid="2354" relation="include">
+        </childnode>
+      </node>
+      <node id="2406">
+        <label>PostManager/ref/MP_Utility.h</label>
+        <link refid="_m_p___utility_8h"/>
+        <childnode refid="2347" relation="include">
+        </childnode>
+        <childnode refid="2407" relation="include">
+        </childnode>
+      </node>
+      <node id="2380">
+        <label>PostManager/ref/FDatumPlane.h</label>
+        <link refid="_f_datum_plane_8h"/>
+        <childnode refid="2381" relation="include">
+        </childnode>
+        <childnode refid="2379" relation="include">
+        </childnode>
+      </node>
+      <node id="2358">
+        <label>PostManager/ref/FeatureSOLIDCreateCutExtrude.cpp</label>
+        <link refid="_feature_s_o_l_i_d_create_cut_extrude_8cpp"/>
+      </node>
+      <node id="2371">
+        <label>PostManager/ref/SKETCHCreate2DLine2Points.cpp</label>
+        <link refid="_s_k_e_t_c_h_create2_d_line2_points_8cpp"/>
+      </node>
+      <node id="2376">
+        <label>PostManager/ref/SKETCHCreate2DCenterline.h</label>
+        <link refid="_s_k_e_t_c_h_create2_d_centerline_8h"/>
+        <childnode refid="2366" relation="include">
+        </childnode>
+        <childnode refid="2377" relation="include">
+        </childnode>
+      </node>
+      <node id="2383">
+        <label>PostManager/ref/FDatumPlaneOffset.cpp</label>
+        <link refid="_post_manager_2ref_2_f_datum_plane_offset_8cpp"/>
+      </node>
+      <node id="2403">
+        <label>PostManager/ref/FeatureSOLIDCreateProtrusionSweep.h</label>
+        <link refid="_feature_s_o_l_i_d_create_protrusion_sweep_8h"/>
+        <childnode refid="2364" relation="include">
+        </childnode>
+        <childnode refid="2379" relation="include">
+        </childnode>
+      </node>
+      <node id="2398">
+        <label>PostManager/ref/FeatureSOLIDCreatePatternRectangular.h</label>
+        <link refid="_post_manager_2ref_2_feature_s_o_l_i_d_create_pattern_rectangular_8h"/>
+        <childnode refid="2399" relation="include">
+        </childnode>
+        <childnode refid="2379" relation="include">
+        </childnode>
+      </node>
+      <node id="2378">
+        <label>PostManager/ref/SKETCHItem.cpp</label>
+        <link refid="_s_k_e_t_c_h_item_8cpp"/>
+      </node>
+      <node id="2351">
+        <label>CPPWITHCSHARP/ReferenceClass_Post.h</label>
+        <link refid="_reference_class___post_8h"/>
+        <childnode refid="2352" relation="include">
+        </childnode>
+      </node>
+      <node id="2388">
+        <label>PostManager/ref/FeatureSOLIDCreateCutRevolve.h</label>
+        <link refid="_feature_s_o_l_i_d_create_cut_revolve_8h"/>
+        <childnode refid="2359" relation="include">
+        </childnode>
+        <childnode refid="2379" relation="include">
+        </childnode>
+      </node>
+      <node id="2400">
+        <label>PostManager/ref/FeatureSOLIDCreateProtrusionExtrude.h</label>
+        <link refid="_feature_s_o_l_i_d_create_protrusion_extrude_8h"/>
+        <childnode refid="2361" relation="include">
+        </childnode>
+        <childnode refid="2379" relation="include">
+        </childnode>
+      </node>
+      <node id="2402">
+        <label>PostManager/ref/FeatureSOLIDCreateProtrusionRevolve.h</label>
+        <link refid="_feature_s_o_l_i_d_create_protrusion_revolve_8h"/>
+        <childnode refid="2363" relation="include">
+        </childnode>
+        <childnode refid="2379" relation="include">
+        </childnode>
+      </node>
+      <node id="2393">
+        <label>PostManager/ref/FeatureSOLIDCreateHoleCounterbored.cpp</label>
+        <link refid="_feature_s_o_l_i_d_create_hole_counterbored_8cpp"/>
+      </node>
+      <node id="2401">
+        <label>PostManager/ref/FeatureSOLIDCreateProtrusionLoft.h</label>
+        <link refid="_feature_s_o_l_i_d_create_protrusion_loft_8h"/>
+        <childnode refid="2362" relation="include">
+        </childnode>
+      </node>
+      <node id="2367">
+        <label>PostManager/ref/SKETCHItem.h</label>
+        <link refid="_s_k_e_t_c_h_item_8h"/>
+        <childnode refid="2366" relation="include">
+        </childnode>
+        <childnode refid="2368" relation="include">
+        </childnode>
+        <childnode refid="2370" relation="include">
+        </childnode>
+        <childnode refid="2372" relation="include">
+        </childnode>
+        <childnode refid="2374" relation="include">
+        </childnode>
+        <childnode refid="2376" relation="include">
+        </childnode>
+        <childnode refid="2378" relation="include">
+        </childnode>
+      </node>
+      <node id="2361">
+        <label>PostManager/ref/FeatureSOLIDCreateProtrusionExtrude.cpp</label>
+        <link refid="_feature_s_o_l_i_d_create_protrusion_extrude_8cpp"/>
+      </node>
+      <node id="2395">
+        <label>PostManager/ref/FeatureSOLIDCreateHoleCountersunk.cpp</label>
+        <link refid="_feature_s_o_l_i_d_create_hole_countersunk_8cpp"/>
+      </node>
+      <node id="2390">
+        <label>PostManager/ref/FeatureSOLIDCreateFilletConstant.h</label>
+        <link refid="_post_manager_2ref_2_feature_s_o_l_i_d_create_fillet_constant_8h"/>
+        <childnode refid="2391" relation="include">
+        </childnode>
+        <childnode refid="2379" relation="include">
+        </childnode>
+      </node>
+      <node id="2387">
+        <label>PostManager/ref/FeatureSOLIDCreateCutExtrude.h</label>
+        <link refid="_feature_s_o_l_i_d_create_cut_extrude_8h"/>
+        <childnode refid="2358" relation="include">
+        </childnode>
+        <childnode refid="2379" relation="include">
+        </childnode>
+      </node>
+      <node id="2372">
+        <label>PostManager/ref/SKETCHCreate2DPoint.h</label>
+        <link refid="_s_k_e_t_c_h_create2_d_point_8h"/>
+        <childnode refid="2366" relation="include">
+        </childnode>
+        <childnode refid="2373" relation="include">
+        </childnode>
+      </node>
+      <node id="2381">
+        <label>PostManager/ref/FDatumPlane.cpp</label>
+        <link refid="_f_datum_plane_8cpp"/>
+      </node>
+      <node id="2369">
+        <label>PostManager/ref/SKETCHCreate2DCircleCenterPoint.cpp</label>
+        <link refid="_s_k_e_t_c_h_create2_d_circle_center_point_8cpp"/>
+      </node>
+      <node id="2352">
+        <label>CPPWITHCSHARP/ReferenceClass_Post.cpp</label>
+        <link refid="_reference_class___post_8cpp"/>
+      </node>
+      <node id="2347">
+        <label>PostManager/ref/CATIAReferenceManager.h</label>
+        <link refid="_c_a_t_i_a_reference_manager_8h"/>
+        <childnode refid="2348" relation="include">
+        </childnode>
+        <childnode refid="2355" relation="include">
+        </childnode>
+        <childnode refid="2405" relation="include">
+        </childnode>
+      </node>
+      <node id="2385">
+        <label>PostManager/ref/FeatureSOLIDCreateChamfer.h</label>
+        <link refid="_post_manager_2ref_2_feature_s_o_l_i_d_create_chamfer_8h"/>
+        <childnode refid="2386" relation="include">
+        </childnode>
+        <childnode refid="2379" relation="include">
+        </childnode>
+      </node>
+      <node id="2362">
+        <label>PostManager/ref/FeatureSOLIDCreateProtrusionLoft.cpp</label>
+        <link refid="_feature_s_o_l_i_d_create_protrusion_loft_8cpp"/>
+      </node>
+      <node id="2374">
+        <label>PostManager/ref/SKETCHCreate2DCircularArc.h</label>
+        <link refid="_s_k_e_t_c_h_create2_d_circular_arc_8h"/>
+        <childnode refid="2366" relation="include">
+        </childnode>
+        <childnode refid="2375" relation="include">
+        </childnode>
+      </node>
+      <node id="2392">
+        <label>PostManager/ref/FeatureSOLIDCreateHoleCounterbored.h</label>
+        <link refid="_feature_s_o_l_i_d_create_hole_counterbored_8h"/>
+        <childnode refid="2393" relation="include">
+        </childnode>
+        <childnode refid="2379" relation="include">
+        </childnode>
+      </node>
+      <node id="2365">
+        <label>PostManager/ref/FeatureSOLIDCreateSectionsLoft.cpp</label>
+        <link refid="_feature_s_o_l_i_d_create_sections_loft_8cpp"/>
+      </node>
+      <node id="2396">
+        <label>PostManager/ref/FeatureSOLIDCreatePatternCircular.h</label>
+        <link refid="_post_manager_2ref_2_feature_s_o_l_i_d_create_pattern_circular_8h"/>
+        <childnode refid="2397" relation="include">
+        </childnode>
+        <childnode refid="2379" relation="include">
+        </childnode>
+      </node>
+      <node id="2364">
+        <label>PostManager/ref/FeatureSOLIDCreateProtrusionSweep.cpp</label>
+        <link refid="_feature_s_o_l_i_d_create_protrusion_sweep_8cpp"/>
+      </node>
+      <node id="2366">
+        <label>PostManager/ref/FSketch.cpp</label>
+        <link refid="_post_manager_2ref_2_f_sketch_8cpp"/>
+      </node>
+      <node id="2391">
+        <label>PostManager/ref/FeatureSOLIDCreateFilletConstant.cpp</label>
+        <link refid="_post_manager_2ref_2_feature_s_o_l_i_d_create_fillet_constant_8cpp"/>
+      </node>
+      <node id="2355">
+        <label>PostManager/ref/CATIApost_DLL.cpp</label>
+        <link refid="_c_a_t_i_apost___d_l_l_8cpp"/>
+      </node>
+      <node id="2346">
+        <label>PostManager/ref/PN_TYPE.h</label>
+        <link refid="PN_TYPE.h"/>
+        <childnode refid="2347" relation="include">
+        </childnode>
+        <childnode refid="2406" relation="include">
+        </childnode>
+      </node>
+      <node id="2384">
+        <label>PostManager/ref/Feature.cpp</label>
+        <link refid="_post_manager_2ref_2_feature_8cpp"/>
+      </node>
+      <node id="2363">
+        <label>PostManager/ref/FeatureSOLIDCreateProtrusionRevolve.cpp</label>
+        <link refid="_feature_s_o_l_i_d_create_protrusion_revolve_8cpp"/>
+      </node>
+      <node id="2386">
+        <label>PostManager/ref/FeatureSOLIDCreateChamfer.cpp</label>
+        <link refid="_post_manager_2ref_2_feature_s_o_l_i_d_create_chamfer_8cpp"/>
+      </node>
+      <node id="2389">
+        <label>PostManager/ref/FeatureSOLIDCreateFacesLoft.h</label>
+        <link refid="_feature_s_o_l_i_d_create_faces_loft_8h"/>
+        <childnode refid="2360" relation="include">
+        </childnode>
+        <childnode refid="2379" relation="include">
+        </childnode>
+      </node>
+    </invincdepgraph>
+    <innerclass refid="struct_post_1_1picking_point" prot="public">Post::pickingPoint</innerclass>
+    <innerclass refid="struct_post_1_1basic__naming" prot="public">Post::basic_naming</innerclass>
+    <innerclass refid="struct_post_1_1_o_s_i" prot="public">Post::OSI</innerclass>
+    <innerclass refid="struct_post_1_1secondary__name" prot="public">Post::secondary_name</innerclass>
+    <innerclass refid="struct_post_1_1_e_n___f" prot="public">Post::EN_F</innerclass>
+    <innerclass refid="struct_post_1_1_e_n___e" prot="public">Post::EN_E</innerclass>
+    <innerclass refid="struct_post_1_1_e_n___v" prot="public">Post::EN_V</innerclass>
+    <innernamespace refid="namespace_post">Post</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="preprocessor">#ifndef<sp/>__PN__TYPE__HEADER__INCLUDED__</highlight></codeline>
+<codeline lineno="2"><highlight class="preprocessor"></highlight><highlight class="preprocessor">#define<sp/>__PN__TYPE__HEADER__INCLUDED__</highlight></codeline>
+<codeline lineno="3"><highlight class="preprocessor"></highlight><highlight class="preprocessor">#include<sp/>&lt;iostream&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;string&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;vector&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;algorithm&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;math.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;string.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight></codeline>
+<codeline lineno="10"><highlight class="normal"></highlight><highlight class="keyword">using<sp/>namespace<sp/></highlight><highlight class="normal">std;</highlight></codeline>
+<codeline lineno="11"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal">Post<sp/>{</highlight></codeline>
+<codeline lineno="12" refid="struct_post_1_1picking_point" refkind="compound"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="struct_post_1_1picking_point" kindref="compound">pickingPoint</ref></highlight></codeline>
+<codeline lineno="13"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="14" refid="struct_post_1_1picking_point_1a5c497de65ced1592735b73b3f3f23de7" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>_x;<sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>_y;<sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/><ref refid="struct_post_1_1picking_point_1a5c497de65ced1592735b73b3f3f23de7" kindref="member">_z</ref>;</highlight></codeline>
+<codeline lineno="15"><highlight class="normal"><sp/><sp/><sp/><sp/>};</highlight></codeline>
+<codeline lineno="16"><highlight class="normal"></highlight></codeline>
+<codeline lineno="17" refid="namespace_post_1adfc3d056d67bff027d2d01e657814e4f" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">enum</highlight><highlight class="normal"><sp/><ref refid="namespace_post_1adfc3d056d67bff027d2d01e657814e4f" kindref="member">selection_type</ref><sp/>{</highlight></codeline>
+<codeline lineno="18" refid="namespace_post_1adfc3d056d67bff027d2d01e657814e4fa1aa1d9742dfcc6eeffdc883e711ff61a" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="namespace_post_1adfc3d056d67bff027d2d01e657814e4fa1aa1d9742dfcc6eeffdc883e711ff61a" kindref="member">etc_selection_type</ref>,</highlight></codeline>
+<codeline lineno="19" refid="namespace_post_1adfc3d056d67bff027d2d01e657814e4fab2cfab36067761ebfc50c8cb47847eef" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="namespace_post_1adfc3d056d67bff027d2d01e657814e4fab2cfab36067761ebfc50c8cb47847eef" kindref="member">MP_VERTEX</ref>,</highlight></codeline>
+<codeline lineno="20" refid="namespace_post_1adfc3d056d67bff027d2d01e657814e4fa402d85ca114c254d0492904d422d3122" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="namespace_post_1adfc3d056d67bff027d2d01e657814e4fa402d85ca114c254d0492904d422d3122" kindref="member">MP_EDGE</ref>,</highlight></codeline>
+<codeline lineno="21" refid="namespace_post_1adfc3d056d67bff027d2d01e657814e4fa309e6cb114b967270ac5d4e6084f48be" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="namespace_post_1adfc3d056d67bff027d2d01e657814e4fa309e6cb114b967270ac5d4e6084f48be" kindref="member">MP_FACE</ref>,</highlight></codeline>
+<codeline lineno="22" refid="namespace_post_1adfc3d056d67bff027d2d01e657814e4fa535c44bbe17f47ca54d90b720279847b" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="namespace_post_1adfc3d056d67bff027d2d01e657814e4fa535c44bbe17f47ca54d90b720279847b" kindref="member">MP_FEATURE</ref>,</highlight></codeline>
+<codeline lineno="23" refid="namespace_post_1adfc3d056d67bff027d2d01e657814e4fa5061c0ab9cd4813c43c79c558fa439ad" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="namespace_post_1adfc3d056d67bff027d2d01e657814e4fa5061c0ab9cd4813c43c79c558fa439ad" kindref="member">MP_SKETCHSEGMENT</ref>,</highlight></codeline>
+<codeline lineno="24" refid="namespace_post_1adfc3d056d67bff027d2d01e657814e4fa9c1943a1089e992aeedbd05d6378bc73" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="namespace_post_1adfc3d056d67bff027d2d01e657814e4fa9c1943a1089e992aeedbd05d6378bc73" kindref="member">MP_SURFACE</ref>,</highlight></codeline>
+<codeline lineno="25" refid="namespace_post_1adfc3d056d67bff027d2d01e657814e4faa03ce48f009116aa17cefc2019a07dad" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="namespace_post_1adfc3d056d67bff027d2d01e657814e4faa03ce48f009116aa17cefc2019a07dad" kindref="member">MP_PLANE</ref>,</highlight></codeline>
+<codeline lineno="26" refid="namespace_post_1adfc3d056d67bff027d2d01e657814e4fada159e463fc94d9832446ef635279943" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="namespace_post_1adfc3d056d67bff027d2d01e657814e4fada159e463fc94d9832446ef635279943" kindref="member">MP_HDirection</ref>,</highlight></codeline>
+<codeline lineno="27" refid="namespace_post_1adfc3d056d67bff027d2d01e657814e4fa1b3d818d81fb4452c2d73aa9cb532623" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="namespace_post_1adfc3d056d67bff027d2d01e657814e4fa1b3d818d81fb4452c2d73aa9cb532623" kindref="member">MP_VDirection</ref>,</highlight></codeline>
+<codeline lineno="28" refid="namespace_post_1adfc3d056d67bff027d2d01e657814e4faa9d1417ca9ff111f3ef156d7f8b4dc64" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="namespace_post_1adfc3d056d67bff027d2d01e657814e4faa9d1417ca9ff111f3ef156d7f8b4dc64" kindref="member">MP_Origin</ref>,</highlight></codeline>
+<codeline lineno="29" refid="namespace_post_1adfc3d056d67bff027d2d01e657814e4fa02a531ce7724964dfdec37925e0cffea" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="namespace_post_1adfc3d056d67bff027d2d01e657814e4fa02a531ce7724964dfdec37925e0cffea" kindref="member">MP_DEFAULTPLANE</ref></highlight></codeline>
+<codeline lineno="30"><highlight class="normal"><sp/><sp/><sp/><sp/>};</highlight></codeline>
+<codeline lineno="31"><highlight class="normal"></highlight></codeline>
+<codeline lineno="32" refid="namespace_post_1a2d6dabf343e1b401dd4af9b2eb897515" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">enum</highlight><highlight class="normal"><sp/><ref refid="namespace_post_1a2d6dabf343e1b401dd4af9b2eb897515" kindref="member">bn_option</ref><sp/>{</highlight></codeline>
+<codeline lineno="33" refid="namespace_post_1a2d6dabf343e1b401dd4af9b2eb897515a308635a976623a9758cf08b76197c8c3" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="namespace_post_1a2d6dabf343e1b401dd4af9b2eb897515a308635a976623a9758cf08b76197c8c3" kindref="member">SweepFeature</ref>,</highlight></codeline>
+<codeline lineno="34" refid="namespace_post_1a2d6dabf343e1b401dd4af9b2eb897515affb5ecc315a660445f09a0d1ac8b7e8a" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="namespace_post_1a2d6dabf343e1b401dd4af9b2eb897515affb5ecc315a660445f09a0d1ac8b7e8a" kindref="member">ExtrudeFeature</ref>,</highlight></codeline>
+<codeline lineno="35" refid="namespace_post_1a2d6dabf343e1b401dd4af9b2eb897515a2e11927c5f359316f05d9c5a9906d911" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="namespace_post_1a2d6dabf343e1b401dd4af9b2eb897515a2e11927c5f359316f05d9c5a9906d911" kindref="member">RevolveFeature</ref>,</highlight></codeline>
+<codeline lineno="36" refid="namespace_post_1a2d6dabf343e1b401dd4af9b2eb897515a15135197e42c4d252850bb995e9a30a9" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="namespace_post_1a2d6dabf343e1b401dd4af9b2eb897515a15135197e42c4d252850bb995e9a30a9" kindref="member">LoftFeature</ref>,</highlight></codeline>
+<codeline lineno="37" refid="namespace_post_1a2d6dabf343e1b401dd4af9b2eb897515a0e3ec90fbc0984b80f1fc075bd7b4e86" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="namespace_post_1a2d6dabf343e1b401dd4af9b2eb897515a0e3ec90fbc0984b80f1fc075bd7b4e86" kindref="member">FilletFeature</ref>,</highlight></codeline>
+<codeline lineno="38" refid="namespace_post_1a2d6dabf343e1b401dd4af9b2eb897515a7d449c22a98608c8029ed24885f5e265" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="namespace_post_1a2d6dabf343e1b401dd4af9b2eb897515a7d449c22a98608c8029ed24885f5e265" kindref="member">ChamferFeature</ref>,</highlight></codeline>
+<codeline lineno="39" refid="namespace_post_1a2d6dabf343e1b401dd4af9b2eb897515a843bc8c211cec22f787b6466e5073187" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="namespace_post_1a2d6dabf343e1b401dd4af9b2eb897515a843bc8c211cec22f787b6466e5073187" kindref="member">ShellFeature</ref>,</highlight></codeline>
+<codeline lineno="40" refid="namespace_post_1a2d6dabf343e1b401dd4af9b2eb897515a4d11fc59566fef4af56c5cee5ca657e3" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="namespace_post_1a2d6dabf343e1b401dd4af9b2eb897515a4d11fc59566fef4af56c5cee5ca657e3" kindref="member">PatternFeature</ref>,</highlight></codeline>
+<codeline lineno="41" refid="namespace_post_1a2d6dabf343e1b401dd4af9b2eb897515a3191babde433d7de75eb512fece664fc" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="namespace_post_1a2d6dabf343e1b401dd4af9b2eb897515a3191babde433d7de75eb512fece664fc" kindref="member">DatumFeature</ref>,</highlight></codeline>
+<codeline lineno="42" refid="namespace_post_1a2d6dabf343e1b401dd4af9b2eb897515ad2013627d7f71d95dbf5458db4509b2f" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="namespace_post_1a2d6dabf343e1b401dd4af9b2eb897515ad2013627d7f71d95dbf5458db4509b2f" kindref="member">Sketch_Segment</ref></highlight></codeline>
+<codeline lineno="43"><highlight class="normal"><sp/><sp/><sp/><sp/>};</highlight></codeline>
+<codeline lineno="44"><highlight class="normal"></highlight></codeline>
+<codeline lineno="45"><highlight class="normal"></highlight></codeline>
+<codeline lineno="46"><highlight class="normal"></highlight></codeline>
+<codeline lineno="47" refid="struct_post_1_1basic__naming" refkind="compound"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="struct_post_1_1basic__naming" kindref="compound">basic_naming</ref></highlight></codeline>
+<codeline lineno="48"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="49" refid="struct_post_1_1basic__naming_1a903d9daa7d0d04edeff5483516eb2a07" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">string</highlight><highlight class="normal"><sp/><ref refid="struct_post_1_1basic__naming_1a903d9daa7d0d04edeff5483516eb2a07" kindref="member">feature_id</ref>;</highlight></codeline>
+<codeline lineno="50" refid="struct_post_1_1basic__naming_1aced3357cc2dc4d606c1f0896f90152ec" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">string</highlight><highlight class="normal"><sp/><ref refid="struct_post_1_1basic__naming_1aced3357cc2dc4d606c1f0896f90152ec" kindref="member">id1</ref>;<sp/></highlight><highlight class="comment">//<sp/>sketch</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="51" refid="struct_post_1_1basic__naming_1ab3f7cc28a6762397fba41f0db5f09ea9" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">string</highlight><highlight class="normal"><sp/><ref refid="struct_post_1_1basic__naming_1ab3f7cc28a6762397fba41f0db5f09ea9" kindref="member">id2</ref>;<sp/></highlight><highlight class="comment">//<sp/>sketch<sp/>segment<sp/>name</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="52" refid="struct_post_1_1basic__naming_1a89684ce943c8d24a4702ec0832bd6fca" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">string</highlight><highlight class="normal"><sp/><ref refid="struct_post_1_1basic__naming_1a89684ce943c8d24a4702ec0832bd6fca" kindref="member">id3</ref>;</highlight></codeline>
+<codeline lineno="53" refid="struct_post_1_1basic__naming_1a236fc2d576caebe572136f9fbeb572d3" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">string</highlight><highlight class="normal"><sp/><ref refid="struct_post_1_1basic__naming_1a236fc2d576caebe572136f9fbeb572d3" kindref="member">id4</ref>;</highlight></codeline>
+<codeline lineno="54" refid="struct_post_1_1basic__naming_1a50a110bf48204e3b986105d4b92b0da9" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">string</highlight><highlight class="normal"><sp/><ref refid="struct_post_1_1basic__naming_1a50a110bf48204e3b986105d4b92b0da9" kindref="member">id5</ref>;</highlight></codeline>
+<codeline lineno="55" refid="struct_post_1_1basic__naming_1aa512e8295c1e44c79a1803f16b21008b" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="namespace_post_1a2d6dabf343e1b401dd4af9b2eb897515" kindref="member">bn_option</ref><sp/><ref refid="struct_post_1_1basic__naming_1aa512e8295c1e44c79a1803f16b21008b" kindref="member">option</ref>;</highlight></codeline>
+<codeline lineno="56"><highlight class="normal"><sp/><sp/><sp/><sp/>};</highlight></codeline>
+<codeline lineno="57"><highlight class="normal"></highlight></codeline>
+<codeline lineno="58" refid="struct_post_1_1_o_s_i" refkind="compound"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="struct_post_1_1_o_s_i" kindref="compound">OSI</ref></highlight></codeline>
+<codeline lineno="59"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="60" refid="struct_post_1_1_o_s_i_1addeb46b89c10a374b626dba3c3da8dce" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="struct_post_1_1_o_s_i_1addeb46b89c10a374b626dba3c3da8dce" kindref="member">order</ref>;</highlight></codeline>
+<codeline lineno="61" refid="struct_post_1_1_o_s_i_1a76ccb381d1fe4f00dc625d4960facc22" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="struct_post_1_1_o_s_i_1a76ccb381d1fe4f00dc625d4960facc22" kindref="member">total_num</ref>;</highlight></codeline>
+<codeline lineno="62"><highlight class="normal"><sp/><sp/><sp/><sp/>};</highlight></codeline>
+<codeline lineno="63"><highlight class="normal"></highlight></codeline>
+<codeline lineno="64" refid="struct_post_1_1secondary__name" refkind="compound"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="struct_post_1_1secondary__name" kindref="compound">secondary_name</ref></highlight></codeline>
+<codeline lineno="65"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="66" refid="struct_post_1_1secondary__name_1ad5d39be93f62eba8156e20a180671a69" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="struct_post_1_1secondary__name_1ad5d39be93f62eba8156e20a180671a69" kindref="member">total_num</ref>;</highlight></codeline>
+<codeline lineno="67" refid="struct_post_1_1secondary__name_1a4b4803da37755b9acad2039a60da38ca" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>std::vector&lt;basic_naming&gt;<sp/><ref refid="struct_post_1_1secondary__name_1a4b4803da37755b9acad2039a60da38ca" kindref="member">_bn_list</ref>;</highlight></codeline>
+<codeline lineno="68"><highlight class="normal"><sp/><sp/><sp/><sp/>};</highlight></codeline>
+<codeline lineno="69"><highlight class="normal"></highlight></codeline>
+<codeline lineno="70" refid="struct_post_1_1_e_n___f" refkind="compound"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="struct_post_1_1_e_n___f" kindref="compound">EN_F</ref></highlight></codeline>
+<codeline lineno="71"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="72" refid="struct_post_1_1_e_n___f_1a8e2b53b6957374a942d13a8609d64310" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="struct_post_1_1basic__naming" kindref="compound">basic_naming</ref><sp/><ref refid="struct_post_1_1_e_n___f_1a8e2b53b6957374a942d13a8609d64310" kindref="member">_bn</ref>;</highlight></codeline>
+<codeline lineno="73" refid="struct_post_1_1_e_n___f_1ad385700f95272e9a27b7c19edd2457cd" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="struct_post_1_1_o_s_i" kindref="compound">OSI</ref><sp/><ref refid="struct_post_1_1_e_n___f_1ad385700f95272e9a27b7c19edd2457cd" kindref="member">_osi</ref>;</highlight></codeline>
+<codeline lineno="74" refid="struct_post_1_1_e_n___f_1a91d71dbe012d955b239f80a900452557" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="struct_post_1_1secondary__name" kindref="compound">secondary_name</ref><sp/><ref refid="struct_post_1_1_e_n___f_1a91d71dbe012d955b239f80a900452557" kindref="member">_sn</ref>;</highlight></codeline>
+<codeline lineno="75"><highlight class="normal"><sp/><sp/><sp/><sp/>};</highlight></codeline>
+<codeline lineno="76"><highlight class="normal"></highlight></codeline>
+<codeline lineno="77" refid="struct_post_1_1_e_n___e" refkind="compound"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="struct_post_1_1_e_n___e" kindref="compound">EN_E</ref></highlight></codeline>
+<codeline lineno="78"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="79" refid="struct_post_1_1_e_n___e_1a036b5b858a9930cca72fbcb7e32e2061" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="struct_post_1_1_e_n___f" kindref="compound">EN_F</ref><sp/><sp/><sp/><sp/><ref refid="struct_post_1_1_e_n___e_1a036b5b858a9930cca72fbcb7e32e2061" kindref="member">_f1</ref>;</highlight></codeline>
+<codeline lineno="80" refid="struct_post_1_1_e_n___e_1a84b184aa31a43db7176c43d96f5bfa0e" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="struct_post_1_1_e_n___f" kindref="compound">EN_F</ref><sp/><sp/><sp/><sp/><ref refid="struct_post_1_1_e_n___e_1a84b184aa31a43db7176c43d96f5bfa0e" kindref="member">_f2</ref>;</highlight></codeline>
+<codeline lineno="81" refid="struct_post_1_1_e_n___e_1a7b26c153b991a20662f97a62a6b4b7d0" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="struct_post_1_1_o_s_i" kindref="compound">OSI</ref><sp/><sp/><sp/><sp/><sp/><ref refid="struct_post_1_1_e_n___e_1a7b26c153b991a20662f97a62a6b4b7d0" kindref="member">_osi</ref>;</highlight></codeline>
+<codeline lineno="82"><highlight class="normal"><sp/><sp/><sp/><sp/>};</highlight></codeline>
+<codeline lineno="83"><highlight class="normal"></highlight></codeline>
+<codeline lineno="84" refid="struct_post_1_1_e_n___v" refkind="compound"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="struct_post_1_1_e_n___v" kindref="compound">EN_V</ref></highlight></codeline>
+<codeline lineno="85"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="86" refid="struct_post_1_1_e_n___v_1a19f96778820cc77d85fc2f4561ee249f" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="struct_post_1_1_e_n___f" kindref="compound">EN_F</ref><sp/><sp/><sp/><sp/><ref refid="struct_post_1_1_e_n___v_1a19f96778820cc77d85fc2f4561ee249f" kindref="member">_f1</ref>;</highlight></codeline>
+<codeline lineno="87" refid="struct_post_1_1_e_n___v_1a186c3be1eba5f0329125ce8f24d534a1" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="struct_post_1_1_e_n___f" kindref="compound">EN_F</ref><sp/><sp/><sp/><sp/><ref refid="struct_post_1_1_e_n___v_1a186c3be1eba5f0329125ce8f24d534a1" kindref="member">_f2</ref>;</highlight></codeline>
+<codeline lineno="88" refid="struct_post_1_1_e_n___v_1ae082b70ebb25bb6d7506e4b6c2403a3b" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="struct_post_1_1_e_n___f" kindref="compound">EN_F</ref><sp/><sp/><sp/><sp/><ref refid="struct_post_1_1_e_n___v_1ae082b70ebb25bb6d7506e4b6c2403a3b" kindref="member">_f3</ref>;</highlight></codeline>
+<codeline lineno="89" refid="struct_post_1_1_e_n___v_1ac92e9f889a070ea5e3fefd6428ecc85c" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="struct_post_1_1_o_s_i" kindref="compound">OSI</ref><sp/><sp/><sp/><sp/><sp/><ref refid="struct_post_1_1_e_n___v_1ac92e9f889a070ea5e3fefd6428ecc85c" kindref="member">_osi</ref>;</highlight></codeline>
+<codeline lineno="90"><highlight class="normal"><sp/><sp/><sp/><sp/>};</highlight></codeline>
+<codeline lineno="91"><highlight class="normal"></highlight></codeline>
+<codeline lineno="92"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="93"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight></codeline>
+    </programlisting>
+    <location file="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/PostManager/ref/PN_TYPE.h"/>
+  </compounddef>
+</doxygen>

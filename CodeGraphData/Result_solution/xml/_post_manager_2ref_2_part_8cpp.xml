@@ -1,0 +1,882 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="_post_manager_2ref_2_part_8cpp" kind="file">
+    <compoundname>Part.cpp</compoundname>
+    <includes local="yes">stdafx.h</includes>
+    <includes refid="_post_manager_2ref_2_part_8h" local="yes">Part.h</includes>
+    <includes refid="_post_manager_2ref_2_feature_8h" local="yes">Feature.h</includes>
+    <includes refid="_post_manager_2ref_2_f_sketch_8h" local="yes">FSketch.h</includes>
+    <includes refid="_feature_s_o_l_i_d_create_protrusion_extrude_8h" local="yes">FeatureSOLIDCreateProtrusionExtrude.h</includes>
+    <includes refid="_feature_s_o_l_i_d_create_cut_extrude_8h" local="yes">FeatureSOLIDCreateCutExtrude.h</includes>
+    <includes refid="_post_manager_2ref_2_feature_s_o_l_i_d_create_fillet_constant_8h" local="yes">FeatureSOLIDCreateFilletConstant.h</includes>
+    <includes refid="_feature_s_o_l_i_d_create_protrusion_sweep_8h" local="yes">FeatureSOLIDCreateProtrusionSweep.h</includes>
+    <includes refid="_feature_s_o_l_i_d_create_protrusion_revolve_8h" local="yes">FeatureSOLIDCreateProtrusionRevolve.h</includes>
+    <includes refid="_feature_s_o_l_i_d_create_cut_revolve_8h" local="yes">FeatureSOLIDCreateCutRevolve.h</includes>
+    <includes refid="_post_manager_2ref_2_feature_s_o_l_i_d_create_chamfer_8h" local="yes">FeatureSOLIDCreateChamfer.h</includes>
+    <includes refid="_f_datum_plane_8h" local="yes">FDatumPlane.h</includes>
+    <includes refid="_post_manager_2ref_2_f_datum_plane_offset_8h" local="yes">FDatumPlaneOffset.h</includes>
+    <includes refid="_post_manager_2ref_2_feature_s_o_l_i_d_create_pattern_rectangular_8h" local="yes">FeatureSOLIDCreatePatternRectangular.h</includes>
+    <includes refid="_post_manager_2ref_2_feature_s_o_l_i_d_create_pattern_circular_8h" local="yes">FeatureSOLIDCreatePatternCircular.h</includes>
+    <includes refid="_feature_s_o_l_i_d_create_hole_counterbored_8h" local="yes">FeatureSOLIDCreateHoleCounterbored.h</includes>
+    <includes refid="_feature_s_o_l_i_d_create_hole_countersunk_8h" local="yes">FeatureSOLIDCreateHoleCountersunk.h</includes>
+    <includes refid="_feature_s_o_l_i_d_create_faces_loft_8h" local="yes">FeatureSOLIDCreateFacesLoft.h</includes>
+    <includes refid="_feature_s_o_l_i_d_create_sections_loft_8h" local="yes">FeatureSOLIDCreateSectionsLoft.h</includes>
+    <incdepgraph>
+      <node id="2149">
+        <label>FeatureSOLIDCreateSectionsLoft.h</label>
+        <link refid="_feature_s_o_l_i_d_create_sections_loft_8h"/>
+        <childnode refid="2133" relation="include">
+        </childnode>
+      </node>
+      <node id="2112">
+        <label>PostManager/ref/Part.cpp</label>
+        <link refid="PostManager/ref/Part.cpp"/>
+        <childnode refid="2113" relation="include">
+        </childnode>
+        <childnode refid="2114" relation="include">
+        </childnode>
+        <childnode refid="2133" relation="include">
+        </childnode>
+        <childnode refid="2134" relation="include">
+        </childnode>
+        <childnode refid="2135" relation="include">
+        </childnode>
+        <childnode refid="2136" relation="include">
+        </childnode>
+        <childnode refid="2137" relation="include">
+        </childnode>
+        <childnode refid="2138" relation="include">
+        </childnode>
+        <childnode refid="2139" relation="include">
+        </childnode>
+        <childnode refid="2140" relation="include">
+        </childnode>
+        <childnode refid="2141" relation="include">
+        </childnode>
+        <childnode refid="2142" relation="include">
+        </childnode>
+        <childnode refid="2143" relation="include">
+        </childnode>
+        <childnode refid="2144" relation="include">
+        </childnode>
+        <childnode refid="2145" relation="include">
+        </childnode>
+        <childnode refid="2146" relation="include">
+        </childnode>
+        <childnode refid="2147" relation="include">
+        </childnode>
+        <childnode refid="2148" relation="include">
+        </childnode>
+        <childnode refid="2149" relation="include">
+        </childnode>
+      </node>
+      <node id="2117">
+        <label>atlstr.h</label>
+      </node>
+      <node id="2134">
+        <label>FSketch.h</label>
+        <link refid="_post_manager_2ref_2_f_sketch_8h"/>
+        <childnode refid="2133" relation="include">
+        </childnode>
+      </node>
+      <node id="2147">
+        <label>FeatureSOLIDCreateHoleCountersunk.h</label>
+        <link refid="_feature_s_o_l_i_d_create_hole_countersunk_8h"/>
+        <childnode refid="2133" relation="include">
+        </childnode>
+      </node>
+      <node id="2133">
+        <label>Feature.h</label>
+        <link refid="_post_manager_2ref_2_feature_8h"/>
+        <childnode refid="2114" relation="include">
+        </childnode>
+      </node>
+      <node id="2113">
+        <label>stdafx.h</label>
+      </node>
+      <node id="2123">
+        <label>stdlib.h</label>
+      </node>
+      <node id="2125">
+        <label>cmath</label>
+      </node>
+      <node id="2119">
+        <label>string</label>
+      </node>
+      <node id="2124">
+        <label>comutil.h</label>
+      </node>
+      <node id="2143">
+        <label>FDatumPlaneOffset.h</label>
+        <link refid="_post_manager_2ref_2_f_datum_plane_offset_8h"/>
+        <childnode refid="2133" relation="include">
+        </childnode>
+      </node>
+      <node id="2120">
+        <label>fstream</label>
+      </node>
+      <node id="2114">
+        <label>Part.h</label>
+        <link refid="_post_manager_2ref_2_part_8h"/>
+        <childnode refid="2115" relation="include">
+        </childnode>
+        <childnode refid="2128" relation="include">
+        </childnode>
+      </node>
+      <node id="2132">
+        <label>MP_Utility.h</label>
+        <link refid="_m_p___utility_8h"/>
+        <childnode refid="2129" relation="include">
+        </childnode>
+      </node>
+      <node id="2142">
+        <label>FDatumPlane.h</label>
+        <link refid="_f_datum_plane_8h"/>
+        <childnode refid="2133" relation="include">
+        </childnode>
+      </node>
+      <node id="2138">
+        <label>FeatureSOLIDCreateProtrusionSweep.h</label>
+        <link refid="_feature_s_o_l_i_d_create_protrusion_sweep_8h"/>
+        <childnode refid="2133" relation="include">
+        </childnode>
+      </node>
+      <node id="2144">
+        <label>FeatureSOLIDCreatePatternRectangular.h</label>
+        <link refid="_post_manager_2ref_2_feature_s_o_l_i_d_create_pattern_rectangular_8h"/>
+        <childnode refid="2133" relation="include">
+        </childnode>
+      </node>
+      <node id="2140">
+        <label>FeatureSOLIDCreateCutRevolve.h</label>
+        <link refid="_feature_s_o_l_i_d_create_cut_revolve_8h"/>
+        <childnode refid="2133" relation="include">
+        </childnode>
+      </node>
+      <node id="2135">
+        <label>FeatureSOLIDCreateProtrusionExtrude.h</label>
+        <link refid="_feature_s_o_l_i_d_create_protrusion_extrude_8h"/>
+        <childnode refid="2133" relation="include">
+        </childnode>
+      </node>
+      <node id="2139">
+        <label>FeatureSOLIDCreateProtrusionRevolve.h</label>
+        <link refid="_feature_s_o_l_i_d_create_protrusion_revolve_8h"/>
+        <childnode refid="2133" relation="include">
+        </childnode>
+      </node>
+      <node id="2131">
+        <label>string.h</label>
+      </node>
+      <node id="2121">
+        <label>vector</label>
+      </node>
+      <node id="2137">
+        <label>FeatureSOLIDCreateFilletConstant.h</label>
+        <link refid="_post_manager_2ref_2_feature_s_o_l_i_d_create_fillet_constant_8h"/>
+        <childnode refid="2133" relation="include">
+        </childnode>
+      </node>
+      <node id="2136">
+        <label>FeatureSOLIDCreateCutExtrude.h</label>
+        <link refid="_feature_s_o_l_i_d_create_cut_extrude_8h"/>
+        <childnode refid="2133" relation="include">
+        </childnode>
+      </node>
+      <node id="2127">
+        <label>math.h</label>
+      </node>
+      <node id="2116">
+        <label>atlbase.h</label>
+      </node>
+      <node id="2128">
+        <label>CATIAReferenceManager.h</label>
+        <link refid="_c_a_t_i_a_reference_manager_8h"/>
+        <childnode refid="2115" relation="include">
+        </childnode>
+        <childnode refid="2129" relation="include">
+        </childnode>
+        <childnode refid="2132" relation="include">
+        </childnode>
+      </node>
+      <node id="2118">
+        <label>iostream</label>
+      </node>
+      <node id="2126">
+        <label>Definition.h</label>
+        <link refid="_post_manager_2ref_2_definition_8h"/>
+        <childnode refid="2127" relation="include">
+        </childnode>
+      </node>
+      <node id="2141">
+        <label>FeatureSOLIDCreateChamfer.h</label>
+        <link refid="_post_manager_2ref_2_feature_s_o_l_i_d_create_chamfer_8h"/>
+        <childnode refid="2133" relation="include">
+        </childnode>
+      </node>
+      <node id="2146">
+        <label>FeatureSOLIDCreateHoleCounterbored.h</label>
+        <link refid="_feature_s_o_l_i_d_create_hole_counterbored_8h"/>
+        <childnode refid="2133" relation="include">
+        </childnode>
+      </node>
+      <node id="2145">
+        <label>FeatureSOLIDCreatePatternCircular.h</label>
+        <link refid="_post_manager_2ref_2_feature_s_o_l_i_d_create_pattern_circular_8h"/>
+        <childnode refid="2133" relation="include">
+        </childnode>
+      </node>
+      <node id="2130">
+        <label>algorithm</label>
+      </node>
+      <node id="2122">
+        <label>stdio.h</label>
+      </node>
+      <node id="2129">
+        <label>PN_TYPE.h</label>
+        <link refid="_p_n___t_y_p_e_8h"/>
+        <childnode refid="2118" relation="include">
+        </childnode>
+        <childnode refid="2119" relation="include">
+        </childnode>
+        <childnode refid="2121" relation="include">
+        </childnode>
+        <childnode refid="2130" relation="include">
+        </childnode>
+        <childnode refid="2127" relation="include">
+        </childnode>
+        <childnode refid="2131" relation="include">
+        </childnode>
+      </node>
+      <node id="2148">
+        <label>FeatureSOLIDCreateFacesLoft.h</label>
+        <link refid="_feature_s_o_l_i_d_create_faces_loft_8h"/>
+        <childnode refid="2133" relation="include">
+        </childnode>
+      </node>
+      <node id="2115">
+        <label>CATIApost_DLL.h</label>
+        <link refid="_c_a_t_i_apost___d_l_l_8h"/>
+        <childnode refid="2116" relation="include">
+        </childnode>
+        <childnode refid="2117" relation="include">
+        </childnode>
+        <childnode refid="2118" relation="include">
+        </childnode>
+        <childnode refid="2119" relation="include">
+        </childnode>
+        <childnode refid="2120" relation="include">
+        </childnode>
+        <childnode refid="2121" relation="include">
+        </childnode>
+        <childnode refid="2122" relation="include">
+        </childnode>
+        <childnode refid="2123" relation="include">
+        </childnode>
+        <childnode refid="2124" relation="include">
+        </childnode>
+        <childnode refid="2125" relation="include">
+        </childnode>
+        <childnode refid="2126" relation="include">
+        </childnode>
+      </node>
+    </incdepgraph>
+    <innernamespace refid="namespace_post">Post</innernamespace>
+      <sectiondef kind="var">
+      <memberdef kind="variable" id="_post_manager_2ref_2_part_8cpp_1a7a8829f663f72e520593688e551c372e" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int ExternMode</definition>
+        <argsstring></argsstring>
+        <name>ExternMode</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/PostManager/ref/Part.cpp" line="22" column="1" bodyfile="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/PostManager/stdafx.cpp" bodystart="10" bodyend="-1"/>
+        <referencedby refid="class_post_1_1_part_1afa2055a5c24cd753a3b5d9900950d987" compoundref="_post_manager_2ref_2_part_8cpp" startline="314" endline="317">Post::Part::ExternModeToggle</referencedby>
+        <referencedby refid="class_post_1_1_s_k_e_t_c_h_create2_d_centerline_1aa13eba9ab4db3ba583dc46e250982179" compoundref="_s_k_e_t_c_h_create2_d_centerline_8cpp" startline="16" endline="27">Post::SKETCHCreate2DCenterline::GetInfo</referencedby>
+        <referencedby refid="class_post_1_1_s_k_e_t_c_h_create2_d_point_1a723681b77947166bb9c0a8b9a093bca2" compoundref="_s_k_e_t_c_h_create2_d_point_8cpp" startline="14" endline="22">Post::SKETCHCreate2DPoint::GetInfo</referencedby>
+        <referencedby refid="class_post_1_1_f_sketch_1a7bafff74162c56925124f63dc257948f" compoundref="_post_manager_2ref_2_f_sketch_8cpp" startline="87" endline="138">Post::FSketch::GetInfo</referencedby>
+        <referencedby refid="class_post_1_1_s_k_e_t_c_h_create2_d_circle_center_point_1a8a23bf3543170f9b80656d6fe84896d3" compoundref="_s_k_e_t_c_h_create2_d_circle_center_point_8cpp" startline="14" endline="26">Post::SKETCHCreate2DCircleCenterPoint::GetInfo</referencedby>
+        <referencedby refid="class_post_1_1_s_k_e_t_c_h_create2_d_line2_points_1a3a001e53b6c6a2444690a3d1b5d81085" compoundref="_s_k_e_t_c_h_create2_d_line2_points_8cpp" startline="14" endline="30">Post::SKETCHCreate2DLine2Points::GetInfo</referencedby>
+        <referencedby refid="class_post_1_1_s_k_e_t_c_h_create2_d_circular_arc_1a76e2210a8de8829e9b6d1229eec220bb" compoundref="_s_k_e_t_c_h_create2_d_circular_arc_8cpp" startline="14" endline="34">Post::SKETCHCreate2DCircularArc::GetInfo</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="_post_manager_2ref_2_part_8cpp_1a4a001227aeffed8767cfd035c687e1ca" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int ref_index</definition>
+        <argsstring></argsstring>
+        <name>ref_index</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/PostManager/ref/Part.cpp" line="24" column="1" bodyfile="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/PostManager/ref/CATIApost_DLL.cpp" bodystart="17" bodyend="-1"/>
+        <referencedby refid="namespace_post_1a03a52362c2b8f0e17b6b0438ba6d7910" compoundref="_c_a_t_i_apost___d_l_l_8cpp" startline="60" endline="109">Post::CATIAPostTranslate</referencedby>
+        <referencedby refid="class_post_1_1_part_1a3aec7e70aa614b5823544d87d700cce6" compoundref="_post_manager_2ref_2_part_8cpp" startline="319" endline="335">Post::Part::InitReferManager</referencedby>
+        <referencedby refid="class_post_1_1_f_datum_plane_offset_1af34c0973ffefae44460713c5f5944e19" compoundref="_post_manager_2ref_2_f_datum_plane_offset_8cpp" startline="29" endline="111">Post::FDatumPlaneOffset::ToCATIA</referencedby>
+        <referencedby refid="class_post_1_1_feature_s_o_l_i_d_create_pattern_circular_1a572bd9787a8d00fb43cceab6ce4260a9" compoundref="_post_manager_2ref_2_feature_s_o_l_i_d_create_pattern_circular_8cpp" startline="66" endline="96">Post::FeatureSOLIDCreatePatternCircular::ToCATIA</referencedby>
+        <referencedby refid="class_post_1_1_feature_s_o_l_i_d_create_pattern_rectangular_1a3c104d07dd42a6c50984884c5ccc9fcb" compoundref="_post_manager_2ref_2_feature_s_o_l_i_d_create_pattern_rectangular_8cpp" startline="66" endline="100">Post::FeatureSOLIDCreatePatternRectangular::ToCATIA</referencedby>
+        <referencedby refid="class_post_1_1_feature_s_o_l_i_d_create_fillet_constant_1a395a9468714e65e59fdc9735a1c4c2da" compoundref="_post_manager_2ref_2_feature_s_o_l_i_d_create_fillet_constant_8cpp" startline="34" endline="69">Post::FeatureSOLIDCreateFilletConstant::ToCATIA</referencedby>
+        <referencedby refid="class_post_1_1_feature_s_o_l_i_d_create_hole_countersunk_1a076b56d8a0a35f24cd0ae55d0760e87e" compoundref="_feature_s_o_l_i_d_create_hole_countersunk_8cpp" startline="37" endline="98">Post::FeatureSOLIDCreateHoleCountersunk::ToCATIA</referencedby>
+        <referencedby refid="class_post_1_1_feature_s_o_l_i_d_create_hole_counterbored_1a8f74cad0535e4af5457336d82fde6109" compoundref="_feature_s_o_l_i_d_create_hole_counterbored_8cpp" startline="37" endline="96">Post::FeatureSOLIDCreateHoleCounterbored::ToCATIA</referencedby>
+        <referencedby refid="class_post_1_1_feature_s_o_l_i_d_create_chamfer_1adc476aca0219e6111ebad3f6807e53a6" compoundref="_post_manager_2ref_2_feature_s_o_l_i_d_create_chamfer_8cpp" startline="33" endline="67">Post::FeatureSOLIDCreateChamfer::ToCATIA</referencedby>
+        <referencedby refid="class_post_1_1_feature_s_o_l_i_d_create_protrusion_loft_1a229923ce36140b183c02b87949f3a0f5" compoundref="_feature_s_o_l_i_d_create_protrusion_loft_8cpp" startline="41" endline="69">Post::FeatureSOLIDCreateProtrusionLoft::ToCATIA</referencedby>
+        <referencedby refid="class_post_1_1_feature_s_o_l_i_d_create_protrusion_sweep_1ad9d12144ce67b131f9d8b856abb32495" compoundref="_feature_s_o_l_i_d_create_protrusion_sweep_8cpp" startline="31" endline="60">Post::FeatureSOLIDCreateProtrusionSweep::ToCATIA</referencedby>
+        <referencedby refid="class_post_1_1_feature_s_o_l_i_d_create_sections_loft_1a24653567189674cf9624c7ce852b204b" compoundref="_feature_s_o_l_i_d_create_sections_loft_8cpp" startline="45" endline="120">Post::FeatureSOLIDCreateSectionsLoft::ToCATIA</referencedby>
+        <referencedby refid="class_post_1_1_feature_s_o_l_i_d_create_faces_loft_1a0cb2c7bcf5453a41a80ab8a42412e737" compoundref="_feature_s_o_l_i_d_create_faces_loft_8cpp" startline="41" endline="70">Post::FeatureSOLIDCreateFacesLoft::ToCATIA</referencedby>
+        <referencedby refid="class_post_1_1_f_sketch_1a04bbe4dfa30502ae0e62abd35ece66fe" compoundref="_post_manager_2ref_2_f_sketch_8cpp" startline="140" endline="276">Post::FSketch::ToCATIA</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="_post_manager_2ref_2_part_8cpp_1ac2c4ff63490b6532ebb2ff323b2b0df1" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int repname_index</definition>
+        <argsstring></argsstring>
+        <name>repname_index</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/PostManager/ref/Part.cpp" line="25" column="1" bodyfile="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/PostManager/ref/CATIApost_DLL.cpp" bodystart="18" bodyend="-1"/>
+        <referencedby refid="namespace_post_1a03a52362c2b8f0e17b6b0438ba6d7910" compoundref="_c_a_t_i_apost___d_l_l_8cpp" startline="60" endline="109">Post::CATIAPostTranslate</referencedby>
+        <referencedby refid="class_post_1_1_part_1a3aec7e70aa614b5823544d87d700cce6" compoundref="_post_manager_2ref_2_part_8cpp" startline="319" endline="335">Post::Part::InitReferManager</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="_post_manager_2ref_2_part_8cpp_1ab856c50c5e05dee4c52ae991cc9cf5eb" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int pt_index</definition>
+        <argsstring></argsstring>
+        <name>pt_index</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/PostManager/ref/Part.cpp" line="26" column="1" bodyfile="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/PostManager/ref/CATIApost_DLL.cpp" bodystart="19" bodyend="-1"/>
+        <referencedby refid="namespace_post_1a03a52362c2b8f0e17b6b0438ba6d7910" compoundref="_c_a_t_i_apost___d_l_l_8cpp" startline="60" endline="109">Post::CATIAPostTranslate</referencedby>
+        <referencedby refid="class_post_1_1_part_1a3aec7e70aa614b5823544d87d700cce6" compoundref="_post_manager_2ref_2_part_8cpp" startline="319" endline="335">Post::Part::InitReferManager</referencedby>
+        <referencedby refid="class_post_1_1_s_k_e_t_c_h_create2_d_point_1a877072a679bbda32955a75b4d79a46b3" compoundref="_s_k_e_t_c_h_create2_d_point_8cpp" startline="24" endline="39">Post::SKETCHCreate2DPoint::ToCATIA</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="_post_manager_2ref_2_part_8cpp_1aeb445a927ac5b1b741fdb4f80d547ad2" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int ln_index</definition>
+        <argsstring></argsstring>
+        <name>ln_index</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/PostManager/ref/Part.cpp" line="27" column="1" bodyfile="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/PostManager/ref/CATIApost_DLL.cpp" bodystart="20" bodyend="-1"/>
+        <referencedby refid="namespace_post_1a03a52362c2b8f0e17b6b0438ba6d7910" compoundref="_c_a_t_i_apost___d_l_l_8cpp" startline="60" endline="109">Post::CATIAPostTranslate</referencedby>
+        <referencedby refid="class_post_1_1_part_1a3aec7e70aa614b5823544d87d700cce6" compoundref="_post_manager_2ref_2_part_8cpp" startline="319" endline="335">Post::Part::InitReferManager</referencedby>
+        <referencedby refid="class_post_1_1_s_k_e_t_c_h_create2_d_centerline_1a53de54224beb765c17dbb765e60e983a" compoundref="_s_k_e_t_c_h_create2_d_centerline_8cpp" startline="29" endline="43">Post::SKETCHCreate2DCenterline::ToCATIA</referencedby>
+        <referencedby refid="class_post_1_1_f_sketch_1a04bbe4dfa30502ae0e62abd35ece66fe" compoundref="_post_manager_2ref_2_f_sketch_8cpp" startline="140" endline="276">Post::FSketch::ToCATIA</referencedby>
+        <referencedby refid="class_post_1_1_s_k_e_t_c_h_create2_d_line2_points_1a0eb686cd9daa11bf0aebe136ce759ab0" compoundref="_s_k_e_t_c_h_create2_d_line2_points_8cpp" startline="32" endline="49">Post::SKETCHCreate2DLine2Points::ToCATIA</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="_post_manager_2ref_2_part_8cpp_1a217bd7e0678e7561d064b89ef20cea83" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int arr_index</definition>
+        <argsstring></argsstring>
+        <name>arr_index</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/PostManager/ref/Part.cpp" line="28" column="1" bodyfile="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/PostManager/ref/CATIApost_DLL.cpp" bodystart="21" bodyend="-1"/>
+        <referencedby refid="namespace_post_1a03a52362c2b8f0e17b6b0438ba6d7910" compoundref="_c_a_t_i_apost___d_l_l_8cpp" startline="60" endline="109">Post::CATIAPostTranslate</referencedby>
+        <referencedby refid="class_post_1_1_part_1a3aec7e70aa614b5823544d87d700cce6" compoundref="_post_manager_2ref_2_part_8cpp" startline="319" endline="335">Post::Part::InitReferManager</referencedby>
+        <referencedby refid="class_post_1_1_f_sketch_1a04bbe4dfa30502ae0e62abd35ece66fe" compoundref="_post_manager_2ref_2_f_sketch_8cpp" startline="140" endline="276">Post::FSketch::ToCATIA</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="_post_manager_2ref_2_part_8cpp_1a0d3b3f4a67d270d635cabd1ac668881b" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int fac_index</definition>
+        <argsstring></argsstring>
+        <name>fac_index</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/PostManager/ref/Part.cpp" line="29" column="1" bodyfile="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/PostManager/ref/CATIApost_DLL.cpp" bodystart="22" bodyend="-1"/>
+        <referencedby refid="namespace_post_1a03a52362c2b8f0e17b6b0438ba6d7910" compoundref="_c_a_t_i_apost___d_l_l_8cpp" startline="60" endline="109">Post::CATIAPostTranslate</referencedby>
+        <referencedby refid="class_post_1_1_part_1a3aec7e70aa614b5823544d87d700cce6" compoundref="_post_manager_2ref_2_part_8cpp" startline="319" endline="335">Post::Part::InitReferManager</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="_post_manager_2ref_2_part_8cpp_1a9d0ccac49c6fa3a640bc5e48bef71480" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int lim_index</definition>
+        <argsstring></argsstring>
+        <name>lim_index</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/PostManager/ref/Part.cpp" line="30" column="1" bodyfile="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/PostManager/ref/CATIApost_DLL.cpp" bodystart="23" bodyend="-1"/>
+        <referencedby refid="namespace_post_1a03a52362c2b8f0e17b6b0438ba6d7910" compoundref="_c_a_t_i_apost___d_l_l_8cpp" startline="60" endline="109">Post::CATIAPostTranslate</referencedby>
+        <referencedby refid="class_post_1_1_part_1a3aec7e70aa614b5823544d87d700cce6" compoundref="_post_manager_2ref_2_part_8cpp" startline="319" endline="335">Post::Part::InitReferManager</referencedby>
+        <referencedby refid="class_post_1_1_feature_s_o_l_i_d_create_hole_countersunk_1a076b56d8a0a35f24cd0ae55d0760e87e" compoundref="_feature_s_o_l_i_d_create_hole_countersunk_8cpp" startline="37" endline="98">Post::FeatureSOLIDCreateHoleCountersunk::ToCATIA</referencedby>
+        <referencedby refid="class_post_1_1_feature_s_o_l_i_d_create_hole_counterbored_1a8f74cad0535e4af5457336d82fde6109" compoundref="_feature_s_o_l_i_d_create_hole_counterbored_8cpp" startline="37" endline="96">Post::FeatureSOLIDCreateHoleCounterbored::ToCATIA</referencedby>
+        <referencedby refid="class_post_1_1_feature_s_o_l_i_d_create_cut_extrude_1a7ffaba515665ad33e83e34d2af8a0cac" compoundref="_feature_s_o_l_i_d_create_cut_extrude_8cpp" startline="36" endline="99">Post::FeatureSOLIDCreateCutExtrude::ToCATIA</referencedby>
+        <referencedby refid="class_post_1_1_feature_s_o_l_i_d_create_protrusion_extrude_1a64f136a9e115c09cd4f1b2fff857f4b3" compoundref="_feature_s_o_l_i_d_create_protrusion_extrude_8cpp" startline="39" endline="101">Post::FeatureSOLIDCreateProtrusionExtrude::ToCATIA</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="_post_manager_2ref_2_part_8cpp_1a022e63e0684ba8af19134ea0510837f1" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int lng_index</definition>
+        <argsstring></argsstring>
+        <name>lng_index</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/PostManager/ref/Part.cpp" line="31" column="1" bodyfile="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/PostManager/ref/CATIApost_DLL.cpp" bodystart="24" bodyend="-1"/>
+        <referencedby refid="namespace_post_1a03a52362c2b8f0e17b6b0438ba6d7910" compoundref="_c_a_t_i_apost___d_l_l_8cpp" startline="60" endline="109">Post::CATIAPostTranslate</referencedby>
+        <referencedby refid="class_post_1_1_part_1a3aec7e70aa614b5823544d87d700cce6" compoundref="_post_manager_2ref_2_part_8cpp" startline="319" endline="335">Post::Part::InitReferManager</referencedby>
+        <referencedby refid="class_post_1_1_feature_s_o_l_i_d_create_hole_countersunk_1a076b56d8a0a35f24cd0ae55d0760e87e" compoundref="_feature_s_o_l_i_d_create_hole_countersunk_8cpp" startline="37" endline="98">Post::FeatureSOLIDCreateHoleCountersunk::ToCATIA</referencedby>
+        <referencedby refid="class_post_1_1_feature_s_o_l_i_d_create_hole_counterbored_1a8f74cad0535e4af5457336d82fde6109" compoundref="_feature_s_o_l_i_d_create_hole_counterbored_8cpp" startline="37" endline="96">Post::FeatureSOLIDCreateHoleCounterbored::ToCATIA</referencedby>
+        <referencedby refid="class_post_1_1_feature_s_o_l_i_d_create_cut_extrude_1a7ffaba515665ad33e83e34d2af8a0cac" compoundref="_feature_s_o_l_i_d_create_cut_extrude_8cpp" startline="36" endline="99">Post::FeatureSOLIDCreateCutExtrude::ToCATIA</referencedby>
+        <referencedby refid="class_post_1_1_feature_s_o_l_i_d_create_protrusion_extrude_1a64f136a9e115c09cd4f1b2fff857f4b3" compoundref="_feature_s_o_l_i_d_create_protrusion_extrude_8cpp" startline="39" endline="101">Post::FeatureSOLIDCreateProtrusionExtrude::ToCATIA</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="_post_manager_2ref_2_part_8cpp_1a019d2786df3a9bf26d2731fe80b2fc66" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int circle_index</definition>
+        <argsstring></argsstring>
+        <name>circle_index</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/PostManager/ref/Part.cpp" line="32" column="1" bodyfile="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/PostManager/ref/CATIApost_DLL.cpp" bodystart="25" bodyend="-1"/>
+        <referencedby refid="namespace_post_1a03a52362c2b8f0e17b6b0438ba6d7910" compoundref="_c_a_t_i_apost___d_l_l_8cpp" startline="60" endline="109">Post::CATIAPostTranslate</referencedby>
+        <referencedby refid="class_post_1_1_part_1a3aec7e70aa614b5823544d87d700cce6" compoundref="_post_manager_2ref_2_part_8cpp" startline="319" endline="335">Post::Part::InitReferManager</referencedby>
+        <referencedby refid="class_post_1_1_s_k_e_t_c_h_create2_d_circle_center_point_1a6a4387c56c3b7d0f2e28441701aa16c5" compoundref="_s_k_e_t_c_h_create2_d_circle_center_point_8cpp" startline="28" endline="40">Post::SKETCHCreate2DCircleCenterPoint::ToCATIA</referencedby>
+        <referencedby refid="class_post_1_1_s_k_e_t_c_h_create2_d_circular_arc_1a742f7b647dd44fabf7d5db5006954c0d" compoundref="_s_k_e_t_c_h_create2_d_circular_arc_8cpp" startline="36" endline="50">Post::SKETCHCreate2DCircularArc::ToCATIA</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="_post_manager_2ref_2_part_8cpp_1a0dbf0a49be0c3f6f56054c0efbb53c31" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int sktch</definition>
+        <argsstring></argsstring>
+        <name>sktch</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/PostManager/ref/Part.cpp" line="33" column="1" bodyfile="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/PostManager/ref/CATIApost_DLL.cpp" bodystart="26" bodyend="-1"/>
+        <referencedby refid="namespace_post_1a03a52362c2b8f0e17b6b0438ba6d7910" compoundref="_c_a_t_i_apost___d_l_l_8cpp" startline="60" endline="109">Post::CATIAPostTranslate</referencedby>
+        <referencedby refid="class_post_1_1_part_1a3aec7e70aa614b5823544d87d700cce6" compoundref="_post_manager_2ref_2_part_8cpp" startline="319" endline="335">Post::Part::InitReferManager</referencedby>
+        <referencedby refid="class_post_1_1_s_k_e_t_c_h_create2_d_centerline_1a53de54224beb765c17dbb765e60e983a" compoundref="_s_k_e_t_c_h_create2_d_centerline_8cpp" startline="29" endline="43">Post::SKETCHCreate2DCenterline::ToCATIA</referencedby>
+        <referencedby refid="class_post_1_1_s_k_e_t_c_h_create2_d_point_1a877072a679bbda32955a75b4d79a46b3" compoundref="_s_k_e_t_c_h_create2_d_point_8cpp" startline="24" endline="39">Post::SKETCHCreate2DPoint::ToCATIA</referencedby>
+        <referencedby refid="class_post_1_1_f_sketch_1a04bbe4dfa30502ae0e62abd35ece66fe" compoundref="_post_manager_2ref_2_f_sketch_8cpp" startline="140" endline="276">Post::FSketch::ToCATIA</referencedby>
+        <referencedby refid="class_post_1_1_s_k_e_t_c_h_create2_d_line2_points_1a0eb686cd9daa11bf0aebe136ce759ab0" compoundref="_s_k_e_t_c_h_create2_d_line2_points_8cpp" startline="32" endline="49">Post::SKETCHCreate2DLine2Points::ToCATIA</referencedby>
+        <referencedby refid="class_post_1_1_s_k_e_t_c_h_create2_d_circle_center_point_1a6a4387c56c3b7d0f2e28441701aa16c5" compoundref="_s_k_e_t_c_h_create2_d_circle_center_point_8cpp" startline="28" endline="40">Post::SKETCHCreate2DCircleCenterPoint::ToCATIA</referencedby>
+        <referencedby refid="class_post_1_1_s_k_e_t_c_h_create2_d_circular_arc_1a742f7b647dd44fabf7d5db5006954c0d" compoundref="_s_k_e_t_c_h_create2_d_circular_arc_8cpp" startline="36" endline="50">Post::SKETCHCreate2DCircularArc::ToCATIA</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="_post_manager_2ref_2_part_8cpp_1a4755ab04787eb624e9b84fce74ea4e1f" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int holecounterID</definition>
+        <argsstring></argsstring>
+        <name>holecounterID</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/PostManager/ref/Part.cpp" line="34" column="1" bodyfile="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/PostManager/ref/CATIApost_DLL.cpp" bodystart="27" bodyend="-1"/>
+        <referencedby refid="namespace_post_1a03a52362c2b8f0e17b6b0438ba6d7910" compoundref="_c_a_t_i_apost___d_l_l_8cpp" startline="60" endline="109">Post::CATIAPostTranslate</referencedby>
+        <referencedby refid="class_post_1_1_part_1a3aec7e70aa614b5823544d87d700cce6" compoundref="_post_manager_2ref_2_part_8cpp" startline="319" endline="335">Post::Part::InitReferManager</referencedby>
+        <referencedby refid="class_post_1_1_feature_s_o_l_i_d_create_hole_countersunk_1a076b56d8a0a35f24cd0ae55d0760e87e" compoundref="_feature_s_o_l_i_d_create_hole_countersunk_8cpp" startline="37" endline="98">Post::FeatureSOLIDCreateHoleCountersunk::ToCATIA</referencedby>
+        <referencedby refid="class_post_1_1_feature_s_o_l_i_d_create_hole_counterbored_1a8f74cad0535e4af5457336d82fde6109" compoundref="_feature_s_o_l_i_d_create_hole_counterbored_8cpp" startline="37" endline="96">Post::FeatureSOLIDCreateHoleCounterbored::ToCATIA</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="_post_manager_2ref_2_part_8cpp_1ab19f712b4a42f729c4b03c85bf315239" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int ang_index</definition>
+        <argsstring></argsstring>
+        <name>ang_index</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/PostManager/ref/Part.cpp" line="35" column="1" bodyfile="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/PostManager/ref/CATIApost_DLL.cpp" bodystart="28" bodyend="-1"/>
+        <referencedby refid="namespace_post_1a03a52362c2b8f0e17b6b0438ba6d7910" compoundref="_c_a_t_i_apost___d_l_l_8cpp" startline="60" endline="109">Post::CATIAPostTranslate</referencedby>
+        <referencedby refid="class_post_1_1_part_1a3aec7e70aa614b5823544d87d700cce6" compoundref="_post_manager_2ref_2_part_8cpp" startline="319" endline="335">Post::Part::InitReferManager</referencedby>
+        <referencedby refid="class_post_1_1_feature_s_o_l_i_d_create_hole_countersunk_1a076b56d8a0a35f24cd0ae55d0760e87e" compoundref="_feature_s_o_l_i_d_create_hole_countersunk_8cpp" startline="37" endline="98">Post::FeatureSOLIDCreateHoleCountersunk::ToCATIA</referencedby>
+        <referencedby refid="class_post_1_1_feature_s_o_l_i_d_create_hole_counterbored_1a8f74cad0535e4af5457336d82fde6109" compoundref="_feature_s_o_l_i_d_create_hole_counterbored_8cpp" startline="37" endline="96">Post::FeatureSOLIDCreateHoleCounterbored::ToCATIA</referencedby>
+        <referencedby refid="class_post_1_1_feature_s_o_l_i_d_create_cut_revolve_1a943c15cf026572c40cb9d5d64b94ea55" compoundref="_feature_s_o_l_i_d_create_cut_revolve_8cpp" startline="42" endline="78">Post::FeatureSOLIDCreateCutRevolve::ToCATIA</referencedby>
+        <referencedby refid="class_post_1_1_feature_s_o_l_i_d_create_protrusion_revolve_1a694f7011ec7ebeca3d7bd3850dc756bf" compoundref="_feature_s_o_l_i_d_create_protrusion_revolve_8cpp" startline="43" endline="79">Post::FeatureSOLIDCreateProtrusionRevolve::ToCATIA</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="_post_manager_2ref_2_part_8cpp_1a60611a1ea7e60d33ae29f4a3a535d0ae" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int DatumPlaneID</definition>
+        <argsstring></argsstring>
+        <name>DatumPlaneID</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/PostManager/ref/Part.cpp" line="36" column="1" bodyfile="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/PostManager/ref/CATIApost_DLL.cpp" bodystart="29" bodyend="-1"/>
+        <referencedby refid="namespace_post_1a03a52362c2b8f0e17b6b0438ba6d7910" compoundref="_c_a_t_i_apost___d_l_l_8cpp" startline="60" endline="109">Post::CATIAPostTranslate</referencedby>
+        <referencedby refid="class_post_1_1_part_1a3aec7e70aa614b5823544d87d700cce6" compoundref="_post_manager_2ref_2_part_8cpp" startline="319" endline="335">Post::Part::InitReferManager</referencedby>
+        <referencedby refid="class_post_1_1_f_datum_plane_offset_1af34c0973ffefae44460713c5f5944e19" compoundref="_post_manager_2ref_2_f_datum_plane_offset_8cpp" startline="29" endline="111">Post::FDatumPlaneOffset::ToCATIA</referencedby>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="preprocessor">#include<sp/>&quot;stdafx.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="_post_manager_2ref_2_part_8h" kindref="compound">Part.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="_post_manager_2ref_2_feature_8h" kindref="compound">Feature.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="_post_manager_2ref_2_f_sketch_8h" kindref="compound">FSketch.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="_feature_s_o_l_i_d_create_protrusion_extrude_8h" kindref="compound">FeatureSOLIDCreateProtrusionExtrude.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="_feature_s_o_l_i_d_create_cut_extrude_8h" kindref="compound">FeatureSOLIDCreateCutExtrude.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="_post_manager_2ref_2_feature_s_o_l_i_d_create_fillet_constant_8h" kindref="compound">FeatureSOLIDCreateFilletConstant.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="_feature_s_o_l_i_d_create_protrusion_sweep_8h" kindref="compound">FeatureSOLIDCreateProtrusionSweep.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="10"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="_feature_s_o_l_i_d_create_protrusion_revolve_8h" kindref="compound">FeatureSOLIDCreateProtrusionRevolve.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="11"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="_feature_s_o_l_i_d_create_cut_revolve_8h" kindref="compound">FeatureSOLIDCreateCutRevolve.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="12"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="_post_manager_2ref_2_feature_s_o_l_i_d_create_chamfer_8h" kindref="compound">FeatureSOLIDCreateChamfer.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="13"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="_f_datum_plane_8h" kindref="compound">FDatumPlane.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="14"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="_post_manager_2ref_2_f_datum_plane_offset_8h" kindref="compound">FDatumPlaneOffset.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="15"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="_post_manager_2ref_2_feature_s_o_l_i_d_create_pattern_rectangular_8h" kindref="compound">FeatureSOLIDCreatePatternRectangular.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="16"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="_post_manager_2ref_2_feature_s_o_l_i_d_create_pattern_circular_8h" kindref="compound">FeatureSOLIDCreatePatternCircular.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="17"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="_feature_s_o_l_i_d_create_hole_counterbored_8h" kindref="compound">FeatureSOLIDCreateHoleCounterbored.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="18"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="_feature_s_o_l_i_d_create_hole_countersunk_8h" kindref="compound">FeatureSOLIDCreateHoleCountersunk.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="19"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="_feature_s_o_l_i_d_create_faces_loft_8h" kindref="compound">FeatureSOLIDCreateFacesLoft.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="20"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="_feature_s_o_l_i_d_create_sections_loft_8h" kindref="compound">FeatureSOLIDCreateSectionsLoft.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="21"><highlight class="normal"></highlight></codeline>
+<codeline lineno="22"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="_post_manager_2ref_2_part_8cpp_1a7a8829f663f72e520593688e551c372e" kindref="member">ExternMode</ref>;</highlight></codeline>
+<codeline lineno="23"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="24"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="_post_manager_2ref_2_part_8cpp_1a4a001227aeffed8767cfd035c687e1ca" kindref="member">ref_index</ref>;</highlight></codeline>
+<codeline lineno="25"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="_post_manager_2ref_2_part_8cpp_1ac2c4ff63490b6532ebb2ff323b2b0df1" kindref="member">repname_index</ref>;</highlight></codeline>
+<codeline lineno="26"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="_post_manager_2ref_2_part_8cpp_1ab856c50c5e05dee4c52ae991cc9cf5eb" kindref="member">pt_index</ref>;</highlight></codeline>
+<codeline lineno="27"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="_post_manager_2ref_2_part_8cpp_1aeb445a927ac5b1b741fdb4f80d547ad2" kindref="member">ln_index</ref>;</highlight></codeline>
+<codeline lineno="28"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="_post_manager_2ref_2_part_8cpp_1a217bd7e0678e7561d064b89ef20cea83" kindref="member">arr_index</ref>;</highlight></codeline>
+<codeline lineno="29"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="_post_manager_2ref_2_part_8cpp_1a0d3b3f4a67d270d635cabd1ac668881b" kindref="member">fac_index</ref>;</highlight></codeline>
+<codeline lineno="30"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="_post_manager_2ref_2_part_8cpp_1a9d0ccac49c6fa3a640bc5e48bef71480" kindref="member">lim_index</ref>;</highlight></codeline>
+<codeline lineno="31"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="_post_manager_2ref_2_part_8cpp_1a022e63e0684ba8af19134ea0510837f1" kindref="member">lng_index</ref>;</highlight></codeline>
+<codeline lineno="32"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="_post_manager_2ref_2_part_8cpp_1a019d2786df3a9bf26d2731fe80b2fc66" kindref="member">circle_index</ref>;</highlight></codeline>
+<codeline lineno="33"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="_post_manager_2ref_2_part_8cpp_1a0dbf0a49be0c3f6f56054c0efbb53c31" kindref="member">sktch</ref>;</highlight></codeline>
+<codeline lineno="34"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="_post_manager_2ref_2_part_8cpp_1a4755ab04787eb624e9b84fce74ea4e1f" kindref="member">holecounterID</ref>;</highlight></codeline>
+<codeline lineno="35"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="_post_manager_2ref_2_part_8cpp_1ab19f712b4a42f729c4b03c85bf315239" kindref="member">ang_index</ref>;</highlight></codeline>
+<codeline lineno="36"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="_post_manager_2ref_2_part_8cpp_1a60611a1ea7e60d33ae29f4a3a535d0ae" kindref="member">DatumPlaneID</ref>;</highlight></codeline>
+<codeline lineno="37"><highlight class="normal"></highlight></codeline>
+<codeline lineno="38"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal">Post<sp/>{</highlight></codeline>
+<codeline lineno="39"><highlight class="normal"></highlight></codeline>
+<codeline lineno="40"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/>CATIAReferenceManager<sp/>*<ref refid="namespace_post_1a757521acb19b64cd9a29879d6c5a7d5f" kindref="member">g_pRefManager</ref>;</highlight></codeline>
+<codeline lineno="41"><highlight class="normal"></highlight></codeline>
+<codeline lineno="42" refid="class_post_1_1_part_1a2257604aa6fc901a3e64185cf15262de" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="class_post_1_1_part_1a2257604aa6fc901a3e64185cf15262de" kindref="member">Part::Part</ref>()<sp/></highlight><highlight class="comment">//used<sp/>to<sp/>make<sp/>Part<sp/>class<sp/>array</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="43"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="44"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="45"><highlight class="normal"></highlight></codeline>
+<codeline lineno="46"><highlight class="normal"></highlight></codeline>
+<codeline lineno="47" refid="class_pre_1_1_part_1a9c14c62f01c70ea9d3e58718dd64c809" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="class_post_1_1_part_1a2257604aa6fc901a3e64185cf15262de" kindref="member">Part::Part</ref>(</highlight><highlight class="keywordtype">string</highlight><highlight class="normal"><sp/>fileName)<sp/></highlight><highlight class="comment">//Basic<sp/>Part<sp/>Constructor<sp/>:<sp/>For<sp/>a<sp/>Part<sp/>Translation<sp/>TransCAD<sp/>Document<sp/>must<sp/>be<sp/>PartDocument</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="48"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//filename<sp/>:<sp/>fullpath</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="49"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="50"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>Set<sp/>TransCAD<sp/>Active<sp/>Document<sp/>Ptr</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="51"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//_spDocument<sp/>=<sp/>g_spApplication-&gt;ActiveDocument;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="52"><highlight class="normal"></highlight></codeline>
+<codeline lineno="53"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//if<sp/>(_spDocument<sp/>==<sp/>NULL)<sp/></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="54"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//{</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="55"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/><sp/>cout<sp/>&lt;&lt;<sp/>&quot;<sp/>spDocument<sp/>is<sp/>Null<sp/>&quot;<sp/>&lt;&lt;<sp/>endl;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="56"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/><sp/>return;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="57"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//}</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="58"><highlight class="normal"></highlight></codeline>
+<codeline lineno="59"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_post_1_1_part_1aed8bf00c8a73ff2d7c8e67ab3e824365" kindref="member">_spPart</ref><sp/>=<sp/><ref refid="class_post_1_1_part_1ae8a076ea6bd1b67b283a9fcd083792c6" kindref="member">_spDocument</ref>-&gt;GetPart();<sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>Set<sp/>TransCAD<sp/>Part<sp/>ptr</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="60"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_post_1_1_part_1a96499e27869e4f2b69212e55549bb4e9" kindref="member">_spFeatures</ref><sp/>=<sp/><ref refid="class_post_1_1_part_1aed8bf00c8a73ff2d7c8e67ab3e824365" kindref="member">_spPart</ref>-&gt;Features;<sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>Set<sp/>TransCAD<sp/>Features<sp/>ptr</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="61"><highlight class="normal"></highlight></codeline>
+<codeline lineno="62"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>최종<sp/>CATIA<sp/>매크로<sp/>파일이<sp/>위치할<sp/>경로</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="63"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>fopen_s(&amp;<ref refid="class_post_1_1_part_1acfc76a6eafc95673a2c37b40e65405a5" kindref="member">file</ref>,<sp/>fileName.c_str(),<sp/></highlight><highlight class="stringliteral">&quot;wt&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="64"><highlight class="normal"></highlight></codeline>
+<codeline lineno="65"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_post_1_1_part_1ab5f74460bbbf64f7f864389b63498cbc" kindref="member">_strPartName</ref><sp/>=<sp/>fileName;</highlight></codeline>
+<codeline lineno="67"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>fprintf(<ref refid="class_post_1_1_part_1acfc76a6eafc95673a2c37b40e65405a5" kindref="member">file</ref>,<sp/></highlight><highlight class="stringliteral">&quot;Language<sp/>=<sp/>\&quot;VBSCRIPT\&quot;\n\n&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="68"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>fprintf(<ref refid="class_post_1_1_part_1acfc76a6eafc95673a2c37b40e65405a5" kindref="member">file</ref>,<sp/></highlight><highlight class="stringliteral">&quot;Sub<sp/>CATMain()\n\n&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="69"><highlight class="normal"></highlight></codeline>
+<codeline lineno="70"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>fprintf(<ref refid="class_post_1_1_part_1acfc76a6eafc95673a2c37b40e65405a5" kindref="member">file</ref>,<sp/></highlight><highlight class="stringliteral">&quot;Dim<sp/>documents1<sp/>As<sp/>Documents\n&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="71"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>fprintf(<ref refid="class_post_1_1_part_1acfc76a6eafc95673a2c37b40e65405a5" kindref="member">file</ref>,<sp/></highlight><highlight class="stringliteral">&quot;Set<sp/>documents1<sp/>=<sp/>CATIA.Documents\n\n&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="72"><highlight class="normal"></highlight></codeline>
+<codeline lineno="73"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>fprintf(<ref refid="class_post_1_1_part_1acfc76a6eafc95673a2c37b40e65405a5" kindref="member">file</ref>,<sp/></highlight><highlight class="stringliteral">&quot;Dim<sp/>partDocument1<sp/>As<sp/>Document\n&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="74"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>fprintf(<ref refid="class_post_1_1_part_1acfc76a6eafc95673a2c37b40e65405a5" kindref="member">file</ref>,<sp/></highlight><highlight class="stringliteral">&quot;Set<sp/>partDocument1<sp/>=<sp/>documents1.Add(\&quot;Part\&quot;)\n\n&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="75"><highlight class="normal"></highlight></codeline>
+<codeline lineno="76"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>fprintf(<ref refid="class_post_1_1_part_1acfc76a6eafc95673a2c37b40e65405a5" kindref="member">file</ref>,<sp/></highlight><highlight class="stringliteral">&quot;Dim<sp/>part1<sp/>As<sp/>Part\n&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="77"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>fprintf(<ref refid="class_post_1_1_part_1acfc76a6eafc95673a2c37b40e65405a5" kindref="member">file</ref>,<sp/></highlight><highlight class="stringliteral">&quot;Set<sp/>part1<sp/>=<sp/>partDocument1.Part\n\n&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="78"><highlight class="normal"></highlight></codeline>
+<codeline lineno="79"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>fprintf(<ref refid="class_post_1_1_part_1acfc76a6eafc95673a2c37b40e65405a5" kindref="member">file</ref>,<sp/></highlight><highlight class="stringliteral">&quot;Dim<sp/>bodies1<sp/>As<sp/>Bodies\n&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="80"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>fprintf(<ref refid="class_post_1_1_part_1acfc76a6eafc95673a2c37b40e65405a5" kindref="member">file</ref>,<sp/></highlight><highlight class="stringliteral">&quot;Set<sp/>bodies1<sp/>=<sp/>part1.Bodies\n\n&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="81"><highlight class="normal"></highlight></codeline>
+<codeline lineno="82"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>fprintf(<ref refid="class_post_1_1_part_1acfc76a6eafc95673a2c37b40e65405a5" kindref="member">file</ref>,<sp/></highlight><highlight class="stringliteral">&quot;Dim<sp/>body1<sp/>As<sp/>Body\n&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="83"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>fprintf(<ref refid="class_post_1_1_part_1acfc76a6eafc95673a2c37b40e65405a5" kindref="member">file</ref>,<sp/></highlight><highlight class="stringliteral">&quot;Set<sp/>body1<sp/>=<sp/>bodies1.Item(\&quot;PartBody\&quot;)\n\n&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="84"><highlight class="normal"></highlight></codeline>
+<codeline lineno="85"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>fprintf(<ref refid="class_post_1_1_part_1acfc76a6eafc95673a2c37b40e65405a5" kindref="member">file</ref>,<sp/></highlight><highlight class="stringliteral">&quot;Dim<sp/>sketches1<sp/>As<sp/>Sketches\n&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="86"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>fprintf(<ref refid="class_post_1_1_part_1acfc76a6eafc95673a2c37b40e65405a5" kindref="member">file</ref>,<sp/></highlight><highlight class="stringliteral">&quot;Set<sp/>sketches1<sp/>=<sp/>body1.Sketches\n\n&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="87"><highlight class="normal"></highlight></codeline>
+<codeline lineno="88"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>fprintf(<ref refid="class_post_1_1_part_1acfc76a6eafc95673a2c37b40e65405a5" kindref="member">file</ref>,<sp/></highlight><highlight class="stringliteral">&quot;Dim<sp/>originElements1<sp/>As<sp/>OriginElements\n&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="89"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>fprintf(<ref refid="class_post_1_1_part_1acfc76a6eafc95673a2c37b40e65405a5" kindref="member">file</ref>,<sp/></highlight><highlight class="stringliteral">&quot;Set<sp/>originElements1<sp/>=<sp/>part1.OriginElements\n\n&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="90"><highlight class="normal"></highlight></codeline>
+<codeline lineno="91"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>fprintf(<ref refid="class_post_1_1_part_1acfc76a6eafc95673a2c37b40e65405a5" kindref="member">file</ref>,<sp/></highlight><highlight class="stringliteral">&quot;Dim<sp/>shapeFactory1<sp/>As<sp/>Factory\n&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="92"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>fprintf(<ref refid="class_post_1_1_part_1acfc76a6eafc95673a2c37b40e65405a5" kindref="member">file</ref>,<sp/></highlight><highlight class="stringliteral">&quot;Set<sp/>shapeFactory1<sp/>=<sp/>part1.ShapeFactory\n\n&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="94"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="95"><highlight class="normal"></highlight></codeline>
+<codeline lineno="96" refid="class_post_1_1_part_1ac37eb586d3b30afddf0fcec4bc637c10" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="class_post_1_1_part_1a2257604aa6fc901a3e64185cf15262de" kindref="member">Part::Part</ref>(TransCAD::IPartPtr<sp/>_p,<sp/></highlight><highlight class="keywordtype">string</highlight><highlight class="normal"><sp/>fileName)</highlight><highlight class="comment">//used<sp/>Assembly<sp/>Part<sp/>:<sp/>if<sp/>you<sp/>already<sp/>have<sp/>TransCAD<sp/>Part<sp/>ptr(IPartPtr)<sp/>and<sp/>you<sp/>need<sp/>to<sp/>make<sp/>a<sp/>Script,<sp/>use<sp/>this<sp/>constructor</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="97"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//TransCAD<sp/>Document<sp/>is<sp/>not<sp/>Part<sp/>Document<sp/>=<sp/>AssemblyDoccument</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="98"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//filename<sp/>:<sp/>fullpath</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="99"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="100"><highlight class="normal"></highlight></codeline>
+<codeline lineno="101"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_post_1_1_part_1aed8bf00c8a73ff2d7c8e67ab3e824365" kindref="member">_spPart</ref><sp/>=<sp/>_p;<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>Set<sp/>TransCAD<sp/>Part<sp/>ptr</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="102"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_post_1_1_part_1a96499e27869e4f2b69212e55549bb4e9" kindref="member">_spFeatures</ref><sp/>=<sp/><ref refid="class_post_1_1_part_1aed8bf00c8a73ff2d7c8e67ab3e824365" kindref="member">_spPart</ref>-&gt;Features;<sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>Set<sp/>TransCAD<sp/>Features<sp/>ptr</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="103"><highlight class="normal"></highlight></codeline>
+<codeline lineno="104"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>최종<sp/>CATIA<sp/>매크로<sp/>파일이<sp/>위치할<sp/>경로</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="105"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>fopen_s(&amp;<ref refid="class_post_1_1_part_1acfc76a6eafc95673a2c37b40e65405a5" kindref="member">file</ref>,<sp/>fileName.c_str(),<sp/></highlight><highlight class="stringliteral">&quot;wt&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="106"><highlight class="normal"></highlight></codeline>
+<codeline lineno="107"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_post_1_1_part_1ab5f74460bbbf64f7f864389b63498cbc" kindref="member">_strPartName</ref><sp/>=<sp/>fileName;</highlight></codeline>
+<codeline lineno="109"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>fprintf(<ref refid="class_post_1_1_part_1acfc76a6eafc95673a2c37b40e65405a5" kindref="member">file</ref>,<sp/></highlight><highlight class="stringliteral">&quot;Language<sp/>=<sp/>\&quot;VBSCRIPT\&quot;\n\n&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="110"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>fprintf(<ref refid="class_post_1_1_part_1acfc76a6eafc95673a2c37b40e65405a5" kindref="member">file</ref>,<sp/></highlight><highlight class="stringliteral">&quot;Sub<sp/>CATMain()\n\n&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="111"><highlight class="normal"></highlight></codeline>
+<codeline lineno="112"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>fprintf(<ref refid="class_post_1_1_part_1acfc76a6eafc95673a2c37b40e65405a5" kindref="member">file</ref>,<sp/></highlight><highlight class="stringliteral">&quot;Dim<sp/>documents1<sp/>As<sp/>Documents\n&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="113"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>fprintf(<ref refid="class_post_1_1_part_1acfc76a6eafc95673a2c37b40e65405a5" kindref="member">file</ref>,<sp/></highlight><highlight class="stringliteral">&quot;Set<sp/>documents1<sp/>=<sp/>CATIA.Documents\n\n&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="114"><highlight class="normal"></highlight></codeline>
+<codeline lineno="115"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>fprintf(<ref refid="class_post_1_1_part_1acfc76a6eafc95673a2c37b40e65405a5" kindref="member">file</ref>,<sp/></highlight><highlight class="stringliteral">&quot;Dim<sp/>partDocument1<sp/>As<sp/>Document\n&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="116"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>fprintf(<ref refid="class_post_1_1_part_1acfc76a6eafc95673a2c37b40e65405a5" kindref="member">file</ref>,<sp/></highlight><highlight class="stringliteral">&quot;Set<sp/>partDocument1<sp/>=<sp/>documents1.Add(\&quot;Part\&quot;)\n\n&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="117"><highlight class="normal"></highlight></codeline>
+<codeline lineno="118"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>fprintf(<ref refid="class_post_1_1_part_1acfc76a6eafc95673a2c37b40e65405a5" kindref="member">file</ref>,<sp/></highlight><highlight class="stringliteral">&quot;Dim<sp/>part1<sp/>As<sp/>Part\n&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="119"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>fprintf(<ref refid="class_post_1_1_part_1acfc76a6eafc95673a2c37b40e65405a5" kindref="member">file</ref>,<sp/></highlight><highlight class="stringliteral">&quot;Set<sp/>part1<sp/>=<sp/>partDocument1.Part\n\n&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="120"><highlight class="normal"></highlight></codeline>
+<codeline lineno="121"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>fprintf(<ref refid="class_post_1_1_part_1acfc76a6eafc95673a2c37b40e65405a5" kindref="member">file</ref>,<sp/></highlight><highlight class="stringliteral">&quot;Dim<sp/>bodies1<sp/>As<sp/>Bodies\n&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="122"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>fprintf(<ref refid="class_post_1_1_part_1acfc76a6eafc95673a2c37b40e65405a5" kindref="member">file</ref>,<sp/></highlight><highlight class="stringliteral">&quot;Set<sp/>bodies1<sp/>=<sp/>part1.Bodies\n\n&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="123"><highlight class="normal"></highlight></codeline>
+<codeline lineno="124"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>fprintf(<ref refid="class_post_1_1_part_1acfc76a6eafc95673a2c37b40e65405a5" kindref="member">file</ref>,<sp/></highlight><highlight class="stringliteral">&quot;Dim<sp/>body1<sp/>As<sp/>Body\n&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="125"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>fprintf(<ref refid="class_post_1_1_part_1acfc76a6eafc95673a2c37b40e65405a5" kindref="member">file</ref>,<sp/></highlight><highlight class="stringliteral">&quot;Set<sp/>body1<sp/>=<sp/>bodies1.Item(\&quot;PartBody\&quot;)\n\n&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="126"><highlight class="normal"></highlight></codeline>
+<codeline lineno="127"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>fprintf(<ref refid="class_post_1_1_part_1acfc76a6eafc95673a2c37b40e65405a5" kindref="member">file</ref>,<sp/></highlight><highlight class="stringliteral">&quot;Dim<sp/>sketches1<sp/>As<sp/>Sketches\n&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="128"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>fprintf(<ref refid="class_post_1_1_part_1acfc76a6eafc95673a2c37b40e65405a5" kindref="member">file</ref>,<sp/></highlight><highlight class="stringliteral">&quot;Set<sp/>sketches1<sp/>=<sp/>body1.Sketches\n\n&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="129"><highlight class="normal"></highlight></codeline>
+<codeline lineno="130"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>fprintf(<ref refid="class_post_1_1_part_1acfc76a6eafc95673a2c37b40e65405a5" kindref="member">file</ref>,<sp/></highlight><highlight class="stringliteral">&quot;Dim<sp/>originElements1<sp/>As<sp/>OriginElements\n&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="131"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>fprintf(<ref refid="class_post_1_1_part_1acfc76a6eafc95673a2c37b40e65405a5" kindref="member">file</ref>,<sp/></highlight><highlight class="stringliteral">&quot;Set<sp/>originElements1<sp/>=<sp/>part1.OriginElements\n\n&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="132"><highlight class="normal"></highlight></codeline>
+<codeline lineno="133"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>fprintf(<ref refid="class_post_1_1_part_1acfc76a6eafc95673a2c37b40e65405a5" kindref="member">file</ref>,<sp/></highlight><highlight class="stringliteral">&quot;Dim<sp/>shapeFactory1<sp/>As<sp/>Factory\n&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="134"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>fprintf(<ref refid="class_post_1_1_part_1acfc76a6eafc95673a2c37b40e65405a5" kindref="member">file</ref>,<sp/></highlight><highlight class="stringliteral">&quot;Set<sp/>shapeFactory1<sp/>=<sp/>part1.ShapeFactory\n\n&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="136"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="137"><highlight class="normal"></highlight></codeline>
+<codeline lineno="138"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="139"><highlight class="normal"></highlight></codeline>
+<codeline lineno="140" refid="class_post_1_1_part_1ad5c638eccfd26784e87bf432c5a85688" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="class_post_1_1_part_1a2257604aa6fc901a3e64185cf15262de" kindref="member">Part::Part</ref>(TransCAD::IPartPtr<sp/>_p,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>f<sp/>=<sp/>0)<sp/></highlight><highlight class="comment">//used<sp/>Assembly<sp/>Part<sp/>:<sp/>if<sp/>you<sp/>already<sp/>have<sp/>TransCAD<sp/>Part<sp/>ptr(IPartPtr)<sp/>and<sp/>you<sp/>don&apos;t<sp/>need<sp/>to<sp/>make<sp/>a<sp/>Script,<sp/>use<sp/>this<sp/>constructor</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="141"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//TransCAD<sp/>Document<sp/>is<sp/>not<sp/>Part<sp/>Document<sp/>=<sp/>AssemblyDoccument</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="142"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="143"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_post_1_1_part_1aed8bf00c8a73ff2d7c8e67ab3e824365" kindref="member">_spPart</ref><sp/>=<sp/>_p;<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>Set<sp/>TransCAD<sp/>Part<sp/>ptr</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="144"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_post_1_1_part_1a96499e27869e4f2b69212e55549bb4e9" kindref="member">_spFeatures</ref><sp/>=<sp/><ref refid="class_post_1_1_part_1aed8bf00c8a73ff2d7c8e67ab3e824365" kindref="member">_spPart</ref>-&gt;Features;<sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>Set<sp/>TransCAD<sp/>Features<sp/>ptr</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="145"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="146"><highlight class="normal"></highlight></codeline>
+<codeline lineno="147"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="148"><highlight class="normal"></highlight></codeline>
+<codeline lineno="149" refid="class_post_1_1_part_1a6d8e1e6c3200a296bb301df7e52221d3" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="class_post_1_1_part_1a6d8e1e6c3200a296bb301df7e52221d3" kindref="member">Part::~Part</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">)</highlight></codeline>
+<codeline lineno="150"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="151"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>fprintf(<ref refid="class_post_1_1_part_1acfc76a6eafc95673a2c37b40e65405a5" kindref="member">file</ref>,<sp/></highlight><highlight class="stringliteral">&quot;part1.Update\n\n&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="152"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>fprintf(<ref refid="class_post_1_1_part_1acfc76a6eafc95673a2c37b40e65405a5" kindref="member">file</ref>,<sp/></highlight><highlight class="stringliteral">&quot;End<sp/>Sub\n&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="153"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>fclose(<ref refid="class_post_1_1_part_1acfc76a6eafc95673a2c37b40e65405a5" kindref="member">file</ref>);</highlight></codeline>
+<codeline lineno="154"><highlight class="normal"></highlight></codeline>
+<codeline lineno="155"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_post_1_1_part_1a3cc35a3d835798bd2b7412d5604cac1b" kindref="member">Clear</ref>();</highlight></codeline>
+<codeline lineno="156"><highlight class="normal"></highlight></codeline>
+<codeline lineno="157"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>Clear<sp/>TransCAD</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="158"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_post_1_1_part_1ae8a076ea6bd1b67b283a9fcd083792c6" kindref="member">_spDocument</ref><sp/>=<sp/>NULL;</highlight></codeline>
+<codeline lineno="159"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_post_1_1_part_1aed8bf00c8a73ff2d7c8e67ab3e824365" kindref="member">_spPart</ref><sp/>=<sp/>NULL;</highlight></codeline>
+<codeline lineno="160"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_post_1_1_part_1a96499e27869e4f2b69212e55549bb4e9" kindref="member">_spFeatures</ref><sp/>=<sp/>NULL;</highlight></codeline>
+<codeline lineno="161"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="namespace_post_1a38f6250d10787730d93c5c083d3dcf7f" kindref="member">g_spApplication</ref><sp/>=<sp/>NULL;</highlight></codeline>
+<codeline lineno="162"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="163"><highlight class="normal"></highlight></codeline>
+<codeline lineno="164" refid="class_post_1_1_part_1a3cc35a3d835798bd2b7412d5604cac1b" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_post_1_1_part_1a3cc35a3d835798bd2b7412d5604cac1b" kindref="member">Part::Clear</ref>()</highlight></codeline>
+<codeline lineno="165"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="166"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>std::vector&lt;Feature<sp/>*&gt;::iterator<sp/>i<sp/>=<sp/><ref refid="class_post_1_1_part_1a58fac1113335a9dec0a990dee4e33e1a" kindref="member">_featureList</ref>.begin();</highlight></codeline>
+<codeline lineno="167"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">while</highlight><highlight class="normal"><sp/>(i<sp/>!=<sp/><ref refid="class_post_1_1_part_1a58fac1113335a9dec0a990dee4e33e1a" kindref="member">_featureList</ref>.end())</highlight></codeline>
+<codeline lineno="168"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="169"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">delete</highlight><highlight class="normal"><sp/>*i;</highlight></codeline>
+<codeline lineno="170"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>++i;</highlight></codeline>
+<codeline lineno="171"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="172"><highlight class="normal"></highlight></codeline>
+<codeline lineno="173"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_post_1_1_part_1a58fac1113335a9dec0a990dee4e33e1a" kindref="member">_featureList</ref>.clear();</highlight></codeline>
+<codeline lineno="174"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="175"><highlight class="normal"></highlight></codeline>
+<codeline lineno="176" refid="class_post_1_1_part_1a07f75907c17887e5f7576fb9d726a469" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="class_post_1_1_feature" kindref="compound">Feature</ref><sp/>*<sp/><ref refid="class_post_1_1_part_1a07f75907c17887e5f7576fb9d726a469" kindref="member">Part::GetFeatureByName</ref>(</highlight><highlight class="keywordtype">string</highlight><highlight class="normal"><sp/>name)</highlight></codeline>
+<codeline lineno="177"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="178"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">for</highlight><highlight class="normal"><sp/>(</highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>i<sp/>=<sp/>0;<sp/>(</highlight><highlight class="keywordtype">unsigned</highlight><highlight class="normal"><sp/>int)i<sp/>&lt;<sp/><ref refid="class_post_1_1_part_1a84448a04d48c260eb780831d8430e038" kindref="member">GetSize</ref>();<sp/>++i)</highlight></codeline>
+<codeline lineno="179"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="180"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_post_1_1_feature" kindref="compound">Feature</ref><sp/>*<sp/>pFeature<sp/>=<sp/><ref refid="class_post_1_1_part_1afc364489a6b0a8b9d085fc1f53e29986" kindref="member">GetFeature</ref>((</highlight><highlight class="keywordtype">int</highlight><highlight class="normal">)i);</highlight></codeline>
+<codeline lineno="181"><highlight class="normal"></highlight></codeline>
+<codeline lineno="182"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(name<sp/>==<sp/>pFeature-&gt;<ref refid="class_post_1_1_feature_1a68d3fb9f274c6170d83e2a51d01400ac" kindref="member">GetFeatureName</ref>())</highlight></codeline>
+<codeline lineno="183"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>pFeature;</highlight></codeline>
+<codeline lineno="184"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="185"><highlight class="normal"></highlight></codeline>
+<codeline lineno="186"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>NULL;</highlight></codeline>
+<codeline lineno="187"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="188"><highlight class="normal"></highlight></codeline>
+<codeline lineno="189" refid="class_post_1_1_part_1a794aead29a8756e83fddc77a278a33e1" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="class_post_1_1_feature" kindref="compound">Feature</ref><sp/>*<sp/><ref refid="class_post_1_1_part_1a794aead29a8756e83fddc77a278a33e1" kindref="member">Part::CreateFeature</ref>(TransCAD::IFeaturePtr<sp/>spFeature)</highlight></codeline>
+<codeline lineno="190"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="191"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_post_1_1_feature" kindref="compound">Feature</ref><sp/>*<sp/>pFeature<sp/>=<sp/>0;</highlight></codeline>
+<codeline lineno="192"><highlight class="normal"></highlight></codeline>
+<codeline lineno="193"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="namespace_post_1a757521acb19b64cd9a29879d6c5a7d5f" kindref="member">g_pRefManager</ref>-&gt;<ref refid="class_post_1_1_c_a_t_i_a_reference_manager_1a1d1deb3d6ea4b87ad8fb51765dc05e85" kindref="member">AddNewFeature</ref>(spFeature);</highlight></codeline>
+<codeline lineno="194"><highlight class="normal"></highlight></codeline>
+<codeline lineno="195"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">switch</highlight><highlight class="normal"><sp/>(spFeature-&gt;Type)</highlight></codeline>
+<codeline lineno="196"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="197"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">case</highlight><highlight class="normal"><sp/>TransCAD::StdSketchFeature:</highlight></codeline>
+<codeline lineno="198"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>pFeature<sp/>=<sp/></highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/><ref refid="class_post_1_1_f_sketch" kindref="compound">FSketch</ref>(</highlight><highlight class="keyword">this</highlight><highlight class="normal">,<sp/>spFeature);</highlight></codeline>
+<codeline lineno="199"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>cout<sp/>&lt;&lt;<sp/></highlight><highlight class="stringliteral">&quot;<sp/>-&gt;<sp/>&quot;</highlight><highlight class="normal"><sp/>&lt;&lt;<sp/></highlight><highlight class="stringliteral">&quot;FSketch<sp/>created&quot;</highlight><highlight class="normal"><sp/>&lt;&lt;<sp/>endl;</highlight></codeline>
+<codeline lineno="200"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">break</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="201"><highlight class="normal"></highlight></codeline>
+<codeline lineno="202"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">case</highlight><highlight class="normal"><sp/>TransCAD::StdSolidProtrusionExtrudeFeature:</highlight></codeline>
+<codeline lineno="203"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>pFeature<sp/>=<sp/></highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/><ref refid="class_post_1_1_feature_s_o_l_i_d_create_protrusion_extrude" kindref="compound">FeatureSOLIDCreateProtrusionExtrude</ref>(</highlight><highlight class="keyword">this</highlight><highlight class="normal">,<sp/>spFeature);</highlight></codeline>
+<codeline lineno="204"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>cout<sp/>&lt;&lt;<sp/></highlight><highlight class="stringliteral">&quot;<sp/>-&gt;<sp/>&quot;</highlight><highlight class="normal"><sp/>&lt;&lt;<sp/></highlight><highlight class="stringliteral">&quot;FeatureSOLIDCreateProtrusionExtrude<sp/>created&quot;</highlight><highlight class="normal"><sp/>&lt;&lt;<sp/>endl;</highlight></codeline>
+<codeline lineno="205"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">break</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="206"><highlight class="normal"></highlight></codeline>
+<codeline lineno="207"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">case</highlight><highlight class="normal"><sp/>TransCAD::StdSolidCutExtrudeFeature:</highlight></codeline>
+<codeline lineno="208"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>pFeature<sp/>=<sp/></highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/><ref refid="class_post_1_1_feature_s_o_l_i_d_create_cut_extrude" kindref="compound">FeatureSOLIDCreateCutExtrude</ref>(</highlight><highlight class="keyword">this</highlight><highlight class="normal">,<sp/>spFeature);</highlight></codeline>
+<codeline lineno="209"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>cout<sp/>&lt;&lt;<sp/></highlight><highlight class="stringliteral">&quot;<sp/>-&gt;<sp/>&quot;</highlight><highlight class="normal"><sp/>&lt;&lt;<sp/></highlight><highlight class="stringliteral">&quot;FeatureSOLIDCreateCutExtrude<sp/>created&quot;</highlight><highlight class="normal"><sp/>&lt;&lt;<sp/>endl;</highlight></codeline>
+<codeline lineno="210"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">break</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="211"><highlight class="normal"></highlight></codeline>
+<codeline lineno="212"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">case</highlight><highlight class="normal"><sp/>TransCAD::StdSolidFilletConstantFeature:</highlight></codeline>
+<codeline lineno="213"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>pFeature<sp/>=<sp/></highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/><ref refid="class_post_1_1_feature_s_o_l_i_d_create_fillet_constant" kindref="compound">FeatureSOLIDCreateFilletConstant</ref>(</highlight><highlight class="keyword">this</highlight><highlight class="normal">,<sp/>spFeature);</highlight></codeline>
+<codeline lineno="214"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>cout<sp/>&lt;&lt;<sp/></highlight><highlight class="stringliteral">&quot;<sp/>-&gt;<sp/>&quot;</highlight><highlight class="normal"><sp/>&lt;&lt;<sp/></highlight><highlight class="stringliteral">&quot;FeatureSOLIDCreateFilletConstant<sp/>created&quot;</highlight><highlight class="normal"><sp/>&lt;&lt;<sp/>endl;</highlight></codeline>
+<codeline lineno="215"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">break</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="216"><highlight class="normal"></highlight></codeline>
+<codeline lineno="217"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">case</highlight><highlight class="normal"><sp/>TransCAD::StdDefaultDatumPlaneFeature:</highlight></codeline>
+<codeline lineno="218"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>pFeature<sp/>=<sp/></highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/><ref refid="class_post_1_1_f_datum_plane" kindref="compound">FDatumPlane</ref>(</highlight><highlight class="keyword">this</highlight><highlight class="normal">,<sp/>spFeature);</highlight></codeline>
+<codeline lineno="219"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>cout<sp/>&lt;&lt;<sp/></highlight><highlight class="stringliteral">&quot;<sp/>-&gt;<sp/>&quot;</highlight><highlight class="normal"><sp/>&lt;&lt;<sp/></highlight><highlight class="stringliteral">&quot;FDatumPlane<sp/>created&quot;</highlight><highlight class="normal"><sp/>&lt;&lt;<sp/>endl;</highlight></codeline>
+<codeline lineno="220"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">break</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="221"><highlight class="normal"></highlight></codeline>
+<codeline lineno="222"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">case</highlight><highlight class="normal"><sp/>TransCAD::StdSolidProtrusionSweepFeature:</highlight></codeline>
+<codeline lineno="223"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>pFeature<sp/>=<sp/></highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/><ref refid="class_post_1_1_feature_s_o_l_i_d_create_protrusion_sweep" kindref="compound">FeatureSOLIDCreateProtrusionSweep</ref>(</highlight><highlight class="keyword">this</highlight><highlight class="normal">,<sp/>spFeature);</highlight></codeline>
+<codeline lineno="224"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>cout<sp/>&lt;&lt;<sp/></highlight><highlight class="stringliteral">&quot;<sp/>-&gt;<sp/>&quot;</highlight><highlight class="normal"><sp/>&lt;&lt;<sp/></highlight><highlight class="stringliteral">&quot;FeatureSOLIDCreateProtrusionSweep<sp/>created&quot;</highlight><highlight class="normal"><sp/>&lt;&lt;<sp/>endl;</highlight></codeline>
+<codeline lineno="225"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">break</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="226"><highlight class="normal"></highlight></codeline>
+<codeline lineno="227"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">case</highlight><highlight class="normal"><sp/>TransCAD::StdSolidProtrusionRevolveFeature:</highlight></codeline>
+<codeline lineno="228"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>pFeature<sp/>=<sp/></highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/><ref refid="class_post_1_1_feature_s_o_l_i_d_create_protrusion_revolve" kindref="compound">FeatureSOLIDCreateProtrusionRevolve</ref>(</highlight><highlight class="keyword">this</highlight><highlight class="normal">,<sp/>spFeature);</highlight></codeline>
+<codeline lineno="229"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>cout<sp/>&lt;&lt;<sp/></highlight><highlight class="stringliteral">&quot;<sp/>-&gt;<sp/>&quot;</highlight><highlight class="normal"><sp/>&lt;&lt;<sp/></highlight><highlight class="stringliteral">&quot;FeatureSOLIDCreateProtrusionRevolve<sp/>created&quot;</highlight><highlight class="normal"><sp/>&lt;&lt;<sp/>endl;</highlight></codeline>
+<codeline lineno="230"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">break</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="231"><highlight class="normal"></highlight></codeline>
+<codeline lineno="232"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">case</highlight><highlight class="normal"><sp/>TransCAD::StdSolidChamferFeature:</highlight></codeline>
+<codeline lineno="233"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>pFeature<sp/>=<sp/></highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/><ref refid="class_post_1_1_feature_s_o_l_i_d_create_chamfer" kindref="compound">FeatureSOLIDCreateChamfer</ref>(</highlight><highlight class="keyword">this</highlight><highlight class="normal">,<sp/>spFeature);</highlight></codeline>
+<codeline lineno="234"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>cout<sp/>&lt;&lt;<sp/></highlight><highlight class="stringliteral">&quot;<sp/>-&gt;<sp/>&quot;</highlight><highlight class="normal"><sp/>&lt;&lt;<sp/></highlight><highlight class="stringliteral">&quot;FeatureSOLIDCreateChamfer<sp/>created&quot;</highlight><highlight class="normal"><sp/>&lt;&lt;<sp/>endl;</highlight></codeline>
+<codeline lineno="235"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">break</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="236"><highlight class="normal"></highlight></codeline>
+<codeline lineno="237"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">case</highlight><highlight class="normal"><sp/>TransCAD::StdSolidCutRevolveFeature:</highlight></codeline>
+<codeline lineno="238"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>pFeature<sp/>=<sp/></highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/><ref refid="class_post_1_1_feature_s_o_l_i_d_create_cut_revolve" kindref="compound">FeatureSOLIDCreateCutRevolve</ref>(</highlight><highlight class="keyword">this</highlight><highlight class="normal">,<sp/>spFeature);</highlight></codeline>
+<codeline lineno="239"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>cout<sp/>&lt;&lt;<sp/></highlight><highlight class="stringliteral">&quot;<sp/>-&gt;<sp/>&quot;</highlight><highlight class="normal"><sp/>&lt;&lt;<sp/></highlight><highlight class="stringliteral">&quot;FeatureSOLIDCreateCutRevolve<sp/>created&quot;</highlight><highlight class="normal"><sp/>&lt;&lt;<sp/>endl;</highlight></codeline>
+<codeline lineno="240"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">break</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="241"><highlight class="normal"></highlight></codeline>
+<codeline lineno="242"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">case</highlight><highlight class="normal"><sp/>TransCAD::StdDatumPlaneOffsetFeature:</highlight></codeline>
+<codeline lineno="243"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>pFeature<sp/>=<sp/></highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/><ref refid="class_post_1_1_f_datum_plane_offset" kindref="compound">FDatumPlaneOffset</ref>(</highlight><highlight class="keyword">this</highlight><highlight class="normal">,<sp/>spFeature);</highlight></codeline>
+<codeline lineno="244"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>cout<sp/>&lt;&lt;<sp/></highlight><highlight class="stringliteral">&quot;<sp/>-&gt;<sp/>&quot;</highlight><highlight class="normal"><sp/>&lt;&lt;<sp/></highlight><highlight class="stringliteral">&quot;FDatumPlaneOffset<sp/>created&quot;</highlight><highlight class="normal"><sp/>&lt;&lt;<sp/>endl;</highlight></codeline>
+<codeline lineno="245"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">break</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="246"><highlight class="normal"></highlight></codeline>
+<codeline lineno="247"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">case</highlight><highlight class="normal"><sp/>TransCAD::StdSolidOperatePatternRectangularFeature:</highlight></codeline>
+<codeline lineno="248"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>pFeature<sp/>=<sp/></highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/><ref refid="class_post_1_1_feature_s_o_l_i_d_create_pattern_rectangular" kindref="compound">FeatureSOLIDCreatePatternRectangular</ref>(</highlight><highlight class="keyword">this</highlight><highlight class="normal">,<sp/>spFeature);</highlight></codeline>
+<codeline lineno="249"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>cout<sp/>&lt;&lt;<sp/></highlight><highlight class="stringliteral">&quot;<sp/>-&gt;<sp/>&quot;</highlight><highlight class="normal"><sp/>&lt;&lt;<sp/></highlight><highlight class="stringliteral">&quot;FeatureSOLIDCreatePatternRectangular<sp/>created&quot;</highlight><highlight class="normal"><sp/>&lt;&lt;<sp/>endl;</highlight></codeline>
+<codeline lineno="250"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">break</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="251"><highlight class="normal"></highlight></codeline>
+<codeline lineno="252"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">case</highlight><highlight class="normal"><sp/>TransCAD::StdSolidOperatePatternCircularFeature:</highlight></codeline>
+<codeline lineno="253"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>pFeature<sp/>=<sp/></highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/><ref refid="class_post_1_1_feature_s_o_l_i_d_create_pattern_circular" kindref="compound">FeatureSOLIDCreatePatternCircular</ref>(</highlight><highlight class="keyword">this</highlight><highlight class="normal">,<sp/>spFeature);</highlight></codeline>
+<codeline lineno="254"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>cout<sp/>&lt;&lt;<sp/></highlight><highlight class="stringliteral">&quot;<sp/>-&gt;<sp/>&quot;</highlight><highlight class="normal"><sp/>&lt;&lt;<sp/></highlight><highlight class="stringliteral">&quot;FeatureSOLIDCreatePatternCircular<sp/>created&quot;</highlight><highlight class="normal"><sp/>&lt;&lt;<sp/>endl;</highlight></codeline>
+<codeline lineno="255"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">break</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="256"><highlight class="normal"></highlight></codeline>
+<codeline lineno="257"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">case</highlight><highlight class="normal"><sp/>TransCAD::StdSolidHoleCounterboredFeature:</highlight></codeline>
+<codeline lineno="258"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>pFeature<sp/>=<sp/></highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/><ref refid="class_post_1_1_feature_s_o_l_i_d_create_hole_counterbored" kindref="compound">FeatureSOLIDCreateHoleCounterbored</ref>(</highlight><highlight class="keyword">this</highlight><highlight class="normal">,<sp/>spFeature);</highlight></codeline>
+<codeline lineno="259"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>cout<sp/>&lt;&lt;<sp/></highlight><highlight class="stringliteral">&quot;<sp/>-&gt;<sp/>&quot;</highlight><highlight class="normal"><sp/>&lt;&lt;<sp/></highlight><highlight class="stringliteral">&quot;FeatureSOLIDCreateHoleCounterbored<sp/>created&quot;</highlight><highlight class="normal"><sp/>&lt;&lt;<sp/>endl;</highlight></codeline>
+<codeline lineno="260"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">break</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="261"><highlight class="normal"></highlight></codeline>
+<codeline lineno="262"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">case</highlight><highlight class="normal"><sp/>TransCAD::StdSolidHoleCountersunkFeature:</highlight></codeline>
+<codeline lineno="263"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>pFeature<sp/>=<sp/></highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/><ref refid="class_post_1_1_feature_s_o_l_i_d_create_hole_countersunk" kindref="compound">FeatureSOLIDCreateHoleCountersunk</ref>(</highlight><highlight class="keyword">this</highlight><highlight class="normal">,<sp/>spFeature);</highlight></codeline>
+<codeline lineno="264"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>cout<sp/>&lt;&lt;<sp/></highlight><highlight class="stringliteral">&quot;<sp/>-&gt;<sp/>&quot;</highlight><highlight class="normal"><sp/>&lt;&lt;<sp/></highlight><highlight class="stringliteral">&quot;FeatureSOLIDCreateHoleCountersunk<sp/>created&quot;</highlight><highlight class="normal"><sp/>&lt;&lt;<sp/>endl;</highlight></codeline>
+<codeline lineno="265"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">break</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="266"><highlight class="normal"></highlight></codeline>
+<codeline lineno="267"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">case</highlight><highlight class="normal"><sp/>TransCAD::StdSolidLoftFacesFeature:</highlight></codeline>
+<codeline lineno="268"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>pFeature<sp/>=<sp/></highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/><ref refid="class_post_1_1_feature_s_o_l_i_d_create_faces_loft" kindref="compound">FeatureSOLIDCreateFacesLoft</ref>(</highlight><highlight class="keyword">this</highlight><highlight class="normal">,<sp/>spFeature);</highlight></codeline>
+<codeline lineno="269"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>cout<sp/>&lt;&lt;<sp/></highlight><highlight class="stringliteral">&quot;<sp/>-&gt;<sp/>&quot;</highlight><highlight class="normal"><sp/>&lt;&lt;<sp/></highlight><highlight class="stringliteral">&quot;FeatureSOLIDCreateFacesLoft<sp/>created&quot;</highlight><highlight class="normal"><sp/>&lt;&lt;<sp/>endl;</highlight></codeline>
+<codeline lineno="270"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">break</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="271"><highlight class="normal"></highlight></codeline>
+<codeline lineno="272"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">case</highlight><highlight class="normal"><sp/>TransCAD::StdSolidLoftSectionsFeature:</highlight></codeline>
+<codeline lineno="273"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>pFeature<sp/>=<sp/></highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/><ref refid="class_post_1_1_feature_s_o_l_i_d_create_sections_loft" kindref="compound">FeatureSOLIDCreateSectionsLoft</ref>(</highlight><highlight class="keyword">this</highlight><highlight class="normal">,<sp/>spFeature);</highlight></codeline>
+<codeline lineno="274"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>cout<sp/>&lt;&lt;<sp/></highlight><highlight class="stringliteral">&quot;<sp/>-&gt;<sp/>&quot;</highlight><highlight class="normal"><sp/>&lt;&lt;<sp/></highlight><highlight class="stringliteral">&quot;FeatureSOLIDCreateSectionsLoft<sp/>created&quot;</highlight><highlight class="normal"><sp/>&lt;&lt;<sp/>endl;</highlight></codeline>
+<codeline lineno="275"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">break</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="276"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="277"><highlight class="normal"></highlight></codeline>
+<codeline lineno="278"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(pFeature)</highlight></codeline>
+<codeline lineno="279"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_post_1_1_part_1a58fac1113335a9dec0a990dee4e33e1a" kindref="member">_featureList</ref>.push_back(pFeature);</highlight></codeline>
+<codeline lineno="280"><highlight class="normal"></highlight></codeline>
+<codeline lineno="281"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>pFeature;</highlight></codeline>
+<codeline lineno="282"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="283"><highlight class="normal"></highlight></codeline>
+<codeline lineno="284" refid="class_post_1_1_part_1afce2710ace93d175f5f4f9ba56493a14" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_post_1_1_part_1afce2710ace93d175f5f4f9ba56493a14" kindref="member">Part::GetInfo</ref>()</highlight></codeline>
+<codeline lineno="285"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="286"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//-------<sp/><sp/>Create<sp/>features<sp/>existing<sp/>in<sp/>TransCAD<sp/>and<sp/>save<sp/>it<sp/>into<sp/>_featureList<sp/><sp/>--------//</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="287"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">for</highlight><highlight class="normal"><sp/>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>i<sp/>=<sp/>1;<sp/>i<sp/>&lt;=<sp/><ref refid="class_post_1_1_part_1a96499e27869e4f2b69212e55549bb4e9" kindref="member">_spFeatures</ref>-&gt;Count;<sp/>++i)</highlight></codeline>
+<codeline lineno="288"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="289"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_post_1_1_feature" kindref="compound">Feature</ref><sp/>*<sp/>pFeature<sp/>=<sp/><ref refid="class_post_1_1_part_1a794aead29a8756e83fddc77a278a33e1" kindref="member">CreateFeature</ref>(<ref refid="class_post_1_1_part_1a96499e27869e4f2b69212e55549bb4e9" kindref="member">_spFeatures</ref>-&gt;Item[i]);</highlight></codeline>
+<codeline lineno="290"><highlight class="normal"></highlight></codeline>
+<codeline lineno="291"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(!pFeature)</highlight></codeline>
+<codeline lineno="292"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>cerr<sp/>&lt;&lt;<sp/></highlight><highlight class="stringliteral">&quot;**<sp/>Cannot<sp/>support<sp/>this<sp/>feature<sp/>type<sp/>yet!<sp/>**&quot;</highlight><highlight class="normal"><sp/>&lt;&lt;<sp/>endl;</highlight></codeline>
+<codeline lineno="293"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="294"><highlight class="normal"></highlight></codeline>
+<codeline lineno="295"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//-------<sp/><sp/>Get<sp/>TransCAD<sp/>Features<sp/>information<sp/>into<sp/>_featureList<sp/><sp/>--------//</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="296"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">for</highlight><highlight class="normal"><sp/>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>i<sp/>=<sp/>0;<sp/>(</highlight><highlight class="keywordtype">unsigned</highlight><highlight class="normal"><sp/>int)i<sp/>&lt;<sp/><ref refid="class_post_1_1_part_1a84448a04d48c260eb780831d8430e038" kindref="member">GetSize</ref>();<sp/>++i)</highlight></codeline>
+<codeline lineno="297"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="298"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>cout<sp/>&lt;&lt;<sp/></highlight><highlight class="stringliteral">&quot;Index(&quot;</highlight><highlight class="normal"><sp/>&lt;&lt;<sp/>i<sp/>&lt;&lt;<sp/></highlight><highlight class="stringliteral">&quot;)<sp/>&quot;</highlight><highlight class="normal"><sp/>&lt;&lt;<sp/>(<ref refid="class_post_1_1_part_1afc364489a6b0a8b9d085fc1f53e29986" kindref="member">GetFeature</ref>(i))-&gt;GetFeatureName()<sp/>&lt;&lt;<sp/></highlight><highlight class="stringliteral">&quot;<sp/>feature<sp/>is<sp/>being<sp/>translated.&quot;</highlight><highlight class="normal"><sp/>&lt;&lt;<sp/>endl;<sp/><sp/></highlight><highlight class="comment">//DEBUG</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="299"><highlight class="normal"></highlight></codeline>
+<codeline lineno="300"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>(<ref refid="class_post_1_1_part_1afc364489a6b0a8b9d085fc1f53e29986" kindref="member">GetFeature</ref>(i))-&gt;<ref refid="class_post_1_1_part_1afce2710ace93d175f5f4f9ba56493a14" kindref="member">GetInfo</ref>();</highlight></codeline>
+<codeline lineno="301"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="302"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="303"><highlight class="normal"></highlight></codeline>
+<codeline lineno="304" refid="class_post_1_1_part_1adc255ebba204dd825fe5e330debb7caa" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_post_1_1_part_1adc255ebba204dd825fe5e330debb7caa" kindref="member">Part::ToCATIA</ref>()</highlight></codeline>
+<codeline lineno="305"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="306"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//-------<sp/><sp/>Get<sp/>TransCAD<sp/>Features<sp/>information<sp/>into<sp/>_featureList<sp/><sp/>--------//</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="307"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">for</highlight><highlight class="normal"><sp/>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>i<sp/>=<sp/>0;<sp/>(</highlight><highlight class="keywordtype">unsigned</highlight><highlight class="normal"><sp/>int)i<sp/>&lt;<sp/><ref refid="class_post_1_1_part_1a84448a04d48c260eb780831d8430e038" kindref="member">GetSize</ref>();<sp/>++i)</highlight></codeline>
+<codeline lineno="308"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="309"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>cout<sp/>&lt;&lt;<sp/></highlight><highlight class="stringliteral">&quot;Index(&quot;</highlight><highlight class="normal"><sp/>&lt;&lt;<sp/>i<sp/>&lt;&lt;<sp/></highlight><highlight class="stringliteral">&quot;)<sp/>&quot;</highlight><highlight class="normal"><sp/>&lt;&lt;<sp/>(<ref refid="class_post_1_1_part_1afc364489a6b0a8b9d085fc1f53e29986" kindref="member">GetFeature</ref>(i))-&gt;GetFeatureName()<sp/>&lt;&lt;<sp/></highlight><highlight class="stringliteral">&quot;<sp/>feature<sp/>is<sp/>being<sp/>translated.&quot;</highlight><highlight class="normal"><sp/>&lt;&lt;<sp/>endl;<sp/><sp/></highlight><highlight class="comment">//DEBUG</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="310"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>(<ref refid="class_post_1_1_part_1afc364489a6b0a8b9d085fc1f53e29986" kindref="member">GetFeature</ref>(i))-&gt;<ref refid="class_post_1_1_part_1adc255ebba204dd825fe5e330debb7caa" kindref="member">ToCATIA</ref>();</highlight></codeline>
+<codeline lineno="311"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="312"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="313"><highlight class="normal"></highlight></codeline>
+<codeline lineno="314" refid="class_post_1_1_part_1afa2055a5c24cd753a3b5d9900950d987" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_post_1_1_part_1afa2055a5c24cd753a3b5d9900950d987" kindref="member">Part::ExternModeToggle</ref>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>mode)<sp/>{</highlight></codeline>
+<codeline lineno="315"><highlight class="normal"></highlight></codeline>
+<codeline lineno="316"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="_post_manager_2ref_2_part_8cpp_1a7a8829f663f72e520593688e551c372e" kindref="member">ExternMode</ref><sp/>=<sp/>mode;</highlight></codeline>
+<codeline lineno="317"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="318"><highlight class="normal"></highlight></codeline>
+<codeline lineno="319" refid="class_post_1_1_part_1a3aec7e70aa614b5823544d87d700cce6" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_post_1_1_part_1a3aec7e70aa614b5823544d87d700cce6" kindref="member">Part::InitReferManager</ref>()<sp/>{</highlight></codeline>
+<codeline lineno="320"><highlight class="normal"></highlight></codeline>
+<codeline lineno="321"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//g_pRefManager-&gt;~CATIAReferenceManager();</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="322"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="_post_manager_2ref_2_part_8cpp_1a4a001227aeffed8767cfd035c687e1ca" kindref="member">ref_index</ref><sp/>=<sp/>1;</highlight></codeline>
+<codeline lineno="323"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="_post_manager_2ref_2_part_8cpp_1ac2c4ff63490b6532ebb2ff323b2b0df1" kindref="member">repname_index</ref><sp/>=<sp/>1;</highlight></codeline>
+<codeline lineno="324"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="_post_manager_2ref_2_part_8cpp_1ab856c50c5e05dee4c52ae991cc9cf5eb" kindref="member">pt_index</ref><sp/>=<sp/>1;</highlight></codeline>
+<codeline lineno="325"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="_post_manager_2ref_2_part_8cpp_1aeb445a927ac5b1b741fdb4f80d547ad2" kindref="member">ln_index</ref><sp/>=<sp/>1;</highlight></codeline>
+<codeline lineno="326"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="_post_manager_2ref_2_part_8cpp_1a217bd7e0678e7561d064b89ef20cea83" kindref="member">arr_index</ref><sp/>=<sp/>1;</highlight></codeline>
+<codeline lineno="327"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="_post_manager_2ref_2_part_8cpp_1a0d3b3f4a67d270d635cabd1ac668881b" kindref="member">fac_index</ref><sp/>=<sp/>1;</highlight></codeline>
+<codeline lineno="328"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="_post_manager_2ref_2_part_8cpp_1a9d0ccac49c6fa3a640bc5e48bef71480" kindref="member">lim_index</ref><sp/>=<sp/>1;</highlight></codeline>
+<codeline lineno="329"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="_post_manager_2ref_2_part_8cpp_1a022e63e0684ba8af19134ea0510837f1" kindref="member">lng_index</ref><sp/>=<sp/>1;</highlight></codeline>
+<codeline lineno="330"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="_post_manager_2ref_2_part_8cpp_1a019d2786df3a9bf26d2731fe80b2fc66" kindref="member">circle_index</ref><sp/>=<sp/>1;</highlight></codeline>
+<codeline lineno="331"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="_post_manager_2ref_2_part_8cpp_1a0dbf0a49be0c3f6f56054c0efbb53c31" kindref="member">sktch</ref><sp/>=<sp/>1;</highlight></codeline>
+<codeline lineno="332"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="_post_manager_2ref_2_part_8cpp_1a4755ab04787eb624e9b84fce74ea4e1f" kindref="member">holecounterID</ref><sp/>=<sp/>1;</highlight></codeline>
+<codeline lineno="333"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="_post_manager_2ref_2_part_8cpp_1ab19f712b4a42f729c4b03c85bf315239" kindref="member">ang_index</ref><sp/>=<sp/>1;</highlight></codeline>
+<codeline lineno="334"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="_post_manager_2ref_2_part_8cpp_1a60611a1ea7e60d33ae29f4a3a535d0ae" kindref="member">DatumPlaneID</ref><sp/>=<sp/>1;</highlight></codeline>
+<codeline lineno="335"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="336"><highlight class="normal">}</highlight></codeline>
+    </programlisting>
+    <location file="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/PostManager/ref/Part.cpp"/>
+  </compounddef>
+</doxygen>

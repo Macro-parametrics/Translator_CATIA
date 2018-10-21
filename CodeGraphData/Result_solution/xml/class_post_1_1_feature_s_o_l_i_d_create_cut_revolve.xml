@@ -1,0 +1,297 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_post_1_1_feature_s_o_l_i_d_create_cut_revolve" kind="class" prot="public">
+    <compoundname>Post::FeatureSOLIDCreateCutRevolve</compoundname>
+    <basecompoundref refid="class_post_1_1_feature" prot="public" virt="non-virtual">Post::Feature</basecompoundref>
+    <includes refid="_feature_s_o_l_i_d_create_cut_revolve_8h" local="no">FeatureSOLIDCreateCutRevolve.h</includes>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_post_1_1_feature_s_o_l_i_d_create_cut_revolve_1a7cd6d7f26d1c94da146e2eecb0a90e54" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool Post::FeatureSOLIDCreateCutRevolve::_flip</definition>
+        <argsstring></argsstring>
+        <name>_flip</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/PostManager/ref/FeatureSOLIDCreateCutRevolve.h" line="18" column="1" bodyfile="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/PostManager/ref/FeatureSOLIDCreateCutRevolve.h" bodystart="18" bodyend="-1"/>
+        <referencedby refid="class_post_1_1_feature_s_o_l_i_d_create_cut_revolve_1a2659311498b64a4487e7b5d3cc4449d4" compoundref="_feature_s_o_l_i_d_create_cut_revolve_8cpp" startline="15" endline="40">GetInfo</referencedby>
+        <referencedby refid="class_post_1_1_feature_s_o_l_i_d_create_cut_revolve_1a943c15cf026572c40cb9d5d64b94ea55" compoundref="_feature_s_o_l_i_d_create_cut_revolve_8cpp" startline="42" endline="78">ToCATIA</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_post_1_1_feature_s_o_l_i_d_create_cut_revolve_1ae62633db6cb9ed0b5f8402c59205cccc" prot="private" static="no" mutable="no">
+        <type>double</type>
+        <definition>double Post::FeatureSOLIDCreateCutRevolve::_startAngle</definition>
+        <argsstring></argsstring>
+        <name>_startAngle</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/PostManager/ref/FeatureSOLIDCreateCutRevolve.h" line="19" column="1" bodyfile="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/PostManager/ref/FeatureSOLIDCreateCutRevolve.h" bodystart="19" bodyend="-1"/>
+        <referencedby refid="class_post_1_1_feature_s_o_l_i_d_create_cut_revolve_1a2659311498b64a4487e7b5d3cc4449d4" compoundref="_feature_s_o_l_i_d_create_cut_revolve_8cpp" startline="15" endline="40">GetInfo</referencedby>
+        <referencedby refid="class_post_1_1_feature_s_o_l_i_d_create_cut_revolve_1a943c15cf026572c40cb9d5d64b94ea55" compoundref="_feature_s_o_l_i_d_create_cut_revolve_8cpp" startline="42" endline="78">ToCATIA</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_post_1_1_feature_s_o_l_i_d_create_cut_revolve_1aa71f09b198537e0956e54d051feed0d7" prot="private" static="no" mutable="no">
+        <type>double</type>
+        <definition>double Post::FeatureSOLIDCreateCutRevolve::_endAngle</definition>
+        <argsstring></argsstring>
+        <name>_endAngle</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/PostManager/ref/FeatureSOLIDCreateCutRevolve.h" line="20" column="1" bodyfile="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/PostManager/ref/FeatureSOLIDCreateCutRevolve.h" bodystart="20" bodyend="-1"/>
+        <referencedby refid="class_post_1_1_feature_s_o_l_i_d_create_cut_revolve_1a2659311498b64a4487e7b5d3cc4449d4" compoundref="_feature_s_o_l_i_d_create_cut_revolve_8cpp" startline="15" endline="40">GetInfo</referencedby>
+        <referencedby refid="class_post_1_1_feature_s_o_l_i_d_create_cut_revolve_1a943c15cf026572c40cb9d5d64b94ea55" compoundref="_feature_s_o_l_i_d_create_cut_revolve_8cpp" startline="42" endline="78">ToCATIA</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="protected-attrib">
+      <memberdef kind="variable" id="class_post_1_1_feature_s_o_l_i_d_create_cut_revolve_1a97d3b633607aaf689c815d3b54ace9c9" prot="protected" static="no" mutable="no">
+        <type><ref refid="class_post_1_1_f_sketch" kindref="compound">FSketch</ref> *</type>
+        <definition>FSketch* Post::FeatureSOLIDCreateCutRevolve::_featureProfileSketch</definition>
+        <argsstring></argsstring>
+        <name>_featureProfileSketch</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/PostManager/ref/FeatureSOLIDCreateCutRevolve.h" line="23" column="1" bodyfile="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/PostManager/ref/FeatureSOLIDCreateCutRevolve.h" bodystart="23" bodyend="-1"/>
+        <referencedby refid="class_post_1_1_feature_s_o_l_i_d_create_cut_revolve_1aaaea763326adecd27efb66c093dc15e2" compoundref="_feature_s_o_l_i_d_create_cut_revolve_8h" startline="12" endline="12">GetFeatureProfileSketch</referencedby>
+        <referencedby refid="class_post_1_1_feature_s_o_l_i_d_create_cut_revolve_1a2659311498b64a4487e7b5d3cc4449d4" compoundref="_feature_s_o_l_i_d_create_cut_revolve_8cpp" startline="15" endline="40">GetInfo</referencedby>
+        <referencedby refid="class_post_1_1_feature_s_o_l_i_d_create_cut_revolve_1a943c15cf026572c40cb9d5d64b94ea55" compoundref="_feature_s_o_l_i_d_create_cut_revolve_8cpp" startline="42" endline="78">ToCATIA</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_post_1_1_feature_s_o_l_i_d_create_cut_revolve_1ae4a39b91ccbd17dab2cd40ad69659967" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>Post::FeatureSOLIDCreateCutRevolve::FeatureSOLIDCreateCutRevolve</definition>
+        <argsstring>(Part *pPart, TransCAD::IFeaturePtr spFeature)</argsstring>
+        <name>FeatureSOLIDCreateCutRevolve</name>
+        <param>
+          <type><ref refid="class_post_1_1_part" kindref="compound">Part</ref> *</type>
+          <declname>pPart</declname>
+        </param>
+        <param>
+          <type>TransCAD::IFeaturePtr</type>
+          <declname>spFeature</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/PostManager/ref/FeatureSOLIDCreateCutRevolve.h" line="9" column="1" bodyfile="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/PostManager/ref/FeatureSOLIDCreateCutRevolve.cpp" bodystart="6" bodyend="9"/>
+      </memberdef>
+      <memberdef kind="function" id="class_post_1_1_feature_s_o_l_i_d_create_cut_revolve_1ac9a3adc9a519d64775bb2bb07638a076" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type></type>
+        <definition>Post::FeatureSOLIDCreateCutRevolve::~FeatureSOLIDCreateCutRevolve</definition>
+        <argsstring>(void)</argsstring>
+        <name>~FeatureSOLIDCreateCutRevolve</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/PostManager/ref/FeatureSOLIDCreateCutRevolve.h" line="10" column="1" bodyfile="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/PostManager/ref/FeatureSOLIDCreateCutRevolve.cpp" bodystart="11" bodyend="13"/>
+      </memberdef>
+      <memberdef kind="function" id="class_post_1_1_feature_s_o_l_i_d_create_cut_revolve_1aaaea763326adecd27efb66c093dc15e2" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="class_post_1_1_f_sketch" kindref="compound">FSketch</ref> *</type>
+        <definition>FSketch* Post::FeatureSOLIDCreateCutRevolve::GetFeatureProfileSketch</definition>
+        <argsstring>()</argsstring>
+        <name>GetFeatureProfileSketch</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/PostManager/ref/FeatureSOLIDCreateCutRevolve.h" line="12" column="1" bodyfile="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/PostManager/ref/FeatureSOLIDCreateCutRevolve.h" bodystart="12" bodyend="12"/>
+        <references refid="class_post_1_1_feature_s_o_l_i_d_create_cut_revolve_1a97d3b633607aaf689c815d3b54ace9c9" compoundref="_feature_s_o_l_i_d_create_cut_revolve_8h" startline="23">_featureProfileSketch</references>
+      </memberdef>
+      <memberdef kind="function" id="class_post_1_1_feature_s_o_l_i_d_create_cut_revolve_1a2659311498b64a4487e7b5d3cc4449d4" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void Post::FeatureSOLIDCreateCutRevolve::GetInfo</definition>
+        <argsstring>()</argsstring>
+        <name>GetInfo</name>
+        <reimplements refid="class_post_1_1_feature_1af8d63a27b30083d99102016ae177b45f">GetInfo</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/PostManager/ref/FeatureSOLIDCreateCutRevolve.h" line="14" column="1" bodyfile="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/PostManager/ref/FeatureSOLIDCreateCutRevolve.cpp" bodystart="15" bodyend="40"/>
+        <references refid="class_post_1_1_feature_s_o_l_i_d_create_cut_revolve_1aa71f09b198537e0956e54d051feed0d7" compoundref="_feature_s_o_l_i_d_create_cut_revolve_8h" startline="20">_endAngle</references>
+        <references refid="class_post_1_1_feature_s_o_l_i_d_create_cut_revolve_1a97d3b633607aaf689c815d3b54ace9c9" compoundref="_feature_s_o_l_i_d_create_cut_revolve_8h" startline="23">_featureProfileSketch</references>
+        <references refid="class_post_1_1_feature_s_o_l_i_d_create_cut_revolve_1a7cd6d7f26d1c94da146e2eecb0a90e54" compoundref="_feature_s_o_l_i_d_create_cut_revolve_8h" startline="18">_flip</references>
+        <references refid="class_post_1_1_feature_s_o_l_i_d_create_cut_revolve_1ae62633db6cb9ed0b5f8402c59205cccc" compoundref="_feature_s_o_l_i_d_create_cut_revolve_8h" startline="19">_startAngle</references>
+        <references refid="class_post_1_1_part_1a07f75907c17887e5f7576fb9d726a469" compoundref="_post_manager_2ref_2_part_8cpp" startline="176" endline="187">Post::Part::GetFeatureByName</references>
+        <references refid="class_post_1_1_feature_1aace9d720d9a16b17c62ab6b4b91cea3c" compoundref="_post_manager_2ref_2_feature_8h" startline="12" endline="12">Post::Feature::GetPart</references>
+        <references refid="class_post_1_1_feature_1a252ade4e8188c192beaf03a8abbdca65" compoundref="_post_manager_2ref_2_feature_8h" startline="18" endline="18">Post::Feature::GetTransCADFeature</references>
+        <references refid="_post_manager_2_stdafx_8h_1a598a3330b3c21701223ee0ca14316eca" compoundref="_post_manager_2_stdafx_8h" startline="13">PI</references>
+      </memberdef>
+      <memberdef kind="function" id="class_post_1_1_feature_s_o_l_i_d_create_cut_revolve_1a943c15cf026572c40cb9d5d64b94ea55" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void Post::FeatureSOLIDCreateCutRevolve::ToCATIA</definition>
+        <argsstring>()</argsstring>
+        <name>ToCATIA</name>
+        <reimplements refid="class_post_1_1_feature_1af5e4685a9e9a3a1b80c65d43a5260bf3">ToCATIA</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/PostManager/ref/FeatureSOLIDCreateCutRevolve.h" line="15" column="1" bodyfile="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/PostManager/ref/FeatureSOLIDCreateCutRevolve.cpp" bodystart="42" bodyend="78"/>
+        <references refid="class_post_1_1_feature_s_o_l_i_d_create_cut_revolve_1aa71f09b198537e0956e54d051feed0d7" compoundref="_feature_s_o_l_i_d_create_cut_revolve_8h" startline="20">_endAngle</references>
+        <references refid="class_post_1_1_feature_s_o_l_i_d_create_cut_revolve_1a97d3b633607aaf689c815d3b54ace9c9" compoundref="_feature_s_o_l_i_d_create_cut_revolve_8h" startline="23">_featureProfileSketch</references>
+        <references refid="class_post_1_1_feature_s_o_l_i_d_create_cut_revolve_1a7cd6d7f26d1c94da146e2eecb0a90e54" compoundref="_feature_s_o_l_i_d_create_cut_revolve_8h" startline="18">_flip</references>
+        <references refid="class_post_1_1_feature_1a9d39434cf1acdc737198fefcf8b32e67" compoundref="_post_manager_2ref_2_feature_8h" startline="30">Post::Feature::_spFeature</references>
+        <references refid="class_post_1_1_feature_s_o_l_i_d_create_cut_revolve_1ae62633db6cb9ed0b5f8402c59205cccc" compoundref="_feature_s_o_l_i_d_create_cut_revolve_8h" startline="19">_startAngle</references>
+        <references refid="_c_a_t_i_apost___d_l_l_8cpp_1ab19f712b4a42f729c4b03c85bf315239" compoundref="_c_a_t_i_apost___d_l_l_8cpp" startline="28">ang_index</references>
+        <references refid="namespace_post_1a757521acb19b64cd9a29879d6c5a7d5f" compoundref="_c_a_t_i_apost___d_l_l_8cpp" startline="32">Post::g_pRefManager</references>
+        <references refid="class_post_1_1_c_a_t_i_a_reference_manager_1ab00159c9905b3d3d14361f390db87e48" compoundref="_c_a_t_i_a_reference_manager_8cpp" startline="102" endline="114">Post::CATIAReferenceManager::GetFeatureIDByTransCADName</references>
+        <references refid="class_post_1_1_feature_1aace9d720d9a16b17c62ab6b4b91cea3c" compoundref="_post_manager_2ref_2_feature_8h" startline="12" endline="12">Post::Feature::GetPart</references>
+        <references refid="class_post_1_1_feature_1a252ade4e8188c192beaf03a8abbdca65" compoundref="_post_manager_2ref_2_feature_8h" startline="18" endline="18">Post::Feature::GetTransCADFeature</references>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="574">
+        <label>Post::Feature</label>
+        <link refid="class_post_1_1_feature"/>
+      </node>
+      <node id="573">
+        <label>Post::FeatureSOLIDCreateCutRevolve</label>
+        <link refid="class_post_1_1_feature_s_o_l_i_d_create_cut_revolve"/>
+        <childnode refid="574" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="577">
+        <label>Post::Part</label>
+        <link refid="class_post_1_1_part"/>
+        <childnode refid="578" relation="usage">
+          <edgelabel>_featureList</edgelabel>
+        </childnode>
+        <childnode refid="579" relation="usage">
+          <edgelabel>_strPartName</edgelabel>
+        </childnode>
+      </node>
+      <node id="576">
+        <label>Post::Feature</label>
+        <link refid="class_post_1_1_feature"/>
+        <childnode refid="577" relation="usage">
+          <edgelabel>_pPart</edgelabel>
+        </childnode>
+        <childnode refid="579" relation="usage">
+          <edgelabel>_strName</edgelabel>
+        </childnode>
+      </node>
+      <node id="581">
+        <label>Post::FSketch</label>
+        <link refid="class_post_1_1_f_sketch"/>
+        <childnode refid="576" relation="public-inheritance">
+        </childnode>
+        <childnode refid="582" relation="usage">
+          <edgelabel>sInfo</edgelabel>
+        </childnode>
+        <childnode refid="579" relation="usage">
+          <edgelabel>_refName</edgelabel>
+        </childnode>
+        <childnode refid="583" relation="usage">
+          <edgelabel>_sketchItemList</edgelabel>
+        </childnode>
+      </node>
+      <node id="584">
+        <label>Post::SKETCHItem</label>
+        <link refid="class_post_1_1_s_k_e_t_c_h_item"/>
+        <childnode refid="581" relation="usage">
+          <edgelabel>_pFSketch</edgelabel>
+        </childnode>
+        <childnode refid="579" relation="usage">
+          <edgelabel>_strName</edgelabel>
+        </childnode>
+      </node>
+      <node id="580">
+        <label>std::basic_string&lt; char &gt;</label>
+      </node>
+      <node id="582">
+        <label>Post::_sketchInfo</label>
+        <link refid="struct_post_1_1__sketch_info"/>
+        <childnode refid="579" relation="usage">
+          <edgelabel>sketch_name</edgelabel>
+          <edgelabel>sketch_ref</edgelabel>
+        </childnode>
+      </node>
+      <node id="583">
+        <label>std::vector&lt; Post::SKETCHItem * &gt;</label>
+        <childnode refid="584" relation="usage">
+          <edgelabel>elements</edgelabel>
+        </childnode>
+      </node>
+      <node id="575">
+        <label>Post::FeatureSOLIDCreateCutRevolve</label>
+        <link refid="class_post_1_1_feature_s_o_l_i_d_create_cut_revolve"/>
+        <childnode refid="576" relation="public-inheritance">
+        </childnode>
+        <childnode refid="581" relation="usage">
+          <edgelabel>_featureProfileSketch</edgelabel>
+        </childnode>
+      </node>
+      <node id="578">
+        <label>std::vector&lt; Post::Feature * &gt;</label>
+        <childnode refid="576" relation="usage">
+          <edgelabel>elements</edgelabel>
+        </childnode>
+      </node>
+      <node id="579">
+        <label>std::string</label>
+        <childnode refid="580" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/PostManager/ref/FeatureSOLIDCreateCutRevolve.h" line="7" column="1" bodyfile="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/PostManager/ref/FeatureSOLIDCreateCutRevolve.h" bodystart="6" bodyend="24"/>
+    <listofallmembers>
+      <member refid="class_post_1_1_feature_s_o_l_i_d_create_cut_revolve_1aa71f09b198537e0956e54d051feed0d7" prot="private" virt="non-virtual"><scope>Post::FeatureSOLIDCreateCutRevolve</scope><name>_endAngle</name></member>
+      <member refid="class_post_1_1_feature_s_o_l_i_d_create_cut_revolve_1a97d3b633607aaf689c815d3b54ace9c9" prot="protected" virt="non-virtual"><scope>Post::FeatureSOLIDCreateCutRevolve</scope><name>_featureProfileSketch</name></member>
+      <member refid="class_post_1_1_feature_s_o_l_i_d_create_cut_revolve_1a7cd6d7f26d1c94da146e2eecb0a90e54" prot="private" virt="non-virtual"><scope>Post::FeatureSOLIDCreateCutRevolve</scope><name>_flip</name></member>
+      <member refid="class_post_1_1_feature_1a6a0b62ac67583207cd51d36b8540f75b" prot="public" virt="non-virtual"><scope>Post::FeatureSOLIDCreateCutRevolve</scope><name>_nIndex</name></member>
+      <member refid="class_post_1_1_feature_1a93e0edd3b8a4639ad851119b773582cb" prot="public" virt="non-virtual"><scope>Post::FeatureSOLIDCreateCutRevolve</scope><name>_pPart</name></member>
+      <member refid="class_post_1_1_feature_1a9d39434cf1acdc737198fefcf8b32e67" prot="public" virt="non-virtual"><scope>Post::FeatureSOLIDCreateCutRevolve</scope><name>_spFeature</name></member>
+      <member refid="class_post_1_1_feature_s_o_l_i_d_create_cut_revolve_1ae62633db6cb9ed0b5f8402c59205cccc" prot="private" virt="non-virtual"><scope>Post::FeatureSOLIDCreateCutRevolve</scope><name>_startAngle</name></member>
+      <member refid="class_post_1_1_feature_1a89de9a11285c07976c881031857287bc" prot="public" virt="non-virtual"><scope>Post::FeatureSOLIDCreateCutRevolve</scope><name>_strName</name></member>
+      <member refid="class_post_1_1_feature_1a757c6724362593cf5b61c06777e1476f" prot="public" virt="non-virtual"><scope>Post::FeatureSOLIDCreateCutRevolve</scope><name>Feature</name></member>
+      <member refid="class_post_1_1_feature_s_o_l_i_d_create_cut_revolve_1ae4a39b91ccbd17dab2cd40ad69659967" prot="public" virt="non-virtual"><scope>Post::FeatureSOLIDCreateCutRevolve</scope><name>FeatureSOLIDCreateCutRevolve</name></member>
+      <member refid="class_post_1_1_feature_1a4abc47e4eee19b3da64571f8ccd61a3c" prot="public" virt="virtual"><scope>Post::FeatureSOLIDCreateCutRevolve</scope><name>GetEndDepth</name></member>
+      <member refid="class_post_1_1_feature_1a17937115029d464402a274393c9efc82" prot="public" virt="non-virtual"><scope>Post::FeatureSOLIDCreateCutRevolve</scope><name>GetFeatureIndex</name></member>
+      <member refid="class_post_1_1_feature_1a68d3fb9f274c6170d83e2a51d01400ac" prot="public" virt="non-virtual"><scope>Post::FeatureSOLIDCreateCutRevolve</scope><name>GetFeatureName</name></member>
+      <member refid="class_post_1_1_feature_s_o_l_i_d_create_cut_revolve_1aaaea763326adecd27efb66c093dc15e2" prot="public" virt="non-virtual"><scope>Post::FeatureSOLIDCreateCutRevolve</scope><name>GetFeatureProfileSketch</name></member>
+      <member refid="class_post_1_1_feature_s_o_l_i_d_create_cut_revolve_1a2659311498b64a4487e7b5d3cc4449d4" prot="public" virt="virtual"><scope>Post::FeatureSOLIDCreateCutRevolve</scope><name>GetInfo</name></member>
+      <member refid="class_post_1_1_feature_1aace9d720d9a16b17c62ab6b4b91cea3c" prot="public" virt="non-virtual"><scope>Post::FeatureSOLIDCreateCutRevolve</scope><name>GetPart</name></member>
+      <member refid="class_post_1_1_feature_1a0dc31facfd898c9f2c7907403bd3c4e1" prot="public" virt="virtual"><scope>Post::FeatureSOLIDCreateCutRevolve</scope><name>GetStartDepth</name></member>
+      <member refid="class_post_1_1_feature_1a252ade4e8188c192beaf03a8abbdca65" prot="public" virt="non-virtual"><scope>Post::FeatureSOLIDCreateCutRevolve</scope><name>GetTransCADFeature</name></member>
+      <member refid="class_post_1_1_feature_1a2cdd61cc7885d66a902e7a29cca9bc05" prot="public" virt="non-virtual"><scope>Post::FeatureSOLIDCreateCutRevolve</scope><name>SetFeatureName</name></member>
+      <member refid="class_post_1_1_feature_s_o_l_i_d_create_cut_revolve_1a943c15cf026572c40cb9d5d64b94ea55" prot="public" virt="virtual"><scope>Post::FeatureSOLIDCreateCutRevolve</scope><name>ToCATIA</name></member>
+      <member refid="class_post_1_1_feature_1a9a8ee05393f4321a5ceba0d075573a25" prot="public" virt="virtual"><scope>Post::FeatureSOLIDCreateCutRevolve</scope><name>~Feature</name></member>
+      <member refid="class_post_1_1_feature_s_o_l_i_d_create_cut_revolve_1ac9a3adc9a519d64775bb2bb07638a076" prot="public" virt="virtual"><scope>Post::FeatureSOLIDCreateCutRevolve</scope><name>~FeatureSOLIDCreateCutRevolve</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

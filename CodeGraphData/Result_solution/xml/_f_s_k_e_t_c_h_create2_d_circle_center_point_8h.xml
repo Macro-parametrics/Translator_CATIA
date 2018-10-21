@@ -1,0 +1,198 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="_f_s_k_e_t_c_h_create2_d_circle_center_point_8h" kind="file">
+    <compoundname>FSKETCHCreate2DCircleCenterPoint.h</compoundname>
+    <includes refid="_f_s_k_e_t_c_h_item_8h" local="yes">FSKETCHItem.h</includes>
+    <includedby refid="_pre_manager_2ref_2_feature_s_o_l_i_d_create_pattern_circular_8cpp" local="yes">PreManager/ref/FeatureSOLIDCreatePatternCircular.cpp</includedby>
+    <includedby refid="_feature_s_o_l_i_d_create_revolve_8cpp" local="yes">PreManager/ref/FeatureSOLIDCreateRevolve.cpp</includedby>
+    <includedby refid="_pre_manager_2ref_2_f_sketch_8cpp" local="yes">PreManager/ref/FSketch.cpp</includedby>
+    <includedby refid="_f_s_k_e_t_c_h_create2_d_circle_center_point_8cpp" local="yes">PreManager/ref/FSKETCHCreate2DCircleCenterPoint.cpp</includedby>
+    <incdepgraph>
+      <node id="3473">
+        <label>strstream</label>
+      </node>
+      <node id="3457">
+        <label>Feature.h</label>
+        <link refid="_pre_manager_2ref_2_feature_8h"/>
+        <childnode refid="3458" relation="include">
+        </childnode>
+      </node>
+      <node id="3467">
+        <label>cmath</label>
+      </node>
+      <node id="3462">
+        <label>string</label>
+      </node>
+      <node id="3471">
+        <label>comdef.h</label>
+      </node>
+      <node id="3470">
+        <label>comutil.h</label>
+      </node>
+      <node id="3455">
+        <label>FSKETCHItem.h</label>
+        <link refid="_f_s_k_e_t_c_h_item_8h"/>
+        <childnode refid="3456" relation="include">
+        </childnode>
+      </node>
+      <node id="3456">
+        <label>FSketch.h</label>
+        <link refid="_pre_manager_2ref_2_f_sketch_8h"/>
+        <childnode refid="3457" relation="include">
+        </childnode>
+      </node>
+      <node id="3465">
+        <label>fstream</label>
+      </node>
+      <node id="3463">
+        <label>string.h</label>
+      </node>
+      <node id="3459">
+        <label>CATIApre_DLL.h</label>
+        <link refid="_c_a_t_i_apre___d_l_l_8h"/>
+        <childnode refid="3460" relation="include">
+        </childnode>
+        <childnode refid="3461" relation="include">
+        </childnode>
+        <childnode refid="3462" relation="include">
+        </childnode>
+        <childnode refid="3463" relation="include">
+        </childnode>
+        <childnode refid="3464" relation="include">
+        </childnode>
+        <childnode refid="3465" relation="include">
+        </childnode>
+        <childnode refid="3466" relation="include">
+        </childnode>
+        <childnode refid="3467" relation="include">
+        </childnode>
+        <childnode refid="3468" relation="include">
+        </childnode>
+        <childnode refid="3469" relation="include">
+        </childnode>
+        <childnode refid="3470" relation="include">
+        </childnode>
+        <childnode refid="3471" relation="include">
+        </childnode>
+        <childnode refid="3472" relation="include">
+        </childnode>
+      </node>
+      <node id="3454">
+        <label>PreManager/ref/FSKETCHCreate2DCircleCenterPoint.h</label>
+        <link refid="FSKETCHCreate2DCircleCenterPoint.h"/>
+        <childnode refid="3455" relation="include">
+        </childnode>
+      </node>
+      <node id="3466">
+        <label>vector</label>
+      </node>
+      <node id="3469">
+        <label>sstream</label>
+      </node>
+      <node id="3468">
+        <label>math.h</label>
+      </node>
+      <node id="3464">
+        <label>iostream</label>
+      </node>
+      <node id="3461">
+        <label>tchar.h</label>
+      </node>
+      <node id="3472">
+        <label>Definition.h</label>
+        <link refid="_pre_manager_2ref_2_definition_8h"/>
+        <childnode refid="3473" relation="include">
+        </childnode>
+        <childnode refid="3464" relation="include">
+        </childnode>
+        <childnode refid="3468" relation="include">
+        </childnode>
+      </node>
+      <node id="3458">
+        <label>Part.h</label>
+        <link refid="_pre_manager_2ref_2_part_8h"/>
+        <childnode refid="3459" relation="include">
+        </childnode>
+      </node>
+      <node id="3460">
+        <label>stdio.h</label>
+      </node>
+    </incdepgraph>
+    <invincdepgraph>
+      <node id="3477">
+        <label>PreManager/ref/FSketch.cpp</label>
+        <link refid="_pre_manager_2ref_2_f_sketch_8cpp"/>
+      </node>
+      <node id="3475">
+        <label>PreManager/ref/FeatureSOLIDCreatePatternCircular.cpp</label>
+        <link refid="_pre_manager_2ref_2_feature_s_o_l_i_d_create_pattern_circular_8cpp"/>
+      </node>
+      <node id="3474">
+        <label>PreManager/ref/FSKETCHCreate2DCircleCenterPoint.h</label>
+        <link refid="FSKETCHCreate2DCircleCenterPoint.h"/>
+        <childnode refid="3475" relation="include">
+        </childnode>
+        <childnode refid="3476" relation="include">
+        </childnode>
+        <childnode refid="3477" relation="include">
+        </childnode>
+        <childnode refid="3478" relation="include">
+        </childnode>
+      </node>
+      <node id="3476">
+        <label>PreManager/ref/FeatureSOLIDCreateRevolve.cpp</label>
+        <link refid="_feature_s_o_l_i_d_create_revolve_8cpp"/>
+      </node>
+      <node id="3478">
+        <label>PreManager/ref/FSKETCHCreate2DCircleCenterPoint.cpp</label>
+        <link refid="_f_s_k_e_t_c_h_create2_d_circle_center_point_8cpp"/>
+      </node>
+    </invincdepgraph>
+    <innerclass refid="class_pre_1_1_f_s_k_e_t_c_h_create2_d_circle_center_point" prot="public">Pre::FSKETCHCreate2DCircleCenterPoint</innerclass>
+    <innernamespace refid="namespace_pre">Pre</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="preprocessor">#pragma<sp/>once</highlight></codeline>
+<codeline lineno="2"><highlight class="preprocessor"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="_f_s_k_e_t_c_h_item_8h" kindref="compound">FSKETCHItem.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal">Pre<sp/>{</highlight></codeline>
+<codeline lineno="4" refid="class_pre_1_1_f_s_k_e_t_c_h_create2_d_circle_center_point" refkind="compound"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="class_pre_1_1_f_s_k_e_t_c_h_create2_d_circle_center_point" kindref="compound">FSKETCHCreate2DCircleCenterPoint</ref><sp/>:<sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/><ref refid="class_pre_1_1_f_s_k_e_t_c_h_item" kindref="compound">FSKETCHItem</ref></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="6"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="7"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_pre_1_1_f_s_k_e_t_c_h_create2_d_circle_center_point_1a79dd2626a5fec9c9a4cf793b546f2650" kindref="member">FSKETCHCreate2DCircleCenterPoint</ref>(<ref refid="class_pre_1_1_f_sketch" kindref="compound">FSketch</ref><sp/>*<sp/>pFSketch,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>type,<sp/></highlight><highlight class="keywordtype">string</highlight><highlight class="normal"><sp/>name);</highlight></codeline>
+<codeline lineno="8"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/><ref refid="class_pre_1_1_f_s_k_e_t_c_h_create2_d_circle_center_point_1a3ca90330fd598029a56515b90ff2cc63" kindref="member">~FSKETCHCreate2DCircleCenterPoint</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight></codeline>
+<codeline lineno="10" refid="class_pre_1_1_f_s_k_e_t_c_h_create2_d_circle_center_point_1a99df820d39b3f066880ad6fb3e8c4c6b" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_pre_1_1_f_s_k_e_t_c_h_create2_d_circle_center_point_1a99df820d39b3f066880ad6fb3e8c4c6b" kindref="member">GetCenterPoint</ref>(<ref refid="namespace_pre_1a42512ff1a00cd929e4efd66d0b148707" kindref="member">Point3D</ref><sp/>&amp;<sp/>cP)<sp/>{<sp/>cP.SetXYZ(<ref refid="class_pre_1_1_f_s_k_e_t_c_h_create2_d_circle_center_point_1a07fbef4e9399217e3106ffd959dcc20f" kindref="member">center</ref>[0],<sp/><ref refid="class_pre_1_1_f_s_k_e_t_c_h_create2_d_circle_center_point_1a07fbef4e9399217e3106ffd959dcc20f" kindref="member">center</ref>[1],<sp/><ref refid="class_pre_1_1_f_s_k_e_t_c_h_create2_d_circle_center_point_1a07fbef4e9399217e3106ffd959dcc20f" kindref="member">center</ref>[2]);<sp/>}</highlight></codeline>
+<codeline lineno="11" refid="class_pre_1_1_f_s_k_e_t_c_h_create2_d_circle_center_point_1a3eb4cae857cd127e43ee0fa0234c1899" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/><ref refid="class_pre_1_1_f_s_k_e_t_c_h_create2_d_circle_center_point_1a3eb4cae857cd127e43ee0fa0234c1899" kindref="member">GetRadius</ref>()</highlight><highlight class="keyword"><sp/>const<sp/></highlight><highlight class="normal">{<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/><ref refid="class_pre_1_1_f_s_k_e_t_c_h_create2_d_circle_center_point_1a5a47b4dcf0ba60f09d8d8ae036eb7982" kindref="member">_radius</ref>;<sp/>}</highlight></codeline>
+<codeline lineno="12" refid="class_pre_1_1_f_s_k_e_t_c_h_create2_d_circle_center_point_1a5f62518be45a9f4adb0afde8a36d4459" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_pre_1_1_f_s_k_e_t_c_h_create2_d_circle_center_point_1a5f62518be45a9f4adb0afde8a36d4459" kindref="member">SetStartPoint</ref>(<ref refid="namespace_pre_1a42512ff1a00cd929e4efd66d0b148707" kindref="member">Point3D</ref><sp/>sP)<sp/>{<sp/><ref refid="class_pre_1_1_f_s_k_e_t_c_h_create2_d_circle_center_point_1afbc658bca80587b41f4fa7c5758295d1" kindref="member">startPoint</ref>[0]<sp/>=<sp/>sP.X();<sp/><ref refid="class_pre_1_1_f_s_k_e_t_c_h_create2_d_circle_center_point_1afbc658bca80587b41f4fa7c5758295d1" kindref="member">startPoint</ref>[1]<sp/>=<sp/>sP.Y();<sp/><ref refid="class_pre_1_1_f_s_k_e_t_c_h_create2_d_circle_center_point_1afbc658bca80587b41f4fa7c5758295d1" kindref="member">startPoint</ref>[2]<sp/>=<sp/>sP.Z();<sp/>}</highlight></codeline>
+<codeline lineno="13" refid="class_pre_1_1_f_s_k_e_t_c_h_create2_d_circle_center_point_1a66b4ba8672bbf1a93bfb495935c9fc7c" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_pre_1_1_f_s_k_e_t_c_h_create2_d_circle_center_point_1a66b4ba8672bbf1a93bfb495935c9fc7c" kindref="member">SetEndPoint</ref>(<ref refid="namespace_pre_1a42512ff1a00cd929e4efd66d0b148707" kindref="member">Point3D</ref><sp/>eP)<sp/>{<sp/><ref refid="class_pre_1_1_f_s_k_e_t_c_h_create2_d_circle_center_point_1a5ba89d6974a06ad1e426f459c950743e" kindref="member">endPoint</ref>[0]<sp/>=<sp/>eP.X();<sp/><ref refid="class_pre_1_1_f_s_k_e_t_c_h_create2_d_circle_center_point_1a5ba89d6974a06ad1e426f459c950743e" kindref="member">endPoint</ref>[1]<sp/>=<sp/>eP.Y();<sp/><ref refid="class_pre_1_1_f_s_k_e_t_c_h_create2_d_circle_center_point_1a5ba89d6974a06ad1e426f459c950743e" kindref="member">endPoint</ref>[2]<sp/>=<sp/>eP.Z();<sp/>}</highlight></codeline>
+<codeline lineno="14" refid="class_pre_1_1_f_s_k_e_t_c_h_create2_d_circle_center_point_1a62ee9f61a0fffedfb83e26371c76e95e" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="namespace_pre_1a42512ff1a00cd929e4efd66d0b148707" kindref="member">Point3D</ref><sp/><ref refid="class_pre_1_1_f_s_k_e_t_c_h_create2_d_circle_center_point_1a62ee9f61a0fffedfb83e26371c76e95e" kindref="member">GetStartPoint</ref>()<sp/>{<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/><ref refid="class_pre_1_1_f_s_k_e_t_c_h_create2_d_circle_center_point_1afbc658bca80587b41f4fa7c5758295d1" kindref="member">startPoint</ref>;<sp/>}</highlight></codeline>
+<codeline lineno="15" refid="class_pre_1_1_f_s_k_e_t_c_h_create2_d_circle_center_point_1adfcbdcc4a6deb36d34e325d56d7c41fa" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="namespace_pre_1a42512ff1a00cd929e4efd66d0b148707" kindref="member">Point3D</ref><sp/><ref refid="class_pre_1_1_f_s_k_e_t_c_h_create2_d_circle_center_point_1adfcbdcc4a6deb36d34e325d56d7c41fa" kindref="member">GetEndPoint</ref>()<sp/>{<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/><ref refid="class_pre_1_1_f_s_k_e_t_c_h_create2_d_circle_center_point_1a5ba89d6974a06ad1e426f459c950743e" kindref="member">endPoint</ref>;<sp/>}</highlight></codeline>
+<codeline lineno="16" refid="class_pre_1_1_f_s_k_e_t_c_h_create2_d_circle_center_point_1a65164055ce884cd212ef1cc2310dfd61" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">string</highlight><highlight class="normal"><sp/><ref refid="class_pre_1_1_f_s_k_e_t_c_h_create2_d_circle_center_point_1a65164055ce884cd212ef1cc2310dfd61" kindref="member">GetStartPointName</ref>()<sp/>{<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/><ref refid="class_pre_1_1_f_s_k_e_t_c_h_create2_d_circle_center_point_1a1698d4c2babefa625155a3fec37841d1" kindref="member">_startPoint</ref>;<sp/>}</highlight></codeline>
+<codeline lineno="17" refid="class_pre_1_1_f_s_k_e_t_c_h_create2_d_circle_center_point_1ab4a5c2554b3f55e0cb2f7b53420d738b" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">string</highlight><highlight class="normal"><sp/><ref refid="class_pre_1_1_f_s_k_e_t_c_h_create2_d_circle_center_point_1ab4a5c2554b3f55e0cb2f7b53420d738b" kindref="member">GetEndPointName</ref>()<sp/>{<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/><ref refid="class_pre_1_1_f_s_k_e_t_c_h_create2_d_circle_center_point_1aabd22d1214c4eee40eb77175acc2b989" kindref="member">_endPoint</ref>;<sp/>}</highlight></codeline>
+<codeline lineno="18"><highlight class="normal"></highlight></codeline>
+<codeline lineno="19"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_pre_1_1_f_s_k_e_t_c_h_create2_d_circle_center_point_1aaecfc342c075fdc45a89f12ebe387ea8" kindref="member">GetInfo</ref>(ifstream<sp/>&amp;<sp/>is);</highlight></codeline>
+<codeline lineno="20"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_pre_1_1_f_s_k_e_t_c_h_create2_d_circle_center_point_1a83ac5084fbf8a0ae0c75200ff3573046" kindref="member">ToTransCAD</ref>();</highlight></codeline>
+<codeline lineno="21"><highlight class="normal"></highlight></codeline>
+<codeline lineno="22"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_pre_1_1_f_s_k_e_t_c_h_create2_d_circle_center_point_1adced1f6d2bbdebd24a2c38492b00a507" kindref="member">Modify</ref>(</highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*<sp/>buffer);</highlight></codeline>
+<codeline lineno="23"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_pre_1_1_f_s_k_e_t_c_h_create2_d_circle_center_point_1a71d32cbc34487af884f14b60558316ad" kindref="member">ConvertRadToDeg</ref>(</highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>x,<sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>y);</highlight></codeline>
+<codeline lineno="24"><highlight class="normal"></highlight></codeline>
+<codeline lineno="25"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">protected</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="26" refid="class_pre_1_1_f_s_k_e_t_c_h_create2_d_circle_center_point_1a07fbef4e9399217e3106ffd959dcc20f" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/><ref refid="class_pre_1_1_f_s_k_e_t_c_h_create2_d_circle_center_point_1a07fbef4e9399217e3106ffd959dcc20f" kindref="member">center</ref>[3];</highlight></codeline>
+<codeline lineno="27" refid="class_pre_1_1_f_s_k_e_t_c_h_create2_d_circle_center_point_1a5a47b4dcf0ba60f09d8d8ae036eb7982" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/><ref refid="class_pre_1_1_f_s_k_e_t_c_h_create2_d_circle_center_point_1a5a47b4dcf0ba60f09d8d8ae036eb7982" kindref="member">_radius</ref>;</highlight></codeline>
+<codeline lineno="28" refid="class_pre_1_1_f_s_k_e_t_c_h_create2_d_circle_center_point_1a5cd8655e747a4e04a5fe8d933c041422" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/><ref refid="class_pre_1_1_f_s_k_e_t_c_h_create2_d_circle_center_point_1a5cd8655e747a4e04a5fe8d933c041422" kindref="member">startAngle</ref>,<sp/><ref refid="class_pre_1_1_f_s_k_e_t_c_h_create2_d_circle_center_point_1a73e3a84a2f4e3de73a1d5595381a91bc" kindref="member">_startAngle</ref>;</highlight></codeline>
+<codeline lineno="29" refid="class_pre_1_1_f_s_k_e_t_c_h_create2_d_circle_center_point_1adaefaa8cb2a9d8dc6b53587dfaff4e96" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/><ref refid="class_pre_1_1_f_s_k_e_t_c_h_create2_d_circle_center_point_1adaefaa8cb2a9d8dc6b53587dfaff4e96" kindref="member">endAngle</ref>,<sp/><ref refid="class_pre_1_1_f_s_k_e_t_c_h_create2_d_circle_center_point_1a58b64318524109a368556a6a0769895c" kindref="member">_endAngle</ref>;</highlight></codeline>
+<codeline lineno="30" refid="class_pre_1_1_f_s_k_e_t_c_h_create2_d_circle_center_point_1afbc658bca80587b41f4fa7c5758295d1" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/><ref refid="class_pre_1_1_f_s_k_e_t_c_h_create2_d_circle_center_point_1afbc658bca80587b41f4fa7c5758295d1" kindref="member">startPoint</ref>[3],<sp/><ref refid="class_pre_1_1_f_s_k_e_t_c_h_create2_d_circle_center_point_1a5ba89d6974a06ad1e426f459c950743e" kindref="member">endPoint</ref>[3];</highlight></codeline>
+<codeline lineno="31" refid="class_pre_1_1_f_s_k_e_t_c_h_create2_d_circle_center_point_1a9aac863d0de1474428b406388a420250" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="class_pre_1_1_f_s_k_e_t_c_h_create2_d_circle_center_point_1a9aac863d0de1474428b406388a420250" kindref="member">circleType</ref>;<sp/></highlight><highlight class="comment">//<sp/>0:<sp/>none<sp/><sp/>1:<sp/>closedCircle<sp/>2:<sp/>nonClosedCircle,<sp/>Arc</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="32"><highlight class="normal"></highlight></codeline>
+<codeline lineno="33" refid="class_pre_1_1_f_s_k_e_t_c_h_create2_d_circle_center_point_1a3b5b42bb64988b3a1eb6a19da34c392a" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">string</highlight><highlight class="normal"><sp/><ref refid="class_pre_1_1_f_s_k_e_t_c_h_create2_d_circle_center_point_1a3b5b42bb64988b3a1eb6a19da34c392a" kindref="member">_center</ref>;</highlight></codeline>
+<codeline lineno="34" refid="class_pre_1_1_f_s_k_e_t_c_h_create2_d_circle_center_point_1a1698d4c2babefa625155a3fec37841d1" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">string</highlight><highlight class="normal"><sp/><ref refid="class_pre_1_1_f_s_k_e_t_c_h_create2_d_circle_center_point_1a1698d4c2babefa625155a3fec37841d1" kindref="member">_startPoint</ref>;</highlight></codeline>
+<codeline lineno="35" refid="class_pre_1_1_f_s_k_e_t_c_h_create2_d_circle_center_point_1aabd22d1214c4eee40eb77175acc2b989" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">string</highlight><highlight class="normal"><sp/><ref refid="class_pre_1_1_f_s_k_e_t_c_h_create2_d_circle_center_point_1aabd22d1214c4eee40eb77175acc2b989" kindref="member">_endPoint</ref>;</highlight></codeline>
+<codeline lineno="36"><highlight class="normal"><sp/><sp/><sp/><sp/>};</highlight></codeline>
+<codeline lineno="37"><highlight class="normal">}</highlight></codeline>
+    </programlisting>
+    <location file="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/PreManager/ref/FSKETCHCreate2DCircleCenterPoint.h"/>
+  </compounddef>
+</doxygen>

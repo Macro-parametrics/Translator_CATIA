@@ -1,0 +1,69 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="dir_9569f222c89eae0e3813db50416ca2e4" kind="dir">
+    <compoundname>PostManager/ref</compoundname>
+    <innerfile refid="_c_a_t_i_apost___d_l_l_8cpp">CATIApost_DLL.cpp</innerfile>
+    <innerfile refid="_c_a_t_i_apost___d_l_l_8h">CATIApost_DLL.h</innerfile>
+    <innerfile refid="_c_a_t_i_a_reference_manager_8cpp">CATIAReferenceManager.cpp</innerfile>
+    <innerfile refid="_c_a_t_i_a_reference_manager_8h">CATIAReferenceManager.h</innerfile>
+    <innerfile refid="_post_manager_2ref_2_definition_8h">Definition.h</innerfile>
+    <innerfile refid="_f_datum_plane_8cpp">FDatumPlane.cpp</innerfile>
+    <innerfile refid="_f_datum_plane_8h">FDatumPlane.h</innerfile>
+    <innerfile refid="_post_manager_2ref_2_f_datum_plane_offset_8cpp">FDatumPlaneOffset.cpp</innerfile>
+    <innerfile refid="_post_manager_2ref_2_f_datum_plane_offset_8h">FDatumPlaneOffset.h</innerfile>
+    <innerfile refid="_post_manager_2ref_2_feature_8cpp">Feature.cpp</innerfile>
+    <innerfile refid="_post_manager_2ref_2_feature_8h">Feature.h</innerfile>
+    <innerfile refid="_post_manager_2ref_2_feature_s_o_l_i_d_create_chamfer_8cpp">FeatureSOLIDCreateChamfer.cpp</innerfile>
+    <innerfile refid="_post_manager_2ref_2_feature_s_o_l_i_d_create_chamfer_8h">FeatureSOLIDCreateChamfer.h</innerfile>
+    <innerfile refid="_feature_s_o_l_i_d_create_cut_extrude_8cpp">FeatureSOLIDCreateCutExtrude.cpp</innerfile>
+    <innerfile refid="_feature_s_o_l_i_d_create_cut_extrude_8h">FeatureSOLIDCreateCutExtrude.h</innerfile>
+    <innerfile refid="_feature_s_o_l_i_d_create_cut_revolve_8cpp">FeatureSOLIDCreateCutRevolve.cpp</innerfile>
+    <innerfile refid="_feature_s_o_l_i_d_create_cut_revolve_8h">FeatureSOLIDCreateCutRevolve.h</innerfile>
+    <innerfile refid="_feature_s_o_l_i_d_create_faces_loft_8cpp">FeatureSOLIDCreateFacesLoft.cpp</innerfile>
+    <innerfile refid="_feature_s_o_l_i_d_create_faces_loft_8h">FeatureSOLIDCreateFacesLoft.h</innerfile>
+    <innerfile refid="_post_manager_2ref_2_feature_s_o_l_i_d_create_fillet_constant_8cpp">FeatureSOLIDCreateFilletConstant.cpp</innerfile>
+    <innerfile refid="_post_manager_2ref_2_feature_s_o_l_i_d_create_fillet_constant_8h">FeatureSOLIDCreateFilletConstant.h</innerfile>
+    <innerfile refid="_feature_s_o_l_i_d_create_hole_counterbored_8cpp">FeatureSOLIDCreateHoleCounterbored.cpp</innerfile>
+    <innerfile refid="_feature_s_o_l_i_d_create_hole_counterbored_8h">FeatureSOLIDCreateHoleCounterbored.h</innerfile>
+    <innerfile refid="_feature_s_o_l_i_d_create_hole_countersunk_8cpp">FeatureSOLIDCreateHoleCountersunk.cpp</innerfile>
+    <innerfile refid="_feature_s_o_l_i_d_create_hole_countersunk_8h">FeatureSOLIDCreateHoleCountersunk.h</innerfile>
+    <innerfile refid="_post_manager_2ref_2_feature_s_o_l_i_d_create_pattern_circular_8cpp">FeatureSOLIDCreatePatternCircular.cpp</innerfile>
+    <innerfile refid="_post_manager_2ref_2_feature_s_o_l_i_d_create_pattern_circular_8h">FeatureSOLIDCreatePatternCircular.h</innerfile>
+    <innerfile refid="_post_manager_2ref_2_feature_s_o_l_i_d_create_pattern_rectangular_8cpp">FeatureSOLIDCreatePatternRectangular.cpp</innerfile>
+    <innerfile refid="_post_manager_2ref_2_feature_s_o_l_i_d_create_pattern_rectangular_8h">FeatureSOLIDCreatePatternRectangular.h</innerfile>
+    <innerfile refid="_feature_s_o_l_i_d_create_protrusion_extrude_8cpp">FeatureSOLIDCreateProtrusionExtrude.cpp</innerfile>
+    <innerfile refid="_feature_s_o_l_i_d_create_protrusion_extrude_8h">FeatureSOLIDCreateProtrusionExtrude.h</innerfile>
+    <innerfile refid="_feature_s_o_l_i_d_create_protrusion_loft_8cpp">FeatureSOLIDCreateProtrusionLoft.cpp</innerfile>
+    <innerfile refid="_feature_s_o_l_i_d_create_protrusion_loft_8h">FeatureSOLIDCreateProtrusionLoft.h</innerfile>
+    <innerfile refid="_feature_s_o_l_i_d_create_protrusion_revolve_8cpp">FeatureSOLIDCreateProtrusionRevolve.cpp</innerfile>
+    <innerfile refid="_feature_s_o_l_i_d_create_protrusion_revolve_8h">FeatureSOLIDCreateProtrusionRevolve.h</innerfile>
+    <innerfile refid="_feature_s_o_l_i_d_create_protrusion_sweep_8cpp">FeatureSOLIDCreateProtrusionSweep.cpp</innerfile>
+    <innerfile refid="_feature_s_o_l_i_d_create_protrusion_sweep_8h">FeatureSOLIDCreateProtrusionSweep.h</innerfile>
+    <innerfile refid="_feature_s_o_l_i_d_create_sections_loft_8cpp">FeatureSOLIDCreateSectionsLoft.cpp</innerfile>
+    <innerfile refid="_feature_s_o_l_i_d_create_sections_loft_8h">FeatureSOLIDCreateSectionsLoft.h</innerfile>
+    <innerfile refid="_post_manager_2ref_2_f_sketch_8cpp">FSketch.cpp</innerfile>
+    <innerfile refid="_post_manager_2ref_2_f_sketch_8h">FSketch.h</innerfile>
+    <innerfile refid="_m_p___utility_8cpp">MP_Utility.cpp</innerfile>
+    <innerfile refid="_m_p___utility_8h">MP_Utility.h</innerfile>
+    <innerfile refid="_post_manager_2ref_2_part_8cpp">Part.cpp</innerfile>
+    <innerfile refid="_post_manager_2ref_2_part_8h">Part.h</innerfile>
+    <innerfile refid="_p_n___t_y_p_e_8h">PN_TYPE.h</innerfile>
+    <innerfile refid="_s_k_e_t_c_h_create2_d_centerline_8cpp">SKETCHCreate2DCenterline.cpp</innerfile>
+    <innerfile refid="_s_k_e_t_c_h_create2_d_centerline_8h">SKETCHCreate2DCenterline.h</innerfile>
+    <innerfile refid="_s_k_e_t_c_h_create2_d_circle_center_point_8cpp">SKETCHCreate2DCircleCenterPoint.cpp</innerfile>
+    <innerfile refid="_s_k_e_t_c_h_create2_d_circle_center_point_8h">SKETCHCreate2DCircleCenterPoint.h</innerfile>
+    <innerfile refid="_s_k_e_t_c_h_create2_d_circular_arc_8cpp">SKETCHCreate2DCircularArc.cpp</innerfile>
+    <innerfile refid="_s_k_e_t_c_h_create2_d_circular_arc_8h">SKETCHCreate2DCircularArc.h</innerfile>
+    <innerfile refid="_s_k_e_t_c_h_create2_d_line2_points_8cpp">SKETCHCreate2DLine2Points.cpp</innerfile>
+    <innerfile refid="_s_k_e_t_c_h_create2_d_line2_points_8h">SKETCHCreate2DLine2Points.h</innerfile>
+    <innerfile refid="_s_k_e_t_c_h_create2_d_point_8cpp">SKETCHCreate2DPoint.cpp</innerfile>
+    <innerfile refid="_s_k_e_t_c_h_create2_d_point_8h">SKETCHCreate2DPoint.h</innerfile>
+    <innerfile refid="_s_k_e_t_c_h_item_8cpp">SKETCHItem.cpp</innerfile>
+    <innerfile refid="_s_k_e_t_c_h_item_8h">SKETCHItem.h</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/PostManager/ref/"/>
+  </compounddef>
+</doxygen>

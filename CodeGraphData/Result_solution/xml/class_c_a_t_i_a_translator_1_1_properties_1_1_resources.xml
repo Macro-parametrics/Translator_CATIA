@@ -1,0 +1,98 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_c_a_t_i_a_translator_1_1_properties_1_1_resources" kind="class" prot="package">
+    <compoundname>CATIATranslator::Properties::Resources</compoundname>
+      <sectiondef kind="private-static-attrib">
+      <memberdef kind="variable" id="class_c_a_t_i_a_translator_1_1_properties_1_1_resources_1a03d4b1a66d13d21f80b0a6d1876bce85" prot="private" static="yes" mutable="no">
+        <type>global::System.Resources.ResourceManager</type>
+        <definition>global::System.Resources.ResourceManager CATIATranslator.Properties.Resources.resourceMan</definition>
+        <argsstring></argsstring>
+        <name>resourceMan</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/CATIATranslator/Properties/Resources.Designer.cs" line="28" column="1" bodyfile="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/CATIATranslator/Properties/Resources.Designer.cs" bodystart="28" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_c_a_t_i_a_translator_1_1_properties_1_1_resources_1a3e2ebd2a27a6bb05fd4ba8dc66a3b24d" prot="private" static="yes" mutable="no">
+        <type>global::System.Globalization.CultureInfo</type>
+        <definition>global::System.Globalization.CultureInfo CATIATranslator.Properties.Resources.resourceCulture</definition>
+        <argsstring></argsstring>
+        <name>resourceCulture</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/CATIATranslator/Properties/Resources.Designer.cs" line="30" column="1" bodyfile="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/CATIATranslator/Properties/Resources.Designer.cs" bodystart="30" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_c_a_t_i_a_translator_1_1_properties_1_1_resources_1a1de1d35627f053c5b7598a74b1d7167e" prot="package" static="yes" readable="no" writable="no" gettable="yes" settable="no">
+        <type>global::System.Resources.ResourceManager</type>
+        <definition>global::System.Resources.ResourceManager CATIATranslator.Properties.Resources.ResourceManager</definition>
+        <argsstring></argsstring>
+        <name>ResourceManager</name>
+        <briefdescription>
+<para>이 클래스에서 사용하는 캐시된 ResourceManager 인스턴스를 반환합니다. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/CATIATranslator/Properties/Resources.Designer.cs" line="41" column="1" bodyfile="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/CATIATranslator/Properties/Resources.Designer.cs" bodystart="42" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_c_a_t_i_a_translator_1_1_properties_1_1_resources_1a99fe0d6858255c7d0c320ebf99180feb" prot="package" static="yes" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>global::System.Globalization.CultureInfo</type>
+        <definition>global::System.Globalization.CultureInfo CATIATranslator.Properties.Resources.Culture</definition>
+        <argsstring></argsstring>
+        <name>Culture</name>
+        <briefdescription>
+<para>이 강력한 형식의 리소스 클래스를 사용하여 모든 리소스 조회에 대한 현재 스레드의 CurrentUICulture 속성을 재정의합니다. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/CATIATranslator/Properties/Resources.Designer.cs" line="59" column="1" bodyfile="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/CATIATranslator/Properties/Resources.Designer.cs" bodystart="60" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="package-func">
+      <memberdef kind="function" id="class_c_a_t_i_a_translator_1_1_properties_1_1_resources_1a5ba8c4930cb58a4992dec76eb63686b4" prot="package" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>CATIATranslator.Properties.Resources.Resources</definition>
+        <argsstring>()</argsstring>
+        <name>Resources</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/CATIATranslator/Properties/Resources.Designer.cs" line="33" column="1" bodyfile="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/CATIATranslator/Properties/Resources.Designer.cs" bodystart="33" bodyend="35"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>지역화된 문자열 등을 찾기 위한 강력한 형식의 리소스 클래스입니다. </para>    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="1163">
+        <label>CATIATranslator.Properties.Resources</label>
+        <link refid="class_c_a_t_i_a_translator_1_1_properties_1_1_resources"/>
+        <childnode refid="1163" relation="usage">
+          <edgelabel>resourceMan</edgelabel>
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/CATIATranslator/Properties/Resources.Designer.cs" line="26" column="1" bodyfile="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/CATIATranslator/Properties/Resources.Designer.cs" bodystart="25" bodyend="70"/>
+    <listofallmembers>
+      <member refid="class_c_a_t_i_a_translator_1_1_properties_1_1_resources_1a99fe0d6858255c7d0c320ebf99180feb" prot="package" virt="non-virtual"><scope>CATIATranslator::Properties::Resources</scope><name>Culture</name></member>
+      <member refid="class_c_a_t_i_a_translator_1_1_properties_1_1_resources_1a3e2ebd2a27a6bb05fd4ba8dc66a3b24d" prot="private" virt="non-virtual"><scope>CATIATranslator::Properties::Resources</scope><name>resourceCulture</name></member>
+      <member refid="class_c_a_t_i_a_translator_1_1_properties_1_1_resources_1a03d4b1a66d13d21f80b0a6d1876bce85" prot="private" virt="non-virtual"><scope>CATIATranslator::Properties::Resources</scope><name>resourceMan</name></member>
+      <member refid="class_c_a_t_i_a_translator_1_1_properties_1_1_resources_1a1de1d35627f053c5b7598a74b1d7167e" prot="package" virt="non-virtual"><scope>CATIATranslator::Properties::Resources</scope><name>ResourceManager</name></member>
+      <member refid="class_c_a_t_i_a_translator_1_1_properties_1_1_resources_1a5ba8c4930cb58a4992dec76eb63686b4" prot="package" virt="non-virtual"><scope>CATIATranslator::Properties::Resources</scope><name>Resources</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

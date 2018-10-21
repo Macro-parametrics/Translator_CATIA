@@ -1,0 +1,266 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_c_a_t_i_a_translator_1_1_feature_sketch" kind="class" prot="public">
+    <compoundname>CATIATranslator::FeatureSketch</compoundname>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_c_a_t_i_a_translator_1_1_feature_sketch_1abd9ea3e5c3f9353d5f4bebf10903b86e" prot="public" static="no" mutable="no">
+        <type><ref refid="class_c_a_t_i_a_translator_1_1_part" kindref="compound">Part</ref></type>
+        <definition>Part CATIATranslator.FeatureSketch.PartManager</definition>
+        <argsstring></argsstring>
+        <name>PartManager</name>
+        <initializer>= null</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/CATIATranslator/Part/Sketch/FeatureSketch.cs" line="7" column="1" bodyfile="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/CATIATranslator/Part/Sketch/FeatureSketch.cs" bodystart="7" bodyend="-1"/>
+        <referencedby refid="class_c_a_t_i_a_translator_1_1_feature_sketch_1a647422114d602b8901b360ae863d55d0" compoundref="_feature_sketch_8cs" startline="9" endline="12">CATIATranslator.FeatureSketch.FeatureSketch</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_c_a_t_i_a_translator_1_1_feature_sketch_1af8f5e4aeb9903aaf9b501349091467a1" prot="public" static="no" mutable="no">
+        <type>INFITF.Reference</type>
+        <definition>INFITF.Reference CATIATranslator.FeatureSketch.cReference</definition>
+        <argsstring></argsstring>
+        <name>cReference</name>
+        <initializer>= null</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/CATIATranslator/Part/Sketch/FeatureSketch.cs" line="15" column="1" bodyfile="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/CATIATranslator/Part/Sketch/FeatureSketch.cs" bodystart="15" bodyend="-1"/>
+        <referencedby refid="class_c_a_t_i_a_translator_1_1_feature_sketch_1ac6035a19c6a338ae14e2d8111e9e8e26" compoundref="_feature_sketch_8cs" startline="66" endline="130">CATIATranslator.FeatureSketch.TranslateT2C</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_c_a_t_i_a_translator_1_1_feature_sketch_1aa243392fc4b3ca21b034d6d850eac3a5" prot="public" static="no" mutable="no">
+        <type>MECMOD.Factory2D</type>
+        <definition>MECMOD.Factory2D CATIATranslator.FeatureSketch.cFactory</definition>
+        <argsstring></argsstring>
+        <name>cFactory</name>
+        <initializer>= null</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/CATIATranslator/Part/Sketch/FeatureSketch.cs" line="16" column="1" bodyfile="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/CATIATranslator/Part/Sketch/FeatureSketch.cs" bodystart="16" bodyend="-1"/>
+        <referencedby refid="class_c_a_t_i_a_translator_1_1_sketch_circle2_d_1a2922c705ac3e4bdaf640344919016610" compoundref="_sketch_circle2_d_8cs" startline="65" endline="119">CATIATranslator.SketchCircle2D.TranslateT2C</referencedby>
+        <referencedby refid="class_c_a_t_i_a_translator_1_1_feature_sketch_1ac6035a19c6a338ae14e2d8111e9e8e26" compoundref="_feature_sketch_8cs" startline="66" endline="130">CATIATranslator.FeatureSketch.TranslateT2C</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_c_a_t_i_a_translator_1_1_feature_sketch_1a33268a1c79bf35e477e124575b8c9c94" prot="public" static="no" mutable="no">
+        <type>MECMOD.Line2D</type>
+        <definition>MECMOD.Line2D CATIATranslator.FeatureSketch.cCenterLine</definition>
+        <argsstring></argsstring>
+        <name>cCenterLine</name>
+        <initializer>= null</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/CATIATranslator/Part/Sketch/FeatureSketch.cs" line="17" column="1" bodyfile="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/CATIATranslator/Part/Sketch/FeatureSketch.cs" bodystart="17" bodyend="-1"/>
+        <referencedby refid="class_c_a_t_i_a_translator_1_1_sketch_line2_d_1a2e974964acbcc28f4af103e70d9a61a9" compoundref="_sketch_line2_d_8cs" startline="14" endline="30">CATIATranslator.SketchLine2D.TranslateC2T</referencedby>
+        <referencedby refid="class_c_a_t_i_a_translator_1_1_feature_sketch_1abe217709577c2f83bcd6427053148e9b" compoundref="_feature_sketch_8cs" startline="25" endline="63">CATIATranslator.FeatureSketch.TranslateC2T</referencedby>
+        <referencedby refid="class_c_a_t_i_a_translator_1_1_feature_sketch_1ac6035a19c6a338ae14e2d8111e9e8e26" compoundref="_feature_sketch_8cs" startline="66" endline="130">CATIATranslator.FeatureSketch.TranslateT2C</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_c_a_t_i_a_translator_1_1_feature_sketch_1a87139ec80a5c294c891c470ba76d87c9" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int CATIATranslator.FeatureSketch.cReportName</definition>
+        <argsstring></argsstring>
+        <name>cReportName</name>
+        <initializer>= 0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/CATIATranslator/Part/Sketch/FeatureSketch.cs" line="18" column="1" bodyfile="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/CATIATranslator/Part/Sketch/FeatureSketch.cs" bodystart="18" bodyend="-1"/>
+        <referencedby refid="class_c_a_t_i_a_translator_1_1_feature_sketch_1ac6035a19c6a338ae14e2d8111e9e8e26" compoundref="_feature_sketch_8cs" startline="66" endline="130">CATIATranslator.FeatureSketch.TranslateT2C</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_c_a_t_i_a_translator_1_1_feature_sketch_1a5f2b9b671887c701020c738efe2260d1" prot="public" static="no" mutable="no">
+        <type>TransCAD.Reference</type>
+        <definition>TransCAD.Reference CATIATranslator.FeatureSketch.tReference</definition>
+        <argsstring></argsstring>
+        <name>tReference</name>
+        <initializer>= null</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/CATIATranslator/Part/Sketch/FeatureSketch.cs" line="21" column="1" bodyfile="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/CATIATranslator/Part/Sketch/FeatureSketch.cs" bodystart="21" bodyend="-1"/>
+        <referencedby refid="class_c_a_t_i_a_translator_1_1_feature_groove_1aee33517b35cf86bcfd26477214d35b4f" compoundref="_feature_groove_8cs" startline="12" endline="26">CATIATranslator.FeatureGroove.TranslateC2T</referencedby>
+        <referencedby refid="class_c_a_t_i_a_translator_1_1_feature_shaft_1aaafff48be585415969f46fd45194c93b" compoundref="_feature_shaft_8cs" startline="12" endline="26">CATIATranslator.FeatureShaft.TranslateC2T</referencedby>
+        <referencedby refid="class_c_a_t_i_a_translator_1_1_feature_sketch_1abe217709577c2f83bcd6427053148e9b" compoundref="_feature_sketch_8cs" startline="25" endline="63">CATIATranslator.FeatureSketch.TranslateC2T</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_c_a_t_i_a_translator_1_1_feature_sketch_1a22968d757d1bea3abc578feff9eb5e68" prot="public" static="no" mutable="no">
+        <type>TransCAD.SketchEditor</type>
+        <definition>TransCAD.SketchEditor CATIATranslator.FeatureSketch.tSketchEditor</definition>
+        <argsstring></argsstring>
+        <name>tSketchEditor</name>
+        <initializer>= null</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/CATIATranslator/Part/Sketch/FeatureSketch.cs" line="22" column="1" bodyfile="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/CATIATranslator/Part/Sketch/FeatureSketch.cs" bodystart="22" bodyend="-1"/>
+        <referencedby refid="class_c_a_t_i_a_translator_1_1_feature_sketch_1abe217709577c2f83bcd6427053148e9b" compoundref="_feature_sketch_8cs" startline="25" endline="63">CATIATranslator.FeatureSketch.TranslateC2T</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_c_a_t_i_a_translator_1_1_feature_sketch_1a647422114d602b8901b360ae863d55d0" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>CATIATranslator.FeatureSketch.FeatureSketch</definition>
+        <argsstring>(Part PartManager)</argsstring>
+        <name>FeatureSketch</name>
+        <param>
+          <type><ref refid="class_c_a_t_i_a_translator_1_1_part" kindref="compound">Part</ref></type>
+          <declname>PartManager</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/CATIATranslator/Part/Sketch/FeatureSketch.cs" line="9" column="1" bodyfile="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/CATIATranslator/Part/Sketch/FeatureSketch.cs" bodystart="9" bodyend="12"/>
+        <references refid="class_c_a_t_i_a_translator_1_1_feature_sketch_1abd9ea3e5c3f9353d5f4bebf10903b86e" compoundref="_feature_sketch_8cs" startline="7">CATIATranslator.FeatureSketch.PartManager</references>
+      </memberdef>
+      <memberdef kind="function" id="class_c_a_t_i_a_translator_1_1_feature_sketch_1abe217709577c2f83bcd6427053148e9b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void CATIATranslator.FeatureSketch.TranslateC2T</definition>
+        <argsstring>(MECMOD.Sketch cSketch)</argsstring>
+        <name>TranslateC2T</name>
+        <param>
+          <type>MECMOD.Sketch</type>
+          <declname>cSketch</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/CATIATranslator/Part/Sketch/FeatureSketch.cs" line="25" column="1" bodyfile="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/CATIATranslator/Part/Sketch/FeatureSketch.cs" bodystart="25" bodyend="63"/>
+        <references refid="class_c_a_t_i_a_translator_1_1_feature_sketch_1a33268a1c79bf35e477e124575b8c9c94" compoundref="_feature_sketch_8cs" startline="17">CATIATranslator.FeatureSketch.cCenterLine</references>
+        <references refid="class_c_a_t_i_a_translator_1_1_feature_sketch_1a5f2b9b671887c701020c738efe2260d1" compoundref="_feature_sketch_8cs" startline="21">CATIATranslator.FeatureSketch.tReference</references>
+        <references refid="class_c_a_t_i_a_translator_1_1_feature_sketch_1a22968d757d1bea3abc578feff9eb5e68" compoundref="_feature_sketch_8cs" startline="22">CATIATranslator.FeatureSketch.tSketchEditor</references>
+      </memberdef>
+      <memberdef kind="function" id="class_c_a_t_i_a_translator_1_1_feature_sketch_1ac6035a19c6a338ae14e2d8111e9e8e26" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void CATIATranslator.FeatureSketch.TranslateT2C</definition>
+        <argsstring>(TransCAD.IFeature tFeature)</argsstring>
+        <name>TranslateT2C</name>
+        <param>
+          <type>TransCAD.IFeature</type>
+          <declname>tFeature</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/CATIATranslator/Part/Sketch/FeatureSketch.cs" line="66" column="1" bodyfile="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/CATIATranslator/Part/Sketch/FeatureSketch.cs" bodystart="66" bodyend="130"/>
+        <references refid="class_c_a_t_i_a_translator_1_1_feature_sketch_1a33268a1c79bf35e477e124575b8c9c94" compoundref="_feature_sketch_8cs" startline="17">CATIATranslator.FeatureSketch.cCenterLine</references>
+        <references refid="class_c_a_t_i_a_translator_1_1_feature_sketch_1aa243392fc4b3ca21b034d6d850eac3a5" compoundref="_feature_sketch_8cs" startline="16">CATIATranslator.FeatureSketch.cFactory</references>
+        <references refid="class_c_a_t_i_a_translator_1_1_feature_sketch_1af8f5e4aeb9903aaf9b501349091467a1" compoundref="_feature_sketch_8cs" startline="15">CATIATranslator.FeatureSketch.cReference</references>
+        <references refid="class_c_a_t_i_a_translator_1_1_feature_sketch_1a87139ec80a5c294c891c470ba76d87c9" compoundref="_feature_sketch_8cs" startline="18">CATIATranslator.FeatureSketch.cReportName</references>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="511">
+        <label>CATIATranslator.FeatureSketch</label>
+        <link refid="class_c_a_t_i_a_translator_1_1_feature_sketch"/>
+        <childnode refid="512" relation="usage">
+          <edgelabel>tReference</edgelabel>
+          <edgelabel>tSketchEditor</edgelabel>
+        </childnode>
+        <childnode refid="513" relation="usage">
+          <edgelabel>cReference</edgelabel>
+        </childnode>
+        <childnode refid="515" relation="usage">
+          <edgelabel>PartManager</edgelabel>
+        </childnode>
+      </node>
+      <node id="512">
+        <label>TransCAD</label>
+      </node>
+      <node id="513">
+        <label>CATIATranslator.Reference</label>
+        <link refid="class_c_a_t_i_a_translator_1_1_reference"/>
+        <childnode refid="514" relation="usage">
+          <edgelabel>assembly</edgelabel>
+        </childnode>
+        <childnode refid="515" relation="usage">
+          <edgelabel>PartManager</edgelabel>
+        </childnode>
+      </node>
+      <node id="515">
+        <label>CATIATranslator.Part</label>
+        <link refid="class_c_a_t_i_a_translator_1_1_part"/>
+        <childnode refid="512" relation="usage">
+          <edgelabel>tAssemDoc</edgelabel>
+          <edgelabel>tApp</edgelabel>
+          <edgelabel>tPartDoc</edgelabel>
+          <edgelabel>tDocs</edgelabel>
+          <edgelabel>tFeatures</edgelabel>
+          <edgelabel>tAssem</edgelabel>
+          <edgelabel>tComp</edgelabel>
+          <edgelabel>tPart</edgelabel>
+        </childnode>
+        <childnode refid="513" relation="usage">
+          <edgelabel>ReferenceManager</edgelabel>
+        </childnode>
+        <childnode refid="515" relation="usage">
+          <edgelabel>cPart</edgelabel>
+        </childnode>
+      </node>
+      <node id="514">
+        <label>CATIATranslator.Assembly</label>
+        <link refid="class_c_a_t_i_a_translator_1_1_assembly"/>
+        <childnode refid="512" relation="usage">
+          <edgelabel>tConstraints</edgelabel>
+          <edgelabel>tAssemDoc</edgelabel>
+          <edgelabel>tApp</edgelabel>
+          <edgelabel>tPartDoc</edgelabel>
+          <edgelabel>tDocs</edgelabel>
+          <edgelabel>tFeatures</edgelabel>
+          <edgelabel>tAssem</edgelabel>
+          <edgelabel>tComp</edgelabel>
+          <edgelabel>tPart</edgelabel>
+        </childnode>
+        <childnode refid="513" relation="usage">
+          <edgelabel>ReferenceManager</edgelabel>
+        </childnode>
+        <childnode refid="515" relation="usage">
+          <edgelabel>cPart</edgelabel>
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/CATIATranslator/Part/Sketch/FeatureSketch.cs" line="6" column="1" bodyfile="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/CATIATranslator/Part/Sketch/FeatureSketch.cs" bodystart="5" bodyend="131"/>
+    <listofallmembers>
+      <member refid="class_c_a_t_i_a_translator_1_1_feature_sketch_1a33268a1c79bf35e477e124575b8c9c94" prot="public" virt="non-virtual"><scope>CATIATranslator::FeatureSketch</scope><name>cCenterLine</name></member>
+      <member refid="class_c_a_t_i_a_translator_1_1_feature_sketch_1aa243392fc4b3ca21b034d6d850eac3a5" prot="public" virt="non-virtual"><scope>CATIATranslator::FeatureSketch</scope><name>cFactory</name></member>
+      <member refid="class_c_a_t_i_a_translator_1_1_feature_sketch_1af8f5e4aeb9903aaf9b501349091467a1" prot="public" virt="non-virtual"><scope>CATIATranslator::FeatureSketch</scope><name>cReference</name></member>
+      <member refid="class_c_a_t_i_a_translator_1_1_feature_sketch_1a87139ec80a5c294c891c470ba76d87c9" prot="public" virt="non-virtual"><scope>CATIATranslator::FeatureSketch</scope><name>cReportName</name></member>
+      <member refid="class_c_a_t_i_a_translator_1_1_feature_sketch_1a647422114d602b8901b360ae863d55d0" prot="public" virt="non-virtual"><scope>CATIATranslator::FeatureSketch</scope><name>FeatureSketch</name></member>
+      <member refid="class_c_a_t_i_a_translator_1_1_feature_sketch_1abd9ea3e5c3f9353d5f4bebf10903b86e" prot="public" virt="non-virtual"><scope>CATIATranslator::FeatureSketch</scope><name>PartManager</name></member>
+      <member refid="class_c_a_t_i_a_translator_1_1_feature_sketch_1abe217709577c2f83bcd6427053148e9b" prot="public" virt="non-virtual"><scope>CATIATranslator::FeatureSketch</scope><name>TranslateC2T</name></member>
+      <member refid="class_c_a_t_i_a_translator_1_1_feature_sketch_1ac6035a19c6a338ae14e2d8111e9e8e26" prot="public" virt="non-virtual"><scope>CATIATranslator::FeatureSketch</scope><name>TranslateT2C</name></member>
+      <member refid="class_c_a_t_i_a_translator_1_1_feature_sketch_1a5f2b9b671887c701020c738efe2260d1" prot="public" virt="non-virtual"><scope>CATIATranslator::FeatureSketch</scope><name>tReference</name></member>
+      <member refid="class_c_a_t_i_a_translator_1_1_feature_sketch_1a22968d757d1bea3abc578feff9eb5e68" prot="public" virt="non-virtual"><scope>CATIATranslator::FeatureSketch</scope><name>tSketchEditor</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -58,8 +58,6 @@ namespace ReferenceClass
 		pre_data = new parsing();
 	}
 
-
-
 	//¼Ò¸êÀÚ
 	ref_Pre::~ref_Pre() { ::CoUninitialize(); }
 
@@ -181,7 +179,9 @@ namespace ReferenceClass
 					break;
 				}
 			}
+			
 
+					
 		}
 
 

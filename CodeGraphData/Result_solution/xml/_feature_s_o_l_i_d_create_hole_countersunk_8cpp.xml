@@ -1,0 +1,251 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="_feature_s_o_l_i_d_create_hole_countersunk_8cpp" kind="file">
+    <compoundname>FeatureSOLIDCreateHoleCountersunk.cpp</compoundname>
+    <includes local="yes">stdafx.h</includes>
+    <includes refid="_feature_s_o_l_i_d_create_hole_countersunk_8h" local="yes">FeatureSOLIDCreateHoleCountersunk.h</includes>
+    <incdepgraph>
+      <node id="1413">
+        <label>atlstr.h</label>
+      </node>
+      <node id="1408">
+        <label>FeatureSOLIDCreateHoleCountersunk.h</label>
+        <link refid="_feature_s_o_l_i_d_create_hole_countersunk_8h"/>
+        <childnode refid="1409" relation="include">
+        </childnode>
+      </node>
+      <node id="1409">
+        <label>Feature.h</label>
+        <link refid="_post_manager_2ref_2_feature_8h"/>
+        <childnode refid="1410" relation="include">
+        </childnode>
+      </node>
+      <node id="1407">
+        <label>stdafx.h</label>
+      </node>
+      <node id="1419">
+        <label>stdlib.h</label>
+      </node>
+      <node id="1421">
+        <label>cmath</label>
+      </node>
+      <node id="1415">
+        <label>string</label>
+      </node>
+      <node id="1420">
+        <label>comutil.h</label>
+      </node>
+      <node id="1416">
+        <label>fstream</label>
+      </node>
+      <node id="1410">
+        <label>Part.h</label>
+        <link refid="_post_manager_2ref_2_part_8h"/>
+        <childnode refid="1411" relation="include">
+        </childnode>
+        <childnode refid="1424" relation="include">
+        </childnode>
+      </node>
+      <node id="1428">
+        <label>MP_Utility.h</label>
+        <link refid="_m_p___utility_8h"/>
+        <childnode refid="1425" relation="include">
+        </childnode>
+      </node>
+      <node id="1427">
+        <label>string.h</label>
+      </node>
+      <node id="1417">
+        <label>vector</label>
+      </node>
+      <node id="1406">
+        <label>PostManager/ref/FeatureSOLIDCreateHoleCountersunk.cpp</label>
+        <link refid="FeatureSOLIDCreateHoleCountersunk.cpp"/>
+        <childnode refid="1407" relation="include">
+        </childnode>
+        <childnode refid="1408" relation="include">
+        </childnode>
+      </node>
+      <node id="1423">
+        <label>math.h</label>
+      </node>
+      <node id="1412">
+        <label>atlbase.h</label>
+      </node>
+      <node id="1424">
+        <label>CATIAReferenceManager.h</label>
+        <link refid="_c_a_t_i_a_reference_manager_8h"/>
+        <childnode refid="1411" relation="include">
+        </childnode>
+        <childnode refid="1425" relation="include">
+        </childnode>
+        <childnode refid="1428" relation="include">
+        </childnode>
+      </node>
+      <node id="1414">
+        <label>iostream</label>
+      </node>
+      <node id="1422">
+        <label>Definition.h</label>
+        <link refid="_post_manager_2ref_2_definition_8h"/>
+        <childnode refid="1423" relation="include">
+        </childnode>
+      </node>
+      <node id="1426">
+        <label>algorithm</label>
+      </node>
+      <node id="1418">
+        <label>stdio.h</label>
+      </node>
+      <node id="1425">
+        <label>PN_TYPE.h</label>
+        <link refid="_p_n___t_y_p_e_8h"/>
+        <childnode refid="1414" relation="include">
+        </childnode>
+        <childnode refid="1415" relation="include">
+        </childnode>
+        <childnode refid="1417" relation="include">
+        </childnode>
+        <childnode refid="1426" relation="include">
+        </childnode>
+        <childnode refid="1423" relation="include">
+        </childnode>
+        <childnode refid="1427" relation="include">
+        </childnode>
+      </node>
+      <node id="1411">
+        <label>CATIApost_DLL.h</label>
+        <link refid="_c_a_t_i_apost___d_l_l_8h"/>
+        <childnode refid="1412" relation="include">
+        </childnode>
+        <childnode refid="1413" relation="include">
+        </childnode>
+        <childnode refid="1414" relation="include">
+        </childnode>
+        <childnode refid="1415" relation="include">
+        </childnode>
+        <childnode refid="1416" relation="include">
+        </childnode>
+        <childnode refid="1417" relation="include">
+        </childnode>
+        <childnode refid="1418" relation="include">
+        </childnode>
+        <childnode refid="1419" relation="include">
+        </childnode>
+        <childnode refid="1420" relation="include">
+        </childnode>
+        <childnode refid="1421" relation="include">
+        </childnode>
+        <childnode refid="1422" relation="include">
+        </childnode>
+      </node>
+    </incdepgraph>
+    <innernamespace refid="namespace_post">Post</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="preprocessor">#include<sp/>&quot;stdafx.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="_feature_s_o_l_i_d_create_hole_countersunk_8h" kindref="compound">FeatureSOLIDCreateHoleCountersunk.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal">Post<sp/>{</highlight></codeline>
+<codeline lineno="5" refid="class_post_1_1_feature_s_o_l_i_d_create_hole_countersunk_1a19d808f2d2fd58bb0e0a332d8a55779c" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="class_post_1_1_feature_s_o_l_i_d_create_hole_countersunk_1a19d808f2d2fd58bb0e0a332d8a55779c" kindref="member">FeatureSOLIDCreateHoleCountersunk::FeatureSOLIDCreateHoleCountersunk</ref>(<ref refid="class_post_1_1_part" kindref="compound">Part</ref><sp/>*<sp/>pPart,<sp/>TransCAD::IFeaturePtr<sp/>spFeature)</highlight></codeline>
+<codeline lineno="6"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>:<sp/><ref refid="class_post_1_1_feature" kindref="compound">Feature</ref>(pPart,<sp/>spFeature)</highlight></codeline>
+<codeline lineno="7"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="8"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight></codeline>
+<codeline lineno="10" refid="class_post_1_1_feature_s_o_l_i_d_create_hole_countersunk_1ab7b6d319d4c9d9356729749bc0b3c5c6" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="class_post_1_1_feature_s_o_l_i_d_create_hole_countersunk_1ab7b6d319d4c9d9356729749bc0b3c5c6" kindref="member">FeatureSOLIDCreateHoleCountersunk::~FeatureSOLIDCreateHoleCountersunk</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">)</highlight></codeline>
+<codeline lineno="11"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="12"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="13"><highlight class="normal"></highlight></codeline>
+<codeline lineno="14" refid="class_post_1_1_feature_s_o_l_i_d_create_hole_countersunk_1ab3b5d0c0cfb307e533792e43fb351e90" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_post_1_1_feature_s_o_l_i_d_create_hole_countersunk_1ab3b5d0c0cfb307e533792e43fb351e90" kindref="member">FeatureSOLIDCreateHoleCountersunk::GetInfo</ref>()</highlight></codeline>
+<codeline lineno="15"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="16"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>TransCAD::IStdSolidHoleCountersunkFeaturePtr<sp/>spFeature<sp/>=<sp/><ref refid="class_post_1_1_feature_1a252ade4e8188c192beaf03a8abbdca65" kindref="member">GetTransCADFeature</ref>();</highlight></codeline>
+<codeline lineno="17"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>spFeature-&gt;GetCenterPoint(&amp;<ref refid="class_post_1_1_feature_s_o_l_i_d_create_hole_countersunk_1a327b715a0167648453084cb627eefc28" kindref="member">_centerpoint</ref>[0],<sp/>&amp;<ref refid="class_post_1_1_feature_s_o_l_i_d_create_hole_countersunk_1a327b715a0167648453084cb627eefc28" kindref="member">_centerpoint</ref>[1],<sp/>&amp;<ref refid="class_post_1_1_feature_s_o_l_i_d_create_hole_countersunk_1a327b715a0167648453084cb627eefc28" kindref="member">_centerpoint</ref>[2]);</highlight></codeline>
+<codeline lineno="18"><highlight class="normal"></highlight></codeline>
+<codeline lineno="19"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>TransCAD::IReferencePtr<sp/>spReference<sp/>=<sp/>spFeature-&gt;GetTargetFace();</highlight></codeline>
+<codeline lineno="20"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_post_1_1_feature_s_o_l_i_d_create_hole_countersunk_1aea67f4a17b905f6251f3a13c8ef1d6c8" kindref="member">_referenceName</ref><sp/>=<sp/>spReference-&gt;ReferenceeName;</highlight></codeline>
+<codeline lineno="21"><highlight class="normal"></highlight></codeline>
+<codeline lineno="22"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_post_1_1_feature_s_o_l_i_d_create_hole_countersunk_1a4424406ae14c9b5375624e80f6d4f109" kindref="member">_Radius</ref><sp/>=<sp/>spFeature-&gt;GetRadius();</highlight></codeline>
+<codeline lineno="23"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_post_1_1_feature_s_o_l_i_d_create_hole_countersunk_1a8673bb97ae613a1769b5f0b8c2fd2bc8" kindref="member">_Depth</ref><sp/>=<sp/>spFeature-&gt;GetDepth();</highlight></codeline>
+<codeline lineno="24"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_post_1_1_feature_s_o_l_i_d_create_hole_countersunk_1ace32a7f8bd231d8a3e82c330cf8924e8" kindref="member">_sinkRadius</ref><sp/>=<sp/>spFeature-&gt;GetSinkRadius();</highlight></codeline>
+<codeline lineno="25"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_post_1_1_feature_s_o_l_i_d_create_hole_countersunk_1a2201d97bd7a6603baf64f9c047a03452" kindref="member">_sinkAngle</ref><sp/>=<sp/>spFeature-&gt;GetSinkAngle();</highlight></codeline>
+<codeline lineno="26"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_post_1_1_feature_s_o_l_i_d_create_hole_countersunk_1ad89160d514ada1dff0aaeb229a5557e0" kindref="member">_headDepth</ref><sp/>=<sp/>(<ref refid="class_post_1_1_feature_s_o_l_i_d_create_hole_countersunk_1ace32a7f8bd231d8a3e82c330cf8924e8" kindref="member">_sinkRadius</ref><sp/>-<sp/><ref refid="class_post_1_1_feature_s_o_l_i_d_create_hole_countersunk_1a4424406ae14c9b5375624e80f6d4f109" kindref="member">_Radius</ref>)<sp/>/<sp/>tan(0.5*<ref refid="class_post_1_1_feature_s_o_l_i_d_create_hole_countersunk_1a2201d97bd7a6603baf64f9c047a03452" kindref="member">_sinkAngle</ref>*<ref refid="_post_manager_2_stdafx_8h_1a598a3330b3c21701223ee0ca14316eca" kindref="member">PI</ref><sp/>/<sp/>180);</highlight></codeline>
+<codeline lineno="27"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_post_1_1_feature_s_o_l_i_d_create_hole_countersunk_1afb78c3312e8353161e38493846b78b3e" kindref="member">_bottomAngle</ref><sp/>=<sp/>spFeature-&gt;GetBottomAngle();</highlight></codeline>
+<codeline lineno="28"><highlight class="normal"></highlight></codeline>
+<codeline lineno="29"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>cout<sp/>&lt;&lt;<sp/></highlight><highlight class="stringliteral">&quot;<sp/><sp/><sp/>RefFullName<sp/>:<sp/>&quot;</highlight><highlight class="normal"><sp/>&lt;&lt;<sp/><ref refid="class_post_1_1_feature_s_o_l_i_d_create_hole_countersunk_1aea67f4a17b905f6251f3a13c8ef1d6c8" kindref="member">_referenceName</ref>.c_str()<sp/>&lt;&lt;<sp/>endl;</highlight></codeline>
+<codeline lineno="30"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>cout<sp/>&lt;&lt;<sp/></highlight><highlight class="stringliteral">&quot;<sp/><sp/><sp/>CenterPoinit:<sp/>&quot;</highlight><highlight class="normal"><sp/>&lt;&lt;<sp/></highlight><highlight class="stringliteral">&quot;(&quot;</highlight><highlight class="normal"><sp/>&lt;&lt;<sp/><ref refid="class_post_1_1_feature_s_o_l_i_d_create_hole_countersunk_1a327b715a0167648453084cb627eefc28" kindref="member">_centerpoint</ref>[0]<sp/>&lt;&lt;<sp/></highlight><highlight class="stringliteral">&quot;,&quot;</highlight><highlight class="normal"><sp/>&lt;&lt;<sp/><ref refid="class_post_1_1_feature_s_o_l_i_d_create_hole_countersunk_1a327b715a0167648453084cb627eefc28" kindref="member">_centerpoint</ref>[1]<sp/>&lt;&lt;<sp/></highlight><highlight class="stringliteral">&quot;,&quot;</highlight><highlight class="normal"><sp/>&lt;&lt;<sp/><ref refid="class_post_1_1_feature_s_o_l_i_d_create_hole_countersunk_1a327b715a0167648453084cb627eefc28" kindref="member">_centerpoint</ref>[2]<sp/>&lt;&lt;<sp/></highlight><highlight class="stringliteral">&quot;)&quot;</highlight><highlight class="normal"><sp/>&lt;&lt;<sp/>endl;</highlight></codeline>
+<codeline lineno="31"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>cout<sp/>&lt;&lt;<sp/></highlight><highlight class="stringliteral">&quot;<sp/><sp/><sp/>Radius<sp/><sp/><sp/><sp/><sp/><sp/>:<sp/>&quot;</highlight><highlight class="normal"><sp/>&lt;&lt;<sp/><ref refid="class_post_1_1_feature_s_o_l_i_d_create_hole_countersunk_1a4424406ae14c9b5375624e80f6d4f109" kindref="member">_Radius</ref><sp/>&lt;&lt;<sp/>endl;</highlight></codeline>
+<codeline lineno="32"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>cout<sp/>&lt;&lt;<sp/></highlight><highlight class="stringliteral">&quot;<sp/><sp/><sp/>Depth<sp/><sp/><sp/><sp/><sp/><sp/><sp/>:<sp/>&quot;</highlight><highlight class="normal"><sp/>&lt;&lt;<sp/><ref refid="class_post_1_1_feature_s_o_l_i_d_create_hole_countersunk_1a8673bb97ae613a1769b5f0b8c2fd2bc8" kindref="member">_Depth</ref><sp/>&lt;&lt;<sp/>endl;</highlight></codeline>
+<codeline lineno="33"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>cout<sp/>&lt;&lt;<sp/></highlight><highlight class="stringliteral">&quot;<sp/><sp/><sp/>SinkRadius<sp/><sp/>:<sp/>&quot;</highlight><highlight class="normal"><sp/>&lt;&lt;<sp/><ref refid="class_post_1_1_feature_s_o_l_i_d_create_hole_countersunk_1ace32a7f8bd231d8a3e82c330cf8924e8" kindref="member">_sinkRadius</ref><sp/>&lt;&lt;<sp/>endl;</highlight></codeline>
+<codeline lineno="34"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>cout<sp/>&lt;&lt;<sp/></highlight><highlight class="stringliteral">&quot;<sp/><sp/><sp/>SinkAngle<sp/><sp/><sp/>:<sp/>&quot;</highlight><highlight class="normal"><sp/>&lt;&lt;<sp/><ref refid="class_post_1_1_feature_s_o_l_i_d_create_hole_countersunk_1a2201d97bd7a6603baf64f9c047a03452" kindref="member">_sinkAngle</ref><sp/>&lt;&lt;<sp/>endl;</highlight></codeline>
+<codeline lineno="35"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="36"><highlight class="normal"></highlight></codeline>
+<codeline lineno="37" refid="class_post_1_1_feature_s_o_l_i_d_create_hole_countersunk_1a076b56d8a0a35f24cd0ae55d0760e87e" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_post_1_1_feature_s_o_l_i_d_create_hole_countersunk_1a076b56d8a0a35f24cd0ae55d0760e87e" kindref="member">FeatureSOLIDCreateHoleCountersunk::ToCATIA</ref>()</highlight></codeline>
+<codeline lineno="38"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="39"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="_c_a_t_i_apost___d_l_l_8cpp_1a4a001227aeffed8767cfd035c687e1ca" kindref="member">ref_index</ref>,<sp/><ref refid="_c_a_t_i_apost___d_l_l_8cpp_1a9d0ccac49c6fa3a640bc5e48bef71480" kindref="member">lim_index</ref>,<sp/><ref refid="_c_a_t_i_apost___d_l_l_8cpp_1a022e63e0684ba8af19134ea0510837f1" kindref="member">lng_index</ref>,<sp/><ref refid="_c_a_t_i_apost___d_l_l_8cpp_1ab19f712b4a42f729c4b03c85bf315239" kindref="member">ang_index</ref>;</highlight></codeline>
+<codeline lineno="40"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="_c_a_t_i_apost___d_l_l_8cpp_1a4755ab04787eb624e9b84fce74ea4e1f" kindref="member">holecounterID</ref>;</highlight></codeline>
+<codeline lineno="41"><highlight class="normal"></highlight></codeline>
+<codeline lineno="42"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">string</highlight><highlight class="normal"><sp/>_facename<sp/>=<sp/><ref refid="namespace_post_1a757521acb19b64cd9a29879d6c5a7d5f" kindref="member">g_pRefManager</ref>-&gt;<ref refid="class_post_1_1_c_a_t_i_a_reference_manager_1a1cb21f058f48445ec86600788ce3284a" kindref="member">ConvertToBRepFaceForHole</ref>(<ref refid="class_post_1_1_feature_s_o_l_i_d_create_hole_countersunk_1aea67f4a17b905f6251f3a13c8ef1d6c8" kindref="member">_referenceName</ref>);</highlight></codeline>
+<codeline lineno="43"><highlight class="normal"></highlight></codeline>
+<codeline lineno="44"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>fprintf(<ref refid="class_post_1_1_feature_1aace9d720d9a16b17c62ab6b4b91cea3c" kindref="member">GetPart</ref>()-&gt;file,<sp/></highlight><highlight class="stringliteral">&quot;Dim<sp/>reference%d<sp/>As<sp/>Reference\n&quot;</highlight><highlight class="normal">,<sp/>ref_index);</highlight></codeline>
+<codeline lineno="45"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>fprintf(<ref refid="class_post_1_1_feature_1aace9d720d9a16b17c62ab6b4b91cea3c" kindref="member">GetPart</ref>()-&gt;file,<sp/></highlight><highlight class="stringliteral">&quot;Set<sp/>reference%d<sp/>=<sp/>part1.CreateReferenceFromBRepName(\&quot;%s)\n\n&quot;</highlight><highlight class="normal">,<sp/>ref_index,<sp/>_facename.c_str());</highlight></codeline>
+<codeline lineno="46"><highlight class="normal"></highlight></codeline>
+<codeline lineno="47"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>fprintf(<ref refid="class_post_1_1_feature_1aace9d720d9a16b17c62ab6b4b91cea3c" kindref="member">GetPart</ref>()-&gt;file,<sp/></highlight><highlight class="stringliteral">&quot;Dim<sp/>hole%d<sp/>As<sp/>Hole\n&quot;</highlight><highlight class="normal">,<sp/>holecounterID);</highlight></codeline>
+<codeline lineno="48"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>fprintf(<ref refid="class_post_1_1_feature_1aace9d720d9a16b17c62ab6b4b91cea3c" kindref="member">GetPart</ref>()-&gt;file,<sp/></highlight><highlight class="stringliteral">&quot;Set<sp/>hole%d<sp/>=<sp/>shapeFactory1.AddNewHoleFromPoint&quot;</highlight><highlight class="normal">,<sp/>holecounterID);</highlight></codeline>
+<codeline lineno="49"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>fprintf(<ref refid="class_post_1_1_feature_1aace9d720d9a16b17c62ab6b4b91cea3c" kindref="member">GetPart</ref>()-&gt;file,<sp/></highlight><highlight class="stringliteral">&quot;(%f,<sp/>%f,<sp/>%f,<sp/>reference%d,<sp/>%f)\n\n&quot;</highlight><highlight class="normal">,<sp/><ref refid="class_post_1_1_feature_s_o_l_i_d_create_hole_countersunk_1a327b715a0167648453084cb627eefc28" kindref="member">_centerpoint</ref>[0],<sp/><ref refid="class_post_1_1_feature_s_o_l_i_d_create_hole_countersunk_1a327b715a0167648453084cb627eefc28" kindref="member">_centerpoint</ref>[1],<sp/><ref refid="class_post_1_1_feature_s_o_l_i_d_create_hole_countersunk_1a327b715a0167648453084cb627eefc28" kindref="member">_centerpoint</ref>[2],<sp/>ref_index,<sp/><ref refid="class_post_1_1_feature_s_o_l_i_d_create_hole_countersunk_1a8673bb97ae613a1769b5f0b8c2fd2bc8" kindref="member">_Depth</ref>);</highlight></codeline>
+<codeline lineno="50"><highlight class="normal"></highlight></codeline>
+<codeline lineno="51"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>fprintf(<ref refid="class_post_1_1_feature_1aace9d720d9a16b17c62ab6b4b91cea3c" kindref="member">GetPart</ref>()-&gt;file,<sp/></highlight><highlight class="stringliteral">&quot;hole%d.Type<sp/>=<sp/>catCountersunkHole\n\n&quot;</highlight><highlight class="normal">,<sp/>holecounterID);</highlight></codeline>
+<codeline lineno="52"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>fprintf(<ref refid="class_post_1_1_feature_1aace9d720d9a16b17c62ab6b4b91cea3c" kindref="member">GetPart</ref>()-&gt;file,<sp/></highlight><highlight class="stringliteral">&quot;hole%d.AnchorMode<sp/>=<sp/>catExtremPointHoleAnchor\n\n&quot;</highlight><highlight class="normal">,<sp/>holecounterID);</highlight></codeline>
+<codeline lineno="53"><highlight class="normal"></highlight></codeline>
+<codeline lineno="54"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(<ref refid="class_post_1_1_feature_s_o_l_i_d_create_hole_countersunk_1afb78c3312e8353161e38493846b78b3e" kindref="member">_bottomAngle</ref><sp/>&lt;<sp/>180.0)</highlight></codeline>
+<codeline lineno="55"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>fprintf(<ref refid="class_post_1_1_feature_1aace9d720d9a16b17c62ab6b4b91cea3c" kindref="member">GetPart</ref>()-&gt;file,<sp/></highlight><highlight class="stringliteral">&quot;hole%d.BottomType<sp/>=<sp/>catVHoleBottom\n\n&quot;</highlight><highlight class="normal">,<sp/>holecounterID);</highlight></codeline>
+<codeline lineno="56"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="57"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>fprintf(<ref refid="class_post_1_1_feature_1aace9d720d9a16b17c62ab6b4b91cea3c" kindref="member">GetPart</ref>()-&gt;file,<sp/></highlight><highlight class="stringliteral">&quot;hole%d.BottomType<sp/>=<sp/>catFlatHoleBottom\n\n&quot;</highlight><highlight class="normal">,<sp/>holecounterID);</highlight></codeline>
+<codeline lineno="58"><highlight class="normal"></highlight></codeline>
+<codeline lineno="59"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>fprintf(<ref refid="class_post_1_1_feature_1aace9d720d9a16b17c62ab6b4b91cea3c" kindref="member">GetPart</ref>()-&gt;file,<sp/></highlight><highlight class="stringliteral">&quot;Dim<sp/>limit%d<sp/>As<sp/>Limit\n&quot;</highlight><highlight class="normal">,<sp/>lim_index);</highlight></codeline>
+<codeline lineno="60"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>fprintf(<ref refid="class_post_1_1_feature_1aace9d720d9a16b17c62ab6b4b91cea3c" kindref="member">GetPart</ref>()-&gt;file,<sp/></highlight><highlight class="stringliteral">&quot;Set<sp/>limit%d<sp/>=<sp/>hole%d.BottomLimit\n\n&quot;</highlight><highlight class="normal">,<sp/>lim_index,<sp/>holecounterID);</highlight></codeline>
+<codeline lineno="61"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>fprintf(<ref refid="class_post_1_1_feature_1aace9d720d9a16b17c62ab6b4b91cea3c" kindref="member">GetPart</ref>()-&gt;file,<sp/></highlight><highlight class="stringliteral">&quot;limit%d.LimitMode<sp/>=<sp/>catOffsetLimit\n\n&quot;</highlight><highlight class="normal">,<sp/>lim_index);</highlight></codeline>
+<codeline lineno="62"><highlight class="normal"></highlight></codeline>
+<codeline lineno="63"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>lim_index++;</highlight></codeline>
+<codeline lineno="64"><highlight class="normal"></highlight></codeline>
+<codeline lineno="65"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>fprintf(<ref refid="class_post_1_1_feature_1aace9d720d9a16b17c62ab6b4b91cea3c" kindref="member">GetPart</ref>()-&gt;file,<sp/></highlight><highlight class="stringliteral">&quot;Dim<sp/>length%d<sp/>As<sp/>Length\n&quot;</highlight><highlight class="normal">,<sp/>lng_index);</highlight></codeline>
+<codeline lineno="66"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>fprintf(<ref refid="class_post_1_1_feature_1aace9d720d9a16b17c62ab6b4b91cea3c" kindref="member">GetPart</ref>()-&gt;file,<sp/></highlight><highlight class="stringliteral">&quot;Set<sp/>length%d<sp/>=<sp/>hole%d.Diameter\n\n&quot;</highlight><highlight class="normal">,<sp/>lng_index,<sp/>holecounterID);</highlight></codeline>
+<codeline lineno="67"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>fprintf(<ref refid="class_post_1_1_feature_1aace9d720d9a16b17c62ab6b4b91cea3c" kindref="member">GetPart</ref>()-&gt;file,<sp/></highlight><highlight class="stringliteral">&quot;length%d.Value<sp/>=<sp/>%f\n\n&quot;</highlight><highlight class="normal">,<sp/>lng_index,<sp/><ref refid="class_post_1_1_feature_s_o_l_i_d_create_hole_countersunk_1a4424406ae14c9b5375624e80f6d4f109" kindref="member">_Radius</ref><sp/>*<sp/>2);</highlight></codeline>
+<codeline lineno="68"><highlight class="normal"></highlight></codeline>
+<codeline lineno="69"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>lng_index++;</highlight></codeline>
+<codeline lineno="70"><highlight class="normal"></highlight></codeline>
+<codeline lineno="71"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>fprintf(<ref refid="class_post_1_1_feature_1aace9d720d9a16b17c62ab6b4b91cea3c" kindref="member">GetPart</ref>()-&gt;file,<sp/></highlight><highlight class="stringliteral">&quot;hole%d.CounterSunkMode<sp/>=<sp/>catCSModeAngleDiameter\n\n&quot;</highlight><highlight class="normal">,<sp/>holecounterID);</highlight></codeline>
+<codeline lineno="72"><highlight class="normal"></highlight></codeline>
+<codeline lineno="73"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>fprintf(<ref refid="class_post_1_1_feature_1aace9d720d9a16b17c62ab6b4b91cea3c" kindref="member">GetPart</ref>()-&gt;file,<sp/></highlight><highlight class="stringliteral">&quot;Dim<sp/>length%d<sp/>As<sp/>Length\n&quot;</highlight><highlight class="normal">,<sp/>lng_index);</highlight></codeline>
+<codeline lineno="74"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>fprintf(<ref refid="class_post_1_1_feature_1aace9d720d9a16b17c62ab6b4b91cea3c" kindref="member">GetPart</ref>()-&gt;file,<sp/></highlight><highlight class="stringliteral">&quot;Set<sp/>length%d<sp/>=<sp/>hole%d.HeadDepth\n\n&quot;</highlight><highlight class="normal">,<sp/>lng_index,<sp/>holecounterID);</highlight></codeline>
+<codeline lineno="75"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>fprintf(<ref refid="class_post_1_1_feature_1aace9d720d9a16b17c62ab6b4b91cea3c" kindref="member">GetPart</ref>()-&gt;file,<sp/></highlight><highlight class="stringliteral">&quot;length%d.Value<sp/>=<sp/>%f\n\n&quot;</highlight><highlight class="normal">,<sp/>lng_index,<sp/><ref refid="class_post_1_1_feature_s_o_l_i_d_create_hole_countersunk_1ad89160d514ada1dff0aaeb229a5557e0" kindref="member">_headDepth</ref>);</highlight></codeline>
+<codeline lineno="76"><highlight class="normal"></highlight></codeline>
+<codeline lineno="77"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>lng_index++;</highlight></codeline>
+<codeline lineno="78"><highlight class="normal"></highlight></codeline>
+<codeline lineno="79"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>fprintf(<ref refid="class_post_1_1_feature_1aace9d720d9a16b17c62ab6b4b91cea3c" kindref="member">GetPart</ref>()-&gt;file,<sp/></highlight><highlight class="stringliteral">&quot;Dim<sp/>angle%d<sp/>As<sp/>Angle\n&quot;</highlight><highlight class="normal">,<sp/>ang_index);</highlight></codeline>
+<codeline lineno="80"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>fprintf(<ref refid="class_post_1_1_feature_1aace9d720d9a16b17c62ab6b4b91cea3c" kindref="member">GetPart</ref>()-&gt;file,<sp/></highlight><highlight class="stringliteral">&quot;Set<sp/>angle%d<sp/>=<sp/>hole%d.HeadAngle\n\n&quot;</highlight><highlight class="normal">,<sp/>ang_index,<sp/>holecounterID);</highlight></codeline>
+<codeline lineno="81"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>fprintf(<ref refid="class_post_1_1_feature_1aace9d720d9a16b17c62ab6b4b91cea3c" kindref="member">GetPart</ref>()-&gt;file,<sp/></highlight><highlight class="stringliteral">&quot;angle%d.Value<sp/>=<sp/>%f\n\n&quot;</highlight><highlight class="normal">,<sp/>ang_index,<sp/><ref refid="class_post_1_1_feature_s_o_l_i_d_create_hole_countersunk_1a2201d97bd7a6603baf64f9c047a03452" kindref="member">_sinkAngle</ref>);</highlight></codeline>
+<codeline lineno="82"><highlight class="normal"></highlight></codeline>
+<codeline lineno="83"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>ang_index++;</highlight></codeline>
+<codeline lineno="84"><highlight class="normal"></highlight></codeline>
+<codeline lineno="85"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(<ref refid="class_post_1_1_feature_s_o_l_i_d_create_hole_countersunk_1afb78c3312e8353161e38493846b78b3e" kindref="member">_bottomAngle</ref><sp/>&lt;<sp/>180.0)</highlight></codeline>
+<codeline lineno="86"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="87"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>fprintf(<ref refid="class_post_1_1_feature_1aace9d720d9a16b17c62ab6b4b91cea3c" kindref="member">GetPart</ref>()-&gt;file,<sp/></highlight><highlight class="stringliteral">&quot;Dim<sp/>angle%d<sp/>As<sp/>Angle\n&quot;</highlight><highlight class="normal">,<sp/>ang_index);</highlight></codeline>
+<codeline lineno="88"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>fprintf(<ref refid="class_post_1_1_feature_1aace9d720d9a16b17c62ab6b4b91cea3c" kindref="member">GetPart</ref>()-&gt;file,<sp/></highlight><highlight class="stringliteral">&quot;Set<sp/>angle%d<sp/>=<sp/>hole%d.BottomAngle\n\n&quot;</highlight><highlight class="normal">,<sp/>ang_index,<sp/>holecounterID);</highlight></codeline>
+<codeline lineno="89"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>fprintf(<ref refid="class_post_1_1_feature_1aace9d720d9a16b17c62ab6b4b91cea3c" kindref="member">GetPart</ref>()-&gt;file,<sp/></highlight><highlight class="stringliteral">&quot;angle%d.Value<sp/>=<sp/>%f\n\n&quot;</highlight><highlight class="normal">,<sp/>ang_index,<sp/><ref refid="class_post_1_1_feature_s_o_l_i_d_create_hole_countersunk_1afb78c3312e8353161e38493846b78b3e" kindref="member">_bottomAngle</ref>);</highlight></codeline>
+<codeline lineno="90"><highlight class="normal"></highlight></codeline>
+<codeline lineno="91"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>ang_index++;</highlight></codeline>
+<codeline lineno="92"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="93"><highlight class="normal"></highlight></codeline>
+<codeline lineno="94"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>fprintf(<ref refid="class_post_1_1_feature_1aace9d720d9a16b17c62ab6b4b91cea3c" kindref="member">GetPart</ref>()-&gt;file,<sp/></highlight><highlight class="stringliteral">&quot;part1.UpdateObject<sp/>hole%d\n\n&quot;</highlight><highlight class="normal">,<sp/>holecounterID);</highlight></codeline>
+<codeline lineno="95"><highlight class="normal"></highlight></codeline>
+<codeline lineno="96"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>ref_index<sp/>+=<sp/>1;</highlight></codeline>
+<codeline lineno="97"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>holecounterID<sp/>+=<sp/>1;</highlight></codeline>
+<codeline lineno="98"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="99"><highlight class="normal">}</highlight></codeline>
+    </programlisting>
+    <location file="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/PostManager/ref/FeatureSOLIDCreateHoleCountersunk.cpp"/>
+  </compounddef>
+</doxygen>

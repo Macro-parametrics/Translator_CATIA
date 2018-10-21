@@ -1,0 +1,64 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="struct_post_1_1__sketch_info" kind="struct" prot="public">
+    <compoundname>Post::_sketchInfo</compoundname>
+    <includes refid="_c_a_t_i_a_reference_manager_8h" local="no">CATIAReferenceManager.h</includes>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="struct_post_1_1__sketch_info_1a1a72142c3c5dd92469258d1232186757" prot="public" static="no" mutable="no">
+        <type>std::string</type>
+        <definition>std::string Post::_sketchInfo::sketch_name</definition>
+        <argsstring></argsstring>
+        <name>sketch_name</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/PostManager/ref/CATIAReferenceManager.h" line="29" column="1" bodyfile="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/PostManager/ref/CATIAReferenceManager.h" bodystart="29" bodyend="-1"/>
+        <referencedby refid="class_post_1_1_f_sketch_1a7bafff74162c56925124f63dc257948f" compoundref="_post_manager_2ref_2_f_sketch_8cpp" startline="87" endline="138">Post::FSketch::GetInfo</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="struct_post_1_1__sketch_info_1a03b66d598024921072b04dde20bc9577" prot="public" static="no" mutable="no">
+        <type>std::string</type>
+        <definition>std::string Post::_sketchInfo::sketch_ref</definition>
+        <argsstring></argsstring>
+        <name>sketch_ref</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/PostManager/ref/CATIAReferenceManager.h" line="30" column="1" bodyfile="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/PostManager/ref/CATIAReferenceManager.h" bodystart="30" bodyend="-1"/>
+        <referencedby refid="class_post_1_1_f_sketch_1a7bafff74162c56925124f63dc257948f" compoundref="_post_manager_2ref_2_f_sketch_8cpp" startline="87" endline="138">Post::FSketch::GetInfo</referencedby>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="3">
+        <label>std::basic_string&lt; char &gt;</label>
+      </node>
+      <node id="1">
+        <label>Post::_sketchInfo</label>
+        <link refid="struct_post_1_1__sketch_info"/>
+        <childnode refid="2" relation="usage">
+          <edgelabel>sketch_name</edgelabel>
+          <edgelabel>sketch_ref</edgelabel>
+        </childnode>
+      </node>
+      <node id="2">
+        <label>std::string</label>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/PostManager/ref/CATIAReferenceManager.h" line="28" column="1" bodyfile="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/PostManager/ref/CATIAReferenceManager.h" bodystart="27" bodyend="31"/>
+    <listofallmembers>
+      <member refid="struct_post_1_1__sketch_info_1a1a72142c3c5dd92469258d1232186757" prot="public" virt="non-virtual"><scope>Post::_sketchInfo</scope><name>sketch_name</name></member>
+      <member refid="struct_post_1_1__sketch_info_1a03b66d598024921072b04dde20bc9577" prot="public" virt="non-virtual"><scope>Post::_sketchInfo</scope><name>sketch_ref</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

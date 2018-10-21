@@ -1,0 +1,72 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_c_a_t_i_a_translator_1_1_properties_1_1_settings" kind="class" prot="package">
+    <compoundname>CATIATranslator::Properties::Settings</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">ApplicationSettingsBase</basecompoundref>
+      <sectiondef kind="private-static-attrib">
+      <memberdef kind="variable" id="class_c_a_t_i_a_translator_1_1_properties_1_1_settings_1a392bc9bdca528d10bae04ed24dd82f53" prot="private" static="yes" mutable="no">
+        <type><ref refid="class_c_a_t_i_a_translator_1_1_properties_1_1_settings" kindref="compound">Settings</ref></type>
+        <definition>Settings CATIATranslator.Properties.Settings.defaultInstance</definition>
+        <argsstring></argsstring>
+        <name>defaultInstance</name>
+        <initializer>= ((<ref refid="class_c_a_t_i_a_translator_1_1_properties_1_1_settings" kindref="compound">Settings</ref>)(global::System.Configuration.ApplicationSettingsBase.Synchronized(new <ref refid="class_c_a_t_i_a_translator_1_1_properties_1_1_settings" kindref="compound">Settings</ref>())))</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/CATIATranslator/Properties/Settings.Designer.cs" line="20" column="1" bodyfile="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/CATIATranslator/Properties/Settings.Designer.cs" bodystart="20" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_c_a_t_i_a_translator_1_1_properties_1_1_settings_1af4f18065dc7c4fa3ab7493f7f63d3925" prot="public" static="yes" readable="no" writable="no" gettable="yes" settable="no">
+        <type><ref refid="class_c_a_t_i_a_translator_1_1_properties_1_1_settings" kindref="compound">Settings</ref></type>
+        <definition>Settings CATIATranslator.Properties.Settings.Default</definition>
+        <argsstring></argsstring>
+        <name>Default</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/CATIATranslator/Properties/Settings.Designer.cs" line="22" column="1" bodyfile="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/CATIATranslator/Properties/Settings.Designer.cs" bodystart="23" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1171">
+        <label>global::SystemConfiguration::ApplicationSettingsBase</label>
+      </node>
+      <node id="1170">
+        <label>CATIATranslator.Properties.Settings</label>
+        <link refid="class_c_a_t_i_a_translator_1_1_properties_1_1_settings"/>
+        <childnode refid="1171" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1173">
+        <label>global::SystemConfiguration::ApplicationSettingsBase</label>
+      </node>
+      <node id="1172">
+        <label>CATIATranslator.Properties.Settings</label>
+        <link refid="class_c_a_t_i_a_translator_1_1_properties_1_1_settings"/>
+        <childnode refid="1173" relation="public-inheritance">
+        </childnode>
+        <childnode refid="1172" relation="usage">
+          <edgelabel>defaultInstance</edgelabel>
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/CATIATranslator/Properties/Settings.Designer.cs" line="18" column="1" bodyfile="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/CATIATranslator/Properties/Settings.Designer.cs" bodystart="17" bodyend="29"/>
+    <listofallmembers>
+      <member refid="class_c_a_t_i_a_translator_1_1_properties_1_1_settings_1af4f18065dc7c4fa3ab7493f7f63d3925" prot="public" virt="non-virtual"><scope>CATIATranslator::Properties::Settings</scope><name>Default</name></member>
+      <member refid="class_c_a_t_i_a_translator_1_1_properties_1_1_settings_1a392bc9bdca528d10bae04ed24dd82f53" prot="private" virt="non-virtual"><scope>CATIATranslator::Properties::Settings</scope><name>defaultInstance</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

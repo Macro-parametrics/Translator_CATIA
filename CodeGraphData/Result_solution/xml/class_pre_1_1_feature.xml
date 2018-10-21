@@ -1,0 +1,654 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_pre_1_1_feature" kind="class" prot="public">
+    <compoundname>Pre::Feature</compoundname>
+    <derivedcompoundref refid="class_pre_1_1_f_datum_plane_offset" prot="public" virt="non-virtual">Pre::FDatumPlaneOffset</derivedcompoundref>
+    <derivedcompoundref refid="class_pre_1_1_feature_s_o_l_i_d_create_chamfer" prot="public" virt="non-virtual">Pre::FeatureSOLIDCreateChamfer</derivedcompoundref>
+    <derivedcompoundref refid="class_pre_1_1_feature_s_o_l_i_d_create_extrude" prot="public" virt="non-virtual">Pre::FeatureSOLIDCreateExtrude</derivedcompoundref>
+    <derivedcompoundref refid="class_pre_1_1_feature_s_o_l_i_d_create_fillet_constant" prot="public" virt="non-virtual">Pre::FeatureSOLIDCreateFilletConstant</derivedcompoundref>
+    <derivedcompoundref refid="class_pre_1_1_feature_s_o_l_i_d_create_hole" prot="public" virt="non-virtual">Pre::FeatureSOLIDCreateHole</derivedcompoundref>
+    <derivedcompoundref refid="class_pre_1_1_feature_s_o_l_i_d_create_pattern_circular" prot="public" virt="non-virtual">Pre::FeatureSOLIDCreatePatternCircular</derivedcompoundref>
+    <derivedcompoundref refid="class_pre_1_1_feature_s_o_l_i_d_create_pattern_rectangular" prot="public" virt="non-virtual">Pre::FeatureSOLIDCreatePatternRectangular</derivedcompoundref>
+    <derivedcompoundref refid="class_pre_1_1_feature_s_o_l_i_d_create_revolve" prot="public" virt="non-virtual">Pre::FeatureSOLIDCreateRevolve</derivedcompoundref>
+    <derivedcompoundref refid="class_pre_1_1_feature_s_o_l_i_d_create_sweep" prot="public" virt="non-virtual">Pre::FeatureSOLIDCreateSweep</derivedcompoundref>
+    <derivedcompoundref refid="class_pre_1_1_f_sketch" prot="public" virt="non-virtual">Pre::FSketch</derivedcompoundref>
+    <includes refid="_pre_manager_2ref_2_feature_8h" local="no">Feature.h</includes>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_pre_1_1_feature_1a64772d4f47afe0052d5a94f773de5211" prot="public" static="no" mutable="no">
+        <type><ref refid="class_pre_1_1_part" kindref="compound">Part</ref> *</type>
+        <definition>Part* Pre::Feature::_pPart</definition>
+        <argsstring></argsstring>
+        <name>_pPart</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/PreManager/ref/Feature.h" line="26" column="1" bodyfile="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/PreManager/ref/Feature.h" bodystart="26" bodyend="-1"/>
+        <referencedby refid="class_pre_1_1_feature_s_o_l_i_d_create_hole_1a7975ebdc0d729820eb09a574e17646d9" compoundref="_feature_s_o_l_i_d_create_hole_8cpp" startline="19" endline="52">Pre::FeatureSOLIDCreateHole::GetInfo</referencedby>
+        <referencedby refid="class_pre_1_1_feature_s_o_l_i_d_create_chamfer_1af680fb31944af06af9105ae56b309ce4" compoundref="_pre_manager_2ref_2_feature_s_o_l_i_d_create_chamfer_8cpp" startline="15" endline="55">Pre::FeatureSOLIDCreateChamfer::GetInfo</referencedby>
+        <referencedby refid="class_pre_1_1_feature_s_o_l_i_d_create_fillet_constant_1a54ffaefb717339edc2755870551f5181" compoundref="_pre_manager_2ref_2_feature_s_o_l_i_d_create_fillet_constant_8cpp" startline="16" endline="46">Pre::FeatureSOLIDCreateFilletConstant::GetInfo</referencedby>
+        <referencedby refid="class_pre_1_1_feature_s_o_l_i_d_create_revolve_1a127c834b172d477d022337d8867e9251" compoundref="_feature_s_o_l_i_d_create_revolve_8cpp" startline="28" endline="72">Pre::FeatureSOLIDCreateRevolve::GetInfo</referencedby>
+        <referencedby refid="class_pre_1_1_feature_s_o_l_i_d_create_extrude_1a41d123689e3484f89f0eaf8da8c2b77d" compoundref="_feature_s_o_l_i_d_create_extrude_8cpp" startline="23" endline="71">Pre::FeatureSOLIDCreateExtrude::GetInfo</referencedby>
+        <referencedby refid="class_pre_1_1_f_sketch_1a1bedc78f172e28317a3b1ce9d16daa13" compoundref="_pre_manager_2ref_2_f_sketch_8cpp" startline="64" endline="112">Pre::FSketch::GetInfo</referencedby>
+        <referencedby refid="class_pre_1_1_feature_1a22de04ab5c0ef7206d32c780ccfafee7" compoundref="_pre_manager_2ref_2_feature_8h" startline="12" endline="12">GetPart</referencedby>
+        <referencedby refid="class_pre_1_1_feature_s_o_l_i_d_create_pattern_rectangular_1aaf997bf99035b24e79acd3861094cbf9" compoundref="_pre_manager_2ref_2_feature_s_o_l_i_d_create_pattern_rectangular_8cpp" startline="82" endline="128">Pre::FeatureSOLIDCreatePatternRectangular::Modify</referencedby>
+        <referencedby refid="class_pre_1_1_feature_s_o_l_i_d_create_pattern_circular_1a85a93812a56839fb2b42872c3070f481" compoundref="_pre_manager_2ref_2_feature_s_o_l_i_d_create_pattern_circular_8cpp" startline="100" endline="135">Pre::FeatureSOLIDCreatePatternCircular::Modify</referencedby>
+        <referencedby refid="class_pre_1_1_feature_s_o_l_i_d_create_chamfer_1a69e7d76172186b637e4eca01eaa70f09" compoundref="_pre_manager_2ref_2_feature_s_o_l_i_d_create_chamfer_8cpp" startline="77" endline="111">Pre::FeatureSOLIDCreateChamfer::Modify</referencedby>
+        <referencedby refid="class_pre_1_1_feature_s_o_l_i_d_create_fillet_constant_1ae07257e74ab0ee80fceb2c60ca9f43fd" compoundref="_pre_manager_2ref_2_feature_s_o_l_i_d_create_fillet_constant_8cpp" startline="73" endline="99">Pre::FeatureSOLIDCreateFilletConstant::Modify</referencedby>
+        <referencedby refid="class_pre_1_1_feature_s_o_l_i_d_create_revolve_1ad220673013d89395c84d67102f39ba7b" compoundref="_feature_s_o_l_i_d_create_revolve_8cpp" startline="119" endline="147">Pre::FeatureSOLIDCreateRevolve::Modify</referencedby>
+        <referencedby refid="class_pre_1_1_feature_s_o_l_i_d_create_extrude_1a92efe8b36d4b8fd4a26396eb7f248944" compoundref="_feature_s_o_l_i_d_create_extrude_8cpp" startline="103" endline="154">Pre::FeatureSOLIDCreateExtrude::Modify</referencedby>
+        <referencedby refid="class_pre_1_1_feature_s_o_l_i_d_create_pattern_rectangular_1a18084e6aaa36649509f8c43d2b15f5b9" compoundref="_pre_manager_2ref_2_feature_s_o_l_i_d_create_pattern_rectangular_8cpp" startline="148" endline="223">Pre::FeatureSOLIDCreatePatternRectangular::SetDirection</referencedby>
+        <referencedby refid="class_pre_1_1_feature_s_o_l_i_d_create_pattern_circular_1a69865b7be3e41ea824d1701e9c891e78" compoundref="_pre_manager_2ref_2_feature_s_o_l_i_d_create_pattern_circular_8cpp" startline="137" endline="197">Pre::FeatureSOLIDCreatePatternCircular::SetDirection</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_pre_1_1_feature_1ae8c43a10be919286c9450125b1a0afb9" prot="public" static="no" mutable="no">
+        <type>string</type>
+        <definition>string Pre::Feature::_name</definition>
+        <argsstring></argsstring>
+        <name>_name</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/PreManager/ref/Feature.h" line="27" column="1" bodyfile="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/PreManager/ref/Feature.h" bodystart="27" bodyend="-1"/>
+        <referencedby refid="class_pre_1_1_feature_s_o_l_i_d_create_revolve_1a0ff557f26cc9a7551a1a78b83f7673cf" compoundref="_feature_s_o_l_i_d_create_revolve_8cpp" startline="149" endline="215">Pre::FeatureSOLIDCreateRevolve::AddNewRevolveAxis</referencedby>
+        <referencedby refid="class_pre_1_1_feature_1aeec702655239d43b9fb7af691bc4f85c" compoundref="_pre_manager_2ref_2_feature_8h" startline="13" endline="13">GetFeatureName</referencedby>
+        <referencedby refid="class_pre_1_1_f_sketch_1a3ca083220e4cbe4fa0e9849e07a5d195" compoundref="_pre_manager_2ref_2_f_sketch_8cpp" startline="114" endline="184">Pre::FSketch::GetSketchItemInfo</referencedby>
+        <referencedby refid="class_pre_1_1_feature_1a6a061740e7d2d749b1efe097ae87928d" compoundref="_pre_manager_2ref_2_feature_8h" startline="16" endline="16">SetFeatureName</referencedby>
+        <referencedby refid="class_pre_1_1_feature_s_o_l_i_d_create_sweep_1acd9ab6880676dd9928c91cdb448aab45" compoundref="_feature_s_o_l_i_d_create_sweep_8cpp" startline="53" endline="71">Pre::FeatureSOLIDCreateSweep::ToTransCAD</referencedby>
+        <referencedby refid="class_pre_1_1_f_datum_plane_offset_1abbe382247fd98bb6397e91d5e2985da1" compoundref="_pre_manager_2ref_2_f_datum_plane_offset_8cpp" startline="66" endline="87">Pre::FDatumPlaneOffset::ToTransCAD</referencedby>
+        <referencedby refid="class_pre_1_1_feature_s_o_l_i_d_create_hole_1aaa01847d6147ea534bcf1d1425a6a0fa" compoundref="_feature_s_o_l_i_d_create_hole_8cpp" startline="54" endline="75">Pre::FeatureSOLIDCreateHole::ToTransCAD</referencedby>
+        <referencedby refid="class_pre_1_1_feature_s_o_l_i_d_create_pattern_rectangular_1a4602022ba7cd0187bfa733371f653a89" compoundref="_pre_manager_2ref_2_feature_s_o_l_i_d_create_pattern_rectangular_8cpp" startline="63" endline="80">Pre::FeatureSOLIDCreatePatternRectangular::ToTransCAD</referencedby>
+        <referencedby refid="class_pre_1_1_feature_s_o_l_i_d_create_chamfer_1a966e05e6344c3606084d58f4ffb11331" compoundref="_pre_manager_2ref_2_feature_s_o_l_i_d_create_chamfer_8cpp" startline="57" endline="75">Pre::FeatureSOLIDCreateChamfer::ToTransCAD</referencedby>
+        <referencedby refid="class_pre_1_1_feature_s_o_l_i_d_create_pattern_circular_1a74cc4f5b46d2c89fe0df483213f045ae" compoundref="_pre_manager_2ref_2_feature_s_o_l_i_d_create_pattern_circular_8cpp" startline="64" endline="80">Pre::FeatureSOLIDCreatePatternCircular::ToTransCAD</referencedby>
+        <referencedby refid="class_pre_1_1_feature_s_o_l_i_d_create_revolve_1a37a17dc5281ee5ec8a1b07c3dd7b8e6a" compoundref="_feature_s_o_l_i_d_create_revolve_8cpp" startline="74" endline="105">Pre::FeatureSOLIDCreateRevolve::ToTransCAD</referencedby>
+        <referencedby refid="class_pre_1_1_feature_s_o_l_i_d_create_fillet_constant_1ae83a9a5f2cb42fff9f8c50f32394527f" compoundref="_pre_manager_2ref_2_feature_s_o_l_i_d_create_fillet_constant_8cpp" startline="48" endline="71">Pre::FeatureSOLIDCreateFilletConstant::ToTransCAD</referencedby>
+        <referencedby refid="class_pre_1_1_feature_s_o_l_i_d_create_extrude_1a58367beca79a366413642004614bfb8b" compoundref="_feature_s_o_l_i_d_create_extrude_8cpp" startline="73" endline="101">Pre::FeatureSOLIDCreateExtrude::ToTransCAD</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_pre_1_1_feature_1a341b5b05bd448a814e86099e70f1a747" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int Pre::Feature::_type</definition>
+        <argsstring></argsstring>
+        <name>_type</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/PreManager/ref/Feature.h" line="28" column="1" bodyfile="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/PreManager/ref/Feature.h" bodystart="28" bodyend="-1"/>
+        <referencedby refid="class_pre_1_1_feature_1aef6c7020e3bf305f38a88195b794b110" compoundref="_pre_manager_2ref_2_feature_8h" startline="14" endline="14">GetFeatureType</referencedby>
+        <referencedby refid="class_pre_1_1_feature_s_o_l_i_d_create_pattern_rectangular_1aaf997bf99035b24e79acd3861094cbf9" compoundref="_pre_manager_2ref_2_feature_s_o_l_i_d_create_pattern_rectangular_8cpp" startline="82" endline="128">Pre::FeatureSOLIDCreatePatternRectangular::Modify</referencedby>
+        <referencedby refid="class_pre_1_1_feature_s_o_l_i_d_create_pattern_circular_1a85a93812a56839fb2b42872c3070f481" compoundref="_pre_manager_2ref_2_feature_s_o_l_i_d_create_pattern_circular_8cpp" startline="100" endline="135">Pre::FeatureSOLIDCreatePatternCircular::Modify</referencedby>
+        <referencedby refid="class_pre_1_1_feature_s_o_l_i_d_create_extrude_1a92efe8b36d4b8fd4a26396eb7f248944" compoundref="_feature_s_o_l_i_d_create_extrude_8cpp" startline="103" endline="154">Pre::FeatureSOLIDCreateExtrude::Modify</referencedby>
+        <referencedby refid="class_pre_1_1_feature_1a07534d290ca5363cd628efd011c070be" compoundref="_pre_manager_2ref_2_feature_8h" startline="17" endline="17">SetFeatureType</referencedby>
+        <referencedby refid="class_pre_1_1_feature_s_o_l_i_d_create_sweep_1acd9ab6880676dd9928c91cdb448aab45" compoundref="_feature_s_o_l_i_d_create_sweep_8cpp" startline="53" endline="71">Pre::FeatureSOLIDCreateSweep::ToTransCAD</referencedby>
+        <referencedby refid="class_pre_1_1_feature_s_o_l_i_d_create_revolve_1a37a17dc5281ee5ec8a1b07c3dd7b8e6a" compoundref="_feature_s_o_l_i_d_create_revolve_8cpp" startline="74" endline="105">Pre::FeatureSOLIDCreateRevolve::ToTransCAD</referencedby>
+        <referencedby refid="class_pre_1_1_feature_s_o_l_i_d_create_extrude_1a58367beca79a366413642004614bfb8b" compoundref="_feature_s_o_l_i_d_create_extrude_8cpp" startline="73" endline="101">Pre::FeatureSOLIDCreateExtrude::ToTransCAD</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_pre_1_1_feature_1a23c64c5988ab1337beceaa7c1c5c0d77" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>Pre::Feature::Feature</definition>
+        <argsstring>(Part *pPart, int type, string name)</argsstring>
+        <name>Feature</name>
+        <param>
+          <type><ref refid="class_pre_1_1_part" kindref="compound">Part</ref> *</type>
+          <declname>pPart</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>type</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>name</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/PreManager/ref/Feature.h" line="9" column="1" bodyfile="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/PreManager/ref/Feature.cpp" bodystart="10" bodyend="17"/>
+      </memberdef>
+      <memberdef kind="function" id="class_pre_1_1_feature_1ac9e4bbb034ce47ce1ddd02adb52aee98" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type></type>
+        <definition>Pre::Feature::~Feature</definition>
+        <argsstring>(void)</argsstring>
+        <name>~Feature</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/PreManager/ref/Feature.h" line="10" column="1" bodyfile="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/PreManager/ref/Feature.cpp" bodystart="20" bodyend="23"/>
+      </memberdef>
+      <memberdef kind="function" id="class_pre_1_1_feature_1a22de04ab5c0ef7206d32c780ccfafee7" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="class_pre_1_1_part" kindref="compound">Part</ref> *</type>
+        <definition>Part* Pre::Feature::GetPart</definition>
+        <argsstring>()</argsstring>
+        <name>GetPart</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/PreManager/ref/Feature.h" line="12" column="1" bodyfile="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/PreManager/ref/Feature.h" bodystart="12" bodyend="12"/>
+        <references refid="class_pre_1_1_feature_1a64772d4f47afe0052d5a94f773de5211" compoundref="_pre_manager_2ref_2_feature_8h" startline="26">_pPart</references>
+        <referencedby refid="class_pre_1_1_feature_s_o_l_i_d_create_revolve_1a0ff557f26cc9a7551a1a78b83f7673cf" compoundref="_feature_s_o_l_i_d_create_revolve_8cpp" startline="149" endline="215">Pre::FeatureSOLIDCreateRevolve::AddNewRevolveAxis</referencedby>
+        <referencedby refid="class_pre_1_1_feature_s_o_l_i_d_create_sweep_1a373d28c03b7c1833494f54dd9e0670ca" compoundref="_feature_s_o_l_i_d_create_sweep_8cpp" startline="16" endline="51">Pre::FeatureSOLIDCreateSweep::GetInfo</referencedby>
+        <referencedby refid="class_pre_1_1_f_datum_plane_offset_1a4ee871c225f6c829ca970ce45f41fd1d" compoundref="_pre_manager_2ref_2_f_datum_plane_offset_8cpp" startline="17" endline="64">Pre::FDatumPlaneOffset::GetInfo</referencedby>
+        <referencedby refid="class_pre_1_1_feature_s_o_l_i_d_create_revolve_1a127c834b172d477d022337d8867e9251" compoundref="_feature_s_o_l_i_d_create_revolve_8cpp" startline="28" endline="72">Pre::FeatureSOLIDCreateRevolve::GetInfo</referencedby>
+        <referencedby refid="class_pre_1_1_feature_s_o_l_i_d_create_extrude_1a41d123689e3484f89f0eaf8da8c2b77d" compoundref="_feature_s_o_l_i_d_create_extrude_8cpp" startline="23" endline="71">Pre::FeatureSOLIDCreateExtrude::GetInfo</referencedby>
+        <referencedby refid="class_pre_1_1_feature_s_o_l_i_d_create_sweep_1a8e4501efee10b8fe7339a3d570255254" compoundref="_feature_s_o_l_i_d_create_sweep_8cpp" startline="77" endline="102">Pre::FeatureSOLIDCreateSweep::Modify</referencedby>
+        <referencedby refid="class_pre_1_1_feature_s_o_l_i_d_create_revolve_1ad220673013d89395c84d67102f39ba7b" compoundref="_feature_s_o_l_i_d_create_revolve_8cpp" startline="119" endline="147">Pre::FeatureSOLIDCreateRevolve::Modify</referencedby>
+        <referencedby refid="class_pre_1_1_feature_s_o_l_i_d_create_extrude_1a92efe8b36d4b8fd4a26396eb7f248944" compoundref="_feature_s_o_l_i_d_create_extrude_8cpp" startline="103" endline="154">Pre::FeatureSOLIDCreateExtrude::Modify</referencedby>
+        <referencedby refid="class_pre_1_1_feature_s_o_l_i_d_create_pattern_circular_1a69865b7be3e41ea824d1701e9c891e78" compoundref="_pre_manager_2ref_2_feature_s_o_l_i_d_create_pattern_circular_8cpp" startline="137" endline="197">Pre::FeatureSOLIDCreatePatternCircular::SetDirection</referencedby>
+        <referencedby refid="class_pre_1_1_feature_s_o_l_i_d_create_sweep_1acd9ab6880676dd9928c91cdb448aab45" compoundref="_feature_s_o_l_i_d_create_sweep_8cpp" startline="53" endline="71">Pre::FeatureSOLIDCreateSweep::ToTransCAD</referencedby>
+        <referencedby refid="class_pre_1_1_feature_s_o_l_i_d_create_pattern_rectangular_1a4602022ba7cd0187bfa733371f653a89" compoundref="_pre_manager_2ref_2_feature_s_o_l_i_d_create_pattern_rectangular_8cpp" startline="63" endline="80">Pre::FeatureSOLIDCreatePatternRectangular::ToTransCAD</referencedby>
+        <referencedby refid="class_pre_1_1_feature_s_o_l_i_d_create_hole_1aaa01847d6147ea534bcf1d1425a6a0fa" compoundref="_feature_s_o_l_i_d_create_hole_8cpp" startline="54" endline="75">Pre::FeatureSOLIDCreateHole::ToTransCAD</referencedby>
+        <referencedby refid="class_pre_1_1_f_datum_plane_offset_1abbe382247fd98bb6397e91d5e2985da1" compoundref="_pre_manager_2ref_2_f_datum_plane_offset_8cpp" startline="66" endline="87">Pre::FDatumPlaneOffset::ToTransCAD</referencedby>
+        <referencedby refid="class_pre_1_1_feature_s_o_l_i_d_create_pattern_circular_1a74cc4f5b46d2c89fe0df483213f045ae" compoundref="_pre_manager_2ref_2_feature_s_o_l_i_d_create_pattern_circular_8cpp" startline="64" endline="80">Pre::FeatureSOLIDCreatePatternCircular::ToTransCAD</referencedby>
+        <referencedby refid="class_pre_1_1_feature_s_o_l_i_d_create_chamfer_1a966e05e6344c3606084d58f4ffb11331" compoundref="_pre_manager_2ref_2_feature_s_o_l_i_d_create_chamfer_8cpp" startline="57" endline="75">Pre::FeatureSOLIDCreateChamfer::ToTransCAD</referencedby>
+        <referencedby refid="class_pre_1_1_feature_s_o_l_i_d_create_fillet_constant_1ae83a9a5f2cb42fff9f8c50f32394527f" compoundref="_pre_manager_2ref_2_feature_s_o_l_i_d_create_fillet_constant_8cpp" startline="48" endline="71">Pre::FeatureSOLIDCreateFilletConstant::ToTransCAD</referencedby>
+        <referencedby refid="class_pre_1_1_feature_s_o_l_i_d_create_revolve_1a37a17dc5281ee5ec8a1b07c3dd7b8e6a" compoundref="_feature_s_o_l_i_d_create_revolve_8cpp" startline="74" endline="105">Pre::FeatureSOLIDCreateRevolve::ToTransCAD</referencedby>
+        <referencedby refid="class_pre_1_1_feature_s_o_l_i_d_create_extrude_1a58367beca79a366413642004614bfb8b" compoundref="_feature_s_o_l_i_d_create_extrude_8cpp" startline="73" endline="101">Pre::FeatureSOLIDCreateExtrude::ToTransCAD</referencedby>
+        <referencedby refid="class_pre_1_1_f_sketch_1a87e0647858ab90fe459223b5715ec08a" compoundref="_pre_manager_2ref_2_f_sketch_8cpp" startline="186" endline="208">Pre::FSketch::ToTransCAD</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_pre_1_1_feature_1aeec702655239d43b9fb7af691bc4f85c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>string</type>
+        <definition>string Pre::Feature::GetFeatureName</definition>
+        <argsstring>()</argsstring>
+        <name>GetFeatureName</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/PreManager/ref/Feature.h" line="13" column="1" bodyfile="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/PreManager/ref/Feature.h" bodystart="13" bodyend="13"/>
+        <references refid="class_pre_1_1_feature_1ae8c43a10be919286c9450125b1a0afb9" compoundref="_pre_manager_2ref_2_feature_8h" startline="27">_name</references>
+        <referencedby refid="class_pre_1_1_part_1a757a376bdc640e00119c3489ee35d2aa" compoundref="_pre_manager_2ref_2_part_8cpp" startline="320" endline="331">Pre::Part::GetFeatureByName</referencedby>
+        <referencedby refid="class_pre_1_1_feature_s_o_l_i_d_create_sweep_1a373d28c03b7c1833494f54dd9e0670ca" compoundref="_feature_s_o_l_i_d_create_sweep_8cpp" startline="16" endline="51">Pre::FeatureSOLIDCreateSweep::GetInfo</referencedby>
+        <referencedby refid="class_pre_1_1_feature_s_o_l_i_d_create_revolve_1a127c834b172d477d022337d8867e9251" compoundref="_feature_s_o_l_i_d_create_revolve_8cpp" startline="28" endline="72">Pre::FeatureSOLIDCreateRevolve::GetInfo</referencedby>
+        <referencedby refid="class_pre_1_1_feature_s_o_l_i_d_create_extrude_1a41d123689e3484f89f0eaf8da8c2b77d" compoundref="_feature_s_o_l_i_d_create_extrude_8cpp" startline="23" endline="71">Pre::FeatureSOLIDCreateExtrude::GetInfo</referencedby>
+        <referencedby refid="class_pre_1_1_feature_s_o_l_i_d_create_sweep_1a8e4501efee10b8fe7339a3d570255254" compoundref="_feature_s_o_l_i_d_create_sweep_8cpp" startline="77" endline="102">Pre::FeatureSOLIDCreateSweep::Modify</referencedby>
+        <referencedby refid="class_pre_1_1_feature_s_o_l_i_d_create_revolve_1ad220673013d89395c84d67102f39ba7b" compoundref="_feature_s_o_l_i_d_create_revolve_8cpp" startline="119" endline="147">Pre::FeatureSOLIDCreateRevolve::Modify</referencedby>
+        <referencedby refid="class_pre_1_1_feature_s_o_l_i_d_create_extrude_1a92efe8b36d4b8fd4a26396eb7f248944" compoundref="_feature_s_o_l_i_d_create_extrude_8cpp" startline="103" endline="154">Pre::FeatureSOLIDCreateExtrude::Modify</referencedby>
+        <referencedby refid="class_pre_1_1_feature_s_o_l_i_d_create_sweep_1acd9ab6880676dd9928c91cdb448aab45" compoundref="_feature_s_o_l_i_d_create_sweep_8cpp" startline="53" endline="71">Pre::FeatureSOLIDCreateSweep::ToTransCAD</referencedby>
+        <referencedby refid="class_pre_1_1_feature_s_o_l_i_d_create_revolve_1a37a17dc5281ee5ec8a1b07c3dd7b8e6a" compoundref="_feature_s_o_l_i_d_create_revolve_8cpp" startline="74" endline="105">Pre::FeatureSOLIDCreateRevolve::ToTransCAD</referencedby>
+        <referencedby refid="class_pre_1_1_feature_s_o_l_i_d_create_extrude_1a58367beca79a366413642004614bfb8b" compoundref="_feature_s_o_l_i_d_create_extrude_8cpp" startline="73" endline="101">Pre::FeatureSOLIDCreateExtrude::ToTransCAD</referencedby>
+        <referencedby refid="class_pre_1_1_f_sketch_1a87e0647858ab90fe459223b5715ec08a" compoundref="_pre_manager_2ref_2_f_sketch_8cpp" startline="186" endline="208">Pre::FSketch::ToTransCAD</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_pre_1_1_feature_1aef6c7020e3bf305f38a88195b794b110" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>int</type>
+        <definition>int Pre::Feature::GetFeatureType</definition>
+        <argsstring>() const </argsstring>
+        <name>GetFeatureType</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/PreManager/ref/Feature.h" line="14" column="1" bodyfile="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/PreManager/ref/Feature.h" bodystart="14" bodyend="14"/>
+        <references refid="class_pre_1_1_feature_1a341b5b05bd448a814e86099e70f1a747" compoundref="_pre_manager_2ref_2_feature_8h" startline="28">_type</references>
+      </memberdef>
+      <memberdef kind="function" id="class_pre_1_1_feature_1a6a061740e7d2d749b1efe097ae87928d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Pre::Feature::SetFeatureName</definition>
+        <argsstring>(string featureName)</argsstring>
+        <name>SetFeatureName</name>
+        <param>
+          <type>string</type>
+          <declname>featureName</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/PreManager/ref/Feature.h" line="16" column="1" bodyfile="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/PreManager/ref/Feature.h" bodystart="16" bodyend="16"/>
+        <references refid="class_pre_1_1_feature_1ae8c43a10be919286c9450125b1a0afb9" compoundref="_pre_manager_2ref_2_feature_8h" startline="27">_name</references>
+      </memberdef>
+      <memberdef kind="function" id="class_pre_1_1_feature_1a07534d290ca5363cd628efd011c070be" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Pre::Feature::SetFeatureType</definition>
+        <argsstring>(int featureType)</argsstring>
+        <name>SetFeatureType</name>
+        <param>
+          <type>int</type>
+          <declname>featureType</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/PreManager/ref/Feature.h" line="17" column="1" bodyfile="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/PreManager/ref/Feature.h" bodystart="17" bodyend="17"/>
+        <references refid="class_pre_1_1_feature_1a341b5b05bd448a814e86099e70f1a747" compoundref="_pre_manager_2ref_2_feature_8h" startline="28">_type</references>
+      </memberdef>
+      <memberdef kind="function" id="class_pre_1_1_feature_1af58dd6004076ee16ada8ed600965de6c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>void</type>
+        <definition>virtual void Pre::Feature::GetInfo</definition>
+        <argsstring>(ifstream &amp;is)</argsstring>
+        <name>GetInfo</name>
+        <reimplementedby refid="class_pre_1_1_feature_s_o_l_i_d_create_sweep_1a373d28c03b7c1833494f54dd9e0670ca">GetInfo</reimplementedby>
+        <reimplementedby refid="class_pre_1_1_feature_s_o_l_i_d_create_pattern_rectangular_1a04b39c10c47bdb7df872729230224aab">GetInfo</reimplementedby>
+        <reimplementedby refid="class_pre_1_1_feature_s_o_l_i_d_create_hole_1a7975ebdc0d729820eb09a574e17646d9">GetInfo</reimplementedby>
+        <reimplementedby refid="class_pre_1_1_f_datum_plane_offset_1a4ee871c225f6c829ca970ce45f41fd1d">GetInfo</reimplementedby>
+        <reimplementedby refid="class_pre_1_1_feature_s_o_l_i_d_create_pattern_circular_1a9480a8aa263b45f8a3b3c46eb6cb83fb">GetInfo</reimplementedby>
+        <reimplementedby refid="class_pre_1_1_feature_s_o_l_i_d_create_chamfer_1af680fb31944af06af9105ae56b309ce4">GetInfo</reimplementedby>
+        <reimplementedby refid="class_pre_1_1_feature_s_o_l_i_d_create_revolve_1a127c834b172d477d022337d8867e9251">GetInfo</reimplementedby>
+        <reimplementedby refid="class_pre_1_1_feature_s_o_l_i_d_create_fillet_constant_1a54ffaefb717339edc2755870551f5181">GetInfo</reimplementedby>
+        <reimplementedby refid="class_pre_1_1_feature_s_o_l_i_d_create_extrude_1a41d123689e3484f89f0eaf8da8c2b77d">GetInfo</reimplementedby>
+        <reimplementedby refid="class_pre_1_1_f_sketch_1a1bedc78f172e28317a3b1ce9d16daa13">GetInfo</reimplementedby>
+        <param>
+          <type>ifstream &amp;</type>
+          <declname>is</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/PreManager/ref/Feature.h" line="19" column="1" bodyfile="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/PreManager/ref/Feature.h" bodystart="19" bodyend="19"/>
+        <referencedby refid="class_pre_1_1_part_1a8aec8753beef663387b06d892963a6d6" compoundref="_pre_manager_2ref_2_part_8cpp" startline="147" endline="191">Pre::Part::CreateFeature</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_pre_1_1_feature_1a43c7ceaf04580d2e948aedd882208d80" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>void</type>
+        <definition>virtual void Pre::Feature::ToTransCAD</definition>
+        <argsstring>()</argsstring>
+        <name>ToTransCAD</name>
+        <reimplementedby refid="class_pre_1_1_feature_s_o_l_i_d_create_sweep_1acd9ab6880676dd9928c91cdb448aab45">ToTransCAD</reimplementedby>
+        <reimplementedby refid="class_pre_1_1_feature_s_o_l_i_d_create_pattern_rectangular_1a4602022ba7cd0187bfa733371f653a89">ToTransCAD</reimplementedby>
+        <reimplementedby refid="class_pre_1_1_feature_s_o_l_i_d_create_hole_1aaa01847d6147ea534bcf1d1425a6a0fa">ToTransCAD</reimplementedby>
+        <reimplementedby refid="class_pre_1_1_f_datum_plane_offset_1abbe382247fd98bb6397e91d5e2985da1">ToTransCAD</reimplementedby>
+        <reimplementedby refid="class_pre_1_1_feature_s_o_l_i_d_create_pattern_circular_1a74cc4f5b46d2c89fe0df483213f045ae">ToTransCAD</reimplementedby>
+        <reimplementedby refid="class_pre_1_1_feature_s_o_l_i_d_create_chamfer_1a966e05e6344c3606084d58f4ffb11331">ToTransCAD</reimplementedby>
+        <reimplementedby refid="class_pre_1_1_feature_s_o_l_i_d_create_revolve_1a37a17dc5281ee5ec8a1b07c3dd7b8e6a">ToTransCAD</reimplementedby>
+        <reimplementedby refid="class_pre_1_1_feature_s_o_l_i_d_create_fillet_constant_1ae83a9a5f2cb42fff9f8c50f32394527f">ToTransCAD</reimplementedby>
+        <reimplementedby refid="class_pre_1_1_feature_s_o_l_i_d_create_extrude_1a58367beca79a366413642004614bfb8b">ToTransCAD</reimplementedby>
+        <reimplementedby refid="class_pre_1_1_f_sketch_1a87e0647858ab90fe459223b5715ec08a">ToTransCAD</reimplementedby>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/PreManager/ref/Feature.h" line="20" column="1" bodyfile="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/PreManager/ref/Feature.h" bodystart="20" bodyend="20"/>
+        <referencedby refid="class_pre_1_1_part_1aa981061fc510bc931b60ce995551281b" compoundref="_pre_manager_2ref_2_part_8cpp" startline="310" endline="317">Pre::Part::ToTransCAD</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_pre_1_1_feature_1a3b4b453b4ac49dde010d6760917266b7" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void Pre::Feature::CheckAttribute</definition>
+        <argsstring>(string name, double value, int type)</argsstring>
+        <name>CheckAttribute</name>
+        <reimplementedby refid="class_pre_1_1_feature_s_o_l_i_d_create_sweep_1ab05c3d464d192e6b146ebb4ff159ffb8">CheckAttribute</reimplementedby>
+        <reimplementedby refid="class_pre_1_1_feature_s_o_l_i_d_create_pattern_rectangular_1a806b19ec75d7af4c7007a9b63577dcba">CheckAttribute</reimplementedby>
+        <reimplementedby refid="class_pre_1_1_feature_s_o_l_i_d_create_pattern_circular_1afea4290408acc17879fde6a0c50028d5">CheckAttribute</reimplementedby>
+        <reimplementedby refid="class_pre_1_1_feature_s_o_l_i_d_create_hole_1a541fed4070544bde17c29d89851242a6">CheckAttribute</reimplementedby>
+        <reimplementedby refid="class_pre_1_1_feature_s_o_l_i_d_create_chamfer_1acd98a253a843ee8f05d15bfb9661dafb">CheckAttribute</reimplementedby>
+        <reimplementedby refid="class_pre_1_1_f_datum_plane_offset_1a4ef97067f27b5e7166faaa96491492a6">CheckAttribute</reimplementedby>
+        <reimplementedby refid="class_pre_1_1_feature_s_o_l_i_d_create_revolve_1ac876aa3a22239637b346c1946934c93a">CheckAttribute</reimplementedby>
+        <reimplementedby refid="class_pre_1_1_feature_s_o_l_i_d_create_fillet_constant_1a7826dd730178001b472e7f26e5b361ab">CheckAttribute</reimplementedby>
+        <reimplementedby refid="class_pre_1_1_feature_s_o_l_i_d_create_extrude_1abb4f57bdb8ac8a26f753cedc941230a4">CheckAttribute</reimplementedby>
+        <param>
+          <type>string</type>
+          <declname>name</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>value</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>type</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/PreManager/ref/Feature.h" line="22" column="1" bodyfile="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/PreManager/ref/Feature.cpp" bodystart="26" bodyend="28"/>
+        <referencedby refid="class_pre_1_1_att_angular_repartation_1aad74e7f06664601a22ccab8397a52d1f" compoundref="_att_angular_repartation_8cpp" startline="45" endline="53">Pre::AttAngularRepartation::CheckAttribute</referencedby>
+        <referencedby refid="class_pre_1_1_att_limit_1a2cfdc460c9cf47e6bba257ec886ac201" compoundref="_att_limit_8cpp" startline="86" endline="93">Pre::AttLimit::CheckAttribute</referencedby>
+        <referencedby refid="class_pre_1_1_att_linear_repartation_1a3aeac04c09da376d73179487a93ff7bc" compoundref="_att_linear_repartation_8cpp" startline="44" endline="52">Pre::AttLinearRepartation::CheckAttribute</referencedby>
+        <referencedby refid="class_pre_1_1_att_limit_1a73ab5c59fa236d5e74609f1e4f8d40ac" compoundref="_att_limit_8cpp" startline="40" endline="84">Pre::AttLimit::Modify</referencedby>
+        <referencedby refid="class_pre_1_1_att_parameter_1a54c176a0943d3405aae9304a221126aa" compoundref="_att_parameter_8cpp" startline="63" endline="90">Pre::AttParameter::Modify</referencedby>
+        <referencedby refid="class_pre_1_1_att_length_1a2172c3f4a31954125614781c4d27d5a0" compoundref="_att_length_8cpp" startline="40" endline="65">Pre::AttLength::Modify</referencedby>
+        <referencedby refid="class_pre_1_1_att_angle_1ad0a2b58e353b6eb332fb80a90e103653" compoundref="_att_angle_8cpp" startline="42" endline="69">Pre::AttAngle::Modify</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_pre_1_1_feature_1a11f5aafa54439cf08dd44adb6fcd4d9c" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void Pre::Feature::Modify</definition>
+        <argsstring>(char *buffer)</argsstring>
+        <name>Modify</name>
+        <reimplementedby refid="class_pre_1_1_feature_s_o_l_i_d_create_sweep_1a8e4501efee10b8fe7339a3d570255254">Modify</reimplementedby>
+        <reimplementedby refid="class_pre_1_1_feature_s_o_l_i_d_create_hole_1ab89da794ba59346ad7987a3791a95a87">Modify</reimplementedby>
+        <reimplementedby refid="class_pre_1_1_f_datum_plane_offset_1a49d95d6ab256283bb53cade9310f39c1">Modify</reimplementedby>
+        <reimplementedby refid="class_pre_1_1_feature_s_o_l_i_d_create_pattern_rectangular_1aaf997bf99035b24e79acd3861094cbf9">Modify</reimplementedby>
+        <reimplementedby refid="class_pre_1_1_feature_s_o_l_i_d_create_pattern_circular_1a85a93812a56839fb2b42872c3070f481">Modify</reimplementedby>
+        <reimplementedby refid="class_pre_1_1_feature_s_o_l_i_d_create_chamfer_1a69e7d76172186b637e4eca01eaa70f09">Modify</reimplementedby>
+        <reimplementedby refid="class_pre_1_1_feature_s_o_l_i_d_create_revolve_1ad220673013d89395c84d67102f39ba7b">Modify</reimplementedby>
+        <reimplementedby refid="class_pre_1_1_feature_s_o_l_i_d_create_fillet_constant_1ae07257e74ab0ee80fceb2c60ca9f43fd">Modify</reimplementedby>
+        <reimplementedby refid="class_pre_1_1_feature_s_o_l_i_d_create_extrude_1a92efe8b36d4b8fd4a26396eb7f248944">Modify</reimplementedby>
+        <reimplementedby refid="class_pre_1_1_f_sketch_1a288419dcb1075f5bd3a270e4451f4f29">Modify</reimplementedby>
+        <param>
+          <type>char *</type>
+          <declname>buffer</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/PreManager/ref/Feature.h" line="23" column="1" bodyfile="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/PreManager/ref/Feature.cpp" bodystart="31" bodyend="33"/>
+        <referencedby refid="class_pre_1_1_part_1a8b5e2a2bbf385223d67ce40232b23e45" compoundref="_pre_manager_2ref_2_part_8cpp" startline="235" endline="308">Pre::Part::GetInfo</referencedby>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="401">
+        <label>Pre::FeatureSOLIDCreatePatternRectangular</label>
+        <link refid="class_pre_1_1_feature_s_o_l_i_d_create_pattern_rectangular"/>
+        <childnode refid="394" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="394">
+        <label>Pre::Feature</label>
+        <link refid="class_pre_1_1_feature"/>
+      </node>
+      <node id="398">
+        <label>Pre::FeatureSOLIDCreateFilletConstant</label>
+        <link refid="class_pre_1_1_feature_s_o_l_i_d_create_fillet_constant"/>
+        <childnode refid="394" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="399">
+        <label>Pre::FeatureSOLIDCreateHole</label>
+        <link refid="class_pre_1_1_feature_s_o_l_i_d_create_hole"/>
+        <childnode refid="394" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="402">
+        <label>Pre::FeatureSOLIDCreateRevolve</label>
+        <link refid="class_pre_1_1_feature_s_o_l_i_d_create_revolve"/>
+        <childnode refid="394" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="400">
+        <label>Pre::FeatureSOLIDCreatePatternCircular</label>
+        <link refid="class_pre_1_1_feature_s_o_l_i_d_create_pattern_circular"/>
+        <childnode refid="394" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="397">
+        <label>Pre::FeatureSOLIDCreateExtrude</label>
+        <link refid="class_pre_1_1_feature_s_o_l_i_d_create_extrude"/>
+        <childnode refid="394" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="395">
+        <label>Pre::FDatumPlaneOffset</label>
+        <link refid="class_pre_1_1_f_datum_plane_offset"/>
+        <childnode refid="394" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="403">
+        <label>Pre::FeatureSOLIDCreateSweep</label>
+        <link refid="class_pre_1_1_feature_s_o_l_i_d_create_sweep"/>
+        <childnode refid="394" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="396">
+        <label>Pre::FeatureSOLIDCreateChamfer</label>
+        <link refid="class_pre_1_1_feature_s_o_l_i_d_create_chamfer"/>
+        <childnode refid="394" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="404">
+        <label>Pre::FSketch</label>
+        <link refid="class_pre_1_1_f_sketch"/>
+        <childnode refid="394" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="421">
+        <label>std::basic_ifstream&lt; char &gt;</label>
+        <childnode refid="422" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="407">
+        <label>std::vector&lt; Pre::ReferenceEntity * &gt;</label>
+        <childnode refid="408" relation="usage">
+          <edgelabel>elements</edgelabel>
+        </childnode>
+      </node>
+      <node id="425">
+        <label>std::vector&lt; Pre::SketchFeature &gt;</label>
+        <childnode refid="426" relation="usage">
+          <edgelabel>elements</edgelabel>
+        </childnode>
+      </node>
+      <node id="416">
+        <label>Pre::FSKETCHItem</label>
+        <link refid="class_pre_1_1_f_s_k_e_t_c_h_item"/>
+        <childnode refid="410" relation="usage">
+          <edgelabel>_name</edgelabel>
+        </childnode>
+        <childnode refid="414" relation="usage">
+          <edgelabel>_pFSketch</edgelabel>
+        </childnode>
+      </node>
+      <node id="415">
+        <label>std::vector&lt; Pre::FSKETCHItem * &gt;</label>
+        <childnode refid="416" relation="usage">
+          <edgelabel>elements</edgelabel>
+        </childnode>
+      </node>
+      <node id="422">
+        <label>std::basic_istream&lt; Char &gt;</label>
+        <childnode refid="423" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="429">
+        <label>std::vector&lt; Pre::Feature * &gt;</label>
+        <childnode refid="405" relation="usage">
+          <edgelabel>elements</edgelabel>
+        </childnode>
+      </node>
+      <node id="417">
+        <label>std::vector&lt; Pre::ReportItem &gt;</label>
+        <childnode refid="418" relation="usage">
+          <edgelabel>elements</edgelabel>
+        </childnode>
+      </node>
+      <node id="405">
+        <label>Pre::Feature</label>
+        <link refid="class_pre_1_1_feature"/>
+        <childnode refid="406" relation="usage">
+          <edgelabel>_pPart</edgelabel>
+        </childnode>
+        <childnode refid="410" relation="usage">
+          <edgelabel>_name</edgelabel>
+        </childnode>
+      </node>
+      <node id="409">
+        <label>std::vector&lt; FaceInfoList &gt;</label>
+      </node>
+      <node id="408">
+        <label>Pre::ReferenceEntity</label>
+        <link refid="class_pre_1_1_reference_entity"/>
+        <childnode refid="409" relation="usage">
+          <edgelabel>pEdge</edgelabel>
+        </childnode>
+        <childnode refid="406" relation="usage">
+          <edgelabel>_pPart</edgelabel>
+        </childnode>
+        <childnode refid="410" relation="usage">
+          <edgelabel>feature</edgelabel>
+          <edgelabel>TransCADEdgeName</edgelabel>
+          <edgelabel>TransCADFaceName</edgelabel>
+          <edgelabel>name</edgelabel>
+          <edgelabel>axis</edgelabel>
+        </childnode>
+        <childnode refid="412" relation="usage">
+          <edgelabel>pFace</edgelabel>
+        </childnode>
+        <childnode refid="414" relation="usage">
+          <edgelabel>pSketchManager</edgelabel>
+        </childnode>
+        <childnode refid="419" relation="usage">
+          <edgelabel>pWire</edgelabel>
+        </childnode>
+      </node>
+      <node id="411">
+        <label>std::basic_string&lt; char &gt;</label>
+      </node>
+      <node id="413">
+        <label>FaceInfo</label>
+        <link refid="struct_face_info"/>
+      </node>
+      <node id="418">
+        <label>Pre::ReportItem</label>
+        <link refid="struct_pre_1_1_report_item"/>
+        <childnode refid="410" relation="usage">
+          <edgelabel>_entityName</edgelabel>
+        </childnode>
+      </node>
+      <node id="419">
+        <label>WireInfo</label>
+        <link refid="struct_wire_info"/>
+      </node>
+      <node id="428">
+        <label>Pre::AttributeItem</label>
+        <link refid="class_pre_1_1_attribute_item"/>
+        <childnode refid="406" relation="usage">
+          <edgelabel>_pPart</edgelabel>
+        </childnode>
+        <childnode refid="410" relation="usage">
+          <edgelabel>_featureName</edgelabel>
+          <edgelabel>_name</edgelabel>
+          <edgelabel>_attributeName</edgelabel>
+        </childnode>
+      </node>
+      <node id="426">
+        <label>Pre::SketchFeature</label>
+        <link refid="struct_pre_1_1_sketch_feature"/>
+        <childnode refid="410" relation="usage">
+          <edgelabel>_featureName</edgelabel>
+          <edgelabel>_sketchName</edgelabel>
+        </childnode>
+      </node>
+      <node id="423">
+        <label>std::basic_ios&lt; Char &gt;</label>
+        <childnode refid="424" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="406">
+        <label>Pre::Part</label>
+        <link refid="class_pre_1_1_part"/>
+        <childnode refid="407" relation="usage">
+          <edgelabel>_referenceEntityList</edgelabel>
+        </childnode>
+        <childnode refid="420" relation="usage">
+          <edgelabel>fin</edgelabel>
+        </childnode>
+        <childnode refid="425" relation="usage">
+          <edgelabel>sketchNameTable</edgelabel>
+        </childnode>
+        <childnode refid="410" relation="usage">
+          <edgelabel>_fileName</edgelabel>
+          <edgelabel>_filePath</edgelabel>
+        </childnode>
+        <childnode refid="427" relation="usage">
+          <edgelabel>_attributeItemList</edgelabel>
+        </childnode>
+        <childnode refid="429" relation="usage">
+          <edgelabel>_featureList</edgelabel>
+        </childnode>
+      </node>
+      <node id="424">
+        <label>std::ios_base</label>
+      </node>
+      <node id="420">
+        <label>std::ifstream</label>
+        <childnode refid="421" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="427">
+        <label>std::vector&lt; Pre::AttributeItem * &gt;</label>
+        <childnode refid="428" relation="usage">
+          <edgelabel>elements</edgelabel>
+        </childnode>
+      </node>
+      <node id="412">
+        <label>std::vector&lt; FaceInfo &gt;</label>
+        <childnode refid="413" relation="usage">
+          <edgelabel>elements</edgelabel>
+        </childnode>
+      </node>
+      <node id="410">
+        <label>std::string</label>
+        <childnode refid="411" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="414">
+        <label>Pre::FSketch</label>
+        <link refid="class_pre_1_1_f_sketch"/>
+        <childnode refid="405" relation="public-inheritance">
+        </childnode>
+        <childnode refid="415" relation="usage">
+          <edgelabel>_sketchItemList</edgelabel>
+        </childnode>
+        <childnode refid="408" relation="usage">
+          <edgelabel>_pReferenceEntity</edgelabel>
+        </childnode>
+        <childnode refid="410" relation="usage">
+          <edgelabel>_axisName</edgelabel>
+          <edgelabel>_factoryName</edgelabel>
+        </childnode>
+        <childnode refid="417" relation="usage">
+          <edgelabel>reportNameTable</edgelabel>
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/PreManager/ref/Feature.h" line="7" column="1" bodyfile="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/PreManager/ref/Feature.h" bodystart="6" bodyend="29"/>
+    <listofallmembers>
+      <member refid="class_pre_1_1_feature_1ae8c43a10be919286c9450125b1a0afb9" prot="public" virt="non-virtual"><scope>Pre::Feature</scope><name>_name</name></member>
+      <member refid="class_pre_1_1_feature_1a64772d4f47afe0052d5a94f773de5211" prot="public" virt="non-virtual"><scope>Pre::Feature</scope><name>_pPart</name></member>
+      <member refid="class_pre_1_1_feature_1a341b5b05bd448a814e86099e70f1a747" prot="public" virt="non-virtual"><scope>Pre::Feature</scope><name>_type</name></member>
+      <member refid="class_pre_1_1_feature_1a3b4b453b4ac49dde010d6760917266b7" prot="public" virt="virtual"><scope>Pre::Feature</scope><name>CheckAttribute</name></member>
+      <member refid="class_pre_1_1_feature_1a23c64c5988ab1337beceaa7c1c5c0d77" prot="public" virt="non-virtual"><scope>Pre::Feature</scope><name>Feature</name></member>
+      <member refid="class_pre_1_1_feature_1aeec702655239d43b9fb7af691bc4f85c" prot="public" virt="non-virtual"><scope>Pre::Feature</scope><name>GetFeatureName</name></member>
+      <member refid="class_pre_1_1_feature_1aef6c7020e3bf305f38a88195b794b110" prot="public" virt="non-virtual"><scope>Pre::Feature</scope><name>GetFeatureType</name></member>
+      <member refid="class_pre_1_1_feature_1af58dd6004076ee16ada8ed600965de6c" prot="public" virt="virtual"><scope>Pre::Feature</scope><name>GetInfo</name></member>
+      <member refid="class_pre_1_1_feature_1a22de04ab5c0ef7206d32c780ccfafee7" prot="public" virt="non-virtual"><scope>Pre::Feature</scope><name>GetPart</name></member>
+      <member refid="class_pre_1_1_feature_1a11f5aafa54439cf08dd44adb6fcd4d9c" prot="public" virt="virtual"><scope>Pre::Feature</scope><name>Modify</name></member>
+      <member refid="class_pre_1_1_feature_1a6a061740e7d2d749b1efe097ae87928d" prot="public" virt="non-virtual"><scope>Pre::Feature</scope><name>SetFeatureName</name></member>
+      <member refid="class_pre_1_1_feature_1a07534d290ca5363cd628efd011c070be" prot="public" virt="non-virtual"><scope>Pre::Feature</scope><name>SetFeatureType</name></member>
+      <member refid="class_pre_1_1_feature_1a43c7ceaf04580d2e948aedd882208d80" prot="public" virt="virtual"><scope>Pre::Feature</scope><name>ToTransCAD</name></member>
+      <member refid="class_pre_1_1_feature_1ac9e4bbb034ce47ce1ddd02adb52aee98" prot="public" virt="virtual"><scope>Pre::Feature</scope><name>~Feature</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

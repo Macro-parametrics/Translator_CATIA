@@ -1,0 +1,288 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="_reference_class___post_8h" kind="file">
+    <compoundname>ReferenceClass_Post.h</compoundname>
+    <includes refid="_reference_class_8h" local="yes">ReferenceClass.h</includes>
+    <includedby refid="_reference_class___post_8cpp" local="yes">CPPWITHCSHARP/ReferenceClass_Post.cpp</includedby>
+    <incdepgraph>
+      <node id="184">
+        <label>atlstr.h</label>
+      </node>
+      <node id="211">
+        <label>msclr/marshal_cppstd.h</label>
+      </node>
+      <node id="206">
+        <label>strstream</label>
+      </node>
+      <node id="190">
+        <label>stdlib.h</label>
+      </node>
+      <node id="209">
+        <label>Feature.h</label>
+        <link refid="_pre_manager_2ref_2_feature_8h"/>
+        <childnode refid="200" relation="include">
+        </childnode>
+      </node>
+      <node id="192">
+        <label>cmath</label>
+      </node>
+      <node id="186">
+        <label>string</label>
+      </node>
+      <node id="204">
+        <label>comdef.h</label>
+      </node>
+      <node id="191">
+        <label>comutil.h</label>
+      </node>
+      <node id="207">
+        <label>..\PreManager\ref\ReferenceEntity.h</label>
+        <link refid="_reference_entity_8h"/>
+        <childnode refid="200" relation="include">
+        </childnode>
+        <childnode refid="208" relation="include">
+        </childnode>
+      </node>
+      <node id="180">
+        <label>ReferenceClass.h</label>
+        <link refid="_reference_class_8h"/>
+        <childnode refid="181" relation="include">
+        </childnode>
+        <childnode refid="182" relation="include">
+        </childnode>
+        <childnode refid="193" relation="include">
+        </childnode>
+        <childnode refid="200" relation="include">
+        </childnode>
+        <childnode refid="201" relation="include">
+        </childnode>
+        <childnode refid="207" relation="include">
+        </childnode>
+        <childnode refid="210" relation="include">
+        </childnode>
+        <childnode refid="211" relation="include">
+        </childnode>
+      </node>
+      <node id="208">
+        <label>FSketch.h</label>
+        <link refid="_pre_manager_2ref_2_f_sketch_8h"/>
+        <childnode refid="209" relation="include">
+        </childnode>
+      </node>
+      <node id="187">
+        <label>fstream</label>
+      </node>
+      <node id="181">
+        <label>..\PostManager\ref\Part.h</label>
+        <link refid="_post_manager_2ref_2_part_8h"/>
+        <childnode refid="182" relation="include">
+        </childnode>
+        <childnode refid="195" relation="include">
+        </childnode>
+      </node>
+      <node id="199">
+        <label>MP_Utility.h</label>
+        <link refid="_m_p___utility_8h"/>
+        <childnode refid="196" relation="include">
+        </childnode>
+      </node>
+      <node id="179">
+        <label>CPPWITHCSHARP/ReferenceClass_Post.h</label>
+        <link refid="ReferenceClass_Post.h"/>
+        <childnode refid="180" relation="include">
+        </childnode>
+      </node>
+      <node id="198">
+        <label>string.h</label>
+      </node>
+      <node id="201">
+        <label>CATIApre_DLL.h</label>
+        <link refid="_c_a_t_i_apre___d_l_l_8h"/>
+        <childnode refid="189" relation="include">
+        </childnode>
+        <childnode refid="202" relation="include">
+        </childnode>
+        <childnode refid="186" relation="include">
+        </childnode>
+        <childnode refid="198" relation="include">
+        </childnode>
+        <childnode refid="185" relation="include">
+        </childnode>
+        <childnode refid="187" relation="include">
+        </childnode>
+        <childnode refid="188" relation="include">
+        </childnode>
+        <childnode refid="192" relation="include">
+        </childnode>
+        <childnode refid="194" relation="include">
+        </childnode>
+        <childnode refid="203" relation="include">
+        </childnode>
+        <childnode refid="191" relation="include">
+        </childnode>
+        <childnode refid="204" relation="include">
+        </childnode>
+        <childnode refid="205" relation="include">
+        </childnode>
+      </node>
+      <node id="188">
+        <label>vector</label>
+      </node>
+      <node id="203">
+        <label>sstream</label>
+      </node>
+      <node id="194">
+        <label>math.h</label>
+      </node>
+      <node id="183">
+        <label>atlbase.h</label>
+      </node>
+      <node id="195">
+        <label>CATIAReferenceManager.h</label>
+        <link refid="_c_a_t_i_a_reference_manager_8h"/>
+        <childnode refid="182" relation="include">
+        </childnode>
+        <childnode refid="196" relation="include">
+        </childnode>
+        <childnode refid="199" relation="include">
+        </childnode>
+      </node>
+      <node id="185">
+        <label>iostream</label>
+      </node>
+      <node id="193">
+        <label>Definition.h</label>
+        <link refid="_post_manager_2ref_2_definition_8h"/>
+        <childnode refid="194" relation="include">
+        </childnode>
+      </node>
+      <node id="202">
+        <label>tchar.h</label>
+      </node>
+      <node id="205">
+        <label>Definition.h</label>
+        <link refid="_pre_manager_2ref_2_definition_8h"/>
+        <childnode refid="206" relation="include">
+        </childnode>
+        <childnode refid="185" relation="include">
+        </childnode>
+        <childnode refid="194" relation="include">
+        </childnode>
+      </node>
+      <node id="210">
+        <label>vcclr.h</label>
+      </node>
+      <node id="200">
+        <label>..\PreManager\ref\Part.h</label>
+        <link refid="_pre_manager_2ref_2_part_8h"/>
+        <childnode refid="201" relation="include">
+        </childnode>
+      </node>
+      <node id="197">
+        <label>algorithm</label>
+      </node>
+      <node id="189">
+        <label>stdio.h</label>
+      </node>
+      <node id="196">
+        <label>PN_TYPE.h</label>
+        <link refid="_p_n___t_y_p_e_8h"/>
+        <childnode refid="185" relation="include">
+        </childnode>
+        <childnode refid="186" relation="include">
+        </childnode>
+        <childnode refid="188" relation="include">
+        </childnode>
+        <childnode refid="197" relation="include">
+        </childnode>
+        <childnode refid="194" relation="include">
+        </childnode>
+        <childnode refid="198" relation="include">
+        </childnode>
+      </node>
+      <node id="182">
+        <label>CATIApost_DLL.h</label>
+        <link refid="_c_a_t_i_apost___d_l_l_8h"/>
+        <childnode refid="183" relation="include">
+        </childnode>
+        <childnode refid="184" relation="include">
+        </childnode>
+        <childnode refid="185" relation="include">
+        </childnode>
+        <childnode refid="186" relation="include">
+        </childnode>
+        <childnode refid="187" relation="include">
+        </childnode>
+        <childnode refid="188" relation="include">
+        </childnode>
+        <childnode refid="189" relation="include">
+        </childnode>
+        <childnode refid="190" relation="include">
+        </childnode>
+        <childnode refid="191" relation="include">
+        </childnode>
+        <childnode refid="192" relation="include">
+        </childnode>
+        <childnode refid="193" relation="include">
+        </childnode>
+      </node>
+    </incdepgraph>
+    <invincdepgraph>
+      <node id="212">
+        <label>CPPWITHCSHARP/ReferenceClass_Post.h</label>
+        <link refid="ReferenceClass_Post.h"/>
+        <childnode refid="213" relation="include">
+        </childnode>
+      </node>
+      <node id="213">
+        <label>CPPWITHCSHARP/ReferenceClass_Post.cpp</label>
+        <link refid="_reference_class___post_8cpp"/>
+      </node>
+    </invincdepgraph>
+    <innerclass refid="class_reference_class_1_1ref___post" prot="public">ReferenceClass::ref_Post</innerclass>
+    <innernamespace refid="namespace_reference_class">ReferenceClass</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="preprocessor">#pragma<sp/>once</highlight></codeline>
+<codeline lineno="2"><highlight class="preprocessor"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="_reference_class_8h" kindref="compound">ReferenceClass.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal">ReferenceClass</highlight></codeline>
+<codeline lineno="5"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="6"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/>delegate<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="namespace_reference_class_1a7b836dbb40e109c6966102e6d62d5a40" kindref="member">SelectedDelegateCSharp</ref>(Object<sp/>^j);</highlight><highlight class="comment">//For<sp/>c#<sp/>Raise</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="7"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/>delegate<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="namespace_reference_class_1ab46b353460a8649d02dfb2123317bce1" kindref="member">SelectedDelegateCplus</ref>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>i);<sp/></highlight><highlight class="comment">//for<sp/>C++<sp/>Raise</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight></codeline>
+<codeline lineno="9" refid="class_reference_class_1_1ref___post" refkind="compound"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public<sp/>ref<sp/>class</highlight><highlight class="normal"><sp/><ref refid="class_reference_class_1_1ref___post" kindref="compound">ref_Post</ref></highlight></codeline>
+<codeline lineno="10"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="11"><highlight class="normal"></highlight></codeline>
+<codeline lineno="12"><highlight class="normal"></highlight></codeline>
+<codeline lineno="13"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="14"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_reference_class_1_1ref___post_1a23cbfc18cfa13007c0e14c4844d51cc8" kindref="member">ref_Post</ref>();</highlight></codeline>
+<codeline lineno="15"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/><ref refid="class_reference_class_1_1ref___post_1a011c6b4d96fa378706defa0975aa969d" kindref="member">~ref_Post</ref>();</highlight></codeline>
+<codeline lineno="16"><highlight class="normal"></highlight></codeline>
+<codeline lineno="17"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">protected</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="18" refid="class_reference_class_1_1ref___post_1a17e43e980efceb3b8833500e5e6e7041" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_post_1_1_c_a_t_i_a_reference_manager" kindref="compound">Post::CATIAReferenceManager</ref><sp/>*<ref refid="class_reference_class_1_1ref___post_1a17e43e980efceb3b8833500e5e6e7041" kindref="member">m_pReferenceManager</ref>;</highlight></codeline>
+<codeline lineno="19"><highlight class="normal"></highlight></codeline>
+<codeline lineno="20"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">private</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="21"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="class_reference_class_1_1ref___post_1a9397129abeba942dd59a4e2f22ce8c60" kindref="member">GetPartNum_From_PartName</ref>(TransCAD::ICompPtr<sp/>u_spComp,<sp/></highlight><highlight class="keywordtype">string</highlight><highlight class="normal"><sp/>PartName);</highlight></codeline>
+<codeline lineno="22"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="class_reference_class_1_1ref___post_1a655fa1d143936d1fd7b4e14f7738a5f4" kindref="member">GetProductNum_From_SubAssemName</ref>(TransCAD::IAssemPtr<sp/>u_spAssem,<sp/></highlight><highlight class="keywordtype">string</highlight><highlight class="normal"><sp/>SubAssemName);</highlight></codeline>
+<codeline lineno="23"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">string</highlight><highlight class="normal"><sp/><ref refid="class_reference_class_1_1ref___post_1ac03f868795100aae6025febab7f6d2e6" kindref="member">T2C_ReferenceName_From_Part</ref>(TransCAD::ICompPtr<sp/>u_spComp,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>partNum,<sp/></highlight><highlight class="keywordtype">string</highlight><highlight class="normal"><sp/>persistentName);</highlight></codeline>
+<codeline lineno="24"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">string</highlight><highlight class="normal"><sp/><ref refid="class_reference_class_1_1ref___post_1ac0300e51670b871abbd0ea7dc7e5d701" kindref="member">T2C_ReferenceName_From_Assembly</ref>(TransCAD::IAssemPtr<sp/>u_spAssem,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>constype,<sp/></highlight><highlight class="keywordtype">string</highlight><highlight class="normal"><sp/>Pack,<sp/></highlight><highlight class="keywordtype">string</highlight><highlight class="normal"><sp/>PartName,<sp/></highlight><highlight class="keywordtype">string</highlight><highlight class="normal"><sp/>assembly_persistentName);</highlight></codeline>
+<codeline lineno="25"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>String^<sp/><ref refid="class_reference_class_1_1ref___post_1acec99a2942b05b07782977b795d63384" kindref="member">GetConstType</ref>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>type);</highlight></codeline>
+<codeline lineno="26"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="28"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">/*외부로<sp/>노출시킬<sp/>함수를<sp/>만들고<sp/>이<sp/>안에서<sp/>m_pReferenceManager를<sp/>통해<sp/>실제<sp/>함수를<sp/>사용한다*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="29"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//::Part<sp/>*<sp/>pPart;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="30"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="structref_command" kindref="compound">refCommand</ref><sp/><ref refid="class_reference_class_1_1ref___post_1a7aaf4a9810744d048c43799edafe81f2" kindref="member">ConvertRefPost</ref>(<ref refid="structref_command" kindref="compound">refCommand</ref><sp/>w);</highlight></codeline>
+<codeline lineno="31"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_reference_class_1_1ref___post_1ac19c799206473a3eff81a0e106675b28" kindref="member">AssemblyPartT2C</ref>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>CompNum,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>PartNum,<sp/>String^<sp/>path);</highlight></codeline>
+<codeline lineno="32"><highlight class="normal"></highlight></codeline>
+<codeline lineno="33"><highlight class="normal"><sp/><sp/><sp/><sp/>};</highlight></codeline>
+<codeline lineno="34"><highlight class="normal"></highlight></codeline>
+<codeline lineno="35"><highlight class="normal"></highlight></codeline>
+<codeline lineno="36"><highlight class="normal"></highlight></codeline>
+<codeline lineno="37"><highlight class="normal">}</highlight></codeline>
+    </programlisting>
+    <location file="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/CPPWITHCSHARP/ReferenceClass_Post.h"/>
+  </compounddef>
+</doxygen>

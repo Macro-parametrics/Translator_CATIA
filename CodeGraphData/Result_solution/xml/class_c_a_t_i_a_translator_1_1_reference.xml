@@ -1,0 +1,390 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_c_a_t_i_a_translator_1_1_reference" kind="class" prot="public">
+    <compoundname>CATIATranslator::Reference</compoundname>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_c_a_t_i_a_translator_1_1_reference_1ad9c5af7fffbaa9ad9de57436ae7791f6" prot="public" static="no" mutable="no">
+        <type><ref refid="class_c_a_t_i_a_translator_1_1_part" kindref="compound">Part</ref></type>
+        <definition>Part CATIATranslator.Reference.PartManager</definition>
+        <argsstring></argsstring>
+        <name>PartManager</name>
+        <initializer>= null</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/CATIATranslator/Part/Reference/Reference.cs" line="9" column="1" bodyfile="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/CATIATranslator/Part/Reference/Reference.cs" bodystart="9" bodyend="-1"/>
+        <referencedby refid="class_c_a_t_i_a_translator_1_1_reference_1a8f6b4a510fdeea9fa56007b4085f4149" compoundref="_reference_8cs" startline="470" endline="496">CATIATranslator.Reference.GetCATIASketchReference</referencedby>
+        <referencedby refid="class_c_a_t_i_a_translator_1_1_reference_1aa34b7db59ddec70442e721568ca39395" compoundref="_reference_8cs" startline="13" endline="16">CATIATranslator.Reference.Reference</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_c_a_t_i_a_translator_1_1_reference_1aa0ddfaf91fec554ec278f7e51095824b" prot="public" static="no" mutable="no">
+        <type>Dictionary&lt; string, string &gt;</type>
+        <definition>Dictionary&lt;string, string&gt; CATIATranslator.Reference.NameMap</definition>
+        <argsstring></argsstring>
+        <name>NameMap</name>
+        <initializer>= new Dictionary&lt;string, string&gt;()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/CATIATranslator/Part/Reference/Reference.cs" line="10" column="1" bodyfile="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/CATIATranslator/Part/Reference/Reference.cs" bodystart="10" bodyend="-1"/>
+        <referencedby refid="class_c_a_t_i_a_translator_1_1_reference_1ae32f19e4f2cef0025cff64ee7450381b" compoundref="_reference_8cs" startline="394" endline="432">CATIATranslator.Reference.GetCATIABasicName</referencedby>
+        <referencedby refid="class_c_a_t_i_a_translator_1_1_reference_1ab937b28bcba0a12b18e2704767744f92" compoundref="_reference_8cs" startline="343" endline="377">CATIATranslator.Reference.GetCATIANameFromTransCADName</referencedby>
+        <referencedby refid="class_c_a_t_i_a_translator_1_1_feature_circ_pattern_1a0297c10b464eb9148261d60fd37c67e0" compoundref="_feature_circ_pattern_8cs" startline="43" endline="81">CATIATranslator.FeatureCircPattern.TranslateT2C</referencedby>
+        <referencedby refid="class_c_a_t_i_a_translator_1_1_feature_rect_pattern_1aed05a35ca5f2ba50466bd955224279fd" compoundref="_feature_rect_pattern_8cs" startline="60" endline="101">CATIATranslator.FeatureRectPattern.TranslateT2C</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_c_a_t_i_a_translator_1_1_reference_1a5b608b0f4e7f13181525acdf17022f5d" prot="private" static="no" mutable="no">
+        <type><ref refid="class_c_a_t_i_a_translator_1_1_assembly" kindref="compound">Assembly</ref></type>
+        <definition>Assembly CATIATranslator.Reference.assembly</definition>
+        <argsstring></argsstring>
+        <name>assembly</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/CATIATranslator/Part/Reference/Reference.cs" line="11" column="1" bodyfile="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/CATIATranslator/Part/Reference/Reference.cs" bodystart="11" bodyend="-1"/>
+        <referencedby refid="class_c_a_t_i_a_translator_1_1_reference_1a45c01bb2bcf36a51b4f840e40db1ff72" compoundref="_reference_8cs" startline="18" endline="21">CATIATranslator.Reference.Reference</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_c_a_t_i_a_translator_1_1_reference_1aa34b7db59ddec70442e721568ca39395" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>CATIATranslator.Reference.Reference</definition>
+        <argsstring>(Part PartManager)</argsstring>
+        <name>Reference</name>
+        <param>
+          <type><ref refid="class_c_a_t_i_a_translator_1_1_part" kindref="compound">Part</ref></type>
+          <declname>PartManager</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/CATIATranslator/Part/Reference/Reference.cs" line="13" column="1" bodyfile="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/CATIATranslator/Part/Reference/Reference.cs" bodystart="13" bodyend="16"/>
+        <references refid="class_c_a_t_i_a_translator_1_1_reference_1ad9c5af7fffbaa9ad9de57436ae7791f6" compoundref="_reference_8cs" startline="9">CATIATranslator.Reference.PartManager</references>
+      </memberdef>
+      <memberdef kind="function" id="class_c_a_t_i_a_translator_1_1_reference_1a45c01bb2bcf36a51b4f840e40db1ff72" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>CATIATranslator.Reference.Reference</definition>
+        <argsstring>(Assembly assembly)</argsstring>
+        <name>Reference</name>
+        <param>
+          <type><ref refid="class_c_a_t_i_a_translator_1_1_assembly" kindref="compound">Assembly</ref></type>
+          <declname>assembly</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/CATIATranslator/Part/Reference/Reference.cs" line="18" column="1" bodyfile="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/CATIATranslator/Part/Reference/Reference.cs" bodystart="18" bodyend="21"/>
+        <references refid="class_c_a_t_i_a_translator_1_1_reference_1a5b608b0f4e7f13181525acdf17022f5d" compoundref="_reference_8cs" startline="11">CATIATranslator.Reference.assembly</references>
+      </memberdef>
+      <memberdef kind="function" id="class_c_a_t_i_a_translator_1_1_reference_1a1ed9f5917714b8f3f54a658d26fd38fc" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>string</type>
+        <definition>string CATIATranslator.Reference.GetTransCADNameFromCATIAName</definition>
+        <argsstring>(string cName)</argsstring>
+        <name>GetTransCADNameFromCATIAName</name>
+        <param>
+          <type>string</type>
+          <declname>cName</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/CATIATranslator/Part/Reference/Reference.cs" line="24" column="1" bodyfile="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/CATIATranslator/Part/Reference/Reference.cs" bodystart="24" bodyend="73"/>
+        <references refid="class_c_a_t_i_a_translator_1_1_reference_1a5ad53c0bcd7e79cd7bbfc88359f9e5b8" compoundref="_reference_8cs" startline="75" endline="120">CATIATranslator.Reference.GetTransCADBasicName</references>
+      </memberdef>
+      <memberdef kind="function" id="class_c_a_t_i_a_translator_1_1_reference_1a5ad53c0bcd7e79cd7bbfc88359f9e5b8" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>string</type>
+        <definition>string CATIATranslator.Reference.GetTransCADBasicName</definition>
+        <argsstring>(string[] cName)</argsstring>
+        <name>GetTransCADBasicName</name>
+        <param>
+          <type>string[]</type>
+          <declname>cName</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/CATIATranslator/Part/Reference/Reference.cs" line="75" column="1" bodyfile="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/CATIATranslator/Part/Reference/Reference.cs" bodystart="75" bodyend="120"/>
+        <references refid="class_c_a_t_i_a_translator_1_1_reference_1ae9c669560ac4aa351ca3e32be8d09f80" compoundref="_reference_8cs" startline="122" endline="166">CATIATranslator.Reference.GetSketchElementNameByReportName</references>
+        <references refid="class_c_a_t_i_a_translator_1_1_reference_1aa175f294a04b7d850b398c58df51740e" compoundref="_reference_8cs" startline="168" endline="186">CATIATranslator.Reference.GetTransCADFeatureType</references>
+        <referencedby refid="class_c_a_t_i_a_translator_1_1_reference_1a1ed9f5917714b8f3f54a658d26fd38fc" compoundref="_reference_8cs" startline="24" endline="73">CATIATranslator.Reference.GetTransCADNameFromCATIAName</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_c_a_t_i_a_translator_1_1_reference_1ae9c669560ac4aa351ca3e32be8d09f80" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>string</type>
+        <definition>string CATIATranslator.Reference.GetSketchElementNameByReportName</definition>
+        <argsstring>(string cSketchName, string cReportName)</argsstring>
+        <name>GetSketchElementNameByReportName</name>
+        <param>
+          <type>string</type>
+          <declname>cSketchName</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>cReportName</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/CATIATranslator/Part/Reference/Reference.cs" line="122" column="1" bodyfile="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/CATIATranslator/Part/Reference/Reference.cs" bodystart="122" bodyend="166"/>
+        <referencedby refid="class_c_a_t_i_a_translator_1_1_reference_1a5ad53c0bcd7e79cd7bbfc88359f9e5b8" compoundref="_reference_8cs" startline="75" endline="120">CATIATranslator.Reference.GetTransCADBasicName</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_c_a_t_i_a_translator_1_1_reference_1aa175f294a04b7d850b398c58df51740e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>string</type>
+        <definition>string CATIATranslator.Reference.GetTransCADFeatureType</definition>
+        <argsstring>(string cFeatureName)</argsstring>
+        <name>GetTransCADFeatureType</name>
+        <param>
+          <type>string</type>
+          <declname>cFeatureName</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/CATIATranslator/Part/Reference/Reference.cs" line="168" column="1" bodyfile="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/CATIATranslator/Part/Reference/Reference.cs" bodystart="168" bodyend="186"/>
+        <referencedby refid="class_c_a_t_i_a_translator_1_1_reference_1a5ad53c0bcd7e79cd7bbfc88359f9e5b8" compoundref="_reference_8cs" startline="75" endline="120">CATIATranslator.Reference.GetTransCADBasicName</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_c_a_t_i_a_translator_1_1_reference_1af3937c50fa8e7c25e04406464aa8b896" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>TransCAD.Reference</type>
+        <definition>TransCAD.Reference CATIATranslator.Reference.GetTransCADSketchReference</definition>
+        <argsstring>(MECMOD.Sketch cSketch)</argsstring>
+        <name>GetTransCADSketchReference</name>
+        <param>
+          <type>MECMOD.Sketch</type>
+          <declname>cSketch</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/CATIATranslator/Part/Reference/Reference.cs" line="188" column="1" bodyfile="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/CATIATranslator/Part/Reference/Reference.cs" bodystart="188" bodyend="308"/>
+        <references refid="class_c_a_t_i_a_translator_1_1_reference_1a5e1cfbe3c579fba54b21b5badf4b029c" compoundref="_reference_8cs" startline="310" endline="339">CATIATranslator.Reference.GetTransCADPlaneType</references>
+      </memberdef>
+      <memberdef kind="function" id="class_c_a_t_i_a_translator_1_1_reference_1a5e1cfbe3c579fba54b21b5badf4b029c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>int</type>
+        <definition>int CATIATranslator.Reference.GetTransCADPlaneType</definition>
+        <argsstring>(object[] axis)</argsstring>
+        <name>GetTransCADPlaneType</name>
+        <param>
+          <type>object[]</type>
+          <declname>axis</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/CATIATranslator/Part/Reference/Reference.cs" line="310" column="1" bodyfile="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/CATIATranslator/Part/Reference/Reference.cs" bodystart="310" bodyend="339"/>
+        <referencedby refid="class_c_a_t_i_a_translator_1_1_reference_1af3937c50fa8e7c25e04406464aa8b896" compoundref="_reference_8cs" startline="188" endline="308">CATIATranslator.Reference.GetTransCADSketchReference</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_c_a_t_i_a_translator_1_1_reference_1ab937b28bcba0a12b18e2704767744f92" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>string</type>
+        <definition>string CATIATranslator.Reference.GetCATIANameFromTransCADName</definition>
+        <argsstring>(string tName)</argsstring>
+        <name>GetCATIANameFromTransCADName</name>
+        <param>
+          <type>string</type>
+          <declname>tName</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/CATIATranslator/Part/Reference/Reference.cs" line="343" column="1" bodyfile="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/CATIATranslator/Part/Reference/Reference.cs" bodystart="343" bodyend="377"/>
+        <references refid="class_c_a_t_i_a_translator_1_1_reference_1ae32f19e4f2cef0025cff64ee7450381b" compoundref="_reference_8cs" startline="394" endline="432">CATIATranslator.Reference.GetCATIABasicName</references>
+        <references refid="class_c_a_t_i_a_translator_1_1_reference_1aa0ddfaf91fec554ec278f7e51095824b" compoundref="_reference_8cs" startline="10">CATIATranslator.Reference.NameMap</references>
+        <referencedby refid="class_c_a_t_i_a_translator_1_1_feature_chamfer_1afb3237c69c7f22ac3df3db8b7f4d68a9" compoundref="_feature_chamfer_8cs" startline="34" endline="57">CATIATranslator.FeatureChamfer.TranslateT2C</referencedby>
+        <referencedby refid="class_c_a_t_i_a_translator_1_1_feature_edge_fillet_1a0127e835242204ae4fa280dbdd341bc4" compoundref="_feature_edge_fillet_8cs" startline="39" endline="65">CATIATranslator.FeatureEdgeFillet.TranslateT2C</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_c_a_t_i_a_translator_1_1_reference_1aed6ff3542e22235f540412e7cb15a1f4" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>string</type>
+        <definition>string CATIATranslator.Reference.GetCATIANameFromTransCADNameForHole</definition>
+        <argsstring>(string tName)</argsstring>
+        <name>GetCATIANameFromTransCADNameForHole</name>
+        <param>
+          <type>string</type>
+          <declname>tName</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/CATIATranslator/Part/Reference/Reference.cs" line="379" column="1" bodyfile="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/CATIATranslator/Part/Reference/Reference.cs" bodystart="379" bodyend="392"/>
+        <references refid="class_c_a_t_i_a_translator_1_1_reference_1ae32f19e4f2cef0025cff64ee7450381b" compoundref="_reference_8cs" startline="394" endline="432">CATIATranslator.Reference.GetCATIABasicName</references>
+      </memberdef>
+      <memberdef kind="function" id="class_c_a_t_i_a_translator_1_1_reference_1ae32f19e4f2cef0025cff64ee7450381b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>string</type>
+        <definition>string CATIATranslator.Reference.GetCATIABasicName</definition>
+        <argsstring>(string[] tName)</argsstring>
+        <name>GetCATIABasicName</name>
+        <param>
+          <type>string[]</type>
+          <declname>tName</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/CATIATranslator/Part/Reference/Reference.cs" line="394" column="1" bodyfile="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/CATIATranslator/Part/Reference/Reference.cs" bodystart="394" bodyend="432"/>
+        <references refid="class_c_a_t_i_a_translator_1_1_reference_1a32abce92b2357d551edd53463e6fc76c" compoundref="_reference_8cs" startline="434" endline="468">CATIATranslator.Reference.GetReportNameBySketchElementName</references>
+        <references refid="class_c_a_t_i_a_translator_1_1_reference_1aa0ddfaf91fec554ec278f7e51095824b" compoundref="_reference_8cs" startline="10">CATIATranslator.Reference.NameMap</references>
+        <referencedby refid="class_c_a_t_i_a_translator_1_1_reference_1ab937b28bcba0a12b18e2704767744f92" compoundref="_reference_8cs" startline="343" endline="377">CATIATranslator.Reference.GetCATIANameFromTransCADName</referencedby>
+        <referencedby refid="class_c_a_t_i_a_translator_1_1_reference_1aed6ff3542e22235f540412e7cb15a1f4" compoundref="_reference_8cs" startline="379" endline="392">CATIATranslator.Reference.GetCATIANameFromTransCADNameForHole</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_c_a_t_i_a_translator_1_1_reference_1a32abce92b2357d551edd53463e6fc76c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>string</type>
+        <definition>string CATIATranslator.Reference.GetReportNameBySketchElementName</definition>
+        <argsstring>(string tSketchName, string tSketchElementName)</argsstring>
+        <name>GetReportNameBySketchElementName</name>
+        <param>
+          <type>string</type>
+          <declname>tSketchName</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>tSketchElementName</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/CATIATranslator/Part/Reference/Reference.cs" line="434" column="1" bodyfile="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/CATIATranslator/Part/Reference/Reference.cs" bodystart="434" bodyend="468"/>
+        <referencedby refid="class_c_a_t_i_a_translator_1_1_reference_1ae32f19e4f2cef0025cff64ee7450381b" compoundref="_reference_8cs" startline="394" endline="432">CATIATranslator.Reference.GetCATIABasicName</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_c_a_t_i_a_translator_1_1_reference_1a8f6b4a510fdeea9fa56007b4085f4149" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>INFITF.Reference</type>
+        <definition>INFITF.Reference CATIATranslator.Reference.GetCATIASketchReference</definition>
+        <argsstring>(TransCAD.IStdSketchFeature tSketch)</argsstring>
+        <name>GetCATIASketchReference</name>
+        <param>
+          <type>TransCAD.IStdSketchFeature</type>
+          <declname>tSketch</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/CATIATranslator/Part/Reference/Reference.cs" line="470" column="1" bodyfile="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/CATIATranslator/Part/Reference/Reference.cs" bodystart="470" bodyend="496"/>
+        <references refid="class_c_a_t_i_a_translator_1_1_part_1ac78af25e1545704dd7e88541f7ccb711" compoundref="_part_8cs" startline="18">CATIATranslator.Part.cOriginalElements</references>
+        <references refid="class_c_a_t_i_a_translator_1_1_reference_1ad9c5af7fffbaa9ad9de57436ae7791f6" compoundref="_reference_8cs" startline="9">CATIATranslator.Reference.PartManager</references>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="1130">
+        <label>TransCAD</label>
+      </node>
+      <node id="1128">
+        <label>CATIATranslator.Reference</label>
+        <link refid="class_c_a_t_i_a_translator_1_1_reference"/>
+        <childnode refid="1129" relation="usage">
+          <edgelabel>assembly</edgelabel>
+        </childnode>
+        <childnode refid="1131" relation="usage">
+          <edgelabel>PartManager</edgelabel>
+        </childnode>
+      </node>
+      <node id="1131">
+        <label>CATIATranslator.Part</label>
+        <link refid="class_c_a_t_i_a_translator_1_1_part"/>
+        <childnode refid="1130" relation="usage">
+          <edgelabel>tAssemDoc</edgelabel>
+          <edgelabel>tApp</edgelabel>
+          <edgelabel>tPartDoc</edgelabel>
+          <edgelabel>tDocs</edgelabel>
+          <edgelabel>tFeatures</edgelabel>
+          <edgelabel>tAssem</edgelabel>
+          <edgelabel>tComp</edgelabel>
+          <edgelabel>tPart</edgelabel>
+        </childnode>
+        <childnode refid="1128" relation="usage">
+          <edgelabel>ReferenceManager</edgelabel>
+        </childnode>
+        <childnode refid="1131" relation="usage">
+          <edgelabel>cPart</edgelabel>
+        </childnode>
+      </node>
+      <node id="1129">
+        <label>CATIATranslator.Assembly</label>
+        <link refid="class_c_a_t_i_a_translator_1_1_assembly"/>
+        <childnode refid="1130" relation="usage">
+          <edgelabel>tConstraints</edgelabel>
+          <edgelabel>tAssemDoc</edgelabel>
+          <edgelabel>tApp</edgelabel>
+          <edgelabel>tPartDoc</edgelabel>
+          <edgelabel>tDocs</edgelabel>
+          <edgelabel>tFeatures</edgelabel>
+          <edgelabel>tAssem</edgelabel>
+          <edgelabel>tComp</edgelabel>
+          <edgelabel>tPart</edgelabel>
+        </childnode>
+        <childnode refid="1128" relation="usage">
+          <edgelabel>ReferenceManager</edgelabel>
+        </childnode>
+        <childnode refid="1131" relation="usage">
+          <edgelabel>cPart</edgelabel>
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/CATIATranslator/Part/Reference/Reference.cs" line="8" column="1" bodyfile="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/CATIATranslator/Part/Reference/Reference.cs" bodystart="7" bodyend="498"/>
+    <listofallmembers>
+      <member refid="class_c_a_t_i_a_translator_1_1_reference_1a5b608b0f4e7f13181525acdf17022f5d" prot="private" virt="non-virtual"><scope>CATIATranslator::Reference</scope><name>assembly</name></member>
+      <member refid="class_c_a_t_i_a_translator_1_1_reference_1ae32f19e4f2cef0025cff64ee7450381b" prot="public" virt="non-virtual"><scope>CATIATranslator::Reference</scope><name>GetCATIABasicName</name></member>
+      <member refid="class_c_a_t_i_a_translator_1_1_reference_1ab937b28bcba0a12b18e2704767744f92" prot="public" virt="non-virtual"><scope>CATIATranslator::Reference</scope><name>GetCATIANameFromTransCADName</name></member>
+      <member refid="class_c_a_t_i_a_translator_1_1_reference_1aed6ff3542e22235f540412e7cb15a1f4" prot="public" virt="non-virtual"><scope>CATIATranslator::Reference</scope><name>GetCATIANameFromTransCADNameForHole</name></member>
+      <member refid="class_c_a_t_i_a_translator_1_1_reference_1a8f6b4a510fdeea9fa56007b4085f4149" prot="public" virt="non-virtual"><scope>CATIATranslator::Reference</scope><name>GetCATIASketchReference</name></member>
+      <member refid="class_c_a_t_i_a_translator_1_1_reference_1a32abce92b2357d551edd53463e6fc76c" prot="public" virt="non-virtual"><scope>CATIATranslator::Reference</scope><name>GetReportNameBySketchElementName</name></member>
+      <member refid="class_c_a_t_i_a_translator_1_1_reference_1ae9c669560ac4aa351ca3e32be8d09f80" prot="public" virt="non-virtual"><scope>CATIATranslator::Reference</scope><name>GetSketchElementNameByReportName</name></member>
+      <member refid="class_c_a_t_i_a_translator_1_1_reference_1a5ad53c0bcd7e79cd7bbfc88359f9e5b8" prot="public" virt="non-virtual"><scope>CATIATranslator::Reference</scope><name>GetTransCADBasicName</name></member>
+      <member refid="class_c_a_t_i_a_translator_1_1_reference_1aa175f294a04b7d850b398c58df51740e" prot="public" virt="non-virtual"><scope>CATIATranslator::Reference</scope><name>GetTransCADFeatureType</name></member>
+      <member refid="class_c_a_t_i_a_translator_1_1_reference_1a1ed9f5917714b8f3f54a658d26fd38fc" prot="public" virt="non-virtual"><scope>CATIATranslator::Reference</scope><name>GetTransCADNameFromCATIAName</name></member>
+      <member refid="class_c_a_t_i_a_translator_1_1_reference_1a5e1cfbe3c579fba54b21b5badf4b029c" prot="public" virt="non-virtual"><scope>CATIATranslator::Reference</scope><name>GetTransCADPlaneType</name></member>
+      <member refid="class_c_a_t_i_a_translator_1_1_reference_1af3937c50fa8e7c25e04406464aa8b896" prot="public" virt="non-virtual"><scope>CATIATranslator::Reference</scope><name>GetTransCADSketchReference</name></member>
+      <member refid="class_c_a_t_i_a_translator_1_1_reference_1aa0ddfaf91fec554ec278f7e51095824b" prot="public" virt="non-virtual"><scope>CATIATranslator::Reference</scope><name>NameMap</name></member>
+      <member refid="class_c_a_t_i_a_translator_1_1_reference_1ad9c5af7fffbaa9ad9de57436ae7791f6" prot="public" virt="non-virtual"><scope>CATIATranslator::Reference</scope><name>PartManager</name></member>
+      <member refid="class_c_a_t_i_a_translator_1_1_reference_1aa34b7db59ddec70442e721568ca39395" prot="public" virt="non-virtual"><scope>CATIATranslator::Reference</scope><name>Reference</name></member>
+      <member refid="class_c_a_t_i_a_translator_1_1_reference_1a45c01bb2bcf36a51b4f840e40db1ff72" prot="public" virt="non-virtual"><scope>CATIATranslator::Reference</scope><name>Reference</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

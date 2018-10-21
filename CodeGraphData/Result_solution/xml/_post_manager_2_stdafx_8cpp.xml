@@ -1,0 +1,75 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="_post_manager_2_stdafx_8cpp" kind="file">
+    <compoundname>stdafx.cpp</compoundname>
+    <includes refid="_post_manager_2_stdafx_8h" local="yes">stdafx.h</includes>
+    <incdepgraph>
+      <node id="296">
+        <label>windows.h</label>
+      </node>
+      <node id="295">
+        <label>SDKDDKVer.h</label>
+      </node>
+      <node id="293">
+        <label>stdafx.h</label>
+        <link refid="_post_manager_2_stdafx_8h"/>
+        <childnode refid="294" relation="include">
+        </childnode>
+        <childnode refid="296" relation="include">
+        </childnode>
+      </node>
+      <node id="294">
+        <label>targetver.h</label>
+        <link refid="_post_manager_2targetver_8h"/>
+        <childnode refid="295" relation="include">
+        </childnode>
+      </node>
+      <node id="292">
+        <label>PostManager/stdafx.cpp</label>
+        <link refid="PostManager/Stdafx.cpp"/>
+        <childnode refid="293" relation="include">
+        </childnode>
+      </node>
+    </incdepgraph>
+      <sectiondef kind="var">
+      <memberdef kind="variable" id="_post_manager_2_stdafx_8cpp_1a7a8829f663f72e520593688e551c372e" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int ExternMode</definition>
+        <argsstring></argsstring>
+        <name>ExternMode</name>
+        <initializer>= 0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/PostManager/stdafx.cpp" line="10" column="1" bodyfile="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/PostManager/stdafx.cpp" bodystart="10" bodyend="-1"/>
+        <referencedby refid="class_post_1_1_part_1afa2055a5c24cd753a3b5d9900950d987" compoundref="_post_manager_2ref_2_part_8cpp" startline="314" endline="317">Post::Part::ExternModeToggle</referencedby>
+        <referencedby refid="class_post_1_1_s_k_e_t_c_h_create2_d_centerline_1aa13eba9ab4db3ba583dc46e250982179" compoundref="_s_k_e_t_c_h_create2_d_centerline_8cpp" startline="16" endline="27">Post::SKETCHCreate2DCenterline::GetInfo</referencedby>
+        <referencedby refid="class_post_1_1_s_k_e_t_c_h_create2_d_point_1a723681b77947166bb9c0a8b9a093bca2" compoundref="_s_k_e_t_c_h_create2_d_point_8cpp" startline="14" endline="22">Post::SKETCHCreate2DPoint::GetInfo</referencedby>
+        <referencedby refid="class_post_1_1_f_sketch_1a7bafff74162c56925124f63dc257948f" compoundref="_post_manager_2ref_2_f_sketch_8cpp" startline="87" endline="138">Post::FSketch::GetInfo</referencedby>
+        <referencedby refid="class_post_1_1_s_k_e_t_c_h_create2_d_circle_center_point_1a8a23bf3543170f9b80656d6fe84896d3" compoundref="_s_k_e_t_c_h_create2_d_circle_center_point_8cpp" startline="14" endline="26">Post::SKETCHCreate2DCircleCenterPoint::GetInfo</referencedby>
+        <referencedby refid="class_post_1_1_s_k_e_t_c_h_create2_d_line2_points_1a3a001e53b6c6a2444690a3d1b5d81085" compoundref="_s_k_e_t_c_h_create2_d_line2_points_8cpp" startline="14" endline="30">Post::SKETCHCreate2DLine2Points::GetInfo</referencedby>
+        <referencedby refid="class_post_1_1_s_k_e_t_c_h_create2_d_circular_arc_1a76e2210a8de8829e9b6d1229eec220bb" compoundref="_s_k_e_t_c_h_create2_d_circular_arc_8cpp" startline="14" endline="34">Post::SKETCHCreate2DCircularArc::GetInfo</referencedby>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="comment">//<sp/>stdafx.cpp<sp/>:<sp/>표준<sp/>포함<sp/>파일만<sp/>들어<sp/>있는<sp/>소스<sp/>파일입니다.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight><highlight class="comment">//<sp/>PostManager.pch는<sp/>미리<sp/>컴파일된<sp/>헤더가<sp/>됩니다.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="comment">//<sp/>stdafx.obj에는<sp/>미리<sp/>컴파일된<sp/>형식<sp/>정보가<sp/>포함됩니다.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="_post_manager_2_stdafx_8h" kindref="compound">stdafx.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight><highlight class="comment">//<sp/>TODO:<sp/>필요한<sp/>추가<sp/>헤더는</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight><highlight class="comment">//<sp/>이<sp/>파일이<sp/>아닌<sp/>STDAFX.H에서<sp/>참조합니다.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight></codeline>
+<codeline lineno="10" refid="_post_manager_2_stdafx_8cpp_1a7a8829f663f72e520593688e551c372e" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="_post_manager_2_stdafx_8cpp_1a7a8829f663f72e520593688e551c372e" kindref="member">ExternMode</ref><sp/>=<sp/>0;</highlight></codeline>
+    </programlisting>
+    <location file="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/PostManager/stdafx.cpp"/>
+  </compounddef>
+</doxygen>

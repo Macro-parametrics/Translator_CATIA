@@ -1,0 +1,886 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="namespace_post" kind="namespace">
+    <compoundname>Post</compoundname>
+    <innerclass refid="struct_post_1_1__tag_name_map" prot="public">Post::_tagNameMap</innerclass>
+    <innerclass refid="struct_post_1_1__tag_entity_map" prot="public">Post::_tagEntityMap</innerclass>
+    <innerclass refid="struct_post_1_1__tagpoint_name_map" prot="public">Post::_tagpointNameMap</innerclass>
+    <innerclass refid="struct_post_1_1__sketch_info" prot="public">Post::_sketchInfo</innerclass>
+    <innerclass refid="class_post_1_1_c_a_t_i_a_reference_manager" prot="public">Post::CATIAReferenceManager</innerclass>
+    <innerclass refid="class_post_1_1_vector3_d" prot="public">Post::Vector3D</innerclass>
+    <innerclass refid="class_post_1_1_f_datum_plane" prot="public">Post::FDatumPlane</innerclass>
+    <innerclass refid="class_post_1_1_f_datum_plane_offset" prot="public">Post::FDatumPlaneOffset</innerclass>
+    <innerclass refid="class_post_1_1_feature" prot="public">Post::Feature</innerclass>
+    <innerclass refid="class_post_1_1_feature_s_o_l_i_d_create_chamfer" prot="public">Post::FeatureSOLIDCreateChamfer</innerclass>
+    <innerclass refid="class_post_1_1_feature_s_o_l_i_d_create_cut_extrude" prot="public">Post::FeatureSOLIDCreateCutExtrude</innerclass>
+    <innerclass refid="class_post_1_1_feature_s_o_l_i_d_create_cut_revolve" prot="public">Post::FeatureSOLIDCreateCutRevolve</innerclass>
+    <innerclass refid="class_post_1_1_feature_s_o_l_i_d_create_faces_loft" prot="public">Post::FeatureSOLIDCreateFacesLoft</innerclass>
+    <innerclass refid="class_post_1_1_feature_s_o_l_i_d_create_fillet_constant" prot="public">Post::FeatureSOLIDCreateFilletConstant</innerclass>
+    <innerclass refid="class_post_1_1_feature_s_o_l_i_d_create_hole_counterbored" prot="public">Post::FeatureSOLIDCreateHoleCounterbored</innerclass>
+    <innerclass refid="class_post_1_1_feature_s_o_l_i_d_create_hole_countersunk" prot="public">Post::FeatureSOLIDCreateHoleCountersunk</innerclass>
+    <innerclass refid="class_post_1_1_feature_s_o_l_i_d_create_pattern_circular" prot="public">Post::FeatureSOLIDCreatePatternCircular</innerclass>
+    <innerclass refid="class_post_1_1_feature_s_o_l_i_d_create_pattern_rectangular" prot="public">Post::FeatureSOLIDCreatePatternRectangular</innerclass>
+    <innerclass refid="class_post_1_1_feature_s_o_l_i_d_create_protrusion_extrude" prot="public">Post::FeatureSOLIDCreateProtrusionExtrude</innerclass>
+    <innerclass refid="class_post_1_1_feature_s_o_l_i_d_create_protrusion_loft" prot="public">Post::FeatureSOLIDCreateProtrusionLoft</innerclass>
+    <innerclass refid="class_post_1_1_feature_s_o_l_i_d_create_protrusion_revolve" prot="public">Post::FeatureSOLIDCreateProtrusionRevolve</innerclass>
+    <innerclass refid="class_post_1_1_feature_s_o_l_i_d_create_protrusion_sweep" prot="public">Post::FeatureSOLIDCreateProtrusionSweep</innerclass>
+    <innerclass refid="class_post_1_1_feature_s_o_l_i_d_create_sections_loft" prot="public">Post::FeatureSOLIDCreateSectionsLoft</innerclass>
+    <innerclass refid="class_post_1_1_f_sketch" prot="public">Post::FSketch</innerclass>
+    <innerclass refid="class_post_1_1_part" prot="public">Post::Part</innerclass>
+    <innerclass refid="struct_post_1_1picking_point" prot="public">Post::pickingPoint</innerclass>
+    <innerclass refid="struct_post_1_1basic__naming" prot="public">Post::basic_naming</innerclass>
+    <innerclass refid="struct_post_1_1_o_s_i" prot="public">Post::OSI</innerclass>
+    <innerclass refid="struct_post_1_1secondary__name" prot="public">Post::secondary_name</innerclass>
+    <innerclass refid="struct_post_1_1_e_n___f" prot="public">Post::EN_F</innerclass>
+    <innerclass refid="struct_post_1_1_e_n___e" prot="public">Post::EN_E</innerclass>
+    <innerclass refid="struct_post_1_1_e_n___v" prot="public">Post::EN_V</innerclass>
+    <innerclass refid="class_post_1_1_s_k_e_t_c_h_create2_d_centerline" prot="public">Post::SKETCHCreate2DCenterline</innerclass>
+    <innerclass refid="class_post_1_1_s_k_e_t_c_h_create2_d_circle_center_point" prot="public">Post::SKETCHCreate2DCircleCenterPoint</innerclass>
+    <innerclass refid="class_post_1_1_s_k_e_t_c_h_create2_d_circular_arc" prot="public">Post::SKETCHCreate2DCircularArc</innerclass>
+    <innerclass refid="class_post_1_1_s_k_e_t_c_h_create2_d_line2_points" prot="public">Post::SKETCHCreate2DLine2Points</innerclass>
+    <innerclass refid="class_post_1_1_s_k_e_t_c_h_create2_d_point" prot="public">Post::SKETCHCreate2DPoint</innerclass>
+    <innerclass refid="class_post_1_1_s_k_e_t_c_h_item" prot="public">Post::SKETCHItem</innerclass>
+      <sectiondef kind="enum">
+      <memberdef kind="enum" id="namespace_post_1a2fea12512df9753d97b89baf001581ff" prot="public" static="no">
+        <name>LimitMode</name>
+        <enumvalue id="namespace_post_1a2fea12512df9753d97b89baf001581ffa7bfa9c1a4a0cb10e8aa194519033109c" prot="public">
+          <name>OFFSET_LIMIT</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_post_1a2fea12512df9753d97b89baf001581ffa98771ddb3af135b0d66d40fa1171b2a6" prot="public">
+          <name>UP_TO_NEXT_LIMIT</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_post_1a2fea12512df9753d97b89baf001581ffa476e8a599c8b0a667abaf46cdee1f779" prot="public">
+          <name>UP_TO_LAST_LIMIT</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_post_1a2fea12512df9753d97b89baf001581ffacf1df034f1e46c08410d0b6bfb242d12" prot="public">
+          <name>UP_TO_PLANE_LIMIT</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_post_1a2fea12512df9753d97b89baf001581ffae1c2d5dca8d35db77552fecdd49f0e8a" prot="public">
+          <name>UP_TO_SURFACE_LIMIT</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_post_1a2fea12512df9753d97b89baf001581ffa48c88d94d2cf544b1656bc11ae5b6678" prot="public">
+          <name>UP_THRU_NEXT_LIMIT</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/PostManager/ref/Definition.h" line="73" column="1" bodyfile="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/PostManager/ref/Definition.h" bodystart="72" bodyend="80"/>
+      </memberdef>
+      <memberdef kind="enum" id="namespace_post_1adfc3d056d67bff027d2d01e657814e4f" prot="public" static="no">
+        <name>selection_type</name>
+        <enumvalue id="namespace_post_1adfc3d056d67bff027d2d01e657814e4fa1aa1d9742dfcc6eeffdc883e711ff61a" prot="public">
+          <name>etc_selection_type</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_post_1adfc3d056d67bff027d2d01e657814e4fab2cfab36067761ebfc50c8cb47847eef" prot="public">
+          <name>MP_VERTEX</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_post_1adfc3d056d67bff027d2d01e657814e4fa402d85ca114c254d0492904d422d3122" prot="public">
+          <name>MP_EDGE</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_post_1adfc3d056d67bff027d2d01e657814e4fa309e6cb114b967270ac5d4e6084f48be" prot="public">
+          <name>MP_FACE</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_post_1adfc3d056d67bff027d2d01e657814e4fa535c44bbe17f47ca54d90b720279847b" prot="public">
+          <name>MP_FEATURE</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_post_1adfc3d056d67bff027d2d01e657814e4fa5061c0ab9cd4813c43c79c558fa439ad" prot="public">
+          <name>MP_SKETCHSEGMENT</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_post_1adfc3d056d67bff027d2d01e657814e4fa9c1943a1089e992aeedbd05d6378bc73" prot="public">
+          <name>MP_SURFACE</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_post_1adfc3d056d67bff027d2d01e657814e4faa03ce48f009116aa17cefc2019a07dad" prot="public">
+          <name>MP_PLANE</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_post_1adfc3d056d67bff027d2d01e657814e4fada159e463fc94d9832446ef635279943" prot="public">
+          <name>MP_HDirection</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_post_1adfc3d056d67bff027d2d01e657814e4fa1b3d818d81fb4452c2d73aa9cb532623" prot="public">
+          <name>MP_VDirection</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_post_1adfc3d056d67bff027d2d01e657814e4faa9d1417ca9ff111f3ef156d7f8b4dc64" prot="public">
+          <name>MP_Origin</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_post_1adfc3d056d67bff027d2d01e657814e4fa02a531ce7724964dfdec37925e0cffea" prot="public">
+          <name>MP_DEFAULTPLANE</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/PostManager/ref/PN_TYPE.h" line="17" column="1" bodyfile="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/PostManager/ref/PN_TYPE.h" bodystart="17" bodyend="30"/>
+      </memberdef>
+      <memberdef kind="enum" id="namespace_post_1a2d6dabf343e1b401dd4af9b2eb897515" prot="public" static="no">
+        <name>bn_option</name>
+        <enumvalue id="namespace_post_1a2d6dabf343e1b401dd4af9b2eb897515a308635a976623a9758cf08b76197c8c3" prot="public">
+          <name>SweepFeature</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_post_1a2d6dabf343e1b401dd4af9b2eb897515affb5ecc315a660445f09a0d1ac8b7e8a" prot="public">
+          <name>ExtrudeFeature</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_post_1a2d6dabf343e1b401dd4af9b2eb897515a2e11927c5f359316f05d9c5a9906d911" prot="public">
+          <name>RevolveFeature</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_post_1a2d6dabf343e1b401dd4af9b2eb897515a15135197e42c4d252850bb995e9a30a9" prot="public">
+          <name>LoftFeature</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_post_1a2d6dabf343e1b401dd4af9b2eb897515a0e3ec90fbc0984b80f1fc075bd7b4e86" prot="public">
+          <name>FilletFeature</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_post_1a2d6dabf343e1b401dd4af9b2eb897515a7d449c22a98608c8029ed24885f5e265" prot="public">
+          <name>ChamferFeature</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_post_1a2d6dabf343e1b401dd4af9b2eb897515a843bc8c211cec22f787b6466e5073187" prot="public">
+          <name>ShellFeature</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_post_1a2d6dabf343e1b401dd4af9b2eb897515a4d11fc59566fef4af56c5cee5ca657e3" prot="public">
+          <name>PatternFeature</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_post_1a2d6dabf343e1b401dd4af9b2eb897515a3191babde433d7de75eb512fece664fc" prot="public">
+          <name>DatumFeature</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_post_1a2d6dabf343e1b401dd4af9b2eb897515ad2013627d7f71d95dbf5458db4509b2f" prot="public">
+          <name>Sketch_Segment</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/PostManager/ref/PN_TYPE.h" line="32" column="1" bodyfile="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/PostManager/ref/PN_TYPE.h" bodystart="32" bodyend="43"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="typedef">
+      <memberdef kind="typedef" id="namespace_post_1a6f504c7c28fef5dcc04cdd43db6204cf" prot="public" static="no">
+        <type>struct <ref refid="struct_post_1_1__tag_name_map" kindref="compound">Post::_tagNameMap</ref></type>
+        <definition>typedef struct Post::_tagNameMap  Post::NAME_MAP</definition>
+        <argsstring></argsstring>
+        <name>NAME_MAP</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/PostManager/ref/CATIAReferenceManager.h" line="11" column="1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="namespace_post_1a78b916fc7bb178eba4c151c35d9ed56d" prot="public" static="no">
+        <type>struct <ref refid="struct_post_1_1__tag_entity_map" kindref="compound">Post::_tagEntityMap</ref></type>
+        <definition>typedef struct Post::_tagEntityMap  Post::ENTITY_MAP</definition>
+        <argsstring></argsstring>
+        <name>ENTITY_MAP</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/PostManager/ref/CATIAReferenceManager.h" line="18" column="1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="namespace_post_1a9e4c1252c1b08ef3e02ca2cafacd2486" prot="public" static="no">
+        <type>struct <ref refid="struct_post_1_1__tagpoint_name_map" kindref="compound">Post::_tagpointNameMap</ref></type>
+        <definition>typedef struct Post::_tagpointNameMap  Post::POINTNAME_MAP</definition>
+        <argsstring></argsstring>
+        <name>POINTNAME_MAP</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/PostManager/ref/CATIAReferenceManager.h" line="25" column="1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="namespace_post_1a1a41e4a3a5e3a3aa143a7b7491a708dd" prot="public" static="no">
+        <type>struct <ref refid="struct_post_1_1__sketch_info" kindref="compound">Post::_sketchInfo</ref></type>
+        <definition>typedef struct Post::_sketchInfo  Post::SKETCH_INFO</definition>
+        <argsstring></argsstring>
+        <name>SKETCH_INFO</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/PostManager/ref/CATIAReferenceManager.h" line="31" column="1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="namespace_post_1a80911619713a0105ed4134e3ca90fa57" prot="public" static="no">
+        <type>class <ref refid="class_post_1_1_vector3_d" kindref="compound">Vector3D</ref></type>
+        <definition>typedef class Vector3D Post::Point3D</definition>
+        <argsstring></argsstring>
+        <name>Point3D</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/PostManager/ref/Definition.h" line="75" column="1" bodyfile="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/PostManager/ref/Definition.h" bodystart="10" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="namespace_post_1a6353cf8ba34adaee185d9623338a213b" prot="public" static="no">
+        <type>class <ref refid="class_post_1_1_vector3_d" kindref="compound">Vector3D</ref></type>
+        <definition>typedef class Vector3D Post::Direct3D</definition>
+        <argsstring></argsstring>
+        <name>Direct3D</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/PostManager/ref/Definition.h" line="75" column="1" bodyfile="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/PostManager/ref/Definition.h" bodystart="11" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="var">
+      <memberdef kind="variable" id="namespace_post_1a38f6250d10787730d93c5c083d3dcf7f" prot="public" static="no" mutable="no">
+        <type>TransCAD::IApplicationPtr</type>
+        <definition>TransCAD::IApplicationPtr Post::g_spApplication</definition>
+        <argsstring></argsstring>
+        <name>g_spApplication</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/PostManager/ref/CATIApost_DLL.cpp" line="31" column="1" bodyfile="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/PostManager/ref/CATIApost_DLL.cpp" bodystart="31" bodyend="-1"/>
+        <referencedby refid="namespace_post_1ab52e0fdbee71689753553a608c714d13" compoundref="_c_a_t_i_apost___d_l_l_8cpp" startline="35" endline="58">CATIAPostStartService</referencedby>
+        <referencedby refid="namespace_post_1a03a52362c2b8f0e17b6b0438ba6d7910" compoundref="_c_a_t_i_apost___d_l_l_8cpp" startline="60" endline="109">CATIAPostTranslate</referencedby>
+        <referencedby refid="class_post_1_1_part_1a6d8e1e6c3200a296bb301df7e52221d3" compoundref="_post_manager_2ref_2_part_8cpp" startline="149" endline="162">Post::Part::~Part</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="namespace_post_1a757521acb19b64cd9a29879d6c5a7d5f" prot="public" static="no" mutable="no">
+        <type><ref refid="class_post_1_1_c_a_t_i_a_reference_manager" kindref="compound">CATIAReferenceManager</ref> *</type>
+        <definition>CATIAReferenceManager * Post::g_pRefManager</definition>
+        <argsstring></argsstring>
+        <name>g_pRefManager</name>
+        <initializer>= NULL</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/PostManager/ref/CATIApost_DLL.cpp" line="32" column="1" bodyfile="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/PostManager/ref/CATIApost_DLL.cpp" bodystart="32" bodyend="-1"/>
+        <referencedby refid="class_reference_class_1_1ref___post_1ac19c799206473a3eff81a0e106675b28" compoundref="_reference_class___post_8cpp" startline="96" endline="139">ReferenceClass::ref_Post::AssemblyPartT2C</referencedby>
+        <referencedby refid="namespace_post_1ab52e0fdbee71689753553a608c714d13" compoundref="_c_a_t_i_apost___d_l_l_8cpp" startline="35" endline="58">CATIAPostStartService</referencedby>
+        <referencedby refid="namespace_post_1a03a52362c2b8f0e17b6b0438ba6d7910" compoundref="_c_a_t_i_apost___d_l_l_8cpp" startline="60" endline="109">CATIAPostTranslate</referencedby>
+        <referencedby refid="class_post_1_1_part_1a794aead29a8756e83fddc77a278a33e1" compoundref="_post_manager_2ref_2_part_8cpp" startline="189" endline="282">Post::Part::CreateFeature</referencedby>
+        <referencedby refid="class_post_1_1_feature_s_o_l_i_d_create_pattern_circular_1a3529b594c7fb28c9976579e4eec5d947" compoundref="_post_manager_2ref_2_feature_s_o_l_i_d_create_pattern_circular_8cpp" startline="14" endline="64">Post::FeatureSOLIDCreatePatternCircular::GetInfo</referencedby>
+        <referencedby refid="class_post_1_1_feature_s_o_l_i_d_create_pattern_rectangular_1abb31233e316bac582f8b8b529dac7f49" compoundref="_post_manager_2ref_2_feature_s_o_l_i_d_create_pattern_rectangular_8cpp" startline="14" endline="64">Post::FeatureSOLIDCreatePatternRectangular::GetInfo</referencedby>
+        <referencedby refid="class_post_1_1_s_k_e_t_c_h_create2_d_centerline_1aa13eba9ab4db3ba583dc46e250982179" compoundref="_s_k_e_t_c_h_create2_d_centerline_8cpp" startline="16" endline="27">Post::SKETCHCreate2DCenterline::GetInfo</referencedby>
+        <referencedby refid="class_post_1_1_s_k_e_t_c_h_create2_d_point_1a723681b77947166bb9c0a8b9a093bca2" compoundref="_s_k_e_t_c_h_create2_d_point_8cpp" startline="14" endline="22">Post::SKETCHCreate2DPoint::GetInfo</referencedby>
+        <referencedby refid="class_post_1_1_f_sketch_1a7bafff74162c56925124f63dc257948f" compoundref="_post_manager_2ref_2_f_sketch_8cpp" startline="87" endline="138">Post::FSketch::GetInfo</referencedby>
+        <referencedby refid="class_post_1_1_s_k_e_t_c_h_create2_d_circle_center_point_1a8a23bf3543170f9b80656d6fe84896d3" compoundref="_s_k_e_t_c_h_create2_d_circle_center_point_8cpp" startline="14" endline="26">Post::SKETCHCreate2DCircleCenterPoint::GetInfo</referencedby>
+        <referencedby refid="class_post_1_1_s_k_e_t_c_h_create2_d_line2_points_1a3a001e53b6c6a2444690a3d1b5d81085" compoundref="_s_k_e_t_c_h_create2_d_line2_points_8cpp" startline="14" endline="30">Post::SKETCHCreate2DLine2Points::GetInfo</referencedby>
+        <referencedby refid="class_post_1_1_s_k_e_t_c_h_create2_d_circular_arc_1a76e2210a8de8829e9b6d1229eec220bb" compoundref="_s_k_e_t_c_h_create2_d_circular_arc_8cpp" startline="14" endline="34">Post::SKETCHCreate2DCircularArc::GetInfo</referencedby>
+        <referencedby refid="class_reference_class_1_1ref___post_1ac03f868795100aae6025febab7f6d2e6" compoundref="_reference_class___post_8cpp" startline="209" endline="229">ReferenceClass::ref_Post::T2C_ReferenceName_From_Part</referencedby>
+        <referencedby refid="class_post_1_1_feature_s_o_l_i_d_create_hole_counterbored_1a8f74cad0535e4af5457336d82fde6109" compoundref="_feature_s_o_l_i_d_create_hole_counterbored_8cpp" startline="37" endline="96">Post::FeatureSOLIDCreateHoleCounterbored::ToCATIA</referencedby>
+        <referencedby refid="class_post_1_1_feature_s_o_l_i_d_create_pattern_rectangular_1a3c104d07dd42a6c50984884c5ccc9fcb" compoundref="_post_manager_2ref_2_feature_s_o_l_i_d_create_pattern_rectangular_8cpp" startline="66" endline="100">Post::FeatureSOLIDCreatePatternRectangular::ToCATIA</referencedby>
+        <referencedby refid="class_post_1_1_feature_s_o_l_i_d_create_fillet_constant_1a395a9468714e65e59fdc9735a1c4c2da" compoundref="_post_manager_2ref_2_feature_s_o_l_i_d_create_fillet_constant_8cpp" startline="34" endline="69">Post::FeatureSOLIDCreateFilletConstant::ToCATIA</referencedby>
+        <referencedby refid="class_post_1_1_f_datum_plane_offset_1af34c0973ffefae44460713c5f5944e19" compoundref="_post_manager_2ref_2_f_datum_plane_offset_8cpp" startline="29" endline="111">Post::FDatumPlaneOffset::ToCATIA</referencedby>
+        <referencedby refid="class_post_1_1_feature_s_o_l_i_d_create_hole_countersunk_1a076b56d8a0a35f24cd0ae55d0760e87e" compoundref="_feature_s_o_l_i_d_create_hole_countersunk_8cpp" startline="37" endline="98">Post::FeatureSOLIDCreateHoleCountersunk::ToCATIA</referencedby>
+        <referencedby refid="class_post_1_1_feature_s_o_l_i_d_create_chamfer_1adc476aca0219e6111ebad3f6807e53a6" compoundref="_post_manager_2ref_2_feature_s_o_l_i_d_create_chamfer_8cpp" startline="33" endline="67">Post::FeatureSOLIDCreateChamfer::ToCATIA</referencedby>
+        <referencedby refid="class_post_1_1_feature_s_o_l_i_d_create_pattern_circular_1a572bd9787a8d00fb43cceab6ce4260a9" compoundref="_post_manager_2ref_2_feature_s_o_l_i_d_create_pattern_circular_8cpp" startline="66" endline="96">Post::FeatureSOLIDCreatePatternCircular::ToCATIA</referencedby>
+        <referencedby refid="class_post_1_1_feature_s_o_l_i_d_create_cut_revolve_1a943c15cf026572c40cb9d5d64b94ea55" compoundref="_feature_s_o_l_i_d_create_cut_revolve_8cpp" startline="42" endline="78">Post::FeatureSOLIDCreateCutRevolve::ToCATIA</referencedby>
+        <referencedby refid="class_post_1_1_feature_s_o_l_i_d_create_protrusion_extrude_1a64f136a9e115c09cd4f1b2fff857f4b3" compoundref="_feature_s_o_l_i_d_create_protrusion_extrude_8cpp" startline="39" endline="101">Post::FeatureSOLIDCreateProtrusionExtrude::ToCATIA</referencedby>
+        <referencedby refid="class_post_1_1_feature_s_o_l_i_d_create_protrusion_revolve_1a694f7011ec7ebeca3d7bd3850dc756bf" compoundref="_feature_s_o_l_i_d_create_protrusion_revolve_8cpp" startline="43" endline="79">Post::FeatureSOLIDCreateProtrusionRevolve::ToCATIA</referencedby>
+        <referencedby refid="class_post_1_1_feature_s_o_l_i_d_create_cut_extrude_1a7ffaba515665ad33e83e34d2af8a0cac" compoundref="_feature_s_o_l_i_d_create_cut_extrude_8cpp" startline="36" endline="99">Post::FeatureSOLIDCreateCutExtrude::ToCATIA</referencedby>
+        <referencedby refid="class_post_1_1_feature_s_o_l_i_d_create_sections_loft_1a24653567189674cf9624c7ce852b204b" compoundref="_feature_s_o_l_i_d_create_sections_loft_8cpp" startline="45" endline="120">Post::FeatureSOLIDCreateSectionsLoft::ToCATIA</referencedby>
+        <referencedby refid="class_post_1_1_feature_s_o_l_i_d_create_faces_loft_1a0cb2c7bcf5453a41a80ab8a42412e737" compoundref="_feature_s_o_l_i_d_create_faces_loft_8cpp" startline="41" endline="70">Post::FeatureSOLIDCreateFacesLoft::ToCATIA</referencedby>
+        <referencedby refid="class_post_1_1_feature_s_o_l_i_d_create_protrusion_sweep_1ad9d12144ce67b131f9d8b856abb32495" compoundref="_feature_s_o_l_i_d_create_protrusion_sweep_8cpp" startline="31" endline="60">Post::FeatureSOLIDCreateProtrusionSweep::ToCATIA</referencedby>
+        <referencedby refid="class_post_1_1_feature_s_o_l_i_d_create_protrusion_loft_1a229923ce36140b183c02b87949f3a0f5" compoundref="_feature_s_o_l_i_d_create_protrusion_loft_8cpp" startline="41" endline="69">Post::FeatureSOLIDCreateProtrusionLoft::ToCATIA</referencedby>
+        <referencedby refid="class_post_1_1_s_k_e_t_c_h_create2_d_centerline_1a53de54224beb765c17dbb765e60e983a" compoundref="_s_k_e_t_c_h_create2_d_centerline_8cpp" startline="29" endline="43">Post::SKETCHCreate2DCenterline::ToCATIA</referencedby>
+        <referencedby refid="class_post_1_1_s_k_e_t_c_h_create2_d_point_1a877072a679bbda32955a75b4d79a46b3" compoundref="_s_k_e_t_c_h_create2_d_point_8cpp" startline="24" endline="39">Post::SKETCHCreate2DPoint::ToCATIA</referencedby>
+        <referencedby refid="class_post_1_1_f_sketch_1a04bbe4dfa30502ae0e62abd35ece66fe" compoundref="_post_manager_2ref_2_f_sketch_8cpp" startline="140" endline="276">Post::FSketch::ToCATIA</referencedby>
+        <referencedby refid="class_post_1_1_s_k_e_t_c_h_create2_d_circle_center_point_1a6a4387c56c3b7d0f2e28441701aa16c5" compoundref="_s_k_e_t_c_h_create2_d_circle_center_point_8cpp" startline="28" endline="40">Post::SKETCHCreate2DCircleCenterPoint::ToCATIA</referencedby>
+        <referencedby refid="class_post_1_1_s_k_e_t_c_h_create2_d_line2_points_1a0eb686cd9daa11bf0aebe136ce759ab0" compoundref="_s_k_e_t_c_h_create2_d_line2_points_8cpp" startline="32" endline="49">Post::SKETCHCreate2DLine2Points::ToCATIA</referencedby>
+        <referencedby refid="class_post_1_1_s_k_e_t_c_h_create2_d_circular_arc_1a742f7b647dd44fabf7d5db5006954c0d" compoundref="_s_k_e_t_c_h_create2_d_circular_arc_8cpp" startline="36" endline="50">Post::SKETCHCreate2DCircularArc::ToCATIA</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="func">
+      <memberdef kind="function" id="namespace_post_1ab52e0fdbee71689753553a608c714d13" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>DLLCATIAPOST_API int Post::CATIAPostStartService</definition>
+        <argsstring>()</argsstring>
+        <name>CATIAPostStartService</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/PostManager/ref/CATIApost_DLL.cpp" line="35" column="1" bodyfile="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/PostManager/ref/CATIApost_DLL.cpp" bodystart="35" bodyend="58"/>
+        <references refid="namespace_post_1a757521acb19b64cd9a29879d6c5a7d5f" compoundref="_c_a_t_i_apost___d_l_l_8cpp" startline="32">g_pRefManager</references>
+        <references refid="namespace_post_1a38f6250d10787730d93c5c083d3dcf7f" compoundref="_c_a_t_i_apost___d_l_l_8cpp" startline="31">g_spApplication</references>
+      </memberdef>
+      <memberdef kind="function" id="namespace_post_1a03a52362c2b8f0e17b6b0438ba6d7910" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>DLLCATIAPOST_API int Post::CATIAPostTranslate</definition>
+        <argsstring>(char argv[])</argsstring>
+        <name>CATIAPostTranslate</name>
+        <param>
+          <type>char</type>
+          <declname>argv</declname>
+          <array>[]</array>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/PostManager/ref/CATIApost_DLL.cpp" line="60" column="1" bodyfile="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/PostManager/ref/CATIApost_DLL.cpp" bodystart="60" bodyend="109"/>
+        <references refid="_c_a_t_i_apost___d_l_l_8cpp_1ab19f712b4a42f729c4b03c85bf315239" compoundref="_c_a_t_i_apost___d_l_l_8cpp" startline="28">ang_index</references>
+        <references refid="_c_a_t_i_apost___d_l_l_8cpp_1a217bd7e0678e7561d064b89ef20cea83" compoundref="_c_a_t_i_apost___d_l_l_8cpp" startline="21">arr_index</references>
+        <references refid="_c_a_t_i_apost___d_l_l_8cpp_1a019d2786df3a9bf26d2731fe80b2fc66" compoundref="_c_a_t_i_apost___d_l_l_8cpp" startline="25">circle_index</references>
+        <references refid="_c_a_t_i_apost___d_l_l_8cpp_1a60611a1ea7e60d33ae29f4a3a535d0ae" compoundref="_c_a_t_i_apost___d_l_l_8cpp" startline="29">DatumPlaneID</references>
+        <references refid="_c_a_t_i_apost___d_l_l_8cpp_1a0d3b3f4a67d270d635cabd1ac668881b" compoundref="_c_a_t_i_apost___d_l_l_8cpp" startline="22">fac_index</references>
+        <references refid="namespace_post_1a757521acb19b64cd9a29879d6c5a7d5f" compoundref="_c_a_t_i_apost___d_l_l_8cpp" startline="32">g_pRefManager</references>
+        <references refid="namespace_post_1a38f6250d10787730d93c5c083d3dcf7f" compoundref="_c_a_t_i_apost___d_l_l_8cpp" startline="31">g_spApplication</references>
+        <references refid="class_post_1_1_part_1afce2710ace93d175f5f4f9ba56493a14" compoundref="_post_manager_2ref_2_part_8cpp" startline="284" endline="302">Post::Part::GetInfo</references>
+        <references refid="_c_a_t_i_apost___d_l_l_8cpp_1a4755ab04787eb624e9b84fce74ea4e1f" compoundref="_c_a_t_i_apost___d_l_l_8cpp" startline="27">holecounterID</references>
+        <references refid="_c_a_t_i_apost___d_l_l_8cpp_1a9d0ccac49c6fa3a640bc5e48bef71480" compoundref="_c_a_t_i_apost___d_l_l_8cpp" startline="23">lim_index</references>
+        <references refid="_c_a_t_i_apost___d_l_l_8cpp_1aeb445a927ac5b1b741fdb4f80d547ad2" compoundref="_c_a_t_i_apost___d_l_l_8cpp" startline="20">ln_index</references>
+        <references refid="_c_a_t_i_apost___d_l_l_8cpp_1a022e63e0684ba8af19134ea0510837f1" compoundref="_c_a_t_i_apost___d_l_l_8cpp" startline="24">lng_index</references>
+        <references refid="_c_a_t_i_apost___d_l_l_8cpp_1ab856c50c5e05dee4c52ae991cc9cf5eb" compoundref="_c_a_t_i_apost___d_l_l_8cpp" startline="19">pt_index</references>
+        <references refid="_c_a_t_i_apost___d_l_l_8cpp_1a4a001227aeffed8767cfd035c687e1ca" compoundref="_c_a_t_i_apost___d_l_l_8cpp" startline="17">ref_index</references>
+        <references refid="_c_a_t_i_apost___d_l_l_8cpp_1ac2c4ff63490b6532ebb2ff323b2b0df1" compoundref="_c_a_t_i_apost___d_l_l_8cpp" startline="18">repname_index</references>
+        <references refid="_c_a_t_i_apost___d_l_l_8cpp_1a0dbf0a49be0c3f6f56054c0efbb53c31" compoundref="_c_a_t_i_apost___d_l_l_8cpp" startline="26">sktch</references>
+        <references refid="class_post_1_1_part_1adc255ebba204dd825fe5e330debb7caa" compoundref="_post_manager_2ref_2_part_8cpp" startline="304" endline="312">Post::Part::ToCATIA</references>
+      </memberdef>
+      <memberdef kind="function" id="namespace_post_1ae3e42cd6a90b8e710aaacb3800b6d23f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Post::Parsing_F</definition>
+        <argsstring>(string _str, EN_F &amp;_f)</argsstring>
+        <name>Parsing_F</name>
+        <param>
+          <type>string</type>
+          <declname>_str</declname>
+        </param>
+        <param>
+          <type><ref refid="struct_post_1_1_e_n___f" kindref="compound">EN_F</ref> &amp;</type>
+          <declname>_f</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/PostManager/ref/MP_Utility.cpp" line="4" column="1" bodyfile="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/PostManager/ref/MP_Utility.cpp" bodystart="4" bodyend="11"/>
+        <references refid="struct_post_1_1_e_n___f_1a8e2b53b6957374a942d13a8609d64310" compoundref="_p_n___t_y_p_e_8h" startline="72">Post::EN_F::_bn</references>
+        <references refid="struct_post_1_1_e_n___f_1ad385700f95272e9a27b7c19edd2457cd" compoundref="_p_n___t_y_p_e_8h" startline="73">Post::EN_F::_osi</references>
+        <references refid="struct_post_1_1_e_n___f_1a91d71dbe012d955b239f80a900452557" compoundref="_p_n___t_y_p_e_8h" startline="74">Post::EN_F::_sn</references>
+        <references refid="namespace_post_1ac1022ed5bfbceeb96db7ba24ce0b84eb" compoundref="_m_p___utility_8cpp" startline="150" endline="164">Delim_F</references>
+        <references refid="namespace_post_1a1fdb5d723d9bb9b65a47378d169f9287" compoundref="_m_p___utility_8cpp" startline="35" endline="64">Parsing_BN</references>
+        <references refid="namespace_post_1a8319957e40fb76c8ac8339e9201964ee" compoundref="_m_p___utility_8cpp" startline="66" endline="79">Parsing_OSI</references>
+        <references refid="namespace_post_1a1a6319d316909f65d91798c42422d421" compoundref="_m_p___utility_8cpp" startline="81" endline="112">Parsing_SN</references>
+        <referencedby refid="class_post_1_1_c_a_t_i_a_reference_manager_1a14b0bf73747d910e987049d1f11e53fa" compoundref="_c_a_t_i_a_reference_manager_8cpp" startline="181" endline="212">Post::CATIAReferenceManager::ConvertToBRepFace</referencedby>
+        <referencedby refid="class_post_1_1_c_a_t_i_a_reference_manager_1a85d0117a972b7913dbd075b2bd80c4db" compoundref="_c_a_t_i_a_reference_manager_8cpp" startline="258" endline="298">Post::CATIAReferenceManager::ConvertToBRepFaceForDatumPlane</referencedby>
+        <referencedby refid="class_post_1_1_c_a_t_i_a_reference_manager_1a1cb21f058f48445ec86600788ce3284a" compoundref="_c_a_t_i_a_reference_manager_8cpp" startline="215" endline="255">Post::CATIAReferenceManager::ConvertToBRepFaceForHole</referencedby>
+        <referencedby refid="class_post_1_1_c_a_t_i_a_reference_manager_1a93bf73889d62708888ebeb5861dcef17" compoundref="_c_a_t_i_a_reference_manager_8cpp" startline="442" endline="455">Post::CATIAReferenceManager::GetReferenceeFeature</referencedby>
+        <referencedby refid="namespace_post_1accad7a93fa3eb05cccced87b3d7fd230" compoundref="_m_p___utility_8cpp" startline="13" endline="21">Parsing_E</referencedby>
+        <referencedby refid="namespace_post_1a38f28ff9bd306044ffff21af170f9c9d" compoundref="_m_p___utility_8cpp" startline="23" endline="32">Parsing_V</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="namespace_post_1accad7a93fa3eb05cccced87b3d7fd230" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Post::Parsing_E</definition>
+        <argsstring>(string str, EN_E &amp;e)</argsstring>
+        <name>Parsing_E</name>
+        <param>
+          <type>string</type>
+          <declname>str</declname>
+        </param>
+        <param>
+          <type><ref refid="struct_post_1_1_e_n___e" kindref="compound">EN_E</ref> &amp;</type>
+          <declname>e</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/PostManager/ref/MP_Utility.cpp" line="13" column="1" bodyfile="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/PostManager/ref/MP_Utility.cpp" bodystart="13" bodyend="21"/>
+        <references refid="struct_post_1_1_e_n___e_1a036b5b858a9930cca72fbcb7e32e2061" compoundref="_p_n___t_y_p_e_8h" startline="79">Post::EN_E::_f1</references>
+        <references refid="struct_post_1_1_e_n___e_1a84b184aa31a43db7176c43d96f5bfa0e" compoundref="_p_n___t_y_p_e_8h" startline="80">Post::EN_E::_f2</references>
+        <references refid="namespace_post_1a3df86c29663ec3c1a8151119fabed304" compoundref="_m_p___utility_8cpp" startline="132" endline="148">Delim_E</references>
+        <references refid="namespace_post_1ae3e42cd6a90b8e710aaacb3800b6d23f" compoundref="_m_p___utility_8cpp" startline="4" endline="11">Parsing_F</references>
+        <referencedby refid="class_post_1_1_c_a_t_i_a_reference_manager_1a833a8035817475a393e82cd8920cc9bd" compoundref="_c_a_t_i_a_reference_manager_8cpp" startline="301" endline="344">Post::CATIAReferenceManager::ConvertToBRepEdge</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="namespace_post_1a38f28ff9bd306044ffff21af170f9c9d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Post::Parsing_V</definition>
+        <argsstring>(string str, EN_V &amp;v)</argsstring>
+        <name>Parsing_V</name>
+        <param>
+          <type>string</type>
+          <declname>str</declname>
+        </param>
+        <param>
+          <type><ref refid="struct_post_1_1_e_n___v" kindref="compound">EN_V</ref> &amp;</type>
+          <declname>v</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/PostManager/ref/MP_Utility.cpp" line="23" column="1" bodyfile="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/PostManager/ref/MP_Utility.cpp" bodystart="23" bodyend="32"/>
+        <references refid="struct_post_1_1_e_n___v_1a19f96778820cc77d85fc2f4561ee249f" compoundref="_p_n___t_y_p_e_8h" startline="86">Post::EN_V::_f1</references>
+        <references refid="struct_post_1_1_e_n___v_1a186c3be1eba5f0329125ce8f24d534a1" compoundref="_p_n___t_y_p_e_8h" startline="87">Post::EN_V::_f2</references>
+        <references refid="struct_post_1_1_e_n___v_1ae082b70ebb25bb6d7506e4b6c2403a3b" compoundref="_p_n___t_y_p_e_8h" startline="88">Post::EN_V::_f3</references>
+        <references refid="struct_post_1_1_e_n___v_1ac92e9f889a070ea5e3fefd6428ecc85c" compoundref="_p_n___t_y_p_e_8h" startline="89">Post::EN_V::_osi</references>
+        <references refid="namespace_post_1a30dc49e2a3d31390705b66a53e9c1d98" compoundref="_m_p___utility_8cpp" startline="115" endline="130">Delim_V</references>
+        <references refid="namespace_post_1ae3e42cd6a90b8e710aaacb3800b6d23f" compoundref="_m_p___utility_8cpp" startline="4" endline="11">Parsing_F</references>
+        <references refid="namespace_post_1a8319957e40fb76c8ac8339e9201964ee" compoundref="_m_p___utility_8cpp" startline="66" endline="79">Parsing_OSI</references>
+      </memberdef>
+      <memberdef kind="function" id="namespace_post_1a1fdb5d723d9bb9b65a47378d169f9287" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Post::Parsing_BN</definition>
+        <argsstring>(string _str, basic_naming &amp;_bn)</argsstring>
+        <name>Parsing_BN</name>
+        <param>
+          <type>string</type>
+          <declname>_str</declname>
+        </param>
+        <param>
+          <type><ref refid="struct_post_1_1basic__naming" kindref="compound">basic_naming</ref> &amp;</type>
+          <declname>_bn</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/PostManager/ref/MP_Utility.cpp" line="35" column="1" bodyfile="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/PostManager/ref/MP_Utility.cpp" bodystart="35" bodyend="64"/>
+        <references refid="namespace_post_1a2d6dabf343e1b401dd4af9b2eb897515a7d449c22a98608c8029ed24885f5e265" compoundref="_p_n___t_y_p_e_8h" startline="38">ChamferFeature</references>
+        <references refid="namespace_post_1a2d6dabf343e1b401dd4af9b2eb897515a3191babde433d7de75eb512fece664fc" compoundref="_p_n___t_y_p_e_8h" startline="41">DatumFeature</references>
+        <references refid="namespace_post_1a2d6dabf343e1b401dd4af9b2eb897515affb5ecc315a660445f09a0d1ac8b7e8a" compoundref="_p_n___t_y_p_e_8h" startline="34">ExtrudeFeature</references>
+        <references refid="struct_post_1_1basic__naming_1a903d9daa7d0d04edeff5483516eb2a07" compoundref="_p_n___t_y_p_e_8h" startline="49">Post::basic_naming::feature_id</references>
+        <references refid="namespace_post_1a2d6dabf343e1b401dd4af9b2eb897515a0e3ec90fbc0984b80f1fc075bd7b4e86" compoundref="_p_n___t_y_p_e_8h" startline="37">FilletFeature</references>
+        <references refid="struct_post_1_1basic__naming_1aced3357cc2dc4d606c1f0896f90152ec" compoundref="_p_n___t_y_p_e_8h" startline="50">Post::basic_naming::id1</references>
+        <references refid="struct_post_1_1basic__naming_1ab3f7cc28a6762397fba41f0db5f09ea9" compoundref="_p_n___t_y_p_e_8h" startline="51">Post::basic_naming::id2</references>
+        <references refid="struct_post_1_1basic__naming_1a89684ce943c8d24a4702ec0832bd6fca" compoundref="_p_n___t_y_p_e_8h" startline="52">Post::basic_naming::id3</references>
+        <references refid="struct_post_1_1basic__naming_1a236fc2d576caebe572136f9fbeb572d3" compoundref="_p_n___t_y_p_e_8h" startline="53">Post::basic_naming::id4</references>
+        <references refid="struct_post_1_1basic__naming_1a50a110bf48204e3b986105d4b92b0da9" compoundref="_p_n___t_y_p_e_8h" startline="54">Post::basic_naming::id5</references>
+        <references refid="namespace_post_1a2d6dabf343e1b401dd4af9b2eb897515a15135197e42c4d252850bb995e9a30a9" compoundref="_p_n___t_y_p_e_8h" startline="36">LoftFeature</references>
+        <references refid="struct_post_1_1basic__naming_1aa512e8295c1e44c79a1803f16b21008b" compoundref="_p_n___t_y_p_e_8h" startline="55">Post::basic_naming::option</references>
+        <references refid="namespace_post_1a2d6dabf343e1b401dd4af9b2eb897515a4d11fc59566fef4af56c5cee5ca657e3" compoundref="_p_n___t_y_p_e_8h" startline="40">PatternFeature</references>
+        <references refid="namespace_post_1a2d6dabf343e1b401dd4af9b2eb897515a2e11927c5f359316f05d9c5a9906d911" compoundref="_p_n___t_y_p_e_8h" startline="35">RevolveFeature</references>
+        <references refid="namespace_post_1a2d6dabf343e1b401dd4af9b2eb897515a843bc8c211cec22f787b6466e5073187" compoundref="_p_n___t_y_p_e_8h" startline="39">ShellFeature</references>
+        <references refid="namespace_post_1a2d6dabf343e1b401dd4af9b2eb897515ad2013627d7f71d95dbf5458db4509b2f" compoundref="_p_n___t_y_p_e_8h" startline="42">Sketch_Segment</references>
+        <references refid="namespace_post_1a2d6dabf343e1b401dd4af9b2eb897515a308635a976623a9758cf08b76197c8c3" compoundref="_p_n___t_y_p_e_8h" startline="33">SweepFeature</references>
+        <referencedby refid="namespace_post_1ae3e42cd6a90b8e710aaacb3800b6d23f" compoundref="_m_p___utility_8cpp" startline="4" endline="11">Parsing_F</referencedby>
+        <referencedby refid="namespace_post_1a1a6319d316909f65d91798c42422d421" compoundref="_m_p___utility_8cpp" startline="81" endline="112">Parsing_SN</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="namespace_post_1a8319957e40fb76c8ac8339e9201964ee" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Post::Parsing_OSI</definition>
+        <argsstring>(string _str, OSI &amp;_osi)</argsstring>
+        <name>Parsing_OSI</name>
+        <param>
+          <type>string</type>
+          <declname>_str</declname>
+        </param>
+        <param>
+          <type><ref refid="struct_post_1_1_o_s_i" kindref="compound">OSI</ref> &amp;</type>
+          <declname>_osi</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/PostManager/ref/MP_Utility.cpp" line="66" column="1" bodyfile="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/PostManager/ref/MP_Utility.cpp" bodystart="66" bodyend="79"/>
+        <references refid="struct_post_1_1_o_s_i_1addeb46b89c10a374b626dba3c3da8dce" compoundref="_p_n___t_y_p_e_8h" startline="60">Post::OSI::order</references>
+        <references refid="struct_post_1_1_o_s_i_1a76ccb381d1fe4f00dc625d4960facc22" compoundref="_p_n___t_y_p_e_8h" startline="61">Post::OSI::total_num</references>
+        <referencedby refid="namespace_post_1ae3e42cd6a90b8e710aaacb3800b6d23f" compoundref="_m_p___utility_8cpp" startline="4" endline="11">Parsing_F</referencedby>
+        <referencedby refid="namespace_post_1a38f28ff9bd306044ffff21af170f9c9d" compoundref="_m_p___utility_8cpp" startline="23" endline="32">Parsing_V</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="namespace_post_1a1a6319d316909f65d91798c42422d421" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Post::Parsing_SN</definition>
+        <argsstring>(string _str, secondary_name &amp;_sn)</argsstring>
+        <name>Parsing_SN</name>
+        <param>
+          <type>string</type>
+          <declname>_str</declname>
+        </param>
+        <param>
+          <type><ref refid="struct_post_1_1secondary__name" kindref="compound">secondary_name</ref> &amp;</type>
+          <declname>_sn</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/PostManager/ref/MP_Utility.cpp" line="81" column="1" bodyfile="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/PostManager/ref/MP_Utility.cpp" bodystart="81" bodyend="112"/>
+        <references refid="struct_post_1_1secondary__name_1a4b4803da37755b9acad2039a60da38ca" compoundref="_p_n___t_y_p_e_8h" startline="67">Post::secondary_name::_bn_list</references>
+        <references refid="namespace_post_1a1fdb5d723d9bb9b65a47378d169f9287" compoundref="_m_p___utility_8cpp" startline="35" endline="64">Parsing_BN</references>
+        <references refid="struct_post_1_1secondary__name_1ad5d39be93f62eba8156e20a180671a69" compoundref="_p_n___t_y_p_e_8h" startline="66">Post::secondary_name::total_num</references>
+        <referencedby refid="namespace_post_1ae3e42cd6a90b8e710aaacb3800b6d23f" compoundref="_m_p___utility_8cpp" startline="4" endline="11">Parsing_F</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="namespace_post_1a30dc49e2a3d31390705b66a53e9c1d98" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Post::Delim_V</definition>
+        <argsstring>(string _input, string &amp;_F1, string &amp;_F2, string &amp;_F3, string &amp;_OSI)</argsstring>
+        <name>Delim_V</name>
+        <param>
+          <type>string</type>
+          <declname>_input</declname>
+        </param>
+        <param>
+          <type>string &amp;</type>
+          <declname>_F1</declname>
+        </param>
+        <param>
+          <type>string &amp;</type>
+          <declname>_F2</declname>
+        </param>
+        <param>
+          <type>string &amp;</type>
+          <declname>_F3</declname>
+        </param>
+        <param>
+          <type>string &amp;</type>
+          <declname>_OSI</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/PostManager/ref/MP_Utility.cpp" line="115" column="1" bodyfile="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/PostManager/ref/MP_Utility.cpp" bodystart="115" bodyend="130"/>
+        <referencedby refid="namespace_post_1a38f28ff9bd306044ffff21af170f9c9d" compoundref="_m_p___utility_8cpp" startline="23" endline="32">Parsing_V</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="namespace_post_1a3df86c29663ec3c1a8151119fabed304" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Post::Delim_E</definition>
+        <argsstring>(string _input, string &amp;_F1, string &amp;_F2, string &amp;_OSI)</argsstring>
+        <name>Delim_E</name>
+        <param>
+          <type>string</type>
+          <declname>_input</declname>
+        </param>
+        <param>
+          <type>string &amp;</type>
+          <declname>_F1</declname>
+        </param>
+        <param>
+          <type>string &amp;</type>
+          <declname>_F2</declname>
+        </param>
+        <param>
+          <type>string &amp;</type>
+          <declname>_OSI</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/PostManager/ref/MP_Utility.cpp" line="132" column="1" bodyfile="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/PostManager/ref/MP_Utility.cpp" bodystart="132" bodyend="148"/>
+        <referencedby refid="namespace_post_1accad7a93fa3eb05cccced87b3d7fd230" compoundref="_m_p___utility_8cpp" startline="13" endline="21">Parsing_E</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="namespace_post_1ac1022ed5bfbceeb96db7ba24ce0b84eb" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Post::Delim_F</definition>
+        <argsstring>(string _input, string &amp;_bn, string &amp;_OSI, string &amp;_sn)</argsstring>
+        <name>Delim_F</name>
+        <param>
+          <type>string</type>
+          <declname>_input</declname>
+        </param>
+        <param>
+          <type>string &amp;</type>
+          <declname>_bn</declname>
+        </param>
+        <param>
+          <type>string &amp;</type>
+          <declname>_OSI</declname>
+        </param>
+        <param>
+          <type>string &amp;</type>
+          <declname>_sn</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/PostManager/ref/MP_Utility.cpp" line="150" column="1" bodyfile="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/PostManager/ref/MP_Utility.cpp" bodystart="150" bodyend="164"/>
+        <referencedby refid="namespace_post_1ae3e42cd6a90b8e710aaacb3800b6d23f" compoundref="_m_p___utility_8cpp" startline="4" endline="11">Parsing_F</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="namespace_post_1add454c3707f6aa3e19c2b318d2796cf5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>string</type>
+        <definition>string Post::Print_BN</definition>
+        <argsstring>(basic_naming bn)</argsstring>
+        <name>Print_BN</name>
+        <param>
+          <type><ref refid="struct_post_1_1basic__naming" kindref="compound">basic_naming</ref></type>
+          <declname>bn</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/PostManager/ref/MP_Utility.cpp" line="167" column="1" bodyfile="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/PostManager/ref/MP_Utility.cpp" bodystart="167" bodyend="210"/>
+        <references refid="struct_post_1_1basic__naming_1a903d9daa7d0d04edeff5483516eb2a07" compoundref="_p_n___t_y_p_e_8h" startline="49">Post::basic_naming::feature_id</references>
+        <references refid="struct_post_1_1basic__naming_1aced3357cc2dc4d606c1f0896f90152ec" compoundref="_p_n___t_y_p_e_8h" startline="50">Post::basic_naming::id1</references>
+        <references refid="struct_post_1_1basic__naming_1ab3f7cc28a6762397fba41f0db5f09ea9" compoundref="_p_n___t_y_p_e_8h" startline="51">Post::basic_naming::id2</references>
+        <references refid="struct_post_1_1basic__naming_1a89684ce943c8d24a4702ec0832bd6fca" compoundref="_p_n___t_y_p_e_8h" startline="52">Post::basic_naming::id3</references>
+        <references refid="struct_post_1_1basic__naming_1a236fc2d576caebe572136f9fbeb572d3" compoundref="_p_n___t_y_p_e_8h" startline="53">Post::basic_naming::id4</references>
+        <references refid="struct_post_1_1basic__naming_1a50a110bf48204e3b986105d4b92b0da9" compoundref="_p_n___t_y_p_e_8h" startline="54">Post::basic_naming::id5</references>
+        <references refid="struct_post_1_1basic__naming_1aa512e8295c1e44c79a1803f16b21008b" compoundref="_p_n___t_y_p_e_8h" startline="55">Post::basic_naming::option</references>
+        <referencedby refid="namespace_post_1a0f0e985103a6b12c1b20e7329df20074" compoundref="_m_p___utility_8cpp" startline="249" endline="254">Print_F</referencedby>
+        <referencedby refid="namespace_post_1a7dba2fed0bb15af8117bfe0b2439fac9" compoundref="_m_p___utility_8cpp" startline="227" endline="247">Print_SN</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="namespace_post_1a66996c501d4d93bb1888bb3894a050a0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>string</type>
+        <definition>string Post::Print_OSI</definition>
+        <argsstring>(OSI osi)</argsstring>
+        <name>Print_OSI</name>
+        <param>
+          <type><ref refid="struct_post_1_1_o_s_i" kindref="compound">OSI</ref></type>
+          <declname>osi</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/PostManager/ref/MP_Utility.cpp" line="212" column="1" bodyfile="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/PostManager/ref/MP_Utility.cpp" bodystart="212" bodyend="225"/>
+        <references refid="struct_post_1_1_o_s_i_1addeb46b89c10a374b626dba3c3da8dce" compoundref="_p_n___t_y_p_e_8h" startline="60">Post::OSI::order</references>
+        <references refid="struct_post_1_1_o_s_i_1a76ccb381d1fe4f00dc625d4960facc22" compoundref="_p_n___t_y_p_e_8h" startline="61">Post::OSI::total_num</references>
+        <referencedby refid="namespace_post_1a3f5830d14dbc2563db551180e28fd453" compoundref="_m_p___utility_8cpp" startline="256" endline="261">Print_E</referencedby>
+        <referencedby refid="namespace_post_1a0f0e985103a6b12c1b20e7329df20074" compoundref="_m_p___utility_8cpp" startline="249" endline="254">Print_F</referencedby>
+        <referencedby refid="namespace_post_1a89ff925aa19189db9aebbd2f67035e5b" compoundref="_m_p___utility_8cpp" startline="263" endline="268">Print_V</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="namespace_post_1a7dba2fed0bb15af8117bfe0b2439fac9" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>string</type>
+        <definition>string Post::Print_SN</definition>
+        <argsstring>(secondary_name sn)</argsstring>
+        <name>Print_SN</name>
+        <param>
+          <type><ref refid="struct_post_1_1secondary__name" kindref="compound">secondary_name</ref></type>
+          <declname>sn</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/PostManager/ref/MP_Utility.cpp" line="227" column="1" bodyfile="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/PostManager/ref/MP_Utility.cpp" bodystart="227" bodyend="247"/>
+        <references refid="struct_post_1_1secondary__name_1a4b4803da37755b9acad2039a60da38ca" compoundref="_p_n___t_y_p_e_8h" startline="67">Post::secondary_name::_bn_list</references>
+        <references refid="namespace_post_1add454c3707f6aa3e19c2b318d2796cf5" compoundref="_m_p___utility_8cpp" startline="167" endline="210">Print_BN</references>
+        <references refid="struct_post_1_1secondary__name_1ad5d39be93f62eba8156e20a180671a69" compoundref="_p_n___t_y_p_e_8h" startline="66">Post::secondary_name::total_num</references>
+        <referencedby refid="namespace_post_1a0f0e985103a6b12c1b20e7329df20074" compoundref="_m_p___utility_8cpp" startline="249" endline="254">Print_F</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="namespace_post_1a0f0e985103a6b12c1b20e7329df20074" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>string</type>
+        <definition>string Post::Print_F</definition>
+        <argsstring>(EN_F f)</argsstring>
+        <name>Print_F</name>
+        <param>
+          <type><ref refid="struct_post_1_1_e_n___f" kindref="compound">EN_F</ref></type>
+          <declname>f</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/PostManager/ref/MP_Utility.cpp" line="249" column="1" bodyfile="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/PostManager/ref/MP_Utility.cpp" bodystart="249" bodyend="254"/>
+        <references refid="struct_post_1_1_e_n___f_1a8e2b53b6957374a942d13a8609d64310" compoundref="_p_n___t_y_p_e_8h" startline="72">Post::EN_F::_bn</references>
+        <references refid="struct_post_1_1_e_n___f_1ad385700f95272e9a27b7c19edd2457cd" compoundref="_p_n___t_y_p_e_8h" startline="73">Post::EN_F::_osi</references>
+        <references refid="struct_post_1_1_e_n___f_1a91d71dbe012d955b239f80a900452557" compoundref="_p_n___t_y_p_e_8h" startline="74">Post::EN_F::_sn</references>
+        <references refid="namespace_post_1add454c3707f6aa3e19c2b318d2796cf5" compoundref="_m_p___utility_8cpp" startline="167" endline="210">Print_BN</references>
+        <references refid="namespace_post_1a66996c501d4d93bb1888bb3894a050a0" compoundref="_m_p___utility_8cpp" startline="212" endline="225">Print_OSI</references>
+        <references refid="namespace_post_1a7dba2fed0bb15af8117bfe0b2439fac9" compoundref="_m_p___utility_8cpp" startline="227" endline="247">Print_SN</references>
+        <referencedby refid="namespace_post_1a3f5830d14dbc2563db551180e28fd453" compoundref="_m_p___utility_8cpp" startline="256" endline="261">Print_E</referencedby>
+        <referencedby refid="namespace_post_1a89ff925aa19189db9aebbd2f67035e5b" compoundref="_m_p___utility_8cpp" startline="263" endline="268">Print_V</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="namespace_post_1a3f5830d14dbc2563db551180e28fd453" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>string</type>
+        <definition>string Post::Print_E</definition>
+        <argsstring>(EN_E e)</argsstring>
+        <name>Print_E</name>
+        <param>
+          <type><ref refid="struct_post_1_1_e_n___e" kindref="compound">EN_E</ref></type>
+          <declname>e</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/PostManager/ref/MP_Utility.cpp" line="256" column="1" bodyfile="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/PostManager/ref/MP_Utility.cpp" bodystart="256" bodyend="261"/>
+        <references refid="struct_post_1_1_e_n___e_1a036b5b858a9930cca72fbcb7e32e2061" compoundref="_p_n___t_y_p_e_8h" startline="79">Post::EN_E::_f1</references>
+        <references refid="struct_post_1_1_e_n___e_1a84b184aa31a43db7176c43d96f5bfa0e" compoundref="_p_n___t_y_p_e_8h" startline="80">Post::EN_E::_f2</references>
+        <references refid="struct_post_1_1_e_n___e_1a7b26c153b991a20662f97a62a6b4b7d0" compoundref="_p_n___t_y_p_e_8h" startline="81">Post::EN_E::_osi</references>
+        <references refid="namespace_post_1a0f0e985103a6b12c1b20e7329df20074" compoundref="_m_p___utility_8cpp" startline="249" endline="254">Print_F</references>
+        <references refid="namespace_post_1a66996c501d4d93bb1888bb3894a050a0" compoundref="_m_p___utility_8cpp" startline="212" endline="225">Print_OSI</references>
+      </memberdef>
+      <memberdef kind="function" id="namespace_post_1a89ff925aa19189db9aebbd2f67035e5b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>string</type>
+        <definition>string Post::Print_V</definition>
+        <argsstring>(EN_V v)</argsstring>
+        <name>Print_V</name>
+        <param>
+          <type><ref refid="struct_post_1_1_e_n___v" kindref="compound">EN_V</ref></type>
+          <declname>v</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/PostManager/ref/MP_Utility.cpp" line="263" column="1" bodyfile="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/PostManager/ref/MP_Utility.cpp" bodystart="263" bodyend="268"/>
+        <references refid="struct_post_1_1_e_n___v_1a19f96778820cc77d85fc2f4561ee249f" compoundref="_p_n___t_y_p_e_8h" startline="86">Post::EN_V::_f1</references>
+        <references refid="struct_post_1_1_e_n___v_1a186c3be1eba5f0329125ce8f24d534a1" compoundref="_p_n___t_y_p_e_8h" startline="87">Post::EN_V::_f2</references>
+        <references refid="struct_post_1_1_e_n___v_1ae082b70ebb25bb6d7506e4b6c2403a3b" compoundref="_p_n___t_y_p_e_8h" startline="88">Post::EN_V::_f3</references>
+        <references refid="struct_post_1_1_e_n___v_1ac92e9f889a070ea5e3fefd6428ecc85c" compoundref="_p_n___t_y_p_e_8h" startline="89">Post::EN_V::_osi</references>
+        <references refid="namespace_post_1a0f0e985103a6b12c1b20e7329df20074" compoundref="_m_p___utility_8cpp" startline="249" endline="254">Print_F</references>
+        <references refid="namespace_post_1a66996c501d4d93bb1888bb3894a050a0" compoundref="_m_p___utility_8cpp" startline="212" endline="225">Print_OSI</references>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/PostManager/ref/CATIApost_DLL.cpp" line="30" column="1"/>
+  </compounddef>
+</doxygen>

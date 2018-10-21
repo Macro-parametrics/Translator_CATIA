@@ -1,0 +1,144 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="struct_post_1_1_e_n___v" kind="struct" prot="public">
+    <compoundname>Post::EN_V</compoundname>
+    <includes refid="_p_n___t_y_p_e_8h" local="no">PN_TYPE.h</includes>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="struct_post_1_1_e_n___v_1a19f96778820cc77d85fc2f4561ee249f" prot="public" static="no" mutable="no">
+        <type><ref refid="struct_post_1_1_e_n___f" kindref="compound">EN_F</ref></type>
+        <definition>EN_F Post::EN_V::_f1</definition>
+        <argsstring></argsstring>
+        <name>_f1</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/PostManager/ref/PN_TYPE.h" line="86" column="1" bodyfile="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/PostManager/ref/PN_TYPE.h" bodystart="86" bodyend="-1"/>
+        <referencedby refid="namespace_post_1a38f28ff9bd306044ffff21af170f9c9d" compoundref="_m_p___utility_8cpp" startline="23" endline="32">Post::Parsing_V</referencedby>
+        <referencedby refid="namespace_post_1a89ff925aa19189db9aebbd2f67035e5b" compoundref="_m_p___utility_8cpp" startline="263" endline="268">Post::Print_V</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="struct_post_1_1_e_n___v_1a186c3be1eba5f0329125ce8f24d534a1" prot="public" static="no" mutable="no">
+        <type><ref refid="struct_post_1_1_e_n___f" kindref="compound">EN_F</ref></type>
+        <definition>EN_F Post::EN_V::_f2</definition>
+        <argsstring></argsstring>
+        <name>_f2</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/PostManager/ref/PN_TYPE.h" line="87" column="1" bodyfile="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/PostManager/ref/PN_TYPE.h" bodystart="87" bodyend="-1"/>
+        <referencedby refid="namespace_post_1a38f28ff9bd306044ffff21af170f9c9d" compoundref="_m_p___utility_8cpp" startline="23" endline="32">Post::Parsing_V</referencedby>
+        <referencedby refid="namespace_post_1a89ff925aa19189db9aebbd2f67035e5b" compoundref="_m_p___utility_8cpp" startline="263" endline="268">Post::Print_V</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="struct_post_1_1_e_n___v_1ae082b70ebb25bb6d7506e4b6c2403a3b" prot="public" static="no" mutable="no">
+        <type><ref refid="struct_post_1_1_e_n___f" kindref="compound">EN_F</ref></type>
+        <definition>EN_F Post::EN_V::_f3</definition>
+        <argsstring></argsstring>
+        <name>_f3</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/PostManager/ref/PN_TYPE.h" line="88" column="1" bodyfile="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/PostManager/ref/PN_TYPE.h" bodystart="88" bodyend="-1"/>
+        <referencedby refid="namespace_post_1a38f28ff9bd306044ffff21af170f9c9d" compoundref="_m_p___utility_8cpp" startline="23" endline="32">Post::Parsing_V</referencedby>
+        <referencedby refid="namespace_post_1a89ff925aa19189db9aebbd2f67035e5b" compoundref="_m_p___utility_8cpp" startline="263" endline="268">Post::Print_V</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="struct_post_1_1_e_n___v_1ac92e9f889a070ea5e3fefd6428ecc85c" prot="public" static="no" mutable="no">
+        <type><ref refid="struct_post_1_1_o_s_i" kindref="compound">OSI</ref></type>
+        <definition>OSI Post::EN_V::_osi</definition>
+        <argsstring></argsstring>
+        <name>_osi</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/PostManager/ref/PN_TYPE.h" line="89" column="1" bodyfile="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/PostManager/ref/PN_TYPE.h" bodystart="89" bodyend="-1"/>
+        <referencedby refid="namespace_post_1a38f28ff9bd306044ffff21af170f9c9d" compoundref="_m_p___utility_8cpp" startline="23" endline="32">Post::Parsing_V</referencedby>
+        <referencedby refid="namespace_post_1a89ff925aa19189db9aebbd2f67035e5b" compoundref="_m_p___utility_8cpp" startline="263" endline="268">Post::Print_V</referencedby>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="306">
+        <label>Post::OSI</label>
+        <link refid="struct_post_1_1_o_s_i"/>
+      </node>
+      <node id="305">
+        <label>std::vector&lt; Post::basic_naming &gt;</label>
+        <childnode refid="301" relation="usage">
+          <edgelabel>elements</edgelabel>
+        </childnode>
+      </node>
+      <node id="303">
+        <label>std::basic_string&lt; char &gt;</label>
+      </node>
+      <node id="301">
+        <label>Post::basic_naming</label>
+        <link refid="struct_post_1_1basic__naming"/>
+        <childnode refid="302" relation="usage">
+          <edgelabel>feature_id</edgelabel>
+          <edgelabel>id1</edgelabel>
+          <edgelabel>id2</edgelabel>
+          <edgelabel>id3</edgelabel>
+          <edgelabel>id4</edgelabel>
+          <edgelabel>id5</edgelabel>
+        </childnode>
+      </node>
+      <node id="304">
+        <label>Post::secondary_name</label>
+        <link refid="struct_post_1_1secondary__name"/>
+        <childnode refid="305" relation="usage">
+          <edgelabel>_bn_list</edgelabel>
+        </childnode>
+      </node>
+      <node id="300">
+        <label>Post::EN_F</label>
+        <link refid="struct_post_1_1_e_n___f"/>
+        <childnode refid="301" relation="usage">
+          <edgelabel>_bn</edgelabel>
+        </childnode>
+        <childnode refid="304" relation="usage">
+          <edgelabel>_sn</edgelabel>
+        </childnode>
+        <childnode refid="306" relation="usage">
+          <edgelabel>_osi</edgelabel>
+        </childnode>
+      </node>
+      <node id="299">
+        <label>Post::EN_V</label>
+        <link refid="struct_post_1_1_e_n___v"/>
+        <childnode refid="300" relation="usage">
+          <edgelabel>_f1</edgelabel>
+          <edgelabel>_f2</edgelabel>
+          <edgelabel>_f3</edgelabel>
+        </childnode>
+        <childnode refid="306" relation="usage">
+          <edgelabel>_osi</edgelabel>
+        </childnode>
+      </node>
+      <node id="302">
+        <label>std::string</label>
+        <childnode refid="303" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/PostManager/ref/PN_TYPE.h" line="85" column="1" bodyfile="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/PostManager/ref/PN_TYPE.h" bodystart="84" bodyend="90"/>
+    <listofallmembers>
+      <member refid="struct_post_1_1_e_n___v_1a19f96778820cc77d85fc2f4561ee249f" prot="public" virt="non-virtual"><scope>Post::EN_V</scope><name>_f1</name></member>
+      <member refid="struct_post_1_1_e_n___v_1a186c3be1eba5f0329125ce8f24d534a1" prot="public" virt="non-virtual"><scope>Post::EN_V</scope><name>_f2</name></member>
+      <member refid="struct_post_1_1_e_n___v_1ae082b70ebb25bb6d7506e4b6c2403a3b" prot="public" virt="non-virtual"><scope>Post::EN_V</scope><name>_f3</name></member>
+      <member refid="struct_post_1_1_e_n___v_1ac92e9f889a070ea5e3fefd6428ecc85c" prot="public" virt="non-virtual"><scope>Post::EN_V</scope><name>_osi</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

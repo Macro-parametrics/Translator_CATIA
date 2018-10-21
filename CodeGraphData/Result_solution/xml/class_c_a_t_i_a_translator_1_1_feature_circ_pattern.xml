@@ -1,0 +1,191 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_c_a_t_i_a_translator_1_1_feature_circ_pattern" kind="class" prot="public">
+    <compoundname>CATIATranslator::FeatureCircPattern</compoundname>
+    <basecompoundref refid="class_c_a_t_i_a_translator_1_1_feature" prot="public" virt="non-virtual">CATIATranslator.Feature</basecompoundref>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_c_a_t_i_a_translator_1_1_feature_circ_pattern_1a6ec967a3215538ab168dcb5096303073" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>CATIATranslator.FeatureCircPattern.FeatureCircPattern</definition>
+        <argsstring>(Part PartManager)</argsstring>
+        <name>FeatureCircPattern</name>
+        <param>
+          <type><ref refid="class_c_a_t_i_a_translator_1_1_part" kindref="compound">Part</ref></type>
+          <declname>PartManager</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/CATIATranslator/Part/Feature/FeatureCircPattern.cs" line="8" column="1" bodyfile="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/CATIATranslator/Part/Feature/FeatureCircPattern.cs" bodystart="8" bodyend="11"/>
+        <references refid="class_c_a_t_i_a_translator_1_1_feature_1ad90561702fbff5b6fc8f87cdf9531751" compoundref="_feature_8cs" startline="6">CATIATranslator.Feature.PartManager</references>
+      </memberdef>
+      <memberdef kind="function" id="class_c_a_t_i_a_translator_1_1_feature_circ_pattern_1a3e446e7df97b0f3912268c292640d39f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>override void</type>
+        <definition>override void CATIATranslator.FeatureCircPattern.TranslateC2T</definition>
+        <argsstring>(MECMOD.Shape cShape)</argsstring>
+        <name>TranslateC2T</name>
+        <reimplements refid="class_c_a_t_i_a_translator_1_1_feature_1a4ca679cb7db6b544a062441f9c46995e">TranslateC2T</reimplements>
+        <param>
+          <type>MECMOD.Shape</type>
+          <declname>cShape</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/CATIATranslator/Part/Feature/FeatureCircPattern.cs" line="14" column="1" bodyfile="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/CATIATranslator/Part/Feature/FeatureCircPattern.cs" bodystart="14" bodyend="40"/>
+      </memberdef>
+      <memberdef kind="function" id="class_c_a_t_i_a_translator_1_1_feature_circ_pattern_1a0297c10b464eb9148261d60fd37c67e0" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>override void</type>
+        <definition>override void CATIATranslator.FeatureCircPattern.TranslateT2C</definition>
+        <argsstring>(TransCAD.IFeature tFeature)</argsstring>
+        <name>TranslateT2C</name>
+        <reimplements refid="class_c_a_t_i_a_translator_1_1_feature_1a9b3c6155e1ff78f54afdeecc4c422129">TranslateT2C</reimplements>
+        <param>
+          <type>TransCAD.IFeature</type>
+          <declname>tFeature</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/CATIATranslator/Part/Feature/FeatureCircPattern.cs" line="43" column="1" bodyfile="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/CATIATranslator/Part/Feature/FeatureCircPattern.cs" bodystart="43" bodyend="81"/>
+        <references refid="class_c_a_t_i_a_translator_1_1_part_1a797eb7ad90838dc2f86e7cc66406801f" compoundref="_part_8cs" startline="21">CATIATranslator.Part.cShapes</references>
+        <references refid="class_c_a_t_i_a_translator_1_1_feature_circ_pattern_1adaf463f4604e8d94bf4ede314a948494" compoundref="_feature_circ_pattern_8cs" startline="83" endline="113">CATIATranslator.FeatureCircPattern.GetRotationAxis</references>
+        <references refid="class_c_a_t_i_a_translator_1_1_reference_1aa0ddfaf91fec554ec278f7e51095824b" compoundref="_reference_8cs" startline="10">CATIATranslator.Reference.NameMap</references>
+        <references refid="class_c_a_t_i_a_translator_1_1_feature_1ad90561702fbff5b6fc8f87cdf9531751" compoundref="_feature_8cs" startline="6">CATIATranslator.Feature.PartManager</references>
+        <references refid="class_c_a_t_i_a_translator_1_1_part_1a39146a4f6633e94374627d590020c980" compoundref="_part_8cs" startline="41">CATIATranslator.Part.ReferenceManager</references>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_c_a_t_i_a_translator_1_1_feature_circ_pattern_1adaf463f4604e8d94bf4ede314a948494" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>INFITF.Reference</type>
+        <definition>INFITF.Reference CATIATranslator.FeatureCircPattern.GetRotationAxis</definition>
+        <argsstring>(PARTITF.CircPattern cCircPattern, double[] center, double[] axis)</argsstring>
+        <name>GetRotationAxis</name>
+        <param>
+          <type>PARTITF.CircPattern</type>
+          <declname>cCircPattern</declname>
+        </param>
+        <param>
+          <type>double[]</type>
+          <declname>center</declname>
+        </param>
+        <param>
+          <type>double[]</type>
+          <declname>axis</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/CATIATranslator/Part/Feature/FeatureCircPattern.cs" line="83" column="1" bodyfile="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/CATIATranslator/Part/Feature/FeatureCircPattern.cs" bodystart="83" bodyend="113"/>
+        <references refid="class_c_a_t_i_a_translator_1_1_part_1ac78af25e1545704dd7e88541f7ccb711" compoundref="_part_8cs" startline="18">CATIATranslator.Part.cOriginalElements</references>
+        <references refid="class_c_a_t_i_a_translator_1_1_feature_1ad90561702fbff5b6fc8f87cdf9531751" compoundref="_feature_8cs" startline="6">CATIATranslator.Feature.PartManager</references>
+        <referencedby refid="class_c_a_t_i_a_translator_1_1_feature_circ_pattern_1a0297c10b464eb9148261d60fd37c67e0" compoundref="_feature_circ_pattern_8cs" startline="43" endline="81">CATIATranslator.FeatureCircPattern.TranslateT2C</referencedby>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="438">
+        <label>CATIATranslator.FeatureCircPattern</label>
+        <link refid="class_c_a_t_i_a_translator_1_1_feature_circ_pattern"/>
+        <childnode refid="439" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="439">
+        <label>Feature</label>
+        <link refid="class_c_a_t_i_a_translator_1_1_feature"/>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="443">
+        <label>TransCAD</label>
+      </node>
+      <node id="444">
+        <label>CATIATranslator.Reference</label>
+        <link refid="class_c_a_t_i_a_translator_1_1_reference"/>
+        <childnode refid="445" relation="usage">
+          <edgelabel>assembly</edgelabel>
+        </childnode>
+        <childnode refid="442" relation="usage">
+          <edgelabel>PartManager</edgelabel>
+        </childnode>
+      </node>
+      <node id="442">
+        <label>CATIATranslator.Part</label>
+        <link refid="class_c_a_t_i_a_translator_1_1_part"/>
+        <childnode refid="443" relation="usage">
+          <edgelabel>tAssemDoc</edgelabel>
+          <edgelabel>tApp</edgelabel>
+          <edgelabel>tPartDoc</edgelabel>
+          <edgelabel>tDocs</edgelabel>
+          <edgelabel>tFeatures</edgelabel>
+          <edgelabel>tAssem</edgelabel>
+          <edgelabel>tComp</edgelabel>
+          <edgelabel>tPart</edgelabel>
+        </childnode>
+        <childnode refid="444" relation="usage">
+          <edgelabel>ReferenceManager</edgelabel>
+        </childnode>
+        <childnode refid="442" relation="usage">
+          <edgelabel>cPart</edgelabel>
+        </childnode>
+      </node>
+      <node id="440">
+        <label>CATIATranslator.FeatureCircPattern</label>
+        <link refid="class_c_a_t_i_a_translator_1_1_feature_circ_pattern"/>
+        <childnode refid="441" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="441">
+        <label>Feature</label>
+        <link refid="class_c_a_t_i_a_translator_1_1_feature"/>
+        <childnode refid="442" relation="usage">
+          <edgelabel>PartManager</edgelabel>
+        </childnode>
+      </node>
+      <node id="445">
+        <label>CATIATranslator.Assembly</label>
+        <link refid="class_c_a_t_i_a_translator_1_1_assembly"/>
+        <childnode refid="443" relation="usage">
+          <edgelabel>tConstraints</edgelabel>
+          <edgelabel>tAssemDoc</edgelabel>
+          <edgelabel>tApp</edgelabel>
+          <edgelabel>tPartDoc</edgelabel>
+          <edgelabel>tDocs</edgelabel>
+          <edgelabel>tFeatures</edgelabel>
+          <edgelabel>tAssem</edgelabel>
+          <edgelabel>tComp</edgelabel>
+          <edgelabel>tPart</edgelabel>
+        </childnode>
+        <childnode refid="444" relation="usage">
+          <edgelabel>ReferenceManager</edgelabel>
+        </childnode>
+        <childnode refid="442" relation="usage">
+          <edgelabel>cPart</edgelabel>
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/CATIATranslator/Part/Feature/FeatureCircPattern.cs" line="7" column="1" bodyfile="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/CATIATranslator/Part/Feature/FeatureCircPattern.cs" bodystart="6" bodyend="114"/>
+    <listofallmembers>
+      <member refid="class_c_a_t_i_a_translator_1_1_feature_circ_pattern_1a6ec967a3215538ab168dcb5096303073" prot="public" virt="non-virtual"><scope>CATIATranslator::FeatureCircPattern</scope><name>FeatureCircPattern</name></member>
+      <member refid="class_c_a_t_i_a_translator_1_1_feature_circ_pattern_1adaf463f4604e8d94bf4ede314a948494" prot="private" virt="non-virtual"><scope>CATIATranslator::FeatureCircPattern</scope><name>GetRotationAxis</name></member>
+      <member refid="class_c_a_t_i_a_translator_1_1_feature_1ad90561702fbff5b6fc8f87cdf9531751" prot="public" virt="non-virtual"><scope>CATIATranslator::FeatureCircPattern</scope><name>PartManager</name></member>
+      <member refid="class_c_a_t_i_a_translator_1_1_feature_circ_pattern_1a3e446e7df97b0f3912268c292640d39f" prot="public" virt="virtual"><scope>CATIATranslator::FeatureCircPattern</scope><name>TranslateC2T</name></member>
+      <member refid="class_c_a_t_i_a_translator_1_1_feature_circ_pattern_1a0297c10b464eb9148261d60fd37c67e0" prot="public" virt="virtual"><scope>CATIATranslator::FeatureCircPattern</scope><name>TranslateT2C</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

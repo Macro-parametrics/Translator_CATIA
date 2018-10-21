@@ -1,0 +1,467 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="_reference_class_8h" kind="file">
+    <compoundname>ReferenceClass.h</compoundname>
+    <includes refid="_post_manager_2ref_2_part_8h" local="yes">..\PostManager\ref\Part.h</includes>
+    <includes refid="_c_a_t_i_apost___d_l_l_8h" local="yes">..\PostManager\ref\CATIApost_DLL.h</includes>
+    <includes refid="_post_manager_2ref_2_definition_8h" local="yes">..\PostManager\ref\Definition.h</includes>
+    <includes refid="_pre_manager_2ref_2_part_8h" local="yes">..\PreManager\ref\Part.h</includes>
+    <includes refid="_c_a_t_i_apre___d_l_l_8h" local="yes">..\PreManager\ref\CATIApre_DLL.h</includes>
+    <includes refid="_reference_entity_8h" local="yes">..\PreManager\ref\ReferenceEntity.h</includes>
+    <includes local="no">vcclr.h</includes>
+    <includes local="no">msclr/marshal_cppstd.h</includes>
+    <includedby refid="_reference_class_8cpp" local="yes">CPPWITHCSHARP/ReferenceClass.cpp</includedby>
+    <includedby refid="_reference_class___post_8h" local="yes">CPPWITHCSHARP/ReferenceClass_Post.h</includedby>
+    <includedby refid="_reference_class___pre_8h" local="yes">CPPWITHCSHARP/ReferenceClass_Pre.h</includedby>
+    <incdepgraph>
+      <node id="109">
+        <label>atlstr.h</label>
+      </node>
+      <node id="136">
+        <label>msclr/marshal_cppstd.h</label>
+      </node>
+      <node id="131">
+        <label>strstream</label>
+      </node>
+      <node id="115">
+        <label>stdlib.h</label>
+      </node>
+      <node id="134">
+        <label>Feature.h</label>
+        <link refid="_pre_manager_2ref_2_feature_8h"/>
+        <childnode refid="125" relation="include">
+        </childnode>
+      </node>
+      <node id="117">
+        <label>cmath</label>
+      </node>
+      <node id="111">
+        <label>string</label>
+      </node>
+      <node id="129">
+        <label>comdef.h</label>
+      </node>
+      <node id="116">
+        <label>comutil.h</label>
+      </node>
+      <node id="132">
+        <label>..\PreManager\ref\ReferenceEntity.h</label>
+        <link refid="_reference_entity_8h"/>
+        <childnode refid="125" relation="include">
+        </childnode>
+        <childnode refid="133" relation="include">
+        </childnode>
+      </node>
+      <node id="105">
+        <label>CPPWITHCSHARP/ReferenceClass.h</label>
+        <link refid="ReferenceClass.h"/>
+        <childnode refid="106" relation="include">
+        </childnode>
+        <childnode refid="107" relation="include">
+        </childnode>
+        <childnode refid="118" relation="include">
+        </childnode>
+        <childnode refid="125" relation="include">
+        </childnode>
+        <childnode refid="126" relation="include">
+        </childnode>
+        <childnode refid="132" relation="include">
+        </childnode>
+        <childnode refid="135" relation="include">
+        </childnode>
+        <childnode refid="136" relation="include">
+        </childnode>
+      </node>
+      <node id="133">
+        <label>FSketch.h</label>
+        <link refid="_pre_manager_2ref_2_f_sketch_8h"/>
+        <childnode refid="134" relation="include">
+        </childnode>
+      </node>
+      <node id="112">
+        <label>fstream</label>
+      </node>
+      <node id="106">
+        <label>..\PostManager\ref\Part.h</label>
+        <link refid="_post_manager_2ref_2_part_8h"/>
+        <childnode refid="107" relation="include">
+        </childnode>
+        <childnode refid="120" relation="include">
+        </childnode>
+      </node>
+      <node id="124">
+        <label>MP_Utility.h</label>
+        <link refid="_m_p___utility_8h"/>
+        <childnode refid="121" relation="include">
+        </childnode>
+      </node>
+      <node id="123">
+        <label>string.h</label>
+      </node>
+      <node id="126">
+        <label>CATIApre_DLL.h</label>
+        <link refid="_c_a_t_i_apre___d_l_l_8h"/>
+        <childnode refid="114" relation="include">
+        </childnode>
+        <childnode refid="127" relation="include">
+        </childnode>
+        <childnode refid="111" relation="include">
+        </childnode>
+        <childnode refid="123" relation="include">
+        </childnode>
+        <childnode refid="110" relation="include">
+        </childnode>
+        <childnode refid="112" relation="include">
+        </childnode>
+        <childnode refid="113" relation="include">
+        </childnode>
+        <childnode refid="117" relation="include">
+        </childnode>
+        <childnode refid="119" relation="include">
+        </childnode>
+        <childnode refid="128" relation="include">
+        </childnode>
+        <childnode refid="116" relation="include">
+        </childnode>
+        <childnode refid="129" relation="include">
+        </childnode>
+        <childnode refid="130" relation="include">
+        </childnode>
+      </node>
+      <node id="113">
+        <label>vector</label>
+      </node>
+      <node id="128">
+        <label>sstream</label>
+      </node>
+      <node id="119">
+        <label>math.h</label>
+      </node>
+      <node id="108">
+        <label>atlbase.h</label>
+      </node>
+      <node id="120">
+        <label>CATIAReferenceManager.h</label>
+        <link refid="_c_a_t_i_a_reference_manager_8h"/>
+        <childnode refid="107" relation="include">
+        </childnode>
+        <childnode refid="121" relation="include">
+        </childnode>
+        <childnode refid="124" relation="include">
+        </childnode>
+      </node>
+      <node id="110">
+        <label>iostream</label>
+      </node>
+      <node id="118">
+        <label>Definition.h</label>
+        <link refid="_post_manager_2ref_2_definition_8h"/>
+        <childnode refid="119" relation="include">
+        </childnode>
+      </node>
+      <node id="127">
+        <label>tchar.h</label>
+      </node>
+      <node id="130">
+        <label>Definition.h</label>
+        <link refid="_pre_manager_2ref_2_definition_8h"/>
+        <childnode refid="131" relation="include">
+        </childnode>
+        <childnode refid="110" relation="include">
+        </childnode>
+        <childnode refid="119" relation="include">
+        </childnode>
+      </node>
+      <node id="135">
+        <label>vcclr.h</label>
+      </node>
+      <node id="125">
+        <label>..\PreManager\ref\Part.h</label>
+        <link refid="_pre_manager_2ref_2_part_8h"/>
+        <childnode refid="126" relation="include">
+        </childnode>
+      </node>
+      <node id="122">
+        <label>algorithm</label>
+      </node>
+      <node id="114">
+        <label>stdio.h</label>
+      </node>
+      <node id="121">
+        <label>PN_TYPE.h</label>
+        <link refid="_p_n___t_y_p_e_8h"/>
+        <childnode refid="110" relation="include">
+        </childnode>
+        <childnode refid="111" relation="include">
+        </childnode>
+        <childnode refid="113" relation="include">
+        </childnode>
+        <childnode refid="122" relation="include">
+        </childnode>
+        <childnode refid="119" relation="include">
+        </childnode>
+        <childnode refid="123" relation="include">
+        </childnode>
+      </node>
+      <node id="107">
+        <label>CATIApost_DLL.h</label>
+        <link refid="_c_a_t_i_apost___d_l_l_8h"/>
+        <childnode refid="108" relation="include">
+        </childnode>
+        <childnode refid="109" relation="include">
+        </childnode>
+        <childnode refid="110" relation="include">
+        </childnode>
+        <childnode refid="111" relation="include">
+        </childnode>
+        <childnode refid="112" relation="include">
+        </childnode>
+        <childnode refid="113" relation="include">
+        </childnode>
+        <childnode refid="114" relation="include">
+        </childnode>
+        <childnode refid="115" relation="include">
+        </childnode>
+        <childnode refid="116" relation="include">
+        </childnode>
+        <childnode refid="117" relation="include">
+        </childnode>
+        <childnode refid="118" relation="include">
+        </childnode>
+      </node>
+    </incdepgraph>
+    <invincdepgraph>
+      <node id="138">
+        <label>CPPWITHCSHARP/ReferenceClass.cpp</label>
+        <link refid="_reference_class_8cpp"/>
+      </node>
+      <node id="142">
+        <label>CPPWITHCSHARP/ReferenceClass_Pre.cpp</label>
+        <link refid="_reference_class___pre_8cpp"/>
+      </node>
+      <node id="137">
+        <label>CPPWITHCSHARP/ReferenceClass.h</label>
+        <link refid="ReferenceClass.h"/>
+        <childnode refid="138" relation="include">
+        </childnode>
+        <childnode refid="139" relation="include">
+        </childnode>
+        <childnode refid="141" relation="include">
+        </childnode>
+      </node>
+      <node id="141">
+        <label>CPPWITHCSHARP/ReferenceClass_Pre.h</label>
+        <link refid="_reference_class___pre_8h"/>
+        <childnode refid="142" relation="include">
+        </childnode>
+      </node>
+      <node id="139">
+        <label>CPPWITHCSHARP/ReferenceClass_Post.h</label>
+        <link refid="_reference_class___post_8h"/>
+        <childnode refid="140" relation="include">
+        </childnode>
+      </node>
+      <node id="140">
+        <label>CPPWITHCSHARP/ReferenceClass_Post.cpp</label>
+        <link refid="_reference_class___post_8cpp"/>
+      </node>
+    </invincdepgraph>
+    <innerclass refid="structref_command" prot="public">refCommand</innerclass>
+    <innerclass refid="class_pre_stack" prot="public">PreStack</innerclass>
+    <innerclass refid="structparsing" prot="public">parsing</innerclass>
+    <innernamespace refid="namespace_system_1_1_diagnostics">System::Diagnostics</innernamespace>
+      <sectiondef kind="func">
+      <memberdef kind="function" id="_reference_class_8h_1a27d7884109d4b05adb7fd28a8a98a7ce" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>string</type>
+        <definition>string Stos</definition>
+        <argsstring>(String^k)</argsstring>
+        <name>Stos</name>
+        <param>
+          <type>String^</type>
+          <declname>k</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/CPPWITHCSHARP/ReferenceClass.h" line="17" column="1" bodyfile="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/CPPWITHCSHARP/ReferenceClass.cpp" bodystart="6" bodyend="6"/>
+        <referencedby refid="class_reference_class_1_1ref___post_1ac19c799206473a3eff81a0e106675b28" compoundref="_reference_class___post_8cpp" startline="96" endline="139">ReferenceClass::ref_Post::AssemblyPartT2C</referencedby>
+        <referencedby refid="class_reference_class_1_1ref___post_1a7aaf4a9810744d048c43799edafe81f2" compoundref="_reference_class___post_8cpp" startline="41" endline="88">ReferenceClass::ref_Post::ConvertRefPost</referencedby>
+        <referencedby refid="class_reference_class_1_1ref___pre_1a8d058d5b4069f52fe9673bc9202f3cd0" compoundref="_reference_class___pre_8cpp" startline="258" endline="301">ReferenceClass::ref_Pre::GetTransCADName_from_buffer</referencedby>
+        <referencedby refid="class_reference_class_1_1ref___pre_1a68edab67fd4e452677bb5b2d783b5085" compoundref="_reference_class___pre_8cpp" startline="238" endline="256">ReferenceClass::ref_Pre::Parsing</referencedby>
+        <referencedby refid="class_reference_class_1_1ref___pre_1af46f69f170b7626db974e08e24894353" compoundref="_reference_class___pre_8cpp" startline="66" endline="121">ReferenceClass::ref_Pre::TestEnvironment</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="_reference_class_8h_1a1df4caf6a0641fd90e6044b6b29da131" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>String</type>
+        <definition>String stoS</definition>
+        <argsstring>(string k)</argsstring>
+        <name>stoS</name>
+        <param>
+          <type>string</type>
+          <declname>k</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/CPPWITHCSHARP/ReferenceClass.h" line="18" column="1" bodyfile="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/CPPWITHCSHARP/ReferenceClass.cpp" bodystart="7" bodyend="7"/>
+        <referencedby refid="class_reference_class_1_1ref___post_1a7aaf4a9810744d048c43799edafe81f2" compoundref="_reference_class___post_8cpp" startline="41" endline="88">ReferenceClass::ref_Post::ConvertRefPost</referencedby>
+        <referencedby refid="class_reference_class_1_1ref___pre_1a8d058d5b4069f52fe9673bc9202f3cd0" compoundref="_reference_class___pre_8cpp" startline="258" endline="301">ReferenceClass::ref_Pre::GetTransCADName_from_buffer</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="_reference_class_8h_1a845542c4adade4e6695e66ef7405b936" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>std::string</type>
+        <definition>std::string replace_all</definition>
+        <argsstring>(__in const std::string &amp;message, __in const std::string &amp;pattern, __in const std::string &amp;replace)</argsstring>
+        <name>replace_all</name>
+        <param>
+          <type>__in const std::string &amp;</type>
+          <declname>message</declname>
+        </param>
+        <param>
+          <type>__in const std::string &amp;</type>
+          <declname>pattern</declname>
+        </param>
+        <param>
+          <type>__in const std::string &amp;</type>
+          <declname>replace</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/CPPWITHCSHARP/ReferenceClass.h" line="29" column="1" bodyfile="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/CPPWITHCSHARP/ReferenceClass.cpp" bodystart="10" bodyend="27"/>
+        <referencedby refid="class_reference_class_1_1ref___pre_1af46f69f170b7626db974e08e24894353" compoundref="_reference_class___pre_8cpp" startline="66" endline="121">ReferenceClass::ref_Pre::TestEnvironment</referencedby>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="preprocessor">#pragma<sp/>once</highlight></codeline>
+<codeline lineno="2"><highlight class="preprocessor"></highlight><highlight class="preprocessor">#include<sp/>&quot;..\PostManager\ref\Part.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;..\PostManager\ref\CATIApost_DLL.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;..\PostManager\ref\Definition.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;..\PreManager\ref\Part.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;..\PreManager\ref\CATIApre_DLL.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;..\PreManager\ref\ReferenceEntity.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight><highlight class="preprocessor">#import<sp/>&quot;C:\\Program<sp/>Files<sp/>(x86)\\MACRO\\TransCAD\\TransCAD.exe&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;vcclr.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="10"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;msclr/marshal_cppstd.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="11"><highlight class="normal"></highlight></codeline>
+<codeline lineno="12"><highlight class="normal"></highlight><highlight class="keyword">using<sp/>namespace<sp/></highlight><highlight class="normal">System;</highlight></codeline>
+<codeline lineno="13"><highlight class="normal"></highlight><highlight class="keyword">using<sp/>namespace<sp/></highlight><highlight class="normal">System::Runtime::InteropServices;</highlight></codeline>
+<codeline lineno="14"><highlight class="normal"></highlight><highlight class="keyword">using<sp/>namespace<sp/></highlight><highlight class="normal">System::Collections::Generic;</highlight></codeline>
+<codeline lineno="15"><highlight class="normal"></highlight><highlight class="keyword">using<sp/>namespace<sp/></highlight><highlight class="normal">System::Diagnostics;</highlight></codeline>
+<codeline lineno="16"><highlight class="normal"></highlight></codeline>
+<codeline lineno="17"><highlight class="normal"></highlight><highlight class="keywordtype">string</highlight><highlight class="normal"><sp/><ref refid="_reference_class_8h_1a27d7884109d4b05adb7fd28a8a98a7ce" kindref="member">Stos</ref>(String^<sp/>k);</highlight></codeline>
+<codeline lineno="18"><highlight class="normal">String^<sp/><ref refid="_reference_class_8h_1a1df4caf6a0641fd90e6044b6b29da131" kindref="member">stoS</ref>(</highlight><highlight class="keywordtype">string</highlight><highlight class="normal"><sp/>k);</highlight></codeline>
+<codeline lineno="19"><highlight class="normal"></highlight></codeline>
+<codeline lineno="20" refid="structref_command" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">public<sp/>value<sp/>struct</highlight><highlight class="normal"><sp/><ref refid="structref_command" kindref="compound">refCommand</ref><sp/>{</highlight></codeline>
+<codeline lineno="21" refid="structref_command_1af019dca898c0c6d98f9a33d161df0f51" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="structref_command_1af019dca898c0c6d98f9a33d161df0f51" kindref="member">command</ref>;<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//Constraint<sp/>Type(CTYPE)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="22" refid="structref_command_1a56fa000f646f251c254d7650afb8f6c2" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>String^<sp/><ref refid="structref_command_1a56fa000f646f251c254d7650afb8f6c2" kindref="member">param</ref>;<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//TransCAD-&gt;CATIA의<sp/>경우<sp/>pack에<sp/>대한<sp/>정보를<sp/>받고//Result로는<sp/>catname에<sp/>대한<sp/>정보를<sp/>전달</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="23" refid="structref_command_1a268be2d545121a5f5ebe771b4c0c31c2" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>String^<sp/><ref refid="structref_command_1a268be2d545121a5f5ebe771b4c0c31c2" kindref="member">MasterPart</ref>;</highlight></codeline>
+<codeline lineno="24" refid="structref_command_1a8d74ad1451efb4c529c8e3ba25750467" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>String^<sp/><ref refid="structref_command_1a8d74ad1451efb4c529c8e3ba25750467" kindref="member">SlavePart</ref>;</highlight></codeline>
+<codeline lineno="25" refid="structref_command_1aac2edc97183e6f2ee8bb500d64a36bc6" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>String^<sp/><ref refid="structref_command_1aac2edc97183e6f2ee8bb500d64a36bc6" kindref="member">MasterPart_Ref</ref>;</highlight></codeline>
+<codeline lineno="26" refid="structref_command_1a49a1c36550613662a08c8c98613fae37" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>String^<sp/><ref refid="structref_command_1a49a1c36550613662a08c8c98613fae37" kindref="member">SlavePart_Ref</ref>;</highlight></codeline>
+<codeline lineno="27"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="28"><highlight class="normal"></highlight></codeline>
+<codeline lineno="29"><highlight class="normal">std::string<sp/><ref refid="_reference_class_8h_1a845542c4adade4e6695e66ef7405b936" kindref="member">replace_all</ref>(</highlight></codeline>
+<codeline lineno="30"><highlight class="normal"><sp/><sp/><sp/><sp/>__in<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>std::string<sp/>&amp;message,</highlight></codeline>
+<codeline lineno="31"><highlight class="normal"><sp/><sp/><sp/><sp/>__in<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>std::string<sp/>&amp;pattern,</highlight></codeline>
+<codeline lineno="32"><highlight class="normal"><sp/><sp/><sp/><sp/>__in<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>std::string<sp/>&amp;replace</highlight></codeline>
+<codeline lineno="33"><highlight class="normal">);</highlight></codeline>
+<codeline lineno="34"><highlight class="normal"></highlight></codeline>
+<codeline lineno="35" refid="class_pre_stack" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">public<sp/>ref<sp/>class</highlight><highlight class="normal"><sp/><ref refid="class_pre_stack" kindref="compound">PreStack</ref><sp/>{</highlight></codeline>
+<codeline lineno="36"><highlight class="normal"></highlight><highlight class="keyword">private</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="37" refid="class_pre_stack_1a518f0521afc0d3de167063eb32d25b52" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>List&lt;String^&gt;^<sp/>_dir<sp/>=<sp/></highlight><highlight class="keyword">gcnew</highlight><highlight class="normal"><sp/>List&lt;String^&gt;();</highlight></codeline>
+<codeline lineno="38" refid="class_pre_stack_1a784ae9cba26983735be0e111fa888877" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>List&lt;String^&gt;^<sp/>_part_catia_name<sp/>=<sp/></highlight><highlight class="keyword">gcnew</highlight><highlight class="normal"><sp/>List&lt;String^&gt;();</highlight></codeline>
+<codeline lineno="39" refid="class_pre_stack_1aff4cabea8bceac6cf4c76a666bc773c8" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>List&lt;String^&gt;^<sp/>_part_transcad_name<sp/>=<sp/></highlight><highlight class="keyword">gcnew</highlight><highlight class="normal"><sp/>List&lt;String^&gt;();</highlight></codeline>
+<codeline lineno="40"><highlight class="normal"></highlight><highlight class="keyword">public</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="41" refid="class_pre_stack_1a57dc1cb201f76e5098f8eb7de3aa6d22" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_pre_stack_1a57dc1cb201f76e5098f8eb7de3aa6d22" kindref="member">StackItem</ref>(String^<sp/>dir,<sp/>String^<sp/>part_catia_name,<sp/>String^<sp/>part_transcad_name)<sp/>{</highlight></codeline>
+<codeline lineno="42"><highlight class="normal"></highlight></codeline>
+<codeline lineno="43"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>_dir-&gt;Add(dir);</highlight></codeline>
+<codeline lineno="44"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>_part_catia_name-&gt;Add(part_catia_name);</highlight></codeline>
+<codeline lineno="45"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>_part_transcad_name-&gt;Add(part_transcad_name);</highlight></codeline>
+<codeline lineno="46"><highlight class="normal"></highlight></codeline>
+<codeline lineno="47"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="48" refid="class_pre_stack_1adb9f10b73879559db98cc9e418f79a48" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="class_pre_stack_1adb9f10b73879559db98cc9e418f79a48" kindref="member">GetSize</ref>()<sp/>{<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>_dir-&gt;Count;<sp/>}</highlight></codeline>
+<codeline lineno="49" refid="class_pre_stack_1a789be7a07d29bec0fdb891c737da31a3" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_pre_stack_1a789be7a07d29bec0fdb891c737da31a3" kindref="member">Clear</ref>()<sp/>{<sp/>_dir-&gt;Clear();<sp/>_part_catia_name-&gt;Clear();<sp/>_part_transcad_name-&gt;Clear();<sp/>}</highlight></codeline>
+<codeline lineno="50" refid="class_pre_stack_1ab97cfcc64415c2cb573333ea52d31ca8" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="class_pre_stack_1ab97cfcc64415c2cb573333ea52d31ca8" kindref="member">Getindex_from_name</ref>(String^<sp/>part_catia_name,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>order)<sp/>{</highlight></codeline>
+<codeline lineno="51"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>cnt<sp/>=<sp/>order;</highlight></codeline>
+<codeline lineno="52"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">for</highlight><highlight class="normal"><sp/>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>i<sp/>=<sp/>0;<sp/>i<sp/>&lt;<sp/>_dir-&gt;Count;<sp/>i++)<sp/>{</highlight></codeline>
+<codeline lineno="53"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(_part_catia_name[i]<sp/>==<sp/>part_catia_name)<sp/>{</highlight></codeline>
+<codeline lineno="54"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(--cnt<sp/>==<sp/>0)<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>i;</highlight></codeline>
+<codeline lineno="55"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>};</highlight></codeline>
+<codeline lineno="56"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="57"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>-1;</highlight></codeline>
+<codeline lineno="58"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="59" refid="class_pre_stack_1a2dc1d77864de7e01e83891bd46777f7c" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>String^<sp/><ref refid="class_pre_stack_1a2dc1d77864de7e01e83891bd46777f7c" kindref="member">Getitem_from_index</ref>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>item,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>index)<sp/>{</highlight></codeline>
+<codeline lineno="60"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(item<sp/>==<sp/>0)<sp/>{<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>_dir[index];<sp/>}</highlight></codeline>
+<codeline lineno="61"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(item<sp/>==<sp/>1)<sp/>{<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>_part_catia_name[index];<sp/>}</highlight></codeline>
+<codeline lineno="62"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(item<sp/>==<sp/>2)<sp/>{<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>_part_transcad_name[index];<sp/>}</highlight></codeline>
+<codeline lineno="63"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal"><sp/>{<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;&quot;</highlight><highlight class="normal">;<sp/>}</highlight></codeline>
+<codeline lineno="64"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="65"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="66"><highlight class="normal"></highlight></codeline>
+<codeline lineno="67" refid="structparsing" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="structparsing" kindref="compound">parsing</ref><sp/>{</highlight></codeline>
+<codeline lineno="68"><highlight class="normal"></highlight></codeline>
+<codeline lineno="69" refid="structparsing_1a602513d02949072c8892d5af6714c54c" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">string</highlight><highlight class="normal"><sp/>assem_product<sp/>=<sp/></highlight><highlight class="stringliteral">&quot;&quot;</highlight><highlight class="normal">;<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//product1</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="70" refid="structparsing_1a291835b970e948e4aefe92403bcd5589" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>product_num<sp/>=<sp/>-1;<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//1</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="71" refid="structparsing_1adbcbf43366347f99b814fb375be7c162" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">string</highlight><highlight class="normal"><sp/>assem_part<sp/>=<sp/></highlight><highlight class="stringliteral">&quot;&quot;</highlight><highlight class="normal">;<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//Part1.2</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="72" refid="structparsing_1a280067936b80cf528e48af66c750c81c" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>part_num<sp/>=<sp/>-1;<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//2</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="73" refid="structparsing_1a5402c87864310e1985935b298bce61f9" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">string</highlight><highlight class="normal"><sp/>assem_geometry<sp/>=<sp/></highlight><highlight class="stringliteral">&quot;&quot;</highlight><highlight class="normal">;<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//&quot;Axis:(Selection_RSur:(Face:(Brp:(Pocket.1;0:(Brp:(Sketch.2;4)));None:();Cf11:());Pocket.1_ResultOUT;Z0;G3563))&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="74"><highlight class="normal"></highlight></codeline>
+<codeline lineno="75" refid="structparsing_1a6df6e4ec319c51851468f9da22f46387" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">string</highlight><highlight class="normal"><sp/>Transcad_subAssemName<sp/>=<sp/></highlight><highlight class="stringliteral">&quot;&quot;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="76" refid="structparsing_1a15e17ea458bb46d47f86933bdd19e5e6" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">string</highlight><highlight class="normal"><sp/>Transcad_partName<sp/>=<sp/></highlight><highlight class="stringliteral">&quot;&quot;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="77" refid="structparsing_1a7fe5daec7f55129d5d4eace71208b285" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">string</highlight><highlight class="normal"><sp/>Transcad_geometry<sp/>=<sp/></highlight><highlight class="stringliteral">&quot;&quot;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="78"><highlight class="normal"></highlight></codeline>
+<codeline lineno="79" refid="structparsing_1a0d87028fe822c62c700ddedd185e2a98" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="structparsing_1a0d87028fe822c62c700ddedd185e2a98" kindref="member">clear</ref>()<sp/>{</highlight></codeline>
+<codeline lineno="80"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>assem_product<sp/>=<sp/></highlight><highlight class="stringliteral">&quot;&quot;</highlight><highlight class="normal">;<sp/>assem_part<sp/>=<sp/></highlight><highlight class="stringliteral">&quot;&quot;</highlight><highlight class="normal">;<sp/>assem_geometry<sp/>=<sp/></highlight><highlight class="stringliteral">&quot;&quot;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="81"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>Transcad_subAssemName<sp/>=<sp/></highlight><highlight class="stringliteral">&quot;&quot;</highlight><highlight class="normal">;<sp/>Transcad_partName<sp/>=<sp/></highlight><highlight class="stringliteral">&quot;&quot;</highlight><highlight class="normal">;<sp/>Transcad_geometry<sp/>=<sp/></highlight><highlight class="stringliteral">&quot;&quot;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="82"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>product_num<sp/>=<sp/>-1;<sp/>part_num<sp/>=<sp/>-1;</highlight></codeline>
+<codeline lineno="83"><highlight class="normal"></highlight></codeline>
+<codeline lineno="84"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="85"><highlight class="normal"></highlight></codeline>
+<codeline lineno="86"><highlight class="normal"></highlight></codeline>
+<codeline lineno="87"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="88"><highlight class="normal"></highlight></codeline>
+<codeline lineno="89"><highlight class="normal"></highlight></codeline>
+<codeline lineno="90"><highlight class="normal"></highlight><highlight class="comment">/*</highlight></codeline>
+<codeline lineno="91"><highlight class="comment"></highlight></codeline>
+<codeline lineno="92"><highlight class="comment">*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="93"><highlight class="normal"></highlight></codeline>
+<codeline lineno="95"><highlight class="comment">/*</highlight></codeline>
+<codeline lineno="96"><highlight class="comment">구현<sp/>방법</highlight></codeline>
+<codeline lineno="97"><highlight class="comment">1<sp/>:<sp/>C++<sp/>lib<sp/>를<sp/>추가</highlight></codeline>
+<codeline lineno="98"><highlight class="comment">2<sp/>:<sp/>외부(C#)로<sp/>노출시킬<sp/>namespaceA,<sp/>ClassA<sp/>생성</highlight></codeline>
+<codeline lineno="99"><highlight class="comment">3<sp/>:<sp/>외부(C#)로<sp/>노출시킬<sp/>functionA</highlight></codeline>
+<codeline lineno="100"><highlight class="comment">3<sp/>:<sp/>protected로<sp/>C++<sp/>lib<sp/>내부<sp/>ClassB<sp/>변수를<sp/>생성<sp/>(&lt;protected<sp/>에서&gt;::ClassB<sp/>*m_c)</highlight></codeline>
+<codeline lineno="101"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>(&lt;생성자에서&gt;<sp/>ClassA::ClassA()<sp/>:m_c(new<sp/>ClassB){})</highlight></codeline>
+<codeline lineno="102"><highlight class="comment">4<sp/>:<sp/>functionA<sp/>에서<sp/>m_c를<sp/>통해<sp/>lib내부<sp/>functionB를<sp/>사용</highlight></codeline>
+<codeline lineno="103"><highlight class="comment">*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="104"><highlight class="normal"></highlight></codeline>
+<codeline lineno="106"><highlight class="comment">/*<sp/><sp/>CLI<sp/>변수</highlight></codeline>
+<codeline lineno="107"><highlight class="comment">C#자료구조형이랑<sp/>C++<sp/>자료구조형이<sp/>다르기<sp/>때문에<sp/>변환이<sp/>필요</highlight></codeline>
+<codeline lineno="108"><highlight class="comment"></highlight></codeline>
+<codeline lineno="109"><highlight class="comment">1.<sp/>(C++<sp/>string)<sp/>std:string<sp/>=<sp/>(C#<sp/>string)<sp/>String^</highlight></codeline>
+<codeline lineno="110"><highlight class="comment"><sp/><sp/><sp/><sp/>String^<sp/>-&gt;<sp/>string<sp/>변환<sp/>=<sp/>std::string<sp/>c<sp/>=<sp/>msclr::interop::marshal_as&lt;<sp/>std::string<sp/>&gt;(p);<sp/><sp/>//p<sp/>=<sp/>String^변수</highlight></codeline>
+<codeline lineno="111"><highlight class="comment"><sp/><sp/><sp/><sp/>string<sp/>-&gt;<sp/>String^<sp/>변환<sp/>=<sp/>p<sp/>=<sp/>msclr::interop::marshal_as&lt;String^&gt;(c);<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>//p<sp/>=<sp/>String^변수</highlight></codeline>
+<codeline lineno="112"><highlight class="comment"></highlight></codeline>
+<codeline lineno="113"><highlight class="comment">*/</highlight></codeline>
+<codeline lineno="115"><highlight class="comment">/*</highlight></codeline>
+<codeline lineno="116"><highlight class="comment">여기서<sp/>구현된<sp/>함수(functionA)를<sp/>C#에서<sp/>사용하는<sp/>방법</highlight></codeline>
+<codeline lineno="117"><highlight class="comment">0<sp/>:<sp/>C#<sp/>프로젝트에서<sp/>참조<sp/>추가로<sp/>이거<sp/>참조해주고</highlight></codeline>
+<codeline lineno="118"><highlight class="comment">1<sp/>:<sp/>namespaceA.ClassA<sp/>m_refer<sp/>=<sp/>new<sp/>namespaceA.ClassA();</highlight></codeline>
+<codeline lineno="119"><highlight class="comment">2<sp/>:<sp/>m_refer.functionA(함수인자)</highlight></codeline>
+<codeline lineno="120"><highlight class="comment">*/</highlight><highlight class="normal"></highlight></codeline>
+    </programlisting>
+    <location file="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/CPPWITHCSHARP/ReferenceClass.h"/>
+  </compounddef>
+</doxygen>

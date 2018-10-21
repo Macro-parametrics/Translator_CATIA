@@ -1,0 +1,168 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="_f_s_k_e_t_c_h_create2_d_point_8h" kind="file">
+    <compoundname>FSKETCHCreate2DPoint.h</compoundname>
+    <includes refid="_f_s_k_e_t_c_h_item_8h" local="yes">FSKETCHItem.h</includes>
+    <includedby refid="_pre_manager_2ref_2_f_sketch_8cpp" local="yes">PreManager/ref/FSketch.cpp</includedby>
+    <includedby refid="_f_s_k_e_t_c_h_create2_d_point_8cpp" local="yes">PreManager/ref/FSKETCHCreate2DPoint.cpp</includedby>
+    <incdepgraph>
+      <node id="3568">
+        <label>strstream</label>
+      </node>
+      <node id="3552">
+        <label>Feature.h</label>
+        <link refid="_pre_manager_2ref_2_feature_8h"/>
+        <childnode refid="3553" relation="include">
+        </childnode>
+      </node>
+      <node id="3562">
+        <label>cmath</label>
+      </node>
+      <node id="3557">
+        <label>string</label>
+      </node>
+      <node id="3566">
+        <label>comdef.h</label>
+      </node>
+      <node id="3565">
+        <label>comutil.h</label>
+      </node>
+      <node id="3550">
+        <label>FSKETCHItem.h</label>
+        <link refid="_f_s_k_e_t_c_h_item_8h"/>
+        <childnode refid="3551" relation="include">
+        </childnode>
+      </node>
+      <node id="3551">
+        <label>FSketch.h</label>
+        <link refid="_pre_manager_2ref_2_f_sketch_8h"/>
+        <childnode refid="3552" relation="include">
+        </childnode>
+      </node>
+      <node id="3560">
+        <label>fstream</label>
+      </node>
+      <node id="3558">
+        <label>string.h</label>
+      </node>
+      <node id="3554">
+        <label>CATIApre_DLL.h</label>
+        <link refid="_c_a_t_i_apre___d_l_l_8h"/>
+        <childnode refid="3555" relation="include">
+        </childnode>
+        <childnode refid="3556" relation="include">
+        </childnode>
+        <childnode refid="3557" relation="include">
+        </childnode>
+        <childnode refid="3558" relation="include">
+        </childnode>
+        <childnode refid="3559" relation="include">
+        </childnode>
+        <childnode refid="3560" relation="include">
+        </childnode>
+        <childnode refid="3561" relation="include">
+        </childnode>
+        <childnode refid="3562" relation="include">
+        </childnode>
+        <childnode refid="3563" relation="include">
+        </childnode>
+        <childnode refid="3564" relation="include">
+        </childnode>
+        <childnode refid="3565" relation="include">
+        </childnode>
+        <childnode refid="3566" relation="include">
+        </childnode>
+        <childnode refid="3567" relation="include">
+        </childnode>
+      </node>
+      <node id="3549">
+        <label>PreManager/ref/FSKETCHCreate2DPoint.h</label>
+        <link refid="FSKETCHCreate2DPoint.h"/>
+        <childnode refid="3550" relation="include">
+        </childnode>
+      </node>
+      <node id="3561">
+        <label>vector</label>
+      </node>
+      <node id="3564">
+        <label>sstream</label>
+      </node>
+      <node id="3563">
+        <label>math.h</label>
+      </node>
+      <node id="3559">
+        <label>iostream</label>
+      </node>
+      <node id="3556">
+        <label>tchar.h</label>
+      </node>
+      <node id="3567">
+        <label>Definition.h</label>
+        <link refid="_pre_manager_2ref_2_definition_8h"/>
+        <childnode refid="3568" relation="include">
+        </childnode>
+        <childnode refid="3559" relation="include">
+        </childnode>
+        <childnode refid="3563" relation="include">
+        </childnode>
+      </node>
+      <node id="3553">
+        <label>Part.h</label>
+        <link refid="_pre_manager_2ref_2_part_8h"/>
+        <childnode refid="3554" relation="include">
+        </childnode>
+      </node>
+      <node id="3555">
+        <label>stdio.h</label>
+      </node>
+    </incdepgraph>
+    <invincdepgraph>
+      <node id="3570">
+        <label>PreManager/ref/FSketch.cpp</label>
+        <link refid="_pre_manager_2ref_2_f_sketch_8cpp"/>
+      </node>
+      <node id="3569">
+        <label>PreManager/ref/FSKETCHCreate2DPoint.h</label>
+        <link refid="FSKETCHCreate2DPoint.h"/>
+        <childnode refid="3570" relation="include">
+        </childnode>
+        <childnode refid="3571" relation="include">
+        </childnode>
+      </node>
+      <node id="3571">
+        <label>PreManager/ref/FSKETCHCreate2DPoint.cpp</label>
+        <link refid="_f_s_k_e_t_c_h_create2_d_point_8cpp"/>
+      </node>
+    </invincdepgraph>
+    <innerclass refid="class_pre_1_1_f_s_k_e_t_c_h_create2_d_point" prot="public">Pre::FSKETCHCreate2DPoint</innerclass>
+    <innernamespace refid="namespace_pre">Pre</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="preprocessor">#pragma<sp/>once</highlight></codeline>
+<codeline lineno="2"><highlight class="preprocessor"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="_f_s_k_e_t_c_h_item_8h" kindref="compound">FSKETCHItem.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal">Pre<sp/>{</highlight></codeline>
+<codeline lineno="4" refid="class_pre_1_1_f_s_k_e_t_c_h_create2_d_point" refkind="compound"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="class_pre_1_1_f_s_k_e_t_c_h_create2_d_point" kindref="compound">FSKETCHCreate2DPoint</ref><sp/>:<sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/><ref refid="class_pre_1_1_f_s_k_e_t_c_h_item" kindref="compound">FSKETCHItem</ref></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="6"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="7"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_pre_1_1_f_s_k_e_t_c_h_create2_d_point_1ae8e5d19344edcccb74ad74b890ce95ff" kindref="member">FSKETCHCreate2DPoint</ref>(<ref refid="class_pre_1_1_f_sketch" kindref="compound">FSketch</ref><sp/>*<sp/>pFSketch,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>type,<sp/></highlight><highlight class="keywordtype">string</highlight><highlight class="normal"><sp/>name);</highlight></codeline>
+<codeline lineno="8"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/><ref refid="class_pre_1_1_f_s_k_e_t_c_h_create2_d_point_1aa92efa19e0902034a0b908acdbc8aff5" kindref="member">~FSKETCHCreate2DPoint</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight></codeline>
+<codeline lineno="10" refid="class_pre_1_1_f_s_k_e_t_c_h_create2_d_point_1a645cc2610cd7128cd6539548d116fd03" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_pre_1_1_f_s_k_e_t_c_h_create2_d_point_1a645cc2610cd7128cd6539548d116fd03" kindref="member">GetPoint</ref>(<ref refid="namespace_pre_1a42512ff1a00cd929e4efd66d0b148707" kindref="member">Point3D</ref><sp/>&amp;<sp/>point)<sp/>{<sp/>point<sp/>=<sp/><ref refid="class_pre_1_1_f_s_k_e_t_c_h_create2_d_point_1acfeb03f5aeb3a7b0e1c5df54aab2376e" kindref="member">_point</ref>;<sp/>}</highlight></codeline>
+<codeline lineno="11"><highlight class="normal"></highlight></codeline>
+<codeline lineno="12"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_pre_1_1_f_s_k_e_t_c_h_create2_d_point_1a358ffa73af5381055b331adbbd52b63b" kindref="member">GetInfo</ref>(ifstream<sp/>&amp;<sp/>is);</highlight></codeline>
+<codeline lineno="13"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_pre_1_1_f_s_k_e_t_c_h_create2_d_point_1abc6602e2434ad71c2cb0300bfd92822c" kindref="member">ToTransCAD</ref>();</highlight></codeline>
+<codeline lineno="14"><highlight class="normal"></highlight></codeline>
+<codeline lineno="15"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_pre_1_1_f_s_k_e_t_c_h_create2_d_point_1aa66275b9c4ef057e73049b0b913e831d" kindref="member">Modify</ref>(</highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*<sp/>buffer);</highlight></codeline>
+<codeline lineno="16"><highlight class="normal"></highlight></codeline>
+<codeline lineno="17"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">private</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="18" refid="class_pre_1_1_f_s_k_e_t_c_h_create2_d_point_1acfeb03f5aeb3a7b0e1c5df54aab2376e" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/><ref refid="class_pre_1_1_f_s_k_e_t_c_h_create2_d_point_1acfeb03f5aeb3a7b0e1c5df54aab2376e" kindref="member">_point</ref>[3];</highlight></codeline>
+<codeline lineno="19"><highlight class="normal"><sp/><sp/><sp/><sp/>};</highlight></codeline>
+<codeline lineno="20"><highlight class="normal"></highlight></codeline>
+<codeline lineno="21"><highlight class="normal">}</highlight></codeline>
+    </programlisting>
+    <location file="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/PreManager/ref/FSKETCHCreate2DPoint.h"/>
+  </compounddef>
+</doxygen>

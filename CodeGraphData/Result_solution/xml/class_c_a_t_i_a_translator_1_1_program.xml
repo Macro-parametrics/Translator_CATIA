@@ -1,0 +1,36 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_c_a_t_i_a_translator_1_1_program" kind="class" prot="public">
+    <compoundname>CATIATranslator::Program</compoundname>
+      <sectiondef kind="private-static-func">
+      <memberdef kind="function" id="class_c_a_t_i_a_translator_1_1_program_1a86f19640fd443e4febc90940f0869e23" prot="private" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void CATIATranslator.Program.Main</definition>
+        <argsstring>(string[] args)</argsstring>
+        <name>Main</name>
+        <param>
+          <type>string[]</type>
+          <declname>args</declname>
+        </param>
+        <briefdescription>
+<para>해당 응용 프로그램의 주 진입점입니다. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/CATIATranslator/Program.cs" line="14" column="1" bodyfile="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/CATIATranslator/Program.cs" bodystart="14" bodyend="97"/>
+        <references refid="class_c_a_t_i_a_translator_1_1_part_1ae4fec9ff28eb930f5f2271034679308b" compoundref="_part_8cs" startline="48" endline="87">CATIATranslator.Part.InitializeCATIA</references>
+        <references refid="class_c_a_t_i_a_translator_1_1_assembly_1adefbea9a6e1033daef571c3c86cc3cef" compoundref="_assembly_8cs" startline="99" endline="142">CATIATranslator.Assembly.InitializeTransCAD</references>
+        <references refid="class_c_a_t_i_a_translator_1_1_part_1a52ba4965203633fc29560d9acd758d6f" compoundref="_part_8cs" startline="213" endline="253">CATIATranslator.Part.InitializeTransCAD</references>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/CATIATranslator/Program.cs" line="9" column="1" bodyfile="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/CATIATranslator/Program.cs" bodystart="8" bodyend="98"/>
+    <listofallmembers>
+      <member refid="class_c_a_t_i_a_translator_1_1_program_1a86f19640fd443e4febc90940f0869e23" prot="private" virt="non-virtual"><scope>CATIATranslator::Program</scope><name>Main</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

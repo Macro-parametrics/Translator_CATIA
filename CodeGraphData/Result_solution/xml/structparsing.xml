@@ -1,0 +1,180 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="structparsing" kind="struct" prot="public">
+    <compoundname>parsing</compoundname>
+    <includes refid="_reference_class_8h" local="no">ReferenceClass.h</includes>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="structparsing_1a602513d02949072c8892d5af6714c54c" prot="public" static="no" mutable="no">
+        <type>string</type>
+        <definition>string parsing::assem_product</definition>
+        <argsstring></argsstring>
+        <name>assem_product</name>
+        <initializer>= &quot;&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/CPPWITHCSHARP/ReferenceClass.h" line="69" column="1" bodyfile="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/CPPWITHCSHARP/ReferenceClass.h" bodystart="69" bodyend="-1"/>
+        <referencedby refid="class_reference_class_1_1ref___pre_1a8d058d5b4069f52fe9673bc9202f3cd0" compoundref="_reference_class___pre_8cpp" startline="258" endline="301">ReferenceClass::ref_Pre::GetTransCADName_from_buffer</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="structparsing_1a291835b970e948e4aefe92403bcd5589" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int parsing::product_num</definition>
+        <argsstring></argsstring>
+        <name>product_num</name>
+        <initializer>= -1</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/CPPWITHCSHARP/ReferenceClass.h" line="70" column="1" bodyfile="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/CPPWITHCSHARP/ReferenceClass.h" bodystart="70" bodyend="-1"/>
+        <referencedby refid="class_reference_class_1_1ref___pre_1ac8cd404fe503874a3b72314edf6c07ae" compoundref="_reference_class___pre_8cpp" startline="303" endline="337">ReferenceClass::ref_Pre::Constraint_to_TransCAD</referencedby>
+        <referencedby refid="class_reference_class_1_1ref___pre_1a8d058d5b4069f52fe9673bc9202f3cd0" compoundref="_reference_class___pre_8cpp" startline="258" endline="301">ReferenceClass::ref_Pre::GetTransCADName_from_buffer</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="structparsing_1adbcbf43366347f99b814fb375be7c162" prot="public" static="no" mutable="no">
+        <type>string</type>
+        <definition>string parsing::assem_part</definition>
+        <argsstring></argsstring>
+        <name>assem_part</name>
+        <initializer>= &quot;&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/CPPWITHCSHARP/ReferenceClass.h" line="71" column="1" bodyfile="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/CPPWITHCSHARP/ReferenceClass.h" bodystart="71" bodyend="-1"/>
+        <referencedby refid="class_reference_class_1_1ref___pre_1a8d058d5b4069f52fe9673bc9202f3cd0" compoundref="_reference_class___pre_8cpp" startline="258" endline="301">ReferenceClass::ref_Pre::GetTransCADName_from_buffer</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="structparsing_1a280067936b80cf528e48af66c750c81c" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int parsing::part_num</definition>
+        <argsstring></argsstring>
+        <name>part_num</name>
+        <initializer>= -1</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/CPPWITHCSHARP/ReferenceClass.h" line="72" column="1" bodyfile="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/CPPWITHCSHARP/ReferenceClass.h" bodystart="72" bodyend="-1"/>
+        <referencedby refid="class_reference_class_1_1ref___pre_1a8d058d5b4069f52fe9673bc9202f3cd0" compoundref="_reference_class___pre_8cpp" startline="258" endline="301">ReferenceClass::ref_Pre::GetTransCADName_from_buffer</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="structparsing_1a5402c87864310e1985935b298bce61f9" prot="public" static="no" mutable="no">
+        <type>string</type>
+        <definition>string parsing::assem_geometry</definition>
+        <argsstring></argsstring>
+        <name>assem_geometry</name>
+        <initializer>= &quot;&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/CPPWITHCSHARP/ReferenceClass.h" line="73" column="1" bodyfile="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/CPPWITHCSHARP/ReferenceClass.h" bodystart="73" bodyend="-1"/>
+        <referencedby refid="class_reference_class_1_1ref___pre_1a8d058d5b4069f52fe9673bc9202f3cd0" compoundref="_reference_class___pre_8cpp" startline="258" endline="301">ReferenceClass::ref_Pre::GetTransCADName_from_buffer</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="structparsing_1a6df6e4ec319c51851468f9da22f46387" prot="public" static="no" mutable="no">
+        <type>string</type>
+        <definition>string parsing::Transcad_subAssemName</definition>
+        <argsstring></argsstring>
+        <name>Transcad_subAssemName</name>
+        <initializer>= &quot;&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/CPPWITHCSHARP/ReferenceClass.h" line="75" column="1" bodyfile="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/CPPWITHCSHARP/ReferenceClass.h" bodystart="75" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structparsing_1a15e17ea458bb46d47f86933bdd19e5e6" prot="public" static="no" mutable="no">
+        <type>string</type>
+        <definition>string parsing::Transcad_partName</definition>
+        <argsstring></argsstring>
+        <name>Transcad_partName</name>
+        <initializer>= &quot;&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/CPPWITHCSHARP/ReferenceClass.h" line="76" column="1" bodyfile="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/CPPWITHCSHARP/ReferenceClass.h" bodystart="76" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structparsing_1a7fe5daec7f55129d5d4eace71208b285" prot="public" static="no" mutable="no">
+        <type>string</type>
+        <definition>string parsing::Transcad_geometry</definition>
+        <argsstring></argsstring>
+        <name>Transcad_geometry</name>
+        <initializer>= &quot;&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/CPPWITHCSHARP/ReferenceClass.h" line="77" column="1" bodyfile="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/CPPWITHCSHARP/ReferenceClass.h" bodystart="77" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="structparsing_1a0d87028fe822c62c700ddedd185e2a98" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void parsing::clear</definition>
+        <argsstring>()</argsstring>
+        <name>clear</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/CPPWITHCSHARP/ReferenceClass.h" line="79" column="1" bodyfile="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/CPPWITHCSHARP/ReferenceClass.h" bodystart="79" bodyend="84"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="1055">
+        <label>parsing</label>
+        <link refid="structparsing"/>
+        <childnode refid="1056" relation="usage">
+          <edgelabel>assem_part</edgelabel>
+          <edgelabel>assem_product</edgelabel>
+          <edgelabel>Transcad_subAssemName</edgelabel>
+          <edgelabel>Transcad_geometry</edgelabel>
+          <edgelabel>Transcad_partName</edgelabel>
+          <edgelabel>assem_geometry</edgelabel>
+        </childnode>
+      </node>
+      <node id="1057">
+        <label>std::basic_string&lt; char &gt;</label>
+      </node>
+      <node id="1056">
+        <label>std::string</label>
+        <childnode refid="1057" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/CPPWITHCSHARP/ReferenceClass.h" line="67" column="1" bodyfile="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/CPPWITHCSHARP/ReferenceClass.h" bodystart="67" bodyend="87"/>
+    <listofallmembers>
+      <member refid="structparsing_1a5402c87864310e1985935b298bce61f9" prot="public" virt="non-virtual"><scope>parsing</scope><name>assem_geometry</name></member>
+      <member refid="structparsing_1adbcbf43366347f99b814fb375be7c162" prot="public" virt="non-virtual"><scope>parsing</scope><name>assem_part</name></member>
+      <member refid="structparsing_1a602513d02949072c8892d5af6714c54c" prot="public" virt="non-virtual"><scope>parsing</scope><name>assem_product</name></member>
+      <member refid="structparsing_1a0d87028fe822c62c700ddedd185e2a98" prot="public" virt="non-virtual"><scope>parsing</scope><name>clear</name></member>
+      <member refid="structparsing_1a280067936b80cf528e48af66c750c81c" prot="public" virt="non-virtual"><scope>parsing</scope><name>part_num</name></member>
+      <member refid="structparsing_1a291835b970e948e4aefe92403bcd5589" prot="public" virt="non-virtual"><scope>parsing</scope><name>product_num</name></member>
+      <member refid="structparsing_1a7fe5daec7f55129d5d4eace71208b285" prot="public" virt="non-virtual"><scope>parsing</scope><name>Transcad_geometry</name></member>
+      <member refid="structparsing_1a15e17ea458bb46d47f86933bdd19e5e6" prot="public" virt="non-virtual"><scope>parsing</scope><name>Transcad_partName</name></member>
+      <member refid="structparsing_1a6df6e4ec319c51851468f9da22f46387" prot="public" virt="non-virtual"><scope>parsing</scope><name>Transcad_subAssemName</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

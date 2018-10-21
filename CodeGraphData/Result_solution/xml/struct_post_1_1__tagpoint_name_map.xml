@@ -1,0 +1,80 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="struct_post_1_1__tagpoint_name_map" kind="struct" prot="public">
+    <compoundname>Post::_tagpointNameMap</compoundname>
+    <includes refid="_c_a_t_i_a_reference_manager_8h" local="no">CATIAReferenceManager.h</includes>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="struct_post_1_1__tagpoint_name_map_1ab9e3fa97a5a07bb1715b97063f84918b" prot="public" static="no" mutable="no">
+        <type>std::string</type>
+        <definition>std::string Post::_tagpointNameMap::_sketchName</definition>
+        <argsstring></argsstring>
+        <name>_sketchName</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/PostManager/ref/CATIAReferenceManager.h" line="22" column="1" bodyfile="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/PostManager/ref/CATIAReferenceManager.h" bodystart="22" bodyend="-1"/>
+        <referencedby refid="class_post_1_1_c_a_t_i_a_reference_manager_1a25f67887620b45f7443dcbcf674b7417" compoundref="_c_a_t_i_a_reference_manager_8cpp" startline="132" endline="140">Post::CATIAReferenceManager::AddNewPointName</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="struct_post_1_1__tagpoint_name_map_1a44ba2f24665e7d5d3f29f5633ab6ccfe" prot="public" static="no" mutable="no">
+        <type>std::string</type>
+        <definition>std::string Post::_tagpointNameMap::_CATIAName</definition>
+        <argsstring></argsstring>
+        <name>_CATIAName</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/PostManager/ref/CATIAReferenceManager.h" line="23" column="1" bodyfile="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/PostManager/ref/CATIAReferenceManager.h" bodystart="23" bodyend="-1"/>
+        <referencedby refid="class_post_1_1_c_a_t_i_a_reference_manager_1a25f67887620b45f7443dcbcf674b7417" compoundref="_c_a_t_i_a_reference_manager_8cpp" startline="132" endline="140">Post::CATIAReferenceManager::AddNewPointName</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="struct_post_1_1__tagpoint_name_map_1a26a7d3b9dfea55b022feac1536af8941" prot="public" static="no" mutable="no">
+        <type>std::string</type>
+        <definition>std::string Post::_tagpointNameMap::_TransCADName</definition>
+        <argsstring></argsstring>
+        <name>_TransCADName</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/PostManager/ref/CATIAReferenceManager.h" line="24" column="1" bodyfile="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/PostManager/ref/CATIAReferenceManager.h" bodystart="24" bodyend="-1"/>
+        <referencedby refid="class_post_1_1_c_a_t_i_a_reference_manager_1a25f67887620b45f7443dcbcf674b7417" compoundref="_c_a_t_i_a_reference_manager_8cpp" startline="132" endline="140">Post::CATIAReferenceManager::AddNewPointName</referencedby>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="15">
+        <label>std::basic_string&lt; char &gt;</label>
+      </node>
+      <node id="13">
+        <label>Post::_tagpointNameMap</label>
+        <link refid="struct_post_1_1__tagpoint_name_map"/>
+        <childnode refid="14" relation="usage">
+          <edgelabel>_TransCADName</edgelabel>
+          <edgelabel>_sketchName</edgelabel>
+          <edgelabel>_CATIAName</edgelabel>
+        </childnode>
+      </node>
+      <node id="14">
+        <label>std::string</label>
+        <childnode refid="15" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/PostManager/ref/CATIAReferenceManager.h" line="21" column="1" bodyfile="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/PostManager/ref/CATIAReferenceManager.h" bodystart="20" bodyend="25"/>
+    <listofallmembers>
+      <member refid="struct_post_1_1__tagpoint_name_map_1a44ba2f24665e7d5d3f29f5633ab6ccfe" prot="public" virt="non-virtual"><scope>Post::_tagpointNameMap</scope><name>_CATIAName</name></member>
+      <member refid="struct_post_1_1__tagpoint_name_map_1ab9e3fa97a5a07bb1715b97063f84918b" prot="public" virt="non-virtual"><scope>Post::_tagpointNameMap</scope><name>_sketchName</name></member>
+      <member refid="struct_post_1_1__tagpoint_name_map_1a26a7d3b9dfea55b022feac1536af8941" prot="public" virt="non-virtual"><scope>Post::_tagpointNameMap</scope><name>_TransCADName</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

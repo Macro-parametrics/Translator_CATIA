@@ -1,0 +1,13 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="dir_21091f0633f1567300007a1f1e7980dc" kind="dir">
+    <compoundname>CATIATranslator/Part/Sketch/SketchElement</compoundname>
+    <innerfile refid="_sketch_circle2_d_8cs">SketchCircle2D.cs</innerfile>
+    <innerfile refid="_sketch_line2_d_8cs">SketchLine2D.cs</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/CATIATranslator/Part/Sketch/SketchElement/"/>
+  </compounddef>
+</doxygen>

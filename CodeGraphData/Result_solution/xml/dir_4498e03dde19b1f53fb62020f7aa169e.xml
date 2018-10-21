@@ -1,0 +1,23 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="dir_4498e03dde19b1f53fb62020f7aa169e" kind="dir">
+    <compoundname>CATIATranslator/Part/Feature</compoundname>
+    <innerfile refid="_feature_8cs">Feature.cs</innerfile>
+    <innerfile refid="_feature_chamfer_8cs">FeatureChamfer.cs</innerfile>
+    <innerfile refid="_feature_circ_pattern_8cs">FeatureCircPattern.cs</innerfile>
+    <innerfile refid="_feature_edge_fillet_8cs">FeatureEdgeFillet.cs</innerfile>
+    <innerfile refid="_feature_groove_8cs">FeatureGroove.cs</innerfile>
+    <innerfile refid="_feature_hole_8cs">FeatureHole.cs</innerfile>
+    <innerfile refid="_feature_pad_8cs">FeaturePad.cs</innerfile>
+    <innerfile refid="_feature_pocket_8cs">FeaturePocket.cs</innerfile>
+    <innerfile refid="_feature_rect_pattern_8cs">FeatureRectPattern.cs</innerfile>
+    <innerfile refid="_feature_rib_8cs">FeatureRib.cs</innerfile>
+    <innerfile refid="_feature_shaft_8cs">FeatureShaft.cs</innerfile>
+    <innerfile refid="_feature_slot_8cs">FeatureSlot.cs</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/CATIATranslator/Part/Feature/"/>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,274 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="_attribute_item_8h" kind="file">
+    <compoundname>AttributeItem.h</compoundname>
+    <includes refid="_pre_manager_2ref_2_part_8h" local="yes">Part.h</includes>
+    <includes refid="_pre_manager_2ref_2_feature_8h" local="yes">Feature.h</includes>
+    <includedby refid="_att_angle_8h" local="yes">PreManager/ref/AttAngle.h</includedby>
+    <includedby refid="_att_angular_repartation_8h" local="yes">PreManager/ref/AttAngularRepartation.h</includedby>
+    <includedby refid="_att_int_param_8h" local="yes">PreManager/ref/AttIntParam.h</includedby>
+    <includedby refid="_att_length_8h" local="yes">PreManager/ref/AttLength.h</includedby>
+    <includedby refid="_att_limit_8h" local="yes">PreManager/ref/AttLimit.h</includedby>
+    <includedby refid="_att_linear_repartation_8h" local="yes">PreManager/ref/AttLinearRepartation.h</includedby>
+    <includedby refid="_att_parameter_8h" local="yes">PreManager/ref/AttParameter.h</includedby>
+    <includedby refid="_attribute_item_8cpp" local="yes">PreManager/ref/AttributeItem.cpp</includedby>
+    <includedby refid="_pre_manager_2ref_2_part_8cpp" local="yes">PreManager/ref/Part.cpp</includedby>
+    <incdepgraph>
+      <node id="3137">
+        <label>strstream</label>
+      </node>
+      <node id="3138">
+        <label>Feature.h</label>
+        <link refid="_pre_manager_2ref_2_feature_8h"/>
+        <childnode refid="3122" relation="include">
+        </childnode>
+      </node>
+      <node id="3131">
+        <label>cmath</label>
+      </node>
+      <node id="3126">
+        <label>string</label>
+      </node>
+      <node id="3135">
+        <label>comdef.h</label>
+      </node>
+      <node id="3134">
+        <label>comutil.h</label>
+      </node>
+      <node id="3129">
+        <label>fstream</label>
+      </node>
+      <node id="3127">
+        <label>string.h</label>
+      </node>
+      <node id="3123">
+        <label>CATIApre_DLL.h</label>
+        <link refid="_c_a_t_i_apre___d_l_l_8h"/>
+        <childnode refid="3124" relation="include">
+        </childnode>
+        <childnode refid="3125" relation="include">
+        </childnode>
+        <childnode refid="3126" relation="include">
+        </childnode>
+        <childnode refid="3127" relation="include">
+        </childnode>
+        <childnode refid="3128" relation="include">
+        </childnode>
+        <childnode refid="3129" relation="include">
+        </childnode>
+        <childnode refid="3130" relation="include">
+        </childnode>
+        <childnode refid="3131" relation="include">
+        </childnode>
+        <childnode refid="3132" relation="include">
+        </childnode>
+        <childnode refid="3133" relation="include">
+        </childnode>
+        <childnode refid="3134" relation="include">
+        </childnode>
+        <childnode refid="3135" relation="include">
+        </childnode>
+        <childnode refid="3136" relation="include">
+        </childnode>
+      </node>
+      <node id="3121">
+        <label>PreManager/ref/AttributeItem.h</label>
+        <link refid="AttributeItem.h"/>
+        <childnode refid="3122" relation="include">
+        </childnode>
+        <childnode refid="3138" relation="include">
+        </childnode>
+      </node>
+      <node id="3130">
+        <label>vector</label>
+      </node>
+      <node id="3133">
+        <label>sstream</label>
+      </node>
+      <node id="3132">
+        <label>math.h</label>
+      </node>
+      <node id="3128">
+        <label>iostream</label>
+      </node>
+      <node id="3125">
+        <label>tchar.h</label>
+      </node>
+      <node id="3136">
+        <label>Definition.h</label>
+        <link refid="_pre_manager_2ref_2_definition_8h"/>
+        <childnode refid="3137" relation="include">
+        </childnode>
+        <childnode refid="3128" relation="include">
+        </childnode>
+        <childnode refid="3132" relation="include">
+        </childnode>
+      </node>
+      <node id="3122">
+        <label>Part.h</label>
+        <link refid="_pre_manager_2ref_2_part_8h"/>
+        <childnode refid="3123" relation="include">
+        </childnode>
+      </node>
+      <node id="3124">
+        <label>stdio.h</label>
+      </node>
+    </incdepgraph>
+    <invincdepgraph>
+      <node id="3150">
+        <label>PreManager/ref/AttLimit.cpp</label>
+        <link refid="_att_limit_8cpp"/>
+      </node>
+      <node id="3153">
+        <label>PreManager/ref/AttParameter.h</label>
+        <link refid="_att_parameter_8h"/>
+        <childnode refid="3154" relation="include">
+        </childnode>
+        <childnode refid="3142" relation="include">
+        </childnode>
+      </node>
+      <node id="3140">
+        <label>PreManager/ref/AttAngle.h</label>
+        <link refid="_att_angle_8h"/>
+        <childnode refid="3141" relation="include">
+        </childnode>
+        <childnode refid="3142" relation="include">
+        </childnode>
+      </node>
+      <node id="3152">
+        <label>PreManager/ref/AttLinearRepartation.cpp</label>
+        <link refid="_att_linear_repartation_8cpp"/>
+      </node>
+      <node id="3143">
+        <label>PreManager/ref/AttAngularRepartation.h</label>
+        <link refid="_att_angular_repartation_8h"/>
+        <childnode refid="3144" relation="include">
+        </childnode>
+        <childnode refid="3142" relation="include">
+        </childnode>
+      </node>
+      <node id="3145">
+        <label>PreManager/ref/AttIntParam.h</label>
+        <link refid="_att_int_param_8h"/>
+        <childnode refid="3146" relation="include">
+        </childnode>
+        <childnode refid="3142" relation="include">
+        </childnode>
+      </node>
+      <node id="3148">
+        <label>PreManager/ref/AttLength.cpp</label>
+        <link refid="_att_length_8cpp"/>
+      </node>
+      <node id="3147">
+        <label>PreManager/ref/AttLength.h</label>
+        <link refid="_att_length_8h"/>
+        <childnode refid="3148" relation="include">
+        </childnode>
+        <childnode refid="3142" relation="include">
+        </childnode>
+      </node>
+      <node id="3139">
+        <label>PreManager/ref/AttributeItem.h</label>
+        <link refid="AttributeItem.h"/>
+        <childnode refid="3140" relation="include">
+        </childnode>
+        <childnode refid="3143" relation="include">
+        </childnode>
+        <childnode refid="3145" relation="include">
+        </childnode>
+        <childnode refid="3147" relation="include">
+        </childnode>
+        <childnode refid="3149" relation="include">
+        </childnode>
+        <childnode refid="3151" relation="include">
+        </childnode>
+        <childnode refid="3153" relation="include">
+        </childnode>
+        <childnode refid="3155" relation="include">
+        </childnode>
+        <childnode refid="3142" relation="include">
+        </childnode>
+      </node>
+      <node id="3154">
+        <label>PreManager/ref/AttParameter.cpp</label>
+        <link refid="_att_parameter_8cpp"/>
+      </node>
+      <node id="3146">
+        <label>PreManager/ref/AttIntParam.cpp</label>
+        <link refid="_att_int_param_8cpp"/>
+      </node>
+      <node id="3155">
+        <label>PreManager/ref/AttributeItem.cpp</label>
+        <link refid="_attribute_item_8cpp"/>
+      </node>
+      <node id="3141">
+        <label>PreManager/ref/AttAngle.cpp</label>
+        <link refid="_att_angle_8cpp"/>
+      </node>
+      <node id="3144">
+        <label>PreManager/ref/AttAngularRepartation.cpp</label>
+        <link refid="_att_angular_repartation_8cpp"/>
+      </node>
+      <node id="3142">
+        <label>PreManager/ref/Part.cpp</label>
+        <link refid="_pre_manager_2ref_2_part_8cpp"/>
+      </node>
+      <node id="3149">
+        <label>PreManager/ref/AttLimit.h</label>
+        <link refid="_att_limit_8h"/>
+        <childnode refid="3150" relation="include">
+        </childnode>
+        <childnode refid="3142" relation="include">
+        </childnode>
+      </node>
+      <node id="3151">
+        <label>PreManager/ref/AttLinearRepartation.h</label>
+        <link refid="_att_linear_repartation_8h"/>
+        <childnode refid="3152" relation="include">
+        </childnode>
+        <childnode refid="3142" relation="include">
+        </childnode>
+      </node>
+    </invincdepgraph>
+    <innerclass refid="class_pre_1_1_attribute_item" prot="public">Pre::AttributeItem</innerclass>
+    <innernamespace refid="namespace_pre">Pre</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="preprocessor">#pragma<sp/>once</highlight></codeline>
+<codeline lineno="2"><highlight class="preprocessor"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="_pre_manager_2ref_2_part_8h" kindref="compound">Part.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="_pre_manager_2ref_2_feature_8h" kindref="compound">Feature.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal">Pre<sp/>{</highlight></codeline>
+<codeline lineno="5"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal">Part;</highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight></codeline>
+<codeline lineno="7" refid="class_pre_1_1_attribute_item" refkind="compound"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="class_pre_1_1_attribute_item" kindref="compound">AttributeItem</ref></highlight></codeline>
+<codeline lineno="8"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="9"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="10"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_pre_1_1_attribute_item_1af09ccc36da03bf511b44247b25c83f35" kindref="member">AttributeItem</ref>(<ref refid="class_pre_1_1_part" kindref="compound">Part</ref><sp/>*<sp/>pPart,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>type,<sp/></highlight><highlight class="keywordtype">string</highlight><highlight class="normal"><sp/>name);</highlight></codeline>
+<codeline lineno="11"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/><ref refid="class_pre_1_1_attribute_item_1aad0efaa8b68b971b8342b8634576c1d5" kindref="member">~AttributeItem</ref>();</highlight></codeline>
+<codeline lineno="12"><highlight class="normal"></highlight></codeline>
+<codeline lineno="13" refid="class_pre_1_1_attribute_item_1a028595a3b4b90035019a41f1c590062e" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_pre_1_1_part" kindref="compound">Part</ref><sp/>*<sp/><sp/><ref refid="class_pre_1_1_attribute_item_1a028595a3b4b90035019a41f1c590062e" kindref="member">GetPart</ref>()<sp/>{<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/><ref refid="class_pre_1_1_attribute_item_1a4fd56bf25f94537ccf373c6469f51738" kindref="member">_pPart</ref>;<sp/>}</highlight></codeline>
+<codeline lineno="14" refid="class_pre_1_1_attribute_item_1a912344f0ae1aeb9a30ca84254fa228f1" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="class_pre_1_1_attribute_item_1a912344f0ae1aeb9a30ca84254fa228f1" kindref="member">GetId</ref>()<sp/>{<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/><ref refid="class_pre_1_1_attribute_item_1ac709c5fd9ce19ec7c34bfde540ff33b8" kindref="member">_id</ref>;<sp/>}</highlight></codeline>
+<codeline lineno="15" refid="class_pre_1_1_attribute_item_1ac05a2863468303053150293b6f10ceec" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="class_pre_1_1_attribute_item_1ac05a2863468303053150293b6f10ceec" kindref="member">GetType</ref>()<sp/>{<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/><ref refid="class_pre_1_1_attribute_item_1a444b077c58fe0ada93ee55fd9eb58d52" kindref="member">_type</ref>;<sp/>}</highlight></codeline>
+<codeline lineno="16" refid="class_pre_1_1_attribute_item_1a1a9180e1336ee3cad4e736f7bba27184" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">string</highlight><highlight class="normal"><sp/><ref refid="class_pre_1_1_attribute_item_1a1a9180e1336ee3cad4e736f7bba27184" kindref="member">GetName</ref>()<sp/>{<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/><ref refid="class_pre_1_1_attribute_item_1a038f7f3ec13f1a554ab853a646ea731c" kindref="member">_name</ref>;<sp/>}</highlight></codeline>
+<codeline lineno="17"><highlight class="normal"></highlight></codeline>
+<codeline lineno="18"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_pre_1_1_attribute_item_1ae525b9c616a40016532a29d6df424de3" kindref="member">GetInfo</ref>(ifstream<sp/>&amp;<sp/>is);</highlight></codeline>
+<codeline lineno="19"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_pre_1_1_attribute_item_1ab6fe550dca4ebaf060433c962cc5e014" kindref="member">Modify</ref>(</highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*<sp/>buffer);</highlight></codeline>
+<codeline lineno="20"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_pre_1_1_attribute_item_1aee247cd7e3f5b5b86562ceec3dd9b283" kindref="member">CheckAttribute</ref>(</highlight><highlight class="keywordtype">string</highlight><highlight class="normal"><sp/>name,<sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>value,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>type);</highlight></codeline>
+<codeline lineno="21"><highlight class="normal"></highlight></codeline>
+<codeline lineno="22"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">protected</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="23" refid="class_pre_1_1_attribute_item_1a4fd56bf25f94537ccf373c6469f51738" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_pre_1_1_part" kindref="compound">Part</ref><sp/>*<sp/><ref refid="class_pre_1_1_attribute_item_1a4fd56bf25f94537ccf373c6469f51738" kindref="member">_pPart</ref>;</highlight></codeline>
+<codeline lineno="24" refid="class_pre_1_1_attribute_item_1a038f7f3ec13f1a554ab853a646ea731c" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">string</highlight><highlight class="normal"><sp/><ref refid="class_pre_1_1_attribute_item_1a038f7f3ec13f1a554ab853a646ea731c" kindref="member">_name</ref>;</highlight></codeline>
+<codeline lineno="25" refid="class_pre_1_1_attribute_item_1a921288c89d639a103f98ccad5f3f01cb" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">string</highlight><highlight class="normal"><sp/><ref refid="class_pre_1_1_attribute_item_1a921288c89d639a103f98ccad5f3f01cb" kindref="member">_featureName</ref>;</highlight></codeline>
+<codeline lineno="26" refid="class_pre_1_1_attribute_item_1a2367284f0672249ae539ac1924f12bb7" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">string</highlight><highlight class="normal"><sp/><ref refid="class_pre_1_1_attribute_item_1a2367284f0672249ae539ac1924f12bb7" kindref="member">_attributeName</ref>;</highlight></codeline>
+<codeline lineno="27" refid="class_pre_1_1_attribute_item_1a55411a73e84ce380f4b22d87be0c065a" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/><ref refid="class_pre_1_1_attribute_item_1a55411a73e84ce380f4b22d87be0c065a" kindref="member">_value</ref>;</highlight></codeline>
+<codeline lineno="28" refid="class_pre_1_1_attribute_item_1ac709c5fd9ce19ec7c34bfde540ff33b8" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="class_pre_1_1_attribute_item_1ac709c5fd9ce19ec7c34bfde540ff33b8" kindref="member">_id</ref>;</highlight></codeline>
+<codeline lineno="29" refid="class_pre_1_1_attribute_item_1a444b077c58fe0ada93ee55fd9eb58d52" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="class_pre_1_1_attribute_item_1a444b077c58fe0ada93ee55fd9eb58d52" kindref="member">_type</ref>;<sp/><sp/></highlight><highlight class="comment">//0<sp/>:<sp/>none<sp/>1:<sp/>length<sp/>2:<sp/>angle<sp/>3:<sp/></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="30"><highlight class="normal"><sp/><sp/><sp/><sp/>};</highlight></codeline>
+<codeline lineno="31"><highlight class="normal">}</highlight></codeline>
+    </programlisting>
+    <location file="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/PreManager/ref/AttributeItem.h"/>
+  </compounddef>
+</doxygen>

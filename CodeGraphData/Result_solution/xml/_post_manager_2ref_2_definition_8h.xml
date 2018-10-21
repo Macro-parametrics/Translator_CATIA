@@ -1,0 +1,588 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="_post_manager_2ref_2_definition_8h" kind="file">
+    <compoundname>Definition.h</compoundname>
+    <includes local="no">math.h</includes>
+    <includedby refid="_c_a_t_i_apost___d_l_l_8h" local="yes">PostManager/ref/CATIApost_DLL.h</includedby>
+    <includedby refid="_reference_class_8h" local="yes">CPPWITHCSHARP/ReferenceClass.h</includedby>
+    <incdepgraph>
+      <node id="576">
+        <label>math.h</label>
+      </node>
+      <node id="575">
+        <label>PostManager/ref/Definition.h</label>
+        <link refid="PostManager/ref/Definition.h"/>
+        <childnode refid="576" relation="include">
+        </childnode>
+      </node>
+    </incdepgraph>
+    <invincdepgraph>
+      <node id="637">
+        <label>PostManager/ref/CATIAReferenceManager.cpp</label>
+        <link refid="_c_a_t_i_a_reference_manager_8cpp"/>
+      </node>
+      <node id="591">
+        <label>PostManager/ref/FeatureSOLIDCreateFacesLoft.cpp</label>
+        <link refid="_feature_s_o_l_i_d_create_faces_loft_8cpp"/>
+      </node>
+      <node id="635">
+        <label>PostManager/ref/FeatureSOLIDCreateSectionsLoft.h</label>
+        <link refid="_feature_s_o_l_i_d_create_sections_loft_8h"/>
+        <childnode refid="596" relation="include">
+        </childnode>
+        <childnode refid="610" relation="include">
+        </childnode>
+      </node>
+      <node id="610">
+        <label>PostManager/ref/Part.cpp</label>
+        <link refid="_post_manager_2ref_2_part_8cpp"/>
+      </node>
+      <node id="606">
+        <label>PostManager/ref/SKETCHCreate2DCircularArc.cpp</label>
+        <link refid="_s_k_e_t_c_h_create2_d_circular_arc_8cpp"/>
+      </node>
+      <node id="581">
+        <label>CPPWITHCSHARP/ReferenceClass.cpp</label>
+        <link refid="_reference_class_8cpp"/>
+      </node>
+      <node id="628">
+        <label>PostManager/ref/FeatureSOLIDCreatePatternCircular.cpp</label>
+        <link refid="_post_manager_2ref_2_feature_s_o_l_i_d_create_pattern_circular_8cpp"/>
+      </node>
+      <node id="588">
+        <label>PostManager/ref/FSketch.h</label>
+        <link refid="_post_manager_2ref_2_f_sketch_8h"/>
+        <childnode refid="586" relation="include">
+        </childnode>
+        <childnode refid="589" relation="include">
+        </childnode>
+        <childnode refid="590" relation="include">
+        </childnode>
+        <childnode refid="591" relation="include">
+        </childnode>
+        <childnode refid="592" relation="include">
+        </childnode>
+        <childnode refid="593" relation="include">
+        </childnode>
+        <childnode refid="594" relation="include">
+        </childnode>
+        <childnode refid="595" relation="include">
+        </childnode>
+        <childnode refid="596" relation="include">
+        </childnode>
+        <childnode refid="597" relation="include">
+        </childnode>
+        <childnode refid="598" relation="include">
+        </childnode>
+        <childnode refid="610" relation="include">
+        </childnode>
+      </node>
+      <node id="625">
+        <label>PostManager/ref/FeatureSOLIDCreateHoleCountersunk.h</label>
+        <link refid="_feature_s_o_l_i_d_create_hole_countersunk_8h"/>
+        <childnode refid="626" relation="include">
+        </childnode>
+        <childnode refid="610" relation="include">
+        </childnode>
+      </node>
+      <node id="587">
+        <label>PostManager/ref/Feature.h</label>
+        <link refid="_post_manager_2ref_2_feature_8h"/>
+        <childnode refid="588" relation="include">
+        </childnode>
+        <childnode refid="611" relation="include">
+        </childnode>
+        <childnode refid="613" relation="include">
+        </childnode>
+        <childnode refid="615" relation="include">
+        </childnode>
+        <childnode refid="616" relation="include">
+        </childnode>
+        <childnode refid="618" relation="include">
+        </childnode>
+        <childnode refid="619" relation="include">
+        </childnode>
+        <childnode refid="620" relation="include">
+        </childnode>
+        <childnode refid="621" relation="include">
+        </childnode>
+        <childnode refid="623" relation="include">
+        </childnode>
+        <childnode refid="625" relation="include">
+        </childnode>
+        <childnode refid="627" relation="include">
+        </childnode>
+        <childnode refid="629" relation="include">
+        </childnode>
+        <childnode refid="631" relation="include">
+        </childnode>
+        <childnode refid="632" relation="include">
+        </childnode>
+        <childnode refid="633" relation="include">
+        </childnode>
+        <childnode refid="634" relation="include">
+        </childnode>
+        <childnode refid="635" relation="include">
+        </childnode>
+        <childnode refid="610" relation="include">
+        </childnode>
+      </node>
+      <node id="608">
+        <label>PostManager/ref/SKETCHCreate2DCenterline.cpp</label>
+        <link refid="_s_k_e_t_c_h_create2_d_centerline_8cpp"/>
+      </node>
+      <node id="604">
+        <label>PostManager/ref/SKETCHCreate2DPoint.cpp</label>
+        <link refid="_s_k_e_t_c_h_create2_d_point_8cpp"/>
+      </node>
+      <node id="590">
+        <label>PostManager/ref/FeatureSOLIDCreateCutRevolve.cpp</label>
+        <link refid="_feature_s_o_l_i_d_create_cut_revolve_8cpp"/>
+      </node>
+      <node id="585">
+        <label>CPPWITHCSHARP/ReferenceClass_Pre.cpp</label>
+        <link refid="_reference_class___pre_8cpp"/>
+      </node>
+      <node id="599">
+        <label>PostManager/ref/SKETCHCreate2DCircleCenterPoint.h</label>
+        <link refid="_s_k_e_t_c_h_create2_d_circle_center_point_8h"/>
+        <childnode refid="597" relation="include">
+        </childnode>
+        <childnode refid="600" relation="include">
+        </childnode>
+      </node>
+      <node id="630">
+        <label>PostManager/ref/FeatureSOLIDCreatePatternRectangular.cpp</label>
+        <link refid="_post_manager_2ref_2_feature_s_o_l_i_d_create_pattern_rectangular_8cpp"/>
+      </node>
+      <node id="601">
+        <label>PostManager/ref/SKETCHCreate2DLine2Points.h</label>
+        <link refid="_s_k_e_t_c_h_create2_d_line2_points_8h"/>
+        <childnode refid="597" relation="include">
+        </childnode>
+        <childnode refid="602" relation="include">
+        </childnode>
+      </node>
+      <node id="613">
+        <label>PostManager/ref/FDatumPlaneOffset.h</label>
+        <link refid="_post_manager_2ref_2_f_datum_plane_offset_8h"/>
+        <childnode refid="614" relation="include">
+        </childnode>
+        <childnode refid="597" relation="include">
+        </childnode>
+        <childnode refid="610" relation="include">
+        </childnode>
+      </node>
+      <node id="580">
+        <label>CPPWITHCSHARP/ReferenceClass.h</label>
+        <link refid="_reference_class_8h"/>
+        <childnode refid="581" relation="include">
+        </childnode>
+        <childnode refid="582" relation="include">
+        </childnode>
+        <childnode refid="584" relation="include">
+        </childnode>
+      </node>
+      <node id="579">
+        <label>PostManager/ref/Part.h</label>
+        <link refid="_post_manager_2ref_2_part_8h"/>
+        <childnode refid="580" relation="include">
+        </childnode>
+        <childnode refid="586" relation="include">
+        </childnode>
+        <childnode refid="587" relation="include">
+        </childnode>
+        <childnode refid="610" relation="include">
+        </childnode>
+      </node>
+      <node id="584">
+        <label>CPPWITHCSHARP/ReferenceClass_Pre.h</label>
+        <link refid="_reference_class___pre_8h"/>
+        <childnode refid="585" relation="include">
+        </childnode>
+      </node>
+      <node id="611">
+        <label>PostManager/ref/FDatumPlane.h</label>
+        <link refid="_f_datum_plane_8h"/>
+        <childnode refid="612" relation="include">
+        </childnode>
+        <childnode refid="610" relation="include">
+        </childnode>
+      </node>
+      <node id="589">
+        <label>PostManager/ref/FeatureSOLIDCreateCutExtrude.cpp</label>
+        <link refid="_feature_s_o_l_i_d_create_cut_extrude_8cpp"/>
+      </node>
+      <node id="602">
+        <label>PostManager/ref/SKETCHCreate2DLine2Points.cpp</label>
+        <link refid="_s_k_e_t_c_h_create2_d_line2_points_8cpp"/>
+      </node>
+      <node id="607">
+        <label>PostManager/ref/SKETCHCreate2DCenterline.h</label>
+        <link refid="_s_k_e_t_c_h_create2_d_centerline_8h"/>
+        <childnode refid="597" relation="include">
+        </childnode>
+        <childnode refid="608" relation="include">
+        </childnode>
+      </node>
+      <node id="614">
+        <label>PostManager/ref/FDatumPlaneOffset.cpp</label>
+        <link refid="_post_manager_2ref_2_f_datum_plane_offset_8cpp"/>
+      </node>
+      <node id="634">
+        <label>PostManager/ref/FeatureSOLIDCreateProtrusionSweep.h</label>
+        <link refid="_feature_s_o_l_i_d_create_protrusion_sweep_8h"/>
+        <childnode refid="595" relation="include">
+        </childnode>
+        <childnode refid="610" relation="include">
+        </childnode>
+      </node>
+      <node id="629">
+        <label>PostManager/ref/FeatureSOLIDCreatePatternRectangular.h</label>
+        <link refid="_post_manager_2ref_2_feature_s_o_l_i_d_create_pattern_rectangular_8h"/>
+        <childnode refid="630" relation="include">
+        </childnode>
+        <childnode refid="610" relation="include">
+        </childnode>
+      </node>
+      <node id="609">
+        <label>PostManager/ref/SKETCHItem.cpp</label>
+        <link refid="_s_k_e_t_c_h_item_8cpp"/>
+      </node>
+      <node id="582">
+        <label>CPPWITHCSHARP/ReferenceClass_Post.h</label>
+        <link refid="_reference_class___post_8h"/>
+        <childnode refid="583" relation="include">
+        </childnode>
+      </node>
+      <node id="619">
+        <label>PostManager/ref/FeatureSOLIDCreateCutRevolve.h</label>
+        <link refid="_feature_s_o_l_i_d_create_cut_revolve_8h"/>
+        <childnode refid="590" relation="include">
+        </childnode>
+        <childnode refid="610" relation="include">
+        </childnode>
+      </node>
+      <node id="631">
+        <label>PostManager/ref/FeatureSOLIDCreateProtrusionExtrude.h</label>
+        <link refid="_feature_s_o_l_i_d_create_protrusion_extrude_8h"/>
+        <childnode refid="592" relation="include">
+        </childnode>
+        <childnode refid="610" relation="include">
+        </childnode>
+      </node>
+      <node id="633">
+        <label>PostManager/ref/FeatureSOLIDCreateProtrusionRevolve.h</label>
+        <link refid="_feature_s_o_l_i_d_create_protrusion_revolve_8h"/>
+        <childnode refid="594" relation="include">
+        </childnode>
+        <childnode refid="610" relation="include">
+        </childnode>
+      </node>
+      <node id="624">
+        <label>PostManager/ref/FeatureSOLIDCreateHoleCounterbored.cpp</label>
+        <link refid="_feature_s_o_l_i_d_create_hole_counterbored_8cpp"/>
+      </node>
+      <node id="632">
+        <label>PostManager/ref/FeatureSOLIDCreateProtrusionLoft.h</label>
+        <link refid="_feature_s_o_l_i_d_create_protrusion_loft_8h"/>
+        <childnode refid="593" relation="include">
+        </childnode>
+      </node>
+      <node id="598">
+        <label>PostManager/ref/SKETCHItem.h</label>
+        <link refid="_s_k_e_t_c_h_item_8h"/>
+        <childnode refid="597" relation="include">
+        </childnode>
+        <childnode refid="599" relation="include">
+        </childnode>
+        <childnode refid="601" relation="include">
+        </childnode>
+        <childnode refid="603" relation="include">
+        </childnode>
+        <childnode refid="605" relation="include">
+        </childnode>
+        <childnode refid="607" relation="include">
+        </childnode>
+        <childnode refid="609" relation="include">
+        </childnode>
+      </node>
+      <node id="592">
+        <label>PostManager/ref/FeatureSOLIDCreateProtrusionExtrude.cpp</label>
+        <link refid="_feature_s_o_l_i_d_create_protrusion_extrude_8cpp"/>
+      </node>
+      <node id="626">
+        <label>PostManager/ref/FeatureSOLIDCreateHoleCountersunk.cpp</label>
+        <link refid="_feature_s_o_l_i_d_create_hole_countersunk_8cpp"/>
+      </node>
+      <node id="621">
+        <label>PostManager/ref/FeatureSOLIDCreateFilletConstant.h</label>
+        <link refid="_post_manager_2ref_2_feature_s_o_l_i_d_create_fillet_constant_8h"/>
+        <childnode refid="622" relation="include">
+        </childnode>
+        <childnode refid="610" relation="include">
+        </childnode>
+      </node>
+      <node id="618">
+        <label>PostManager/ref/FeatureSOLIDCreateCutExtrude.h</label>
+        <link refid="_feature_s_o_l_i_d_create_cut_extrude_8h"/>
+        <childnode refid="589" relation="include">
+        </childnode>
+        <childnode refid="610" relation="include">
+        </childnode>
+      </node>
+      <node id="603">
+        <label>PostManager/ref/SKETCHCreate2DPoint.h</label>
+        <link refid="_s_k_e_t_c_h_create2_d_point_8h"/>
+        <childnode refid="597" relation="include">
+        </childnode>
+        <childnode refid="604" relation="include">
+        </childnode>
+      </node>
+      <node id="612">
+        <label>PostManager/ref/FDatumPlane.cpp</label>
+        <link refid="_f_datum_plane_8cpp"/>
+      </node>
+      <node id="600">
+        <label>PostManager/ref/SKETCHCreate2DCircleCenterPoint.cpp</label>
+        <link refid="_s_k_e_t_c_h_create2_d_circle_center_point_8cpp"/>
+      </node>
+      <node id="636">
+        <label>PostManager/ref/CATIAReferenceManager.h</label>
+        <link refid="_c_a_t_i_a_reference_manager_8h"/>
+        <childnode refid="579" relation="include">
+        </childnode>
+        <childnode refid="586" relation="include">
+        </childnode>
+        <childnode refid="637" relation="include">
+        </childnode>
+      </node>
+      <node id="583">
+        <label>CPPWITHCSHARP/ReferenceClass_Post.cpp</label>
+        <link refid="_reference_class___post_8cpp"/>
+      </node>
+      <node id="577">
+        <label>PostManager/ref/Definition.h</label>
+        <link refid="PostManager/ref/Definition.h"/>
+        <childnode refid="578" relation="include">
+        </childnode>
+        <childnode refid="580" relation="include">
+        </childnode>
+      </node>
+      <node id="616">
+        <label>PostManager/ref/FeatureSOLIDCreateChamfer.h</label>
+        <link refid="_post_manager_2ref_2_feature_s_o_l_i_d_create_chamfer_8h"/>
+        <childnode refid="617" relation="include">
+        </childnode>
+        <childnode refid="610" relation="include">
+        </childnode>
+      </node>
+      <node id="593">
+        <label>PostManager/ref/FeatureSOLIDCreateProtrusionLoft.cpp</label>
+        <link refid="_feature_s_o_l_i_d_create_protrusion_loft_8cpp"/>
+      </node>
+      <node id="605">
+        <label>PostManager/ref/SKETCHCreate2DCircularArc.h</label>
+        <link refid="_s_k_e_t_c_h_create2_d_circular_arc_8h"/>
+        <childnode refid="597" relation="include">
+        </childnode>
+        <childnode refid="606" relation="include">
+        </childnode>
+      </node>
+      <node id="623">
+        <label>PostManager/ref/FeatureSOLIDCreateHoleCounterbored.h</label>
+        <link refid="_feature_s_o_l_i_d_create_hole_counterbored_8h"/>
+        <childnode refid="624" relation="include">
+        </childnode>
+        <childnode refid="610" relation="include">
+        </childnode>
+      </node>
+      <node id="596">
+        <label>PostManager/ref/FeatureSOLIDCreateSectionsLoft.cpp</label>
+        <link refid="_feature_s_o_l_i_d_create_sections_loft_8cpp"/>
+      </node>
+      <node id="627">
+        <label>PostManager/ref/FeatureSOLIDCreatePatternCircular.h</label>
+        <link refid="_post_manager_2ref_2_feature_s_o_l_i_d_create_pattern_circular_8h"/>
+        <childnode refid="628" relation="include">
+        </childnode>
+        <childnode refid="610" relation="include">
+        </childnode>
+      </node>
+      <node id="595">
+        <label>PostManager/ref/FeatureSOLIDCreateProtrusionSweep.cpp</label>
+        <link refid="_feature_s_o_l_i_d_create_protrusion_sweep_8cpp"/>
+      </node>
+      <node id="597">
+        <label>PostManager/ref/FSketch.cpp</label>
+        <link refid="_post_manager_2ref_2_f_sketch_8cpp"/>
+      </node>
+      <node id="622">
+        <label>PostManager/ref/FeatureSOLIDCreateFilletConstant.cpp</label>
+        <link refid="_post_manager_2ref_2_feature_s_o_l_i_d_create_fillet_constant_8cpp"/>
+      </node>
+      <node id="586">
+        <label>PostManager/ref/CATIApost_DLL.cpp</label>
+        <link refid="_c_a_t_i_apost___d_l_l_8cpp"/>
+      </node>
+      <node id="615">
+        <label>PostManager/ref/Feature.cpp</label>
+        <link refid="_post_manager_2ref_2_feature_8cpp"/>
+      </node>
+      <node id="594">
+        <label>PostManager/ref/FeatureSOLIDCreateProtrusionRevolve.cpp</label>
+        <link refid="_feature_s_o_l_i_d_create_protrusion_revolve_8cpp"/>
+      </node>
+      <node id="617">
+        <label>PostManager/ref/FeatureSOLIDCreateChamfer.cpp</label>
+        <link refid="_post_manager_2ref_2_feature_s_o_l_i_d_create_chamfer_8cpp"/>
+      </node>
+      <node id="620">
+        <label>PostManager/ref/FeatureSOLIDCreateFacesLoft.h</label>
+        <link refid="_feature_s_o_l_i_d_create_faces_loft_8h"/>
+        <childnode refid="591" relation="include">
+        </childnode>
+        <childnode refid="610" relation="include">
+        </childnode>
+      </node>
+      <node id="578">
+        <label>PostManager/ref/CATIApost_DLL.h</label>
+        <link refid="_c_a_t_i_apost___d_l_l_8h"/>
+        <childnode refid="579" relation="include">
+        </childnode>
+        <childnode refid="636" relation="include">
+        </childnode>
+        <childnode refid="580" relation="include">
+        </childnode>
+        <childnode refid="586" relation="include">
+        </childnode>
+      </node>
+    </invincdepgraph>
+    <innerclass refid="class_post_1_1_vector3_d" prot="public">Post::Vector3D</innerclass>
+    <innernamespace refid="namespace_post">Post</innernamespace>
+      <sectiondef kind="define">
+      <memberdef kind="define" id="_post_manager_2ref_2_definition_8h_1a8d1867bc52b33855a7ab1d5c3676adda" prot="public" static="no">
+        <name>MAX_CHAR_LIMIT</name>
+        <initializer>20</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/PostManager/ref/Definition.h" line="6" column="9" bodyfile="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/PostManager/ref/Definition.h" bodystart="6" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="_post_manager_2ref_2_definition_8h_1a001791a21d538b8b9176287ae60d9b61" prot="public" static="no">
+        <name>MAX_DIGITS</name>
+        <initializer>18</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/PostManager/ref/Definition.h" line="7" column="9" bodyfile="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/PostManager/ref/Definition.h" bodystart="7" bodyend="-1"/>
+        <referencedby refid="class_post_1_1_feature_s_o_l_i_d_create_pattern_circular_1a3529b594c7fb28c9976579e4eec5d947" compoundref="_post_manager_2ref_2_feature_s_o_l_i_d_create_pattern_circular_8cpp" startline="14" endline="64">Post::FeatureSOLIDCreatePatternCircular::GetInfo</referencedby>
+      </memberdef>
+      <memberdef kind="define" id="_post_manager_2ref_2_definition_8h_1a5db49eeef5c9bb774f02996f684df238" prot="public" static="no">
+        <name>MAX_DEPTH</name>
+        <initializer>1000000</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/PostManager/ref/Definition.h" line="8" column="9" bodyfile="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/PostManager/ref/Definition.h" bodystart="8" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="preprocessor">#pragma<sp/>once</highlight></codeline>
+<codeline lineno="2"><highlight class="preprocessor"></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;math.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight></codeline>
+<codeline lineno="6" refid="_post_manager_2ref_2_definition_8h_1a8d1867bc52b33855a7ab1d5c3676adda" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>MAX_CHAR_LIMIT<sp/><sp/>20</highlight></codeline>
+<codeline lineno="7" refid="_post_manager_2ref_2_definition_8h_1a001791a21d538b8b9176287ae60d9b61" refkind="member"><highlight class="preprocessor"></highlight><highlight class="preprocessor">#define<sp/>MAX_DIGITS<sp/><sp/><sp/><sp/><sp/><sp/>18</highlight></codeline>
+<codeline lineno="8" refid="_post_manager_2ref_2_definition_8h_1a5db49eeef5c9bb774f02996f684df238" refkind="member"><highlight class="preprocessor"></highlight><highlight class="preprocessor">#define<sp/>MAX_DEPTH<sp/><sp/><sp/><sp/><sp/><sp/><sp/>1000000</highlight></codeline>
+<codeline lineno="9"><highlight class="preprocessor"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal">Post<sp/>{</highlight></codeline>
+<codeline lineno="10" refid="namespace_post_1a80911619713a0105ed4134e3ca90fa57" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="class_post_1_1_vector3_d" kindref="compound">Vector3D</ref><sp/><ref refid="namespace_post_1a80911619713a0105ed4134e3ca90fa57" kindref="member">Point3D</ref>;</highlight></codeline>
+<codeline lineno="11" refid="namespace_post_1a6353cf8ba34adaee185d9623338a213b" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="class_post_1_1_vector3_d" kindref="compound">Vector3D</ref><sp/><ref refid="namespace_post_1a6353cf8ba34adaee185d9623338a213b" kindref="member">Direct3D</ref>;</highlight></codeline>
+<codeline lineno="12"><highlight class="normal"></highlight></codeline>
+<codeline lineno="13" refid="class_post_1_1_vector3_d" refkind="compound"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="class_post_1_1_vector3_d" kindref="compound">Vector3D</ref></highlight></codeline>
+<codeline lineno="14"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="15"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="16" refid="class_post_1_1_vector3_d_1aa6b42209dc7583518d937db274953c40" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_post_1_1_vector3_d_1aa6b42209dc7583518d937db274953c40" kindref="member">Vector3D</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">)<sp/>:<sp/><ref refid="class_post_1_1_vector3_d_1a7b12f81799adeea07a61dd5876ecf04a" kindref="member">_x</ref>(0.0),<sp/><ref refid="class_post_1_1_vector3_d_1a79880f222bdd5b8d4fad7644d9fe6df0" kindref="member">_y</ref>(0.0),<sp/><ref refid="class_post_1_1_vector3_d_1a3cd2b837c5117c34b9d6414dba841611" kindref="member">_z</ref>(0.0)<sp/>{}</highlight></codeline>
+<codeline lineno="17" refid="class_post_1_1_vector3_d_1a211444a62fd71aa00489a053b0913b6a" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_post_1_1_vector3_d_1a211444a62fd71aa00489a053b0913b6a" kindref="member">Vector3D</ref>(</highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>x,<sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>y,<sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>z)<sp/>:<sp/><ref refid="class_post_1_1_vector3_d_1a7b12f81799adeea07a61dd5876ecf04a" kindref="member">_x</ref>(x),<sp/><ref refid="class_post_1_1_vector3_d_1a79880f222bdd5b8d4fad7644d9fe6df0" kindref="member">_y</ref>(y),<sp/><ref refid="class_post_1_1_vector3_d_1a3cd2b837c5117c34b9d6414dba841611" kindref="member">_z</ref>(z)<sp/>{}</highlight></codeline>
+<codeline lineno="18" refid="class_post_1_1_vector3_d_1afd98b024de0e042f732fc80d3791fc3c" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_post_1_1_vector3_d_1afd98b024de0e042f732fc80d3791fc3c" kindref="member">Vector3D</ref>(</highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>coord[])<sp/>:<sp/><ref refid="class_post_1_1_vector3_d_1a7b12f81799adeea07a61dd5876ecf04a" kindref="member">_x</ref>(coord[0]),<sp/><ref refid="class_post_1_1_vector3_d_1a79880f222bdd5b8d4fad7644d9fe6df0" kindref="member">_y</ref>(coord[1]),<sp/><ref refid="class_post_1_1_vector3_d_1a3cd2b837c5117c34b9d6414dba841611" kindref="member">_z</ref>(coord[2])<sp/>{}</highlight></codeline>
+<codeline lineno="19"><highlight class="normal"></highlight></codeline>
+<codeline lineno="20" refid="class_post_1_1_vector3_d_1a44317ba797db1ec9635866aa7c4cf749" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/><ref refid="class_post_1_1_vector3_d_1a44317ba797db1ec9635866aa7c4cf749" kindref="member">X</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">)</highlight><highlight class="keyword"><sp/>const<sp/></highlight><highlight class="normal">{<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/><ref refid="class_post_1_1_vector3_d_1a7b12f81799adeea07a61dd5876ecf04a" kindref="member">_x</ref>;<sp/>}</highlight></codeline>
+<codeline lineno="21" refid="class_post_1_1_vector3_d_1a3ee0de7fa31240b94f6895efdb03fe14" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/><ref refid="class_post_1_1_vector3_d_1a3ee0de7fa31240b94f6895efdb03fe14" kindref="member">Y</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">)</highlight><highlight class="keyword"><sp/>const<sp/></highlight><highlight class="normal">{<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/><ref refid="class_post_1_1_vector3_d_1a79880f222bdd5b8d4fad7644d9fe6df0" kindref="member">_y</ref>;<sp/>}</highlight></codeline>
+<codeline lineno="22" refid="class_post_1_1_vector3_d_1a998e52de6a856a31ec794bae88d5dc1e" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/><ref refid="class_post_1_1_vector3_d_1a998e52de6a856a31ec794bae88d5dc1e" kindref="member">Z</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">)</highlight><highlight class="keyword"><sp/>const<sp/></highlight><highlight class="normal">{<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/><ref refid="class_post_1_1_vector3_d_1a3cd2b837c5117c34b9d6414dba841611" kindref="member">_z</ref>;<sp/>}</highlight></codeline>
+<codeline lineno="23"><highlight class="normal"></highlight></codeline>
+<codeline lineno="24" refid="class_post_1_1_vector3_d_1adc5a4ebb5d0164b8d1356facb64fe209" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_post_1_1_vector3_d_1adc5a4ebb5d0164b8d1356facb64fe209" kindref="member">X</ref>(</highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>x)<sp/>{<sp/><ref refid="class_post_1_1_vector3_d_1a7b12f81799adeea07a61dd5876ecf04a" kindref="member">_x</ref><sp/>=<sp/>x;<sp/>}</highlight></codeline>
+<codeline lineno="25" refid="class_post_1_1_vector3_d_1a57782062d9b6ab13d06bbeced015a4ac" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_post_1_1_vector3_d_1a57782062d9b6ab13d06bbeced015a4ac" kindref="member">Y</ref>(</highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>y)<sp/>{<sp/><ref refid="class_post_1_1_vector3_d_1a79880f222bdd5b8d4fad7644d9fe6df0" kindref="member">_y</ref><sp/>=<sp/>y;<sp/>}</highlight></codeline>
+<codeline lineno="26" refid="class_post_1_1_vector3_d_1a2e9ca37ec6ab4c705fff2da31fbaca1a" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_post_1_1_vector3_d_1a2e9ca37ec6ab4c705fff2da31fbaca1a" kindref="member">Z</ref>(</highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>z)<sp/>{<sp/><ref refid="class_post_1_1_vector3_d_1a3cd2b837c5117c34b9d6414dba841611" kindref="member">_z</ref><sp/>=<sp/>z;<sp/>}</highlight></codeline>
+<codeline lineno="27"><highlight class="normal"></highlight></codeline>
+<codeline lineno="28" refid="class_post_1_1_vector3_d_1a1fa92e6ba11c22b947a3553448325fb5" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_post_1_1_vector3_d_1a1fa92e6ba11c22b947a3553448325fb5" kindref="member">SetXYZ</ref>(</highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>x,<sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>y,<sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>z)<sp/>{<sp/><ref refid="class_post_1_1_vector3_d_1a7b12f81799adeea07a61dd5876ecf04a" kindref="member">_x</ref><sp/>=<sp/>x;<sp/><ref refid="class_post_1_1_vector3_d_1a79880f222bdd5b8d4fad7644d9fe6df0" kindref="member">_y</ref><sp/>=<sp/>y;<sp/><ref refid="class_post_1_1_vector3_d_1a3cd2b837c5117c34b9d6414dba841611" kindref="member">_z</ref><sp/>=<sp/>z;<sp/>}</highlight></codeline>
+<codeline lineno="29" refid="class_post_1_1_vector3_d_1ae323cf4978b4acc25c6ba23d2d7fad36" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_post_1_1_vector3_d_1ae323cf4978b4acc25c6ba23d2d7fad36" kindref="member">SetXYZ</ref>(</highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>rhs[3])<sp/>{<sp/><ref refid="class_post_1_1_vector3_d_1a7b12f81799adeea07a61dd5876ecf04a" kindref="member">_x</ref><sp/>=<sp/>rhs[0];<sp/><ref refid="class_post_1_1_vector3_d_1a79880f222bdd5b8d4fad7644d9fe6df0" kindref="member">_y</ref><sp/>=<sp/>rhs[1];<sp/><ref refid="class_post_1_1_vector3_d_1a3cd2b837c5117c34b9d6414dba841611" kindref="member">_z</ref><sp/>=<sp/>rhs[2];<sp/>}</highlight></codeline>
+<codeline lineno="30"><highlight class="normal"></highlight></codeline>
+<codeline lineno="31" refid="class_post_1_1_vector3_d_1a7b1bd050fb737adcdea85f400da4d426" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>&amp;<sp/><ref refid="class_post_1_1_vector3_d_1a7b1bd050fb737adcdea85f400da4d426" kindref="member">operator[]</ref>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>i)<sp/>{<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>*(&amp;<ref refid="class_post_1_1_vector3_d_1a7b12f81799adeea07a61dd5876ecf04a" kindref="member">_x</ref><sp/>+<sp/>i);<sp/>}</highlight></codeline>
+<codeline lineno="32"><highlight class="normal"></highlight></codeline>
+<codeline lineno="33" refid="class_post_1_1_vector3_d_1aba3b620fc0a6feb038e68fc16d4cfe46" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_post_1_1_vector3_d" kindref="compound">Vector3D</ref><sp/><ref refid="class_post_1_1_vector3_d_1aba3b620fc0a6feb038e68fc16d4cfe46" kindref="member">operator+</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="class_post_1_1_vector3_d" kindref="compound">Vector3D</ref><sp/>&amp;<sp/>rhs)<sp/>{</highlight></codeline>
+<codeline lineno="34"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/><ref refid="class_post_1_1_vector3_d_1aa6b42209dc7583518d937db274953c40" kindref="member">Vector3D</ref>(<ref refid="class_post_1_1_vector3_d_1a7b12f81799adeea07a61dd5876ecf04a" kindref="member">_x</ref><sp/>+<sp/>rhs.<ref refid="class_post_1_1_vector3_d_1a7b12f81799adeea07a61dd5876ecf04a" kindref="member">_x</ref>,<sp/><ref refid="class_post_1_1_vector3_d_1a79880f222bdd5b8d4fad7644d9fe6df0" kindref="member">_y</ref><sp/>+<sp/>rhs.<ref refid="class_post_1_1_vector3_d_1a79880f222bdd5b8d4fad7644d9fe6df0" kindref="member">_y</ref>,<sp/><ref refid="class_post_1_1_vector3_d_1a3cd2b837c5117c34b9d6414dba841611" kindref="member">_z</ref><sp/>+<sp/>rhs.<ref refid="class_post_1_1_vector3_d_1a3cd2b837c5117c34b9d6414dba841611" kindref="member">_z</ref>);</highlight></codeline>
+<codeline lineno="35"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="36" refid="class_post_1_1_vector3_d_1a721ed5afb0c533ba6b0d7cbfebaf6354" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_post_1_1_vector3_d" kindref="compound">Vector3D</ref><sp/><ref refid="class_post_1_1_vector3_d_1a721ed5afb0c533ba6b0d7cbfebaf6354" kindref="member">operator-</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="class_post_1_1_vector3_d" kindref="compound">Vector3D</ref><sp/>&amp;<sp/>rhs)<sp/>{</highlight></codeline>
+<codeline lineno="37"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/><ref refid="class_post_1_1_vector3_d_1aa6b42209dc7583518d937db274953c40" kindref="member">Vector3D</ref>(<ref refid="class_post_1_1_vector3_d_1a7b12f81799adeea07a61dd5876ecf04a" kindref="member">_x</ref><sp/>-<sp/>rhs.<ref refid="class_post_1_1_vector3_d_1a7b12f81799adeea07a61dd5876ecf04a" kindref="member">_x</ref>,<sp/><ref refid="class_post_1_1_vector3_d_1a79880f222bdd5b8d4fad7644d9fe6df0" kindref="member">_y</ref><sp/>-<sp/>rhs.<ref refid="class_post_1_1_vector3_d_1a79880f222bdd5b8d4fad7644d9fe6df0" kindref="member">_y</ref>,<sp/><ref refid="class_post_1_1_vector3_d_1a3cd2b837c5117c34b9d6414dba841611" kindref="member">_z</ref><sp/>-<sp/>rhs.<ref refid="class_post_1_1_vector3_d_1a3cd2b837c5117c34b9d6414dba841611" kindref="member">_z</ref>);</highlight></codeline>
+<codeline lineno="38"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="39" refid="class_post_1_1_vector3_d_1a34550bd5bc8f1b768077e10244f3f688" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_post_1_1_vector3_d" kindref="compound">Vector3D</ref><sp/><ref refid="class_post_1_1_vector3_d_1a34550bd5bc8f1b768077e10244f3f688" kindref="member">operator*</ref>(</highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>d)<sp/>{</highlight></codeline>
+<codeline lineno="40"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/><ref refid="class_post_1_1_vector3_d_1aa6b42209dc7583518d937db274953c40" kindref="member">Vector3D</ref>(<ref refid="class_post_1_1_vector3_d_1a7b12f81799adeea07a61dd5876ecf04a" kindref="member">_x</ref><sp/>*<sp/>d,<sp/><ref refid="class_post_1_1_vector3_d_1a79880f222bdd5b8d4fad7644d9fe6df0" kindref="member">_y</ref><sp/>*<sp/>d,<sp/><ref refid="class_post_1_1_vector3_d_1a3cd2b837c5117c34b9d6414dba841611" kindref="member">_z</ref><sp/>*<sp/>d);</highlight></codeline>
+<codeline lineno="41"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="42" refid="class_post_1_1_vector3_d_1a497c83bb3cec88eea7fc133ac40884d7" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_post_1_1_vector3_d" kindref="compound">Vector3D</ref><sp/><ref refid="class_post_1_1_vector3_d_1a497c83bb3cec88eea7fc133ac40884d7" kindref="member">operator/</ref>(</highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>d)<sp/>{</highlight></codeline>
+<codeline lineno="43"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/><ref refid="class_post_1_1_vector3_d_1aa6b42209dc7583518d937db274953c40" kindref="member">Vector3D</ref>(<ref refid="class_post_1_1_vector3_d_1a7b12f81799adeea07a61dd5876ecf04a" kindref="member">_x</ref><sp/>/<sp/>d,<sp/><ref refid="class_post_1_1_vector3_d_1a79880f222bdd5b8d4fad7644d9fe6df0" kindref="member">_y</ref><sp/>/<sp/>d,<sp/><ref refid="class_post_1_1_vector3_d_1a3cd2b837c5117c34b9d6414dba841611" kindref="member">_z</ref><sp/>/<sp/>d);</highlight></codeline>
+<codeline lineno="44"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="45"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>Dot<sp/>product</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="46" refid="class_post_1_1_vector3_d_1a68efe99ec8dcf34c56d50180845653f7" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/><ref refid="class_post_1_1_vector3_d_1a68efe99ec8dcf34c56d50180845653f7" kindref="member">operator*</ref>(<ref refid="class_post_1_1_vector3_d" kindref="compound">Vector3D</ref><sp/>&amp;<sp/>d)<sp/>{</highlight></codeline>
+<codeline lineno="47"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>(<ref refid="class_post_1_1_vector3_d_1a7b12f81799adeea07a61dd5876ecf04a" kindref="member">_x</ref>*d.<ref refid="class_post_1_1_vector3_d_1a7b12f81799adeea07a61dd5876ecf04a" kindref="member">_x</ref><sp/>+<sp/><ref refid="class_post_1_1_vector3_d_1a79880f222bdd5b8d4fad7644d9fe6df0" kindref="member">_y</ref><sp/>*<sp/>d.<ref refid="class_post_1_1_vector3_d_1a79880f222bdd5b8d4fad7644d9fe6df0" kindref="member">_y</ref><sp/>+<sp/><ref refid="class_post_1_1_vector3_d_1a3cd2b837c5117c34b9d6414dba841611" kindref="member">_z</ref><sp/>*<sp/>d.<ref refid="class_post_1_1_vector3_d_1a3cd2b837c5117c34b9d6414dba841611" kindref="member">_z</ref>);</highlight></codeline>
+<codeline lineno="48"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="49"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>Cross<sp/>Product</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="50" refid="class_post_1_1_vector3_d_1aef76551dc30beef1ba36a29433c6ef4e" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_post_1_1_vector3_d" kindref="compound">Vector3D</ref><sp/><ref refid="class_post_1_1_vector3_d_1aef76551dc30beef1ba36a29433c6ef4e" kindref="member">operator^</ref>(<ref refid="class_post_1_1_vector3_d" kindref="compound">Vector3D</ref><sp/>&amp;<sp/>d)<sp/>{</highlight></codeline>
+<codeline lineno="51"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>i<sp/>=<sp/><ref refid="class_post_1_1_vector3_d_1a79880f222bdd5b8d4fad7644d9fe6df0" kindref="member">_y</ref><sp/>*<sp/>d.<ref refid="class_post_1_1_vector3_d_1a3cd2b837c5117c34b9d6414dba841611" kindref="member">_z</ref><sp/>-<sp/><ref refid="class_post_1_1_vector3_d_1a3cd2b837c5117c34b9d6414dba841611" kindref="member">_z</ref><sp/>*<sp/>d.<ref refid="class_post_1_1_vector3_d_1a79880f222bdd5b8d4fad7644d9fe6df0" kindref="member">_y</ref>;</highlight></codeline>
+<codeline lineno="52"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>j<sp/>=<sp/><ref refid="class_post_1_1_vector3_d_1a3cd2b837c5117c34b9d6414dba841611" kindref="member">_z</ref><sp/>*<sp/>d.<ref refid="class_post_1_1_vector3_d_1a7b12f81799adeea07a61dd5876ecf04a" kindref="member">_x</ref><sp/>-<sp/><ref refid="class_post_1_1_vector3_d_1a7b12f81799adeea07a61dd5876ecf04a" kindref="member">_x</ref><sp/>*<sp/>d.<ref refid="class_post_1_1_vector3_d_1a3cd2b837c5117c34b9d6414dba841611" kindref="member">_z</ref>;</highlight></codeline>
+<codeline lineno="53"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>k<sp/>=<sp/><ref refid="class_post_1_1_vector3_d_1a7b12f81799adeea07a61dd5876ecf04a" kindref="member">_x</ref><sp/>*<sp/>d.<ref refid="class_post_1_1_vector3_d_1a79880f222bdd5b8d4fad7644d9fe6df0" kindref="member">_y</ref><sp/>-<sp/><ref refid="class_post_1_1_vector3_d_1a79880f222bdd5b8d4fad7644d9fe6df0" kindref="member">_y</ref><sp/>*<sp/>d.<ref refid="class_post_1_1_vector3_d_1a7b12f81799adeea07a61dd5876ecf04a" kindref="member">_x</ref>;</highlight></codeline>
+<codeline lineno="54"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/><ref refid="class_post_1_1_vector3_d_1aa6b42209dc7583518d937db274953c40" kindref="member">Vector3D</ref>(i,<sp/>j,<sp/>k);</highlight></codeline>
+<codeline lineno="55"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="56" refid="class_post_1_1_vector3_d_1a886339b8b97c67637984359328b87561" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="class_post_1_1_vector3_d_1a886339b8b97c67637984359328b87561" kindref="member">operator==</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="class_post_1_1_vector3_d" kindref="compound">Vector3D</ref><sp/>&amp;<sp/>rhs)</highlight></codeline>
+<codeline lineno="57"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="58"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/><ref refid="class_post_1_1_vector3_d_1a7b12f81799adeea07a61dd5876ecf04a" kindref="member">_x</ref><sp/>==<sp/>rhs.<ref refid="class_post_1_1_vector3_d_1a7b12f81799adeea07a61dd5876ecf04a" kindref="member">_x</ref><sp/>&amp;&amp;<sp/><ref refid="class_post_1_1_vector3_d_1a79880f222bdd5b8d4fad7644d9fe6df0" kindref="member">_y</ref><sp/>==<sp/>rhs.<ref refid="class_post_1_1_vector3_d_1a79880f222bdd5b8d4fad7644d9fe6df0" kindref="member">_y</ref><sp/>&amp;&amp;<sp/><ref refid="class_post_1_1_vector3_d_1a3cd2b837c5117c34b9d6414dba841611" kindref="member">_z</ref><sp/>==<sp/>rhs.<ref refid="class_post_1_1_vector3_d_1a3cd2b837c5117c34b9d6414dba841611" kindref="member">_z</ref>;</highlight></codeline>
+<codeline lineno="59"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="60" refid="class_post_1_1_vector3_d_1af52a808fa23078341dd7596ba707c536" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_post_1_1_vector3_d_1af52a808fa23078341dd7596ba707c536" kindref="member">operator=</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="class_post_1_1_vector3_d" kindref="compound">Vector3D</ref><sp/>&amp;<sp/>rhs)<sp/>{</highlight></codeline>
+<codeline lineno="61"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_post_1_1_vector3_d_1a7b12f81799adeea07a61dd5876ecf04a" kindref="member">_x</ref><sp/>=<sp/>rhs.<ref refid="class_post_1_1_vector3_d_1a7b12f81799adeea07a61dd5876ecf04a" kindref="member">_x</ref>;<sp/><ref refid="class_post_1_1_vector3_d_1a79880f222bdd5b8d4fad7644d9fe6df0" kindref="member">_y</ref><sp/>=<sp/>rhs.<ref refid="class_post_1_1_vector3_d_1a79880f222bdd5b8d4fad7644d9fe6df0" kindref="member">_y</ref>;<sp/><ref refid="class_post_1_1_vector3_d_1a3cd2b837c5117c34b9d6414dba841611" kindref="member">_z</ref><sp/>=<sp/>rhs.<ref refid="class_post_1_1_vector3_d_1a3cd2b837c5117c34b9d6414dba841611" kindref="member">_z</ref>;</highlight></codeline>
+<codeline lineno="62"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="63"><highlight class="normal"></highlight></codeline>
+<codeline lineno="64" refid="class_post_1_1_vector3_d_1a566ece85e798819e1cb9b7e12ad0abc1" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/><ref refid="class_post_1_1_vector3_d_1a566ece85e798819e1cb9b7e12ad0abc1" kindref="member">Size</ref>()</highlight><highlight class="keyword"><sp/>const<sp/></highlight><highlight class="normal">{<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>sqrt(<ref refid="class_post_1_1_vector3_d_1a7b12f81799adeea07a61dd5876ecf04a" kindref="member">_x</ref>*<ref refid="class_post_1_1_vector3_d_1a7b12f81799adeea07a61dd5876ecf04a" kindref="member">_x</ref><sp/>+<sp/><ref refid="class_post_1_1_vector3_d_1a79880f222bdd5b8d4fad7644d9fe6df0" kindref="member">_y</ref><sp/>*<sp/><ref refid="class_post_1_1_vector3_d_1a79880f222bdd5b8d4fad7644d9fe6df0" kindref="member">_y</ref><sp/>+<sp/><ref refid="class_post_1_1_vector3_d_1a3cd2b837c5117c34b9d6414dba841611" kindref="member">_z</ref><sp/>*<sp/><ref refid="class_post_1_1_vector3_d_1a3cd2b837c5117c34b9d6414dba841611" kindref="member">_z</ref>);<sp/>}</highlight></codeline>
+<codeline lineno="65" refid="class_post_1_1_vector3_d_1adb6b934963eff5d6b4bc13014accea4e" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_post_1_1_vector3_d" kindref="compound">Vector3D</ref><sp/><ref refid="class_post_1_1_vector3_d_1adb6b934963eff5d6b4bc13014accea4e" kindref="member">Norm</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">)<sp/>{<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/><ref refid="class_post_1_1_vector3_d_1aa6b42209dc7583518d937db274953c40" kindref="member">Vector3D</ref>(<ref refid="class_post_1_1_vector3_d_1a7b12f81799adeea07a61dd5876ecf04a" kindref="member">_x</ref>,<sp/><ref refid="class_post_1_1_vector3_d_1a79880f222bdd5b8d4fad7644d9fe6df0" kindref="member">_y</ref>,<sp/><ref refid="class_post_1_1_vector3_d_1a3cd2b837c5117c34b9d6414dba841611" kindref="member">_z</ref>)<sp/>/<sp/><ref refid="class_post_1_1_vector3_d_1a566ece85e798819e1cb9b7e12ad0abc1" kindref="member">Size</ref>();<sp/>}</highlight></codeline>
+<codeline lineno="66"><highlight class="normal"></highlight></codeline>
+<codeline lineno="67"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">private</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="68" refid="class_post_1_1_vector3_d_1a3cd2b837c5117c34b9d6414dba841611" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/><ref refid="class_post_1_1_vector3_d_1a7b12f81799adeea07a61dd5876ecf04a" kindref="member">_x</ref>,<sp/><ref refid="class_post_1_1_vector3_d_1a79880f222bdd5b8d4fad7644d9fe6df0" kindref="member">_y</ref>,<sp/><ref refid="class_post_1_1_vector3_d_1a3cd2b837c5117c34b9d6414dba841611" kindref="member">_z</ref>;</highlight></codeline>
+<codeline lineno="69"><highlight class="normal"><sp/><sp/><sp/><sp/>};</highlight></codeline>
+<codeline lineno="70"><highlight class="normal"></highlight></codeline>
+<codeline lineno="71"><highlight class="normal"></highlight></codeline>
+<codeline lineno="72" refid="namespace_post_1a2fea12512df9753d97b89baf001581ff" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">enum</highlight><highlight class="normal"><sp/><ref refid="namespace_post_1a2fea12512df9753d97b89baf001581ff" kindref="member">LimitMode</ref></highlight></codeline>
+<codeline lineno="73"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="74" refid="namespace_post_1a2fea12512df9753d97b89baf001581ffa7bfa9c1a4a0cb10e8aa194519033109c" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="namespace_post_1a2fea12512df9753d97b89baf001581ffa7bfa9c1a4a0cb10e8aa194519033109c" kindref="member">OFFSET_LIMIT</ref>,</highlight></codeline>
+<codeline lineno="75" refid="namespace_post_1a2fea12512df9753d97b89baf001581ffa98771ddb3af135b0d66d40fa1171b2a6" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="namespace_post_1a2fea12512df9753d97b89baf001581ffa98771ddb3af135b0d66d40fa1171b2a6" kindref="member">UP_TO_NEXT_LIMIT</ref>,</highlight></codeline>
+<codeline lineno="76" refid="namespace_post_1a2fea12512df9753d97b89baf001581ffa476e8a599c8b0a667abaf46cdee1f779" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="namespace_post_1a2fea12512df9753d97b89baf001581ffa476e8a599c8b0a667abaf46cdee1f779" kindref="member">UP_TO_LAST_LIMIT</ref>,</highlight></codeline>
+<codeline lineno="77" refid="namespace_post_1a2fea12512df9753d97b89baf001581ffacf1df034f1e46c08410d0b6bfb242d12" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="namespace_post_1a2fea12512df9753d97b89baf001581ffacf1df034f1e46c08410d0b6bfb242d12" kindref="member">UP_TO_PLANE_LIMIT</ref>,</highlight></codeline>
+<codeline lineno="78" refid="namespace_post_1a2fea12512df9753d97b89baf001581ffae1c2d5dca8d35db77552fecdd49f0e8a" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="namespace_post_1a2fea12512df9753d97b89baf001581ffae1c2d5dca8d35db77552fecdd49f0e8a" kindref="member">UP_TO_SURFACE_LIMIT</ref>,</highlight></codeline>
+<codeline lineno="79" refid="namespace_post_1a2fea12512df9753d97b89baf001581ffa48c88d94d2cf544b1656bc11ae5b6678" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="namespace_post_1a2fea12512df9753d97b89baf001581ffa48c88d94d2cf544b1656bc11ae5b6678" kindref="member">UP_THRU_NEXT_LIMIT</ref></highlight></codeline>
+<codeline lineno="80"><highlight class="normal"><sp/><sp/><sp/><sp/>};</highlight></codeline>
+<codeline lineno="81"><highlight class="normal">}</highlight></codeline>
+    </programlisting>
+    <location file="C:/Users/helen/Desktop/CATIATranslator/Translator_CATIA/PostManager/ref/Definition.h"/>
+  </compounddef>
+</doxygen>
