@@ -102,12 +102,18 @@ namespace CATIATranslator
             string CATAssem = CATScriptOpenDialog(); //Assembly CATScript address
             if (CATAssem == "") return;
             string folder_address = CATAssem.Substring(0, CATAssem.LastIndexOf("\\"));
-            Console.WriteLine(folder_address);
+            Console.WriteLine(folder_address); //Assembly folder address.
 
 
             string line;
             string search = "array";
             string search2 = "AddBiEltCst";
+
+            //Part file: bring address of parts folder
+            string CATAssem2 = CATScriptOpenDialog(); 
+            if (CATAssem2 == "") return;
+            string folder_address_parts = CATAssem2.Substring(0, CATAssem2.LastIndexOf("\\")); 
+            Console.WriteLine(folder_address_parts); //part folder address.
 
             //parts, constraint parsing
             using (StreamReader sr = new StreamReader(CATAssem, System.Text.Encoding.Default))
@@ -122,17 +128,19 @@ namespace CATIATranslator
                         if (line.Substring(0, 5) == search)
                         {
                             // part address parsing
-                            a_part[part_num].address = folder_address + line.Substring((line.IndexOf(".")) + 1, line.LastIndexOf("\"") - line.IndexOf(".") - 1);
+                            Console.WriteLine(line);
+                            a_part[part_num].transname = line.Substring(line.LastIndexOf("\\") + 1, line.LastIndexOf(".") - line.LastIndexOf("\\") -1);
+                            Console.WriteLine(a_part[part_num].transname);
+
+                            a_part[part_num].address = folder_address_parts + "\\" + a_part[part_num].transname + ".CATPart";
+                            //a_part[part_num].address = line.Substring((line.IndexOf(".")) + 1, line.LastIndexOf("\"") - line.IndexOf(".") - 1);
                             Console.WriteLine(a_part[part_num].address);
-                           
-                            // catia name parsing
-                           // a1_part[part_num].catname = "Part1"; //수정 필요!!!!!! // API 필요.
-                           // Console.WriteLine(a1_part[part_num].catname);
+                          
 
                             //transcad name parsing
-                            a_part[part_num].transname = Path.GetFileName(a_part[part_num].address);
-                            a_part[part_num].transname = a_part[part_num].transname.Substring(0, a_part[part_num].transname.LastIndexOf('.'));
-                            Console.WriteLine(a_part[part_num].transname);
+                           // a_part[part_num].transname = Path.GetFileName(a_part[part_num].address);
+                           // a_part[part_num].transname = a_part[part_num].transname.Substring(0, a_part[part_num].transname.LastIndexOf('.'));
+                           // Console.WriteLine(a_part[part_num].transname);
 
                             // number of parts
                             part_num++;

@@ -1,1 +1,9 @@
-﻿
+﻿  ReferenceClass_Pre.cpp
+c:\users\helen\desktop\catiatranslator\translator_catia\cppwithcsharp\referenceclass_pre.cpp(2): warning C4005: '__CLR_VER': 매크로 재정의
+  c:\users\helen\desktop\catiatranslator\translator_catia\cppwithcsharp\referenceclass_pre.cpp(2): note: 명령줄 인수: '__CLR_VER'의 이전 정의를 참조하십시오.
+c:\users\helen\desktop\catiatranslator\translator_catia\cppwithcsharp\referenceclass_pre.cpp(2): warning C4651: 미리 컴파일된 헤더에 대해 '/D__CLR_VER=40703190'을(를) 지정했으나 현재 컴파일에 대해서는 지정하지 않았습니다.
+  PostManager.lib(SKETCHItem.obj) : /GL로 컴파일한 MSIL .netmodule 또는 모듈이 있습니다. /LTCG를 지정하여 링크를 다시 시작하십시오. /LTCG를 링크 명령줄에 추가하면 링커 성능이 향상됩니다.
+     C:\Users\helen\Desktop\CATIATranslator\Translator_CATIA\Release\CPPWITHCSHARP.lib 라이브러리 및 C:\Users\helen\Desktop\CATIATranslator\Translator_CATIA\Release\CPPWITHCSHARP.exp 개체를 생성하고 있습니다.
+  코드를 생성하고 있습니다.
+  코드를 생성했습니다.
+  CPPWITHCSHARP.vcxproj -> C:\Users\helen\Desktop\CATIATranslator\Translator_CATIA\Release\CPPWITHCSHARP.dll
