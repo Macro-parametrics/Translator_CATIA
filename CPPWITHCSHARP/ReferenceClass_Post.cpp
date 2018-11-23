@@ -12,23 +12,23 @@ using namespace System::Runtime::InteropServices;
 
 
 
-/** Post Process Reference °ü¸®
+/** Post Process Reference ê´€ë¦¬
 **************** Puclic
-* //ÇÏ³ªÀÇ Constraint¸¦ ÇÏ±â À§ÇÑ Master Part¿Í Slave PartÀÇ ÂüÁ¶ ReferenceNameÀ» ¸®ÅÏ
-* // TransCAD Assembly¿¡¼­ »ç¿ëÇÏ´Â PartµéÀ».CATScript·Î º¯È¯ÇÏ±â À§ÇÑ ÇÔ¼ö
+* //í•˜ë‚˜ì˜ Constraintë¥¼ í•˜ê¸° ìœ„í•œ Master Partì™€ Slave Partì˜ ì°¸ì¡° ReferenceNameì„ ë¦¬í„´
+* // TransCAD Assemblyì—ì„œ ì‚¬ìš©í•˜ëŠ” Partë“¤ì„.CATScriptë¡œ ë³€í™˜í•˜ê¸° ìœ„í•œ í•¨ìˆ˜
 **************** Private
-* //ÇÏ³ªÀÇ Component¸¦ ¹Ş¾Æ¿Í¼­ PartÀÌ¸§¿¡ µû¶ó ±× ComponentÀÇ ¸î¹øÂ° PartÀÎÁö ¹øÈ£¸¦ ¸®ÅÏ
-* //ÇÏ³ªÀÇ AssemÀ» ¹Ş¾Æ¿Í¼­ SubAssemblyÀÌ¸§À» ÅëÇÏ¿© ¸î¹øÂ° CATIAÀÇ Product¿¡ ÇØ´çÇÏ´ÂÁö ¾Ë¾Æ³¿
-* //TypeÀ» ÀÎÀÚ·Î ¹Ş¾Æ¼­ CATIA¿¡¼­ »ç¿ëÇÏ´Â consist NameÀ¸·Î ¹Ù²ãÁÜ
-* //Part Á¤º¸¸¦ ÅëÇØ¼­ TransCAD ReferenceNameÀ» CATIA ReferenceNameÀ¸·Î º¯È¯
-* //TransCAD AssemblyÀÇ Reference ÀÌ¸§À» CATIA Reference ÀÌ¸§À¸·Î º¯ÇÑ
+* //í•˜ë‚˜ì˜ Componentë¥¼ ë°›ì•„ì™€ì„œ Partì´ë¦„ì— ë”°ë¼ ê·¸ Componentì˜ ëª‡ë²ˆì§¸ Partì¸ì§€ ë²ˆí˜¸ë¥¼ ë¦¬í„´
+* //í•˜ë‚˜ì˜ Assemì„ ë°›ì•„ì™€ì„œ SubAssemblyì´ë¦„ì„ í†µí•˜ì—¬ ëª‡ë²ˆì§¸ CATIAì˜ Productì— í•´ë‹¹í•˜ëŠ”ì§€ ì•Œì•„ëƒ„
+* //Typeì„ ì¸ìë¡œ ë°›ì•„ì„œ CATIAì—ì„œ ì‚¬ìš©í•˜ëŠ” consist Nameìœ¼ë¡œ ë°”ê¿”ì¤Œ
+* //Part ì •ë³´ë¥¼ í†µí•´ì„œ TransCAD ReferenceNameì„ CATIA ReferenceNameìœ¼ë¡œ ë³€í™˜
+* //TransCAD Assemblyì˜ Reference ì´ë¦„ì„ CATIA Reference ì´ë¦„ìœ¼ë¡œ ë³€í•œ
 **/
 namespace ReferenceClass
 {
 
 	
-	ref_Post::ref_Post() :m_pReferenceManager(new Post::CATIAReferenceManager) {	}///Constructor(»ı¼ºÀÚ) : Connect with C++ Dll
-	ref_Post::~ref_Post() { delete m_pReferenceManager;	m_pReferenceManager = 0; }///Destructor(¼Ò¸êÀÚ)
+	ref_Post::ref_Post() :m_pReferenceManager(new Post::CATIAReferenceManager) {	}///Constructor(ìƒì„±ì) : Connect with C++ Dll
+	ref_Post::~ref_Post() { delete m_pReferenceManager;	m_pReferenceManager = 0; }///Destructor(ì†Œë©¸ì)
 
 
 	/**********************************              Public Function             ***********************************************/
@@ -144,7 +144,7 @@ namespace ReferenceClass
 
 
 	/**********************************              Private Function             ***********************************************/
-	//ÇÏ³ªÀÇ Component¸¦ ¹Ş¾Æ¿Í¼­ PartÀÌ¸§¿¡ µû¶ó ±× ComponentÀÇ ¸î¹øÂ° PartÀÎÁö ¹øÈ£¸¦ ¸®ÅÏ  //´Ù½Ã ¸¸µé¾î¾ßµÊ AssemÀ» ¹Ş¾Æ¿Í¼­ ¸î¹øÂ° ComponentÀÎÁö¿¡ µû¶ó PartNumÀÌ +µÇ¾ßµÇ´Â °ªÀÌ ÀÖ´Ù//ÇöÀç´Â ±×³É ÇÏ³ªÀÇ ÄÄÆÛ³ÍÆ® ¾È¿¡¼­ ¸î¹øÂ° ÆÄÆ®ÀÎÁö¸¸ ¸®ÅÏÇÑ´Ù//ÀüÃ¼ ÆÄÆ®¿¡¼­ ¸î¹ø Â° ÆÄÆ®ÀÎÁö´Â ¸®ÅÏÇÏÁö ¾Ê´Â´Ù
+	//í•˜ë‚˜ì˜ Componentë¥¼ ë°›ì•„ì™€ì„œ Partì´ë¦„ì— ë”°ë¼ ê·¸ Componentì˜ ëª‡ë²ˆì§¸ Partì¸ì§€ ë²ˆí˜¸ë¥¼ ë¦¬í„´  //ë‹¤ì‹œ ë§Œë“¤ì–´ì•¼ë¨ Assemì„ ë°›ì•„ì™€ì„œ ëª‡ë²ˆì§¸ Componentì¸ì§€ì— ë”°ë¼ PartNumì´ +ë˜ì•¼ë˜ëŠ” ê°’ì´ ìˆë‹¤//í˜„ì¬ëŠ” ê·¸ëƒ¥ í•˜ë‚˜ì˜ ì»´í¼ë„ŒíŠ¸ ì•ˆì—ì„œ ëª‡ë²ˆì§¸ íŒŒíŠ¸ì¸ì§€ë§Œ ë¦¬í„´í•œë‹¤//ì „ì²´ íŒŒíŠ¸ì—ì„œ ëª‡ë²ˆ ì§¸ íŒŒíŠ¸ì¸ì§€ëŠ” ë¦¬í„´í•˜ì§€ ì•ŠëŠ”ë‹¤
 	int ref_Post::GetPartNum_From_PartName(TransCAD::ICompPtr u_spComp, string PartName) {
 
 		int partNum = 0;
@@ -164,7 +164,7 @@ namespace ReferenceClass
 
 	}
 
-	//ÇÏ³ªÀÇ AssemÀ» ¹Ş¾Æ¿Í¼­ SubAssemblyÀÌ¸§À» ÅëÇÏ¿© ¸î¹øÂ° CATIAÀÇ Product¿¡ ÇØ´çÇÏ´ÂÁö ¾Ë¾Æ³¿
+	//í•˜ë‚˜ì˜ Assemì„ ë°›ì•„ì™€ì„œ SubAssemblyì´ë¦„ì„ í†µí•˜ì—¬ ëª‡ë²ˆì§¸ CATIAì˜ Productì— í•´ë‹¹í•˜ëŠ”ì§€ ì•Œì•„ëƒ„
 	int ref_Post::GetProductNum_From_SubAssemName(TransCAD::IAssemPtr u_spAssem, string SubAssemName)
 	{
 
@@ -186,7 +186,7 @@ namespace ReferenceClass
 		return 0;
 	}
 
-	//TypeÀ» ÀÎÀÚ·Î ¹Ş¾Æ¼­ CATIA¿¡¼­ »ç¿ëÇÏ´Â consist NameÀ¸·Î ¹Ù²ãÁÜ
+	//Typeì„ ì¸ìë¡œ ë°›ì•„ì„œ CATIAì—ì„œ ì‚¬ìš©í•˜ëŠ” consist Nameìœ¼ë¡œ ë°”ê¿”ì¤Œ
 	String^ ref_Post::GetConstType(int type) {
 		switch (type) {
 		case 0:
@@ -195,17 +195,25 @@ namespace ReferenceClass
 		case 1:
 			return "catCstTypeSurfContact";
 			break;
+	/*	case 2:
+			return "catCstTypeAngle";
+			break;
+		case 3:
+			return "catCstTypeDistance";
+			break;
+	
+	*/
 		default:
 			return "ANY";
 			break;
-
+		
 
 
 		}
 
 	}
 
-	//Part Á¤º¸¸¦ ÅëÇØ¼­ TransCAD ReferenceNameÀ» CATIA ReferenceNameÀ¸·Î º¯È¯
+	//Part ì •ë³´ë¥¼ í†µí•´ì„œ TransCAD ReferenceNameì„ CATIA ReferenceNameìœ¼ë¡œ ë³€í™˜
 	string ref_Post::T2C_ReferenceName_From_Part(TransCAD::ICompPtr u_spComp, int partNum, string part_persistentName) {
 
 		string partName;
@@ -228,19 +236,19 @@ namespace ReferenceClass
 
 	}
 
-	//TransCAD AssemblyÀÇ Reference ÀÌ¸§À» CATIA Reference ÀÌ¸§À¸·Î º¯ÇÑ
+	//TransCAD Assemblyì˜ Reference ì´ë¦„ì„ CATIA Reference ì´ë¦„ìœ¼ë¡œ ë³€í•œ
 	string ref_Post::T2C_ReferenceName_From_Assembly(TransCAD::IAssemPtr u_spAssem, int constype, string Pack, string PartName, string assembly_persistentName) {
-		//u_spComp(SubAssembly1¾ÈÀÇ Partsµé¿¡ °üÇÑ Á¤º¸¸¦ ´ã°í ÀÖÀ½) ¾È¿¡ ÀÖ´Â PartNameÀ» °Ë»öÇØ¼­ assembly_persistentNameÀ» T2C·Î º¯È¯ÇÏ´Â ÀÛ¾÷
+		//u_spComp(SubAssembly1ì•ˆì˜ Partsë“¤ì— ê´€í•œ ì •ë³´ë¥¼ ë‹´ê³  ìˆìŒ) ì•ˆì— ìˆëŠ” PartNameì„ ê²€ìƒ‰í•´ì„œ assembly_persistentNameì„ T2Cë¡œ ë³€í™˜í•˜ëŠ” ì‘ì—…
 
 		string temp = assembly_persistentName;											  //SubAssembly1,RotationPart,Cut1,Sketch2,Circle1,0,0,0,ExtrudeFeature:0,0:0:0
 
-		string refer_product = temp.substr(0, temp.find(",") - 0);						  //SubAssembly1 ÃßÃâ    C#::string refer_product = refer.Substring(0, refer.IndexOf(","));
-		int SubAssemNum = GetProductNum_From_SubAssemName(u_spAssem, refer_product);      //Product Number °¡Á®¿À±â
-		refer_product = "Product" + to_string(SubAssemNum);								  //Product1 º¯È¯        C#::refer_product = refer_product.Substring(11);refer_product = "Product" + refer_product;
+		string refer_product = temp.substr(0, temp.find(",") - 0);						  //SubAssembly1 ì¶”ì¶œ    C#::string refer_product = refer.Substring(0, refer.IndexOf(","));
+		int SubAssemNum = GetProductNum_From_SubAssemName(u_spAssem, refer_product);      //Product Number ê°€ì ¸ì˜¤ê¸°
+		refer_product = "Product" + to_string(SubAssemNum);								  //Product1 ë³€í™˜        C#::refer_product = refer_product.Substring(11);refer_product = "Product" + refer_product;
 
 		TransCAD::ICompPtr u_spComp = u_spAssem->GetComponent(SubAssemNum);
-		int partNum = GetPartNum_From_PartName(u_spComp, PartName);						  //PartNum °¡Á®¿À±â
-		string refer_Part = "Part1." + to_string(partNum + 1);							  //Part1.1(PartÀÌ¸§.¶È°°ÀºPartÀÌ¸§¿ì¼±¼øÀ§)          C#::string refer_Part = "Part1." + (partNum + 1).ToString();
+		int partNum = GetPartNum_From_PartName(u_spComp, PartName);						  //PartNum ê°€ì ¸ì˜¤ê¸°
+		string refer_Part = "Part1." + to_string(partNum + 1);							  //Part1.1(Partì´ë¦„.ë˜‘ê°™ì€Partì´ë¦„ìš°ì„ ìˆœìœ„)          C#::string refer_Part = "Part1." + (partNum + 1).ToString();
 		string refer_pack = Pack;                                                         //Axis:(           C#::string refer_coaxial = "Axis" + ":(";
 		string refer_from_part = temp.substr(temp.find(",", temp.find(",") + 1) + 1);     //Cut1,Sketch2,Circle1,0,0,0,ExtrudeFeature:0,0:0:0  C#::string refer_from_part = refer.Substring(refer.IndexOf(",") + 1);refer_from_part = refer_from_part.Substring(refer_from_part.IndexOf(",") + 1);refer_from_part = m_refer.EX(m_param);
 		refer_from_part = T2C_ReferenceName_From_Part(u_spComp, partNum, refer_from_part);
