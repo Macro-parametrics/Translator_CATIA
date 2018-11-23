@@ -22,7 +22,9 @@ namespace CATIATranslator
     {
 
         enum CTYPE { Coaxial,Incidence }
-
+   //   enum CTYPE { Coaxial, Incidence, Distance, Angle } Mutahar 18-10-09
+        
+        
         //Form2에서 사용할 떄 사용 최종 버전 : Assembly Script를 저장할 filepath와 Part파일들이 저장된 path를 받아와서 Assembly.CATScript파일 생성
         //오버로딩 함수 : Program.cs에서 바로 실행할 떄 쓰임 : Backup ver5_06을 참조
         //오버로딩 함수 :Form1에서 버튼을 눌렀을 떄 API만 사용할 떄 filepath만 줘서 사용한다 : Backup ver5_06을 참조
@@ -109,6 +111,10 @@ namespace CATIATranslator
                 string Sslave_ref = "";
                 refCommand m_ref;
 
+          //    string Sangle = "";
+          //    string Sdistance = "";
+                
+                
                 mywriter.WriteLine("Dim " + Sconstraints + " As Collection");
                 #endregion
 
@@ -137,7 +143,30 @@ namespace CATIATranslator
 
                     mywriter.WriteLine(Sproduct + ".Update ");
 
+                    /*
+                       string st1 = m_ref.param;
+                       string st2 = "catCstTypeAngle";
+                       string st3 = "catCstTypeDistance";
 
+                       bool ang = st1.Equals(st2);
+                       bool dist = st1.Equals(st3);
+
+                       if (ang)
+                       {
+                           mywriter.WriteLine("Dim" + Sangle + "As Dimension");
+                           mywriter.WriteLine("Set" + Sangle + "=" + Sconstraint + ".Dimension");
+                           mywriter.WriteLine(Sangle + ".Value" + 0.000000);
+                           mywriter.WriteLine(Sconstraint + ".AngleSector" + "=" + "catCstAngleSector");
+                       }
+                       else if (dist)
+                       {
+                          mywriter.WriteLine("Dim" + Sdistance + "As Dimension");
+                          mywriter.WriteLine("Set" + Sdistance + "=" + Sconstraint + ".Dimension");
+                          mywriter.WriteLine(Sdistance + ".Value" + 10.000000);
+                          mywriter.WriteLine(Sconstraint + ".Orientation" + "=" + "catCstOrientSame");
+                       }
+                           return;
+                       */       
                 }
                 #endregion
 
@@ -186,6 +215,34 @@ namespace CATIATranslator
        
 
                     break;
+                    /* Mutahar 18-10-09
+                 case CTYPE.Angle: //(Surface-Surface)
+                     TransCAD.IStdAssemConstraintAngle ang = (TransCAD.IStdAssemConstraintAngle)tConstraint;
+                     Console.WriteLine("Loading Angle......................................");
+
+                     para.command = (int)type;
+                     para.param = "";
+                     para.MasterPart = ang.ConstrainedPart.Name;
+                     para.SlavePart = ang.ReferencePart.Name;
+                     para.MasterPart_Ref = ang.ConstrainedGeometry.ReferenceeName;
+                     para.SlavePart_Ref = ang.ReferenceGeometry.ReferenceeName;
+                     Angle Value?
+
+                   break;
+                 case CTYPE.Distance: //(Surface-Surface)
+                     TransCAD.IStdAssemConstraintCoaxial Dist = (TransCAD.IStdAssemConstraintDistance)tConstraint;
+                     Console.WriteLine("Loading Distance......................................");
+
+                     para.command = (int)type;
+                     para.param = "";
+                     para.MasterPart = dist.ConstrainedPart.Name;
+                     para.SlavePart = dist.ReferencePart.Name;
+                     para.MasterPart_Ref = dist.ConstrainedGeometry.ReferenceeName;
+                     para.SlavePart_Ref = dist.ReferenceGeometry.ReferenceeName;
+                     Offset Value?
+
+                   break;
+                 */
 
                 default:
                     Console.WriteLine("Anything........");
