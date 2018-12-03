@@ -6,22 +6,16 @@ using System.Collections.Generic;
 using System.Text;
 using TransCAD;
 
+//using System.Diagnostics;
+
 //part information struct 
 public struct PartsInfo
 {
-    public string address;
-    public string catname;
-    public string transname;
+    public string address; //api 가능
+    public string catname; //api 가능
+    public string transname; //api 가능
+    public string ins_name; //api 가능
 
-    public PartsInfo(string address, string catname, string transname)
-    {
-        // Part가 위치 해야할 곳.
-        this.address = address;
-        // CATIA 파트 이름
-        this.catname = catname;
-        // TrnasCAD 파트 이름
-        this.transname=transname;
-    }
 };
 
 //constraint information struct
@@ -93,9 +87,7 @@ namespace CATIATranslator
         // Pre-Processor Assembly
         private void button3_Click_1(object sender, EventArgs e)
         {
-            int part_num = 0;
             int constraint_num = 0;
-            PartsInfo[] a_part=new PartsInfo[100]; //동적할당: 수정 
             ConstraintInfo[] a1_constraint = new ConstraintInfo[100]; //동적할당: 수정
 
             //Assembly file: bring CATScript and address
@@ -104,18 +96,16 @@ namespace CATIATranslator
             string folder_address = CATAssem.Substring(0, CATAssem.LastIndexOf("\\"));
             Console.WriteLine(folder_address); //Assembly folder address.
 
-
             string line;
-            string search = "array";
             string search2 = "AddBiEltCst";
 
             //Part file: bring address of parts folder
-            string CATAssem2 = CATScriptOpenDialog(); 
+            string CATAssem2 = CATScriptOpenDialog();
             if (CATAssem2 == "") return;
-            string folder_address_parts = CATAssem2.Substring(0, CATAssem2.LastIndexOf("\\")); 
+            string folder_address_parts = CATAssem2.Substring(0, CATAssem2.LastIndexOf("\\"));
             Console.WriteLine(folder_address_parts); //part folder address.
-
-            //parts, constraint parsing
+             
+              //constraint type parsing
             using (StreamReader sr = new StreamReader(CATAssem, System.Text.Encoding.Default))
             {
                 while ((line = sr.ReadLine()) != null)
@@ -123,28 +113,6 @@ namespace CATIATranslator
 
                     if (line.Length > 10)  //수정 가능
                     {
-
-                        // find line for parsing
-                        if (line.Substring(0, 5) == search)
-                        {
-                            // part address parsing
-                            Console.WriteLine(line);
-                            a_part[part_num].transname = line.Substring(line.LastIndexOf("\\") + 1, line.LastIndexOf(".") - line.LastIndexOf("\\") -1);
-                            Console.WriteLine(a_part[part_num].transname);
-
-                            a_part[part_num].address = folder_address_parts + "\\" + a_part[part_num].transname + ".CATPart";
-                            //a_part[part_num].address = line.Substring((line.IndexOf(".")) + 1, line.LastIndexOf("\"") - line.IndexOf(".") - 1);
-                            Console.WriteLine(a_part[part_num].address);
-                          
-
-                            //transcad name parsing
-                           // a_part[part_num].transname = Path.GetFileName(a_part[part_num].address);
-                           // a_part[part_num].transname = a_part[part_num].transname.Substring(0, a_part[part_num].transname.LastIndexOf('.'));
-                           // Console.WriteLine(a_part[part_num].transname);
-
-                            // number of parts
-                            part_num++;
-                        }
 
                         if (line.IndexOf(search2) != -1)
                         {
@@ -171,11 +139,11 @@ namespace CATIATranslator
             {
                 while ((line = sr.ReadLine()) != null)
                 {
-                    for(int n = 0; n < constraint_num; n++)
+                    for (int n = 0; n < constraint_num; n++)
                     {
                         if (line.IndexOf("CreateReference") != -1)
                         {
-                            if(line.IndexOf(a1_constraint[n].master_ref) != -1)
+                            if (line.IndexOf(a1_constraint[n].master_ref) != -1)
                             {
                                 a1_constraint[n].master_ref = line.Substring(line.IndexOf("\"") + 1, line.LastIndexOf("\"") - line.IndexOf("\"") - 1);
                                 Console.WriteLine(a1_constraint[n].master_ref);
@@ -190,31 +158,65 @@ namespace CATIATranslator
                 }
             }
 
-            
-            //각 part 파일 열어서 catia name(part number) 가져오기.
-            for(int i = 0; i < part_num; i++)
-            {
-                Part test1 = new Part();
-                if (test1.InitializeCATIA(a_part[i].address, (int)0)) //open catia
-                {
-                    a_part[i].catname = test1.cPart.get_Name();
-                    test1.UninitializeCATIA();
-                }
-            }
-            Console.WriteLine(a_part[0].catname);
-            Console.WriteLine(a_part[1].catname);
-            Console.WriteLine("Success!!");
 
-            //파트 번역
-            //script 열어서 instance name 가져오기.
+            //part information storage
+            List<PartsInfo> part_collect = new List<PartsInfo>();
+
+            //CATProduct location
+            Assembly Product1 = new Assembly();
+            string product_address = folder_address + "\\A1.CATProduct"; //수정 필요.
+            Console.WriteLine(product_address);
+
+            //CATProduct 열어서 part number, instance name, address 가져오기.
+            int part_numb = 0;
+            if (Product1.InitializeCATIA(product_address, (int)0))
+            {
+                Console.WriteLine("working!");
+                Console.WriteLine(Product1.cProduct.get_Name()); //product name
+                part_numb = Product1.cProducts.Count;
+                Console.WriteLine(part_numb);
+
+                if (part_numb > 0)
+                {
+
+                    for (int i = 1; i <= part_numb; i++)
+                    {
+                        Console.WriteLine("");
+
+                        string first = Product1.cProducts.Item(i).get_Name(); //instance name
+                        Console.WriteLine(first);
+
+                        string first_part = Product1.cProducts.Item(i).get_PartNumber(); //part number
+                        Console.WriteLine(first_part);
+
+                        string first_address = Product1.cProducts.Item(i).ReferenceProduct.GetMasterShapeRepresentationPathName(); //address of part
+                        Console.WriteLine(first_address);
+
+                        string first_transcad= first_address.Substring(first_address.LastIndexOf("\\")+1, first_address.LastIndexOf(".")- first_address.LastIndexOf("\\")-1);
+                        Console.WriteLine(first_transcad);
+
+                        PartsInfo temp = new PartsInfo();
+                        temp.ins_name = first; temp.catname = first_part; temp.address = first_address; temp.transname = first_transcad;
+
+                        part_collect.Add(temp);
+
+                    }
+                }
+
+                Product1.UninitializeCATIA();
+            }
+
+            //파트 번역..CATParts
+
+
 
 
             //parts information
             PreStack stack = new PreStack();
             stack.Clear();
-            for (int i = 0; i < part_num; i++)
+            for (int i = 0; i < part_numb; i++)
             {
-                stack.StackItem(a_part[i].address, a_part[i].catname, a_part[i].transname);
+                stack.StackItem(part_collect[i].address, part_collect[i].catname, part_collect[i].transname);
             }
 
             //constraint information
@@ -222,8 +224,7 @@ namespace CATIATranslator
             //Set constraint1 = constraints1.AddBiEltCst(catCstTypeOn, reference1, reference2)
             m_refer.SetConstraint(stack, stack.GetSize(), a1_constraint[0].type, a1_constraint[0].master_ref, a1_constraint[0].slave_ref, "move", 0); //수정 필요. "move"???
             m_refer.SetConstraint(stack, stack.GetSize(), a1_constraint[1].type, a1_constraint[1].master_ref, a1_constraint[1].slave_ref, "", 0); //수정 필요.
-            //To Hellen
-            
+
         }
 
         // Post-Processor Assembly

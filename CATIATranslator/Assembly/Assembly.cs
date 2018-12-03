@@ -75,10 +75,10 @@ namespace CATIATranslator
             cDocs = cApp.Documents;
 
             if (mode == 0)
-                //cProductDoc = (INFITF.Documents)cDocs.Read(filePath);
-                cProductDoc = null;
+                cProductDoc = (ProductStructureTypeLib.ProductDocument)cDocs.Read(filePath); //CATProduct read
+                //cProductDoc = null;
             else if (mode == 1)
-                cProductDoc = (ProductStructureTypeLib.ProductDocument)cDocs.Add("Product");
+                cProductDoc = (ProductStructureTypeLib.ProductDocument)cDocs.Add("Product"); //new CATProduct 생성
 
             cApp.Visible = true;
 
@@ -90,9 +90,14 @@ namespace CATIATranslator
 
         public void UninitializeCATIA()
         {
+
             /*
                 어셈블리 특화 함수 구현    
             */
+            cProduct = null;
+            cProducts = null;
+            cProductDoc = null;
+
         }
 
         //// TransCAD 관련 함수
