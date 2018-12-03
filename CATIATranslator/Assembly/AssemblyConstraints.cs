@@ -141,35 +141,41 @@ namespace CATIATranslator
                     mywriter.WriteLine("Dim " + Sconstraint + " As Constraint");
                     mywriter.WriteLine("Set " + Sconstraint + " = " + Sconstraints + ".AddBiEltCst(" + m_ref.param + ", " + Smaster_ref + ", " + Sslave_ref + ")");
 
-                    mywriter.WriteLine(Sproduct + ".Update ");
+                    
+                  // to be used in the case of angle and distance constriants
+                    string st1 = m_ref.param;
+                    string st2 = "catCstTypeAngle";
+                    string st3 = "catCstTypeDistance";
+                    string Sangle = "";
+                    string Sdistance = "";
+                    bool ang = st1.Equals(st2);
+                    bool dist = st1.Equals(st3);
+                    int a = 1;
+                    int d = 1;
+                   
+                    if (ang)        // Additional portion of angle constraint
+                    {                         
+                              Sangle = "angle" + (a).ToString();
 
-                    /*
-                       string st1 = m_ref.param;
-                       string st2 = "catCstTypeAngle";
-                       string st3 = "catCstTypeDistance";
+                              mywriter.WriteLine("Dim" + Sangle + "As Dimension");
+                              mywriter.WriteLine("Set" + Sangle + "=" + Sconstraint + ".Dimension");
+                              mywriter.WriteLine(Sangle + ".Value" + 0.000000);
+                            mywriter.WriteLine(Sconstraint + ".AngleSector" + "=" + "catCstAngleSector0");
+                                a = a + 1;
+                    }
+                    else if (dist)  // Additional portion of distance constraint
+                    {                    
+                            Sdistance = "distance" + (d).ToString();
 
-                       bool ang = st1.Equals(st2);
-                       bool dist = st1.Equals(st3);
-
-                       if (ang)
-                       {
-                           mywriter.WriteLine("Dim" + Sangle + "As Dimension");
-                           mywriter.WriteLine("Set" + Sangle + "=" + Sconstraint + ".Dimension");
-                           mywriter.WriteLine(Sangle + ".Value" + 0.000000);
-                           mywriter.WriteLine(Sconstraint + ".AngleSector" + "=" + "catCstAngleSector");
-                       }
-                       else if (dist)
-                       {
-                          mywriter.WriteLine("Dim" + Sdistance + "As Dimension");
-                          mywriter.WriteLine("Set" + Sdistance + "=" + Sconstraint + ".Dimension");
-                          mywriter.WriteLine(Sdistance + ".Value" + 10.000000);
-                          mywriter.WriteLine(Sconstraint + ".Orientation" + "=" + "catCstOrientSame");
-                       }
-                           return;
-                       */       
+                            mywriter.WriteLine("Dim" + Sdistance + "As Dimension");
+                            mywriter.WriteLine("Set" + Sdistance + "=" + Sconstraint + ".Dimension");
+                            mywriter.WriteLine(Sdistance + ".Value" + 10.000000);
+                            mywriter.WriteLine(Sconstraint + ".Orientation" + "=" + "catCstOrientSame");
+                            d = d + 1;
+                    }                 
                 }
                 #endregion
-
+                mywriter.WriteLine(Sproduct + ".Update ");
                 mywriter.WriteLine("End Sub");
             }
 
