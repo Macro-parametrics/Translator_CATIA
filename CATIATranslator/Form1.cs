@@ -21,6 +21,7 @@ public struct PartsInfo
 //constraint information struct
 public struct ConstraintInfo
 {
+    public string name;
     public string type;
     public string master_ref;
     public string slave_ref;
@@ -88,10 +89,10 @@ namespace CATIATranslator
         private void button3_Click_1(object sender, EventArgs e)
         {
             int constraint_num = 0;
-            ConstraintInfo[] a1_constraint = new ConstraintInfo[100]; //동적할당: 수정
+            ConstraintInfo[] a1_constraint = new ConstraintInfo[100]; //조만간 제거할거임.
 
             //Assembly file: bring CATScript and address
-            string CATAssem = CATScriptOpenDialog(); //Assembly CATScript address
+            string CATAssem = CATScriptOpenDialog(); //Assembly CATScript address   -> 수정필요
             if (CATAssem == "") return;
             string folder_address = CATAssem.Substring(0, CATAssem.LastIndexOf("\\"));
             Console.WriteLine(folder_address); //Assembly folder address.
@@ -100,12 +101,12 @@ namespace CATIATranslator
             string search2 = "AddBiEltCst";
 
             //Part file: bring address of parts folder
-            string CATAssem2 = CATScriptOpenDialog();
+            string CATAssem2 = CATScriptOpenDialog();  //-> 수정 필요
             if (CATAssem2 == "") return;
             string folder_address_parts = CATAssem2.Substring(0, CATAssem2.LastIndexOf("\\"));
             Console.WriteLine(folder_address_parts); //part folder address.
              
-              //constraint type parsing
+              //constraint type parsing  //조만간 지울거임.
             using (StreamReader sr = new StreamReader(CATAssem, System.Text.Encoding.Default))
             {
                 while ((line = sr.ReadLine()) != null)
@@ -118,13 +119,13 @@ namespace CATIATranslator
                         {
                             //constraint type parsing
                             a1_constraint[constraint_num].type = line.Substring(line.IndexOf("(") + 1, line.IndexOf(",") - line.IndexOf("(") - 1);
-                            Console.WriteLine(a1_constraint[constraint_num].type);
+                            //Console.WriteLine(a1_constraint[constraint_num].type);
                             //master_ref parsing(numbering)
                             a1_constraint[constraint_num].master_ref = line.Substring(line.IndexOf(",") + 2, line.LastIndexOf(",") - line.IndexOf(",") - 2);
-                            Console.WriteLine(a1_constraint[constraint_num].master_ref);
+                            //Console.WriteLine(a1_constraint[constraint_num].master_ref);
                             //slave_ref parsing(numbering)
                             a1_constraint[constraint_num].slave_ref = line.Substring(line.LastIndexOf(",") + 2, line.IndexOf(")") - line.LastIndexOf(",") - 2);
-                            Console.WriteLine(a1_constraint[constraint_num].slave_ref);
+                            //Console.WriteLine(a1_constraint[constraint_num].slave_ref);
 
                             //number of constraints
                             constraint_num++;
@@ -134,7 +135,7 @@ namespace CATIATranslator
                 }
             }
 
-            // reparsing master_ref, slave_ref(contents)
+            // reparsing master_ref, slave_ref(contents)  //조만간 지울거임.
             using (StreamReader sr = new StreamReader(CATAssem, System.Text.Encoding.Default))
             {
                 while ((line = sr.ReadLine()) != null)
@@ -146,12 +147,12 @@ namespace CATIATranslator
                             if (line.IndexOf(a1_constraint[n].master_ref) != -1)
                             {
                                 a1_constraint[n].master_ref = line.Substring(line.IndexOf("\"") + 1, line.LastIndexOf("\"") - line.IndexOf("\"") - 1);
-                                Console.WriteLine(a1_constraint[n].master_ref);
+                                //Console.WriteLine(a1_constraint[n].master_ref);
                             }
                             else if (line.IndexOf(a1_constraint[n].slave_ref) != -1)
                             {
                                 a1_constraint[n].slave_ref = line.Substring(line.IndexOf("\"") + 1, line.LastIndexOf("\"") - line.IndexOf("\"") - 1);
-                                Console.WriteLine(a1_constraint[n].slave_ref);
+                                //Console.WriteLine(a1_constraint[n].slave_ref);
                             }
                         }
                     }
@@ -161,22 +162,30 @@ namespace CATIATranslator
 
             //part information storage
             List<PartsInfo> part_collect = new List<PartsInfo>();
+            List<ConstraintInfo> const_collect = new List<ConstraintInfo>();
 
             //CATProduct location
             Assembly Product1 = new Assembly();
-            string product_address = folder_address + "\\A1.CATProduct"; //수정 필요.
+            string product_address = folder_address + "\\A2.CATProduct"; //수정 필요.
             Console.WriteLine(product_address);
 
             //CATProduct 열어서 part number, instance name, address 가져오기.
+            //constraint 갯수, 종류, master ref, slave ref 구하기.
             int part_numb = 0;
+            int const_numb = 0;
+
             if (Product1.InitializeCATIA(product_address, (int)0))
             {
                 Console.WriteLine("working!");
                 Console.WriteLine(Product1.cProduct.get_Name()); //product name
-                part_numb = Product1.cProducts.Count;
+
+                part_numb = Product1.cProducts.Count; // # of parts
                 Console.WriteLine(part_numb);
 
-                if (part_numb > 0)
+                const_numb = Product1.cConstraints.Count; // # of constraints
+                Console.WriteLine(const_numb);
+
+                if (part_numb > 0)  //파트 정보
                 {
 
                     for (int i = 1; i <= part_numb; i++)
@@ -189,7 +198,7 @@ namespace CATIATranslator
                         string first_part = Product1.cProducts.Item(i).get_PartNumber(); //part number
                         Console.WriteLine(first_part);
 
-                        string first_address = Product1.cProducts.Item(i).ReferenceProduct.GetMasterShapeRepresentationPathName(); //address of part
+                        string first_address = Product1.cProducts.Item(i).ReferenceProduct.GetMasterShapeRepresentationPathName(); //address of part 수정 필요!!!!
                         Console.WriteLine(first_address);
 
                         string first_transcad= first_address.Substring(first_address.LastIndexOf("\\")+1, first_address.LastIndexOf(".")- first_address.LastIndexOf("\\")-1);
@@ -201,14 +210,35 @@ namespace CATIATranslator
                         part_collect.Add(temp);
 
                     }
+                } 
+
+                if (const_numb > 0)  //구속 정보
+                {
+                    Console.WriteLine("");
+                    string second = Product1.cConstraints.Name;
+                    Console.WriteLine(second);
+
+                    string second2 = Product1.cConstraints.Item(1).get_Name();
+                    Console.WriteLine(second2);
+
+                    for (int i = 1; i <= const_numb; i++)
+                    {
+                        //Console.WriteLine("");
+
+                        //constraint name
+                        //constraint type
+                        //master ref
+                        //slave ref
+
+                    }
                 }
 
                 Product1.UninitializeCATIA();
             }
 
-            //파트 번역..CATParts
-
-
+            ///////////////////////
+            //파트 번역..CATParts//
+            ///////////////////////
 
 
             //parts information
@@ -219,11 +249,18 @@ namespace CATIATranslator
                 stack.StackItem(part_collect[i].address, part_collect[i].catname, part_collect[i].transname);
             }
 
-            //constraint information
-            ReferenceClass.ref_Pre m_refer = new ReferenceClass.ref_Pre(stack);
-            //Set constraint1 = constraints1.AddBiEltCst(catCstTypeOn, reference1, reference2)
-            m_refer.SetConstraint(stack, stack.GetSize(), a1_constraint[0].type, a1_constraint[0].master_ref, a1_constraint[0].slave_ref, "move", 0); //수정 필요. "move"???
-            m_refer.SetConstraint(stack, stack.GetSize(), a1_constraint[1].type, a1_constraint[1].master_ref, a1_constraint[1].slave_ref, "", 0); //수정 필요.
+            int modeya = 0; //constraint 번역 못하게 막음.
+
+            if(modeya != 0)
+            {
+                //constraint information
+                ReferenceClass.ref_Pre m_refer = new ReferenceClass.ref_Pre(stack);
+                //Set constraint1 = constraints1.AddBiEltCst(catCstTypeOn, reference1, reference2)
+                m_refer.SetConstraint(stack, stack.GetSize(), a1_constraint[0].type, a1_constraint[0].master_ref, a1_constraint[0].slave_ref, "move", 0); //수정 필요. "move"???
+                m_refer.SetConstraint(stack, stack.GetSize(), a1_constraint[1].type, a1_constraint[1].master_ref, a1_constraint[1].slave_ref, "", 0); //수정 필요.
+
+            }
+
 
         }
 

@@ -34,6 +34,8 @@ namespace CATIATranslator
         public MECMOD.Factory cFactory = null;
         public MECMOD.Sketches cSketches = null;
 
+        public MECMOD.Constraints cConstraints = null; //hyebin
+
         public PARTITF.ShapeFactory cShapeFactory = null;
         public HybridShapeTypeLib.HybridShapeFactory cHybridShapeFactory = null;
         #endregion
@@ -84,6 +86,8 @@ namespace CATIATranslator
 
             cProduct = cProductDoc.Product;
             cProducts = cProduct.Products;
+
+            cConstraints = (MECMOD.Constraints)cProduct.Connections("CATIAConstraints");
 
             return true;
         }
