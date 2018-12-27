@@ -138,7 +138,29 @@ namespace ReferenceClass
 		///g_pRefManager->~CATIAReferenceManager();
 	}
 
+	void ref_Post::ExportPart(String^ path) {
+	
+		int status = false;
+		HRESULT hr = ::CoInitialize(NULL);
+		TransCAD::IApplicationPtr g_spApplication;
+		hr = g_spApplication.CreateInstance(__uuidof(TransCAD::Application)); ///Generate TransCAD instance
+		if (FAILED(hr))status = 0;											  ///Generate TransCAD initialize error check
+																			 
+		Post::g_pRefManager = new Post::CATIAReferenceManager();
 
+		TransCAD::IPartDocumentPtr	_spDocument = g_spApplication->ActiveDocument;
+
+		Post::Part *exPart;
+		exPart = new Post::Part(_spDocument->GetPart(),Stos(path));
+		exPart->ExternModeToggle(0);								///Mode 0 : To Translate and Export to CATScript
+																	///Mode 1 : To Translate but not Export to CATScript, Just Translate naming
+		exPart->GetInfo();											///Get Feature Information
+
+		exPart->ToCATIA();											///Translate and Export to CATScript
+		exPart->InitReferManager();									///Initialize value is important after process
+		delete exPart;
+	
+	}
 
 
 

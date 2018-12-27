@@ -142,6 +142,7 @@
     <ClInclude Include="ref\CATIApre.h" />
     <ClInclude Include="ref\CATIApre_DLL.h" />
     <ClInclude Include="ref\Definition.h" />
+    <ClInclude Include="ref\DefinitionLib.h" />
     <ClInclude Include="ref\FDatumPlaneOffset.h" />
     <ClInclude Include="ref\Feature.h" />
     <ClInclude Include="ref\FeatureSOLIDCreateChamfer.h" />

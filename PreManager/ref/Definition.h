@@ -70,6 +70,10 @@ typedef class Vector3D Direct3D;
 	private:
 		double _x, _y, _z;
 	};
+
+
+
+
 }
 
 	enum EntityType {

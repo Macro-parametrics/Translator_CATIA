@@ -48,13 +48,13 @@ namespace Post {
 								//filename : fullpath
 	{
 		// Set TransCAD Active Document Ptr
-		//_spDocument = g_spApplication->ActiveDocument;
+		/*_spDocument = g_spApplication->ActiveDocument;
 
-		//if (_spDocument == NULL) 
-		//{
-		//	cout << " spDocument is Null " << endl;
-		//	return;
-		//}
+		if (_spDocument == NULL) 
+		{
+			cout << " spDocument is Null " << endl;
+			return;
+		}*/
 
 		_spPart = _spDocument->GetPart();		// Set TransCAD Part ptr
 		_spFeatures = _spPart->Features;	// Set TransCAD Features ptr

@@ -16,10 +16,10 @@ namespace Pre {
 	{
 		// Limit의 정보 입력
 		char buffer[500];
-		is.getline(buffer, 500);
+		f_Getline_Custom(is, buffer, 500)
 		while (strncmp(buffer, "Set", 3))  // Set limit2을 찾는 부분
 		{
-			is.getline(buffer, 500);
+			f_Getline_Custom(is, buffer, 500)
 		}
 
 		string limitValue;

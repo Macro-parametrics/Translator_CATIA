@@ -20,10 +20,10 @@ namespace Pre {
 		// ReferenceEntity의 정보를 추출하는 함수
 		char buffer[1000];
 
-		is.getline(buffer, 1000);
+		f_Getline_Custom(is, buffer, 500)
 		while (strncmp(buffer, "Set", 3))
 		{
-			is.getline(buffer, 1000);
+			f_Getline_Custom(is, buffer, 500)
 		}
 
 		string referenceValue;
@@ -137,7 +137,7 @@ namespace Pre {
 					{
 						referenceValue = strtok_s(NULL, seps_temp, &context);
 
-						pWire._sketchName = "sketch" + referenceValue; // 스케치 이름
+						pWire._sketchName = "Sketch" + referenceValue; // 스케치 이름
 
 						referenceValue = strtok_s(NULL, seps_temp, &context);
 						int edgeNumber = atoi(referenceValue.c_str());
@@ -155,7 +155,7 @@ namespace Pre {
 						referenceValue = strtok_s(NULL, seps_temp, &context);
 						referenceValue = strtok_s(NULL, seps_temp, &context);
 
-						pWire._sketchName = "sketch" + referenceValue; // 스케치 이름
+						pWire._sketchName = "Sketch" + referenceValue; // 스케치 이름
 
 						referenceValue = strtok_s(NULL, seps_temp, &context);
 						int edgeNumber = atoi(referenceValue.c_str());
@@ -373,7 +373,7 @@ namespace Pre {
 			referenceValue = strtok_s(NULL, seps_temp, &buffer);
 			referenceValue = strtok_s(NULL, seps_temp, &buffer);
 			referenceValue = strtok_s(NULL, seps_temp, &buffer);
-			_pFace._sketchName1 = "sketch" + referenceValue;
+			_pFace._sketchName1 = "Sketch" + referenceValue;
 
 			referenceValue = strtok_s(NULL, seps_temp, &buffer);
 			int _sketchItemNum1 = atoi(referenceValue.c_str());
@@ -391,7 +391,7 @@ namespace Pre {
 				{
 					referenceValue = strtok_s(NULL, seps_temp, &buffer);
 					referenceValue = strtok_s(NULL, seps_temp, &buffer);
-					_pFace._sketchName2 = "sketch" + referenceValue;
+					_pFace._sketchName2 = "Sketch" + referenceValue;
 
 					referenceValue = strtok_s(NULL, seps_temp, &buffer);
 					int _sketchItemNum2 = atoi(referenceValue.c_str());
@@ -488,7 +488,7 @@ namespace Pre {
 			{
 				referenceValue = strtok_s(NULL, seps_temp, &context);
 
-				pWire._sketchName = "sketch" + referenceValue; // 스케치 이름
+				pWire._sketchName = "Sketch" + referenceValue; // 스케치 이름
 
 				referenceValue = strtok_s(NULL, seps_temp, &context);
 				int edgeNumber = atoi(referenceValue.c_str());
@@ -506,7 +506,7 @@ namespace Pre {
 				referenceValue = strtok_s(NULL, seps_temp, &context);
 				referenceValue = strtok_s(NULL, seps_temp, &context);
 
-				pWire._sketchName = "sketch" + referenceValue; // 스케치 이름
+				pWire._sketchName = "Sketch" + referenceValue; // 스케치 이름
 
 				referenceValue = strtok_s(NULL, seps_temp, &context);
 				int edgeNumber = atoi(referenceValue.c_str());

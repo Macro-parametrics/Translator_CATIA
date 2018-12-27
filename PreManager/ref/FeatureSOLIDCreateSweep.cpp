@@ -17,11 +17,11 @@ namespace Pre {
 	{
 		//sketch manager의 이름을 찾은 후 ProtrusionExtrude의 데이터로 입력
 		char buffer[500];
-		is.getline(buffer, 500);
+		f_Getline_Custom(is, buffer, 500)
 
 		while (strncmp(buffer, "Set", 3))  // Set rib1을 찾는 부분
 		{
-			is.getline(buffer, 500);
+			f_Getline_Custom(is, buffer, 500)
 		}
 
 		string sketchManagerName;

@@ -15,10 +15,10 @@ namespace Pre {
 	void FSKETCHCreate2DPoint::GetInfo(ifstream & is)
 	{
 		char buffer[500];
-		is.getline(buffer, 500);
+		f_Getline_Custom(is, buffer, 500)
 		while (strncmp(buffer, "Set", 3))  // Set constraint9를 찾는 부분
 		{
-			is.getline(buffer, 500);
+			f_Getline_Custom(is, buffer, 500)
 		}
 
 		string point_info;

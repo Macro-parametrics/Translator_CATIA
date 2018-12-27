@@ -35,6 +35,6 @@ namespace ReferenceClass
 		void Parsing(String^ ref, string* product, string* part, string* geometry);
 		int GetTransCADName_from_buffer(PreStack^ buffer, string* Transcad_subAssemName, string* Transcad_partName, string* Transcad_geometry);
 		string Constraint_to_TransCAD(TransCAD::IStdAssemConstraintsPtr f, string type, TransCAD::IPartPtr master, TransCAD::IReferencePtr master_ref, TransCAD::IPartPtr slave, TransCAD::IReferencePtr slave_ref, string option, int^ option_int);
-
+		static void ref_Pre::ImportPart_Script(String^ _file);
 	};
 }

@@ -222,7 +222,8 @@ namespace Post {
 		char sketchName[1024], lineName1[1024];
 		sprintf_s(sketchName, "Sketch%d", sktch);
 		sprintf_s(lineName1, "HDirection");
-		fprintf(GetPart()->file, "line2D%d.ReportName = %d\n\n", ln_index, g_pRefManager->AddNewEntity(std::string(sketchName), std::string(lineName1)));
+		//fprintf(GetPart()->file, "line2D%d.ReportName = %d\n\n", ln_index, g_pRefManager->AddNewEntity(std::string(sketchName), std::string(lineName1)));
+		fprintf(GetPart()->file, "line2D%d.ReportName = %d\n\n", ln_index, g_pRefManager->AddNewEntity(g_pRefManager->GetItemName("listSketchInfo_name",sktch-1), std::string(lineName1)));
 
 		ln_index += 1;
 
@@ -231,7 +232,8 @@ namespace Post {
 
 		char lineName2[1024];
 		sprintf_s(lineName2, "VDirection");
-		fprintf(GetPart()->file, "line2D%d.ReportName = %d\n\n", ln_index, g_pRefManager->AddNewEntity(std::string(sketchName), std::string(lineName2)));
+		//fprintf(GetPart()->file, "line2D%d.ReportName = %d\n\n", ln_index, g_pRefManager->AddNewEntity(std::string(sketchName), std::string(lineName2)));
+		fprintf(GetPart()->file, "line2D%d.ReportName = %d\n\n", ln_index, g_pRefManager->AddNewEntity(g_pRefManager->GetItemName("listSketchInfo_name", sktch-1), std::string(lineName2)));
 
 		ln_index += 1;
 		ref_index += 1;
