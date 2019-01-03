@@ -26,7 +26,7 @@ namespace Post {
 		}
 
 		if (count == 0)
-			_id = 0;
+			_id = 0; 
 
 		_id++;
 		ENTITY_MAP map;
@@ -517,6 +517,20 @@ namespace Post {
 
 		*/
 	}
+
+
+	std::string CATIAReferenceManager::GetItemName(std::string listname, int index) {
+	
+		if (listname == "listSketchInfo_name") {
+			return _listSketchInfo[index].sketch_name;
+		
+		}
+	
+	
+	}
+
+
+
 
 	//
 	//// Sketch 이름을 입력해서 그 Sketch 레퍼런스의 이름을 리턴

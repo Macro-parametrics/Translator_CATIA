@@ -20,11 +20,11 @@ namespace Pre {
 	{
 		char buffer[400];			//char타입인 buffer는 400개의 배열을 가진다.
 		char * context = NULL;
-		is.getline(buffer, 400);
+		f_Getline_Custom(is, buffer, 500)
 
 		while (strncmp(buffer, "Set", 3))  // Set hole1을 찾는 부분
 		{
-			is.getline(buffer, 400);
+			f_Getline_Custom(is, buffer, 500)
 		}
 
 		string token;

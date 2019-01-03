@@ -124,6 +124,9 @@
     <ClInclude Include="ref\FSKETCHItem.h">
       <Filter>Part\SketchItem</Filter>
     </ClInclude>
+    <ClInclude Include="ref\DefinitionLib.h">
+      <Filter>ref</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="stdafx.cpp">

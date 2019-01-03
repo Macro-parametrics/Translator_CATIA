@@ -176,7 +176,7 @@ line2D8.StartPoint = point2D11
 
 line2D8.EndPoint = point2D12
 
-sketch1.CloseEdition 
+sketch1.CloseEdition
 
 part1.InWorkObject = body1
 

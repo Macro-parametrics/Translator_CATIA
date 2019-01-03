@@ -48,6 +48,7 @@ namespace Post {
 		std::string ConvertToBRepFaceForHole(std::string strPersistentName); // Counterbored 및 Countersunk 특징형상 전용
 		std::string ConvertToBRepFaceForDatumPlane(std::string strPersistentName); // DatumPlaneOffset 전용
 		std::string ConvertToBRepEdge(std::string strPersistentName);
+		std::string GetItemName(std::string list, int index);
 
 		void AddNewPointName(std::string strSketchName, std::string CATIApointName, std::string TransCADpointName);
 		std::string GetCatiaPointNameByTransCADPointName(std::string strSketchName, std::string TransCADpointName);

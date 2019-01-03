@@ -29,7 +29,7 @@ namespace ReferenceClass
 		//::Part * pPart;
 		refCommand ConvertRefPost(refCommand w);
 		void AssemblyPartT2C(int CompNum, int PartNum, String^ path);
-
+		static void ref_Post::ExportPart(String^ path);
 	};
 
 

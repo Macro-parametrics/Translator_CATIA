@@ -28,6 +28,7 @@
 
 using namespace std;
 #include "Definition.h"
+#include "DefinitionLib.h"
 namespace Pre {
 	extern TransCAD::IApplicationPtr g_spApplication;
 	// 이 클래스는 dllUGPost.dll에서 내보낸 것입니다.

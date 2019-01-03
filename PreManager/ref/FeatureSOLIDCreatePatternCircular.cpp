@@ -29,10 +29,10 @@ namespace Pre {
 	{
 		char buffer[400];
 		char * context = NULL;
-		is.getline(buffer, 400);
+		f_Getline_Custom(is, buffer, 500)
 		while (strncmp(buffer, "Set", 3))  // Set chamfer1을 찾는 부분
 		{
-			is.getline(buffer, 400);
+			f_Getline_Custom(is, buffer, 500)
 		}
 
 

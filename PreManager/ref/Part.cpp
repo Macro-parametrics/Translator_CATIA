@@ -244,6 +244,8 @@ namespace Pre {
 			while (!fin.eof()) // CATIA 매크로 파일의 끝까지 라인 읽기 수행
 			{
 				fin.getline(buffer, 1000);   //한 라인을 읽는다.
+				strcpy_s(buffer,stringLibrary::ReplaceAll(buffer, "sketch", "Sketch").c_str());//sketch를 Sketch로 변환 (TransCAD 내부에서 Sketch로 데이터를 처리하는듯)
+
 
 				if (strlen(buffer) == 0)  // 빈 라인의 경우는 통과
 				{
