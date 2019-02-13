@@ -11,10 +11,10 @@ using TransCAD;
 //part information struct 
 public struct PartsInfo
 {
-    public string address; //api 가능
-    public string catname; //api 가능
-    public string transname; //api 가능
-    public string ins_name; //api 가능
+    public string address; 
+    public string catname; 
+    public string transname;
+    public string ins_name;
 
 };
 
@@ -218,15 +218,21 @@ namespace CATIATranslator
                     string second = Product1.cConstraints.Name;
                     Console.WriteLine(second);
 
-                    string second2 = Product1.cConstraints.Item(1).get_Name();
-                    Console.WriteLine(second2);
-
                     for (int i = 1; i <= const_numb; i++)
                     {
-                        //Console.WriteLine("");
+                        Console.WriteLine("");
+                        ConstraintInfo temp = new ConstraintInfo();
 
                         //constraint name
+                        string second2 = Product1.cConstraints.Item(i).get_Name();
+                        temp.name = second2;
+                        Console.WriteLine(second2);
+
                         //constraint type
+                        string second2t = Product1.cConstraints.Item(i).GetType().Name;
+                        temp.type = second2t;
+                        //Console.WriteLine(second2t);
+
                         //master ref
                         //slave ref
 
