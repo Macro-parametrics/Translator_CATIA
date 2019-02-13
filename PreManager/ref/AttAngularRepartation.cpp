@@ -16,10 +16,10 @@ namespace Pre {
 	{
 		char buffer[500];
 
-		is.getline(buffer, 500);
+		f_Getline_Custom(is, buffer, 500)
 		while (strncmp(buffer, "Set", 3))
 		{
-			is.getline(buffer, 500);
+			f_Getline_Custom(is, buffer, 500)
 		}
 
 		string LengthValue;

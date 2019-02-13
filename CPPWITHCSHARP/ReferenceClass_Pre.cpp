@@ -61,6 +61,40 @@ namespace ReferenceClass
 	//소멸자
 	ref_Pre::~ref_Pre() { ::CoUninitialize(); }
 
+
+	void ref_Pre::ImportPart_Script(String^ _file) {
+		//파트 Script 파일 경로 얻어오기 
+		string pPath = Stos(_file); //0 : _dir
+
+		//COM Initialize
+		int status = false;
+		HRESULT hr = CoInitialize(NULL);
+		//TransCAD instance 생성
+		hr = Pre::g_spApplication.CreateInstance(__uuidof(TransCAD::Application));
+		//TrnasCAD initialzie error check
+		if (FAILED(hr))status = 0;
+		//TransCAD 가시화
+		if (!Pre::g_spApplication->Visible) {
+
+			Pre::g_spApplication->Visible = VARIANT_TRUE;
+		}
+
+		TransCAD::IPartDocumentPtr _spPartDocument;
+		_spPartDocument = Pre::g_spApplication->GetDocuments()->AddPartDocument();
+		Pre::Part *pConstrained = new Pre::Part(pPath, _spPartDocument);
+		
+		pConstrained->GetInfo();
+		pConstrained->ToTransCAD();
+
+
+		printf("Part is success translated");
+
+
+	}
+
+
+
+
 	void ref_Pre::TestEnvironment(PreStack^ buffer) {
 		//COM Initialize
 		int status = false;

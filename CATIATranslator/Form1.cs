@@ -325,6 +325,9 @@ namespace CATIATranslator
             
             if (filePath != "")
             {
+                ReferenceClass.ref_Pre.ImportPart_Script(filePath);
+
+                /*
                 //////////////////Run TransCAD//////////////////   
                 if (m_DLL.TransStatus == 0)
                 {
@@ -341,7 +344,7 @@ namespace CATIATranslator
                 PartScript_Dll.CATIAPreTranslate(filePath);
 
                 //PartManager.UninitializeTransCAD();
-
+                */
 
             }
             
@@ -353,6 +356,10 @@ namespace CATIATranslator
             // Chiho : CATIA Translator postprocessor.dll
             string filePath = CATScriptSaveDialog();
 
+            ReferenceClass.ref_Post.ExportPart(filePath);
+
+
+            /*
             PartScript_Dll.CATIAPostStartService();
             int status = PartScript_Dll.CATIAPostTranslate(filePath);
             if (status == 0)
@@ -361,7 +368,7 @@ namespace CATIATranslator
             }
             else {
                 m_DLL.TransStatus = 1;
-            }
+            }*/
         }
 
 

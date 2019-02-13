@@ -15,10 +15,10 @@ namespace Pre {
 	void FSKETCHCreate2DCircleCenterPoint::GetInfo(ifstream & is)
 	{
 		char buffer[500];
-		is.getline(buffer, 500);
+		f_Getline_Custom(is, buffer, 500)
 		while (strncmp(buffer, "Set", 3))  // Set point2D1을 찾는 부분
 		{
-			is.getline(buffer, 500);
+			f_Getline_Custom(is, buffer, 500)
 		}
 
 		// 두개의 시작점과 끝점의 데이터를 읽는 부분

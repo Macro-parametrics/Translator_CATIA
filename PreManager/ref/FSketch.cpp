@@ -69,17 +69,20 @@ namespace Pre {
 
 		string token, name, type;
 
-		is.getline(buffer, 500);
+		f_Getline_Custom(is, buffer, 500)
+		
+
 		while (strncmp(buffer, "Set", 3))  // Set을 찾는 부분
 		{
-			is.getline(buffer, 500);
+			f_Getline_Custom(is, buffer, 500)
 		}
+		
 
 		token = strtok_s(buffer, seps_temp, &context);
 		token = strtok_s(NULL, seps_temp, &context);
 		token = strtok_s(NULL, seps_temp, &context);
 
-		if (token == "sketches1.Add")
+		if (token == "Sketches1.Add")
 		{
 			token = strtok_s(NULL, seps_temp, &context);
 
@@ -90,12 +93,13 @@ namespace Pre {
 			// Dim arrayOfVariantOfDouble1(8)을 찾는 부분
 			while (strncmp(buffer, "Dim", 3))
 			{
-				is.getline(buffer, 500);
+				f_Getline_Custom(is, buffer, 500)
 			}
 
 			for (int i = 0; i < 9; ++i)
 			{
-				is.getline(buffer, 500);
+				f_Getline_Custom(is, buffer, 500)
+
 
 				token = strtok_s(buffer, seps_temp, &context);	//첫번째 단어
 				token = strtok_s(NULL, seps_temp, &context);		//두번째 단어
@@ -176,8 +180,8 @@ namespace Pre {
 
 			context = NULL;
 
-			is.getline(buffer, 500);  //다음 라인을 읽기
-
+			f_Getline_Custom(is,buffer, 500)
+			
 		} // end of while
 
 		context = NULL;
