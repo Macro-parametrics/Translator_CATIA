@@ -158,6 +158,20 @@ namespace ReferenceClass
 
 	}
 
+	refCommand ref_Pre::ImportParts(PreStack^ buffer, int totnum, String^ _CstType, String^ _master_ref, String^ _slave_ref, String^ _option, int^ _option_int) {
+		
+		//현재 Assem Document 가져오기
+		//Pre::g_spApplication.CreateInstance(__uuidof(TransCAD::Application));
+		*_spAssemDocument = Pre::g_spApplication->ActiveDocument;
+		*_spAssem = (*_spAssemDocument)->GetAssem();
+
+		refCommand result;
+		result.command = TRUE;
+
+		return result;
+
+	}// 나중에 적용
+
 	refCommand ref_Pre::SetConstraint(PreStack^ buffer, int totnum, String^ _CstType, String^ _master_ref, String^ _slave_ref, String^ _option, int^ _option_int)
 	{
 		// SetConstraint(PreStack 인스턴스 , int 파트개수 , string Const타입 , string MasterRef, string SlaveRef, string option, int optionNum)
@@ -360,6 +374,12 @@ namespace ReferenceClass
 
 			re = "Incidence";
 
+		}
+		else if (type == "catCstTypeAngle") {
+			re = "None";
+		}
+		else if (type == "catCstTypeDistance") {
+			re = "None";
 		}
 		else {
 			re = "None";

@@ -35,6 +35,7 @@ namespace CATIATranslator
         public MECMOD.Sketches cSketches = null;
 
         public MECMOD.Constraints cConstraints = null; //hyebin
+        public MECMOD.Constraint cConstraint = null;
 
         public PARTITF.ShapeFactory cShapeFactory = null;
         public HybridShapeTypeLib.HybridShapeFactory cHybridShapeFactory = null;
