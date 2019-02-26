@@ -90,13 +90,16 @@ namespace CATIATranslator
         {
 
             //Assembly file: bring CATScript and address
-            string CATAssem = CATScriptOpenDialog(); //Assembly CATScript address   -> 수정필요
+            string CATAssem = CATProductOpenDialog(); //Assembly CATProduct address 
             if (CATAssem == "") return;
+
+            string product_address = CATAssem;
+            Console.WriteLine(product_address);
             string folder_address = CATAssem.Substring(0, CATAssem.LastIndexOf("\\"));
             Console.WriteLine(folder_address); //Assembly folder address.
 
             //Part file: bring address of parts folder
-            string CATAssem2 = CATScriptOpenDialog();  //-> 수정 필요
+            string CATAssem2 = CATScriptOpenDialog();  //-> 수정 필요/ 아무 파트나 선택하면 됌.
             if (CATAssem2 == "") return;
             string folder_address_parts = CATAssem2.Substring(0, CATAssem2.LastIndexOf("\\"));
             Console.WriteLine(folder_address_parts); //part folder address.
@@ -107,8 +110,7 @@ namespace CATIATranslator
 
             //CATProduct location
             Assembly Product1 = new Assembly();
-            string product_address = folder_address + "\\A2.CATProduct"; //-> 수정필요
-            Console.WriteLine(product_address);
+            
 
             //CATProduct 열어서 part number, instance name, address 가져오기.
             //constraint 갯수, 종류, master ref, slave ref 구하기.
@@ -217,7 +219,7 @@ namespace CATIATranslator
                 //m_refer.SetConstraint(stack, stack.GetSize(), a1_constraint[1].type, a1_constraint[1].master_ref, a1_constraint[1].slave_ref, "", 0); //수정 필요.
 
                 //new Set Constraints
-                for(int i=0;i< 1; i++) //const_numb
+                for(int i=0;i< const_numb; i++) //const_numb
                 {
                     m_refer.SetConstraint(stack, stack.GetSize(), const_collect[i].type, const_collect[i].master_ref, const_collect[i].slave_ref, "", 0);
                 }
@@ -420,6 +422,36 @@ namespace CATIATranslator
 
             return "";
         }
+
+        public string CATProductOpenDialog()
+        {
+            //파일 열기창 생성 및 설정
+            OpenFileDialog ofd = new OpenFileDialog();
+
+            ofd.Title = "CATIA Product 파일 열기";
+            ofd.FileName = "";
+            ofd.Filter = "CATIA Product 파일 (*.CATProduct) | *.CATProduct";
+
+            //파일 열기창 로드
+            DialogResult dr = ofd.ShowDialog();
+
+            //OK버튼 클릭 시
+            if (dr == DialogResult.OK)
+            {
+                //File경로와 File명을 모두 가지고 온다.
+                string filePath = ofd.FileName;
+
+                return filePath;
+            }
+            //취소 버튼 클릭 시 또는 ESC키로 파일 창을 종료 했을 경우
+            else if (dr == DialogResult.Cancel)
+            {
+                return "";
+            }
+
+            return "";
+        }
+
 
         public string CATScriptSaveDialog()
         {

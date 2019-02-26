@@ -216,7 +216,7 @@ namespace ReferenceClass
 		for (int cn = 0; cn < 2; cn++) {
 
 			Parsing(stoS(full_ref[cn]), &pre_data->assem_product, &pre_data->assem_part, &pre_data->assem_geometry);
-			index[cn] = GetTransCADName_from_buffer(buffer, &pre_data->Transcad_subAssemName, &pre_data->Transcad_partName, &pre_data->Transcad_geometry);
+			index[cn] = GetTransCADName_from_buffer(buffer, &pre_data->Transcad_subAssemName, &pre_data->Transcad_partName, &pre_data->Transcad_geometry);			
 			trans_ref[cn] = pre_data->Transcad_geometry;
 
 			//transcad name 을 통해 TransCAD Part 인스턴스를 가져옴
@@ -296,7 +296,7 @@ namespace ReferenceClass
 		temp = temp.substr(temp.find('/') + 1, temp.size());																	//!Axis:(Selection_RSur:(Face:(Brp:(Pocket.1;0:(Brp:(Sketch.2;4)));None:();Cf11:());Pocket.1_ResultOUT;Z0;G3563))
 		string assem_geometry = temp.substr(0, temp.find('/'));																	//!Axis:(Selection_RSur:(Face:(Brp:(Pocket.1;0:(Brp:(Sketch.2;4)));None:();Cf11:());Pocket.1_ResultOUT;Z0;G3563))
 		assem_geometry = "\"" + assem_geometry.substr(assem_geometry.find('!') + 1, assem_geometry.size()) + "\"";				//"Axis:(Selection_RSur:(Face:(Brp:(Pocket.1;0:(Brp:(Sketch.2;4)));None:();Cf11:());Pocket.1_ResultOUT;Z0;G3563))"
-
+		cout << assem_geometry << endl;
 
 		*product = assem_product;
 		*part = assem_part;
@@ -310,11 +310,12 @@ namespace ReferenceClass
 		string part = pre_data->assem_part;
 		string geo = pre_data->assem_geometry;
 
-		//Step1 : Product1 를 통해서 TransCAD의 Component(SubAssembly) Name과 Number를 가져옴
-		int comp_num = stoi(product.substr(product.find("t") + 1, product.size()));//Product 숫자 Parsing
-		_spComp = (*_spAssem)->GetComponent(comp_num);
-		*Transcad_subAssemName = (string)_spComp->get_Name();
+		//Step1 : Product1 를 통해서 TransCAD의 Component(SubAssembly) Name과 Number를 가져옴   
 
+		//int comp_num = stoi(product.substr(product.find("t") + 1, product.size()));//Product 숫자 Parsing  >> product이름이 product로 시작할때만 사용 가능.
+		int comp_num = 1;
+		_spComp = (*_spAssem)->GetComponent(comp_num);
+		*Transcad_subAssemName = (string)_spComp->get_Name(); // Component1
 
 		//Step2-1 : Part1.1 을 통해서 Part1 과 Part1의 Number를 가져옴
 		int part_num = stoi(part.substr(part.find(".") + 1, part.size()));
@@ -375,10 +376,18 @@ namespace ReferenceClass
 			re = "Incidence";
 
 		}
-		else if (type == "catCstTypeAngle") {
+		else if (type == "catCstTypeAngle") { //Angle constraint
+
+			//f->AddNewAssemblyAngleConstraint("Angle", master, master_ref, slave, slave_ref);
 			re = "None";
 		}
-		else if (type == "catCstTypeDistance") {
+		else if (type == "catCstTypeDistance") { //Distance constraint 
+
+			if (option == "same") {	
+			}
+			else {
+			}
+
 			re = "None";
 		}
 		else {
