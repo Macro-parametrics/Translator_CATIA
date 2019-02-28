@@ -21,8 +21,8 @@ namespace CATIATranslator
     partial class Assembly
     {
 
-        enum CTYPE { Coaxial,Incidence }
-   //   enum CTYPE { Coaxial, Incidence, Distance, Angle } Mutahar 18-10-09
+   //     enum CTYPE { Coaxial,Incidence }
+      enum CTYPE { Coaxial, Incidence, Distance, Angle } // Mutahar 19-02-28
         
         
         //Form2에서 사용할 떄 사용 최종 버전 : Assembly Script를 저장할 filepath와 Part파일들이 저장된 path를 받아와서 Assembly.CATScript파일 생성
@@ -143,15 +143,15 @@ namespace CATIATranslator
 
                     
                   // to be used in the case of angle and distance constriants
-                    string st1 = m_ref.param;
-                    string st2 = "catCstTypeAngle";
-                    string st3 = "catCstTypeDistance";
+                    string const_inst = m_ref.param;
+                    string const_ang = "catCstTypeAngle";
+                    string const_dist = "catCstTypeDistance";
                     string Sangle = "";
                     string Sdistance = "";
-                    bool ang = st1.Equals(st2);
-                    bool dist = st1.Equals(st3);
-                    int a = 1;
-                    int d = 1;
+                    bool ang = const_inst.Equals(const_ang);
+                    bool dist = const_inst.Equals(const_dist);
+                    int a,d = 1;
+                  
                    
                     if (ang)        // Additional portion of angle constraint
                     {                         
@@ -160,7 +160,7 @@ namespace CATIATranslator
                               mywriter.WriteLine("Dim" + Sangle + "As Dimension");
                               mywriter.WriteLine("Set" + Sangle + "=" + Sconstraint + ".Dimension");
                               mywriter.WriteLine(Sangle + ".Value" + 0.000000);
-                            mywriter.WriteLine(Sconstraint + ".AngleSector" + "=" + "catCstAngleSector0");
+                            mywriter.WriteLine(Sconstraint + ".AngleSector" + "=" + "catCstAngleSector0"); // "catCstAngleSector0" is hard coded until we have a function to read it
                                 a = a + 1;
                     }
                     else if (dist)  // Additional portion of distance constraint
@@ -170,7 +170,7 @@ namespace CATIATranslator
                             mywriter.WriteLine("Dim" + Sdistance + "As Dimension");
                             mywriter.WriteLine("Set" + Sdistance + "=" + Sconstraint + ".Dimension");
                             mywriter.WriteLine(Sdistance + ".Value" + 10.000000);
-                            mywriter.WriteLine(Sconstraint + ".Orientation" + "=" + "catCstOrientSame");
+                            mywriter.WriteLine(Sconstraint + ".Orientation" + "=" + "catCstOrientSame"); // "catCstOrientSame" is hard coded until we have a function to read it
                             d = d + 1;
                     }                 
                 }
