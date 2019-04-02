@@ -332,6 +332,7 @@ namespace Pre {
 		{
 			_pFace._featureName = "pad";
 			_pFace._featureType = "ExtrudeFeature";
+			
 		}
 		else if (referenceValue == "Pocket")
 		{
@@ -358,6 +359,8 @@ namespace Pre {
 			_pFace._featureName = "slot";
 			_pFace._featureType = "SweepFeature";
 		}
+
+		cout << "ppppppp" << endl;
 
 		referenceValue = strtok_s(NULL, seps_temp, &buffer); // Feature 번호
 		_pFace._featureName = _pFace._featureName + referenceValue;
@@ -531,6 +534,8 @@ namespace Pre {
 		}
 
 #pragma endregion
+
+		
 
 #pragma region ToTransCAD  부분 추출
 		// 1=Default datum plane, 2=Edge, 3=Surface, 4=Object, 5=Point  

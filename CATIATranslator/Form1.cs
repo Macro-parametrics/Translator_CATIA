@@ -127,7 +127,7 @@ namespace CATIATranslator
 
                 const_numb = Product1.cConstraints.Count; // # of constraints
                 Console.WriteLine(const_numb);
-
+ 
                 //파트 정보 가져오기
                 if (part_numb > 0)  //파트 정보
                 {
@@ -205,6 +205,7 @@ namespace CATIATranslator
             stack.Clear();
             for (int i = 0; i < part_numb; i++)
             {
+                //수정필요
                 stack.StackItem(part_collect[i].address, part_collect[i].catname, part_collect[i].transname);
             }
 

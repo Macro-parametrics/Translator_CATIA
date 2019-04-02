@@ -216,7 +216,7 @@ namespace ReferenceClass
 		for (int cn = 0; cn < 2; cn++) {
 
 			Parsing(stoS(full_ref[cn]), &pre_data->assem_product, &pre_data->assem_part, &pre_data->assem_geometry);
-			index[cn] = GetTransCADName_from_buffer(buffer, &pre_data->Transcad_subAssemName, &pre_data->Transcad_partName, &pre_data->Transcad_geometry);			
+			index[cn] = GetTransCADName_from_buffer(buffer, &pre_data->Transcad_subAssemName, &pre_data->Transcad_partName, &pre_data->Transcad_geometry);	
 			trans_ref[cn] = pre_data->Transcad_geometry;
 
 			//transcad name 을 통해 TransCAD Part 인스턴스를 가져옴
@@ -231,6 +231,8 @@ namespace ReferenceClass
 
 					
 		}
+
+		
 
 
 #pragma endregion
@@ -313,7 +315,7 @@ namespace ReferenceClass
 		//Step1 : Product1 를 통해서 TransCAD의 Component(SubAssembly) Name과 Number를 가져옴   
 
 		//int comp_num = stoi(product.substr(product.find("t") + 1, product.size()));//Product 숫자 Parsing  >> product이름이 product로 시작할때만 사용 가능.
-		int comp_num = 1;
+		int comp_num = 1; //comp_num이 뭔지 모르겠다....
 		_spComp = (*_spAssem)->GetComponent(comp_num);
 		*Transcad_subAssemName = (string)_spComp->get_Name(); // Component1
 
@@ -325,6 +327,8 @@ namespace ReferenceClass
 		//Step2-3 : buffer에서 index에 해당하는 transcad name을 가져옴
 		*Transcad_partName = Stos(buffer->Getitem_from_index(2, buffer_index));
 
+		
+
 
 		//Step3 : CATScript로부터 Geometry를 변환
 		string _path = Stos(buffer->Getitem_from_index(0, buffer_index));
@@ -333,10 +337,15 @@ namespace ReferenceClass
 		Pre::Part* pPart = new Pre::Part(_path, 1);
 		pPart->GetInfo();															//Part 정보 읽기
 		Pre::ReferenceEntity* _refer = new Pre::ReferenceEntity(pPart, 0, "a");		//Part에서 Feature정보 추출
-
+		
 		if (geo.substr(1, 6) == "Axis:(") { geo = "\"" + geo.substr(7, geo.size()); }//축을 선택한 것이라면 맨 앞부분 Axis 제거
 		char* ptr = (char*)geo.c_str();
-		*Transcad_geometry = *Transcad_subAssemName + "," + *Transcad_partName + "," + _refer->GetReferName(ptr);
+		cout << "here" << endl;
+		cout << ptr << endl;
+		cout << "end" << endl;
+		*Transcad_geometry = *Transcad_subAssemName + "," + *Transcad_partName + "," + _refer->GetReferName(ptr); //>>문제 있음
+
+		//cout << "here!!" << endl;
 
 		delete _refer;
 		//delete pPart;
