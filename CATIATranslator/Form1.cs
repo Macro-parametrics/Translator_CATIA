@@ -206,7 +206,9 @@ namespace CATIATranslator
             for (int i = 0; i < part_numb; i++)
             {
                 //수정필요
-                stack.StackItem(part_collect[i].address, part_collect[i].catname, part_collect[i].transname);
+                //string trans = part_collect[i].ins_name;
+
+                stack.StackItem(part_collect[i].address, part_collect[i].catname, part_collect[i].ins_name);
             }
 
             int modeya = 1; //constraint 번역 못하게 막음.

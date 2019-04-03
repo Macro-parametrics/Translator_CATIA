@@ -150,7 +150,9 @@ namespace CATIATranslator
                     string Sdistance = "";
                     bool ang = const_inst.Equals(const_ang);
                     bool dist = const_inst.Equals(const_dist);
-                    int a,d = 1;
+                    int d = 1;
+
+                    int a = 1;
                   
                    
                     if (ang)        // Additional portion of angle constraint

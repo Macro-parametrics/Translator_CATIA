@@ -129,6 +129,8 @@ namespace ReferenceClass
 																//파트 Script 파일 번역
 			_spPartDocument = Pre::g_spApplication->GetDocuments()->AddPartDocument();
 			Pre::Part *pConstrained = new Pre::Part(pPath, _spPartDocument);
+			_bstr_t obj(Stos(buffer->Getitem_from_index(2, i)).c_str());
+			pConstrained->_spPart->set_Name(obj);
 			pConstrained->GetInfo();
 			pConstrained->ToTransCAD();
 
@@ -309,7 +311,7 @@ namespace ReferenceClass
 
 		TransCAD::ICompPtr _spComp;
 		string product = pre_data->assem_product;
-		string part = pre_data->assem_part;
+		string part = pre_data->assem_part;//DM.1
 		string geo = pre_data->assem_geometry;
 
 		//Step1 : Product1 를 통해서 TransCAD의 Component(SubAssembly) Name과 Number를 가져옴   
@@ -320,8 +322,8 @@ namespace ReferenceClass
 		*Transcad_subAssemName = (string)_spComp->get_Name(); // Component1
 
 		//Step2-1 : Part1.1 을 통해서 Part1 과 Part1의 Number를 가져옴
-		int part_num = stoi(part.substr(part.find(".") + 1, part.size()));
-		part = part.substr(0, part.find("."));
+		int part_num = stoi(part.substr(part.find(".") + 1, part.size()));//1
+		part = part.substr(0, part.find("."));//DM
 		//Step2-2 : buffer에서 Number 번째 Part1의 index를 가져옴
 		int buffer_index = buffer->Getindex_from_name(stoS(part), part_num);
 		//Step2-3 : buffer에서 index에 해당하는 transcad name을 가져옴
