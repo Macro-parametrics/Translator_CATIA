@@ -68,17 +68,17 @@ line2D2.ReportName = 2
 Dim point2D1 As Point2D
 Set point2D1 = factory2D1.CreatePoint(0.000000, 0.000000)
 
-point2D1.ReportName = 1
+point2D1.ReportName = 3
 
 Dim point2D2 As Point2D
 Set point2D2 = factory2D1.CreatePoint(7.000000, 0.000000)
 
-point2D2.ReportName = 2
+point2D2.ReportName = 4
 
 Dim line2D3 As Line2D
 Set line2D3 = factory2D1.CreateLine(0.000000, 0.000000, 7.000000, 0.000000)
 
-line2D3.ReportName = 3
+line2D3.ReportName = 5
 
 line2D3.StartPoint = point2D1
 
@@ -87,17 +87,17 @@ line2D3.EndPoint = point2D2
 Dim point2D3 As Point2D
 Set point2D3 = factory2D1.CreatePoint(7.000000, 0.000000)
 
-point2D3.ReportName = 4
+point2D3.ReportName = 6
 
 Dim point2D4 As Point2D
 Set point2D4 = factory2D1.CreatePoint(7.000000, 5.000000)
 
-point2D4.ReportName = 5
+point2D4.ReportName = 7
 
 Dim line2D4 As Line2D
 Set line2D4 = factory2D1.CreateLine(7.000000, 0.000000, 7.000000, 5.000000)
 
-line2D4.ReportName = 6
+line2D4.ReportName = 8
 
 line2D4.StartPoint = point2D3
 
@@ -106,17 +106,17 @@ line2D4.EndPoint = point2D4
 Dim point2D5 As Point2D
 Set point2D5 = factory2D1.CreatePoint(7.000000, 5.000000)
 
-point2D5.ReportName = 7
+point2D5.ReportName = 9
 
 Dim point2D6 As Point2D
 Set point2D6 = factory2D1.CreatePoint(5.000000, 5.000000)
 
-point2D6.ReportName = 8
+point2D6.ReportName = 10
 
 Dim line2D5 As Line2D
 Set line2D5 = factory2D1.CreateLine(7.000000, 5.000000, 5.000000, 5.000000)
 
-line2D5.ReportName = 9
+line2D5.ReportName = 11
 
 line2D5.StartPoint = point2D5
 
@@ -125,17 +125,17 @@ line2D5.EndPoint = point2D6
 Dim point2D7 As Point2D
 Set point2D7 = factory2D1.CreatePoint(5.000000, 5.000000)
 
-point2D7.ReportName = 10
+point2D7.ReportName = 12
 
 Dim point2D8 As Point2D
 Set point2D8 = factory2D1.CreatePoint(5.000000, 50.000000)
 
-point2D8.ReportName = 11
+point2D8.ReportName = 13
 
 Dim line2D6 As Line2D
 Set line2D6 = factory2D1.CreateLine(5.000000, 5.000000, 5.000000, 50.000000)
 
-line2D6.ReportName = 12
+line2D6.ReportName = 14
 
 line2D6.StartPoint = point2D7
 
@@ -144,17 +144,17 @@ line2D6.EndPoint = point2D8
 Dim point2D9 As Point2D
 Set point2D9 = factory2D1.CreatePoint(5.000000, 50.000000)
 
-point2D9.ReportName = 13
+point2D9.ReportName = 15
 
 Dim point2D10 As Point2D
 Set point2D10 = factory2D1.CreatePoint(-0.000000, 50.000000)
 
-point2D10.ReportName = 14
+point2D10.ReportName = 16
 
 Dim line2D7 As Line2D
 Set line2D7 = factory2D1.CreateLine(5.000000, 50.000000, -0.000000, 50.000000)
 
-line2D7.ReportName = 15
+line2D7.ReportName = 17
 
 line2D7.StartPoint = point2D9
 
@@ -163,17 +163,17 @@ line2D7.EndPoint = point2D10
 Dim point2D11 As Point2D
 Set point2D11 = factory2D1.CreatePoint(0.000000, 50.000000)
 
-point2D11.ReportName = 16
+point2D11.ReportName = 18
 
 Dim point2D12 As Point2D
 Set point2D12 = factory2D1.CreatePoint(0.000000, 0.000000)
 
-point2D12.ReportName = 17
+point2D12.ReportName = 19
 
 Dim line2D8 As Line2D
 Set line2D8 = factory2D1.CreateLine(0.000000, 50.000000, 0.000000, 0.000000)
 
-line2D8.ReportName = 18
+line2D8.ReportName = 20
 
 line2D8.StartPoint = point2D11
 
@@ -182,12 +182,12 @@ line2D8.EndPoint = point2D12
 Dim point2D13 As Point2D
 Set point2D13 = factory2D1.CreatePoint(0.000000, 50.000000)
 
-point2D13.ReportName = 19
+point2D13.ReportName = 21
 
 Dim point2D14 As Point2D
 Set point2D14 = factory2D1.CreatePoint(0.000000, 0.000000)
 
-point2D14.ReportName = 20
+point2D14.ReportName = 22
 
 Dim line2D9 As Line2D
 Set line2D9 = factory2D1.CreateLine(0.000000, 50.000000, 0.000000, 0.000000)
@@ -206,17 +206,17 @@ Set shaft1 = shapeFactory1.AddNewShaft(sketch1)
 Dim angle1 As Angle
 Set angle1 = shaft1.FirstAngle
 
-angle1.Value = 0.000000
+angle1.Value = 360.000000
 
 Dim angle2 As Angle
 Set angle2 = shaft1.SecondAngle
 
-angle2.Value = 360.000000
+angle2.Value = 0.000000
 
 part1.UpdateObject shaft1
 
 Dim reference2 As Reference
-Set reference2 = part1.CreateReferenceFromName("Selection_RSur:(Face:(Brp:(Shaft.1;0:(Brp:(Sketch.1;15)));None:();Cf11:());Shaft.1_ResultOUT;Z0;G3563)")
+Set reference2 = part1.CreateReferenceFromName("Selection_RSur:(Face:(Brp:(Shaft.1;0:(Brp:(Sketch.1;17)));None:();Cf11:());Shaft.1_ResultOUT;Z0;G3563)")
 
 Dim sketch2 As Sketch
 Set sketch2 = sketches1.Add(reference2)
@@ -257,17 +257,17 @@ line2D11.ReportName = 2
 Dim point2D15 As Point2D
 Set point2D15 = factory2D2.CreatePoint(-10.000000, 7.000000)
 
-point2D15.ReportName = 1
+point2D15.ReportName = 3
 
 Dim point2D16 As Point2D
 Set point2D16 = factory2D2.CreatePoint(10.000000, 7.000000)
 
-point2D16.ReportName = 2
+point2D16.ReportName = 4
 
 Dim line2D12 As Line2D
 Set line2D12 = factory2D2.CreateLine(-10.000000, 7.000000, 10.000000, 7.000000)
 
-line2D12.ReportName = 3
+line2D12.ReportName = 5
 
 line2D12.StartPoint = point2D15
 
@@ -276,17 +276,17 @@ line2D12.EndPoint = point2D16
 Dim point2D17 As Point2D
 Set point2D17 = factory2D2.CreatePoint(10.000000, 7.000000)
 
-point2D17.ReportName = 4
+point2D17.ReportName = 6
 
 Dim point2D18 As Point2D
 Set point2D18 = factory2D2.CreatePoint(10.000000, -7.000000)
 
-point2D18.ReportName = 5
+point2D18.ReportName = 7
 
 Dim line2D13 As Line2D
 Set line2D13 = factory2D2.CreateLine(10.000000, 7.000000, 10.000000, -7.000000)
 
-line2D13.ReportName = 6
+line2D13.ReportName = 8
 
 line2D13.StartPoint = point2D17
 
@@ -295,17 +295,17 @@ line2D13.EndPoint = point2D18
 Dim point2D19 As Point2D
 Set point2D19 = factory2D2.CreatePoint(10.000000, -7.000000)
 
-point2D19.ReportName = 7
+point2D19.ReportName = 9
 
 Dim point2D20 As Point2D
 Set point2D20 = factory2D2.CreatePoint(-10.000000, -7.000000)
 
-point2D20.ReportName = 8
+point2D20.ReportName = 10
 
 Dim line2D14 As Line2D
 Set line2D14 = factory2D2.CreateLine(10.000000, -7.000000, -10.000000, -7.000000)
 
-line2D14.ReportName = 9
+line2D14.ReportName = 11
 
 line2D14.StartPoint = point2D19
 
@@ -314,17 +314,17 @@ line2D14.EndPoint = point2D20
 Dim point2D21 As Point2D
 Set point2D21 = factory2D2.CreatePoint(-10.000000, -7.000000)
 
-point2D21.ReportName = 10
+point2D21.ReportName = 12
 
 Dim point2D22 As Point2D
 Set point2D22 = factory2D2.CreatePoint(-10.000000, 7.000000)
 
-point2D22.ReportName = 11
+point2D22.ReportName = 13
 
 Dim line2D15 As Line2D
 Set line2D15 = factory2D2.CreateLine(-10.000000, -7.000000, -10.000000, 7.000000)
 
-line2D15.ReportName = 12
+line2D15.ReportName = 14
 
 line2D15.StartPoint = point2D21
 

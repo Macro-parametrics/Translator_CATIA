@@ -129,6 +129,8 @@ namespace ReferenceClass
 																//파트 Script 파일 번역
 			_spPartDocument = Pre::g_spApplication->GetDocuments()->AddPartDocument();
 			Pre::Part *pConstrained = new Pre::Part(pPath, _spPartDocument);
+			_bstr_t obj(Stos(buffer->Getitem_from_index(2, i)).c_str());
+			pConstrained->_spPart->set_Name(obj);
 			pConstrained->GetInfo();
 			pConstrained->ToTransCAD();
 
@@ -216,7 +218,7 @@ namespace ReferenceClass
 		for (int cn = 0; cn < 2; cn++) {
 
 			Parsing(stoS(full_ref[cn]), &pre_data->assem_product, &pre_data->assem_part, &pre_data->assem_geometry);
-			index[cn] = GetTransCADName_from_buffer(buffer, &pre_data->Transcad_subAssemName, &pre_data->Transcad_partName, &pre_data->Transcad_geometry);			
+			index[cn] = GetTransCADName_from_buffer(buffer, &pre_data->Transcad_subAssemName, &pre_data->Transcad_partName, &pre_data->Transcad_geometry);	
 			trans_ref[cn] = pre_data->Transcad_geometry;
 
 			//transcad name 을 통해 TransCAD Part 인스턴스를 가져옴
@@ -231,6 +233,8 @@ namespace ReferenceClass
 
 					
 		}
+
+		
 
 
 #pragma endregion
@@ -307,23 +311,25 @@ namespace ReferenceClass
 
 		TransCAD::ICompPtr _spComp;
 		string product = pre_data->assem_product;
-		string part = pre_data->assem_part;
+		string part = pre_data->assem_part;//DM.1
 		string geo = pre_data->assem_geometry;
 
 		//Step1 : Product1 를 통해서 TransCAD의 Component(SubAssembly) Name과 Number를 가져옴   
 
 		//int comp_num = stoi(product.substr(product.find("t") + 1, product.size()));//Product 숫자 Parsing  >> product이름이 product로 시작할때만 사용 가능.
-		int comp_num = 1;
+		int comp_num = 1; //comp_num이 뭔지 모르겠다....
 		_spComp = (*_spAssem)->GetComponent(comp_num);
 		*Transcad_subAssemName = (string)_spComp->get_Name(); // Component1
 
 		//Step2-1 : Part1.1 을 통해서 Part1 과 Part1의 Number를 가져옴
-		int part_num = stoi(part.substr(part.find(".") + 1, part.size()));
-		part = part.substr(0, part.find("."));
+		int part_num = stoi(part.substr(part.find(".") + 1, part.size()));//1
+		part = part.substr(0, part.find("."));//DM
 		//Step2-2 : buffer에서 Number 번째 Part1의 index를 가져옴
 		int buffer_index = buffer->Getindex_from_name(stoS(part), part_num);
 		//Step2-3 : buffer에서 index에 해당하는 transcad name을 가져옴
 		*Transcad_partName = Stos(buffer->Getitem_from_index(2, buffer_index));
+
+		
 
 
 		//Step3 : CATScript로부터 Geometry를 변환
@@ -333,10 +339,15 @@ namespace ReferenceClass
 		Pre::Part* pPart = new Pre::Part(_path, 1);
 		pPart->GetInfo();															//Part 정보 읽기
 		Pre::ReferenceEntity* _refer = new Pre::ReferenceEntity(pPart, 0, "a");		//Part에서 Feature정보 추출
-
+		
 		if (geo.substr(1, 6) == "Axis:(") { geo = "\"" + geo.substr(7, geo.size()); }//축을 선택한 것이라면 맨 앞부분 Axis 제거
 		char* ptr = (char*)geo.c_str();
-		*Transcad_geometry = *Transcad_subAssemName + "," + *Transcad_partName + "," + _refer->GetReferName(ptr);
+		cout << "here" << endl;
+		cout << ptr << endl;
+		cout << "end" << endl;
+		*Transcad_geometry = *Transcad_subAssemName + "," + *Transcad_partName + "," + _refer->GetReferName(ptr); //>>문제 있음
+
+		//cout << "here!!" << endl;
 
 		delete _refer;
 		//delete pPart;
