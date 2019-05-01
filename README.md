@@ -30,3 +30,7 @@
 + Hyebin Kim
 + ChihoNoh
 + Mutahar
+
+## Youtube Channel
++ iCAD official : https://www.youtube.com/channel/UCL2HVQN6XshEvYZbE202T_g
++ TestRally channel : https://www.youtube.com/channel/UChnCTwJl0Nu51qAPUZEFWQw
