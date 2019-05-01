@@ -34,3 +34,7 @@ Release/*
 /.vs/ProjectSettings.json
 UpgradeLog.htm
 CPPWITHCSHARP/Debug/CPPWITHCSHARP.log
+*.advixeexp
+*.advixeproj
+*.log
+*.log
