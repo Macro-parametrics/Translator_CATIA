@@ -42,15 +42,15 @@ namespace CATIATranslator
         #endregion
 
         #region TransCAD 변수
-        public TransCAD.IApplication tApp = null;
-        public TransCAD.Documents tDocs = null;
-        public TransCAD.IAssemDocument tAssemDoc = null;
+        public TransCAD.Application tApp = null;
+        public TransCAD.Docs tDocs = null;
+        public TransCAD.AssemDocument tAssemDoc = null;
         public TransCAD.Assem tAssem = null;
-        public TransCAD.IComp tComp = null;
+        //public TransCAD.IComp tComp = null; //Remove TransCAD 7.0
         public TransCAD.PartDocument tPartDoc = null;
         public TransCAD.Part tPart = null;
         public TransCAD.Features tFeatures = null;
-        public TransCAD.IStdAssemConstraints tConstraints = null;
+        //public TransCAD.IStdAssemConstraints tConstraints = null; //Remove TransCAD 7.0
         #endregion
 
         public string Save_Part_Path = "";
@@ -110,23 +110,23 @@ namespace CATIATranslator
         {
             try
             {
-                tApp = (TransCAD.IApplication)Marshal.GetActiveObject("TransCAD.IApplication");
+                tApp = (TransCAD.Application)Marshal.GetActiveObject("TransCAD.Application");
             }
             catch
             {
-                tApp = (TransCAD.IApplication)Activator.CreateInstance(Type.GetTypeFromProgID("TransCAD.Application"));
+                tApp = (TransCAD.Application)Activator.CreateInstance(Type.GetTypeFromProgID("TransCAD.Application"));
             }
 
             if (tApp == null)
                 return false;
 
             tDocs = tApp.Documents;
-
+            
 
             if (mode == 0) //assembly Pre 일때 사용
                 tAssemDoc = tDocs.AddAssemDocument();
             else if (mode == 1) //assembly Post 일때 사용
-                tAssemDoc = (TransCAD.IAssemDocument)tApp.ActiveDocument;
+                tAssemDoc = (TransCAD.AssemDocument)tApp.ActiveDocument;
             //_spAssemDoc = g_spApplication->ActiveDocument; C++
 
             /* 어셈블리 구조 추가 코드 Preprossor 일때 보통 적용할 수 잇을뜻.

@@ -27,11 +27,37 @@ public struct ConstraintInfo
     public string slave_ref;
 };
 
+
+
+
+
+
+
+
 namespace CATIATranslator
 {
 
     public partial class Form1 : Form
     {
+        public string Mid(string Text, int Startint, int Endint)
+        {
+
+            string ConvertText;
+
+            if (Startint < Text.Length || Endint < Text.Length)
+            {
+                ConvertText = Text.Substring(Startint, Endint);
+                return ConvertText;
+            }
+            else
+            {
+                return Text;
+            }
+
+
+
+        }
+
         public Form1()
         {
             InitializeComponent();
@@ -208,7 +234,10 @@ namespace CATIATranslator
                 //수정필요
                 //string trans = part_collect[i].ins_name;
 
-                stack.StackItem(part_collect[i].address, part_collect[i].catname, part_collect[i].ins_name);
+                //stack.StackItem(part_collect[i].address, part_collect[i].catname, part_collect[i].ins_name);
+
+                ///[Edit]For test A1 TestRally 20190712
+                stack.StackItem(part_collect[i].address, part_collect[i].catname, part_collect[i].transname);
             }
 
             int modeya = 1; //constraint 번역 못하게 막음.

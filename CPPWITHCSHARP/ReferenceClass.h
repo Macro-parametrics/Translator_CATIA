@@ -24,6 +24,7 @@ public value struct refCommand {
 	String^ SlavePart;
 	String^ MasterPart_Ref;
 	String^ SlavePart_Ref;
+	double option;
 };
 
 std::string replace_all(
@@ -61,6 +62,18 @@ public:
 		else if (item == 1) { return _part_catia_name[index]; }
 		else if (item == 2) { return _part_transcad_name[index]; }
 		else { return ""; }
+	}
+	//[a,a,s,f,a,a,d,d,e,e,s,s] index = 4 -> return 3
+	int HowManySameItems(int item, int index) {
+		string _sourceString = Stos(_part_catia_name[index]);
+		int itemNum = 0;
+		for (int i = 0; i < index; i++) {
+			if (Stos(_part_catia_name[i]) == _sourceString) {
+				itemNum++;
+			}
+		}
+		return itemNum+1;
+	
 	}
 };
 

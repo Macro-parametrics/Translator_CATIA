@@ -2,8 +2,10 @@ Language="VBSCRIPT"
 
 Sub CATMain()
 
+Dim documents1 As Documents
+Set documents1 = CATIA.Documents
 Dim productDocument1 As Document
-Set productDocument1 = CATIA.ActiveDocument
+Set productDocument1 = documents1.Add("Product")
 
 Dim product1 As Product
 Set product1 = productDocument1.Product

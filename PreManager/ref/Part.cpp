@@ -43,7 +43,7 @@ namespace Pre {
 		_partDocNum = _spDocuments->GetCount();
 
 		_bstr_t obj(_fileName.c_str());
-		_spPart->set_Name(obj);
+		_spPart->Name = obj;
 
 		fin.open(_filePath, ios::in);		// 해당 경로의 CATIA 매크로 파일 읽기
 	}
@@ -91,7 +91,7 @@ namespace Pre {
 		//_partDocNum = _spDocuments->GetCount();
 
 		_bstr_t obj(_fileName.c_str());
-		_spPart->set_Name(obj);
+		_spPart->Name = obj;
 
 		fin.open(_filePath, ios::in);		// 해당 경로의 CATIA 매크로 파일 읽기
 

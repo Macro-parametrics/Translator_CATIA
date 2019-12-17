@@ -303,6 +303,11 @@ namespace Post {
 		EN_E e;
 		Parsing_E(strPersistentName, e);
 
+
+		
+
+
+
 		TransCAD::FeatureType type;
 		int id;
 		char buf[1024];

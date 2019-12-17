@@ -18,9 +18,9 @@ namespace ReferenceClass
 		Post::CATIAReferenceManager	*m_pReferenceManager;
 
 	private:
-		int GetPartNum_From_PartName(TransCAD::ICompPtr u_spComp, string PartName);
+		int GetPartNum_From_PartName(TransCAD::IComponentPtr u_spComp, string PartName, int _index);
 		int GetProductNum_From_SubAssemName(TransCAD::IAssemPtr u_spAssem, string SubAssemName);
-		string T2C_ReferenceName_From_Part(TransCAD::ICompPtr u_spComp, int partNum, string persistentName);
+		string T2C_ReferenceName_From_Part(TransCAD::IComponentPtr u_spComp, int partNum, string persistentName);
 		string T2C_ReferenceName_From_Assembly(TransCAD::IAssemPtr u_spAssem, int constype, string Pack, string PartName, string assembly_persistentName);
 		String^ GetConstType(int type);
 	public:
@@ -30,6 +30,21 @@ namespace ReferenceClass
 		refCommand ConvertRefPost(refCommand w);
 		void AssemblyPartT2C(int CompNum, int PartNum, String^ path);
 		static void ref_Post::ExportPart(String^ path);
+		PreStack _tstack;
+
+		int Set_stack_info(PreStack^ _stack) {
+			_tstack.Clear();
+			if (_stack->GetSize() < 1)return 0;
+
+			for (int i = 0; i < _stack->GetSize(); i++) {
+			
+				_tstack.StackItem(_stack->Getitem_from_index(0,i), _stack->Getitem_from_index(1, i), _stack->Getitem_from_index(2, i));
+			}
+			return 1;
+			
+		}
+
+
 	};
 
 

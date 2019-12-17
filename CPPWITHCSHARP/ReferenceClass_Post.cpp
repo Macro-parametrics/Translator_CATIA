@@ -110,8 +110,8 @@ namespace ReferenceClass
 
 		_spAssemDocument = g_spApplication->ActiveDocument;				      ///Get Activated Assembly document(TransCAD)
 		_spAssem = _spAssemDocument->GetAssem();							  ///Get Assem Object (TransCAD)
-		TransCAD::ICompPtr _spComp = _spAssem->GetComponent(CompNum);		  ///Get Components from Assem (TransCAD)
-		TransCAD::IPartPtr part = _spComp->GetPart(PartNum);				  ///Get Part from Components by partnumber (TransCAD)
+		TransCAD::IComponentPtr _spComp = _spAssem->GetComponent(CompNum);		  ///Get Components from Assem (TransCAD)
+		TransCAD::IPartPtr part = _spComp->Part[PartNum];				  ///Get Part from Components by partnumber (TransCAD)
 
 
 
@@ -167,24 +167,25 @@ namespace ReferenceClass
 
 	/**********************************              Private Function             ***********************************************/
 	//하나의 Component를 받아와서 Part이름에 따라 그 Component의 몇번째 Part인지 번호를 리턴  //다시 만들어야됨 Assem을 받아와서 몇번째 Component인지에 따라 PartNum이 +되야되는 값이 있다//현재는 그냥 하나의 컴퍼넌트 안에서 몇번째 파트인지만 리턴한다//전체 파트에서 몇번 째 파트인지는 리턴하지 않는다
-	int ref_Post::GetPartNum_From_PartName(TransCAD::ICompPtr u_spComp, string PartName) {
+	int ref_Post::GetPartNum_From_PartName(TransCAD::IComponentPtr u_spComp, string PartName,int _index) {
 
 		int partNum = 0;
-
-		int partCnt = u_spComp->GetSize();
+		int index = _index;	//TransCAD 이름이 다르다면 1이되면 되고 TransCAD 이름이 같다면 index를 바꿔줘야함
+		int partCnt = u_spComp->PartCount;
 		
-		for (int i = 0; i < partCnt; ++i) {
+		for (int i = 1; i < partCnt; ++i) {
 			string partName;
 			TransCAD::IPartPtr part = u_spComp->GetPart(i);
 			if ((string)(part->Name) == PartName) {
 				partNum = i;
-				break;
+				if(--index==0)break;
 			}
 		}
-		return partNum;
+		return partNum-1; //기본평면을 제외해야하므로 -1을 해줌 
 
 
 	}
+
 
 	//하나의 Assem을 받아와서 SubAssembly이름을 통하여 몇번째 CATIA의 Product에 해당하는지 알아냄
 	int ref_Post::GetProductNum_From_SubAssemName(TransCAD::IAssemPtr u_spAssem, string SubAssemName)
@@ -192,17 +193,19 @@ namespace ReferenceClass
 
 		int SuAssemNum = 0;
 
-		int assemCnt = u_spAssem->GetSize();
+		int assemCnt = u_spAssem->ComponentCount;
 		//string a = (string)u_spComp->get_Name();
 		for (int i = 0; i < assemCnt; ++i) {
 			string partName;
-			TransCAD::ICompPtr subassem = u_spAssem->GetComponent(i); //cout << "Name of part [" << i << "] in component1" << part->Name << endl;
-			if ((string)(subassem->get_Name()) == SubAssemName) {
+			TransCAD::IComponentPtr subassem = u_spAssem->GetComponent(i); //cout << "Name of part [" << i << "] in component1" << part->Name << endl;
+			                                                               //TransCAD 7.0 using : u_spAssem->Component[i]
+			if ((string)(subassem->GetName()) == SubAssemName) {
 				SuAssemNum = i;
 				break;
 			}
 		}
-		return SuAssemNum;
+		return SuAssemNum + 1; //TransCAD 는 SubAssem이 0부터 시작하지만 TransCAD는 Product 번호가 1부터 시작
+		                       //즉 몇번째 SubAssem인지를 return하는 것
 
 
 		return 0;
@@ -217,14 +220,14 @@ namespace ReferenceClass
 		case 1:
 			return "catCstTypeSurfContact";
 			break;
-	/*	case 2:
+		case 2:
 			return "catCstTypeAngle";
 			break;
 		case 3:
 			return "catCstTypeDistance";
 			break;
 	
-	*/
+	
 		default:
 			return "ANY";
 			break;
@@ -236,7 +239,7 @@ namespace ReferenceClass
 	}
 
 	//Part 정보를 통해서 TransCAD ReferenceName을 CATIA ReferenceName으로 변환
-	string ref_Post::T2C_ReferenceName_From_Part(TransCAD::ICompPtr u_spComp, int partNum, string part_persistentName) {
+	string ref_Post::T2C_ReferenceName_From_Part(TransCAD::IComponentPtr u_spComp, int partNum, string part_persistentName) {
 
 		string partName;
 
@@ -268,12 +271,15 @@ namespace ReferenceClass
 		int SubAssemNum = GetProductNum_From_SubAssemName(u_spAssem, refer_product);      //Product Number 가져오기
 		refer_product = "Product" + to_string(SubAssemNum);								  //Product1 변환        C#::refer_product = refer_product.Substring(11);refer_product = "Product" + refer_product;
 
-		TransCAD::ICompPtr u_spComp = u_spAssem->GetComponent(SubAssemNum);
-		int partNum = GetPartNum_From_PartName(u_spComp, PartName);						  //PartNum 가져오기
-		string refer_Part = "Part1." + to_string(partNum + 1);							  //Part1.1(Part이름.똑같은Part이름우선순위)          C#::string refer_Part = "Part1." + (partNum + 1).ToString();
+		TransCAD::IComponentPtr u_spComp = u_spAssem->GetComponent(SubAssemNum - 1 );
+		                                     //TransCAD 7.0 using : u_spAssem->Component[i]
+		                                     //SubAssemNum = 1 이라면 index = 0
+		int partNum = GetPartNum_From_PartName(u_spComp, PartName,1);					  //PartNum in transCAD 가져오기
+		string refer_Part = Stos(_tstack.Getitem_from_index(1, partNum)) +'.' +to_string(_tstack.HowManySameItems(1,partNum));	      //Part1.1(Part이름.똑같은Part이름우선순위)          C#::string refer_Part = "Part1." + (partNum + 1).ToString();
 		string refer_pack = Pack;                                                         //Axis:(           C#::string refer_coaxial = "Axis" + ":(";
 		string refer_from_part = temp.substr(temp.find(",", temp.find(",") + 1) + 1);     //Cut1,Sketch2,Circle1,0,0,0,ExtrudeFeature:0,0:0:0  C#::string refer_from_part = refer.Substring(refer.IndexOf(",") + 1);refer_from_part = refer_from_part.Substring(refer_from_part.IndexOf(",") + 1);refer_from_part = m_refer.EX(m_param);
-		refer_from_part = T2C_ReferenceName_From_Part(u_spComp, partNum, refer_from_part);
+		refer_from_part = T2C_ReferenceName_From_Part(u_spComp, partNum + 1, refer_from_part);
+		                                     //기본 평면 포함해서 PartNum 을 +1 해줘야함
 
 
 		string result = "\"" + refer_product + "/" + refer_Part + "/!" + refer_pack + refer_from_part + ")\"";

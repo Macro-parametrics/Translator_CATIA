@@ -67,7 +67,7 @@ namespace Pre {
 		CATIAPreStartService();
 		TransCAD::IAssemDocumentPtr _spAssemDocument;
 		TransCAD::IAssemPtr _spAssem;
-		TransCAD::ICompPtr _spComp;
+		TransCAD::IComponentPtr _spComp;
 		TransCAD::IPartDocumentPtr	_spDocument;
 		TransCAD::IPartPtr			_spPart;
 
@@ -80,12 +80,12 @@ namespace Pre {
 			_spDocument = g_spApplication->GetDocuments()->GetItem(partDocNum[i - 1]);
 			_spPart = _spDocument->Part;
 			_spComp = _spAssem->CreateComponent();
-			_spComp->set_Name(_spPart->GetName());
+			_spComp->Name = _spPart->GetName();
 			_spComp->AddPart(_spPart);
 
 			for (int j = 0; j < 12; ++j)
 			{
-				_spComp->SetPlacement(partCoords[i - 1][9], partCoords[i - 1][10], partCoords[i - 1][11],
+				_spComp->SetPartPlacement(_spPart, partCoords[i - 1][9], partCoords[i - 1][10], partCoords[i - 1][11],
 					partCoords[i - 1][6], partCoords[i - 1][7], partCoords[i - 1][8],
 					partCoords[i - 1][0], partCoords[i - 1][1], partCoords[i - 1][2]);
 			}

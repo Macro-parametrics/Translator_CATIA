@@ -28,10 +28,10 @@ namespace CATIATranslator
 
         #region TransCAD 변수
         public TransCAD.Application tApp = null;
-        public TransCAD.Documents tDocs = null;
-        public TransCAD.IAssemDocument tAssemDoc = null;
+        public TransCAD.Docs tDocs = null;
+        public TransCAD.AssemDocument tAssemDoc = null;
         public TransCAD.Assem tAssem = null;
-        public TransCAD.IComp tComp = null;
+        //public TransCAD.IComp tComp = null; //Removed TransCAD 7.0
         public TransCAD.PartDocument tPartDoc = null;
         public TransCAD.Part tPart = null;
         public TransCAD.Features tFeatures = null;
@@ -383,7 +383,7 @@ namespace CATIATranslator
 
             }else
             {
-                tFeatures = tAssemDoc.Assem.GetComponent(1).GetPart(partNum).Features;
+                tFeatures = tAssemDoc.Assem.Component[0].Part[partNum+1].Features;
 
                 for (int i = 1; i < tFeatures.Count; i++)
                 {

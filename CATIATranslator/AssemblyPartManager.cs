@@ -53,9 +53,9 @@ namespace CATIATranslator
             if (AssemblyManager.tAssemDoc == null) { this.label1.Text = "NULL"; return; }
             _tAssem = AssemblyManager.tAssemDoc.Assem;
 
-            TransCAD.Component comp = _tAssem.GetComponent(1);
+            TransCAD.Component comp = _tAssem.Component[0];
                 //Part들을 넣을 path 및 폴더 생성
-                path = path + "\\" +comp.get_Name();
+                path = path + "\\" +comp.Name;
                 if (!System.IO.Directory.Exists(path)){System.IO.Directory.CreateDirectory(path);}
 
             TransCAD.Part parts;
@@ -64,9 +64,9 @@ namespace CATIATranslator
             ListViewItem lvi;
             ListViewItem.ListViewSubItem lvsi;
 
-            for (int i = 0; i < comp.GetSize(); i++) {
+            for (int i = 1; i < comp.PartCount; i++) {
 
-                parts = comp.GetPart(i);
+                parts = comp.Part[i];
 
                 lvi = new ListViewItem();
                 lvi.Text = parts.Name;
@@ -179,8 +179,8 @@ namespace CATIATranslator
                 if (this.listView1.Items[i].Checked == false) {
                     //Part 변환 하기~
                     string curr_filepath = path + "\\" + this.listView1.Items[i].Text + ".CATPart";
-                    TransCAD.Component comp = _tAssem.GetComponent(1);
-                    TransCAD.Part parts = comp.GetPart(i);
+                    TransCAD.Component comp = _tAssem.Component[0];
+                    TransCAD.Part parts = comp.Part[i+1];
                     
                     AssemblyManager.TranslatePartsT2C(curr_filepath,i, parts);
                 }
@@ -202,7 +202,7 @@ namespace CATIATranslator
                 {
                     //Part 변환 하기~
                     string curr_filepath = path + "\\" + this.listView1.Items[i].Text + ".CATScript";
-                    AssemblyManager.TranslatePartsT2C_Script(1, i, curr_filepath);//CompNum,PartNum,filePath : 몇번째 Comp의 몇번째 Part를 filePath에 .CATScript로 변환해서 넣겠다.
+                    AssemblyManager.TranslatePartsT2C_Script(0, i+1, curr_filepath);//CompNum,PartNum,filePath : 몇번째 Comp의 몇번째 Part를 filePath에 .CATScript로 변환해서 넣겠다.
 
                 }
 

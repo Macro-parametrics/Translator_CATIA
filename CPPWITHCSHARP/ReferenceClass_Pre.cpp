@@ -112,7 +112,7 @@ namespace ReferenceClass
 
 		TransCAD::IAssemDocumentPtr _spAssemDocument;
 		TransCAD::IAssemPtr _spAssem;
-		TransCAD::ICompPtr _spComp;
+		TransCAD::IComponentPtr _spComp;
 		TransCAD::IPartDocumentPtr _spPartDocument;
 
 
@@ -130,7 +130,7 @@ namespace ReferenceClass
 			_spPartDocument = Pre::g_spApplication->GetDocuments()->AddPartDocument();
 			Pre::Part *pConstrained = new Pre::Part(pPath, _spPartDocument);
 			_bstr_t obj(Stos(buffer->Getitem_from_index(2, i)).c_str());
-			pConstrained->_spPart->set_Name(obj);
+			pConstrained->_spPart->Name = obj;
 			pConstrained->GetInfo();
 			pConstrained->ToTransCAD();
 
@@ -141,13 +141,16 @@ namespace ReferenceClass
 		//어셈블리 다큐먼트 생성 및 파트 파일 추가
 		_spAssemDocument = Pre::g_spApplication->GetDocuments()->AddAssemDocument();
 		_spAssemDocument = Pre::g_spApplication->ActiveDocument;
+		
 		_spAssem = _spAssemDocument->GetAssem();
+		
 		_spComp = _spAssem->CreateComponent();//SubAssembly1
-		_spComp->set_Name("Component1");
+		_spComp->Name = "Component1";
 
 		for (int i = 0; i < part_size; i++) {
 			_spComp->AddPart(_tPart[i]);
 		}
+
 		_spAssem->AddComponent(_spComp);
 		_spAssemDocument->Update();
 
@@ -205,7 +208,7 @@ namespace ReferenceClass
 
 
 
-		TransCAD::ICompPtr _IspComp;
+		TransCAD::IComponentPtr _IspComp;
 		TransCAD::IPartPtr TargetPart[(int)TARGETPART::REFERENCE_SIZE]; //MASTER,SLAVE
 		int index[(int)TARGETPART::REFERENCE_SIZE];
 		string trans_ref[(int)TARGETPART::REFERENCE_SIZE];
@@ -223,7 +226,7 @@ namespace ReferenceClass
 
 			//transcad name 을 통해 TransCAD Part 인스턴스를 가져옴
 			_IspComp = (*_spAssem)->GetComponent(pre_data->product_num);
-			for (int i = 0; i < _IspComp->GetSize(); i++) {
+			for (int i = 1; i < _IspComp->PartCount; i++) {
 				if ((string)(_IspComp->GetPart(i)->Name) == pre_data->Transcad_partName) {
 					TargetPart[cn] = _IspComp->GetPart(i);
 					break;
@@ -241,8 +244,7 @@ namespace ReferenceClass
 
 #pragma region Step3 : TransCAD에 Constraint 적용
 		//Constraints관리자를 가져오고, //각 Contratint의 Master/Slave Part의 Reference Name을 저장할 ReferencePtr을 생성 
-		TransCAD::IStdAssemConstraintsPtr _spConstraints;
-		_spConstraints = (*_spAssem)->GetConstraints();//Constraint 관리자
+        //*_spAssem = Constraint 관리자
 
 		TransCAD::IReferencePtr _spConstrainedGeometry, _spReferGeometry;
 
@@ -262,7 +264,7 @@ namespace ReferenceClass
 		cout << fjeiakso << endl;
 		fjeiakso = trans_ref[(int)TARGETPART::SLAVE];
 		cout << fjeiakso << endl;
-		string param = Constraint_to_TransCAD(_spConstraints, CstType, TargetPart[(int)TARGETPART::MASTER], _spConstrainedGeometry, TargetPart[(int)TARGETPART::SLAVE], _spReferGeometry, Stos(_option), _option_int);
+		string param = Constraint_to_TransCAD(*_spAssem, CstType, TargetPart[(int)TARGETPART::MASTER], _spConstrainedGeometry, TargetPart[(int)TARGETPART::SLAVE], _spReferGeometry, Stos(_option), _option_int);
 
 
 		(*_spAssemDocument)->Update();
@@ -309,7 +311,7 @@ namespace ReferenceClass
 
 	int ref_Pre::GetTransCADName_from_buffer(PreStack^ buffer, string* Transcad_subAssemName, string* Transcad_partName, string* Transcad_geometry) {
 
-		TransCAD::ICompPtr _spComp;
+		TransCAD::IComponentPtr _spComp;
 		string product = pre_data->assem_product;
 		string part = pre_data->assem_part;//DM.1
 		string geo = pre_data->assem_geometry;
@@ -319,7 +321,7 @@ namespace ReferenceClass
 		//int comp_num = stoi(product.substr(product.find("t") + 1, product.size()));//Product 숫자 Parsing  >> product이름이 product로 시작할때만 사용 가능.
 		int comp_num = 1; //comp_num이 뭔지 모르겠다....
 		_spComp = (*_spAssem)->GetComponent(comp_num);
-		*Transcad_subAssemName = (string)_spComp->get_Name(); // Component1
+		*Transcad_subAssemName = (string)_spComp->GetName(); // Component1
 
 		//Step2-1 : Part1.1 을 통해서 Part1 과 Part1의 Number를 가져옴
 		int part_num = stoi(part.substr(part.find(".") + 1, part.size()));//1
@@ -360,10 +362,10 @@ namespace ReferenceClass
 		return buffer_index;
 	}
 
-	string ref_Pre::Constraint_to_TransCAD(TransCAD::IStdAssemConstraintsPtr f, string type, TransCAD::IPartPtr master, TransCAD::IReferencePtr master_ref, TransCAD::IPartPtr slave, TransCAD::IReferencePtr slave_ref, string option, int^ option_int) {
+	string ref_Pre::Constraint_to_TransCAD(TransCAD::IAssemPtr f, string type, TransCAD::IPartPtr master, TransCAD::IReferencePtr master_ref, TransCAD::IPartPtr slave, TransCAD::IReferencePtr slave_ref, string option, int^ option_int) {
 		string re;
 		if (option == "move") {
-			TransCAD::ICompPtr _lomp = (*_spAssem)->GetComponent(pre_data->product_num);
+			TransCAD::IComponentPtr _lomp = (*_spAssem)->GetComponent(pre_data->product_num);
 			_lomp->SetPartPlacement(master, 10, 100, 100, 0, 0, 1, 1, 0, 0);
 			(*_spAssemDocument)->Update();
 		}
@@ -376,12 +378,18 @@ namespace ReferenceClass
 
 		}
 		else if (type == "catCstTypeSurfContact") {
+			
+			//another options here
+			//TransCAD::StdAssemblyIncidenceType::Same
+			//TransCAD::StdAssemblyIncidenceType::Opposite
+
 			if (option == "same") {
-				f->AddNewAssemblyIncidenceConstraint("Incidence", master, master_ref, slave, slave_ref, TransCAD::StdAssemblyIncidenceType::Same);
+				f->AddNewAssemblyCoincidenceConstraint("Incidence", master, master_ref, slave, slave_ref);
+				
 			}
 			else {
 
-				f->AddNewAssemblyIncidenceConstraint("Incidence", master, master_ref, slave, slave_ref, TransCAD::StdAssemblyIncidenceType::Opposite);
+				f->AddNewAssemblyCoincidenceConstraint("Incidence", master, master_ref, slave, slave_ref);
 			}
 
 			re = "Incidence";

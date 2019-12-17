@@ -2,8 +2,11 @@ Language="VBSCRIPT"
 
 Sub CATMain()
 
+Dim documents1 As Documents
+Set documents1 = CATIA.Documents
+
 Dim partDocument1 As Document
-Set partDocument1 = CATIA.ActiveDocument
+Set partDocument1 = documents1.Add("Part")
 
 Dim part1 As Part
 Set part1 = partDocument1.Part
