@@ -14,10 +14,10 @@ namespace Post {
 
 	}
 
-	// ¸ğµç Sketch Entity(Point, Line µî)¸¦ ÀúÀå
+	// ëª¨ë“  Sketch Entity(Point, Line ë“±)ë¥¼ ì €ì¥
 	int CATIAReferenceManager::AddNewEntity(std::string strSketchName, std::string strTransCADName)
 	{
-		//¸¸¾à »õ·Î¿î ½ºÄÉÄ¡°¡ Ãß°¡µÇ´Â °æ¿ì _id ¸¦ ÃÊ±âÈ­
+		//ë§Œì•½ ìƒˆë¡œìš´ ìŠ¤ì¼€ì¹˜ê°€ ì¶”ê°€ë˜ëŠ” ê²½ìš° _id ë¥¼ ì´ˆê¸°í™”
 		int count = 0;
 		for (int i = 0; i < (int)_listEntityNameMap.size(); ++i)
 		{
@@ -41,7 +41,7 @@ namespace Post {
 		return _id;
 	}
 
-	// ¸ğµç Sketch, Feature, DatumPlane Á¤º¸¸¦ ÀúÀå
+	// ëª¨ë“  Sketch, Feature, DatumPlane ì •ë³´ë¥¼ ì €ì¥
 	int CATIAReferenceManager::AddNewFeature(TransCAD::IFeaturePtr spFeature)
 	{
 		std::string name = (std::string)spFeature->Name;
@@ -66,7 +66,7 @@ namespace Post {
 		return 1;
 	}
 
-	// EntityID·Î TransCADName °Ë»ö
+	// EntityIDë¡œ TransCADName ê²€ìƒ‰
 	int CATIAReferenceManager::GetTransCADNameByEntityID(std::string strSketchName, int id, std::string &strTransCADName)
 	{
 		for (int i = 0; i < (int)_listEntityNameMap.size(); ++i)
@@ -81,7 +81,7 @@ namespace Post {
 		return 0;
 	}
 
-	// TransCADNameÀ¸·Î EntityID °Ë»ö
+	// TransCADNameìœ¼ë¡œ EntityID ê²€ìƒ‰
 	int CATIAReferenceManager::GetEntityIDByTransCADName(std::string strSketchName, std::string strTransCADName, int &id)
 	{
 		for (int i = 0; i < (int)_listEntityNameMap.size(); ++i)
@@ -98,7 +98,7 @@ namespace Post {
 		return 0;
 	}
 
-	// TransCADNameÀ¸·Î FeatureID °Ë»ö
+	// TransCADNameìœ¼ë¡œ FeatureID ê²€ìƒ‰
 	int CATIAReferenceManager::GetFeatureIDByTransCADName(std::string strTransCADName, int &id)
 	{
 		for (int i = 0; i < (int)_listNameMap.size(); ++i)
@@ -113,7 +113,7 @@ namespace Post {
 		return 0;
 	}
 
-	// TransCADNameÀ¸·Î FeatureType °Ë»ö
+	// TransCADNameìœ¼ë¡œ FeatureType ê²€ìƒ‰
 	int CATIAReferenceManager::GetFeatureTypeByTransCADName(std::string strTransCADName, TransCAD::FeatureType &type)
 	{
 		for (int i = 0; i < (int)_listNameMap.size(); ++i)
@@ -128,7 +128,7 @@ namespace Post {
 		return 0;
 	}
 
-	// ¸ğµç PointÀÇ ÀÌ¸§ ÀúÀå. CATIA¿¡¼­ÀÇ ÀÌ¸§, TransCAD¿¡¼­ÀÇ ÀÌ¸§À» µ¿½Ã¿¡ ÀúÀå
+	// ëª¨ë“  Pointì˜ ì´ë¦„ ì €ì¥. CATIAì—ì„œì˜ ì´ë¦„, TransCADì—ì„œì˜ ì´ë¦„ì„ ë™ì‹œì— ì €ì¥
 	void CATIAReferenceManager::AddNewPointName(std::string strSketchName, std::string CATIApointName, std::string TransCADpointName)
 	{
 		POINTNAME_MAP map;
@@ -139,7 +139,7 @@ namespace Post {
 		_listPointNameMap.push_back(map);
 	}
 
-	// TransCAD¿¡¼­ÀÇ point ÀÌ¸§À¸·Î CATIA¿¡¼­ÀÇ point ÀÌ¸§ °Ë»ö
+	// TransCADì—ì„œì˜ point ì´ë¦„ìœ¼ë¡œ CATIAì—ì„œì˜ point ì´ë¦„ ê²€ìƒ‰
 	std::string CATIAReferenceManager::GetCatiaPointNameByTransCADPointName(std::string strSketchName, std::string TransCADpointName)
 	{
 		string CATIAPointName;
@@ -155,7 +155,7 @@ namespace Post {
 		return CATIAPointName;
 	}
 
-	// TransCADÀÇ FeatureTypeÀ» ÀÔ·Â¹Ş¾Æ CATIAÀÇ FeatureTypeÀ» stringÀ¸·Î ¸®ÅÏ
+	// TransCADì˜ FeatureTypeì„ ì…ë ¥ë°›ì•„ CATIAì˜ FeatureTypeì„ stringìœ¼ë¡œ ë¦¬í„´
 	std::string CATIAReferenceManager::FeatureTypeToString(TransCAD::FeatureType type)
 	{
 		switch (type)
@@ -177,7 +177,7 @@ namespace Post {
 		}
 	}
 
-	// TransCAD FaceÀÇ °íÀ¯ ¸íÄªÀ» ¹Ş¾Æ¼­ CATIA FaceÀÇ °íÀ¯ ¸íÄªÀ» Ãâ·Â
+	// TransCAD Faceì˜ ê³ ìœ  ëª…ì¹­ì„ ë°›ì•„ì„œ CATIA Faceì˜ ê³ ìœ  ëª…ì¹­ì„ ì¶œë ¥
 	std::string CATIAReferenceManager::ConvertToBRepFace(std::string strPersistentName)
 	{
 		EN_F f;
@@ -211,7 +211,7 @@ namespace Post {
 		return finalName;
 	}
 
-	// TransCAD FaceÀÇ °íÀ¯ ¸íÄªÀ» ¹Ş¾Æ¼­ CATIA FaceÀÇ °íÀ¯ ¸íÄªÀ» Ãâ·Â (HoleCounterbored¿Í HoleCountersunk Àü¿ë)
+	// TransCAD Faceì˜ ê³ ìœ  ëª…ì¹­ì„ ë°›ì•„ì„œ CATIA Faceì˜ ê³ ìœ  ëª…ì¹­ì„ ì¶œë ¥ (HoleCounterboredì™€ HoleCountersunk ì „ìš©)
 	std::string CATIAReferenceManager::ConvertToBRepFaceForHole(std::string strPersistentName)
 	{
 		EN_F f;
@@ -254,7 +254,7 @@ namespace Post {
 		return finalName;
 	}
 
-	// TransCAD FaceÀÇ °íÀ¯ ¸íÄªÀ» ¹Ş¾Æ¼­ CATIA FaceÀÇ °íÀ¯ ¸íÄªÀ» Ãâ·Â (DatumPlaneOffset Àü¿ë) 
+	// TransCAD Faceì˜ ê³ ìœ  ëª…ì¹­ì„ ë°›ì•„ì„œ CATIA Faceì˜ ê³ ìœ  ëª…ì¹­ì„ ì¶œë ¥ (DatumPlaneOffset ì „ìš©) 
 	std::string CATIAReferenceManager::ConvertToBRepFaceForDatumPlane(std::string strPersistentName)
 	{
 		EN_F f;
@@ -297,7 +297,7 @@ namespace Post {
 		return finalName;
 	}
 
-	// TransCAD EdgeÀÇ °íÀ¯ ¸íÄªÀ» ¹Ş¾Æ¼­ CATIA EdgeÀÇ °íÀ¯ ¸íÄªÀ» Ãâ·Â
+	// TransCAD Edgeì˜ ê³ ìœ  ëª…ì¹­ì„ ë°›ì•„ì„œ CATIA Edgeì˜ ê³ ìœ  ëª…ì¹­ì„ ì¶œë ¥
 	std::string CATIAReferenceManager::ConvertToBRepEdge(std::string strPersistentName)
 	{
 		EN_E e;
@@ -348,7 +348,7 @@ namespace Post {
 		return finalName;
 	}
 
-	// TransCADÀÇ FaceNameÀ» ÀÔ·Â¹Ş¾Æ¼­ CATIAÀÇ FaceNameÀ» Ãâ·ÂÇÏ´Â ÇÔ¼ö. SecondaryName ¿©ºÎ¸¦ Ã¼Å©ÇÑ´Ù.
+	// TransCADì˜ FaceNameì„ ì…ë ¥ë°›ì•„ì„œ CATIAì˜ FaceNameì„ ì¶œë ¥í•˜ëŠ” í•¨ìˆ˜. SecondaryName ì—¬ë¶€ë¥¼ ì²´í¬í•œë‹¤.
 	std::string CATIAReferenceManager::GetFaceNameOfCATIA(EN_F faceName)
 	{
 		std::string CATbasicName, CATsecondaryName;
@@ -366,10 +366,10 @@ namespace Post {
 		return CATbasicName;
 	}
 
-	// TransCADÀÇ BasicNameÀ» ÀÔ·Â¹Ş¾Æ¼­ CATIAÀÇ BasicNameÀ» Ãâ·ÂÇÏ´Â ÇÔ¼ö
+	// TransCADì˜ BasicNameì„ ì…ë ¥ë°›ì•„ì„œ CATIAì˜ BasicNameì„ ì¶œë ¥í•˜ëŠ” í•¨ìˆ˜
 	std::string CATIAReferenceManager::GetBasicNameOfCATIA(basic_naming basicName)
 	{
-		// ¸éÀÇ Å¸ÀÔ (-1: ½ºÄÉÄ¡ ¸é, -2: ½ºÄÉÄ¡ ¹İ´ë¸é, ±× ¿Ü´Â ¿·¸é)
+		// ë©´ì˜ íƒ€ì… (-1: ìŠ¤ì¼€ì¹˜ ë©´, -2: ìŠ¤ì¼€ì¹˜ ë°˜ëŒ€ë©´, ê·¸ ì™¸ëŠ” ì˜†ë©´)
 		int id2 = atoi(basicName.id2.c_str());
 
 		TransCAD::FeatureType type;
@@ -424,7 +424,7 @@ namespace Post {
 					+ entity_number1	// sketchEntity 
 					+ "))";
 			}
-			else //Sweep°ú °°ÀÌ Sketch°¡ 2°³ ÀÖ´Â °æ¿ì
+			else //Sweepê³¼ ê°™ì´ Sketchê°€ 2ê°œ ìˆëŠ” ê²½ìš°
 			{
 				CATIAbasicName = feature_name
 					+ ";0:(Brp:("
@@ -443,7 +443,7 @@ namespace Post {
 		return CATIAbasicName;
 	}
 
-	// referencee ÀÌ¸§À» ¹Ş¾Æ¼­ Feature ÀÌ¸§¸¸ ¸®ÅÏÇÏ´Â ÇÔ¼ö
+	// referencee ì´ë¦„ì„ ë°›ì•„ì„œ Feature ì´ë¦„ë§Œ ë¦¬í„´í•˜ëŠ” í•¨ìˆ˜
 	std::string CATIAReferenceManager::GetReferenceeFeature(std::string strPersistentName)
 	{
 		EN_F f;
@@ -469,13 +469,13 @@ namespace Post {
 		//COM initialize
 		int status = false;
 		HRESULT hr = CoInitialize(NULL);
-		//TransCAD instance »ı¼º
+		//TransCAD instance ìƒì„±
 		hr = g_spApplication.CreateInstance(__uuidof(TransCAD::Application));
 		//TransCAD initialize error check
 		if (FAILED(hr))status = 0;
-		//Assembly document »ı¼º
+		//Assembly document ìƒì„±
 		_spAssemDocument = g_spApplication->GetDocuments()->AddAssemDocument();
-		//Assem °´Ã¼ »ı¼º
+		//Assem ê°ì²´ ìƒì„±
 		_spAssem = _spAssemDocument->GetAssem();
 		//Get Parts
 		_spComp = _spAssem->GetComponent(1);
@@ -534,21 +534,118 @@ namespace Post {
 	
 	}
 
+	/*
+	
+	//Point-based EDGE name
+
+	std::string CATIAReferenceManager::ConvertToBRepEdge(std::string strPersistentName)
+	{
+		PBN_E e;
+		Parsing_PBN_E(strPersistentName, e);
+
+		TransCAD::FeatureType type;
+		int id;
+		char buf[1024];
+
+		//std::string feature_name(buf); Currently Hard Coded
+
+		std::string faceName1, faceName2, finalName;
+
+		std::string featureID1, featureID2;
+
+		featureID1 = e._p1.feature_id;
+		featureID2 = e._p2.feature_id;
+
+		GetLastFeatureType(featureID1, type); //issue here
+		GetLastFeatureID(featureID1, id);
+
+		if (FeatureTypeToString(type) == "Pad")
+			sprintf_s(buf, "%s%d", "pad", id);
+		else if (FeatureTypeToString(type) == "Rib")
+			sprintf_s(buf, "%s%d", "rib", id);
+		else if (FeatureTypeToString(type) == "Pocket")
+			sprintf_s(buf, "%s%d", "pocket", id);
+		else if (FeatureTypeToString(type) == "Shaft")
+			sprintf_s(buf, "%s%d", "shaft", id);
+		else if (FeatureTypeToString(type) == "Groove")
+			sprintf_s(buf, "%s%d", "groove", id);
+
+		std::string feature_name(buf);
+
+		const char * c1 = featureID1.c_str();
+		const char * c2 = featureID2.c_str();
+
+		int result = strcmp(c1, c2);
+
+	//	faceName1 = GetFaceNameOfCATIA_1(e._p1);
+	//	faceName2 = GetFaceNameOfCATIA_2(e._p2);
 
 
+	//	finalName = "REdge:(Edge:(Face:(Brp:("
+	//		+ faceName1
+	//		+ ");None:();Cf11:());Face:(Brp:("
+	//		+ faceName2
+	//		+ ");None:();Cf11:());None:(Limits1:();Limits2:());Cf11:());WithTemporaryBody;WithoutBuildError;WithSelectingFeatureSupport;MFBRepVersion_CXR14)\", "
+	//		+ feature_name;
 
-	//
-	//// Sketch ÀÌ¸§À» ÀÔ·ÂÇØ¼­ ±× Sketch ·¹ÆÛ·±½ºÀÇ ÀÌ¸§À» ¸®ÅÏ
-	//std::string CATIAReferenceManager::GetSketchRefBySketchName(std::string _skechName)
-	//{
-	//	std::string sketchRef;
-	//
-	//	for (int i = 0; i < (int)_listSketchInfo.size(); ++i) 
-	//	{
-	//		if(_listSketchInfo[i].sketch_name == _skechName)
-	//			sketchRef = _listSketchInfo[i].sketch_ref;
-	//	}
-	//
-	//	return sketchRef;
-	//}
+		// /*
+		if (result == 0) //same feature IDs
+		{
+			if (e._p1.feature_id.find("ad") || e._p1.feature_id.find("xtrude")) //same protrusions (to-be generalized later)
+			{
+
+				faceName1 = GetFaceNameOfCATIA_S1(e, e._p1, e._p2);
+				faceName2 = GetFaceNameOfCATIA_S2(e, e._p1, e._p2);
+
+
+				finalName = "REdge:(Edge:(Face:(Brp:("
+					+ faceName1
+					+ ");None:();Cf11:());Face:(Brp:("
+					+ faceName2
+					+ ");None:();Cf11:());None:(Limits1:();Limits2:());Cf11:());WithTemporaryBody;WithoutBuildError;WithSelectingFeatureSupport;MFBRepVersion_CXR14)\", "
+					+ feature_name;
+
+			}
+			else if (e._p1.feature_id.find("ut") || e._p1.feature_id.find("CUT")) //same cuts (to-be generalized later)
+			{
+				//later
+			}
+
+		}
+		else
+		{
+			
+		//	if ((e._p1.feature_id.find("ad") || e._p1.feature_id.find("xtrude")) && (e._p2.feature_id.find("ut") || e._p2.feature_id.find("CUT"))) //1 protrusion and 1 cut
+		//	{
+				//later
+		//	}
+		//	else //if (((e._p1.feature_id.find("ut") ) || (e._p1.feature_id.find("CUT") )) && ((e._p2.feature_id.find("ad") )|| (e._p2.feature_id.find("xtrude")))) //1 protrusion and 1 cut
+		//	{ 
+				std::string faceName3ab;
+
+				faceName1 = GetFaceNameOfCATIA_S1(e, e._p1, e._p2);
+				faceName2 = GetFaceNameOfCATIA_S2(e, e._p1, e._p2);
+				faceName3ab = GetFaceNameOfCATIA_S3(e, e._p1, e._p2);
+				//faceName3ab = ;
+
+				finalName = "TgtEdge:(GeneratedEdges;MfIE_R20GA;TgtPropagationFillet;FirstOperands:(Pad.1);SecondOperands:();InitEdges:(REdge:(Edge:(Face:(Brp:("
+					+ faceName1
+					+ ");None:();Cf11:());Face:(Brp:("
+					+ faceName2
+					+ ");None:();Cf11:());AtLeastOneNoSharedIncluded:(Limits1:(Brp:("
+					+ faceName3ab
+					+ "));Limits2:());Cf11:());WithTemporaryBody;WithoutBuildError;WithSelectingFeatureSupport;MFBRepVersion_CXR14)\", "
+					+ feature_name;
+
+			//}
+			//else //two different cuts/protrusions
+			//{
+				//next
+			//}
+		}
+
+
+		return finalName;
+	} */
+
 }

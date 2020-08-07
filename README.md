@@ -29,7 +29,7 @@
 + Youngki Kim
 + Hyebin Kim
 + ChihoNoh
-+ Mutahar
++ Mutahar mutaharsafdar@kaist.ac.kr
 
 ## Youtube Channel
 + iCAD official : https://www.youtube.com/channel/UCL2HVQN6XshEvYZbE202T_g
