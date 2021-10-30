@@ -18,8 +18,8 @@
 
 ## Dependency
 1. TransCAD 6.0 or higher but TransCAD7.0 doesn't support yet.
-	https://github.com/Macro-parametrics/TransCAD
-	Download link : https://www.dropbox.com/s/3rrcqhpub5a05as/RegBin.7z?dl=0
+	+ https://github.com/Macro-parametrics/TransCAD
+	+ Download link : https://www.dropbox.com/s/3rrcqhpub5a05as/RegBin.7z?dl=0
 2. CATIA V5 R21 (Other version may not be supported)
 3. VisualStudio 2017 (2015 also be tested.)
 
